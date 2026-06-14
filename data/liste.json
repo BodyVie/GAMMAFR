@@ -1,14 +1,1 @@
-[
-  { "id": 1, "title": "st_items_artefacts.xml", "description": "Descriptions et noms des artefacts. Noms propres conservés en VO." },
-  { "id": 2, "title": "st_items_ammo.xml", "description": "Munitions et calibres, audit d'intégrité du balisage %c et \\n." },
-  { "id": 3, "title": "st_items_weapons.xml", "description": "Noms et fiches des armes de base de l'Anomaly." },
-  { "id": 4, "title": "st_items_outfits.xml", "description": "Tenues, combinaisons et exosquelettes, avec stats traduites." },
-  { "id": 5, "title": "st_dialogs_trader.xml", "description": "Répliques des marchands et des techniciens, registre familier." },
-  { "id": 6, "title": "st_dynamic_news.xml", "description": "Dépêches radio dynamiques, correctif d'affichage des entrées nil." },
-  { "id": 7, "title": "st_mcm_*.xml", "description": "Ensemble des chaînes des menus Mod Configuration Menu." },
-  { "id": 8, "title": "st_dialogs_companion.xml", "description": "Dialogues des compagnons recrutables et ordres de groupe." },
-  { "id": 9, "title": "st_quests_*.xml", "description": "Intitulés et descriptifs des tâches principales et secondaires." },
-  { "id": 10, "title": "st_anomalies.xml", "description": "Noms et descriptions des anomalies de la Zone." },
-  { "id": 11, "title": "bas_st_attachments.xml", "description": "Accessoires d'armement de l'addon Boomsticks and Sharpsticks." },
-  { "id": 12, "title": "ui_st_inventory.xml", "description": "Libellés de l'inventaire, du HUD et des fenêtres de fabrication." }
-]
+[]
