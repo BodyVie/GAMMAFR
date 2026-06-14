@@ -708,3 +708,8 @@ a:hover { text-decoration: underline; }
 }
 .btn--icon:hover { color: var(--rust); border-color: var(--rust); }
 .btn--mini { padding: 4px 10px; font-size: 12px; }
+
+/* Admin — message « Worker requis » */
+.admin-note { color: var(--text); font-size: 14px; line-height: 1.55; margin: 0 0 10px; }
+.admin-steps { color: var(--dim); font-size: 13px; line-height: 1.6; margin: 0; padding-left: 20px; }
+.admin-steps li { margin-bottom: 6px; }
