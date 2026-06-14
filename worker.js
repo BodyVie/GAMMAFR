@@ -5,9 +5,10 @@
  * Le token GitHub et le mot de passe admin restent côté serveur (Secrets) et ne
  * transitent jamais vers le client.
  *
- * Endpoint :  POST /update
- * Payload  :  { "password": "...", "filename": "liste.json", "content": "..." }
- * Réponse  :  { "success": true }  ou  { "error": "..." }  (+ code HTTP)
+ * Endpoints :
+ *   POST /verify   { "password": "..." }                       → { success: true } | { error }
+ *   POST /update   { "password", "filename", "content" }        → { success: true } | { error }
+ * (/verify sert au login : il valide le mot de passe sans rien écrire.)
  *
  * Variables d'environnement (Cloudflare Secrets / Vars) :
  *   ADMIN_PASSWORD   (Secret)  mot de passe admin en clair (comparé en timing-safe)
@@ -43,8 +44,18 @@ export default {
     }
 
     const url = new URL(request.url);
-    if (request.method !== "POST" || url.pathname !== "/update") {
-      return json({ error: "Endpoint introuvable. Utilise POST /update." }, 404, origin);
+
+    if (request.method !== "POST") {
+      return json({ error: "Méthode non autorisée (POST attendu)." }, 405, origin);
+    }
+
+    // --- route /verify : login (vérifie le mot de passe, n'écrit rien) ---
+    if (url.pathname === "/verify") {
+      return handleVerify(request, env, origin);
+    }
+
+    if (url.pathname !== "/update") {
+      return json({ error: "Endpoint introuvable. Utilise POST /update ou /verify." }, 404, origin);
     }
 
     // --- garde-fou taille ---
@@ -111,6 +122,38 @@ export default {
     }
   }
 };
+
+/* ============================ Login (/verify) ============================ */
+/**
+ * Vérifie uniquement le mot de passe (même garde-fous que /update : limitation
+ * de débit par IP + comparaison à temps constant). N'écrit rien sur GitHub.
+ */
+async function handleVerify(request, env, origin) {
+  const len = Number(request.headers.get("content-length") || "0");
+  if (len > MAX_BODY) return json({ error: "Payload trop volumineux." }, 413, origin);
+
+  let body;
+  try { body = await request.json(); } catch (_) { return json({ error: "Corps JSON invalide." }, 400, origin); }
+  const password = typeof body.password === "string" ? body.password : "";
+
+  const ip = request.headers.get("CF-Connecting-IP") || "0.0.0.0";
+  const fails = await getFails(env, ip);
+  if (fails >= MAX_FAILS) return json({ error: "Trop de tentatives. Réessaie plus tard." }, 429, origin);
+
+  const expected = env.ADMIN_PASSWORD || "";
+  const ok = expected.length > 0 && (await timingSafeEqual(password, expected));
+  if (!ok) {
+    const n = await bumpFails(env, ip);
+    const remaining = Math.max(0, MAX_FAILS - n);
+    return json(
+      { error: "Mot de passe incorrect." + (remaining ? " Tentatives restantes : " + remaining + "." : "") },
+      401,
+      origin
+    );
+  }
+  await resetFails(env, ip);
+  return json({ success: true }, 200, origin);
+}
 
 /* ============================ GitHub ============================ */
 
