@@ -140,9 +140,9 @@
 
   // ---- modèle -------------------------------------------------------------
   var LEVELS = [
-    { id: "base",  label: "GAMMA base",  desc: "Uniquement la traduction de base, aucun patch." },
-    { id: "tweak", label: "GAMMA tweak", desc: "Base incluse + choix parmi les patchs Tweak." },
-    { id: "extra", label: "GAMMA extra", desc: "Base incluse + choix parmi les patchs Tweak et Extra." }
+    { id: "base",  label: "G.A.M.M.A. base",  desc: "Patch français pour G.A.M.M.A. uniquement." },
+    { id: "tweak", label: "G.A.M.M.A. tweak", desc: "Patch français pour G.A.M.M.A. base + Mods présents dans MO2" },
+    { id: "extra", label: "G.A.M.M.A. extra", desc: "Patch français pour G.A.M.M.A. + Mods présents dans MO2 + D'autre mods externe à G.A.M.M.A." }
   ];
 
   function tagSection(section) {
