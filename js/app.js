@@ -19,6 +19,10 @@
   var manifest = null;
   var conf = { level: null, selected: {}, step: 0 };
 
+  // session admin (en mémoire uniquement) + cache des données éditables
+  var admin = { pwd: "", unlocked: false };
+  var data = { liste: null, changelog: null };
+
   // ---- petits utilitaires ------------------------------------------------
   function el(tag, props, children) {
     var node = document.createElement(tag);
@@ -89,9 +93,9 @@
       p.classList.toggle("is-active", p.id === "panel-" + name);
     });
     if (name === "files" && !loaded.files) loadFiles();
-    if (name === "liste" && !loaded.liste) loadListe();
-    if (name === "changelog" && !loaded.changelog) loadChangelog();
-    if (name === "admin" && !loaded.admin) loadAdmin();
+    if (name === "liste") loadListe();
+    if (name === "changelog") loadChangelog();
+    if (name === "admin") loadAdmin();
   }
 
   /* =======================================================================
@@ -471,24 +475,28 @@
   }
 
   /* =======================================================================
-     ONGLET LISTE — liste numérotée + recherche temps réel
+     ONGLET LISTE — lecture filtrable + édition admin en place
      ======================================================================= */
   function loadListe() {
-    loaded.liste = true;
     var host = $("#listeHost");
+    if (data.liste !== null) { renderListe(); return; }
     fetchJSON("data/liste.json")
-      .then(function (entries) {
-        renderListe(Array.isArray(entries) ? entries : []);
-      })
+      .then(function (entries) { data.liste = Array.isArray(entries) ? entries : []; renderListe(); })
       .catch(function (e) {
         clear(host);
         host.appendChild(el("p", { class: "list-empty", text: "Impossible de charger la liste (" + e.message + ")." }));
       });
   }
 
-  function renderListe(entries) {
+  function renderListe() {
+    if (isAdmin()) renderListeEditor();
+    else renderListeReadonly();
+  }
+
+  function renderListeReadonly() {
     var host = $("#listeHost");
     clear(host);
+    var entries = data.liste || [];
 
     var input = el("input", { class: "input", type: "search", placeholder: "Filtrer par titre ou description\u2026", "aria-label": "Rechercher" });
     var icon = el("span", { class: "search__icon", text: "\u2315" });
@@ -517,33 +525,78 @@
       if (!shown) listBox.appendChild(el("div", { class: "list-empty", text: "Aucune entrée ne correspond." }));
       count.textContent = shown + " / " + entries.length + " entrée" + (entries.length > 1 ? "s" : "");
     }
-
     input.addEventListener("input", function () { paint(input.value); });
     paint("");
   }
 
+  function renderListeEditor() {
+    var host = $("#listeHost");
+    clear(host);
+    var draft = (data.liste || []).map(function (e) { return { title: e.title || "", description: e.description || "" }; });
+
+    host.appendChild(el("div", { class: "admin-bar" }, [
+      el("span", { class: "admin-bar__tag", text: "ADMIN" }),
+      el("span", { text: "Édition de la liste — n'oublie pas d'enregistrer." })
+    ]));
+
+    var rows = el("div", { class: "editrows" });
+    host.appendChild(rows);
+
+    function drawRows() {
+      clear(rows);
+      draft.forEach(function (entry, i) {
+        var title = el("input", { class: "input", type: "text", value: entry.title, placeholder: "Titre (ex. st_dialogs.xml)" });
+        title.addEventListener("input", function () { entry.title = title.value; });
+        var desc = el("input", { class: "input", type: "text", value: entry.description, placeholder: "Description (optionnel)" });
+        desc.addEventListener("input", function () { entry.description = desc.value; });
+        var del = el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer", text: "\u2715",
+          onClick: function () { draft.splice(i, 1); drawRows(); } });
+        rows.appendChild(el("div", { class: "editrow" }, [
+          el("span", { class: "editrow__num", text: pad(i + 1) }),
+          el("div", { class: "editrow__fields" }, [title, desc]),
+          del
+        ]));
+      });
+      if (!draft.length) rows.appendChild(el("p", { class: "list-empty", text: "Liste vide. Ajoute une entrée." }));
+    }
+    drawRows();
+
+    var add = el("button", { class: "btn btn--ghost", text: "+ Ajouter une entrée",
+      onClick: function () { draft.push({ title: "", description: "" }); drawRows(); } });
+    var save = el("button", { class: "btn btn--amber", text: "Enregistrer la liste" });
+    var status = el("span", { class: "editor__status" });
+    save.addEventListener("click", function () {
+      var clean = draft
+        .filter(function (e) { return (e.title || "").trim() !== ""; })
+        .map(function (e, i) { return { id: i + 1, title: e.title.trim(), description: (e.description || "").trim() }; });
+      saveData("liste.json", clean, status, save, function () { data.liste = clean; });
+    });
+    host.appendChild(el("div", { class: "editor__foot" }, [add, save, status]));
+  }
+
   /* =======================================================================
-     ONGLET CHANGELOG — versions décroissantes
+     ONGLET CHANGELOG — lecture (versions décroissantes) + édition admin
      ======================================================================= */
   function loadChangelog() {
-    loaded.changelog = true;
     var host = $("#logHost");
+    if (data.changelog !== null) { renderChangelog(); return; }
     fetchJSON("data/changelog.json")
-      .then(function (entries) {
-        var list = (Array.isArray(entries) ? entries.slice() : []).sort(function (a, b) {
-          return cmpVersion(b.version, a.version);
-        });
-        renderChangelog(list);
-      })
+      .then(function (entries) { data.changelog = Array.isArray(entries) ? entries : []; renderChangelog(); })
       .catch(function (e) {
         clear(host);
         host.appendChild(el("p", { class: "list-empty", text: "Impossible de charger le changelog (" + e.message + ")." }));
       });
   }
 
-  function renderChangelog(entries) {
+  function renderChangelog() {
+    if (isAdmin()) renderChangelogEditor();
+    else renderChangelogReadonly();
+  }
+
+  function renderChangelogReadonly() {
     var host = $("#logHost");
     clear(host);
+    var entries = (data.changelog || []).slice().sort(function (a, b) { return cmpVersion(b.version, a.version); });
     if (!entries.length) { host.appendChild(el("p", { class: "list-empty", text: "Aucune entrée." })); return; }
 
     var box = el("div", { class: "log" });
@@ -557,6 +610,76 @@
       box.appendChild(el("div", { class: "log-entry" }, [head, ul]));
     });
     host.appendChild(box);
+  }
+
+  function renderChangelogEditor() {
+    var host = $("#logHost");
+    clear(host);
+    var draft = (data.changelog || []).map(function (e) {
+      return { version: e.version || "", date: e.date || "", changes: (e.changes || []).slice() };
+    });
+
+    host.appendChild(el("div", { class: "admin-bar" }, [
+      el("span", { class: "admin-bar__tag", text: "ADMIN" }),
+      el("span", { text: "Édition du changelog — n'oublie pas d'enregistrer." })
+    ]));
+
+    var rows = el("div", { class: "editrows" });
+    host.appendChild(rows);
+
+    function drawRows() {
+      clear(rows);
+      draft.forEach(function (entry, i) {
+        var ver = el("input", { class: "input input--sm", type: "text", value: entry.version, placeholder: "Version (1.2.0)" });
+        ver.addEventListener("input", function () { entry.version = ver.value; });
+        var date = el("input", { class: "input input--sm", type: "text", value: entry.date, placeholder: "Date (2026-06-14)" });
+        date.addEventListener("input", function () { entry.date = date.value; });
+        var delV = el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer la version", text: "\u2715",
+          onClick: function () { draft.splice(i, 1); drawRows(); } });
+
+        var lines = el("div", { class: "editlines" });
+        (function (entry) {
+          function drawLines() {
+            clear(lines);
+            entry.changes.forEach(function (c, j) {
+              var line = el("input", { class: "input", type: "text", value: c, placeholder: "Modification\u2026" });
+              line.addEventListener("input", function () { entry.changes[j] = line.value; });
+              var delC = el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer la ligne", text: "\u2715",
+                onClick: function () { entry.changes.splice(j, 1); drawLines(); } });
+              lines.appendChild(el("div", { class: "editline" }, [line, delC]));
+            });
+            lines.appendChild(el("button", { class: "btn btn--ghost btn--mini", text: "+ ligne",
+              onClick: function () { entry.changes.push(""); drawLines(); } }));
+          }
+          drawLines();
+        })(entry);
+
+        rows.appendChild(el("div", { class: "editcard" }, [
+          el("div", { class: "editcard__head" }, [ver, date, delV]),
+          lines
+        ]));
+      });
+      if (!draft.length) rows.appendChild(el("p", { class: "list-empty", text: "Aucune version. Ajoutes-en une." }));
+    }
+    drawRows();
+
+    var add = el("button", { class: "btn btn--ghost", text: "+ Ajouter une version",
+      onClick: function () { draft.unshift({ version: "", date: "", changes: [""] }); drawRows(); } });
+    var save = el("button", { class: "btn btn--amber", text: "Enregistrer le changelog" });
+    var status = el("span", { class: "editor__status" });
+    save.addEventListener("click", function () {
+      var clean = draft
+        .filter(function (e) { return (e.version || "").trim() !== ""; })
+        .map(function (e) {
+          return {
+            version: e.version.trim(),
+            date: (e.date || "").trim(),
+            changes: e.changes.map(function (c) { return (c || "").trim(); }).filter(Boolean)
+          };
+        });
+      saveData("changelog.json", clean, status, save, function () { data.changelog = clean; });
+    });
+    host.appendChild(el("div", { class: "editor__foot" }, [add, save, status]));
   }
 
   function cmpVersion(a, b) {
@@ -622,87 +745,138 @@
   }
 
   /* =======================================================================
-     ONGLET ADMIN — éditeurs JSON → Cloudflare Worker
-     Aucun stockage : le mot de passe part avec chaque requête, point.
+     ONGLET ADMIN — déverrouillage + formulaires (config, lisez-moi)
+     Tout est masqué tant que le mot de passe n'est pas saisi puis déverrouillé.
+     Le mot de passe ne vit qu'en mémoire et part avec chaque enregistrement.
+     Liste et Changelog s'éditent directement dans leurs onglets.
      ======================================================================= */
-  var ADMIN_FILES = [
-    { key: "files", file: "files.json", label: "Lisez-moi (Files)" },
-    { key: "liste", file: "liste.json", label: "Liste" },
-    { key: "changelog", file: "changelog.json", label: "Changelog" },
-    { key: "config", file: "config.json", label: "Configuration" }
-  ];
+  function isAdmin() { return admin.unlocked && !!admin.pwd; }
 
-  function loadAdmin() {
-    loaded.admin = true;
-    var host = $("#adminEditors");
+  function loadAdmin() { renderAdmin(); }
+
+  function lockAdmin() { admin.unlocked = false; admin.pwd = ""; renderAdmin(); }
+
+  function renderAdmin() {
+    var host = $("#adminRoot");
+    if (!host) return;
     clear(host);
 
-    ADMIN_FILES.forEach(function (entry) {
-      var ta = el("textarea", { class: "textarea textarea--code", spellcheck: "false", "aria-label": entry.label });
-      var status = el("span", { class: "editor__status" });
-      var save = el("button", { class: "btn btn--amber", text: "Enregistrer" });
+    host.appendChild(el("div", { class: "admin-warn" }, [
+      el("span", { class: "admin-warn__tag", text: "PRIVÉ" }),
+      el("span", { text: "Le mot de passe n'est jamais stocké : il accompagne chaque enregistrement et part vers le Worker." })
+    ]));
 
-      // chargement de la version courante (toujours fraîche)
-      ta.value = "Chargement\u2026";
-      ta.disabled = true;
-      fetch("data/" + entry.file, { cache: "no-store" })
-        .then(function (r) { return r.text(); })
-        .then(function (txt) {
-          try { ta.value = JSON.stringify(JSON.parse(txt), null, 2); }
-          catch (e) { ta.value = txt; }
-          ta.disabled = false;
-        })
-        .catch(function () { ta.value = ""; ta.disabled = false; });
-
-      save.addEventListener("click", function () { saveEditor(entry, ta, status, save); });
-
-      host.appendChild(el("div", { class: "editor" }, [
-        el("div", { class: "editor__head" }, [
-          el("span", { class: "editor__name", text: entry.label }),
-          el("span", { class: "editor__path", text: "data/" + entry.file })
-        ]),
-        ta,
-        el("div", { class: "editor__foot" }, [save, status])
-      ]));
-    });
+    host.appendChild(isAdmin() ? renderAdminUnlocked() : renderAdminLock());
   }
 
-  function saveEditor(entry, ta, status, btn) {
-    setStatus(status, "work", "Validation\u2026");
+  function renderAdminLock() {
+    var wrap = el("div", {});
+    var card = el("div", { class: "card" });
+    var pwd = el("input", { class: "input", id: "adminPwd", type: "password", placeholder: "\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022", autocomplete: "off" });
+    var note = el("div", { class: "notice" });
 
-    // 1) validation JSON côté client (retour immédiat)
-    var parsed;
-    try { parsed = JSON.parse(ta.value); }
-    catch (e) { setStatus(status, "err", "JSON invalide : " + e.message); return; }
-
-    // 2) reformatage propre avant envoi
-    var content = JSON.stringify(parsed, null, 2) + "\n";
-    ta.value = content.replace(/\n$/, "");
-
-    var pwd = $("#adminPwd").value;
-    if (!pwd) { setStatus(status, "err", "Saisis le mot de passe admin."); return; }
-    if (!config.worker_url || config.worker_url.indexOf("VOTRE-SOUS-DOMAINE") !== -1) {
-      setStatus(status, "err", "worker_url non configuré dans data/config.json.");
-      return;
+    function tryUnlock() {
+      admin.pwd = pwd.value;
+      if (!admin.pwd) { showNotice(note, "err", "Saisis le mot de passe pour accéder à l'administration."); return; }
+      admin.unlocked = true;
+      renderAdmin();
     }
+    pwd.addEventListener("keydown", function (ev) { if (ev.key === "Enter") { ev.preventDefault(); tryUnlock(); } });
 
-    btn.disabled = true;
+    card.appendChild(el("label", { class: "field", style: "margin-bottom:0" }, [
+      el("span", { class: "field__label", text: "Mot de passe admin" }), pwd
+    ]));
+    wrap.appendChild(card);
+    wrap.appendChild(el("div", { class: "admin-actions" }, [el("button", { class: "btn", text: "Déverrouiller", onClick: tryUnlock })]));
+    wrap.appendChild(note);
+    return wrap;
+  }
+
+  function renderAdminUnlocked() {
+    var wrap = el("div", {});
+
+    wrap.appendChild(el("div", { class: "admin-bar" }, [
+      el("span", { class: "admin-bar__tag", text: "CONNECTÉ" }),
+      el("span", { text: "Tu peux aussi modifier la Liste et le Changelog dans leurs onglets." }),
+      el("button", { class: "btn btn--ghost btn--mini", text: "Verrouiller", onClick: lockAdmin })
+    ]));
+
+    // ---- configuration du site ----
+    wrap.appendChild(el("div", { class: "stencil stencil--muted", text: "Configuration du site" }));
+    var cfgCard = el("div", { class: "card" });
+    var fields = [
+      { key: "site_title", label: "Titre du site" },
+      { key: "site_tagline", label: "Sous-titre" },
+      { key: "formspree_id", label: "ID Formspree" },
+      { key: "worker_url", label: "URL du Worker" },
+      { key: "patch_base", label: "Dossier des patchs" },
+      { key: "fra_path", label: "Chemin d'installation (fra)" },
+      { key: "mod_zip_name", label: "Nom de l'archive (.zip)" }
+    ];
+    var inputs = {};
+    fields.forEach(function (f) {
+      var inp = el("input", { class: "input", type: "text", value: config[f.key] != null ? config[f.key] : "" });
+      inputs[f.key] = inp;
+      cfgCard.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: f.label }), inp]));
+    });
+    var cfgStatus = el("span", { class: "editor__status" });
+    var cfgSave = el("button", { class: "btn btn--amber", text: "Enregistrer la configuration" });
+    cfgSave.addEventListener("click", function () {
+      var obj = {};
+      fields.forEach(function (f) { obj[f.key] = inputs[f.key].value.trim(); });
+      saveData("config.json", obj, cfgStatus, cfgSave, function () {
+        config = Object.assign(config, obj);
+        if (config.site_title) { document.title = config.site_title; $("#brandTitle").textContent = config.site_title; }
+        if (config.site_tagline) $("#brandTag").textContent = config.site_tagline;
+      });
+    });
+    cfgCard.appendChild(el("div", { class: "editor__foot" }, [cfgSave, cfgStatus]));
+    wrap.appendChild(cfgCard);
+
+    // ---- texte du lisez-moi (onglet Files) ----
+    wrap.appendChild(el("div", { class: "stencil stencil--muted", style: "margin-top:24px", text: "Texte du lisez-moi (onglet Files)" }));
+    var rmCard = el("div", { class: "card" });
+    var rm = el("textarea", { class: "textarea", rows: "8", placeholder: "Texte affiché en haut de l'onglet Files\u2026" });
+    rm.value = "Chargement\u2026"; rm.disabled = true;
+    fetch("data/files.json", { cache: "no-store" })
+      .then(function (r) { return r.ok ? r.json() : {}; })
+      .then(function (info) { rm.value = (info && info.readme) || ""; rm.disabled = false; })
+      .catch(function () { rm.value = ""; rm.disabled = false; });
+    var rmStatus = el("span", { class: "editor__status" });
+    var rmSave = el("button", { class: "btn btn--amber", text: "Enregistrer le lisez-moi" });
+    rmSave.addEventListener("click", function () { saveData("files.json", { readme: rm.value }, rmStatus, rmSave); });
+    rmCard.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Contenu" }), rm]));
+    rmCard.appendChild(el("div", { class: "editor__foot" }, [rmSave, rmStatus]));
+    wrap.appendChild(rmCard);
+
+    return wrap;
+  }
+
+  // ---- enregistrement générique vers le Worker ---------------------------
+  function saveData(filename, obj, status, btn, onSuccess) {
+    if (!isAdmin()) { setStatus(status, "err", "Session admin verrouillée."); return; }
+    if (!config.worker_url || config.worker_url.indexOf("VOTRE-SOUS-DOMAINE") !== -1) {
+      setStatus(status, "err", "worker_url non configuré dans data/config.json."); return;
+    }
+    var content = JSON.stringify(obj, null, 2) + "\n";
+    if (btn) btn.disabled = true;
     setStatus(status, "work", "Envoi vers le Worker\u2026");
 
     fetch(config.worker_url.replace(/\/$/, "") + "/update", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ password: pwd, filename: entry.file, content: content })
+      body: JSON.stringify({ password: admin.pwd, filename: filename, content: content })
     })
       .then(function (r) {
         return r.json().catch(function () { return { error: "Réponse illisible (HTTP " + r.status + ")" }; })
-          .then(function (data) { return { ok: r.ok, status: r.status, data: data }; });
+          .then(function (d) { return { ok: r.ok, status: r.status, data: d }; });
       })
       .then(function (res) {
         if (res.ok && res.data && res.data.success) {
-          setStatus(status, "ok", "Enregistré. Le site se mettra à jour sous peu (cache GitHub Pages).");
+          setStatus(status, "ok", "Enregistré. Le site se met à jour sous peu (cache GitHub Pages).");
+          if (typeof onSuccess === "function") onSuccess();
         } else if (res.status === 401) {
-          setStatus(status, "err", "Mot de passe refusé.");
+          setStatus(status, "err", "Mot de passe refusé. Verrouille puis ressaisis-le dans l'onglet Admin.");
         } else if (res.status === 429) {
           setStatus(status, "err", "Trop de tentatives. Réessaie dans quelques minutes.");
         } else {
@@ -710,7 +884,7 @@
         }
       })
       .catch(function () { setStatus(status, "err", "Worker injoignable. Vérifie l'URL et le déploiement."); })
-      .then(function () { btn.disabled = false; });
+      .then(function () { if (btn) btn.disabled = false; });
   }
 
   function setStatus(node, kind, text) {
