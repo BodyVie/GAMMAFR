@@ -1,0 +1,235 @@
+# GAMMA · Traduction FR — site + Cloudflare Worker
+
+Site statique (HTML/CSS/JS pur, zéro framework, zéro dépendance) hébergeable sur
+**GitHub Pages**, couplé à un **Cloudflare Worker** qui sert d'intermédiaire
+sécurisé pour mettre à jour les données depuis un panneau admin protégé par mot
+de passe. Le token GitHub et le mot de passe admin ne sont **jamais** exposés
+côté navigateur.
+
+```
+Navigateur (admin) ──► mot de passe + JSON
+        │
+        ▼
+Cloudflare Worker ──► vérifie le mot de passe (timing-safe), pousse vers GitHub
+        │
+        ▼
+Dépôt GitHub ──► fichiers JSON mis à jour ──► le site se rafraîchit
+```
+
+---
+
+## 1. Arborescence
+
+```
+gamma-fr/
+├── index.html            # page unique, 5 onglets
+├── css/
+│   └── style.css         # thème « PDA de la Zone »
+├── js/
+│   └── app.js            # logique (onglets, wizard, recherche, admin…)
+├── data/
+│   ├── files.json        # lisez-moi + wizard FOMOD
+│   ├── liste.json        # liste numérotée
+│   ├── changelog.json    # journal des versions
+│   └── config.json       # titre, ID Formspree, URL du Worker
+├── worker.js             # Cloudflare Worker (à déployer à part)
+└── README.md
+```
+
+Les onglets : **Files** (lisez-moi + configurateur FOMOD), **Liste** (liste
+filtrable), **Changelog**, **Contact** (Formspree), **Admin** (éditeurs JSON
+protégés).
+
+---
+
+## 2. Test en local
+
+Les `fetch()` des JSON nécessitent un serveur HTTP (ils ne fonctionnent pas en
+ouvrant le fichier via `file://`). Au choix :
+
+```bash
+cd gamma-fr
+python3 -m http.server 8000
+# puis ouvrir http://localhost:8000
+```
+
+L'onglet Admin ne fonctionnera vraiment qu'une fois le Worker déployé (étape 4),
+mais le reste du site est entièrement testable en local.
+
+---
+
+## 3. Déploiement sur GitHub Pages
+
+1. Crée un dépôt GitHub (ex. `gamma-fr`) et pousse-y le contenu du dossier
+   `gamma-fr/` (le fichier `worker.js` peut rester dans le dépôt, il ne gêne pas).
+2. Dépôt → **Settings → Pages**.
+3. **Source** : `Deploy from a branch`. **Branch** : `main`, dossier `/ (root)`.
+   Enregistre.
+4. Au bout d'une minute, le site est en ligne à l'une de ces adresses :
+   - dépôt nommé `USERNAME.github.io` → `https://USERNAME.github.io`
+   - dépôt « projet » (autre nom) → `https://USERNAME.github.io/gamma-fr/`
+
+> Retiens cette URL : son **origine** servira à configurer le CORS du Worker
+> (étape 4). L'origine est uniquement le schéma + domaine, **sans le chemin** :
+> `https://USERNAME.github.io` (même pour un dépôt projet).
+
+---
+
+## 4. Déploiement du Cloudflare Worker
+
+### 4.1. Créer le token GitHub
+
+Le Worker a besoin d'un jeton pour écrire dans le dépôt.
+
+- **Recommandé — fine-grained token** : GitHub → *Settings → Developer settings →
+  Personal access tokens → Fine-grained tokens*. Limité au seul dépôt
+  `gamma-fr`, permission **Contents : Read and write**.
+- **Classique** : un token avec le scope **`repo`**.
+
+Copie le token, tu ne le reverras plus.
+
+### 4.2. Déployer le Worker
+
+**Option A — Tableau de bord Cloudflare**
+
+1. Cloudflare → **Workers & Pages → Create → Create Worker**. Nomme-le
+   (ex. `gamma-fr-update`) et déploie un Worker vide.
+2. **Edit code** : colle le contenu de `worker.js`, puis **Deploy**.
+3. Note l'URL publique du Worker, du type
+   `https://gamma-fr-update.TON-SOUS-DOMAINE.workers.dev`.
+
+**Option B — Wrangler (CLI)**
+
+```bash
+npm install -g wrangler
+wrangler login
+# place worker.js dans un dossier, ajoute un wrangler.toml minimal :
+#   name = "gamma-fr-update"
+#   main = "worker.js"
+#   compatibility_date = "2024-01-01"
+wrangler deploy
+```
+
+### 4.3. Configurer les variables (Secrets & Vars)
+
+Dans le Worker → **Settings → Variables and Secrets** :
+
+| Nom              | Type            | Valeur                                            |
+|------------------|-----------------|---------------------------------------------------|
+| `ADMIN_PASSWORD` | **Secret**      | le mot de passe admin de ton choix                |
+| `GITHUB_TOKEN`   | **Secret**      | le token créé en 4.1                              |
+| `GITHUB_OWNER`   | Variable        | ton nom d'utilisateur GitHub                      |
+| `GITHUB_REPO`    | Variable        | `gamma-fr`                                        |
+| `ALLOWED_ORIGIN` | Variable        | `https://USERNAME.github.io` (origine, sans chemin)|
+| `GITHUB_BRANCH`  | Variable (opt.) | `main` (défaut si absent)                         |
+| `DATA_DIR`       | Variable (opt.) | `data` (défaut si absent)                         |
+
+En CLI : `wrangler secret put ADMIN_PASSWORD` (idem `GITHUB_TOKEN`), les
+variables non secrètes vont dans `wrangler.toml` sous `[vars]`.
+
+### 4.4. (Optionnel mais conseillé) Limitation de débit robuste via KV
+
+Le Worker bloque une IP après **5 échecs** de mot de passe pendant 15 min. Sans
+KV, il utilise un compteur en mémoire (suffisant, mais non partagé entre les
+instances Cloudflare). Pour une limitation fiable :
+
+1. Workers & Pages → **KV** → *Create namespace* (ex. `gamma_fr_ratelimit`).
+2. Worker → **Settings → Bindings → Add → KV namespace**. Variable name :
+   `RATE_LIMIT`, namespace : celui créé.
+
+Le Worker détecte automatiquement le binding `RATE_LIMIT` et l'utilise.
+
+### 4.5. Brancher le site sur le Worker
+
+Édite `data/config.json` et renseigne `worker_url` avec l'URL du Worker (sans
+`/update`, le site l'ajoute) :
+
+```json
+{
+  "site_title": "GAMMAFR",
+  "site_tagline": "Localisation française du modpack S.T.A.L.K.E.R. G.A.M.M.A.",
+  "formspree_id": "xxxxxxxx",
+  "worker_url": "https://gamma-fr-update.TON-SOUS-DOMAINE.workers.dev"
+}
+```
+
+Pousse la modification : le panneau admin est opérationnel.
+
+---
+
+## 5. Configuration Formspree (onglet Contact)
+
+1. Crée un compte sur [formspree.io](https://formspree.io) et un nouveau
+   formulaire.
+2. Récupère son identifiant : dans l'URL `https://formspree.io/f/abcdwxyz`,
+   l'ID est `abcdwxyz`.
+3. Renseigne-le dans `data/config.json` → `formspree_id`.
+
+Le formulaire envoie en arrière-plan (`fetch`) vers Formspree et affiche une
+confirmation. Aucun backend à héberger. À la première soumission, Formspree peut
+demander une validation par email du compte.
+
+---
+
+## 6. Modifier les données via l'admin
+
+1. Ouvre le site, onglet **Admin** (volontairement discret, à droite de la nav).
+2. Saisis le mot de passe (`ADMIN_PASSWORD`). Il n'est **jamais** mémorisé : il
+   est renvoyé au Worker à chaque enregistrement, sans session, cookie ni
+   `localStorage`.
+3. Chaque éditeur charge la version actuelle du fichier. Modifie le JSON.
+4. **Enregistrer** : le JSON est d'abord validé côté navigateur (erreur immédiate
+   si invalide), puis envoyé au Worker, qui le repousse dans le dépôt.
+5. GitHub Pages se reconstruit en ~1 min. Le cache du navigateur/CDN peut
+   retarder un peu l'affichage public ; un rechargement forcé (Ctrl+Maj+R) aide.
+
+**Format des fichiers** (modèles déjà fournis dans `data/`) :
+
+- `files.json` : `readme` (texte, `\n` = saut de ligne) + `steps[]`. Chaque
+  étape a un `type` `single` (un seul choix) ou `multi` (cases indépendantes),
+  et des `options[]` avec `label`, `description`, `links[]` (`label` + `url`).
+  L'étape de récapitulatif est générée automatiquement.
+- `liste.json` : tableau d'objets `{ id, title, description }`.
+- `changelog.json` : tableau `{ version, date, changes[] }`, affiché par version
+  décroissante.
+- `config.json` : `site_title`, `site_tagline`, `formspree_id`, `worker_url`.
+
+> Astuce : le Worker n'accepte d'écrire que ces quatre fichiers et refuse tout
+> JSON malformé — un mauvais collage ne peut pas casser le dépôt.
+
+---
+
+## 7. Sécurité — pourquoi le token ne fuit pas
+
+- **Le token GitHub ne touche jamais le navigateur.** Il vit dans les *Secrets*
+  Cloudflare, côté serveur. Le navigateur n'envoie que `{ password, filename,
+  content }` au Worker ; c'est le Worker, et lui seul, qui détient le token et
+  appelle l'API GitHub. Inspecter le code du site ou le trafic réseau ne révèle
+  aucun secret.
+- **Mot de passe comparé à temps constant.** Le Worker ne fait pas `===` sur le
+  mot de passe. Il signe les deux valeurs par HMAC-SHA256 avec une clé aléatoire
+  éphémère, puis compare les deux empreintes (32 octets, longueur fixe) octet
+  par octet sans court-circuit. La durée de la comparaison ne dépend ni du
+  contenu ni de la longueur → pas de fuite par *timing attack*.
+- **Aucune persistance côté admin.** Pas de `localStorage`, pas de
+  `sessionStorage`, pas de cookie. Le mot de passe n'existe que le temps de la
+  requête ; fermer l'onglet l'efface.
+- **CORS verrouillé.** Le Worker ne renvoie l'en-tête d'autorisation que pour
+  l'origine GitHub Pages déclarée (`ALLOWED_ORIGIN`). Une page tierce ne peut pas
+  faire appeler le Worker par le navigateur d'un visiteur.
+- **Liste blanche d'écriture.** Seuls `files.json`, `liste.json`,
+  `changelog.json` et `config.json` (dans `DATA_DIR`) sont modifiables : pas de
+  traversée de chemin ni d'écriture de fichier arbitraire dans le dépôt.
+- **Anti-force brute.** Blocage par IP après 5 échecs sur une fenêtre de 15 min
+  (KV si configuré, sinon compteur mémoire), avec garde-fou de taille sur le
+  payload.
+
+### Bonnes pratiques
+
+- Utilise un mot de passe long et unique pour `ADMIN_PASSWORD`.
+- Préfère un **fine-grained token** limité au seul dépôt (permission *Contents*).
+- En cas de doute, **révoque** le token GitHub et régénère-en un : rien d'autre
+  n'est à changer côté site.
+- Le mot de passe admin protège l'**écriture**, pas le contenu : tout le JSON du
+  dépôt est public (c'est un site statique). N'y mets jamais d'information
+  sensible.
