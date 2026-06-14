@@ -6,9 +6,11 @@
  * transitent jamais vers le client.
  *
  * Endpoints :
- *   POST /verify   { "password": "..." }                       → { success: true } | { error }
- *   POST /update   { "password", "filename", "content" }        → { success: true } | { error }
- * (/verify sert au login : il valide le mot de passe sans rien écrire.)
+ *   POST /verify    { password }                         → { success } | { error }
+ *   POST /contact   { pseudo?, motif, objet, message }   → { success } | { error }   (public)
+ *   POST /messages  { password, action?, key? }          → { messages } | { success } | { error }
+ *   POST /update    { password, filename, content }      → { success } | { error }
+ * (/verify = login ; /contact = dépôt public d'un message sans email, stocké en KV.)
  *
  * Variables d'environnement (Cloudflare Secrets / Vars) :
  *   ADMIN_PASSWORD   (Secret)  mot de passe admin en clair (comparé en timing-safe)
@@ -19,8 +21,9 @@
  *   GITHUB_BRANCH    (Var, opt) branche cible (défaut: main)
  *   DATA_DIR         (Var, opt) dossier des JSON dans le dépôt (défaut: data)
  *
- * Binding optionnel :
- *   RATE_LIMIT       (KV)       limitation par IP. Si absent → repli mémoire.
+ * Bindings KV :
+ *   MESSAGES         (KV)       stockage des messages de contact (requis pour /contact et /messages)
+ *   RATE_LIMIT       (KV, opt)  limitation par IP. Si absent → repli mémoire.
  * ----------------------------------------------------------------------------
  */
 
@@ -30,6 +33,12 @@ const ALLOWED_FILES = ["files.json", "liste.json", "changelog.json", "config.jso
 const MAX_FAILS = 5;          // blocage après 5 échecs
 const FAIL_WINDOW = 15 * 60;  // fenêtre glissante, en secondes
 const MAX_BODY = 512 * 1024;  // garde-fou : 512 Ko max par payload
+
+// Contact (stockage KV MESSAGES) — formulaire public, sans email.
+const MOTIFS = ["Suggestion", "Correction", "Autre"];
+const MAX_PSEUDO = 80, MAX_OBJET = 200, MAX_MSG = 5000;
+const MAX_CONTACT = 8;          // messages max par IP et par fenêtre
+const CONTACT_WINDOW = 60 * 60; // fenêtre contact, en secondes
 
 // Repli mémoire si KV non configuré (best-effort, non partagé entre isolats).
 const memFails = new Map(); // ip -> { count, exp }
@@ -54,8 +63,18 @@ export default {
       return handleVerify(request, env, origin);
     }
 
+    // --- route /contact : dépôt public d'un message (stockage KV, sans email) ---
+    if (url.pathname === "/contact") {
+      return handleContact(request, env, origin);
+    }
+
+    // --- route /messages : boîte de réception admin (liste / suppression) ---
+    if (url.pathname === "/messages") {
+      return handleMessages(request, env, origin);
+    }
+
     if (url.pathname !== "/update") {
-      return json({ error: "Endpoint introuvable. Utilise POST /update ou /verify." }, 404, origin);
+      return json({ error: "Endpoint introuvable. Utilise POST /update, /verify, /contact ou /messages." }, 404, origin);
     }
 
     // --- garde-fou taille ---
@@ -153,6 +172,90 @@ async function handleVerify(request, env, origin) {
   }
   await resetFails(env, ip);
   return json({ success: true }, 200, origin);
+}
+
+/* ============================ Contact (/contact) ============================ */
+/**
+ * Dépôt public d'un message (aucun mot de passe requis). Validation stricte +
+ * limite par IP, puis stockage dans le KV MESSAGES. Aucun email n'est envoyé.
+ */
+async function handleContact(request, env, origin) {
+  const kv = env.MESSAGES;
+  if (!kv) return json({ error: "Stockage des messages non configuré (binding KV MESSAGES manquant)." }, 503, origin);
+
+  const len = Number(request.headers.get("content-length") || "0");
+  if (len > MAX_BODY) return json({ error: "Message trop volumineux." }, 413, origin);
+
+  let body;
+  try { body = await request.json(); } catch (_) { return json({ error: "Corps JSON invalide." }, 400, origin); }
+
+  const pseudo = String(body.pseudo || "").trim().slice(0, MAX_PSEUDO);
+  const motif = String(body.motif || "").trim();
+  const objet = String(body.objet || "").trim();
+  const message = String(body.message || "").trim();
+
+  if (MOTIFS.indexOf(motif) === -1) return json({ error: "Motif invalide." }, 400, origin);
+  if (!objet) return json({ error: "Objet requis." }, 400, origin);
+  if (!message) return json({ error: "Message requis." }, 400, origin);
+  if (objet.length > MAX_OBJET || message.length > MAX_MSG) return json({ error: "Objet ou message trop long." }, 413, origin);
+
+  // anti-spam : compteur glissant par IP
+  const ip = request.headers.get("CF-Connecting-IP") || "0.0.0.0";
+  const n = parseInt((await kv.get("csub:" + ip)) || "0", 10) || 0;
+  if (n >= MAX_CONTACT) return json({ error: "Trop de messages envoyés depuis cette adresse. Réessaie plus tard." }, 429, origin);
+  await kv.put("csub:" + ip, String(n + 1), { expirationTtl: CONTACT_WINDOW });
+
+  const id = new Date().toISOString() + "_" + Math.random().toString(36).slice(2, 8);
+  const rec = { date: new Date().toISOString(), pseudo: pseudo, motif: motif, objet: objet, message: message };
+  await kv.put("msg:" + id, JSON.stringify(rec));
+
+  return json({ success: true }, 200, origin);
+}
+
+/* ==================== Boîte de réception admin (/messages) ==================== */
+/**
+ * Protégé par mot de passe (mêmes garde-fous que /update). action "list" (défaut)
+ * renvoie les messages ; action "delete" + key supprime un message. Jamais public.
+ */
+async function handleMessages(request, env, origin) {
+  const kv = env.MESSAGES;
+  if (!kv) return json({ error: "Stockage des messages non configuré (binding KV MESSAGES manquant)." }, 503, origin);
+
+  let body;
+  try { body = await request.json(); } catch (_) { return json({ error: "Corps JSON invalide." }, 400, origin); }
+
+  const ip = request.headers.get("CF-Connecting-IP") || "0.0.0.0";
+  const fails = await getFails(env, ip);
+  if (fails >= MAX_FAILS) return json({ error: "Trop de tentatives. Réessaie plus tard." }, 429, origin);
+
+  const password = typeof body.password === "string" ? body.password : "";
+  const expected = env.ADMIN_PASSWORD || "";
+  const ok = expected.length > 0 && (await timingSafeEqual(password, expected));
+  if (!ok) {
+    const c = await bumpFails(env, ip);
+    const remaining = Math.max(0, MAX_FAILS - c);
+    return json({ error: "Mot de passe incorrect." + (remaining ? " Tentatives restantes : " + remaining + "." : "") }, 401, origin);
+  }
+  await resetFails(env, ip);
+
+  const action = typeof body.action === "string" ? body.action : "list";
+
+  if (action === "delete") {
+    const key = typeof body.key === "string" ? body.key : "";
+    if (key.indexOf("msg:") !== 0) return json({ error: "Clé invalide." }, 400, origin);
+    await kv.delete(key);
+    return json({ success: true }, 200, origin);
+  }
+
+  const listing = await kv.list({ prefix: "msg:" });
+  const items = [];
+  for (const k of listing.keys) {
+    const v = await kv.get(k.name);
+    if (!v) continue;
+    try { const o = JSON.parse(v); o.key = k.name; items.push(o); } catch (_) {}
+  }
+  items.sort(function (a, b) { return a.date < b.date ? 1 : (a.date > b.date ? -1 : 0); });
+  return json({ messages: items }, 200, origin);
 }
 
 /* ============================ GitHub ============================ */
