@@ -1,0 +1,68 @@
+{
+  "generated": "2026-06-14T13:44:44+00:00",
+  "base": {
+    "files": [
+      "PatchVF/GAMMA base/st_dialogs.xml",
+      "PatchVF/GAMMA base/st_dynamic_news.xml",
+      "PatchVF/GAMMA base/st_items_weapons.xml"
+    ]
+  },
+  "tweak": [
+    {
+      "id": "Dialogues-crus",
+      "name": "Dialogues crus",
+      "description": "Registre familier et vulgaire pour les dialogues PNJ.",
+      "date": "2026-05-12",
+      "version": "1.1.0",
+      "url": "https://www.moddb.com/mods/exemple-dialogues-crus",
+      "priority": 50,
+      "files": [
+        "PatchVF/GAMMA tweak/Dialogues-crus/st_dialogs.xml"
+      ]
+    },
+    {
+      "id": "Dialogues-soft",
+      "name": "Dialogues adoucis",
+      "description": "Version édulcorée, sans grossièretés.",
+      "date": "2026-05-12",
+      "version": "1.0.0",
+      "url": "https://www.moddb.com/mods/exemple-dialogues-soft",
+      "priority": 50,
+      "files": [
+        "PatchVF/GAMMA tweak/Dialogues-soft/st_dialogs.xml"
+      ]
+    },
+    {
+      "id": "News-etendues",
+      "name": "News étendues",
+      "description": "Davantage de dépêches sur le PDA.",
+      "date": "2026-04-30",
+      "version": "2.0.0",
+      "url": "https://github.com/exemple/news-etendues",
+      "priority": 60,
+      "files": [
+        "PatchVF/GAMMA tweak/News-etendues/st_dynamic_news.xml"
+      ]
+    }
+  ],
+  "extra": [
+    {
+      "id": "Armes-VO",
+      "name": "Armes en VO",
+      "description": "Conserve les noms d'armes en version originale.",
+      "date": "2026-06-01",
+      "version": "1.0.0",
+      "url": "https://www.moddb.com/mods/exemple-armes-vo",
+      "priority": 200,
+      "files": [
+        "PatchVF/GAMMA extra/Armes-VO/st_items_weapons.xml"
+      ]
+    }
+  ],
+  "mainfile": {
+    "files": [
+      "PatchVF/MainFile/README_FR.txt",
+      "PatchVF/MainFile/meta.ini"
+    ]
+  }
+}
