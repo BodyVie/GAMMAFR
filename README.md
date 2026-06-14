@@ -26,19 +26,30 @@ gamma-fr/
 ├── css/
 │   └── style.css         # thème « PDA de la Zone »
 ├── js/
-│   └── app.js            # logique (onglets, wizard, recherche, admin…)
+│   ├── app.js            # logique (onglets, configurateur, recherche, admin…)
+│   └── zip.js            # écriture ZIP en JS pur (sans dépendance)
 ├── data/
-│   ├── files.json        # lisez-moi + wizard FOMOD
+│   ├── files.json        # lisez-moi du configurateur
+│   ├── patches.json      # manifeste GÉNÉRÉ (ne pas éditer à la main)
 │   ├── liste.json        # liste numérotée
 │   ├── changelog.json    # journal des versions
-│   └── config.json       # titre, ID Formspree, URL du Worker
+│   └── config.json       # titre, Formspree, Worker, chemins du configurateur
+├── tools/
+│   └── build_manifest.py # génère data/patches.json depuis PatchVF/
+├── PatchVF/              # contenu de la traduction (voir §8)
+│   ├── MainFile/             # squelette copié tel quel dans l'archive
+│   ├── GAMMA base/           # fichiers FR de base
+│   ├── GAMMA tweak/<patch>/   # XML + patch.json
+│   └── GAMMA extra/<patch>/   # XML + patch.json
+├── .github/workflows/
+│   └── build-manifest.yml # régénère le manifeste à chaque push (option B)
 ├── worker.js             # Cloudflare Worker (à déployer à part)
 └── README.md
 ```
 
-Les onglets : **Files** (lisez-moi + configurateur FOMOD), **Liste** (liste
-filtrable), **Changelog**, **Contact** (Formspree), **Admin** (éditeurs JSON
-protégés).
+Les onglets : **Files** (lisez-moi + configurateur d'installation), **Liste**
+(liste filtrable), **Changelog**, **Contact** (Formspree), **Admin** (éditeurs
+JSON protégés).
 
 ---
 
@@ -233,3 +244,95 @@ demander une validation par email du compte.
 - Le mot de passe admin protège l'**écriture**, pas le contenu : tout le JSON du
   dépôt est public (c'est un site statique). N'y mets jamais d'information
   sensible.
+
+---
+
+## 8. Configurateur d'installation (PatchVF)
+
+L'onglet **Files** assemble une archive de mod **dans le navigateur** à partir du
+dossier `PatchVF/`. Aucune API GitHub, aucun service externe : sur GitHub Pages,
+les fichiers de `PatchVF/` sont servis comme le reste du site et récupérés en
+relatif. L'archive est construite en JS pur (`js/zip.js`) ; les octets de chaque
+fichier sont copiés tels quels, donc l'encodage **windows-1252** est préservé.
+
+### 8.1. Structure de `PatchVF/`
+
+```
+PatchVF/
+├── MainFile/                  # squelette : copié tel quel à la racine du ZIP
+│   └── (meta.ini, etc.)       #   (laisser vide ⇒ le ZIP ne contient que gamedata/…)
+├── GAMMA base/                # fichiers FR de base (directement dedans)
+│   └── st_*.xml
+├── GAMMA tweak/
+│   └── <NomDuPatch>/
+│       ├── st_*.xml
+│       └── patch.json
+└── GAMMA extra/
+    └── <NomDuPatch>/
+        ├── st_*.xml
+        └── patch.json
+```
+
+Trois niveaux **cumulatifs** côté site : `base` (base seule) → `tweak` (base +
+patchs Tweak) → `extra` (base + patchs Tweak et Extra). À la génération, la
+sélection est rangée dans `gamedata/configs/text/fra/`, puis fusionnée avec le
+contenu de `MainFile/` (la sélection l'emporte en cas de même chemin).
+
+### 8.2. Le fichier `patch.json`
+
+Un par dossier de `GAMMA tweak/` et `GAMMA extra/` (UTF-8) :
+
+```json
+{
+  "name": "Dialogues crus",
+  "description": "Registre familier et vulgaire pour les dialogues PNJ.",
+  "date": "2026-05-12",
+  "version": "1.1.0",
+  "url": "https://www.moddb.com/mods/…",
+  "priority": 50
+}
+```
+
+- `name` / `description` : affichés et utilisés par la barre de recherche
+  (à défaut, le nom du dossier sert de nom).
+- `priority` : **entier, le plus élevé gagne**. Si deux patchs sélectionnés
+  fournissent un fichier de même nom, celui de priorité supérieure écrase
+  l'autre. `GAMMA base` a la priorité la plus basse. En cas d'**égalité** de
+  priorité sur un même fichier, le récapitulatif affiche ⚠ et un gagnant
+  déterministe est choisi — fixe des priorités distinctes pour lever le doute.
+
+### 8.3. Ajouter / mettre à jour un patch
+
+1. Créer un dossier sous `GAMMA tweak/` ou `GAMMA extra/`.
+2. Y déposer les `.xml` (windows-1252) **et** un `patch.json`.
+3. Régénérer le manifeste (voir 8.4), puis pousser.
+
+### 8.4. Régénérer `data/patches.json`
+
+Le site lit un manifeste unique `data/patches.json` (1 requête). Deux options :
+
+- **Option A — manuelle (Python)** : avant de pousser,
+  ```bash
+  python3 tools/build_manifest.py     # depuis la racine du dépôt
+  git add data/patches.json && git commit -m "maj manifeste" && git push
+  ```
+- **Option B — automatique (GitHub Action)** : `.github/workflows/build-manifest.yml`
+  régénère et committe `data/patches.json` à chaque push touchant `PatchVF/**`.
+  Rien à faire manuellement. (Active les Actions sur le dépôt ; l'Action a la
+  permission `contents: write`.)
+
+Le manifeste est **généré** : ne pas l'éditer à la main (et il n'est volontairement
+pas dans l'onglet Admin, qui régénérerait au prochain build).
+
+### 8.5. Paramètres dans `config.json`
+
+```json
+{
+  "patch_base": "PatchVF",
+  "fra_path": "gamedata/configs/text/fra",
+  "mod_zip_name": "GAMMAFR-PatchVF"
+}
+```
+
+`mod_zip_name` = nom du fichier `.zip` téléchargé. `fra_path` = destination de la
+sélection dans l'archive. `patch_base` = dossier racine du contenu.
