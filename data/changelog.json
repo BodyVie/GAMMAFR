@@ -1,14 +1,5 @@
 [
   {
-    "version": "1.4.0",
-    "date": "2026-06-12",
-    "changes": [
-      "Ajout du module Menus MCM couvrant la majorité des mods embarqués.",
-      "Correction de l'affichage des entrées vides dans st_dynamic_news.xml.",
-      "Révision des contractions grammaticales dans les chaînes directionnelles."
-    ]
-  },
-  {
     "version": "1.3.1",
     "date": "2026-05-28",
     "changes": [
