@@ -60,18 +60,26 @@
       <div class="stencil">Prendre contact</div>
       <div class="card contact">
         <label class="field">
-          <span class="field__label">Nom</span>
-          <input class="input" id="cName" type="text" placeholder="Ton pseudo de stalker" autocomplete="name">
+          <span class="field__label">Pseudo <span class="field__opt">facultatif</span></span>
+          <input class="input" id="cName" type="text" placeholder="Ton pseudo de stalker" autocomplete="off">
         </label>
         <label class="field">
-          <span class="field__label">Email</span>
-          <input class="input" id="cEmail" type="email" placeholder="toi@exemple.fr" autocomplete="email">
+          <span class="field__label">Motif</span>
+          <select class="input select" id="cMotif">
+            <option value="Suggestion">Suggestion</option>
+            <option value="Correction">Correction</option>
+            <option value="Autre">Autre</option>
+          </select>
+        </label>
+        <label class="field">
+          <span class="field__label">Objet</span>
+          <input class="input" id="cObjet" type="text" placeholder="Résumé en quelques mots" maxlength="200">
         </label>
         <label class="field">
           <span class="field__label">Message</span>
-          <textarea class="textarea" id="cMessage" rows="6" placeholder="Bug de traduction, suggestion, demande&#8230;"></textarea>
+          <textarea class="textarea" id="cMessage" rows="6" placeholder="Décris ta suggestion ou la correction&#8230;" maxlength="5000"></textarea>
         </label>
-        <button class="btn" id="contactSend">Envoyer le message</button>
+        <button class="btn" id="contactSend">Envoyer</button>
         <div class="notice" id="contactNotice" role="status"></div>
       </div>
     </section>
