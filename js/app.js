@@ -8,7 +8,7 @@
 
   // ---- état --------------------------------------------------------------
   var config = {
-    worker_url: "", formspree_id: "", site_title: "GAMMAFR", site_tagline: "",
+    worker_url: "", site_title: "GAMMAFR", site_tagline: "",
     patch_base: "PatchVF",
     fra_path: "gamedata/configs/text/fra",
     mod_zip_name: "GAMMAFR-PatchVF"
@@ -140,9 +140,9 @@
 
   // ---- modèle -------------------------------------------------------------
   var LEVELS = [
-    { id: "base",  label: "G.A.M.M.A. base",  desc: "Patch français pour G.A.M.M.A. uniquement." },
-    { id: "tweak", label: "G.A.M.M.A. tweak", desc: "Patch français pour G.A.M.M.A. base + Mods présents dans MO2" },
-    { id: "extra", label: "G.A.M.M.A. extra", desc: "Patch français pour G.A.M.M.A. + Mods présents dans MO2 + D'autre mods externe à G.A.M.M.A." }
+    { id: "base",  label: "GAMMA base",  desc: "Uniquement la traduction de base, aucun patch." },
+    { id: "tweak", label: "GAMMA tweak", desc: "Base incluse + choix parmi les patchs Tweak." },
+    { id: "extra", label: "GAMMA extra", desc: "Base incluse + choix parmi les patchs Tweak et Extra." }
   ];
 
   function tagSection(section) {
@@ -198,7 +198,7 @@
   function renderLevelStep() {
     var frag = document.createDocumentFragment();
     frag.appendChild(el("div", { class: "step-head" }, [el("h3", { class: "step-title", text: "Niveau d'installation" })]));
-    frag.appendChild(el("p", { class: "step-sub", text: "Monteur sur mesure de votre patch français." }));
+    frag.appendChild(el("p", { class: "step-sub", text: "Chaque niveau supérieur inclut automatiquement le contenu de GAMMA base." }));
 
     var box = el("div", { class: "options" });
     LEVELS.forEach(function (lv) {
@@ -693,24 +693,25 @@
   }
 
   /* =======================================================================
-     ONGLET CONTACT — Formspree, zéro backend
+     ONGLET CONTACT — message envoyé au Worker (stockage KV), sans email
      ======================================================================= */
   function setupContact() {
     var btn = $("#contactSend");
     if (!btn) return;
     btn.addEventListener("click", function () {
-      var name = $("#cName").value.trim();
-      var email = $("#cEmail").value.trim();
+      var pseudo = $("#cName").value.trim();
+      var motif = $("#cMotif").value;
+      var objet = $("#cObjet").value.trim();
       var message = $("#cMessage").value.trim();
       var notice = $("#contactNotice");
       notice.className = "notice";
 
-      if (!name || !email || !message) {
-        showNotice(notice, "err", "Renseigne le nom, l'email et le message avant d'envoyer.");
+      if (!objet || !message) {
+        showNotice(notice, "err", "Renseigne l'objet et le message (le pseudo est facultatif).");
         return;
       }
-      if (!config.formspree_id || config.formspree_id.indexOf("REMPLACER") === 0) {
-        showNotice(notice, "err", "Formulaire non configuré : ajoute ton ID Formspree dans data/config.json.");
+      if (!workerReady()) {
+        showNotice(notice, "err", "Envoi indisponible : le Worker n'est pas encore configuré.");
         return;
       }
 
@@ -718,20 +719,20 @@
       var prev = btn.textContent;
       btn.textContent = "Envoi\u2026";
 
-      fetch("https://formspree.io/f/" + config.formspree_id, {
+      fetch(config.worker_url.replace(/\/$/, "") + "/contact", {
         method: "POST",
-        headers: { "Accept": "application/json", "Content-Type": "application/json" },
-        body: JSON.stringify({ name: name, email: email, message: message })
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ pseudo: pseudo, motif: motif, objet: objet, message: message })
       })
-        .then(function (r) {
-          if (r.ok) {
-            showNotice(notice, "ok", "Message envoyé. Merci, une réponse suivra dès que possible.");
-            $("#cName").value = ""; $("#cEmail").value = ""; $("#cMessage").value = "";
+        .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { return { ok: r.ok, status: r.status, data: d }; }); })
+        .then(function (res) {
+          if (res.ok && res.data && res.data.success) {
+            showNotice(notice, "ok", "Message envoyé. Merci !");
+            $("#cName").value = ""; $("#cObjet").value = ""; $("#cMessage").value = ""; $("#cMotif").value = "Suggestion";
+          } else if (res.status === 429) {
+            showNotice(notice, "err", "Trop de messages envoyés. Réessaie plus tard.");
           } else {
-            return r.json().then(function (d) {
-              var msg = (d && d.errors && d.errors[0] && d.errors[0].message) || "Échec de l'envoi. Réessaie plus tard.";
-              showNotice(notice, "err", msg);
-            });
+            showNotice(notice, "err", (res.data && res.data.error) || "Échec de l'envoi. Réessaie plus tard.");
           }
         })
         .catch(function () { showNotice(notice, "err", "Réseau indisponible. Réessaie plus tard."); })
@@ -771,7 +772,8 @@
     ]));
 
     if (!workerReady()) { host.appendChild(renderAdminNoWorker()); return; }
-    host.appendChild(isAdmin() ? renderAdminUnlocked() : renderAdminLock());
+    if (isAdmin()) { host.appendChild(renderAdminUnlocked()); loadMessages(); }
+    else host.appendChild(renderAdminLock());
   }
 
   function renderAdminNoWorker() {
@@ -840,7 +842,6 @@
     var fields = [
       { key: "site_title", label: "Titre du site" },
       { key: "site_tagline", label: "Sous-titre" },
-      { key: "formspree_id", label: "ID Formspree" },
       { key: "worker_url", label: "URL du Worker" },
       { key: "patch_base", label: "Dossier des patchs" },
       { key: "fra_path", label: "Chemin d'installation (fra)" },
@@ -882,6 +883,16 @@
     rmCard.appendChild(el("div", { class: "editor__foot" }, [rmSave, rmStatus]));
     wrap.appendChild(rmCard);
 
+    // ---- messages reçus (contact) ----
+    wrap.appendChild(el("div", { class: "stencil stencil--muted", style: "margin-top:24px", text: "Messages reçus" }));
+    var inboxCard = el("div", { class: "card" });
+    inboxCard.appendChild(el("div", { class: "inbox__head" }, [
+      el("span", { class: "inbox__title", text: "Boîte de réception" }),
+      el("button", { class: "btn btn--ghost btn--mini", text: "Rafraîchir", onClick: loadMessages })
+    ]));
+    inboxCard.appendChild(el("div", { id: "adminInbox" }, [el("span", { class: "loading", text: "Chargement\u2026" })]));
+    wrap.appendChild(inboxCard);
+
     return wrap;
   }
 
@@ -919,6 +930,66 @@
       })
       .catch(function () { setStatus(status, "err", "Worker injoignable. Vérifie l'URL et le déploiement."); })
       .then(function () { if (btn) btn.disabled = false; });
+  }
+
+  // ---- boîte de réception (messages de contact) --------------------------
+  function loadMessages() {
+    var host = $("#adminInbox");
+    if (!host) return;
+    clear(host); host.appendChild(el("span", { class: "loading", text: "Chargement\u2026" }));
+    fetch(config.worker_url.replace(/\/$/, "") + "/messages", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ password: admin.pwd, action: "list" })
+    })
+      .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { return { ok: r.ok, status: r.status, data: d }; }); })
+      .then(function (res) {
+        if (res.ok && res.data && res.data.messages) renderMessages(res.data.messages);
+        else if (res.status === 401) { admin.unlocked = false; admin.pwd = ""; renderAdmin(); }
+        else renderMessagesError((res.data && res.data.error) || "Impossible de charger les messages.");
+      })
+      .catch(function () { renderMessagesError("Worker injoignable."); });
+  }
+
+  function renderMessages(list) {
+    var host = $("#adminInbox");
+    if (!host) return;
+    clear(host);
+    if (!list.length) { host.appendChild(el("p", { class: "list-empty", text: "Aucun message pour le moment." })); return; }
+    host.appendChild(el("div", { class: "inbox__count", text: list.length + " message" + (list.length > 1 ? "s" : "") }));
+    list.forEach(function (m) {
+      var motif = m.motif || "Autre";
+      var head = el("div", { class: "msg__head" }, [
+        el("span", { class: "msg__motif msg__motif--" + motif.toLowerCase(), text: motif }),
+        el("span", { class: "msg__objet", text: m.objet || "(sans objet)" }),
+        el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer", text: "\u2715", onClick: function () { deleteMessage(m.key); } })
+      ]);
+      var meta = el("div", { class: "msg__meta", text: (m.pseudo ? m.pseudo : "anonyme") + " \u00b7 " + fmtDate(m.date) });
+      host.appendChild(el("div", { class: "msg" }, [head, meta, el("div", { class: "msg__body", text: m.message || "" })]));
+    });
+  }
+
+  function renderMessagesError(msg) {
+    var host = $("#adminInbox");
+    if (!host) return;
+    clear(host);
+    host.appendChild(el("p", { class: "notice is-shown notice--err", text: msg }));
+  }
+
+  function deleteMessage(key) {
+    fetch(config.worker_url.replace(/\/$/, "") + "/messages", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ password: admin.pwd, action: "delete", key: key })
+    })
+      .then(function () { loadMessages(); })
+      .catch(function () { loadMessages(); });
+  }
+
+  function fmtDate(iso) {
+    if (!iso) return "";
+    var d = new Date(iso);
+    if (isNaN(d.getTime())) return iso;
+    function p(n) { return (n < 10 ? "0" : "") + n; }
+    return p(d.getDate()) + "/" + p(d.getMonth() + 1) + "/" + d.getFullYear() + " " + p(d.getHours()) + ":" + p(d.getMinutes());
   }
 
   function setStatus(node, kind, text) {
