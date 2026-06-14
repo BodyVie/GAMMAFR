@@ -756,6 +756,10 @@
 
   function lockAdmin() { admin.unlocked = false; admin.pwd = ""; renderAdmin(); }
 
+  function workerReady() {
+    return !!config.worker_url && config.worker_url.indexOf("VOTRE-SOUS-DOMAINE") === -1;
+  }
+
   function renderAdmin() {
     var host = $("#adminRoot");
     if (!host) return;
@@ -763,10 +767,24 @@
 
     host.appendChild(el("div", { class: "admin-warn" }, [
       el("span", { class: "admin-warn__tag", text: "PRIVÉ" }),
-      el("span", { text: "Le mot de passe n'est jamais stocké : il accompagne chaque enregistrement et part vers le Worker." })
+      el("span", { text: "Le mot de passe n'est jamais stocké : il est vérifié par le Worker à la connexion et à chaque enregistrement." })
     ]));
 
+    if (!workerReady()) { host.appendChild(renderAdminNoWorker()); return; }
     host.appendChild(isAdmin() ? renderAdminUnlocked() : renderAdminLock());
+  }
+
+  function renderAdminNoWorker() {
+    var card = el("div", { class: "card" });
+    card.appendChild(el("p", { class: "admin-note", text:
+      "L'administration nécessite le Cloudflare Worker : c'est lui qui vérifie le mot de passe et écrit les modifications sur GitHub (le navigateur seul n'en a pas le droit). Tant qu'il n'est pas configuré, la connexion est impossible." }));
+    var ol = el("ol", { class: "admin-steps" });
+    ["Déploie worker.js sur Cloudflare (Worker « Hello World »).",
+     "Ajoute les variables : ADMIN_PASSWORD (Secret), GITHUB_TOKEN (Secret), GITHUB_OWNER, GITHUB_REPO, ALLOWED_ORIGIN.",
+     "Renseigne worker_url dans data/config.json avec l'URL du Worker (sans /update)."
+    ].forEach(function (t) { ol.appendChild(el("li", { text: t })); });
+    card.appendChild(ol);
+    return card;
   }
 
   function renderAdminLock() {
@@ -774,20 +792,35 @@
     var card = el("div", { class: "card" });
     var pwd = el("input", { class: "input", id: "adminPwd", type: "password", placeholder: "\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022", autocomplete: "off" });
     var note = el("div", { class: "notice" });
+    var loginBtn = el("button", { class: "btn", text: "Se connecter" });
 
     function tryUnlock() {
-      admin.pwd = pwd.value;
-      if (!admin.pwd) { showNotice(note, "err", "Saisis le mot de passe pour accéder à l'administration."); return; }
-      admin.unlocked = true;
-      renderAdmin();
+      var pw = pwd.value;
+      if (!pw) { showNotice(note, "err", "Saisis le mot de passe."); return; }
+      loginBtn.disabled = true;
+      note.className = "notice is-shown"; note.textContent = "Vérification\u2026";
+      fetch(config.worker_url.replace(/\/$/, "") + "/verify", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password: pw })
+      })
+        .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { return { ok: r.ok, status: r.status, data: d }; }); })
+        .then(function (res) {
+          if (res.ok && res.data && res.data.success) { admin.pwd = pw; admin.unlocked = true; renderAdmin(); }
+          else if (res.status === 401) { showNotice(note, "err", (res.data && res.data.error) || "Mot de passe refusé."); }
+          else if (res.status === 429) { showNotice(note, "err", "Trop de tentatives. Réessaie plus tard."); }
+          else { showNotice(note, "err", (res.data && res.data.error) || ("Échec (HTTP " + res.status + ")")); }
+        })
+        .catch(function () { showNotice(note, "err", "Worker injoignable. Vérifie son URL et son déploiement."); })
+        .then(function () { loginBtn.disabled = false; });
     }
+    loginBtn.addEventListener("click", tryUnlock);
     pwd.addEventListener("keydown", function (ev) { if (ev.key === "Enter") { ev.preventDefault(); tryUnlock(); } });
 
     card.appendChild(el("label", { class: "field", style: "margin-bottom:0" }, [
       el("span", { class: "field__label", text: "Mot de passe admin" }), pwd
     ]));
     wrap.appendChild(card);
-    wrap.appendChild(el("div", { class: "admin-actions" }, [el("button", { class: "btn", text: "Déverrouiller", onClick: tryUnlock })]));
+    wrap.appendChild(el("div", { class: "admin-actions" }, [loginBtn]));
     wrap.appendChild(note);
     return wrap;
   }
@@ -876,7 +909,8 @@
           setStatus(status, "ok", "Enregistré. Le site se met à jour sous peu (cache GitHub Pages).");
           if (typeof onSuccess === "function") onSuccess();
         } else if (res.status === 401) {
-          setStatus(status, "err", "Mot de passe refusé. Verrouille puis ressaisis-le dans l'onglet Admin.");
+          setStatus(status, "err", "Session expirée. Reconnecte-toi dans l'onglet Admin.");
+          admin.unlocked = false; admin.pwd = "";
         } else if (res.status === 429) {
           setStatus(status, "err", "Trop de tentatives. Réessaie dans quelques minutes.");
         } else {
