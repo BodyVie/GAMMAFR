@@ -1,0 +1,43 @@
+name: Build patches manifest
+
+# Régénère data/patches.json à chaque modification de PatchVF/.
+# Le commit ne touche que data/ (hors filtre) : pas de boucle de déclenchement.
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'PatchVF/**'
+      - 'tools/build_manifest.py'
+      - '.github/workflows/build-manifest.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Générer data/patches.json
+        run: python3 tools/build_manifest.py
+
+      - name: Commit du manifeste si modifié
+        run: |
+          if git diff --quiet -- data/patches.json; then
+            echo "Manifeste inchangé, rien à committer."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/patches.json
+          git commit -m "chore: régénère data/patches.json [skip ci]"
+          git push
