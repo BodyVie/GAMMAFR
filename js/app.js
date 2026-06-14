@@ -198,7 +198,7 @@
   function renderLevelStep() {
     var frag = document.createDocumentFragment();
     frag.appendChild(el("div", { class: "step-head" }, [el("h3", { class: "step-title", text: "Niveau d'installation" })]));
-    frag.appendChild(el("p", { class: "step-sub", text: "Chaque niveau supérieur inclut automatiquement le contenu de GAMMA base." }));
+    frag.appendChild(el("p", { class: "step-sub", text: "Monteur sur mesure de votre patch français." }));
 
     var box = el("div", { class: "options" });
     LEVELS.forEach(function (lv) {
