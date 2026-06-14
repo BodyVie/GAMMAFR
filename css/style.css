@@ -713,3 +713,53 @@ a:hover { text-decoration: underline; }
 .admin-note { color: var(--text); font-size: 14px; line-height: 1.55; margin: 0 0 10px; }
 .admin-steps { color: var(--dim); font-size: 13px; line-height: 1.6; margin: 0; padding-left: 20px; }
 .admin-steps li { margin-bottom: 6px; }
+
+/* =========================================================================
+   Contact — select stylé + champ facultatif. Boîte de réception admin.
+   ========================================================================= */
+.select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, var(--dim) 50%),
+                    linear-gradient(135deg, var(--dim) 50%, transparent 50%);
+  background-position: calc(100% - 18px) 50%, calc(100% - 13px) 50%;
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  padding-right: 36px;
+  cursor: pointer;
+}
+.field__opt {
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--dim);
+  text-transform: lowercase;
+}
+
+.inbox__head { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 12px; }
+.inbox__title { font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--dim); }
+.inbox__count { font-size: 11px; color: var(--dim); margin-bottom: 10px; }
+
+.msg {
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.msg__head { display: flex; align-items: center; gap: 10px; }
+.msg__objet { flex: 1; font-weight: 600; color: var(--text); min-width: 0; overflow-wrap: anywhere; }
+.msg__motif {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  color: var(--dim);
+  white-space: nowrap;
+}
+.msg__motif--suggestion { color: var(--rad); border-color: var(--rad); }
+.msg__motif--correction { color: var(--amber); border-color: var(--amber); }
+.msg__motif--autre { color: var(--dim); border-color: var(--line); }
+.msg__meta { font-size: 11px; color: var(--dim); margin: 6px 0; }
+.msg__body { color: var(--text); font-size: 14px; line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; }
