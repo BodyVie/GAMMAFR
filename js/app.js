@@ -67,6 +67,12 @@
     activateTab(initial);
     // bouton Précédent/Suivant du navigateur ⇄ onglet courant
     window.addEventListener("hashchange", function () { activateTab(tabFromHash() || "files"); });
+    // PWA : enregistre le service worker (hors-ligne) sans bloquer le rendu initial
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("sw.js").catch(function () {});
+      });
+    }
   });
 
   function loadConfig() {
@@ -194,7 +200,7 @@
     if (conf.level === "base") return ["Niveau", "Récapitulatif"];
     return ["Niveau"];
   }
-  function baseName(path) { var p = String(path).split("/"); return p[p.length - 1]; }
+  function baseName(path) { return GammaCore.baseName(path); }
   function encPath(path) { return String(path).split("/").map(encodeURIComponent).join("/"); }
 
   // ---- rendu --------------------------------------------------------------
@@ -392,28 +398,11 @@
     var level = conf.level;
     var chosen = availablePatches(level).filter(function (p) { return conf.selected[p.id]; });
 
-    var map = {};
-    function add(label, priority, files) {
-      (files || []).forEach(function (path) {
-        var b = baseName(path);
-        (map[b] = map[b] || []).push({ path: path, label: label, priority: priority });
-      });
-    }
-    add("GAMMA base", -Infinity, manifest.base.files);
-    chosen.forEach(function (p) { add(p.name || p.id, Number(p.priority) || 0, p.files); });
+    var sources = [{ label: "GAMMA base", priority: -Infinity, files: manifest.base.files }];
+    chosen.forEach(function (p) { sources.push({ label: p.name || p.id, priority: Number(p.priority) || 0, files: p.files }); });
 
-    var files = [], warnings = [];
-    Object.keys(map).sort().forEach(function (b) {
-      var arr = map[b].slice().sort(function (x, y) {
-        if (y.priority !== x.priority) return y.priority - x.priority;
-        return x.label < y.label ? -1 : (x.label > y.label ? 1 : 0);
-      });
-      var top = arr[0];
-      var conflict = arr.filter(function (s) { return s.priority === top.priority; }).length > 1;
-      if (conflict) warnings.push(b);
-      files.push({ name: b, winner: top, conflict: conflict, contenders: arr });
-    });
-    return { level: level, patches: chosen, files: files, warnings: warnings, mainfile: manifest.mainfile.files };
+    var r = GammaCore.resolveFiles(sources);
+    return { level: level, patches: chosen, files: r.files, warnings: r.warnings, mainfile: manifest.mainfile.files };
   }
 
   // ---- actions / navigation ----------------------------------------------
@@ -631,7 +620,7 @@
   function renderChangelogReadonly() {
     var host = $("#logHost");
     clear(host);
-    var entries = (data.changelog || []).slice().sort(function (a, b) { return cmpVersion(b.version, a.version); });
+    var entries = (data.changelog || []).slice().sort(function (a, b) { return GammaCore.cmpVersion(b.version, a.version); });
     if (!entries.length) { host.appendChild(el("p", { class: "list-empty", text: "Aucune entrée." })); return; }
 
     var box = el("div", { class: "log" });
@@ -717,16 +706,6 @@
     host.appendChild(el("div", { class: "editor__foot" }, [add, save, status]));
   }
 
-  function cmpVersion(a, b) {
-    var pa = String(a || "").split(".").map(Number);
-    var pb = String(b || "").split(".").map(Number);
-    for (var i = 0; i < Math.max(pa.length, pb.length); i++) {
-      var x = pa[i] || 0, y = pb[i] || 0;
-      if (x !== y) return x - y;
-    }
-    return 0;
-  }
-
   /* =======================================================================
      ONGLET PLANNER — tableau de bord façon « 365 Planner »
      Lecture publique (catégories, tickets, étiquettes, échéances, actions,
@@ -734,6 +713,7 @@
      seul fichier data/planner.json via le Worker (comme Liste / Changelog).
      ======================================================================= */
   var plannerDraft = null;                       // copie de travail (mode admin)
+  var dragState = null;                          // glisser-déposer : { fromCat, tk }
   var PLABELS = ["green", "amber", "rust", "ok", "cyan", "violet"];
   var PSTATUS = { todo: "À faire", doing: "En cours", done: "Terminé" };
 
@@ -874,6 +854,22 @@
 
     var bucket = el("div", { class: "bucket" }, [head, cards]);
     if (editable) {
+      // zone de dépôt : déplacer un ticket dans cette catégorie (et le réordonner)
+      cards.addEventListener("dragover", function (e) {
+        if (!dragState) return;
+        e.preventDefault();
+        if (e.dataTransfer) e.dataTransfer.dropEffect = "move";
+        bucket.classList.add("is-dropzone");
+      });
+      cards.addEventListener("dragleave", function (e) {
+        if (e.target === cards) bucket.classList.remove("is-dropzone");
+      });
+      cards.addEventListener("drop", function (e) {
+        if (!dragState) return;
+        e.preventDefault();
+        bucket.classList.remove("is-dropzone");
+        moveTicket(dragState.fromCat, cat, cards, e.clientY, dragState.tk);
+      });
       bucket.appendChild(el("button", { class: "btn btn--ghost btn--mini bucket__add", text: "+ ticket", onClick: function () {
         var tk = normalizeTicket({ created: new Date().toISOString() });
         cat.tickets.push(tk);
@@ -881,6 +877,32 @@
       } }));
     }
     return bucket;
+  }
+
+  // Élément après lequel insérer, selon la position verticale du curseur.
+  function dragAfter(container, y) {
+    var els = Array.prototype.slice.call(container.querySelectorAll(".tcard:not(.is-dragging)"));
+    var closest = null, closestOffset = -Infinity;
+    els.forEach(function (child) {
+      var box = child.getBoundingClientRect();
+      var offset = y - box.top - box.height / 2;
+      if (offset < 0 && offset > closestOffset) { closestOffset = offset; closest = child; }
+    });
+    return closest; // null => insérer en fin
+  }
+
+  function moveTicket(fromCat, toCat, container, y, tk) {
+    var si = fromCat.tickets.indexOf(tk);
+    if (si !== -1) fromCat.tickets.splice(si, 1);
+    var after = dragAfter(container, y);
+    var idx = toCat.tickets.length;
+    if (after) {
+      var aid = after.getAttribute("data-tkid");
+      for (var i = 0; i < toCat.tickets.length; i++) { if (toCat.tickets[i].id === aid) { idx = i; break; } }
+    }
+    toCat.tickets.splice(idx, 0, tk);
+    dragState = null;
+    paintBoard();
   }
 
   function buildCard(p, cat, tk, editable) {
@@ -904,10 +926,28 @@
     if (tk.comments.length) foot.appendChild(el("span", { class: "pbadge", text: tk.comments.length + " comm." }));
     children.push(foot);
 
-    var card = el("div", { class: "tcard tcard--" + tk.status, tabindex: "0", role: "button" }, children);
+    var card = el("div", {
+      class: "tcard tcard--" + tk.status, tabindex: "0", role: "button",
+      "data-tkid": tk.id, draggable: editable ? "true" : null
+    }, children);
     function open() { if (editable) openTicketEdit(cat, tk); else openTicketView(tk); }
     card.addEventListener("click", open);
     card.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } });
+    if (editable) {
+      card.addEventListener("dragstart", function (e) {
+        dragState = { fromCat: cat, tk: tk };
+        card.classList.add("is-dragging");
+        if (e.dataTransfer) {
+          e.dataTransfer.effectAllowed = "move";
+          try { e.dataTransfer.setData("text/plain", tk.id); } catch (_) {}
+        }
+      });
+      card.addEventListener("dragend", function () {
+        dragState = null;
+        card.classList.remove("is-dragging");
+        $all(".bucket.is-dropzone").forEach(function (b) { b.classList.remove("is-dropzone"); });
+      });
+    }
     return card;
   }
 
@@ -1270,7 +1310,32 @@
 
   function loadAdmin() { renderAdmin(); }
 
-  function lockAdmin() { admin.unlocked = false; admin.pwd = ""; renderAdmin(); }
+  // ---- verrouillage automatique après inactivité -------------------------
+  var IDLE_MS = 20 * 60 * 1000;   // 20 min sans interaction → déconnexion
+  var idleTimer = null;
+  var adminLockReason = "";
+  var IDLE_EVENTS = ["mousemove", "mousedown", "keydown", "touchstart", "scroll"];
+
+  function resetIdle() {
+    if (!isAdmin()) return;
+    if (idleTimer) clearTimeout(idleTimer);
+    idleTimer = setTimeout(function () { lockAdmin(true); }, IDLE_MS);
+  }
+  function startIdleWatch() {
+    IDLE_EVENTS.forEach(function (ev) { document.addEventListener(ev, resetIdle, { passive: true }); });
+    resetIdle();
+  }
+  function stopIdleWatch() {
+    if (idleTimer) { clearTimeout(idleTimer); idleTimer = null; }
+    IDLE_EVENTS.forEach(function (ev) { document.removeEventListener(ev, resetIdle); });
+  }
+
+  function lockAdmin(idle) {
+    admin.unlocked = false; admin.pwd = "";
+    stopIdleWatch();
+    adminLockReason = (idle === true) ? "Session verrouillée après 20 min d'inactivité. Reconnecte-toi." : "";
+    renderAdmin();
+  }
 
   function workerReady() {
     return !!config.worker_url && config.worker_url.indexOf("VOTRE-SOUS-DOMAINE") === -1;
@@ -1309,6 +1374,7 @@
     var card = el("div", { class: "card" });
     var pwd = el("input", { class: "input", id: "adminPwd", type: "password", placeholder: "\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022", autocomplete: "off" });
     var note = el("div", { class: "notice" });
+    if (adminLockReason) { showNotice(note, "err", adminLockReason); adminLockReason = ""; }
     var loginBtn = el("button", { class: "btn", text: "Se connecter" });
 
     function tryUnlock() {
@@ -1322,7 +1388,7 @@
       })
         .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { return { ok: r.ok, status: r.status, data: d }; }); })
         .then(function (res) {
-          if (res.ok && res.data && res.data.success) { admin.pwd = pw; admin.unlocked = true; renderAdmin(); }
+          if (res.ok && res.data && res.data.success) { admin.pwd = pw; admin.unlocked = true; startIdleWatch(); renderAdmin(); }
           else if (res.status === 401) { showNotice(note, "err", (res.data && res.data.error) || "Mot de passe refusé."); }
           else if (res.status === 429) { showNotice(note, "err", "Trop de tentatives. Réessaie plus tard."); }
           else { showNotice(note, "err", (res.data && res.data.error) || ("Échec (HTTP " + res.status + ")")); }
@@ -1483,7 +1549,7 @@
           if (typeof onSuccess === "function") onSuccess();
         } else if (res.status === 401) {
           setStatus(status, "err", "Session expirée. Reconnecte-toi dans l'onglet Admin.");
-          admin.unlocked = false; admin.pwd = "";
+          admin.unlocked = false; admin.pwd = ""; stopIdleWatch();
         } else if (res.status === 429) {
           setStatus(status, "err", "Trop de tentatives. Réessaie dans quelques minutes.");
         } else {
@@ -1506,7 +1572,7 @@
       .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { return { ok: r.ok, status: r.status, data: d }; }); })
       .then(function (res) {
         if (res.ok && res.data && res.data.messages) renderMessages(res.data.messages);
-        else if (res.status === 401) { admin.unlocked = false; admin.pwd = ""; renderAdmin(); }
+        else if (res.status === 401) { lockAdmin(); }
         else renderMessagesError((res.data && res.data.error) || "Impossible de charger les messages.");
       })
       .catch(function () { renderMessagesError("Worker injoignable."); });

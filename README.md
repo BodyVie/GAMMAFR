@@ -22,10 +22,11 @@ Dépôt GitHub ──► fichiers JSON mis à jour ──► le site se rafraîc
 
 ```
 gamma-fr/
-├── index.html            # page unique, 5 onglets
+├── index.html            # page unique, 6 onglets
 ├── css/
 │   └── style.css         # thème « PDA de la Zone »
 ├── js/
+│   ├── core.js           # logique pure testable (priorités, versions) — sans DOM
 │   ├── app.js            # logique (onglets, configurateur, recherche, admin…)
 │   └── zip.js            # écriture ZIP en JS pur (sans dépendance)
 ├── data/
@@ -33,23 +34,34 @@ gamma-fr/
 │   ├── patches.json      # manifeste GÉNÉRÉ (ne pas éditer à la main)
 │   ├── liste.json        # liste numérotée
 │   ├── changelog.json    # journal des versions
+│   ├── planner.json      # planificateur (onglet Planner)
 │   └── config.json       # titre, Formspree, Worker, chemins du configurateur
+├── assets/               # favicon, icônes PWA, carte de partage (og-image)
 ├── tools/
 │   └── build_manifest.py # génère data/patches.json depuis PatchVF/
+├── tests/                # tests unitaires (node --test, sans dépendance)
 ├── PatchVF/              # contenu de la traduction (voir §8)
 │   ├── MainFile/             # squelette copié tel quel dans l'archive
 │   ├── GAMMA base/           # fichiers FR de base
 │   ├── GAMMA tweak/<patch>/   # XML + patch.json
 │   └── GAMMA extra/<patch>/   # XML + patch.json
 ├── .github/workflows/
-│   └── build-manifest.yml # régénère le manifeste à chaque push (option B)
+│   ├── build-manifest.yml # régénère le manifeste à chaque push (option B)
+│   └── test.yml           # lance les tests unitaires (CI)
+├── manifest.webmanifest  # PWA : installable / hors-ligne
+├── sw.js                 # service worker (cache hors-ligne)
 ├── worker.js             # Cloudflare Worker (à déployer à part)
+├── package.json          # script de test (npm test → node --test)
 └── README.md
 ```
 
 Les onglets : **Files** (lisez-moi + configurateur d'installation), **Liste**
-(liste filtrable), **Changelog**, **Contact** (Formspree), **Admin** (éditeurs
-JSON protégés).
+(liste filtrable), **Changelog**, **Planner** (planificateur, édition admin),
+**Contact**, **Admin** (éditeurs JSON protégés).
+
+Le site est une **PWA** : `manifest.webmanifest` + `sw.js` le rendent
+installable et consultable hors-ligne (le configurateur et les données déjà
+visitées restent disponibles ; les appels au Worker, eux, requièrent le réseau).
 
 ---
 
@@ -66,6 +78,19 @@ python3 -m http.server 8000
 
 L'onglet Admin ne fonctionnera vraiment qu'une fois le Worker déployé (étape 4),
 mais le reste du site est entièrement testable en local.
+
+### Tests unitaires
+
+La logique pure (`js/core.js`, `js/zip.js`) est couverte par des tests via le
+runner natif de Node (aucune dépendance, aucune installation) :
+
+```bash
+node --test        # ou : npm test
+```
+
+Couvre la résolution des conflits par priorité, la comparaison de versions et la
+génération du ZIP (CRC32 + structure de l'archive). La CI les rejoue à chaque
+push/PR (`.github/workflows/test.yml`).
 
 ---
 

@@ -1,0 +1,9 @@
+{
+  "name": "gammafr",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site statique + Cloudflare Worker — localisation française du modpack S.T.A.L.K.E.R. G.A.M.M.A.",
+  "scripts": {
+    "test": "node --test"
+  }
+}

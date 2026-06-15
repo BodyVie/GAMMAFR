@@ -609,8 +609,13 @@ body.modal-open { overflow: hidden; }
   border: 1px solid var(--line); border-radius: 999px;
   min-width: 22px; text-align: center; padding: 1px 7px;
 }
-.bucket__cards { display: flex; flex-direction: column; gap: 8px; overflow-y: auto; }
+.bucket__cards { display: flex; flex-direction: column; gap: 8px; overflow-y: auto; min-height: 40px; }
 .bucket__add { align-self: stretch; }
+
+/* glisser-déposer (mode admin) */
+.tcard[draggable="true"] { cursor: grab; }
+.tcard.is-dragging { opacity: 0.4; cursor: grabbing; }
+.bucket.is-dropzone { outline: 1px dashed var(--rad); outline-offset: -3px; background: var(--rad-soft); }
 
 .tcard {
   text-align: left; cursor: pointer; width: 100%;
