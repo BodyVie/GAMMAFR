@@ -867,6 +867,53 @@
     cfgCard.appendChild(el("div", { class: "editor__foot" }, [cfgSave, cfgStatus]));
     wrap.appendChild(cfgCard);
 
+    // ---- générateur de patch.json (téléchargement local, sans Worker) ----
+    wrap.appendChild(el("div", { class: "stencil stencil--muted", style: "margin-top:24px", text: "Générateur de patch.json" }));
+    var pgCard = el("div", { class: "card" });
+    pgCard.appendChild(el("p", { class: "admin-note", text:
+      "Génère le patch.json à déposer dans PatchVF/GAMMA tweak/<id>/ ou PatchVF/GAMMA extra/<id>/, à côté du ou des XML (le nom du dossier <id> sert d'identifiant). data/patches.json est ensuite régénéré automatiquement par GitHub." }));
+
+    var today = new Date();
+    var todayStr = today.getFullYear() + "-" + pad(today.getMonth() + 1) + "-" + pad(today.getDate());
+
+    var pgName = el("input", { class: "input", type: "text", placeholder: "Dialogues crus" });
+    var pgDesc = el("textarea", { class: "textarea", rows: "3", placeholder: "Registre familier et vulgaire pour les dialogues PNJ…" });
+    var pgUrl  = el("input", { class: "input", type: "text", placeholder: "https://www.moddb.com/mods/…" });
+    var pgPrio = el("input", { class: "input", type: "number", inputmode: "numeric", value: "50" });
+    var pgDate = el("input", { class: "input", type: "date", value: todayStr });
+    var pgVer  = el("input", { class: "input", type: "text", placeholder: "1.0.0" });
+
+    pgCard.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Nom" }), pgName]));
+    pgCard.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label" }, ["Description ", el("span", { class: "field__opt", text: "facultatif" })]), pgDesc]));
+    pgCard.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label" }, ["URL ", el("span", { class: "field__opt", text: "facultatif" })]), pgUrl]));
+    pgCard.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label" }, ["Priorité ", el("span", { class: "field__opt", text: "le plus haut gagne" })]), pgPrio]));
+    pgCard.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Date" }), pgDate]));
+    pgCard.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Version" }), pgVer]));
+
+    var pgStatus = el("span", { class: "editor__status" });
+    var pgBtn = el("button", { class: "btn btn--amber", text: "Télécharger patch.json" });
+    pgBtn.addEventListener("click", function () {
+      var name = pgName.value.trim();
+      if (!name) { setStatus(pgStatus, "err", "Renseigne au moins le nom du patch."); return; }
+      var prio = parseInt(pgPrio.value, 10); if (isNaN(prio)) prio = 0;
+      var obj = {
+        name: name,
+        description: pgDesc.value.trim(),
+        date: pgDate.value.trim(),
+        version: pgVer.value.trim(),
+        url: pgUrl.value.trim(),
+        priority: prio
+      };
+      var content = JSON.stringify(obj, null, 2) + "\n";
+      var url = URL.createObjectURL(new Blob([content], { type: "application/json" }));
+      var a = el("a", { href: url, download: "patch.json" });
+      document.body.appendChild(a); a.click(); document.body.removeChild(a);
+      setTimeout(function () { URL.revokeObjectURL(url); }, 8000);
+      setStatus(pgStatus, "ok", "patch.json téléchargé.");
+    });
+    pgCard.appendChild(el("div", { class: "editor__foot" }, [pgBtn, pgStatus]));
+    wrap.appendChild(pgCard);
+
     // ---- texte du lisez-moi (onglet Files) ----
     wrap.appendChild(el("div", { class: "stencil stencil--muted", style: "margin-top:24px", text: "Texte du lisez-moi (onglet Files)" }));
     var rmCard = el("div", { class: "card" });
