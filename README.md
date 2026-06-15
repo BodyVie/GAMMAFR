@@ -48,8 +48,7 @@ gamma-fr/
 ├── .github/workflows/
 │   ├── build-manifest.yml # régénère le manifeste à chaque push (option B)
 │   └── test.yml           # lance les tests unitaires (CI)
-├── manifest.webmanifest  # PWA : installable / hors-ligne
-├── sw.js                 # service worker (cache hors-ligne)
+├── sw.js                 # (neutralisé) désinscrit un ancien service worker
 ├── worker.js             # Cloudflare Worker (à déployer à part)
 ├── package.json          # script de test (npm test → node --test)
 └── README.md
@@ -58,10 +57,6 @@ gamma-fr/
 Les onglets : **Files** (lisez-moi + configurateur d'installation), **Liste**
 (liste filtrable), **Changelog**, **Planner** (planificateur, édition admin),
 **Contact**, **Admin** (éditeurs JSON protégés).
-
-Le site est une **PWA** : `manifest.webmanifest` + `sw.js` le rendent
-installable et consultable hors-ligne (le configurateur et les données déjà
-visitées restent disponibles ; les appels au Worker, eux, requièrent le réseau).
 
 ---
 
