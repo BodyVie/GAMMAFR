@@ -39,7 +39,6 @@ const MOTIFS = ["Suggestion", "Correction", "Autre"];
 const MAX_PSEUDO = 80, MAX_OBJET = 200, MAX_MSG = 5000;
 const MAX_CONTACT = 8;          // messages max par IP et par fenêtre
 const CONTACT_WINDOW = 60 * 60; // fenêtre contact, en secondes
-const MSG_TTL = 90 * 24 * 60 * 60; // messages auto-purgés après 90 jours (anti-accumulation)
 
 // Repli mémoire si KV non configuré (best-effort, non partagé entre isolats).
 const memFails = new Map(); // ip -> { count, exp }
@@ -213,7 +212,7 @@ async function handleContact(request, env, origin) {
 
   const id = new Date().toISOString() + "_" + Math.random().toString(36).slice(2, 8);
   const rec = { date: new Date().toISOString(), pseudo: pseudo, motif: motif, objet: objet, message: message };
-  await kv.put("msg:" + id, JSON.stringify(rec), { expirationTtl: MSG_TTL });
+  await kv.put("msg:" + id, JSON.stringify(rec));
 
   return json({ success: true }, 200, origin);
 }
