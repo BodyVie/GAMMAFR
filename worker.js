@@ -28,7 +28,7 @@
  */
 
 // Seuls ces fichiers peuvent être écrits (anti-traversée de chemin / écriture arbitraire).
-const ALLOWED_FILES = ["files.json", "liste.json", "changelog.json", "config.json"];
+const ALLOWED_FILES = ["files.json", "liste.json", "changelog.json", "config.json", "planner.json"];
 
 const MAX_FAILS = 5;          // blocage après 5 échecs
 const FAIL_WINDOW = 15 * 60;  // fenêtre glissante, en secondes

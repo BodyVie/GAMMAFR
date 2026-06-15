@@ -1,0 +1,16 @@
+{
+  "generated": "2026-06-15T16:40:00+00:00",
+  "labels": [
+    { "id": "lbl_urgent", "name": "Urgent", "color": "rust" },
+    { "id": "lbl_bug", "name": "Bug", "color": "amber" },
+    { "id": "lbl_trad", "name": "Traduction", "color": "green" },
+    { "id": "lbl_idee", "name": "Idée", "color": "cyan" },
+    { "id": "lbl_bloque", "name": "Bloqué", "color": "violet" },
+    { "id": "lbl_valide", "name": "Validé", "color": "ok" }
+  ],
+  "categories": [
+    { "id": "cat_todo", "name": "À faire", "tickets": [] },
+    { "id": "cat_doing", "name": "En cours", "tickets": [] },
+    { "id": "cat_done", "name": "Terminé", "tickets": [] }
+  ]
+}

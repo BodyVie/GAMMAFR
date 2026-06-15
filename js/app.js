@@ -21,7 +21,7 @@
 
   // session admin (en mémoire uniquement) + cache des données éditables
   var admin = { pwd: "", unlocked: false };
-  var data = { liste: null, changelog: null };
+  var data = { liste: null, changelog: null, planner: null };
 
   // ---- petits utilitaires ------------------------------------------------
   function el(tag, props, children) {
@@ -95,6 +95,7 @@
     if (name === "files" && !loaded.files) loadFiles();
     if (name === "liste") loadListe();
     if (name === "changelog") loadChangelog();
+    if (name === "planner") loadPlanner();
     if (name === "admin") loadAdmin();
   }
 
@@ -690,6 +691,453 @@
       if (x !== y) return x - y;
     }
     return 0;
+  }
+
+  /* =======================================================================
+     ONGLET PLANNER — tableau de bord façon « 365 Planner »
+     Lecture publique (catégories, tickets, étiquettes, échéances, actions,
+     commentaires). Édition réservée à l'admin déverrouillé, persistée en un
+     seul fichier data/planner.json via le Worker (comme Liste / Changelog).
+     ======================================================================= */
+  var plannerDraft = null;                       // copie de travail (mode admin)
+  var PLABELS = ["green", "amber", "rust", "ok", "cyan", "violet"];
+  var PSTATUS = { todo: "À faire", doing: "En cours", done: "Terminé" };
+
+  function plUid(prefix) {
+    return prefix + "_" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+  }
+  function plClone(o) { return JSON.parse(JSON.stringify(o)); }
+
+  function normalizeTicket(t) {
+    t = t && typeof t === "object" ? t : {};
+    return {
+      id: t.id || plUid("tk"),
+      title: String(t.title || ""),
+      description: String(t.description || ""),
+      status: PSTATUS[t.status] ? t.status : "todo",
+      due: String(t.due || ""),
+      labels: Array.isArray(t.labels) ? t.labels.slice() : [],
+      actions: (Array.isArray(t.actions) ? t.actions : []).map(function (a) {
+        a = a || {};
+        return { id: a.id || plUid("ac"), text: String(a.text || ""), done: !!a.done };
+      }),
+      comments: (Array.isArray(t.comments) ? t.comments : []).map(function (c) {
+        c = c || {};
+        return { id: c.id || plUid("cm"), author: String(c.author || "Admin"), date: String(c.date || ""), text: String(c.text || "") };
+      }),
+      created: String(t.created || "")
+    };
+  }
+
+  function normalizePlanner(o) {
+    o = o && typeof o === "object" ? o : {};
+    return {
+      labels: (Array.isArray(o.labels) ? o.labels : []).map(function (l) {
+        l = l || {};
+        return { id: l.id || plUid("lbl"), name: String(l.name || ""), color: PLABELS.indexOf(l.color) !== -1 ? l.color : "green" };
+      }),
+      categories: (Array.isArray(o.categories) ? o.categories : []).map(function (c) {
+        c = c || {};
+        return { id: c.id || plUid("cat"), name: String(c.name || ""), tickets: (Array.isArray(c.tickets) ? c.tickets : []).map(normalizeTicket) };
+      })
+    };
+  }
+
+  function findLabel(p, id) {
+    for (var i = 0; i < p.labels.length; i++) if (p.labels[i].id === id) return p.labels[i];
+    return null;
+  }
+  function isOverdue(due) {
+    if (!due) return false;
+    var d = new Date(due + "T23:59:59");
+    return !isNaN(d.getTime()) && d.getTime() < Date.now();
+  }
+
+  function loadPlanner() {
+    var host = $("#plannerHost");
+    if (data.planner !== null) { renderPlanner(); return; }
+    fetchJSON("data/planner.json")
+      .then(function (o) { data.planner = normalizePlanner(o); renderPlanner(); })
+      .catch(function (e) {
+        clear(host);
+        host.appendChild(el("p", { class: "list-empty", text: "Impossible de charger le planner (" + e.message + ")." }));
+      });
+  }
+
+  function renderPlanner() {
+    if (isAdmin()) { plannerDraft = plClone(data.planner); renderPlannerAdmin(); }
+    else renderPlannerReadonly();
+  }
+
+  function renderPlannerReadonly() {
+    var host = $("#plannerHost");
+    clear(host);
+    if (!data.planner.categories.length) {
+      host.appendChild(el("p", { class: "list-empty", text: "Le planificateur est vide pour le moment." }));
+      return;
+    }
+    host.appendChild(buildBoard(data.planner, false));
+  }
+
+  function renderPlannerAdmin() {
+    var host = $("#plannerHost");
+    clear(host);
+    host.appendChild(el("div", { class: "admin-bar" }, [
+      el("span", { class: "admin-bar__tag", text: "ADMIN" }),
+      el("span", { text: "Édition du planner — pense à enregistrer." }),
+      el("button", { class: "btn btn--ghost btn--mini", text: "Gérer les étiquettes", onClick: openLabelManager })
+    ]));
+    host.appendChild(el("div", { id: "plannerBoardWrap" }));
+    var status = el("span", { class: "editor__status" });
+    var save = el("button", { class: "btn btn--amber", text: "Enregistrer le planner" });
+    save.addEventListener("click", function () { savePlanner(status, save); });
+    host.appendChild(el("div", { class: "editor__foot" }, [save, status]));
+    paintBoard();
+  }
+
+  function paintBoard() {
+    var wrap = $("#plannerBoardWrap");
+    if (!wrap) return;
+    clear(wrap);
+    wrap.appendChild(buildBoard(plannerDraft, true));
+  }
+
+  function buildBoard(p, editable) {
+    var board = el("div", { class: "board" });
+    p.categories.forEach(function (cat) { board.appendChild(buildBucket(p, cat, editable)); });
+    if (editable) {
+      board.appendChild(el("div", { class: "bucket bucket--add" }, [
+        el("button", { class: "btn btn--ghost btn--wide", text: "+ Catégorie", onClick: function () {
+          plannerDraft.categories.push({ id: plUid("cat"), name: "Nouvelle catégorie", tickets: [] });
+          paintBoard();
+        } })
+      ]));
+    }
+    return board;
+  }
+
+  function buildBucket(p, cat, editable) {
+    var head;
+    if (editable) {
+      var nameInp = el("input", { class: "bucket__edit", type: "text", value: cat.name, placeholder: "Catégorie…" });
+      nameInp.addEventListener("input", function () { cat.name = nameInp.value; });
+      var del = el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer la catégorie", text: "✕", onClick: function () {
+        if (cat.tickets.length && !window.confirm("Supprimer « " + (cat.name || "cette catégorie") + " » et ses " + cat.tickets.length + " ticket(s) ?")) return;
+        var i = plannerDraft.categories.indexOf(cat);
+        if (i !== -1) plannerDraft.categories.splice(i, 1);
+        paintBoard();
+      } });
+      head = el("div", { class: "bucket__head" }, [nameInp, el("span", { class: "bucket__count", text: String(cat.tickets.length) }), del]);
+    } else {
+      head = el("div", { class: "bucket__head" }, [
+        el("span", { class: "bucket__name", text: cat.name || "Sans nom" }),
+        el("span", { class: "bucket__count", text: String(cat.tickets.length) })
+      ]);
+    }
+
+    var cards = el("div", { class: "bucket__cards" });
+    cat.tickets.forEach(function (tk) { cards.appendChild(buildCard(p, cat, tk, editable)); });
+
+    var bucket = el("div", { class: "bucket" }, [head, cards]);
+    if (editable) {
+      bucket.appendChild(el("button", { class: "btn btn--ghost btn--mini bucket__add", text: "+ ticket", onClick: function () {
+        var tk = normalizeTicket({ created: new Date().toISOString() });
+        cat.tickets.push(tk);
+        openTicketEdit(cat, tk);
+      } }));
+    }
+    return bucket;
+  }
+
+  function buildCard(p, cat, tk, editable) {
+    var children = [];
+    if (tk.labels.length) {
+      var lab = el("div", { class: "tcard__labels" });
+      tk.labels.forEach(function (lid) { var l = findLabel(p, lid); if (l) lab.appendChild(el("span", { class: "plabel plabel--" + l.color, text: l.name })); });
+      children.push(lab);
+    }
+    children.push(el("div", { class: "tcard__title", text: tk.title || "(sans titre)" }));
+
+    var foot = el("div", { class: "tcard__foot" }, [el("span", { class: "tcard__status tcard__status--" + tk.status, text: PSTATUS[tk.status] })]);
+    if (tk.due) {
+      var late = tk.status !== "done" && isOverdue(tk.due);
+      foot.appendChild(el("span", { class: "pbadge" + (late ? " pbadge--late" : ""), text: tk.due }));
+    }
+    if (tk.actions.length) {
+      var done = tk.actions.filter(function (a) { return a.done; }).length;
+      foot.appendChild(el("span", { class: "pbadge", text: "✓ " + done + "/" + tk.actions.length }));
+    }
+    if (tk.comments.length) foot.appendChild(el("span", { class: "pbadge", text: tk.comments.length + " comm." }));
+    children.push(foot);
+
+    var card = el("div", { class: "tcard tcard--" + tk.status, tabindex: "0", role: "button" }, children);
+    function open() { if (editable) openTicketEdit(cat, tk); else openTicketView(tk); }
+    card.addEventListener("click", open);
+    card.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } });
+    return card;
+  }
+
+  /* ---- fenêtre modale partagée ---- */
+  var modalOnClose = null;
+  function openModal(content, onClose) {
+    closeModal();
+    modalOnClose = onClose || null;
+    var panel = el("div", { class: "modal__panel" }, [content]);
+    var backdrop = el("div", { class: "modal", id: "plannerModal" }, [panel]);
+    backdrop.addEventListener("mousedown", function (e) { if (e.target === backdrop) closeModal(); });
+    document.addEventListener("keydown", modalEsc);
+    document.body.appendChild(backdrop);
+    document.body.classList.add("modal-open");
+  }
+  function modalEsc(e) { if (e.key === "Escape") closeModal(); }
+  function closeModal() {
+    var m = $("#plannerModal");
+    if (!m) return;
+    if (m.parentNode) m.parentNode.removeChild(m);
+    document.removeEventListener("keydown", modalEsc);
+    document.body.classList.remove("modal-open");
+    var cb = modalOnClose; modalOnClose = null;
+    if (cb) cb();
+  }
+
+  function openTicketView(tk) {
+    var p = data.planner;
+    var content = el("div", { class: "modal__inner" });
+    content.appendChild(el("div", { class: "modal__head" }, [
+      el("h3", { class: "modal__title", text: tk.title || "(sans titre)" }),
+      el("button", { class: "btn btn--ghost btn--icon", title: "Fermer", text: "✕", onClick: closeModal })
+    ]));
+    var body = el("div", { class: "modal__body" });
+    content.appendChild(body);
+
+    var meta = el("div", { class: "tmeta" }, [el("span", { class: "tcard__status tcard__status--" + tk.status, text: PSTATUS[tk.status] })]);
+    if (tk.due) meta.appendChild(el("span", { class: "pbadge" + (tk.status !== "done" && isOverdue(tk.due) ? " pbadge--late" : ""), text: "Échéance : " + tk.due }));
+    body.appendChild(meta);
+
+    if (tk.labels.length) {
+      var lab = el("div", { class: "tcard__labels" });
+      tk.labels.forEach(function (lid) { var l = findLabel(p, lid); if (l) lab.appendChild(el("span", { class: "plabel plabel--" + l.color, text: l.name })); });
+      body.appendChild(lab);
+    }
+    if (tk.description) body.appendChild(el("p", { class: "tdesc", text: tk.description }));
+
+    if (tk.actions.length) {
+      body.appendChild(el("div", { class: "tsub", text: "Actions" }));
+      var ul = el("div", { class: "pchecks" });
+      tk.actions.forEach(function (a) {
+        ul.appendChild(el("div", { class: "pcheck" + (a.done ? " is-done" : "") }, [
+          el("span", { class: "pcheck__box", text: a.done ? "✓" : "·" }),
+          el("span", { class: "pcheck__text", text: a.text })
+        ]));
+      });
+      body.appendChild(ul);
+    }
+
+    body.appendChild(el("div", { class: "tsub", text: "Commentaires (" + tk.comments.length + ")" }));
+    if (tk.comments.length) {
+      var cbox = el("div", { class: "pcomments" });
+      tk.comments.forEach(function (c) {
+        cbox.appendChild(el("div", { class: "pcomment" }, [
+          el("div", { class: "pcomment__meta", text: (c.author || "Admin") + " · " + fmtDate(c.date) }),
+          el("div", { class: "pcomment__text", text: c.text })
+        ]));
+      });
+      body.appendChild(cbox);
+    } else {
+      body.appendChild(el("p", { class: "list-empty", text: "Aucun commentaire." }));
+    }
+    openModal(content, null);
+  }
+
+  function openTicketEdit(cat, tk) {
+    var p = plannerDraft;
+    var content = el("div", { class: "modal__inner" });
+
+    var titleInp = el("input", { class: "input modal__titleinput", type: "text", value: tk.title, placeholder: "Titre du ticket" });
+    titleInp.addEventListener("input", function () { tk.title = titleInp.value; });
+    content.appendChild(el("div", { class: "modal__head" }, [
+      titleInp,
+      el("button", { class: "btn btn--ghost btn--icon", title: "Fermer", text: "✕", onClick: closeModal })
+    ]));
+
+    var body = el("div", { class: "modal__body" });
+    content.appendChild(body);
+
+    var status = el("select", { class: "input select input--sm" });
+    Object.keys(PSTATUS).forEach(function (k) {
+      var o = el("option", { value: k, text: PSTATUS[k] });
+      if (tk.status === k) o.selected = true;
+      status.appendChild(o);
+    });
+    status.addEventListener("change", function () { tk.status = status.value; });
+    var due = el("input", { class: "input input--sm", type: "date", value: tk.due || "" });
+    due.addEventListener("input", function () { tk.due = due.value; });
+    body.appendChild(el("div", { class: "frow" }, [
+      el("label", { class: "field field--inline" }, [el("span", { class: "field__label", text: "État" }), status]),
+      el("label", { class: "field field--inline" }, [el("span", { class: "field__label", text: "Date de réalisation" }), due])
+    ]));
+
+    var desc = el("textarea", { class: "textarea", rows: "3", placeholder: "Description…" });
+    desc.value = tk.description;
+    desc.addEventListener("input", function () { tk.description = desc.value; });
+    body.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Description" }), desc]));
+
+    body.appendChild(el("span", { class: "field__label", text: "Étiquettes" }));
+    var labWrap = el("div", { class: "labelpick" });
+    body.appendChild(labWrap);
+
+    body.appendChild(el("div", { class: "tsub", text: "Actions" }));
+    var actBox = el("div", { class: "pchecks" });
+    body.appendChild(actBox);
+
+    body.appendChild(el("div", { class: "tsub", text: "Commentaires" }));
+    var comBox = el("div", { class: "pcomments" });
+    body.appendChild(comBox);
+    var cAuthor = el("input", { class: "input input--sm", type: "text", value: "Admin", placeholder: "Auteur" });
+    var cText = el("input", { class: "input", type: "text", placeholder: "Ajouter un commentaire…" });
+    var cAdd = el("button", { class: "btn btn--ghost btn--mini", text: "Commenter" });
+    body.appendChild(el("div", { class: "commentadd" }, [cAuthor, cText, cAdd]));
+
+    content.appendChild(el("div", { class: "modal__foot" }, [
+      el("button", { class: "btn btn--ghost btn--danger", text: "Supprimer le ticket", onClick: function () {
+        if (!window.confirm("Supprimer ce ticket ?")) return;
+        var i = cat.tickets.indexOf(tk);
+        if (i !== -1) cat.tickets.splice(i, 1);
+        closeModal();
+      } }),
+      el("span", { class: "muted-note", text: "Pense à « Enregistrer le planner »." }),
+      el("button", { class: "btn btn--amber", text: "Fermer", onClick: closeModal })
+    ]));
+
+    function paintLabels() {
+      clear(labWrap);
+      if (!p.labels.length) { labWrap.appendChild(el("span", { class: "muted-note", text: "Aucune étiquette (voir « Gérer les étiquettes »)." })); return; }
+      p.labels.forEach(function (l) {
+        var on = tk.labels.indexOf(l.id) !== -1;
+        var chip = el("button", { class: "plabel plabel--" + l.color + (on ? " is-on" : " is-off"), text: l.name || "?" });
+        chip.addEventListener("click", function () {
+          var i = tk.labels.indexOf(l.id);
+          if (i === -1) tk.labels.push(l.id); else tk.labels.splice(i, 1);
+          paintLabels();
+        });
+        labWrap.appendChild(chip);
+      });
+    }
+    function paintActions() {
+      clear(actBox);
+      tk.actions.forEach(function (a, i) {
+        var toggle = el("button", { class: "pcheck__toggle" + (a.done ? " is-done" : ""), text: a.done ? "✓" : "·", title: "Cocher" });
+        toggle.addEventListener("click", function () { a.done = !a.done; paintActions(); });
+        var txt = el("input", { class: "input input--bare", type: "text", value: a.text, placeholder: "Action…" });
+        txt.addEventListener("input", function () { a.text = txt.value; });
+        var del = el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer", text: "✕", onClick: function () { tk.actions.splice(i, 1); paintActions(); } });
+        actBox.appendChild(el("div", { class: "pcheck pcheck--edit" + (a.done ? " is-done" : "") }, [toggle, txt, del]));
+      });
+      actBox.appendChild(el("button", { class: "btn btn--ghost btn--mini", text: "+ action", onClick: function () { tk.actions.push({ id: plUid("ac"), text: "", done: false }); paintActions(); } }));
+    }
+    function paintComments() {
+      clear(comBox);
+      tk.comments.forEach(function (c, i) {
+        comBox.appendChild(el("div", { class: "pcomment" }, [
+          el("div", { class: "pcomment__meta" }, [
+            el("span", { text: (c.author || "Admin") + " · " + fmtDate(c.date) }),
+            el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer", text: "✕", onClick: function () { tk.comments.splice(i, 1); paintComments(); } })
+          ]),
+          el("div", { class: "pcomment__text", text: c.text })
+        ]));
+      });
+      if (!tk.comments.length) comBox.appendChild(el("p", { class: "list-empty", text: "Aucun commentaire." }));
+    }
+    cAdd.addEventListener("click", function () {
+      var t = cText.value.trim(); if (!t) return;
+      tk.comments.push({ id: plUid("cm"), author: cAuthor.value.trim() || "Admin", date: new Date().toISOString(), text: t });
+      cText.value = ""; paintComments();
+    });
+    cText.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); cAdd.click(); } });
+
+    paintLabels(); paintActions(); paintComments();
+    openModal(content, paintBoard);
+  }
+
+  function openLabelManager() {
+    var p = plannerDraft;
+    var content = el("div", { class: "modal__inner" });
+    content.appendChild(el("div", { class: "modal__head" }, [
+      el("h3", { class: "modal__title", text: "Étiquettes" }),
+      el("button", { class: "btn btn--ghost btn--icon", title: "Fermer", text: "✕", onClick: closeModal })
+    ]));
+    var body = el("div", { class: "modal__body" });
+    content.appendChild(body);
+    var listBox = el("div", { class: "labellist" });
+    body.appendChild(listBox);
+
+    function paint() {
+      clear(listBox);
+      p.labels.forEach(function (l, i) {
+        var name = el("input", { class: "input input--sm", type: "text", value: l.name, placeholder: "Nom de l'étiquette" });
+        name.addEventListener("input", function () { l.name = name.value; });
+        var colors = el("div", { class: "colorpick" });
+        PLABELS.forEach(function (col) {
+          var sw = el("button", { class: "swatch plabel--" + col + (l.color === col ? " is-on" : ""), title: col, "aria-label": col });
+          sw.addEventListener("click", function () { l.color = col; paint(); });
+          colors.appendChild(sw);
+        });
+        var del = el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer", text: "✕", onClick: function () {
+          p.categories.forEach(function (c) { c.tickets.forEach(function (t) { var k = t.labels.indexOf(l.id); if (k !== -1) t.labels.splice(k, 1); }); });
+          p.labels.splice(i, 1); paint();
+        } });
+        listBox.appendChild(el("div", { class: "labelrow" }, [name, colors, del]));
+      });
+      if (!p.labels.length) listBox.appendChild(el("p", { class: "list-empty", text: "Aucune étiquette." }));
+    }
+    paint();
+
+    body.appendChild(el("button", { class: "btn btn--ghost btn--mini", text: "+ étiquette", onClick: function () {
+      p.labels.push({ id: plUid("lbl"), name: "", color: PLABELS[p.labels.length % PLABELS.length] }); paint();
+    } }));
+
+    content.appendChild(el("div", { class: "modal__foot" }, [
+      el("span", { class: "muted-note", text: "Pense à « Enregistrer le planner »." }),
+      el("button", { class: "btn btn--amber", text: "Fermer", onClick: closeModal })
+    ]));
+    openModal(content, paintBoard);
+  }
+
+  function savePlanner(status, btn) {
+    var d = plannerDraft;
+    var labels = d.labels.filter(function (l) { return (l.name || "").trim() !== ""; })
+      .map(function (l) { return { id: l.id, name: l.name.trim(), color: l.color }; });
+    var kept = {};
+    labels.forEach(function (l) { kept[l.id] = true; });
+    var clean = {
+      generated: new Date().toISOString().replace(/\.\d+Z$/, "+00:00"),
+      labels: labels,
+      categories: d.categories.map(function (c) {
+        return {
+          id: c.id,
+          name: (c.name || "").trim(),
+          tickets: c.tickets.filter(function (t) { return (t.title || "").trim() !== ""; }).map(function (t) {
+            return {
+              id: t.id,
+              title: t.title.trim(),
+              description: (t.description || "").trim(),
+              status: t.status,
+              due: (t.due || "").trim(),
+              labels: t.labels.filter(function (lid) { return kept[lid]; }),
+              actions: t.actions.filter(function (a) { return (a.text || "").trim() !== ""; })
+                .map(function (a) { return { id: a.id, text: a.text.trim(), done: !!a.done }; }),
+              comments: t.comments.map(function (cc) { return { id: cc.id, author: cc.author || "Admin", date: cc.date, text: cc.text }; }),
+              created: t.created || ""
+            };
+          })
+        };
+      })
+    };
+    saveData("planner.json", clean, status, btn, function () {
+      data.planner = normalizePlanner(clean);
+      plannerDraft = plClone(data.planner);
+      paintBoard();
+    });
   }
 
   /* =======================================================================
