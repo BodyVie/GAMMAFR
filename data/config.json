@@ -1,7 +1,6 @@
 {
-  "site_title": "GAMMAFR",
+  "site_title": "GAMMA.FR",
   "site_tagline": "Localisation française du modpack S.T.A.L.K.E.R. G.A.M.M.A.",
-  "formspree_id": "REMPLACER_PAR_VOTRE_ID",
   "worker_url": "https://gammafr-update.anthony-03052015.workers.dev",
   "patch_base": "PatchVF",
   "fra_path": "gamedata/configs/text/fra",
