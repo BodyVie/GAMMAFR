@@ -1342,7 +1342,7 @@
 
     host.appendChild(el("div", { class: "admin-warn" }, [
       el("span", { class: "admin-warn__tag", text: "PRIVÉ" }),
-      el("span", { text: "Le mot de passe n'est jamais stocké : il est vérifié par le Worker à la connexion et à chaque enregistrement." })
+      el("span", { text: "Accès réservé" })
     ]));
 
     if (!workerReady()) { host.appendChild(renderAdminNoWorker()); return; }
