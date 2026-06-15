@@ -67,12 +67,6 @@
     activateTab(initial);
     // bouton Précédent/Suivant du navigateur ⇄ onglet courant
     window.addEventListener("hashchange", function () { activateTab(tabFromHash() || "files"); });
-    // PWA : enregistre le service worker (hors-ligne) sans bloquer le rendu initial
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("load", function () {
-        navigator.serviceWorker.register("sw.js").catch(function () {});
-      });
-    }
   });
 
   function loadConfig() {
