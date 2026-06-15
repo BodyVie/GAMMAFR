@@ -26,7 +26,7 @@
           "DejaVu Sans Mono", Menlo, Consolas, monospace;
 
   --nav-h: 64px;
-  --maxw: 920px;
+  --maxw: 1200px;
   --radius: 3px;
 }
 
@@ -91,7 +91,7 @@ a:hover { text-decoration: underline; }
   gap: 18px;
 }
 
-.brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.brand { display: flex; align-items: center; gap: 12px; min-width: 0; flex: 1 1 auto; }
 
 .brand__glyph {
   width: 30px; height: 30px;
@@ -124,7 +124,7 @@ a:hover { text-decoration: underline; }
   text-overflow: ellipsis;
 }
 
-.nav { margin-left: auto; display: flex; align-items: center; gap: 2px; }
+.nav { margin-left: auto; flex: none; display: flex; align-items: center; gap: 2px; }
 
 .nav__btn {
   appearance: none;
@@ -546,6 +546,18 @@ a:hover { text-decoration: underline; }
    ONGLET PLANNER — tableau de bord « 365 », thème PDA
    ========================================================================= */
 body.modal-open { overflow: hidden; }
+
+/* Le planificateur déborde de la colonne de lecture, façon tableau de bord :
+   il s'étend sur presque toute la largeur de la fenêtre (~96vw), contrairement
+   aux autres onglets qui restent dans la colonne centrale.
+   Des marges négatives (et non un transform) recentrent le panneau sur le
+   viewport : la largeur est réelle, donc aucune barre de défilement parasite.
+   Comme .wrap est centré (margin: 0 auto), son centre coïncide avec celui du
+   viewport, quelle que soit sa largeur. */
+#panel-planner.is-active {
+  margin-left: calc(50% - 48vw);
+  margin-right: calc(50% - 48vw);
+}
 
 .board {
   display: flex;
