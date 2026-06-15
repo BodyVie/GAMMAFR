@@ -456,7 +456,8 @@ a:hover { text-decoration: underline; }
 /* =========================================================================
    ONGLET CONTACT
    ========================================================================= */
-.contact { max-width: 560px; }
+/* le formulaire occupe toute la colonne, comme les autres onglets */
+.contact { max-width: none; }
 .notice {
   margin-top: 16px;
   padding: 14px 16px;
