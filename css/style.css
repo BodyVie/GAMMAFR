@@ -543,6 +543,15 @@ a:hover { text-decoration: underline; }
 /* accessibilité */
 :focus-visible { outline: 2px solid var(--rad); outline-offset: 2px; }
 
+/* honeypot anti-spam : retiré du flux et inaccessible (souris, clavier, AT) */
+.hp {
+  position: absolute;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0; border: 0;
+  overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 /* =========================================================================
    ONGLET PLANNER — tableau de bord « 365 », thème PDA
    ========================================================================= */

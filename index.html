@@ -3,8 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Hub de la traduction française du modpack S.T.A.L.K.E.R. G.A.M.M.A.">
+  <meta name="description" content="Hub de la traduction française du modpack S.T.A.L.K.E.R. G.A.M.M.A. : configurateur d'installation, changelog et planificateur.">
   <title>GAMMA · Traduction FR</title>
+
+  <!-- Icônes -->
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <meta name="theme-color" content="#0c0e13">
+
+  <!-- Partage social (Open Graph / Twitter).
+       NOTE : adapte l'URL de base ci-dessous si tu utilises un domaine perso
+       ou un autre chemin GitHub Pages (3 occurrences : og:url, og:image, twitter:image). -->
+  <link rel="canonical" href="https://bodyvie.github.io/GAMMAFR/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="GAMMA.FR">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="GAMMA · Traduction FR">
+  <meta property="og:description" content="Hub de la traduction française du modpack S.T.A.L.K.E.R. G.A.M.M.A. : configurateur d'installation, changelog et planificateur.">
+  <meta property="og:url" content="https://bodyvie.github.io/GAMMAFR/">
+  <meta property="og:image" content="https://bodyvie.github.io/GAMMAFR/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="GAMMA.FR — localisation française du modpack S.T.A.L.K.E.R. G.A.M.M.A.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="GAMMA · Traduction FR">
+  <meta name="twitter:description" content="Hub de la traduction française du modpack S.T.A.L.K.E.R. G.A.M.M.A. : configurateur d'installation, changelog et planificateur.">
+  <meta name="twitter:image" content="https://bodyvie.github.io/GAMMAFR/assets/og-image.png">
+
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -20,14 +45,14 @@
         </span>
       </div>
 
-      <nav class="nav" aria-label="Navigation principale">
-        <button class="nav__btn is-active" data-tab="files">Files</button>
-        <button class="nav__btn" data-tab="liste">Liste</button>
-        <button class="nav__btn" data-tab="changelog">Changelog</button>
-        <button class="nav__btn" data-tab="planner">Planner</button>
-        <button class="nav__btn" data-tab="contact">Contact</button>
+      <nav class="nav" role="tablist" aria-label="Sections du site">
+        <button class="nav__btn is-active" id="tab-files" data-tab="files" role="tab" aria-selected="true" aria-controls="panel-files" tabindex="0">Files</button>
+        <button class="nav__btn" id="tab-liste" data-tab="liste" role="tab" aria-selected="false" aria-controls="panel-liste" tabindex="-1">Liste</button>
+        <button class="nav__btn" id="tab-changelog" data-tab="changelog" role="tab" aria-selected="false" aria-controls="panel-changelog" tabindex="-1">Changelog</button>
+        <button class="nav__btn" id="tab-planner" data-tab="planner" role="tab" aria-selected="false" aria-controls="panel-planner" tabindex="-1">Planner</button>
+        <button class="nav__btn" id="tab-contact" data-tab="contact" role="tab" aria-selected="false" aria-controls="panel-contact" tabindex="-1">Contact</button>
         <span class="nav__sep" aria-hidden="true"></span>
-        <button class="nav__btn nav__btn--admin" data-tab="admin">Admin</button>
+        <button class="nav__btn nav__btn--admin" id="tab-admin" data-tab="admin" role="tab" aria-selected="false" aria-controls="panel-admin" tabindex="-1">Admin</button>
       </nav>
     </div>
     <div class="hazard" aria-hidden="true"></div>
@@ -36,7 +61,7 @@
   <main class="wrap">
 
     <!-- ===================== FILES ===================== -->
-    <section class="panel is-active" id="panel-files" aria-label="Files">
+    <section class="panel is-active" id="panel-files" role="tabpanel" aria-labelledby="tab-files">
       <div class="stencil">Lisez-moi</div>
       <div class="briefing" id="briefing"><span class="loading">Chargement&#8230;</span></div>
 
@@ -45,27 +70,33 @@
     </section>
 
     <!-- ===================== LISTE ===================== -->
-    <section class="panel" id="panel-liste" aria-label="Liste">
+    <section class="panel" id="panel-liste" role="tabpanel" aria-labelledby="tab-liste">
       <div class="stencil">Fichiers traduits</div>
       <div id="listeHost"><span class="loading">Chargement&#8230;</span></div>
     </section>
 
     <!-- ===================== CHANGELOG ===================== -->
-    <section class="panel" id="panel-changelog" aria-label="Changelog">
+    <section class="panel" id="panel-changelog" role="tabpanel" aria-labelledby="tab-changelog">
       <div class="stencil">Journal des versions</div>
       <div id="logHost"><span class="loading">Chargement&#8230;</span></div>
     </section>
 
     <!-- ===================== PLANNER ===================== -->
-    <section class="panel" id="panel-planner" aria-label="Planner">
+    <section class="panel" id="panel-planner" role="tabpanel" aria-labelledby="tab-planner">
       <div class="stencil">Planificateur</div>
       <div id="plannerHost"><span class="loading">Chargement&#8230;</span></div>
     </section>
 
     <!-- ===================== CONTACT ===================== -->
-    <section class="panel" id="panel-contact" aria-label="Contact">
+    <section class="panel" id="panel-contact" role="tabpanel" aria-labelledby="tab-contact">
       <div class="stencil">Prendre contact</div>
       <div class="card contact">
+        <!-- Honeypot anti-spam : invisible pour les humains, rempli par les bots. -->
+        <div class="hp" aria-hidden="true">
+          <label>Ne pas remplir ce champ
+            <input type="text" id="cWebsite" name="website" tabindex="-1" autocomplete="off">
+          </label>
+        </div>
         <label class="field">
           <span class="field__label">Pseudo <span class="field__opt">facultatif</span></span>
           <input class="input" id="cName" type="text" placeholder="Ton pseudo de stalker" autocomplete="off">
@@ -92,7 +123,7 @@
     </section>
 
     <!-- ===================== ADMIN ===================== -->
-    <section class="panel" id="panel-admin" aria-label="Admin">
+    <section class="panel" id="panel-admin" role="tabpanel" aria-labelledby="tab-admin">
       <div class="stencil stencil--muted">Accès restreint</div>
       <div id="adminRoot"><span class="loading">Chargement&#8230;</span></div>
     </section>

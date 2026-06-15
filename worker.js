@@ -39,6 +39,7 @@ const MOTIFS = ["Suggestion", "Correction", "Autre"];
 const MAX_PSEUDO = 80, MAX_OBJET = 200, MAX_MSG = 5000;
 const MAX_CONTACT = 8;          // messages max par IP et par fenêtre
 const CONTACT_WINDOW = 60 * 60; // fenêtre contact, en secondes
+const MSG_TTL = 90 * 24 * 60 * 60; // messages auto-purgés après 90 jours (anti-accumulation)
 
 // Repli mémoire si KV non configuré (best-effort, non partagé entre isolats).
 const memFails = new Map(); // ip -> { count, exp }
@@ -189,6 +190,11 @@ async function handleContact(request, env, origin) {
   let body;
   try { body = await request.json(); } catch (_) { return json({ error: "Corps JSON invalide." }, 400, origin); }
 
+  // honeypot : champ caché « website » rempli ⇒ bot. Faux succès, rien n'est stocké.
+  if (typeof body.website === "string" && body.website.trim() !== "") {
+    return json({ success: true }, 200, origin);
+  }
+
   const pseudo = String(body.pseudo || "").trim().slice(0, MAX_PSEUDO);
   const motif = String(body.motif || "").trim();
   const objet = String(body.objet || "").trim();
@@ -207,7 +213,7 @@ async function handleContact(request, env, origin) {
 
   const id = new Date().toISOString() + "_" + Math.random().toString(36).slice(2, 8);
   const rec = { date: new Date().toISOString(), pseudo: pseudo, motif: motif, objet: objet, message: message };
-  await kv.put("msg:" + id, JSON.stringify(rec));
+  await kv.put("msg:" + id, JSON.stringify(rec), { expirationTtl: MSG_TTL });
 
   return json({ success: true }, 200, origin);
 }
@@ -384,7 +390,11 @@ function json(obj, status, origin) {
   return new Response(JSON.stringify(obj), {
     status: status,
     headers: Object.assign(
-      { "Content-Type": "application/json; charset=utf-8" },
+      {
+        "Content-Type": "application/json; charset=utf-8",
+        // jamais de mise en cache : aucune réponse authentifiée ne doit être partagée/rejouée
+        "Cache-Control": "no-store"
+      },
       corsHeaders(origin)
     )
   });

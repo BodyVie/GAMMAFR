@@ -61,8 +61,12 @@
     setupTabs();
     setupContact();
     loadConfig();
-    // l'onglet Files est actif par défaut
-    activateTab("files");
+    // onglet initial : déduit du #hash de l'URL (partage / rechargement), sinon Files
+    var initial = tabFromHash() || "files";
+    if (!tabFromHash() && history.replaceState) history.replaceState(null, "", "#" + initial);
+    activateTab(initial);
+    // bouton Précédent/Suivant du navigateur ⇄ onglet courant
+    window.addEventListener("hashchange", function () { activateTab(tabFromHash() || "files"); });
   });
 
   function loadConfig() {
@@ -79,15 +83,45 @@
   }
 
   // ---- navigation par onglets -------------------------------------------
+  function tabNames() {
+    return $all(".nav__btn").map(function (b) { return b.getAttribute("data-tab"); });
+  }
+  function tabFromHash() {
+    var h = (location.hash || "").replace(/^#/, "");
+    return tabNames().indexOf(h) !== -1 ? h : null;
+  }
+
   function setupTabs() {
-    $all(".nav__btn").forEach(function (btn) {
-      btn.addEventListener("click", function () { activateTab(btn.getAttribute("data-tab")); });
+    var btns = $all(".nav__btn");
+    btns.forEach(function (btn, i) {
+      btn.addEventListener("click", function () { navigateTab(btn.getAttribute("data-tab")); });
+      // motif ARIA tabs : flèches / Home / End déplacent le focus et activent l'onglet
+      btn.addEventListener("keydown", function (ev) {
+        var idx = -1;
+        if (ev.key === "ArrowRight" || ev.key === "ArrowDown") idx = (i + 1) % btns.length;
+        else if (ev.key === "ArrowLeft" || ev.key === "ArrowUp") idx = (i - 1 + btns.length) % btns.length;
+        else if (ev.key === "Home") idx = 0;
+        else if (ev.key === "End") idx = btns.length - 1;
+        else return;
+        ev.preventDefault();
+        btns[idx].focus();
+        navigateTab(btns[idx].getAttribute("data-tab"));
+      });
     });
+  }
+
+  // action utilisateur : passe par le #hash → l'historique permet Précédent/Suivant
+  function navigateTab(name) {
+    if ((tabFromHash() || "files") === name) { activateTab(name); return; }
+    location.hash = name; // déclenche hashchange → activateTab
   }
 
   function activateTab(name) {
     $all(".nav__btn").forEach(function (b) {
-      b.classList.toggle("is-active", b.getAttribute("data-tab") === name);
+      var on = b.getAttribute("data-tab") === name;
+      b.classList.toggle("is-active", on);
+      b.setAttribute("aria-selected", on ? "true" : "false");
+      b.tabIndex = on ? 0 : -1;
     });
     $all(".panel").forEach(function (p) {
       p.classList.toggle("is-active", p.id === "panel-" + name);
@@ -879,25 +913,50 @@
 
   /* ---- fenêtre modale partagée ---- */
   var modalOnClose = null;
+  var modalReturnFocus = null;
+  var FOCUSABLE = 'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
+
   function openModal(content, onClose) {
     closeModal();
     modalOnClose = onClose || null;
-    var panel = el("div", { class: "modal__panel" }, [content]);
+    modalReturnFocus = document.activeElement; // pour restaurer le focus à la fermeture
+    var panel = el("div", { class: "modal__panel", role: "dialog", "aria-modal": "true", tabindex: "-1" }, [content]);
     var backdrop = el("div", { class: "modal", id: "plannerModal" }, [panel]);
     backdrop.addEventListener("mousedown", function (e) { if (e.target === backdrop) closeModal(); });
-    document.addEventListener("keydown", modalEsc);
+    document.addEventListener("keydown", modalKeydown, true);
     document.body.appendChild(backdrop);
     document.body.classList.add("modal-open");
+    // focus initial dans la modale (premier élément focusable, sinon le panneau)
+    var first = panel.querySelector(FOCUSABLE);
+    (first || panel).focus();
   }
-  function modalEsc(e) { if (e.key === "Escape") closeModal(); }
+
+  // Escape ferme ; Tab/Maj+Tab reste piégé dans la modale (pas d'évasion vers l'arrière-plan)
+  function modalKeydown(e) {
+    if (e.key === "Escape") { e.preventDefault(); closeModal(); return; }
+    if (e.key !== "Tab") return;
+    var panel = $("#plannerModal .modal__panel");
+    if (!panel) return;
+    var items = Array.prototype.slice.call(panel.querySelectorAll(FOCUSABLE));
+    if (!items.length) { e.preventDefault(); panel.focus(); return; }
+    var firstEl = items[0], lastEl = items[items.length - 1], active = document.activeElement;
+    if (e.shiftKey) {
+      if (active === firstEl || active === panel || !panel.contains(active)) { e.preventDefault(); lastEl.focus(); }
+    } else {
+      if (active === lastEl || !panel.contains(active)) { e.preventDefault(); firstEl.focus(); }
+    }
+  }
+
   function closeModal() {
     var m = $("#plannerModal");
     if (!m) return;
     if (m.parentNode) m.parentNode.removeChild(m);
-    document.removeEventListener("keydown", modalEsc);
+    document.removeEventListener("keydown", modalKeydown, true);
     document.body.classList.remove("modal-open");
     var cb = modalOnClose; modalOnClose = null;
+    var rf = modalReturnFocus; modalReturnFocus = null;
     if (cb) cb();
+    if (rf && typeof rf.focus === "function") rf.focus(); // restaure le focus au déclencheur
   }
 
   function openTicketView(tk) {
@@ -1153,6 +1212,14 @@
       var message = $("#cMessage").value.trim();
       var notice = $("#contactNotice");
       notice.className = "notice";
+
+      // honeypot : si ce champ caché est rempli, c'est un bot → faux succès, rien n'est envoyé
+      var hp = ($("#cWebsite") && $("#cWebsite").value) || "";
+      if (hp) {
+        showNotice(notice, "ok", "Message envoyé. Merci !");
+        $("#cName").value = ""; $("#cObjet").value = ""; $("#cMessage").value = ""; $("#cWebsite").value = "";
+        return;
+      }
 
       if (!objet || !message) {
         showNotice(notice, "err", "Renseigne l'objet et le message (le pseudo est facultatif).");
