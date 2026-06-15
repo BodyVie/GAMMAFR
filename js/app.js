@@ -177,7 +177,7 @@
   var LEVELS = [
     { id: "base",  label: "G.A.M.M.A. base",  desc: "Patch français couvrant uniquement G.A.M.M.A. de base (0 mod supplémentaire comme sortie d'installation)." },
     { id: "tweak", label: "G.A.M.M.A. tweak", desc: "Patch français couvrant uniquement G.A.M.M.A. de base & l'ensemble des mods désactivés à l'installation de G.A.M.M.A." },
-    { id: "extra", label: "G.A.M.M.A. extra", desc: "Patch français couvrant uniquement G.A.M.M.A. de base & l'ensemble des mods désactivés à l'installation de G.A.M.M.A. & bien d'autres mod externe à G.A.M.M.A. !\nSi vous souhaitez ajouter une traduction pour un mod non couvert par le Pack, Rendez-vous dans l'onglet < CONTACT > afin de nous le suggérer." }
+    { id: "extra", label: "G.A.M.M.A. extra", desc: "Patch français couvrant uniquement G.A.M.M.A. de base & l'ensemble des mods désactivés à l'installation de G.A.M.M.A. & bien d'autres mod externe à G.A.M.M.A. ! Si vous souhaitez ajouter une traduction pour un mod non couvert par le Pack, Rendez-vous dans l'onglet CONTACT afin de nous le suggérer." }
   ];
 
   function tagSection(section) {
