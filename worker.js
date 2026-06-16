@@ -300,13 +300,23 @@ async function handleMessages(request, env, origin) {
     return json({ success: true }, 200, origin);
   }
 
-  const listing = await kv.list({ prefix: "msg:" });
-  const items = [];
-  for (const k of listing.keys) {
-    const v = await kv.get(k.name);
-    if (!v) continue;
-    try { const o = JSON.parse(v); o.key = k.name; items.push(o); } catch (_) {}
-  }
+  // Liste paginée : kv.list plafonne à 1000 clés par appel → on boucle sur le
+  // curseur pour tout récupérer (sinon les plus anciens messages disparaîtraient),
+  // puis on lit les valeurs en parallèle plutôt qu'une par une.
+  const keys = [];
+  let cursor;
+  do {
+    const listing = await kv.list({ prefix: "msg:", cursor });
+    for (const k of listing.keys) keys.push(k.name);
+    cursor = listing.list_complete ? undefined : listing.cursor;
+  } while (cursor);
+
+  const items = (await Promise.all(keys.map(async function (name) {
+    const v = await kv.get(name);
+    if (!v) return null;
+    try { const o = JSON.parse(v); o.key = name; return o; } catch (_) { return null; }
+  }))).filter(Boolean);
+
   items.sort(function (a, b) { return a.date < b.date ? 1 : (a.date > b.date ? -1 : 0); });
   return json({ messages: items }, 200, origin);
 }

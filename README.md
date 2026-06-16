@@ -51,6 +51,8 @@ gamma-fr/
 │   └── test.yml           # lance les tests unitaires (CI)
 ├── sw.js                 # (neutralisé) désinscrit un ancien service worker
 ├── worker.js             # Cloudflare Worker (à déployer à part)
+├── robots.txt            # SEO : autorise l'indexation, pointe vers le sitemap
+├── sitemap.xml           # SEO : plan du site (page unique)
 ├── package.json          # script de test (npm test → node --test)
 └── README.md
 ```
@@ -84,8 +86,10 @@ runner natif de Node (aucune dépendance, aucune installation) :
 node --test        # ou : npm test
 ```
 
-Couvre la résolution des conflits par priorité, la comparaison de versions et la
-génération du ZIP (CRC32 + structure de l'archive). La CI les rejoue à chaque
+Couvre la résolution des conflits par priorité, la comparaison de versions, la
+génération du ZIP (CRC32 + structure de l'archive) et la validation de schéma du
+Worker (`validateSchema`). La CI lance d'abord un lint de syntaxe (`npm run lint`
+→ `node --check` sur `js/`, `tests/` et `worker.js`) puis les tests, à chaque
 push/PR (`.github/workflows/test.yml`).
 
 ---
