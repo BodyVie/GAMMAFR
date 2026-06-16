@@ -394,6 +394,20 @@
     return out;
   }
 
+  function mostRecentDay(days) {
+    return days.reduce(function (m, d) { return d > m ? d : m; }, days[0]);
+  }
+
+  // Crée une section « Nouveautés » : un titre (jour) + un conteneur .log.
+  function newsSection(host, heading) {
+    var box = el("div", { class: "log" });
+    host.appendChild(el("div", { class: "board-news__section" }, [
+      el("p", { class: "board-news__day", text: heading }),
+      box
+    ]));
+    return box;
+  }
+
   function renderBoardNews(host) {
     Promise.all([
       fetch("data/changelog.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : []; }).catch(function () { return []; }),
@@ -402,33 +416,38 @@
       clear(host);
       var entries = Array.isArray(res[0]) ? res[0].filter(function (e) { return e && typeof e === "object"; }) : [];
       var plNews = collectPlannerNews(res[1] && typeof res[1] === "object" ? res[1] : {});
+      var any = false;
 
-      // jours candidats : dates du changelog + jours d'activité du planner
-      var days = [];
-      entries.forEach(function (e) { if (typeof e.date === "string" && e.date.trim() !== "") days.push(dayOf(e.date)); });
-      plNews.forEach(function (n) { days.push(n.day); });
-
-      var box = el("div", { class: "log" });
-      var day = null;
-
-      if (days.length) {
-        day = days.reduce(function (m, d) { return d > m ? d : m; }, days[0]);
-        host.appendChild(el("p", { class: "board-news__day", text: "Modifications du " + day }));
-        renderChangelogDay(box, entries.filter(function (e) { return dayOf(e.date) === day; }), day);
-        renderPlannerDay(box, plNews.filter(function (n) { return n.day === day; }));
+      // --- Changelog : son propre dernier jour de modifications ---
+      var clDays = entries
+        .filter(function (e) { return typeof e.date === "string" && e.date.trim() !== ""; })
+        .map(function (e) { return dayOf(e.date); });
+      if (clDays.length) {
+        var clDay = mostRecentDay(clDays);
+        renderChangelogDay(newsSection(host, "Changelog — modifications du " + clDay),
+          entries.filter(function (e) { return dayOf(e.date) === clDay; }), clDay);
+        any = true;
       } else if (entries.length) {
-        // aucun jour exploitable : repli sur la version la plus récente du changelog
+        // aucun jour exploitable : repli sur la version la plus récente
         var top = entries.slice().sort(function (a, b) { return GammaCore.cmpVersion(b.version, a.version); })[0];
-        renderChangelogDay(box, [top], null);
+        renderChangelogDay(newsSection(host, "Changelog — dernière version"), [top], null);
+        any = true;
       }
 
-      if (!box.childNodes.length) {
+      // --- Planner : son propre dernier jour de modifications ---
+      if (plNews.length) {
+        var plDay = mostRecentDay(plNews.map(function (n) { return n.day; }));
+        renderPlannerDay(newsSection(host, "Planner — modifications du " + plDay),
+          plNews.filter(function (n) { return n.day === plDay; }));
+        any = true;
+      }
+
+      if (!any) {
         host.appendChild(el("p", { class: "list-empty", text: "Aucune modification récente." }));
         return;
       }
-      host.appendChild(box);
       host.appendChild(el("button", {
-        class: "btn btn--ghost btn--mini", style: "margin-top:14px", text: "Voir tout le changelog →",
+        class: "btn btn--ghost btn--mini", style: "margin-top:18px", text: "Voir tout le changelog →",
         onClick: function () { navigateTab("changelog"); }
       }));
     });
@@ -450,7 +469,6 @@
   }
 
   function renderPlannerDay(box, items) {
-    if (!items.length) return;
     var ul = el("ul", { class: "log-entry__changes" });
     items
       .slice()
@@ -459,8 +477,7 @@
         var label = (n.isNew ? "Nouvelle tâche : " : "Tâche mise à jour : ") + n.title + (n.category ? " — " + n.category : "");
         ul.appendChild(el("li", { text: label }));
       });
-    var head = el("div", { class: "log-entry__head" }, [el("span", { class: "log-entry__ver", text: "Planner" })]);
-    box.appendChild(el("div", { class: "log-entry" }, [head, ul]));
+    box.appendChild(el("div", { class: "log-entry" }, [ul]));
   }
 
   /* =======================================================================

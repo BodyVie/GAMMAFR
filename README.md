@@ -237,8 +237,9 @@ demander une validation par email du compte.
   renseignés automatiquement à la création et à chaque édition). Affichés en tête
   du ticket (« Créé le… » / « Dernière modification le… ») ; les tickets dont le
   jour de dernière modification correspond au jour le plus récent remontent aussi
-  dans les « Nouveautés ». Les « Nouveautés » retiennent le jour le plus récent
-  toutes sources confondues (changelog + planner) et affichent tout ce qui en date.
+  dans les « Nouveautés ». Le bloc « Nouveautés » dissocie les deux sources :
+  une section **Changelog** (son propre dernier jour de modifications) et une
+  section **Planner** (son propre dernier jour), chacune avec sa date.
 - `board.json` : panneau d'affichage de l'accueil — `{ title, body, updated }`
   (textes ; `\n` = saut de ligne dans `body`). Édité directement depuis l'onglet
   **Panneau d'affichage** quand un admin est connecté ; `updated` est renseigné
