@@ -98,7 +98,7 @@
     document.addEventListener("visibilitychange", function () { if (document.visibilityState !== "hidden") presenceTick(); });
     document.addEventListener("input", function (e) {
       if (!isAdmin() || !e.target || !e.target.closest) return;
-      if (e.target.closest("#panel-admin, #listeHost, #logHost, #plannerHost, .modal")) markDirty();
+      if (e.target.closest("#panel-admin, #logHost, #plannerHost, .modal")) markDirty();
     }, true);
   });
 
@@ -852,34 +852,37 @@
   }
 
   /* =======================================================================
-     ONGLET LISTE — lecture filtrable + édition admin en place
+     ONGLET LISTE — généré automatiquement depuis les patchs « GAMMA extra »
+     (data/patches.json). Lecture seule, dans l'ordre des dossiers : on affiche
+     le nom, la version, la date et l'URL. Aucune saisie manuelle.
      ======================================================================= */
   function loadListe() {
     var host = $("#listeHost");
     if (data.liste !== null) { renderListe(); return; }
-    fetchJSON("data/liste.json")
-      .then(function (entries) { data.liste = Array.isArray(entries) ? entries : []; renderListe(); })
+    fetchJSON("data/patches.json")
+      .then(function (manifest) {
+        data.liste = (manifest && Array.isArray(manifest.extra)) ? manifest.extra : [];
+        renderListe();
+      })
       .catch(function (e) {
         loadError(host, "Impossible de charger la liste (" + e.message + ").", loadListe);
       });
   }
 
-  function renderListe() {
-    if (!isAdmin()) { renderListeReadonly(); return; }
-    // mode admin : on recharge la version autoritative (+ SHA) avant d'éditer
-    var host = $("#listeHost");
-    clear(host); host.appendChild(el("span", { class: "loading", text: "Chargement…" }));
-    loadForEdit("liste.json")
-      .then(function (r) { data.liste = Array.isArray(r.obj) ? r.obj : []; renderListeEditor(); })
-      .catch(function (e) { loadError(host, "Impossible de charger la liste pour édition (" + e.message + ").", renderListe); });
+  // Date « YYYY-MM-DD » -> « JJ/MM/AAAA » (sans heure). Renvoie la
+  // valeur brute si le format ne correspond pas.
+  function fmtDateOnly(iso) {
+    if (!iso) return "";
+    var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(String(iso));
+    return m ? m[3] + "/" + m[2] + "/" + m[1] : String(iso);
   }
 
-  function renderListeReadonly() {
+  function renderListe() {
     var host = $("#listeHost");
     clear(host);
     var entries = data.liste || [];
 
-    var input = el("input", { class: "input", type: "search", placeholder: "Filtrer par titre ou description\u2026", "aria-label": "Rechercher" });
+    var input = el("input", { class: "input", type: "search", placeholder: "Filtrer par nom\u2026", "aria-label": "Rechercher" });
     var icon = el("span", { class: "search__icon", text: "\u2315" });
     var count = el("div", { class: "search__count" });
     host.appendChild(el("div", { class: "search" }, [icon, input, count]));
@@ -892,67 +895,25 @@
       var needle = (q || "").toLowerCase().trim();
       var shown = 0;
       entries.forEach(function (it) {
-        var hay = ((it.title || "") + " " + (it.description || "")).toLowerCase();
-        if (needle && hay.indexOf(needle) === -1) return;
+        var name = it.name || it.id || "";
+        if (needle && name.toLowerCase().indexOf(needle) === -1) return;
         shown++;
+        var meta = [];
+        if (it.version) meta.push("v" + it.version);
+        if (it.date) meta.push(fmtDateOnly(it.date));
+        var body = [el("div", { class: "list-item__title", text: name })];
+        if (meta.length) body.push(el("div", { class: "list-item__desc", text: meta.join(" \u00b7 ") }));
+        if (it.url) body.push(el("a", { class: "list-item__link", href: it.url, target: "_blank", rel: "noopener noreferrer", text: it.url }));
         listBox.appendChild(el("div", { class: "list-item" }, [
-          el("div", { class: "list-item__num", text: pad(it.id != null ? it.id : shown) }),
-          el("div", { class: "list-item__body" }, [
-            el("div", { class: "list-item__title", text: it.title || "" }),
-            it.description ? el("div", { class: "list-item__desc", text: it.description }) : null
-          ])
+          el("div", { class: "list-item__num", text: pad(shown) }),
+          el("div", { class: "list-item__body" }, body)
         ]));
       });
-      if (!shown) listBox.appendChild(el("div", { class: "list-empty", text: "Aucune entrée ne correspond." }));
+      if (!shown) listBox.appendChild(el("div", { class: "list-empty", text: entries.length ? "Aucune entrée ne correspond." : "Aucun patch GAMMA extra pour le moment." }));
       count.textContent = shown + " / " + entries.length + " entrée" + (entries.length > 1 ? "s" : "");
     }
     input.addEventListener("input", function () { paint(input.value); });
     paint("");
-  }
-
-  function renderListeEditor() {
-    var host = $("#listeHost");
-    clear(host);
-    var draft = (data.liste || []).map(function (e) { return { title: e.title || "", description: e.description || "" }; });
-
-    host.appendChild(el("div", { class: "admin-bar" }, [
-      el("span", { class: "admin-bar__tag", text: "ADMIN" }),
-      el("span", { text: "Édition de la liste — n'oublie pas d'enregistrer." })
-    ]));
-
-    var rows = el("div", { class: "editrows" });
-    host.appendChild(rows);
-
-    function drawRows() {
-      clear(rows);
-      draft.forEach(function (entry, i) {
-        var title = el("input", { class: "input", type: "text", value: entry.title, placeholder: "Titre (ex. st_dialogs.xml)" });
-        title.addEventListener("input", function () { entry.title = title.value; });
-        var desc = el("input", { class: "input", type: "text", value: entry.description, placeholder: "Description (optionnel)" });
-        desc.addEventListener("input", function () { entry.description = desc.value; });
-        var del = el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer", text: "\u2715",
-          onClick: function () { draft.splice(i, 1); drawRows(); } });
-        rows.appendChild(el("div", { class: "editrow" }, [
-          el("span", { class: "editrow__num", text: pad(i + 1) }),
-          el("div", { class: "editrow__fields" }, [title, desc]),
-          del
-        ]));
-      });
-      if (!draft.length) rows.appendChild(el("p", { class: "list-empty", text: "Liste vide. Ajoute une entrée." }));
-    }
-    drawRows();
-
-    var add = el("button", { class: "btn btn--ghost", text: "+ Ajouter une entrée",
-      onClick: function () { draft.push({ title: "", description: "" }); drawRows(); } });
-    var save = el("button", { class: "btn btn--amber", text: "Enregistrer la liste" });
-    var status = el("span", { class: "editor__status" });
-    save.addEventListener("click", function () {
-      var clean = draft
-        .filter(function (e) { return (e.title || "").trim() !== ""; })
-        .map(function (e, i) { return { id: i + 1, title: e.title.trim(), description: (e.description || "").trim() }; });
-      saveData("liste.json", clean, status, save, function () { data.liste = clean; });
-    });
-    host.appendChild(el("div", { class: "editor__foot" }, [add, save, status]));
   }
 
   /* =======================================================================

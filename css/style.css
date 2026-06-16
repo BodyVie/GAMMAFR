@@ -472,6 +472,15 @@ a:hover { text-decoration: underline; }
 .list-item__body { min-width: 0; }
 .list-item__title { color: var(--text); font-weight: 600; word-break: break-word; }
 .list-item__desc { color: var(--dim); font-size: 13px; margin-top: 2px; }
+.list-item__link {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 13px;
+  color: var(--amber);
+  text-decoration: none;
+  word-break: break-all;
+}
+.list-item__link:hover { text-decoration: underline; }
 .list-empty { color: var(--dim-2); font-style: italic; padding: 20px 4px; }
 
 /* Erreur de chargement (réseau / JSON) + bouton « Réessayer » */
@@ -888,7 +897,7 @@ button.plabel.is-on::before { content: "✓\00A0"; }
 }
 
 /* =========================================================================
-   Admin — barre de connexion + éditeurs en place (liste, changelog).
+   Admin — barre de connexion + éditeurs en place (changelog, planner…).
    ========================================================================= */
 .admin-bar {
   display: flex;
