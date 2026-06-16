@@ -626,8 +626,8 @@ body.modal-open { overflow: hidden; }
   scrollbar-width: thin;
 }
 .bucket {
-  flex: 0 0 264px;
-  width: 264px;
+  flex: 0 0 330px;
+  width: 330px;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -687,6 +687,16 @@ body.modal-open { overflow: hidden; }
 .tcard__status::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--dim-2); }
 .tcard__status--doing::before { background: var(--amber); }
 .tcard__status--done::before { background: var(--ok); }
+
+/* description et liste d'actions affichées en façade des tickets */
+.tcard__desc {
+  font-size: 12px; line-height: 1.45; color: var(--dim);
+  white-space: pre-wrap; word-break: break-word;
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; overflow: hidden;
+}
+.tcard__acts { display: flex; flex-direction: column; gap: 4px; }
+.tcard__acts .pcheck { font-size: 12px; }
+.tcard__acts .pcheck__box { width: 15px; height: 15px; font-size: 10px; }
 
 .pbadge {
   font-size: 10px; color: var(--dim); background: var(--surface);

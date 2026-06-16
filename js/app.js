@@ -1293,6 +1293,21 @@
     }
     children.push(el("div", { class: "tcard__title", text: tk.title || "(sans titre)" }));
 
+    // description en façade dès qu'elle est renseignée
+    if (tk.description) children.push(el("div", { class: "tcard__desc", text: tk.description }));
+
+    // liste des actions en façade (y compris celles déjà cochées)
+    if (tk.actions.length) {
+      var acts = el("div", { class: "tcard__acts" });
+      tk.actions.forEach(function (a) {
+        acts.appendChild(el("div", { class: "pcheck" + (a.done ? " is-done" : "") }, [
+          el("span", { class: "pcheck__box", text: a.done ? "✓" : "" }),
+          el("span", { class: "pcheck__text", text: a.text })
+        ]));
+      });
+      children.push(acts);
+    }
+
     var foot = el("div", { class: "tcard__foot" }, [el("span", { class: "tcard__status tcard__status--" + tk.status, text: PSTATUS[tk.status] })]);
     if (tk.due) {
       var late = tk.status !== "done" && isOverdue(tk.due);
