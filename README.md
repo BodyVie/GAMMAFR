@@ -262,8 +262,13 @@ invitant à recharger — aucune modification n'est écrasée par accident.
 
 Un **compteur d'admins en ligne** s'affiche à droite de l'onglet Admin (visible de
 tous), accompagné d'un indicateur **⚠ édition** lorsqu'un admin a une modification en
-cours. La présence utilise le binding KV `RATE_LIMIT` s'il existe, sinon `MESSAGES`
-(aucune configuration supplémentaire ; si aucun KV n'est lié, le compteur reste à 0).
+cours. Un admin connecté se voit toujours lui-même (« 1 en ligne ») et voit
+l'indicateur dès qu'il a une modification non enregistrée. Le **décompte partagé
+entre sessions** (visiteurs qui voient les admins en ligne, admins qui se voient
+entre eux) nécessite en revanche un **binding KV** : `RATE_LIMIT` s'il existe, sinon
+`MESSAGES`. **Sans aucun KV lié, le partage est impossible** — chacun ne voit que
+sa propre session. Pour l'activer, lie un namespace KV `RATE_LIMIT` au Worker
+(voir § 4.4).
 
 ---
 

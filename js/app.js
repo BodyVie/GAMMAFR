@@ -155,8 +155,14 @@
       .then(function (r) { return r.ok ? r.json() : null; })
       .then(function (d) {
         if (!d) return;
-        var othersEditing = (d.editing || 0) - (isAdmin() && adminDirty ? 1 : 0);
-        setPresenceBadge(d.count || 0, othersEditing > 0);
+        // Un admin connecté se compte toujours au moins lui-même : la liste KV
+        // peut être à la traîne (latence) — voire renvoyer 0 si aucun KV n'est lié.
+        var count = d.count || 0;
+        if (isAdmin() && count < 1) count = 1;
+        // « édition en cours » : visible si un autre admin édite (compté par le
+        // Worker) OU si l'admin courant a lui-même une modification non enregistrée.
+        var editing = (d.editing || 0) > 0 || (isAdmin() && adminDirty);
+        setPresenceBadge(count, editing);
       })
       .catch(function () {});
   }
@@ -1406,7 +1412,7 @@
       var ul = el("div", { class: "pchecks" });
       tk.actions.forEach(function (a) {
         ul.appendChild(el("div", { class: "pcheck" + (a.done ? " is-done" : "") }, [
-          el("span", { class: "pcheck__box", text: a.done ? "✓" : "·" }),
+          el("span", { class: "pcheck__box", text: a.done ? "✓" : "" }),
           el("span", { class: "pcheck__text", text: a.text })
         ]));
       });
@@ -1529,7 +1535,7 @@
     function paintActions() {
       clear(actBox);
       tk.actions.forEach(function (a, i) {
-        var toggle = el("button", { class: "pcheck__toggle" + (a.done ? " is-done" : ""), text: a.done ? "✓" : "·", title: "Cocher" });
+        var toggle = el("button", { class: "pcheck__toggle" + (a.done ? " is-done" : ""), text: a.done ? "✓" : "", title: "Cocher" });
         toggle.addEventListener("click", function () { a.done = !a.done; paintActions(); });
         var txt = el("input", { class: "input input--bare", type: "text", value: a.text, placeholder: "Action…" });
         txt.addEventListener("input", function () { a.text = txt.value; });
