@@ -153,18 +153,23 @@
       : { action: "count" };
     fetch(presenceUrl(), { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) })
       .then(function (r) { return r.ok ? r.json() : null; })
-      .then(function (d) {
-        if (!d) return;
-        // Un admin connecté se compte toujours au moins lui-même : la liste KV
-        // peut être à la traîne (latence) — voire renvoyer 0 si aucun KV n'est lié.
-        var count = d.count || 0;
-        if (isAdmin() && count < 1) count = 1;
-        // « édition en cours » : visible si un autre admin édite (compté par le
-        // Worker) OU si l'admin courant a lui-même une modification non enregistrée.
-        var editing = (d.editing || 0) > 0 || (isAdmin() && adminDirty);
-        setPresenceBadge(count, editing);
-      })
-      .catch(function () {});
+      .then(function (d) { applyPresence(d); })
+      .catch(function () { applyPresence(null); });
+  }
+
+  // Met à jour le badge à partir de la réponse du Worker — ou de rien (null) si le
+  // Worker est injoignable ou ne connaît pas la route /presence (déploiement
+  // obsolète → 404, CORS, réseau). Un admin connecté se compte alors toujours au
+  // moins lui-même, pour que le compteur reste visible quoi qu'il arrive côté
+  // Worker ; le décompte des autres sessions, lui, reste tributaire du Worker + KV.
+  function applyPresence(d) {
+    d = d || {};
+    var count = d.count || 0;
+    if (isAdmin() && count < 1) count = 1;
+    // « édition en cours » : un autre admin édite (compté par le Worker) OU
+    // l'admin courant a lui-même une modification non enregistrée.
+    var editing = (d.editing || 0) > 0 || (isAdmin() && adminDirty);
+    setPresenceBadge(count, editing);
   }
 
   function startPresence() {
