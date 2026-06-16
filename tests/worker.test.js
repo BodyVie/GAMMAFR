@@ -48,6 +48,15 @@ test("validateSchema : planner.json = objet, categories/labels tableaux si prés
   assert.ok(validateSchema("planner.json", { labels: "x" }), "labels non-tableau refusé");
 });
 
+test("validateSchema : admins.json = tableau de pseudos (texte non vide)", async () => {
+  const { validateSchema } = await workerP;
+  assert.equal(validateSchema("admins.json", []), null);
+  assert.equal(validateSchema("admins.json", ["Body", "Thundard"]), null);
+  assert.ok(validateSchema("admins.json", { pas: "un tableau" }), "objet refusé");
+  assert.ok(validateSchema("admins.json", ["ok", 123]), "élément non-texte refusé");
+  assert.ok(validateSchema("admins.json", ["ok", "  "]), "pseudo vide refusé");
+});
+
 test("validateSchema : fichier hors liste blanche n'est pas contraint (null)", async () => {
   const { validateSchema } = await workerP;
   assert.equal(validateSchema("patches.json", { quoi: "que ce soit" }), null);

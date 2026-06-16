@@ -21,7 +21,15 @@
 
   // session admin (en mémoire uniquement) + cache des données éditables
   var admin = { pwd: "", unlocked: false };
-  var data = { liste: null, changelog: null, planner: null };
+  var data = { liste: null, changelog: null, planner: null, admins: null };
+
+  // verrouillage optimiste : SHA GitHub de la version chargée pour chaque fichier
+  var editSha = {};
+  // présence (compteur d'admins en ligne) + indicateur « édition en cours »
+  var presence = { id: null, timer: null };
+  var adminDirty = false;
+  // dernier auteur choisi pour un commentaire planner (mémoire de session)
+  var lastAuthor = "";
 
   // ---- petits utilitaires ------------------------------------------------
   function el(tag, props, children) {
@@ -82,6 +90,15 @@
     activateTab(initial);
     // bouton Précédent/Suivant du navigateur ⇄ onglet courant
     window.addEventListener("hashchange", function () { activateTab(tabFromHash() || "files"); });
+
+    // présence : signale le départ d'un admin, rafraîchit au retour d'onglet,
+    // marque l'édition en cours dès qu'un champ admin est modifié.
+    window.addEventListener("beforeunload", function () { if (isAdmin()) leavePresence(); });
+    document.addEventListener("visibilitychange", function () { if (document.visibilityState !== "hidden") presenceTick(); });
+    document.addEventListener("input", function (e) {
+      if (!isAdmin() || !e.target || !e.target.closest) return;
+      if (e.target.closest("#panel-admin, #listeHost, #logHost, #plannerHost, .modal")) markDirty();
+    }, true);
   });
 
   // Aligne les balises de partage (canonical, Open Graph, Twitter) sur l'URL
@@ -113,7 +130,98 @@
         }
         if (config.site_tagline) $("#brandTag").textContent = config.site_tagline;
       })
-      .catch(function () { /* placeholders restent affichés */ });
+      .catch(function () { /* placeholders restent affichés */ })
+      .then(function () { startPresence(); }); // compteur d'admins (public) une fois worker_url connu
+  }
+
+  /* ---- présence : compteur d'admins en ligne + indicateur d'édition -------
+     Tout le monde lit le compteur (action "count", sans mot de passe) ; un admin
+     connecté envoie un heartbeat (ping) avec son état « édition en cours ». */
+  var PRESENCE_MS = 25000;
+
+  function sessionId() {
+    if (!presence.id) presence.id = "s_" + Math.random().toString(36).slice(2) + Date.now().toString(36);
+    return presence.id;
+  }
+  function presenceUrl() { return config.worker_url.replace(/\/$/, "") + "/presence"; }
+
+  function presenceTick() {
+    if (!workerReady()) return;
+    var payload = isAdmin()
+      ? { password: admin.pwd, id: sessionId(), action: "ping", editing: adminDirty }
+      : { action: "count" };
+    fetch(presenceUrl(), { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        if (!d) return;
+        var othersEditing = (d.editing || 0) - (isAdmin() && adminDirty ? 1 : 0);
+        setPresenceBadge(d.count || 0, othersEditing > 0);
+      })
+      .catch(function () {});
+  }
+
+  function startPresence() {
+    if (presence.timer) clearInterval(presence.timer);
+    presenceTick();
+    presence.timer = setInterval(function () {
+      if (document.visibilityState !== "hidden") presenceTick();
+    }, PRESENCE_MS);
+  }
+
+  function leavePresence() {
+    if (!workerReady() || !presence.id || !admin.pwd) return;
+    try {
+      fetch(presenceUrl(), {
+        method: "POST", headers: { "Content-Type": "application/json" }, keepalive: true,
+        body: JSON.stringify({ password: admin.pwd, id: presence.id, action: "leave" })
+      });
+    } catch (_) {}
+  }
+
+  function setPresenceBadge(count, editing) {
+    var badge = $("#adminCount"), warn = $("#adminEditing");
+    if (badge) {
+      if (count > 0) { badge.textContent = count + " en ligne"; badge.hidden = false; }
+      else badge.hidden = true;
+    }
+    if (warn) warn.hidden = !editing;
+  }
+
+  function markDirty() {
+    if (adminDirty || !isAdmin()) return;
+    adminDirty = true;
+    presenceTick(); // propage immédiatement « édition en cours » aux autres
+  }
+  function clearDirty() {
+    if (!adminDirty) return;
+    adminDirty = false;
+    presenceTick();
+  }
+
+  // Charge un fichier via le Worker : contenu autoritatif + SHA (jeton de version
+  // pour le verrouillage optimiste). Mémorise le SHA dans editSha[filename].
+  function loadForEdit(filename) {
+    return fetch(config.worker_url.replace(/\/$/, "") + "/load", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ password: admin.pwd, filename: filename })
+    }).then(function (r) {
+      return r.json().catch(function () { return {}; }).then(function (d) {
+        if (r.status === 401) { lockAdmin(); throw new Error("Session verrouillée."); }
+        if (!r.ok) throw new Error((d && d.error) || ("HTTP " + r.status));
+        editSha[filename] = (typeof d.sha === "string" || d.sha === null) ? d.sha : null;
+        var obj = null;
+        if (d.content && String(d.content).trim() !== "") { try { obj = JSON.parse(d.content); } catch (_) { obj = null; } }
+        return { obj: obj, sha: editSha[filename] };
+      });
+    });
+  }
+
+  // Charge la liste des pseudos admin (fichier public) pour le sélecteur d'auteur.
+  function loadAdmins() {
+    return fetch("data/admins.json", { cache: "no-store" })
+      .then(function (r) { return r.ok ? r.json() : []; })
+      .then(function (a) { data.admins = Array.isArray(a) ? a.filter(function (x) { return typeof x === "string" && x.trim() !== ""; }) : []; })
+      .catch(function () { data.admins = []; });
   }
 
   // ---- navigation par onglets -------------------------------------------
@@ -541,8 +649,13 @@
   }
 
   function renderListe() {
-    if (isAdmin()) renderListeEditor();
-    else renderListeReadonly();
+    if (!isAdmin()) { renderListeReadonly(); return; }
+    // mode admin : on recharge la version autoritative (+ SHA) avant d'éditer
+    var host = $("#listeHost");
+    clear(host); host.appendChild(el("span", { class: "loading", text: "Chargement…" }));
+    loadForEdit("liste.json")
+      .then(function (r) { data.liste = Array.isArray(r.obj) ? r.obj : []; renderListeEditor(); })
+      .catch(function (e) { loadError(host, "Impossible de charger la liste pour édition (" + e.message + ").", renderListe); });
   }
 
   function renderListeReadonly() {
@@ -640,8 +753,12 @@
   }
 
   function renderChangelog() {
-    if (isAdmin()) renderChangelogEditor();
-    else renderChangelogReadonly();
+    if (!isAdmin()) { renderChangelogReadonly(); return; }
+    var host = $("#logHost");
+    clear(host); host.appendChild(el("span", { class: "loading", text: "Chargement…" }));
+    loadForEdit("changelog.json")
+      .then(function (r) { data.changelog = Array.isArray(r.obj) ? r.obj : []; renderChangelogEditor(); })
+      .catch(function (e) { loadError(host, "Impossible de charger le changelog pour édition (" + e.message + ").", renderChangelog); });
   }
 
   function renderChangelogReadonly() {
@@ -805,8 +922,17 @@
   }
 
   function renderPlanner() {
-    if (isAdmin()) { plannerDraft = plClone(data.planner); renderPlannerAdmin(); }
-    else renderPlannerReadonly();
+    if (!isAdmin()) { renderPlannerReadonly(); return; }
+    // mode admin : version autoritative (+ SHA) et liste des pseudos pour les commentaires
+    var host = $("#plannerHost");
+    clear(host); host.appendChild(el("span", { class: "loading", text: "Chargement…" }));
+    Promise.all([loadForEdit("planner.json"), loadAdmins()])
+      .then(function (res) {
+        data.planner = normalizePlanner(res[0].obj || {});
+        plannerDraft = plClone(data.planner);
+        renderPlannerAdmin();
+      })
+      .catch(function (e) { loadError(host, "Impossible de charger le planner pour édition (" + e.message + ").", renderPlanner); });
   }
 
   function renderPlannerReadonly() {
@@ -1074,6 +1200,25 @@
     openModal(content, null);
   }
 
+  // Sélecteur d'auteur d'un commentaire : liste déroulante des pseudos admin
+  // (gérés dans l'onglet Admin) ; repli sur un champ texte si la liste est vide.
+  function buildAuthorPicker() {
+    var admins = data.admins || [];
+    if (admins.length) {
+      if (admins.indexOf(lastAuthor) === -1) lastAuthor = admins[0];
+      var sel = el("select", { class: "input select input--sm", "aria-label": "Auteur" });
+      admins.forEach(function (name) {
+        var o = el("option", { value: name, text: name });
+        if (name === lastAuthor) o.selected = true;
+        sel.appendChild(o);
+      });
+      sel.value = lastAuthor;
+      return { node: sel, value: function () { lastAuthor = sel.value; return sel.value; } };
+    }
+    var inp = el("input", { class: "input input--sm", type: "text", value: lastAuthor || "Admin", placeholder: "Auteur" });
+    return { node: inp, value: function () { var v = inp.value.trim() || "Admin"; lastAuthor = v; return v; } };
+  }
+
   function openTicketEdit(cat, tk) {
     var p = plannerDraft;
     var content = el("div", { class: "modal__inner" });
@@ -1118,10 +1263,10 @@
     body.appendChild(el("div", { class: "tsub", text: "Commentaires" }));
     var comBox = el("div", { class: "pcomments" });
     body.appendChild(comBox);
-    var cAuthor = el("input", { class: "input input--sm", type: "text", value: "Admin", placeholder: "Auteur" });
+    var authorPick = buildAuthorPicker();
     var cText = el("input", { class: "input", type: "text", placeholder: "Ajouter un commentaire…" });
     var cAdd = el("button", { class: "btn btn--ghost btn--mini", text: "Commenter" });
-    body.appendChild(el("div", { class: "commentadd" }, [cAuthor, cText, cAdd]));
+    body.appendChild(el("div", { class: "commentadd" }, [authorPick.node, cText, cAdd]));
 
     content.appendChild(el("div", { class: "modal__foot" }, [
       el("button", { class: "btn btn--ghost btn--danger", text: "Supprimer le ticket", onClick: function () {
@@ -1175,7 +1320,7 @@
     }
     cAdd.addEventListener("click", function () {
       var t = cText.value.trim(); if (!t) return;
-      tk.comments.push({ id: plUid("cm"), author: cAuthor.value.trim() || "Admin", date: new Date().toISOString(), text: t });
+      tk.comments.push({ id: plUid("cm"), author: authorPick.value(), date: new Date().toISOString(), text: t });
       cText.value = ""; paintComments();
     });
     cText.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); cAdd.click(); } });
@@ -1357,8 +1502,10 @@
   }
 
   function lockAdmin(idle) {
-    admin.unlocked = false; admin.pwd = "";
+    leavePresence();            // signale le départ tant que le mot de passe est en mémoire
+    admin.unlocked = false; admin.pwd = ""; adminDirty = false;
     stopIdleWatch();
+    presenceTick();             // rafraîchit le compteur en mode public
     adminLockReason = (idle === true) ? "Session verrouillée après 20 min d'inactivité. Reconnecte-toi." : "";
     renderAdmin();
   }
@@ -1414,7 +1561,7 @@
       })
         .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { return { ok: r.ok, status: r.status, data: d }; }); })
         .then(function (res) {
-          if (res.ok && res.data && res.data.success) { admin.pwd = pw; admin.unlocked = true; startIdleWatch(); renderAdmin(); }
+          if (res.ok && res.data && res.data.success) { admin.pwd = pw; admin.unlocked = true; adminDirty = false; startIdleWatch(); presenceTick(); renderAdmin(); }
           else if (res.status === 401) { showNotice(note, "err", (res.data && res.data.error) || "Mot de passe refusé."); }
           else if (res.status === 429) { showNotice(note, "err", "Trop de tentatives. Réessaie plus tard."); }
           else { showNotice(note, "err", (res.data && res.data.error) || ("Échec (HTTP " + res.status + ")")); }
@@ -1460,6 +1607,10 @@
       inputs[f.key] = inp;
       cfgCard.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: f.label }), inp]));
     });
+    // capte le SHA pour le verrouillage et rafraîchit depuis la version du dépôt
+    loadForEdit("config.json").then(function (r) {
+      if (r.obj && typeof r.obj === "object") fields.forEach(function (f) { if (r.obj[f.key] != null) inputs[f.key].value = r.obj[f.key]; });
+    }).catch(function () {});
     var cfgStatus = el("span", { class: "editor__status" });
     var cfgSave = el("button", { class: "btn btn--amber", text: "Enregistrer la configuration" });
     cfgSave.addEventListener("click", function () {
@@ -1473,6 +1624,39 @@
     });
     cfgCard.appendChild(el("div", { class: "editor__foot" }, [cfgSave, cfgStatus]));
     wrap.appendChild(cfgCard);
+
+    // ---- administrateurs (pseudos du sélecteur d'auteur des commentaires planner) ----
+    wrap.appendChild(el("div", { class: "stencil stencil--muted", style: "margin-top:24px", text: "Administrateurs" }));
+    var admCard = el("div", { class: "card" });
+    admCard.appendChild(el("p", { class: "admin-note", text:
+      "Pseudos proposés dans la liste déroulante « Auteur » lors de l'ajout d'un commentaire dans le Planner." }));
+    var admRows = el("div", { class: "editrows" });
+    admCard.appendChild(admRows);
+    var admDraft = [];
+    function drawAdmRows() {
+      clear(admRows);
+      admDraft.forEach(function (name, i) {
+        var inp = el("input", { class: "input", type: "text", value: name, placeholder: "Pseudo" });
+        inp.addEventListener("input", function () { admDraft[i] = inp.value; });
+        var del = el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer", text: "✕",
+          onClick: function () { admDraft.splice(i, 1); drawAdmRows(); } });
+        admRows.appendChild(el("div", { class: "editrow" }, [el("div", { class: "editrow__fields" }, [inp]), del]));
+      });
+      if (!admDraft.length) admRows.appendChild(el("p", { class: "list-empty", text: "Aucun admin. Ajoute un pseudo." }));
+    }
+    var admStatus = el("span", { class: "editor__status" });
+    var admAdd = el("button", { class: "btn btn--ghost", text: "+ Ajouter un pseudo",
+      onClick: function () { admDraft.push(""); drawAdmRows(); } });
+    var admSave = el("button", { class: "btn btn--amber", text: "Enregistrer les admins" });
+    admSave.addEventListener("click", function () {
+      var clean = admDraft.map(function (s) { return (s || "").trim(); }).filter(function (s) { return s !== ""; });
+      saveData("admins.json", clean, admStatus, admSave, function () { data.admins = clean; });
+    });
+    admCard.appendChild(el("div", { class: "editor__foot" }, [admAdd, admSave, admStatus]));
+    wrap.appendChild(admCard);
+    loadForEdit("admins.json")
+      .then(function (r) { admDraft = Array.isArray(r.obj) ? r.obj.slice() : []; data.admins = admDraft.slice(); drawAdmRows(); })
+      .catch(function () { drawAdmRows(); });
 
     // ---- générateur de patch.json (téléchargement local, sans Worker) ----
     wrap.appendChild(el("div", { class: "stencil stencil--muted", style: "margin-top:24px", text: "Générateur de patch.json" }));
@@ -1526,9 +1710,8 @@
     var rmCard = el("div", { class: "card" });
     var rm = el("textarea", { class: "textarea", rows: "8", placeholder: "Texte affiché en haut de l'onglet Files\u2026" });
     rm.value = "Chargement\u2026"; rm.disabled = true;
-    fetch("data/files.json", { cache: "no-store" })
-      .then(function (r) { return r.ok ? r.json() : {}; })
-      .then(function (info) { rm.value = (info && info.readme) || ""; rm.disabled = false; })
+    loadForEdit("files.json")
+      .then(function (r) { rm.value = (r.obj && r.obj.readme) || ""; rm.disabled = false; })
       .catch(function () { rm.value = ""; rm.disabled = false; });
     var rmStatus = el("span", { class: "editor__status" });
     var rmSave = el("button", { class: "btn btn--amber", text: "Enregistrer le lisez-moi" });
@@ -1560,10 +1743,14 @@
     if (btn) btn.disabled = true;
     setStatus(status, "work", "Envoi vers le Worker\u2026");
 
+    var payload = { password: admin.pwd, filename: filename, content: content };
+    // verrouillage optimiste : on transmet la version charg\u00e9e si on la conna\u00eet
+    if (Object.prototype.hasOwnProperty.call(editSha, filename)) payload.sha = editSha[filename];
+
     fetch(config.worker_url.replace(/\/$/, "") + "/update", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ password: admin.pwd, filename: filename, content: content })
+      body: JSON.stringify(payload)
     })
       .then(function (r) {
         return r.json().catch(function () { return { error: "Réponse illisible (HTTP " + r.status + ")" }; })
@@ -1571,11 +1758,17 @@
       })
       .then(function (res) {
         if (res.ok && res.data && res.data.success) {
+          // on mémorise la nouvelle version pour continuer à éditer sans recharger
+          if (res.data && typeof res.data.sha !== "undefined") editSha[filename] = res.data.sha;
+          clearDirty();
           setStatus(status, "ok", "Enregistré. Le site se met à jour sous peu (cache GitHub Pages).");
           if (typeof onSuccess === "function") onSuccess();
+        } else if (res.status === 409) {
+          setStatus(status, "err", (res.data && res.data.error) ||
+            "Conflit : un autre admin a modifié ce fichier. Recharge l'éditeur avant d'enregistrer.");
         } else if (res.status === 401) {
           setStatus(status, "err", "Session expirée. Reconnecte-toi dans l'onglet Admin.");
-          admin.unlocked = false; admin.pwd = ""; stopIdleWatch();
+          leavePresence(); admin.unlocked = false; admin.pwd = ""; adminDirty = false; stopIdleWatch(); presenceTick();
         } else if (res.status === 429) {
           setStatus(status, "err", "Trop de tentatives. Réessaie dans quelques minutes.");
         } else {

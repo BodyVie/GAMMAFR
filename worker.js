@@ -9,8 +9,12 @@
  *   POST /verify    { password }                         → { success } | { error }
  *   POST /contact   { pseudo?, motif, objet, message }   → { success } | { error }   (public)
  *   POST /messages  { password, action?, key? }          → { messages } | { success } | { error }
- *   POST /update    { password, filename, content }      → { success } | { error }
- * (/verify = login ; /contact = dépôt public d'un message sans email, stocké en KV.)
+ *   POST /load      { password, filename }               → { content, sha } | { error }
+ *   POST /update    { password, filename, content, sha? }→ { success, sha } | { error } (409 = conflit)
+ *   POST /presence  { action:"count" } (public)          → { count, editing }
+ *                   { password, id, action:"ping"|"leave", editing? } (admin) → { count, editing }
+ * (/verify = login ; /contact = dépôt public d'un message sans email, stocké en KV ;
+ *  /load = lecture + SHA pour le verrouillage optimiste de /update ; /presence = compteur d'admins.)
  *
  * Variables d'environnement (Cloudflare Secrets / Vars) :
  *   ADMIN_PASSWORD   (Secret)  mot de passe admin en clair (comparé en timing-safe)
@@ -28,11 +32,14 @@
  */
 
 // Seuls ces fichiers peuvent être écrits (anti-traversée de chemin / écriture arbitraire).
-const ALLOWED_FILES = ["files.json", "liste.json", "changelog.json", "config.json", "planner.json"];
+const ALLOWED_FILES = ["files.json", "liste.json", "changelog.json", "config.json", "planner.json", "admins.json"];
 
 const MAX_FAILS = 5;          // blocage après 5 échecs
 const FAIL_WINDOW = 15 * 60;  // fenêtre glissante, en secondes
 const MAX_BODY = 512 * 1024;  // garde-fou : 512 Ko max par payload
+
+// Présence admin (compteur « N en ligne » + indicateur d'édition en cours).
+const PRESENCE_TTL = 40;      // une session expire après 40 s sans heartbeat
 
 // Contact (stockage KV MESSAGES) — formulaire public, sans email.
 const MOTIFS = ["Suggestion", "Correction", "Autre"];
@@ -83,6 +90,13 @@ function validateSchema(filename, data) {
       if (data.categories !== undefined && !Array.isArray(data.categories)) return "planner.json : « categories » doit être un tableau.";
       if (data.labels !== undefined && !Array.isArray(data.labels)) return "planner.json : « labels » doit être un tableau.";
       return null;
+    case "admins.json": {
+      if (!Array.isArray(data)) return "admins.json doit être un tableau de pseudos.";
+      for (let i = 0; i < data.length; i++) {
+        if (typeof data[i] !== "string" || data[i].trim() === "") return "admins.json[" + i + "] : pseudo (texte non vide) attendu.";
+      }
+      return null;
+    }
     default:
       return null;
   }
@@ -118,8 +132,18 @@ export default {
       return handleMessages(request, env, origin);
     }
 
+    // --- route /presence : compteur d'admins en ligne (count public, ping/leave admin) ---
+    if (url.pathname === "/presence") {
+      return handlePresence(request, env, origin);
+    }
+
+    // --- route /load : lecture authentifiée d'un fichier (contenu + SHA pour le verrouillage) ---
+    if (url.pathname === "/load") {
+      return handleLoad(request, env, origin);
+    }
+
     if (url.pathname !== "/update") {
-      return json({ error: "Endpoint introuvable. Utilise POST /update, /verify, /contact ou /messages." }, 404, origin);
+      return json({ error: "Endpoint introuvable. Utilise POST /update, /verify, /load, /presence, /contact ou /messages." }, 404, origin);
     }
 
     // --- garde-fou taille ---
@@ -139,6 +163,10 @@ export default {
     const password = typeof body.password === "string" ? body.password : "";
     const filename = typeof body.filename === "string" ? body.filename : "";
     const content = typeof body.content === "string" ? body.content : "";
+    // Verrouillage optimiste : version (SHA GitHub) chargée par le client.
+    //   string → on exige cette version ; null → on exige que le fichier n'existe pas ;
+    //   undefined (absent) → pas de verrouillage (compat : repli sur retry).
+    const expectedSha = typeof body.sha === "string" ? body.sha : (body.sha === null ? null : undefined);
 
     // --- validation du nom de fichier (liste blanche stricte) ---
     if (ALLOWED_FILES.indexOf(filename) === -1) {
@@ -180,11 +208,12 @@ export default {
 
     // --- push GitHub ---
     try {
-      const dir = (env.DATA_DIR || "data").replace(/^\/+|\/+$/g, "");
-      const path = dir + "/" + filename;
-      await pushToGitHub(env, path, content);
-      return json({ success: true, file: path }, 200, origin);
+      const sha = await pushToGitHub(env, filename, content, expectedSha);
+      return json({ success: true, file: filename, sha: sha }, 200, origin);
     } catch (err) {
+      if (err && err.conflict) {
+        return json({ error: "Le fichier a été modifié par un autre admin depuis ton chargement. Recharge l'éditeur avant d'enregistrer pour ne rien écraser." }, 409, origin);
+      }
       return json({ error: "Échec GitHub : " + (err && err.message ? err.message : "inconnu") }, 502, origin);
     }
   }
@@ -321,61 +350,189 @@ async function handleMessages(request, env, origin) {
   return json({ messages: items }, 200, origin);
 }
 
-/* ============================ GitHub ============================ */
+/* ====================== Vérification admin (commune) ====================== */
+/**
+ * Garde-fous partagés : limite de débit par IP + mot de passe en temps constant.
+ * Renvoie null si OK, sinon une Response d'erreur prête à retourner.
+ */
+async function requireAdmin(request, env, origin, body) {
+  const ip = request.headers.get("CF-Connecting-IP") || "0.0.0.0";
+  const fails = await getFails(env, ip);
+  if (fails >= MAX_FAILS) return json({ error: "Trop de tentatives. Réessaie plus tard." }, 429, origin);
 
-async function pushToGitHub(env, path, content) {
-  const owner = env.GITHUB_OWNER;
-  const repo = env.GITHUB_REPO;
-  const branch = env.GITHUB_BRANCH || "main";
-  const token = env.GITHUB_TOKEN;
+  const expected = env.ADMIN_PASSWORD || "";
+  const password = typeof body.password === "string" ? body.password : "";
+  const ok = expected.length > 0 && (await timingSafeEqual(password, expected));
+  if (!ok) {
+    const n = await bumpFails(env, ip);
+    const remaining = Math.max(0, MAX_FAILS - n);
+    return json({ error: "Mot de passe incorrect." + (remaining ? " Tentatives restantes : " + remaining + "." : "") }, 401, origin);
+  }
+  await resetFails(env, ip);
+  return null;
+}
 
-  if (!owner || !repo || !token) {
-    throw new Error("Variables GitHub manquantes (OWNER / REPO / TOKEN).");
+/* ============================ Load (/load) ============================ */
+/**
+ * Lecture authentifiée d'un fichier de la liste blanche, directement depuis le
+ * dépôt (source que les écritures). Renvoie { content, sha } : le SHA sert de
+ * jeton de version pour le verrouillage optimiste à l'enregistrement.
+ */
+async function handleLoad(request, env, origin) {
+  const len = Number(request.headers.get("content-length") || "0");
+  if (len > MAX_BODY) return json({ error: "Payload trop volumineux." }, 413, origin);
+
+  let body;
+  try { body = await request.json(); } catch (_) { return json({ error: "Corps JSON invalide." }, 400, origin); }
+
+  const denied = await requireAdmin(request, env, origin, body);
+  if (denied) return denied;
+
+  const filename = typeof body.filename === "string" ? body.filename : "";
+  if (ALLOWED_FILES.indexOf(filename) === -1) return json({ error: "Fichier non autorisé." }, 400, origin);
+
+  try {
+    const r = await readFromGitHub(env, filename);
+    return json({ content: r.content, sha: r.sha }, 200, origin);
+  } catch (err) {
+    return json({ error: "Échec GitHub : " + (err && err.message ? err.message : "inconnu") }, 502, origin);
+  }
+}
+
+/* ========================== Présence (/presence) ========================== */
+/**
+ * action "count" (publique, sans mot de passe) → { count, editing } pour afficher
+ * le compteur d'admins en ligne sur le site. action "ping"/"leave" (admin) met à
+ * jour la présence de la session. L'état « édition en cours » est stocké dans la
+ * métadonnée KV de chaque clé (pas de lecture supplémentaire).
+ */
+function presenceKV(env) { return env.RATE_LIMIT || env.MESSAGES || null; }
+
+async function readPresence(kv) {
+  let count = 0, editing = 0, cursor;
+  do {
+    const listing = await kv.list({ prefix: "pres:", cursor });
+    for (const k of listing.keys) {
+      count++;
+      if (k.metadata && k.metadata.e) editing++;
+    }
+    cursor = listing.list_complete ? undefined : listing.cursor;
+  } while (cursor);
+  return { count, editing };
+}
+
+async function handlePresence(request, env, origin) {
+  const kv = presenceKV(env);
+
+  let body;
+  try { body = await request.json(); } catch (_) { return json({ error: "Corps JSON invalide." }, 400, origin); }
+
+  if (!kv) return json({ count: 0, editing: 0 }, 200, origin); // pas de KV → présence non suivie
+
+  const action = typeof body.action === "string" ? body.action : "count";
+
+  // Lecture publique du compteur (aucun mot de passe).
+  if (action === "count") {
+    return json(await readPresence(kv), 200, origin);
   }
 
-  const base = "https://api.github.com/repos/" + owner + "/" + repo + "/contents/" + encodeURI(path);
-  const ghHeaders = {
+  // ping / leave : réservés aux admins.
+  const denied = await requireAdmin(request, env, origin, body);
+  if (denied) return denied;
+
+  const id = typeof body.id === "string" ? body.id.slice(0, 64) : "";
+  if (!id) return json({ error: "Identifiant de session manquant." }, 400, origin);
+
+  if (action === "leave") {
+    await kv.delete("pres:" + id);
+  } else {
+    await kv.put("pres:" + id, "1", { expirationTtl: PRESENCE_TTL, metadata: { e: body.editing ? 1 : 0 } });
+  }
+  return json(await readPresence(kv), 200, origin);
+}
+
+/* ============================ GitHub ============================ */
+
+function ghConf(env) {
+  const owner = env.GITHUB_OWNER, repo = env.GITHUB_REPO, token = env.GITHUB_TOKEN;
+  if (!owner || !repo || !token) throw new Error("Variables GitHub manquantes (OWNER / REPO / TOKEN).");
+  const branch = env.GITHUB_BRANCH || "main";
+  const dir = (env.DATA_DIR || "data").replace(/^\/+|\/+$/g, "");
+  return { owner, repo, token, branch, path: dir + "/" };
+}
+
+function ghHeaders(token) {
+  return {
     "Authorization": "Bearer " + token,
     "Accept": "application/vnd.github+json",
     "User-Agent": "gamma-fr-worker",
     "X-GitHub-Api-Version": "2022-11-28"
   };
-  const encodedContent = toBase64(content);
+}
 
-  // Relit le SHA actuel du fichier (undefined s'il n'existe pas encore).
-  async function readSha() {
-    const getRes = await fetch(base + "?ref=" + encodeURIComponent(branch), { headers: ghHeaders });
-    if (getRes.status === 200) return (await getRes.json()).sha;
-    if (getRes.status === 404) return undefined;
-    throw new Error("lecture SHA (HTTP " + getRes.status + ")");
+function ghUrl(c, filename) {
+  return "https://api.github.com/repos/" + c.owner + "/" + c.repo + "/contents/" + encodeURI(c.path + filename);
+}
+
+// Lit un fichier du dépôt : { content (texte décodé), sha }. sha=null si absent.
+async function readFromGitHub(env, filename) {
+  const c = ghConf(env);
+  const res = await fetch(ghUrl(c, filename) + "?ref=" + encodeURIComponent(c.branch), { headers: ghHeaders(c.token) });
+  if (res.status === 404) return { content: "", sha: null };
+  if (res.status !== 200) throw new Error("lecture (HTTP " + res.status + ")");
+  const meta = await res.json();
+  return { content: fromBase64(meta.content || ""), sha: meta.sha || null };
+}
+
+/**
+ * Écrit un fichier et renvoie le nouveau SHA.
+ *   expectedSha défini (string|null) → verrouillage optimiste : si la version
+ *     actuelle du dépôt diffère, on lève une erreur `.conflict` (rien n'est écrasé).
+ *   expectedSha === undefined → compat : on relit le SHA et on réessaie une fois
+ *     sur course (double-clic du même admin), sans garantie anti-écrasement.
+ */
+async function pushToGitHub(env, filename, content, expectedSha) {
+  const c = ghConf(env);
+  const url = ghUrl(c, filename);
+  const headers = ghHeaders(c.token);
+  const encoded = toBase64(content);
+
+  async function currentSha() {
+    const res = await fetch(url + "?ref=" + encodeURIComponent(c.branch), { headers });
+    if (res.status === 200) return (await res.json()).sha;
+    if (res.status === 404) return null;
+    throw new Error("lecture SHA (HTTP " + res.status + ")");
   }
-
-  // PUT du contenu (base64 UTF-8). En cas de SHA périmé — deux sauvegardes
-  // admin concurrentes —, GitHub renvoie 409/422 : on relit le SHA et on
-  // réessaie une fois plutôt que de renvoyer une erreur à l'admin.
-  let sha = await readSha();
-  for (let attempt = 0; attempt < 2; attempt++) {
+  async function put(sha) {
     const payload = {
-      message: "MAJ " + path + " via admin (" + new Date().toISOString() + ")",
-      content: encodedContent,
-      branch: branch
+      message: "MAJ " + c.path + filename + " via admin (" + new Date().toISOString() + ")",
+      content: encoded,
+      branch: c.branch
     };
     if (sha) payload.sha = sha;
-
-    const putRes = await fetch(base, {
-      method: "PUT",
-      headers: ghHeaders,
-      body: JSON.stringify(payload)
-    });
-
-    if (putRes.status === 200 || putRes.status === 201) return;
-
-    const isConflict = putRes.status === 409 || putRes.status === 422;
-    if (isConflict && attempt === 0) { sha = await readSha(); continue; }
-
+    return fetch(url, { method: "PUT", headers, body: JSON.stringify(payload) });
+  }
+  async function putError(res) {
     let detail = "";
-    try { const e = await putRes.json(); detail = e && e.message ? " — " + e.message : ""; } catch (_) {}
-    throw new Error("écriture (HTTP " + putRes.status + ")" + detail);
+    try { const e = await res.json(); detail = e && e.message ? " — " + e.message : ""; } catch (_) {}
+    return new Error("écriture (HTTP " + res.status + ")" + detail);
+  }
+
+  if (expectedSha !== undefined) {
+    const cur = await currentSha();
+    if ((cur || null) !== (expectedSha || null)) { const e = new Error("conflict"); e.conflict = true; throw e; }
+    const res = await put(cur);
+    if (res.status === 200 || res.status === 201) return (await res.json()).content.sha;
+    if (res.status === 409 || res.status === 422) { const e = new Error("conflict"); e.conflict = true; throw e; }
+    throw await putError(res);
+  }
+
+  let sha = await currentSha();
+  for (let attempt = 0; attempt < 2; attempt++) {
+    const res = await put(sha);
+    if (res.status === 200 || res.status === 201) return (await res.json()).content.sha;
+    if ((res.status === 409 || res.status === 422) && attempt === 0) { sha = await currentSha(); continue; }
+    throw await putError(res);
   }
 }
 
@@ -388,6 +545,14 @@ function toBase64(str) {
     bin += String.fromCharCode.apply(null, bytes.subarray(i, i + chunk));
   }
   return btoa(bin);
+}
+
+// Décode le base64 (avec retours à la ligne de l'API GitHub) en texte UTF-8.
+function fromBase64(b64) {
+  const bin = atob(String(b64).replace(/\s/g, ""));
+  const bytes = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  return new TextDecoder().decode(bytes);
 }
 
 /* ===================== Comparaison timing-safe ===================== */

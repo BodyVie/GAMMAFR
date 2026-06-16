@@ -35,6 +35,7 @@ gamma-fr/
 │   ├── liste.json        # liste numérotée
 │   ├── changelog.json    # journal des versions
 │   ├── planner.json      # planificateur (onglet Planner)
+│   ├── admins.json       # pseudos admin (sélecteur d'auteur des commentaires planner)
 │   └── config.json       # titre, Formspree, Worker, chemins du configurateur
 ├── assets/               # favicon, icônes PWA, carte de partage (og-image)
 ├── tools/
@@ -229,9 +230,25 @@ demander une validation par email du compte.
 - `changelog.json` : tableau `{ version, date, changes[] }`, affiché par version
   décroissante.
 - `config.json` : `site_title`, `site_tagline`, `formspree_id`, `worker_url`.
+- `admins.json` : tableau de pseudos (`["Body", "Thundard"]`). Édité via la bulle
+  « Administrateurs » de l'onglet Admin ; alimente la liste déroulante « Auteur »
+  des commentaires du Planner.
 
-> Astuce : le Worker n'accepte d'écrire que ces quatre fichiers et refuse tout
-> JSON malformé — un mauvais collage ne peut pas casser le dépôt.
+> Astuce : le Worker n'accepte d'écrire que ces fichiers de la liste blanche et
+> refuse tout JSON malformé **ou de forme inattendue** (validation de schéma) — un
+> mauvais collage ne peut pas casser le dépôt.
+
+### Édition concurrente (verrouillage optimiste)
+
+Les éditeurs admin chargent chaque fichier via le Worker (`/load`) avec sa version
+(SHA GitHub) et la renvoient à l'enregistrement. Si un **autre admin** a modifié le
+même fichier entre-temps, l'enregistrement est **refusé** (HTTP 409) avec un message
+invitant à recharger — aucune modification n'est écrasée par accident.
+
+Un **compteur d'admins en ligne** s'affiche à droite de l'onglet Admin (visible de
+tous), accompagné d'un indicateur **⚠ édition** lorsqu'un admin a une modification en
+cours. La présence utilise le binding KV `RATE_LIMIT` s'il existe, sinon `MESSAGES`
+(aucune configuration supplémentaire ; si aucun KV n'est lié, le compteur reste à 0).
 
 ---
 
@@ -254,8 +271,9 @@ demander une validation par email du compte.
   l'origine GitHub Pages déclarée (`ALLOWED_ORIGIN`). Une page tierce ne peut pas
   faire appeler le Worker par le navigateur d'un visiteur.
 - **Liste blanche d'écriture.** Seuls `files.json`, `liste.json`,
-  `changelog.json` et `config.json` (dans `DATA_DIR`) sont modifiables : pas de
-  traversée de chemin ni d'écriture de fichier arbitraire dans le dépôt.
+  `changelog.json`, `config.json`, `planner.json` et `admins.json` (dans
+  `DATA_DIR`) sont modifiables : pas de traversée de chemin ni d'écriture de
+  fichier arbitraire dans le dépôt.
 - **Anti-force brute.** Blocage par IP après 5 échecs sur une fenêtre de 15 min
   (KV si configuré, sinon compteur mémoire), avec garde-fou de taille sur le
   payload.

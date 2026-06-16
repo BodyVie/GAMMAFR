@@ -150,6 +150,26 @@ a:hover { text-decoration: underline; }
 .nav__btn--admin:hover { color: var(--dim); }
 .nav__btn--admin.is-active { color: var(--rad); border-bottom-color: var(--rad); }
 
+/* compteur d'admins en ligne + indicateur d'édition (à droite de l'onglet Admin) */
+.nav__presence {
+  display: inline-flex; align-items: center; gap: 5px;
+  margin-left: 8px;
+  font-size: 10px; letter-spacing: 0.08em;
+  color: var(--rad);
+  white-space: nowrap;
+}
+.nav__presence::before {
+  content: ""; width: 6px; height: 6px; border-radius: 50%;
+  background: var(--rad); box-shadow: 0 0 6px var(--rad);
+}
+.nav__presence[hidden], .nav__editing[hidden] { display: none; }
+.nav__editing {
+  margin-left: 8px;
+  font-size: 10px; letter-spacing: 0.06em;
+  color: var(--amber);
+  white-space: nowrap;
+}
+
 .signal {
   display: none;
   align-items: center; gap: 6px;
