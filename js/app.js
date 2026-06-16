@@ -1785,7 +1785,7 @@
 
     host.appendChild(el("div", { class: "admin-warn" }, [
       el("span", { class: "admin-warn__tag", text: "PRIVÉ" }),
-      el("span", { text: "Accès réservé" })
+      el("span", { text: "Accès réservé aux administrateurs du Pack" })
     ]));
 
     if (!workerReady()) { host.appendChild(renderAdminNoWorker()); return; }
