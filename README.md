@@ -31,8 +31,7 @@ gamma-fr/
 │   └── zip.js            # écriture ZIP en JS pur (sans dépendance)
 ├── data/
 │   ├── files.json        # lisez-moi du configurateur
-│   ├── patches.json      # manifeste GÉNÉRÉ (ne pas éditer à la main)
-│   ├── liste.json        # liste numérotée
+│   ├── patches.json      # manifeste GÉNÉRÉ (ne pas éditer à la main) — alimente aussi l'onglet Liste
 │   ├── changelog.json    # journal des versions
 │   ├── planner.json      # planificateur (onglet Planner)
 │   ├── board.json        # panneau d'affichage éditable (onglet d'accueil)
@@ -62,7 +61,8 @@ gamma-fr/
 Les onglets : **Panneau d'affichage** (accueil — annonce éditable par les admins
 + nouveautés du dernier jour de modifications, déduites du changelog **et** du
 planner), **Files**
-(lisez-moi + configurateur d'installation), **Liste** (liste filtrable),
+(lisez-moi + configurateur d'installation), **Liste** (liste des patchs « GAMMA
+extra », générée depuis `patches.json`),
 **Changelog**, **Planner** (planificateur, édition admin), **Contact**, **Admin**
 (éditeurs JSON protégés).
 
@@ -230,7 +230,6 @@ demander une validation par email du compte.
   étape a un `type` `single` (un seul choix) ou `multi` (cases indépendantes),
   et des `options[]` avec `label`, `description`, `links[]` (`label` + `url`).
   L'étape de récapitulatif est générée automatiquement.
-- `liste.json` : tableau d'objets `{ id, title, description }`.
 - `changelog.json` : tableau `{ version, date, changes[] }`, affiché par version
   décroissante. Alimente aussi les « Nouveautés » du Panneau d'affichage.
 - `planner.json` : chaque ticket porte `created` et `modified` (horodatages ISO,
@@ -290,10 +289,10 @@ sa propre session. Pour l'activer, lie un namespace KV `RATE_LIMIT` au Worker
 - **CORS verrouillé.** Le Worker ne renvoie l'en-tête d'autorisation que pour
   l'origine GitHub Pages déclarée (`ALLOWED_ORIGIN`). Une page tierce ne peut pas
   faire appeler le Worker par le navigateur d'un visiteur.
-- **Liste blanche d'écriture.** Seuls `files.json`, `liste.json`,
-  `changelog.json`, `config.json`, `planner.json` et `admins.json` (dans
-  `DATA_DIR`) sont modifiables : pas de traversée de chemin ni d'écriture de
-  fichier arbitraire dans le dépôt.
+- **Liste blanche d'écriture.** Seuls `files.json`, `changelog.json`,
+  `config.json`, `planner.json`, `admins.json` et `board.json` (dans `DATA_DIR`)
+  sont modifiables : pas de traversée de chemin ni d'écriture de fichier
+  arbitraire dans le dépôt.
 - **Anti-force brute.** Blocage par IP après 5 échecs sur une fenêtre de 15 min
   (KV si configuré, sinon compteur mémoire), avec garde-fou de taille sur le
   payload.

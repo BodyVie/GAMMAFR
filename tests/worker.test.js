@@ -6,15 +6,6 @@ const assert = require("node:assert/strict");
 // validateSchema renvoie un message d'erreur (string, truthy) ou null si conforme.
 const workerP = import("../worker.js");
 
-test("validateSchema : liste.json = tableau d'objets { title }", async () => {
-  const { validateSchema } = await workerP;
-  assert.equal(validateSchema("liste.json", []), null);
-  assert.equal(validateSchema("liste.json", [{ title: "ok", description: "x" }]), null);
-  assert.ok(validateSchema("liste.json", { pas: "un tableau" }), "objet refusé");
-  assert.ok(validateSchema("liste.json", ["chaîne"]), "élément non-objet refusé");
-  assert.ok(validateSchema("liste.json", [{ description: "sans titre" }]), "title manquant refusé");
-});
-
 test("validateSchema : changelog.json = tableau d'objets { version, changes? }", async () => {
   const { validateSchema } = await workerP;
   assert.equal(validateSchema("changelog.json", [{ version: "1.0.0", changes: ["a"] }]), null);
