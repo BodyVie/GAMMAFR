@@ -193,7 +193,7 @@
   function setPresenceBadge(count, editing) {
     var badge = $("#adminCount"), warn = $("#adminEditing");
     if (badge) {
-      if (count > 0) { badge.textContent = count + " en ligne"; badge.hidden = false; }
+      if (count > 0) { badge.textContent = count; badge.hidden = false; }
       else badge.hidden = true;
     }
     if (warn) warn.hidden = !editing;
