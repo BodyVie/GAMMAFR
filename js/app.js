@@ -1406,7 +1406,7 @@
       var ul = el("div", { class: "pchecks" });
       tk.actions.forEach(function (a) {
         ul.appendChild(el("div", { class: "pcheck" + (a.done ? " is-done" : "") }, [
-          el("span", { class: "pcheck__box", text: a.done ? "✓" : "·" }),
+          el("span", { class: "pcheck__box", text: a.done ? "✓" : "" }),
           el("span", { class: "pcheck__text", text: a.text })
         ]));
       });
@@ -1529,7 +1529,7 @@
     function paintActions() {
       clear(actBox);
       tk.actions.forEach(function (a, i) {
-        var toggle = el("button", { class: "pcheck__toggle" + (a.done ? " is-done" : ""), text: a.done ? "✓" : "·", title: "Cocher" });
+        var toggle = el("button", { class: "pcheck__toggle" + (a.done ? " is-done" : ""), text: a.done ? "✓" : "", title: "Cocher" });
         toggle.addEventListener("click", function () { a.done = !a.done; paintActions(); });
         var txt = el("input", { class: "input input--bare", type: "text", value: a.text, placeholder: "Action…" });
         txt.addEventListener("input", function () { a.text = txt.value; });
