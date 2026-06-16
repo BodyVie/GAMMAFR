@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16T19:49:56+00:00",
+  "generated": "2026-06-16T20:01:08+00:00",
   "labels": [
     {
       "id": "lbl_mqft6asnlhoe",
@@ -41,7 +41,43 @@
     {
       "id": "cat_mqfskpcza7r3",
       "name": "en cours",
-      "tickets": []
+      "tickets": [
+        {
+          "id": "tk_mqh2fsxfheux",
+          "title": "Déploiment",
+          "description": "Publication du Pack & Hub",
+          "status": "doing",
+          "due": "2026-06-18",
+          "labels": [
+            "lbl_mqft6asnlhoe"
+          ],
+          "actions": [
+            {
+              "id": "ac_mqh2gf52zryy",
+              "text": "Montage du Pack",
+              "done": false
+            },
+            {
+              "id": "ac_mqh2gm6xjqp5",
+              "text": "Test et validation - contrôle liste",
+              "done": false
+            },
+            {
+              "id": "ac_mqh2h4dfliy7",
+              "text": "Diffusion",
+              "done": false
+            },
+            {
+              "id": "ac_mqh2hdjk65iq",
+              "text": "Alimentation ChangeLog et Panneau affichage",
+              "done": false
+            }
+          ],
+          "comments": [],
+          "created": "2026-06-16T19:59:32.403Z",
+          "modified": "2026-06-16T20:01:07.177Z"
+        }
+      ]
     },
     {
       "id": "cat_mqft6zkj1gdl",
