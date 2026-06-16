@@ -48,7 +48,8 @@
       </div>
 
       <nav class="nav" role="tablist" aria-label="Sections du site">
-        <button class="nav__btn is-active" id="tab-files" data-tab="files" role="tab" aria-selected="true" aria-controls="panel-files" tabindex="0">Files</button>
+        <button class="nav__btn is-active" id="tab-board" data-tab="board" role="tab" aria-selected="true" aria-controls="panel-board" tabindex="0">Panneau d'affichage</button>
+        <button class="nav__btn" id="tab-files" data-tab="files" role="tab" aria-selected="false" aria-controls="panel-files" tabindex="-1">Files</button>
         <button class="nav__btn" id="tab-liste" data-tab="liste" role="tab" aria-selected="false" aria-controls="panel-liste" tabindex="-1">Liste</button>
         <button class="nav__btn" id="tab-changelog" data-tab="changelog" role="tab" aria-selected="false" aria-controls="panel-changelog" tabindex="-1">Changelog</button>
         <button class="nav__btn" id="tab-planner" data-tab="planner" role="tab" aria-selected="false" aria-controls="panel-planner" tabindex="-1">Planner</button>
@@ -64,8 +65,14 @@
 
   <main class="wrap">
 
+    <!-- ===================== PANNEAU D'AFFICHAGE (accueil) ===================== -->
+    <section class="panel is-active" id="panel-board" role="tabpanel" aria-labelledby="tab-board">
+      <div class="stencil">Panneau d'affichage</div>
+      <div id="boardHost"><span class="loading">Chargement&#8230;</span></div>
+    </section>
+
     <!-- ===================== FILES ===================== -->
-    <section class="panel is-active" id="panel-files" role="tabpanel" aria-labelledby="tab-files">
+    <section class="panel" id="panel-files" role="tabpanel" aria-labelledby="tab-files">
       <div class="stencil">Lisez-moi</div>
       <div class="briefing" id="briefing"><span class="loading">Chargement&#8230;</span></div>
 

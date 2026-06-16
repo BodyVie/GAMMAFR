@@ -22,7 +22,7 @@ Dépôt GitHub ──► fichiers JSON mis à jour ──► le site se rafraîc
 
 ```
 gamma-fr/
-├── index.html            # page unique, 6 onglets
+├── index.html            # page unique, 7 onglets (accueil = Panneau d'affichage)
 ├── css/
 │   └── style.css         # thème « PDA de la Zone »
 ├── js/
@@ -35,6 +35,7 @@ gamma-fr/
 │   ├── liste.json        # liste numérotée
 │   ├── changelog.json    # journal des versions
 │   ├── planner.json      # planificateur (onglet Planner)
+│   ├── board.json        # panneau d'affichage éditable (onglet d'accueil)
 │   ├── admins.json       # pseudos admin (sélecteur d'auteur des commentaires planner)
 │   └── config.json       # titre, Formspree, Worker, chemins du configurateur
 ├── assets/               # favicon, icônes PWA, carte de partage (og-image)
@@ -58,9 +59,12 @@ gamma-fr/
 └── README.md
 ```
 
-Les onglets : **Files** (lisez-moi + configurateur d'installation), **Liste**
-(liste filtrable), **Changelog**, **Planner** (planificateur, édition admin),
-**Contact**, **Admin** (éditeurs JSON protégés).
+Les onglets : **Panneau d'affichage** (accueil — annonce éditable par les admins
++ nouveautés du dernier jour de modifications, déduites du changelog **et** du
+planner), **Files**
+(lisez-moi + configurateur d'installation), **Liste** (liste filtrable),
+**Changelog**, **Planner** (planificateur, édition admin), **Contact**, **Admin**
+(éditeurs JSON protégés).
 
 ---
 
@@ -228,7 +232,18 @@ demander une validation par email du compte.
   L'étape de récapitulatif est générée automatiquement.
 - `liste.json` : tableau d'objets `{ id, title, description }`.
 - `changelog.json` : tableau `{ version, date, changes[] }`, affiché par version
-  décroissante.
+  décroissante. Alimente aussi les « Nouveautés » du Panneau d'affichage.
+- `planner.json` : chaque ticket porte `created` et `modified` (horodatages ISO,
+  renseignés automatiquement à la création et à chaque édition). Affichés en tête
+  du ticket (« Créé le… » / « Dernière modification le… ») ; les tickets dont le
+  jour de dernière modification correspond au jour le plus récent remontent aussi
+  dans les « Nouveautés ». Le bloc « Nouveautés » dissocie les deux sources :
+  une section **Changelog** (son propre dernier jour de modifications) et une
+  section **Planner** (son propre dernier jour), chacune avec sa date.
+- `board.json` : panneau d'affichage de l'accueil — `{ title, body, updated }`
+  (textes ; `\n` = saut de ligne dans `body`). Édité directement depuis l'onglet
+  **Panneau d'affichage** quand un admin est connecté ; `updated` est renseigné
+  automatiquement à l'enregistrement.
 - `config.json` : `site_title`, `site_tagline`, `formspree_id`, `worker_url`.
 - `admins.json` : tableau de pseudos (`["Body", "Thundard"]`). Édité via la bulle
   « Administrateurs » de l'onglet Admin ; alimente la liste déroulante « Auteur »

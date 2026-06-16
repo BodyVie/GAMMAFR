@@ -14,6 +14,7 @@
     mod_zip_name: "GAMMAFR-PatchVF"
   };
   var loaded = { files: false, liste: false, changelog: false, admin: false };
+  var DEFAULT_TAB = "board";   // onglet d'accueil à l'ouverture
 
   // configurateur d'installation (piloté par data/patches.json, généré)
   var manifest = null;
@@ -21,7 +22,7 @@
 
   // session admin (en mémoire uniquement) + cache des données éditables
   var admin = { pwd: "", unlocked: false };
-  var data = { liste: null, changelog: null, planner: null, admins: null };
+  var data = { liste: null, changelog: null, planner: null, admins: null, board: null };
 
   // verrouillage optimiste : SHA GitHub de la version chargée pour chaque fichier
   var editSha = {};
@@ -84,12 +85,12 @@
     setupTabs();
     setupContact();
     loadConfig();
-    // onglet initial : déduit du #hash de l'URL (partage / rechargement), sinon Files
-    var initial = tabFromHash() || "files";
+    // onglet initial : déduit du #hash de l'URL (partage / rechargement), sinon l'accueil
+    var initial = tabFromHash() || DEFAULT_TAB;
     if (!tabFromHash() && history.replaceState) history.replaceState(null, "", "#" + initial);
     activateTab(initial);
     // bouton Précédent/Suivant du navigateur ⇄ onglet courant
-    window.addEventListener("hashchange", function () { activateTab(tabFromHash() || "files"); });
+    window.addEventListener("hashchange", function () { activateTab(tabFromHash() || DEFAULT_TAB); });
 
     // présence : signale le départ d'un admin, rafraîchit au retour d'onglet,
     // marque l'édition en cours dès qu'un champ admin est modifié.
@@ -254,7 +255,7 @@
 
   // action utilisateur : passe par le #hash → l'historique permet Précédent/Suivant
   function navigateTab(name) {
-    if ((tabFromHash() || "files") === name) { activateTab(name); return; }
+    if ((tabFromHash() || DEFAULT_TAB) === name) { activateTab(name); return; }
     location.hash = name; // déclenche hashchange → activateTab
   }
 
@@ -268,11 +269,215 @@
     $all(".panel").forEach(function (p) {
       p.classList.toggle("is-active", p.id === "panel-" + name);
     });
+    if (name === "board") loadBoard();
     if (name === "files" && !loaded.files) loadFiles();
     if (name === "liste") loadListe();
     if (name === "changelog") loadChangelog();
     if (name === "planner") loadPlanner();
     if (name === "admin") loadAdmin();
+  }
+
+  /* =======================================================================
+     ONGLET PANNEAU D'AFFICHAGE — accueil
+     En tête : un panneau d'annonce éditable par les admins (data/board.json).
+     En dessous : les nouveautés, c.-à-d. toutes les modifications du dernier
+     jour de modifications, déduites du changelog (data/changelog.json).
+     ======================================================================= */
+  function normalizeBoard(o) {
+    if (!o || typeof o !== "object" || Array.isArray(o)) o = {};
+    return { title: String(o.title || ""), body: String(o.body || ""), updated: String(o.updated || "") };
+  }
+
+  function loadBoard() {
+    var host = $("#boardHost");
+    if (!host) return;
+    clear(host);
+
+    // 1) panneau d'annonce (éditable par les admins)
+    var announce = el("div", { id: "boardAnnounce" }, [el("span", { class: "loading", text: "Chargement…" })]);
+    host.appendChild(announce);
+
+    // 2) nouveautés (dernières modifications)
+    host.appendChild(el("div", { class: "stencil", style: "margin-top:24px", text: "Nouveautés" }));
+    var news = el("div", { id: "boardNews" }, [el("span", { class: "loading", text: "Chargement…" })]);
+    host.appendChild(news);
+
+    renderBoardAnnounce(announce);
+    renderBoardNews(news);
+  }
+
+  // ---- panneau d'annonce -------------------------------------------------
+  function renderBoardAnnounce(host) {
+    if (isAdmin()) {
+      clear(host); host.appendChild(el("span", { class: "loading", text: "Chargement…" }));
+      loadForEdit("board.json")
+        .then(function (r) { data.board = normalizeBoard(r.obj); renderBoardEditor(host); })
+        .catch(function (e) { loadError(host, "Impossible de charger le panneau pour édition (" + e.message + ").", function () { renderBoardAnnounce(host); }); });
+      return;
+    }
+    fetch("data/board.json", { cache: "no-store" })
+      .then(function (r) { return r.ok ? r.json() : {}; })
+      .catch(function () { return {}; })
+      .then(function (o) { data.board = normalizeBoard(o); renderBoardReadonly(host); });
+  }
+
+  function renderBoardReadonly(host) {
+    clear(host);
+    var b = data.board || normalizeBoard(null);
+    if (!b.title && !b.body) {
+      host.appendChild(el("p", { class: "list-empty", text: "Aucune annonce pour le moment." }));
+      return;
+    }
+    var card = el("div", { class: "briefing board-announce" });
+    if (b.title) card.appendChild(el("div", { class: "board-announce__title", text: b.title }));
+    if (b.body) card.appendChild(el("div", { class: "board-announce__body", text: b.body }));
+    if (b.updated) card.appendChild(el("div", { class: "board-announce__meta", text: "Mis à jour le " + b.updated }));
+    host.appendChild(card);
+  }
+
+  function renderBoardEditor(host) {
+    clear(host);
+    var b = data.board || normalizeBoard(null);
+
+    host.appendChild(el("div", { class: "admin-bar" }, [
+      el("span", { class: "admin-bar__tag", text: "ADMIN" }),
+      el("span", { text: "Édition du panneau d'affichage — n'oublie pas d'enregistrer." })
+    ]));
+
+    var card = el("div", { class: "card" });
+    var title = el("input", { class: "input", type: "text", value: b.title, placeholder: "Titre de l'annonce…" });
+    var body = el("textarea", { class: "textarea", rows: "6", placeholder: "Texte affiché en haut de l'accueil…" });
+    body.value = b.body;
+    card.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Titre" }), title]));
+    card.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Message" }), body]));
+
+    var status = el("span", { class: "editor__status" });
+    var save = el("button", { class: "btn btn--amber", text: "Enregistrer le panneau" });
+    save.addEventListener("click", function () {
+      var today = new Date();
+      var obj = {
+        title: title.value.trim(),
+        body: body.value.trim(),
+        updated: today.getFullYear() + "-" + pad(today.getMonth() + 1) + "-" + pad(today.getDate())
+      };
+      saveData("board.json", obj, status, save, function () { data.board = normalizeBoard(obj); });
+    });
+    card.appendChild(el("div", { class: "editor__foot" }, [save, status]));
+    host.appendChild(card);
+  }
+
+  /* ---- nouveautés : dernières modifications, changelog + planner ----------
+     On retient « le dernier jour de modifications » toutes sources confondues :
+     la date la plus récente parmi les dates du changelog et les dates de dernière
+     modification des tickets du planner. On affiche ensuite tout ce qui date de
+     ce jour-là. */
+  function dayOf(s) { return typeof s === "string" ? s.slice(0, 10) : ""; }
+
+  // Récolte les tickets du planner avec leur jour de dernière activité.
+  // Un ticket jamais réédité (modified === created) compte comme une création.
+  function collectPlannerNews(planner) {
+    var cats = (planner && Array.isArray(planner.categories)) ? planner.categories : [];
+    var out = [];
+    cats.forEach(function (c) {
+      (c.tickets || []).forEach(function (t) {
+        if (!t || !(t.title || "").trim()) return;
+        var modified = t.modified || t.created || "";
+        var day = dayOf(modified);
+        if (!day) return;
+        var created = t.created || "";
+        out.push({
+          day: day, stamp: modified, title: t.title, category: (c.name || "").trim(),
+          isNew: !created || modified === created
+        });
+      });
+    });
+    return out;
+  }
+
+  function mostRecentDay(days) {
+    return days.reduce(function (m, d) { return d > m ? d : m; }, days[0]);
+  }
+
+  // Crée une section « Nouveautés » : un titre (jour) + un conteneur .log.
+  function newsSection(host, heading) {
+    var box = el("div", { class: "log" });
+    host.appendChild(el("div", { class: "board-news__section" }, [
+      el("p", { class: "board-news__day", text: heading }),
+      box
+    ]));
+    return box;
+  }
+
+  function renderBoardNews(host) {
+    Promise.all([
+      fetch("data/changelog.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : []; }).catch(function () { return []; }),
+      fetch("data/planner.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; })
+    ]).then(function (res) {
+      clear(host);
+      var entries = Array.isArray(res[0]) ? res[0].filter(function (e) { return e && typeof e === "object"; }) : [];
+      var plNews = collectPlannerNews(res[1] && typeof res[1] === "object" ? res[1] : {});
+      var any = false;
+
+      // --- Changelog : son propre dernier jour de modifications ---
+      var clDays = entries
+        .filter(function (e) { return typeof e.date === "string" && e.date.trim() !== ""; })
+        .map(function (e) { return dayOf(e.date); });
+      if (clDays.length) {
+        var clDay = mostRecentDay(clDays);
+        renderChangelogDay(newsSection(host, "Changelog — modifications du " + clDay),
+          entries.filter(function (e) { return dayOf(e.date) === clDay; }), clDay);
+        any = true;
+      } else if (entries.length) {
+        // aucun jour exploitable : repli sur la version la plus récente
+        var top = entries.slice().sort(function (a, b) { return GammaCore.cmpVersion(b.version, a.version); })[0];
+        renderChangelogDay(newsSection(host, "Changelog — dernière version"), [top], null);
+        any = true;
+      }
+
+      // --- Planner : son propre dernier jour de modifications ---
+      if (plNews.length) {
+        var plDay = mostRecentDay(plNews.map(function (n) { return n.day; }));
+        renderPlannerDay(newsSection(host, "Planner — modifications du " + plDay),
+          plNews.filter(function (n) { return n.day === plDay; }));
+        any = true;
+      }
+
+      if (!any) {
+        host.appendChild(el("p", { class: "list-empty", text: "Aucune modification récente." }));
+        return;
+      }
+      host.appendChild(el("button", {
+        class: "btn btn--ghost btn--mini", style: "margin-top:18px", text: "Voir tout le changelog →",
+        onClick: function () { navigateTab("changelog"); }
+      }));
+    });
+  }
+
+  function renderChangelogDay(box, dayEntries, day) {
+    dayEntries
+      .slice()
+      .sort(function (a, b) { return GammaCore.cmpVersion(b.version, a.version); })
+      .forEach(function (e) {
+        var head = el("div", { class: "log-entry__head" }, [
+          el("span", { class: "log-entry__ver", text: "v" + (e.version || "?") }),
+          (e.date && dayOf(e.date) !== day) ? el("span", { class: "log-entry__date", text: e.date }) : null
+        ]);
+        var ul = el("ul", { class: "log-entry__changes" });
+        (e.changes || []).forEach(function (c) { ul.appendChild(el("li", { text: c })); });
+        box.appendChild(el("div", { class: "log-entry" }, [head, ul]));
+      });
+  }
+
+  function renderPlannerDay(box, items) {
+    var ul = el("ul", { class: "log-entry__changes" });
+    items
+      .slice()
+      .sort(function (a, b) { return a.stamp < b.stamp ? 1 : -1; })
+      .forEach(function (n) {
+        var label = (n.isNew ? "Nouvelle tâche : " : "Tâche mise à jour : ") + n.title + (n.category ? " — " + n.category : "");
+        ul.appendChild(el("li", { text: label }));
+      });
+    box.appendChild(el("div", { class: "log-entry" }, [ul]));
   }
 
   /* =======================================================================
@@ -866,6 +1071,16 @@
   }
   function plClone(o) { return JSON.parse(JSON.stringify(o)); }
 
+  // Empreinte du *contenu* d'un ticket (hors id/created/modified) : sert à
+  // détecter une vraie modification à la fermeture de l'éditeur pour dater le
+  // champ « modified ».
+  function ticketFingerprint(t) {
+    return JSON.stringify({
+      title: t.title, description: t.description, status: t.status,
+      due: t.due, labels: t.labels, actions: t.actions, comments: t.comments
+    });
+  }
+
   function normalizeTicket(t) {
     t = t && typeof t === "object" ? t : {};
     return {
@@ -883,7 +1098,8 @@
         c = c || {};
         return { id: c.id || plUid("cm"), author: String(c.author || "Admin"), date: String(c.date || ""), text: String(c.text || "") };
       }),
-      created: String(t.created || "")
+      created: String(t.created || ""),
+      modified: String(t.modified || t.created || "")
     };
   }
 
@@ -1151,6 +1367,16 @@
     if (rf && typeof rf.focus === "function") rf.focus(); // restaure le focus au déclencheur
   }
 
+  // Bandeau de dates affiché en tête d'un ticket : création + dernière
+  // modification (masquée si identique à la création).
+  function ticketStamps(tk) {
+    if (!tk.created && !tk.modified) return null;
+    var row = el("div", { class: "tstamp" });
+    if (tk.created) row.appendChild(el("span", { text: "Créé le " + fmtDate(tk.created) }));
+    if (tk.modified && tk.modified !== tk.created) row.appendChild(el("span", { text: "Dernière modification le " + fmtDate(tk.modified) }));
+    return row;
+  }
+
   function openTicketView(tk) {
     var p = data.planner;
     var content = el("div", { class: "modal__inner" });
@@ -1160,6 +1386,9 @@
     ]));
     var body = el("div", { class: "modal__body" });
     content.appendChild(body);
+
+    var stamps = ticketStamps(tk);
+    if (stamps) body.appendChild(stamps);
 
     var meta = el("div", { class: "tmeta" }, [el("span", { class: "tcard__status tcard__status--" + tk.status, text: PSTATUS[tk.status] })]);
     if (tk.due) meta.appendChild(el("span", { class: "pbadge" + (tk.status !== "done" && isOverdue(tk.due) ? " pbadge--late" : ""), text: "Échéance : " + tk.due }));
@@ -1221,6 +1450,7 @@
 
   function openTicketEdit(cat, tk) {
     var p = plannerDraft;
+    var snapshot = ticketFingerprint(tk); // pour dater « modified » si le contenu change
     var content = el("div", { class: "modal__inner" });
 
     var titleInp = el("input", { class: "input modal__titleinput", type: "text", value: tk.title, placeholder: "Titre du ticket" });
@@ -1232,6 +1462,9 @@
 
     var body = el("div", { class: "modal__body" });
     content.appendChild(body);
+
+    var stamps = ticketStamps(tk);
+    if (stamps) body.appendChild(stamps);
 
     var status = el("select", { class: "input select input--sm" });
     Object.keys(PSTATUS).forEach(function (k) {
@@ -1326,7 +1559,11 @@
     cText.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); cAdd.click(); } });
 
     paintLabels(); paintActions(); paintComments();
-    openModal(content, paintBoard);
+    openModal(content, function () {
+      // marque la date de dernière modification si le contenu a réellement changé
+      if (ticketFingerprint(tk) !== snapshot) tk.modified = new Date().toISOString();
+      paintBoard();
+    });
   }
 
   function openLabelManager() {
@@ -1397,7 +1634,8 @@
               actions: t.actions.filter(function (a) { return (a.text || "").trim() !== ""; })
                 .map(function (a) { return { id: a.id, text: a.text.trim(), done: !!a.done }; }),
               comments: t.comments.map(function (cc) { return { id: cc.id, author: cc.author || "Admin", date: cc.date, text: cc.text }; }),
-              created: t.created || ""
+              created: t.created || "",
+              modified: t.modified || t.created || ""
             };
           })
         };
@@ -1586,7 +1824,7 @@
 
     wrap.appendChild(el("div", { class: "admin-bar" }, [
       el("span", { class: "admin-bar__tag", text: "CONNECTÉ" }),
-      el("span", { text: "Tu peux aussi modifier la Liste et le Changelog dans leurs onglets." }),
+      el("span", { text: "Tu peux aussi modifier le Panneau d'affichage, la Liste et le Changelog dans leurs onglets." }),
       el("button", { class: "btn btn--ghost btn--mini", text: "Verrouiller", onClick: lockAdmin })
     ]));
 

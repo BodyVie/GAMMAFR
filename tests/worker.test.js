@@ -32,6 +32,15 @@ test("validateSchema : files.json = objet, readme texte si présent", async () =
   assert.ok(validateSchema("files.json", { readme: 123 }), "readme non-texte refusé");
 });
 
+test("validateSchema : board.json = objet, title/body/updated textes si présents", async () => {
+  const { validateSchema } = await workerP;
+  assert.equal(validateSchema("board.json", {}), null);
+  assert.equal(validateSchema("board.json", { title: "Coucou", body: "texte", updated: "2026-06-16" }), null);
+  assert.ok(validateSchema("board.json", []), "tableau refusé");
+  assert.ok(validateSchema("board.json", { title: 123 }), "title non-texte refusé");
+  assert.ok(validateSchema("board.json", { body: 5 }), "body non-texte refusé");
+});
+
 test("validateSchema : config.json = objet", async () => {
   const { validateSchema } = await workerP;
   assert.equal(validateSchema("config.json", { site_title: "X" }), null);

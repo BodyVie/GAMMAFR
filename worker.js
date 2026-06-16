@@ -32,7 +32,7 @@
  */
 
 // Seuls ces fichiers peuvent être écrits (anti-traversée de chemin / écriture arbitraire).
-const ALLOWED_FILES = ["files.json", "liste.json", "changelog.json", "config.json", "planner.json", "admins.json"];
+const ALLOWED_FILES = ["files.json", "liste.json", "changelog.json", "config.json", "planner.json", "admins.json", "board.json"];
 
 const MAX_FAILS = 5;          // blocage après 5 échecs
 const FAIL_WINDOW = 15 * 60;  // fenêtre glissante, en secondes
@@ -81,6 +81,12 @@ function validateSchema(filename, data) {
     case "files.json":
       if (!isObject(data)) return "files.json doit être un objet.";
       if (data.readme !== undefined && typeof data.readme !== "string") return "files.json : « readme » doit être un texte.";
+      return null;
+    case "board.json":
+      if (!isObject(data)) return "board.json doit être un objet.";
+      if (data.title !== undefined && typeof data.title !== "string") return "board.json : « title » doit être un texte.";
+      if (data.body !== undefined && typeof data.body !== "string") return "board.json : « body » doit être un texte.";
+      if (data.updated !== undefined && typeof data.updated !== "string") return "board.json : « updated » doit être un texte.";
       return null;
     case "config.json":
       if (!isObject(data)) return "config.json doit être un objet.";

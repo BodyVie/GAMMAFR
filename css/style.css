@@ -246,6 +246,30 @@ a:hover { text-decoration: underline; }
   font-size: 14px;
 }
 
+/* ---- Panneau d'affichage (accueil) ----------------------------------- */
+.board-announce { display: flex; flex-direction: column; gap: 10px; }
+.board-announce__title {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--amber);
+}
+.board-announce__body { white-space: pre-wrap; line-height: 1.55; }
+.board-announce__meta { color: var(--dim); font-size: 12px; letter-spacing: 0.04em; }
+.board-news__day { color: var(--dim); font-size: 13px; margin: 0 0 12px; letter-spacing: 0.04em; }
+.board-news__section + .board-news__section { margin-top: 22px; }
+
+/* Bandeau de dates en tête d'un ticket (création / dernière modification) */
+.tstamp {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  margin-bottom: 12px;
+  color: var(--dim);
+  font-size: 12px;
+  letter-spacing: 0.03em;
+}
+
 /* =========================================================================
    ONGLET FILES — wizard FOMOD
    ========================================================================= */
