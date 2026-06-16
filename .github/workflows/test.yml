@@ -1,6 +1,6 @@
 name: Tests
 
-# Lance les tests unitaires (runner natif Node, sans dépendance).
+# Lint de syntaxe (node --check) puis tests unitaires (runner natif Node, sans dépendance).
 
 on:
   push:
@@ -8,6 +8,7 @@ on:
     paths:
       - 'js/**'
       - 'tests/**'
+      - 'worker.js'
       - 'package.json'
       - '.github/workflows/test.yml'
   pull_request:
@@ -24,6 +25,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+
+      - name: Lint (node --check)
+        run: npm run lint
 
       - name: node --test
         run: node --test

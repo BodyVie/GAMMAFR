@@ -56,8 +56,23 @@
     });
   }
 
+  // Affiche un message d'erreur de chargement + un bouton « Réessayer » qui
+  // relance la fonction de chargement passée en argument.
+  function loadError(host, msg, retry) {
+    clear(host);
+    host.appendChild(el("div", { class: "load-error" }, [
+      el("p", { class: "list-empty", text: msg }),
+      el("button", { class: "btn btn--ghost", text: "↻ Réessayer", onClick: function () {
+        clear(host);
+        host.appendChild(el("span", { class: "loading", text: "Chargement…" }));
+        retry();
+      } })
+    ]));
+  }
+
   // ---- amorçage ----------------------------------------------------------
   document.addEventListener("DOMContentLoaded", function () {
+    syncShareMeta();
     setupTabs();
     setupContact();
     loadConfig();
@@ -68,6 +83,25 @@
     // bouton Précédent/Suivant du navigateur ⇄ onglet courant
     window.addEventListener("hashchange", function () { activateTab(tabFromHash() || "files"); });
   });
+
+  // Aligne les balises de partage (canonical, Open Graph, Twitter) sur l'URL
+  // réelle d'hébergement, dérivée d'une seule source (location). Évite d'avoir à
+  // éditer index.html en plusieurs endroits si le domaine/chemin change ; les
+  // valeurs codées dans le HTML ne servent plus que de repli pour les robots
+  // qui n'exécutent pas JS.
+  function syncShareMeta() {
+    var dir = location.href.replace(/[?#].*$/, "").replace(/[^/]*$/, ""); // dossier courant (…/)
+    var img = dir + "assets/og-image.png";
+    [
+      ['link[rel="canonical"]', "href", dir],
+      ['meta[property="og:url"]', "content", dir],
+      ['meta[property="og:image"]', "content", img],
+      ['meta[name="twitter:image"]', "content", img]
+    ].forEach(function (m) {
+      var node = document.querySelector(m[0]);
+      if (node) node.setAttribute(m[1], m[2]);
+    });
+  }
 
   function loadConfig() {
     fetchJSON("data/config.json")
@@ -157,9 +191,10 @@
         renderConfigurator();
       })
       .catch(function (e) {
-        clear(host);
-        host.appendChild(el("p", { class: "list-empty", text:
-          "Configurateur indisponible : data/patches.json introuvable ou invalide (" + e.message + ")." }));
+        loaded.files = false;
+        loadError(host,
+          "Configurateur indisponible : data/patches.json introuvable ou invalide (" + e.message + ").",
+          loadFiles);
       });
   }
 
@@ -501,8 +536,7 @@
     fetchJSON("data/liste.json")
       .then(function (entries) { data.liste = Array.isArray(entries) ? entries : []; renderListe(); })
       .catch(function (e) {
-        clear(host);
-        host.appendChild(el("p", { class: "list-empty", text: "Impossible de charger la liste (" + e.message + ")." }));
+        loadError(host, "Impossible de charger la liste (" + e.message + ").", loadListe);
       });
   }
 
@@ -601,8 +635,7 @@
     fetchJSON("data/changelog.json")
       .then(function (entries) { data.changelog = Array.isArray(entries) ? entries : []; renderChangelog(); })
       .catch(function (e) {
-        clear(host);
-        host.appendChild(el("p", { class: "list-empty", text: "Impossible de charger le changelog (" + e.message + ")." }));
+        loadError(host, "Impossible de charger le changelog (" + e.message + ").", loadChangelog);
       });
   }
 
@@ -767,8 +800,7 @@
     fetchJSON("data/planner.json")
       .then(function (o) { data.planner = normalizePlanner(o); renderPlanner(); })
       .catch(function (e) {
-        clear(host);
-        host.appendChild(el("p", { class: "list-empty", text: "Impossible de charger le planner (" + e.message + ")." }));
+        loadError(host, "Impossible de charger le planner (" + e.message + ").", loadPlanner);
       });
   }
 

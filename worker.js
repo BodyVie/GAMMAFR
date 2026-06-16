@@ -43,6 +43,51 @@ const CONTACT_WINDOW = 60 * 60; // fenêtre contact, en secondes
 // Repli mémoire si KV non configuré (best-effort, non partagé entre isolats).
 const memFails = new Map(); // ip -> { count, exp }
 
+/* ===================== Validation de schéma ===================== */
+/**
+ * Au-delà de la validité syntaxique, vérifie que le JSON a la *forme* attendue
+ * pour chaque fichier. Sans ça, un collage de structure incorrecte (ex. un objet
+ * là où le site attend un tableau) serait accepté et casserait silencieusement
+ * l'affichage. Renvoie un message d'erreur (string) ou null si tout est conforme.
+ */
+function isObject(v) { return v !== null && typeof v === "object" && !Array.isArray(v); }
+
+function validateSchema(filename, data) {
+  switch (filename) {
+    case "liste.json": {
+      if (!Array.isArray(data)) return "liste.json doit être un tableau.";
+      for (let i = 0; i < data.length; i++) {
+        if (!isObject(data[i])) return "liste.json[" + i + "] doit être un objet.";
+        if (typeof data[i].title !== "string") return "liste.json[" + i + "] : champ « title » (texte) requis.";
+      }
+      return null;
+    }
+    case "changelog.json": {
+      if (!Array.isArray(data)) return "changelog.json doit être un tableau.";
+      for (let i = 0; i < data.length; i++) {
+        if (!isObject(data[i])) return "changelog.json[" + i + "] doit être un objet.";
+        if (typeof data[i].version !== "string") return "changelog.json[" + i + "] : champ « version » (texte) requis.";
+        if (data[i].changes !== undefined && !Array.isArray(data[i].changes)) return "changelog.json[" + i + "] : « changes » doit être un tableau.";
+      }
+      return null;
+    }
+    case "files.json":
+      if (!isObject(data)) return "files.json doit être un objet.";
+      if (data.readme !== undefined && typeof data.readme !== "string") return "files.json : « readme » doit être un texte.";
+      return null;
+    case "config.json":
+      if (!isObject(data)) return "config.json doit être un objet.";
+      return null;
+    case "planner.json":
+      if (!isObject(data)) return "planner.json doit être un objet.";
+      if (data.categories !== undefined && !Array.isArray(data.categories)) return "planner.json : « categories » doit être un tableau.";
+      if (data.labels !== undefined && !Array.isArray(data.labels)) return "planner.json : « labels » doit être un tableau.";
+      return null;
+    default:
+      return null;
+  }
+}
+
 export default {
   async fetch(request, env) {
     const origin = env.ALLOWED_ORIGIN || "";
@@ -100,12 +145,15 @@ export default {
       return json({ error: "Fichier non autorisé." }, 400, origin);
     }
 
-    // --- validation du contenu : doit être un JSON valide ---
+    // --- validation du contenu : JSON valide ET forme attendue pour le fichier ---
+    let parsed;
     try {
-      JSON.parse(content);
+      parsed = JSON.parse(content);
     } catch (_) {
       return json({ error: "Le contenu n'est pas un JSON valide." }, 400, origin);
     }
+    const schemaErr = validateSchema(filename, parsed);
+    if (schemaErr) return json({ error: schemaErr }, 400, origin);
 
     // --- limitation de débit par IP ---
     const ip = request.headers.get("CF-Connecting-IP") || "0.0.0.0";
@@ -282,32 +330,39 @@ async function pushToGitHub(env, path, content) {
     "User-Agent": "gamma-fr-worker",
     "X-GitHub-Api-Version": "2022-11-28"
   };
+  const encodedContent = toBase64(content);
 
-  // 1) récupérer le SHA actuel (peut ne pas exister encore)
-  let sha;
-  const getRes = await fetch(base + "?ref=" + encodeURIComponent(branch), { headers: ghHeaders });
-  if (getRes.status === 200) {
-    const meta = await getRes.json();
-    sha = meta.sha;
-  } else if (getRes.status !== 404) {
+  // Relit le SHA actuel du fichier (undefined s'il n'existe pas encore).
+  async function readSha() {
+    const getRes = await fetch(base + "?ref=" + encodeURIComponent(branch), { headers: ghHeaders });
+    if (getRes.status === 200) return (await getRes.json()).sha;
+    if (getRes.status === 404) return undefined;
     throw new Error("lecture SHA (HTTP " + getRes.status + ")");
   }
 
-  // 2) PUT du nouveau contenu (base64 UTF-8)
-  const payload = {
-    message: "MAJ " + path + " via admin (" + new Date().toISOString() + ")",
-    content: toBase64(content),
-    branch: branch
-  };
-  if (sha) payload.sha = sha;
+  // PUT du contenu (base64 UTF-8). En cas de SHA périmé — deux sauvegardes
+  // admin concurrentes —, GitHub renvoie 409/422 : on relit le SHA et on
+  // réessaie une fois plutôt que de renvoyer une erreur à l'admin.
+  let sha = await readSha();
+  for (let attempt = 0; attempt < 2; attempt++) {
+    const payload = {
+      message: "MAJ " + path + " via admin (" + new Date().toISOString() + ")",
+      content: encodedContent,
+      branch: branch
+    };
+    if (sha) payload.sha = sha;
 
-  const putRes = await fetch(base, {
-    method: "PUT",
-    headers: ghHeaders,
-    body: JSON.stringify(payload)
-  });
+    const putRes = await fetch(base, {
+      method: "PUT",
+      headers: ghHeaders,
+      body: JSON.stringify(payload)
+    });
 
-  if (putRes.status !== 200 && putRes.status !== 201) {
+    if (putRes.status === 200 || putRes.status === 201) return;
+
+    const isConflict = putRes.status === 409 || putRes.status === 422;
+    if (isConflict && attempt === 0) { sha = await readSha(); continue; }
+
     let detail = "";
     try { const e = await putRes.json(); detail = e && e.message ? " — " + e.message : ""; } catch (_) {}
     throw new Error("écriture (HTTP " + putRes.status + ")" + detail);
@@ -398,3 +453,7 @@ function json(obj, status, origin) {
     )
   });
 }
+
+// Export nommé (ignoré par le runtime Cloudflare) : permet de tester la
+// validation de schéma hors navigateur via `import` (voir tests/).
+export { validateSchema };
