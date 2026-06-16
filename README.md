@@ -60,7 +60,8 @@ gamma-fr/
 ```
 
 Les onglets : **Panneau d'affichage** (accueil — annonce éditable par les admins
-+ nouveautés du dernier jour de modifications, déduites du changelog), **Files**
++ nouveautés du dernier jour de modifications, déduites du changelog **et** du
+planner), **Files**
 (lisez-moi + configurateur d'installation), **Liste** (liste filtrable),
 **Changelog**, **Planner** (planificateur, édition admin), **Contact**, **Admin**
 (éditeurs JSON protégés).
@@ -231,8 +232,13 @@ demander une validation par email du compte.
   L'étape de récapitulatif est générée automatiquement.
 - `liste.json` : tableau d'objets `{ id, title, description }`.
 - `changelog.json` : tableau `{ version, date, changes[] }`, affiché par version
-  décroissante. Alimente aussi les « Nouveautés » du Panneau d'affichage (toutes
-  les entrées partageant la date la plus récente).
+  décroissante. Alimente aussi les « Nouveautés » du Panneau d'affichage.
+- `planner.json` : chaque ticket porte `created` et `modified` (horodatages ISO,
+  renseignés automatiquement à la création et à chaque édition). Affichés en tête
+  du ticket (« Créé le… » / « Dernière modification le… ») ; les tickets dont le
+  jour de dernière modification correspond au jour le plus récent remontent aussi
+  dans les « Nouveautés ». Les « Nouveautés » retiennent le jour le plus récent
+  toutes sources confondues (changelog + planner) et affichent tout ce qui en date.
 - `board.json` : panneau d'affichage de l'accueil — `{ title, body, updated }`
   (textes ; `\n` = saut de ligne dans `body`). Édité directement depuis l'onglet
   **Panneau d'affichage** quand un admin est connecté ; `updated` est renseigné

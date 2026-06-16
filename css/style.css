@@ -258,6 +258,17 @@ a:hover { text-decoration: underline; }
 .board-announce__meta { color: var(--dim); font-size: 12px; letter-spacing: 0.04em; }
 .board-news__day { color: var(--dim); font-size: 13px; margin: 0 0 12px; letter-spacing: 0.04em; }
 
+/* Bandeau de dates en tête d'un ticket (création / dernière modification) */
+.tstamp {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  margin-bottom: 12px;
+  color: var(--dim);
+  font-size: 12px;
+  letter-spacing: 0.03em;
+}
+
 /* =========================================================================
    ONGLET FILES — wizard FOMOD
    ========================================================================= */
