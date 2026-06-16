@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-15T22:53:53+00:00",
+  "generated": "2026-06-16T19:49:56+00:00",
   "labels": [
     {
       "id": "lbl_mqft6asnlhoe",
@@ -25,12 +25,12 @@
     },
     {
       "id": "cat_doing",
-      "name": "prochainement",
+      "name": "accepter",
       "tickets": []
     },
     {
       "id": "cat_done",
-      "name": "accepter",
+      "name": "prochainement",
       "tickets": []
     },
     {
