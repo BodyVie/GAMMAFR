@@ -39,7 +39,10 @@ const FAIL_WINDOW = 15 * 60;  // fenêtre glissante, en secondes
 const MAX_BODY = 512 * 1024;  // garde-fou : 512 Ko max par payload
 
 // Présence admin (compteur « N en ligne » + indicateur d'édition en cours).
-const PRESENCE_TTL = 40;      // une session expire après 40 s sans heartbeat
+// 60 s = minimum imposé par Cloudflare KV pour expirationTtl ; en dessous, le
+// put échoue (erreur 400) et plus aucune présence n'est enregistrée. Le heartbeat
+// client (25 s) rafraîchit la clé bien avant son expiration.
+const PRESENCE_TTL = 60;      // une session expire après 60 s sans heartbeat
 
 // Contact (stockage KV MESSAGES) — formulaire public, sans email.
 const MOTIFS = ["Suggestion", "Correction", "Autre"];
