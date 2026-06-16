@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Génère data/patches.json à partir de l'arborescence PatchVF/.
+Génère data/patches.json à partir de l'arborescence "0. PatchVF/".
 
 Structure attendue :
-  PatchVF/
+  0. PatchVF/
     MainFile/                  -> squelette copié tel quel dans le ZIP
     GAMMA base/                -> fichiers FR de base
     GAMMA tweak/<patch>/        -> XML + patch.json
@@ -22,7 +22,7 @@ import json
 import os
 import sys
 
-PATCH_BASE = "PatchVF"
+PATCH_BASE = "0. PatchVF"
 SECTIONS = {"base": "GAMMA base", "tweak": "GAMMA tweak", "extra": "GAMMA extra"}
 MAINFILE_DIR = "MainFile"
 META_NAME = "patch.json"
@@ -94,7 +94,7 @@ def build_patch_list(section_dir, root):
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Génère data/patches.json depuis PatchVF/.")
+    ap = argparse.ArgumentParser(description="Génère data/patches.json depuis \"0. PatchVF/\".")
     ap.add_argument("--root", default=".", help="Racine du dépôt (défaut : .)")
     ap.add_argument("--out", default=os.path.join("data", "patches.json"), help="Fichier de sortie")
     args = ap.parse_args()
@@ -102,7 +102,7 @@ def main():
     root = os.path.abspath(args.root)
     base_dir = os.path.join(root, PATCH_BASE)
     if not os.path.isdir(base_dir):
-        print("Erreur : dossier %s introuvable sous %s" % (PATCH_BASE, root), file=sys.stderr)
+        print("Erreur : dossier \"%s\" introuvable sous %s" % (PATCH_BASE, root), file=sys.stderr)
         sys.exit(1)
 
     manifest = {

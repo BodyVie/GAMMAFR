@@ -38,9 +38,10 @@ gamma-fr/
 │   └── config.json       # titre, Formspree, Worker, chemins du configurateur
 ├── assets/               # favicon, icônes PWA, carte de partage (og-image)
 ├── tools/
-│   └── build_manifest.py # génère data/patches.json depuis PatchVF/
+│   └── build_manifest.py # génère data/patches.json depuis "0. PatchVF/"
 ├── tests/                # tests unitaires (node --test, sans dépendance)
-├── PatchVF/              # contenu de la traduction (voir §8)
+├── 0. PatchVF/           # contenu de la traduction (voir §8) — préfixe "0." pour
+│                         #   apparaître en tête de liste sur GitHub
 │   ├── MainFile/             # squelette copié tel quel dans l'archive
 │   ├── GAMMA base/           # fichiers FR de base
 │   ├── GAMMA tweak/<patch>/   # XML + patch.json
@@ -270,15 +271,15 @@ demander une validation par email du compte.
 ## 8. Configurateur d'installation (PatchVF)
 
 L'onglet **Files** assemble une archive de mod **dans le navigateur** à partir du
-dossier `PatchVF/`. Aucune API GitHub, aucun service externe : sur GitHub Pages,
-les fichiers de `PatchVF/` sont servis comme le reste du site et récupérés en
+dossier `0. PatchVF/`. Aucune API GitHub, aucun service externe : sur GitHub Pages,
+les fichiers de `0. PatchVF/` sont servis comme le reste du site et récupérés en
 relatif. L'archive est construite en JS pur (`js/zip.js`) ; les octets de chaque
 fichier sont copiés tels quels, donc l'encodage **windows-1252** est préservé.
 
-### 8.1. Structure de `PatchVF/`
+### 8.1. Structure de `0. PatchVF/`
 
 ```
-PatchVF/
+0. PatchVF/
 ├── MainFile/                  # squelette : copié tel quel à la racine du ZIP
 │   └── (meta.ini, etc.)       #   (laisser vide ⇒ le ZIP ne contient que gamedata/…)
 ├── GAMMA base/                # fichiers FR de base (directement dedans)
@@ -337,7 +338,7 @@ Le site lit un manifeste unique `data/patches.json` (1 requête). Deux options :
   git add data/patches.json && git commit -m "maj manifeste" && git push
   ```
 - **Option B — automatique (GitHub Action)** : `.github/workflows/build-manifest.yml`
-  régénère et committe `data/patches.json` à chaque push touchant `PatchVF/**`.
+  régénère et committe `data/patches.json` à chaque push touchant `0. PatchVF/**`.
   Rien à faire manuellement. (Active les Actions sur le dépôt ; l'Action a la
   permission `contents: write`.)
 
@@ -348,7 +349,7 @@ pas dans l'onglet Admin, qui régénérerait au prochain build).
 
 ```json
 {
-  "patch_base": "PatchVF",
+  "patch_base": "0. PatchVF",
   "fra_path": "gamedata/configs/text/fra",
   "mod_zip_name": "GAMMAFR-PatchVF"
 }

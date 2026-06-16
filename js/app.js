@@ -9,7 +9,7 @@
   // ---- état --------------------------------------------------------------
   var config = {
     worker_url: "", site_title: "GAMMAFR", site_tagline: "",
-    patch_base: "PatchVF",
+    patch_base: "0. PatchVF",
     fra_path: "gamedata/configs/text/fra",
     mod_zip_name: "GAMMAFR-PatchVF"
   };
@@ -430,7 +430,7 @@
     }
 
     var r = resolveSelection();
-    var prefix = (config.patch_base || "PatchVF") + "/MainFile/";
+    var prefix = (config.patch_base || "0. PatchVF") + "/MainFile/";
     var targets = {}; // cible dans le zip -> chemin source
     r.mainfile.forEach(function (path) {
       var target = path.indexOf(prefix) === 0 ? path.slice(prefix.length) : baseName(path);
@@ -468,7 +468,7 @@
     function finish() {
       if (failed.length) {
         status.className = "notice is-shown notice--err";
-        status.textContent = failed.length + " fichier(s) introuvable(s). Vérifie que PatchVF est publié sur le site. Premier échec : " + failed[0];
+        status.textContent = failed.length + " fichier(s) introuvable(s). Vérifie que 0. PatchVF est publié sur le site. Premier échec : " + failed[0];
         return;
       }
       status.textContent = "Compression\u2026";
@@ -1446,7 +1446,7 @@
     wrap.appendChild(el("div", { class: "stencil stencil--muted", style: "margin-top:24px", text: "Générateur de patch.json" }));
     var pgCard = el("div", { class: "card" });
     pgCard.appendChild(el("p", { class: "admin-note", text:
-      "Génère le patch.json à déposer dans PatchVF/GAMMA tweak/<id>/ ou PatchVF/GAMMA extra/<id>/, à côté du ou des XML (le nom du dossier <id> sert d'identifiant). data/patches.json est ensuite régénéré automatiquement par GitHub." }));
+      "Génère le patch.json à déposer dans 0. PatchVF/GAMMA tweak/<id>/ ou 0. PatchVF/GAMMA extra/<id>/, à côté du ou des XML (le nom du dossier <id> sert d'identifiant). data/patches.json est ensuite régénéré automatiquement par GitHub." }));
 
     var today = new Date();
     var todayStr = today.getFullYear() + "-" + pad(today.getMonth() + 1) + "-" + pad(today.getDate());

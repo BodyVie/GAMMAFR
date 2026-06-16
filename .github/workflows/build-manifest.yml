@@ -1,13 +1,13 @@
 name: Build patches manifest
 
-# Régénère data/patches.json à chaque modification de PatchVF/.
+# Régénère data/patches.json à chaque modification de "0. PatchVF/".
 # Le commit ne touche que data/ (hors filtre) : pas de boucle de déclenchement.
 
 on:
   push:
     branches: [ main ]
     paths:
-      - 'PatchVF/**'
+      - '0. PatchVF/**'
       - 'tools/build_manifest.py'
       - '.github/workflows/build-manifest.yml'
   workflow_dispatch:
