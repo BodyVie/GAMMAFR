@@ -14,6 +14,7 @@
     mod_zip_name: "GAMMAFR-PatchVF"
   };
   var loaded = { files: false, liste: false, changelog: false, admin: false };
+  var DEFAULT_TAB = "board";   // onglet d'accueil à l'ouverture
 
   // configurateur d'installation (piloté par data/patches.json, généré)
   var manifest = null;
@@ -21,7 +22,7 @@
 
   // session admin (en mémoire uniquement) + cache des données éditables
   var admin = { pwd: "", unlocked: false };
-  var data = { liste: null, changelog: null, planner: null, admins: null };
+  var data = { liste: null, changelog: null, planner: null, admins: null, board: null };
 
   // verrouillage optimiste : SHA GitHub de la version chargée pour chaque fichier
   var editSha = {};
@@ -84,12 +85,12 @@
     setupTabs();
     setupContact();
     loadConfig();
-    // onglet initial : déduit du #hash de l'URL (partage / rechargement), sinon Files
-    var initial = tabFromHash() || "files";
+    // onglet initial : déduit du #hash de l'URL (partage / rechargement), sinon l'accueil
+    var initial = tabFromHash() || DEFAULT_TAB;
     if (!tabFromHash() && history.replaceState) history.replaceState(null, "", "#" + initial);
     activateTab(initial);
     // bouton Précédent/Suivant du navigateur ⇄ onglet courant
-    window.addEventListener("hashchange", function () { activateTab(tabFromHash() || "files"); });
+    window.addEventListener("hashchange", function () { activateTab(tabFromHash() || DEFAULT_TAB); });
 
     // présence : signale le départ d'un admin, rafraîchit au retour d'onglet,
     // marque l'édition en cours dès qu'un champ admin est modifié.
@@ -254,7 +255,7 @@
 
   // action utilisateur : passe par le #hash → l'historique permet Précédent/Suivant
   function navigateTab(name) {
-    if ((tabFromHash() || "files") === name) { activateTab(name); return; }
+    if ((tabFromHash() || DEFAULT_TAB) === name) { activateTab(name); return; }
     location.hash = name; // déclenche hashchange → activateTab
   }
 
@@ -268,11 +269,150 @@
     $all(".panel").forEach(function (p) {
       p.classList.toggle("is-active", p.id === "panel-" + name);
     });
+    if (name === "board") loadBoard();
     if (name === "files" && !loaded.files) loadFiles();
     if (name === "liste") loadListe();
     if (name === "changelog") loadChangelog();
     if (name === "planner") loadPlanner();
     if (name === "admin") loadAdmin();
+  }
+
+  /* =======================================================================
+     ONGLET PANNEAU D'AFFICHAGE — accueil
+     En tête : un panneau d'annonce éditable par les admins (data/board.json).
+     En dessous : les nouveautés, c.-à-d. toutes les modifications du dernier
+     jour de modifications, déduites du changelog (data/changelog.json).
+     ======================================================================= */
+  function normalizeBoard(o) {
+    if (!o || typeof o !== "object" || Array.isArray(o)) o = {};
+    return { title: String(o.title || ""), body: String(o.body || ""), updated: String(o.updated || "") };
+  }
+
+  function loadBoard() {
+    var host = $("#boardHost");
+    if (!host) return;
+    clear(host);
+
+    // 1) panneau d'annonce (éditable par les admins)
+    var announce = el("div", { id: "boardAnnounce" }, [el("span", { class: "loading", text: "Chargement…" })]);
+    host.appendChild(announce);
+
+    // 2) nouveautés (dernières modifications)
+    host.appendChild(el("div", { class: "stencil", style: "margin-top:24px", text: "Nouveautés" }));
+    var news = el("div", { id: "boardNews" }, [el("span", { class: "loading", text: "Chargement…" })]);
+    host.appendChild(news);
+
+    renderBoardAnnounce(announce);
+    renderBoardNews(news);
+  }
+
+  // ---- panneau d'annonce -------------------------------------------------
+  function renderBoardAnnounce(host) {
+    if (isAdmin()) {
+      clear(host); host.appendChild(el("span", { class: "loading", text: "Chargement…" }));
+      loadForEdit("board.json")
+        .then(function (r) { data.board = normalizeBoard(r.obj); renderBoardEditor(host); })
+        .catch(function (e) { loadError(host, "Impossible de charger le panneau pour édition (" + e.message + ").", function () { renderBoardAnnounce(host); }); });
+      return;
+    }
+    fetch("data/board.json", { cache: "no-store" })
+      .then(function (r) { return r.ok ? r.json() : {}; })
+      .catch(function () { return {}; })
+      .then(function (o) { data.board = normalizeBoard(o); renderBoardReadonly(host); });
+  }
+
+  function renderBoardReadonly(host) {
+    clear(host);
+    var b = data.board || normalizeBoard(null);
+    if (!b.title && !b.body) {
+      host.appendChild(el("p", { class: "list-empty", text: "Aucune annonce pour le moment." }));
+      return;
+    }
+    var card = el("div", { class: "briefing board-announce" });
+    if (b.title) card.appendChild(el("div", { class: "board-announce__title", text: b.title }));
+    if (b.body) card.appendChild(el("div", { class: "board-announce__body", text: b.body }));
+    if (b.updated) card.appendChild(el("div", { class: "board-announce__meta", text: "Mis à jour le " + b.updated }));
+    host.appendChild(card);
+  }
+
+  function renderBoardEditor(host) {
+    clear(host);
+    var b = data.board || normalizeBoard(null);
+
+    host.appendChild(el("div", { class: "admin-bar" }, [
+      el("span", { class: "admin-bar__tag", text: "ADMIN" }),
+      el("span", { text: "Édition du panneau d'affichage — n'oublie pas d'enregistrer." })
+    ]));
+
+    var card = el("div", { class: "card" });
+    var title = el("input", { class: "input", type: "text", value: b.title, placeholder: "Titre de l'annonce…" });
+    var body = el("textarea", { class: "textarea", rows: "6", placeholder: "Texte affiché en haut de l'accueil…" });
+    body.value = b.body;
+    card.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Titre" }), title]));
+    card.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Message" }), body]));
+
+    var status = el("span", { class: "editor__status" });
+    var save = el("button", { class: "btn btn--amber", text: "Enregistrer le panneau" });
+    save.addEventListener("click", function () {
+      var today = new Date();
+      var obj = {
+        title: title.value.trim(),
+        body: body.value.trim(),
+        updated: today.getFullYear() + "-" + pad(today.getMonth() + 1) + "-" + pad(today.getDate())
+      };
+      saveData("board.json", obj, status, save, function () { data.board = normalizeBoard(obj); });
+    });
+    card.appendChild(el("div", { class: "editor__foot" }, [save, status]));
+    host.appendChild(card);
+  }
+
+  // ---- nouveautés : dernières modifications déduites du changelog ---------
+  // Renvoie toutes les entrées partageant la date la plus récente. À défaut de
+  // dates exploitables, retombe sur la version la plus haute (cmpVersion).
+  function latestChangelog(entries) {
+    var list = (entries || []).filter(function (e) { return e && typeof e === "object"; });
+    if (!list.length) return [];
+    var dated = list.filter(function (e) { return typeof e.date === "string" && e.date.trim() !== ""; });
+    if (dated.length) {
+      var max = dated.reduce(function (m, e) { return e.date > m ? e.date : m; }, dated[0].date);
+      return dated.filter(function (e) { return e.date === max; });
+    }
+    var sorted = list.slice().sort(function (a, b) { return GammaCore.cmpVersion(b.version, a.version); });
+    return [sorted[0]];
+  }
+
+  function renderBoardNews(host) {
+    fetch("data/changelog.json", { cache: "no-store" })
+      .then(function (r) { return r.ok ? r.json() : []; })
+      .catch(function () { return []; })
+      .then(function (entries) {
+        clear(host);
+        var latest = latestChangelog(Array.isArray(entries) ? entries : []);
+        if (!latest.length) {
+          host.appendChild(el("p", { class: "list-empty", text: "Aucune modification récente." }));
+          return;
+        }
+        var day = latest[0].date;
+        if (day) host.appendChild(el("p", { class: "board-news__day", text: "Modifications du " + day }));
+        var box = el("div", { class: "log" });
+        latest
+          .slice()
+          .sort(function (a, b) { return GammaCore.cmpVersion(b.version, a.version); })
+          .forEach(function (e) {
+            var head = el("div", { class: "log-entry__head" }, [
+              el("span", { class: "log-entry__ver", text: "v" + (e.version || "?") }),
+              (e.date && e.date !== day) ? el("span", { class: "log-entry__date", text: e.date }) : null
+            ]);
+            var ul = el("ul", { class: "log-entry__changes" });
+            (e.changes || []).forEach(function (c) { ul.appendChild(el("li", { text: c })); });
+            box.appendChild(el("div", { class: "log-entry" }, [head, ul]));
+          });
+        host.appendChild(box);
+        host.appendChild(el("button", {
+          class: "btn btn--ghost btn--mini", style: "margin-top:14px", text: "Voir tout le changelog →",
+          onClick: function () { navigateTab("changelog"); }
+        }));
+      });
   }
 
   /* =======================================================================
@@ -1586,7 +1726,7 @@
 
     wrap.appendChild(el("div", { class: "admin-bar" }, [
       el("span", { class: "admin-bar__tag", text: "CONNECTÉ" }),
-      el("span", { text: "Tu peux aussi modifier la Liste et le Changelog dans leurs onglets." }),
+      el("span", { text: "Tu peux aussi modifier le Panneau d'affichage, la Liste et le Changelog dans leurs onglets." }),
       el("button", { class: "btn btn--ghost btn--mini", text: "Verrouiller", onClick: lockAdmin })
     ]));
 
