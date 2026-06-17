@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-17T16:33:45+00:00",
+  "generated": "2026-06-17T16:33:54+00:00",
   "labels": [
     {
       "id": "lbl_mqft6asnlhoe",
@@ -15,6 +15,11 @@
       "id": "lbl_mqft6sj1cj9t",
       "name": "SUGGESTION",
       "color": "rust"
+    },
+    {
+      "id": "lbl_mqiaj19mezpp",
+      "name": "AJOUT",
+      "color": "ok"
     }
   ],
   "categories": [
