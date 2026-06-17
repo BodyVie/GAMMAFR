@@ -303,15 +303,11 @@ a:hover { text-decoration: underline; }
   text-decoration: none;
 }
 .linkbar__name {
-  display: flex;
-  align-items: center;
-  gap: 6px;
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
-.linkbar__ext { color: var(--rad); font-size: 12px; line-height: 1; }
 .linkbar__url { font-size: 11px; letter-spacing: 0.04em; color: var(--dim); }
 
 /* Infobulle au survol / focus clavier : description de la ressource.
