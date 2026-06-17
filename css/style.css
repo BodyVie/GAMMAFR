@@ -703,6 +703,22 @@ body.modal-open { overflow: hidden; }
 .tcard.is-dragging { opacity: 0.4; cursor: grabbing; }
 .bucket.is-dropzone { outline: 1px dashed var(--rad); outline-offset: -3px; background: var(--rad-soft); }
 
+/* déplacement des catégories (poignée + cibles de dépôt gauche/droite) */
+.bucket__grip {
+  flex: none; width: 16px; text-align: center; cursor: grab;
+  color: var(--dim-2); font-size: 13px; line-height: 1; user-select: none;
+}
+.bucket__grip:active { cursor: grabbing; }
+.bucket.is-catdragging { opacity: 0.4; }
+.bucket.is-catdrop-before { box-shadow: inset 3px 0 0 0 var(--rad); }
+.bucket.is-catdrop-after { box-shadow: inset -3px 0 0 0 var(--rad); }
+
+/* catégorie d'archive : purge automatique après deux semaines */
+.bucket__note { flex: none; font-size: 10px; color: var(--dim); white-space: nowrap; }
+.bucket--archive .bucket__name,
+.bucket--archive .bucket__edit { color: var(--dim); }
+.pbadge--archive { color: var(--amber); border-color: var(--amber); background: var(--amber-soft); }
+
 .tcard {
   text-align: left; cursor: pointer; width: 100%;
   background: var(--surface-2); border: 1px solid var(--line);

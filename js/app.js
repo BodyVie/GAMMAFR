@@ -549,6 +549,7 @@
     var cats = (planner && Array.isArray(planner.categories)) ? planner.categories : [];
     var out = [];
     cats.forEach(function (c) {
+      if (c && c.archive) return; // les tickets archivés ne remontent pas dans les nouveautés
       (c.tickets || []).forEach(function (t) {
         if (!t || !(t.title || "").trim()) return;
         var modified = t.modified || t.created || "";
@@ -1317,11 +1318,14 @@
      ======================================================================= */
   var plannerDraft = null;                       // copie de travail (mode admin)
   var plannerMgr = null;                         // gestionnaire d'enregistrement automatique
-  var dragState = null;                          // glisser-déposer : { fromCat, tk }
+  var dragState = null;                          // glisser-déposer d'un ticket : { fromCat, tk }
+  var catDragState = null;                       // glisser-déposer d'une catégorie : la catégorie tirée
   // relance l'enregistrement automatique du planner après une modification
   function planChanged() { if (plannerMgr) plannerMgr.queue(); }
   var PLABELS = ["green", "amber", "rust", "ok", "cyan", "violet"];
   var PSTATUS = { todo: "À faire", doing: "En cours", done: "Terminé" };
+  // Délai de rétention de l'archive : un ticket archivé est supprimé après deux semaines.
+  var ARCHIVE_TTL_MS = 14 * 24 * 60 * 60 * 1000;
 
   function plUid(prefix) {
     return prefix + "_" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
@@ -1356,21 +1360,29 @@
         return { id: c.id || plUid("cm"), author: String(c.author || "Admin"), date: String(c.date || ""), text: String(c.text || "") };
       }),
       created: String(t.created || ""),
-      modified: String(t.modified || t.created || "")
+      modified: String(t.modified || t.created || ""),
+      // Horodatage d'entrée dans l'archive (vide hors archive). Sert au compte à
+      // rebours et à la purge automatique au bout de deux semaines.
+      archived: String(t.archived || "")
     };
   }
 
   function normalizePlanner(o) {
     o = o && typeof o === "object" ? o : {};
+    var cats = (Array.isArray(o.categories) ? o.categories : []).map(function (c) {
+      c = c || {};
+      return { id: c.id || plUid("cat"), name: String(c.name || ""), archive: !!c.archive, tickets: (Array.isArray(c.tickets) ? c.tickets : []).map(normalizeTicket) };
+    });
+    // Une seule catégorie d'archive ; créée (nommée « ARCHIVE ») si elle n'existe pas.
+    var hasArchive = false;
+    cats.forEach(function (c) { if (c.archive) { if (hasArchive) c.archive = false; else hasArchive = true; } });
+    if (!hasArchive) cats.push({ id: "cat_archive", name: "ARCHIVE", archive: true, tickets: [] });
     return {
       labels: (Array.isArray(o.labels) ? o.labels : []).map(function (l) {
         l = l || {};
         return { id: l.id || plUid("lbl"), name: String(l.name || ""), color: PLABELS.indexOf(l.color) !== -1 ? l.color : "green" };
       }),
-      categories: (Array.isArray(o.categories) ? o.categories : []).map(function (c) {
-        c = c || {};
-        return { id: c.id || plUid("cat"), name: String(c.name || ""), tickets: (Array.isArray(c.tickets) ? c.tickets : []).map(normalizeTicket) };
-      })
+      categories: cats
     };
   }
 
@@ -1382,6 +1394,46 @@
     if (!due) return false;
     var d = new Date(due + "T23:59:59");
     return !isNaN(d.getTime()) && d.getTime() < Date.now();
+  }
+
+  /* ---- archive : catégorie spéciale à purge automatique ---- */
+  function isArchiveCat(c) { return !!(c && c.archive); }
+  function findArchiveCat(p) { for (var i = 0; i < p.categories.length; i++) if (p.categories[i].archive) return p.categories[i]; return null; }
+  function firstOpenCat(p) { for (var i = 0; i < p.categories.length; i++) if (!p.categories[i].archive) return p.categories[i]; return null; }
+
+  // Horodate l'entrée dans l'archive (ou efface le marqueur à la sortie), selon la
+  // catégorie de destination. Le compte à rebours de deux semaines part de là.
+  function stampArchiveOnMove(toCat, tk) {
+    if (isArchiveCat(toCat)) { if (!tk.archived) tk.archived = new Date().toISOString(); }
+    else tk.archived = "";
+  }
+
+  // Jours restants avant suppression d'un ticket archivé (peut être ≤ 0). null si non daté.
+  function archiveDaysLeft(tk) {
+    var ts = Date.parse(tk.archived);
+    if (isNaN(ts)) return null;
+    return Math.ceil((ts + ARCHIVE_TTL_MS - Date.now()) / 86400000);
+  }
+
+  // Datage et purge de l'archive : horodate les tickets archivés non datés, supprime
+  // ceux archivés depuis plus de deux semaines, et efface tout marqueur résiduel hors
+  // archive. Renvoie true si le modèle a changé (pour persister côté admin).
+  function reconcileArchive(p) {
+    var now = Date.now(), changed = false;
+    p.categories.forEach(function (c) {
+      if (isArchiveCat(c)) {
+        c.tickets.forEach(function (t) { if (!t.archived) { t.archived = new Date(now).toISOString(); changed = true; } });
+        var before = c.tickets.length;
+        c.tickets = c.tickets.filter(function (t) {
+          var ts = Date.parse(t.archived);
+          return isNaN(ts) || (now - ts) < ARCHIVE_TTL_MS;
+        });
+        if (c.tickets.length !== before) changed = true;
+      } else {
+        c.tickets.forEach(function (t) { if (t.archived) { t.archived = ""; changed = true; } });
+      }
+    });
+    return changed;
   }
 
   function loadPlanner() {
@@ -1403,7 +1455,10 @@
       .then(function (res) {
         data.planner = normalizePlanner(res[0].obj || {});
         plannerDraft = plClone(data.planner);
+        // Purge des tickets archivés depuis plus de deux semaines : persistée si besoin.
+        var purged = reconcileArchive(plannerDraft);
         renderPlannerAdmin();
+        if (purged) planChanged();
       })
       .catch(function (e) { loadError(host, "Impossible de charger le planner pour édition (" + e.message + ").", renderPlanner); });
   }
@@ -1411,6 +1466,9 @@
   function renderPlannerReadonly() {
     var host = $("#plannerHost");
     clear(host);
+    // Côté public : masque les tickets archivés expirés (la suppression réelle est
+    // persistée au prochain passage d'un admin).
+    reconcileArchive(data.planner);
     if (!data.planner.categories.length) {
       host.appendChild(el("p", { class: "list-empty", text: "Le planificateur est vide pour le moment." }));
       return;
@@ -1459,17 +1517,25 @@
   }
 
   function buildBucket(p, cat, editable) {
-    var head;
+    var archive = isArchiveCat(cat);
+    var head, grip = null;
     if (editable) {
+      grip = el("span", { class: "bucket__grip", title: "Glisser pour déplacer la catégorie", text: "⠿", draggable: "true" });
       var nameInp = el("input", { class: "bucket__edit", type: "text", value: cat.name, placeholder: "Catégorie…" });
       nameInp.addEventListener("input", function () { cat.name = nameInp.value; planChanged(); });
-      var del = el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer la catégorie", text: "✕", onClick: function () {
-        if (cat.tickets.length && !window.confirm("Supprimer « " + (cat.name || "cette catégorie") + " » et ses " + cat.tickets.length + " ticket(s) ?")) return;
-        var i = plannerDraft.categories.indexOf(cat);
-        if (i !== -1) plannerDraft.categories.splice(i, 1);
-        paintBoard(); planChanged();
-      } });
-      head = el("div", { class: "bucket__head" }, [nameInp, el("span", { class: "bucket__count", text: String(cat.tickets.length) }), del]);
+      var headKids = [grip, nameInp, el("span", { class: "bucket__count", text: String(cat.tickets.length) })];
+      if (archive) {
+        // L'archive n'est pas supprimable (elle serait recréée) : on indique sa purge auto.
+        headKids.push(el("span", { class: "bucket__note", title: "Les tickets archivés sont supprimés après deux semaines", text: "⏳ 2 sem." }));
+      } else {
+        headKids.push(el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer la catégorie", text: "✕", onClick: function () {
+          if (cat.tickets.length && !window.confirm("Supprimer « " + (cat.name || "cette catégorie") + " » et ses " + cat.tickets.length + " ticket(s) ?")) return;
+          var i = plannerDraft.categories.indexOf(cat);
+          if (i !== -1) plannerDraft.categories.splice(i, 1);
+          paintBoard(); planChanged();
+        } }));
+      }
+      head = el("div", { class: "bucket__head" }, headKids);
     } else {
       head = el("div", { class: "bucket__head" }, [
         el("span", { class: "bucket__name", text: cat.name || "Sans nom" }),
@@ -1480,7 +1546,7 @@
     var cards = el("div", { class: "bucket__cards" });
     cat.tickets.forEach(function (tk) { cards.appendChild(buildCard(p, cat, tk, editable)); });
 
-    var bucket = el("div", { class: "bucket" }, [head, cards]);
+    var bucket = el("div", { class: "bucket" + (archive ? " bucket--archive" : "") }, [head, cards]);
     if (editable) {
       // zone de dépôt : déplacer un ticket dans cette catégorie (et le réordonner)
       cards.addEventListener("dragover", function (e) {
@@ -1498,13 +1564,61 @@
         bucket.classList.remove("is-dropzone");
         moveTicket(dragState.fromCat, cat, cards, e.clientY, dragState.tk);
       });
+
+      // glisser-déposer de la catégorie elle-même (réordonnancement horizontal)
+      grip.addEventListener("dragstart", function (e) {
+        catDragState = cat;
+        bucket.classList.add("is-catdragging");
+        if (e.dataTransfer) { e.dataTransfer.effectAllowed = "move"; try { e.dataTransfer.setData("text/plain", cat.id); } catch (_) {} }
+      });
+      grip.addEventListener("dragend", function () {
+        catDragState = null;
+        $all(".bucket.is-catdragging, .bucket.is-catdrop-before, .bucket.is-catdrop-after")
+          .forEach(function (b) { b.classList.remove("is-catdragging", "is-catdrop-before", "is-catdrop-after"); });
+      });
+      bucket.addEventListener("dragover", function (e) {
+        if (!catDragState || catDragState === cat) return;
+        e.preventDefault();
+        if (e.dataTransfer) e.dataTransfer.dropEffect = "move";
+        var box = bucket.getBoundingClientRect();
+        var before = e.clientX < box.left + box.width / 2;
+        bucket.classList.toggle("is-catdrop-before", before);
+        bucket.classList.toggle("is-catdrop-after", !before);
+      });
+      bucket.addEventListener("dragleave", function (e) {
+        if (!bucket.contains(e.relatedTarget)) bucket.classList.remove("is-catdrop-before", "is-catdrop-after");
+      });
+      bucket.addEventListener("drop", function (e) {
+        if (!catDragState || catDragState === cat) return;
+        e.preventDefault();
+        var box = bucket.getBoundingClientRect();
+        var before = e.clientX < box.left + box.width / 2;
+        var moved = catDragState;
+        bucket.classList.remove("is-catdrop-before", "is-catdrop-after");
+        moveCategory(moved, cat, before);
+      });
+
       bucket.appendChild(el("button", { class: "btn btn--ghost btn--mini bucket__add", text: "+ ticket", onClick: function () {
         var tk = normalizeTicket({ created: new Date().toISOString() });
         cat.tickets.push(tk);
+        stampArchiveOnMove(cat, tk); // si la catégorie est l'archive, le ticket est daté
         openTicketEdit(cat, tk);
       } }));
     }
     return bucket;
+  }
+
+  // Réordonne une catégorie : la place avant ou après la catégorie cible.
+  function moveCategory(fromCat, toCat, before) {
+    catDragState = null;
+    var cats = plannerDraft.categories;
+    var fi = cats.indexOf(fromCat);
+    if (fi === -1 || fromCat === toCat) return;
+    cats.splice(fi, 1);
+    var ti = cats.indexOf(toCat);
+    if (ti === -1) cats.push(fromCat);
+    else cats.splice(before ? ti : ti + 1, 0, fromCat);
+    paintBoard(); planChanged();
   }
 
   // Élément après lequel insérer, selon la position verticale du curseur.
@@ -1529,6 +1643,7 @@
       for (var i = 0; i < toCat.tickets.length; i++) { if (toCat.tickets[i].id === aid) { idx = i; break; } }
     }
     toCat.tickets.splice(idx, 0, tk);
+    stampArchiveOnMove(toCat, tk); // (dés)archivage par glisser-déposer
     dragState = null;
     paintBoard(); planChanged();
   }
@@ -1567,6 +1682,12 @@
       foot.appendChild(el("span", { class: "pbadge", text: "✓ " + done + "/" + tk.actions.length }));
     }
     if (tk.comments.length) foot.appendChild(el("span", { class: "pbadge", text: tk.comments.length + " comm." }));
+    // Compte à rebours avant purge : repère d'admin (les visiteurs voient l'archive
+    // comme une catégorie normale).
+    if (editable && isArchiveCat(cat)) {
+      var left = archiveDaysLeft(tk);
+      if (left !== null) foot.appendChild(el("span", { class: "pbadge pbadge--archive", title: "Suppression automatique après deux semaines d'archivage", text: left > 0 ? ("🗑 " + left + " j") : "🗑 bientôt" }));
+    }
     children.push(foot);
 
     var card = el("div", {
@@ -1776,17 +1897,36 @@
     var cText = el("input", { class: "input", type: "text", placeholder: "Ajouter un commentaire (Entrée pour valider)…" });
     body.appendChild(el("div", { class: "commentadd" }, [authorPick.node, cText]));
 
-    content.appendChild(el("div", { class: "modal__foot" }, [
+    // Déplace le ticket vers une autre catégorie (datage d'archive géré), puis ferme.
+    function relocateTicket(dest) {
+      if (!dest || dest === cat) { closeModal(); return; }
+      var i = cat.tickets.indexOf(tk);
+      if (i !== -1) cat.tickets.splice(i, 1);
+      dest.tickets.push(tk);
+      stampArchiveOnMove(dest, tk);
+      planChanged();
+      closeModal();
+    }
+
+    var footKids = [
       el("button", { class: "btn btn--ghost btn--danger", text: "Supprimer le ticket", onClick: function () {
         if (!window.confirm("Supprimer ce ticket ?")) return;
         var i = cat.tickets.indexOf(tk);
         if (i !== -1) cat.tickets.splice(i, 1);
         planChanged();
         closeModal();
-      } }),
-      el("span", { class: "muted-note", text: "Enregistrement automatique." }),
-      el("button", { class: "btn btn--ghost", text: "Fermer", onClick: closeModal })
-    ]));
+      } })
+    ];
+    // Bouton d'archivage (admin) : déplace le ticket vers / hors de l'archive.
+    var archiveCat = findArchiveCat(p);
+    if (isArchiveCat(cat)) {
+      footKids.push(el("button", { class: "btn btn--ghost", text: "Désarchiver", title: "Retirer ce ticket de l'archive", onClick: function () { relocateTicket(firstOpenCat(p)); } }));
+    } else if (archiveCat) {
+      footKids.push(el("button", { class: "btn btn--ghost", text: "Archiver", title: "Déplacer ce ticket vers l'archive (suppression auto après 2 semaines)", onClick: function () { relocateTicket(archiveCat); } }));
+    }
+    footKids.push(el("span", { class: "muted-note", text: "Enregistrement automatique." }));
+    footKids.push(el("button", { class: "btn btn--ghost", text: "Fermer", onClick: closeModal }));
+    content.appendChild(el("div", { class: "modal__foot" }, footKids));
 
     function paintLabels() {
       clear(labWrap);
@@ -1952,25 +2092,26 @@
       generated: new Date().toISOString().replace(/\.\d+Z$/, "+00:00"),
       labels: labels,
       categories: d.categories.map(function (c) {
-        return {
-          id: c.id,
-          name: (c.name || "").trim(),
-          tickets: c.tickets.filter(function (t) { return (t.title || "").trim() !== ""; }).map(function (t) {
-            return {
-              id: t.id,
-              title: t.title.trim(),
-              description: (t.description || "").trim(),
-              status: t.status,
-              due: (t.due || "").trim(),
-              labels: t.labels.filter(function (lid) { return kept[lid]; }),
-              actions: t.actions.filter(function (a) { return (a.text || "").trim() !== ""; })
-                .map(function (a) { return { id: a.id, text: a.text.trim(), done: !!a.done }; }),
-              comments: t.comments.map(function (cc) { return { id: cc.id, author: cc.author || "Admin", date: cc.date, text: cc.text }; }),
-              created: t.created || "",
-              modified: t.modified || t.created || ""
-            };
-          })
-        };
+        var out = { id: c.id, name: (c.name || "").trim() };
+        if (c.archive) out.archive = true;
+        out.tickets = c.tickets.filter(function (t) { return (t.title || "").trim() !== ""; }).map(function (t) {
+          var tk = {
+            id: t.id,
+            title: t.title.trim(),
+            description: (t.description || "").trim(),
+            status: t.status,
+            due: (t.due || "").trim(),
+            labels: t.labels.filter(function (lid) { return kept[lid]; }),
+            actions: t.actions.filter(function (a) { return (a.text || "").trim() !== ""; })
+              .map(function (a) { return { id: a.id, text: a.text.trim(), done: !!a.done }; }),
+            comments: t.comments.map(function (cc) { return { id: cc.id, author: cc.author || "Admin", date: cc.date, text: cc.text }; }),
+            created: t.created || "",
+            modified: t.modified || t.created || ""
+          };
+          if (isArchiveCat(c) && t.archived) tk.archived = t.archived;
+          return tk;
+        });
+        return out;
       })
     };
   }

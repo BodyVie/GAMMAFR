@@ -249,6 +249,14 @@ demander une validation par email du compte.
   dans les « Nouveautés ». Le bloc « Nouveautés » dissocie les deux sources :
   une section **Changelog** (son propre dernier jour de modifications) et une
   section **Planner** (son propre dernier jour), chacune avec sa date.
+  En mode admin, les catégories se réordonnent par glisser-déposer (poignée `⠿`
+  dans l'en-tête). Une catégorie `{ "archive": true }` (nommée « ARCHIVE », créée
+  automatiquement si absente, non supprimable) sert d'archive : un bouton
+  « Archiver » dans l'éditeur de ticket — ou le glisser-déposer — y déplace un
+  ticket en l'horodatant (`archived`, ISO) ; passé **deux semaines**, le ticket est
+  supprimé (purge à l'ouverture du planner par un admin, masquage immédiat côté
+  public). L'archive reste visible et en lecture seule pour les visiteurs, comme
+  les autres catégories.
 - `board.json` : panneau d'affichage de l'accueil — `{ title, body, updated }`
   (textes ; `\n` = saut de ligne dans `body`). Édité directement depuis l'onglet
   **Panneau d'affichage** quand un admin est connecté ; `updated` est renseigné
