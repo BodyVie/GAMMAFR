@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-17T13:46:56+00:00",
+  "generated": "2026-06-17T14:28:06+00:00",
   "base": {
     "files": [
       "0. PatchVF/GAMMA base/.gitkeep",
@@ -799,7 +799,7 @@
     {
       "id": "1. Job To Done — Redone",
       "name": "1. Job To Done — Redone",
-      "description": "",
+      "description": "Auteur : Chibidock",
       "date": "2026-06-17",
       "version": "1.8.9",
       "url": "https://www.moddb.com/mods/stalker-anomaly/addons/job-to-done-redone-50-new-quests-engrus",
@@ -812,7 +812,7 @@
     {
       "id": "2. Looting takes time REDUX",
       "name": "2. Looting takes time REDUX",
-      "description": "",
+      "description": "Auteur : Priler",
       "date": "2026-06-17",
       "version": "7",
       "url": "https://www.moddb.com/mods/stalker-anomaly/addons/looting-takes-time-redux-tarkov-like-looting",
