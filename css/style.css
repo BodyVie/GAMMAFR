@@ -277,24 +277,9 @@ a:hover { text-decoration: underline; }
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
+  justify-content: center;
   gap: 10px;
   margin-bottom: 24px;
-}
-.linkbar__eyebrow {
-  display: inline-flex;
-  align-items: center;
-  align-self: center;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--dim);
-}
-.linkbar__eyebrow::after {
-  content: "";
-  width: 14px; height: 2px;
-  margin-left: 12px;
-  background: var(--dim-2);
 }
 .linkbar__btn {
   position: relative;
@@ -708,9 +693,8 @@ a:hover { text-decoration: underline; }
   .wrap { padding: 116px 14px 64px; }
   .card { padding: 16px; }
 
-  /* bandeau de liens : étiquette masquée, boutons étirés sur la rangée.
+  /* bandeau de liens : boutons étirés sur la rangée.
      L'infobulle de survol n'a pas de sens au toucher ; l'URL reste visible. */
-  .linkbar__eyebrow { display: none; }
   .linkbar__btn { flex: 1 1 auto; min-width: 0; }
   .steps { flex-wrap: wrap; gap: 10px; }
   .step-line { display: none; }
