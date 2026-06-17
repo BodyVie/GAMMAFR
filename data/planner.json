@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-17T16:34:04+00:00",
+  "generated": "2026-06-17T16:34:16+00:00",
   "labels": [
     {
       "id": "lbl_mqft6asnlhoe",
@@ -20,6 +20,11 @@
       "id": "lbl_mqiaj19mezpp",
       "name": "AJOUT",
       "color": "ok"
+    },
+    {
+      "id": "lbl_mqiajiyf4urc",
+      "name": "UPDATE",
+      "color": "cyan"
     }
   ],
   "categories": [
