@@ -673,8 +673,17 @@
       .concat(sortPatchesByName(manifest.extra).map(tagSection("Extra")));
     return [];
   }
+  // Patchs d'une étape de sélection donnée (sections « Tweak » et « Extra »
+  // dissociées en deux étapes distinctes du configurateur).
+  function patchesForStep(stepName) {
+    if (!manifest) return [];
+    if (stepName === "Patch Tweak") return sortPatchesByName(manifest.tweak).map(tagSection("Tweak"));
+    if (stepName === "Patch Extra") return sortPatchesByName(manifest.extra).map(tagSection("Extra"));
+    return [];
+  }
   function stepNames() {
-    if (conf.level === "tweak" || conf.level === "extra") return ["Niveau", "Patchs", "Récapitulatif"];
+    if (conf.level === "extra") return ["Niveau", "Patch Tweak", "Patch Extra", "Récapitulatif"];
+    if (conf.level === "tweak") return ["Niveau", "Patch Tweak", "Récapitulatif"];
     if (conf.level === "base") return ["Niveau", "Récapitulatif"];
     return ["Niveau"];
   }
@@ -694,7 +703,15 @@
     var card = el("div", { class: "card" });
     var cur = names[conf.step];
     if (cur === "Niveau") card.appendChild(renderLevelStep());
-    else if (cur === "Patchs") card.appendChild(renderPatchStep());
+    else if (cur === "Patch Tweak") card.appendChild(renderPatchStep(patchesForStep("Patch Tweak"), {
+      title: "Patchs Tweak",
+      sub: "Coche les patchs Tweak à inclure. GAMMA base est déjà incluse."
+    }));
+    else if (cur === "Patch Extra") card.appendChild(renderPatchStep(patchesForStep("Patch Extra"), {
+      title: "Patchs Extra",
+      sub: "Coche les patchs Extra (mods externes à G.A.M.M.A.) à inclure.",
+      empty: "Aucun patch Extra disponible pour le moment."
+    }));
     else card.appendChild(renderRecapStep());
     host.appendChild(card);
 
@@ -748,12 +765,13 @@
     return frag;
   }
 
-  function renderPatchStep() {
+  function renderPatchStep(patches, opts) {
+    opts = opts || {};
+    patches = patches || [];
     var frag = document.createDocumentFragment();
-    var patches = availablePatches(conf.level);
 
-    frag.appendChild(el("div", { class: "step-head" }, [el("h3", { class: "step-title", text: "Patchs" })]));
-    frag.appendChild(el("p", { class: "step-sub", text: "Coche les patchs à inclure. GAMMA base est déjà incluse." }));
+    frag.appendChild(el("div", { class: "step-head" }, [el("h3", { class: "step-title", text: opts.title || "Patchs" })]));
+    frag.appendChild(el("p", { class: "step-sub", text: opts.sub || "Coche les patchs à inclure. GAMMA base est déjà incluse." }));
 
     var input = el("input", { class: "input", type: "search", placeholder: "Filtrer les patchs\u2026", "aria-label": "Filtrer les patchs" });
     var count = el("div", { class: "search__count" });
@@ -763,7 +781,7 @@
     frag.appendChild(listBox);
 
     if (!patches.length) {
-      listBox.appendChild(el("p", { class: "list-empty", text: "Aucun patch disponible dans ce niveau." }));
+      listBox.appendChild(el("p", { class: "list-empty", text: opts.empty || "Aucun patch disponible dans ce niveau." }));
       count.textContent = "0 / 0";
       return frag;
     }
