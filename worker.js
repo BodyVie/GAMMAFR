@@ -49,10 +49,18 @@ const FAIL_WINDOW = 15 * 60;  // fenêtre glissante, en secondes
 const MAX_BODY = 512 * 1024;  // garde-fou : 512 Ko max par payload
 
 // Présence admin (compteur « N en ligne » + indicateur d'édition en cours).
-// 60 s = minimum imposé par Cloudflare KV pour expirationTtl ; en dessous, le
-// put échoue (erreur 400) et plus aucune présence n'est enregistrée. Le heartbeat
-// client (25 s) rafraîchit la clé bien avant son expiration.
-const PRESENCE_TTL = 60;      // une session expire après 60 s sans heartbeat
+// Le minimum imposé par Cloudflare KV pour expirationTtl est 60 s. On vise plus
+// large pour espacer le heartbeat (donc moins d'écritures KV) : le client pingue
+// toutes les 50 s (PRESENCE_MS) et la clé n'expire qu'après PRESENCE_TTL, ce qui
+// laisse une marge confortable même si un battement est légèrement retardé.
+const PRESENCE_TTL = 120;     // une session expire après 120 s sans heartbeat
+
+// Mise en cache (cache de bord Cloudflare) de la réponse publique « count ». Les
+// lectures publiques répétées sont servies depuis le cache sans toucher au KV
+// (pas de kv.list), ce qui préserve le quota « list » du free tier. Le compteur
+// public peut être périmé d'au plus cette durée — sans importance pour un simple
+// indicateur de présence.
+const PRESENCE_COUNT_TTL = 30; // secondes
 
 // Contact (stockage KV MESSAGES) — formulaire public, sans email.
 const MOTIFS = ["Suggestion", "Correction", "Autre"];
@@ -225,8 +233,11 @@ export default {
       );
     }
 
-    // succès d'authentification → on remet le compteur à zéro
-    await resetFails(env, ip);
+    // succès d'authentification → on remet le compteur à zéro. Uniquement s'il y
+    // a réellement un compteur (fails > 0) : sinon le kv.delete est inutile et
+    // grignote pour rien le quota « delete » (1 000/j) à chaque appel — ping de
+    // présence ET enregistrement automatique passant par /update inclus.
+    if (fails > 0) await resetFails(env, ip);
 
     // --- push GitHub ---
     try {
@@ -269,7 +280,7 @@ async function handleVerify(request, env, origin) {
       origin
     );
   }
-  await resetFails(env, ip);
+  if (fails > 0) await resetFails(env, ip);
   return json({ success: true }, 200, origin);
 }
 
@@ -340,7 +351,7 @@ async function handleMessages(request, env, origin) {
     const remaining = Math.max(0, MAX_FAILS - c);
     return json({ error: "Mot de passe incorrect." + (remaining ? " Tentatives restantes : " + remaining + "." : "") }, 401, origin);
   }
-  await resetFails(env, ip);
+  if (fails > 0) await resetFails(env, ip);
 
   const action = typeof body.action === "string" ? body.action : "list";
 
@@ -390,7 +401,7 @@ async function requireAdmin(request, env, origin, body) {
     const remaining = Math.max(0, MAX_FAILS - n);
     return json({ error: "Mot de passe incorrect." + (remaining ? " Tentatives restantes : " + remaining + "." : "") }, 401, origin);
   }
-  await resetFails(env, ip);
+  if (fails > 0) await resetFails(env, ip);
   return null;
 }
 
@@ -453,9 +464,27 @@ async function handlePresence(request, env, origin) {
 
   const action = typeof body.action === "string" ? body.action : "count";
 
-  // Lecture publique du compteur (aucun mot de passe).
+  // Lecture publique du compteur (aucun mot de passe). Servie via le cache de
+  // bord Cloudflare : sur un « hit », aucune opération KV n'est consommée ; sur
+  // un « miss », un seul kv.list alimente le cache pour PRESENCE_COUNT_TTL s. Une
+  // seule origine est autorisée (ALLOWED_ORIGIN), donc l'en-tête CORS mis en
+  // cache est valable pour tous les clients.
   if (action === "count") {
-    return json(await readPresence(kv), 200, origin);
+    const cache = caches.default;
+    const cacheKey = new Request(new URL("/__presence_count", request.url).toString());
+    try {
+      const hit = await cache.match(cacheKey);
+      if (hit) return hit;
+    } catch (_) { /* cache indisponible → repli lecture directe */ }
+    const data = await readPresence(kv);
+    const resp = new Response(JSON.stringify(data), {
+      headers: Object.assign(
+        { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "max-age=" + PRESENCE_COUNT_TTL },
+        corsHeaders(origin)
+      )
+    });
+    try { await cache.put(cacheKey, resp.clone()); } catch (_) {}
+    return resp;
   }
 
   // ping / leave : réservés aux admins.
