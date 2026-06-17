@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_mag_pp2000_9x19_ext">
+		<text>Chargeur Étendu 9x19 PP-2000</text>
+	</string>
+	<string id="st_mag_pp2000_9x19_ext_descr">
+		<text>
+		Chargeur prolongé pour PP-2000 d'une capacité de 45 cartouches.
+		</text>
+	</string>
+	
+		<string id="st_mag_pp2000_9x18_ext">
+		<text>Chargeur Étendu Modifié 9x18 PP-2000</text>
+	</string>
+	<string id="st_mag_pp2000_9x18_ext_descr">
+		<text>
+			Chargeur prolongé pour PP-2000 modifié pour accepter la munition 9x18 Makarov.
+		</text>
+	</string>
+	
+</string_table>	

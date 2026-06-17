@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!-- 
+	Anomaly Modconfiguration Menu strings
+	
+-->
+
+<string_table>
+
+
+	<string id="ui_mcm_scop_title">
+		<text>Paramètres HUD lunette</text>
+	</string>	
+	<string id="ui_mcm_menu_scop">
+		<text>Ajustement HUD lunette</text>
+	</string>
+
+	<string id="ui_mcm_scop_iron_fov">
+		<text>Organes de visée</text>
+	</string>
+	<string id="ui_mcm_scop_iron_fov_desc">
+		<text>Des valeurs plus basses rapprochent la visée lorsque vous utilisez les organes de visée métalliques.</text>
+	</string>
+
+	<string id="ui_mcm_scop_scope_fov">
+		<text>Lunettes intégrées</text>
+	</string>
+	<string id="ui_mcm_scop_scope_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes dotées de lunettes intégrées.</text>
+	</string>
+
+	<string id="ui_mcm_scop_grenade_fov">
+		<text>Lance-grenades</text>
+	</string>
+	<string id="ui_mcm_scop_grenade_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des lance-grenades attachés.</text>
+	</string>
+
+	<string id="ui_mcm_scop_1p78_fov">
+		<text>1P78</text>
+	</string>
+	<string id="ui_mcm_scop_1p78_fov_desc">
+		<text>Des valeurs plus basses rapprochent la visée lorsque vous utilisez des armes équipées de lunettes 1P78.</text>
+	</string>
+	<string id="ui_mcm_scop_1pn93hv_fov">
+		<text>1PN93 thermique</text>
+	</string>
+	<string id="ui_mcm_scop_1pn93hv_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes équipées de lunettes thermiques 1PN93.</text>
+	</string>
+	<string id="ui_mcm_scop_1pn93_fov">
+		<text>1PN93</text>
+	</string>
+	<string id="ui_mcm_scop_1pn93hv_fov_desc">
+		<text>Des valeurs plus basses rapprochent la visée lorsque vous utilisez des armes équipées de lunettes 1PN93.</text>
+	</string>	
+	<string id="ui_mcm_scop_1p29_fov">
+		<text>1P29</text>
+	</string>
+	<string id="ui_mcm_scop_1p29_fov_desc">
+		<text>Des valeurs plus basses rapprochent la visée lorsque vous utilisez des armes équipées de lunettes 1P29.</text>
+	</string>
+	<string id="ui_mcm_scop_ps01_fov">
+		<text>PSO-1</text>
+	</string>
+	<string id="ui_mcm_scop_ps01_fov_desc">
+		<text>Des valeurs plus basses rapprochent la visée lorsque vous utilisez des armes équipées de lunettes PS01.</text>
+	</string>
+	<string id="ui_mcm_scop_pso2_fov">
+		<text>PSO-2</text>
+	</string>
+	<string id="ui_mcm_scop_pso2_fov_desc">
+		<text>Des valeurs plus basses rapprochent la visée lorsque vous utilisez des armes équipées de lunettes PS02.</text>
+	</string>
+	<string id="ui_mcm_scop_1pn93_fov">
+		<text>1PN93-4</text>
+	</string>
+	<string id="ui_mcm_scop_1pn93_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes équipées de lunettes 1PN93-4.</text>
+	</string>
+	<string id="ui_mcm_scop_pgo7gs_fov">
+		<text>PGO-7</text>
+	</string>
+	<string id="ui_mcm_scop_pgo7gs_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes équipées de lunettes PGO-7.</text>
+	</string>
+	<string id="ui_mcm_scop_1p59_fov">
+		<text>1P59</text>
+	</string>
+	<string id="ui_mcm_scop_1p59_fov_desc">
+		<text>Des valeurs plus basses rapprochent la visée lorsque vous utilisez des armes équipées de lunettes 1P59.</text>
+	</string>
+	<string id="ui_mcm_scop_pu_fov">
+		<text>PU</text>
+	</string>
+	<string id="ui_mcm_scop_pu_fov_desc">
+		<text>Des valeurs plus basses rapprochent la visée lorsque vous utilisez des armes équipées de lunettes PU.</text>
+	</string>
+	<string id="ui_mcm_scop_zf4_fov">
+		<text>ZF4</text>
+	</string>
+	<string id="ui_mcm_scop_zf4_fov_desc">
+		<text>Des valeurs plus basses rapprochent la visée lorsque vous utilisez des armes équipées de lunettes ZF4.</text>
+	</string>
+	<string id="ui_mcm_scop_g43_fov">
+		<text>G43</text>
+	</string>
+	<string id="ui_mcm_scop_g43_fov_desc">
+		<text>Des valeurs plus basses rapprochent la visée lorsque vous utilisez des armes équipées de lunettes G43.</text>
+	</string>
+	<string id="ui_mcm_scop_po4_fov">
+		<text>PO 4x34</text>
+	</string>
+	<string id="ui_mcm_scop_po4_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes équipées de lunettes PO 4x34.</text>
+	</string>
+	<string id="ui_mcm_scop_monstrum_fov">
+		<text>Monstrum</text>
+	</string>
+	<string id="ui_mcm_scop_monstrum_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes équipées de lunettes Monstrum.</text>
+	</string>
+	<string id="ui_mcm_scop_acog_fov">
+		<text>ACOG</text>
+	</string>
+	<string id="ui_mcm_scop_acog_fov_desc">
+		<text>Des valeurs plus basses rapprochent la visée lorsque vous utilisez des armes équipées de lunettes ACOG.</text>
+	</string>
+	<string id="ui_mcm_scop_trihawk_fov">
+		<text>Trihawk</text>
+	</string>
+	<string id="ui_mcm_scop_trihawk_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes équipées de lunettes Trihawk.</text>
+	</string>
+	<string id="ui_mcm_scop_g36_fov">
+		<text>G36</text>
+	</string>
+	<string id="ui_mcm_scop_g36_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes équipées de lunettes pour rail Picatinny G36.</text>
+	</string>
+	<string id="ui_mcm_scop_side_fov">
+		<text>Lunette latérale Winchester</text>
+	</string>
+	<string id="ui_mcm_scop_side_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes équipées de lunettes latérales Winchester.</text>
+	</string>
+	<string id="ui_mcm_scop_vulcan_fov">
+		<text>Vulcan</text>
+	</string>
+	<string id="ui_mcm_scop_vulcan_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes équipées de lunettes Vulcan.</text>
+	</string>
+	<string id="ui_mcm_scop_susat_fov">
+		<text>SUSAT</text>
+	</string>
+	<string id="ui_mcm_scop_susat_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes équipées de lunettes Susat.</text>
+	</string>
+	<string id="ui_mcm_scop_bravo_fov">
+		<text>Bravo 4</text>
+	</string>
+	<string id="ui_mcm_scop_bravo_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes équipées de lunettes Bravo4.</text>
+	</string>
+	<string id="ui_mcm_scop_hamr_fov">
+		<text>HAMR</text>
+	</string>
+	<string id="ui_mcm_scop_hamr_fov_desc">
+		<text>Des valeurs plus basses rapprochent la visée lorsque vous utilisez des armes équipées de lunettes HAMR.</text>
+	</string>
+	<string id="ui_mcm_scop_specter_fov">
+		<text>Specter</text>
+	</string>
+	<string id="ui_mcm_scop_specter_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes équipées de lunettes Specter.</text>
+	</string>
+	<string id="ui_mcm_scop_tac30_fov">
+		<text>Tac30</text>
+	</string>
+	<string id="ui_mcm_scop_tac30_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes équipées de lunettes Tac30.</text>
+	</string>
+	<string id="ui_mcm_scop_uh1_fov">
+		<text>Grossissant UH1</text>
+	</string>
+	<string id="ui_mcm_scop_uh1_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes équipées de multiplicateurs de grossissement UH1.</text>
+	</string>
+	<string id="ui_mcm_scop_e0t2_fov">
+		<text>Grossissant XPS3</text>
+	</string>
+	<string id="ui_mcm_scop_e0t2_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes équipées de multiplicateurs de grossissement XPS3.</text>
+	</string>
+	<string id="ui_mcm_scop_devo_fov">
+		<text>D-Evo</text>
+	</string>
+	<string id="ui_mcm_scop_devo_fov_desc">
+		<text>Des valeurs plus basses rapprochent la visée lorsque vous utilisez des armes équipées de lunettes D-Evo.</text>
+	</string>
+	<string id="ui_mcm_scop_pn23_fov">
+		<text>PN23</text>
+	</string>
+	<string id="ui_mcm_scop_pn23_fov_desc">
+		<text>Des valeurs plus basses rapprochent la visée lorsque vous utilisez des armes équipées de lunettes PN23.</text>
+	</string>
+	<string id="ui_mcm_scop_razorhd_fov">
+		<text>Razor HD</text>
+	</string>
+	<string id="ui_mcm_scop_razorhd_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes équipées de lunettes Razor HD.</text>
+	</string>
+	<string id="ui_mcm_scop_ps320_fov">
+		<text>PS320</text>
+	</string>
+	<string id="ui_mcm_scop_ps320_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes équipées de lunettes PS320.</text>
+	</string>
+	<string id="ui_mcm_scop_leupold_fov">
+		<text>CQBSS</text>
+	</string>
+	<string id="ui_mcm_scop_leupold_fov_desc">
+		<text>Des valeurs plus basses rapprochent la visée lorsque vous utilisez des armes équipées de lunettes CQBSS.</text>
+	</string>
+	<string id="ui_mcm_scop_march_fov">
+		<text>March Shorty</text>
+	</string>
+	<string id="ui_mcm_scop_march_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes équipées de lunettes March Shorty.</text>
+	</string>
+	<string id="ui_mcm_scop_ado_fov">
+		<text>Ado</text>
+	</string>
+	<string id="ui_mcm_scop_ado_fov_desc">
+		<text>Des valeurs plus basses rapprochent la visée lorsque vous utilisez des armes équipées de lunettes Ado.</text>
+	</string>
+	<string id="ui_mcm_scop_gauss_fov">
+		<text>Viseur Gauss</text>
+	</string>
+	<string id="ui_mcm_scop_gauss_fov_desc">
+		<text>Des valeurs plus basses rapprochent la visée lorsque vous utilisez des armes équipées de viseurs Gauss.</text>
+	</string>	
+		<string id="ui_mcm_scop_cortex_fov">
+		<text>Cortex</text>
+	</string>
+	<string id="ui_mcm_scop_cortex_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes équipées de lunettes Cortex.</text>
+	</string>
+	<string id="ui_mcm_scop_marchf_fov">
+		<text>March F Tactical</text>
+	</string>
+	<string id="ui_mcm_scop_marchf_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes équipées de lunettes March F Tactical.</text>
+	</string>
+	<string id="ui_mcm_scop_skeet_fov">
+		<text>Skeet X IR</text>
+	</string>
+	<string id="ui_mcm_scop_skeet_fov_desc">
+		<text>Des valeurs plus basses rapprochent la lunette lorsque vous utilisez des armes équipées de modules thermiques Skeet X IR clip-on. Ce paramètre doit être identique à celui de votre lunette intégrée.</text>
+	</string>
+	
+	<string id="ui_mcm_scop_keybind_add">
+		<text>Éloigner l'arme</text>
+	</string>
+	<string id="ui_mcm_scop_keybind_add_desc">
+		<text>Éloigne l'arme que vous tenez en augmentant le champ de vision (FOV) de l'interface de zoom.</text>
+	</string>
+	<string id="ui_mcm_scop_keybind_subtract">
+		<text>Rapprocher l'arme</text>
+	</string>
+	<string id="ui_mcm_scop_keybind_subtract_desc">
+		<text>Rapproche l'arme que vous tenez en diminuant le champ de vision (FOV) de l'interface de zoom.</text>
+	</string>
+	<string id="ui_mcm_scop_keybind_reset">
+		<text>Réinitialiser l'arme actuelle</text>
+	</string>
+	<string id="ui_mcm_scop_keybind_reset_desc">
+		<text>Rétablit le champ de vision (FOV) de l'interface de zoom de l'arme que vous tenez à sa valeur normale.</text>
+	</string>
+
+	<string id="ui_mcm_scop_snk_update_mcm">
+		<text>Mettre à jour MCM pour voir cette fonction. Touches par défaut : Pavé numérique + et - et Retour arrière pour réinitialiser l'arme actuelle</text>
+	</string>
+</string_table>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_menu_drop_item">
+		<text>Déposer l'objet</text>
+	</string>
+	<string id="ui_mcm_drop_item_key_drop">
+		<text>Raccourci Déposer</text>
+	</string>
+	<string id="ui_mcm_drop_item_key_drop_desc">
+        <text>Appuyez sur une touche pour déposer l'objet survolé de l'inventaire au sol.
+        </text>
+	</string>
+</string_table>

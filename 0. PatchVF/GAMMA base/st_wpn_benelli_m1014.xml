@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_benelli_m1014">
+		<text>M1014</text>
+	</string>
+	<string id="st_wpn_benelli_m1014_descr">
+		<text>Fusil à pompe semi-automatique conçu pour un usage militaire et policier, produit par Benelli et basé sur leur célèbre modèle M4. Il est chambré en calibre 12 et dispose d'un mécanisme à gaz, permettant des tirs de suivi rapides avec un recul minimal. Le M1014 est particulièrement apprécié pour sa robustesse, sa polyvalence et ses performances dans les combats rapprochés.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Italie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Benelli\n
+		</text>
+	</string>
+
+</string_table>

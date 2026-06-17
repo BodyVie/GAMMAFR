@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+
+<string_table>
+
+	<string id="st_wpn_grot">
+		<text>MSBS Grot C16A2</text>
+	</string>
+	<string id="st_wpn_grot_descr">
+		<text>Le MSBS Grot est une famille de fusils modulaires développée et fabriquée par FB Radom. Actuellement, ce fusil est en service au sein des Forces territoriales de défense polonaises et est destiné à remplacer le FB Beryl en tant qu'arme d'infanterie principale et fusil de service des Forces armées polonaises. Cette variante spécifique, désignée C16A2, est équipée d'un canon de 16 pouces et, comparée à ses itérations précédentes, dispose d'un garde-main plus long, d'une épingle de tir renforcée, d'une poignée pistolet améliorée et d'une crosse optimisée. Il semble que le précédent propriétaire ait remplacé la crosse d'origine par une crosse Magpul CTR et ajouté un dispositif laser ainsi qu'une poignée avant.</text>
+	</string>
+	
+	<string id="st_wpn_grot_short">
+		<text>MSBS Grot C10A2</text>
+	</string>
+	<string id="st_wpn_grot_short_descr">
+		<text>Le MSBS Grot est une famille de fusils modulaires développée et fabriquée par FB Radom. Actuellement, ce fusil est en service au sein des Forces territoriales de défense polonaises et est destiné à remplacer le FB Beryl en tant qu'arme d'infanterie principale et fusil de service des Forces armées polonaises. Cette variante spécifique, désignée C10A2, est équipée d'un canon de 10 pouces et d'un garde-main raccourci afin d'améliorer l'ergonomie ainsi que de réduire le poids et la longueur pour une utilisation en environnement CQB, au prix d'un recul accru et d'une vitesse de projectile réduite.</text>
+	</string>
+	
+	<string id="st_wpn_grot_short_tan">
+		<text>MSBS Grot C10A2 (FDE)</text>
+	</string>
+	<string id="st_wpn_grot_short_tan_descr">
+		<text>Le MSBS Grot est une famille de fusils modulaires développée et fabriquée par FB Radom. Actuellement, ce fusil est en service au sein des Forces territoriales de défense polonaises et est destiné à remplacer le FB Beryl en tant qu'arme d'infanterie principale et fusil de service des Forces armées polonaises. Cette variante spécifique, désignée C10A2, est équipée d'un canon de 10 pouces et d'un garde-main raccourci afin d'améliorer l'ergonomie ainsi que de réduire le poids et la longueur pour une utilisation en environnement CQB, au prix d'un recul accru et d'une vitesse de projectile réduite.</text>
+	</string>
+	
+	<string id="st_wpn_grot_tan">
+		<text>MSBS Grot C16A2 (FDE)</text>
+	</string>
+	<string id="st_wpn_grot_tan_descr">
+		<text>Le MSBS Grot est une famille de fusils modulaires développée et fabriquée par FB Radom. Actuellement, ce fusil est en service au sein des Forces territoriales de défense polonaises et est destiné à remplacer le FB Beryl en tant qu'arme d'infanterie principale et fusil de service des Forces armées polonaises. Cette variante spécifique, désignée C16A2, est équipée d'un canon de 16 pouces et, comparée à ses itérations précédentes, dispose d'un garde-main plus long, d'une épingle de tir renforcée, d'une poignée pistolet améliorée et d'une crosse optimisée. Il semble que le précédent propriétaire ait remplacé la crosse d'origine par une crosse Magpul CTR et ajouté un dispositif laser ainsi qu'une poignée avant.</text>
+	</string>
+	
+	<string id="st_addon_sil_grot">
+		<text>Silencieux L Pégase Acier</text>
+	</string>
+	<string id="st_addon_sil_grot_descr">
+		<text>Silencieux en titane de fabrication ukrainienne, produit par la société STEEL.</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	UPGRADE DESCRIPTIONS
+-->
+
+<string_table>
+
+<!--
+	OUTFIT UPGRADES
+-->
+
+	<string id="st_up_armor_1_name">
+		<text>Plaques en Kevlar</text>
+	</string>
+	<string id="st_up_armor_1_descr">
+		<text>Plaques renforcées offrant une durée de vie prolongée mais une résistance moindre.</text>
+	</string>
+	<string id="st_up_armor_2_name">
+		<text>Plaques en Polycarbonate</text>
+	</string>
+	<string id="st_up_armor_2_descr">
+		<text>Les plaques en polycarbonate ne durent pas longtemps, mais elles sont plus fiables que le Kevlar grâce à une meilleure absorption de l'impulsion balistique.</text>
+	</string>
+	<string id="st_up_armor_3_name">
+		<text>Couche de Plaques de Protection Dupliquée</text>
+	</string>
+	<string id="st_up_armor_3_descr">
+		<text>Armure dotée d'une couche intérieure qui répartit l'impact sur une surface plus grande.</text>
+	</string>
+	<string id="st_up_armor_4_name">
+		<text>Plaques Mobiles de Protection des Articulations</text>
+	</string>
+	<string id="st_up_armor_4_descr">
+		<text>Les plaques mobiles protègent les articulations des blessures par balle.</text>
+	</string>
+	
+	
+	<string id="st_up_damage_1_name">
+		<text>Protection Segmentée</text>
+	</string>
+	<string id="st_up_damage_1_descr">
+		<text>Des feuilles d'armure plus fines sont superposées pour accroître la résistance à l'usure.</text>
+	</string>
+	<string id="st_up_damage_2_name">
+		<text>Plaques Supplémentaires en Aluminium/Titane</text>
+	</string>
+	<string id="st_up_damage_2_descr">
+		<text>Un nombre accru de plaques améliore considérablement la durabilité des armures corporelles.</text>
+	</string>
+	<string id="st_up_damage_3_name">
+		<text>Couche Mobile de Secours</text>
+	</string>
+	<string id="st_up_damage_3_descr">
+		<text>Les plaques mobiles protègent les articulations des blessures.</text>
+	</string>
+	
+	
+	<string id="st_up_durability_1_name">
+		<text>Inserts en Cuir Épaissi</text>
+	</string>
+	<string id="st_up_durability_1_descr">
+		<text>Utilisé dans les combinaisons pour améliorer la durabilité de l'équipement.</text>
+	</string>
+	<string id="st_up_durability_2_name">
+		<text>Cadre de Protection à Haute Durabilité</text>
+	</string>
+	<string id="st_up_durability_2_descr">
+		<text>Utilisé dans les combinaisons pour améliorer la durabilité de l'équipement.</text>
+	</string>
+	<string id="st_up_durability_3_name">
+		<text>Plaques et Inserts en Kevlar Renforcé</text>
+	</string>
+	<string id="st_up_durability_3_descr">
+		<text>Plaques renforcées offrant une durée de vie prolongée afin d'améliorer la durabilité de l'équipement.</text>
+	</string>
+	
+	
+	<string id="st_up_weight_1_name">
+		<text>Composants en Carbone Massif</text>
+	</string>
+	<string id="st_up_weight_1_descr">
+		<text>Remplacer le métal par de la fibre de carbone pour réduire le poids sans compromettre la fiabilité.</text>
+	</string>
+	<string id="st_up_weight_2_name">
+		<text>Cadre en Aluminium Léger</text>
+	</string>
+	<string id="st_up_weight_2_descr">
+		<text>Remplacement de certaines pièces du cadre par de l'aluminium léger.</text>
+	</string>
+	<string id="st_up_weight_3_name">
+		<text>Composants Légers en Synthétique et Plastique</text>
+	</string>
+	<string id="st_up_weight_3_descr">
+		<text>Utilisation de matériaux plus légers afin de réduire le poids.</text>
+	</string>
+	<string id="st_up_weight_4_name">
+		<text>Matériaux Légers, Synthétiques et Polymères</text>
+	</string>
+	<string id="st_up_weight_4_descr">
+		<text>Remplace le tissu, les attaches et les épaississants par des matériaux synthétiques plus légers afin de réduire le poids.</text>
+	</string>
+	
+		
+	<string id="st_up_carry_1_name">
+		<text>Système de Monture</text>
+	</string>
+	<string id="st_up_carry_1_descr">
+		<text>Un système de montures permet de répartir le poids de manière plus homogène sur le corps.</text>
+	</string>
+	<string id="st_up_carry_2_name">
+		<text>Cadre Dorsal de Répartition du Poids</text>
+	</string>
+	<string id="st_up_carry_2_descr">
+		<text>Réduit la charge localisée sur l'épaule due au poids transporté en le répartissant sur l'ensemble du corps.</text>
+	</string>
+	<string id="st_up_carry_3_name">
+		<text>Servomoteurs Supplémentaires</text>
+	</string>
+	<string id="st_up_carry_3_descr">
+		<text>Des dispositifs de mouvement supplémentaires permettent d'augmenter la charge maximale transportable.</text>
+	</string>
+	
+	
+	<string id="st_up_shock_1_name">
+		<text>Couche Intérieure à Base de Constantan</text>
+	</string>
+	<string id="st_up_shock_1_descr">
+		<text>Une fine couche de constantan permet d'isoler efficacement contre l'électricité.</text>
+	</string>
+	<string id="st_up_shock_2_name">
+		<text>Inserts Thermiques à Base de Constantan</text>
+	</string>
+	<string id="st_up_shock_2_descr">
+		<text>Le constantan est capable d'isoler contre l'électricité et possède un point de fusion très élevé.</text>
+	</string>
+	<string id="st_up_shock_3_name">
+		<text>Combinaison avec Inserts en Manganin</text>
+	</string>
+	<string id="st_up_shock_3_descr">
+		<text>Cet alliage de nickel et de magnésium est utilisé dans les armures pour prévenir les chocs électriques.</text>
+	</string>
+	
+	
+	<string id="st_up_burn_1_name">
+		<text>Tissu Ignifugé</text>
+	</string>
+	<string id="st_up_burn_1_descr">
+		<text>Tissu traité avec des substances ignifuges.</text>
+	</string>
+	<string id="st_up_burn_2_name">
+		<text>Inserts en Plaque de Magnésium</text>
+	</string>
+	<string id="st_up_burn_2_descr">
+		<text>Les inserts en magnésium protègent le porteur des dangers thermiques.</text>
+	</string>
+	<string id="st_up_burn_3_name">
+		<text>Protection en Fibre de Verre Thermique</text>
+	</string>
+	<string id="st_up_burn_3_descr">
+		<text>La fibre de verre est employée dans les combinaisons portées par les équipes d'intervention en cas de catastrophe naturelle.</text>
+	</string>
+	<string id="st_up_burn_4_name">
+		<text>Combinaison Ignifugée avec Inserts en Nickel</text>
+	</string>
+	<string id="st_up_burn_4_descr">
+		<text>Le nickel présente une résistance au feu suffisante pour être utilisé dans les inserts d'armures corporelles.</text>
+	</string>
+	<string id="st_up_helm_burn_1_name">
+		<text>Thunderbird Constantan Face Armor</text>
+	</string>
+	<string id="st_up_helm_burn_1_descr">
+		<text>Cadre en alliage protecteur pour prévenir les dommages thermiques et électriques.</text>
+	</string>
+	
+	
+	<string id="st_up_rad_1_name">
+		<text>Tissu de Combinaison Caoutchouté</text>
+	</string>
+	<string id="st_up_rad_1_descr">
+		<text>Le caoutchouc constitue une protection de base contre une exposition brève aux radiations.</text>
+	</string>
+	<string id="st_up_rad_2_name">
+		<text>Couche Intérieure en Plexiglas</text>
+	</string>
+	<string id="st_up_rad_2_descr">
+		<text>Le plexiglas absorbe deux types de radiations tout en étant beaucoup plus léger que le plomb.</text>
+	</string>
+	<string id="st_up_rad_3_name">
+		<text>Installation de Plomb</text>
+	</string>
+	<string id="st_up_rad_3_descr">
+		<text>Le plomb absorbe les trois types de rayonnements.</text>
+	</string>	
+	<string id="st_up_helm_rad_1_name">
+		<text>Filtres Actifs</text>
+	</string>
+	<string id="st_up_helm_rad_1_descr">
+		<text>Les filtres actifs peuvent résister aux particules radioactives.</text>
+	</string>
+	<string id="st_up_helm_rad_2_name">
+		<text>Revêtement en Plexiglas</text>
+	</string>
+	<string id="st_up_helm_rad_2_descr">
+		<text>Un masque en plexiglas peut offrir une protection partielle contre les rayonnements.</text>
+	</string>
+	<string id="st_up_helm_rad_3_name">
+		<text>Respirateur Renforcé</text>
+	</string>
+	<string id="st_up_helm_rad_3_descr">
+		<text>Filtre doté d'un revêtement de purification supplémentaire et d'un système d'élimination des poisons.</text>
+	</string>
+	
+	
+	<string id="st_up_chem_1_name">
+		<text>Combinaison en Toile</text>
+	</string>
+	<string id="st_up_chem_1_descr">
+		<text>Protection de base contre la pluie et les substances caustiques.</text>
+	</string>
+	<string id="st_up_chem_2_name">
+		<text>Couche Intérieure en Plastique Étanche</text>
+	</string>
+	<string id="st_up_chem_2_descr">
+		<text>Même une simple couche intérieure en plastique peut protéger le porteur contre les risques chimiques.</text>
+	</string>
+	<string id="st_up_chem_3_name">
+		<text>Tissu de Combinaison Imprégné</text>
+	</string>
+	<string id="st_up_chem_3_descr">
+		<text>Le tissu imprégné doit prévenir les intoxications chimiques.</text>
+	</string>
+	<string id="st_up_chem_4_name">
+		<text>Combinaison en Plexiglas Lifesaver avec Treillis de Plomb Souple</text>
+	</string>
+	<string id="st_up_chem_4_descr">
+		<text>Le treillis de plomb offre une protection chimique infranchissable sans sacrifier la mobilité.</text>
+	</string>
+	<string id="st_up_helm_chem_1_name">
+		<text>Filtre Renforcé</text>
+	</string>
+	<string id="st_up_helm_chem_1_descr">
+		<text>Filtre doté d'un revêtement anti-corrosif renforcé et d'une couche supplémentaire permettant d'éliminer les poisons.</text>
+	</string>
+	<string id="st_up_helm_chem_2_name">
+		<text>Masque Respiratoire Imprégné</text>
+	</string>
+	<string id="st_up_helm_chem_2_descr">
+		<text>Respirateur permettant le blocage total des poisons.</text>
+	</string>
+	
+	
+	<string id="st_up_tele_1_name">
+		<text>Bandeau de Psy-protection en Grillage d'Acier</text>
+	</string>
+	<string id="st_up_tele_1_descr">
+		<text>Bandeau fermé offrant une protection partielle contre les émissions psychiques directes, comme l'ont démontré les tests.</text>
+	</string>
+	<string id="st_up_helm_tele_1_name">
+		<text>Bandeau Psy-Dôme</text>
+	</string>
+	<string id="st_up_helm_tele_1_descr">
+		<text>Protection psychique high-tech qui aurait été inventée par un scientifique nommé Sakharov.</text>
+	</string>
+	
+	
+	<string id="st_up_arty_1_name">
+		<text>Module Principal de Fixation de l'Armure</text>
+	</string>
+	<string id="st_up_arty_1_descr">
+		<text>Installation d'un module de fixation pour armure.</text>
+	</string>
+	<string id="st_up_arty_2_name">
+		<text>Module de Fixation d'Armure Supplémentaire</text>
+	</string>
+	<string id="st_up_arty_2_descr">
+		<text>Installation d'un module supplémentaire de fixation pour armure.</text>
+	</string>
+	<string id="st_up_arty_3_name">
+		<text>Module de Fixation d'Armure à Deux Compartiments</text>
+	</string>
+	<string id="st_up_arty_3_descr">
+		<text>Installation d'un module de fixation pour armure à deux compartiments.</text>
+	</string>
+	
+	
+	<string id="st_up_stamina_1_name">
+		<text>Système de Régulation Thermique Interne</text>
+	</string>
+	<string id="st_up_stamina_1_descr">
+		<text>Des montures spéciales fixées à la combinaison permettent de réduire la sensation de poids transporté.</text>
+	</string>
+	<string id="st_up_stamina_2_name">
+		<text>Système Athlète Intégré</text>
+	</string>
+	<string id="st_up_stamina_2_descr">
+		<text>Modèle expérimental d'un système de course.</text>
+	</string>
+	<string id="st_up_helm_stamina_1_name">
+		<text>Filtres de Purification à Vapeur et Respiration</text>
+	</string>
+	<string id="st_up_helm_stamina_1_descr">
+		<text>Ensemble de filtres utilisés pour respirer dans un air contaminé ou à des températures critiques.</text>
+	</string>
+	
+	
+	<string id="st_up_bleed_1_name">
+		<text>Hémostimulateur Ray</text>
+	</string>
+	<string id="st_up_bleed_1_descr">
+		<text>Un petit émetteur d'ondes monté dans le dos, augmentant efficacement la vitesse de coagulation sanguine.</text>
+	</string>
+	<string id="st_up_bleed_2_name">
+		<text>Injecteur d'Hémoglobine Hydra</text>
+	</string>
+	<string id="st_up_bleed_2_descr">
+		<text>Injecteur de génération B qui introduit régulièrement un agent coagulant dans la circulation sanguine en cas de chute importante de la pression artérielle.</text>
+	</string>
+	
+	
+	<string id="st_up_health_1_name">
+		<text>Injecteur d'Adrénaline Fury</text>
+	</string>
+	<string id="st_up_health_1_descr">
+		<text>Injecteur de génération A, développé par l'un des instituts de recherche de Kiev. Il injecte régulièrement de minuscules doses d'adrénaline dans la circulation sanguine.</text>
+	</string>
+	<string id="st_up_health_2_name">
+		<text>Système de Restauration Phoenix</text>
+	</string>
+	<string id="st_up_health_2_descr">
+		<text>Système intégré surveillant l'état de santé du porteur et administrant vitamines, adrénaline ou substances anabolisantes selon les besoins.</text>
+	</string>
+	<string id="st_up_health_3_name">
+		<text>Système de Support Vital</text>
+	</string>
+	<string id="st_up_health_3_descr">
+		<text>Émetteur d'ondes monté sur la nuque, procurant un puissant effet apaisant.</text>
+	</string>
+	
+	
+	<string id="st_up_run_1_name">
+		<text>Amplificateurs Hydrauliques</text>
+	</string>
+	<string id="st_up_run_1_descr">
+		<text>Permet de sprinter tout en portant un exo-squelette. Utilisé pour les exosquelettes de quatrième génération.</text>
+	</string>
+
+</string_table>

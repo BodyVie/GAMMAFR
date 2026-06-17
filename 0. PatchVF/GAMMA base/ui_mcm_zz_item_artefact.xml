@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="ui_mcm_item_artefact_title">
+		<text>État de l'Artefact</text>
+	</string>
+	<string id="ui_mcm_menu_item_artefact">
+		<text>État des Artefacts</text>
+	</string>
+	<string id="ui_mcm_item_artefact_enable_condition_bar">
+		<text>Activer l'état Bar</text>
+	</string>
+	<string id="ui_mcm_item_artefact_enable_degraded_drops">
+		<text>Activer la dégradation des Artefacts/accessoires/peaux</text>
+	</string>
+	<string id="ui_mcm_item_artefact_mutant_part_condition_min">
+		<text>État minimal des Mutants lootés</text>
+	</string>
+	<string id="ui_mcm_item_artefact_mutant_part_condition_max">
+		<text>État maximal des Mutants lootés</text>
+	</string>
+
+</string_table>

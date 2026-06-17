@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="ui_mcm_menu_more_measurement_task_maps">
+		<text>Plus de cartes de mesure</text>
+	</string>
+
+	<string id="ui_mcm_more_measurement_task_maps_title">
+		<text>Plus de missions de mesure</text>
+	</string>
+
+	<string id="ui_mcm_more_measurement_task_maps_title_desc">
+		<text>Ce mod permet d'utiliser la carte actuelle ainsi que les cartes adjacentes dans les tâches de mesure.\nIl peut également autoriser l'utilisation de cartes spécifiques normalement blacklistées.</text>
+	</string>
+
+	<string id="ui_mcm_more_measurement_task_maps_override_eligible_map_distances_parameter">
+		<text>Remplacer distance des cartes éligibles</text>
+	</string>
+	<string id="ui_mcm_more_measurement_task_maps_override_eligible_map_distances_parameter_desc">
+		<text>Activez la fonctionnalité ci-dessous.</text>
+	</string>
+
+	<string id="ui_mcm_more_measurement_task_maps_eligible_map_distances_parameter">
+		<text>Distance des cartes éligibles</text>
+	</string>
+	<string id="ui_mcm_more_measurement_task_maps_eligible_map_distances_parameter_desc">
+		<text>À quelle distance pouvez-vous vous trouver des cartes utilisées dans les tâches de mesure ?</text>
+	</string>
+
+	<string id="ui_mcm_lst_more_measurement_task_maps_same_level_label">
+		<text>Même niveau</text>
+	</string>
+	<string id="ui_mcm_lst_more_measurement_task_maps_same_or_nearby_levels_label">
+		<text>Même niveau ou proches</text>
+	</string>
+	<string id="ui_mcm_lst_more_measurement_task_maps_nearby_levels_only_label">
+		<text>Niveaux proches uniquement</text>
+	</string>
+	<string id="ui_mcm_lst_more_measurement_task_maps_far_levels_label">
+		<text>Niveaux éloignés</text>
+	</string>
+	<string id="ui_mcm_lst_more_measurement_task_maps_all_levels_label">
+		<text>Tous les niveaux</text>
+	</string>
+
+	<!--  -->
+
+	<string id="ui_mcm_more_measurement_task_maps_allow_more_southern_maps">
+		<text>Autoriser plus de cartes sudiques</text>
+	</string>
+	<string id="ui_mcm_more_measurement_task_maps_allow_more_southern_maps_desc">
+		<text>Autorisez l'utilisation des Cordons, de Rostok et de la Décharge dans les tâches de mesure.</text>
+	</string>
+
+	<string id="ui_mcm_more_measurement_task_maps_allow_more_northern_maps">
+		<text>Autoriser plus de cartes nordiques</text>
+	</string>
+	<string id="ui_mcm_more_measurement_task_maps_allow_more_northern_maps_desc">
+		<text>Autorisez l'utilisation de Pripyat, de l'hôpital et du Radar dans les tâches de mesure.</text>
+	</string>
+
+	<string id="ui_mcm_more_measurement_task_maps_allow_very_northern_maps">
+		<text>Autoriser cartes très nordiques</text>
+	</string>
+	<string id="ui_mcm_more_measurement_task_maps_allow_very_northern_maps_desc">
+		<text>Autorisez l'utilisation des Générateurs, du CNPP(S) et du CNPP(N) dans les tâches de mesure.</text>
+	</string>
+
+	<string id="ui_mcm_more_measurement_task_maps_allow_underground_maps">
+		<text>Autoriser cartes souterraines</text>
+	</string>
+	<string id="ui_mcm_more_measurement_task_maps_allow_underground_maps_desc">
+		<text>Autorisez l'utilisation des cartes souterraines dans les tâches de mesure.\nAgroprom Underground, X16 et X18 si l'option « Autoriser plus de cartes au sud » est également activée.\nJupiter Underground, les Lobotomisateurs et X8 si l'option « Autoriser plus de cartes au nord » est également activée.\nMonolith Control Center, le Sarcophage et Monolith Warlab si l'option « Autoriser les cartes très au nord » est également activée.</text>
+	</string>
+
+</string_table>

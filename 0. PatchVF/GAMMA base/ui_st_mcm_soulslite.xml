@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_menu_soulslike">
+		<text>Soulslike</text>
+	</string>
+
+    <!--General-->
+    <string id="ui_mcm_soulslike_general">
+        <text>Général</text>
+    </string>
+    <string id="ui_mcm_soulslike_general_title">
+        <text>Paramètres Soulslike des Jabbers</text>
+    </string>
+    <string id="ui_mcm_soulslike_general_description">
+        <text>Le mod Soulslike introduit des éléments inspirés des jeux de type souls dans l'univers des Stalkers. En cas de décès, vous êtes secouru par un Stalker aléatoire dans la zone. Celui-ci vous ramène au dernier point de réapparition enregistré, où vous vous réveillez avec un message de sa part expliquant les circonstances de votre découverte et les efforts qu'il a pu déployer pour vous mettre en sécurité. Les objets que vous aviez sur vous doivent être récupérés, certains pouvant être perdus et leur état dégradé, en fonction des paramètres.</text>
+     </string>
+    <string id="ui_mcm_soulslike_general_disclaimer">
+        <text>AVERTISSEMENT : Arrêtez de râler, ce mod est conçu pour rendre le jeu plus difficile. Il est donc 100 % possible de se retrouver dans une situation où vous perdez votre équipement de manière inattendue. La perte aléatoire d'objets à la mort signifie que vous pourriez perdre vos armes ou votre armure, mourir au milieu d'une anomalie sans pouvoir récupérer votre équipement est possible et prévu. Prévoyez toujours un kit de secours, anticipez le pire, espérez le meilleur.</text>
+    </string>
+
+    <!--Character-->
+    <string id="ui_mcm_soulslike_character">
+        <text>Personnage</text>
+    </string>
+    <string id="ui_mcm_soulslike_character_title">
+        <text>Paramètres du personnage</text>
+    </string>
+    <string id="ui_mcm_soulslike_character_rank_loss_percent">
+        <text>Perte de rang %</text>
+    </string>
+    <string id="ui_mcm_soulslike_character_rank_loss_percent_desc">
+        <text>Ce montant correspond au niveau de rang du personnage que vous perdrez lors de la réapparition.</text>
+    </string>
+    <string id="ui_mcm_soulslike_character_rep_loss_percent">
+        <text>Perte de réputation %</text>
+    </string>
+    <string id="ui_mcm_soulslike_character_rep_loss_percent_desc">
+        <text>Quantité de réputation personnelle perdue lors de la réapparition. Il s'agit de la réputation individuelle, et non de la réputation ou de la position au sein d'une faction.</text>
+    </string>
+    <string id="ui_mcm_soulslike_character_health_loss_on_respawn">
+        <text>Perte de santé % à la réapparition</text>
+    </string>
+    <string id="ui_mcm_soulslike_character_health_loss_on_respawn_desc">
+        <text>Cette option ajoute un niveau de difficulté supplémentaire à votre partie. Il s'agit du pourcentage de points de vie qui sera retiré lors de votre réapparition. Par exemple, 25 % signifie que vous réapparaîtrez avec 75 % de vos points de vie. L'idée est que vous restiez légèrement blessé et que vous deviez conserver des médicaments pour vous soigner avant de tenter de récupérer vos objets à l'endroit où vous êtes mort.</text>
+    </string>
+    <string id="ui_mcm_soulslike_character_allow_rep_loss">
+        <text>Activer perte de réputation</text>
+    </string>
+    <string id="ui_mcm_soulslike_character_allow_rank_loss">
+        <text>Activer perte de rang</text>
+    </string>
+    <!--Items-->
+    <string id="ui_mcm_soulslike_items">
+        <text>Objets</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_title">
+        <text>Paramètres des objets</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_keep_equipped_items_on_death">
+        <text>Conserver les objets équipés à la mort</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_allow_desc">
+        <text>Les paramètres ci-dessous s'appliquent aux objets perdus au moment du décès. Chacun des types d'objets mentionnés ci-dessous a une probabilité d'être définitivement perdu, sauf si vous décochez les cases correspondantes.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_allow_weapon_loss">
+        <text>Autoriser perte d'arme</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_allow_outfit_loss">
+        <text>Autoriser perte d'équipement</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_allow_headgear_loss">
+        <text>Autoriser perte de couvre-chef</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_allow_artifact_loss">
+        <text>Autoriser perte d'artefact</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_allow_tool_loss">
+        <text>Autoriser perte d'outils</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_allow_money_loss">
+        <text>Autoriser perte d'argent</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_scalar_description">
+        <text>La perte d'objets et la dégradation de leur état dépendent de votre rang. Lorsque vous mourrez, plus votre rang est élevé, plus la probabilité de perdre un objet ou de voir son état se dégrader est importante. Cela permet de faciliter le début d'une nouvelle partie, mais au fur et à mesure de votre progression, les conséquences d'un décès deviennent de plus en plus sévères. Consultez l'infobulle de chaque paramètre pour une explication plus détaillée.</text>
+     </string>
+    <string id="ui_mcm_soulslike_items_item_loss_scalar">
+        <text>Coefficient de perte d'objets</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_item_loss_scalar_desc">
+        <text>Au rang maximal, votre personnage a 75 % de chances de base de perdre chaque objet en cas de décès. Cependant, le scalaire de perte d'objets vous permet d'ajuster cette probabilité de perte afin de mieux correspondre à vos préférences. Par défaut, ce scalaire est réglé sur 0,20 (20 %), ce qui réduit la probabilité maximale de perte d'objet à 15 % par objet.
+
+Vous pouvez personnaliser ce coefficient pour l'adapter à votre tolérance face à la perte d'objets. Par exemple :
+
+    En réglant le coefficient à 0,10 (10 %), la probabilité de perte est réduite à 7,5 % par objet.
+    À 0,30 (30 %), la probabilité de perte passe à 22,5 % par objet.
+    Avec 0,40 (40 %), le taux de perte atteint 30 % par objet.
+    Ajustez le coefficient pour trouver l'équilibre entre risque et récompense qui convient le mieux à votre style de jeu.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_ignore_rank_when_computing_item_loss_chance">
+        <text>Ignorer le rang pour le calcul de la chance de perte d'objets</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_ignore_rank_when_computing_item_loss_chance_desc">
+        <text>Peut-être aimez-vous traîner vos parties intimes sur du verre avant de les tremper dans de l'alcool à friction... qui suis-je pour juger. Ce paramètre rend la probabilité de perte d'objets un peu plus punitive en ignorant votre grade lors du calcul des pertes.</text>
+    </string>
+    
+    <string id="ui_mcm_soulslike_items_item_condition_loss_scalar">
+        <text>Coefficient de perte d'état des objets</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_item_condition_loss_scalar_desc">
+        <text>Au grade maximal, votre personnage perdra 18 points d'état sur chaque objet au moment du décès. Le multiplicateur de perte d'état des objets vous permet d'ajuster cette perte pour mieux correspondre à vos préférences. Par défaut, le multiplicateur est réglé à 0,05 (5 %), ce qui réduit la perte d'état maximale par objet à 3,7 points.
+
+Vous pouvez ajuster ce coefficient pour refléter le niveau de perte d'état des objets souhaité. Par exemple :
+
+    Un coefficient de 0,05 (5 %) entraîne une perte d'état de 3,7 points par objet.
+    À 0,10 (10 %), la perte d'état augmente à 7,4 points par objet.
+    Avec 0,15 (15 %), la perte s'élève à 11 points par objet.
+    Définissez cette valeur pour équilibrer le risque et la durabilité selon votre style de jeu.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_ignore_rank_when_computing_item_condition_loss">
+        <text>Ignorer le rang pour le calcul de la perte d'état des objets</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_ignore_rank_when_computing_item_condition_loss_desc">
+        <text>Je suppose que vous aimez qu'on vous marche sur les parties intimes avec des talons aiguilles, chacun ses goûts. Ce paramètre rend la perte d'état des objets un peu plus punitive en ignorant votre grade lors du calcul de la perte d'état.</text>
+    </string>
+    
+    <!--Scenarios-->
+    <string id="ui_mcm_soulslike_scenarios">
+        <text>Scénarios</text>
+     </string>
+    <string id="ui_mcm_soulslike_scenarios_title">
+        <text>Paramètres des scénarios</text>
+    </string>
+    <string id="ui_mcm_soulslike_scenarios_description">
+        <text>Les scénarios Soulslike sont dynamiques par nature. Les événements de réapparition dépendent de qui vous a tué, de la manière dont vous avez été tué, de l'endroit, de votre proximité avec votre point de réapparition au moment du décès, ainsi que du fait que vous soyez à l'intérieur ou à l'extérieur, pour ne citer que quelques facteurs. Ces paramètres existent pour vous permettre de personnaliser les méthodes de récupération de votre équipement. Les scénarios par défaut, qui sont toujours actifs, prévoient que vous puissiez réapparaître avec tous vos objets (en fonction des événements) ou que vous les trouviez dans un sac à dos au sol à l'endroit où votre corps a été découvert. Les options ci-dessous s'ajoutent à ces scénarios et leur poids peut être modifié pour les rendre plus ou moins fréquents.</text>
+     </string>
+    <string id="ui_mcm_soulslike_scenarios_rf_detector_scenario_weight">
+        <text>Poids du scénario détecteur RF</text>
+     </string>
+    <string id="ui_mcm_soulslike_scenarios_rf_detector_scenario_weight_desc">
+        <text>Pour ajouter une couche supplémentaire de difficulté et varier légèrement l'expérience, lorsque ce scénario est activé, votre sauveteur déplacera tous vos objets dans une cachette dissimulée sur la même carte où vous avez été retrouvé. Il vous indiquera la fréquence radio (RF) à écouter pour localiser votre équipement et laissera également une note dans votre inventaire en guise de rappel.</text>
+     </string>
+    <string id="ui_mcm_soulslike_scenarios_hidden_stash_scenario_weight">
+        <text>Poids du scénario cache caché</text>
+     </string>
+    <string id="ui_mcm_soulslike_scenarios_rf_detector_scenario_weight_desc">
+        <text>Pour ajouter une couche supplémentaire de difficulté et varier un peu les choses, lorsque ce scénario est utilisé, votre sauveteur déplacera tous vos objets vers une cachette secrète et la marquera sur votre PDA.</text>
+     </string>
+    <string id="ui_mcm_soulslike_scenarios_looter_npcs_marked">
+        <text>Marquer les NPC pillant sur le PDA</text>
+    </string>
+    <string id="ui_mcm_soulslike_scenarios_rf_detector_scenario_weight_desc">
+        <text>Lorsque votre équipement est pillé par un NPC, cette option vous permettra de le localiser sur votre PDA.</text>
+     </string>
+
+    <!--Ambush-->
+    <string id="ui_mcm_soulslike_ambush">
+        <text>Embuscade</text>
+    </string>
+    <string id="ui_mcm_soulslike_ambush_title">
+        <text>Paramètres d'embuscade</text>
+    </string>
+    <string id="ui_mcm_soulslike_ambush_description">
+        <text>Selon les événements survenus dans le scénario et les objets équipés sur votre personnage, il existe une possibilité qu'une embuscade se produise à l'endroit où votre corps a été découvert.</text>
+    </string>
+    <string id="ui_mcm_soulslike_ambush_mutant_ambush_chance">
+        <text>Chance d'embuscade de Mutants</text>
+    </string>
+    <string id="ui_mcm_soulslike_ambush_allow_boar_ambush">
+        <text>Autoriser embuscade de Sangliers</text>
+    </string>
+    <string id="ui_mcm_soulslike_ambush_allow_flesh_ambush">
+        <text>Autoriser embuscade de Flesh</text>
+    </string>
+    <string id="ui_mcm_soulslike_ambush_allow_dogs_ambush">
+        <text>Autoriser embuscade de Chien</text>
+    </string>
+    <string id="ui_mcm_soulslike_ambush_allow_cats_ambush">
+        <text>Autoriser embuscade de Chat</text>
+    </string>
+    <string id="ui_mcm_soulslike_ambush_allow_snorks_ambush">
+        <text>Autoriser embuscade de Snorks</text>
+    </string>
+    <string id="ui_mcm_soulslike_ambush_allow_bloodsucker_ambush">
+        <text>Autoriser embuscade de Bloodsuckers</text>
+    </string>
+    <string id="ui_mcm_soulslike_ambush_allow_burer_ambush">
+        <text>Autoriser embuscade de Burers</text>
+    </string>
+    <string id="ui_mcm_soulslike_ambush_allow_chimera_ambush">
+        <text>Autoriser embuscade de Chimères</text>
+    </string>
+    <string id="ui_mcm_soulslike_ambush_allow_controller_ambush">
+        <text>Autoriser embuscade de Controllers</text>
+    </string>
+    <string id="ui_mcm_soulslike_ambush_stalker_ambush_chance">
+        <text>Chance d'embuscade de Stalkers</text>
+    </string>
+    <string id="ui_mcm_soulslike_ambush_allow_stalker_novice_ambush">
+        <text>Autoriser embuscade de Stalkers novices</text>
+    </string>
+    <string id="ui_mcm_soulslike_ambush_allow_stalker_advanced_ambush">
+        <text>Autoriser embuscade de Stalkers expérimentés</text>
+    </string>
+    <string id="ui_mcm_soulslike_ambush_allow_stalker_veteran_ambush">
+        <text>Autoriser embuscade de Stalkers maîtres</text>
+    </string>
+    <string id="ui_mcm_soulslike_ambush_allow_stalker_sniper_ambush">
+        <text>Autoriser embuscade de Stalkers snipers</text>
+    </string>
+
+    <!--Hardcore-->
+    <string id="ui_mcm_soulslike_hardcore">
+        <text>Mode difficile</text>
+    </string>
+    <string id="ui_mcm_soulslike_hardcore_title">
+        <text>Paramètres du mode difficile</text>
+    </string>
+    <string id="ui_mcm_soulslike_hardcore_save_description">
+        <text>Comparable à l'idée de se coincer le pénis dans un livre à couverture rigide, le mode Sauvegardes Hardcore désactive toutes les sauvegardes manuelles, rapides et près des feux de camp. Un seul fichier de sauvegarde existera à tout moment. Les Sauvegardes Hardcore ne permettent de sauvegarder que pendant le sommeil et lors de la réapparition. Gardez à l'esprit qu'en raison de l'existence d'un seul fichier de sauvegarde, il est possible de se retrouver dans une situation bloquante si vous perdez tout votre équipement et n'avez plus d'argent pour vous soigner ou vous nourrir.</text>
+     </string>
+    <string id="ui_mcm_soulslike_hardcore_is_enabled">
+        <text>Activer sauvegardes en mode difficile</text>
+    </string>    
+    <string id="ui_mcm_soulslike_hardcore_override_campfire_hardcore_saves">
+        <text>Autoriser sauvegardes au feu de camp avec sauvegardes en mode difficile</text>
+    </string>
+    <string id="ui_mcm_soulslike_hardcore_override_campfire_hardcore_saves_desc">
+        <text>Parfois, vous avez besoin de cette douce sensation de réconfort que procure la sauvegarde fréquente. Cette option permet de sauvegarder auprès des feux de camp, même lorsque les sauvegardes difficiles sont activées. Gardez à l'esprit que lors de la réapparition ou du sommeil, vos sauvegardes auprès des feux de camp seront tout de même supprimées si les Sauvegardes difficiles sont activées.</text>
+    </string>
+    <string id="ui_mcm_soulslike_hardcore_lose_all_items_on_death">
+        <text>Perte de tous les objets à la mort</text>
+    </string>
+    <string id="ui_mcm_soulslike_hardcore_lose_all_items_on_death_desc">
+        <text>Si cette option est activée, vous perdrez TOUS les objets au moment du décès. Ce paramètre annule tous les autres paramètres de la catégorie Objets.</text>
+    </string>
+
+    <!--Debug-->
+    <string id="ui_mcm_soulslike_debug">
+        <text>Développeur</text>
+    </string> 
+    <string id="ui_mcm_soulslike_debug_title">
+        <text>Paramètres développeur</text>
+    </string>    
+    <string id="ui_mcm_soulslike_debug_is_enabled">
+        <text>Mode débogage</text>
+    </string>  
+    <string id="ui_mcm_soulslike_debug_enable_tips">
+        <text>Afficher messages PDA</text>
+    </string>    
+    <string id="ui_mcm_soulslike_debug_debug_hidden_stashes">
+        <text>Débogage caches cachés</text>
+    </string>
+    <string id="ui_mcm_soulslike_debug_debug_item_loss">
+        <text>Perte d'objets en débogage</text>
+    </string>
+    <string id="ui_mcm_soulslike_debug_debug_the_tarkov_looter">
+        <text>Débogage Tarkov Looter</text>
+    </string>
+    <string id="ui_mcm_soulslike_debug_debug_the_noloss_scenario">
+        <text>Scénario sans perte en débogage</text>
+    </string>
+    <string id="ui_mcm_soulslike_debug_debug_the_default_scenario">
+        <text>Scénario de perte par défaut en débogage</text>
+    </string>
+    <string id="ui_mcm_soulslike_debug_debug_the_rf_scenario">
+        <text>Scénario détecteur RF en débogage</text>
+    </string>
+    <string id="ui_mcm_soulslike_debug_debug_the_hidden_stash_scenario">
+        <text>Scénario de cache caché en débogage</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_outfit_loss_chance">
+        <text>Chance de perte d'équipement</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_outfit_loss_chance_desc">
+        <text>Multiplicateur de la probabilité de perdre une tenue au moment du décès. La valeur 0 désactive la perte, tandis que la valeur 1 applique la probabilité calculée complète.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_weapon_loss_chance">
+        <text>Chance de perte d'arme</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_weapon_loss_chance_desc">
+        <text>Multiplicateur de la probabilité de perdre une arme en cas de décès. 0 désactive la perte, 1 applique la probabilité calculée complète.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_artefact_loss_chance">
+        <text>Chance de perte d'Artefact</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_artefact_loss_chance_desc">
+        <text>Multiplicateur de la probabilité de perdre un artefact au moment du décès. La valeur 0 désactive la perte, tandis que la valeur 1 applique la probabilité calculée complète.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_headgear_loss_chance">
+        <text>Chance de perte de couvre-chef</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_headgear_loss_chance_desc">
+        <text>Multiplicateur de la probabilité de perdre le couvre-chef au moment du décès. La valeur 0 désactive la perte, tandis que la valeur 1 applique la probabilité calculée complète.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_toolkit_loss_chance">
+        <text>Chance de perte de trousse à outils</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_toolkit_loss_chance_desc">
+        <text>Multiplicateur de la probabilité de perdre une trousse à outils au moment du décès. La valeur 0 désactive la perte, tandis que la valeur 1 applique la probabilité calculée complète.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_other_loss_chance">
+        <text>Chance de perte d'autres objets</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_other_loss_chance_desc">
+        <text>Multiplicateur de la probabilité de perdre d'autres objets au moment du décès. La valeur 0 désactive la perte, tandis que la valeur 1 applique la probabilité calculée complète.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_outfit_condition_loss_chance">
+        <text>Multiplicateur de perte d'état de l'équipement</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_outfit_condition_loss_chance_desc">
+        <text>Module le risque de perte d'état pour les tenues en cas de décès. 0 désactive la perte, 1 applique la probabilité calculée complète.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_weapon_condition_loss_chance">
+        <text>Multiplicateur de perte d'état de l'arme</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_weapon_condition_loss_chance_desc">
+        <text>Module le risque de perte d'état pour les armes en cas de décès. 0 désactive la perte, 1 applique la probabilité calculée complète.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_artefact_condition_loss_chance">
+        <text>Multiplicateur de perte d'état de l'Artefact</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_artefact_condition_loss_chance_desc">
+        <text>Module le risque de perte d'état pour les artefacts en cas de décès. 0 désactive la perte, 1 applique la probabilité calculée complète.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_headgear_condition_loss_chance">
+        <text>Multiplicateur de perte d'état du couvre-chef</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_headgear_condition_loss_chance_desc">
+        <text>Module le risque de perte d'état pour les couvre-chefs en cas de décès. 0 désactive la perte, 1 applique la probabilité calculée complète.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_loss_chance_per_type_desc">
+        <text>Chaque type d'objet ci-dessous peut voir sa probabilité de perte ajustée individuellement. La probabilité finale de perte est le produit de la probabilité de base et de ce curseur. Réglez à 0 pour désactiver la perte pour ce type, ou à 1 pour appliquer la probabilité calculée complète.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_condition_loss_per_type_desc">
+        <text>Chaque type d'objet ci-dessous peut voir sa perte d'état ajustée individuellement. La perte d'état finale est le produit de la perte de base et de ce curseur. Réglez à 0 pour désactiver la perte d'état pour ce type, ou à 1 pour appliquer la perte calculée complète.</text>
+    </string>
+
+    <!-- Ignored Items -->
+    <string id="ui_mcm_soulslike_ignored_items">
+        <text>Objets ignorés</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_title">
+        <text>Paramètres des objets ignorés</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_desc">
+        <text>Les objets cochés ci-dessous seront toujours ignorés et ne seront jamais perdus en cas de décès, quels que soient les autres paramètres.</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_bolt">
+        <text>Boulon</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_itm_actor_backpack">
+        <text>Détachement rapide du sac à dos</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_device_pda">
+        <text>PDA</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_device_pda_1">
+        <text>PDA 1</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_device_pda_2">
+        <text>PDA 2</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_device_pda_3">
+        <text>PDA 3</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_detector_radio">
+        <text>Détecteur radio</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_knife">
+        <text>Couteau</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_knife2">
+        <text>Couteau 2</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_knife3">
+        <text>Couteau 3</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_knife4">
+        <text>Couteau 4</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_knife5">
+        <text>Couteau 5</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_knife6">
+        <text>Couteau 6</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_knife7">
+        <text>Couteau 7</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_knife8">
+        <text>Couteau 8</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_knife9">
+        <text>Couteau 9</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_axe">
+        <text>Hache</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_axe2">
+        <text>Hache 2</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_axe3">
+        <text>Hache 3</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_bandage">
+        <text>Bandage</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_medkit">
+        <text>Medkit</text>
+    </string>
+    <string id="ui_mcm_soulslike_character_allow_nighttime_respawn">
+        <text>Autoriser réapparition nocturne</text>
+    </string>
+    <string id="ui_mcm_soulslike_character_allow_nighttime_respawn_desc">
+        <text>Si cette case n'est pas cochée, la réapparition avancera toujours l'heure au matin (7 h - 9 h) si vous deviez réapparaître de nuit.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_money_loss_max_percent">
+        <text>Perte d'argent maximale %</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_money_loss_chance">
+        <text>Chance de perte d'argent</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_money_loss_max_percent_desc">
+        <text>Pourcentage maximal de votre argent pouvant être perdu au moment du décès. La perte effective sera un pourcentage aléatoire ne dépassant pas cette valeur.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_money_loss_chance_desc">
+        <text>Probabilité de perdre de l'argent en cas de décès. 1,0 = toujours, 0,5 = 50 % de chance, etc.</text>
+    </string>
+    
+	<string id="ui_mcm_soulslike_items_outfit_keep_chance">
+		<text>Chance de conserver l'équipement à la mort</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_outfit_keep_chance_desc">
+		<text>Lorsque l'option « Autoriser la perte de tenue » est activée, ce curseur détermine la probabilité que votre tenue reste en votre possession lors de la réapparition. 0 = toujours perdue, 1 = toujours conservée.</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_headgear_keep_chance">
+		<text>Chance de conserver le couvre-chef à la mort</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_headgear_keep_chance_desc">
+		<text>Lorsque l'option « Autoriser la perte de couvre-chef » est activée, ce curseur détermine la probabilité que votre couvre-chef reste en votre possession lors de la réapparition. 0 = toujours perdu, 1 = toujours conservé.</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_weapon_keep_chance">
+		<text>Chance de conserver l'arme à la mort</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_weapon_keep_chance_desc">
+		<text>Lorsque l'option « Autoriser la perte d'arme » est activée, ce curseur détermine la probabilité que votre arme reste en votre possession lors de la réapparition. 0 = toujours perdue, 1 = toujours conservée.</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_artifact_keep_chance">
+		<text>Chance de conserver l'artefact à la mort</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_artifact_keep_chance_desc">
+		<text>Lorsque l'option « Autoriser la perte d'artefact » est activée, ce curseur détermine la probabilité que votre artefact reste en votre possession lors de la réapparition. 0 = toujours perdu, 1 = toujours conservé.</text>
+	</string>
+    
+</string_table>

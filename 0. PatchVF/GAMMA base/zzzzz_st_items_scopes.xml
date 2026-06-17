@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	WEAPON ATTACHMENTS
+-->
+
+<string_table>
+
+	<string id="st_addon_scope">
+		<text>PSO-1</text>
+	</string>
+	<string id="st_addon_scope_descr">
+		<text>Introduite au début des années 1960, la PSO-1 est devenue l'optique emblématique du tireur d'élite soviétique. Distribuée avec le fusil SVD, elle a été largement utilisée en Europe de l'Est et dans divers conflits de la Guerre Cold. Son réticule caractéristique combine un chevron pour le tir avec une échelle de télémétrie intégrée, permettant aux tireurs d'estimer rapidement les distances sans équipement supplémentaire.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique/Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]NPZ\n
+		%c[d_cyan] • %c[0,255,255,255] Grossissement : %c[ui_gray_2]4x\n
+		%c[d_cyan] • %c[0,255,255,255] Illumination du réticule : %c[ui_gray_2]toujours activée\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_pso-1m2-01">
+		<text>POSP 6x24</text>
+	</string>
+	<string id="st_addon_scope_pso-1m2-01_descr">
+		<text>Une variante à plus fort grossissement de la formule classique PSO, le POSP 6x24 a été conçu autant pour les chasseurs et les tireurs sportifs que pour les utilisateurs militaires. Son réticule en chevron et son échelle stadimétrique facilitent les estimations de distance rapides pour la chasse, tandis que son tube légèrement plus long offre des tirs plus précis sur des cibles de petite à moyenne taille. Conçu pour l'exportation, le POSP a trouvé un large marché civil - apprécié pour sa robustesse, ses commandes simples et ses aides balistiques de type PSO qui s'adaptent parfaitement du champ de bataille à la chasse.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Biélorussie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Zenit-BelOMO\n
+		%c[d_cyan] • %c[0,255,255,255] Grossissement : %c[ui_gray_2]6x\n
+		%c[d_cyan] • %c[0,255,255,255] Illumination du réticule : %c[ui_gray_2]toujours activée\n \n	
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_pso2">
+		<text>PSO-1M2-1</text>
+	</string>
+	<string id="st_addon_scope_pso2_descr">
+		<text>Une version modernisée et compacte de la famille PSO, adaptée aux plateformes de sniper spéciales (notamment le VSS/AS VAL) et aux distances courtes à moyennes. Le réticule et les marquages stadimétriques sont optimisés pour les engagements rapprochés (les repères de télémétrie s'arrêtent bien avant l'échelle originale de 1000 m), et le corps bénéficie de revêtements et d'ajustements de fabrication modernes pour une meilleure clarté optique et des performances accrues en basse lumière. Elle est utilisée lorsque la correction balistique à longue distance de la PSO originale n'est pas nécessaire - une optique pratique et prête au combat pour les fusils spécialisés et silencieux.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique/Biélorussie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Zenit-BelOMO\n
+		%c[d_cyan] • %c[0,255,255,255] Grossissement : %c[ui_gray_2]4x\n
+		%c[d_cyan] • %c[0,255,255,255] Illumination du réticule : %c[ui_gray_2]toujours activée\n \n
+		</text>
+	</string>
+		
+	<string id="st_addon_scope_1p59">
+		<text>1P59 « Giperon »</text>
+	</string>
+	<string id="st_addon_scope_1p59_descr">
+		<text>Une lunette de sniper russe à grossissement variable, introduite vers 2001 pour les fusils modernes de la classe SVD. Elle se distingue par un réticule net et fin, une image lumineuse et une illumination alimentée par batterie.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]KMZ\n
+		%c[d_cyan] • %c[0,255,255,255] Grossissement : %c[ui_gray_2]3-10x\n
+		%c[d_cyan] • %c[0,255,255,255] Illumination du réticule : %c[ui_gray_2]toujours activée\n \n
+		</text>
+	</string>	
+
+</string_table>

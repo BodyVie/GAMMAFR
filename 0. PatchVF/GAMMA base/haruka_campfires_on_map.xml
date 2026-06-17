@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	GMTOP Edited 27
+-->
+
+<string_table>
+    <string id="ui_mcm_menu_campfires_on_map">
+		<text>Feux de camp sur la carte</text>
+	</string>
+
+	<string id="ui_mcm_campfires_on_map_show_campfires">
+		<text>Afficher les feux de camp</text>
+	</string>
+
+	<string id="ui_mcm_campfires_on_map_show_only_visited">
+		<text>Uniquement les feux visités</text>
+	</string>
+	<string id="ui_mcm_campfires_on_map_show_only_visited_desc">
+		<text>Permet d'afficher sur la carte uniquement les feux de camp avec lesquels le joueur a interagi.</text>
+	</string>
+
+    <string id="st_campfire">
+		<text>Feu de camp</text>
+	</string>
+      <string id="st_campfire_visited">
+		<text>%c[pda_white]Feu de camp (%c[d_orange]Visité%c[pda_white])</text>
+	</string>
+</string_table>

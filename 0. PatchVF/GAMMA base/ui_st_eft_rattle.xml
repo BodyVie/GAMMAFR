@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	EFT Aim Rattle Strings
+-->
+
+<string_table>
+	<string id="ui_mcm_menu_eft_rattle">
+		<text>Bruit EFT</text>
+	</string>
+	<string id="ui_mcm_title_eft_rattle">
+		<text>Bruit Escape from Tarkov</text>
+	</string>
+	<string id="ui_mcm_eft_rattle_aim_rattle">
+		<text>Bruit de visée</text>
+	</string>
+	<string id="ui_mcm_eft_rattle_lower_raise_rattle">
+		<text>Bruit de montée/descente</text>
+	</string>
+</string_table>

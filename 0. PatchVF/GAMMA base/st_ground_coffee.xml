@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_ground_coffee">
+		<text>Café moulu</text>
+	</string>
+	<string id="st_ground_coffee_descr">
+		<text>Un sachet de grains de café finement moulus, prêt à être infusé. Bien que souvent rassis ou récupéré dans d'anciens stocks, une tasse chaude peut maintenir un Stalker éveillé lors des longues nuits.\n \n 
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nourriture\n
+		%c[d_green] • %c[pda_white] Stimulant\n
+		</text>
+	</string>
+	
+</string_table>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_rpk16">
+		<text>RPK-16</text>
+	</string>
+	<string id="st_wpn_rpk16_descr">
+		<text>Mitrailleuse légère puissante et légère, idéale pour établir un feu de suppression. Son taux de tir élevé et sa construction robuste en font un choix fiable pour quiconque doit affronter de grands groupes d'ennemis. Grâce à sa conception modulaire permettant une personnalisation, la RPK-16 offre à la fois précision et mobilité, vous assurant une domination du champ de bataille tout en maintenant le contrôle lors d'affrontements intenses. Parfaite pour les engagements prolongés, elle constitue un outil polyvalent pour la survie.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Vyatskiye Polyany MBP\n
+		</text>
+	</string>
+
+</string_table>

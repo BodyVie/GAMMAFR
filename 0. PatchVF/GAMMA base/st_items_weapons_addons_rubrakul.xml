@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	SUPPRESSORS
+-->
+
+	<string id="st_addon_sil_ash12">
+		<text>Silencieux CKIB ASH-12</text>
+	</string>
+	<string id="st_addon_sil_ash12_descr">
+		<text>
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 12,7x55 mm\n \n</text>
+	</string>
+
+	<string id="st_addon_sil_silencerco">
+		<text>Silencieux SilencerCO Salvo 12</text>
+	</string>
+	<string id="st_addon_sil_silencerco_descr">
+		<text>
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Calibre 12\n
+		</text>
+	</string>
+
+<!--
+	KITS
+-->
+
+	<string id="st_addon_scope_sup">
+		<text>Kit de visée S.U.P</text>
+	</string>
+	<string id="st_addon_scope_sup_descr">
+		<text>Système de fixation modulaire permettant d'adapter divers silencieux sur des armes compatibles, améliorant ainsi leur polyvalence et leurs capacités de réduction sonore.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Elcan SpecterDR DFOV14-C2\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Trijicon RMR\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_specterup">
+		<text>Kit tactique SA-58</text>
+	</string>
+	<string id="st_addon_scope_specterup_descr">
+		<text>Ensemble d'améliorations complet incluant poignées, rails, crosses et autres éléments pour optimiser l'ergonomie, le contrôle et l'efficacité au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Elcan SpecterDR DFOV14-C2\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Trijicon RMR\n
+		%c[d_cyan] • %c[ui_gray_2] AN/PEQ-15 LAM\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] SA-58\n \n
+		</text>
+	</string>
+
+</string_table>

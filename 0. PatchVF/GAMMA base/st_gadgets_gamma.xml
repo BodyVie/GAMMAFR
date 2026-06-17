@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    <string id="st_alarm_system">
+        <text>Système d'alarme</text>
+    </string>
+    <string id="st_alarm_system_descr">
+		<text>Module de défense artisanal assemblé à partir de débris de la Zone. Peu esthétique et bruyant, mais il offre de précieuses secondes lorsque le périmètre est enfoncé. \n \n
+			%c[ui_white]PROPRIÉTÉS :\n
+			%c[d_orange] • %c[ui_white] Posable\n</text>
+	</string>
+	<string id="st_artifact_harvester">
+		<text>Récolteur d'artefacts</text>
+	</string>
+	<string id="st_artifact_harvester_descr">
+		<text>Un dispositif conçu pour extraire des ressources à partir de divers artefacts. Les artefacts perdent de leur état au cours de la génération de ressources. \n \n
+			%c[ui_white]PROPRIÉTÉS :\n
+			%c[d_orange] • %c[ui_white] Posable\n
+			%c[d_orange] • %c[ui_white] Artefacts compatibles : Anomalous Bread, Bulle, Crystal, Lampe de la Mort, Boule de feu, Flamme, Gravi, Morceau de Viande, Épingle, Flocon de neige, Éponge\n
+			</text>
+	</string>
+	<string id="st_pegboard">
+		<text>Panneau d'armes</text>
+	</string>
+	<string id="st_pegboard_descr">
+		<text>Un panneau perforé permettant d'exposer jusqu'à trois armes. \n \n
+			%c[ui_white]PROPRIÉTÉS :\n
+			%c[d_orange] • %c[ui_white] Posable\n</text>
+	</string>
+	<string id="st_pegboard_pistol">
+		<text>Panneau d'armes de poing</text>
+	</string>
+	<string id="st_pegboard_pistol_descr">
+		<text>Un panneau perforé permettant d'exposer jusqu'à neuf pistolets. \n \n
+			%c[ui_white]PROPRIÉTÉS :\n
+			%c[d_orange] • %c[ui_white] Posable\n</text>
+	</string>
+	<string id="st_headgear_display">
+		<text>Présentoir de couvre-chefs</text>
+	</string>
+	<string id="st_headgear_display_descr">
+		<text>Un écran destiné à être fixé sur un équipement de tête. \n \n
+			%c[ui_white]PROPRIÉTÉS :\n
+			%c[d_orange] • %c[ui_white] Posable\n</text>
+	</string>
+    <string id="st_trading_computer">
+		<text>Ordinateur de trading</text>
+	</string>
+	<string id="st_trading_computer_descr">
+		<text>Un ordinateur permettant de se connecter aux marchands locaux. \n \n
+			%c[ui_white]PROPRIÉTÉS :\n
+			%c[d_orange] • %c[ui_white] Posable\n</text>
+	</string>
+	<string id="st_trading_computer_title">
+        <text>Ordinateur de trading</text>
+    </string>
+    <string id="st_trading_computer_hint_select">
+        <text>Sélectionne un marchand et clique sur Échanger.</text>
+    </string>
+    <string id="st_trading_computer_hint_no_traders">
+        <text>Aucun marchand disponible.</text>
+    </string>
+    <string id="st_trading_computer_count">
+        <text>Marchands trouvés : %d</text>
+    </string>
+    <string id="st_trading_computer_btn_trade">
+        <text>Échanger</text>
+    </string>
+    <string id="st_trading_computer_btn_refresh">
+        <text>Actualiser</text>
+    </string>
+    <string id="st_trading_computer_btn_close">
+        <text>Fermer</text>
+    </string>
+    <string id="st_trading_computer_entry_format">
+        <text>%d. [%s] %s [%dm]</text>
+    </string>
+    <string id="st_trading_computer_role_medic">
+        <text>Médecin</text>
+    </string>
+    <string id="st_trading_computer_role_scientist">
+        <text>Scientifique</text>
+    </string>
+    <string id="st_trading_computer_role_technician">
+        <text>Technicien</text>
+    </string>
+    <string id="st_trading_computer_role_barman">
+        <text>Barman</text>
+    </string>
+    <string id="st_trading_computer_role_trader">
+        <text>Marchand</text>
+    </string>
+</string_table>
+
+

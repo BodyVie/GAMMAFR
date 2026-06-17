@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+			<string id="st_wpn_eft_mts_255">
+		<text>MTS-255</text>
+	</string>
+	<string id="st_wpn_eft_mts_255_descr">
+		<text>Le MTs-255 est un fusil de chasse à barillet de conception russe unique, développé par le TsKIB SOO en 1993. Il se distingue par un barillet basculant de cinq coups, une détente à double action, et est disponible en différents calibres, notamment le 12 et le .410. Conçu pour un usage tant civil que policier, il existe des modèles équipés d'accessoires tactiques tels que des crosses pliantes et des rails. Bien qu'innovant, sa production limitée s'explique par des coûts de fabrication élevés. \n \n</text>
+	</string>
+</string_table>

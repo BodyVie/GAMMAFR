@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Ammunition
+-->
+
+<string_table>
+	
+	<string id="ammo_23x75_shrapnel">
+		<text>23x75 mm Shrapnel-25</text>
+	</string>
+	<string id="ammo_23x75_shrapnel_descr">
+		<text>Cartouche à charge de chevrotine. Portée d'application jusqu'à 25 mètres. Utilisée pour le tir à partir de la carabine KS-23. Grâce aux rayures du canon de la KS-23, la chevrotine se disperse sur une large zone, permettant un tir à main levée, pratiquement sans visée.\n
+		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance de pénétration de blindage : %c[ui_gray_1]BR3 (6 x 6)
+		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance de dégâts contre le Flesh : %c[ui_gray_1]285 (47,5 x 6)</text>
+	</string>
+	
+	<string id="ammo_23x75_barrikada">
+		<text>23x75 mm Barrikada</text>
+	</string>
+	<string id="ammo_23x75_barrikada_descr">
+		<text>Cartouche équipée d'une balle perforante en acier. Elle est utilisée pour immobiliser des véhicules en les endommageant. Portée d'application jusqu'à 100 mètres. Conçue pour le tir à partir de la carabine KS-23.\n
+		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance de pénétration de blindage : %c[ui_gray_1]BR5 (51)
+		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance de dégâts contre le Flesh : %c[ui_gray_1]133</text>
+	</string>
+
+		<string id="ammo_9x21_sp10">
+		<text>9x21 mm perforante (SP10)</text>
+	</string>
+	<string id="ammo_9x21_sp10_descr">
+		<text>Cartouche pour pistolet à balle à pénétration accrue. Conçue pour neutraliser des cibles protégées par un équipement de protection individuelle. La partie avant du noyau en acier trempé dépasse de l'enveloppe, ce qui confère à la balle un effet de pénétration élevé.\n
+		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance de pénétration de blindage : %c[ui_gray_1]BR3 (32)
+		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance de dégâts contre le Flesh : %c[ui_gray_1]27</text>
+	</string>
+
+	<string id="ammo_20x70_buck">
+		<text>20x70 chevrotine</text>
+	</string>
+	<string id="ammo_20x70_buck_descr">
+		<text>Cartouche standard de calibre 20 chargée de chevrotine de 6 mm. Très létale à courte distance. Uniquement compatible avec les armes à canon lisse.\n\n%c[d_purple] • %c[ui_gray_2] Classe de blindage maximale percée : %c[ui_gray_1]aucune\n%c[d_purple] • %c[ui_gray_2] Indice de dégâts tissulaires : %c[ui_gray_1]moyen - élevé\n\n%c[ui_gray_1]SPÉCIAL :\n\n%c[d_purple] • %c[ui_gray_2] nuage de projectiles en expansion, portée efficace courte
+		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance de pénétration de blindage : %c[ui_gray_1]Aucune (3 x 9)
+		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance de dégâts contre le Flesh : %c[ui_gray_1]143 (16 x 9)</text>
+	</string>
+	<string id="ammo_20x70_buck_s">
+		<text>20x70 chevrotine</text>
+	</string>
+
+	<string id="ammo_23_eco">
+		<text>23x75 mm Ecolog-23</text>
+	</string>
+	<string id="ammo_23_eco_descr">
+		<text>Cartouche spéciale conçue pour les besoins du personnel scientifique présent dans la Zone. Selon la mission, elle est chargée avec différents types de solutions. Nécessite une manipulation très prudente. Mode d'emploi : introduire très lentement dans l'arme.\n\n%c[d_purple] • %c[ui_gray_2] Classe de blindage maximale percée : %c[ui_gray_1]aucune\n%c[d_purple] • %c[ui_gray_2] Indice de dégâts tissulaires : %c[ui_gray_1]aucun\n\n%c[ui_gray_1]SPÉCIAL :\n\n%c[d_purple] • %c[ui_gray_2] À l'aide d'une fine aiguille en tungstène, elle perce la peau du mutants pour injecter la solution.</text>
+	</string>
+	<string id="ammo_23_eco_s">
+		<text>23x75 mm Ecolog-23</text>
+	</string>
+
+	<string id="ammo_vog_30">
+		<text>Grenade VOG-30</text>
+	</string>
+	<string id="ammo_vog_30_descr">
+		<text>La grenade à fragmentation VOG-30 est conçue pour neutraliser les effectifs ennemis et les armes de tir situés en terrain découvert. Version améliorée par rapport à ses analogues, développée dans les années 1980, elle offre un effet de fragmentation plus puissant ainsi qu'une étanchéité autonome de la charge propulsive dans la cartouche.\n </text>
+	</string>
+	<string id="ammo_vog_30_s">
+		<text>Grenade VOG-30</text>
+	</string>
+
+	<string id="ammo_338_federal">
+		<text>.338 Federal</text>
+	</string>
+	<string id="ammo_338_federal_descr">
+		<text>Le .338 Federal est une cartouche de fusil basée sur l'étui du .308 Winchester, élargi à un calibre .33. Elle a été créée par Federal Cartridge et Sako en 2006 et destinée à la chasse au gros gibier, offrant un recul raisonnable pour les carabines légères.\n 
+		\n%c[d_purple] • %c[ui_gray_2] Classe de blindage maximale percée : %c[ui_gray_1]BR1 (8)
+		\n%c[d_purple] • %c[ui_gray_2] Indice de dégâts tissulaires : %c[ui_gray_1]606</text>
+	</string>
+	<string id="ammo_338_federal_s">
+		<text>.338 Federal</text>
+	</string>
+	
+</string_table>

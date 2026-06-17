@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_sledge_hammer">
+		<text>Masse</text>
+	</string>
+	<string id="st_sledge_hammer_descr">
+		<text>Outil de frappe lourd et à deux mains, conçu pour un impact puissant, souvent utilisé pour la démolition, le percement et le combat rapproché dans des situations extrêmes. Son poids massif et sa construction robuste lui permettent de franchir des obstacles, ce qui en fait une arme ou un outil redoutable dans les scénarios de survie et tactiques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Arme de mêlée\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque légère : 120\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque lourde : 170\n
+		%c[d_cyan] • %c[pda_white] Pénétration de blindage : 45\n
+		%c[d_green] • %c[pda_white] Portée augmentée\n
+		</text>
+	</string>
+
+</string_table>

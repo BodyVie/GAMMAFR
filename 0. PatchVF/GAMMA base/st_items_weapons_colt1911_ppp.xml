@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	Overwrites
+	colt1911_custom
+-->
+	<string id="st_wpn_svi">
+		<text>Strayer Voigt Infinity</text>
+	</string>
+	<string id="st_wpn_svi_s">
+		<text>Strayer Voigt Infinity</text>
+	</string>
+	<string id="st_wpn_svi_descr">
+		<text>Pistolet semi-automatique haut de gamme et sur mesure, conçu pour le tir sportif et les applications tactiques. Doté d'une carcasse modulaire, de composants usinés avec précision et d'une détente finement réglée, il offre une précision exceptionnelle et des tirs de suivi rapides. Sa nature personnalisable permet aux tireurs d'adapter l'arme à leurs préférences personnelles, en faisant un choix privilégié parmi les tireurs d'élite et les opérateurs professionnels.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Strayer Voigt Inc\n
+		</text>
+	</string>
+
+<!--
+	Overwrites
+	colt1911_camo
+-->
+	<string id="st_wpn_coonan357">
+		<text>Coonan .357 Magnum Compact</text>
+	</string>
+	<string id="st_wpn_coonan357_s">
+		<text>Coonan .357</text>
+	</string>
+	<string id="st_wpn_coonan357_descr">
+		<text>Pistolet semi-automatique unique conçu pour gérer la puissance d'une cartouche traditionnelle de revolver tout en conservant l'ergonomie d'une arme de poing de type 1911. Il se distingue par un mécanisme à recul retardé, assurant un fonctionnement fluide et une réduction du recul pour une expérience de tir plus contrôlable. Compact mais puissant, il allie design classique et ingénierie moderne pour ceux qui recherchent des performances élevées dans un format portable.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Coonan\n
+		</text>
+	</string>
+
+<!--UNUSED
+
+	<string id="st_wpn_colt1911_classic">
+		<text>Colt M1911 Classic</text>
+	</string>
+	<string id="st_wpn_colt1911_classic_s">
+		<text>Colt M1911 Classic</text>
+	</string>
+	<string id="st_wpn_colt1911_classic_descr">
+		<text>Conçue par John Browning, la M1911 est un pistolet extrêmement fiable et robuste qui est resté l'arme de poing réglementaire de l'armée américaine de 1911 à 1985. Aujourd'hui encore, elle reste très prisée pour un usage militaire, policier et civil dans le monde entier. Ce modèle est l'original, considéré comme le tout premier pistolet semi-automatique. Une fenêtre d'éjection plus petite, une détente plus longue et une poignée en forme de losange le distinguent des modèles ultérieurs.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Colt Manufacturing Company\n
+		</text>
+	</string>
+
+	<string id="st_wpn_colt1911a1">
+		<text>Colt M1911</text>
+	</string>
+	<string id="st_wpn_colt1911a1_descr">
+		<text>Conçue par John Browning, la M1911 est un pistolet extrêmement fiable et robuste qui est resté l'arme de poing réglementaire de l'armée américaine de 1911 à 1985. Aujourd'hui encore, elle reste très prisée pour un usage militaire, policier et civil dans le monde entier.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Colt Manufacturing Company\n
+		</text>
+	</string>
+
+	<string id="st_wpn_colt1911_tokarev">
+		<text>Colt M1911 Russian Contract</text>
+	</string>
+	<string id="st_wpn_colt1911_tokarev_descr">
+		<text>Pendant la Première Guerre mondiale, le gouvernement russe a acheté environ 51 000 pistolets Colt 1911 aux États-Unis. Ce modèle spécifique est très ancien, car il ne porte pas les marquages cyrilliques distinctifs, présents uniquement sur les modèles dont les numéros de série se situent entre C23 000 et C89 000. Il est presque identique à la M1911 fabriquée aux États-Unis.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis, Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Colt Manufacturing Company\n
+		</text>
+	</string>
+
+	<string id="st_up_add_colttokarev_name">
+		<text>Rechambrer en 7,62x25 mm</text>
+	</string>
+
+	<string id="st_up_add_colt695_name">
+		<text>Rechambrer l'arme en 9x19 mm</text>
+	</string>
+
+	<string id="st_wpn_sw645">
+		<text>Smith &amp; Wesson 645</text>
+	</string>
+	<string id="st_wpn_sw645_descr">
+		<text>Principalement connue pour ses revolvers à simple action, la Smith &amp; Wesson 645 fut le tout premier pistolet à double action chambré en .45 ACP. Sa carcasse et sa glissière étaient entièrement construites en acier inoxydable, rendant l'arme extrêmement résistante aux conditions météorologiques difficiles. Bien que produite uniquement de 1985 à 1988, cette arme constitue sans aucun doute une pièce unique de l'histoire.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Smith &amp; Wesson\n
+		</text>
+	</string>
+
+	<string id="st_wpn_m45">
+		<text>Colt M45A1</text>
+	</string>
+	<string id="st_wpn_m45_descr">
+		<text>Variante personnalisée de la M1911, assemblée et réglée par les armuriers du USMC sur la base de Quantico, en Virginie, pour une utilisation au sein du Corps des Marines des États-Unis. Si vous recherchez une dérivée de la M1911 pouvant raisonnablement être qualifiée de « meilleure M1911 sur le marché », ne cherchez pas plus loin.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Colt Manufacturing Company\n
+		</text>
+	</string>
+
+	<string id="st_wpn_m45a1">
+		<text>Colt M45A1</text>
+	</string>
+	<string id="st_wpn_m45a1_descr">
+		<text>Variante personnalisée de la M1911, assemblée et réglée par les armuriers du USMC sur la base de Quantico, en Virginie, pour une utilisation au sein du Corps des Marines des États-Unis. Si vous recherchez une dérivée de la M1911 pouvant raisonnablement être qualifiée de « meilleure M1911 sur le marché », ne cherchez pas plus loin.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Colt Manufacturing Company\n
+		</text>
+	</string>
+-->
+
+</string_table>

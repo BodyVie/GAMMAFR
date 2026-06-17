@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_brn180">
+		<text>BRN-180</text>
+	</string>
+	<string id="st_wpn_brn180_descr">
+		<text>Le BRN-180 est une réinterprétation moderne du fusil classique AR-180, intégrant un système à piston à course courte pour un fonctionnement fiable. Ce fusil offre aux tireurs une plateforme légère et compacte, idéale pour les applications tactiques ou le tir sportif. Conservant l'ergonomie familière de la plateforme AR-15 tout en améliorant la fiabilité et la facilité d'entretien, le BRN-180 est reconnu pour sa précision et son expérience de tir fluide, ce qui en fait un choix populaire parmi les passionnés d'armes à feu recherchant un fusil polyvalent et fiable.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Brownells\n
+		</text>
+	</string>
+
+	<string id="st_wpn_brn180_tac">
+		<text>BRN-180 "Lich"</text>
+	</string>
+	<string id="st_wpn_brn180_tac_descr">
+		<text>Le BRN-180 est une réinterprétation moderne du fusil classique AR-180, intégrant un système à piston à course courte pour un fonctionnement fiable. Ce fusil offre aux tireurs une plateforme légère et compacte, idéale pour les applications tactiques ou le tir sportif. Conservant l'ergonomie familière de la plateforme AR-15 tout en améliorant la fiabilité et la facilité d'entretien, le BRN-180 est reconnu pour sa précision et son expérience de tir fluide, ce qui en fait un choix populaire parmi les passionnés d'armes à feu recherchant un fusil polyvalent et fiable. La version « Lich » exploite la modularité de la plateforme BRN-180 et est équipée d'un chargeur de 40 cartouches, d'un garde-main avant et d'un module laser.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Brownells\n
+		</text>
+	</string>
+
+</string_table>

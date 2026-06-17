@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_af_atom_name">
+		<text>Atom</text>
+	</string>
+	<string id="st_af_atom_descr">
+		<text>Un magnifique artefact composé de quatre petites sphères multicolores orbitant autour d'un centre translucide plus grand. Il dégage une légère chaleur et peut convertir de petites doses de radiation présentes dans le corps en énergie utilisable.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white]Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_ball_name">
+		<text>Ball</text>
+	</string>
+	<string id="st_af_ball_descr">
+		<text>artefact sphérique formé dans des anomalies électriques dans des conditions inconnues. Très élastique. Si une personne l'équipe puis donne un coup de pied à un mutant de la Zone, le artefact frappera le mutant en utilisant son énergie potentielle pour le projeter au loin.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white]Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_bat_name">
+		<text>Bat</text>
+	</string>
+	<string id="st_af_bat_descr">
+		<text>Spectacle déroutant mais incontestable dans la Zone. Composé de deux "ailes" lumineuses et violettes semblables à celles d'une chauve-souris, protégeant apparemment un orbe interne. Lorsqu'il est placé contre un autre artefact, la Chauve-souris le transmute en un artefact similaire mais plus puissant. La Chauve-souris est détruite dans le processus, semblant se convertir en énergie pure.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white]Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_lighthouse_name">
+		<text>Beacon</text>
+	</string>
+	<string id="st_af_lighthouse_descr">
+		<text>Le Phare, ou Lighthouse, est une masse fibreuse en forme de yo-yo contenant une boule extrêmement dense en orbite continue. Si son utilisateur tue un autre être vivant, il sera instantanément téléporté à l'endroit exact où la vie de la victime s'est éteinte.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white]Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_black_angel_name">
+		<text>Ange Noir</text>
+	</string>
+	<string id="st_af_black_angel_descr">
+		<text>Cet artefact ressemble à un amas lumineux de racines. Lorsqu'il n'est pas perturbé, il commence à libérer de la vapeur d'eau pure. Lorsqu'une personne l'utilise, il existe une faible probabilité que tout dommage ou douleur qui lui est infligé soit redirigé vers son agresseur.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white]Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_chelust_name">
+		<text>Chain</text>
+	</string>
+	<string id="st_af_chelust_descr">
+		<text>Anneau de minuscules disques lumineux générant un champ gravitationnel disproportionné par rapport à leur masse réelle, ce qui rend le artefact effectivement assez lourd. Cet artefact semble lié à un groupe de cultistes de la Zone connu sous le nom de Péché, améliorant leur santé lorsqu'ils l'équipent.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_cocoon_name">
+		<text>Cocoon</text>
+	</string>
+	<string id="st_af_cocoon_descr">
+		<text>Une structure en treillis recouverte d'un film, formée dans des anomalies gravitationnelles. Lorsqu'il est équipé, il provoque un durcissement temporaire de la peau en réponse à un traumatisme physique, réduisant les dégâts au détriment de la mobilité.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_cell_name">
+		<text>Cell</text>
+	</string>
+	<string id="st_af_cell_descr">
+		<text>Sphère poreuse avec une formation en forme d'étoile tournant en son centre. Originaire des anomalies gravitationnelles. Si l'utilisateur de cette artefact est frappé par un objet en mouvement rapide, la Cellule atomisera instantanément une partie de sa masse pour protéger son porteur, mais entraînera une exposition mineure aux radiations.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_kogot_name">
+		<text>Claw</text>
+	</string>
+	<string id="st_af_kogot_descr">
+		<text>Une belle formation vitreuse issue d'anomalies électriques. Contrairement à son apparence délicate, il confère à son utilisateur une soif de sang primitive, le renforçant dans les combats au corps à corps. \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_dragon_eye_name">
+		<text>OEil du Dragon</text>
+	</string>
+	<string id="st_af_dragon_eye_descr">
+		<text>Trouvé près d'anomalies de feu, ressemblant à l'oeil d'un reptile. Si son porteur tue un autre être, il existe une faible probabilité que cela provoque une détonation violente du corps de la victime.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_elektron_name">
+		<text>Electron</text>
+	</string>
+	<string id="st_af_elektron_descr">
+		<text>Supraconducteur à température ambiante généré dans des anomalies électriques. Lorsqu'il est porté, un Électron redirige l'excès d'énergie électrique vers les batteries, condensateurs et dispositifs similaires à proximité. Il permet également à son utilisateur d'utiliser physiquement cette énergie.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_fountain_name">
+		<text>Fountain</text>
+	</string>
+	<string id="st_af_fountain_descr">
+		<text>artefact de nature présumément gravitationnelle, doté d'une forme étrange. Au microscope, sa surface apparaît fractale, présentant des microstructures d'une complexité inimaginable jusqu'au niveau atomique. Lorsqu'il est équipé, il restitue une petite partie de l'argent perdu.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_generator_name">
+		<text>Générateur</text>
+	</string>
+	<string id="st_af_generator_descr">
+		<text>Génère de faibles courants électriques et un petit champ électromagnétique. Lorsque son porteur dépense de l'énergie, le Générateur en capte une partie et la redistribue aux batteries environnantes.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_grapes_name">
+		<text>Grapes</text>
+	</string>
+	<string id="st_af_grapes_descr">
+		<text>Une masse semblable à de l'ambre, dotée d'une légère teinte jaune-vert. Son utilisateur se sentira plus satisfait et en meilleure santé après l'avoir consommée.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_ear_name">
+		<text>Heart</text>
+	</string>
+	<string id="st_af_ear_descr">
+		<text>Artefact de forme étrange. En son coeur, une petite structure en forme de corps humain est visible. Il confère à son porteur une volonté de vivre indomptable, permettant de survivre et de se rétablir de blessures ou de pertes de sang autrement fatales.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_fonar_name">
+		<text>Lamp</text>
+	</string>
+	<string id="st_af_fonar_descr">
+		<text>Un artefact ayant l'apparence d'une pyramide de glace en fusion, formé dans des anomalies électriques. L'équiper permet à l'artefact de « montrer » à son porteur l'emplacement d'objets de valeur, en utilisant à la fois la lumière visible et les ondes radio.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_medallion_name">
+		<text>Medal</text>
+	</string>
+	<string id="st_af_medallion_descr">
+		<text>artefact unique en son genre, semblant presque fabriqué par l'homme. Il s'agit d'un anneau vert doté de quatre lobes tournant autour d'un noyau central. Parfois, lorsque le porteur de la Médaille est blessé, sa blessure est entièrement transférée à une autre personne à proximité.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_peas_name">
+		<text>Moon</text>
+	</string>
+	<string id="st_af_peas_descr">
+		<text>La Lune, ou artefact en forme de cosse de pois, est une masse en forme de croissant émettant une faible lueur. À l'intérieur de son enveloppe caoutchouteuse, trois orbes nacrés dotés de structures cristallines uniques sont visibles. Les utilisateurs de cet artefact signalent une inversion rapide et complète de leur rythme circadien.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_moh_name">
+		<text>Moss</text>
+	</string>
+	<string id="st_af_moh_descr">
+		<text>Parfois ressemblant à un artefact de type « Itcher », et parfois se décomposant en une forme plus nébuleuse, cet artefact électrique dégage une petite charge perceptible, similaire à celle ressentie en touchant les deux bornes d'une pile avec la langue. Lorsqu'il est équipé, l'utilisateur acquiert certaines forces après avoir consommé de la viande crue.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_star_phantom_name">
+		<text>Étoile Fantôme</text>
+	</string>
+	<string id="st_af_star_phantom_descr">
+		<text>Substance violette semblable à du plasma, enfermée dans une enveloppe transparente et pulsatile. Lorsqu'elle est activée, elle plonge l'utilisateur dans un état similaire à celui d'un ghost pendant une courte durée - totalement imperceptible, mais incapable d'interagir avec le monde.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_sandstone_name">
+		<text>Grès</text>
+	</string>
+	<string id="st_af_sandstone_descr">
+		<text>Formé dans des anomalies à températures extrêmes, cet artefact ressemble étrangement à une roche sédimentaire au microscope. De petites quantités d'or sont présentes dans les petites globules qui le composent. L'équiper confère une grande puissance après avoir tué d'autres êtres vivants, mais entraîne également une perte de constitution physique et de tolérance à la douleur.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_zhelch_name">
+		<text>Scar</text>
+	</string>
+	<string id="st_af_zhelch_descr">
+		<text>artefact ellipsoïdal aux propriétés psi intéressantes. Dans un premier temps, son utilisateur ressentira calme et détente, mais avec le temps, il perdra la raison. Cet état de folie est totalement réversible, et l'utilisateur retrouvera son état normal après avoir retiré le artefact.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_serofim_name">
+		<text>Seraphim</text>
+	</string>
+	<string id="st_af_serofim_descr">
+		<text>artefact électrique générant un champ magnétique. Il est composé de plusieurs couches translucides bleutées entourant un centre brillant. Si son porteur venait à être tué subitement, cet artefact prendrait sa place et permettrait à l'utilisateur de continuer à vivre.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_signet_name">
+		<text>Signet</text>
+	</string>
+	<string id="st_af_signet_descr">
+		<text>Le Sceau, ou Amulette, semble être une simple pierre percée de plusieurs trous précis. Certains Stalkers croient qu'il porte chance. En réalité, il procure à son utilisateur un plus grand sentiment de bien-être et permet au corps de cicatriser plus rapidement les blessures lorsqu'il se trouve près d'un feu.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_kislushka_name">
+		<text>Sourpuss</text>
+	</string>
+	<string id="st_af_kislushka_descr">
+		<text>Formation sphérique creuse ressemblant à un parchemin transparent recouvert d'une couche de film. Agréable au toucher. Cet artefact accélère considérablement le processus de coagulation sanguine, bien que cela entraîne également un besoin accru de nourriture pour reconstituer l'énergie dépensée.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_spaika_name">
+		<text>Spike</text>
+	</string>
+	<string id="st_af_spaika_descr">
+		<text>artefact gravitationnel ressemblant à un Morceau de Viande fusionné avec une Méduse. Si son porteur réussit des tirs continus avec une arme, ceux-ci deviendront de plus en plus efficaces. En revanche, s'il rate sa cible, l'artefact provoquera un choc au niveau de son système nerveux.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_sun_name">
+		<text>Sun</text>
+	</string>
+	<string id="st_af_sun_descr">
+		<text>Un spécimen rare générant une source inépuisable de lumière. Il permet une forme de photosynthèse solaire chez son porteur.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_tapeworm_name">
+		<text>Ténia</text>
+	</string>
+	<string id="st_af_tapeworm_descr">
+		<text>Bien que sa structure semble incroyablement fragile, cet artefact, composé de quartz pur, est en réalité assez résistant. Si son utilisateur est attaqué, l'artefact paralysera temporairement la menace.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+<!---
+	UNUSED
+-->
+
+	<string id="st_af_vaselisk_name">
+		<text>Basilisk</text>
+	</string>
+	<string id="st_af_vaselisk_descr">
+    <text>Si vous avez trouvé ceci, quelque chose a terriblement mal tourné.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_arty_save">
+		<text>Oeil de la Noosphère</text>
+	</string>
+	<string id="st_arty_save_descr">
+		<text>L'un des artefacts les plus mystérieux de la Zone, le Oeil de la Noosphère peut transporter son porteur dans le passé, même pour échapper à la mort. Une pression ferme sur le artefact active sa capacité, créant un point de restauration auquel revenir en cas d'activation ou de décès. Une utilisation fréquente peut faire changer de couleur le artefact, mais s'il est déchargé trop souvent, il peut cesser de fonctionner définitivement. Le Oeil restaure progressivement son pouvoir avec le temps, étant supposé être alimenté par l'énergie anomale de la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_af_gimlet_name">
+		<text>Gimlet</text>
+	</string>
+	<string id="st_af_gimlet_descr">
+		<text>Les pétales en forme de coupe de cet artefact libèrent un puissant stimulant gazeux entraînant une modification positive des hormones humaines. Si vous avez trouvé ceci, quelque chose a terriblement mal tourné.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_af_geliy_name">
+		<text>Helium</text>
+	</string>
+	<string id="st_af_geliy_descr">
+		<text>Un produit d'anomalies électriques. Il dégage une substance gazeuse. Si vous avez trouvé ceci, quelque chose a terriblement mal tourné.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_af_fire_loop_name">
+		<text>Knot</text>
+	</string>
+	<string id="st_af_fire_loop_descr">
+		<text>Créé au sein d'une anomalie thermique, il présente une apparence tétraédrique étrange. Seules des rumeurs de disparitions, de trahisons et de mort entourent cet artefact infernal.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_skull_miser_name">
+		<text>Crâne du Radin</text>
+	</string>
+	<string id="st_af_skull_miser_descr">
+		<text>Les restes d'une tête humaine, défigurée et fossilisée par la Zone. Les dents semblent être constituées d'une pierre cristalline pure. Si son porteur tue une autre personne, son argent peut être dupliqué.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+	<string id="st_af_repei_name">
+		<text>Thistle</text>
+	</string>
+	<string id="st_af_repei_descr">
+		<text>Spectacle relativement courant au sein des anomalies gravitationnelles, cet artefact ressemble à l'Épine, un artefact non découvert depuis de nombreuses années. Alors que l'Épine provoquait des saignements chez son utilisateur, le Chardon les provoque chez ses ennemis, empêchant la coagulation du sang et le fluidifiant.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
+		</text>
+	</string>
+
+</string_table>

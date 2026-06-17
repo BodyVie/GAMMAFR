@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    <string id="kvartet_1">
+        <text>Ici Quartet - absence d'émissions confirmée, aucune concentration ennemie importante détectée. J'ai demandé qu'un groupe soit largué près du Radar pour une reconnaissance. L'opération pour prendre le Centre de la Zone commence ! Toutes les forces spéciales et les stalkers militaires, regroupez-vous et préparez-vous à avancer sur la centrale de Tchernobyl !</text>
+    </string>
+    <string id="kvartet_2">
+        <text>Ici Quartet - on lance l'assaut ! L'ennemi a concentré ses forces à trois endroits : l'entrée du Sarcophage, la route le long des voies ferrées et l'entrée principale de la station. Toutes les unités, dispersez-vous !</text>
+    </string>
+    <string id="kvartet_3">
+        <text>Ici Quartet - on contrôle la section sud de la centrale. Maintenant, il faut pousser vers le nord et prendre les générateurs. Restez sur vos gardes - des soldats du Monolithe se sont planqués en position de sniper dans la partie nord de la station.</text>
+    </string>
+    <string id="kvartet_4">
+        <text>Ici Quartet - on a pris les générateurs ! Objectif rempli ! Toutes les unités, tenez vos positions et attendez les ordres. Quant à toi, soldat - récupère toutes les infos disponibles dans les labos et fais ton rapport au commandement.</text>
+    </string>
+    <string id="kvartet_5">
+        <text>Ici Quartet - on lance l'assaut !</text>
+    </string>
+    <string id="st_cherep_1">
+        <text>Mission accomplie - rejoins le général Voronin. On tient la position ici.</text>
+    </string>
+    <string id="cs_task1_news">
+        <text>Spore : Écoute, vieux, j'ai besoin de ton aide. Notre éclaireur, Kostyl, a envoyé un signal de détresse et puis plus rien. J'espère me tromper, mais... prépare-toi au pire. Le dernier SOS qu'on a reçu venait des Marais du nord, quelque part près de la route entre la ferme et le Chantier des Mécanos. Tu peux aller voir ? Si on le retrouve pas avant l'aube, y'a des chances qu'il reste plus grand-chose à retrouver.</text>
+    </string>
+    <string id="cs_task1_news1">
+        <text>Moi : Je vais faire de mon mieux pour le retrouver.</text>
+    </string>
+    <string id="cs_task1_news2">
+        <text>Kholod : Hé ! On a réussi à décoder le PDA de Kostyl. J'ai une offre de boulot pour toi, vu que t'es déjà dans le bain. Passe me voir !</text>
+    </string>
+    <string id="cs_task8_news3">
+        <text>Gamajun : Les fanatiques se préparent à attaquer ! Faites-leur voir de quel bois on se chauffe !</text>
+    </string>
+</string_table>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_zk_tooltip_section">
+		<text>%$clr_txt Inventaire des pièces d'atelier</text>
+	</string>
+	<string id="st_zk_fetch_count_have_cond">
+		<text>  %$clr_txt T'as %$clr_num berx$count %$clr_txt dans ton inventaire (%$clr_num ber$max_condition%%$clr_txt).</text>
+	</string>
+	<string id="st_zk_fetch_count_in_workshops_cond">
+		<text>  %$clr_txt T'as %$clr_num berx$count %$clr_txt dans les réserves des ateliers (%$clr_num ber$max_condition%%$clr_txt).</text>
+	</string>
+	<string id="st_zk_fetch_count_have">
+		<text>  %$clr_txt T'as %$clr_num berx$count %$clr_txt dans ton inventaire.</text>
+	</string>
+	<string id="st_zk_fetch_count_in_workshops">
+		<text>  %$clr_txt T'as %$clr_num berx$count %$clr_txt dans les réserves des ateliers.</text>
+	</string>
+
+<!--
+	MCM MENU
+-->
+
+	<string id="ui_mcm_menu_zone_keeper">
+		<text>Inventaire des pièces d'atelier</text>
+	</string>
+	<string id="ui_mcm_zone_keeper_menu_configuration">
+		<text>Configuration</text>
+	</string>
+	<string id="ui_mcm_zone_keeper_menu_configuration_general">
+		<text>Général</text>
+	</string>
+	<string id="ui_mcm_zone_keeper_menu_configuration_general_title">
+		<text>Général</text>
+	</string>
+	<string id="ui_mcm_zone_keeper_configuration_general_debug">
+		<text>Débogage</text>
+	</string>
+	<string id="ui_mcm_zone_keeper_configuration_general_debug_desc">
+		<text>Cochez pour activer l'enregistrement des logs de débogage.</text>
+	</string>
+	<string id="ui_mcm_zone_keeper_configuration_general_delete_store">
+		<text>Supprimer la réserve</text>
+	</string>
+	<string id="ui_mcm_zone_keeper_configuration_general_delete_store_help1">
+		<text>Supprimer la réserve permet de supprimer toutes les pièces enregistrées depuis les ateliers. Utile si vous souhaitez désinstaller le mod et retirer les tables sauvegardées de votre partie</text>
+	</string>
+	<string id="ui_mcm_zone_keeper_configuration_general_delete_store_help2">
+		<text>Comment l'utiliser ? Activez la case et cliquez sur APPLIQUER dans le menu MCM. L'ouverture de n'importe quel coffre d'atelier repeuplera la réserve dans les données de sauvegarde</text>
+	</string>     
+	<string id="ui_mcm_zone_keeper_configuration_general_delete_store_desc">
+		<text>Cochez pour réinitialiser l'inventaire des pièces d'arme.</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!-- (Military Mechanic) -->
+	<string id="army_yan_mec_about_tool_0">
+		<text>Hé. T'es qui ?</text>
+	</string>
+	<string id="army_yan_mec_about_tool_1">
+		<text>Je suis un transfuge de l'armée locale, indicatif "Pèlerin". Je faisais des études d'ingénieur avant ma conscription. Le QG a fini par remarquer mon talent pour réparer les trucs et a décidé que je serais plus utile ici, à entretenir le matériel scientifique. Le prof en chef, je crois que c'est Sakharov, était même un peu soulagé. À bien y réfléchir, ouais. </text>
+	</string>
+	<string id="army_yan_mec_about_tool_2">
+		<text>Alors comme ça, t'es le nouveau tech du bunker ? Ça se passe comment jusqu'ici ?</text>
+	</string>
+	<string id="army_yan_mec_about_tool_3">
+		<text>Eh, c'est toujours mieux que de rester au QG avec un supérieur qui te hurle dessus en permanence, ou de patrouiller avec l'ordre de buter des pauvres gars en pleine gueule.\n\nMais, pour être honnête, c'est quand même la galère. Grâce au dévouement exceptionnel de notre service logistique, je dois me battre jusqu'à en perdre la voix juste pour maintenir ce qu'on a déjà. Le matos ésotérique que les Scientifiques gardent ici, c'est pas évident à entretenir avec ce qu'on a, alors le mettre à niveau ou l'adapter aux conditions toujours changeantes de la Zone...\n\nJ'ai essayé de faire réparer le vieux récepteur ici, mais tout ce qu'il crache, c'est du charabia. Nos gars aux Entrepôts de l'armée ont clamsé y'a sept ans, mais cette putain de machine croit encore entendre leurs voix.</text>
+	</string>
+	<string id="army_yan_mec_about_tool_4">
+		<text>Bonne chance, alors.</text>
+	</string>
+
+	
+<!-- (Military Cooker) -->
+	<string id="meet_povar_army_0">
+		<text>T'es qui, toi ?</text>
+	</string>
+	<string id="meet_povar_army_1">
+		<text>Je suppose que c'est le cuistot du coin. Officiellement, je suis assistant de terrain pour les Scientifiques ici. En pratique... bon, ça fait quelques mois qu'ils m'ont envoyé, et j'ai comme l'impression que je vais pas bouger de sitôt. Bref, on m'appelle Spirit.</text>
+	</string>
+	<string id="meet_povar_army_2">
+		<text>Pourquoi ils t'envoient plus sur le terrain ?</text>
+	</string>
+	<string id="meet_povar_army_3">
+		<text>Juste un petit malentendu. Les autres assistants de terrain ici pensent que je suis alcoolo. Sérieux ? À notre époque, faudrait être taré pour pas boire. Tu trouves que les snorks ici sont chiants ? Mon pote Topol bosse dans un bunker à deux pas de Pripyat ! J'ai entendu parler du retour du Monolithe et... non, j'veux pas y penser. Écoute, si jamais tu mets la main sur du Nemiroff, je peux te refiler des trucs de qualité. Ça te dit ?
+		\nJe peux te proposer quatre chargeurs 9x18, deux chargeurs 5,45, deux chargeurs 5,56 ou deux chargeurs 9x39 pour cinq gorgées de Nemiroff.
+		\nPour dix gorgées, je peux te filer un chargeur de 7,62 mm 7N1, trois boîtes de cartouches 12x70, quatre chargeurs 5,45, quatre chargeurs 5,56 ou quatre chargeurs 9x39, au choix.
+		\nPour quinze gorgées - ça fait environ cinq bouteilles pleines - ET 7000 RU, tu obtiens quatre-vingt-dix cartouches PP 7,62x54 mm. C'est assez cher, tu sais...
+		\nEt pour vingt gorgées, soit un peu moins de sept bouteilles pleines, je te file une trousse à outils basique. T'imagine pas que je suis un escroc - j'l'ai pas volée, elle traînait dans une tente près de Cordon y'a un moment. Je l'ai gardée depuis. Ça peut servir à un stalker comme toi. Enfin, pense pas que je fais tout ça que pour moi. J'essaie d'envoyer la plupart des bouteilles à Yanov pour les gars.</text>
+	</string>
+	<string id="meet_povar_army_4">
+		<text>Je vais y réfléchir. Merci.</text>
+	</string>
+
+	<string id="barter_povar_army_0">
+		<text>J'ai apporté de la vodka.</text>
+	</string>
+	<string id="barter_povar_army_1">
+		<text>Super ! T'as quelque chose de précis en tête ?</text>
+	</string>
+		<string id="barter_povar_army_2">
+			<text>Quatre chargeurs 9x18.</text>
+		</string>
+		<string id="barter_povar_army_3">
+			<text>Deux chargeurs 5,45x39.</text>
+		</string>
+		<string id="barter_povar_army_3_2">
+			<text>Deux chargeurs 5,56x45.</text>
+		</string>
+		<string id="barter_povar_army_3_3">
+			<text>Deux chargeurs 9x39.</text>
+		</string>
+		<string id="barter_povar_army_3_4">
+			<text>Deux chargeurs 7,62x39.</text>
+		</string>
+		<string id="barter_povar_army_3_5">
+			<text>Un chargeur 12,7x55.</text>
+		</string>
+		<string id="barter_povar_army_4">
+			<text>Quatre chargeurs 5,45x39.</text>
+		</string>
+		<string id="barter_povar_army_4_2">
+			<text>Quatre chargeurs 5,56x45.</text>
+		</string>
+		<string id="barter_povar_army_4_3">
+			<text>Quatre chargeurs 9x39.</text>
+		</string>
+		<string id="barter_povar_army_4_4">
+			<text>Quatre chargeurs 7,62x39.</text>
+		</string>
+		<string id="barter_povar_army_4_5">
+			<text>Deux chargeurs 12,7x55.</text>
+		</string>
+		<string id="barter_povar_army_5">
+			<text>Trois boîtes de chevrotine.</text>
+		</string>
+		<string id="barter_povar_army_6">
+			<text>Un chargeur de 7,62 7N1.</text>
+		</string>
+		<string id="barter_povar_army_7">
+			<text>Trois boîtes pour le PKP.</text>
+		</string>
+		<string id="barter_povar_army_8">
+			<text>Une trousse à outils basique.</text>
+		</string>
+	<string id="barter_povar_army_10">
+		<text>Super. Tiens.</text>
+	</string>
+	<string id="barter_povar_army_11">
+		<text>Bon, allez. Tiens.</text>
+	</string>
+	<string id="barter_povar_army_12">
+		<text>Hmm. D'accord. Tiens, tes affaires.</text>
+	</string>
+	<string id="barter_povar_army_13">
+		<text>Hah ! Bonne chasse, stalker !</text>
+	</string>
+	<string id="barter_povar_army_14">
+		<text>Hmm. Bon choix.</text>
+	</string>
+	<string id="barter_povar_army_15">
+		<text>J'ai hâte d'entendre la douce musique que ton flingue va jouer avec ça dans le ventre.</text>
+	</string>
+	<string id="barter_povar_army_16">
+		<text>Tiens.</text>
+	</string>
+	<string id="barter_povar_army_9">
+		<text>Tiens, régale-toi. Moi, je vais kiffer.</text>
+	</string>
+
+	<string id="remember_dyx_barter_0">
+		<text>Rappelle-moi, t'as quoi ?</text>
+	</string>
+	<string id="remember_dyx_barter_1">
+		<text>Voilà ce que j'ai : quatre chargeurs 9x18 pour cinq gorgées de Nemiroff, deux chargeurs 5,45x39 pour cinq gorgées, deux chargeurs 5,56x45 pour cinq gorgées, deux chargeurs 9x39 pour cinq gorgées, quatre chargeurs 5,45x39 pour dix gorgées, quatre chargeurs 5,56x45 pour dix gorgées, quatre chargeurs 9x39 pour dix gorgées, trois paquets de 12x70 pour dix gorgées, un chargeur 7,62x54 7N1 pour dix gorgées, trois chargeurs-boîtes pour le PKP pour cinq bouteilles pleines et sept mille roubles. Pour vingt gorgées, soit un peu moins de sept bouteilles pleines, je te file une trousse à outils basique. T'imagine pas que je suis un escroc - j'l'ai pas volée... Elle traînait dans une tente près de Cordon y'a un moment. Je l'ai gardée depuis. Ça peut servir à un stalker comme toi.</text>
+	</string>
+
+
+<!-- Kruglov -->
+	<string id="yan_ecolog_kruglov_start_dialog_1">
+		<text>Salut, stalker.</text>
+	</string>
+
+	<!-- yan_ecolog_semenov -->
+	<string id="yan_ecolog_semenov_start_dialog_1">
+		<text>Ah, stalker, t'as besoin de quoi ?</text>
+	</string>
+	<string id="yan_ecolog_semenov_start_dialog_yan_ecolog_semenov_task_1">
+		<text>Il me reste encore des données à collecter. Allons trouver d'autres mutants.</text>
+	</string>
+
+	<!-- yan_ecolog_vasilyev -->
+	<string id="yan_ecolog_vasilyev_start_dialog_1">
+		<text>Salut, stalker.</text>
+	</string>
+	
+
+<!-- Sakharov -->
+	<string id="st_yan_saharov_message_free_upgrade">
+		<text>Stalker, tu nous as sauvés ! Notre bunker aurait connu une fin certaine si tu n'étais pas intervenu. Pour te remercier, viens me voir pour une upgrade gratuite de ton casque-psy !</text>
+	</string>
+	<string id="yan_stalker_sakharov_start_1">
+		<text>Salut, stalker. Qu'est-ce qui t'amène ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_player_query_brain_scorcher">
+		<text>Qu'est-ce que tu peux me dire sur le Lobotomisateur et la Machine à Miracle ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_query_brain_scorcher">
+		<text>Hmm, bon... On a encore beaucoup à apprendre, mais je suppose que ça peut pas faire de mal de te partager ce qu'on sait. Le Lobotomisateur semble émettre une fréquence invasive qui affecte l'esprit de ceux qui s'aventurent trop près du centre de Pripyat, de la centrale ou du mauvais côté de la Forêt Rouge ou même de Limansk. Les symptômes incluent migraines, hallucinations, vision tunnel, et sans vouloir être peu professionnel, zombification. Si je devais donner une estimation scientifique, j'identifierais le Lobotomisateur comme un émetteur psy à distance, bien que je doive mener des recherches plus poussées avant de trancher définitivement. La Machine à Miracle ou "Labo Cerveau" a des caractéristiques très similaires et émet des ondes psy, mais leur nature semble plus proche des ondes psy émises biologiquement, comme celles que certains mutants peuvent produire.</text>
+	</string>
+	<string id="yan_stalker_sakharov_player_query_psi_helmet">
+		<text>Professeur, j'ai besoin d'un casque de protection psy. Ma mission m'oblige à traverser les zones des Lobotomisateurs et du Labo Cérébral, et sans ça, je pourrai pas la boucler.</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_query_psi_helmet">
+		<text>Je suppose que tu comprends les risques de traverser ces zones psychiquement instables, hein ?... Bon, d'accord, je te crois. Tu me demanderais pas sinon. Bon, y'a ce casque psy-protecteur sur lequel on travaille depuis quelques semaines. Sur le papier, tout devrait marcher, et il a été correctement calibré pour la Machine à Miracle et les émissions psy des Lobotomisateurs. Mais personne a été assez taré pour le tester sur le terrain... Enfin, y'a bien eu un assistant qui a essayé un modèle précoce et non calibré... Mais c'est une autre histoire.\n\nOn peut te filer ce casque-psy immédiatement pour la modique somme de 30 000 roubles.</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_query_psi_helmet_free">
+		<text>Je suppose que tu comprends les risques de traverser ces zones psychiquement instables, hein ?... Bon, d'accord, je te crois. Tu me demanderais pas sinon. Bon, y'a ce modèle sur lequel on travaille depuis un moment, mais il est pas fini et il manque les derniers réglages.\n\nIl devrait te protéger des émissions psy ambiantes, mais je peux pas assez insister là-dessus : tu risques ta peau avec du matériel incomplet.</text>
+	</string>
+	<string id="yan_stalker_sakharov_player_psi_helmet_1_1">
+		<text>Je suis pressé. Ton prototype fera l'affaire.</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_1_1">
+		<text>Si tu insistes, mais j'ai peur que ta mission soit trop dangereuse avec du matériel pas en parfait état de marche. N'oublie pas : tu peux toujours ramener ton casque pour un réglage final. Si tu sens que quelque chose cloche, fais demi-tour immédiatement. Les champs psy peuvent être traîtres, et ça me pèserait sur la conscience si j'apprenais que t'es mort à cause de mon travail inachevé.\n\nBon, si t'es sûr de pas vouloir que je finisse de peaufiner ce modèle, ça fera 20 000 roubles.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_player_psi_helmet_1_2">
+		<text>Voilà l'argent. Merci, professeur.</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_1_2">
+		<text>Pas du tout. Mais j'aimerais que tu le testes d'abord. Tu peux nous aider en désactivant l'émetteur psy dans le labo juste au nord d'ici. Espérons qu'il protégera bien ta conscience.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_player_psi_helmet_1_3">
+		<text>J'ai décidé de te laisser finir ton boulot. Calibre bien ce casque, s'il te plaît.</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_1_3">
+		<text>Tu peux pas savoir le soulagement que ça nous apporte, à moi et mes collègues. Finir les derniers réglages réduira considérablement le risque que tu attrapes une psychose, une amnésie ou une folie générale en explorant les phénomènes psychiques de la Zone. Comme tu as déjà soutenu financièrement notre cause, un réglage final ne te coûtera qu'environ 10 000 roubles. Par contre, il faudra me laisser ton casque, et on aura besoin de deux jours de plus pour peaufiner.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_player_psi_helmet_2_1">
+		<text>Ce truc a intérêt à marcher, sinon je viendrai te bouffer tout cru une fois zombifié, professeur, je te jure...</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_2_1">
+		<text>Effectivement, ça devrait marcher. En portant ce petit appareil, tu pourras te balader autour de la Machine à Miracle et du Lobotomisateur sans risquer de dégradation mentale à cause de leurs émissions psy respectives. Par contre, je suis pas sûr qu'il puisse t'aider à franchir la barrière psy combinée du Lobotomisateur et de la Machine à Miracle, qui opère au-delà de la Forêt Rouge. Garde à l'esprit que d'après nos dernières mesures, l'appareil te protégera pas des autres ondes psy, comme celles émises par les fantômes qu'on peut croiser près de la Machine à Miracle, d'après ce que mes assistants ont rapporté. Leurs fréquences sont bien trop variées pour être contrées par un tel dispositif, les artefacts semblent être la seule solution... ou des quantités malsaines de drogues qui engourdissent l'esprit. Peut-être que les gars de Liberté peuvent t'aider pour ça ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_2_1_free">
+		<text>Effectivement. Une fois qu'on aura fini de travailler sur ce casque, tu pourras te balader dans la Zone librement, sans risquer de dégradation mentale à cause des émetteurs psy que tu pourrais croiser. Normalement, ça coûterait 30 000 roubles, mais comme tu nous as aidés dans un moment critique, je te le donne gratuitement. Utilise-le bien.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_player_psi_helmet_2_2">
+		<text>Bon, voilà l'argent, professeur. Pour les médocs et le artefacts, je m'en souviendrai, merci beaucoup.</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_2_2">
+		<text>Merci, stalker. Voici l'appareil. Bonne chance pour ta mission. Ton aide pour désactiver la Machine à Miracle et les Lobotomisateurs nous est précieuse et fera grandement avancer nos recherches.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_player_psi_helmet_2_3">
+		<text>C'est prêt ou quoi ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_2_3">
+		<text>C'est ça ! Tiens. Si tu veux, tu peux nous aider encore en utilisant ton nouvel appareil pour désactiver l'émetteur psy dans le complexe du labo juste au nord d'ici. Je peux t'assurer que notre travail protégera bien ta conscience.</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_2_3_1">
+		<text>Pas encore. Repasse plus tard.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_player_psi_helmet_3_1">
+		<text>Faut que j'y réfléchisse.</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_3_1">
+		<text>Très bien. T'inquiète pas, on va garder le casque-psy en sécurité en attendant.</text>
+	</string>
+	
+	<string id="st_yan_stalker_sakharov_life_ask">
+		<text>Pouvez-vous me dire comment la Zone vous a aidé dans vos recherches scientifiques, professeur ?  </text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_1">
+		<text>Mais bien sûr ! L'Artefact artefact Nuit Étoilée, indépendamment de ses propriétés à l'état sauvage, commence à développer d'étranges traits anti-balistiques lorsqu'il est exposé aux bonnes conditions de laboratoire. D'ici quelques années, nous pourrions voir des avancées spectaculaires dans des technologies comme les gilets pare-balles ou les plaques en Kevlar.</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_2">
+		<text>Oh, oui ! Examiner des échantillons de tissus des différents mutants humanoïdes a été très instructif. La communauté scientifique n'est toujours pas sûre de ce qui a causé le développement de l'invisibilité chez les bloodsuckers, ou l'évolution de la flexibilité légendaire des snorks. Plus on en apprend sur les causes et la nature de ces mutations, plus on pourra prédire avec précision la voie évolutive de l'Humanité ! C'est pas excitant, ça ?</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_3">
+		<text>Eh bien, récemment, on a mené une série d'expériences fascinantes sur les bloodsuckers, qui ont révélé que... En fait, non, à la réflexion, c'est probablement mieux que tu saches pas.</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_4">
+		<text>En tant qu'intellectuel, tu vas apprécier : nos recherches ont découvert que le soi-disant "oeil" du Flesh est équipé non seulement de photorécepteurs... mais aussi de récepteurs olfactifs !\n\nIls voient pas seulement avec leurs yeux - ils sentent aussi avec !\n\nQui aurait cru que le cochon commun finirait par muter en une créature câblée pour une forme des plus inhabituelles de synesthésie ? Une synesthésie pas seulement causée par un câblage croisé dans le cerveau, mais par des modifications de leurs organes sensoriels !</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_5">
+		<text>Bien sûr ! Après des années à étudier différentes parties de mutants, on est sur le point de commercialiser des organes et tissus comme les yeux de Flesh, les tendons de Snork ou les fibres musculaires de Pseudogiant pour des usages, euh... plus controversés. T'as vu le dernier lot d'échantillons ? On en a greffé chirurgicalement autant qu'on a pu sur tous nos... enfin, sur tous nos assistants volontaires. Avec un peu plus de développement, ça pourrait devenir une vraie folie !</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_6">
+		<text>Dire que la Zone a aidé mes recherches serait un euphémisme. Les découvertes qu'on a faites ont considérablement boosté ma crédibilité en tant que scientifique. Peut-être que ma plus grande réussite a été un effort collaboratif : avec mes collègues, on a réussi à synthétiser un rare Artefact artefact Pellicule en conditions de labo - une vraie percée digne du Nobel !\n\nMalheureusement, la nature des artefacts a évolué indépendamment depuis, comme pour résister à nos investigations. Malgré notre exploit, ça va prendre un sacré bout de temps avant qu'on puisse synthétiser efficacement des artefacts plus puissants.</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_7">
+		<text>Eh bien, y'a ce collègue, le Professeur Brenter, qui s'est vraiment passionné pour l'étude des effets des protéines mutées sur le corps humain. En étudiant les stalkers qui ont bouffé de la viande de mutant - comme les clients du 100 Rads Bar - et en documentant ce qu'ils font pour limiter les pires effets, on comprend de mieux en mieux comment contrer les dégâts que la radioactivité laisse dans le corps.</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_8">
+		<text>Mais oui ! T'as déjà entendu parler de l'Artefact artefact Oursin ? Au début, on pensait que ce serait irréaliste de le reproduire en labo avant au moins 2022, à cause de sa stabilité critique. Mais on pourrait bien percer le secret plus tôt que prévu.\n\nLe timing tombe à pic : ils deviennent de plus en plus difficiles à trouver naturellement dans la Zone, et chacun est vital pour créer des tenues anti-radiations et des médicaments puissants.\n\nD'ailleurs, t'as probablement déjà bénéficié des résultats de nos expériences sur l'Oursin plusieurs fois. C'est dur d'imaginer un pro de l'exploration de la Zone qui ait pas utilisé nos combinaisons radioprotectrices ou nos sérums à un moment ou à un autre. </text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_9">
+		<text>Quoi ? Désolé, mais j'ai pas envie de continuer à parler des merveilles de la Zone aujourd'hui. J'ai les nerfs en pelote après tous les hurlements et les griffes que j'ai entendus des mutants locaux la nuit dernière, et j'arrive à peine à me concentrer.\n\nPeut-être que t'es intéressé par l'achat de matériel scientifique, ou pour voir si un de mes collègues a besoin d'un coup de main ?</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_10">
+		<text>Il y a des années, notre compréhension de la gravité était telle qu'on a pu commencer à développer les tout premiers moteurs à répulsion et à ions.\n\nSans le flux constant d'Artefacts artefacts que les stalkers rapportaient des anomalies gravitationnelles, ces révélations n'auraient jamais été possibles de notre vivant. Il faudra encore de nombreuses années avant que nos découvertes soient rendues publiques, mais il est indéniable que les stalkers ont aidé la science à tracer la voie vers les étoiles !\n\nEt je me permets d'ajouter que, comme certaines anomalies gravitationnelles - comme le Vortex - sont connues pour compresser l'espace lui-même, peut-être que la téléportation cessera d'être une fantaisie avec le temps ! Ah, mais je m'emballe. </text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_11">
+		<text>Le domaine de l'énergétique a considérablement bénéficié de nos recherches dans la Zone. On a commencé à introduire discrètement des Artefacts Clair de lune artefacts - ainsi que des dispositifs spécialisés conçus pour exploiter en toute sécurité leur production d'énergie anomale - dans certaines centrales électriques à travers le pays. Avec des améliorations supplémentaires, ils pourraient potentiellement remplacer entièrement les combustibles fossiles pour les générations futures.\n\nAvec le temps, on pourrait tenter la même chose avec les Artefacts artefacts de type Battery, bien plus puissants. Cependant, mes collègues estiment qu'un seul Battery est capable de produire une énergie dépassant celle de trois réacteurs nucléaires ! Naturellement, quand on manipule une telle puissance, il faut avancer lentement et prudemment dans nos expériences.</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_end">
+		<text>Hmm ? Peut-être plus tard, gamin. T'as sûrement des trucs plus urgents à régler maintenant.</text>
+	</string>
+
+	<!-- yan_merc_guards -->
+	<string id="yan_merc_guards_start_2">
+		<text>Pas maintenant, je suis de garde. Va plutôt voir Peregrine ou un des intellos si t'as besoin de quelque chose.</text>
+	</string>
+	<string id="yan_merc_guards_start_3">
+		<text>Magne-toi. J'ai pas envie que le snorks nous chope en train de papoter.</text>
+	</string>
+	<string id="yan_merc_guards_start_4">
+		<text>Ce bourdonnement qui vient du complexe au nord me donne des frissons dans les dents. Putain, j'aimerais que ce foutu chef arrête de picoler tout l'alcool...</text>
+	</string>
+</string_table>

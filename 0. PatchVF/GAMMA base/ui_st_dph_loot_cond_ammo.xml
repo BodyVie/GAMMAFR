@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_menu_dph_loot_cond">
+		<text>État du loot</text>
+	</string>
+	<string id="ui_mcm_menu_ammo">
+		<text>Munitions</text>
+	</string>
+	<string id="ui_mcm_dph_loot_cond_ammo">
+		<text>Munitions</text>
+	</string>
+	<!-- //// -->
+	<string id="ui_mcm_dph_loot_cond_ammo_factor">
+		<text>Quantité</text>
+	</string>
+	<string id="ui_mcm_dph_loot_cond_ammo_disable_bad">
+		<text>Ne pas générer les anciennes munitions</text>
+	</string>
+</string_table>

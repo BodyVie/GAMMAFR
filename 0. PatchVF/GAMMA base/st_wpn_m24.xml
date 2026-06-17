@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="st_wpn_m24_new">
+		<text>M24 SWS</text>
+	</string>
+	<string id="st_wpn_m24_new_short">
+		<text>M24 SWS</text>
+	</string>
+	<string id="st_wpn_m24_new_descr">
+		<text>Fusil de sniper de l'armée américaine, le M24 Sniper Weapon System (SWS) est basé sur le Remington 700. Équipé d'une lunette Leupold 10x40 mm, le M24 dispose d'un canon en acier inoxydable et d'une crosse composite réglable fabriquée en Kevlar et graphite.\n \n
+		%c[ui_gray_2]ACCESSOIRES : \n
+		%c[d_purple] • %c[ui_gray_2] Silencieux compatible 5,56x45\n
+		%c[d_purple] • %c[ui_gray_2] Lunette Leupold Mark 4 (intégrée)\n \n</text>
+	</string>
+</string_table>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_addon_scope_las_upgrade">
+		<text>Kit viseur laser</text>
+	</string>
+
+	<string id="st_addon_scope_las_upgrade_descr">
+		<text>Un kit contenant un viseur laser destiné à l'arme pour laquelle il est conçu. \n \n</text>
+</string>
+
+	<string id="st_wpn_colt1911_n">
+		<text>Colt M1911A1 .45 ACP</text>
+	</string>
+	<string id="st_wpn_colt1911_n_descr">
+		<text>Communément appelé simplement « 1911 », le M1911 est l'un des pistolets les plus célèbres au monde. Il a traversé les deux guerres mondiales en tant qu'arme standard de l'armée américaine et, bien qu'il ait été remplacé en 1986, ses variantes continuent d'être utilisées comme arme de poing par différentes forces spéciales américaines. Le M1911A1 représente la deuxième génération du pistolet M1911 original. Après la Première Guerre mondiale, le modèle 1911 de l'armée a subi diverses modifications, notamment une détente plus courte avec des découpes sur la carcasse, des organes de visée améliorés, un logement de ressort principal arqué et une sécurité de poignée redessinée.\n \n		
+		%c[ui_gray_2]Caractéristiques : \n
+		%c[d_green] • %c[ui_gray_2] Canon fileté Jarvis .45 ACP.\n
+		%c[d_green] • %c[ui_gray_2] Adaptateur de montage à piston SilencerCo Omega 45k.\n
+		%c[d_green] • %c[ui_gray_2] Silencieux SilencerCo Omega 45k pour calibre .45 ACP.\n \n</text>
+	</string>
+
+	<string id="st_wpn_colt1911_anarchy">
+		<text>Colt M1911A1 Anarchy</text>
+	</string>
+	<string id="st_wpn_colt1911_anarchy_descr">
+		<text>Communément appelé simplement « 1911 », le M1911 est l'un des pistolets les plus célèbres au monde. Il a traversé les deux guerres mondiales en tant qu'arme standard de l'armée américaine et, bien qu'il ait été remplacé en 1986, ses variantes continuent d'être utilisées comme arme de poing par différentes forces spéciales américaines. Le M1911A1 représente la deuxième génération du pistolet M1911 original. Après la Première Guerre mondiale, le modèle 1911 de l'armée a subi diverses modifications, notamment une détente plus courte avec des découpes sur la carcasse, des organes de visée améliorés, un logement de ressort principal arqué et une sécurité de poignée redessinée.		
+		Version personnalisée de l'arme, dotée de nombreux réglages et améliorations, dont un mode de tir entièrement automatique. \n \n
+		%c[ui_gray_2]Caractéristiques : \n
+		%c[d_green] • %c[ui_gray_2] Mode de tir FULL AUTO.\n
+		%c[d_green] • %c[ui_gray_2] Frein de bouche Anarchy Outdoors .45 ACP pour M1911.\n		
+		%c[d_green] • %c[ui_gray_2] Monture de pontet NcSTAR.\n		
+		%c[d_green] • %c[ui_gray_2] Lampe tactique SureFire X400 Ultra avec laser intégré.\n \n</text>
+	</string>
+
+	<string id="st_wpn_m45a1">
+		<text>Colt M45A1 .45 ACP</text>
+	</string>
+
+	<string id="st_wpn_m45a1_descr">
+		<text>Le pistolet MEU(SOC) (« Marine Expeditionary Unit » ; « Special Operations Capable »), officiellement désigné M45 MEUSOC, est un pistolet semi-automatique à alimentation par chargeur, à recul, à simple action, chambré pour la cartouche .45 ACP. Il s'agit d'une variante du M1911 et a été l'arme de poing standard des éléments de reconnaissance de force des Marine Expeditionary Units du Corps des Marines des États-Unis depuis 1985.\n
+        Le modèle amélioré 1911_nsc présente plusieurs modifications par rapport à la conception originale du M1911A1. L'une de ses caractéristiques est le système à double ressort de recul, qui répartit la force de recul de la cartouche .45 ACP en réduisant le pic de force de l'impulsion de recul. Il est également équipé de viseurs nocturnes à trois points au tritium, d'un canon national match de 5 pouces, d'une sécurité ambidextre, d'un rail Picatinny, et d'une finition Cerakote couleur désert tan. \n \n
+		%c[ui_gray_2]Caractéristiques : \n
+		%c[d_green] • %c[ui_gray_2] Canon fileté Jarvis .45 ACP.\n
+		%c[d_green] • %c[ui_gray_2] Adaptateur de montage à piston SilencerCo Omega 45k.\n
+		%c[d_green] • %c[ui_gray_2] Silencieux SilencerCo Omega 45k pour calibre .45 ACP.\n
+		%c[d_green] • %c[ui_gray_2] Lampe tactique SureFire X400 Ultra avec laser intégré.\n \n</text>
+</string>
+
+	<string id="st_wpn_1911_nsc">
+		<text>Colt 1911 Nightsword Custom (NSC)</text>
+	</string>
+
+	<string id="st_wpn_1911_nsc_descr">
+		<text>Pistolet Colt 1911 Nightsword Custom (NSC) - une pièce rare et précieuse d'armement high-tech, dotée d'un système d'alimentation amélioré et d'une précision exceptionnelle. Ce modèle unique est idéal pour les stalkers expérimentés recherchant une efficacité maximale au combat. Les organes de visée personnalisés permettent un pointage précis, même en conditions de faible luminosité ou de visibilité réduite. 
+Cette arme est équipée d'un mode rafale de 3 coups, augmentant significativement sa puissance de feu. Avec un chargeur étendu d'une capacité de 15 cartouches, ce pistolet offre un tir soutenu sans rechargement fréquent. Il s'agit d'une arme fiable et puissante, adaptée à toute situation dangereuse au sein de la Zone. \n \n
+		%c[ui_gray_2]Caractéristiques : \n
+		%c[d_green] • %c[ui_gray_2] Canon fileté Jarvis .45 ACP.\n
+		%c[d_green] • %c[ui_gray_2] Modérateur de son SilencerCo Osprey.\n
+		%c[d_green] • %c[ui_gray_2] Lampe tactique SureFire X400 Ultra avec laser intégré.\n \n</text>
+</string>
+
+	<string id="st_wpn_lar_grizzly">
+		<text>L.A.R. Grizzly Win Mag .357</text>
+	</string>
+
+	<string id="st_wpn_lar_grizzly_descr">
+		<text>L.A.R. Grizzly Win Mag (Mark I) - un pistolet semi-automatique puissant et fiable, développé aux États-Unis. Il se distingue par un corps métallique renforcé et utilise des cartouches .357 Magnum. Équipé d'un chargeur amovible de 7 cartouches, il excelle par sa puissance et sa précision, ce qui en fait une arme idéale pour neutraliser efficacement les mutants et les ennemis dans les zones à haut risque. Robuste, facile à entretenir, il peut devenir une arme indispensable dans la Zone. \n \n</text>
+</string>
+
+	<string id="st_wpn_rapide">
+		<text>Kimber Rapide .45 ACP</text>
+	</string>
+
+	<string id="st_wpn_rapide_descr">
+		<text>Le Kimber Rapide est un pistolet semi-automatique de haute qualité, basé sur le modèle classique 1911. Il se distingue par un design moderne, une ergonomie améliorée et une grande précision de tir. Équipé d'une carcasse en acier, d'un canon rayé et d'un système de recul assurant un fonctionnement fluide et fiable. 
+		Cette arme est chambrée en .45 ACP et est livrée avec un chargeur détachable de 8 cartouches. Cette version du pistolet est particulièrement adaptée pour combattre les mutants et les stalkers légèrement blindés. Elle est rarement rencontrée dans la Zone, ce qui en fait une arme précieuse. \n \n
+		%c[ui_gray_2]Caractéristiques : \n
+		%c[d_green] • %c[ui_gray_2] Modérateur de son SilencerCo Osprey. \n
+		%c[d_green] • %c[ui_gray_2] Lampe tactique SureFire X400 Ultra avec laser intégré.\n \n</text>
+	</string>
+
+	<string id="st_wpn_tt33_custom">
+		<text>OTs-33 7.62x25</text>
+	</string>
+
+	<string id="st_wpn_tt33_custom_descr">
+		<text>Un pistolet légendaire qui a traversé de nombreux conflits militaires au fil des années et reste en service dans certaines régions du monde, sous une forme ou une autre. Celui-ci est un classique TT-33, la version la plus produite en série. Il utilise un système Browning à court recul avec canon basculant, mais sa conception est par ailleurs très unique : volontairement simple, à simple action, et sans dispositifs de sécurité, à l'exception d'une encoche de demi-armé, ce qui lui permet de résister à des conditions d'utilisation extrêmes. Grâce à la puissante cartouche 7,62x25 et à son canon relativement long, le TT offre une vitesse initiale élevée, une bonne pénétration et une précision impressionnante, même sur de longues distances. \n \n
+		%c[ui_gray_2]Caractéristiques : \n
+		%c[d_green] • %c[ui_gray_2] Silencieux personnalisé pour 7,62x25 TT. \n \n</text>
+	</string>
+
+	<string id="st_wpn_tt33_custom_las">
+		<text>OTs-33 7.62x25</text>
+	</string>
+
+	<string id="st_wpn_tt33_custom_las_descr">
+		<text>Un pistolet légendaire qui a traversé de nombreux conflits militaires au fil des années et reste en service dans certaines régions du monde, sous une forme ou une autre. Celui-ci est un classique TT-33, la version la plus produite en série. Il utilise un système Browning à court recul avec canon basculant, mais sa conception est par ailleurs très unique : volontairement simple, à simple action, et sans dispositifs de sécurité, à l'exception d'une encoche de demi-armé, ce qui lui permet de résister à des conditions d'utilisation extrêmes. Grâce à la puissante cartouche 7,62x25 et à son canon relativement long, le TT offre une vitesse initiale élevée, une bonne pénétration et une précision impressionnante, même sur de longues distances. \n \n 
+		%c[ui_gray_2]Caractéristiques : \n
+		%c[d_green] • %c[ui_gray_2] Viseur laser Zarya. \n
+		%c[d_green] • %c[ui_gray_2] Silencieux personnalisé pour 7,62x25 TT. \n \n</text>
+	</string>
+
+	<string id="st_wpn_tt33_custom_upgr">
+		<text>OTs-33 7.62x25 Mangun</text>
+	</string>
+
+	<string id="st_wpn_tt33_custom_upgr_descr">
+		<text>Un pistolet légendaire qui a traversé de nombreux conflits militaires au fil des années et reste en service dans certaines régions du monde, sous une forme ou une autre. Celui-ci est un classique TT-33, la version la plus produite en série. Il utilise un système Browning à court recul avec canon basculant, mais sa conception est par ailleurs très unique : volontairement simple, à simple action, et sans dispositifs de sécurité, à l'exception d'une encoche de demi-armé, ce qui lui permet de résister à des conditions d'utilisation extrêmes. Grâce à la puissante cartouche 7,62x25 et à son canon relativement long, le TT offre une vitesse initiale élevée, une bonne pénétration et une précision impressionnante, même sur de longues distances.  
+		Version personnalisée du pistolet TT-33 fabriquée par le technicien de la faction Devoir, le sergent Gromov (alias Mangun). Elle comporte plusieurs améliorations, notamment une cadence de tir accrue, un canon fileté pour la fixation d'un silencieux et une ergonomie améliorée. \n \n
+		%c[ui_gray_2]Caractéristiques : \n
+		%c[d_green] • %c[ui_gray_2] Silencieux sur mesure pour 7,62x25 TT. \n
+		%c[d_green] • %c[ui_gray_2] Poignée pistolet en bois personnalisée équipée d'un viseur laser. \n
+		%c[d_green] • %c[ui_gray_2] Chargeur prolongé (13 cartouches). \n		
+		%c[d_green] • %c[ui_gray_2] Organes de visée métalliques prolongés avec inserts au tritium. \n \n</text>
+	</string>
+
+	<string id="st_addon_scope_tt_upgr_kit">
+		<text>Kit tactique pour le ÒÒ-33</text>
+	</string>
+
+	<string id="st_addon_scope_tt_upgr_kit_descr">
+		<text>Kit d'amélioration tactique pour le TT-33 7,62x25. Comprend des modifications avec canon allongé, organes de visée métalliques étendus avec inserts au tritium, un nouveau chargeur (13 cartouches) et une poignée en bois personnalisée avec viseur laser. \n \n  
+
+		%c[ui_gray_2]Caractéristiques : \n
+		%c[d_green] • %c[ui_gray_2] Silencieux sur mesure pour 7,62x25 TT. \n
+		%c[d_green] • %c[ui_gray_2] Poignée pistolet en bois personnalisée équipée d'un viseur laser. \n
+		%c[d_green] • %c[ui_gray_2] Chargeur prolongé (13 cartouches). \n
+		%c[d_green] • %c[ui_gray_2] Canon allongé. \n		
+		%c[d_green] • %c[ui_gray_2] Organes de visée métalliques prolongés avec inserts au tritium. \n \n</text>
+	</string>
+
+<string id="st_wpn_pm_new">
+    <text>Makarov PM 9x18</text>
+</string>
+
+<string id="st_wpn_pm_new_descr">
+    <text>Le pistolet PM (Pistolet Makarova - « Pistolet Makarov », indice GAU - 56-A-125), éprouvé par le temps. Grâce à son accessibilité généralisée et à la disponibilité de l'arme et de ses munitions, ainsi qu'à sa fiabilité exceptionnelle, son poids léger et sa compacité, il est fréquemment utilisé par les stalkers dans les territoires sud de la Zone. Son seul inconvénient réside dans sa faible puissance d'arrêt. Ce modèle est équipé d'un canon prolongé avec un filetage pour l'installation d'un silencieux. \n \n
+    %c[ui_gray_2]Caractéristiques : \n
+    %c[d_green] • %c[ui_gray_2] Canon prolongé fileté pour le montage d'un silencieux. \n    
+    %c[d_green] • %c[ui_gray_2] Silencieux modifié pour PM. \n \n</text>
+</string>
+
+<string id="st_wpn_pm_las">
+    <text>Makarov PM 9x18</text>
+</string>
+
+<string id="st_wpn_pm_las_descr">
+    <text>Le pistolet PM (Pistolet Makarova - « Pistolet Makarov », indice GAU - 56-A-125), éprouvé par le temps. Grâce à son accessibilité généralisée et à la disponibilité de l'arme et de ses munitions, ainsi qu'à sa fiabilité exceptionnelle, son poids léger et sa compacité, il est souvent utilisé par les stalkers dans les territoires sud de la Zone. Son seul inconvénient réside dans sa faible puissance d'arrêt. Ce modèle est équipé d'un canon prolongé avec un filetage pour l'installation d'un silencieux. \n \n
+    %c[ui_gray_2]Caractéristiques : \n
+    %c[d_green] • %c[ui_gray_2] Canon prolongé fileté pour le montage d'un silencieux. \n
+    %c[d_green] • %c[ui_gray_2] Silencieux modifié pour PM. \n
+    %c[d_green] • %c[ui_gray_2] Poignée de pistolet Zarya équipée d'un viseur laser. \n \n</text>
+</string>
+
+<string id="st_wpn_pm_upgr">
+    <text>Makarov PM 9x18 amélioré</text>
+</string>
+
+<string id="st_wpn_pm_upgr_descr">
+    <text>Le pistolet PM (Pistolet Makarova - « Pistolet Makarov », indice GAU - 56-A-125), éprouvé par le temps. Grâce à son accessibilité généralisée et à la disponibilité de l'arme et de ses munitions, ainsi qu'à sa fiabilité exceptionnelle, son poids léger et sa compacité, il est fréquemment utilisé par les stalkers dans les territoires sud de la Zone. Son seul inconvénient réside dans sa faible puissance d'arrêt. Ce modèle est équipé d'un canon prolongé avec un filetage pour l'installation d'un silencieux. \n \n
+    %c[ui_gray_2]Caractéristiques : \n
+    %c[d_green] • %c[ui_gray_2] Canon prolongé fileté pour le montage d'un silencieux. \n
+    %c[d_green] • %c[ui_gray_2] Mini-réticule Zarya Z-1x20. \n
+    %c[d_green] • %c[ui_gray_2] Poignée de pistolet Zarya couleur olive. \n	
+    %c[d_green] • %c[ui_gray_2] Chargeur prolongé (10 cartouches). \n \n</text>
+</string>
+
+	<string id="st_addon_scope_pm_upgr_kit">
+		<text>Kit d'upgrade Makarov PM</text>
+	</string>
+
+<string id="st_addon_scope_pm_upgr_kit_descr">
+    <text> Kit d'amélioration tactique pour le pistolet Makarov PM 9x18. Comprend des modifications visant à améliorer l'ergonomie et un mini viseur point rouge Zarya Z-1x20. \n \n
+    %c[ui_gray_2]Caractéristiques : \n
+    %c[d_green] • %c[ui_gray_2] Viseur reflex Zarya Z-1x20 mini. \n
+    %c[d_green] • %c[ui_gray_2] Poignée de pistolet Zarya couleur olive. \n	
+    %c[d_green] • %c[ui_gray_2] Chargeur prolongé (10 cartouches). \n \n</text>
+</string>
+
+<string id="st_wpn_pb_new">
+    <text>Pistolet PB 9x18 silencieux</text>
+</string>
+
+<string id="st_wpn_pb_new_descr">
+    <text>Le pistolet silencieux PB (Pistolet Besshumnyy - « Pistolet silencieux », indice GRAU 6P9) a été conçu avec un silencieux en deux parties : le silencieux principal et une section intégrée au canon, permettant à l'arme de fonctionner sans problème même sans le silencieux principal attaché. Cependant, l'utilisation de l'arme de cette manière ne réduit ni le son ni le flash de bouche. Il était destiné aux groupes de reconnaissance de l'armée et au personnel du KGB soviétique et a été introduit en service en 1967. Il reste en service au sein des unités spéciales du FSB et des troupes internes du ministère de l'Intérieur de la Russie.  
+    Moins populaire que le pistolet Makarov, mais encore fréquemment utilisé par les stalkers, car il partage les mêmes avantages que le PM. \n \n</text>
+</string>
+
+<string id="st_wpn_pb_upgr">
+    <text>Pistolet PB 9x18 silencieux amélioré</text>
+</string>
+
+<string id="st_wpn_pb_upgr_descr">
+    <text>Le pistolet silencieux PB (Pistolet Besshumnyy - « Pistolet silencieux », indice GRAU 6P9) a été conçu avec un silencieux en deux parties : le silencieux principal et une section intégrée au canon, permettant à l'arme de fonctionner sans problème même sans le silencieux principal attaché. Cependant, l'utilisation de l'arme de cette manière ne réduit ni le son ni le flash de bouche. Il était destiné aux groupes de reconnaissance de l'armée et au personnel du KGB soviétique et a été introduit en service en 1967. Il reste en service au sein des unités spéciales du FSB et des troupes internes du ministère de l'Intérieur de la Russie.  
+    Moins populaire que le pistolet Makarov, mais encore fréquemment utilisé par les stalkers, car il partage les mêmes avantages que le PM. \n \n
+    %c[ui_gray_2]Caractéristiques : \n
+    %c[d_green] • %c[ui_gray_2] Viseur laser avec montage personnalisé. \n
+    %c[d_green] • %c[ui_gray_2] Viseur reflex Zarya Z-1x20 mini. \n
+    %c[d_green] • %c[ui_gray_2] Chargeur prolongé (10 cartouches). \n \n</text>
+</string>
+
+<string id="st_addon_scope_pb_upgr_kit">
+    <text>Kit d'upgrade PB 9x18 silencieux</text>
+</string>
+
+<string id="st_addon_scope_pb_upgr_kit_descr">
+    <text> Kit d'amélioration tactique pour le pistolet silencieux PB 9x18. Comprend des améliorations pour une meilleure ergonomie, un laser intégré, un rail Picatinny et un viseur collimateur Aimpoint Micro T1. \n \n
+    %c[ui_gray_2]Caractéristiques : \n
+    %c[d_green] • %c[ui_gray_2] Viseur laser avec montage personnalisé. \n
+    %c[d_green] • %c[ui_gray_2] Viseur reflex Zarya Z-1x20 mini. \n
+    %c[d_green] • %c[ui_gray_2] Chargeur prolongé (10 cartouches). \n \n</text>
+</string>
+
+	<string id="st_wpn_oc33_new">
+		<text>OTs-33 Pernach</text>
+	</string>
+
+	<string id="st_wpn_oc33_new_descr">
+		<text>Développé pour remplacer le pistolet Stechkin APS au sein des unités militaires spéciales, l'OTs-33 « Pernach » est un pistolet capable de tirer en mode automatique et semi-automatique. Le « Pernach » a été spécifiquement conçu pour résoudre les problèmes de contrôle du recul en mode automatique inhérents au Stechkin APS, ainsi que pour simplifier son utilisation en conditions de combat. Il est moins coûteux à produire, plus confortable à manipuler et offre une meilleure gestion du recul. Ce modèle est une version modernisée commandée par les stalkers militaires dans la Zone. \n \n </text>
+</string>
+
+	<string id="st_wpn_oc33_las">
+		<text>OTs-33 Pernach</text>
+	</string>
+
+	<string id="st_wpn_oc33_las_descr">
+		<text>Développé pour remplacer le pistolet Stechkin APS au sein des unités militaires spéciales, l'OTs-33 « Pernach » est un pistolet capable de tirer en mode automatique et semi-automatique. Le « Pernach » a été spécifiquement conçu pour résoudre les problèmes de contrôle du recul en mode automatique inhérents au Stechkin APS, ainsi que pour simplifier son utilisation en conditions de combat. Il est moins coûteux à produire, plus confortable à manipuler et offre une meilleure gestion du recul. Ce modèle est une version modernisée commandée par les stalkers militaires dans la Zone. \n \n
+		%c[d_green] • %c[ui_gray_2] Rail Picatinny personnalisé. \n
+		%c[d_green] • %c[ui_gray_2] Laser tactique rouge NcSTAR « Tactical Red Laser ». \n \n</text>
+</string>
+
+<string id="st_wpn_usp_tac45">
+    <text>HK USP Tactical .45 ACP</text>
+</string>
+
+<string id="st_wpn_usp_tac45_descr">
+    <text>Le pistolet HK USP (Universelle Selbstladepistole - « Pistolet semi-automatique universel ») est un remplacement ultérieur des pistolets de la série HK P7, fabriqués par Heckler &amp; Koch. Reconnu internationalement pour sa précision et sa fiabilité exceptionnelle, il utilise un mécanisme de type Browning modifié avec un système breveté de réduction du recul. Ce système atténue les effets du recul sur les composants de l'arme et réduit également les forces de recul ressenties par le tireur.
+	 Cette variante particulière est chambrée en .45 ACP et équipée d'un chargeur détachable de 12 cartouches. \n \n
+    %c[ui_gray_2]Caractéristiques : \n
+    %c[d_green] • %c[ui_gray_2] Glissière de pistolet HK USP Tactical en .45 ACP. \n
+    %c[d_green] • %c[ui_gray_2] Adaptateur de rail pour HK USP. \n
+    %c[d_green] • %c[ui_gray_2] Silencieux sonore Osprey de SilencerCo. \n
+    %c[d_green] • %c[ui_gray_2] Lampe tactique SureFire X400 Ultra avec laser intégré. \n \n</text>
+</string>
+
+<string id="st_wpn_rsh12_shorty">
+    <text>RSh-12 Shorty 12.7x55</text>
+</string>
+
+	<string id="st_wpn_rsh12_shorty_descr">
+		<text>Le puissant revolver RSh-12 (Revolver Shturmovoy 12 - « Revolver d'assaut 12 »), fabriqué par le Bureau d'études KBP, conçu pour être utilisé par les forces spéciales. Malgré son calibre puissant de 12,7x55 mm.
+		Il s'agit d'une version raccourcie et plus compacte du revolver, plus légère, mais dont le recul est accru. Cette modification dispose également d'un canon fileté pour l'installation d'un silencieux tactique de 12,7 mm. \n \n
+    %c[ui_gray_2]Caractéristiques : \n
+		%c[d_green] • %c[ui_gray_2] Silencieux tactique 12,7 mm. \n \n</text>
+</string>
+
+<string id="st_addon_scope_m9_upgr_kit">
+    <text>Kit tactique Beretta M9A3</text>
+</string>
+
+<string id="st_addon_scope_m9_upgr_kit_descr">
+    <text> Kit d'amélioration tactique pour le pistolet Beretta M9A3. Comprend une lampe tactique SureFire XC1 avec laser, un rail de montage tactique et un viseur collimateur Deltapoint. \n \n
+    %c[ui_gray_2]Caractéristiques : \n
+    %c[d_green] • %c[ui_gray_2] Rail de montage tactique. \n
+    %c[d_green] • %c[ui_gray_2] Réticule Detlapoint. \n
+    %c[d_green] • %c[ui_gray_2] Lampe tactique SureFire XC1 avec laser intégré.
+    %c[d_green] • %c[ui_gray_2] Cache-poussière thermique pour silencieux. \n \n</text>
+</string>
+
+<string id="st_wpn_beretta_new">
+    <text>Beretta M9A3</text>
+</string>
+
+<string id="st_wpn_beretta_new_descr">
+    <text>Le Beretta M9A3 est un pistolet semi-automatique moderne développé par la société italienne Beretta. Il s'appuie sur le modèle populaire M9, mais avec plusieurs améliorations. Parmi ses caractéristiques figurent une ergonomie améliorée avec une nouvelle poignée, un chargeur de 17 cartouches, et un système de sécurité optimisé. Ce pistolet convient aux forces militaires et policières en raison de sa fiabilité et de sa précision. \n \n
+    %c[ui_gray_2]Caractéristiques : \n
+    %c[d_green] • %c[ui_gray_2] Canon fileté M9A3 9x19 de 127 mm. \n
+    %c[d_green] • %c[ui_gray_2] Silencieux sonore AAC Illusion 9 pour 9x19. \n
+    %c[d_green] • %c[ui_gray_2] Lampe tactique SureFire X400 Ultra avec laser intégré. \n \n</text>
+</string>
+
+<string id="st_wpn_pl15_new">
+    <text>Lebedev PL-15 9x19</text>
+</string>
+
+<string id="st_wpn_pl15_new_descr">
+    <text>Pistolet semi-automatique russe chambré en 9x19 mm, développé par une équipe de concepteurs du groupe Kalachnikov sous la direction de Dmitry Lebedev pour répondre aux besoins des forces de l'ordre russes. \n \n
+    %c[ui_gray_2]Caractéristiques : \n
+    %c[d_green] • %c[ui_gray_2] Canon fileté PL-15 9x19 de 112 mm. \n
+    %c[d_green] • %c[ui_gray_2] Silencieux modulaire Hexagon SP-9. \n \n</text>
+</string>
+
+<string id="st_wpn_pl15_las">
+    <text>Lebedev PL-15 9x19</text>
+</string>
+
+<string id="st_wpn_pl15_las_descr">
+    <text>Pistolet semi-automatique russe chambré en 9x19 mm, développé par une équipe de concepteurs du groupe Kalachnikov sous la direction de Dmitry Lebedev pour répondre aux besoins des forces de l'ordre russes. \n \n
+    %c[ui_gray_2]Caractéristiques : \n
+    %c[d_green] • %c[ui_gray_2] Canon fileté PL-15 9x19 de 112 mm. \n
+    %c[d_green] • %c[ui_gray_2] Silencieux modulaire Hexagon SP-9. \n
+    %c[d_green] • %c[ui_gray_2] Lampe tactique SureFire X400 Ultra avec laser intégré. \n \n</text>
+</string>
+
+<string id="st_wpn_pl15_upgr">
+    <text>Lebedev PL-15 9x19 amélioré</text>
+</string>
+
+<string id="st_wpn_pl15_upgr_descr">
+    <text>Pistolet semi-automatique russe chambré en 9x19 mm, développé par une équipe de concepteurs du groupe Kalachnikov sous la direction de Dmitry Lebedev pour répondre aux besoins des forces de l'ordre russes. \n \n
+    %c[ui_gray_2]Caractéristiques : \n
+    %c[d_green] • %c[ui_gray_2] Canon fileté PL-15 9x19 de 112 mm. \n
+    %c[d_green] • %c[ui_gray_2] Silencieux modulaire Hexagon SP-9. \n
+    %c[d_green] • %c[ui_gray_2] Viseur reflex Zarya Z-1x20 mini. \n
+    %c[d_green] • %c[ui_gray_2] Enveloppe thermique pour silencieux. \n	
+    %c[d_green] • %c[ui_gray_2] Lampe tactique SureFire X400 Ultra avec laser intégré. \n \n</text>
+</string>
+
+<string id="st_addon_scope_pl15_scolaz_new">
+    <text>Kit d'upgrade Lebedev PL-15 9x19</text>
+</string>
+
+<string id="st_addon_scope_pl15_scolaz_new_descr">
+    <text>Kit d'amélioration tactique pour le pistolet Lebedev PL-15 9x19. Comprend une lampe tactique SureFire X400 Ultra avec laser, un mini viseur point rouge Zarya Z-1x20 et une enveloppe thermique pour silencieux. \n \n
+    %c[ui_gray_2]Caractéristiques : \n
+    %c[d_green] • %c[ui_gray_2] Canon fileté PL-15 9x19 de 112 mm. \n
+    %c[d_green] • %c[ui_gray_2] Silencieux modulaire Hexagon SP-9. \n
+    %c[d_green] • %c[ui_gray_2] Viseur reflex Zarya Z-1x20 mini. \n
+    %c[d_green] • %c[ui_gray_2] Enveloppe thermique pour silencieux. \n	
+    %c[d_green] • %c[ui_gray_2] Lampe tactique SureFire X400 Ultra avec laser intégré. \n \n</text>
+</string>
+
+<string id="st_wpn_sr1mp_new">
+    <text>Serdyukov SR-1MP Gyurza 9x21</text>
+</string>
+
+<string id="st_wpn_sr1mp_new_descr">
+    <text>Le pistolet SR-1MP (indice GRAU - 6P53), également connu sous le nom de « Gyurza » (Vipère) ou SPS (« Samozaryadnyy Pistolyet Serdyukova » - Pistolet semi-automatique Serdyukov), a été conçu par P. Serdyukov et I. Belyaev avec la puissante cartouche 9x21 pour remplacer le pistolet-mitrailleur APS utilisé par les forces spéciales de la Fédération de Russie. Ce modèle peut être équipé d'un ensemble de fixations pour attacher des accessoires supplémentaires, ainsi que servir de base pour l'installation d'un silencieux. \n \n
+    %c[ui_gray_2]Caractéristiques : \n
+    %c[d_green] • %c[ui_gray_2] Possibilité d'installer des montures d'usine pour viseurs laser et points rouges. \n \n</text>
+</string>
+
+<string id="st_wpn_sr1mp_las">
+    <text>Serdyukov SR-1MP Gyurza 9x21</text>
+</string>
+
+<string id="st_wpn_sr1mp_las_descr">
+    <text>Le pistolet SR-1MP (indice GRAU - 6P53), également connu sous le nom de « Gyurza » (Vipère) ou SPS (« Samozaryadnyy Pistolyet Serdyukova » - Pistolet semi-automatique Serdyukov), a été conçu par P. Serdyukov et I. Belyaev avec la puissante cartouche 9x21 pour remplacer le pistolet-mitrailleur APS utilisé par les forces spéciales de la Fédération de Russie. Ce modèle peut être équipé d'un ensemble de fixations pour attacher des accessoires supplémentaires, ainsi que servir de base pour l'installation d'un silencieux. \n \n
+    %c[ui_gray_2]Caractéristiques : \n
+    %c[d_green] • %c[ui_gray_2] Rail de montage simple pour SR-1MP. \n
+    %c[d_green] • %c[ui_gray_2] Silencieux avec monture pour SR-1MP en 9x21. \n
+    %c[d_green] • %c[ui_gray_2] Viseur laser Zarya. \n \n</text>
+</string>
+
+<string id="st_wpn_sr1mp_upgr">
+    <text>SR-1MP Gyurza 9x21 amélioré</text>
+</string>
+
+<string id="st_wpn_sr1mp_upgr_descr">
+    <text>Le pistolet SR-1MP (indice GRAU - 6P53), également connu sous le nom de « Gyurza » (Vipère) ou SPS (« Samozaryadnyy Pistolyet Serdyukova » - Pistolet semi-automatique Serdyukov), a été conçu par P. Serdyukov et I. Belyaev avec la puissante cartouche 9x21 pour remplacer le pistolet-mitrailleur APS utilisé par les forces spéciales de la Fédération de Russie. Ce modèle peut être équipé d'un ensemble de fixations pour attacher des accessoires supplémentaires, ainsi que servir de base pour l'installation d'un silencieux. \n \n
+    %c[ui_gray_2]Caractéristiques : \n
+    %c[d_green] • %c[ui_gray_2] Rail de montage simple pour SR-1MP. \n
+    %c[d_green] • %c[ui_gray_2] Silencieux avec monture pour SR-1MP en 9x21. \n
+    %c[d_green] • %c[ui_gray_2] Viseur reflex Zarya Z-1x20 mini. \n
+    %c[d_green] • %c[ui_gray_2] Enveloppe thermique pour silencieux. \n	
+    %c[d_green] • %c[ui_gray_2] Viseur laser Zarya. \n \n</text>
+</string>
+
+<string id="st_addon_scope_sr1upgr1_new">
+    <text>Kit d'upgrade SR-1MP Gyurza 9x21</text>
+</string>
+
+<string id="st_addon_scope_sr1upgr1_new_descr">
+    <text>Kit d'amélioration tactique pour le pistolet SR-1MP Gyurza 9x21. Comprend un silencieux SR-1MP 9x21 avec monture, une monture à rail unique et un viseur laser Zarya. \n \n
+    %c[ui_gray_2]Caractéristiques : \n
+    %c[d_green] • %c[ui_gray_2] Rail de montage simple pour SR-1MP. \n
+    %c[d_green] • %c[ui_gray_2] Silencieux avec monture pour SR-1MP en 9x21. \n
+    %c[d_green] • %c[ui_gray_2] Viseur laser Zarya. \n \n</text>
+</string>
+
+<string id="st_addon_scope_gurza_up_new">
+    <text>Kit d'upgrade avancé SR-1MP Gyurza 9x21</text>
+</string>
+
+<string id="st_addon_scope_gurza_up_new_descr">
+    <text>Kit d'amélioration tactique pour le pistolet SR-1MP Gyurza 9x21. Comprend un silencieux SR-1MP 9x21 avec monture, une monture à rail unique, une enveloppe thermique pour silencieux, un mini viseur point rouge Zarya Z-1x20 et un viseur laser. \n \n
+    %c[ui_gray_2]Caractéristiques : \n
+    %c[d_green] • %c[ui_gray_2] Rail de montage simple pour SR-1MP. \n
+    %c[d_green] • %c[ui_gray_2] Silencieux avec monture pour SR-1MP en 9x21. \n
+    %c[d_green] • %c[ui_gray_2] Viseur reflex Zarya Z-1x20 mini. \n
+    %c[d_green] • %c[ui_gray_2] Enveloppe thermique pour silencieux. \n
+    %c[d_green] • %c[ui_gray_2] Viseur laser Zarya. \n \n</text>
+</string>
+
+</string_table>

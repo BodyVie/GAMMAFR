@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_kriss">
+		<text>KRISS Vector</text>
+	</string>
+	<string id="st_wpn_kriss_descr">
+		<text>Conçu par l'ingénieur français Renaud Kerbrat, le Vector utilise un système de recul retardé non conventionnel pour réduire le recul et la montée du canon en transférant l'énergie vers le bas plutôt que vers l'arrière. Il constitue le choix idéal pour les unités militaires et les forces de l'ordre recherchant une arme compacte et maîtrisable, adaptée aux environnements de combat rapproché.\n \n
+		%c[pda_white]CARACTÉRISTIQUES:\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Kriss USA, Inc.\n
+		</text>
+	</string>
+
+</string_table>

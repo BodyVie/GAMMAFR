@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Advanced Weapon Repair Mod 0.3 by Faustle (2017)
+-->
+
+<string_table>
+
+<!--
+ITEMS
+-->
+
+	<string id="st_prt_i_ammo">
+		<text>Composants de munitions</text>
+	</string>
+	<string id="st_prt_i_ammo_descr">
+		<text>Ces éléments de munition peuvent être réutilisés pour la fabrication de variantes améliorées. C'est pourquoi certains stalkers préfèrent les conserver.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_i_paper">
+		<text>Feuilles de papier</text>
+	</string>
+	<string id="st_prt_i_paper_descr">
+		<text>Feuilles de papier de soie déchirées. Même dans un endroit comme la Zone, elles peuvent servir à toutes sortes d'usages. La solution la moins chère pour emballer de la nourriture.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_i_textolite">
+		<text>Base en textolite</text>
+	</string>
+	<string id="st_prt_i_textolite_descr">
+		<text>Matériau structurel multicouche composé de tissu de coton et de résine thermoréactive tactifiante.\n \n
+		</text>
+	</string>
+	
+	<string id="st_textile_patch_b">
+		<text>Feuille de tissu</text>
+	</string>
+	<string id="st_textile_patch_b_descr">
+		<text>Pièce de tissu simple, couramment utilisée pour rapiécer des vêtements ou étaler des huiles et solvants de nettoyage.\n \n
+		</text>
+	</string>
+	
+	<string id="st_textile_patch_m">
+		<text>Feuille textile</text>
+	</string>
+	<string id="st_textile_patch_m_descr">
+		<text>Feuille de textile de qualité militaire. Appréciée pour son prix relativement bas et sa grande polyvalence. Nécessite un équipement de couture de niveau moyen et une colle avancée pour son utilisation.\n \n
+		</text>
+	</string>
+	
+	<string id="st_textile_patch_e">
+		<text>Feuille textile renforcée</text>
+	</string>
+	<string id="st_textile_patch_e_descr">
+		<text>Pièce de textile épaisse renforcée par un rembourrage en Kevlar. Des kits de couture et des adhésifs de haute qualité sont nécessaires pour son utilisation.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_i_capacitors">
+		<text>Lot de condensateurs</text>
+	</string>
+	<string id="st_prt_i_capacitors_descr">
+		<text>Composant principal de la plupart des appareils électriques, jouant un rôle dans le redressement du courant alternatif, le stockage de l'énergie électrique et le filtrage des parasites.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_i_transistors">
+		<text>Boîte de transistors</text>
+	</string>
+	<string id="st_prt_i_transistors_descr">
+		<text>Boîte de transistors BJT de haute qualité pouvant être utilisés pour convertir et amplifier des oscillations électriques.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_i_resistors">
+		<text>Boîte de résistances</text>
+	</string>
+	<string id="st_prt_i_resistors_descr">
+		<text>Les résistances sont les composants les plus courants en électronique. Elles servent à limiter et à diriger le passage du courant électrique dans les branches d'un circuit afin d'assurer que les autres composants reçoivent la tension appropriée.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_i_copper">
+		<text>Fil de cuivre</text>
+	</string>
+	<string id="st_prt_i_copper_descr">
+		<text>Le fil de cuivre est utilisé dans de nombreux dispositifs pour contrôler la transmission ou l'utilisation de l'énergie électrique. Sous sa forme pure, il est rare, mais peut être facilement extrait d'anciens postes de radio, talkies-walkies et autres appareils électroniques.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_i_wood">
+		<text>Pièces en bois</text>
+	</string>
+	<string id="st_prt_i_wood_descr">
+		<text>Morceaux de bois de cèdre clair à grain large. Pourraient être utilisés en fabrication.\n \n
+		%c[d_orange] Peut être utilisé pour fabriquer de nombreux objets. \n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_i_scrap">
+		<text>Débris métalliques</text>
+	</string>
+	<string id="st_prt_i_scrap_descr">
+		<text>Poignée de morceaux de métal et de pièces d'équipement composés de différents types et nuances d'alliages d'acier et d'aluminium.\n \n
+		%c[d_orange] Peut être utilisé pour fabriquer de nombreux objets. \n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_i_fasteners">
+		<text>Éléments de fixation</text>
+	</string>
+	<string id="st_prt_i_fasteners_descr">
+		<text>Poignée de vis, rondelles, écrous, clous et petits morceaux de plaques métalliques de différents types et tailles.\n \n
+		%c[d_orange] Peut être utilisé pour fabriquer de nombreux objets. \n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_i_plastic">
+		<text>Film plastique</text>
+	</string>
+	<string id="st_prt_i_plastic_descr">
+		<text>Petit sachet fabriqué en film de polyéthylène basse densité. Ces membranes plastiques fines sont utilisées pour séparer des zones ou des volumes, contenir des objets et servir de barrières.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_i_glass">
+		<text>Morceaux de verre</text>
+	</string>
+	<string id="st_prt_i_glass_descr">
+		<text>.</text>
+	</string>
+	
+	<string id="st_prt_i_ceramic">
+		<text>Base en céramique</text>
+	</string>
+	<string id="st_prt_i_ceramic_descr">
+		<text>.</text>
+	</string>
+	
+	<string id="st_prt_i_leather">
+		<text>Rouleau de cuir</text>
+	</string>
+	<string id="st_prt_i_leather_descr">
+		<text>.</text>
+	</string>
+	
+	
+	
+	<string id="st_prt_i_rubber">
+		<text>Caoutchouc</text>
+	</string>
+	<string id="st_prt_i_rubber_descr">
+		<text>Caoutchouc industriel standard.</text>
+	</string>
+	
+	<string id="st_prt_i_triggermechanism">
+		<text>Mécanisme de détente</text>
+	</string>
+	<string id="st_prt_i_triggermechanism_descr">
+		<text>Mécanisme et ensemble de détente provenant d'une arme à feu inconnue. Comme la plupart des détentes sont très similaires, celle-ci pourrait être ajustée pour s'adapter à presque n'importe quelle arme.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[ui_gray_2] Matériau de base\n
+		</text>
+	</string>
+	
+	<string id="st_prt_i_spring">
+		<text>Ressort</text>
+	</string>
+	<string id="st_prt_i_spring_descr">
+		<text>Petit ressort issu soit du mécanisme de détente, soit des composants internes d'une arme à feu inconnue.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[ui_gray_2] Matériau de base\n
+		</text>
+	</string>
+	
+	<string id="st_prt_i_pistolgrip">
+		<text>Poignée de pistolet</text>
+	</string>
+	<string id="st_prt_i_pistolgrip_descr">
+		<text>Poignées de pistolet provenant d'une arme à feu inconnue. Cette poignée peut être façonnée ou moulée pour s'adapter à presque toutes les armes.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[ui_gray_2] Matériau de base\n
+		</text>
+	</string>
+	
+
+
+<!--
+WEAPONS (rifles)
+-->
+
+<!-- Barrels-->
+	<string id="st_barrel_1">
+		<text>Canon de calibre 18,5 mm [R]</text>
+	</string>
+	<string id="st_barrel_1_descr">
+		<text>Canon provenant d'un fusil de chasse à double canon de calibre 18,5 mm.\n \n
+		</text>
+	</string>
+
+	<string id="st_barrel_2">
+		<text>Canon de calibre 18,5 mm [R]</text>
+	</string>
+	<string id="st_barrel_2_descr">
+		<text>Canon provenant d'un fusil de chasse à double canon basculant de calibre 18,5 mm.\n \n
+		</text>
+	</string>
+
+	<string id="st_barrel_3">
+		<text>Canon de calibre 18,5 mm [K]</text>
+	</string>
+	<string id="st_barrel_3_descr">
+		<text>Canon de fusil à canon lisse de calibre 18,5 mm.\n \n
+		</text>
+	</string>
+
+	<string id="st_barrel_4">
+		<text>Canon de calibre 7,62 mm [V]</text>
+	</string>
+	<string id="st_barrel_4_descr">
+		<text>Canon issu d'un fusil de calibre 7,62 mm.\n \n
+		</text>
+	</string>
+
+	<string id="st_barrel_5">
+		<text>Canon de calibre 7,92 mm [V]</text>
+	</string>
+	<string id="st_barrel_5_descr">
+		<text>Canon issu d'un fusil allemand de calibre 7,92 mm.\n \n
+		</text>
+	</string>
+
+	<string id="st_barrel_6">
+		<text>Canon-silencieux de calibre 9 mm [AS/PP]</text>
+	</string>
+	<string id="st_barrel_6_descr">
+		<text>Canon équipé d'un silencieux intégré provenant d'un fusil automatique spécial de calibre 9 mm.\n \n
+		</text>
+	</string>
+
+	<string id="st_barrel_7">
+		<text>Canon de calibre 7,62 mm [A|V]</text>
+	</string>
+	<string id="st_barrel_7_descr">
+		<text>Canon provenant d'un fusil semi-automatique ou automatique de calibre 7,62 mm.\n \n
+		</text>
+	</string>
+
+	<string id="st_barrel_8">
+		<text>Canon de calibre 5,45 mm [À]</text>
+	</string>
+	<string id="st_barrel_8_descr">
+		<text>Canon de fusil automatique de calibre 5,45 mm.\n \n
+		</text>
+	</string>
+
+	<string id="st_barrel_9">
+		<text>Canon de calibre 5,56 mm [À]</text>
+	</string>
+	<string id="st_barrel_9_descr">
+		<text>Canon de fusil automatique de calibre 5,56 mm.\n \n
+		</text>
+	</string>
+
+	<string id="st_barrel_10">
+		<text>Canon de calibre 7,62 mm [P]</text>
+	</string>
+	<string id="st_barrel_10_descr">
+		<text>Canon provenant d'un fusil de calibre 7,62 mm équipé d'un régulateur de gaz.\n \n
+		</text>
+	</string>
+
+	<string id="st_barrel_11">
+		<text>Canon de calibre 9 mm [AS/PP]</text>
+	</string>
+	<string id="st_barrel_11_descr">
+		<text>Canon provenant d'un fusil automatique spécial de calibre 9 mm ou d'un fusil PP.\n \n
+		</text>
+	</string>
+
+	<string id="st_barrel_12">
+		<text>Canon de calibre 7,62 mm [PP]</text>
+	</string>
+	<string id="st_barrel_12_descr">
+		<text>Canon issu du célèbre, voire légendaire, système de pistolet-mitrailleur PPSh.\n \n
+		</text>
+	</string>
+
+	<string id="st_barrel_13">
+		<text>Canon de calibre 12,7x55 mm</text>
+	</string>
+	<string id="st_barrel_13_descr">
+		<text>Canon de fusil automatique de calibre 12,7x55 mm.\n \n
+		</text>
+	</string>
+
+
+<!-- Trigger mechanisms -->
+	<string id="st_trigger_components_1">
+		<text>Mécanisme de détente à marteau à mode unique (Détente)</text>
+	</string>
+	<string id="st_trigger_components_1_descr">
+		<text>Mécanisme de détente de type marteau à mode unique.\n \n
+		</text>
+	</string>
+
+	<string id="st_trigger_components_2">
+		<text>Mécanisme de détente à marteau à double mode (Détente)</text>
+	</string>
+	<string id="st_trigger_components_2_descr">
+		<text>Mécanisme de détente à double mode de type marteau. Conçu pour une utilisation en modes de tir automatique et semi-automatique.\n \n
+		</text>
+	</string>
+
+	<string id="st_trigger_components_3">
+		<text>Mécanisme de détente à marteau à triple feu (Détente)</text>
+	</string>
+	<string id="st_trigger_components_3_descr">
+		<text>Gâchette de type marteau à triple mode de tir. Conçue pour être utilisée en modes automatique, coup par coup et rafale. Fortement liée à la conception de l'arme.\n \n
+		</text>
+	</string>
+
+	<string id="st_trigger_components_4">
+		<text>Mécanisme de détente à mode de tir unique avec Épingle de percussion (Détente)
+		</text>
+	</string>
+	<string id="st_trigger_components_4_descr">
+		<text>Mécanisme de détente en mode tir unique avec épingle de percussion.\n \n
+		</text>
+	</string>
+
+	<string id="st_trigger_components_5">
+		<text>Mécanisme de détente à double mode de tir avec Épingle de percussion (Détente)
+		</text>
+	</string>
+	<string id="st_trigger_components_5_descr">
+		<text>Mécanisme de détente à double mode de tir avec épingle de percussion. Permet le tir en modes semi-automatique et automatique.\n \n
+		</text>
+	</string>
+
+	<string id="st_trigger_components_6">
+		<text>Mécanisme de détente avec chien [R] (Détente)</text>
+	</string>
+	<string id="st_trigger_components_6_descr">
+		<text>Mécanisme de détente avec chien provenant d'un fusil de chasse à double canon.\n \n
+		</text>
+	</string>
+
+
+<!-- Breech blocks -->
+	<string id="st_bolt_carrier_1">
+		<text>Support coulissant de Boulon avec verrou tournant de Boulon [R] (Support)</text>
+	</string>
+	<string id="st_bolt_carrier_1_descr">
+		<text>Glissière porte-boulons avec verrou tournant de boulon, fabriquée par des manufacturiers orientaux.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_carrier_2">
+		<text>Support coulissant de Boulon avec verrou tournant de Boulon [R] (Support)</text>
+	</string>
+	<string id="st_bolt_carrier_2_descr">
+		<text>Glissière porte-boulons avec verrou tournant de boulon, fabriquée par des manufacturiers orientaux, issue d'armes automatiques spéciales.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_carrier_3">
+		<text>Support coulissant de Boulon avec verrou tournant de Boulon [OTAN] (Support)</text>
+	</string>
+	<string id="st_bolt_carrier_3_descr">
+		<text>Culasse mobile longitudinalement avec verrou tournant, produite par l'OTAN, issue d'un fusil automatique de calibre standard.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_carrier_4">
+		<text>Support coulissant de Boulon avec verrouillage par ressort (Support)</text>
+	</string>
+	<string id="st_bolt_carrier_4_descr">
+		<text>Glissière de transporteur de boulon avec un biais de verrouillage.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_carrier_5">
+		<text>Porte-Boulon à glissière semi-libre (Porte-Boulon)</text>
+	</string>
+	<string id="st_bolt_carrier_5_descr">
+		<text>Glissière porte-boulon semi-libre avec frein à galet.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_carrier_6">
+		<text>Support coulissant pour Boulons avec Boulon de verrouillage (Support)</text>
+	</string>
+	<string id="st_bolt_carrier_6_descr">
+		<text>Glissière de transporteur de boulon avec boulon de verrouillage.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_carrier_7">
+		<text>Support de Boulon à levier avec cale de verrouillage (Support)</text>
+	</string>
+	<string id="st_bolt_carrier_7_descr">
+		<text>Transporteur de boulon à levier avec cale de verrouillage.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_carrier_8">
+		<text>Choke de fusil à canons juxtaposés [R] (Support)</text>
+	</string>
+	<string id="st_bolt_carrier_8_descr">
+		<text>Choke issu d'un fusil à canon juxtaposé.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_carrier_9">
+		<text>Choke de fusil à canons juxtaposés [R] (Support)</text>
+	</string>
+	<string id="st_bolt_carrier_9_descr">
+		<text>Cran de choke pour fusil à canon double.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_carrier_10">
+		<text>Support coulissant de Boulon avec verrou tournant de Boulon [OTAN] (Support)</text>
+	</string>
+	<string id="st_bolt_carrier_10_descr">
+		<text>Glissière porte-boulons avec verrou tournant de boulon ; produit des pays de l'OTAN, pour fusil automatique de gros calibre.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_carrier_11">
+		<text>Support coulissant libre longitudinal de Boulon [PP] (Support)</text>
+	</string>
+	<string id="st_bolt_carrier_11_descr">
+		<text>Glissière porte-boulon libre d'un pistolet-mitrailleur.\n \n
+		</text>
+	</string>
+
+
+<!-- Breech heads -->
+	<string id="st_bolt_1">
+		<text>Culasse à bloc tombant [R] (Boulon)</text>
+	</string>
+	<string id="st_bolt_1_descr">
+		<text>Culasse à bloc tombant issue d'un fusil ou d'un fusil de chasse à canon lisse, équipée d'un mécanisme de verrouillage par levier. En apparence, les saillies du coin sont en bon état, sans usure prononcée.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_2">
+		<text>Tête de verrouillage rotative [2 verrous] [P] (Boulon)</text>
+	</string>
+	<string id="st_bolt_2_descr">
+		<text>Tête de verrouillage rotative à deux butées issue d'une mitrailleuse équipée d'une culasse à glissière longitudinale avec verrouillage par rotation. En apparence, les têtes de verrouillage sont en bon état, sans signes majeurs d'usure.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_3">
+		<text>Tête de verrouillage rotative [2 verrous] [K] (Boulon)</text>
+	</string>
+	<string id="st_bolt_3_descr">
+		<text>Tête de verrouillage rotative à deux butées provenant d'un fusil à canon lisse automatique ou semi-automatique, avec un bloc de culasse coulissant longitudinalement et un verrou rotatif.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_4">
+		<text>Tête de verrouillage rotative [2 verrous] [V] (Boulon)</text>
+	</string>
+	<string id="st_bolt_4_descr">
+		<text>Tête de verrouillage rotative à deux butées issue d'un fusil à culasse mobile longitudinalement, dotée d'un biais de verrouillage et d'un obturateur coulissant longitudinalement avec un verrou de type "boulon".\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_5">
+		<text>Tête de verrouillage rotative [3 verrous] [V] (Boulon)</text>
+	</string>
+	<string id="st_bolt_5_descr">
+		<text>Tête de verrouillage rotative à deux butées issue d'un fusil à culasse mobile longitudinalement avec verrou tournant.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_6">
+		<text>Tête de verrouillage rotative [2 verrous] [À] (Boulon)</text>
+	</string>
+	<string id="st_bolt_6_descr">
+		<text>Tête de verrouillage rotative à deux butées issue d'une mitrailleuse équipée d'une culasse à glissière longitudinale avec rotation du verrou.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_7">
+		<text>Tête de verrouillage rotative [4 verrous] [AS] (Boulons)</text>
+	</string>
+	<string id="st_bolt_7_descr">
+		<text>Tête de verrouillage rotative à quatre verrous issue d'un fusil automatique spécial équipé d'une culasse à glissière longitudinale avec rotation du verrou.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_8">
+		<text>Tête de verrouillage rotative [6 verrous] [À] (Boulons)</text>
+	</string>
+	<string id="st_bolt_8_descr">
+		<text>Tête de verrouillage rotative à six verrous issue d'une mitrailleuse équipée d'une culasse à glissière longitudinale avec rotation du verrou.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_9">
+		<text>Tête de verrouillage rotative [7 verrous] [À] (Boulons)</text>
+	</string>
+	<string id="st_bolt_9_descr">
+		<text>Tête de verrouillage rotative à sept verrous issue d'une mitrailleuse équipée d'une culasse à glissière longitudinale avec rotation du verrou.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_10">
+		<text>Tête de verrouillage rotative [8 verrous] [À] (Boulons)</text>
+	</string>
+	<string id="st_bolt_10_descr">
+		<text>Tête de verrouillage rotative à huit verrous issue d'une mitrailleuse équipée d'une culasse à glissière longitudinale avec rotation du verrou.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_11">
+		<text>Compresseur avec chien d'un fusil à double canon [R] (Boulons)</text>
+	</string>
+	<string id="st_bolt_11_descr">
+		<text>Compresseurs droit et gauche avec chien provenant d'un fusil de chasse à double canon.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_12">
+		<text>Chien d'un fusil à double canon de type marteau [R] (Boulons)</text>
+	</string>
+	<string id="st_bolt_12_descr">
+		<text>Chiennets droit et gauche issus d'un fusil de chasse à canons juxtaposés horizontaux.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_13">
+		<text>Tête de verrouillage rotative [2 verrous] [OTAN] (Boulon)</text>
+	</string>
+	<string id="st_bolt_13_descr">
+		<text>Tête de verrouillage rotative à deux butées issue d'un fusil automatique de gros calibre produit par les pays de l'OTAN, avec un porte-boulon coulissant muni d'un verrou de boulon rotatif.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_14">
+		<text>Tête de verrouillage rotative [À/PP] (Boulon)</text>
+	</string>
+	<string id="st_bolt_14_descr">
+		<text>Tête de verrouillage rotative issue soit d'un pistolet-mitrailleur, soit d'un fusil automatique, dotée d'un transporteur de boulon à glissière longitudinale semi-libre.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_15">
+		<text>Tambour avec ressort principal [PP] (Boulon)</text>
+	</string>
+	<string id="st_bolt_15_descr">
+		<text>Percuteur avec ressort principal issu d'un pistolet-mitrailleur domestique à glissière porte-boulon longitudinale libre.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_16">
+		<text>Percuteur avec ressort principal [PP] [OTAN] (Boulon)</text>
+	</string>
+	<string id="st_bolt_16_descr">
+		<text>Percuteur avec ressort principal issu d'un pistolet-mitrailleur importé à glissière porte-boulon longitudinale libre.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt_17">
+		<text>Percuteur avec ressort principal [PP] [PPSh] (Boulon)</text>
+	</string>
+	<string id="st_bolt_17_descr">
+		<text>Tambour avec ressort moteur issu de certains pistolets-mitrailleurs soviétiques, comme le PP du système de Chpaguine, doté d'un transporteur de boulon à glissière libre longitudinale.\n \n
+		</text>
+	</string>
+
+
+<!-- Gas tubes, etc -->
+	<string id="st_gas_tube_1">
+		<text>Tube à gaz [K] (Tube à gaz)</text>
+	</string>
+	<string id="st_gas_tube_1_descr">
+		<text>Tube à gaz de carabine à canon lisse.\n \n
+		</text>
+	</string>
+
+	<string id="st_gas_tube_2">
+		<text>Garde-main [R] (Tube à gaz)</text>
+	</string>
+	<string id="st_gas_tube_2_descr">
+		<text>Garde-main mobile de fusil à pompe.\n \n
+		</text>
+	</string>
+
+	<string id="st_gas_tube_3">
+		<text>Tube à gaz [V] (Tube à gaz)</text>
+	</string>
+	<string id="st_gas_tube_3_descr">
+		<text>Tube à gaz de fusil semi-automatique.\n \n
+		</text>
+	</string>
+
+	<string id="st_gas_tube_4">
+		<text>Tube à gaz [AS/PP] (Tube à gaz)</text>
+	</string>
+	<string id="st_gas_tube_4_descr">
+		<text>Tube à gaz d'un fusil automatique spécial de calibre 9 mm.\n \n
+		</text>
+	</string>
+
+	<string id="st_gas_tube_5">
+		<text>Tube à gaz [A|V] [R]</text>
+	</string>
+	<string id="st_gas_tube_5_descr">
+		<text>Tube à gaz d'un fusil semi-automatique ou automatique (Russie).\n \n
+		</text>
+	</string>
+
+	<string id="st_gas_tube_6">
+		<text>Tube à gaz [A|V] [OTAN]</text>
+	</string>
+	<string id="st_gas_tube_6_descr">
+		<text>Tube à gaz d'un fusil semi-automatique ou automatique (OTAN).\n \n
+		</text>
+	</string>
+
+	<string id="st_gas_tube_7">
+		<text>Tube à gaz [P] (Tube à gaz)</text>
+	</string>
+	<string id="st_gas_tube_7_descr">
+		<text>Tube à gaz issu d'une mitrailleuse.\n \n
+		</text>
+	</string>
+
+	<string id="st_gas_tube_8">
+		<text>Éjecteur [V] (Tube à gaz)</text>
+	</string>
+	<string id="st_gas_tube_8_descr">
+		<text>Éjecteur d'un fusil équipé d'une glissière porte-boulons avec boulon de verrouillage.\n \n
+		</text>
+	</string>
+
+	<string id="st_gas_tube_9">
+		<text>Éjecteur d'un fusil à double canon superposé [R] (Tuyau à gaz)</text>
+	</string>
+	<string id="st_gas_tube_9_descr">
+		<text>Éjecteur (extracteur) d'un fusil de chasse superposé à double canon.\n \n
+		</text>
+	</string>
+
+	<string id="st_gas_tube_10">
+		<text>Éjecteur d'un fusil à double canon superposé [R] (Tuyau à gaz)</text>
+	</string>
+	<string id="st_gas_tube_10_descr">
+		<text>Éjecteur d'un fusil de chasse superposé à double canon.\n \n
+		</text>
+	</string>
+
+	<string id="st_gas_tube_11">
+		<text>Tube à gaz [PP] (Tube à gaz)</text>
+	</string>
+	<string id="st_gas_tube_11_descr">
+		<text>Tube à gaz du pistolet-mitrailleur MP5, équipé d'une poignée.\n \n
+		</text>
+	</string>
+
+
+<!--
+WEAPONS (pistols)
+-->
+
+<!-- barrels -->
+	<string id="st_prt_w_p_barrel_1">
+		<text>Canon de calibre 9x18 mm</text>
+	</string>
+	<string id="st_prt_w_p_barrel_1_descr">
+		<text>Canon de calibre 9x18 mm.\n \n</text>
+	</string>
+
+	<string id="st_prt_w_p_barrel_2">
+		<text>Canon de calibre 9x19 mm</text>
+	</string>
+	<string id="st_prt_w_p_barrel_2_descr">
+		<text>Canon de calibre 9x19 mm.\n \n</text>
+	</string>
+
+	<string id="st_prt_w_p_barrel_3">
+		<text>Canon de calibre .45</text>
+	</string>
+	<string id="st_prt_w_p_barrel_3_descr">
+		<text>Canon de calibre .45.\n \n</text>
+	</string>
+
+	<string id="st_prt_w_p_barrel_4">
+		<text>Canon de calibre 5,7 mm</text>
+	</string>
+	<string id="st_prt_w_p_barrel_4_descr">
+		<text>Canon de calibre 5,7 mm.\n \n</text>
+	</string>
+
+	<string id="st_prt_w_p_barrel_5">
+		<text>Canon de calibre 7,62 mm</text>
+	</string>
+	<string id="st_prt_w_p_barrel_5_descr">
+		<text>Canon de calibre 7,62 mm.\n \n</text>
+	</string>
+
+	<string id="st_prt_w_p_barrel_6">
+		<text>Canon de calibre 9x18 mm (fermé)</text>
+	</string>
+	<string id="st_prt_w_p_barrel_6_descr">
+		<text>Canon de calibre 9x18 mm à enveloppe fermée.\n \n</text>
+	</string>
+
+	<string id="st_prt_w_p_barrel_7">
+		<text>Canon de calibre .357</text>
+	</string>
+	<string id="st_prt_w_p_barrel_7_descr">
+		<text>Canon de calibre .357.\n \n</text>
+	</string>
+
+<!-- trigger mechanism -->
+	<string id="st_prt_w_p_trigger_1">
+		<text>Mécanisme de détente à simple action (Détente)</text>
+	</string>
+	<string id="st_prt_w_p_trigger_1_descr">
+		<text>Mécanisme de détente à simple action.\n \n</text>
+	</string>
+	
+	<string id="st_prt_w_p_trigger_2">
+		<text>Mécanisme de détente à double action (Détente)</text>
+	</string>
+	<string id="st_prt_w_p_trigger_2_descr">
+		<text>Mécanisme de détente à double action.\n \n</text>
+	</string>
+	
+	<string id="st_prt_w_p_trigger_3">
+		<text>Mécanisme de détente à double action (DA/SA)</text>
+	</string>
+	<string id="st_prt_w_p_trigger_3_descr">
+		<text>Mécanisme de détente à double action (DA/SA).\n \n</text>
+	</string>
+	
+	<string id="st_prt_w_p_trigger_4">
+		<text>Mécanisme de détente à double action pour MP412</text>
+	</string>
+	<string id="st_prt_w_p_trigger_4_descr">
+		<text>Mécanisme de détente à double action du « MP412 ».\n \n</text>
+	</string>
+	
+	
+<!-- recoil spring assembly -->
+	<string id="st_prt_w_p_spring_1">
+		<text>Ensemble ressort de recul 9 mm [Soviétique] (Ressort)</text>
+	</string>
+	<string id="st_prt_w_p_spring_1_descr">
+		<text>Ensemble de ressort de recul soviétique pour calibre 9 mm.\n \n</text>
+	</string>
+	
+	<string id="st_prt_w_p_spring_2">
+		<text>Ensemble ressort de recul 9 mm [Russe] (Ressort)</text>
+	</string>
+	<string id="st_prt_w_p_spring_2_descr">
+		<text>Ensemble de ressort de recul russe pour calibre 9 mm.\n \n</text>
+	</string>
+	
+	<string id="st_prt_w_p_spring_3">
+		<text>Ensemble ressort de recul de calibre .45</text>
+	</string>
+	<string id="st_prt_w_p_spring_3_descr">
+		<text>Ensemble ressort de recul pour calibre .45.\n \n</text>
+	</string>
+	
+	<string id="st_prt_w_p_spring_4">
+		<text>Ensemble ressort de recul 9 mm [Occidental] (Ressort)</text>
+	</string>
+	<string id="st_prt_w_p_spring_4_descr">
+		<text>Ensemble de ressort de recul occidental pour calibre 9 mm.\n \n</text>
+	</string>
+	
+	<string id="st_prt_w_p_spring_5">
+		<text>Ensemble ressort de recul de calibre 7,62 mm</text>
+	</string>
+	<string id="st_prt_w_p_spring_5_descr">
+		<text>Ensemble ressort de recul pour calibre 7,62 mm.\n \n</text>
+	</string>
+	
+	<string id="st_prt_w_p_spring_6">
+		<text>Ensemble ressort de recul (R1 DE 6") (Ressort)</text>
+	</string>
+	<string id="st_prt_w_p_spring_6_descr">
+		<text>Ensemble ressort de recul.\n \n</text>
+	</string>
+	
+	
+<!--
+OUTFITS
+-->
+
+<!-- Fabrics and hardware -->
+	<string id="st_prt_o_fabrics_1">
+		<text>Feuilles de tissu</text>
+	</string>
+	<string id="st_prt_o_fabrics_1_descr">
+		<text>Base même d'un équipement. Ces feuilles sont composées de différents matériaux tels que le coton, le polycoton, la laine et le cuir afin d'offrir confort et durabilité.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_fabrics_2">
+		<text>Feuilles de tissu synthétique</text>
+	</string>
+	<string id="st_prt_o_fabrics_2_descr">
+		<text>Base même d'une tenue. Ces textiles sont mélangés à des matériaux synthétiques tels que le polyester et le lycra pour offrir polyvalence et durabilité.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_fabrics_3">
+		<text>Textiles résistants</text>
+	</string>
+	<string id="st_prt_o_fabrics_3_descr">
+		<text>Ces feuilles sont fabriquées à partir de différents matériaux tels que le polyester, le cuir et la toile. Bonne durabilité dans des conditions environnementales difficiles.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_fabrics_4">
+		<text>Textiles militaires</text>
+	</string>
+	<string id="st_prt_o_fabrics_4_descr">
+		<text>Feuilles de textiles de qualité militaire. Les tissus protecteurs, comme le caoutchouc et le nylon balistique, sont utilisés avec des protections articulaires. Appréciés pour leur prix relativement bas et leur grande polyvalence.\n \n
+		</text>
+	</string>
+	
+<!-- Retardants / Protective textiles -->
+	<string id="st_prt_o_retardant_1">
+		<text>Tissus ignifuges stratifiés</text>
+	</string>
+	<string id="st_prt_o_retardant_1_descr">
+		<text>Textiles rendus plus résistants au feu par traitement chimique ou fabriqués à partir de fibres ignifuges.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_retardant_2">
+		<text>Tissus multicouches retardateurs chimiques et anti-chocs</text>
+	</string>
+	<string id="st_prt_o_retardant_2_descr">
+		<text>Textiles traités chimiquement ou fabriqués à partir de fibres synthétiques pour résister aux chocs électriques et aux particules chimiques.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_retardant_3">
+		<text>Tissus traités RPVC de grade B</text>
+	</string>
+	<string id="st_prt_o_retardant_3_descr">
+		<text>Le polychlorure de vinyle rigide (RPVC) est un matériau ininflammable résistant aux intempéries. Le RPVC peut également être stabilisé aux UV pour offrir une protection accrue contre les dangers anomaux.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_retardant_4">
+		<text>Tissus vinyle RPVC de grade A</text>
+	</string>
+	<string id="st_prt_o_retardant_4_descr">
+		<text>Le polychlorure de vinyle rigide (RPVC) est un matériau ininflammable résistant aux intempéries. Le RPVC peut également être stabilisé aux UV pour offrir une protection accrue contre les dangers anomaux.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_retardant_5">
+		<text>Tissus enduits PVC/caoutchouc</text>
+	</string>
+	<string id="st_prt_o_retardant_5_descr">
+		<text>Tissu en polyester et fibre de caoutchouc enduit de PVC, résistant et durable, conçu pour offrir une protection contre les dangers.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_retardant_6">
+		<text>Tissus PVC/fibre de carbone</text>
+	</string>
+	<string id="st_prt_o_retardant_6_descr">
+		<text>Tissu en polyester et fibre de carbone enduit de PVC, résistant et durable, conçu pour offrir une protection contre les dangers.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_retardant_7">
+		<text>Inserts isolants en grille de magnésium</text>
+	</string>
+	<string id="st_prt_o_retardant_7_descr">
+		<text>Ce treillis en magnésium agit comme couches diélectriques pour protéger la tenue et son porteur des puissantes décharges électriques et des ondes psi. Il peut également offrir une protection contre d'autres dangers.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_retardant_8">
+		<text>Grille isolante renforcée en oxyde de magnésium</text>
+	</string>
+	<string id="st_prt_o_retardant_8_descr">
+		<text>Ce treillis en magnésium agit comme couches diélectriques pour protéger la tenue et son porteur des puissantes décharges électriques et des ondes psi. Il peut également offrir une protection contre d'autres risques.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_retardant_9">
+		<text>Feuilles de polymère (revêtement au sulfate de bismuth)</text>
+	</string>
+	<string id="st_prt_o_retardant_9_descr">
+		<text>Le comportement de dégradation thermique du sulfate de bismuth en fait un excellent choix pour les tenues utilisées à l'intérieur de la Zone, car il offre une protection contre les dangers environnementaux.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_retardant_10">
+		<text>Feuilles de polymère (revêtement au sulfate de baryum)</text>
+	</string>
+	<string id="st_prt_o_retardant_10_descr">
+		<text>Le comportement de dégradation thermique du sulfate de baryum en fait un excellent choix pour les équipements utilisés à l'intérieur de la Zone, car il offre une protection contre les dangers environnementaux.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_retardant_11">
+		<text>Couches aluminisées de tissus ignifuges</text>
+	</string>
+	<string id="st_prt_o_retardant_11_descr">
+		<text>Les tissus aluminisés multicouches sont spécialement conçus pour les vêtements de protection et les boucliers utilisés dans des environnements présentant des risques sérieux d'incendie ou liés à la chaleur radiante et aux sources chimiques. De plus, ces tissus offrent une excellente isolation contre les ondes psi.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_retardant_12">
+		<text>Tissus en fibre de verre aluminisés</text>
+	</string>
+	<string id="st_prt_o_retardant_12_descr">
+		<text>Tissus multicouches en fibre de verre aluminisée, spécialement conçus pour les vêtements de protection et les écrans utilisés dans des environnements présentant des risques sérieux de choc ou de sécurité liés à la chaleur radiante et aux sources chimiques. De plus, ces tissus offrent une excellente isolation contre les effets des ondes psi.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_retardant_13">
+		<text>Tissus mélangés PBI</text>
+	</string>
+	<string id="st_prt_o_retardant_13_descr">
+		<text>Les tissus mélangés à du PBI sont reconnus et plébiscités depuis des années dans les services de lutte contre l'incendie comme les meilleurs tissus protecteurs ignifuges haute performance.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_retardant_14">
+		<text>Tissus mélangés PBI avec traitement polyester</text>
+	</string>
+	<string id="st_prt_o_retardant_14_descr">
+		<text>Les tissus mélangés à du PBI sont reconnus et plébiscités depuis des années dans les services de lutte contre l'incendie comme les meilleurs tissus protecteurs ignifuges haute performance.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_retardant_15">
+		<text>Tissus en charbon actif (ACC)</text>
+	</string>
+	<string id="st_prt_o_retardant_15_descr">
+		<text>Initialement développé pour une utilisation dans les combinaisons de guerre chimique, le tissu en charbon actif possède de nombreuses applications pertinentes dans les domaines de la défense, de l'industrie et de la médecine. Il améliore considérablement l'efficacité des pansements avancés et actifs, tout en offrant une excellente protection contre les particules radioactives.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_retardant_16">
+		<text>Tissus non tissés traités au charbon actif</text>
+	</string>
+	<string id="st_prt_o_retardant_16_descr">
+		<text>Initialement développé pour une utilisation dans les combinaisons de guerre chimique. Le tissu en charbon actif possède de nombreuses applications pertinentes dans les domaines de la défense, de l'industrie et de la médecine. Il améliore considérablement l'efficacité des pansements avancés et actifs, tout en offrant une excellente protection contre les particules radioactives.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_retardant_17">
+		<text>Inserts isolants en constantan</text>
+	</string>
+	<string id="st_prt_o_retardant_17_descr">
+		<text>Inserts constitués de feuilles de constantan agissant comme couches diélectriques pour protéger l'équipement et son porteur des chocs électriques, des ondes psi et des matériaux radioactifs.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_retardant_18">
+		<text>Inserts isolants en constantan avec revêtement en fibre de verre</text>
+	</string>
+	<string id="st_prt_o_retardant_18_descr">
+		<text>Inserts composés de feuilles de constantan et de tissus enduits de fibre de verre, agissant comme couches diélectriques pour protéger la combinaison et son porteur des décharges électriques, des ondes psi et des matériaux radioactifs.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_retardant_19">
+		<text>Tissus en fibre de verre isolante « Polyester »</text>
+	</string>
+	<string id="st_prt_o_retardant_19_descr">
+		<text>Tissus résistants aux hautes températures, tissés à partir de fibres de verre de type « E » et recouverts d'un film à base de vermiculite, offrant des températures de service prolongées jusqu'à 1500°F et une bonne résistance aux chocs jusqu'à 20 kV. Dans un endroit comme la Zone, ces tissus peuvent s'avérer utiles contre les dangers anomaux.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_retardant_20">
+		<text>Tissus isolants en fibre de verre « satin »</text>
+	</string>
+	<string id="st_prt_o_retardant_20_descr">
+		<text>Tissus résistants aux hautes températures, tissés à partir de fibres de verre de type « E » et recouverts d'un film à base de vermiculite, offrant des températures de service prolongées jusqu'à 1700°F et une bonne résistance aux chocs jusqu'à 25 kV. Dans un endroit comme la Zone, ces tissus peuvent s'avérer utiles contre les dangers anomaux.\n \n
+		</text>
+	</string>
+	
+<!-- Ballistic inserts -->
+	<string id="st_prt_o_ballistic_1">
+		<text>Plaques Kevlar K129 avec inserts en céramique renforcée</text>
+	</string>
+	<string id="st_prt_o_ballistic_1_descr">
+		<text>Les plaques en Kevlar sont largement reconnues pour leurs capacités de protection, absorbant l'impact des projectiles d'armes à feu avec une relative facilité. Elles constituent une alternative légère aux inserts en acier lourd. Celles-ci ont été renforcées avec des inserts en céramique.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_ballistic_2">
+		<text>Plaques Kevlar Protera avec inserts céramiques renforcés</text>
+	</string>
+	<string id="st_prt_o_ballistic_2_descr">
+		<text>Les plaques en Kevlar sont largement reconnues pour leurs capacités de protection, absorbant l'impact des projectiles d'armes à feu avec une relative facilité. Elles constituent une alternative légère aux inserts en acier lourd. Celles-ci ont été renforcées avec des plaques en Protera.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_ballistic_3">
+		<text>Plaques Kevlar K129 avec composite en polycarbonate</text>
+	</string>
+	<string id="st_prt_o_ballistic_3_descr">
+		<text>Les plaques en Kevlar sont largement reconnues pour leurs capacités de protection, absorbant l'impact des projectiles d'armes à feu avec une relative facilité. Elles constituent une alternative légère aux inserts en acier lourd. Celles-ci ont été renforcées avec un composite en polycarbonate.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_ballistic_4">
+		<text>Plaques Kevlar K129 avec composite en fibre de carbone</text>
+	</string>
+	<string id="st_prt_o_ballistic_4_descr">
+		<text>Les plaques en Kevlar sont largement reconnues pour leurs capacités de protection, absorbant l'impact des projectiles d'armes à feu avec une relative facilité. Elles constituent une alternative légère aux inserts en acier lourd. Celles-ci ont été renforcées avec un composite en fibre de carbone.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_ballistic_5">
+		<text>Plaques d'acier Kevlar AP</text>
+	</string>
+	<string id="st_prt_o_ballistic_5_descr">
+		<text>Les plaques en Kevlar sont largement reconnues pour leurs capacités de protection, absorbant l'impact des projectiles d'armes à feu avec une relative facilité. Elles constituent une alternative légère aux inserts en acier lourd. Celles-ci ont été renforcées avec un composite en fibre de carbone.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_ballistic_6">
+		<text>Plaques Kevlar AP avec composite titane renforcé</text>
+	</string>
+	<string id="st_prt_o_ballistic_6_descr">
+		<text>Les plaques en Kevlar sont largement reconnues pour leurs capacités de protection, absorbant l'impact des projectiles d'armes à feu avec une relative facilité. Elles constituent une alternative légère aux inserts en acier lourd. Celles-ci ont été renforcées avec un composite en titane.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_ballistic_7">
+		<text>Plaques Kevlar K119 avec inserts en polycarbonate</text>
+	</string>
+	<string id="st_prt_o_ballistic_7_descr">
+		<text>Les plaques en Kevlar sont largement reconnues pour leurs capacités de protection, absorbant l'impact des projectiles d'armes à feu avec une relative facilité. Elles constituent une alternative légère aux inserts en acier lourd. Celles-ci ont été renforcées avec des inserts en polycarbonate.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_ballistic_8">
+		<text>Plaques Kevlar K119 avec inserts en fibre de carbone</text>
+	</string>
+	<string id="st_prt_o_ballistic_8_descr">
+		<text>Les plaques en Kevlar sont largement reconnues pour leurs capacités de protection, absorbant l'impact des projectiles d'armes à feu avec une relative facilité. Elles constituent une alternative légère aux inserts en acier lourd. Celles-ci ont été renforcées avec des inserts en fibre de carbone.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_ballistic_9">
+		<text>Plaques de polyéthylène grade B avec support expansé</text>
+	</string>
+	<string id="st_prt_o_ballistic_9_descr">
+		<text>Plaques en polyéthylène offrant une protection supplémentaire aux zones vitales. Ces plaques balistiques rigides ont démontré leur efficacité contre toutes les munitions d'armes de poing et une gamme de fusils. Ces gilets pare-balles améliorés sont devenus la norme dans l'usage militaire.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_ballistic_10">
+		<text>Plaques de polyéthylène grade A avec support expansé</text>
+	</string>
+	<string id="st_prt_o_ballistic_10_descr">
+		<text>Plaques en polyéthylène offrant une protection supplémentaire aux zones vitales. Ces plaques balistiques rigides ont démontré leur efficacité contre toutes les munitions d'armes de poing et une gamme de fusils. Ces gilets pare-balles améliorés sont devenus la norme dans l'usage militaire.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_ballistic_11">
+		<text>Plaques Kevlar K119</text>
+	</string>
+	<string id="st_prt_o_ballistic_11_descr">
+		<text>Les plaques en Kevlar sont largement reconnues pour leurs capacités de protection, absorbant l'impact des projectiles d'armes à feu avec une relative facilité. Elles constituent une alternative légère aux inserts en acier lourd.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_ballistic_12">
+		<text>Plaques Kevlar K119 renforcées</text>
+	</string>
+	<string id="st_prt_o_ballistic_12_descr">
+		<text>Les plaques en Kevlar sont largement reconnues pour leurs capacités de protection, absorbant l'impact des projectiles d'armes à feu avec une relative facilité. Elles constituent une alternative légère aux inserts en acier lourd. Celles-ci ont été renforcées avec une couche supplémentaire de Kevlar.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_ballistic_13">
+		<text>Plaques de blindage léger en polyéthylène</text>
+	</string>
+	<string id="st_prt_o_ballistic_13_descr">
+		<text>Plaques en polyéthylène offrant une protection supplémentaire aux zones vitales. Ces plaques balistiques rigides ont démontré leur efficacité contre toutes les munitions d'armes de poing et une gamme de fusils. Ces gilets pare-balles améliorés sont devenus la norme dans l'usage militaire.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_ballistic_14">
+		<text>Plaques de blindage en polyéthylène (artisanales)</text>
+	</string>
+	<string id="st_prt_o_ballistic_14_descr">
+		<text>Plaques en polyéthylène offrant une protection supplémentaire aux zones vitales. Ces plaques balistiques rigides ont démontré leur efficacité contre toutes les munitions d'armes de poing et une gamme de fusils. Ces gilets pare-balles améliorés sont devenus la norme dans l'usage militaire. Ceux-ci ont été assemblés au sein de la Zone à partir de diverses pièces usagées et détériorées.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_ballistic_15">
+		<text>Couches de nanotubes de carbone avec tissus Kevlar-49</text>
+	</string>
+	<string id="st_prt_o_ballistic_15_descr">
+		<text>Les nanotubes de carbone (CNT) présentent un grand potentiel en tant que matériau résistant aux impacts balistiques. Leurs propriétés remarquables en font un candidat idéal pour renforcer les polymères et d'autres matériaux, et ils sont souvent utilisés dans des applications telles que les gilets pare-balles. Ceux-ci sont renforcés avec des tissus en Kevlar-49.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_ballistic_16">
+		<text>Couches en nanotubes de carbone avec tissus Kevlar-29 (Renforcé)</text>
+	</string>
+	<string id="st_prt_o_ballistic_16_descr">
+		<text>Les nanotubes de carbone (CNT) présentent un grand potentiel en tant que matériau résistant aux impacts balistiques. Leurs propriétés remarquables en font un candidat idéal pour renforcer les polymères et d'autres matériaux, et ils sont souvent utilisés dans des applications telles que les gilets pare-balles. Ceux-ci sont renforcés avec des tissus en Kevlar-29.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_ballistic_17">
+		<text>Couches en fibres de polyéthylène avec inserts en polycarbonate</text>
+	</string>
+	<string id="st_prt_o_ballistic_17_descr">
+		<text>Plaques en polyéthylène offrant une protection supplémentaire aux zones vitales. Ces plaques balistiques rigides ont démontré leur efficacité contre toutes les munitions d'armes de poing et une gamme de fusils. Ces gilets pare-balles améliorés sont devenus la norme dans l'usage militaire. Celles-ci ont été renforcées avec des inserts en polycarbonate.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_ballistic_18">
+		<text>Couches en fibre de polyéthylène renforcées</text>
+	</string>
+	<string id="st_prt_o_ballistic_18_descr">
+		<text>Plaques en polyéthylène offrant une protection supplémentaire aux zones vitales. Ces plaques balistiques rigides ont démontré leur efficacité contre toutes les munitions d'armes de poing et une gamme de fusils. Ces gilets pare-balles améliorés sont devenus la norme dans l'usage militaire. Ils sont renforcés par des inserts en polycarbonate.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_ballistic_19">
+		<text>Couches en fibre de carbone</text>
+	</string>
+	<string id="st_prt_o_ballistic_19_descr">
+		<text>La fibre de carbone est légère, flexible et capable de résister à des températures élevées.\n \n
+		</text>
+	</string>
+	
+	<string id="st_prt_o_ballistic_20">
+		<text>Couches en fibre de carbone renforcées</text>
+	</string>
+	<string id="st_prt_o_ballistic_20_descr">
+		<text>La fibre de carbone est légère, flexible et capable de résister à des températures élevées. Ces éléments ont été renforcés par des couches supplémentaires.\n \n
+		</text>
+	</string>
+
+<!-- Supportive installations -->
+	<string id="st_prt_o_support_1">
+		<text>Structure d'exosquelette</text>
+	</string>
+	<string id="st_prt_o_support_1_descr">
+		<text>Structure mécanique alimentée par un système de moteurs électriques, de pneumatiques, de leviers et d'hydraulique, offrant au porteur une protection supérieure ainsi qu'une force physique considérablement accrue.\n \n
+		</text>
+	</string>
+	
+
+</string_table>

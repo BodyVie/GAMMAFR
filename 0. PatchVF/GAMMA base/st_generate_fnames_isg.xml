@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    <string id="name_d_isg_private_0">
+        <text>Soldat</text>
+    </string>
+    <string id="name_d_isg_private_1">
+        <text>Soldat</text>
+    </string>
+    <string id="name_d_isg_private_2">
+        <text>Soldat</text>
+    </string>
+    <string id="name_d_isg_private_3">
+        <text>Caporal-chef</text>
+    </string>
+    <string id="name_d_isg_private_4">
+        <text>Caporal-chef</text>
+    </string>
+    <string id="name_d_isg_private_5">
+        <text>Caporal</text>
+    </string>
+    <string id="name_d_isg_sergeant_0">
+        <text>Sergent</text>
+    </string>
+    <string id="name_d_isg_sergeant_1">
+        <text>Sergent</text>
+    </string>
+    <string id="name_d_isg_sergeant_2">
+        <text>Sergent</text>
+    </string>
+    <string id="name_d_isg_sergeant_3">
+        <text>Sergent-chef</text>
+    </string>
+    <string id="name_d_isg_sergeant_4">
+        <text>Sergent-chef</text>
+    </string>
+    <string id="name_d_isg_sergeant_5">
+        <text>Adjudant</text>
+    </string>
+    <string id="name_d_isg_lieutenant_0">
+        <text>Sous-lieutenant</text>
+    </string>
+    <string id="name_d_isg_lieutenant_1">
+        <text>Lieutenant</text>
+    </string>
+    <string id="name_d_isg_lieutenant_2">
+        <text>Lieutenant</text>
+    </string>
+    <string id="name_d_isg_captain_0">
+        <text>Capitaine</text>
+    </string>
+</string_table>

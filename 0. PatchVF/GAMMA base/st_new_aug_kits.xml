@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Weapons Attachments
+-->
+
+<string_table>
+
+	<string id="st_addon_scope_infiltrator_tactical_kit">
+		<text>Kit tactique AUG 9mm Infiltrator</text>
+	</string>
+	<string id="st_addon_scope_infiltrator_tactical_kit_descr">
+		<text>\n \n%c[ui_gray_1]Kit tactique Infiltrator pour Steyr AUG en calibre 9 mm. Le kit comprend un canon lourd long (508 mm), un récepteur VLTOR à profil bas avec rail tactique Corvus Defensio, une visée thermique Voodoo-s avec lunette ACOG (réticule TA47C) et un pointeur laser MAWL-C1+. \n \n
+		%c[ui_gray_2]Caractéristiques : \n
+		%c[d_green] • %c[ui_gray_2] Amélioration significative de la précision.\n
+        %c[d_green] • %c[ui_gray_2] Augmentation significative de la vitesse de vol des projectiles et de la portée efficace de l'arme.\n		
+		%c[d_green] • %c[ui_gray_2] Augmentation des dégâts de l'arme.\n \n</text>
+	</string>
+
+	<string id="st_addon_scope_spectre_tactical_kit">
+		<text>Kit tactique AUG 9mm Spectre</text>
+	</string>
+	<string id="st_addon_scope_spectre_tactical_kit_descr">
+		<text>\n \n%c[ui_gray_1]Kit tactique Infiltrator pour Steyr AUG en calibre 9 mm. Le kit comprend un canon allongé (417 mm), une crosse tactique noire Custom Spectre, une visée holographique Etherium avec grossissement 3X et un pointeur laser MAWL-C1+. \n \n
+		%c[ui_gray_2]Caractéristiques : \n
+		%c[d_green] • %c[ui_gray_2] Légère amélioration de la précision.\n
+        %c[d_green] • %c[ui_gray_2] Légère augmentation de la vitesse de vol des projectiles et de la portée efficace de l'arme.\n		
+		%c[d_green] • %c[ui_gray_2] Légère augmentation des dégâts de l'arme.\n \n</text>			
+	</string>		
+
+</string_table>

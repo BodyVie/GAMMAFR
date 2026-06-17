@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+Overwrites
+desert_eagle_custom,
+desert_eagle_modern
+desert_eagle_nimble
+desert_eagle_steppe
+-->
+	<string id="st_wpn_steppe_eagle">
+		<text>Desert Eagle "Steppe Eagle"</text>
+	</string>
+	<string id="st_wpn_steppe_eagle_descr">
+		<text>Pistolet semi-automatique à gaz, connu pour chambrer la plus puissante cartouche de toutes les armes de poing à chargeur et à rechargement automatique. Il utilise un mécanisme d'éjection/chambrage à gaz, normalement réservé aux fusils, ce qui lui permet d'utiliser des cartouches bien plus puissantes que les modèles traditionnels de pistolets semi-automatiques. Cela permet au Desert Eagle de rivaliser dans un domaine auparavant dominé par les revolvers Magnum. Le modèle « Steppe Eagle » est équipé d'un compensateur de bouche intégré pour une réduction drastique du recul, ainsi que d'un rail Picatinny entièrement repensé pour l'utilisation d'une gamme de viseurs et de lunettes. Apparemment introduit dans la Zone par un Stalker, dont le sort reste inconnu, sous l'identité d'un journaliste-photographe ayant réussi à atteindre seul le centre de Pripyat.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis, Israël\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Israel Military Industries\n
+		</text>
+	</string>
+
+<!--
+Overwrites
+desert_eagle
+-->
+	<string id="st_wpn_deagle">
+		<text>Desert Eagle</text>
+	</string>
+	<string id="st_wpn_deagle_descr">
+		<text>Pistolet semi-automatique à gaz, connu pour chambrer la plus puissante cartouche de toutes les armes de poing à chargeur et à rechargement automatique. Il utilise un mécanisme d'éjection/chambrage à gaz, normalement réservé aux fusils, ce qui lui permet d'utiliser des cartouches bien plus puissantes que les modèles traditionnels de pistolets semi-automatiques. Cela permet au Desert Eagle de rivaliser dans un domaine auparavant dominé par les revolvers Magnum.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis, Israël\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Israel Military Industries\n
+		</text>
+	</string>
+
+</string_table>

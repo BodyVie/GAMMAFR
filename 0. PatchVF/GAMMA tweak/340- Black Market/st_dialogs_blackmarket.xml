@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--===========================================================
+<
+<	Black Market Mod Dialogue Text
+<
+<	Modified by: SalamanderAnder
+<
+<===========================================================-->
+
+<string_table>
+<!------------------NO TRADE-------------->
+        <string id="blackmarket_no_0">
+		<text>T'es chaud pour échanger des flingues ?</text>
+	</string>
+        <string id="blackmarket_no_1">
+		<text>T'es cinglé ou quoi ? Les militaires me font déjà assez chier comme ça. Et puis, les bleusailles du coin, ils vont faire quoi avec un flingue de luxe ? Se faire buter par le Monolithe, direct. Va voir ailleurs.</text>
+	</string>
+        <string id="blackmarket_no_2">
+		<text>Laisse tomber, oublie ce que j'ai dit.</text>
+	</string>
+<!------------------ECO1-------------->
+        <string id="blackmarket_eco_1_0">
+		<text>Ça te dit d'échanger des armes ?</text>
+	</string>
+        <string id="blackmarket_eco_1_1">
+		<text>Je peux t'acheter des flingues OTAN bas de gamme, mais je peux rien te vendre. On enregistre tout ici, après tout.</text>
+	</string>
+        <string id="blackmarket_eco_1_2">
+		<text>D'accord.</text>
+	</string>
+<!------------------ECO3-------------->
+        <string id="blackmarket_eco_3_0">
+		<text>T'es partant pour un échange d'armes ?</text>
+	</string>
+        <string id="blackmarket_eco_3_1">
+		<text>Je peux t'acheter des flingues OTAN haut de gamme, mais je peux rien te vendre. On enregistre tout ici, après tout.</text>
+	</string>
+        <string id="blackmarket_eco_3_2">
+		<text>OK.</text>
+	</string>
+<!------------------WP 1-------------->
+        <string id="blackmarket_wp_1_0">
+		<text>Tu veux faire un échange d'armes ?</text>
+	</string>
+        <string id="blackmarket_wp_1_1">
+		<text>Ouais, mais fais pas chier avec du matos de luxe. J'ai besoin de flingues russes pas chers et fiables. Les stalkers du coin peuvent pas se payer mieux. Assure-toi qu'ils soient réparés.</text>
+	</string>
+        <string id="blackmarket_wp_1_2">
+		<text>Ça marche.</text>
+	</string>
+<!------------------WP 2-------------->
+        <string id="blackmarket_wp_2_0">
+		<text>T'es intéressé par un échange d'armes ?</text>
+	</string>
+        <string id="blackmarket_wp_2_1">
+		<text>Ouais. Je cherche toujours des flingues russes corrects. Rien de trop déjanté, mais apporte pas de la merde de recrue non plus. Et faut qu'ils soient en bon état !</text>
+	</string>
+        <string id="blackmarket_wp_2_2">
+		<text>Ça me va.</text>
+	</string>
+<!------------------WP 3-------------->
+        <string id="blackmarket_wp_3_0">
+		<text>Ça te branche, un échange d'armes ?</text>
+	</string>
+        <string id="blackmarket_wp_3_1">
+		<text>Ouais, j'ai besoin des meilleurs flingues que la Mère Patrie peut offrir. Les mecs du coin ont besoin de toute la puissance de feu possible. Et faut qu'ils soient impeccables ! Un enrayage ici, et t'es mort en deux secondes.</text>
+	</string>
+        <string id="blackmarket_wp_3_2">
+		<text>Parfait.</text>
+	</string>
+<!------------------NATO 1------------>
+        <string id="blackmarket_nato_1_0">
+		<text>Tu cherches à échanger des armes ?</text>
+	</string>
+        <string id="blackmarket_nato_1_1">
+		<text>Ouais, j'ai besoin des flingues OTAN les moins chers possible. Les stalkers du coin peuvent pas se payer mieux. Et faut qu'ils soient en bon état !</text>
+	</string>
+        <string id="blackmarket_nato_1_2">
+		<text>OK.</text>
+	</string>
+<!------------------NATO 2------------>
+        <string id="blackmarket_nato_2_0">
+		<text>T'as des armes à échanger ?</text>
+	</string>
+        <string id="blackmarket_nato_2_1">
+		<text>Ouais, je cherche toujours des flingues OTAN corrects. Abordables mais puissants, tu vois ? Faut qu'ils soient en état de marche.</text>
+		</string>
+        <string id="blackmarket_nato_2_2">
+		<text>Ça roule.</text>
+	</string>
+<!------------------NATO 3------------>
+        <string id="blackmarket_nato_3_0">
+		<text>Ça t'intéresse de vendre des flingues ?</text>
+	</string>
+        <string id="blackmarket_nato_3_1">
+		<text>Ouais, j'ai besoin des meilleurs flingues OTAN. Dans le coin, on peut jamais être trop prudent. Et faut qu'ils soient nickel.</text>
+	</string>
+        <string id="blackmarket_nato_3_2">
+		<text>Nickel.</text>
+	</string>
+<!------------------ANY 1------------>
+        <string id="blackmarket_any_1_0">
+		<text>Ça t'intéresse de vendre des flingues ?</text>
+	</string>
+        <string id="blackmarket_any_1_1">
+		<text>Ouais, j'ai besoin de ce que tu peux me refiler, tant que c'est pas cher. Les mecs qui traînent ici peuvent pas se payer du matos de luxe. Assure-toi juste qu'ils soient réparés, j'achète pas ta ferraille.</text>
+	</string>
+        <string id="blackmarket_any_1_2">
+		<text>D'acc.</text>
+	</string>
+<!------------------ANY 2------------>
+        <string id="blackmarket_any_2_0">
+		<text>Ça t'intéresse de vendre des flingues ?</text>
+	</string>
+        <string id="blackmarket_any_2_1">
+		<text>Ouais, j'ai toujours besoin de flingues corrects, ni trop cheap ni trop chers. Tant qu'ils marchent, je peux les vendre.</text>
+	</string>
+        <string id="blackmarket_any_2_2">
+		<text>Ça me botte.</text>
+	</string>
+<!------------------ANY 3------------>
+        <string id="blackmarket_any_3_0">
+		<text>Ça t'intéresse de vendre des flingues ?</text>
+	</string>
+        <string id="blackmarket_any_3_1">
+		<text>Ouais, j'ai besoin des meilleurs flingues que tu puisses trouver - russes, OTAN, peu importe. Si c'est cher et que ça fait boum, je prends.</text>
+	</string>
+        <string id="blackmarket_any_3_2">
+		<text>Impec.</text>
+	</string>
+</string_table>

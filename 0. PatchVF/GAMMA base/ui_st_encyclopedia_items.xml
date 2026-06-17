@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="encyclopedia_items">
+		<text>Objets</text>
+	</string>
+	
+	<string id="encyclopedia_items_pda">
+		<text>PDA</text>
+	</string>
+	<string id="encyclopedia_items_pda_text">
+		<text>Un %c[pda_white]Assistant Numérique Personnel %c[ui_gray_2], ou "%c[pda_white]PDA%c[ui_gray_2]", est un appareil électronique de poche conçu pour regrouper les fonctions de base et les plus vitales d'un ordinateur.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Le PDA est essentiel pour le partage quotidien d'informations. Pour cette raison, presque tous les stalker de la Zone en possèdent un.\n \n
+		Un module GPS est utilisé pour fournir des informations de géolocalisation et de temps à l'utilisateur. En plus de ses fonctions de base, le PDA offre de nombreuses fonctionnalités, notamment l'accès au réseau local sur lequel les stalkers peuvent communiquer facilement. Le PDA est également équipé d'un récepteur radio FM, permettant d'accéder aux stations de radio locales.\n \n
+		%c[pda_white]• %c[ui_gray_2]Consomme %c[pda_white]0,1 mAh/s%c[ui_gray_2]. Cette consommation est plus élevée pour les variantes améliorées.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_itm_upd">
+		<text>Mise à jour</text>
+	</string>
+	<string id="encyclopedia_items_itm_upd_text">
+		<text>Le %c[pda_white]Dispositif d'Alimentation Universel %c[ui_gray_2]est une unité d'alimentation portable de la taille d'un petit talkie-walkie.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]L'UPD alimente les appareils électroniques en énergie via un flux amélioré grâce à un ensemble de microfils. Ceux-ci peuvent être connectés à n'importe quel équipement, quelle que soit sa complexité ou son ancienneté, permettant aux stalkers d'utiliser et de manipuler de nombreux dispositifs électroniques même s'ils ne disposent que d'une seule batterie.\n \n
+		Tous les appareils actifs consommeront de l'énergie électrique de la Mise à jour, avec une consommation variable selon les appareils. Lorsque la Mise à jour est déchargée, tous les appareils connectés cesseront de fonctionner.\n \n
+		%c[pda_white]• %c[ui_gray_2]La Mise à jour possède une capacité totale de %c[pda_white]3Ah %c[ui_gray_2](ampères-heures).
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_itm_basickit">
+		<text>Outils de base</text>
+	</string>
+	<string id="encyclopedia_items_itm_basickit_text">
+		<text>Les %c[pda_white]Outils de base %c[ui_gray_2]peuvent être utilisés pour fabriquer de l'équipement basique, des dispositifs et des pièces de mise à niveau pour les tenues.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Peu susceptible de convenir à une maintenance avancée, mais pourrait s'avérer utile entre les mains d'un technicien économe. Le kit contient différents types et tailles de pinces, de vis, d'adhésifs et de fixations variées.\n \n
+		%c[pda_white]Guides de survie %c[ui_gray_2]fournissent généralement des informations sur l'équipement de base et les kits de survie. Avec suffisamment de connaissances, un stalker peut tirer grandement profit de cet ensemble.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_itm_advancedkit">
+		<text>Outils avancés</text>
+	</string>
+	<string id="encyclopedia_items_itm_advancedkit_text">
+		<text>Les %c[pda_white]Outils avancés %c[ui_gray_2]peuvent être utilisés pour fabriquer un équipement de meilleure qualité, des dispositifs et des pièces de mise à niveau pour les tenues.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Un ensemble correct d'outils, adapté à la maintenance avancée. Le kit contient un jeu de sondes et de crochets ainsi qu'une poignée de petites pinces et de brucelles à pointe.\n \n
+		%c[pda_white]Manuels de mécanique %c[ui_gray_2]fournissent des informations sur l'ingénierie mécanique. Avec suffisamment de connaissances, un stalker peut tirer grandement profit de cet ensemble.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_itm_expertkit">
+		<text>Outils experts</text>
+	</string>
+	<string id="encyclopedia_items_itm_expertkit_text">
+		<text>Les %c[pda_white]Outils experts %c[ui_gray_2]peuvent être utilisés pour fabriquer des équipements, des dispositifs et des pièces de mise à niveau d'équipement de haute qualité.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Un ensemble professionnel d'outils de haute qualité pour l'ajustement fin des équipements. Le kit contient un jeu de mèches, des brucelles de précision, un fer à souder, des embouts de tournevis de 4 mm et un multimètre.\n \n
+		%c[pda_white]Manuels d'ingénierie %c[ui_gray_2]fournissent des informations sur l'ingénierie industrielle. Avec suffisamment de connaissances, un stalker peut tirer grandement profit de cet ensemble.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_itm_drugkit">
+		<text>Kit de fabrication de drogues</text>
+	</string>
+	<string id="encyclopedia_items_itm_drugkit_text">
+		<text>Le %c[pda_white]Kit de fabrication de drogues %c[ui_gray_2]permet de fabriquer divers types de drogues et de médicaments.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Un kit contenant des sachets en plastique, des comprimés et des ampoules. Les personnes possédant suffisamment de connaissances en matière de drogues peuvent tirer profit de ces kits. Gardez un oeil sur ceux qui possèdent des %c[pda_white]Recettes de Drogues%c[ui_gray_2].
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_itm_ammokit">
+		<text>Outils d'armurerie</text>
+	</string>
+	<string id="encyclopedia_items_itm_ammokit_text">
+		<text>Les %c[pda_white]Outils d'armurerie %c[ui_gray_2]peuvent être utilisés pour recycler les munitions en d'autres variantes.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Un ensemble correct d'outils et d'accessoires d'armurerie, comprenant un jeu d'épingles, un marteau de wheeler, un outil de presse et un kit de mesure de poudre noire.\n \n
+		Le %c[pda_white]Guide de sécurité des munitions %c[ui_gray_2]fournit des informations sur divers types de munitions, ainsi qu'une analyse approfondie des composants de base des cartouches. Avec suffisamment de connaissances, un stalker peut tirer pleinement parti de ce kit.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_kit_hunt">
+		<text>Kit du chasseur</text>
+	</string>
+	<string id="encyclopedia_items_kit_hunt_text">
+		<text>Le %c[pda_white]Kit du chasseur %c[ui_gray_2]augmente le nombre de parties de corps obtenues lors du dépeçage des mutants.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Un kit contenant des couteaux, un sac d'hameçons et d'autres équipements utilisés pour dépecer et vider les animaux et les mutants. Grâce à la variété des outils, ce kit peut également améliorer efficacement l'entretien des armes et des armures.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_fieldcooker">
+		<text>Réchaud à gaz</text>
+	</string>
+	<string id="encyclopedia_items_fieldcooker_text">
+		<text>Le %c[pda_white]Réchaud à gaz %c[ui_gray_2]permet de cuire la viande de mutant.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Le Réchaud à gaz est extrêmement robuste et fiable, conçu pour résister à des situations exigeantes, aux altitudes extrêmes ainsi qu'aux températures basses et élevées, et peut être utilisé avec pratiquement tous les types de carburant.\n \n
+		%c[pda_blue]Détails\n
+		%c[ui_gray_2]Les viandes de Mutants qui ne nécessitent pas une température élevée pour être préparées sont qualifiées de 'bas niveau', tandis que celles nécessitant une température élevée sont qualifiées de 'haut niveau'.\n \n
+		%c[pda_white]• %c[ui_gray_2]Permet une utilisation illimitée (tant que vous avez du carburant).\n
+		%c[pda_white]• %c[ui_gray_2]Permet de cuire tous les types de viande.\n
+		%c[pda_white]• Nécessite : %c[ui_gray_2]Jerrycan ou Ballon de gaz
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_cooking">
+		<text>Kit de cuisine de terrain</text>
+	</string>
+	<string id="encyclopedia_items_cooking_text">
+		<text>Le %c[pda_white]Kit de cuisine de terrain %c[ui_gray_2]permet de cuisiner la viande de bas niveau des mutants.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Un kit contenant des accessoires et ustensiles de cuisine à utiliser en camping et en voyage, bien qu'il soit encombrant en raison de son poids élevé.\n \n
+		Le charbon de bois est disponible dans la Zone à un prix relativement bas et est relativement léger, ce qui le rend parfait pour les longs voyages dans la Zone.\n \n
+		%c[pda_blue]Détails\n
+		%c[ui_gray_2]Les viandes de Mutants qui ne nécessitent pas une température élevée pour être préparées sont qualifiées de 'bas niveau', tandis que celles nécessitant une température élevée sont qualifiées de 'haut niveau'.\n \n
+		%c[pda_white]• Nombre maximal d'utilisations : %c[ui_gray_2]3\n
+		%c[pda_white]• Nécessite : %c[ui_gray_2]Charbon de bois
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_army_bowler">
+		<text>Bouilloire militaire</text>
+	</string>
+	<string id="encyclopedia_items_army_bowler_text">
+		<text>La %c[pda_white]Bouilloire militaire %c[ui_gray_2]permet de cuire la viande de bas niveau de mutant.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Une bouilloire pratique utilisée pour préparer et chauffer des repas. Le couvercle du bol peut servir de poêle lors du chauffage ou de la préparation d'un plat, et la poignée du couvercle est conçue pour le maintenir. Une cuillère à soupe est également insérée dans des trous spéciaux sur la poignée.\n \n
+		Le charbon de bois est disponible dans la Zone à un prix relativement bas et est relativement léger, ce qui le rend parfait pour les longs voyages dans la Zone.\n \n
+		%c[pda_blue]Détails\n
+		%c[ui_gray_2]Les viandes de Mutants qui ne nécessitent pas une température élevée pour être préparées sont qualifiées de 'bas niveau', tandis que celles nécessitant une température élevée sont qualifiées de 'haut niveau'.\n \n
+		%c[pda_white]• Nombre maximal d'utilisations : %c[ui_gray_2]7\n
+		%c[pda_white]• Nécessite : %c[ui_gray_2]Charbon de bois ou un feu de camp
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_detector_geiger">
+		<text>Compteur Geiger</text>
+	</string>
+	<string id="encyclopedia_items_detector_geiger_text">
+		<text>Le %c[pda_white]Compteur Geiger %c[ui_gray_2]est utilisé pour mesurer les niveaux de radiation.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Un Compteur geiger mesure les rayonnements ionisants (radioactifs). Inventé en 1908, le Compteurs Geiger reste un appareil technologique populaire utilisé pour les mesures en santé, physique, industrie, géologie et d'autres domaines.\n \n
+		%c[pda_blue]Utilisation\n
+		%c[ui_gray_2]Le Compteur geiger fonctionne en 3 modes :
+		%c[pda_white]• En mode actif : %c[ui_gray_2]affiche le niveau de radiation lorsque l'appareil est tenu en main.\n
+		%c[pda_white]• Toujours : %c[ui_gray_2]affiche en permanence le niveau de radiation, tant que l'appareil se trouve dans votre inventaire et que ses batteries ne sont pas déchargées.\n
+		%c[pda_white]• Au clic sur le bouton : %c[ui_gray_2]affiche le niveau de radiation lors de l'appui sur une touche de raccourci (voir les options de raccourcis dans les paramètres).\n \n
+		%c[pda_white]• %c[ui_gray_2]Consomme %c[pda_white]0,1 mAh%c[ui_gray_2] par utilisation.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_detector_simple">
+		<text>Détecteur Echo</text>
+	</string>
+	<string id="encyclopedia_items_detector_simple_text">
+		<text>Le %c[pda_white]Détecteur Echo %c[ui_gray_2]est un appareil capable de localiser les artefacts à proximité.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Ce détecteur d'activité anormale, bien que daté, produit un signal d'alarme lorsque des particules anormales pénètrent dans une chambre spéciale, permettant à l'appareil de détecter la présence d'artefacts et de mesurer la distance jusqu'au plus proche. La distance est indiquée par la fréquence du son émis par le détecteur.\n \n
+		%c[pda_white]• %c[ui_gray_2]Ne peut localiser que les artefacts les plus courants.\n
+		%c[pda_white]• %c[ui_gray_2]Consomme %c[pda_white]0,1 mAh/s%c[ui_gray_2].
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_detector_advanced">
+		<text>Détecteur bear</text>
+	</string>
+	<string id="encyclopedia_items_detector_advanced_text">
+		<text>
+		Le %c[pda_white]Détecteur Bear %c[ui_gray_2]est un appareil capable de localiser les artefacts à proximité.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Ce détecteur d'activité anormale de dernière génération permet de localiser les formations anormales et dispose d'un panneau de diodes colorées, indiquant non seulement la direction des artefacts, mais aussi la distance qui les sépare. Pour passer en mode de recherche d'artefacts, ouvrez le couvercle avant de l'appareil. Malheureusement, le détecteur est programmé avec une liste quelque peu obsolète d'artefacts détectables.\n \n
+		%c[pda_white]• %c[ui_gray_2]Peut localiser de nombreux types de artefacts, mais pas tous.\n
+		%c[pda_white]• %c[ui_gray_2]Consomme %c[pda_white]0,15 mAh/s%c[ui_gray_2].		
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_detector_elite">
+		<text>Détecteur Veles</text>
+	</string>
+	<string id="encyclopedia_items_detector_elite_text">
+		<text>Le %c[pda_white]Détecteur Veles %c[ui_gray_2]est un appareil capable de localiser les artefacts à proximité.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Un détecteur scientifique de nouvelle génération. Grâce à ses trois chambres de détection avancées, la position de l'artefact est affichée en temps réel sur un écran LED spécial. Lorsqu'il est fermé, l'appareil ne détecte que les particules des anomalies et des radiations.\n \n
+		%c[pda_white]• %c[ui_gray_2]Peut localiser de nombreux types de artefacts, mais pas tous.\n
+		%c[pda_white]• %c[ui_gray_2]Consomme %c[pda_white]0,15 mAh/s%c[ui_gray_2].
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_detector_scientific">
+		<text>Détecteur Svarog</text>
+	</string>
+	<string id="encyclopedia_items_detector_scientific_text">
+		<text>Le %c[pda_white]Détecteur Svarog %c[ui_gray_2]est un appareil capable de localiser les artefacts à proximité.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Un détecteur prototype doté d'une fonctionnalité étendue de scanner de fréquences anormales. Cet appareil est équipé d'un programme qui identifie les zones statiques d'activité anormale enregistrées dans la base de données, tout en conservant la capacité de localiser les artefacts. Les positions des zones anormales et des artefacts sont affichées sur un écran LED spécial.\n \n
+		%c[pda_white]• %c[ui_gray_2]Capable de détecter tous les artefacts ainsi que des formations anormales actuellement inconnues de la science.\n
+		%c[pda_white]• %c[ui_gray_2]Consomme %c[pda_white]0,2 mAh/s%c[ui_gray_2].
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_gps_tracker">
+		<text>Module GPS militaire</text>
+	</string>
+	<string id="encyclopedia_items_gps_tracker_text">
+		<text>Le %c[pda_white]Module GPS militaire %c[ui_gray_2]permet à son utilisateur de localiser les stalkers à proximité.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Un prototype de dispositif de navigation GPS de nouvelle génération, dont seulement quelques exemplaires ont été fabriqués. Bien que distribué exclusivement parmi les plus hauts grades militaires, certains appareils ont également trouvé leur chemin entre les mains d'autres parties. Ce module amélioré, doté d'une structure renforcée et de capteurs à haute sensibilité, garantit un fonctionnement fiable même dans les environnements les plus hostiles. Contrairement aux modules GPS classiques, celui-ci repose sur des ensembles de codes qui lui permettent d'acquérir des privilèges spéciaux sur le réseau connecté. Un circuit de commutation automatique à l'intérieur du module l'éteint après 20 secondes d'analyse continue pour économiser l'énergie.\n \n
+		%c[pda_blue]Détails\n
+		%c[pda_white]• Durée de balayage : %c[ui_gray_2]20 secondes\n
+		%c[pda_white]• Rayon de balayage : %c[ui_gray_2]300 mètres\n
+		%c[pda_white]• %c[ui_gray_2]Consomme %c[pda_white]0,25 Ah%c[ui_gray_2] par utilisation.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_lead_box">
+		<text>LLMC</text>
+	</string>
+	<string id="encyclopedia_items_lead_box_text">
+		<text>Le %c[pda_white]Conteneur Métallique Revêtu de Plomb (LLMC) %c[ui_gray_2]est utilisé pour stocker les artefacts tout en isolant complètement leurs effets.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Le LLMC est une simple boîte métallique aux parois épaisses, dotée d'inserts en mousse et d'un couvercle lourd à fermeture hermétique. Conçu spécifiquement pour le transport d'artefacts au sein de la Zone. Il bloque toutes les radiations, garantissant ainsi la sécurité de l'utilisateur lorsqu'il transporte des artefacts. Cependant, l'appareil ne peut pas être attaché à la ceinture, empêchant l'application des propriétés positives ou négatives.\n \n
+		%c[pda_blue]Détails\n
+		%c[pda_white]• %c[ui_gray_2]Vous devez retirer artefacts du conteneur avant de le vendre.\n
+		%c[pda_white]• %c[ui_gray_2]Faites glisser et déposez un artefact sur le conteneur pour le ranger à l'intérieur.\n
+		%c[pda_white]• Poids : %c[ui_gray_2]2,12 kg
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_af_iam">
+		<text>IAM</text>
+	</string>
+	<string id="encyclopedia_items_af_iam_text">
+		<text>Le %c[pda_white]Module d'Application Improvisé (IAM) %c[ui_gray_2]est utilisé pour stocker des artefacts et filtrer les faibles niveaux de radiation, permettant à son utilisateur d'attacher en toute sécurité des artefacts à sa ceinture.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Le IAM est le dispositif le moins coûteux permettant à l'utilisateur d'exploiter la puissance des artefacts moins puissants en filtrant une petite quantité de particules de radiation émises. Composé de plusieurs couches de plomb, il constitue une alternative économique aux AACS et AAMS plus fiables. Pour être attaché à la ceinture, un artefact doit être placé à l'intérieur. Le artefact conservera ses caractéristiques, à l'exception d'une réduction de la radiation émise. En raison de sa faible qualité, le IAM ne peut bloquer que les particules bêta.\n \n
+		%c[pda_blue]Détails\n
+		%c[pda_white]• %c[ui_gray_2]Vous devez retirer artefacts du conteneur avant de le vendre.\n
+		%c[pda_white]• %c[ui_gray_2]Faites glisser et déposez un artefact sur le conteneur pour le ranger à l'intérieur.\n
+		%c[pda_white]• Poids : %c[ui_gray_2]2,4 kg\n
+		%c[pda_white]• Radiation maximale contenue : %c[ui_gray_2]7 mSv
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_af_aac">
+		<text>AAC</text>
+	</string>
+	<string id="encyclopedia_items_af_aac_text">
+		<text>Le %c[pda_white]Conteneur d'Application d'Artefact (AAC) %c[ui_gray_2]est utilisé pour stocker des artefacts et filtrer les niveaux modérés de radiation, permettant à son utilisateur d'attacher en toute sécurité des artefacts à sa ceinture.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Le AAC est le dispositif le plus rentable permettant à l'utilisateur d'exploiter la puissance des artefacts plus puissants en filtrant une quantité modérée de particules de radiation émises. Composé de plusieurs couches de plomb et d'une couche de thorium, il offre un bon équilibre entre le IAM et le AAM. Pour être attaché à la ceinture, un artefact doit être placé à l'intérieur. Le artefact conservera ses caractéristiques, à l'exception d'une réduction de la radiation émise. Comparé au IAM, le AAC est capable de filtrer les rayons gamma.\n \n
+		%c[pda_blue]Détails\n
+		%c[pda_white]• %c[ui_gray_2]Vous devez retirer artefacts du conteneur avant de le vendre.\n
+		%c[pda_white]• %c[ui_gray_2]Faites glisser et déposez un artefact sur le conteneur pour le ranger à l'intérieur.\n
+		%c[pda_white]• Poids : %c[ui_gray_2]2,73 kg\n
+		%c[pda_white]• Radiation maximale contenue : %c[ui_gray_2]12 mSv
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_af_aam">
+		<text>AAM</text>
+	</string>
+	<string id="encyclopedia_items_af_aam_text">
+		<text>Le %c[pda_white]Module d'Application d'Artefact (AAM) %c[ui_gray_2]est utilisé pour stocker des artefacts et filtrer les niveaux dangereux de radiation, permettant à son utilisateur d'attacher en toute sécurité des artefacts à sa ceinture.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Le Module d'Application d'Artefact (AAM) filtre une quantité importante de particules de radiation émises par les artefacts. Ce module mécanique avancé est le moyen le plus efficace d'exploiter la puissance des artefacts les plus puissants. Le filtre Artefact est composé de nombreuses couches de nanocarbone, ce qui le rend léger et lui confère les meilleures propriétés de blindage contre les radiations parmi tous les dispositifs. Considéré comme un symbole de richesse dans la Zone. Il est principalement utilisé par les scientifiques pour minimiser les effets nocifs des artefacts. Conçu et fabriqué en Ukraine par un institut gouvernemental qui fournit du matériel aux scientifiques résidant dans la Zone de la Zone. En cas d'urgence ou s'il n'est plus nécessaire, le module peut être utilisé comme source de métal de qualité pour les réparations de tenues ou de casques. Actuellement inutilisable. Pour l'attacher à la ceinture, vous devez y placer un Artefact. Le Artefact conservera ses caractéristiques, à l'exception d'une réduction de la radiation émise. Comparé au AAC, le AAM est capable de filtrer les neutrons. Formés uniquement par les artefacts les plus instables, les neutrons peuvent pénétrer la peau et, à haute dose, endommager l'ADN et les organes internes en provoquant une instabilité des noyaux atomiques des molécules, qui peuvent alors se désintégrer et causer des dommages supplémentaires. Même si le neutron est « absorbé en toute sécurité », une exposition suffisante entraînera un empoisonnement au deutérium.\n \n
+		%c[pda_blue]Détails\n
+		%c[pda_white]• %c[ui_gray_2]Il est nécessaire de retirer les artefacts du conteneur avant de les vendre.\n
+		%c[pda_white]• %c[ui_gray_2]Faites glisser et déposez un artefact sur le conteneur pour le ranger à l'intérieur.\n
+		%c[pda_white]• Poids : %c[ui_gray_2]3,06 kg\n
+		%c[pda_white]• Radiation maximale contenue : %c[ui_gray_2]23 mSv\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_detector_radio">
+		<text>Récepteur RF</text>
+	</string>
+	<string id="encyclopedia_items_detector_radio_text">
+		<text>Le %c[pda_white]Récepteur RF %c[ui_gray_2]est un petit dispositif équipé d'un module RF très sensible, utilisé pour les communications de base.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Assez courant parmi les soldats malgré sa technologie ancienne. Comme son nom l'indique, il a la capacité d'interagir avec les signaux radio dans un rayon de 200 m. L'appareil est capable de traiter les ondes radio dans une plage de fréquences comprise entre 30 MHz et 300 MHz.\n \n
+		%c[pda_blue]Utilisation\n
+		%c[ui_gray_2]En maintenant le récepteur, vous pouvez changer la fréquence radio.\n
+		%c[pda_white]• %c[ui_gray_2]Appuyez sur le bouton '%c[pda_white]Mouse-1%c[ui_gray_2]' pour augmenter la fréquence.\n
+		%c[pda_white]• %c[ui_gray_2]Appuyez sur le bouton '%c[pda_white]Mouse-2%c[ui_gray_2]' pour diminuer la fréquence.\n
+		%c[pda_white]• %c[ui_gray_2]Maintenez le bouton '%c[pda_white]Left-Shift%c[ui_gray_2]' pour augmenter les sauts de fréquence de 10 Hz lors de l'augmentation ou de la diminution de la fréquence actuelle.\n
+		%c[pda_white]• %c[ui_gray_2]Maintenez le bouton '%c[pda_white]Left-Alt%c[ui_gray_2]' pour augmenter les sauts de fréquence de 50 Hz lors de l'augmentation ou de la diminution de la fréquence actuelle.\n
+		%c[pda_white]• %c[ui_gray_2]Consomme %c[pda_white]0,1 µAh/s%c.
+		</text>
+	</string>
+	
+</string_table>

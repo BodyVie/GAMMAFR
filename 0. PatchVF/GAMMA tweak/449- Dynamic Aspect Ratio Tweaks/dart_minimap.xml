@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+  <string id="ui_mcm_dart_minimap_title">
+    <text>Paramètres de la mini-carte</text>
+  </string>
+
+  <string id="ui_mcm_menu_dart_minimap">
+    <text>Mini-carte</text>
+  </string>
+
+  <string id="ui_mcm_dart_minimap_alpha">
+    <text>Opacité de la mini-carte</text>
+  </string>
+
+  <string id="ui_mcm_dart_minimap_alpha_desc">
+    <text>Ajustez l'opacité de la mini-carte. Des valeurs plus élevées la rendent plus opaque. Des valeurs plus faibles la rendent plus transparente.</text>
+  </string>
+
+  <string id="ui_mcm_dart_minimap_alpha_note">
+    <text>REMARQUE : définissez sur -1 pour utiliser la valeur par défaut de la mini-carte.</text>
+  </string>
+
+  <string id="ui_mcm_dart_minimap_clockOffsetX">
+    <text>Décalage horizontal de l'horloge</text>
+  </string>
+
+  <string id="ui_mcm_dart_minimap_clockOffsetX_desc">
+    <text>Ajustez la position horizontale de l'horloge. Les valeurs positives la déplacent vers la droite. Les valeurs négatives la déplacent vers la gauche.</text>
+  </string>
+
+  <string id="ui_mcm_dart_minimap_clockOffsetY">
+    <text>Décalage vertical de l'horloge</text>
+  </string>
+
+  <string id="ui_mcm_dart_minimap_clockOffsetY_desc">
+    <text>Ajustez la position verticale de l'horloge. Les valeurs positives la déplacent vers le bas. Les valeurs négatives la déplacent vers le haut.</text>
+  </string>
+
+  <string id="ui_mcm_dart_minimap_clockOffset_note">
+    <text>REMARQUE : cela n'affecte que la mini-carte circulaire, car la position de l'horloge est fixe sur la mini-carte carrée.</text>
+  </string>
+</string_table>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_pda_3_name">
+		<text>PDA v3.1 avec KilTrak(tm)</text>
+	</string>
+	<string id="st_pda_3_descr">
+		<text>Appareil électronique de poche conçu pour couvrir les fonctions essentielles d'un ordinateur, le PDA est indispensable au partage quotidien d'informations. Il est équipé d'un module GPS préinstallé, fournissant à l'utilisateur des données de géolocalisation et d'horodatage. Cette version améliorée a été considérablement optimisée pour détecter et traiter les positions des autres modules connectés au réseau, ce qui en fait un outil très prisé parmi les stalkers. Contrairement aux modules GPS standards, celui-ci utilise un ensemble de codes pour débloquer des privilèges spéciaux et accéder à des informations supplémentaires du réseau connecté. Cet appareil particulier est également livré avec une version piratée du logiciel IMI KilTrak.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Affiche les escouades neutres et les cibles éliminées\n
+		</text>
+	</string>
+	
+</string_table>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	
+    <string id="ui_mcm_menu_companion_inv">
+        <text>Déverrouillage inventaire compagnon</text>
+    </string>
+
+	<string id="ui_mcm_companion_inv_show_all">
+		<text>Affiche tous les objets de l'inventaire du compagnon</text>
+	</string>
+
+	<string id="ui_mcm_companion_inv_show_all_desc">
+		<text>[Cheaty] Cette option affiche tous les objets, y compris les éléments techniques et d'animation que vous ne devriez pas manipuler. Les objets révélés par cette option sont colorés en rouge.</text>
+	</string>
+	<string id="ui_mcm_companion_inv_show_klep">
+		<text>Afficher les objets acquis par le compagnon</text>
+	</string>
+
+	<string id="ui_mcm_companion_inv_show_klep_desc">
+		<text>Cette option affiche tous les objets à l'exception de ceux avec lesquels le compagnon a commencé. Tout ce qu'il a ramassé et qui serait normalement masqué est révélé. Les objets révélés par cette option sont colorés en doré.</text>
+	</string>
+
+
+
+
+</string_table>

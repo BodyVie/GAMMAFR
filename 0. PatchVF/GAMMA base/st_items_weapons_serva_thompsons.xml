@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_thompson_m1a1">
+		<text>Thompson M1A1</text>
+	</string>
+	<string id="st_wpn_thompson_m1a1_descr">
+		<text>Version simplifiée du pistolet-mitrailleur emblématique, conçue pour une production de masse et un usage militaire durant la Seconde Guerre mondiale. Dotée d'un mécanisme à culasse non calée et d'un chargeur droit, elle conserve la puissance de feu de ses prédécesseurs tout en étant plus économique et plus facile à fabriquer. Sa robustesse et son pouvoir d'arrêt en ont fait une arme prisée des soldats en combat frontal.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Birmingham Small Arms\n
+		</text>
+	</string>
+
+	<string id="st_wpn_thompson_1921">
+		<text>Thompson Modèle 1921</text>
+	</string>
+	<string id="st_wpn_thompson_1921_descr">
+		<text>Variante précoce et haut de gamme du célèbre pistolet-mitrailleur Thompson, réputée pour son fonctionnement fluide, sa cadence de tir élevée et son chargeur tambour emblématique. Initialement destinée aux forces de l'ordre et au marché civil, la « Machine à écrire de Chicago » est devenue tristement célèbre durant la Prohibition comme arme de prédilection des gangsters et des agents de la loi. Ses composants usinés avec précision et son design distinctif en font une arme de collection très recherchée.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Auto-Ordnance Company\n
+		</text>
+	</string>
+
+	<string id="st_up_m1a1_b8_name">
+		<text>Canon alourdi</text>
+	</string>
+	<string id="st_up_m1a1_b8_descr">
+		<text>Installation d'un canon alourdi pour améliorer le recul.</text>
+	</string>
+	<string id="st_up_m1a1_b5_name">
+		<text>Crosse polymère</text>
+	</string>
+	<string id="st_up_m1a1_b5_descr">
+		<text>Installation d'une crosse polymère pour réduire le poids.</text>
+	</string>
+	<string id="st_up_m1a1_b6_name">
+		<text>Garde-main polymère</text>
+	</string>
+	<string id="st_up_m1a1_b6_descr">
+		<text>Installation d'un garde-main polymère pour réduire le poids.</text>
+	</string>
+		<string id="st_up_m1a1_b7_name">
+		<text>Pièces anticorrosion</text>
+	</string>
+	<string id="st_up_1921_b7_descr">
+		<text>Installation de composants anticorrosion pour réduire la dégradation de l'arme.</text>
+	</string>
+
+	<string id="st_up_1921_b8_name">
+		<text>Pièces importées haut de gamme</text>
+	</string>
+	<string id="st_up_1921_b8_descr">
+		<text>Installation de pièces importées de qualité supérieure pour augmenter la fiabilité.</text>
+	</string>
+	<string id="st_up_1921_b5_name">
+		<text>Crosse polymère</text>
+	</string>
+	<string id="st_up_1921_b5_descr">
+		<text>Installation d'une crosse polymère pour réduire le poids.</text>
+	</string>
+	<string id="st_up_1921_b6_name">
+		<text>Garde-main polymère</text>
+	</string>
+	<string id="st_up_1921_b6_descr">
+		<text>Installation d'un garde-main polymère pour réduire le poids.</text>
+	</string>
+		<string id="st_up_1921_b7_name">
+		<text>Pièces anticorrosion</text>
+	</string>
+	<string id="st_up_1921_b7_descr">
+		<text>Installation de composants anticorrosion pour réduire la dégradation de l'arme.</text>
+	</string>
+
+	<string id="st_up_1921_b9_name">
+		<text>Mécanisme Blish réusiné</text>
+	</string>
+	<string id="st_up_1921_b9_descr">
+		<text>Installation d'un mécanisme de verrouillage optimisé pour améliorer considérablement la fiabilité.</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_mag_groza_9x39_pab9">
+		<text>Chargeur Groza 9x39 30 cartouches</text>
+	</string>
+	<string id="st_mag_groza_9x39_pab9_descr">
+		<text>
+			Chargeur de 30 cartouches en calibre 9x39, fourni en standard avec le fusil d'assaut OTs-14 Groza. Sa conception s'inspire des chargeurs de type AK.
+		</text>
+	</string>
+	
+</string_table>	

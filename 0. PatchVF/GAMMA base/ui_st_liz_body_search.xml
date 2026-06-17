@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    <string id="ui_mcm_menu_liz_body_search">
+        <text>Animation de fouille corporelle</text>
+    </string>
+
+    <string id="ui_mcm_title_liz_body_search">
+        <text>Animation de fouille corporelle</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_wpn_lower_mode">
+        <text>Baisser l'arme pendant la fouille</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_enable_anm_for_containers">
+        <text>Jouer l'animation pour les conteneurs</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_enable_crouch">
+        <text>Activer la position accroupie</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_disable_walk">
+        <text>Désactiver les déplacements pendant la fouille</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_enable_random_search_time">
+        <text>Délai aléatoire avant ouverture de l'inventaire</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_enable_random_search_time_desc">
+        <text>Permet d'augmenter la durée entre le début de la fouille d'un corps et l'apparition de l'interface de l'inventaire.\nRouvrez les paramètres MCM après avoir activé cette option afin de faire apparaître le curseur de délai.</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_random_search_time_max">
+        <text>Plage de délai aléatoire</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_wpn_lower_type_none">
+        <text>Ne pas baisser l'arme</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_wpn_lower_type_pistols">
+        <text>Baisser uniquement les pistolets</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_wpn_lower_type_all">
+        <text>Tout baisser</text>
+    </string>
+</string_table>

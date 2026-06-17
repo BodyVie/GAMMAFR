@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_placeable_workshop">
+		<text>Atelier portable</text>
+	</string>
+	<string id="st_placeable_workshop_descr">
+		<text>Combinaison d'une table déployable, d'outils d'atelier et d'une cache intégrée. Cela permet au stalkers d'être plus autonome dans des zones peu accueillantes, bien que son poids dissuade de bricoler en déplacement.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		%c[d_orange] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Utilisable comme cache\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Réparation d'équipement\n
+		</text>
+	</string>
+	
+</string_table>

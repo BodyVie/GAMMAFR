@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_udp9">
+		<text>Carabine UDP-9</text>
+	</string>
+	<string id="st_wpn_udp9_descr">
+		<text>Plateforme tactique en 9 mm conçue pour sa polyvalence et ses hautes performances en milieux urbains et en zones ouvertes. Dotée d'une structure de type AR et de commandes intuitives, elle allie précision et capacité de tir rapide. Son design modulaire permet une personnalisation aisée, tandis que sa taille compacte en fait une arme idéale pour les combats rapprochés ou comme arme de secours lors d'affrontements intenses. Équipée d'un système de recul fiable et d'une précision à distance, l'UDP-9 constitue un choix solide pour quiconque recherche un équilibre entre puissance de feu et maniabilité.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Angstadt Arms\n
+		</text>
+	</string>
+
+</string_table>

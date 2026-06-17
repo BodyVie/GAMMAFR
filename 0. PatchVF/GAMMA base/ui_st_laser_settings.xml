@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_menu_laser_settings">
+		<text>Paramètres du laser</text>
+	</string>
+	<string id="ui_mcm_title_laser_settings">
+		<text>Paramètres du laser</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_no_laser_primary_aim">
+		<text>Masquer le laser en visée (Principal)</text>
+	</string>
+	<string id="ui_mcm_laser_settings_no_laser_primary_aim_desc">
+		<text>Masque le laser lors de la visée dans les organes de visée.</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_no_laser_alt_aim">
+		<text>Masquer le laser en visée (Alt)</text>
+	</string>
+	<string id="ui_mcm_laser_settings_no_laser_alt_aim_desc">
+		<text>Masque le laser lors de l'utilisation de la visée alternative.</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_dist_bright">
+		<text>Échelle de luminosité selon la distance</text>
+	</string>
+	<string id="ui_mcm_laser_settings_dist_bright_desc">
+		<text>La luminosité du laser s'atténue avec la distance. Désactivez cette option pour conserver une luminosité constante à toutes les distances.</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_dist_size">
+		<text>Échelle de taille selon la distance</text>
+	</string>
+	<string id="ui_mcm_laser_settings_dist_size_desc">
+		<text>La taille du point laser diminue avec la distance. Désactivez cette option pour conserver une taille de point constante à toutes les distances.</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_config_key">
+		<text>Ouvrir le panneau de configuration</text>
+	</string>
+	<string id="ui_mcm_laser_settings_config_key_desc">
+		<text>Touche pour ouvrir les paramètres du laser par arme. Maintenez une arme équipée d'un laser et appuyez sur cette touche.</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_debug_mode">
+		<text>Mode débogage</text>
+	</string>
+	<string id="ui_mcm_laser_settings_debug_mode_desc">
+		<text>Active le bouton Exporter vers les valeurs par défaut dans les paramètres par arme. Destiné aux créateurs de packs de mods pour écrire les paramètres dans le fichier de configuration distribuable.</text>
+	</string>
+	<string id="ui_mcm_laser_settings_use_mcm_defaults">
+		<text>Utiliser les valeurs par défaut</text>
+	</string>
+	<string id="ui_mcm_laser_settings_use_mcm_defaults_desc">
+		<text>Applique les curseurs ci-dessous comme apparence par défaut du laser pour toutes les armes. Les paramètres par arme remplacent néanmoins ces valeurs.</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_mcm_brightness">
+		<text>Luminosité du point</text>
+	</string>
+	<string id="ui_mcm_laser_settings_mcm_brightness_desc">
+		<text>Intensité du point laser projeté sur les surfaces.</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_mcm_dot_size">
+		<text>Taille du point</text>
+	</string>
+	<string id="ui_mcm_laser_settings_mcm_dot_size_desc">
+		<text>Taille du point laser projeté sur les surfaces.</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_mcm_beam_brightness">
+		<text>Luminosité du faisceau</text>
+	</string>
+	<string id="ui_mcm_laser_settings_mcm_beam_brightness_desc">
+		<text>Intensité du faisceau laser visible dans l'air.</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_mcm_beam_size">
+		<text>Épaisseur du faisceau</text>
+	</string>
+	<string id="ui_mcm_laser_settings_mcm_beam_size_desc">
+		<text>Épaisseur du faisceau laser visible dans l'air.</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_mcm_hue">
+		<text>Teinte</text>
+	</string>
+	<string id="ui_mcm_laser_settings_mcm_hue_desc">
+		<text>Décalage de couleur du laser (0 = rouge, 33 = vert, 66 = bleu).</text>
+	</string>
+	<string id="ui_laser_panel_title">
+		<text>Paramètres du laser</text>
+	</string>
+	<string id="ui_laser_panel_brightness">
+		<text>Luminosité du point</text>
+	</string>
+	<string id="ui_laser_panel_dot_size">
+		<text>Taille du point</text>
+	</string>
+	<string id="ui_laser_panel_beam_brightness">
+		<text>Luminosité du faisceau</text>
+	</string>
+	<string id="ui_laser_panel_beam_size">
+		<text>Épaisseur du faisceau</text>
+	</string>
+	<string id="ui_laser_panel_hue">
+		<text>Teinte du laser</text>
+	</string>
+	<string id="ui_laser_panel_hide_primary">
+		<text>Masquer le laser en visée (Principal)</text>
+	</string>
+	<string id="ui_laser_panel_hide_alt">
+		<text>Masquer le laser en visée (Alt)</text>
+	</string>
+	<string id="ui_laser_panel_reset">
+		<text>Rétablir les valeurs par défaut</text>
+	</string>
+	<string id="ui_laser_panel_export">
+		<text>Exporter vers les valeurs par défaut</text>
+	</string>
+	<string id="ui_laser_panel_close">
+		<text>Fermer</text>
+	</string>
+	<string id="ui_laser_panel_exported">
+		<text>Paramètres du laser exportés vers [%s]</text>
+	</string>
+</string_table>

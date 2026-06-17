@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    <string id="ui_mcm_menu_varefined">
+        <text>Voix optimisées</text>
+    </string>
+    <string id="ui_mcm_varefined_title">
+        <text>Voix des acteurs optimisées</text>
+    </string>
+    <string id="ui_mcm_menu_varefined_main">
+        <text>Général</text>
+    </string>
+    <string id="ui_mcm_menu_varefined_generated_chance">
+        <text>Chances de réaction</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_voice_language_description">
+        <text>Langue des répliques des acteurs. Par faction - ISG et Mercenaires en anglais, autres factions en russe. Seules les options « Russe uniquement » et « Anglais uniquement » sont explicites. Modifiable en cours de partie</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_voice_language">
+        <text>Langue des voix des acteurs</text>
+    </string>
+    <string id="ui_mcm_lst_voice_language_by_faction">
+        <text>Par faction</text>
+    </string>
+    <string id="ui_mcm_lst_voice_language_russian">
+        <text>Russe</text>
+    </string>
+    <string id="ui_mcm_lst_voice_language_english">
+        <text>Anglais</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_shouts_description">
+        <text>Active/désactive divers cris de l'acteur selon les circonstances. Contient des jurons. Modifiable en cours de partie. ATTENTION ! Si « WPO-&gt;Taunts on jaming » est activé, VA Refined le désactivera pour éviter les doublons</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_enable_on_kill_shouts">
+        <text>Cris lors des éliminations</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_enable_on_weapon_jam_shouts">
+        <text>Cris lors de l'enrayage de l'arme</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_enable_on_weapon_reload_shouts">
+        <text>Cris lors du rechargement de l'arme</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_enable_on_grenade_throw_shouts">
+        <text>Cris lors du lancer de grenade</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_enable_companions_commands_shouts">
+        <text>Répliques de commandes des compagnons</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_shouts_pain_muffled_description">
+        <text>Douleur et voix étouffées avec masque/casque. Modifiable en cours de partie</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_enable_pain_shouts">
+        <text>Répliques de douleur de l'acteur</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_enable_muffled_shouts">
+        <text>Voix étouffées avec masque/casque</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_comments_shouts_key_description">
+        <text>Commentaires vocaux de l'acteur par raccourci, tenant compte de l'environnement et de l'état. Contient des jurons. Modifiable en cours de partie</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_comments_shouts_key">
+        <text>Commentaires VA</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_random_shouts_key_description">
+        <text>Cris et phrases aléatoires de l'acteur par raccourci, sans prise en compte de l'environnement. Contient des jurons. Modifiable en cours de partie</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_random_shouts_key">
+        <text>Cris aléatoires VA</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_shouts_volume_description">
+        <text>Régulation du niveau de volume pour tous les sons de ce mod</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_shouts_volume">
+        <text>Niveau de volume VA</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_va_global_volume_influence_description">
+        <text>Impact du volume sonore global sur les répliques VA. 0 = volume VA indépendant. 1 = volume VA entièrement lié au volume global</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_va_global_volume_influence">
+        <text>Volume VA affecté par le volume sonore global</text>
+    </string>
+</string_table>

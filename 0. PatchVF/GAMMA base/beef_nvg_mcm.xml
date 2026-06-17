@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!-- 
+	Anomaly Modconfiguration Menu strings
+	
+-->
+
+<string_table>
+
+	<string id="ui_mcm_beef_nvg_title">
+		<text>Paramètres de la vision nocturne Beef</text>
+	</string>	
+	
+	<string id="ui_mcm_beef_nvg_title_2">
+		<text>Compatibilité avec les lunettes 2D basées sur les shaders</text>
+	</string>	
+	
+	<string id="ui_mcm_menu_beef_nvg">
+		<text>Vision nocturne Beef</text>
+	</string>
+
+
+	<string id="ui_mcm_beef_nvg_nvg_gain_max_mcm">
+		<text>Gain maximal applicable aux NVG</text>
+	</string>
+	<string id="ui_mcm_beef_nvg_nvg_gain_max_mcm_desc">
+		<text>Des valeurs plus élevées vous offrent une plus grande « luminosité », bien que celle-ci finisse par atteindre une limite maximale. Il est recommandé de régler cette valeur en fonction de la météo cloudy_dark_2 à minuit.</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gain_min_mcm">
+		<text>Gain minimal applicable aux NVG</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gain_min_mcm_desc">
+		<text>Des valeurs plus basses vous permettent de réduire davantage la luminosité des jumelles de vision nocturne - des valeurs très basses vous permettront même de les utiliser en plein jour.</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gain_offset_mcm">
+		<text>Décalage appliqué à la luminosité ambiante</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gain_offset_mcm_desc">
+		<text>1,0 laisse la luminosité ambiante inchangée, des valeurs plus élevées multiplient la luminosité ambiante (mais pas les sources de lumière).</text>
+	</string>
+
+
+	<string id="ui_mcm_beef_nvg_nvg_washout_thresh_mcm">
+		<text>Seuil de surexposition des sources lumineuses</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_washout_thresh_mcm_desc">
+		<text>Il est généralement recommandé de conserver cette valeur à 0,1, mais elle peut être augmentée pour réduire légèrement l'effet de surexposition sur les sources de lumière. 
+		Cette valeur évolue en fonction du gain des jumelles de vision nocturne, de sorte que des gains plus élevés entraînent davantage de surexposition et des gains plus faibles en entraînent moins.</text>
+	</string>
+	
+	
+	<string id="ui_mcm_beef_nvg_nvg_view_through_scope_mcm">
+		<text>Utilisation des NVG en visée</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_view_through_scope_mcm_desc">
+		<text>Si cette case est cochée, vous pouvez conserver vos jumelles de vision nocturne activées en mode visée. Si elle n'est pas cochée, votre personnage désactivera ses jumelles de vision nocturne lors de la montée de l'arme.</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_stays_pda_mcm">
+		<text>Conservation des NVG lors de la consultation du PDA</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_stays_pda_mcm_desc">
+		<text>Si cette case n'est pas cochée, vos jumelles de vision nocturne se désactivent automatiquement lorsque vous consultez votre PDA.</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gen1_tubes_mcm">
+		<text>Configuration du tube Gen 1 : (Tube unique centré par défaut)</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gen1_tubes_mcm_desc">
+		<text>Choisissez le nombre de tubes pour les jumelles de vision nocturne de génération 1.</text>
+	</string>
+
+	<string id="ui_mcm_beef_nvg_nvg_gen2_tubes_mcm">
+		<text>Configuration Gen 2 : tubes doubles centrés (par défaut)</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gen2_tubes_mcm_desc">
+		<text>Choisissez le nombre de tubes pour les jumelles de vision nocturne de génération 2.</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gen3_tubes_mcm">
+		<text>Configuration Gen 3 : tubes quadruples centrés (par défaut)</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gen3_tubes_mcm_desc">
+		<text>Choisissez le nombre de tubes pour les jumelles de vision nocturne de génération 3.</text>
+	</string>
+
+	
+	<string id="ui_mcm_lst_single_centered">
+		<text>Tube unique centré</text>
+	</string>
+	
+	<string id="ui_mcm_lst_single_left">
+		<text>Tube unique à gauche</text>
+	</string>
+	
+	<string id="ui_mcm_lst_single_right">
+		<text>Tube unique à droite</text>
+	</string>
+	
+	<string id="ui_mcm_lst_dual_centered">
+		<text>Tubes doubles centrés</text>
+	</string>
+	
+	<string id="ui_mcm_lst_quad_centered">
+		<text>Tubes quadruples centrés</text>
+	</string>
+	
+	
+	
+	<string id="ui_mcm_beef_nvg_nvg_gen1_mode_mcm">
+		<text>Arrière-plan de superposition Gen 1 : (Aucune superposition par défaut)</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gen1_mode_mcm_desc">
+		<text>Choisissez le type de fond superposé que vous souhaitez utiliser.</text>
+	</string>
+
+	<string id="ui_mcm_beef_nvg_nvg_gen2_mode_mcm">
+		<text>Arrière-plan de superposition Gen 2 : (Superposition floutée par défaut)</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gen2_mode_mcm_desc">
+		<text>Choisissez le type de fond superposé que vous souhaitez utiliser.</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gen3_mode_mcm">
+		<text>Arrière-plan de superposition Gen 3 : (Superposition floutée par défaut)</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gen3_mode_mcm_desc">
+		<text>Choisissez le type de fond superposé que vous souhaitez utiliser.</text>
+	</string>
+	
+	
+	<string id="ui_mcm_lst_blurred_background">
+		<text>Superposition floutée</text>
+	</string>
+	
+	<string id="ui_mcm_lst_black_background">
+		<text>Superposition noire</text>
+	</string>
+	
+	<string id="ui_mcm_lst_image_overlay">
+		<text>Superposition d'image (non implémenté)</text>
+	</string>
+	
+	<string id="ui_mcm_lst_clear_vision">
+		<text>Aucune superposition (vision claire)</text>
+	</string>
+	
+	
+	<string id="ui_mcm_beef_nvg_shader_scope_compat">
+		<text>Cochez cette case si vous utilisez une lunette 2D basée sur les shaders</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_shader_scope_compat_desc">
+		<text>En raison des effets de shader, si vous utilisez des viseurs 2D basés sur les shaders, vous devez cocher cette case. Dans le cas contraire, ne la cochez pas.</text>
+	</string>
+	
+</string_table>

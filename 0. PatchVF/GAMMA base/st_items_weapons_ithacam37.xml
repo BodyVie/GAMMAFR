@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_ithacam37">
+		<text>Ithaca M37 Riot</text>
+	</string>
+	<string id="st_wpn_ithacam37_descr">
+		<text>L'une des fusils à pompe les plus reconnues des États-Unis, détenant le record de la plus longue production pour un fusil à pompe dans l'histoire, l'Ithaca M37 a été conçu pour un usage policier, militaire et civil général. Il utilise une combinaison innovante d'éjection et de port de chargement situé sur la partie inférieure de l'arme, laissant les côtés fermés aux éléments. Doté d'un canon raccourci et d'une poignée pistolet, le modèle « Riot » est largement considéré comme la version standard de l'Ithaca M37.\n \n
+		%c[pda_white]CARACTÉRISTIQUES:\n
+		%c[d_cyan] • %c[pda_white] Origine: %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant: %c[ui_gray_2]Ithaca Gun Company\n
+		</text>
+	</string>
+		
+	<string id="st_wpn_ithacam37_trench">
+		<text>Ithaca M37 Trenchgun</text>
+	</string>
+	<string id="st_wpn_ithacam37_trench_descr">
+		<text>L'une des fusils à pompe les plus reconnues des États-Unis, détenant le record de la plus longue production pour un fusil à pompe dans l'histoire, l'Ithaca M37 a été conçu pour un usage policier, militaire et civil général. Il utilise une combinaison innovante d'éjection et de port de chargement situé sur la partie inférieure de l'arme, laissant les côtés fermés aux éléments. Le modèle « Trenchgun » inclut une fixation pour baïonnette et un bouclier thermique pour faciliter le refroidissement de l'arme.\n \n
+		%c[pda_white]CARACTÉRISTIQUES:\n
+		%c[d_cyan] • %c[pda_white] Origine: %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant: %c[ui_gray_2]Ithaca Gun Company\n
+		</text>
+	</string>
+		
+	<string id="st_wpn_ithacam37_extmag">
+		<text>Ithaca M37 Defense</text>
+	</string>
+	<string id="st_wpn_ithacam37_extmag_descr">
+		<text>L'une des fusils à pompe les plus reconnues des États-Unis, détenant le record de la plus longue production pour un fusil à pompe dans l'histoire, l'Ithaca M37 a été conçu pour un usage policier, militaire et civil général. Il utilise une combinaison innovante d'éjection et de port de chargement situé sur la partie inférieure de l'arme, laissant les côtés fermés aux éléments. Le modèle « Defense » offre une capacité de 7 cartouches et utilise du polymère à la place du bois, avec un fini en acier inoxydable pour réduire le poids et améliorer la fiabilité.\n \n
+		%c[pda_white]CARACTÉRISTIQUES:\n
+		%c[d_cyan] • %c[pda_white] Origine: %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant: %c[ui_gray_2]Ithaca Gun Company\n
+		</text>
+	</string>
+		
+	<string id="st_wpn_ithacam37_stakeout">
+		<text>Ithaca M37 Stakeout</text>     
+	</string>
+	<string id="st_wpn_ithacam37_stakeout_descr">
+		<text>L'une des fusils à pompe les plus reconnues des États-Unis, détenant le record de la plus longue production pour un fusil à pompe dans l'histoire, l'Ithaca M37 a été conçu pour un usage policier, militaire et civil général. Il utilise une combinaison innovante d'éjection et de port de chargement situé sur la partie inférieure de l'arme, laissant les côtés fermés aux éléments. Le modèle « Stakeout » se distingue par un canon raccourci de 330 mm et une crosse à poignée pistolet.\n \n
+		%c[pda_white]CARACTÉRISTIQUES:\n
+		%c[d_cyan] • %c[pda_white] Origine: %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant: %c[ui_gray_2]Ithaca Gun Company\n
+		</text>
+	</string>
+		
+	<string id="st_wpn_ithacam37_sawnoff">
+		<text>Ithaca M37 (Sawn-off)</text>
+	</string>
+	<string id="st_wpn_ithacam37_sawnoff_descr">
+		<text>L'une des fusils à pompe les plus reconnues des États-Unis, détenant le record de la plus longue production pour un fusil à pompe dans l'histoire, l'Ithaca 37 a été conçu pour un usage policier, militaire et civil général. Il utilise une combinaison innovante d'éjection et de port de chargement situé sur la partie inférieure de l'arme, laissant les côtés fermés aux éléments. Cette crosse a été officieusement raccourcie pour réduire le poids.\n \n
+		%c[pda_white]CARACTÉRISTIQUES:\n
+		%c[d_cyan] • %c[pda_white] Origine: %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant: %c[ui_gray_2]Ithaca Gun Company\n
+		</text>
+	</string>
+	
+</string_table>

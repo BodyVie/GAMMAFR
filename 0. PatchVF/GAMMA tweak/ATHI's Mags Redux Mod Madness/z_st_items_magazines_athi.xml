@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    <string id="mag_kriss45">
+		<text>Chargeur standard .45 ACP pour Vector</text>
+	</string>
+	<string id="mag_kriss45_descr">
+		<text>
+		Chargeur standard en .45 ACP pour Vector, d'une capacité de 30 cartouches.
+		</text>
+	</string>
+	
+	<string id="mag_kriss9">
+		<text>Chargeur Glock 9x19 étendu</text>
+	</string>
+	<string id="mag_kriss9_descr">
+		<text>
+		Chargeur prolongé pour Glock, chambré en 9x19 mm Parabellum, d'une capacité de 33 cartouches.
+		</text>
+	</string>
+	
+	<string id="ext_mag_kriss_drum">
+		<text>.45 ACP Chargeur Tambour Vector</text>
+	</string>
+	<string id="ext_mag_kriss_drum_descr">
+		<text>
+		Chargeur tambour en .45 ACP pour Vector, d'une capacité de 45 cartouches.
+		</text>
+	</string>
+	
+	<string id="ext_mag_kriss9_drum">
+		<text>Chargeur Tambour Standard 9x19 Glock</text>
+	</string>
+	<string id="ext_mag_kriss9_drum_descr">
+		<text>
+		Chargeur tambour pour Glock, chambré en 9x19 mm Parabellum, d'une capacité de 50 cartouches.
+		</text>
+	</string>	
+</string_table>

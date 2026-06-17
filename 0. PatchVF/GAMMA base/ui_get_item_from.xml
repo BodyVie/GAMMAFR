@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    <!-- Sorter -->
+    <string id="ui_get_item_from">
+        <text>Obtenu après désassemblage</text>
+    </string>
+</string_table>

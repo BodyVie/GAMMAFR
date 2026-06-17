@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="ui_mcm_menu_remember_outfit_belt">
+		<text>Mémoriser la ceinture de tenue</text>
+	</string>
+
+	<string id="ui_mcm_remember_outfit_belt_title">
+		<text>Mémoriser la ceinture de tenue</text>
+	</string>
+
+	<string id="ui_mcm_remember_outfit_belt_title_desc">
+		<text>Crée un registre persistant des objets équipés sur la ceinture d'une tenue et les rééquipe automatiquement chaque fois que vous portez à nouveau cette tenue.</text>
+	</string>
+
+	<string id="ui_mcm_remember_outfit_belt_memory_limit">
+		<text>Limite de mémoire</text>
+	</string>
+	<string id="ui_mcm_remember_outfit_belt_memory_limit_desc">
+		<text>Nombre maximal de tenues dont la configuration de la ceinture sera mémorisée.\nLorsque ce nombre est dépassé, la mémoire de la ceinture de la tenue portée le moins récemment est supprimée.</text>
+	</string>
+
+</string_table>

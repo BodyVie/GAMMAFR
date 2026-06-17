@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+    <string id="ui_mcm_menu_craft_from_stashes">
+		<text>Fabriquer depuis les caches</text>
+	</string>
+    <string id="ui_mcm_craft_from_stashes_range">
+		<text>Portée de fabrication (m) pour fouiller les caches</text>
+	</string>
+	<string id="ui_mcm_craft_from_stashes_range_desc">
+		<text>Distance en mètres entre le joueur et les caches dans lesquelles effectuer des opérations de fabrication, de réparation ou de fonte.</text>
+	</string>
+    <string id="ui_mcm_craft_from_stashes_cooking_range">
+		<text>Portée de cuisson (m) pour fouiller les caches</text>
+	</string>
+	<string id="ui_mcm_craft_from_stashes_cooking_range_desc">
+		<text>Distance en mètres entre le joueur et les caches dans lesquelles effectuer des opérations de cuisson.</text>
+	</string>
+    <string id="ui_mcm_craft_from_stashes_artefact_high_priority">
+		<text>Utiliser le meilleur artefact</text>
+	</string>
+    <string id="ui_mcm_craft_from_stashes_artefact_high_priority_desc">
+		<text>Priorité de fabrication des Artefacts du niveau de condition le plus élevé au plus bas (à l'exception de l'aptitude artefacts).</text>
+	</string>
+</string_table>

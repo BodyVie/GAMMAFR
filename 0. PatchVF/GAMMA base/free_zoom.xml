@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_menu_free_zoom">
+		<text>Zoom libre</text>
+	</string>
+	<string id="ui_mcm_free_zoom_key_bind_toggle">
+		<text>Raccourci zoom libre</text>
+	</string>
+	<string id="ui_mcm_free_zoom_key_bind_toggle_desc">
+        <text>Permet de concentrer votre vision en effectuant un zoom, au détriment de la vitesse de déplacement.
+        </text>
+	</string>
+	<string id="ui_mcm_free_zoom_pistol_mult">
+		<text>Multiplicateur FOV pistolet</text>
+	</string>
+	<string id="ui_mcm_free_zoom_pistol_mult_desc">
+        <text>Ajuste le champ de vision (FOV) pour les pistolets uniquement. L'augmenter éloigne les pistolets de la caméra.
+        </text>
+	</string>
+	<string id="ui_mcm_free_zoom_ads_mult">
+		<text>Multiplicateur ADS</text>
+	</string>
+	<string id="ui_mcm_free_zoom_ads_mult_desc">
+        <text>Détermine l'intensité du zoom lorsque vous visez dans la ligne de mire. Diminuer le multiplicateur renforce l'effet de zoom.
+        </text>
+	</string>
+	<string id="ui_mcm_free_zoom_free_zoom_mult">
+		<text>Multiplicateur zoom libre</text>
+	</string>
+	<string id="ui_mcm_free_zoom_free_zoom_mult_desc">
+        <text>Détermine l'intensité du zoom lorsque vous appuyez sur la touche de zoom libre. Diminuer le multiplicateur renforce l'effet de zoom.
+        </text>
+	</string>
+	<string id="ui_mcm_free_zoom_freezoom_toggleable">
+		<text>Zoom libre activable</text>
+	</string>
+</string_table>

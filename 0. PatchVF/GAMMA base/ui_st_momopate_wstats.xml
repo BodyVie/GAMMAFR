@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="ui_inv_wrange">
+		<text>%c[pda_white]Portée maximale :</text>
+	</string>
+	<string id="ui_inv_bspeed">
+		<text>%c[pda_white]Vitesse initiale :</text>
+	</string>
+	<string id="ui_inv_drag">
+		<text>%c[pda_white]Résistance à l'air :</text>
+	</string>
+	<string id="ui_inv_reli">
+		<text>%c[pda_white]Fiabilité :</text>
+	</string>
+	<string id="ui_inv_recoil">
+		<text>%c[pda_white]Contrôle du recul :</text>
+	</string>
+	
+	<string id="st_stat_meters">
+		<text>m</text>
+	</string>
+	<string id="st_stat_speed">
+		<text>m/s</text>
+	</string>
+	
+</string_table>

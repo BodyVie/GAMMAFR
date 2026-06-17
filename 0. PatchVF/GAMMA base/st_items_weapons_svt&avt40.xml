@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_avt40">
+		<text>AVT-40</text>
+	</string>
+	<string id="st_wpn_avt40_descr">
+		<text>L'AVT-40 est une variante entièrement automatique du SVT-40, conçue pour compenser la pénurie de mitrailleuses au sein de l'Armée rouge. Bien qu'elle n'ait pas connu un succès retentissant, elle a tout de même rempli son rôle dans une certaine mesure, à condition d'être utilisée en rafales de 3 ou 4 coups et non en tir automatique continu, le recul restant alors partiellement maîtrisable. Pour la distinguer des autres SVT, l'AVT-40 arbore la lettre « A » estampillée sur la crosse, ainsi que l'emblème de l'usine d'armement de Toula.\n \n
+		%c[ui_gray_2]ACCESSOIRES : \n%c[d_purple]• %c[ui_gray_2] Lunette spéciale PU\n \n</text>
+	</string>
+</string_table>

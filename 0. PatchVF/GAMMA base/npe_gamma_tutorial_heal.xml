@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+    <string id="ui_mcm_npe_module_gamma_tutorial_heal_heal">
+        <text>Tutoriel système de soins</text>
+    </string>
+
+    <string id="ui_mcm_npe_module_gamma_tutorial_heal_title">
+        <text>Tutoriels G.A.M.M.A.</text>
+    </string>
+
+    <string id="ui_mcm_npe_module_gamma_tutorial_health_desc">
+        <text>Système de soins</text>
+    </string>
+	
+    <!-- MCM -->
+    <!-- Name of the toggle that sets if tutorial has been completed-->
+    <string id="ui_mcm_npe_module_gamma_tutorial_heal">
+        <text>Soins G.A.M.M.A.</text>
+    </string>
+    <!-- MCM -->
+
+    <!-- Title of the whole tutorial -->
+    <string id="ui_mcm_npe_module_gamma_tutorial_heal_title">
+        <text>Tutoriel système de soins</text>
+    </string>
+
+    <!-- Cards -->
+    <!-- 1 -->
+    <string id="ui_gamma_tutorial_heal_card_01_title">
+        <text>Système de santé principal et des membres
+		</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_heal_card_01_description">
+        <text>Vous venez d'utiliser un objet pour vous soigner. Cependant, le système de soins dans GAMMA est un peu plus complexe que la simple utilisation d'un medkits.\n \n
+         • Votre santé est divisée en plusieurs réserves de santé individuelles :\n
+		 	 | - Santé principale (icône du personnage). \n
+		 	 | - Santé des membres individuels. \n
+		 	 | - Santé psychique. \n
+		 • Vous mourrez si votre santé principale atteint 0, si la santé de votre tête atteint 0, si la santé de votre torse atteint 0 ou si votre santé psychique atteint 0.\n
+		 • Les barres des jambes et des bras ont divers effets lorsqu'elles sont épuisées : \n
+		 	 | - Des bras endommagés provoquent des tremblements de visée. \n
+		 	 | - Des jambes endommagées vous ralentissent et infligent des dégâts à votre santé principale lorsque vous courez avec une jambe cassée. \n
+		</text>
+    </string>
+    <!-- 1 -->
+
+    <!-- 2 -->
+    <string id="ui_gamma_tutorial_heal_card_02_title">
+        <text>Récupération de la santé principale
+		</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_heal_card_02_description">
+        <text>• La santé principale peut être soignée à l'aide d'objets affichant une icône de coeur rouge, ce qui inclut principalement : \n
+			 	 | - Medkits (récupération lente de la santé). \n
+			 	 | - Stimpacks (récupération rapide de la santé). \n
+			 	 - Artefacts, peaux et objets de ceinture dotés de propriétés de régénération passive de la santé. \n  \n
+
+			  • Plus le rang du Medkit ou du stimulant est élevé, meilleure est la récupération de santé.  \n
+		</text>
+    </string>
+    <!-- 2 -->
+    
+    <!-- 3 -->
+    <string id="ui_gamma_tutorial_heal_card_03_title">
+        <text>Rétablissement de la santé des membres
+		</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_heal_card_03_description">
+        <text>%c[ui_white]• Les réserves de santé des membres comprennent deux types de santé :\n
+				| - %c[d_orange]Santé temporaire des membres%c[ui_white] (en jaune), qui diminue progressivement avec le temps.\n
+				| - %c[ui_gray_2]Santé permanente des membres%c[ui_white] (en blanc).\n
+			  • La %c[d_orange]santé temporaire des membres%c[ui_white] est restaurée en utilisant des objets de premiers soins affichant une icône de coeur rouge, comme les Bandages, les Medkits, les stimulants...\n
+			  • La %c[d_orange]santé temporaire des membres%c[ui_white] peut être convertie en %c[ui_gray_2]santé permanente des membres%c[ui_white] à l'aide d'objets de post-soin affichant une icône de coeur blanc, comme la Yadulin, l'antidote, l'ibuprofène... \n
+			  • La restauration de la santé des membres s'effectue en utilisant un objet de premiers soins (ex. : Bandage) suivi d'un objet de post-soin (ex. : Ibuprofène).\n
+			  • Les détails de la restauration de la %c[d_orange]santé temporaire des membres%c[ui_white] et de la conversion en %c[ui_gray_2]santé permanente des membres%c[ui_white] pour chaque objet sont précisés dans la description de l'objet. \n
+			  • La %c[d_orange]santé temporaire des membres%c[ui_white] est consommée avant la %c[ui_gray_2]santé permanente des membres%c[ui_white]. Ainsi, pendant les combats, utilisez simplement des bandages jusqu'à la fin du combat, puis convertissez la %c[d_orange]santé temporaire des membres%c[ui_white] en %c[ui_gray_2]santé permanente des membres%c[ui_white].\n
+		</text>
+    </string>
+    <!-- 3 -->
+
+    <!-- 4 -->
+    <string id="ui_gamma_tutorial_heal_card_04_title">
+        <text>Saignement
+		</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_heal_card_04_description">
+        <text>• Lorsqu'un dommage est subi, il existe une probabilité que la blessure récente saigne. Le saignement est indiqué par une icône de goutte de sang sur l'interface. Plus le saignement est intense, plus le contour de l'icône sera rouge (blanc &gt; jaune &gt; rouge).\n \n
+
+			  • Les saignements doivent être traités rapidement, car ils s'aggravent et infligent des dégâts importants au fil du temps. Ils peuvent être soignés à l'aide de : \n 
+				 	 | - Bandage (cicatrisation lente des saignements). \n
+				 	 | - Garrot (cicatrisation rapide des saignements). \n
+				 	 | - Propriétés passives de cicatrisation des saignements des Artefacts, peaux et objets de ceinture. \n \n
+					
+			  • Certains artefacts ont une récupération des saignements négative, qui doit être compensée par une récupération positive, sans quoi tout saignement s'aggravera rapidement.\n
+		</text>
+    </string>
+    <!-- 4 -->
+	
+    <!-- 5 -->
+    <string id="ui_gamma_tutorial_heal_card_05_title">
+        <text> Santé psychique
+		</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_heal_card_05_description">
+        <text>Certains ennemis peuvent infliger des dégâts à votre cerveau par le biais d'émissions psi (comme les Controllers). Les objets augmentant votre résistance psychique restaurent également votre santé psychique. Ces objets affichent une icône avec des ondes bleues, ce qui inclut : \n
+				 	 | - Psy-blockant. \n
+				 	 | - Somnifères. \n
+				 	 | - Étperazine. \n
+				 	 | - Marijuana et joints. \n
+				 	 | - Certaines boissons. \n
+				 	 | - Artefacts. \n  \n
+					 
+			%c[yellow]Vous pouvez revoir ce tutoriel en accédant au Menu de Configuration des Mods (MCM) &gt; Modules NPE &gt; G.A.M.M.A. et en décochant le tutoriel.\n \n
+		</text>
+    </string>
+    <!-- 5 -->
+    <!-- Cards -->
+
+</string_table>

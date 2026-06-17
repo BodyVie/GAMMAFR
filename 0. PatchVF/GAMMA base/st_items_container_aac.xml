@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--UNUSED -->
+
+	<string id="st_af_itcher_af_aac_name">
+		<text>AAC avec Itcher</text>
+	</string>  
+	<string id="st_af_itcher_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string> 
+
+	<string id="st_af_pin_af_aac_name">
+		<text>AAC avec Épingle</text>
+	</string>  
+	<string id="st_af_pin_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>  
+	
+	<string id="st_af_cristall_af_aac_name">
+		<text>AAC avec Crystal</text>
+	</string>
+	<string id="st_af_cristall_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_fireball_af_aac_name">
+		<text>AAC avec Boule de feu</text>
+	</string>
+	<string id="st_af_fireball_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_blood_af_aac_name">
+		<text>AAC avec Sang de Pierre</text>
+	</string>
+	<string id="st_af_blood_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_mincer_meat_af_aac_name">
+		<text>AAC avec Morceau de Viande</text>
+	</string>
+	<string id="st_af_mincer_meat_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_bracelet_af_aac_name">
+		<text>AAC avec Bracelet</text>
+	</string>  
+	<string id="st_af_bracelet_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>  
+	
+	<string id="st_af_baloon_af_aac_name">
+		<text>AAC avec Bulle</text>
+	</string>
+	<string id="st_af_baloon_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_electra_sparkler_af_aac_name">
+		<text>AAC avec Étincelle</text>
+	</string>
+	<string id="st_af_electra_sparkler_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_sponge_af_aac_name">
+		<text>AAC avec Éponge</text>
+	</string>  
+	<string id="st_af_sponge_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string> 
+	
+	<string id="st_af_ring_af_aac_name">
+		<text>AAC avec Anneau</text>
+	</string>  
+	<string id="st_af_ring_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string> 
+	
+	<string id="st_af_electra_flash_af_aac_name">
+		<text>AAC avec Éclair</text>
+	</string>
+	<string id="st_af_electra_flash_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_cristall_flower_af_aac_name">
+		<text>AAC avec Fleur de Pierre</text>
+	</string>
+	<string id="st_af_cristall_flower_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_lobster_eyes_af_aac_name">
+		<text>AAC avec Yeux de Homard</text>
+	</string>  
+	<string id="st_af_lobster_eyes_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string> 
+	
+	<string id="st_af_electra_moonlight_af_aac_name">
+		<text>AAC avec Clair de lune</text>
+	</string>
+	<string id="st_af_electra_moonlight_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_black_spray_af_aac_name">
+		<text>AAC avec Peinture Noire</text>
+	</string>  
+	<string id="st_af_black_spray_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>  
+	
+	<string id="st_af_medusa_af_aac_name">
+		<text>AAC avec Méduse</text>
+	</string>
+	<string id="st_af_medusa_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_vyvert_af_aac_name">
+		<text>AAC avec Tordu</text>
+	</string>
+	<string id="st_af_vyvert_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_empty_af_aac_name">
+		<text>AAC avec Vide</text>
+	</string>  
+	<string id="st_af_empty_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string> 
+ 	
+	<string id="st_af_full_empty_af_aac_name">
+		<text>AAC avec Vide Absolu</text>
+	</string>  
+	<string id="st_af_full_empty_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string> 
+	
+	<string id="st_af_night_star_af_aac_name">
+		<text>AAC avec Étoile de nuit</text>
+	</string>
+	<string id="st_af_night_star_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_gravi_af_aac_name">
+		<text>AAC avec Gravi</text>
+	</string>
+	<string id="st_af_gravi_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_gold_fish_af_aac_name">
+		<text>AAC avec Poisson doré</text>
+	</string>
+	<string id="st_af_gold_fish_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_dummy_glassbeads_af_aac_name">
+		<text>AAC avec Perles de Maman</text>
+	</string>
+	<string id="st_af_dummy_glassbeads_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_eye_af_aac_name">
+		<text>AAC avec Oeil</text>
+	</string>
+	<string id="st_af_eye_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_fire_af_aac_name">
+		<text>AAC avec Flamme</text>
+	</string>
+	<string id="st_af_fire_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_dummy_battery_af_aac_name">
+		<text>AAC avec Battery</text>
+	</string>
+	<string id="st_af_dummy_battery_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_dummy_dummy_af_aac_name">
+		<text>AAC avec Coquille</text>
+	</string>
+	<string id="st_af_dummy_dummy_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_ice_af_aac_name">
+		<text>AAC avec Flocon de neige</text>
+	</string>
+	<string id="st_af_ice_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_soul_af_aac_name">
+		<text>AAC avec Âme</text>
+	</string>
+	<string id="st_af_soul_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_fuzz_kolobok_af_aac_name">
+		<text>AAC avec Kolobok</text>
+	</string>
+	<string id="st_af_fuzz_kolobok_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_glass_af_aac_name">
+		<text>AAC avec Luciole</text>
+	</string>
+	<string id="st_af_glass_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_compass_af_aac_name">
+		<text>AAC avec Boussole</text>
+	</string>
+	<string id="st_af_compass_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_oasis_heart_af_aac_name">
+		<text>AAC avec Coeur de l'Oasis</text>
+	</string>
+	<string id="st_af_oasis_heart_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_death_lamp_af_aac_name">
+		<text>AAC avec Lampe de la Mort</text>
+	</string>  
+	<string id="st_af_death_lamp_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string> 
+	
+	<string id="st_af_misery_bread_af_aac_name">
+		<text>AAC avec pain anomal</text>
+	</string>
+	<string id="st_af_misery_bread_af_aac_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+
+</string_table>

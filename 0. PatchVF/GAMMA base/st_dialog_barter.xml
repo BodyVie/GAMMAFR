@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="exchanging_items_phr_0">
+		<text>Hé, mec, on compare qui a le plus de matos ?</text>
+	</string>
+	<string id="exchanging_items_phr_1">
+		<text>Ouais, pourquoi pas échanger ? Voici ce que j'ai à proposer.</text>
+	</string>
+	<string id="exchanging_items_phr_2">
+		<text>Je prends l'artefact...</text>
+	</string>
+	<string id="exchanging_items_phr_3">
+		<text>Je prends la combinaison...</text>
+	</string>
+	<string id="exchanging_items_phr_4">
+		<text>Je prends l'objet...</text>
+	</string>
+	<string id="exchanging_items_phr_5">
+		<text>Je prends le flingue...</text>
+	</string>
+	<string id="exchanging_items_phr_6">
+		<text>Bien. Et en échange, je prends ça.</text>
+	</string>
+	<string id="exchanging_items_phr_7">
+		<text>Je crois qu'on a pas grand-chose à se dire. T'as rien qui m'intéresse. Reviens quand t'auras plus de thune.</text>
+	</string>
+	<string id="exchanging_items_phr_8">
+		<text>Bon, on fait l'échange.</text>
+	</string>
+	<string id="exchanging_items_phr_9">
+		<text>J'ai changé d'avis pour l'échange.</text>
+	</string>
+	<string id="exchanging_items_phr_10">
+		<text>Fais comme tu veux...</text>
+	</string>
+
+</string_table>

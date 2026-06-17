@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_casing_pistol">
+		<text>Douille de pistolet</text>
+	</string>
+	<string id="st_casing_pistol_desc">
+		<text>Douilles en laiton de petite taille avec amorces, utilisées pour la fabrication de munitions d'armes de poing.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n		
+		%c[d_cyan] • %c[pda_white]Pièce de munition\n
+		</text>
+	</string>
+
+	<string id="st_casing_shotgun">
+		<text>Douille de fusil</text>
+	</string>
+	<string id="st_casing_shotgun_desc">
+		<text>Étuis en plastique avec amorces en laiton, utilisés pour la fabrication de munitions de fusil de chasse.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n		
+		%c[d_cyan] • %c[pda_white]Pièce de munition\n
+		</text>
+	</string>
+
+	<string id="st_casing_r5">
+		<text>Douille de petit calibre</text>
+	</string>
+	<string id="st_casing_r5_desc">
+		<text>Douilles en laiton de taille moyenne avec amorces, destinées à la fabrication de munitions pour fusils.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n		
+		%c[d_cyan] • %c[pda_white]Pièce de munition\n
+		</text>
+	</string>
+
+	<string id="st_casing_r7">
+		<text>Douille de gros calibre</text>
+	</string>
+	<string id="st_casing_r7_desc">
+		<text>Douilles en laiton de grande taille avec amorces, conçues pour les munitions de fusils de taille standard.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n		
+		%c[d_cyan] • %c[pda_white]Pièce de munition\n
+		</text>
+	</string>
+
+	<string id="st_powder_pistol">
+		<text>Charge propulsive pistolet/fusil</text>
+	</string>
+	<string id="st_powder_pistol_desc">
+		<text>Poudre sans fumée à double base à combustion rapide, destinée aux cartouches de fusil de chasse et aux petites munitions d'armes de poing. Cette variante de poudre produit moins d'énergie globale que les poudres à combustion lente, mais brûle de manière plus propre et plus rapide.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n		
+		%c[d_cyan] • %c[pda_white]Pièce de munition\n
+		</text>
+	</string>
+
+	<string id="st_powder_rifle">
+		<text>Charge propulsive petit calibre</text>
+	</string>
+	<string id="st_powder_rifle_desc">
+		<text>Poudre IMR destinée aux cartouches légères pour fusil et à certaines munitions lourdes pour armes de poing. Cette poudre brûle à un rythme moyen et produit une quantité modérée d'énergie, mais ne peut être utilisée dans les armes de poing à culasse non verrouillée et les fusils de chasse, car des pressions insuffisantes entraînent une combustion incomplète, provoquant des résidus.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n		
+		%c[d_cyan] • %c[pda_white] Élément de munition\n
+		</text>
+	</string>
+
+	<string id="st_powder_mag">
+		<text>Charge propulsive gros calibre</text>
+	</string>
+	<string id="st_powder_mag_desc">
+		<text>Poudre sphérique à combustion lente et haut rendement, destinée aux munitions de gros calibre pour fusil. Cette poudre offre le plus d'énergie et brûle le plus lentement, ce qui la rend adaptée uniquement aux munitions de gros calibre tirées par des armes à canon long.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n		
+		%c[d_cyan] • %c[pda_white] Élément de munition\n
+		</text>
+	</string>
+
+	<string id="st_handgun_rounds">
+		<text>Balle de pistolet</text>
+	</string>
+	<string id="st_handgun_rounds_desc">
+		<text>Projectiles de différentes tailles pour armes de poing, récupérés à partir de munitions. Ils seront utiles pour la fabrication de nouvelles cartouches.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n		
+		%c[d_cyan] • %c[pda_white] Élément de munition\n
+		</text>
+	</string>
+
+	<string id="st_handgun_ap_rounds">
+		<text>Balle perforante de pistolet</text>
+	</string>
+	<string id="st_handgun_ap_rounds_desc">
+		<text>Projectiles de différentes tailles pour armes de poing, récupérés à partir de munitions. Ils comportent des pénétrateurs en alliage intégrés dans la balle.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n		
+		%c[d_cyan] • %c[pda_white] Élément de munition\n
+		</text>
+	</string>
+
+	<string id="st_shotgun_rounds">
+		<text>Chevrotine</text>
+	</string>
+	<string id="st_shotgun_rounds_desc">
+		<text>Petites billes de plomb utilisées dans les cartouches de chasse. Elles peuvent être fondues et moulées pour former des projectiles de type slug.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n		
+		%c[d_cyan] • %c[pda_white] Élément de munition\n
+		</text>
+	</string>
+
+	<string id="st_shotgun_ap_rounds">
+		<text>Fléchette sous-calibrée</text>
+	</string>
+	<string id="st_shotgun_ap_rounds_desc">
+		<text>Projectile en acier durci de type fléchette, encapsulé dans un sabot. Bien que conçu pour être tiré depuis des fusils de police afin de neutraliser des blocs moteurs, il offre des performances correctes contre les gilets pare-balles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n		
+		%c[d_cyan] • %c[pda_white] Élément de munition\n
+		</text>
+	</string>
+
+	<string id="st_rifle5_rounds">
+		<text>Balle de petit calibre</text>
+	</string>
+	<string id="st_rifle5_rounds_desc">
+		<text>Projectiles de petit calibre pour fusils d'assaut, de tailles variées. Fabriqués par l'armée et recouverts d'une chemise métallique complète pour optimiser la précision.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n		
+		%c[d_cyan] • %c[pda_white] Élément de munition\n
+		</text>
+	</string>
+
+	<string id="st_rifle5_ap_rounds">
+		<text>Balle perforante petit calibre</text>
+	</string>
+	<string id="st_rifle5_ap_rounds_desc">
+		<text>Projectiles de petit calibre de différentes tailles, équipés de pénétrateurs en alliage, utilisés dans les fusils d'assaut. Ces munitions à usage spécial sont conçues pour percer les blindages à des distances d'engagement standard, au détriment de leur efficacité contre les flesh.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n		
+		%c[d_cyan] • %c[pda_white] Élément de munition\n
+		</text>
+	</string>
+
+	<string id="st_rifle7_rounds">
+		<text>Balle de gros calibre</text>
+	</string>
+	<string id="st_rifle7_rounds_desc">
+		<text>Projectiles de fusil de taille standard recouverts d'une chemise métallique. Ils sont couramment utilisés pour charger des cartouches destinées à la chasse et aux applications militaires de tir de précision.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n		
+		%c[d_cyan] • %c[pda_white] Élément de munition\n
+		</text>
+	</string>
+
+	<string id="st_rifle7_ap_rounds">
+		<text>Balle perforante gros calibre</text>
+	</string>
+	<string id="st_rifle7_ap_rounds_desc">
+		<text>Cartouches de fusil de taille standard dotées de pénétrateurs en alliage intégrés. Fréquemment utilisées dans les munitions à usage spécial employées par les forces militaires et les unités spéciales pour percer les blindages à longue distance.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n		
+		%c[d_cyan] • %c[pda_white] Élément de munition\n
+		</text>
+	</string>
+	
+	<string id="st_batch_breakdown">
+		<text>Désassemblage par lot [!]</text>
+	</string>
+
+</string_table>

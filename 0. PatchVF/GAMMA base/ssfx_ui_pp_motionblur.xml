@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+- @ Version: SCREEN SPACE SHADERS - UPDATE 23
+- @ Description: Motion Blur - MCM strings
+- @ Author: https://www.moddb.com/members/ascii1457
+- @ Mod: https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<string_table>
+
+	<!-- Bloom Title -->
+	<string id="ui_mcm_ssfx_module_motionblur_title">
+		<text>Flou de mouvement - Paramètres</text>
+	</string>
+
+	<!-- Bloom Settings -->
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_motionblur_quality_mcm">
+		<text>Qualité</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_motionblur_quality_mcm_desc">
+		<text>Définissez le nombre d'échantillons utilisés pour créer l'effet de flou de mouvement. [4 - 6 - 8 - 12]</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_motionblur_intensity_mcm">
+		<text>Intensité globale</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_motionblur_intensity_mcm_desc">
+		<text>Réglez l'intensité de l'effet de flou de mouvement. Attribuez la valeur 0 pour désactiver l'effet.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_motionblur_camera_mcm">
+		<text>Intensité du mouvement de caméra</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_motionblur_camera_mcm_desc">
+		<text>Vous pouvez ajuster l'intensité ou désactiver complètement l'effet de flou de mouvement causé par le déplacement de la caméra.</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_motionblur_hudonly_mcm">
+		<text>Affichage HUD uniquement</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_motionblur_hudonly_mcm_desc">
+		<text>Applique l'effet de flou de mouvement uniquement aux éléments de l'interface (mains, armes, etc.).</text>
+	</string>
+
+</string_table>

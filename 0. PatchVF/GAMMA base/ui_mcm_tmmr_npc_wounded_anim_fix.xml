@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_menu_tmmr">
+		<text>Dépôt Mini Mods Tosox</text>
+	</string>
+
+    <string id="ui_mcm_menu_npc_wounded_anim_fix">
+        <text>Correction des animations de NPC blessé</text>
+    </string>
+	<string id="ui_mcm_tmmr_npc_wounded_anim_fix_title">
+		<text>Correction de l'animation des NPC blessés</text>
+	</string>
+	<string id="ui_mcm_tmmr_npc_wounded_anim_fix_handle_weapon">
+		<text>Gestion de l'arme des NPCS</text>
+	</string>
+    <string id="ui_mcm_tmmr_npc_wounded_anim_fix_handle_weapon_desc">
+		<text>Inventaire - Transférer dans l'inventaire du NPC\nDéposer - Déposer au sol\nAdapter - Transférer dans l'inventaire du NPC si l'option « Armes déposées sur les corps » est installée</text>
+	</string>
+	
+    <string id="ui_mcm_lst_tmmr_inv_weapon">
+		<text>Inventaire</text>
+	</string>
+	<string id="ui_mcm_lst_tmmr_drop_weapon">
+		<text>Déposer</text>
+	</string>
+    <string id="ui_mcm_lst_tmmr_adapt_weapon">
+		<text>Adapter</text>
+	</string>
+</string_table>

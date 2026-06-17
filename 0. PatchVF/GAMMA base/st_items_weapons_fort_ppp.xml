@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	Overwrites
+	fort
+-->
+	<string id="st_wpn_fort12">
+		<text>Fort-12</text>
+	</string>
+	<string id="st_wpn_fort12_descr">
+		<text>Pistolet semi-automatique conçu pour les forces militaires et les services de maintien de l'ordre, reconnu pour sa durabilité, sa fiabilité et sa facilité de manipulation. Sa poignée ergonomique et son fonctionnement simple en font un choix pratique tant pour les utilisateurs professionnels que civils. Largement adopté en raison de son équilibre entre précision et accessibilité financière, il reste un pistolet de poing incontournable au sein des forces de sécurité.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Ukraine\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]RPC Fort\n
+		</text>
+	</string>
+	
+	<string id="st_wpn_fort17">
+		<text>Fort-17</text>
+	</string>
+	<string id="st_wpn_fort17_descr">
+		<text>Pistolet modernisé à carcasse polymère offrant un design léger avec un contrôle amélioré du recul et une durabilité accrue. Conçu pour des applications tactiques, il dispose d'une sûreté ambidextre et d'un chargeur à grande capacité pour une puissance de feu renforcée. Sa conception ergonomique et ses faibles exigences en matière de maintenance en font un pistolet de poing fiable, adapté à la fois à l'autodéfense et à un usage professionnel.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Ukraine\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]RPC Fort\n
+		</text>
+	</string>
+
+<!--
+	Overwrites
+	fort_snag
+-->
+	<string id="st_wpn_fort21">
+		<text>Fort-21</text>
+	</string>
+	<string id="st_wpn_fort21_descr">
+		<text>Copie du Jericho 941 basée sur le système de recul court du CZ-75, le Fort-21 est un pistolet haute performance développé pour les forces spéciales et les services de maintien de l'ordre. Il se distingue par son cadre polymère modulaire et une gestion avancée du recul. Conçu pour une acquisition rapide des cibles, il supporte divers accessoires tactiques tels que des silencieux et des systèmes de visée optique. Son alliance de fiabilité, de légèreté et d'adaptabilité en fait une arme de poing efficace dans les scénarios à haut risque.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Ukraine\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]RPC Fort\n
+		</text>
+	</string>
+
+	<string id="st_up_fort21_45acp_name">
+		<text>Rechambrer en .45 ACP</text>
+	</string>
+
+</string_table>

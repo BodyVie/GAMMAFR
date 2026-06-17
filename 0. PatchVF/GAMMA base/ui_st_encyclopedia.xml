@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<!-- PDA -->
+	<string id="pda_btn_encyclopedia">
+		<text>Guide</text>
+	</string>
+
+	<string id="pda_btn_encyclopedia_hint">
+		<text>Afficher le guide de l'utilisateur</text>
+	</string>
+
+	<!-- INTERFACE COMPONENTS -->
+	<string id="pda_encyclopedia_title">
+		<text>Guide de la Zone</text>
+	</string>
+	
+	<string id="st_pda_encyclopedia_image_checkbox">
+		<text>Images au premier plan</text>
+	</string>
+
+	<string id="st_pda_encyclopedia_message_checkbox">
+		<text>Afficher les messages</text>
+	</string>
+
+	<!-- MESSAGES -->
+	<string id="pda_encyclopedia_notify">
+		<text>Article débloqué : %s, %s</text>
+	</string>
+	<string id="pda_encyclopedia_notify_note">
+		<text>Nouvelle note : %s</text>
+	</string>
+
+	<!-- MISC -->
+	<string id="pda_encyclopedia_info">
+		<text>Informations</text>
+	</string>
+	<string id="pda_encyclopedia_properties">
+		<text>Propriétés</text>
+	</string>
+	<string id="pda_encyclopedia_subject">
+		<text>Sujet</text>
+	</string>
+	<string id="pda_encyclopedia_content">
+		<text>Table des matières</text>
+	</string>
+
+	<string id="pda_encyclopedia_ironman_lifes">
+		<text>Vies accordées</text>
+	</string>
+	<string id="pda_encyclopedia_ironman_life">
+		<text>Vies restantes</text>
+	</string>
+	<string id="pda_encyclopedia_ironman_deaths">
+		<text>Nombre de morts</text>
+	</string>
+	<string id="pda_encyclopedia_ironman_cycle">
+		<text>Cycle d'octroi de vies (heures)</text>
+	</string>
+	<string id="pda_encyclopedia_ironman_1">
+		<text>Une erreur, et c'est terminé...</text>
+	</string>
+	<string id="pda_encyclopedia_ironman_2">
+		<text>Il faut être plus prudent !</text>
+	</string>
+	<string id="pda_encyclopedia_ironman_3">
+		<text>Vous êtes en sécurité pour l'instant.</text>
+	</string>
+
+	<!-- LOCKED ARTICLES -->
+	<string id="pda_encyclopedia_locked">
+		<text>?????</text>
+	</string>
+	
+	<string id="pda_encyclopedia_locked_text">
+		<text>Vous n'avez pas débloqué cet article.\n
+		Les articles peuvent être débloqués de différentes manières, telles que :\n
+		%c[pda_white] • %c[ui_gray_2] Découverte de lieux pour la première fois.\n
+		%c[pda_white] • %c[ui_gray_2] Téléchargement de données depuis des clés mémoire.\n
+		%c[pda_white] • %c[ui_gray_2] Désossage de mutants sur le terrain pour récupérer des pièces et de la viande.\n
+		%c[pda_white] • %c[ui_gray_2] Discussion et interaction avec les stalkers.\n
+		%c[pda_white] • %c[ui_gray_2] Utilisation d'objets et équipement d'armures de faction.\n
+		</text>
+	</string>
+
+</string_table>

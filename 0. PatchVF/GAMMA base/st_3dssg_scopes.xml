@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_menu_dii_custom_layers_3dssg">
+		<text>3DSS pour optiques GAMMA</text>
+	</string>
+	<string id="ui_mcm_dii_3dssg_scopes_show">
+		<text>Afficher les étiquettes de nom pour lunettes et viseurs</text>
+	</string>
+	<string id="ui_mcm_dii_3dssg_scopes_small_show">
+		<text>Afficher les étiquettes secondaires</text>
+	</string>	
+</string_table>

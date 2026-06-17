@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string id="st_addon_scope_razor">
+		<text>AMG UH-1 Gen. II</text>
+	</string>
+	<string id="st_addon_scope_razor_descr">
+		<text>Une visée holographique robuste de grossissement 1x, dotée d'un réticule EBR-CQB rapide, d'un mode vision nocturne et d'une large fenêtre de visée pour une acquisition rapide des cibles. Sa conception résistante et anti-buée, ainsi que ses commandes intuitives, garantissent un fonctionnement optimal dans toutes les conditions d'éclairage, avec un réglage lumineux pour la journée et un mode atténué compatible avec les lunettes de vision nocturne pour les environnements faiblement éclairés.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Vortex Optics\n
+		%c[d_cyan] • %c[0,255,255,255] Grossissement : %c[ui_gray_2]1x\n
+		%c[d_cyan] • %c[0,255,255,255] Changement de réticule : %c[ui_gray_2]appuyez sur la touche de changement de marqueur (par défaut =)\n \n
+		</text>
+	</string>

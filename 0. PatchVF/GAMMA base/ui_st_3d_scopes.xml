@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="ui_mcm_menu_3d_scopes">
+		<text>Viseurs 3D</text>
+	</string>
+	
+	<string id="ui_mcm_3d_scopes_title">
+		<text>Shader viseurs 3D</text>
+	</string>
+
+	<string id="ui_mcm_3d_scopes_zoom_factor">
+		<text>Facteur de zoom</text>
+	</string>
+
+	<string id="ui_mcm_3d_scopes_nvg_blur">
+		<text>Flou viseur en NVG Beef</text>
+	</string>
+
+	<string id="ui_mcm_3d_scopes_parallax_shadow">
+		<text>Ombre parallaxe</text>
+	</string>
+
+	<string id="ui_mcm_3d_scopes_see_through">
+		<text>Réticule et pupille de sortie toujours visibles</text>
+	</string>
+
+	<string id="ui_mcm_3d_scopes_thermal_pixelation">
+		<text>Pixelisation viseurs thermiques au zoom</text>
+	</string>
+
+	<string id="ui_mcm_3d_scopes_chromatism">
+		<text>Chromatisme des viseurs</text>
+	</string>
+
+</string_table>

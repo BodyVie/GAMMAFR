@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="st_favorite_parts">
+		<text>parties favorites</text>
+	</string>
+	<string id="st_part_missing">
+		<text>manquant</text>
+	</string>
+	<string id="st_unfavorite_part">
+		<text>retirer des favoris</text>
+	</string>
+	<string id="st_favorite_part">
+		<text>favori</text>
+	</string>
+	<string id="st_unfavorite_all_part">
+		<text>retirer des favoris toutes les parties avec au moins</text>
+	</string>
+	<string id="st_favorite_all_part">
+		<text>ajouter aux favoris toutes les parties manquantes ou en dessous de</text>
+	</string>
+	<string id="st_part_condition">
+		<text>% état</text>
+	</string>
+</string_table>

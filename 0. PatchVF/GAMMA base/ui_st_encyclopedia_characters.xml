@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="encyclopedia_characters">
+		<text>Personnages</text>
+	</string>
+
+	<string id="encyclopedia_characters_arnie">
+		<text>Arnie</text>
+	</string>
+	<string id="encyclopedia_characters_arnie_text">
+		<text>%c[pda_white]Arnie%c[ui_gray_2] est un ancien contrebandier, bien qu'il soit aujourd'hui surtout connu pour être l'animateur de longue date de l'arène de Rostok.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]L'arène d'Arnie est perçue comme une source constante, bien que macabre, de divertissement à Rostok, destinée à satisfaire autant les combattants que les parieurs. La plupart des combats se terminent par la mort, mais cela n'empêche pas les assoiffés de gloire ou les désespérés de s'affronter pour la renommée ou l'argent.\n \n
+		Bien que Devoir éprouve des sentiments mitigés à l'égard des activités d'Arnie, il est connu pour approvisionner l'arène en combattants, sous forme de mutants capturés et de bandits, probablement dans l'espoir d'éduquer le public sur les méthodes de combat de leurs ennemis communs.\n \n
+		L'arène a également été utilisée à l'occasion pour régler des différends communautaires, tels que le remboursement de dettes immenses ou la résolution de querelles causées par des questions de réputation.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_characters_ashot">
+		<text>Ashot</text>
+	</string>
+	<string id="encyclopedia_characters_ashot_text">
+		<text>%c[pda_white]Ashot%c[ui_gray_2] est le marchand joyeux et optimiste de Liberté à la gare de Yanov.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Selon lui, en raison de ses "prix bas et de son équipement de qualité", il aurait prétendument été inscrit sur plusieurs listes noires par des revendeurs du marché noir.\n \n
+		Il est un vieil ami d'un ancien stalker nommé Yar, avec qui il avait l'habitude de jouer des tours aux autres. Il lui manque énormément.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_aslan">
+		<text>Aslan</text>
+	</string>
+	<string id="encyclopedia_characters_aslan_text">
+		<text>%c[pda_white]Aslan%c[ui_gray_2] est un marchand collaborant avec Dushman dans Ville morte.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Travaillant comme barman mercenaire au Centre Sportif, Aslan est arrivé dans la Zone depuis la Suisse, le dernier endroit où il a effectué des contrats pour quelques clients.\n \n
+		Il est connu pour garder des secrets, même envers des personnes qui le connaissent assez bien, et offre de fortes récompenses pour différents insignes de factions. Personne ne sait pourquoi il les collectionne.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_aspirin">
+		<text>Sostradov « Aspirine »</text>
+	</string>
+	<string id="encyclopedia_characters_aspirin_text">
+		<text>%c[pda_white]Le lieutenant Sostradov%c[ui_gray_2], plus connu sous le nom de %c[pda_green]Aspirine%c[ui_gray_2] parmi les stalkers libres, est un jeune officier du Devoir ainsi que le médecin résident de Rostok.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Les personnels médicaux qualifiés étant rares parmi les stalkers, Aspirine a pris sur lui de soigner non seulement les membres de sa faction, mais aussi tout Zone passant par les portes de Rostok.\n \n
+		Bien qu'il partage la vision de Devoir, visant à protéger les innocents de la Zone, il met ces idéaux en pratique non pas en tuant des mutants, mais en soignant ceux qui survivent à leurs attaques. Son travail a sauvé de nombreux stalkers, leur permettant de vivre pour combattre un autre jour.
+		</text>
+	</string>
+	
+		<string id="encyclopedia_characters_axel">
+		<text>Axel</text>
+	</string>
+	<string id="encyclopedia_characters_axel_text">
+		<text>%c[pda_white]Axel%c[ui_gray_2] exerce la fonction de médecin à bord du Skadovsk dans Zaton.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]On sait très peu de choses sur Axel, car il n'est pas des plus bavards parmi les stalkers, bien que les rumeurs suggèrent qu'il ne serait venu dans la Zone que pour échapper à sa belle-mère.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_characters_barkeep">
+		<text>Barman</text>
+	</string>
+	<string id="encyclopedia_characters_barkeep_text">
+		<text>%c[pda_white]Le Barman%c[ui_gray_2] est le propriétaire du bar 100 Rads à Rostok.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]En raison de la position centrale de Rostok dans les zones les plus fréquentées de la Zone, le Barman est un commerçant très important et une bouée de sauvetage pour les stalkers se préparant à des expéditions ou en revenant.\n \n
+		Outre les fonctions évidentes de gestion du bar, il loue des chambres, verse des pots-de-vin et fournit aux stalkers une grande quantité d'équipements et de missions.\n \n
+		Il est encore aujourd'hui très respecté par de nombreux stalkers, car il a joué un rôle clé dans l'ouverture des routes menant vers le centre de la Zone.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_characters_beard">
+		<text>Barbu</text>
+	</string>
+	<string id="encyclopedia_characters_beard_text">
+		<text>%c[pda_white]Le Barbu%c[ui_gray_2] est un marchand d'artefacts et le barman à bord du Skadovsk.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Il est une figure très importante près du centre de la Zone et, de fait, le chef des stalkers dans Zaton.\n \n
+		Bien que principalement intéressé par la récupération d'artefacts, il propose une variété de missions et semble toujours prêt à faire ce qu'il estime être dans l'intérêt de son peuple.\n \n
+		Son bar est l'un des plus fréquentés de la Zone, juste après les 100 Rads, et est presque devenu synonyme du Skadovsk lui-même.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_butcher">
+		<text>Boucher</text>
+	</string>
+	<string id="encyclopedia_characters_butcher_text">
+		<text>%c[pda_white]Boucher%c[ui_gray_2] est l'un des chasseurs de mutants les plus expérimentés de la Zone.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Contrairement à la majorité des stalkers, le Boucher est totalement indifférent à la artefacts. Lui et son groupe n'ont vu dans la Zone qu'une nouvelle opportunité de poursuivre leur passion pour la chasse.
+		Grâce à sa réputation dans l'élimination des mutants, les recrues se rassemblent parfois dans sa boutique pour recevoir des conseils ou écouter ses histoires. Certains affirment qu'il a tué au moins un spécimen de chaque type de mutant présent dans la Zone.\n \n
+		Bien qu'il soit désormais un marchand installé à la Décharge, sa passion pour la chasse transparaît encore : il vend du matériel de chasse de qualité à des prix bien inférieurs à ceux de la plupart des autres marchands, et récompense les stalkers qui lui rapportent de la viande et des trophées provenant des diverses horreurs de la Zone.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_characters_cardan">
+		<text>Cardan</text>
+	</string>
+	<string id="encyclopedia_characters_cardan_text">
+		<text>%c[pda_white]Cardan%c[ui_gray_2] est un technicien expérimenté et un alcoolique en voie de rétablissement.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Il est arrivé dans la Zone avec ses deux amis, Joker et Barge, qui, après une violente dispute alimentée par l'alcool, ont chacun décidé de suivre leur propre chemin.\n \n
+		C'est ici qu'il a élu résidence au Skadovsk, où il a sombré davantage dans l'alcoolisme, ne renonçant à la boisson qu'en apprenant la disparition de ses anciens amis.\n \n
+		Auparavant, il a travaillé sur le développement du « Projet 62 », un prototype du fusil à Gauss, jusqu'à sa fermeture définitive en 2004.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_chernobog">
+		<text>Chernobog</text>
+	</string>
+	<string id="encyclopedia_characters_chernobog_text">
+		<text>%c[pda_white]Tchernobog%c[ui_gray_2] est le Grand Maître de Péché.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Ancien détenu condamné à mort transformé en un mutant de type Controller à la suite d'expérimentations top secrètes. Il a discrètement fondé Péché peu après la création de la Zone et, lorsque la C-Conscience fut considérée comme détruite par Strelok, il a pris sur lui de poursuivre leur oeuvre.\n \n
+		Leader charismatique et visionnaire, il croit que la Zone est le moyen de purifier le monde du péché. Cependant, en réalité, il s'agit d'un fanatique dément prêt à combattre le feu par le feu pour réaliser ses rêves.	
+		</text>
+	</string>
+	
+	<string id="encyclopedia_characters_cold">
+		<text>Cold</text>
+	</string>
+	<string id="encyclopedia_characters_cold_text">
+		<text>%c[pda_white]Cold%c[ui_gray_2] a contribué à la restauration et dirige désormais la faction Firmament.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Anciennement simple barman, Cold fait partie des rares dans la Zone à avoir connu une ascension, prenant les rênes de Firmament après que la plupart de ses membres clés soient morts ou aient déserté.\n \n
+		Connu de ses camarades comme une personne joyeuse et de bonne nature, ainsi qu'un amateur de blagues vulgaires, il est venu dans la Zone car il ne parvenait pas à trouver sa place dans le monde extérieur.\n \n
+		Il ne fait aucun doute qu'il a pris la bonne décision, restaurant sa faction à sa gloire passée et occupant désormais un siège important de pouvoir dans la Zone.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_dazhbog">
+		<text>Dazhbog</text>
+	</string>
+	<string id="encyclopedia_characters_dazhbog_text">
+		<text>%c[pda_white]Dazhbog%c[ui_gray_2] occupe le rôle de technicien vénérable de Péché.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Ancien ingénieur ayant participé à la construction des Générateurs à la fin des années 1990, il resta dans la Zone pour entretenir ces machines complexes et top secrètes au fil des années. Le destin voulut qu'il soit encore présent en juin 2006 pour assister de ses propres yeux à la Première Emission.\n \n
+		Confiné au Laboratoire X-2 avec des réserves de nourriture et d'eau en diminution, il a finalement été découvert par Tchernobog et sa communauté naissante de Péché. Pour son rôle dans l'avènement de Vyraj, une place spéciale lui a été offerte parmi eux.\n \n
+		Désormais, une douzaine d'années plus tard, il met toujours à profit ses compétences mécaniques en réparant et en entretenant l'équipement dont ses jeunes frères ont besoin pour étendre toujours plus loin l'exploration de la Zone.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_degtyarev">
+		<text>Degtiariov</text>
+	</string>
+	<string id="encyclopedia_characters_degtyarev_text">
+		<text>%c[pda_white]Alexander Degtiariov%c[ui_gray_2] est un agent du Service de Sécurité d'Ukraine et opère quelque peu à l'écart des autres forces armées dans la Zone.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Stalker militaire expérimenté et agent infiltré, il a accompli de nombreuses missions secrètes dans la Zone. De manière assez surprenante, il a également établi une excellente réputation parmi les stalkers ordinaires en raison de sa tendance à leur venir en aide.\n \n
+		Désormais, une émission massive ayant attiré l'attention des Nations Unies et de leurs agents armés, le colonel Degtiariov lance l'Opération Afterglow afin de garantir que certains des plus grands mystères de la Zone ne soient pas militarisés par les politiciens internationaux.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_characters_doctor">
+		<text>Doctor</text>
+	</string>
+	<string id="encyclopedia_characters_doctor_text">
+		<text>%c[pda_white]Le Docteur%c[ui_gray_2] est l'un des rares survivants du groupe de Strelok.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Selon une légende populaire, le Docteur fut l'un des premiers stalkers à atteindre l'Exauceur de Souhaits, avec le désir de soigner toute créature vivante dans la Zone.\n \n
+		Son voeu fut exaucé et il reçut le don de guérison, mais sa capacité à distinguer les humains des mutants fut effacée.\n \n
+		Le Docteur lui-même nie cette histoire, affirmant que personne de ceux qui sont partis à sa recherche n'en est jamais revenu vivant.\n \n
+		%c[pda_yellow]Anecdotes\n
+		%c[pda_white]• %c[ui_gray_2]Il est l'un des rares stalkers à avoir jamais réussi à domestiquer un pseudochien.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_drekavac">
+		<text>Drekavac</text>
+	</string>
+	<string id="encyclopedia_characters_drekavac_text">
+		<text>%c[pda_white]Drekavac%c[ui_gray_2] est l'un des membres fondateurs de Péché.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Parmi les nombreux sujets humains expérimentés même avant la création de la Zone, il est l'un des rares à avoir survécu. Dans une tentative de créer des êtres humains plus en phase avec la noosphère, il s'est vu accorder des pouvoirs psioniques mineurs.\n \n
+		En raison de ses antécédents et de sa capacité à lier et coordonner les volontés collectives de ses frères, Drekavac a été nommé par Tchernobog comme l'un des Castigateurs de Péché : moitié guide spirituel, moitié commandant de peloton.\n \n
+		Alors que la croisade obscure de Péché bat son plein, Drekavac mène vaillamment ses jeunes frères dans une entreprise visant à ouvrir la voie vers Vyraj avec les crânes des infidèles.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_eidolon">
+		<text>Eidolon</text>
+	</string>
+	<string id="encyclopedia_characters_eidolon_text">
+		<text>%c[pda_white]Eidolon%c[ui_gray_2] est un champion notoire du Monolithe.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Bien que la plupart des soldats du Monolithe soient des pions sacrifiables, celui connu sous le nom d'Eidolon est un soldat d'élite notoire qui a réactivé le Lobotomisateur, coupant à nouveau l'accès facile au coeur de la Zone.\n \n
+		La légende raconte qu'il arpente silencieusement les rues de Pripyat ou passe son temps en prière, et que tous les stalkers qui tentent d'atteindre l'Exauceur de Souhaits sont arrêtés net par son intervention infaillible. Son nom provient de son mépris légendaire pour ses propres blessures, ainsi que de sa capacité à apparaître comme par magie.	
+		</text>
+	</string>
+	
+	<string id="encyclopedia_characters_fanatic">
+		<text>Fanatic</text>
+	</string>
+	<string id="encyclopedia_characters_fanatic_text">
+		<text>%c[pda_white]Le Fanatic%c[ui_gray_2] tire son nom de son engagement et de son agressivité en tant que stalker.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Après le départ temporaire de Wolf pour la Entrepôts de l'armée, Fanatic a pris en charge le village des recrues, s'occupant seul des nouveaux arrivants jusqu'au retour de son ami.\n \n
+		Bien qu'il ne soit plus le seul responsable, il est toujours considéré comme une autorité, même s'il préfère de loin être en première ligne pour combattre les Bandits et les mutants plutôt que de rester inactif.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_gatekeeper">
+		<text>Gardien</text>
+	</string>
+	<string id="encyclopedia_characters_gatekeeper_text">
+		<text>%c[pda_white]Gardien%c[ui_gray_2] est un Solitaire expérimenté qui défend la Barrière contre les Monolithes.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Suite à la désactivation du Lobotomisateur en 2012, le stalker désormais connu sous le nom de Gardien fut l'un des nombreux à se précipiter pour explorer le coeur de la Zone.\n \n
+		Des années plus tard, il est retourné aux Entrepôts de l'armée, déterminé à tenir la Barrière et à protéger les régions du sud des horreurs dont il avait été témoin, ainsi qu'à empêcher le Monolithe renaissant de s'étendre.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_gonta">
+		<text>Gonta</text>
+	</string>
+	<string id="encyclopedia_characters_gonta_text">
+		<text>%c[pda_white]Gonta%c[ui_gray_2] est un chasseur professionnel de mutants et un élève de Trapper.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Sur ordre de Trapper, il est arrivé à Zaton avec Garmata, Crab et Danila pour éliminer une Chimère qui terrorisait les stalkers des alentours.\n \n
+		Dès le début, leur entreprise a été frappée par la malchance : Danila a mystérieusement disparu, les laissant en sous-effectif, et Crab a été cloué au lit après avoir subi des blessures.\n \n
+		Ils ont engagé un stalker nommé Pie pour les assister, mais celui-ci s'est rétracté au dernier moment, volant leur équipement avant de s'enfuir vers la gare de Yanov.\n \n
+		Avec l'aide d'un mystérieux stalker, Gonta a tué la Chimère, découvert le sort de Danila et localisé Pie, lui rendant justice peu après.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_griffin">
+		<text>Griffon</text>
+	</string>
+	<string id="encyclopedia_characters_griffin_text">
+		<text>%c[pda_white]Griffon%c[ui_gray_2] est l'officier de terrain du Syndicat sur la Périphérie de Pripyat.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Chargé par les Dushman, Griffon avait pour mission d'éliminer les menaces locales et de prendre le contrôle de la zone pour le Syndicat. Il avait réalisé des progrès considérables avant que les troupes du Monolithe ne commencent à affluer en grand nombre depuis Pripyat, forçant son équipe à battre en retraite et à se réfugier dans une librairie.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_hawaiian">
+		<text>Hawaïen</text>
+	</string>
+	<string id="encyclopedia_characters_hawaiian_text">
+		<text>%c[pda_white]Hawaïen%c[ui_gray_2] est le gardien décontracté de la Gare de Yanov et en était autrefois le seul commerçant.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Contrairement à ce que son nom pourrait laisser penser, il n'est pas réellement originaire d'Hawaï, mais est surnommé ainsi pour son habitude d'exclamer "Aloha !" en saluant les clients.\n \n
+		Il consacre presque tout son temps à tenir le bar de la salle à manger, anciennement un guichet de billetterie et une salle d'attente.\n \n
+		Il entretient de bonnes relations avec Liberté, et l'on dit que toute sa personnalité vise à maintenir une atmosphère légère et amicale ; une nécessité autant qu'un véritable défi si près de Pripyat.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_hip">
+		<text>Hip</text>
+	</string>
+	<string id="encyclopedia_characters_hip_text">
+		<text>%c[pda_white]Hip%c[ui_gray_2] est un ancien membre de Liberté qui s'est installé au Village des Recrues.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Elle est présente dans la Zone depuis les premiers jours, mais a mené une vie de stalker remarquable uniquement par son caractère discret et réservé, s'aventurant rarement profondément dans la Zone même après toutes ces années. Le stalker moyen la considère à peine comme meilleure qu'une recrue, bien qu'elle soit fiable dans la limite de ses capacités. Récemment, elle a cherché à établir des relations clés pour gravir les échelons.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_characters_professor_kalancha">
+		<text>Kalancha</text>
+	</string>
+	<string id="encyclopedia_characters_professor_kalancha_text">
+		<text>%c[pda_white]Le professeur Kalancha%c[ui_gray_2] est le chercheur en chef et le médecin de Firmament.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]L'un des rares membres originaux encore en activité de Firmament, Kalancha passe son temps à mener des expériences sur les artefacts, à étudier des échantillons de tissus de mutants et à observer les anomalies.\n \n
+		Décrit comme une encyclopédie vivante et une calculatrice, il a été contraint d'occuper le poste de médecin par nécessité plutôt que par choix. Il est le médecin le plus expérimenté de Firmament après leur quasi-effondrement à la fin de l'année 2011.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_lieutenant_kirilov">
+		<text>Kirilov</text>
+	</string>
+	<string id="encyclopedia_characters_lieutenant_kirilov_text">
+		<text>%c[pda_white]Lieutenant en chef Kirilov%c[ui_gray_2] est l'un des techniciens les plus talentueux de l'armée.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]À l'origine simple opérateur radio, Kirilov a toujours eu un talent pour démonter et remonter les objets.\n \n
+        Après l'échec de l'Opération Fairway, lui et ses camarades se sont réfugiés dans une ancienne laverie de Pripyat, où il a mis à profit ses compétences pour réparer leur équipement et leurs armes jusqu'à leur évacuation finale.\n \n
+        Bien que son commandant, le colonel Kovalsky, ait ensuite été traduit en cour martiale et finalement démis honorablement de ses fonctions en raison de l'échec de l'opération, Kirilov lui-même a été muté à Agroprom en tant que technicien en chef de l'armée.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_kolin">
+		<text>Kolin</text>
+	</string>
+	<string id="encyclopedia_characters_kolin_text">
+		<text>On sait peu de choses sur %c[pda_white]Kolin%c[ui_gray_2], si ce n'est qu'il est un technicien compétent qui connaît quelques astuces du métier.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Kolin s'est installé à la Station de Traitement des Déchets de Zaton en même temps que Vector pour apporter son aide aux mercenaires locaux.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_professor_kruglov">
+		<text>Krouglov</text>
+	</string>
+	<string id="encyclopedia_characters_professor_kruglov_text">
+		<text>%c[pda_white]Le professeur Krouglov%c[ui_gray_2] est docteur en sciences biologiques.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Avant d'arriver dans la Zone, Krouglov étudiait les mutations pathogènes chez les animaux et leurs effets, ce n'était donc qu'une question de temps avant que ses recherches ne l'amènent ici.\n \n
+		Depuis plusieurs années, il travaille avec son associé, le professeur Sakharov, et affirme avoir fait plusieurs découvertes majeures, bien que peu de stalkers sachent réellement de quoi il parle et se contentent généralement de feindre la compréhension.\n \n
+		Ces derniers temps, il a pris l'habitude de diriger son propre laboratoire de recherche dans une capsule près du bunker principal de Yantar, où il propose divers travaux techniques aux visiteurs.\n \n
+		%c[pda_yellow]Anecdotes\n
+		%c[pda_white]• %c[ui_gray_2]Krouglov est l'un des rares Scientifiques à avoir survécu au massacre perpétré par Wolfhound.\n
+		%c[pda_white]• %c[ui_gray_2]Bien qu'il soit un combattant de troisième ordre, il est notablement plus habile au combat que la plupart des Scientifiques, surtout compte tenu du fait qu'il est avant tout un scientifique plutôt qu'un garde ou un ancien stalker.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_major_kuznetsov">
+		<text>Kuznetsov</text>
+	</string>
+	<string id="encyclopedia_characters_major_kuznetsov_text">
+		<text>%c[pda_white]Colonel Kuznetsov%c[ui_gray_2] est le commandant de facto de toutes les troupes internes affectées à la Zone.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Anciennement major chargé de la garde du Cordon, le colonel Kuznetsov a été promu à la suite du fiasco de l'opération Fairway et supervise depuis les opérations militaires tant à l'intérieur qu'aux alentours de la Zone.\n \n
+        La nature douteuse de sa promotion, supposément le résultat de favoritisme et de tractations en coulisses, a initialement suscité une grande dissension parmi les officiers vétérans. Cependant, une fois les plus insoumis rétrogradés, licenciés ou réaffectés aux zones les plus dangereuses de la Zone, la direction de Kuznetsov s'est imposée.\n \n
+        De nos jours, malgré les preuves qu'il contourne systématiquement la politique officielle pour obtenir des « faveurs » d'autres factions, peu de soldats osent remettre en question la volonté de leur colonel, même à voix basse.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_leopard">
+		<text>Léopard</text>
+	</string>
+	<string id="encyclopedia_characters_leopard_text">
+		<text>%c[pda_white]Léopard%c[ui_gray_2] est un guide expérimenté des Mercenaires dans Ville morte.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]La Ville morte n'a jamais été sûre, même pour les stalkers aguerris. Léopard est l'un des rares à connaître le réseau d'égouts souterrains de la Ville morte, et c'est pour cette raison que les autres comptent sur ses connaissances pour les guider en toute sécurité à travers la ville et au-delà.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_leshiy">
+		<text>Leshiy</text>
+	</string>
+	<string id="encyclopedia_characters_leshiy_text">
+		<text>%c[pda_white]Leshiy%c[ui_gray_2] est un éclaireur de Liberté et guide occasionnel aux Entrepôts de l'armée.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Leshiy est un vieil homme énergique qui travaillait comme mercenaire il y a plusieurs années, avant de rencontrer Lukash et de rejoindre Liberté, où il a acquis une grande expérience dans la Zone.\n \n
+		Il s'est forgé une réputation en tant que personne enjouée qui guide les recrues jusqu'au Cordon et conduit les membres de Liberté à travers des passages sûrs dans le Cimetière de véhicules et parfois d'autres lieux reculés.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_librarian">
+		<text>Bibliothécaire</text>
+	</string>
+	<string id="encyclopedia_characters_librarian_text">
+		<text>%c[pda_white]Le Bibliothécaire%c[ui_gray_2], malgré son nom, est en réalité le barman de Firmament.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Après l'émission qui a coupé les Marais du reste de la Zone, Bibliothécaire s'est retrouvé piégé sans issue facile.\n \n
+		Face à la mort aux mains de bandits ou pire, il s'est dirigé vers les confins sud et a rejoint Firmament, où il remplacerait plus tard Cold en tant que barman après la promotion de ce dernier au poste de chef.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_characters_limpid">
+		<text>Limpide</text>
+	</string>
+	<string id="encyclopedia_characters_limpid_text">
+		<text>%c[pda_white]Limpide%c[ui_gray_2] est un bandit et technicien de longue date.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Anciennement ingénieur mécanicien dans une usine, on peut affirmer qu'il maîtrise parfaitement la technologie.\n \n
+		Cependant, après avoir été licencié de son emploi à la suite d'une bagarre en état d'ébriété, il a sombré dans l'alcoolisme et a finalement perdu à la fois sa femme et son domicile peu après.\n \n
+		Sans rien lui restant, il s'est tourné vers la Zone pour recommencer, rencontrant peu après des bandits à la Décharge et trouvant depuis lors du travail en tant que leur technicien.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_characters_loki">
+		<text>Loki</text>
+	</string>
+	<string id="encyclopedia_characters_loki_text">
+		<text>%c[pda_white]Loki%c[ui_gray_2] est le chef de la garnison de Liberté à la gare de Yanov.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Lorsque le Lobotomisateur a été désactivé et que la course vers le centre de la Zone a commencé, Loki a été l'homme placé à la tête de l'expédition de la faction Liberté.\n \n
+		Contrairement aux autres dirigeants de sa faction, il adopte une approche plus mesurée de leur idéologie, ce qui a valu à Liberté le respect de groupes qui auraient pu autrement être marginalisés.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_loris">
+		<text>Loris</text>
+	</string>
+	<string id="encyclopedia_characters_loris_text">
+		<text>%c[pda_white]Loris%c[ui_gray_2] est un marchand qui propose toutes sortes d'équipements pour les recrues à la Ferme Nord de Cordon.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Il s'est installé à la Ferme avec l'aide d'un groupe de stalkers qui ont réussi à chasser les bandits de la zone. Après avoir réglé ses affaires avec Sidorovich, Loris a ouvert son commerce d'approvisionnement peu après. Depuis, il sert souvent de base logistique aux stalkers préparant leur première incursion dans Décharge.\n \n
+		Il est également rumoré qu'il fait partie des intermédiaires facilitant les échanges commerciaux entre Firmament et le reste du monde, bien que ces allégations n'aient pas été confirmées.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_mangun">
+		<text>Potryko « Mangun »</text>
+	</string>
+	<string id="encyclopedia_characters_mangun_text">
+		<text>%c[pda_white]Le sergent-chef Potryko%c[ui_gray_2], connu informellement sous le nom de %c[pda_green]Mangun%c[ui_gray_2], est un soldat vétéran du Devoir qui passe ses journées à bricoler armes et armures.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Avant l'apparition de la Zone, Mangun travaillait principalement comme mécanicien automobile, et il s'est engagé dans l'armée peu après 2011 lorsqu'il a appris que celle-ci avait des difficultés à maintenir ses véhicules en état de marche dans la Zone.\n \n
+		Comme beaucoup d'autres groupes militaires avant le sien, il se retrouva rapidement dans une situation périlleuse et aurait péri sans l'intervention d'une patrouille de Devoir. Par gratitude, il s'engagea à leurs côtés une fois son service terminé, et devint rapidement connu comme un soldat valeureux.\n \n
+		Cependant, il minimisait toujours cette partie de son passé, préférant être reconnu pour son expertise mécanique. Avec le temps, les années de combat pour Devoir l'ont usé jusqu'à ce qu'il ne soit plus qu'à un pas de devenir un ivrogne ordinaire.\n \n
+		En conséquence, il a frôlé à plusieurs reprises une exclusion déshonorante de sa faction, mais à chaque fois, cette sentence a été annulée par le Général Voronine lui-même. Finalement, il a été convenu de « retirer » officieusement Mangun du terrain et de le maintenir en arrière-ligne, où sa passion pour les outils et les machines pouvait être exercée sans distraction.\n \n
+		Bien que les autres membres du Devoir éprouvent un certain respect pour son passé ainsi que pour ses compétences techniques, son comportement, jugé inapproprié selon les standards de la faction, lui a effectivement barré toute possibilité de promotion supplémentaire.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_meeker">
+		<text>Meeker</text>
+	</string>
+	<string id="encyclopedia_characters_meeker_text">
+		<text>%c[pda_white]Meeker%c[ui_gray_2] est un marchand mercenaire fournissant des approvisionnements en armes.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Disposant de nombreuses connexions avec le monde extérieur, Meeker est en mesure de transporter des fournitures d'armes de haute qualité pour les mercenaires dans la Zone. Il a accepté de rejoindre la task force de Griffon dans la Périphérie pour leur fournir l'équipement nécessaire à l'accomplissement de leur mission.\n \n
+		%c[pda_yellow]Anecdotes\n
+		%c[pda_white]• %c[ui_gray_2]Avant de rejoindre Griffon, Meeker était connu pour être membre du groupe de Strider. Certains de ses approvisionnements laissent supposer qu'une correspondance est toujours entretenue.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_navigator">
+		<text>Navigateur</text>
+	</string>
+	<string id="encyclopedia_characters_navigator_text">
+		<text>%c[pda_white]Navigateur%c[ui_gray_2] est un stalker expérimenté travaillant comme guide.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Avec l'assouplissement des conditions d'entrée pour visiter Rostok par Devoir, Navigateur s'est rapidement imposé comme un guide capable de conduire les stalkers presque n'importe où depuis l'enceinte sécurisée du Bar 100 Rads.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_nimble">
+		<text>Nimble</text>
+	</string>
+	<string id="encyclopedia_characters_nimble_text">
+		<text>%c[pda_white]Nimble%c[ui_gray_2] est un profiteur qui vend des armes et des tenues de contrebande.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Contrairement aux autres commerçants de la Zone, il se spécialise dans la vente d'équipements rares et d'objets très difficiles à obtenir. Ainsi, il ne sait jamais ce qu'il pourra se procurer ensuite.\n \n
+		Il réside actuellement à bord du Skadovsk malgré la résurgence de la menace Monolithe.\n \n
+		%c[pda_yellow]Anecdotes\n
+		%c[pda_white]• %c[ui_gray_2]En plus de ses contacts au sein de Firmament, une grande partie de son équipement provient d'expéditions de l'ONU ayant échoué.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_characters_novikov">
+		<text>Novikov</text>
+	</string>
+	<string id="encyclopedia_characters_novikov_text">
+		<text>%c[pda_white]Novikov%c[ui_gray_2], également connu sous le nom de %c[pda_green]Gris%c[ui_gray_2], est le technicien vétéran de Firmament.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Membre de la faction depuis ses tout débuts, Novikov est décrit par ses camarades comme un expert dans son domaine, Cold plaisantant en disant qu'il peut fabriquer un fusil à partir d'une boîte de conserve vide, avec des munitions en prime.\n \n
+		Après la destruction de Firmament, il a brièvement quitté les siens pour travailler sous contrat avec les Scientifiques au laboratoire scientifique mobile de Jupiter, mais est revenu après avoir découvert qu'ils avaient survécu et reconstruit.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_characters_olivius">
+		<text>Olivius</text>
+	</string>
+	<string id="encyclopedia_characters_olivius_text">
+		<text>%c[pda_white]Olivius%c[ui_gray_2] écoule des butins et autres marchandises volées pour le compte des Bandits.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Profitant du chaos qui a suivi l'assassinat de Borov, l'ancien chef des Bandits, il a rapidement consolidé son influence au sein de la Vallée Obscure.\n \n
+		Bien qu'il déteste se mettre en avant trop longtemps, peu d'informations, contrats ou échanges impliquant la faction échappent à l'influence de Olivius.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_characters_owl">
+		<text>Owl</text>
+	</string>
+	<string id="encyclopedia_characters_owl_text">
+		<text>%c[pda_white]Owl%c[ui_gray_2] est un marchand du marché noir aux loyautés douteuses.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Personne inconfortable et grossière, parmi tous les habitants à bord du Skadovsk, il se distingue comme un mauvais caractère au tempérament grincheux.\n \n
+		Il possède un large assortiment d'armes et de munitions, et apprécie grandement toute information que les stalkers sont prêts à lui vendre.\n \n
+		En raison de ses liens avec Sultan, de sa manière de parler et de son apparence, de nombreux stalkers le croient anciennement bandit.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_peregrine">
+		<text>Pèlerin</text>
+	</string>
+	<string id="encyclopedia_characters_peregrine_text">
+		<text>%c[pda_white]Pèlerin%c[ui_gray_2] est un technicien militaire affecté au Laboratoire Mobile de Yantar.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Bien qu'initialement conscrit, Pèlerin est devenu un soldat expérimenté, bien que quelque peu têtu, dans la Zone. Il y a trois ans, il s'est forgé une grande réputation après avoir sauvé la vie d'une équipe de scientifiques attaquée par des Snorks alors qu'ils étudiaient l'anomalie de la Griffe dans Agroprom.\n \n
+		Grâce à son talent considérable pour les équipements technologiques et les détecteurs d'anomalies, le colonel Kuznetsov l'a affecté au Laboratoire Mobile de Yantar à la demande du professeur Sakharov afin d'assister les Scientifiques et d'assurer leur protection.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_colonel_petrenko">
+		<text>Petrenko</text>
+	</string>
+	<string id="encyclopedia_characters_colonel_petrenko_text">
+		<text>%c[pda_white]Colonel Petrenko%c[ui_gray_2] est le principal recruteur de Devoir et l'officier le plus fiable du Général Voronine.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Considéré par les autres membres du Devoir comme un général en tout sauf en nom, les origines du Colonel Petrenko remontent aux modestes débuts d'un jeune lieutenant dans l'armée. Il fut l'un des premiers soldats envoyés dans la Zone en 2006, aux côtés de Voronine, Krylov et Tachenko. En tant que l'un des rares survivants de cette expédition désastreuse, il était présent lorsque Voronine a aidé à fonder le Devoir, et n'a jamais quitté le côté de son Général depuis.\n \n
+		Malgré les nombreux problèmes qui accablent sa faction aujourd'hui, le Colonel semble tout prendre avec philosophie, paraissant imperturbable aux yeux des observateurs extérieurs. Certains plaisantent même en disant qu'il est plus machine qu'homme ; en plus de son rôle de leader, recruteur et confident, il agit également comme chef de la logistique et de la propagande de sa faction.\n \n
+		Plus que quiconque au sein de Devoir, à l'exception peut-être de Voronine lui-même, Petrenko croit fermement à la mission et au code originels de sa faction. Peu de ses camarades peuvent se targuer d'être des défenseurs et des partisans plus ardents des idéaux de Devoir.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_lieutenant_rogovets">
+		<text>Rogovets</text>
+	</string>
+	<string id="encyclopedia_characters_lieutenant_rogovets_text">
+		<text>%c[pda_white]Lieutenant Rogovets%c[ui_gray_2] est un officier tourmenté doté de solides compétences médicales.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Rogovets est l'un des rares survivants de l'opération Fairway, un projet militaire visant à préparer la reconquête gouvernementale de Pripyat et de Tchernobyl par les forces armées. Dans les faits, les équipes des Spetsnaz affectées à cette mission ont été rapidement dispersées, tuées par des anomalies, zombifiées par des émissions ou pire encore. Le lieutenant Rogovets lui-même a failli être tué et dévoré par un Controller, un événement traumatisant qui l'a contraint à rejoindre la réserve pendant plusieurs années afin de travailler dans des hôpitaux civils relativement stables.\n \n
+		Il est ensuite retourné en service actif dans la Zone par sens du devoir, faisant de son mieux non seulement pour soigner ses camarades soldats, mais aussi pour les éduquer afin qu'ils n commettent pas les mêmes erreurs que lui à Fairway. Bien sûr, peu croient aujourd'hui à ses histoires extravagantes : les jeunes recrues rencontrent rarement des dangers plus sérieux que des chats ou des chiens égarés, et ceux qui tombent sur pire reviennent rarement pour s'excuser.\n \n
+		Bien que Rogovets soit techniquement un professionnel médical bien formé et un opérateur Spetsnaz vétéran, son mépris à peine voilé pour le colonel Kuznetsov a rendu toute promotion difficile.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_rogue">
+		<text>Rogue</text>
+	</string>
+	<string id="encyclopedia_characters_rogue_text">
+		<text>%c[pda_white]Rogue%c[ui_gray_2] est un ancien soldat devenu un stalker endurci.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Déçu par son affectation dans le Zone tout en étant curieux de sa nature, le sergent Kovalenko a finalement décidé d'abandonner son poste dans le Cordon pour rejoindre les stalkers au Village des Recrues.\n \n
+		Ayant rejoint Strelok après des années d'expérience accumulée au centre de la Zone, il apporte un soutien lourd au combat grâce à sa discipline rigoureuse, son sens tactique et une mitrailleuse légère.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_professor_sakharov">
+		<text>Sakharov</text>
+	</string>
+	<string id="encyclopedia_characters_professor_sakharov_text">
+		<text>%c[pda_white]Le professeur Sakharov%c[ui_gray_2] est l'un des chercheurs les plus expérimentés de la Zone.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]En tant que scientifique en chef du laboratoire scientifique mobile de Yantar, Sakharov est profondément impliqué dans presque toutes les avancées scientifiques ayant pour origine la Zone.\n \n
+		Bien que poli et professionnel, et malgré sa connaissance approfondie de nombreux phénomènes de la Zone, sa position protégée l'amène souvent à sous-estimer le danger potentiel encouru par ses chercheurs de terrain.\n \n
+		Cependant, en raison de la nature de son travail, sans parler de son succès personnel, il dispose d'une quantité presque illimitée de contrats pour récupérer des artefacts et des parties de mutants, ce qui fait de lui un employeur très prisé parmi les stalkers audacieux ou téméraires.	
+		</text>
+	</string>
+	
+	<string id="encyclopedia_characters_sidorovich">
+		<text>Sidorovich</text>
+	</string>
+	<string id="encyclopedia_characters_sidorovich_text">
+		<text>%c[pda_white]Sidorovich%c[ui_gray_2] est un contrebandier quasi légendaire qui opère depuis un ancien bunker près du village des recrues.\n \n
+		%c[pda_green]Informations\n
+	    %c[ui_gray_2]Malgré son implication dans la contrebande d'alcool, le braconnage, le tourisme illégal et d'autres formes de trafic, Sidorovich jouit d'une réputation d'homme d'affaires honnête, avec une faiblesse pour les recrues. Sa vaste réseau de contacts parmi les stalkers et les militaires lui permet de maintenir des routes de contrebande artérielles dont profitent de nombreux commerçants de la Zone.\n \n
+        Cependant, certains le considèrent comme avide et radin ; il est connu pour surfacturer ses marchandises tout en empêchant les autres de le concurrencer sur son territoire dans Cordon. Ceux qui tentent de perturber ses affaires, de défier son autorité ou de le mécontenter en général se retrouvent souvent du mauvais côté d'un contrat d'assassinat.\n \n
+        Pour le meilleur ou pour le pire, il est le poumon économique de la Zone, et les stalkers qui ont l'estomac pour ses affaires les plus sordides peuvent facilement gagner rapidement de l'argent.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_skinflint">
+		<text>Radin</text>
+	</string>
+	<string id="encyclopedia_characters_skinflint_text">
+		<text>%c[pda_white]Radin%c[ui_gray_2] est le marchand attitré de Liberté aux Entrepôts de l'armée depuis de nombreuses années.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Discret et réservé selon les standards de Liberté, Radin manque de patience envers les esprits lents. Cela a engendré des tensions entre lui et le médecin résident de la base, pour lequel il ne cache guère son mépris.\n \n
+		Malgré son attitude quelque peu acariâtre, il est largement apprécié au sein de sa faction pour sa prévoyance, ses compétences en logistique et sa volonté de payer presque tout ce que ses camarades de Liberté rapportent de leurs expéditions.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_snitch">
+		<text>Snitch</text>
+	</string>
+	<string id="encyclopedia_characters_snitch_text">
+		<text>%c[pda_white]Snitch%c[ui_gray_2] doit son surnom au fait d'être un stalker mystérieux et omniscient qui vend des informations au bar 100 Rads.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Installé au Bar 100 Rads, il vend toutes sortes d'informations aux stalkers prêts à payer suffisamment. 
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_solid">
+		<text>Solid</text>
+	</string>
+	<string id="encyclopedia_characters_solid_text">
+		<text>%c[pda_white]Solid%c[ui_gray_2] est le médecin de la faction Liberté aux Entrepôts de l'armée.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Solid est connu pour deux choses : ses mains rapides et son talent pour soigner les blessures. En revanche, il est dépendant à l'alcool et aux drogues.\n \n
+		Selon lui, elles l'aident à « se concentrer ». Cela n'empêche pas certains membres blessés de Liberté de ressortir marqués de ses soins.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_spirit">
+		<text>Esprit</text>
+	</string>
+	<string id="encyclopedia_characters_spirit_text">
+		<text>%c[pda_white]Esprit%c[ui_gray_2] est un ancien stalker et le cuisinier local des Scientifiques au Laboratoire Mobile de Yantar.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Bien qu'il ait servi pendant cinq ans au sein de l'équipe de recherche et d'investigation scientifique Iskra, il ne devint célèbre que pour ses excellentes omelettes. En 2018, il fut muté à Yantar pour devenir chef à temps partiel, à la demande de Sakharov.\n \n
+		Cependant, depuis la résurgence de Monolithe, il a développé une faiblesse pour l'alcool, la vodka Nemiroff étant l'un de ses vices les plus marqués. Bien qu'une préférence pour la vodka soit normale parmi les habitants de la Zone, son affinité exceptionnelle pour celle-ci l'a effectivement empêché d'être déployé sur le terrain à nouveau.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_sergeant_spooner">
+		<text>Spooner</text>
+	</string>
+	<string id="encyclopedia_characters_sergeant_spooner_text">
+		<text>%c[pda_white]Le sergent Spooner%c[ui_gray_2] est un soldat expert et un marchand rusé.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Tout au long de sa vie, l'information a toujours joué un rôle important dans ses prises de décision, choisissant avec soin ce qu'il partage et avec qui il le partage.\n \n
+		Naturellement, il a trouvé sa place après avoir rejoint l'armée, où ses compétences sont d'une grande valeur, et utilise désormais sa position comme couverture pour ses activités personnelles de commerce et de courtage en informations.\n \n
+		Très peu d'informations sont par ailleurs connues à son sujet, et encore moins les raisons d'un surnom aussi particulier.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_spore">
+		<text>Spore</text>
+	</string>
+	<string id="encyclopedia_characters_spore_text">
+		<text>%c[pda_white]Spore%c[ui_gray_2] est le marchand de Firmament et un allié de confiance de Nimble.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Comme tous les stalkers avant lui, Spore est venu dans la Zone pour y chercher fortune, se lançant immédiatement dans la contrebande de marchandises et d'informations vers, depuis et à travers la Zone.\n \n
+		Peu de temps après, il a attiré l'attention de Nimble, qui a rapidement demandé une rencontre, et les deux ont immédiatement réalisé le potentiel de combiner leurs efforts.\n \n
+		Grâce aux contacts de Nimble au sein de sa faction précédente, Spore a rapidement été installé comme marchand de Firmament, leur permettant de sécuriser des routes de contrebande à travers les marais et d'établir rapidement ce qui allait devenir une relation commerciale florissante.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_stitch">
+		<text>Stitch</text>
+	</string>
+	<string id="encyclopedia_characters_stitch_text">
+		<text>%c[pda_white]Stitch%c[ui_gray_2] est un stalker expérimenté qui exerce également en tant que médecin.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Ancien infirmier hospitalier à Kiev, les récits qu'il entendait en soignant d'anciens stalkers finirent par convaincre Stitch de se rendre lui-même dans la Zone. Il se trouva qu'il rencontra plus tard Strelok non loin de Agroprom, et rejoignit ainsi son nouveau groupe.\n \n
+		Enthousiaste, joyeux et décontracté, il aide ses compagnons à supporter les conditions difficiles du centre de la Zone grâce à son sens de l'humour et ses compétences médicales.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_strelok">
+		<text>Strelok</text>
+	</string>
+	<string id="encyclopedia_characters_strelok_text">
+		<text>%c[pda_white]Strelok%c[ui_gray_2], également connu sous le nom de « Marqué », est un stalker vétéran et plein de ressources.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]L'un des stalkers les plus expérimentés et compétents, Strelok est l'une des rares personnes à avoir atteint la centrale nucléaire de Tchernobyl et à en être revenu pour en témoigner. Il fut également celui qui désactiva le Lobotomisateur et ouvrit la voie vers le coeur de la Zone en 2012.\n \n
+		Après une période passée en tant que conseiller officiel en recherche, il a finalement abandonné son poste et est manifestement retourné dans la Zone pour entreprendre un nouveau voyage périlleux.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_stribog">
+		<text>Stribog</text>
+	</string>
+	<string id="encyclopedia_characters_stribog_text">
+		<text>%c[pda_white]Stribog%c[ui_gray_2] est l'intendant de Péché.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Ancien bandit capturé et converti par Péché il y a quelques années, grâce à son passé et à une nouvelle vision de la vie, il s'avère être d'une grande utilité pour sa communauté. Non seulement il collecte l'équipement récupéré sur les stalkers et le personnel militaire tombés au combat, mais il a également établi des contacts avec plusieurs commerçants prêts à traiter avec un « culte de fanatiques dangereux », tant que cela rapporte.\n \n
+		En tant qu'homme éclairé servant une cause supérieure, il est plus que disposé à échanger ce qu'il considère désormais comme des bibelots inutiles pour obtenir les outils nécessaires à ses frères afin de faire avancer cette même cause.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_characters_sultan">
+		<text>Sultan</text>
+	</string>
+	<string id="encyclopedia_characters_sultan_text">
+		<text>%c[pda_white]Sultan%c[ui_gray_2] était autrefois le chef des Bandits dans Zaton et est actuellement le roi des Bandits de Vallée Obscure.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Compte tenu de son adoption d'un titre de souverain oriental pour son nom, beaucoup dans la Zone considèrent Sultan comme un homme qui a une très haute opinion de lui-même.\n \n
+		Sa vie a été marquée par les ennuis ; après la mort d'un ami proche due à la toxicomanie, Sultan a tué les dealers responsables avant d'être emprisonné.\n \n
+		Après sa libération et ses nombreuses autres « interactions » avec la loi, il a finalement quitté la région pour la Zone, où il a rejoint les Bandits, gravi les échelons parmi les voleurs et commencé à diriger sa propre bande.\n \n
+		Bien que ses entreprises aient été ruinées à Zaton, il a néanmoins réussi à imposer son sens de l'ordre aux Bandits de Vallée Obscure, qui se conforment à contrecoeur à sa vision du monde.\n \n
+		%c[pda_yellow]Anecdotes\n
+		%c[pda_white]• %c[ui_gray_2]Sultan et Olivius sont connus pour s'affronter occasionnellement. Cependant, rien n'en résulte finalement, car ils ont besoin l'un de l'autre pour maintenir les gangs à Vallée Obscure.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_surgeon">
+		<text>Chirurgien</text>
+	</string>
+	<string id="encyclopedia_characters_surgeon_text">
+		<text>Comme son nom l'indique, %c[pda_white]Chirurgien%c[ui_gray_2] exerce en tant que médecin mercenaire dans la Ville morte.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Homme discret, il faisait autrefois partie de l'équipe de mercenaires de Black. Bien qu'un agent militaire infiltré ait presque entièrement décimé son ancienne escouade, le Chirurgien a réussi à s'échapper discrètement et a ainsi survécu.\n \n
+		Après avoir passé quelques années en tant que pilleur solitaire, il a finalement restauré sa réputation en sauvant un groupe de mercenaires d'une embuscade du Monolithe dans Limansk, les maintenant médicalement stables et hors de la ligne de tir ennemie jusqu'à l'arrivée des renforts. Cet acte lui a valu une recommandation pour travailler avec les Dushman, et il vit depuis comme le médecin résident de l'unité.  
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_trunk">
+		<text>Trunk</text>
+	</string>
+	<string id="encyclopedia_characters_trunk_text">
+		<text>%c[pda_white]Trunk%c[ui_gray_2] est le technicien de l'équipe Griffon sur la Périphérie de Pripyat.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Trunk a travaillé comme agent de sécurité pour Triple Canopy aux États-Unis il y a longtemps, avant de s'installer dans la Zone. Le Syndicat l'a engagé pour son expérience de terrain à long terme et son équipement militaire. Il fait partie de l'équipe de Griffon et effectue des réparations tout en maintenant les approvisionnements avec l'aide de Meeker.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_vector">
+		<text>Vector</text>
+	</string>
+	<string id="encyclopedia_characters_vector_text">
+		<text>Ses amis le surnomment "ce mercenaire en colère". %c[pda_white]Vector%c[ui_gray_2] est à la fois éclaireur et fournisseur à la Station de Traitement des Déchets de Zaton.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Vector est connu pour son mauvais caractère. Malgré cela, il s'agit d'un mercenaire expérimenté proposant une large gamme d'armes ainsi que des conseils pour se déplacer de Zaton à la Ville morte. Lui et Léopard connaissent le réseau souterrain de la Ville morte et peuvent guider leurs clients en toute sécurité.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_vodnik">
+		<text>Vodnik</text>
+	</string>
+	<string id="encyclopedia_characters_vodnik_text">
+		<text>%c[pda_white]Vodnik%c[ui_gray_2] agit en tant qu'un des nombreux émissaires de Péché.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Autrefois simple membre de la faction Liberté, attiré dans la Zone par la curiosité, il fit une rencontre déterminante un jour fatidique lors d'une patrouille aux abords de la Forêt Rouge : un groupe de stalkers de grande taille, vêtus de manteaux longs et coiffés de capuches.\n \n
+		Déjà fasciné par ses nombreux phénomènes uniques et étranges, il devint rapidement l'un des défenseurs et prédicateurs les plus ardents de la Zone. Aujourd'hui, Vodnik tente de persuader les stalkers ordinaires de rejoindre les rangs de Péché, afin qu'un jour ils puissent marcher sur l'étendue paisible d'une Vyraj mondiale.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_general_voronin">
+		<text>Voronine</text>
+	</string>
+	<string id="encyclopedia_characters_general_voronin_text">
+		<text>%c[pda_white]Le général Voronine%c[ui_gray_2] est un officier vieillissant responsable de la détermination des objectifs, principes et stratégies plus larges de sa faction.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Bien que de nombreux stalkers le considèrent comme strict et intolérant, Voronine est en réalité perçu comme modéré selon les standards de Devoir : moins idéaliste et fanatique que son prédécesseur, Krylov, mais aussi moins cynique et pragmatique que le premier chef de Devoir, Tachenko.\n \n
+		Il prit pour la première fois le commandement global de la faction en 2011, après l'assassinat de Krylov par des mercenaires travaillant pour Liberté. Depuis, il maintient fermement l'objectif de Devoir, renforçant leur identité de soldats honorables vivant selon un code quasi sacré.\n \n
+		Avant son rôle dans la fondation du Devoir, il était un jeune officier travaillant pour l'armée. Sa dernière mission officielle pour eux eut lieu en 2006, lorsqu'il fut placé sous le commandement du Capitaine Tachenko et chargé de démolir le centre de la Zone par tous les moyens nécessaires. Cette tâche conduisit à la première rencontre officielle de l'humanité avec des mutants et des anomalies. Les communications avec le QG furent rapidement interrompues après la Première Grande Emission, et former leur propre groupe sembla alors une question de survie.\n \n
+		Bien que Voronine entretienne aujourd'hui des relations civiles avec les Spetsnaz en raison de ses origines, cette civilité devient froide lorsqu'elle s'étend à l'armée dans son ensemble ; au fond, il croit que les hauts gradés les ont envoyés, lui et ses camarades, dans la Zone à l'aveugle... pour les abandonner à une mort certaine. Il est déterminé à empêcher que d'autres subissent le même sort... à condition qu'il ne les soupçonne pas de propager ce qu'il considère comme le « mal » de la Zone.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_characters_wolf">
+		<text>Wolf</text>
+	</string>
+	<string id="encyclopedia_characters_wolf_text">
+		<text>%c[pda_white]Wolf%c[ui_gray_2] dirige la défense du village des recrues.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]S'étant donné pour mission de protéger le village et les Cordons qui y vivent des menaces extérieures, Wolf utilise un réseau de éclaireurs et d'espions pour surveiller les mouvements hostiles au sein du stalkers.\n \n
+		Partageant les informations qu'il recueille avec Sidorovich, ils envoient fréquemment des groupes de raid et des opportunistes pour éliminer les bandits, les mutants et autres menaces pesant sur leur intérêt mutuel dans la sécurité du village.\n \n
+		%c[pda_yellow]Anecdotes\n
+		%c[pda_white]• %c[ui_gray_2]Malgré la similitude de nom, Wolf n'a aucun lien avec le mercenaire impitoyable connu sous le nom de Wolfhound.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_characters_xenotech">
+		<text>Xenotech</text>
+	</string>
+	<string id="encyclopedia_characters_xenotech_text">
+		<text>%c[pda_white]Xenotech%c[ui_gray_2] est un technicien qui répare principalement l'équipement des stalkers novices.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Basé dans la base neutre du Cordon, située à mi-chemin entre le pont détruit et l'anomalie « High Hopes », Xenotech est un technicien talentueux dont les efforts sont d'une grande valeur pour les stalkers nouvellement arrivés dans la Zone.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_characters_yar">
+		<text>Yar</text>
+	</string>
+	<string id="encyclopedia_characters_yar_text">
+		<text>%c[pda_white]Yar%c[ui_gray_2], également connu sous le nom de %c[pda_green]Oncle Yar%c[ui_gray_2], est un stalker aux multiples talents.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Il est bien connu dans la Zone pour être un technicien brillant, au point que des plaisanteries circulent selon lesquelles il pourrait fabriquer un canon anti-aérien à partir d'un fusil rouillé, ce qui n'est peut-être pas si éloigné de la vérité.\n \n
+		À la suite de la fin des Guerres des Factions et de la ruée vers le centre de la Zone, il a voyagé avec l'expédition de Liberté jusqu'à la gare de Yanov avant de travailler très brièvement comme médecin dans la Périphérie.\n \n
+		Il est rapidement revenu après que le cessez-le-feu avec Devoir a été rompu, où il a décidé une fois de plus de changer de profession et d'essayer de devenir courtier en informations.
+		</text>
+	</string>
+
+	<string id="encyclopedia_characters_major_zhurov">
+		<text>Zhurov</text>
+	</string>
+	<string id="encyclopedia_characters_major_zhurov_text">
+		<text>%c[pda_white]Le major Zhurov%c[ui_gray_2] est l'officier responsable du maintien de l'ordre dans le Cordon.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Suite à la promotion du Major Kuznetsov au grade de Colonel, l'intendant Zhurov a été promu Major afin d'assumer l'ancien rôle de ce dernier en tant que gardien de Cordon. Comparé à son prédécesseur, Zhurov est bien plus radin et refuse systématiquement les pots-de-vin directs des stalkers ordinaires.\n \n
+		Cependant, tout comme son prédécesseur, il fait peu pour perturber les opérations de contrebande locales, se contentant de manifestations symboliques d'autorité à l'intention des observateurs extérieurs. Certains disent que c'est parce que les contrebandiers lui versent une part des profits, mais personne ne peut l'affirmer avec certitude.\n \n
+		Tout ce que l'on sait, c'est qu'il est bien mieux connecté qu'il n'y paraît au premier abord, puisqu'il est capable d'établir de manière fiable des trêves fragiles entre ses patrouilles et les stalkers qu'elles sont censées appréhender.
+		</text>
+	</string>
+	
+</string_table>

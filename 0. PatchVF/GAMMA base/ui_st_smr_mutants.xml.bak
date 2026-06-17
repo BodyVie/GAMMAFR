@@ -1,0 +1,99 @@
+<string_table>
+	<string id="ui_mcm_menu_smr_mutants">
+		<text>Mutant</text>
+	</string>
+    <string id="ui_mcm_smr_mutants_types_title">
+		<text>Types de mutants</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_squad_size">
+		<text>Taille des hords de Mutants</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_squad_size_variance">
+		<text>Variation de taille des escouades</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_squad_size_variance_desc">
+		<text>Plus ce paramètre est élevé, plus la taille des meutes de mutants sera aléatoire.</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_random_mutants">
+		<text>Escouades aléatoires de mutants</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_random_mutants_desc">
+		<text>Remplace les meutes de mutants par d'autres meutes de mutants choisies aléatoirement. Cela signifie que vous pourriez rencontrer certains mutants dans des zones où vous ne les attendiez pas auparavant.</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_random_mutants_chance">
+		<text>Chance d'escouades aléatoires de mutants</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_balanced_mutants">
+		<text>Apparition équilibrée de Mutants</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_balanced_mutants_desc">
+		<text>Moins de mutants puissants dans les zones extérieures et inversement.</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_types_info">
+		<text>Activer ou désactiver les types de mutants. Les mutants désactivés n'apparaîtront pas dans la Zone</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_types_replace_squads">
+		<text>Remplacer les escouades supprimées</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_types_replace_squads_desc">
+		<text>Remplace les meutes composées uniquement de mutants désactivés par des meutes composées de mutants activés.</text>
+	</string>
+	<!-- TYPES -->
+	<string id="ui_mcm_SMR_smr_mutants_dogp">
+		<text>Chien</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_psydogp">
+		<text>Psy-Chien</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_tushkanop">
+		<text>Tushkano</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_fracturep">
+		<text>Fracture</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_catp">
+		<text>Chat</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_fleshp">
+		<text>Flesh</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_boarp">
+		<text>Sanglier</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_snorkp">
+		<text>Snork</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_psysuckerp">
+		<text>Psysucker</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_bloodsuckerp">
+		<text>Bloodsucker</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_lurkerp">
+		<text>Lurker</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_karlikp">
+		<text>Karlik</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_burerp">
+		<text>Burer</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_poltergeistp">
+		<text>Poltergeist</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_controllerp">
+		<text>Controller</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_chimerap">
+		<text>Chimère</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_gigantp">
+		<text>Pseudogiants</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_ratp">
+		<text>Rat</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_zombiep">
+		<text>Zombie</text>
+	</string>
+</string_table>

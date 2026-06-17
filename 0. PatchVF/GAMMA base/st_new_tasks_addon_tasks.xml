@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="esc_m_trader_task_new_tasks_addon_dead_night_name">
+		<text>Dead Night</text>
+	</string>
+	<string id="esc_m_trader_task_new_tasks_addon_dead_night_text">
+		<text>Des Solitaires disparaissent sans laisser de trace durant la nuit dans le Darkscape. Sidorovich m'a demandé de découvrir ce qui se passe.</text>
+	</string>
+	<string id="esc_m_trader_task_new_tasks_addon_dead_night_about">
+		<text>Nos hommes ont signalé que plusieurs Solitaires ont disparu récemment sur le trajet entre la scierie de Darkscape et notre village. Le chemin était toujours relativement sûr, alors les gens voyageaient souvent de nuit pour éviter les Bandits et les soldats. Leurs cris dans l'obscurité ont été entendus par les gars restés à la scierie, mais personne n'a osé risquer sa vie pour leur porter secours. Les corps des stalkers disparus n'ont pas été retrouvés après l'aube. Les stalkers des environs ont réuni une petite somme pour quiconque serait prêt à enquêter sur ce qui s'est passé.</text>
+	</string>
+	<string id="esc_m_trader_task_new_tasks_addon_dead_night_finish">
+		<text>Quel sort horrible... Merci d'avoir offert à ces morts leur dernier repos et de vous être assuré qu'aucun autre homme ne rejoigne leurs rangs. Tenez, vous l'avez mérité.</text>
+	</string>
+    <string id="dead_night_details">
+        <text>Fouiller les lieux de nuit</text>
+    </string>
+
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_skyfall_name">
+		<text>Skyfall</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_skyfall_text">
+		<text>L'armée a reçu des renforts sous la forme d'un nouvel hélicoptère Mi-24, qui pourrait être utilisé pour attaquer les anciens entrepôts militaires où réside la Liberté. Lukash m'a chargé d'abattre cette bête volante. Je dois me rendre à Agroprom au plus vite.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_skyfall_about">
+		<text>Vous savez - le Devoir n'est pas notre seul problème ici. L'armée aimerait également reprendre notre base pour établir son contrôle sur le centre de la Zone. Ce qui les retenait, c'étaient des ressources limitées... ou du moins, c'était le cas jusqu'à récemment. L'un de nos escadrons a été réduit en miettes par un hélicoptère Mi-24. Un seul homme a survécu pour raconter l'histoire. Nous devons agir avant qu'ils ne rassemblent plus de forces.\n\nMaintenant - je ne vous dirai pas que c'est une mission facile... il y a de grandes chances que vous n'en sortiez pas indemne, mais si vous réussissez, une belle somme vous attendra.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_skyfall_finish">
+		<text>Voilà mon homme ! Je ne pense pas que nous devrons nous inquiéter de ces enfoirés après qu'ils aient vu votre feu d'artifice.</text>
+	</string>
+    <string id="skyfall_details">
+        <text>Détruire l'hélicoptère</text>
+    </string>
+	<string id="skyfall_stealth_message">
+        <text>Enfoiré de sournois ! Alors comme ça, t'as décidé de régler ça en douce. J'aurais pas fait mieux moi-même ! Maintenant, fais pas tout foirer et essaie de poser les explosifs là où personne les verra pas.</text>
+    </string>
+	<string id="skyfall_run_fail_message">
+        <text>Alors t'as pris la fuite... J'avais comme l'impression d'avoir fait le mauvais choix pour ce boulot...</text>
+    </string>
+	<string id="skyfall_confrontation_message">
+        <text>Tu crois qu'on te voit pas, stalker ? Venir ici, c'était ta dernière connerie.</text>
+    </string>
+	<string id="skyfall_cover_blow_message">
+        <text>On a un rats qui se planque ici !</text>
+    </string>
+	<string id="skyfall_blow_cover_run_message">
+        <text>Je te vois ! T'iras nulle part, stalker !</text>
+    </string>
+
+	<string id="bar_dolg_general_petrenko_stalker_task_hold_the_ground_name">
+		<text>Hold the Ground</text>
+	</string>
+	<string id="bar_dolg_general_petrenko_stalker_task_hold_the_ground_text">
+		<text>Les Bandits préparent une offensive massive sur la Décharge afin d'en prendre le contrôle total. Petrenko m'a demandé de me retrancher au Marché aux Puces et de les repousser.</text>
+	</string>
+	<string id="bar_dolg_general_petrenko_stalker_task_hold_the_ground_about">
+		<text>Nos éclaireurs ont signalé une importante concentration de Bandits près du passage entre la Vallée Obscure et la Décharge. Les laisser prendre le contrôle de la Décharge est inacceptable. Nous avons cependant des problèmes d'effectifs en raison de ces maudits hippies au nord... c'est pourquoi je vais vous envoyer seul sur cette mission. Je sais - cela semble insensé, mais vous devriez recevoir un peu d'aide de la part des Solitaires qui fréquentent souvent cet endroit, à condition qu'ils n'aient pas déjà été pris en embuscade par un petit détachement de Bandits.</text>
+	</string>
+	<string id="bar_dolg_general_petrenko_stalker_task_hold_the_ground_finish">
+		<text>Excellent travail, camarade ! Tenez, ceci est pour vous.</text>
+	</string>
+	<string id="hold_the_ground_on_position_message">
+        <text>L'ennemi a lancé l'offensive ! Prépare-toi au combat, stalker !</text>
+    </string>
+	<string id="hold_the_ground_defended_position_message">
+        <text>Ça devrait être les derniers. Fais-moi ton rapport immédiatement, stalker !</text>
+    </string>
+	<string id="hold_the_ground_run_fail_message">
+        <text>Pathétique... J'aurais pas dû te faire confiance pour ce boulot.</text>
+    </string>
+	<string id="hold_the_ground_details">
+        <text>Défendre la position</text>
+    </string>
+
+	<string id="cit_killers_merc_trader_stalker_task_no_step_back_name">
+		<text>No Step Back</text>
+	</string>
+	<string id="cit_killers_merc_trader_stalker_task_no_step_back_text">
+		<text>Les Mercenaires perdent progressivement le contrôle de Limansk et Dushman craint que la Ville morte ne soit bientôt attaquée par le Monolithe. Je dois reprendre le territoire jusqu'au pont et détruire toute éventuelle force de renfort qu'ils pourraient recevoir.</text>
+	</string>
+	<string id="cit_killers_merc_trader_stalker_task_no_step_back_about">
+		<text>Écoutez-moi bien - j'ai un contrat personnel pour vous. L'équilibre des forces à Limansk penche de plus en plus en faveur du Monolithe ces derniers temps. Nous avons peut-être un équipement plus performant, mais ils disposent d'une arme que nous avons sous-estimée jusqu'à présent : le fanatisme.\n\nNotre lucratif commerce ici pourrait bientôt prendre fin - certains de mes clients ont déjà quitté les lieux, craignant que les fanatiques n'arrivent d'un moment à l'autre. Voici l'affaire : rendez-vous à Limansk et rétablissez l'équilibre - repoussez le Monolithe derrière le pont et détruisez tout détachement qui tenterait de le franchir à nouveau.</text>
+	</string>
+	<string id="cit_killers_merc_trader_stalker_task_no_step_back_finish">
+		<text>Bien joué. Nous pouvons désormais reprendre nos activités comme à l'accoutumée. Tenez, prenez ceci. Je récupérerai rapidement cette somme lorsque les nouveaux contractants sauront que cet endroit est de nouveau sûr.</text>
+	</string>
+	<string id="no_step_back_on_position_message">
+        <text>Nos radars détectent un groupe énorme de Monolithiens qui viennent renforcer la position perdue. Prépare-toi !</text>
+    </string>
+	<string id="no_step_back_defended_position_message">
+        <text>Beau boulot, partenaire. Les Radars ne montrent plus aucune activité hostile dans le secteur. Maintenant, ramène-toi - faut qu'on parle.</text>
+    </string>
+	<string id="no_step_back_run_fail_message">
+        <text>T'as perdu ton contrat, mon pote. Fallait engager de vrais combattants...</text>
+    </string>
+	<string id="no_step_back_details">
+        <text>Défendre la position</text>
+    </string>
+
+	<string id="simulation_task_gambling_with_life_name">
+		<text>Gambling with Life</text>
+	</string>
+	<string id="simulation_task_gambling_with_life_text">
+		<text>J'ai accepté un pari avec un membre de la Liberté : tuer un bloodsucker en pleine santé en utilisant uniquement un couteau. Les hippies ont des idées étranges, mais l'argent est l'argent, alors...</text>
+	</string>
+	<string id="simulation_task_gambling_with_life_about">
+		<text>Hier, j'ai vécu une aventure mémorable avec l'un de mes gars. Je ne sais pas où il a déniché cette came, mais bon sang... ça cognait dur...\n \nBref, revenons à nos moutons. Vous savez, on aime bien parier entre nous, et ce type a lancé un défi plutôt tordu. Il a parié une somme rondelette sur le fait que quelqu'un pourrait tuer un bloodsucker avec seulement un couteau. Un de nos potes, encore défoncé, a surpris la conversation et est sorti de la base cette nuit-là. Il n'est jamais revenu, mais le pari tient toujours. Pauvre gars... je me demande ce qui lui est arrivé...\n \nOù en étais-je ? Ah oui, le pari ! Vous avez l'air d'un dur à cuire. Ça vous tente d'essayer votre chance ? Je vais fixer une petite caméra sur votre combinaison pour pouvoir montrer la vidéo à mon pote plus tard. Quoi, vous pensiez que j'allais vous donner son nom ici ? Il faut bien que j'en tire quelque chose, moi aussi.\n \nAttention, il y a une condition : le mutant doit être en bonne santé. Mon pote pourra voir sur la vidéo si la créature avait des blessures avant l'attaque, et dans ce cas, pas de paiement.</text>
+	</string>
+	<string id="simulation_task_gambling_with_life_finish">
+		<text>Vous m'avez vraiment impressionné ! Laissez-moi apporter cet enregistrement à mon ami. Voici votre part.</text>
+	</string>
+	<string id="gambling_with_life_details">
+        <text>Tenir le pari</text>
+    </string>
+
+	<string id="simulation_task_vengence_amplified_name">
+		<text>Vengeance amplifiée</text>
+	</string>
+	<string id="simulation_task_vengence_amplified_text">
+		<text>Un bandit souhaite que je découpe la chimère en morceaux avec une hache pour venger son ami. Accepter cette mission était probablement une erreur...</text>
+	</string>
+	<string id="simulation_task_vengence_amplified_about">
+		<text>Vous avez déjà entendu parler des chimères, n'est-ce pas ? Des créatures immenses et répugnantes... Que le diable les emporte ! L'une d'elles a envoyé un de mes frères ad patres. Nous patrouillions de nuit autour du périmètre lorsqu'une de ces abominations nous a pris en embuscade. Elle s'est jetée droit sur mon frère et lui a arraché la jambe. Ses cris ont alerté le reste du camp, et nous avons réussi à repousser la bête. Mais cela a pris trop de temps, et mon frère est mort d'une hémorragie...\n \nVoici ce que je vous propose : fixez cette caméra à votre combinaison et tranchez la jambe d'une de ces saletés ! Ou, pourquoi pas, réduisez-la en morceaux ! Je veux la voir souffrir le martyre !\n \nElles sont coriaces, donc peu importe si le coup de grâce est porté avec une hache.</text>
+	</string>
+	<string id="simulation_task_vengence_amplified_finish">
+		<text>Vous avez été cruel dans vos méthodes, mon ami. Je vous en suis reconnaissant. Voir cette férocité se transformer en peur et la douleur dans les yeux de cette bête m'a procuré une certaine... satisfaction.</text>
+	</string>
+	<string id="vengence_amplified_details">
+        <text>Démembrer la bête</text>
+    </string>
+
+	<string id="yan_stalker_sakharov_task_brain_game_name">
+		<text>Brain Game</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_brain_game_text">
+		<text>Sakharov a besoin d'un controller au cerveau intact pour poursuivre ses recherches sur ses capacités psi.</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_brain_game_about">
+		<text>Je suis toujours ravi de voir des jeunes aussi enthousiastes à l'idée de contribuer à des projets scientifiques ! Vous savez, nous étudions les mystères de la Zone depuis très longtemps, et pourtant, il reste encore tant à découvrir. L'une des merveilles les plus fascinantes - et en même temps les plus dangereuses - de la Zone sont les controllers. Les Stalkers évitent généralement de les affronter, et lorsqu'un contact est inévitable, ils cherchent - à juste titre - à les éliminer au plus vite en visant la tête. C'est pourquoi la plupart des échantillons cérébraux que nous recevons sont de peu d'utilité. Nous serions extrêmement reconnaissants si vous parveniez à en tuer un sans endommager son cerveau, et nous en informiez aussitôt afin que nous puissions envoyer une équipe pour le récupérer avant que ses tissus ne commencent à se décomposer.</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_brain_game_finish">
+		<text>Merci pour votre contribution à notre communauté scientifique, jeune homme.</text>
+	</string>
+	<string id="brain_game_details">
+        <text>Traquer le spécimen</text>
+    </string>
+	<string id="brain_game_success_report">
+        <text>Professeur - j'ai réussi à récupérer le spécimen que vous demandiez. Je vous envoie les coordonnées.</text>
+    </string>
+	<string id="brain_game_success_response">
+        <text>Excellent boulot ! J'envoie une de nos équipes sur place immédiatement. Passe me voir à notre bunker - ta récompense t'attend.</text>
+    </string>
+
+	<string id="urgent_orders_name">
+		<text>Urgent Orders</text>
+	</string>
+	<string id="bar_dolg_leader_task_urgent_orders_text">
+		<text>Un camarade soldat du Devoir a été grièvement blessé par un nouveau type de bloodsucker et nécessite des soins médicaux de la part des scientifiques. Je dois me dépêcher !</text>
+	</string>
+	<string id="bar_dolg_leader_task_urgent_orders_finish">
+		<text>Excellent travail, soldat ! Vous avez sauvé votre frère d'armes. Continuez ainsi.</text>
+	</string>
+	<string id="bar_dolg_leader_task_urgent_orders_report">
+        <text>Soldat ! Ici le général Voronin ! J'ai un ordre urgent pour vous. L'un de nos frères a été blessé et empoisonné par une nouvelle espèce de bloodsucker. Notre médecin est incapable de l'aider. J'ai contacté le professeur Sakharov pour obtenir de l'aide, et il est possible que son médicament expérimental puisse sauver notre frère.\n\nVous devez partir immédiatement pour Yantar et escorter un groupe de scientifiques jusqu'à notre base. Ne me décevez pas, soldat !</text>
+    </string>
+	<string id="bar_dolg_leader_task_urgent_orders_scientists_response">
+        <text>Salutations, jeune homme ! J'ai reçu des informations concernant votre arrivée de la part de votre général. Mes assistants disposent de tout le nécessaire pour soigner votre ami et vous rejoindront sous peu.</text>
+    </string>
+	<string id="bar_dolg_leader_task_urgent_orders_fail">
+        <text>Notre frère vient de rendre son dernier souffle. Vous m'avez déçu, soldat... Vous nous avez tous déçus.</text>
+    </string>
+
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_urgent_orders_text">
+		<text>Un camarade soldat a été grièvement blessé par un nouveau type de bloodsucker et nécessite des soins médicaux de la part des scientifiques. Je dois me dépêcher !</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_urgent_orders_finish">
+		<text>Excellent travail, soldat ! Vous avez sauvé votre frère d'armes. Rompez.</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_urgent_orders_report">
+        <text>Soldat ! Ici le colonel Kuznetsov ! J'ai un ordre urgent pour vous. L'un de nos frères a été blessé et empoisonné par une nouvelle espèce de bloodsucker. Notre médecin est incapable de l'aider. J'ai contacté le professeur Sakharov pour obtenir de l'aide, et il est possible que son médicament expérimental puisse sauver notre frère.\n\nVous devez partir immédiatement pour Yantar et escorter un groupe de scientifiques jusqu'à notre base. Ne me décevez pas, soldat !</text>
+    </string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_urgent_orders_scientists_response">
+        <text>Bonjour, jeune homme ! J'ai reçu des informations concernant votre arrivée de la part du colonel Kuznetsov. Mes assistants disposent de tout le nécessaire pour soigner votre ami et vous rejoindront sous peu.</text>
+    </string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_urgent_orders_fail">
+        <text>Vous êtes en retard, soldat... Notre médecin vient de confirmer le décès. Priez pour que votre supérieur ne demande pas la cour martiale.</text>
+    </string>
+
+	<string id="bar_visitors_barman_stalker_trader_task_baba_yaga_name">
+		<text>Baba Yaga</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_task_baba_yaga_text">
+		<text>Certains stalkers ont été observés en train de disparaître dans les airs la nuit, près de l'anomalie Witches' Jelly, en tentant de s'emparer d'un artefact apparemment accessible. Je dois enquêter sur ce qui se passe.</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_task_baba_yaga_about">
+		<text>Lorsque l’on passe ses journées dans un endroit comme celui-ci, on entend beaucoup d’histoires intéressantes. La plupart ne sont que des balivernes, mais il en est une qui provient directement du Boucher lui-même. Cet homme est une véritable légende par ici... un dur qui a rendu Décharge habitable, dans une certaine mesure, bien sûr.\n\nVoici l’histoire : peu avant de terminer sa journée, le Boucher est sorti du hangar pour fumer une cigarette. Il a aperçu au loin un groupe de novices qui s’étaient arrêtés près de l’anomalie de Witches' Jelly pour récupérer un artefact. Dès que l’un d’eux a tendu la main vers celui-ci, ils ont disparu dans un éclair bref. Leurs cris ont retenti dans les bois pendant quelques secondes. Le Boucher savait qu’il était déjà trop tard pour les sauver, alors il est resté là, à attendre. Pendant un court instant, il a distingué la silhouette fine d’une femme âgée. Il n’avait aucune envie de pourchasser un ghost en pleine nuit, alors il y est retourné le lendemain et n’a trouvé que les ossements des stalkers. Il a tenté de traquer le monstre en journée, mais celui-ci n’a jamais réapparu. Il a mis en garde tous les stalkers de passage, et c’est ainsi que l’histoire de Baba Yaga est née parmi eux - vous savez, cette vieille femme effrayante des contes pour enfants, qui vit dans les marais ou la forêt et enlève les enfants s’aventurant trop loin de chez eux.\n\nLe Boucher est également venu me voir récemment. Il cherchait à comprendre ce qui hantait cet endroit, mais il semble que le monstre soit assez intelligent pour éviter cette machine à tuer. Comme de plus en plus de stalkers expérimentés fréquentent Rostok, il m’a demandé de trouver quelqu’un prêt à s’occuper de cette sorcière. Qu’en dites-vous ?</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_task_baba_yaga_finish">
+		<text>Alors la sorcière existe bel et bien ! La Zone ne cessera jamais de me surprendre. Vous dites n'avoir pas trouvé le corps ? Dommage - espérons qu'elle ne reviendra jamais.\n\n*marmonnant* Baba Yaga... nom de Dieu... *marmonnant*</text>
+	</string>
+	<string id="baba_yaga_details">
+        <text>Fouiller les lieux de nuit</text>
+    </string>
+
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_house_of_horrors_name">
+		<text>House of Horrors</text>
+	</string>
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_house_of_horrors_text">
+		<text>Le corps éviscéré d'un membre du Firmament a été découvert au poste de contrôle nord-est. Cold m'a demandé de découvrir ce qui rôde là-bas la nuit.</text>
+	</string>
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_house_of_horrors_about">
+		<text>Vous savez, le marais a toujours été un endroit très dangereux. Nous avons dû nous battre pour établir notre base et sécuriser les alentours. De nos jours, les mutants s'approchent rarement de nous. Les Renégats attaquent encore notre avant-poste extérieur de temps en temps, mais ils le regrettent toujours.\n \nCela dit, quelque chose d'étrange se produit là-bas ces derniers temps. Nos hommes signalent des aboiements mystérieux et des chuchotements semblant venir de nulle part. Comme aucun mutants n'a été repéré dans les parages, nous avons ignoré ces phénomènes... jusqu'à ce que l'on retrouve le corps massacré de l'un de nos sentinelles derrière le bâtiment, après qu'il soit allé uriner de nuit et n'ait pas réapparu depuis longtemps.\n \nJe me suis alors souvenu d'une chose... À l'époque où Lebedev était notre chef, un vieux Solitaire est passé un jour dans notre bar et a raconté une histoire à propos d'une famille paisible avec un chien qui vivait à cet endroit avant l'accident de Tchernobyl. L'homme avait également commencé à entendre des voix, ce qui l'a conduit à la folie. Il a perdu la raison et a tué toute sa famille dans son sommeil, y compris le chien. Le lendemain, après avoir réalisé ce qu'il avait fait, il s'est pendu... J'ai un mauvais pressentiment que ces incidents pourraient être liés. Nous devons toujours garder cet endroit sous surveillance, mais je ne peux pas me permettre de perdre un autre homme. Êtes-vous prêt à enquêter sur cette affaire ?</text>
+	</string>
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_house_of_horrors_finish">
+		<text>Je suppose que le vieil homme disait donc la vérité... Quelle histoire. Nous devrons doubler notre sécurité à cet endroit pour que cela ne se reproduise plus. Tenez, ceci est pour vous.</text>
+	</string>
+	<string id="house_of_horrors_details">
+        <text>Fouiller les lieux de nuit</text>
+    </string>
+
+	<string id="zat_a2_stalker_barmen_task_mirage_name">
+		<text>Mirage</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_mirage_text">
+		<text>Un chasseur d'artefacts secouru affirme avoir été abattu par un autre stalker qui lui ressemblait trait pour trait. Barbu m'a demandé de me rendre sur place et d'examiner les alentours.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_mirage_about">
+		<text>J'ai une mission pour vous. Comme vous le savez peut-être, je reçois toujours des contrats de collectionneurs pour des artefacts rares, et il n'y a pas de meilleur endroit pour les trouver. L'un de mes contractants est récemment revenu avec une balle dans les tripes après une expédition dans la Forêt de Fer. Ce salaud a eu de la chance que quelqu'un capte son signal de détresse. Après s'être réveillé de l'anesthésie, il a raconté une histoire incroyable.\n \nIl affirme que, alors qu'il se baissait pour ramasser un artefact, il a entendu quelqu'un l'appeler. En se retournant, une personne se tenait non loin derrière lui, braquant un pistolet droit sur lui. Il a immédiatement perdu ses moyens en réalisant que cette personne lui ressemblait trait pour trait, mais n'a pas eu le temps de paniquer, car il a reçu une balle juste après. En tombant, il a regardé à nouveau, et le tireur avait disparu. Il a immédiatement envoyé un SOS et s'est évanoui peu après. Il a été retrouvé par une escouade non loin de là. Les sauveteurs ont déclaré avoir entendu des chuchotements en quittant les lieux, mais n'ont pas cherché à savoir d'où ils venaient. Voici l'affaire : découvrez ce qui rôde là-bas, et vous serez bien payé, d'accord ?</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_mirage_finish">
+		<text>Waouh... Je savais que les burers pouvaient manipuler la matière, mais je ne m'attendais pas à ce qu'ils puissent le faire à ce point ! Je ne pense pas que les visiteurs me croiront quand je leur raconterai votre histoire. Tenez, vous l'avez mérité.\n\nBonne chasse, stalker... *rit*</text>
+	</string>
+	<string id="mirage_details">
+        <text>Fouiller les lieux</text>
+    </string>
+
+	<string id="jup_b220_trapper_task_big_game_name">
+		<text>Big Game</text>
+	</string>
+	<string id="jup_b220_trapper_task_big_game_text">
+		<text>Un groupe de pseudogiants s'est réfugié dans le tunnel ferroviaire sud de Jupiter. Le Trapper m'a demandé de m'en occuper.</text>
+	</string>
+	<string id="jup_b220_trapper_task_big_game_about">
+		<text>Êtes-vous intéressé par l'amélioration de vos compétences de chasse ? Les scientifiques du bunker ont signalé des grondements et des rugissements provenant du tunnel ferroviaire sud et offrent une somme conséquente à quiconque serait prêt à enquêter sur place et à éliminer la menace potentielle. Sans aucun doute, il doit s'agir d'un pseudogiant... voire d'une paire. Une occasion parfaite pour perfectionner vos techniques d'abattage de ces créatures majestueuses, mais dangereuses. Qu'en dites-vous ? Prêt pour une chasse au gros gibier ?</text>
+	</string>
+	<string id="jup_b220_trapper_task_big_game_finish">
+		<text>Quelle histoire ! Je ne pensais pas qu'un pseudogiants pouvait atteindre une telle taille... Je regrette de ne pas être sorti de ma retraite rien que pour revendiquer cette mise à mort. Quoi qu'il en soit, voici votre prime.</text>
+	</string>
+	<string id="big_game_details">
+        <text>Fouiller les lieux</text>
+    </string>
+
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_enforce_embargo_name">
+		<text>Enforce Embargo</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_enforce_embargo_text">
+		<text>Un stalker projette de vendre un artefact à un collectionneur extérieur à la Zone. Je dois l'intercepter et le rapporter au Colonel.</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_enforce_embargo_about">
+		<text>Repos, soldat. Il y a une chose dont il faut s'occuper. Notre agent infiltré a surpris une conversation entre deux stalkers au bar des 100 Rads. Ils parlaient de leur dernier contrat : livrer l'un de ces objets brillants appelés artefacts à un collectionneur en dehors du périmètre - un spécimen plutôt rare, pour être précis. C'est là que nous intervenons. Vous devez intercepter cet objet et me le ramener, compris ?\n\nUne dernière chose - si la cible meurt et que le colis est intercepté par quelqu'un d'autre, ce sera de votre responsabilité. Vous n'êtes pas non plus autorisé à briser le sceau de la boîte. Nous aimerions rendre visite au client et avoir une petite discussion avec lui.</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_enforce_embargo_finish">
+		<text>Excellent travail, soldat. Continuez ainsi. Rompez.</text>
+	</string>
+
+	<string id="esc_m_trader_task_cold_blooded_betrayal_name">
+		<text>Trahison Cold-sang</text>
+	</string>
+	<string id="esc_m_trader_task_cold_blooded_betrayal_text">
+		<text>Sidorovich m'a demandé de traduire en justice un ex-Solitaires qui a tué ses coéquipiers. Je dois également rapporter l'artefact qui a causé ses crimes.</text>
+	</string>
+	<string id="esc_m_trader_task_cold_blooded_betrayal_about">
+		<text>J'ai une mission de chasse aux artefacts plutôt inhabituelle pour vous. J'ai reçu une demande pour un artefact peu commun de la part d'un client au-delà du périmètre, et le contrat a été rapidement accepté par un groupe de deux novices dirigés par un gars plus expérimenté. Deux jours plus tard, j'ai reçu un message m'informant qu'ils l'avaient trouvé près de la Décharge et qu'ils rentreraient le lendemain. J'ai été un peu surpris... on ne trouve généralement que des bricoles par là.\n \nPassons à la partie intéressante. Ils ont décidé de passer la nuit dans le hangar. Le Boucher a mentionné que l'un d'eux était particulièrement nerveux après avoir eu un différend avec le chef du groupe. Juste avant de s'allonger pour dormir, il a entendu des coups de feu venant du côté du feu de camp et des pas précipités de quelqu'un qui s'enfuyait du hangar. Lorsqu'il est arrivé près du feu de camp, arme à la main, il n'a vu que deux corps, et aucun d'eux n'était le type suspect dont il se souvenait. Il a trouvé une note concernant le contrat sur le corps du chef et m'a informé de l'incident.\n \nCe salaud a probablement vu un artefact comme celui-là pour la première fois et a décidé de tuer ses frères pour le voler, tout en me doublant par la même occasion. Ce fut sa dernière erreur. Mettez-lui une balle dans la tête et rapportez ce qu'il a volé.</text>
+	</string>
+	<string id="esc_m_trader_task_cold_blooded_betrayal_finish">
+		<text>Ainsi, la justice a été rendue... Bien joué, stalker.</text>
+	</string>
+
+	<string id="val_smart_terrain_7_4_bandit_trader_stalker_task_shakedown_name">
+		<text>Shakedown</text>
+	</string>
+	<string id="val_smart_terrain_7_4_bandit_trader_stalker_task_shakedown_text">
+		<text>Olivius souhaite que je lui rapporte un artefact découvert par les scientifiques sur le territoire des Bandits.</text>
+	</string>
+	<string id="val_smart_terrain_7_4_bandit_trader_stalker_task_shakedown_about">
+		<text>Écoutez-moi bien. Comme vous le savez déjà, nous considérons cet endroit comme notre territoire, et nous le prenons très au sérieux. De temps en temps, des visiteurs semblent ne pas comprendre cela, et cela se termine généralement mal pour eux. Nos hommes ont repéré un groupe de scientifiques rôdant près de la Fosse Luminescente. Comme ils transportent généralement des détecteurs d'artefacts avancés et que l'endroit est plutôt dangereux, nos gars ont décidé de laisser les scientifiques faire le sale boulot, puis de récupérer ce qu'ils trouveraient sur leurs cadavres. Lorsqu'ils ont remarqué que nos invités rangeaient des objets scintillants dans une boîte en plomb, l'un de nos meilleurs tireurs a levé son SKS, prêt à faire feu. À ce moment précis, sa tête a littéralement explosé... il a reçu une balle de sniper en pleine tête. Le reste de son escouade ne savait pas d'où venait le tir, alors ils ont pris leurs jambes à leur cou. Lorsqu'un groupe plus important est retourné sur place, ils avaient disparu. Ils ont aussi emporté l'équipement de notre frère mort.\n \nC'est nous qui prenons les affaires des autres ici, pas l'inverse... Trouvez ces salauds, donnez-leur une leçon et rapportez-moi la boîte.</text>
+	</string>
+	<string id="val_smart_terrain_7_4_bandit_trader_stalker_task_shakedown_finish">
+		<text>Ah, le voilà. Cela ne ramènera pas notre frère à la vie, mais cela remontera certainement le moral.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_task_stolen_specimen_name">
+		<text>Stolen Specimen</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_stolen_specimen_text">
+		<text>Les scientifiques ont perdu un artefact rare au profit de l'escouade Péché. J'ai accepté de le récupérer.</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_stolen_specimen_about">
+		<text>Je pense avoir une mission pour vous. Nous avons récemment envoyé une expédition à Limansk afin de mesurer les activités anormales dans cette région. Étant donné qu'il s'agit d'un lieu de combats constants entre mercenaires et forces du Monolithe, nous avons décidé de faire appel à des experts issus de leurs rangs pour couvrir nos collègues. Tout s'est déroulé comme prévu... jusqu'à un certain point.\n\nNos hommes ont collecté les données requises et découvert un artefact plutôt rare. Alors qu'ils se préparaient à partir, une forte émission a frappé les lieux. Ils se sont abrités dans le sous-sol d'un bâtiment voisin. Une fois le calme revenu, les mercenaires sont sortis pour reconnaître les alentours. Peu après, nos collègues ont entendu une fusillade. Ils n'ont même pas eu le temps de saisir leurs armes qu'une grenade atterrissait dans le sous-sol, déchiquetant deux scientifiques. Le dernier, à peine vivant, a rampé jusqu'au mur le plus éloigné, s'accrochant au conteneur contenant l'artefact. Trois hommes au visage blême sont entrés dans le sous-sol, braquant leurs armes sur lui. Lorsque leur chef a aperçu le conteneur, il a tendu la main et l'a désigné du doigt. Sans hésiter, le survivant leur a lancé la boîte, déjà en train de réciter ses prières. Les fanatiques, cependant, n'ont pas mis fin à ses jours, voyant qu'il était déjà mourant. Ils se sont emparés du conteneur et sont partis en silence. Notre homme s'est évanoui à ce moment-là et a été retrouvé par une escouade de mercenaires arrivée en retard sur les lieux. Heureusement, il est vivant.\n\nVoici ma demande. Nous devons récupérer cet artefact. Il constitue une référence cruciale pour les données collectées. La boîte était équipée d'un traceur GPS, vous pourrez donc localiser ces fanatiques. Je suis pacifiste, mais il n'y a pas de raisonnement possible face à une foi aveugle. Faites ce que vous devez faire.</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_stolen_specimen_finish">
+		<text>Bien joué, jeune homme. Nous pouvons maintenant poursuivre nos recherches... en mémoire de nos collègues disparus.</text>
+	</string>
+
+	<string id="trader_pri_a15_mlr_task_blood_stained_coin_name">
+		<text>Blood-stained Coin</text>
+	</string>
+	<string id="trader_pri_a15_mlr_task_blood_stained_coin_text">
+		<text>Le Caissier m'a chargé de récupérer un artefact rare pris par une escouade de scientifiques de l'ISG.</text>
+	</string>
+	<string id="trader_pri_a15_mlr_task_blood_stained_coin_about">
+		<text>Vous avez l'air de quelqu'un qui aime prendre des risques, n'est-ce pas ? J'ai un contrat très lucratif pour un artefact rare. En fait, un autre stalker m'a apporté cet artefact il y a quelques jours. Vous vous demandez sans doute pourquoi le contrat tient toujours, non ? Eh bien... une escouade de gens très dangereux filait ce stalker. Alors que nous allions conclure l'affaire ici, ils ont fait irruption, prenant tout le monde par surprise. On voyait tout de suite qu'ils étaient des experts : équipement haut de gamme et armes de pointe. Aucune balle n'a été tirée, cependant - nous savions que nous étions fichus, alors nous nous sommes rendus. Leur chef s'est approché lentement de moi, m'a frappé au visage avec son poing blindé et a pris le conteneur contenant l'artefact ainsi que le paiement préparé pour le stalker. Il nous a prévenus que si quiconque les suivait, ils ne laisseraient personne en vie ici. Alors nous sommes restés là toute la journée...\n \nLe commanditaire initial n'était pas ravi de la tournure des événements. La boîte était équipée d'un traceur GPS, alors il est parti à leur recherche. Comme je ne l'ai pas revu depuis longtemps, je suppose qu'il a mordu la poussière. Nous n'avons pas eu de chance pour trouver un artefact similaire, et le client s'impatiente. Alors, je me suis dit : seriez-vous prêt à leur rendre la monnaie de leur pièce en mon nom et à récupérer le colis ?</text>
+	</string>
+	<string id="trader_pri_a15_mlr_task_blood_stained_coin_finish">
+		<text>Je suis impressionné, stalker. Je ne m'attendais pas à vous revoir vivant. Tenez, vous l'avez mérité.</text>
+	</string>
+
+	<string id="jup_a6_stalker_barmen_task_the_keepsake_name">
+		<text>The Keepsake</text>
+	</string>
+	<string id="jup_a6_stalker_barmen_task_the_keepsake_text">
+		<text>J'ai accepté de venger la mort du frère d'un certain stalker et de rapporter la cause de son décès en guise de souvenir.</text>
+	</string>
+	<string id="jup_a6_stalker_barmen_task_the_keepsake_about">
+		<text>Écoute, mon ami. Tu n'as pas peur de tuer pour de l'argent, n'est-ce pas ? Surtout quand il s'agit de raclures...\nVoici le truc - un stalker est passé à Yanov il y a quelques jours. Son visage était sans expression... Je savais qu'il avait vu des choses pas net. Il est venu vers moi et a commandé deux bouteilles de vodka. Il est resté là, silencieux, buvant une gorgée après l'autre, fixant le fond de son verre. Il ne s'était même pas écoulé une heure qu'une bouteille était déjà vide. Puis il a enfin rompu le silence avec ces mots : « Aujourd'hui, j'ai perdu mon frère... pas comme un vrai pote, mais un frère de sang... » Il a ensuite poursuivi en me racontant toute l'histoire. Ils étaient venus à Jupiter pour leur dernier contrat avant de quitter Zone pour de bon. Ils avaient accepté de trouver un artefact très rare pour une bonne somme, et cet endroit semblait parfait pour ça - assez loin au nord et relativement sûr. Après quelques jours de recherche, ils en ont trouvé un près de l'anomalie du Bain de Béton... ou plutôt, c'est son frère qui l'a repéré en s'éloignant un peu dans les buissons pour faire ses besoins. Au moment de revenir, il a entendu un coup de fusil de sniper et, peu après, a vu son frère s'effondrer au sol. Il s'est de nouveau planqué dans les buissons. Une escouade de fanatiques de Monolithe, lourdement armés, s'est approchée du corps. Le stalker savait qu'il ne pouvait rien faire à ce moment-là. Ils ont pris le conteneur avec l'artefact, balancé le corps dans l'anomalie et sont repartis peu après. Avant qu'il n'ait pu s'approcher, le corps de son frère s'était déjà dissous.\n\nÀ ce stade, il se fichait du contrat. Il a laissé un bon paquet de fric ici, avec ses coordonnées, et a dit que celui qui buterait ces enfoirés et rapporterait l'artefact pourrait le garder. Il veut juste en faire un souvenir. Qu'est-ce que t'en dis ? Ça semble être une cause plutôt noble. La boîte avait un localisateur au contact, donc tu n'auras pas de mal à trouver la cible, même si tu risques de devoir aller dans un endroit sacrément dangereux.</text>
+	</string>
+	<string id="jup_a6_stalker_barmen_task_the_keepsake_finish">
+		<text>Vous avez fait une bonne action aujourd'hui, stalker. Notre ami a déjà quitté la Zone, mais je veillerai à ce que ce colis lui parvienne.</text>
+	</string>
+
+	<string id="jup_a6_freedom_leader_task_freedom_intel_documents_name">
+		<text>Documents du Liberté</text>
+	</string>
+	<string id="jup_a6_freedom_leader_task_freedom_intel_documents_text">
+		<text>Loki m'a demandé de récupérer les documents de renseignement cachés par l'une de leurs patrouilles de reconnaissance.</text>
+	</string>
+	<string id="jup_a6_freedom_leader_task_freedom_intel_documents_about">
+		<text>Comme vous le savez peut-être, nous sommes le poste le plus au nord de la Liberté dans la Zone. Cela implique un inconvénient majeur : des affrontements fréquents avec le Monolithe et le Péché. Nous avons plusieurs patrouilles de reconnaissance déployées pour faciliter notre vie en recueillant des renseignements sur les mouvements ennemis et en tendant des embuscades à leurs petits détachements.\n\nL'une de ces patrouilles a récemment disparu, mais elle disposait d'une cache où elle entreposait son butin. Cette cache devrait également contenir les données qu'ils devaient livrer. La mission est simple : je veux ces documents. Vous pouvez garder tout le reste.</text>
+	</string>
+	<string id="jup_a6_freedom_leader_task_freedom_intel_documents_finish">
+		<text>Bon travail. Voici votre récompense.</text>
+	</string>
+
+	<string id="guid_zan_stalker_locman_task_pilots_pda_name">
+		<text>PDA du pilote</text>
+	</string>
+	<string id="guid_zan_stalker_locman_task_pilots_pda_text">
+		<text>Le pilote a perdu son PDA lors d'une embuscade alors qu'il guidait un autre stalker vers le nord. Il m'a demandé de le récupérer.</text>
+	</string>
+	<string id="guid_zan_stalker_locman_task_pilots_pda_about">
+		<text>Êtes-vous prêt pour une aventure mortelle, stalker ? J'ai une mission qui est à la fois triviale et très dangereuse.\n\nJe ne vais pas entrer dans les détails, mais mon client et moi avons été pris en embuscade par le Monolithe il y a quelque temps, alors que j'essayais de le guider vers le nord. Nous nous en sommes sortis vivants, mais j'ai perdu mon PDA dans le feu de l'action. Il contient pas mal de secrets - je veux le récupérer. J'ai toujours mon GPS allumé et Barbu m'a aidé à localiser sa dernière position avant que la batterie ne tombe à plat.\n\nBonne nouvelle - le PDA n'a pas bougé depuis un bon moment, je suis donc presque sûr qu'il a été caché quelque part. Mauvaise nouvelle - il se trouve quelque part dans le Sarcophage. Alors... qu'en dites-vous ?</text>
+	</string>
+	<string id="guid_zan_stalker_locman_task_pilots_pda_finish">
+		<text>Voilà un exploit impressionnant. N'avez-vous jamais songé à devenir guide vous-même ? Il semble que vous sachiez éviter les dangers.</text>
+	</string>
+
+	<string id="merc_pri_grifon_mlr_task_monolith_plans_name">
+		<text>Monolith Plans</text>
+	</string>
+	<string id="merc_pri_grifon_mlr_task_monolith_plans_text">
+		<text>Les hommes de Griffin ont extrait des informations concernant une cache appartenant à un haut gradé du Monolithe, qui contiendrait prétendument des plans d'assaut. Je dois les récupérer pour lui.</text>
+	</string>
+	<string id="merc_pri_grifon_mlr_task_monolith_plans_about">
+		<text>Oui - j'ai quelque chose pour vous. Nous avons récemment affronté une patrouille de reconnaissance du Monolithe et avons réussi à en capturer un vivant. Il s'avère qu'ils surveillaient la zone pour finaliser leurs préparatifs d'assaut. Le survivant connaissait l'emplacement de la cache de son chef, qui contient ces plans. Je veux que vous me les rapportiez. Vous pouvez garder tout ce que vous trouverez d'autre.</text>
+	</string>
+	<string id="merc_pri_grifon_mlr_task_monolith_plans_finish">
+		<text>Bien joué. Ces fanatiques ne se débarrasseront pas de nous aussi facilement.</text>
+	</string>
+
+	<!-- The Living Fire -->
+	<string id="bar_informator_mlr_task_the_living_fire_name">
+		<text>The Living Fire</text>
+	</string>
+	<string id="bar_informator_mlr_task_the_living_fire_text">
+		<text>Le Mouchard souhaite que j'en apprenne davantage sur les rumeurs récentes concernant un stalker mystérieux capable, semble-t-il, de contrôler le feu.</text>
+	</string>
+	<string id="bar_informator_mlr_task_the_living_fire_about">
+		<text>Vous savez, mon ami, le savoir, c'est le pouvoir... et j'aime en savoir beaucoup pour transformer ce pouvoir en quelque chose de plus utile : de l'argent. Il y a une chose que j'ignore encore et qui pourrait me rapporter une petite fortune. Une rumeur circule à propos d'un stalker apparu récemment dans la Zone, qui aurait - paraît-il - le pouvoir de manipuler le feu. Au début, j'ai cru que c'était une rumeur comme tant d'autres, mais quand des personnes importantes ont commencé à me demander si j'en savais plus, j'ai compris qu'il y avait anguille sous roche. Même le colonel Petrenko est récemment passé me poser des questions, car ils ont retrouvé deux de leurs soldats carbonisés au Cimetière de véhicules, alors qu'aucune anomalie thermique n'était présente. Je pense que je n'ai pas besoin de vous dire que répondre « Je ne sais pas » à la plupart de ses questions ne m'a pas rapporté un sou, n'est-ce pas ? Voici donc l'affaire : vous en apprenez davantage sur cet individu, et je vous paie une belle somme. Ça vous intéresse ?\n \nMon contact au Marché aux Puces m'a rapporté que des choses étranges se produisaient récemment à la Décharge. Je commencerais mes recherches en lui parlant.</text>
+	</string>
+	<string id="the_living_fire_prometheus_name">
+		<text>Prométhée</text>
+	</string>
+	<string id="the_living_fire_mysterious_stalker_name">
+		<text>Stalker mystérieux</text>
+	</string>
+
+	<string id="the_living_fire_garbage_actor_msg_1">
+		<text>C'était quoi ce bruit ?</text>
+	</string>
+	<string id="the_living_fire_garbage_prometheus_msg_1">
+		<text>Sale mutant... dégage de là...</text>
+	</string>
+	<string id="the_living_fire_garbage_actor_msg_2">
+		<text>C'est qui...</text>
+	</string>
+	<string id="the_living_fire_garbage_prometheus_msg_2">
+		<text>Tu connaîtras mon nom... Tout le monde le connaîtra...</text>
+	</string>
+	<string id="the_living_fire_garbage_actor_msg_3">
+		<text>Putain, c'est quoi ce bordel ? J'ai un mauvais pressentiment...</text>
+	</string>
+	<string id="the_living_fire_swamp_actor_msg_1">
+		<text>Merde... J'suis à la bourre.</text>
+	</string>
+	<string id="the_living_fire_swamp_sakharov_msg_1">
+		<text>Qu'est-ce qui s'est passé là-bas, stalker ? Nos relevés sont repartis en flèche ! On dirait que l'anomalie se ramifie. Faut arrêter ça !</text>
+	</string>
+	<string id="the_living_fire_swamp_sakharov_msg_2">
+		<text>Ça y est ! Les relevés reviennent à la normale. Reviens me voir. Faut qu'on parle.</text>
+	</string>
+	<string id="the_living_fire_yantar_snitch_msg_1">
+		<text>Hé, stalker ! T'es toujours en vie ? J't'attends toujours pour ton rapport depuis Yantar.</text>
+	</string>
+	<string id="the_living_fire_yantar_actor_msg_1">
+		<text>Ouais... J'allais justement revenir vers toi. Je te rejoins bientôt.</text>
+	</string>
+	<string id="the_living_fire_dark_valley_actor_msg_1">
+		<text>J'imagine que c'étaient les pauvres soldats malchanceux...</text>
+	</string>
+	<string id="the_living_fire_x18_prometheus_msg_1">
+		<text>T'es vraiment tenace, stalker... Bon, d'accord - monte me voir. J'imagine que tu veux discuter.</text>
+	</string>
+	<string id="the_living_fire_x18_military_msg_1">
+		<text>Unité 1 et 2 - sécurisez la voie de repli. Les autres - fouillez le dernier niveau. Feu à vue, pas de prisonniers.</text>
+	</string>
+	<string id="the_living_fire_bar_actor_msg_1">
+		<text>Je devrais passer voir Sidorovich et lui demander s'il sait quelque chose de plus sur Prométhée. S'il réalise dans quelle merde il est, il se souviendra probablement de tout en deux secondes.</text>
+	</string>
+	<string id="the_living_fire_escape_sakharov_msg_1">
+		<text>Stalker - tu dois venir à mon bunker immédiatement ! On a repéré une forte augmentation d'activité anormale dans le coin.</text>
+	</string>
+	<string id="the_living_fire_yantar_barman_msg_1">
+		<text>Hé stalker. J'ai vu Snitch discuter avec des types louches - y'avait un paquet de thune en jeu. J'ai entendu dire que vous étiez en mauvais termes et que t'étais sa principale source d'infos sur Prométhée. Méfie-toi, vieux.</text>
+	</string>
+	<string id="the_living_fire_x16_prometheus_msg_1">
+		<text>C'est encore toi, stalker. J'admire vraiment ta détermination. J'imagine que tu veux continuer notre discussion précédente...</text>
+	</string>
+	<string id="the_living_fire_red_forest_actor_msg_1">
+		<text>Professeur - j'ai réussi à nettoyer la zone autour de l'anomalie.</text>
+	</string>
+	<string id="the_living_fire_red_forest_sakharov_msg_1">
+		<text>Bien joué, gamin. J'ai réussi à convaincre les militaires de l'urgence de la situation. Ils ont accepté de nous aider. On t'attend pour ton signal.</text>
+	</string>
+	<string id="the_living_fire_red_forest_actor_msg_2">
+		<text>J'imagine que c'étaient les gars dont le Barman m'a parlé. Il est temps d'aller rendre une petite visite à Snitch...</text>
+	</string>
+	<string id="the_living_fire_bar_actor_msg_2">
+		<text>Professeur - je sais où Prométhée va exécuter son plan ultime. J'y vais dès que possible. Sois prêt pour mon signal.</text>
+	</string>
+	<string id="the_living_fire_bar_sakharov_msg_1">
+		<text>Excellente nouvelle, jeune homme. Je te souhaite bonne chance. N'oublie pas de prendre l'arme dont tu as parlé. Vise bien la tête. On n'aura peut-être qu'une seule chance de l'arrêter.</text>
+	</string>
+	<string id="the_living_fire_outskirts_actor_msg_1">
+		<text>Professeur - dis aux militaires de se mettre en position.</text>
+	</string>
+	<string id="the_living_fire_outskirts_prometheus_msg_1">
+		<text>T'es là... Témoin de la naissance du nouvel ordre mondial.</text>
+	</string>
+	<string id="the_living_fire_outskirts_prometheus_msg_2">
+		<text>Vous ne pouvez plus l'arrêter... Frères - aidez-moi !</text>
+	</string>
+	<string id="the_living_fire_outskirts_sakharov_msg_1">
+		<text>Les soldats sont en position. Donne le sig...</text>
+	</string>
+	<string id="the_living_fire_outskirts_actor_msg_2">
+		<text>Maintenant ! Fais-le MAINTENANT !</text>
+	</string>
+	<string id="the_living_fire_outskirts_prometheus_msg_3">
+		<text>Quoi ? Qu'est-ce que... toi ! C'est toi qui fais ça !</text>
+	</string>
+	<string id="the_living_fire_outskirts_actor_msg_3">
+		<text>C'est ma seule chance !</text>
+	</string>
+	<string id="the_living_fire_outskirts_actor_msg_4">
+		<text>C'est fini, professeur. Prométhée n'est plus.</text>
+	</string>
+	<string id="the_living_fire_outskirts_sakharov_msg_2">
+		<text>Bien joué, jeune homme ! Je t'attends au bunker. J'ai un truc pour toi.</text>
+	</string>
+
+	<string id="st_af_tlf_prometheus">
+		<text>Prométhée</text>
+	</string>
+	<string id="st_af_tlf_prometheus_descr">
+		<text>Un artefact unique né dans le Feu grec après la mort du stalker de la légende du même nom. Il confère à son utilisateur une résistance extrême à la chaleur et accélère la cicatrisation des blessures.</text>
+	</string>
+	<!-- The Living Fire end -->
+	
+	<!-- Mystery of the Swamps -->
+	<string id="task_mystery_of_the_swamps_name">
+		<text>Mystère des marais</text>
+	</string>
+	<string id="task_mystery_of_the_swamps_text">
+		<text>Sakharov m'a demandé de l'aider à enquêter sur les anomalies récentes dans les zones marécageuses de la Zone.</text>
+	</string>
+
+	<string id="mystery_of_the_swamps_barman_msg_1">
+		<text>Hé, l'ami ! Monte ici - faut qu'on cause.</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_1">
+		<text>On approche. Restez sur vos gardes.</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_2">
+		<text>Je crois que c'est les derniers. Sakharov avait raison... le nombre de Karliks était vraiment anormal. Bref - fais tes trucs de science. On a pas envie de traîner ici trop longtemps.</text>
+	</string>
+	<string id="mystery_of_the_swamps_ecolog_msg_1">
+		<text>Je m'en occupe !</text>
+	</string>
+	<string id="mystery_of_the_swamps_ecolog_msg_2">
+		<text>J'ai toutes les données. On retourne au bunker.</text>
+	</string>
+	<string id="mystery_of_the_swamps_sakharov_msg_fail_1">
+		<text>Tu m'as déçu, stalker... T'engager comme garde du corps, c'était une erreur.</text>
+	</string>
+	<string id="mystery_of_the_swamps_stalker_msg_1">
+		<text>Je pense qu'on devrait rester groupés, mon pote. On sait pas ce qui a buté ce scientifique.</text>
+	</string>
+	<string id="mystery_of_the_swamps_data_collected_1">
+		<text>Données collectées.</text>
+	</string>
+	<string id="mystery_of_the_swamps_stalker_msg_2">
+		<text>PUTAIN ! Fais gaffe !</text>
+	</string>
+	<string id="mystery_of_the_swamps_stalker_msg_3">
+		<text>Putain, c'était quoi ce bordel ?!</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_3">
+		<text>Ça ressemblait à un... ghost... J'ai un mauvais pressentiment...</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_4">
+		<text>Ghost ? Encore lui ? J'ai un mauvais pressentiment...</text>
+	</string>
+	<string id="mystery_of_the_swamps_sakharov_msg_1">
+		<text>Stalker ! Tu me reçois ? Changement de plan ! Rends-toi à la ferme abandonnée dans la Vallée Obscure. Un de nos scientifiques a urgemment besoin de soins ! Je t'envoie les coordonnées. Parle pas du fric - on réglera ça plus tard.</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_5">
+		<text>C'est trop tard, Professeur. Ton gars est mort. J'vois aucune blessure sur son corps, par contre... Qu'est-ce qui se passe ici ?</text>
+	</string>
+	<string id="mystery_of_the_swamps_sakharov_msg_2">
+		<text>Encore une tragédie...\n\nCe type a été envoyé avec deux gardes du corps pour prendre des relevés dans le marais du Darkscape. Il a dit qu'ils avaient été attaqués par une sorte de bête et qu'il avait à peine réussi à s'en sortir vivant. Quelques minutes plus tard, il a signalé qu'il perdait ses sens et ressentait une douleur atroce dans tout son corps. On a perdu le contact avec lui, mais on a réussi à capter ses dernières coordonnées. Ensuite, on t'a contacté.</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_6">
+		<text>Bon - ce type était probablement mort bien avant que j'arrive. J'peux plus rien faire pour lui. Je serai bientôt de retour à ton bunker.</text>
+	</string>
+	<string id="mystery_of_the_swamps_sakharov_msg_3">
+		<text>Tiens bon, gamin. Puisque t'es déjà sur place, ça te dérangerait de t'occuper de ce mutant avant de revenir ? Bien sûr, y'a une récompense à la clé.</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_7">
+		<text>C'est probablement la même chose qui a buté ton autre gars. Je peux m'en charger.</text>
+	</string>
+	<string id="mystery_of_the_swamps_stalker_msg_4">
+		<text>Attends une seconde ! J'ai pas signé pour cette merde ! Il se passe un truc de ouf ici et j'veux rien avoir à faire avec ça ! J'me casse !</text>
+	</string>
+	<string id="mystery_of_the_swamps_sakharov_msg_4_1">
+		<text>T'inquiète. J'ai contacté une autre équipe qui menait l'enquête près du marais de la Vallée Obscure. Deux de leurs gardes du corps ont accepté de te filer un coup de main. Ils sont en route vers ta position.</text>
+	</string>
+	<string id="mystery_of_the_swamps_sakharov_msg_4_2">
+		<text>J'ai contacté une autre équipe qui menait l'enquête près du marais de la Vallée Obscure. Deux de leurs gardes du corps ont accepté de te filer un coup de main. Ils sont en route vers ta position.</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_8">
+		<text>On s'approche. Prenez des positions défensives et sécurisez la zone. Moi, je vais chercher les corps et le mutant qui a buté les scientifiques.</text>
+	</string>
+	<string id="mystery_of_the_swamps_sakharov_msg_fail_2">
+		<text>Abandonne la mission, stalker. On dirait que t'es pas fait pour ça...</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_9">
+		<text>Ça devrait être bon. Prépare-toi à bouger. J'arrive dans une minute.</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_10">
+		<text>Vous êtes prêts, les gars ? On y va...</text>
+	</string>
+	<string id="mystery_of_the_swamps_stalker_msg_5">
+		<text>Attends ! Ma radio capte un truc.</text>
+	</string>
+	<string id="mystery_of_the_swamps_sakharov_msg_5">
+		<text>Ab...rte la m...ission ! ... rep...ez, ab...</text>
+	</string>
+	<string id="mystery_of_the_swamps_stalker_msg_6">
+		<text>C'est Sakharov. On devrait se tirer de ce putain de canyon pour capter le signal...</text>
+	</string>
+	<string id="mystery_of_the_swamps_stalker_msg_7">
+		<text>C'était QUOI ce bordel !?</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_11">
+		<text>Cours !</text>
+	</string>
+
+	<string id="st_af_tlf_lost_soul">
+		<text>Âme perdue</text>
+	</string>
+	<string id="st_af_tlf_lost_soul_descr">
+		<text>Bien que cet artefact ressemble à un artefact Âme ordinaire, il possède des propriétés extraordinaires. Il offre une protection télépathique accrue et ne présente aucun effet négatif.</text>
+	</string>
+	<!-- Mystery of the Swamps end -->
+
+	<string id="nta_intercept_item">
+		<text>Intercepter un objet :</text>
+	</string>
+	<string id="nta_search_the_stash">
+		<text>Fouiller la planque</text>
+	</string>
+
+	<string id="nta_quest_documents_name">
+		<text>Documents chiffrés</text>
+	</string>
+	<string id="nta_quest_documents_desc">
+		<text>Documents fortement chiffrés impossibles à décrypter sans la clé de chiffrement appropriée.</text>
+	</string>
+</string_table>

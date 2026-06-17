@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_rotten_meat">
+    	<text>Viande avariée</text>
+  	</string>
+	<string id="st_rotten_meat_raw_descr">
+		<text>Viande crue nauséabonde et en décomposition, n'ayant pas été cuite à temps. La consommer équivaudrait à une condamnation à mort, car elle grouille de bactéries et de contaminants toxiques de la Zone. Même les chiens n'en voudraient plus.\n \n
+		%c[ui_red]AVERTISSEMENT : Viande avariée\n \n
+		</text>
+	</string>
+	<string id="st_rotten_meat_cooked_descr">
+		<text>Autrefois un repas copieux produit dans la stalker, ce bol de bouillie est depuis longtemps devenu rance, sa surface luisante de graisse et parsemée de moisissures. L'odeur à elle seule suffirait à faire régurgiter un stalker aguerri. Le consommer relèverait d'un suicide, car ce qui s'y cache ne manquerait pas d'infliger une agonie, voire bien pire.\n \n
+		%c[ui_red]AVERTISSEMENT : Viande avariée\n \n
+		</text>
+	</string>
+
+	<string id="st_rotten_meat_snork_descr">
+		<text>Membre putréfié prélevé sur un Snork mort depuis longtemps, rongé par l'infection et suintant des fluides fétides. Les tendons et les os rappellent de manière grotesque l'existence tourmentée du mutant. Même les marchands refusent d'y toucher, car il ne sert qu'à propager des maladies.\n \n
+		%c[ui_red]AVERTISSEMENT : Viande avariée\n \n
+		</text>
+	</string>
+
+	<string id="ui_mcm_menu_meat_spoiling">
+  	<text>Viande avariée</text>
+	</string>
+	<string id="ui_mcm_meat_spoiling_expiration_hours_cooked">
+  	<text>Durée avant avarie (viande cuite)</text>
+	</string>
+	<string id="ui_mcm_meat_spoiling_expiration_hours_raw">
+  	<text>Durée avant avarie (viande crue)</text>
+	</string>
+
+</string_table>

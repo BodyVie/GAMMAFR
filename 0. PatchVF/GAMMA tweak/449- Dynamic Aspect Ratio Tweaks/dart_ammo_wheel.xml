@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+  <string id="ui_mcm_dart_ammoWheel_title">
+    <text>Paramètres de la roue des munitions</text>
+  </string>
+
+  <string id="ui_mcm_menu_dart_ammoWheel">
+    <text>Roue des munitions</text>
+  </string>
+
+  <string id="ui_mcm_dart_ammoWheel_roundWheel">
+    <text>Utiliser la roue des munitions ronde</text>
+  </string>
+
+  <string id="ui_mcm_dart_ammoWheel_roundWheel_desc">
+    <text>Remplace la roue de sélection de munitions triangulaire par une roue circulaire.</text>
+  </string>
+
+  <string id="ui_mcm_dart_ammoWheel_roundWheel_note">
+    <text>REMARQUE : Décochez cette option si vous utilisez un habillage d'interface personnalisé et que la roue des munitions ne s'affiche pas correctement.</text>
+  </string>
+</string_table>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    
+<!--
+Aug 9mm
+-->
+
+	<string id="st_mag_aug_9x19_fmj">
+		<text>Chargeur 9x19 Aug Standard</text>
+	</string>
+	<string id="st_mag_aug_9x19_fmj_descr">
+		<text>
+            Chargeur de 32 cartouches pour la version 9 mm du fusil d'assaut Aug. Cette variante de l'Aug est utilisée par les Stalkers, car elle offre une meilleure contrôlabilité en combat rapproché.
+		</text>
+	</string>
+	
+</string_table>

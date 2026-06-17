@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!-- ====================================================================
+	New Extensible RF Sources
+    Author: Catspaw
+    Source: https://www.moddb.com/members/catspawmods/addons
+    Replacement for RF Receiver guide entry
+===================================================================== -->
+
+<string_table>
+	<string id="encyclopedia_items_detector_radio_text">
+		<text>
+			Un %c[pda_white]récepteur RF%c[ui_gray_1] est un petit appareil équipé d'un module RF hautement sensible utilisé pour les communications de base.
+			
+			\n\n%c[pda_green]Informations%c[ui_gray_1]
+			\nLes récepteurs RF se sont avérés plus robustes que les appareils avancés tels que le PDA, ce qui explique pourquoi de nombreux stalkers préfèrent en posséder un pour les situations d'urgence ou d'autres usages.
+			\nComposé de simples éléments électroniques et d'un module RF sensible, cet appareil a la capacité de recevoir des signaux radio sur des fréquences comprises entre 1 et 999 MHz (configurable dans le MCM). 
+			
+			\n\n%c[pda_blue]Utilisation%c[ui_gray_1]
+			\nEn maintenant le récepteur, vous pouvez changer la fréquence radio de fonctionnement.
+			\n• Appuyez sur %c[255,255,215,0]Bouton gauche de la souris%c[ui_gray_1] ou faites défiler vers le haut pour augmenter la fréquence.
+			\n• Appuyez sur %c[255,255,215,0]Bouton droit de la souris%c[ui_gray_1] ou faites défiler vers le bas pour diminuer la fréquence.
+			\n• Maintenez %c[255,255,215,0]Maj gauche%c[ui_gray_1] pour augmenter les sauts de fréquence de 10 Hz lors de l'augmentation ou de la diminution de la fréquence de fonctionnement.
+			\n• Maintenez %c[255,255,215,0]Alt gauche%c[ui_gray_1] pour augmenter les sauts de fréquence de 50 Hz lors de l'augmentation ou de la diminution de la fréquence de fonctionnement.
+
+			\n\n• Consomme %c[pda_white]0,1 µAh%c[ui_gray_1] par seconde d'utilisation continue.
+		</text>
+	</string>
+</string_table>

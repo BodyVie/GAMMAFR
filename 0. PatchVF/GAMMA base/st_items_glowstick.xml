@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_device_glowstick">
+		<text>Glowstick vert</text>
+	</string>
+	<string id="st_device_glowstick_descr">
+		<text>Petite source de lumière chimique à usage unique, offrant un éclairage faible mais fiable dans les darkness de la Zone. Souvent utilisée par les stalkers pour marquer des chemins, signaler des alliés ou naviguer dans les zones souterraines sans attirer trop l'attention.\nÉmet une lumière verte, avec une portée et un éclairement équilibrés.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Durée de vie : %c[ui_gray_2]~40 minutes\n
+		</text>
+	</string>
+
+	<string id="st_device_glowstick_red">
+		<text>Glowstick rouge</text>
+	</string>
+	<string id="st_device_glowstick_red_descr">
+		<text>Petite source de lumière chimique à usage unique, offrant un éclairage faible mais fiable dans les darkness de la Zone. Souvent utilisée par les stalkers pour marquer des chemins, signaler des alliés ou naviguer dans les zones souterraines sans attirer trop l'attention.\nÉmet une lumière rouge, avec une portée accrue mais un éclairement limité.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Durée de vie : %c[ui_gray_2]~60 minutes\n
+		</text>
+	</string>
+
+	<string id="st_device_glowstick_orange">
+		<text>Glowstick orange</text>
+	</string>
+	<string id="st_device_glowstick_orange_descr">
+		<text>Petite source de lumière chimique à usage unique, offrant un éclairage faible mais fiable dans les darkness de la Zone. Souvent utilisée par les stalkers pour marquer des chemins, signaler des alliés ou naviguer dans les zones souterraines sans attirer trop l'attention.\nÉmet une lumière orange, avec une portée et un éclairement corrects.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Durée de vie : %c[ui_gray_2]~40 minutes\n
+		</text>
+	</string>
+
+	<string id="st_device_glowstick_blue">
+		<text>Glowstick cyan</text>
+	</string>
+	<string id="st_device_glowstick_blue_descr">
+		<text>Petite source de lumière chimique à usage unique, offrant un éclairage faible mais fiable dans les darkness de la Zone. Souvent utilisée par les stalkers pour marquer des chemins, signaler des alliés ou naviguer dans les zones souterraines sans attirer trop l'attention.\nÉmet une lumière cyan, avec une portée très limitée mais un éclairement optimal.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Durée de vie : %c[ui_gray_2]~30 minutes\n
+		</text>
+	</string>
+
+<!--
+	MCM
+-->
+
+	<string id="ui_mcm_menu_glowsticks">
+		<text>Glowstick</text>
+	</string>
+	<string id="ui_mcm_glowsticks_enable_bs_mm_flicker">
+		<text>Scintillement Lobotomisateur et machine à miracle</text>
+	</string>
+	<string id="ui_mcm_glowsticks_enable_bs_mm_flicker_desc">
+		<text>Les lampes et les torches clignotent dans le Lobotomisateur et la Machine à Miracle tant qu'ils sont actifs, justifiant l'utilisation de glowsticks.</text>
+	</string>
+	<string id="ui_mcm_glowsticks_throw_force">
+        <text>Distance de lancer Glowstick</text>
+    </string>
+	<string id="ui_mcm_glowsticks_stash_chance">
+        <text>Chance de cachette Glowstick</text>
+    </string>
+	<string id="ui_mcm_glowsticks_stash_chance_desc">
+        <text>Probabilité de trouver un glowsticks dans les caches.</text>
+    </string>
+	<string id="ui_mcm_glowsticks_loot_chance">
+        <text>Chance de loot Glowstick</text>
+    </string>
+	<string id="ui_mcm_glowsticks_loot_chance_desc">
+        <text>Probabilité de trouver un glowsticks sur les cadavres.</text>
+    </string>
+	<string id="ui_mcm_glowsticks_throw_key">
+        <text>Lancer de clé</text>
+    </string>
+    <string id="ui_mcm_glowsticks_throw_key_desc">
+        <text>Touche à maintenir pour lancer le glowsticks.</text>
+    </string>
+	
+</string_table>

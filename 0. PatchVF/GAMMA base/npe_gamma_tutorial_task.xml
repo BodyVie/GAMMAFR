@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+    <string id="ui_mcm_npe_module_gamma_tutorial_task_task">
+        <text>Tutoriel des tâches</text>
+    </string>
+
+    <string id="ui_mcm_npe_module_gamma_tutorial_task_title">
+        <text>Tutoriels G.A.M.M.A.</text>
+    </string>
+
+    <string id="ui_mcm_npe_module_gamma_tutorial_task_desc">
+        <text>Tâche</text>
+    </string>
+	
+    <!-- MCM -->
+    <!-- Name of the toggle that sets if tutorial has been completed-->
+    <string id="ui_mcm_npe_module_gamma_tutorial_task">
+        <text>Tâche G.A.M.M.A.</text>
+    </string>
+    <!-- MCM -->
+
+    <!-- Title of the whole tutorial -->
+    <string id="ui_mcm_npe_module_gamma_tutorial_task_title">
+        <text>Tutoriel des tâches</text>
+    </string>
+
+    <!-- Cards -->
+    <!-- 1 -->
+    <string id="ui_gamma_tutorial_task_card_01_title">
+        <text>Tâches et Histoire
+		</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_task_card_01_description">
+        <text>%c[ui_white]
+		• Bienvenue dans la Zone, stalker. Des tutoriels vous seront proposés tout au long de votre aventure en fonction de vos actions. Les tutoriels peuvent être désactivés en accédant au Menu Principal &gt; Mod Configuration Menu &gt; NPE et en désactivant l'option « Activer » (case vide).\n \n
+
+		• Votre progression au sein de la Zone dépend des Tâches que vous acceptez auprès des stalkers. Celles-ci peuvent être lancées en discutant avec des stalkers ordinaires, ou en accédant à votre PDA &gt; %c[pda_red]Tableau des tâches%c[ui_white], où vous pouvez %c[pda_red]Actualiser%c[ui_white] les tâches disponibles à proximité et les accepter.\n \n 	
+
+		• Il existe également plusieurs %c[d_yellow]Scénarios%c[ui_white], accessibles en discutant avec les %c[d_cyan]Personnages importants%c[ui_white] ou les %c[d_cyan]Commerçants%c[ui_white] apparaissant sur la carte de votre PDA. Une fois acceptés, les %c[d_yellow]Scénarios%c[ui_white] apparaîtront sous forme de marqueurs de quête jaunes sur votre PDA.\n \n
+
+		• G.A.M.M.A. est difficile, et le niveau de difficulté Hard Survivalist est conçu pour les personnes connaissant déjà bien G.A.M.M.A.
+		</text>
+    </string>
+    <!-- 1 -->
+</string_table>

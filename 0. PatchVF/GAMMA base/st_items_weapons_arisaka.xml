@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_arisaka">
+		<text>Arisaka Type 38</text>
+	</string>
+	<string id="st_wpn_arisaka_descr">
+		<text>Un fusil à boulon réputé pour sa durabilité exceptionnelle, son mécanisme fluide et sa précision à longue distance. Conçu pour un usage militaire, il dispose d'une carcasse renforcée et d'un canon long pour améliorer les performances balistiques. Malgré son âge, il reste une arme prisée des collectionneurs et des passionnés d'histoire en raison de sa fiabilité et de sa qualité de fabrication.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Empire du Japon\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Empire du Japon\n
+		</text>
+	</string>
+	
+	<string id="st_up_add_arisaka_name">
+		<text>Rechambrer en 7,92x57</text>
+	</string>
+	
+</string_table>

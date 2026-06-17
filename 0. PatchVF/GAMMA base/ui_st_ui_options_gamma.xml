@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mm_desc_vis_distance">
+		<text>La distance de rendu du monde affecte également les sons. Régler le curseur en dessous de 50 % rendrait les tirs lointains inaudibles.</text>
+	</string>
+	<string id="ui_mm_desc_master_volume">
+		<text>Le volume des effets sonores n'affecte pas tous les effets sonores de manière égale. Il est recommandé de le maintenir à 0,5 ou en dessous.</text>
+	</string>
+	<string id="ui_mm_hint_gunfire_volume">
+		<text>Paramètres de volume des tirs disponibles dans Mod Configuration Menu/Sons/Armes</text>
+	</string>
+	<string id="ui_mm_desc_zcp_settings_hint">
+		<text>Les paramètres de population des Stalkers et des mutants sont disponibles dans le Mod Configuration Menu/ZCP.</text>
+	</string>
+	<string id="ui_mm_desc_ssfx_settings_hint">
+		<text>D'autres paramètres visuels sont disponibles dans le Mod Configuration Menu/SSS Settings.</text>
+	</string>
+	<string id="ui_mm_desc_fft_settings_hint">
+		<text>D'autres paramètres de voyage rapide sont disponibles dans le Mod Configuration Menu/Fair Fast Travel.</text>
+	</string>
+	<string id="ui_mm_desc_aa_3dss_settings_hint">
+		<text>Les paramètres d'anti-crénelage intégré et de SMAA sont incompatibles avec les viseurs 3D Shader Scopes.\nLes activer rendra les réticules des viseurs grossissants invisibles.</text>
+	</string>
+	<string id="ui_mm_desc_adb_actor_immunities_settings_hint">
+		<text>Le paramètre de protection du joueur est inefficace (écrasé par Grok's Actor Damage Balancer).</text>
+	</string>
+	<string id="ui_mm_desc_gbo_hit_power_settings_hint">
+		<text>Le paramètre de facteur de puissance des impacts de balle est inefficace (écrasé par Grok's Ballistics Overhaul).</text>
+	</string>
+	<string id="ui_mm_desc_gbo_shoot_effects_hint">
+		<text>Grok's Ballistics Overhaul inclut des effets de recul par défaut. Activer le paramètre ci-dessous est redondant et peut provoquer des erreurs fatales.</text>
+	</string>
+</string_table>

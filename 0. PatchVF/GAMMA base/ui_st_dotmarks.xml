@@ -1,0 +1,1569 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!-- ====================================================================
+	Interaction Dot Marks
+    Author: Catspaw
+    Permission granted to freely translate this file into any language.
+===================================================================== -->
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	
+	<string id="st_paw_unknown">
+		<text>Inconnu</text>
+	</string>
+
+	<string id="st_paw_stash">
+		<text>cache</text>
+	</string>
+	
+	<string id="st_unknown_contents">
+		<text>contenu inconnu</text>
+	</string>
+
+	<string id="st_alti_unload_weapon">
+		<text>Décharger</text>
+	</string>
+
+	<string id="st_alti_eject_mag">
+		<text>Éjecter chargeur de</text>
+	</string>
+
+	<string id="st_alti_take">
+		<text>Prendre</text>
+	</string>
+
+	<string id="st_alti_use_booster">
+		<text>Utiliser</text>
+	</string>
+
+	<string id="st_alti_smokeout">
+		<text>Fumer</text>
+	</string>
+
+	<string id="st_alti_takeuse">
+		<text>Prendre et utiliser</text>
+	</string>
+
+	<string id="st_alti_disarm">
+		<text>Désarmer et prendre</text>
+	</string>
+
+	<string id="st_alti_cannot">
+		<text>Impossible</text>
+	</string>
+
+	<string id="st_alti_read">
+		<text>Prendre et lire</text>
+	</string>
+
+	<string id="st_alti_inspect">
+		<text>Prendre et inspecter</text>
+	</string>
+
+	<string id="st_alti_search">
+		<text>Fouiller</text>
+	</string>
+
+	<string id="st_alti_consume_food">
+		<text>Consommer</text>
+	</string>
+
+	<string id="st_alti_speak">
+		<text>Parler à</text>
+	</string>
+
+	<string id="st_alti_pickup_bp">
+		<text>Ramasser ta cache et tout ce qu'elle contient</text>
+	</string>
+
+	<string id="st_alti_pickup_zrb">
+		<text>Ramasser la Corbeille et tout ce qu'elle contient</text>
+	</string>
+
+	<string id="st_alti_deploy_bp">
+		<text>Placer la cache avec</text>
+	</string>
+
+	<string id="st_alti_takeall">
+		<text>Tout prendre depuis</text>
+	</string>
+
+	<string id="st_alti_autoloot">
+		<text>Auto-loot depuis</text>
+	</string>
+
+	<string id="st_alti_heal">
+		<text>Utiliser %s pour soigner %s</text>
+	</string>
+
+	<string id="st_alti_ied">
+		<text>Planter %s</text>
+	</string>
+
+	<string id="ui_mcm_lst_dmarks_action_disabled">
+		<text>Action indisponible</text>
+	</string>
+
+	<string id="ui_mcm_lst_dmarks_ied_timer">
+		<text>avec minuterie personnalisable</text>
+	</string>
+
+	<string id="ui_mcm_lst_dmarks_iedmode_0">
+		<text>en mine de proximité</text>
+	</string>
+
+	<string id="ui_mcm_lst_dmarks_iedmode_1">
+		<text>avec minuterie de %s secondes</text>
+	</string>
+
+	<string id="ui_mcm_lst_dmarks_iedmode_2">
+		<text>avec détonateur à distance</text>
+	</string>
+
+	<string id="st_use_workshop">
+		<text>Utiliser l'établi</text>
+	</string>
+
+	<string id="st_alti_empty">
+		<text>(vide)</text>
+	</string>
+
+	<string id="st_dotmarks_note_read_yes">
+		<text>(lire)</text>
+	</string>
+
+	<string id="st_dotmarks_note_read_no">
+		<text>(non lu)</text>
+	</string>
+
+	<string id="st_alti_from">
+		<text>depuis</text>
+	</string>
+
+	<string id="st_alti_now">
+		<text>maintenant</text>
+	</string>
+
+	<string id="st_alti_uses">
+		<text>utilisations</text>
+	</string>
+
+	<string id="st_alti_owned">
+		<text>possédé</text>
+	</string>
+
+	<string id="st_alti_nopower">
+		<text>sans énergie</text>
+	</string>
+
+	<string id="st_alti_hold">
+		<text>(Maintenir) </text>
+	</string>
+
+	<string id="st_alti_busy">
+		<text>Trop occupé pour </text>
+	</string>
+
+	<string id="st_alti_doubletap">
+		<text>(Double-clic) </text>
+	</string>
+
+	<string id="st_alti_prompt_ammo">
+		<text>%s %s (%s) %s %s</text>
+	</string>
+
+	<string id="st_alti_prompt_usable">
+		<text>%s %s %s</text>
+	</string>
+
+	<string id="st_alti_prompt_booster">
+		<text>%s %s %s</text>
+	</string>
+	
+	<string id="st_body_is_claimed">
+		<text>Réclamé</text>
+	</string>
+
+	<string id="ui_catsy_hide_intro_header">
+		<text>$clr_tgr</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkobjs_scan_bodies">
+		<text>Marquage cadavres</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkobjs_scan_ammo">
+		<text>Marquage munitions</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkobjs_scan_stashes">
+		<text>Marquage caches</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkobjs_scan_weapons">
+		<text>Marquage armes</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkobjs_scan_attachments">
+		<text>Marquage accessoires</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkobjs_scan_grenades">
+		<text>Marquage grenades</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkobjs_scan_explosive">
+		<text>Marquage objets explosifs</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkobjs_scan_outfits">
+		<text>Marquage tenues</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkobjs_scan_headgear">
+		<text>Marquage couvre-chefs</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkobjs_scan_artefacts">
+		<text>Marquage Artefacts</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkobjs_scan_consumables">
+		<text>Marquage consommables</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkobjs_scan_tools">
+		<text>Marquage outils</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkobjs_scan_devices">
+		<text>Marquage appareils</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkobjs_scan_quest">
+		<text>Marquage objets de quête</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkobjs_scan_campfires">
+		<text>Marquage feux de camp</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkobjs_scan_misc">
+		<text>Marquage butin divers</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkobjs_scan_boxes">
+		<text>Marquage caisses destructibles</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkobjs_scan_doors">
+		<text>Marquage portes</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkobjs_scan_stalkers">
+		<text>Marquage NPCs</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkobjs_scan_workshops">
+		<text>Marquage établis</text>
+	</string>
+
+	<string id="ui_mcm_menu_dotmarks">
+		<text>DotMarks</text>
+	</string>
+
+	<string id="ui_mcm_menu_dmarkmain">
+		<text>Paramètres généraux</text>
+	</string>
+
+	<string id="ui_mcm_menu_dmarksec">
+		<text>Interactions</text>
+	</string>
+
+	<string id="ui_mcm_menu_dmarkadv">
+		<text>Paramètres avancés</text>
+	</string>
+
+	<string id="ui_mcm_menu_dmarkobjs">
+		<text>Paramètres des objets</text>
+	</string>
+
+	<string id="ui_mcm_menu_dmarkicons">
+		<text>Paramètres des icônes</text>
+	</string>
+
+	<string id="ui_mcm_menu_dmarkmods">
+		<text>Autres accessoires</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_near_scan_interval">
+		<text>Intervalle de scan proche</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_near_scan_interval_desc">
+		<text>Intervalle entre les analyses des objets à proximité, exprimé en millisecondes. Des valeurs plus faibles permettent des mises à jour plus fréquentes.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_early_scan_interval">
+		<text>Intervalle de scan lointain</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_early_scan_interval_desc">
+		<text>Intervalle entre les analyses plus intensives des objets éloignés, en millisecondes. Des valeurs plus faibles mettront à jour plus fréquemment, mais peuvent avoir un impact sur les performances.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_near_scan_radius">
+		<text>Rayon de scan proche</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_near_scan_radius_desc">
+		<text>Rayon de balayage des objets proches, exprimé en mètres. De nombreuses fonctionnalités dépendent de cette valeur, telles que les distances auxquelles les marqueurs disparaissent ou s'ajustent en taille. Il est recommandé de ne pas modifier cette valeur, ou de le faire par très petites incréments.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_early_scan_radius">
+		<text>Rayon de scan lointain</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_early_scan_radius_desc">
+		<text>Rayon du balayage des objets éloignés en mètres, utilisé pour détecter et initialiser les objets avant que leurs marqueurs ne doivent être affichés. Ce paramètre détermine également la distance à laquelle le système nettoie les marqueurs qui ne sont plus nécessaires.
+		\n 
+		\nCette valeur est mesurée à partir de la fin du rayon de balayage proche, mais des valeurs plus élevées peuvent avoir un coût en termes de performances, et il n'y a aucun avantage à les définir à plus de 5 m au-delà du rayon proche.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_skill_upd_interval">
+		<text>Intervalle entre mises à jour Système de Compétences</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_use_skill_system">
+		<text>Augmenter rayon de perception via Système de Compétences</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_haru_skill_name">
+		<text>Nom de la compétence utilisée pour cette vérification</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_haru_skill_coef">
+		<text>Multiplicateur rayon balayage par niveau de compétence</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_haru_skill_coef_desc">
+		<text>Si l'intégration du Système de Compétences est activée, ce paramètre contrôle le multiplicateur appliqué au rayon de balayage rapproché par niveau de compétence, augmentant ainsi efficacement la portée de « perception » du joueur - distance dans laquelle les marqueurs ponctuels peuvent apparaître.
+		\n 
+		\nAu niveau 15 de Scavenging avec le multiplicateur par défaut de 0,2 et un rayon de 4, le rayon de balayage proche final serait de 7 m. Un rayon de balayage proche très élevé peut avoir un impact sur les performances.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarksec_bind_sec_interact">
+		<text>Raccourci pour interaction secondaire</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarksec_bind_sec_interact_desc">
+		<text>Si vous rencontrez des problèmes avec l'interaction des objets qui n'est pas enregistrée, essayez de définir ce raccourci sur une touche autre qu'une variante de votre touche d'interaction principale.\n
+
+		\nUn double appui sur la touche d'interaction principale est peu fiable et n'est pas recommandé.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_debuglogs">
+		<text>Activer journalisation debug</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_debuglogs_desc">
+		<text>Avec ce drapeau activé, DotMarks enregistrera les événements les plus importants dans le journal. Si un problème survient une seule fois et que ce drapeau n'était pas activé au préalable, le journal contiendra très peu d'informations relatives à DotMarks, ce qui pourrait le rendre inutile.\n
+
+		\nIl est généralement acceptable de laisser ceci activé pendant que vous jouez, si vous suspectez un problème et souhaitez le détecter.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_verbose">
+		<text>Journalisation débogage détaillée</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_verbose_desc">
+		<text>Lors de la tentative de reproduction d'un problème, veuillez également activer cette option. Elle enregistre la plupart des actions internes de DotMarks et garantit que le journal contient les informations de dépannage les plus détaillées.\n
+
+		\nCe paramètre génère un niveau de bruit élevé et ne doit pas être laissé activé en cours de partie normale.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_interaction_dots">
+		<text>Masquer marqueurs points d'interaction</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_interaction_dots_desc">
+		<text>Si cette option est activée, les points d'interaction eux-mêmes seront masqués, mais l'interface d'interaction restera disponible.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_pri_interact_ui">
+		<text>Masquer interface interaction principale personnalisée</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_pri_interact_ui_desc">
+		<text>Si activée, l'interface utilisateur personnalisée de l'interaction principale ajoutée par DotMarks ne sera pas affichée. La fonction et les invites « utiliser » par défaut continueront de fonctionner normalement.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_sec_interact_ui">
+		<text>Masquer interface interaction secondaire personnalisée</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_sec_interact_ui_desc">
+		<text>Si activé, l'interface utilisateur personnalisée des interactions secondaires ajoutée par DotMarks ne sera pas affichée, et les interactions secondaires ne seront pas disponibles.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_van_interact_ui">
+		<text>Masquer interface interaction vanilla</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_van_interact_ui_desc">
+		<text>Si activé, toute invite d'interaction par défaut (le texte en bas de l'écran) sera masquée si elle a été remplacée par une version personnalisée.
+			\n 
+			\nCe paramètre n'a aucun effet si l'interface personnalisée d'interaction principale est également masquée.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_pickup_item_names">
+		<text>Masquer noms flottants vanilla ramassage</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_pickup_item_names_desc">
+		<text>Si activée, les noms d'objets flottants qui apparaissent lorsque la touche d'interaction est maintenue enfoncée seront masqués. Cela définit la variable cvar g_draw_pickup_item_names des modded exes.\n
+
+		\nIl s'agit d'une variable de console. Par conséquent, si vous désinstallez DotMarks sans avoir désactivé ce paramètre au préalable, vous devrez soit réinitialiser manuellement la variable dans la console, soit le faire dans les Paramètres de Modded Exes.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_connecting_line">
+		<text>Masquer ligne blanche de liaison</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_connecting_line_desc">
+		<text>Si activé, masque la ligne blanche reliant le point à l'invite d'interaction.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_show_prompt_during_anim">
+		<text>Afficher invite interaction pendant animations FDDA</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_prompt_busy_during_anim">
+		<text>Invites interaction désactivées pendant animations FDDA</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_show_prompt_during_anim_desc">
+		<text>Si activé, l'interface utilisateur d'interaction sera toujours affichée pendant les animations FDDA, et le paramètre ci-dessous contrôle si elle peut être utilisée. Si vous souhaitez masquer entièrement l'invite pendant les animations, désactivez cette option.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_prompt_busy_during_anim_desc">
+		<text>Si cette option est activée, l'interface utilisateur d'interaction est désactivée pendant les animations FDDA, atténuant l'affichage et affichant un message « Trop occupé » jusqu'à la fin de l'animation en cours.\n
+		\n 
+		\nLa désactivation de cette option avec le FDDA original permettra l'annulation d'animation, sautant l'animation en cours et commençant immédiatement la suivante. Les effets sonores seront toujours joués.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_offsets_desc">
+		<text>Ces paramètres ajustent les positions des invites d'interaction. Il s'agit de coordonnées de canevas, qui sont en 1024x768 - et non votre résolution d'écran. Certains peuvent nécessiter un redémarrage pour prendre effet.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_pri_use_x_offset">
+		<text>Décalage horizontal première interaction</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_pri_use_x_offset_desc">
+		<text>Ajuste la position horizontale de l'invite. Les valeurs autorisées sont comprises entre -512 et 1024.
+			\n 
+			\nValeur par défaut : -13
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_pri_use_y_offset">
+		<text>Décalage vertical première interaction</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_pri_use_y_offset_desc">
+		<text>Ajuste la position verticale de l'invite. Les valeurs autorisées sont comprises entre -384 et 768.
+			\n 
+			\nValeur par défaut : 24
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_sec_use_x_offset">
+		<text>Décalage horizontal deuxième interaction</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_sec_use_x_offset_desc">
+		<text>Ajuste la position horizontale de l'invite. Les valeurs autorisées sont comprises entre -512 et 1024.
+			\n 
+			\nValeur par défaut : -9
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_sec_use_y_offset">
+		<text>Décalage vertical deuxième interaction</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_sec_use_y_offset_desc">
+		<text>Ajuste la position verticale de l'invite. Les valeurs autorisées sont comprises entre -384 et 768.
+			\n 
+			\nValeur par défaut : 48
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_fixed_screen_pos">
+		<text>Utiliser positions écran fixes (redémarrage requis)</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_fixed_screen_pos_desc">
+		<text>Si cette option est activée, les invites d'interaction personnalisées auront une position fixe à l'écran basée sur les décalages ci-dessus, et les décalages sont mesurés par rapport au coin supérieur gauche de l'écran.
+			\n 
+			\nPar défaut, les invites suivent la position de leur marqueur DotMark associé, et leurs décalages sont mesurés à partir de la position de ce marqueur.
+			\n 
+			\nVous devez redémarrer ou sauvegarder/charger votre partie pour que ce paramètre prenne effet.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmain_interact_drop_alpha">
+		<text>Transparence ombre portée principale</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmain_interact_drop_alpha_desc">
+		<text>Définit le canal alpha (transparence) pour les ombres portées principales sous les invites d'interaction ou autres éléments de l'interface utilisateur. Réglez cette valeur sur zéro pour désactiver les ombres portées principales.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_keybind_bg_style">
+		<text>Style icône raccourci</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_keybind_bg_style_desc">
+		<text>Définit le style visuel des icônes graphiques « touche » utilisées comme arrière-plan pour le texte des raccourcis sur les invites d'interaction, ou désactive entièrement ces arrière-plans.
+		</text>
+	</string>
+
+	<string id="ui_mcm_lst_dmarks_kbstyle_s2">
+		<text>Usure plate (comme Stalker 2)</text>
+	</string>
+	<string id="ui_mcm_lst_dmarks_kbstyle_worn">
+		<text>Apparence usée 3D</text>
+	</string>
+	<string id="ui_mcm_lst_dmarks_kbstyle_full">
+		<text>3D noir et blanc</text>
+	</string>
+	<string id="ui_mcm_lst_dmarks_kbstyle_wire">
+		<text>Fil de fer blanc</text>
+	</string>
+	<string id="ui_mcm_lst_dmarks_kbstyle_none">
+		<text>Sans fond</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_dot_marker_size">
+		<text>Taille marqueur point d'interaction</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkicons_dot_marker_size_desc">
+		<text>Ce curseur ajuste la taille des marqueurs en forme de point ajoutés aux objets dans le monde. Une valeur de 1 correspond à leur taille par défaut, tandis qu'une valeur de zéro les masquera entièrement. Les autres fonctionnalités de ce module complémentaire, telles que les étiquettes de texte ou l'interaction secondaire, ne seront pas affectées.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_sp_hide_junk_items">
+		<text>Masquer objets marqués comme camelote dans Sorting Plus</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_sp_hide_junk_items_desc">
+		<text>Si l'extension Sorting Plus est installée et qu'un objet a été marqué comme "inutile", aucun indicateur ne sera affiché pour celui-ci.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_hidden_show_prompts">
+		<text>Afficher les invites d'interaction pour objets masqués</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_hidden_show_prompts_desc">
+		<text>Si un marqueur est masqué pour une raison quelconque, ses invites d'interaction resteront visibles.
+			\n
+			\nREMARQUE : Si cette option n'est pas activée, les marqueurs masqués n'afficheront aucune invite d'interaction visible. Cela n'empêchera pas de les ramasser si vous le souhaitez, mais aucune invite ne sera affichée.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_bodies_use_paw_patches">
+		<text>stalkers morts utilisent écussons faction PAW</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_bodies_use_paw_patches_desc">
+		<text>Si mon module complémentaire Personal Adjustable Waypoint (PAW) est installé, cette option fera en sorte que les stalkers morts affichent leur insigne de faction au lieu de l'icône de marqueur ponctuel.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_disable_all_sounds">
+		<text>Désactiver effets sonores interface</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_disable_all_sounds_desc">
+		<text>Désactive l'effet sonore discret de l'interface, émis lors du défilement de la molette de la souris ou d'autres événements similaires.</text>
+	</string>
+	
+	<string id="ui_mcm_dotmarks_dmarkmods_bodies_use_mpda_rules">
+		<text>Marqueurs corps respectent règles Milspec PDA</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_bodies_use_mpda_rules_desc">
+		<text>Si mon extension Milspec PDA est installée, cette option respectera les paramètres de visibilité de cette extension pour les cadavres - qui n'affichera un marqueur que sur les corps dont les marqueurs de carte sont visibles par le joueur.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_boom">
+		<text>Afficher icône spéciale pour objets explosifs</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_boom_desc">
+		<text>Si cette option est activée, les objets explosifs utiliseront une icône spéciale "Je suis explosif" au lieu des marqueurs ponctuels standards.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_butcher">
+		<text>Afficher icône spéciale pour invite dépeçage mutant</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_butcher_desc">
+		<text>Si cette option est activée, l'invite pour dépecer un mutant utilisera sa propre icône spéciale au lieu des marqueurs ponctuels standards.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_stash">
+		<text>Afficher icône spéciale pour caches</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_stash_desc">
+		<text>Si cette option est activée, les caches utiliseront une icône classique de cache au lieu des marqueurs ponctuels standard lorsque leur invite d'interaction principale est affichée.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_box">
+		<text>Afficher icône spéciale pour caisses cassables</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_box_desc">
+		<text>Si cette option est activée, les caisses destructibles utiliseront une icône spéciale "objet destructible" au lieu des marqueurs ponctuels standards.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_talk">
+		<text>Afficher icône spéciale pour parler aux NPCs</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_talk_desc">
+		<text>Si cette option est activée, les stalkers utiliseront une icône spéciale en forme de « bulle de dialogue » au lieu du marqueur ponctuel standard lorsque l'invite pour engager le dialogue avec eux est affichée.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_services">
+		<text>Afficher icônes spéciales pour NPCs en service</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_services_desc">
+		<text>Si cette option est activée, les NPCs de service utiliseront une icône spécifique au service au lieu des marqueurs ponctuels standard lorsque leur invite d'interaction principale est affichée.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_door">
+		<text>Afficher icône spéciale pour portes</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_door_desc">
+		<text>Si cette option est activée, les portes utiliseront leur propre icône spéciale au lieu des marqueurs DotMarks standard lorsque leur invite d'interaction principale est affichée.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_tasks">
+		<text>Afficher icônes spéciales pour objectifs de mission</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_tasks_desc">
+		<text>Si cette option est activée, les objets qui sont la cible de la tâche active en cours utiliseront une icône de marqueur de tâche en haute résolution au lieu des marqueurs ponctuels standard.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_prompt_fade_in_time">
+		<text>Durée d'apparition invite</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_prompt_fade_in_time_desc">
+		<text>Durée, en millisecondes, de l'effet de fondu en ouverture pour les invites d'interaction.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_prompt_fade_out_time">
+		<text>Durée de disparition invite</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_prompt_fade_out_time_desc">
+		<text>Durée, en millisecondes, de l'effet de fondu en fermeture pour les invites d'interaction.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmain_show_item_card">
+		<text>Afficher fiche info rapide objet</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmain_show_item_card_desc">
+		<text>Si activé, un petit affichage sera montré à côté de l'invite d'interaction principale, indiquant son poids et sa valeur, ainsi que (optionnellement, avec l'addon de Utjan) des points indicateurs pour l'état des pièces d'arme ou d'armure.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmain_show_gun_condition">
+		<text>Afficher pourcentage état arme</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmain_show_gun_condition_desc">
+		<text>Si activé, l'état des armes sera ajouté à la fin du nom de l'objet.\n
+
+		\nCette option est désactivée par défaut dans GAMMA, qui n'utilise pas l'état des armes.</text>
+	</string>
+		
+	<string id="ui_mcm_dotmarks_dmarkmain_show_item_condition">
+		<text>Afficher pourcentage état objet</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmain_show_item_condition_desc">
+		<text>Si cette option est activée, l'état des tenues, des couvre-chefs et des autres objets non armés sera ajouté à la fin du nom de l'objet.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmain_show_item_charge">
+		<text>Afficher pourcentage batterie appareil</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmain_show_item_charge_desc">
+		<text>Si activé, le niveau de charge des appareils sera ajouté à la fin du nom de l'objet.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmain_show_condition_color">
+		<text>Afficher état/niveau de charge en couleur</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmain_show_condition_color_desc">
+		<text>Si activé, la couleur du texte indiquant l'état ou la charge de la batterie changera en fonction de la valeur.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmain_sp_flag_favejunk">
+		<text>Afficher icône favoris/objet inutile sur fiche objet</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmain_sp_flag_favejunk_desc">
+		<text>Si activé, les objets marqués comme Favoris ou Inutiles avec Sorting Plus afficheront l'icône correspondante sur la fiche de l'objet.</text>
+	</string>	
+
+	<string id="ui_mcm_dotmarks_dmarkadv_font_main_prompt">
+		<text>Police pour invite principale</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_font_main_prompt_desc">
+		<text>Certaines polices peuvent paraître mieux à différentes résolutions en raison de la manière incohérente dont Anomaly dimensionne le texte. La valeur par défaut pour le texte des invites est Letterica 16, mais choisissez celle qui vous semble la meilleure.</text>
+	</string>	
+
+	<string id="ui_mcm_dotmarks_dmarkadv_font_item_card">
+		<text>Police utilisée pour la fiche objet</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_font_item_card_desc">
+		<text>Certaines polices peuvent offrir une meilleure apparence à différentes résolutions en raison de la manière incohérente dont Anomaly dimensionne le texte. La police par défaut pour la Fiche d'Objet est Small Print, mais choisissez celle qui vous semble la plus adaptée.
+			 \n
+			\nL'extension tente d'ajuster l'interface utilisateur en fonction de la taille du texte, mais il peut être nécessaire d'ajuster les valeurs de position à l'écran pour la fiche d'objet ou d'autres éléments lors de l'utilisation de certaines polices.</text>
+	</string>	
+
+	<string id="ui_mcm_lst_dmarks_font_graf32">
+		<text>Graffiti 32</text>
+	</string>
+	<string id="ui_mcm_lst_dmarks_font_graf22">
+		<text>Graffiti 22</text>
+	</string>
+	<string id="ui_mcm_lst_dmarks_font_graf19">
+		<text>Graffiti 19</text>
+	</string>
+	<string id="ui_mcm_lst_dmarks_font_let25">
+		<text>Letterica 25</text>
+	</string>
+	<string id="ui_mcm_lst_dmarks_font_let18">
+		<text>Letterica 18</text>
+	</string>
+	<string id="ui_mcm_lst_dmarks_font_let16">
+		<text>Letterica 16 (par défaut)</text>
+	</string>
+	<string id="ui_mcm_lst_dmarks_font_medium">
+		<text>Police moyenne</text>
+	</string>
+	<string id="ui_mcm_lst_dmarks_font_small">
+		<text>Petite police</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_itemcard_desc">
+		<text>La Fiche d'Objet est une fenêtre d'information optionnelle attachée à l'invite, affichant des données essentielles telles que le poids et la valeur d'un objet, ainsi qu'une intégration avec d'autres modules complémentaires comme Sorting Plus et les Améliorations de l'Interface Utilisateur d'Objets de Utjan.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_item_card_icon_sz">
+		<text>Taille icône fiche objet</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_item_card_icon_sz_desc">
+		<text>Modifie la taille des icônes dans la Fiche d'Objet, utilisées pour les attributs tels que le Poids et la Valeur.
+		 \n
+		\nValeur par défaut : 7,5</text>
+	</string>	
+
+	<string id="ui_mcm_dotmarks_dmarkadv_item_card_pos_x">
+		<text>Décalage horizontal fiche objet</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_item_card_pos_x_desc">
+		<text>Ajuste le décalage horizontal de la position de la fiche d'objet.
+		 \n
+		\nValeur par défaut : -5</text>
+	</string>	
+
+	<string id="ui_mcm_dotmarks_dmarkadv_item_card_pos_y">
+		<text>Décalage vertical fiche objet</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_item_card_pos_y_desc">
+		<text>Ajuste le décalage vertical de la position de la fiche d'objet.
+		 \n
+		\nValeur par défaut : -2</text>
+	</string>	
+
+
+	<string id="ui_mcm_dotmarks_dmarkmods_parts_dot_pos_x">
+		<text>Décalage horizontal points état pièce</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_parts_dot_pos_x_desc">
+		<text>Ajuste le décalage horizontal des points d'état des pièces ajoutés par l'extension Utjan's Item UI Improvements. Cette position est mesurée par rapport à la fin de l'invite de texte principale.\n
+
+		\nValeur par défaut : -2</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_parts_dot_pos_y">
+		<text>Décalage vertical points état pièce</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_parts_dot_pos_y_desc">
+		<text>Ajuste le décalage vertical des points d'état des pièces ajoutés par l'extension Utjan's Item UI Improvements. Cette position est mesurée par rapport à la fin de l'invite de texte principale.\n
+
+		\nValeur par défaut : 9</text>
+	</string>	
+
+	<string id="ui_mcm_dotmarks_dmarkmods_sp_icon_pos_x">
+		<text>Décalage horizontal icône Sorting Plus</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_sp_icon_pos_x_desc">
+		<text>Ajuste le décalage horizontal des icônes Favoris/Inutiles ajoutées par Sorting Plus. Cette position est mesurée par rapport à l'extrémité droite de la Fiche d'Objet, laquelle dépend de la longueur du champ de texte le plus long : Poids ou Valeur.
+		 \n
+		\nValeur par défaut : 10</text>
+	</string>	
+
+	<string id="ui_mcm_dotmarks_dmarkmods_sp_icon_pos_y">
+		<text>Décalage vertical icône Sorting Plus</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_sp_icon_pos_y_desc">
+		<text>Ajuste le décalage vertical des icônes Favoris/Inutiles ajoutées par Sorting Plus. Cette position est mesurée par rapport à l'extrémité droite de la Fiche d'Objet, laquelle dépend de la longueur du champ de texte le plus long : Poids ou Valeur.
+		 \n
+		\nValeur par défaut : 1</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_header_debug">
+		<text>$clr_whtSi vous devez signaler un problème ou un plantage :\n
+			\n$clr_cmg 1. $clr_whtActiver $clr_gldle journalisation debug et détaillée$clr_wht ci-dessous
+			\n$clr_cmg 2. $clr_whtQuitter le jeu et le redémarrer
+			\n$clr_cmg 3. $clr_whtReproduire le problème $clr_gldle plus rapidement et simplement possible
+			\n$clr_cmg 4. $clr_whtQuitter $clr_gldimmédiatement$clr_wht et m'envoyer le journal\n
+
+			\n$clr_red Si vous ne le faites pas ou ne parvenez pas à reproduire le problème, je ne pourrai probablement pas vous aider.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_header_debug_nocolor">
+		<text>En cas de problème ou de plantage à signaler :
+			\n1. Activer journalisation débogage et détaillée ci-dessous
+			\n2. Quitter le jeu et le redémarrer
+			\n3. Reproduire le problème le plus rapidement et simplement possible
+			\n4. Quitter immédiatement et m'envoyer le journal\n
+
+			\nSi vous ne le faites pas ou ne parvenez pas à reproduire le problème, je ne pourrai probablement pas vous aider.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_header_main_nocolor">
+		<text>Bienvenue dans Interaction Dot Marks - un remplacement modernisé de l'interface d'interaction avec les objets, ramenant certaines fonctionnalités QoL de Stalkers tout en ajoutant de nouvelles options puissantes. Chacun a ses préférences, alors DotMarks est conçu pour être personnalisé selon vos besoins. Si vous ne trouvez pas ce que vous cherchez dans les options ci-dessous, consultez les autres onglets.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_header_main">
+		<text>$clr_whtBienvenue dans $clr_gldInteraction Dot Marks$clr_wht- un remplacement modernisé de l'interface d'interaction des objets, ramenant certaines fonctionnalités QoL de Stalker 2 dans Anomaly, tout en ajoutant de nouvelles options puissantes.\n
+		\nChacun a ses préférences, donc DotMarks est conçu pour être $clr_lblpersonnalisé selon vos goûts$clr_wht. Si vous ne trouvez pas ce que vous cherchez dans les options ci-dessous, consultez les autres onglets.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_header_oldexes">
+		<text>$clr_redATTENTION : Vos binaires modifiés sont obsolètes !\n
+		\n$clr_whtInteraction Dot Marks $clr_gld nécessite modded binaries $clr_grn20250306$clr_gld ou une version plus récente$clr_wht pour fonctionner correctement, et le vôtre est $clr_red%s$clr_wht.\n
+
+		\nAvant d'utiliser cet addon, effectuez une installation PROPRE des dernières binaires moddées demonized :\n
+
+		\nhttps://github.com/themrdemonized/xray-monolith
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_header_notmodded">
+		<text>$clr_redATTENTION : Vous n'utilisez pas les binaires modifiés !\n
+		\n$clr_wht Interaction Dot Marks $clr_gldnécessite des binaires moddés version 20250306 ou ultérieure$clr_wht pour fonctionner correctement. Avant d'essayer d'utiliser cet addon, effectuez une installation propre des derniers binaires moddés demonized :\n
+		\nhttps://github.com/themrdemonized/xray-monolith
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_adv_desc">
+		<text>$clr_gldParamètres avancés\n
+			$clr_whtVous n'aurez probablement pas besoin de la plupart des paramètres suivants, mais ils sont disponibles pour ceux qui souhaitent personnaliser l'interface utilisateur selon leurs préférences exactes.\n
+			\nFaites défiler vers le bas pour découvrir bien plus d'options que celles affichées ici.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_addons_desc">
+		<text>$clr_gldPrise en charge des autres accessoires\n
+			$clr_whtDotMarks prend en charge plusieurs autres extensions telles que Sorting Plus, Utjan's Item UI, Milspec PDA, PAW, et bien d'autres. Certaines de ces intégrations disposent d'options que vous pouvez ajuster ici.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_scanmenu">
+		<text>$clr_whtCes cases à cocher $clr_glddéfinissent si des marqueurs visibles sont ajoutés$clr_wht à chaque classe d'objet. Si certains vous distraient ou sont moins utiles, décochez-les pour masquer leurs marqueurs. Vous pourrez toujours interagir normalement avec les objets.\n
+
+		\n$clr_red Les modifications apportées ici peuvent ne pas s'appliquer aux objets déjà analysés tant que vous ne vous en éloignez pas ou ne rechargez pas une sauvegarde.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_alti_desc">
+		<text>$clr_whtL'interaction secondaire $clr_gld$clr_wht permet des actions contextuelles lors du ciblage d'objets marqués sans avoir besoin de les ramasser au préalable, comme retirer les munitions d'une arme ou consommer des aliments. FDDA Redone est fortement recommandé.\n
+
+			\nPar défaut, elle est configurée sur une version à pression longue de votre touche d'interaction principale (votre touche « utiliser »), mais vous pouvez la modifier ici pour ce qui vous convient le mieux.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmain_show_multi_uses">
+		<text>Afficher quantité pour objets multi-usage</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmain_show_multi_uses_desc">
+		<text>Lorsque cette option est activée, le nombre d'utilisations restantes d'un objet à usage multiple s'affiche à côté de l'invite, si plus d'une utilisation subsiste.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmain_wheel_cycles_pickups">
+		<text>Molette souris cycle ramassage ciblé</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmain_wheel_cycles_pickups_desc">
+		<text>Lorsque cette option est activée, s'il y a plus d'un objet à proximité pouvant être ramassé, le défilement de la molette de la souris fera défiler le focus parmi les objets proches au lieu de sa fonction habituelle.\n
+
+		\nSi l'option de ramassage multiple de FDDAR est désactivée, DotMarks tentera de respecter cela en ne permettant que le ramassage de l'objet focalisé, mais cela n'est pas toujours possible.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarksec_long_press_delay">
+		<text>Délai de répétition appui long</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarksec_long_press_delay_desc">
+		<text>Lorsqu'une action de pression longue (maintien) est terminée, les entrées provenant de cette même touche seront ignorées pendant ce nombre de millisecondes. Cela est nécessaire pour éviter que la même touche ne soit incorrectement enregistrée comme une pression simple juste après la fin du maintien, car une personne ne peut pas lever son doigt de la touche instantanément.\n
+		
+		\nSi vous constatez que votre interaction principale ne se déclenche pas lorsque vous essayez de ramasser rapidement plusieurs objets, vous pouvez essayer de réduire cette valeur. Elle doit être comprise entre 50 et 2000.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_item_use_delay">
+		<text>Délai d'utilisation secondaire objet</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_item_use_delay_desc">
+		<text>Lors de l'utilisation d'une action secondaire sur un objet ramassable, ce paramètre définit le délai en secondes entre l'événement de ramassage et l'exécution de l'action secondaire.\n
+
+		\nLors de l'utilisation de FDDA, ceci est nécessaire pour permettre à l'animation de ramassage de se terminer. Ce paramètre n'a aucun effet sans FDDA installé.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_popin_anim_dur">
+		<text>Durée d'apparition marqueur</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_popin_anim_dur_desc">
+		<text>Durée de l'animation élastique de surgissement qui se joue lorsque la focalisation est transférée vers un marqueur. Peut aller jusqu'à 2000 ms. Une valeur de zéro désactivera cette fonctionnalité.</text>
+	</string>
+
+	<string id="st_dotmarks_epicfail_error">
+		<text>$clr_redERREUR !$clr_wht Dépendance DotMarks défaillante !\n</text>
+	</string>
+
+	<string id="st_dotmarks_fail_reason_nocfg">
+		<text>\n$clr_lbl Interaction Dot Marks$clr_def n’a carrément pas pu initialiser son fichier de config ! C’est vraiment la merde, et ça veut probablement dire que t’as un truc sérieusement bousillé dans ton installation. Essaie de réinstaller DotMarks depuis une version fraîche téléchargée, et assure-toi qu’il se charge après mes autres addons.\n</text>
+	</string>
+
+	<string id="st_dotmarks_fail_reason_noexes">
+		<text>\n$clr_lbl Interaction Dot Marks$clr_def n'a pas pu s'initialiser car il $clr_gldnécessite la version la plus récente de modded exes$clr_def, basée sur les binaires Anomaly 1.5.3 de TheMrDemonized. Ces binaires corrigent les bugs du vanilla, ajoutent de nombreuses fonctionnalités moteur et améliorations graphiques, et offrent une expérience supérieure au vanilla à tous les niveaux.</text>
+	</string>
+
+	<string id="st_dotmarks_fail_reason_oldexes">
+		<text>\n$clr_gld Interaction Dot Marks$clr_def n’a pas pu s’initialiser parce qu’il lui faut une version modded exes de $clr_grn%s$clr_def ou plus récente, et la tienne est $clr_red%s$clr_def.\n
+		\n$clr_def</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_header_fail_nocolor">
+		<text>\nLes marques de points d'interaction (Interaction Dot Marks) n'ont pas pu s'initialiser car elles nécessitent la version 1.7.0 de MCM ou une version ultérieure. Vous voyez ce message parce que votre version de MCM est si ancienne qu'elle ne prend pas en charge les foncteurs d'interface utilisateur. Veuillez mettre à jour immédiatement votre version de MCM vers la dernière disponible sur Moddb :\n
+
+		\nhttps://www.moddb.com/mods/stalker-anomaly/addons/anomaly-mod-configuration-menu</text>
+	</string>
+
+	<string id="st_dotmarks_fail_reason_oldmcm">
+		<text>\n$clr_gld Interaction Dot Marks$clr_def n’a pas pu s’initialiser parce qu’il lui faut la version MCM $clr_grn1.7.0$clr_def ou supérieure, et la tienne était $clr_red%s$clr_def. Il vérifie aussi la présence du support UI functor (trouvé : %s). Les deux sont obligatoires.\n
+		\n$clr_def</text>
+	</string>
+
+	<string id="st_catsy_get_mcm">
+		<text>\nTu peux télécharger la dernière version du MCM ici :\n 
+        \nhttps://www.moddb.com/mods/stalker-anomaly/addons/anomaly-mod-configuration-menu</text>
+	</string>
+
+	<string id="st_dotmarks_fail_reason_staledbs">
+		<text>\n$clr_gld Interaction Dot Marks$clr_def n’a pas pu s’initialiser parce qu’il lui faut le callback $clr_gldactor_on_update_pickup$clr_def, ajouté dans les exes version $clr_grn20250306$clr_def. Tes modded exes sont en version $clr_gld%s$clr_def, mais le callback manque !\n
+			$clr_def
+			\nSi tu vois ce message, c’est que t’as mis à jour les fichiers exe mais que t’utilises encore les vieux fichiers DB. Faut faire une réinstallation propre des modded exes, depuis zéro.</text>
+	</string>
+
+	<string id="st_dotmarks_fail_reason_nohmm">
+		<text>\n$clr_gld Interaction Dot Marks$clr_def n’a pas pu s’initialiser parce qu’il n’a pas trouvé le HUD Mark Manager, qui lui est indispensable.\n
+
+		\nÇa veut dire que $clr_gldutils_catspaw_hudmarks$clr_def a complètement merdé quelque part. Télécharge la dernière version de mes scripts utilitaires de base ici :\n
+
+        \n$clr_lbl https://github.com/CatspawMods/Anomaly-Addon-Archive/tree/main/Modding%20Tools/Catsy%20Utils</text>
+	</string>
+
+	<string id="st_get_modded_exes">
+		<text>\nVous pouvez télécharger la version la plus récente ici :\n 
+        \nhttps://github.com/themrdemonized/xray-monolith</text>
+    </string>
+
+	<string id="st_catsy_failmessage_in_log_or_pda">
+		<text>\n
+		\nTu peux revoir ce message $clr_glddans ton PDA, onglet Messages$clr_def, ou une version en texte brut $clr_glddans le journal du jeu, sous Anomaly\appdata\logs$clr_def.</text>
+    </string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_action_text_pos_x">
+		<text>Décalage horizontal texte action</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_action_text_pos_x_desc">
+		<text>Ajuste le décalage horizontal du texte d'action. Il s'agit du texte indiquant l'interaction possible, par exemple « ramasser l'objet ».
+		 \n
+		\nValeur par défaut : 20</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_action_text_pos_y">
+		<text>Décalage vertical texte action</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_action_text_pos_y_desc">
+		<text>Ajuste le décalage vertical. Ce texte indique l'action effectuée par l'interaction, par exemple : « ramasser l'objet ».
+		 \n
+		\nValeur par défaut : 3</text>
+	</string>	
+
+	<string id="ui_mcm_dotmarks_dmarkadv_bind_text_pos_x">
+		<text>Décalage horizontal texte raccourci</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_bind_text_pos_x_desc">
+		<text>Ajuste le décalage horizontal du texte de raccourci clavier dans sa boîte d'icône. Il s'agit du texte indiquant la touche ou le bouton à presser, par exemple « T ».
+		 \n
+		\nValeur par défaut : 3</text>
+	</string>	
+
+	<string id="ui_mcm_dotmarks_dmarkadv_bind_text_pos_y">
+		<text>Décalage vertical texte raccourci</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_bind_text_pos_y_desc">
+		<text>Ajuste le décalage vertical du texte de raccourci clavier dans sa boîte d'icône. Il s'agit du texte indiquant la touche ou le bouton à presser, par exemple « T ».
+		 \n
+		\nValeur par défaut : 3,5</text>
+	</string>	
+
+	<string id="ui_mcm_dotmarks_dmarkmain_show_stash_weight">
+		<text>Afficher poids total dans conteneurs</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmain_show_stash_weight_desc">
+		<text>Calcule le poids total de tous les objets contenus dans les conteneurs marqués, en ajoutant cette information à l'invite. Cette fonctionnalité peut avoir un impact sur les performances lorsqu'il y a de nombreux caches ou autres conteneurs à proximité.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_header_icons">
+		<text>Cliquez sur l'icône $clr_gldd'engrenage$clr_def à côté d'un paramètre ci-dessous pour $clr_gldouvrir son contrôle ARGB$clr_def. Vous pourrez y ajuster séparément les valeurs Alpha (transparence), Rouge, Vert et Bleu. Un aperçu de vos modifications s'affichera sur l'icône associée, et vous pourrez $clr_redannuler$clr_def ou $clr_grnvalider$clr_def à tout moment.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_argb_dot_normal">
+		<text>Couleur personnalisée marqueur point normal</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_argb_dot_focus">
+		<text>Couleur personnalisée marqueur point de focus</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_argb_icon_door">
+		<text>Couleur personnalisée icône porte</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_argb_icon_talk">
+		<text>Personnaliser couleur icône dialogue</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_argb_icon_box">
+		<text>Couleur personnalisée icône « cassable »</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_argb_icon_boom">
+		<text>Couleur personnalisée icône « explosif »</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_argb_icon_butcher">
+		<text>Personnaliser couleur icône dépeçage mutant</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_argb_icon_stash">
+		<text>Couleur personnalisée icône cache</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_argb_service_trade">
+		<text>Couleur personnalisée icône Marchand</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_argb_service_mech">
+		<text>Couleur personnalisée icône Technicien</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_argb_service_medic">
+		<text>Couleur personnalisée icône Médecin</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_argb_service_guide">
+		<text>Couleur personnalisée icône Guide</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkicons_argb_service_leader">
+		<text>Couleur personnalisée icône Chef</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_mute_stalkers">
+		<text>Masquer marqueur pour stalkers taciturnes</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_mute_stalkers_desc">
+		<text>Si activé, aucun marqueur ne sera affiché pour les stalkers avec lesquels il est impossible d'engager une conversation.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_item_card_text_y">
+		<text>Décalage vertical texte fiche objet</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_item_card_text_y_desc">
+		<text>Ajuste le décalage vertical des valeurs numériques de poids et de valeur au sein de leurs éléments respectifs.
+		 \n
+		\nValeur par défaut : 1</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_item_card_icon_x">
+		<text>Décalage horizontal icône fiche objet</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_item_card_icon_x_desc">
+		<text>Ajuste le décalage horizontal des icônes de poids et de valeur au sein de leurs éléments respectifs.
+		 \n
+		\nValeur par défaut : 4</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_item_card_icon_y">
+		<text>Décalage vertical icône fiche objet</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_item_card_icon_y_desc">
+		<text>Ajuste le décalage vertical des icônes de poids et de valeur au sein de leurs éléments respectifs.
+		 \n
+		\nValeur par défaut : 2</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_item_card_elem_x">
+		<text>Décalage horizontal élément fiche objet</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_item_card_elem_x_desc">
+		<text>Ajuste le décalage horizontal des éléments de poids et de valeur dans la Fiche d'Objet.
+		 \n
+		\nValeur par défaut : 7,5</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_item_card_elem_y">
+		<text>Décalage vertical élément fiche objet</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_item_card_elem_y_desc">
+		<text>Ajuste le décalage vertical des éléments de poids et de valeur dans la fiche d'objet.
+		 \n
+		\nValeur par défaut : 0</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_item_card_elem_h">
+		<text>Hauteur élément fiche objet</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_item_card_elem_h_desc">
+		<text>Ajuste la hauteur des éléments de poids et de valeur dans la Fiche d'Objet. Cette valeur est utilisée pour définir l'espacement entre les lignes.
+		 \n
+		\nValeur par défaut : 12</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_addons_catspawmods">
+		<text>Ajouts $clr_gldpar Catspaw</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_addons_anims">
+		<text>$clr_gldFDDA et autres animations</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_addons_autoloot">
+		<text>$clr_gldRécupération automatique</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_addons_sortplus">
+		<text>$clr_gldTri avancé</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_addons_utjanui">
+		<text>Améliorations interface objets $clr_gld</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_addons_skillsys">
+		<text>$clr_gldSystème de compétences</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_addons_othermods">
+		<text>Modules complémentaires $clr_gld</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_takeall_does_autoloot">
+		<text>Action secondaire « tout prendre » déclenche l'Auto Loot</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_takeall_does_autoloot_desc">
+		<text>Si iTheon's Auto Looter est installé, l'activation de cette option fera en sorte que l'action secondaire "Prendre tout dans le conteneur" déclenche plutôt Autoloot. Une fois cette opération effectuée, l'invite pour ce cadavre/ce conteneur passera à l'invite normale de prise de tout.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_hijack_autoloot_keybind">
+		<text>Remplacer raccourci Auto Looter</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_hijack_autoloot_keybind_desc">
+		<text>Si le module Auto Looter de iTheon est installé et que les deux options Autoloot sont activées dans ce menu, DotMarks tentera de désactiver complètement le raccourci Autoloot.\n
+
+		\nPour une raison inconnue, Autoloot s'approprie la touche Alt par défaut. Cette option libérera cette touche tout en permettant toujours de déclencher Autoloot via l'action secondaire.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarksec_sec_enable_use_act">
+		<text>Activer action "utiliser objet"</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarksec_sec_enable_use_act_desc">
+		<text>Active l'action secondaire permettant d'utiliser immédiatement tout objet consommable ramassé.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarksec_sec_enable_unload_act">
+		<text>Activer action "décharger arme"</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarksec_sec_enable_unload_act_desc">
+		<text>Active l'action secondaire permettant de décharger et de récupérer les munitions d'une arme posée au sol.</text>
+	</string>
+	
+	<string id="ui_mcm_dotmarks_dmarksec_sec_enable_takeall_act">
+		<text>Activer action "tout prendre"</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarksec_sec_enable_takeall_act_desc">
+		<text>Active l'action secondaire permettant de prendre tout le contenu d'un conteneur en une seule fois.\n
+
+		\nSi vous avez installé le module complémentaire Auto Looter de iTheon, il existe également une option dans le menu Modules qui permet de ramasser automatiquement de la même manière. Elle est activée par défaut.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarksec_sec_enable_heal_act">
+		<text>Activer action "soigner NPC"</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarksec_sec_enable_heal_act_desc">
+		<text>Active l'action secondaire permettant de soigner un stalker blessé au sol.\n
+
+		\nContrairement à la fonction d'origine, celle-ci vous permettra d'utiliser n'importe quel type de Medkit ou stimpack en votre possession. Cependant, elle tentera toujours d'utiliser le moins coûteux et vous indiquera sur l'invite lequel sera utilisé, ainsi que le nombre d'utilisations restantes.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_sec_enable_heal_anim">
+		<text>Activer animation action soin</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_sec_enable_heal_anim_desc">
+		<text>Si l'extension Animated NPC Healing est installée, cette option active une animation lors de la guérison de stalkers blessés à l'aide de l'action secondaire.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_sec_enable_arty_anim">
+		<text>Activer animation inspection pour artefacts</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_sec_enable_arty_anim_desc">
+		<text>Si l'extension Artfacts Inspection est installée, cette option active son animation d'inspection en tant qu'action secondaire pour tout artefacts marqué.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_parts_dot_scale">
+		<text>Taille des points état pièce</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_parts_dot_scale_desc">
+		<text>Ce curseur ajuste la taille des points d'état des objets dans DotMarks. Une valeur de 1 correspond à leur taille par défaut, tandis que zéro les masquera entièrement.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_parts_dot_shadow_alpha">
+		<text>Transparence ombre portée points pièce</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_parts_dot_shadow_alpha_desc">
+		<text>Définit le canal alpha (transparence) des ombres portées sous les indicateurs d'état des pièces. Réglez à zéro pour désactiver ces ombres.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarksec_sec_mode_setupthebomb">
+		<text>Mode de pose IED par défaut</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarksec_sec_mode_setupthebomb_desc">
+		<text>Définit le mode de placement par défaut des IED déployés via une action secondaire, ou désactive cette action pour la rendre indisponible.\n
+
+		\nLors du ciblage d'un objet de ramassage d'IED non déployé, vous pouvez utiliser les raccourcis de mode de tir pour faire défiler le mode de placement, et la molette de la souris pour définir la durée du minuteur.\n
+
+		\nL'option de détonateur à distance nécessite l'accessoire Explosifs à commande à distance.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_all_squad_members_talk">
+		<text>Considérer tous membres escouade comme bavards</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_all_squad_members_talk_desc">
+		<text>Dans Anomaly d'origine, seul le chef d'une escouade donnée peut engager une conversation. Activez ce paramètre si vous avez installé un module complémentaire supprimant cette restriction de chef uniquement, comme l'option d'installation "Parler à tout le monde" dans Modular Miscellaneous Tweaks.\n 
+		\nCe paramètre est activé par défaut dans GAMMA, qui inclut cet accessoire.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_font_scale_w">
+		<text>Échelle tolérance largeur police</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_font_scale_w_desc">
+		<text>Ce paramètre permet d'ajuster l'espace horizontal que DotMarks estime nécessaire en fonction des polices de caractères actuelles.\n
+
+		\nDans Anomaly, les polices de caractères ne sont que des textures, et certaines sont plus hautes ou plus larges que d'autres. Vous devrez peut-être ajuster ce paramètre si vous utilisez une résolution autre que 1920x1080, installez un module complémentaire de police personnalisée ou changez pour une police différente de celle par défaut.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_font_scale_h">
+		<text>Ajustement hauteur police</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_font_scale_h_desc">
+		<text>Ce paramètre permet d'ajuster l'espace vertical que DotMarks estime nécessaire en fonction des polices de caractères actuelles.\n
+
+		\nDans Anomaly, les polices de caractères ne sont que des textures, et certaines sont plus hautes ou plus larges que d'autres. Vous devrez peut-être ajuster ce paramètre si vous utilisez une résolution autre que 1920x1080, installez un module complémentaire de police personnalisée ou changez pour une police différente de celle par défaut.
+		</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_ui_scale">
+		<text>Échelle éléments interface</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_ui_scale_desc">
+		<text>Ce curseur ajuste l'échelle des éléments graphiques de l'interface utilisateur, tels que l'icône des raccourcis clavier. Cela n'a aucun effet sur la taille de la police, mais peut être utilisé pour affiner l'interface graphique en fonction de votre résolution ou de vos polices.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_parts_dot_orientation">
+		<text>Orientation des points</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_parts_dot_orientation_desc">
+		<text>Par défaut, les points des pièces sont disposés radialement en un cercle serré. Vous pouvez plutôt choisir de les afficher sous forme de ligne horizontale ou verticale, mais il sera probablement nécessaire d'ajuster leur positionnement par la suite.</text>
+	</string>
+
+	<string id="ui_mcm_lst_dmarks_pdot_style_h">
+		<text>Ligne horizontale</text>
+	</string>
+
+	<string id="ui_mcm_lst_dmarks_pdot_style_v">
+		<text>Ligne verticale</text>
+	</string>
+
+	<string id="ui_mcm_lst_dmarks_pdot_style_r">
+		<text>Cercle</text>
+	</string>
+
+	<string id="encyclopedia_addons">
+		<text>Accessoires</text>
+	</string>
+
+	<string id="encyclopedia_addons_dotmarks">
+		<text>DotMarks : Présentation des accessoires</text>
+	</string>
+
+	<string id="encyclopedia_addons_dotmarks_text">
+		<text>
+			%c[ui_gray_1]
+			\nBienvenue dans %c[pda_yellow]Interaction Dot Marks%c[ui_gray_1] - un remplacement modernisé de l'interface d'interaction avec les objets, ramenant certaines fonctionnalités de qualité de vie de Stalker 2 dans Anomaly, tout en ajoutant de puissantes nouvelles options.\n
+
+			\nEnfin, pas tout à fait aussi cool que Stalker 2, car Anomaly est bancal. Espérons que cela le rende un peu moins instable et aide à faire évoluer l'interface d'interaction d'Anomaly en la rapprochant de la décennie actuelle.\n
+
+			\nBien sûr, chacun a ses préférences, c'est pourquoi DotMarks est conçu pour être %c[pda_blue]personnalisé selon vos goûts%c[ui_gray_1] - pratiquement chaque fonctionnalité peut être désactivée ou modifiée dans les menus MCM, qui contiennent également une multitude d'informations dans les infobulles de chaque fonction.\n
+
+			\nSi vous préférez garder votre interface épurée, vous pouvez même désactiver tous les marqueurs visibles tout en conservant les invites d'interaction améliorées et les actions secondaires.\n
+
+			\n%c[pda_yellow]C'est votre partie. Jouez-la à votre manière.\n
+
+			\n%c[ui_gray_1]Depuis %c[pda_yellow]MCM %c[pda_white]&gt; %c[pda_yellow]Interaction Dot Marks%c[ui_gray_1] :\n
+
+			%c[pda_white]• %c[pda_blue]Paramètres généraux%c[ui_gray_1] : Paramètres contrôlant l'affichage et le mode d'apparition des éléments principaux de l'interface d'interaction. Si un détail particulier vous intéresse ou non, c'est probablement ici que vous le trouverez.\n
+
+			%c[pda_white]• %c[pda_blue]Interaction secondaire%c[ui_gray_1] : Paramètres relatifs à la fonction d'interaction secondaire et à sa touche d'association, ainsi qu'à l'activation ou non de chacune des nouvelles actions.\n
+
+			%c[pda_white]• %c[pda_blue]Paramètres des icônes%c[ui_gray_1] : Paramètres contrôlant l'affichage des différentes icônes spécifiques au contexte, ainsi que leur taille, couleur et transparence.\n
+
+			%c[pda_white]• %c[pda_blue]Paramètres des objets%c[ui_gray_1] : Paramètres permettant de contrôler sélectivement l'affichage des marqueurs pour diverses classes d'objets individuelles dans le jeu.\n
+
+			%c[pda_white]• %c[pda_blue]Autres accessoires%c[ui_gray_1] : Paramètres liés à l'intégration ou à la compatibilité avec d'autres accessoires, tels que Sorting Plus ou l'interface utilisateur d'objets d'Utjan.\n
+
+			%c[pda_white]• %c[pda_blue]Paramètres avancés%c[ui_gray_1] : Paramètres extrêmement granulaires vous permettant d'ajuster finement les polices, tailles et positions exactes à l'écran des différents éléments de l'interface d'interaction. À utiliser avec précaution, mais essentiels si votre écran est particulièrement grand ou large - ou si vous êtes aussi pointilleux que moi concernant votre interface.\n
+
+			\n%c[pda_white]N'hésitez pas à expérimenter, et ne vous inquiétez pas de tout dérégler - vous pouvez toujours cliquer sur le bouton %c[pda_yellow]Valeurs par défaut %c[pda_white]dans le MCM.\n
+
+			\n%c[pda_red]Vous rencontrez toujours des difficultés ? Rendez-vous dans l'onglet %c[pda_yellow]Paramètres avancés%c[pda_red] du MCM.\n
+			%c[ui_gray_1]
+
+			--------------------------------------------------------------------------------\n \n
+
+			%c[pda_red]••• IMPORTANT : Pour signaler un bug, vous devez suivre les étapes suivantes : •••\n \n
+			%c[ui_gray_1]1. %c[pda_white]Allez dans %c[pda_yellow]MCM %c[pda_white]&gt; %c[pda_yellow]Interaction Dot Marks %c[pda_white]&gt; %c[pda_yellow]Paramètres avancés\n
+			%c[ui_gray_1]2. %c[pda_white]Activez %c[pda_yellow]l'enregistrement en mode débogage%c[pda_white] et %c[pda_yellow]l'enregistrement détaillé\n
+			%c[ui_gray_1]3. %c[pda_white]Quittez et redémarrez complètement le jeu\n
+			%c[ui_gray_1]4. %c[pda_white]Reproduisez le problème de manière aussi rapide et simple que possible\n
+			%c[ui_gray_1]5. %c[pda_white]Récupérez le journal du jeu depuis %c[pda_yellow](Dossier Anomaly)\appdata\logs%c[pda_white] et publiez-le en ligne\n \n
+			
+			%c[ui_gray_1]Si vous ne suivez pas ces étapes, il est peu probable que votre journal contienne des informations utiles relatives à cet accessoire.\n
+
+			\nJe ne suis pas notifié des commentaires sur Moddb, vous obtiendrez donc généralement une réponse plus rapide sur le Discord GAMMA, dans le canal de discussion Interaction Dot Marks sous #mods-posting. Les messages privés non sollicités seront ignorés.\n
+		</text>
+	</string>
+
+	<string id="st_dotmarks_welcome_message">
+		<text>$clr_gldInteraction Dot Marks v%s$clr_def améliore maintenant l’UI d’interaction avec des marqueurs HUD contextuels et des actions secondaires. %sPour ajuster les paramètres d’IDM, va dans $clr_lblMenu Principal $clr_def&gt; $clr_lblMCM $clr_def&gt; $clr_lblDotMarks$clr_def.\n
+
+		\nCe message ne s'affichera plus sauf si tu mets à jour DotMarks ou réinitialises tes paramètres MCM. Bonne chasse, stalker.
+		</text>
+	</string>
+
+	<string id="st_dotmarks_upgrade_defaulted">
+		<text>Certains paramètres ont été réinitialisés par défaut suite à une mise à jour de version.</text>
+	</string>
+
+	<!-- Added in 1.1.0 --> 
+
+	<string id="ui_mcm_dotmarks_dmarksec_simple_press_ignore_shift">
+		<text>Appuis simples ignorent modificateur Maj</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarksec_simple_press_ignore_shift_desc">
+		<text>Lorsque ce paramètre est activé, DotMarks enregistrera une pression simple (non modifiée) même si le joueur maintenait la touche Maj enfoncée au moment de l'action. Cela vous permet de réaffecter la touche Maj à une autre fonction (par exemple, Courir) et de l'utiliser indépendamment.\n
+
+		\nLorsque désactivé, la touche Shift est considérée comme une touche de modification, et une simple pression ne sera pas enregistrée tant qu'elle est maintenue. Cela permet d'utiliser Shift dans des combinaisons de touches sans déclencher d'actions en double non désirées.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarksec_simple_press_ignore_ctrl">
+		<text>Appuis simples ignorent modificateur Ctrl</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarksec_simple_press_ignore_ctrl_desc">
+		<text>Lorsque ce paramètre est activé, DotMarks enregistrera une pression simple (non modifiée) même si le joueur maintenait la touche Ctrl enfoncée au moment de l'action. Cela vous permet de réaffecter la touche Ctrl à une autre fonction (par exemple, S'accroupir) et de l'utiliser indépendamment.\n
+
+		\nLorsque désactivé, la touche Ctrl est considérée comme une touche de modification, et une simple pression ne sera pas enregistrée tant qu'elle est maintenue. Cela permet d'utiliser Ctrl dans des combinaisons de touches sans déclencher d'actions en double non désirées.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarksec_simple_press_ignore_alt">
+		<text>Appuis simples ignorent modificateur Alt</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarksec_simple_press_ignore_alt_desc">
+		<text>Lorsque ce paramètre est activé, DotMarks enregistrera une pression simple (non modifiée) même si le joueur maintenait la touche Alt enfoncée au moment de la pression. Cela vous permet de réaffecter la touche Alt à une autre fonction (par exemple, Autoloot) et de l'utiliser indépendamment.\n
+
+		\nLorsque désactivé, la touche Alt est considérée comme une touche de modification, et une simple pression ne sera pas enregistrée tant qu'elle est maintenue. Cela permet d'utiliser Alt dans des combinaisons de touches sans déclencher d'actions en double non désirées.</text>
+	</string>
+
+<!-- Added in 1.2.0 -->
+
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_keybind_element">
+		<text>Masquer élément affichage raccourci</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_keybind_element_desc">
+		<text>Si activé, ce paramètre masquera l'icône et/ou le texte indiquant la touche à presser.</text>
+	</string>
+
+<!-- Added in 1.2.1 -->
+
+	<string id="ui_mcm_dotmarks_dmarkmods_show_parts_weapons">
+		<text>Afficher points état pièce pour armes</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_show_parts_weapons_desc">
+		<text>Si cette option est activée, les indicateurs d'état des pièces issus de l'extension Item UI Improvements d'Utjan seront affichés sur l'invite pour les armes.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_show_parts_armor">
+		<text>Afficher points état pour armure</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_show_parts_armor_desc">
+		<text>Si activé, les indicateurs d'état des pièces issus de l'extension Utjan's Item UI Improvements seront affichés sur l'invite pour les armures et les équipements de tête.</text>
+	</string>
+
+<!-- Added in 1.3.0 -->
+
+	<string id="ui_mcm_dotmarks_dmarkicons_must_discover_stashes">
+		<text>Masquer marqueurs pour caches non découvertes</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkicons_must_discover_stashes_desc">
+		<text>Si cette option est activée, les marqueurs des caches qui n'ont pas été créés par le joueur ne seront pas affichés tant que le joueur n'a pas "découvert" ce cache en faisant apparaître son invite d'interaction.</text>
+	</string>
+
+<!-- Added in 1.4.0 -->
+
+	<string id="ui_mcm_dotmarks_dmarkadv_write_to_save">
+		<text>Stocker données interaction dans sauvegarde</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_write_to_save_desc">
+		<text>Si activée, DotMarks ajoutera une petite quantité de données à la sauvegarde afin de suivre des détails tels que les caches déjà découverts par l'acteur.\n
+
+		\nQuelle que soit cette option, il est TOUJOURS possible d'ajouter ou de supprimer des DotMarks à tout moment pendant votre partie.</text>
+	</string>
+
+<!-- Added in 1.5.0 -->
+
+	<string id="ui_mcm_dotmarks_dmarkadv_bind_toggle_marks">
+		<text>Maintenir touche pour afficher/masquer marqueurs</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_bind_toggle_marks_desc">
+		<text>Lorsque cette touche est maintenue enfoncée, le paramètre « Masquer les marqueurs d'interaction » (dans le menu Avancé) bascule vers la valeur opposée à sa valeur normale.\n
+
+		\nEn d'autres termes, si ce paramètre est activé (masquant ainsi tous les marqueurs), maintenir cette touche enfoncée les affichera temporairement, ou inversement.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_toggle_revert_delay">
+		<text>Délai avant retour au réglage normal</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_toggle_revert_delay_desc">
+		<text>Par défaut, ce délai est fixé à zéro, ce qui signifie que le paramètre ci-dessus revient immédiatement à la normale dès que la touche d'affichage/masquage est relâchée.\n
+
+		\nVous pouvez éventuellement définir un délai allant jusqu'à 10000 ms (dix secondes) avant que le paramètre ne revienne à sa valeur précédente après avoir relâché la touche. Cela vous permettrait d'appuyer brièvement sur la touche de maintien pour basculer temporairement le paramètre sans avoir à la maintenir enfoncée.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_addons_wpo">
+		<text>$clr_gldRévision pièces d'arme</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_parts_usable_cnd">
+		<text>État pièce minimal pour démontage terrain</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_parts_usable_cnd_desc">
+		<text>Une pièce d'arme doit avoir au minimum cet état de conservation pour pouvoir être démontée sur le terrain via une action secondaire.\n
+
+		\nLa valeur par défaut du WPO est fixée à 60 % d'état ou plus.</text>
+	</string>
+
+	<string id="st_alti_field_strip">
+		<text>Démonter les pièces utilisables de</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_ignore_hud_state">
+		<text>Ignorer état HUD d'Anomaly (hud_draw)</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_ignore_hud_state_desc">
+		<text>Par défaut, DotMarks respecte la variable de console hud_draw et masque tous ses éléments d'interface utilisateur lorsque celle-ci est désactivée (OFF).\n
+
+		\nL'activation de cette option amènera DotMarks à ignorer complètement ce paramètre, ce qui vous permettrait, par exemple, de jouer avec l'interface utilisateur des anomalies entièrement désactivée tout en voyant toujours les marqueurs et les invites d'interaction de l'IDM.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_sec_enable_strip_act">
+		<text>Activer action "démontage terrain" WPO</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_sec_enable_strip_act_desc">
+		<text>Active l'action secondaire permettant de démonter une arme déchargée au sol. Nécessite l'extension Weapon Parts Overhaul.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_aspect_correction">
+		<text>Coefficient de correction d'aspect</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_aspect_correction_desc">
+		<text>Par défaut, DotMarks détecte la résolution de votre écran et tente automatiquement d'appliquer une correction de largeur adaptée à votre rapport d'aspect. La plupart des utilisateurs n'ont même pas besoin de connaître l'existence de ce paramètre.\n
+
+		\nSi vous avez une résolution d'écran ultra-large très inhabituelle ou si vous n'aimez tout simplement pas la correction d'aspect par défaut de l'IDM, vous pouvez l'ajuster ici. Ce nombre vous permet d'affiner la largeur de tous les éléments graphiques.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_replace_keybinds_icons">
+		<text>Remplacer texte raccourci par icônes si disponibles</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_replace_keybinds_icons_desc">
+		<text>Certains boutons et touches spéciales, comme les cinq boutons typiques de la souris, possèdent leurs propres icônes qui sont utilisées à la place du texte par défaut des raccourcis clavier. La désactivation de cette option désactivera toutes ces icônes et obligera tous les raccourcis à utiliser le texte par défaut.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_hint_refresh_interval">
+		<text>Intervalle de rafraîchissement infobulle filtre</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_hint_refresh_interval_desc">
+		<text>Définit l'intervalle, en millisecondes, entre les rafraîchissements du système de filtre d'indices.\n
+
+		\nLes filtres d'indices servent à détecter quand Anomaly tente d'afficher une invite textuelle, ce qui contrôle directement les invites graphiques dans DotMarks. En résumé : IDM surveille cette zone de texte pour détecter les changements et fait correspondre le texte qui s'y trouve avec ses propres invites pour décider quels remplacements doivent être affichés et quand.\n
+
+		\nCette fonction implique des comparaisons de chaînes de caractères, donc la définir à une valeur trop basse peut avoir un impact sur les performances - une valeur de zéro équivaut à IDM 1.4, qui ne limitait pas cette vérification.\n
+
+		\nUne valeur trop élevée peut entraîner un délai avant l'apparition ou la mise à jour de certaines invites d'interaction.</text>
+	</string>
+
+<!-- Added in 1.7.0 -->
+
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_dropped_items">
+		<text>Masquer objets déposés par le joueur</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_dropped_items_desc">
+		<text>Lorsque cette option est activée, aucun marqueur ne sera affiché pour les objets qui ont été déposés par le joueur - sur la base du principe que si vous l'avez déposé, vous ne vous en souciez probablement plus.\n
+
+		\nCela améliorera les performances si vous avez tendance à déposer du matériel indésirable dans un grand "tas de déchets" dans votre base. Toutefois, une meilleure solution consisterait à utiliser mon module complémentaire "Poubelle de la Zone" pour supprimer définitivement les objets indésirables et éviter qu'ils n'alourdissent votre sauvegarde.\n
+
+		\nhttps://www.moddb.com/mods/stalker-anomaly/addons/zone-recycle-bin-10-for-anomaly-151-and-152\n
+
+		\nIl peut être souhaitable de désactiver ce paramètre si vous jouez avec des règles autorisant les dégâts ou les attaques de monstres à forcer le joueur à lâcher son arme.</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_never_mark_bolts">
+		<text>Ne jamais marquer boulons</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_never_mark_bolts_desc">
+		<text>Lorsque activé, tous les types de boulons (à la fois standards et de type balle) seront effectivement mis sur liste noire. Ils n'auront ni marqueur ni invite d'interaction et seront traités comme des objets non interactifs.\n
+
+		\nC'est déjà le cas si vous jouez avec les Boulons illimités. Activez cette option si vous jouez avec les Boulons limités mais ne souhaitez jamais voir de marqueurs pour ceux-ci. Vous pourrez toujours les ramasser, mais aucune invite ne s'affichera.</text>
+	</string>
+
+	<string id="st_addon_name_dotmarks">
+		<text>Marques de visée</text>
+	</string>
+
+<!-- Added in 1.7.2 -->
+
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_action_text">
+		<text>Masquer élément texte action</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_action_text_desc">
+		<text>Si cette option est activée, le texte de l'invite décrivant normalement l'action à effectuer sera masqué.</text>
+	</string>
+
+<!-- Added in 1.7.3 -->
+
+	<string id="ui_mcm_dotmarks_dmarkadv_only_mark_service_npcs">
+		<text>Masquer marqueur pour NPCs non en service</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_only_mark_service_npcs_desc">
+		<text>Si cette option est activée, aucun marqueur ne sera affiché pour les stalkers qui ne sont ni des marchands, ni des mécaniciens, ni d'autres NPCs dotés d'une icône de service.</text>
+	</string>
+
+</string_table>

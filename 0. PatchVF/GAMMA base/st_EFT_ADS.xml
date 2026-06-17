@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    <!-- MCM -->
+    <string id="ui_mcm_menu_EFT_ADS">
+        <text>Viseur non linéaire</text>
+    </string>
+    <string id="ui_mcm_menu_EFT_ADS_Title">
+        <text>Animation de viseur non linéaire</text>
+    </string>
+	<string id="ui_mcm_menu_EFT_ADS_weapon_mod">
+        <text>Ajustement de puissance spécifique par classe d'arme</text>
+    </string>
+	<string id="ui_mcm_menu_EFT_ADS_weapon_speed">
+        <text>Ajustement de vitesse spécifique par classe d'arme</text>
+    </string>
+	<string id="ui_mcm_menu_EFT_ADS_anim_on_sprint">
+        <text>Lecture de l'animation uniquement en sprint</text>
+    </string>
+	<string id="ui_mcm_menu_EFT_ADS_weapon_mod_title">
+        <text>Ajustements spécifiques par classe d'arme</text>
+    </string>
+	<string id="ui_mcm_menu_EFT_ADS_max_min">
+        <text>Vitesse et puissance : valeurs maximales et minimales</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_anim_on_sprint">
+        <text>Activer l'animation uniquement en sprint</text>
+    </string>
+	
+	<string id="ui_mcm_menu_EFT_ADS_aim_anim">
+        <text>Prendre en compte les animations de visée pour la durée</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_aim_anim_out">
+        <text>Désactiver l'animation de sortie si animation de visée existe</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_aim_anim_out_desc">
+        <text>Parfois, le mouvement résultant de la sortie de visée avec les deux animations peut sembler incorrect. Par exemple, sur le SVDS Retribution, où cela provoque un tremblement étrange. L'activation de cette option désactivera l'animation si une animation de sortie de visée (aim_anim_out) existe.</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_aim_anim">
+	    <text>Activer la durée de l'animation basée sur les animations de visée</text>
+	</string>
+	<string id="ui_mcm_EFT_ADS_aim_anim_speed">
+	    <text>Facteur de vitesse pour l'animation de visée</text>
+	</string>
+		
+	<string id="ui_mcm_EFT_ADS_anim_on_sprint_delay">
+        <text>Désactiver le délai d'animation après sprint</text>
+    </string>
+	
+	<string id="ui_mcm_menu_EFT_ADS_arm_health">
+        <text>La santé des bras affecte la puissance des animations</text>
+    </string>
+	
+	<string id="ui_mcm_menu_EFT_ADS_weapon_handling">
+        <text>La maniabilité de l'arme affecte la puissance</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_handling_affect">
+        <text>La maniabilité affecte la puissance d'animation</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_handling_factor">
+        <text>Facteur de maniabilité sur la puissance</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_handling_factor_desc">
+        <text>Modifie l'impact de la maniabilité sur la puissance. Une valeur plus élevée signifie un effet plus prononcé. À 4, une maniabilité de 100 % donne un multiplicateur de 0,2 ; à 1, une maniabilité de 100 % donne un multiplicateur de 0,5. La formule est (facteur/(facteur + (maniabilité/100)^exposant_maniabilité)) + décalage_maniabilité.	</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_max_handling_factor">
+        <text>Multiplicateur de maniabilité maximal</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_handling_exponent">
+        <text>Exposant de maniabilité</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_handling_exponent_desc">
+        <text>Modifie l'exposant de maniabilité utilisé dans la formule. Pour des valeurs plus élevées, cela signifie une chute plus brutale du multiplicateur. La formule est (facteur/(facteur + (maniabilité/100)^exposant_maniabilité)) + décalage_maniabilité.  </text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_handling_offset">
+        <text>Décalage de maniabilité</text>
+    </string>
+	
+	<string id="ui_mcm_menu_EFT_ADS_weapon_weight">
+        <text>Le poids de l'arme affecte la vitesse</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_weight_affect">
+        <text>Le poids affecte la vitesse d'animation</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_weight_factor">
+        <text>Facteur de poids sur la vitesse</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_weight_threshold">
+        <text>Seuil de poids pour le facteur</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_Play_anim">
+        <text>Lecture de l'animation</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Play_anim_desc">
+        <text>Active ou désactive la lecture de l'animation.</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in">
+        <text>Multiplicateur de vitesse ADS</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_desc">
+        <text>Multiplicateur de vitesse pour l'entrée supplémentaire en visée (ADS) dans l'animation. Une valeur plus faible signifie un mouvement plus lent, une valeur plus élevée signifie un mouvement plus rapide.</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_min_speed">
+        <text>Vitesse d'animation minimale</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_min_speed_desc">
+        <text>Définit la vitesse minimale de l'animation, valeur à laquelle la vitesse sera limitée si elle est inférieure. Une valeur plus faible est moins bonne, une valeur plus élevée est meilleure. Réglez à 0,9 pour éviter des animations trop lentes.</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_max_speed">
+        <text>Vitesse d'animation maximale</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_min_speed_desc">
+        <text>Définit la vitesse maximale de l'animation, valeur à laquelle la vitesse sera limitée si elle est supérieure. Une valeur plus faible est moins bonne, une valeur plus élevée est meilleure.</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_min_power">
+        <text>Puissance d'animation minimale</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_min_power_desc">
+        <text>Définit la puissance minimale de l'animation, valeur à laquelle la puissance sera limitée si elle est inférieure. Une valeur plus élevée est moins bonne, une valeur plus faible est meilleure.</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_max_power">
+        <text>Puissance d'animation maximale</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_max_power_desc">
+        <text>Définit la puissance minimale de l'animation, valeur à laquelle la puissance sera limitée si elle est supérieure. Une valeur plus élevée est moins bonne, une valeur plus faible est meilleure.</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_power">
+        <text>Multiplicateur de puissance ADS</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_power_desc">
+        <text>Multiplicateur de puissance pour l'entrée en visée (ADS) dans l'animation. Une valeur plus élevée rend le mouvement plus perceptible, une valeur plus faible le rend moins perceptible.</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_out">
+        <text>Multiplicateur de vitesse hors ADS</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_out_desc">
+        <text>Multiplicateur de vitesse pour la sortie supplémentaire de la visée (ADS) dans l'animation. Une valeur plus faible signifie un mouvement plus lent, une valeur plus élevée signifie un mouvement plus rapide.</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_out_power">
+        <text>Multiplicateur de puissance hors ADS</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_out_power_desc">
+        <text>Multiplicateur de puissance pour la sortie de la visée (ADS) dans l'animation. Une valeur plus élevée rend le mouvement plus perceptible, une valeur plus faible le rend moins perceptible.</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_Debug">
+        <text>Journalisation de débogage</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Debug_desc">
+        <text>Affiche des informations de débogage supplémentaires dans le journal.</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_gl_anim">
+        <text>Activer l'animation pour GL</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_gl_anim_desc">
+        <text>Détermine si l'animation de visée sera jouée pour les lance-grenades.</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_Pistol_Allowed">
+        <text>Activer l'animation pour pistolet</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Pistol_Allowed_desc">
+        <text>Détermine si l'animation sera jouée sur les pistolets.</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_alt_aim_allowed">
+        <text>Activer l'animation pour la visée alternative</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_alt_aim_cheese_delay">
+        <text>Délai de visée alternative</text>
+    </string>
+		<string id="ui_mcm_EFT_ADS_alt_aim_cheese_delay_desc">
+        <text>Configure le délai à partir duquel l'animation ne sera pas jouée lors du passage de la visée alternative à la visée principale. Réglez à 0,2 pour éviter de sauter l'animation en passant rapidement de la visée alternative à la visée principale. Ne fait rien si l'animation de visée alternative est définie sur vrai.</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Pistol_Allowed_desc">
+        <text>Détermine si l'animation sera jouée lors de la visée alternative.</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_Strength_factor">
+        <text>La compétence Force affecte la puissance de l'animation</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Strength_factor_desc">
+        <text>Détermine si la puissance de l'animation sera influencée par le facteur de force de la compétence de Haruka.</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Arm_Health_factor">
+        <text>Santé des bras affecte la puissance de l'animation</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Arm_Health_factor_desc">
+        <text>Détermine si l'animation sera influencée par la santé du bras dans le système BHS.</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Arm_Health_factor_factor">
+        <text>Facteur de puissance de la santé des bras</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Arm_Health_factor_factor_desc">
+        <text>Configure l'impact de la santé du bras dans le système BHS sur la puissance de l'animation (force).</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Strength_power_factor_factor">
+        <text>Facteur de puissance de la compétence Force</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Strength_power_factor_factor_desc">
+        <text>Configure l'impact du niveau de compétence en force sur la puissance de l'animation (force).</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Strength_speed_factor_factor">
+        <text>Facteur de vitesse de la compétence Force</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Strength_speed_factor_factor_desc">
+        <text>Configure l'impact du niveau de compétence en force sur la vitesse de l'animation.</text>
+    </string>
+	
+	
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_power_pistol">
+        <text>Facteur de puissance pistolet</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_power_smg">
+        <text>Facteur de puissance SMG</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_power_shotgun">
+        <text>Facteur de puissance fusil à pompe</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_power_rifle">
+        <text>Facteur de puissance fusil</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_power_sniper">
+        <text>Facteur de puissance sniper</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_speed_pistol">
+        <text>Facteur de vitesse pistolet</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_speed_smg">
+        <text>Facteur de vitesse SMG</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_speed_shotgun">
+        <text>Facteur de vitesse fusil à pompe</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_speed_rifle">
+        <text>Facteur de vitesse fusil</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_speed_sniper">
+        <text>Facteur de vitesse sniper</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_power_lmg">
+        <text>Facteur de puissance LMG</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_speed_lmg">
+        <text>Facteur de vitesse LMG</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_lmg_separation">
+        <text>Séparer les LMG des fusils</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_lmg_separation_desc">
+        <text>Sépare les mitrailleuses légères (LMG) des fusils dans le code. Si cette option est désactivée, les LMG suivront les multiplicateurs de vitesse et de puissance des fusils ci-dessous.</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_anim_variants">
+        <text>Variantes d'animation</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_anim_variants_desc">
+        <text>Variantes d'animation ; n'affecte pas les animations de bras cassé !</text>
+    </string>
+	
+	<string id="EFT_ADS_anim_variants_lst_def">
+        <text>Animation par défaut</text>
+    </string>
+	
+	<string id="EFT_ADS_anim_variants_lst_no_movement">
+        <text>Pas de mouvement du réticule</text>
+    </string>
+	
+	<string id="EFT_ADS_anim_variants_lst_extreme">
+        <text>Animation intensifiée</text>
+    </string>
+	
+	<string id="EFT_ADS_anim_variants_lst_lizard">
+        <text>Animation de Lizardman</text>
+    </string>
+	
+</string_table>

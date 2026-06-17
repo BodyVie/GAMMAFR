@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_mk23">
+		<text>HK MK23</text>
+	</string>
+	<string id="st_wpn_mk23_descr">
+		<text>Développé dans les années 90 pour remplacer le 1911A1 au sein des forces des opérations spéciales, le pistolet Mk.23 SOCOM a remporté les essais du système d'arme offensive pour pistolet (Offensive Handgun Weapon System), devançant le pistolet « OHWS » de Colt, ainsi surnommé à juste titre. Grâce à leur propre budget, l'USSOCOM a pu financer ses propres programmes d'adoption d'armes et adapter les exigences pour répondre à ses attentes. La conception reposait sur la capacité à utiliser un silencieux de manière fiable lors d'opérations prolongées sur le terrain et à employer la munition .45 ACP. C'est pourquoi il a été surnommé le « pistolet servi par l'équipage » par les opérateurs du SOCOM en raison de sa taille. Les essais ayant prouvé sans l'ombre d'un doute qu'il était plus qu'adéquat pour les forces des opérations spéciales, ce pistolet peut être utilisé de manière prolongée dans la Zone, quelles que soient les conditions auxquelles vous pourriez être confronté.\n \n
+		%c[ui_gray_2]ACCESSOIRES : \n
+		%c[d_purple] • %c[ui_gray_2] Silencieux pour .45 ACP</text>
+	</string>
+	
+</string_table>

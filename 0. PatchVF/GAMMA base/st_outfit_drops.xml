@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    
+	<string id="ui_mcm_outfitdrop_helmet_light_chance">
+		<text>Chance de chute de casque léger</text>
+	</string>
+	<string id="ui_mcm_outfitdrop_helmet_light_chance_desc">
+		<text>Pourcentage de chances de récupérer des casques légers sur des stalkers morts.</text>
+	</string>
+	<string id="ui_mcm_outfitdrop_helmet_medium_chance">
+		<text>Chance de chute de casque moyen</text>
+	</string>
+	<string id="ui_mcm_outfitdrop_helmet_medium_chance_desc">
+		<text>Pourcentage de chances de récupérer des casques intermédiaires sur des stalkers morts.</text>
+	</string>
+	<string id="ui_mcm_outfitdrop_helmet_heavy_chance">
+		<text>Chance de chute de casque lourd</text>
+	</string>
+	<string id="ui_mcm_outfitdrop_helmet_heavy_chance_desc">
+		<text>Pourcentage de chances de récupérer des casques lourds sur des stalkers morts.</text>
+	</string>
+		<string id="ui_mcm_outfitdrop_helmet_exo_chance">
+		<text>Chance de chute de casque Exo</text>
+	</string>
+	<string id="ui_mcm_outfitdrop_helmet_exo_chance_desc">
+		<text>Pourcentage de chances de récupérer des casques d'exosquelette sur des stalkers morts.</text>
+	</string>
+	<string id="ui_mcm_outfitdrop_outfit_light_chance">
+		<text>Chance de chute d'équipement léger</text>
+	</string>
+	<string id="ui_mcm_outfitdrop_outfit_light_chance_desc">
+		<text>Pourcentage de chances de récupérer une tenue légère sur un stalkers mort.</text>
+	</string>
+	<string id="ui_mcm_outfitdrop_outfit_medium_chance">
+		<text>Chance de chute d'équipement moyen</text>
+	</string>
+	<string id="ui_mcm_outfitdrop_outfit_medium_chance_desc">
+		<text>Pourcentage de chances de récupérer des tenues intermédiaires sur des stalkers morts.</text>
+	</string>
+	<string id="ui_mcm_outfitdrop_outfit_heavy_chance">
+		<text>Chance de chute d'équipement lourd</text>
+	</string>
+	<string id="ui_mcm_outfitdrop_outfit_heavy_chance_desc">
+		<text>Pourcentage de chances de récupérer des tenues lourdes sur des stalkers morts.</text>
+	</string>
+	<string id="ui_mcm_outfitdrop_outfit_exo_chance">
+		<text>Chance de chute d'exosquelette</text>
+	</string>
+	<string id="ui_mcm_outfitdrop_outfit_exo_chance_desc">
+		<text>Pourcentage de chances de récupérer des exosquelettes sur des stalkers morts.</text>
+	</string>
+	<string id="ui_mcm_outfitdrop_parts_chance">
+		<text>Chance de chute de pièce</text>
+	</string>
+	<string id="ui_mcm_outfitdrop_parts_chance_desc">
+		<text>Pourcentage de chances de trouver des pièces lorsque les tenues ne sont pas générées.</text>
+	</string>
+	<string id="ui_mcm_outfitdrop_debug">
+		<text>Impression de débogage</text>
+	</string>
+	<string id="ui_mcm_outfitdrop_parts_debug_desc">
+		<text>Vous savez désormais à quoi sert cette option.</text>
+	</string>
+	<string id="ui_mcm_menu_outfitdrop">
+		<text>Chute d'équipements</text>
+	</string>
+</string_table>

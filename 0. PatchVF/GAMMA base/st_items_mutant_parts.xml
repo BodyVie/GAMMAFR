@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	MUTANT MEAT
+-->
+
+	<string id="mutant_boar_chop">
+		<text>Côte de Sanglier</text>
+	</string>
+	<string id="mutant_boar_chop_description">
+		<text>Morceau de viande prélevé sur un mutant sanglier, coriace et au goût prononcé, mais comestible après une cuisson appropriée. Notez que la consommation de viande de mutant crue comporte toujours un risque de contamination ou d'exposition aux radiations.\n \n
+		%c[ui_red]AVERTISSEMENT : Viande crue\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Viande de Mutant de qualité inférieure\n
+		%c[d_cyan] • %c[pda_white] Cuisson possible\n
+		</text>
+	</string>
+
+	<string id="mutant_krovosos_meat">
+		<text>Viande de Bloodsucker</text>
+	</string>
+	<string id="mutant_krovosos_meat_description">
+		<text>Morceau de Flesh prélevé sur un Bloodsucker abattu, dont la texture caoutchouteuse et filandreuse le rend peu appétissant et donc impropre à la consommation. Notez que la consommation de viande de mutant crue comporte toujours un risque de contamination ou d'exposition aux radiations.\n \n
+		%c[ui_red]AVERTISSEMENT : Viande crue\n \n
+		%c[d_cyan] • %c[pda_white] Viande de Mutant de qualité supérieure\n
+		%c[d_cyan] • %c[pda_white] Cuisson possible\n
+		</text>
+	</string>
+
+	<string id="mutant_chimera_meat">
+		<text>Viande de Chimère</text>
+	</string>
+	<string id="mutant_chimera_meat_description">
+		<text>Morceau rare et extrêmement dangereux prélevé sur la redoutable Chimère, connu pour ses fibres musculaires coriaces et son goût unique. Considérée comme l'une des créatures les plus dangereuses, sa viande est très prisée par les stalkers vétérans.\n \n
+		%c[ui_red]AVERTISSEMENT : Viande crue\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Viande de Mutant de qualité supérieure\n
+		%c[d_cyan] • %c[pda_white] Cuisson possible\n
+		</text>
+	</string>
+
+	<string id="mutant_dog_meat">
+		<text>Viande de Chien</text>
+	</string>
+	<string id="mutant_dog_meat_description">
+		<text>Viande prélevée sur des Zone chiens sauvages, filandreuse et peu appétissante, mais parfois consommée comme alternative bon marché à la viande plus prisée de sanglier. Notez que la consommation de viande de mutant crue comporte toujours un risque de contamination ou d'exposition aux radiations.\n \n
+		%c[ui_red]AVERTISSEMENT : Viande crue\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Viande de Mutant de qualité inférieure\n
+		%c[d_cyan] • %c[pda_white] Cuisson possible\n
+		</text>
+	</string>
+
+	<string id="mutant_flesh_meat">
+		<text>Viande de Flesh</text>
+	</string>
+	<string id="mutant_flesh_meat_description">
+		<text>Source courante de protéines mutants provenant des créatures Flesh à déplacement lent, étonnamment savoureuse lorsqu'elle est correctement cuisinée. Notez que la consommation de viande de mutant crue comporte toujours un risque de contamination ou d'exposition aux radiations.\n \n
+		%c[ui_red]AVERTISSEMENT : Viande crue\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Viande de Mutant de qualité inférieure\n
+		%c[d_cyan] • %c[pda_white] Cuisson possible\n
+		</text>
+	</string>
+
+	<string id="mutant_lurker_meat">
+		<text>Viande de Lurker</text>
+	</string>
+	<string id="mutant_lurker_meat_description">
+		<text>Viande coriace et fibreuse découpée sur un Lurker, particulièrement adaptée aux ragoûts en raison de sa consistance caoutchouteuse. Notez que la consommation de viande de mutant crue comporte toujours un risque de contamination ou d'exposition aux radiations.\n \n
+		%c[ui_red]AVERTISSEMENT : Viande crue\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Viande de Mutant de qualité supérieure\n
+		%c[d_cyan] • %c[pda_white] Cuisson possible\n
+		</text>
+	</string>
+
+	<string id="mutant_psevdodog_meat">
+		<text>Viande de Pseudochien</text>
+	</string>
+	<string id="mutant_psevdodog_meat_description">
+		<text>Viande très nutritive issue d'un mutant Pseudochien, réputée plus comestible que celle de ses homologues canins classiques. Notez que la consommation de viande de mutant crue comporte toujours un risque de contamination ou d'exposition aux radiations.\n \n
+		%c[ui_red]AVERTISSEMENT : Viande crue\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Viande de Mutant de qualité inférieure\n
+		%c[d_cyan] • %c[pda_white] Cuisson possible\n
+		</text>
+	</string>
+	
+	<string id="mutant_psysucker_meat">
+		<text>Viande de Psysucker</text>
+	</string>
+	<string id="mutant_psysucker_meat_description">
+		<text>Similaire à celle du Bloodsuckers, la viande du Psysucker présente une texture caoutchouteuse et filandreuse, la rendant impropre à la consommation. Notez que la consommation de viande de mutant crue comporte toujours un risque de contamination ou d'exposition aux radiations.\n \n
+		%c[ui_red]AVERTISSEMENT : Viande crue\n \n
+		%c[d_cyan] • %c[pda_white] Viande de Mutant de qualité supérieure\n
+		%c[d_cyan] • %c[pda_white] Cuisson possible\n
+		</text>
+	</string>
+
+	<string id="mutant_tushkano_meat">
+		<text>Viande de Tushkano</text>
+	</string>
+	<string id="mutant_tushkano_meat_description">
+		<text>Petite portion de viande issue du Tushkano, un rongeur, à peine suffisante pour un repas. Bien que relativement sûre comparée à celle des mutants plus imposants, elle est souvent considérée comme de la nourriture de charognard. Notez que la consommation de viande crue de mutant comporte toujours un risque de contamination ou d'exposition aux radiations.\n \n
+		%c[ui_red]AVERTISSEMENT : Viande crue\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Viande de Mutant de qualité inférieure\n
+		%c[d_cyan] • %c[pda_white] Cuisson possible\n
+		</text>
+	</string>
+
+	<string id="mutant_snork_hand">
+		<text>Main de Snork</text>
+	</string>
+	<string id="mutant_snork_hand_description">
+		<text>Main griffue sectionnée d'un Snork, généralement conservée comme trophée ou preuve d'une mise à mort plutôt que pour la consommation. Bien qu'elle soit techniquement comestible, la plupart des stalkers l'évitent, car cela est considéré comme cannibale et immoral. Notez que la consommation de viande crue de mutant comporte toujours un risque de contamination ou d'exposition aux radiations.\n \n
+		%c[ui_red]AVERTISSEMENT : Viande crue\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Viande de Mutant de qualité inférieure\n
+		%c[d_cyan] • %c[pda_white] Cuisson possible\n
+		</text>
+	</string>
+
+<!--
+	MUTANT MEALS
+-->	
+
+	<string id="st_meat_bloodsucker">
+		<text>Goulash de Bloodsucker</text>
+	</string>
+	<string id="st_meat_bloodsucker_descr">
+		<text>Un petit ragoût dense et riche en fer, préparé à partir des tendons de flesh d'un Bloodsucker, relevé avec diverses herbes et champignons.\n \n
+		%c[pda_white]NOTE : %c[ui_gray_2]La qualité et la salubrité d'un repas dépendent de sa préparation.\n
+		%c[d_orange] • %c[pda_white] Les repas produits dans la Zone%c[ui_gray_2], bien que moins contaminés, restent néanmoins malsains.\n
+		%c[pda_yellow] • %c[pda_white] Les repas mijotés %c[ui_gray_2]nécessitent l'ajout d'eau propre et sont nettement moins contaminés.\n
+		%c[d_green] • %c[pda_white] Les repas purifiés %c[ui_gray_2]nécessitaient l'ajout de vodka et sont non seulement exempts de radiation, mais procurent également des effets revitalisants.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Repas cuisiné de qualité supérieure\n
+		</text>
+	</string>
+	
+	<string id="st_meat_boar">
+		<text>Côtes de Sangliers</text>
+	</string>
+	<string id="st_meat_boar_descr">
+		<text>Épaisses tranches de viande de sanglier, assaisonnées de sel et de diverses herbes. C'est sans conteste le repas chaud le plus prisé parmi les stalkers.\n \n
+		%c[pda_white]NOTE : %c[ui_gray_2]La qualité et la salubrité d'un repas dépendent de sa préparation.\n
+		%c[d_orange] • %c[pda_white] Les repas produits dans la Zone%c[ui_gray_2], bien que moins contaminés, restent néanmoins malsains.\n
+		%c[pda_yellow] • %c[pda_white] Les repas mijotés %c[ui_gray_2]nécessitent l'ajout d'eau propre et sont nettement moins contaminés.\n
+		%c[d_green] • %c[pda_white] Les repas purifiés %c[ui_gray_2]nécessitaient l'ajout de vodka et sont non seulement exempts de radiation, mais procurent également des effets revitalisants.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Repas cuit\n
+		</text>
+	</string>
+
+	<string id="st_meat_dog">
+		<text>Côtes de Chiens</text>
+	</string>
+	<string id="st_meat_dog_descr">
+		<text>Morceaux maigres et fibreux issus des flesh des chiens sauvages de la Zone. Leur saveur forte et sauvage est rehaussée par diverses herbes. Une alternative bon marché à la viande plus prisée de sanglier.\n \n
+		%c[pda_white]NOTE : %c[ui_gray_2]La qualité et la salubrité d'un repas dépendent de sa préparation.\n
+		%c[d_orange] • %c[pda_white] Les repas produits dans la Zone%c[ui_gray_2], bien que moins contaminés, restent néanmoins malsains.\n
+		%c[pda_yellow] • %c[pda_white] Les repas mijotés %c[ui_gray_2]nécessitent l'ajout d'eau propre et sont nettement moins contaminés.\n
+		%c[d_green] • %c[pda_white] Les repas purifiés %c[ui_gray_2]nécessitaient l'ajout de vodka et sont non seulement exempts de radiation, mais procurent également des effets revitalisants.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Repas cuit\n
+		</text>
+	</string>
+
+	<string id="st_meat_flesh">
+		<text>Bacon de Flesh</text>
+	</string>
+	<string id="st_meat_flesh_descr">
+		<text>Lanières de viande grasse de Flesh, cuites jusqu'à devenir croustillantes et étonnamment savoureuses. C'est l'un des repas à base de mutants les plus appréciables.\n \n
+		%c[pda_white]NOTE : %c[ui_gray_2]La qualité et la salubrité d'un repas dépendent de sa préparation.\n
+		%c[d_orange] • %c[pda_white] Les repas produits dans la Zone%c[ui_gray_2], bien que moins contaminés, restent néanmoins malsains.\n
+		%c[pda_yellow] • %c[pda_white] Les repas mijotés %c[ui_gray_2]nécessitent l'ajout d'eau propre et sont nettement moins contaminés.\n
+		%c[d_green] • %c[pda_white] Les repas purifiés %c[ui_gray_2]nécessitaient l'ajout de vodka et sont non seulement exempts de radiation, mais procurent également des effets revitalisants.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Repas cuit\n
+		</text>
+	</string>
+
+	<string id="st_meat_snork">
+		<text>Main de Snork cuite</text>
+	</string>
+	<string id="st_meat_snork_descr">
+		<text>Une délicatesse grotesque, cuite jusqu'à ce que la peau se craquelle et que la viande se détache des os. La plupart des stalkers en mangent pour relever un défi ou l'incluent dans leurs repas pour affirmer leur supériorité sur les autres.\n \n
+		%c[pda_white]NOTE : %c[ui_gray_2]La qualité et la salubrité d'un repas dépendent de sa préparation.\n
+		%c[d_orange] • %c[pda_white] Les repas produits dans la Zone%c[ui_gray_2], bien que moins contaminés, restent néanmoins malsains.\n
+		%c[pda_yellow] • %c[pda_white] Les repas mijotés %c[ui_gray_2]nécessitent l'ajout d'eau propre et sont nettement moins contaminés.\n
+		%c[d_green] • %c[pda_white] Les repas purifiés %c[ui_gray_2]nécessitaient l'ajout de vodka et sont non seulement exempts de radiation, mais procurent également des effets revitalisants.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Repas cuit\n
+		</text>
+	</string>
+	
+	<string id="st_meat_lurker">
+		<text>Côtes de Lurkers</text>
+	</string>
+	<string id="st_meat_lurker_descr">
+		<text>Morceaux coriaces de viande de mutant Lurker, cuits lentement pour attendrir la dense chair de flesh, et assaisonnés de sel et de diverses herbes. Avec la bonne marinade, elle est étonnamment savoureuse, bien que la plupart des stalkers la considèrent comme un goût acquis.\n \n
+		%c[pda_white]NOTE : %c[ui_gray_2]La qualité et la salubrité d'un repas dépendent de sa préparation.\n
+		%c[d_orange] • %c[pda_white] Les repas produits dans la Zone%c[ui_gray_2], bien que moins contaminés, restent néanmoins malsains.\n
+		%c[pda_yellow] • %c[pda_white] Les repas mijotés %c[ui_gray_2]nécessitent l'ajout d'eau propre et sont nettement moins contaminés.\n
+		%c[d_green] • %c[pda_white] Les repas purifiés %c[ui_gray_2]nécessitaient l'ajout de vodka et sont non seulement exempts de radiation, mais procurent également des effets revitalisants.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Repas cuisiné de qualité supérieure\n
+		</text>
+	</string>
+
+	<string id="st_meat_chimera">
+		<text>Goulash de Chimère</text>
+	</string>
+	<string id="st_meat_chimera_descr">
+		<text>Plat rare et exotique préparé à partir de viande de Chimère, cuisinée avec soin pour attendrir ses fibres musculaires denses et servi avec des champignons et diverses épices. Repas coûteux, il est le plus souvent consommé par les stalkers vétérans pour célébrer l'accomplissement de missions difficiles.\n \n
+		%c[pda_white]NOTE : %c[ui_gray_2]La qualité et la salubrité d'un repas dépendent de sa préparation.\n
+		%c[d_orange] • %c[pda_white] Les repas produits dans la Zone%c[ui_gray_2], bien que moins contaminés, restent néanmoins malsains.\n
+		%c[pda_yellow] • %c[pda_white] Les repas mijotés %c[ui_gray_2]nécessitent l'ajout d'eau propre et sont nettement moins contaminés.\n
+		%c[d_green] • %c[pda_white] Les repas purifiés %c[ui_gray_2]nécessitaient l'ajout de vodka et sont non seulement exempts de radiation, mais procurent également des effets revitalisants.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Repas cuisiné de qualité supérieure\n
+		</text>
+	</string>
+
+	<string id="st_meat_pseudodog">
+		<text>Côtes de Pseudochiens</text>
+	</string>
+	<string id="st_meat_pseudodog_descr">
+		<text>Épaisses tranches de viande de pseudochien, grillées jusqu'à être bien cuites afin d'assurer leur innocuité. La viande est riche et goûteuse, offrant une bonne valeur nutritionnelle grâce aux muscles épais de la créature.\n \n
+		%c[pda_white]NOTE : %c[ui_gray_2]La qualité et la salubrité d'un repas dépendent de sa préparation.\n
+		%c[d_orange] • %c[pda_white] Les repas produits dans la Zone%c[ui_gray_2], bien que moins contaminés, restent néanmoins malsains.\n
+		%c[pda_yellow] • %c[pda_white] Les repas en conserve %c[ui_gray_2]nécessitent l'ajout d'eau propre et sont significativement moins contaminés.\n
+		%c[d_green] • %c[pda_white] Les repas purifiés %c[ui_gray_2]nécessitaient l'ajout de vodka et sont non seulement exempts de radiation, mais procurent également des effets revitalisants.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Repas cuit\n
+		</text>
+	</string>
+
+	<string id="st_meat_psysucker">
+		<text>Goulash de Psysucker</text>
+	</string>
+	<string id="st_meat_psysucker_descr">
+		<text>Ragoût fortement bouilli à base de viande de Psysucker, chargé d'herbes pour contrer ses origines troublantes. Bien qu'il soit considéré comme sûr à consommer, certains stalkers rapportent des rêves vifs et intrusifs après en avoir mangé, mais cela reste une spéculation.\n \n
+		%c[pda_white]NOTE : %c[ui_gray_2]La qualité et la salubrité d'un repas dépendent de sa préparation.\n
+		%c[d_orange] • %c[pda_white] Les repas produits dans la Zone%c[ui_gray_2], bien que moins contaminés, restent néanmoins malsains.\n
+		%c[pda_yellow] • %c[pda_white] Les repas en conserve %c[ui_gray_2]nécessitent l'ajout d'eau propre et sont significativement moins contaminés.\n
+		%c[d_green] • %c[pda_white] Les repas purifiés %c[ui_gray_2]nécessitaient l'ajout de vodka et sont non seulement exempts de radiation, mais procurent également des effets revitalisants.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Repas cuisiné de qualité supérieure\n
+		</text>
+	</string>
+
+	<string id="st_meat_tushkano">
+		<text>Brochettes de Rat</text>
+	</string>
+	<string id="st_meat_tushkano_descr">
+		<text>Brochettes de viande de Tushkanos grillées, souvent fortement assaisonnées pour masquer le goût. Bon marché, courantes et juste assez nourrissantes pour permettre à un stalker affamé de continuer à avancer.\n \n
+		%c[pda_white]NOTE : %c[ui_gray_2]La qualité et la salubrité d'un repas dépendent de sa préparation.\n
+		%c[d_orange] • %c[pda_white] Les repas produits dans la Zone%c[ui_gray_2], bien que moins contaminés, restent néanmoins malsains.\n
+		%c[pda_yellow] • %c[pda_white] Les repas en conserve %c[ui_gray_2]nécessitent l'ajout d'eau propre et sont significativement moins contaminés.\n
+		%c[d_green] • %c[pda_white] Les repas purifiés %c[ui_gray_2]nécessitaient l'ajout de vodka et sont non seulement exempts de radiation, mais procurent également des effets revitalisants.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Repas cuit\n
+		</text>
+	</string>
+
+<!--
+	SCIENTIFIC SPECIMENS
+-->
+
+	<string id="mutant_boar_leg">
+		<text>Patte de Sanglier</text>
+	</string>
+	<string id="mutant_boar_leg_description">
+		<text>Membre préservé d'un mutant sanglier, dont les sabots contiennent de la kératine et d'autres composés biologiques pouvant être décomposés et raffinés en composants pour divers médicaments. Dans la Zone, ces matériaux sont particulièrement prisés pour la fabrication d'analgésiques, de coagulants et de stimulants improvisés.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_heart_bloodsucker">
+		<text>Coeur de Bloodsucker</text>
+	</string>
+	<string id="mutant_heart_bloodsucker_description">
+		<text>Le coeur du Bloodsucker sécrète une enzyme rare qui empêche la coagulation du sang, permettant à la créature de se nourrir plus efficacement de ses proies. Les scientifiques étudiant cette enzyme pensent qu'elle pourrait être adaptée en médicaments anticoagulants puissants ou utilisée pour stopper le processus de coagulation causé par des groupes sanguins incompatibles, résolvant ainsi les problèmes de dons de sang pour les patients ayant des groupes sanguins rares.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_krovosos_jaw">
+		<text>Mâchoire de Bloodsucker</text>
+	</string>
+	<string id="mutant_krovosos_jaw_description">
+		<text>À l'instar du coeur du Bloodsucker, ses tentacules sécrètent une enzyme rare qui empêche la coagulation du sang, permettant à la créature de se nourrir plus efficacement de ses proies. Les scientifiques étudiant cette enzyme pensent qu'elle pourrait être adaptée en médicaments anticoagulants puissants ou utilisée pour stopper le processus de coagulation causé par des groupes sanguins incompatibles, résolvant ainsi les problèmes de dons de sang pour les patients ayant des groupes sanguins rares. Certains stalkers utilisent également leurs dents pour fabriquer des colliers et des talismans.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_tusk_boar">
+		<text>Croc de Sanglier</text>
+	</string>
+	<string id="mutant_tusk_boar_description">
+		<text>Croc d'un Zone sanglier mesurant en moyenne 30 centimètres de longueur. Ces crocs n'intéressent guère les scientifiques en raison de leur composition et de leur résistance médiocres, mais ils sont couramment utilisés comme trophée parmi les stalkers ou comme objet de collection en dehors de la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_brain_burer">
+		<text>Cerveau de Burer</text>
+	</string>
+	<string id="mutant_brain_burer_description">
+		<text>Les Burers possèdent des capacités télépathiques encore incomprises par la communauté scientifique, leur masse cérébrale étant en moyenne 1,5 à 2,5 fois supérieure à celle d'un cerveau humain. Sa structure présente également des mutations significatives, suggérant l'influence de la Zone sur la cognition. Ces échantillons sont donc très recherchés par les scientifiques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_burer_hand">
+		<text>Main de Burer</text>
+	</string>
+	<string id="mutant_burer_hand_description">
+		<text>Une main desséchée et griffue prélevée sur un Burer, considérée comme essentielle à ses capacités télékinétiques. Les scientifiques étudient sa musculature unique et ses amas nerveux, tandis que certains stalkers la collectionnent à des fins occultes.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_cat_claw">
+		<text>Griffe de Chat</text>
+	</string>
+	<string id="mutant_cat_claw_description">
+		<text>Griffe acérée et recourbée provenant d'un mutant chat, dont la structure moléculaire reste inconnue. Ses bords dentelés montrent des adaptations pour la chasse dans le terrain impitoyable de la Zone. Les scientifiques et les militaires estiment qu'une étude approfondie pourrait contribuer à la création de nouveaux matériaux et blindages hautement résistants.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_cat_tail">
+		<text>Queue de Chat</text>
+	</string>
+	<string id="mutant_cat_tail_description">
+		<text>Les Chats de la Zone sont plus grands que leurs cousins domestiques et constituent des prédateurs très dangereux, capables de se déplacer rapidement et sans bruit. Au sein de la communauté des stalkers, la queue d'un chat symbolise la vigilance et la compétence.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_cat_thyroid">
+		<text>Glande thyroïde de Chat</text>
+	</string>
+	<string id="mutant_cat_thyroid_description">
+		<text>Glande rare issue d'un mutant chat, censée réguler son métabolisme dans un environnement hautement irradié. Les scientifiques soupçonnent qu'elle joue un rôle dans les réflexes accrus et l'agressivité du chat. Ces traits leur ont permis de supplanter rapidement leurs congénères sains et d'occuper une position plus élevée dans la chaîne alimentaire.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_chimera_claw">
+		<text>Griffe de Chimère</text>
+	</string>
+	<string id="mutant_chimera_claw_description">
+		<text>Griffe d'une Chimère. Sa composition moléculaire exacte reste inconnue, mais elle est aussi résistante et tranchante qu'un diamant. Prisée tant pour les études scientifiques que pour les collections de trophées, sa structure osseuse est inhabituellement dense, adaptée pour transpercer les armures et le flesh.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_heart_chimera">
+		<text>Coeur de Chimère</text>
+	</string>
+	<string id="mutant_heart_chimera_description">
+		<text>Le coeur de la Chimère a muté en un organe à double chambre, fonctionnant essentiellement comme deux coeurs fusionnés pour pomper le sang à un rythme incroyable. Cette adaptation permet au mutant de soutenir ses explosions de vitesse et de puissance extrêmes, assurant un flux constant d'oxygène vers ses muscles massifs lors d'attaques incessantes. Ces coeurs sont actuellement recherchés pour aider à l'étude des taux de mortalité des jumeaux siamois.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+	
+	<string id="mutant_chimera_cogot">
+		<text>Corne de Chimère</text>
+	</string>
+	<string id="mutant_chimera_cogot_description">
+		<text>Corne d'une Chimère. Sa composition moléculaire exacte reste inconnue, mais sa pointe est aussi résistante et tranchante qu'un diamant. Certains stalkers lui attribuent des propriétés mystiques, tandis que les scientifiques y voient le résultat d'une adaptation extrême à l'environnement. Ces cornes sont très demandées et valent cher, car elles sont recherchées par les collectionneurs en dehors de la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_part_controller_brain_tissue">
+		<text>Tissu cérébral de Controller</text>
+	</string>
+	<string id="mutant_part_controller_brain_tissue_description">
+		<text>Échantillons de matière cérébrale fortement mutée issue d'un Controller. Les chercheurs l'étudient pour comprendre l'origine des capacités de contrôle mental de la créature, tandis que des études scientifiques ont révélé que chaque mutant possédant des capacités liées aux ondes psychiques présente un cerveau de structure similaire. Les scientifiques paieront généreusement pour ces tissus.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_controller_hand">
+		<text>Main de Controller</text>
+	</string>
+	<string id="mutant_controller_hand_description">
+		<text>Main squelettique et grotesque issue d'un Controller, dont les extrémités des doigts sont étrangement allongées et sensibles. Certains pensent que ces mains jouent un rôle dans la canalisation des ondes psychiques, bien que les données restent non concluantes. Les chercheurs seront ravis de l'examiner dans l'espoir de découvrir la source de la mutation responsable.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_dog_heart">
+		<text>Coeur de Chien</text>
+	</string>
+	<string id="mutant_dog_heart_description">
+		<text>Lors d'une poursuite, le coeur d'un chien muté peut atteindre jusqu'à 250 battements par minute, ce qui est impensable pour des individus non athérogènes et en bonne santé de la même catégorie de poids. Ce rythme cardiaque rapide permet à la créature de réagir plus vite, de soutenir de longues poursuites et de récupérer rapidement après un effort, faisant de son coeur un sujet d'étude intéressant.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_dog_liver">
+		<text>Foie de Chien</text>
+	</string>
+	<string id="mutant_dog_liver_description">
+		<text>Le foie d'un chien, ayant subi des modifications sévères en raison d'un régime toxique et d'un manque d'eau potable propre dans la Zone. Les chercheurs l'utilisent pour étudier comment les mutants chiens survivent dans l'écosystème toxique de la Zone et pour son potentiel dans la recherche médicale sur les maladies hépatiques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_dog_tail">
+		<text>Queue de Chien</text>
+	</string>
+	<string id="mutant_dog_tail_description">
+		<text>La résistance de la peau des mutants chiens à l'électricité et aux agents chimiques suscite depuis longtemps un intérêt scientifique. En raison de l'absence de tissu adipeux, la queue est particulièrement adaptée aux tests en laboratoire. Lorsqu'elle n'est pas étudiée, elle est parfois conservée comme trophée, preuve de la mise à mort d'un stalker.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_flesh_eye">
+		<text>Flesh Oeil</text>
+	</string>
+	<string id="mutant_flesh_eye_description">
+		<text>Un grand oeil d'apparence troublante et humaine, prélevé sur le Flesh mutant, souvent conservé pour étude en raison de ses remarquables capacités régénératives. La découverte de ce mécanisme révolutionnerait très certainement la médecine moderne.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_fracture_hand">
+		<text>Main de Fracture</text>
+	</string>
+	<string id="mutant_fracture_hand_description">
+		<text>Main tordue et noueuse issue d'un Fracture mutant, aux doigts allongés adaptés pour saisir des proies. Sa structure osseuse et musculaire mutée intéresse les biologistes étudiant les changements évolutifs rapides dans la Zone. Il est presque certain que ces créatures étaient autrefois des humains et sont le résultat direct du second incident de Tchernobyl.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_lurker_eye">
+		<text>Lurker Oeil</text>
+	</string>
+	<string id="mutant_lurker_eye_description">
+		<text>Petit oeil prédateur très sensible, prélevé sur un Lurker, conférant à la créature un avantage lors des embuscades. Utile pour étudier la vision des mutants, la lueur entourant la pupille suscite l'intérêt des chasseurs locaux et des scientifiques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+	
+	<string id="mutant_lurker_tail">
+		<text>Queue de Lurker</text>
+	</string>
+	<string id="mutant_lurker_tail_description">
+		<text>Une queue en forme de fouet, dotée de muscles flexibles et de crêtes osseuses acérées, utilisée pour l'équilibre et le combat. Les études scientifiques suggèrent que les caractéristiques de la queue d'un Lurker prouvent qu'ils appartiennent à une espèce de mutants Tushkanos.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="st_mutant_part_crow_beak">
+		<text>Bec de Corbeau muté</text>
+	</string>
+	<string id="st_mutant_part_crow_beak_description">
+		<text>Bien que de nombreux stalkers considèrent les corbeaux comme de simples nuisibles, les individus plus perspicaces réduisent leurs becs en poudre pour créer des mélanges spéciaux. Les scientifiques les étudient pour comprendre comment même les créatures aériennes sont affectées par la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_fang_psevdodog">
+		<text>Croc de Pseudochien</text>
+	</string>
+	<string id="mutant_fang_psevdodog_description">
+		<text>Les crocs des Pseudochiens ne sont pas particulièrement résistants et sont régulièrement remplacés au cours de leur vie. Les scientifiques ne s'y intéressent guère, bien que certains stalkers en fassent des colliers ou des bijoux.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_psevdodog_tail">
+		<text>Queue de Pseudochien</text>
+	</string>
+	<string id="mutant_psevdodog_tail_description">
+		<text>Queue d'un Pseudochien, dont le pelage est incroyablement doux malgré la nature brutale de la créature. Cette adaptation semble offrir une isolation contre les conditions climatiques rigoureuses et l'exposition aux radiations de la Zone. Les scientifiques étudient ses propriétés uniques, espérant découvrir comment ce pelage résiste à la contamination et s'il pourrait inspirer de nouveaux matériaux de protection.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_pseudogigant_eye">
+		<text>Pseudogiant Oeil</text>
+	</string>
+	<string id="mutant_pseudogigant_eye_description">
+		<text>OEil massif et injecté de sang, prélevé sur l'imposant Pseudogiant. Il présente l'apparence d'un oeil humain avec un iris multicolore et des glandes lacrymales exceptionnellement développées. Sa résilience et son adaptation aux darkness souterrains fascinent les chercheurs.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_pseudogigant_hand">
+		<text>Main de Pseudogiant</text>
+	</string>
+	<string id="mutant_pseudogigant_hand_description">
+		<text>Une main énorme et difforme provenant d'un Pseudogiant, dont les jointures sont recouvertes de callosités épaisses. Sa force de préhension et sa densité osseuse extrêmes sont étudiées pour comprendre les mutations musculaires avancées.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_psysucker_hand">
+		<text>Main de Psysucker</text>
+	</string>
+	<string id="mutant_psysucker_hand_description">
+		<text>Un appendice tordu et griffu provenant d'un Psysucker, émettant encore faiblement de l'énergie psi. Les scientifiques espèrent que son étude pourrait révéler comment les émissions psi interagissent avec les tissus biologiques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_snork_leg">
+		<text>Tendons de Snork</text>
+	</string>
+	<string id="mutant_snork_leg_description">
+		<text> Ces tendons, prélevés sur des Snorks mutés, présentent une élasticité et une résilience anormales, probablement dues à une exposition prolongée à l'énergie anomale. L'étude de leurs propriétés uniques pourrait fournir des informations précieuses sur les mutations génétiques et le génie biomédical, ouvrant potentiellement la voie à des avancées médicales dans des domaines tels que la régénération des tendons et le développement de muscles synthétiques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_snork_mask">
+		<text>Masque de Snork</text>
+	</string>
+	<string id="mutant_snork_mask_description">
+		<text>Masque à gaz GP-5 endommagé fusionné avec le crâne d'un Snork, rappel macabre des origines humaines de la créature. Ces masques étaient couramment utilisés par les soldats ainsi que par les équipes de recherche et d'intervention opérant dans la Zone lors du second désastre de Tchernobyl. Les scientifiques les collectent pour étudier comment la Zone altère à la fois l'équipement et la biologie.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_tushkano_head">
+		<text>Tête de Tushkano</text>
+	</string>
+	<string id="mutant_tushkano_head_description">
+		<text>Tête sectionnée d'un Tushkano, rongeur dont les voies neurales spécialisées fonctionnent comme un esprit collectif rudimentaire. Cette conscience collective permet aux meutes de réagir presque instantanément aux menaces et aux opportunités, les rendant étonnamment coordonnées malgré leur petite taille et leur faible intelligence. Les scientifiques sont impatients de mieux comprendre ce phénomène.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+	<string id="mutant_zombi_hand">
+		<text>Main de Zombie</text>
+	</string>
+	<string id="mutant_zombi_hand_description">
+		<text>Une main partiellement humaine en décomposition, prélevée sur un stalker zombifié, encore reconnaissable de manière troublante. Les scientifiques l'étudient pour obtenir des indices sur le processus de zombification de la Zone et ses effets neurologiques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+
+<!-- UNUSED
+
+	<string id="mutant_part_psy_dog_brain">
+		<text>Cerveau de Psi-Chien</text>
+	</string>
+	<string id="mutant_part_psy_dog_brain_description">
+		<text>Les Chiens psi possèdent de puissantes capacités psychiques leur permettant d'induire des « hallucinations » chez leurs proies. Ces illusions sont extrêmement convaincantes et peuvent infliger des traumatismes très réels par des moyens encore inconnus. Intéressamment, les scientifiques affirment avoir identifié la région du cerveau responsable des capacités psioniques, mais il est évident que cette région est « juvénile » tant dans son développement que dans son potentiel évolutif. Les scientifiques paieront généreusement pour des échantillons de tels tissus.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+	
+	<string id="st_meat_tark">
+		<text>Viande de cheval</text>
+	</string>
+	<string id="st_meat_descr_tark">
+		<text>Un morceau de viande, riche en nutriments et en radiation.\n\n
+		%c[ui_red]AVERTISSEMENT : %c[ui_gray_2]Viande crue\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Viande de Mutant de qualité inférieure\n
+		%c[ui_red] • %c[ui_gray_2] Non cuisinable\n
+		</text>
+	</string>
+	
+	<string id="mutant_tark_tail">
+		<text>Queue de cheval</text>
+	</string>
+	<string id="mutant_tark_tail_description">
+		<text>Une longue queue effilochée provenant d'un cheval.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
+		</text>
+	</string>
+-->
+	
+</string_table>

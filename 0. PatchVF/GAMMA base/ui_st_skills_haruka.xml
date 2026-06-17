@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_player_skills_strength">
+		<text>Force</text>
+	</string>
+	<string id="st_player_skills_endurance">
+		<text>Endurance</text>
+	</string>
+	<string id="st_player_skills_survival">
+		<text>Survie</text>
+	</string>
+	<string id="st_player_skills_scavenging">
+		<text>Fouille</text>
+	</string>
+    <string id="st_haruka_skills_main">
+		<text>Compétences du personnage</text>
+	</string>
+	<string id="st_new_level_endurance">
+		<text>$clr_green• $clr_whiConsommation d'endurance améliorée\n
+		$clr_cyan• $clr_whiVitesse de déplacement améliorée</text>
+	</string>
+	<string id="st_new_level_strength">
+		<text>$clr_yellow• $clr_whiCapacité de portage améliorée\n
+		$clr_red• $clr_whiDégâts de mêlée améliorés\n</text>
+	</string>
+	<string id="st_new_level_scavenging">
+		<text>$clr_purple• $clr_whiCompétence de fouille améliorée</text>
+	</string>
+	<string id="st_new_level_survival">
+		<text>$clr_cyan• $clr_whiRésistance aux toxines améliorée\n
+		$clr_purple• $clr_whiCompétence de chasse améliorée</text>
+	</string>
+	<string id="st_new_level_header">
+		<text>$name a atteint le niveau $level.</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="ui_mcm_trader_destockifier_title">
+		<text>Déstockeur de marchands</text>
+	</string>
+	<string id="ui_mcm_menu_trader_destockifier">
+		<text>Déstockage des marchands</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_enable">
+		<text>Activer</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_debug_mode">
+		<text>Mode débogage</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_debug_mode_desc">
+		<text>Active l'affichage de messages répétés dans la console.</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_max_items_help">
+		<text>
+			Ci-dessous, vous pouvez définir le nombre maximal d'objets que chaque marchand peut avoir après réapprovisionnement\n
+			Régler le curseur sur 0 supprimera complètement les objets d'un groupe\n
+			Régler le curseur sur -1 ignorera les objets d'un groupe et n'en supprimera aucun\n
+		</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_max_guns">
+		<text>Nombre maximal d'armes à deux mains en stock</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_max_handguns">
+		<text>Nombre maximal de pistolets en stock</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_max_knives">
+		<text>Nombre maximal de couteaux en stock</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_max_outfits">
+		<text>Nombre maximal de tenues en stock</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_max_helmets">
+		<text>Nombre maximal de casques en stock</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_max_weapon_attachments">
+		<text>Nombre maximal d'accessoires d'armes en stock</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_max_backpacks">
+		<text>Nombre maximal de sacs à dos en stock</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_max_explosives">
+		<text>Nombre maximal d'explosifs (grenades, roquettes) en stock</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_max_ammo_percent">
+		<text>Pourcentage maximal de munitions à vendre par rapport au stock initial</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_max_ammo_percent_desc">
+		<text>-10 n'affectera pas les munitions.</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_sell_only_guns_ammo">
+		<text>Vente de munitions uniquement pour armes en stock</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_max_food">
+		<text>Nombre maximal de consommables (nourriture, boissons, cigarettes) en stock</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_max_food_desc">
+		<text>Les marchands non-barmans disposeront de 50 % de moins que la quantité définie.</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_max_heal">
+		<text>Nombre maximal d'objets médicaux en stock</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_max_heal_desc">
+		<text>Les marchands non-médecins disposeront de 50 % de moins que la quantité définie.</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_max_repair">
+		<text>Nombre maximal d'objets de réparation en stock</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_max_repair_desc">
+		<text>Les marchands non-mécaniciens disposeront de 50 % de moins que la quantité définie.</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_randomize">
+		<text>Aléatoire</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_randomize_desc">
+		<text>La quantité d'objets variera par rapport à la quantité définie dans le MCM.</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_randomize_deviation">
+		<text>Écart aléatoire (%)</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_randomize_deviation_desc">
+		<text>
+			100 % - les quantités d'objets varient entre 0 et 2 fois la quantité définie.\n
+			50 % - les quantités d'objets varient entre 0,5 fois et 1,5 fois la quantité définie.
+		</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_compatibility_help">
+		<text>
+			Ci-dessous, vous pouvez définir les quantités pour les objets utilisés par certains mods\n
+		</text>
+	</string>
+	<string id="ui_mcm_trader_destockifier_max_mags">
+		<text>Nombre maximal de chargeurs en stock (Mags Redux)</text>
+	</string>
+	
+</string_table>

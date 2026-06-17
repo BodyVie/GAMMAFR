@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mm_title_modded_exes">
+		<text>Modded Exes</text>
+	</string>
+	<string id="ui_mm_menu_modded_exes">
+		<text>Modded Exes</text>
+	</string>
+
+	<string id="ui_mm_video_basic_monitor">
+		<text>Écran</text>
+	</string>
+
+	<string id="ui_mm_video_weather_persistent_weather">
+		<text>Météo persistante</text>
+	</string>
+	<string id="ui_mm_video_weather_persistent_weather_desc">
+		<text>Enregistre les conditions météorologiques actuelles afin qu'elles soient exactement reproduites au chargement.</text>
+	</string>
+
+	<string id="ui_mm_lst_ON">
+		<text>Activé</text>
+	</string>
+	<string id="ui_mm_lst_OFF">
+		<text>Désactivé</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_color_a">
+		<text>Opacité</text>
+	</string>
+	<string id="ui_mm_modded_exes_color_r">
+		<text>Rouge</text>
+	</string>
+	<string id="ui_mm_modded_exes_color_g">
+		<text>Vert</text>
+	</string>
+	<string id="ui_mm_modded_exes_color_b">
+		<text>Bleu</text>
+	</string>
+
+	<!-- Visual -->
+	<string id="ui_mm_menu_visual">
+		<text>Visuel</text>
+	</string>
+
+	<!-- Graphics -->
+	<string id="ui_mm_menu_graphics">
+		<text>Graphismes</text>
+	</string>
+	<string id="ui_mm_graphics_modded_exes">
+		<text>Graphismes</text>
+	</string>
+	<string id="ui_mm_ssfx_grass_shadows_x">
+		<text>Cascades des ombres de l'herbe</text>
+	</string>
+	<string id="ui_mm_ssfx_grass_shadows_y">
+		<text>Distance de fondu des ombres de l'herbe</text>
+	</string>
+	<string id="ui_mm_ssfx_grass_shadows_z">
+		<text>Distance de rendu des ombres de l'herbe</text>
+	</string>
+	<string id="ui_mm_ssfx_grass_shadows_w">
+		<text>Non utilisé</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_visual_graphics_g_wallmark_range_static">
+		<text>Portée des traces statiques (g_wallmark_range_static)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_graphics_g_wallmark_range_skeleton">
+		<text>Portée des traces squelettiques (g_wallmark_range_skeleton)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_graphics_r_wallmarks_ssa_k">
+		<text>Limite de surface écran des traces (r_wallmarks_ssa_k)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_graphics_r_wallmarks_ssa_k_desc">
+		<text>Une valeur PLUS ÉLEVÉE signifie une DISTANCE DE DESSIN RÉDUITE.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_graphics_r_wallmarks_static">
+		<text>Traces sur les objets statiques (r_wallmarks_static)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_graphics_r_wallmarks_dynamic">
+		<text>Traces sur les objets dynamiques (r_wallmarks_dynamic)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_graphics_r__blood_decals_on_objects">
+		<text>Traces de sang supplémentaires sur les objets vivants (r__blood_decals_on_objects)</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_visual_graphics_r__rain_exp">
+		<text>Accumulation de pluie (r__rain_exp)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_graphics_r__rain_exp_desc">
+		<text>Vitesse à laquelle la densité des gouttelettes augmente en fonction de la densité de la pluie. Une valeur PLUS ÉLEVÉE signifie une accumulation MOINDRE.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_graphics_r__rain_k">
+		<text>Modificateur de densité de pluie (r__rain_k)</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_visual_graphics_r__ssa_discard">
+		<text>Limite de surface écran des objets (r__ssa_discard)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_graphics_r__ssa_discard_desc">
+		<text>Une valeur PLUS ÉLEVÉE signifie une DISTANCE DE DESSIN RÉDUITE pour les objets.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_graphics_r__ssa_discard_exp">
+		<text>Exposant de la limite de surface écran des objets (r__ssa_discard_exp)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_graphics_r__ssa_discard_exp_desc">
+		<text>Ajuste finement la distance de coupure du rendu. Une valeur plus faible augmentera la densité des objets proches, tandis qu'une valeur plus élevée la diminuera. N'affecte PAS la distance de rendu globale.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_graphics_r__ssa_discard_fade_k">
+		<text>Coefficient d'atténuation de la limite de surface écran des objets (r__ssa_discard_fade_k)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_graphics_r__ssa_discard_fade_k_desc">
+		<text>Ajuste finement la distance de coupure du rendu. Une valeur plus élevée augmentera l'effet de « fondu » des objets, faisant cesser le rendu des objets plus grands plus tôt. AFFECTE la distance de rendu globale.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_graphics_r2_shadow_lod_min">
+		<text>Seuil de rendu des lumières (r2_shadow_lod_min)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_graphics_r2_shadow_lod_min_desc">
+		<text>Une valeur plus élevée fera cesser le rendu des lumières plus tôt.</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_visual_graphics_r__actor_shadow_in_demo_record">
+		<text>Activer l'ombre de l'acteur dans l'enregistrement de démo (r__actor_shadow_in_demo_record)</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_visual_graphics_g_use_non_linear_inertia">
+		<text>Inertie non linéaire des animations en mouvement (g_use_non_linear_inertia)</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_visual_graphics_pfx_volumetric_mode">
+		<text>Lumières volumétriques .PEAK (pfx_volumetric_mode)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_graphics_pfx_volumetric_mode_desc">
+		<text>Nécessite le mod .peak shader, lien : https://www.moddb.com/mods/stalker-anomaly/addons/peak-volumetrics-1-1</text>
+	</string>
+
+	<!-- UI/HUD -->
+
+	<string id="ui_mm_menu_ui_hud">
+		<text>Interface/HUD</text>
+	</string>
+
+	<string id="ui_mm_ui_hud_modded_exes">
+		<text>Interface/HUD</text>
+	</string>
+	
+	<string id="ui_mm_modded_exes_visual_ui_hud_g_draw_pickup_item_names">
+		<text>Afficher les noms des objets ramassés (g_draw_pickup_item_names)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_ui_hud_use_english_text_for_missing_translations">
+		<text>Utiliser le texte anglais pour les traductions manquantes (use_english_text_for_missing_translations)</text>
+	</string>
+
+	<!-- Crosshair -->
+	<string id="ui_mm_crosshair_modded_exes">
+		<text>Viseur</text>
+	</string>
+	<string id="ui_mm_menu_crosshair">
+		<text>Viseur</text>
+	</string>
+
+	<string id="ui_mm_camera_modded_exes">
+		<text>Caméra</text>
+	</string>
+
+	<string id="ui_mm_weapon_modded_exes">
+		<text>Arme</text>
+	</string>
+
+	<string id="ui_mm_device_modded_exes">
+		<text>Périphérique</text>
+	</string>
+
+	<string id="ui_mm_near_modded_exes">
+		<text>Proche</text>
+	</string>
+
+	<string id="ui_mm_far_modded_exes">
+		<text>Loin</text>
+	</string>
+	
+	<string id="ui_mm_modded_exes_visual_crosshair_g_crosshair_show_always">
+		<text>Toujours afficher le viseur (g_crosshair_show_always)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_crosshair_g_crosshair_independent">
+		<text>Afficher les viseurs séparément (g_crosshair_*_independent)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_crosshair_g_crosshair_show">
+		<text>Afficher le viseur (g_crosshair_*)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_crosshair_g_crosshair_recon">
+		<text>Afficher la reconnaissance (g_crosshair_*_recon)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_crosshair_g_crosshair_recon_max_opacity">
+		<text>Opacité maximale du mode reconnaissance (g_crosshair_*_recon_max_opacity)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_crosshair_g_crosshair_line">
+		<text>Afficher la ligne de visée (g_crosshair_*_line)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_crosshair_g_crosshair_use_shader">
+		<text>Utiliser le shader pour le viseur (g_crosshair_*_use_shader)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_crosshair_g_crosshair_shader">
+		<text>Shader du viseur (g_crosshair_*_shader)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_crosshair_g_crosshair_texture">
+		<text>Texture du viseur (g_crosshair_*_texture)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_crosshair_g_crosshair_size">
+		<text>Taille du viseur (g_crosshair_*_size)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_crosshair_g_crosshair_depth">
+		<text>Limite de distance pour le dimensionnement (g_crosshair_*_depth)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_crosshair_g_crosshair_distance_lerp">
+		<text>Animer la position du viseur (g_crosshair_*_distance_lerp)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_crosshair_g_crosshair_distance_lerp_rate">
+		<text>Vitesse d'animation de la position du viseur (g_crosshair_*_distance_lerp_rate)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_crosshair_g_crosshair_occluded_opacity">
+		<text>Opacité du viseur lorsqu'obstrué par un objet (g_crosshair_*_occluded_opacity)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_crosshair_g_crosshair_occlusion_fade_rate">
+		<text>Vitesse d'animation de l'opacité du viseur (g_crosshair_*_occlusion_fade_rate)</text>
+	</string>
+
+	<!-- Shader Scopes -->
+	<string id="ui_mm_menu_3d_scopes">
+		<text>Viseurs en shader</text>
+	</string>
+	<string id="ui_mm_3d_scopes_modded_exes">
+		<text>Lunettes à shader</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_3d_scopes_r__3Dfakescope">
+		<text>Activer les lunettes à shader 3D (r__3Dfakescope)</text>
+	</string>
+	<string id="ui_mm_2d_scopes_modded_exes">
+		<text>Lunettes à shader 2D</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_3d_scopes_sds_enable">
+		<text>Activer les lunettes à shader 2D (sds_enable)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_3d_scopes_sds_speed_enable">
+		<text>Changement de sensibilité à la visée (sds_speed_enable)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_3d_scopes_sds_zoom_enable">
+		<text>Correction du facteur de zoom (sds_zoom_enable)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_3d_scopes_new_zoom_enable">
+		<text>Changement fluide du zoom (new_zoom_enable)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_3d_scopes_new_zoom_delta_algorithm">
+		<text>Nouvel algorithme de delta de zoom (new_zoom_delta_algorithm)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_3d_scopes_new_zoom_delta_algorithm_desc">
+		<text>Modifie les niveaux de zoom d'une lunette pour que la variation visuelle du zoom soit identique entre chaque niveau.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_3d_scopes_zoom_step_count">
+		<text>Nombre d'étapes de zoom fluide (zoom_step_count)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_3d_scopes_scope_blur_inner">
+		<text>Flou à l'intérieur du viseur (scope_blur_inner)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_3d_scopes_scope_blur_outer">
+		<text>Flou à l'extérieur du viseur (scope_blur_outer)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_3d_scopes_scope_brightness">
+		<text>Luminosité extérieure (scope_brightness)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_3d_scopes_scope_ca">
+		<text>Aberration chromatique (viseur)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_3d_scopes_scope_fog_radius">
+		<text>Rayon du brouillard (scope_fog_radius)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_3d_scopes_scope_fog_interp">
+		<text>Vitesse de déplacement du brouillard (scope_fog_interp)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_3d_scopes_scope_fog_sharp">
+		<text>Netteté du brouillard (scope_fog_sharp)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_3d_scopes_scope_fog_swayAim">
+		<text>Balancement du brouillard avec la souris (scope_fog_swayAim)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_3d_scopes_scope_fog_swayMove">
+		<text>Balancement du brouillard avec le mouvement (scope_fog_swayMove)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_3d_scopes_scope_fog_travel">
+		<text>Distance maximale de déplacement du brouillard (scope_fog_travel)</text>
+	</string>
+
+	<!-- Particles -->
+	<string id="ui_mm_particles_modded_exes">
+		<text>Particules</text>
+	</string>
+	<string id="ui_mm_menu_particles">
+		<text>Particules</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_particles_particle_update_mod">
+		<text>Fréquence de mise à jour des particules (1 - 30 Hz, 0,5 - 60 Hz, etc.) (particle_update_mod)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_particles_render_short_tracers">
+		<text>Toujours afficher les traînées courtes (render_short_tracers)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_particles_allow_silencer_hide_tracer">
+		<text>Autoriser les silencieux à masquer les traînées (allow_silencer_hide_tracer)</text>
+	</string>
+	
+	<!-- HDR10 -->
+	<string id="ui_mm_menu_hdr10">
+		<text>HDR 10</text>
+	</string>
+	<string id="ui_mm_hdr10_modded_exes">
+		<text>HDR 10</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_enabled">
+		<text>Activer le HDR10 (Redémarrage requis) (r4_hdr10_on)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_enabled_desc">
+		<text>Le HDR10 est incompatible avec le MSAA. L'activation du HDR désactivera le MSAA.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_whitepoint_nits">
+		<text>Point blanc (nits) (r4_hdr10_whitepoint_nits)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_whitepoint_nits_desc">
+		<text>Luminance maximale de votre écran. DisplayHDR 400 = 400 nits, HDR Peak 1000 = 1000 nits.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_ui_nits">
+		<text>Luminosité de l'interface (nits) (r4_hdr10_ui_nits)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_ui_nits_desc">
+		<text>Luminance maximale de l'interface utilisateur. Utilisez une valeur égale ou inférieure au pic de luminance de l'écran, selon votre confort.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_pda_intensity">
+		<text>Intensité du PDA (r4_hdr10_pda_intensity)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_pda_intensity_desc">
+		<text>Intensité (1 = 100 %, 0 = 0 %) de l'affichage du PDA. Ajustez si l'affichage du PDA est trop lumineux.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_colorspace">
+		<text>Espace colorimétrique (r4_hdr10_colorspace)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_colorspace_desc">
+		<text>L'espace colorimétrique cible pour le rendu. Si votre moniteur couvre bien un espace colorimétrique plus large (DCI-P3 ou Rec.2020), utilisez l'un de ceux-ci plutôt que le sRGB.</text>
+	</string>
+	<string id="ui_mm_lst_hdr10_colorspace_rec709">
+		<text>Rec.709 (sRGB)</text>
+	</string>
+	<string id="ui_mm_lst_hdr10_colorspace_p3d65">
+		<text>P3-D65 (DCI-P3)</text>
+	</string>
+	<string id="ui_mm_lst_hdr10_colorspace_rec2020">
+		<text>Rec.2020</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_tonemapper">
+		<text>Tonemapper (r4_hdr10_tonemapper)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_tonemapper_desc">
+		<text>Opérateur de tone mapping à utiliser. Le tone mapper détermine l'apparence et le contraste de l'image.</text>
+	</string>
+	<string id="ui_mm_lst_hdr10_tonemapper_aces_narkowicz">
+		<text>ACES (Narkowicz)</text>
+	</string>
+	<string id="ui_mm_lst_hdr10_tonemapper_aces_hill">
+		<text>ACES (Hill)</text>
+	</string>
+	<string id="ui_mm_lst_hdr10_tonemapper_agx_normal">
+		<text>AgX (Normal)</text>
+	</string>
+	<string id="ui_mm_lst_hdr10_tonemapper_agx_punchy">
+		<text>AgX (Punchy)</text>
+	</string>
+	<string id="ui_mm_lst_hdr10_tonemapper_uchimura">
+		<text>Uchimura</text>
+	</string>
+	<string id="ui_mm_lst_hdr10_tonemapper_stevem">
+		<text>SteveM</text>
+	</string>
+	<string id="ui_mm_lst_hdr10_tonemapper_uncharted2">
+		<text>Uncharted 2</text>
+	</string>
+	<string id="ui_mm_lst_hdr10_tonemapper_reinhard1">
+		<text>Reinhard (Lw = 2,0)</text>
+	</string>
+	<string id="ui_mm_lst_hdr10_tonemapper_reinhard2">
+		<text>Reinhard (Lw = 3,0)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_tonemap_mode">
+		<text>Mode de tonemapping (r4_hdr10_tonemap_mode)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_tonemap_mode_desc">
+		<text>Détermine si le tonemapper opère sur la couleur ou la luminance. Le mode luminance évite les décalages de teinte mais peut paraître plat comparé au mode couleur.</text>
+	</string>
+	<string id="ui_mm_lst_hdr10_tonemap_mode_luminance">
+		<text>Luminance</text>
+	</string>
+	<string id="ui_mm_lst_hdr10_tonemap_mode_color">
+		<text>Couleur</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_brightness">
+		<text>Luminosité (r4_hdr10_brightness)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_brightness_desc">
+		<text>Ajuste le lift de l'image. Affecte principalement les ombres. Ajustez si l'image est trop claire ou trop sombre.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_gamma">
+		<text>Gamma (r4_hdr10_gamma)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_gamma_desc">
+		<text>Ajuste le gamma de l'image. Affecte principalement les tons moyens. Ajustez si l'image est trop claire ou trop sombre.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_exposure">
+		<text>Exposition (r4_hdr10_exposure)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_exposure_desc">
+		<text>Ajuste le gain de l'image. Affecte principalement les hautes lumières. Ajustez si l'image est trop claire ou trop sombre.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_contrast">
+		<text>Contraste (r4_hdr10_contrast)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_contrast_desc">
+		<text>Ajuste le contraste de l'image.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_contrast_middle_gray">
+		<text>Contraste du gris moyen (r4_hdr10_contrast_middle_gray)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_contrast_middle_gray_desc">
+		<text>Le point fixe pour les ajustements de contraste. Des valeurs plus basses font que le réglage de contraste affecte moins les zones sombres et plus les zones claires, et inversement pour les valeurs plus élevées.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_saturation">
+		<text>Saturation (r4_hdr10_saturation)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_saturation_desc">
+		<text>Ajuste la saturation de l'image.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_ui_saturation">
+		<text>Saturation de l'interface (r4_hdr10_ui_saturation)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_ui_saturation_desc">
+		<text>Ajuste la saturation de l'interface utilisateur pondérée par la transparence. Il s'agit d'un facteur correctif proportionnel à la transparence de l'élément.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_bloom_on">
+		<text>Flou lumineux (r4_hdr10_bloom_on)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_bloom_on_desc">
+		<text>Active ou désactive le bloom HDR. Désactivez l'ancien bloom avec la commande 'r2_ls_bloom_threshold 1'. Peut avoir un impact sur les performances.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_bloom_blur_passes">
+		<text>Passes de flou du flou lumineux (r4_hdr10_bloom_blur_passes)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_bloom_blur_passes_desc">
+		<text>Détermine la taille du bloom. Des valeurs plus élevées augmentent l'étendue de l'effet de bloom. Peut affecter les performances.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_bloom_blur_scale">
+		<text>Échelle de flou du flou lumineux (r4_hdr10_bloom_blur_scale)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_bloom_blur_scale_desc">
+		<text>Ajustement fin du rayon de bloom.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_bloom_intensity">
+		<text>Intensité du flou lumineux (r4_hdr10_bloom_intensity)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_bloom_intensity_desc">
+		<text>Ajuste l'intensité du bloom. Des valeurs plus élevées donnent un effet plus voilé.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_on">
+		<text>Halos lumineux (r4_hdr10_flare_on)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_on_desc">
+		<text>Active ou désactive le flare de lentille HDR. Peut affecter les performances.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_threshold">
+		<text>Seuil des halos lumineux (r4_hdr10_flare_threshold)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_threshold_desc">
+		<text>Définit la luminosité minimale qu'un élément doit avoir pour générer un lens flare.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_power">
+		<text>Puissance des halos lumineux (r4_hdr10_flare_power)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_power_desc">
+		<text>Ajuste l'intensité globale de l'effet de flare de lentille.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_ghosts">
+		<text>Halos lumineux Ghost (r4_hdr10_flare_ghosts)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_ghosts_desc">
+		<text>Ajuste le nombre de lens ghost générés par l'effet de lens flare. Peut avoir un impact sur les performances.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_ghost_dispersal">
+		<text>Dispersion des halos Ghost (r4_hdr10_flare_ghost_dispersal)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_ghost_dispersal_desc">
+		<text>Ajuste l'échelle et l'espacement des lens ghost générés par l'effet de lens flare.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_center_falloff">
+		<text>Atténuation centrale des halos lumineux (r4_hdr10_flare_center_falloff)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_center_falloff_desc">
+		<text>Ajuste le rayon de décroissance (à partir du centre de l'écran) de la contribution de l'image aux reflets de lentille. Des valeurs plus faibles entraînent une plus grande partie de l'image à générer des reflets intenses.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_halo_scale">
+		<text>Échelle des halos lumineux (r4_hdr10_flare_halo_scale)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_halo_scale_desc">
+		<text>Ajuste l'échelle des réflexions de halo sur l'objectif. Des valeurs plus élevées peuvent placer le halo en dehors des limites de l'écran.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_halo_ca">
+		<text>Aberration chromatique des halos lumineux (r4_hdr10_flare_halo_ca)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_halo_ca_desc">
+		<text>Ajuste la quantité d'aberration chromatique sur les halos de lentille.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_ghost_ca">
+		<text>Aberration chromatique des halos Ghost (r4_hdr10_flare_ghost_ca)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_ghost_ca_desc">
+		<text>Ajuste la quantité d'aberration chromatique sur les lentilles du ghost.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_blur_passes">
+		<text>Passes de flou des halos lumineux (r4_hdr10_flare_blur_passes)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_blur_passes_desc">
+		<text>Ajuste le niveau de flou appliqué aux lens flares. Peut avoir un impact sur les performances.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_blur_scale">
+		<text>Échelle de flou des halos lumineux (r4_hdr10_flare_blur_scale)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_blur_scale_desc">
+		<text>Ajustement fin du rayon de flou des flares de lentille.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_ghost_intensity">
+		<text>Intensité des halos Ghost (r4_hdr10_flare_ghost_intensity)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_ghost_intensity_desc">
+		<text>Ajuste l'intensité des lentilles du ghost.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_halo_intensity">
+		<text>Intensité des halos lumineux (r4_hdr10_flare_halo_intensity)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_flare_halo_intensity_desc">
+		<text>Ajuste l'intensité des halos de lentille.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_sun_on">
+		<text>Soleil (r4_hdr10_sun_on)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_sun_on_desc">
+		<text>Active ou désactive le rendu HDR du soleil, qui exploite mieux le bloom et les lens flares.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_sun_intensity">
+		<text>Intensité du soleil (r4_hdr10_sun_intensity)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_sun_intensity_desc">
+		<text>Ajuste la luminosité du soleil en HDR.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_sun_inner_radius">
+		<text>Rayon interne du soleil (r4_hdr10_sun_inner_radius)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_sun_inner_radius_desc">
+		<text>Ajuste le rayon interne du rendu HDR du soleil. Le rayon interne correspond à la zone d'intensité maximale.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_sun_outer_radius">
+		<text>Rayon externe du soleil (r4_hdr10_sun_outer_radius)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_sun_outer_radius_desc">
+		<text>Ajuste le rayon externe du rendu HDR du soleil. Le rayon externe effectue une transition progressive entre l'intensité maximale et 0.</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_hdr10_live_editing">
+		<text>Configuration</text>
+	</string>
+
+	<!-- Sound -->
+	<string id="ui_mm_menu_sound">
+		<text>Son</text>
+	</string>
+	<string id="ui_mm_sound_modded_exes">
+		<text>Son</text>
+	</string>
+	
+	<string id="ui_mm_menu_doppler">
+		<text>Effet Doppler</text>
+	</string>
+	<string id="ui_mm_doppler_modded_exes">
+		<text>Effet Doppler</text>
+	</string>
+	
+	<string id="ui_mm_modded_exes_sound_doppler_snd_doppler_power">
+		<text>Intensité de l'effet Doppler (snd_doppler_power)</text>
+	</string>
+	<string id="ui_mm_modded_exes_sound_doppler_snd_doppler_smoothing">
+		<text>Lissage de l'effet Doppler (snd_doppler_smoothing)</text>
+	</string>
+
+	<string id="ui_mm_menu_sound_delay">
+		<text>Délai basé sur la distance</text>
+	</string>
+	<string id="ui_mm_sound_delay_modded_exes">
+		<text>Délai de distance</text>
+	</string>
+	<string id="ui_mm_modded_exes_sound_sound_delay_snd_distance_based_delay_power">
+		<text>Intensité du délai basé sur la distance (snd_distance_based_delay_power)</text>
+	</string>
+	<string id="ui_mm_modded_exes_sound_sound_delay_snd_distance_based_delay_min_distance">
+		<text>Distance minimale pour déclencher le délai (snd_distance_based_delay_min_distance)</text>
+	</string>
+	<string id="ui_mm_modded_exes_sound_sound_delay_snd_pitch_variation_power">
+		<text>Intensité de la variation de hauteur (snd_pitch_variation_power)</text>
+	</string>
+	<string id="ui_mm_modded_exes_sound_sound_delay_snd_efx_environment_change_time">
+		<text>Temps de transition entre les environnements sonores (snd_efx_environment_change_time)</text>
+	</string>
+
+	<!-- Control -->
+	<string id="ui_mm_menu_control">
+		<text>Contrôle</text>
+	</string>
+	
+	<!-- Keyboard -->
+	<string id="ui_mm_menu_keyboard">
+		<text>Clavier</text>
+	</string>
+	<string id="ui_mm_keyboard_modded_exes">
+		<text>Clavier</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_control_keyboard_use_separate_ubgl_keybind">
+		<text>Utiliser une touche dédiée pour l'UBGL (use_separate_ubgl_keybind)</text>
+	</string>
+	
+	<!-- Mouse -->
+	<string id="ui_mm_menu_mouse">
+		<text>Souris</text>
+	</string>
+	<string id="ui_mm_mouse_modded_exes">
+		<text>Souris</text>
+	</string>
+	
+	<string id="ui_mm_modded_exes_control_mouse_mouse_sens_vertical">
+		<text>Facteur de sensibilité verticale de la souris (mouse_sens_vertical)</text>
+	</string>
+	<string id="ui_mm_modded_exes_control_mouse_mouse_wheel_change_weapon">
+		<text>Changer d'arme avec la molette de la souris (mouse_wheel_change_weapon)</text>
+	</string>
+	<string id="ui_mm_modded_exes_control_mouse_mouse_wheel_invert_zoom">
+		<text>Inverser le zoom avec la molette (mouse_wheel_invert_zoom)</text>
+	</string>
+	<string id="ui_mm_modded_exes_control_mouse_mouse_wheel_invert_change_weapon">
+		<text>Inverser le changement d'arme avec la molette de la souris (mouse_wheel_invert_change_weapon)</text>
+	</string>
+
+	<!-- Camera -->
+	<string id="ui_mm_menu_camera">
+		<text>Caméra</text>
+	</string>
+	<string id="ui_mm_camera_modded_exes">
+		<text>Caméra</text>
+	</string>
+	
+	<string id="ui_mm_modded_exes_control_camera_freelook_cam_limit">
+		<text>Limite d'angle de vue libre (freelook_cam_limit)</text>
+	</string>
+	<string id="ui_mm_modded_exes_control_camera_freelook_while_reloading">
+		<text>Autoriser la vue libre pendant les animations de rechargement (freelook_while_reloading)</text>
+	</string>
+
+	<!-- PDA -->
+	<string id="ui_mm_menu_pda">
+		<text>PDA</text>
+	</string>
+	<string id="ui_mm_pda_modded_exes">
+		<text>PDA</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_control_pda_pda_map_zoom_in_to_mouse">
+		<text>Zoom de la carte relatif à la souris (pda_map_zoom_in_to_mouse)</text>
+	</string>
+	<string id="ui_mm_modded_exes_control_pda_pda_map_zoom_out_to_mouse">
+		<text>Zoom arrière de la carte relatif à la souris (pda_map_zoom_out_to_mouse)</text>
+	</string>
+	
+	<!-- Gameplay -->
+	<string id="ui_mm_menu_gameplay">
+		<text>Gameplay</text>
+	</string>
+	<string id="ui_mm_gameplay_modded_exes">
+		<text>Gameplay</text>
+	</string>
+
+	<!-- Gameplay General -->
+	<string id="ui_mm_menu_gameplay_general">
+		<text>Général</text>
+	</string>
+	<string id="ui_mm_gameplay_general_modded_exes">
+		<text>Général</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_gameplay_general_g_progressive_stamina_cost">
+		<text>Coût progressif de l'endurance (g_progressive_stamina_cost)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_gameplay_general_g_progressive_stamina_cost_desc">
+		<text>L'endurance diminue de manière linéaire en fonction du poids actuel, au lieu d'utiliser un seuil de coupure.</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_gameplay_gameplay_general_first_person_death">
+		<text>Caméra subjective en cas de mort (first_person_death)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_gameplay_general_first_person_death_position_smoothing">
+		<text>Lissage du changement de position de la caméra FPD (first_person_death_position_smoothing)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_gameplay_general_first_person_death_direction_smoothing">
+		<text>Lissage du changement de direction de la caméra FPD (first_person_death_direction_smoothing)</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_gameplay_gameplay_general_g_legs">
+		<text>Jambes en vue subjective (g_legs)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_gameplay_general_g_legs_in_demo_record">
+		<text>Afficher en mode demo_record activé (g_legs_in_demo_record)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_gameplay_general_g_legs_in_low_crouch">
+		<text>Afficher en position accroupie basse (g_legs_in_low_crouch)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_gameplay_general_g_legs_render_attachments_shadow">
+		<text>Afficher les ombres des objets attachés (g_legs_render_attachments_shadow)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_gameplay_general_g_legs_fwd_offset">
+		<text>Ajustement de la position avant (g_legs_fwd_offset)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_gameplay_general_g_legs_spine_offset_y">
+		<text>Ajustement vertical de la position de la colonne vertébrale (g_legs_spine_offset_y)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_gameplay_general_disable_actor_body_rotation_delay">
+		<text>Désactiver le délai de rotation du corps de l'acteur (disable_actor_body_rotation_delay)</text>
+	</string>
+
+	<!-- Aim -->
+	<string id="ui_mm_menu_aim">
+		<text>Visée</text>
+	</string>
+	<string id="ui_mm_aim_modded_exes">
+		<text>Visée</text>
+	</string>
+	
+	<string id="ui_mm_modded_exes_gameplay_aim_aimmode_remember">
+		<text>Mémoriser le mode de visée (aimmode_remember)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_aim_allow_outfit_control_inertion_factor">
+		<text>Activer l'effet des tenues sur la sensibilité de la souris (allow_outfit_control_inertion_factor)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_aim_allow_weapon_control_inertion_factor">
+		<text>Activer l'effet des armes sur la sensibilité de la souris (allow_weapon_control_inertion_factor)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_aim_fix_avelocity_spread">
+		<text>Corriger l'impact du mouvement de la caméra sur la précision (fix_avelocity_spread)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_aim_apply_pdm_to_ads">
+		<text>Appliquer les valeurs PDM (maniabilité) en ADS (apply_pdm_to_ads)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_aim_smooth_ads_transition">
+		<text>Appliquer progressivement le bonus de précision en ADS (smooth_ads_transition)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_aim_binoculars_dynamic_zoom_check">
+		<text>Zoom des jumelles désactivable dans les configurations (binoculars_dynamic_zoom_check)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_aim_binoculars_dynamic_zoom_check_desc">
+		<text>Le jeu vérifiera le paramètre LTX « scope_dynamic_zoom » pour les jumelles.</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_aim_g_interrupt_fire_on_aim_toggle">
+		<text>Interrompre le tir au début de la visée (g_interrupt_fire_on_aim_toggle)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_aim_binoculars_dynamic_zoom_check_desc">
+		<text>L'arme annulera le tir lorsque la visée est engagée, vous devrez donc appuyer à nouveau sur le bouton de tir pour commencer. N'affecte pas les armes disposant d'animations de transition pour le début et la fin de la visée, celles-ci annuleront toujours le tir.</text>
+	</string>
+
+	<!-- 3D Ballistics -->
+	<string id="ui_mm_menu_3d_ballistics">
+		<text>Balistique 3D</text>
+	</string>
+	<string id="ui_mm_3d_ballistics_modded_exes">
+		<text>Balistique 3D</text>
+	</string>
+	
+	<string id="ui_mm_modded_exes_gameplay_3d_ballistics_g_firepos">
+		<text>Tirer les balles depuis le canon en position libre (g_firepos)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_3d_ballistics_g_firepos_zoom">
+		<text>Tirer les balles depuis la bouche du canon en visée (g_firepos_zoom)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_3d_ballistics_g_aimpos">
+		<text>Aligner les balles sur le canon en position libre (g_aimpos)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_3d_ballistics_g_aimpos_zoom">
+		<text>Aligner les balles sur le canon en visée (g_aimpos_zoom)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_3d_ballistics_g_firedir_third_person">
+		<text>Utiliser la direction de tir à la première personne en vue à la troisième personne (g_firedir_third_person)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_3d_ballistics_g_nearwall">
+		<text>Comportement du décalage près des murs (g_nearwall)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_3d_ballistics_g_nearwall_trace">
+		<text>Origine de la trace près des murs (g_nearwall_trace)</text>
+	</string>
+
+	<string id="ui_mm_lst_nearwall_hud_fov">
+		<text>Champ de vision de l'interface</text>
+	</string>
+	<string id="ui_mm_lst_nearwall_position">
+		<text>Position</text>
+	</string>
+	<string id="ui_mm_lst_nearwall_camera">
+		<text>Caméra</text>
+	</string>
+	<string id="ui_mm_lst_nearwall_item">
+		<text>Objet</text>
+	</string>
+
+	<!-- Weapons -->
+	<string id="ui_mm_menu_weapons">
+		<text>Armes</text>
+	</string>
+	<string id="ui_mm_weapons_modded_exes">
+		<text>Armes</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_gameplay_weapons_g_auto_reload">
+		<text>Recharger automatiquement l'arme quand les munitions sont épuisées (g_auto_reload)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_weapons_g_decouple_horz_recoil">
+		<text>Recul horizontal indépendant du vertical (g_decouple_horz_recoil)</text>
+	</string>
+	
+	<string id="ui_mm_modded_exes_gameplay_weapons_g_fire_reloads_ubgl">
+		<text>Recharger les lance-grenades sous canon avec l'entrée de tir (g_fire_reloads_ubgl)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_weapons_g_launcher_dynamic_range">
+		<text>Appliquer l'assistance lance-grenades sans visée (g_launcher_dynamic_range)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_weapons_g_launcher_dynamic_range_zoom">
+		<text>Appliquer l'assistance lance-grenades en visée (g_launcher_dynamic_range_zoom)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_weapons_g_launcher_dynamic_range_mode">
+		<text>Cibler les objets dynamiques avec l'assistance lance-grenades (g_launcher_dynamic_range_mode)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_weapons_g_launcher_dynamic_range_max">
+		<text>Portée maximale de l'assistance lance-grenades (g_launcher_dynamic_range_max)</text>
+	</string>
+
+	<!-- Stalkers -->
+	<string id="ui_mm_menu_stalkers">
+		<text>Stalker</text>
+	</string>
+	<string id="ui_mm_stalkers_modded_exes">
+		<text>Stalker</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_stalkers_g_npcs_look_at_actor">
+		<text>Les Stalkers regardent le joueur de près (g_npcs_look_at_actor)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_stalkers_g_npcs_look_at_actor_min_distance">
+		<text>Distance minimale pour commencer à regarder (g_npcs_look_at_actor_min_distance)</text>
+	</string>
+
+	<!-- Monsters -->
+	<string id="ui_mm_menu_monsters">
+		<text>Monstres</text>
+	</string>
+	<string id="ui_mm_monsters_modded_exes">
+		<text>Monstres</text>
+	</string>
+	
+	<string id="ui_mm_modded_exes_gameplay_monsters_heat_vision_zombie_cold">
+		<text>Afficher les zombies Cold en vision thermique (heat_vision_zombie_cold)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_monsters_pseudogiant_can_damage_objects_on_stomp">
+		<text>Dommages aux objets lors du piétinement par les Pseudogiants (pseudogiant_can_damage_objects_on_stomp)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_monsters_telekinetic_objects_include_corpses">
+		<text>Lancer les cadavres par les Poltergeists et les Burers (telekinetic_objects_include_corpses)</text>
+	</string>
+	<string id="ui_mm_modded_exes_gameplay_monsters_monster_stuck_fix">
+		<text>Correction des monstres bloqués (MAUVAIS POUR LES FPS) (monster_stuck_fix)</text>
+	</string>
+
+	<!-- Saves -->
+	<string id="ui_mm_saves_modded_exes">
+		<text>Sauvegardes</text>
+	</string>
+	<string id="ui_mm_menu_saves">
+		<text
+			>Sauvegardes</text>
+	</string>
+
+	<!-- Crash Saves -->
+	<string id="ui_mm_crash_saves_modded_exes">
+		<text>Sauvegardes de crash</text>
+	</string>
+	<string id="ui_mm_menu_crash_saves">
+		<text>Sauvegardes en cas de crash</text>
+	</string>
+	
+	<string id="ui_mm_modded_exes_saves_crash_saves_crash_save">
+		<text>Activer les sauvegardes de crash (crash_save)</text>
+	</string>
+	<string id="ui_mm_modded_exes_saves_crash_saves_crash_save_count">
+		<text>Nombre de sauvegardes de crash (crash_save_count)</text>
+	</string>
+
+	<!-- Debugging -->
+	<string id="ui_mm_menu_debug">
+		<text>Débogage</text>
+	</string>
+	<string id="ui_mm_debug_modded_exes">
+		<text>Débogage</text>
+	</string>
+
+	<!-- Logging -->
+	<string id="ui_mm_menu_logging">
+		<text>Journalisation</text>
+	</string>
+	<string id="ui_mm_logging_modded_exes">
+		<text>Journalisation</text>
+	</string>
+	
+	<string id="ui_mm_modded_exes_debug_logging_string_table_error_msg">
+		<text>Journaliser les chaînes de traduction manquantes (string_table_error_msg)</text>
+	</string>
+	<string id="ui_mm_modded_exes_debug_logging_log_timestamps">
+		<text>Horodatage dans les journaux (log_timestamps)</text>
+	</string>
+	<string id="ui_mm_modded_exes_debug_logging_print_bone_warnings">
+		<text>Afficher les avertissements d'os invalides (print_bone_warnings)</text>
+	</string>
+	<string id="ui_mm_modded_exes_debug_logging_print_dltx_warnings">
+		<text>Afficher les avertissements d'échec de substitution DLTX (print_dltx_warnings)</text>
+	</string>
+
+	<!-- Errors -->
+	<string id="ui_mm_menu_errors">
+		<text>Erreurs</text>
+	</string>
+	<string id="ui_mm_errors_modded_exes">
+		<text>Erreurs</text>
+	</string>
+	
+	<string id="ui_mm_modded_exes_debug_errors_hanging_lamp_ignore_match_configuration">
+		<text>Ne pas planter sur l'erreur « no renderer type set for hanging-lamp » (hanging_lamp_ignore_match_configuration)</text>
+	</string>
+	<string id="ui_mm_modded_exes_debug_errors_lua_busy_hands_debug">
+		<text>Débogage Lua « Mains occupées » (lua_busy_hands_debug)</text>
+	</string>
+	<string id="ui_mm_modded_exes_debug_errors_duplicate_story_id_crash">
+		<text>Plantage sur l'erreur « Specified story object is already in the Story registry! » (duplicate_story_id_crash)</text>
+	</string>
+
+	<!-- Optimizations -->
+	<string id="ui_mm_menu_optimizations">
+		<text>Optimisations</text>
+	</string>
+	<string id="ui_mm_optimizations_modded_exes">
+		<text>Optimisations</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_optimizations_g_enemy_manager_useful_cache_time">
+		<text>Durée du cache utile de CEnemyManager (g_enemy_manager_useful_cache_time)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_g_enemy_manager_useful_cache_time_desc">
+		<text>Enregistre le résultat de l'appel CEnemyManager::useful pendant un court laps de temps (en ms) pour éviter des appels Lua lents à chaque frame et augmenter substantiellement les FPS lors des combats. Réglez sur -1 pour désactiver.</text>
+	</string>
+	
+	<string id="ui_mm_modded_exes_optimizations_r2_mt">
+		<text>Tests de visibilité et rendu de l'herbe en multithread (r2_mt)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_mt_bullets">
+		<text>Calculs multithread des balles (mt_bullets)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_mt_particles">
+		<text>Particules multithread (mt_particles)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_mt_scheduler">
+		<text>Planificateur multithread (mt_scheduler)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_scheduler_batch_size">
+		<text>Taille du lot du planificateur (scheduler_batch_size)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_mt_calc_bones">
+		<text>Calculs multithread des os (mt_calc_bones)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_mt_task_manager">
+		<text>Gestionnaire de tâches multithread (mt_task_manager)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_mt_ui">
+		<text>Mise à jour multithread de l'interface (mt_ui)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_mt_update_weapon_sounds">
+		<text>Mise à jour multithread des sons des armes (mt_update_weapon_sounds)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_r__optimize_torch">
+		<text>Optimiser la mise à jour des lampes frontales (r__optimize_torch)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_r__optimize_torch_desc">
+		<text>Les stalkers éloignés auront une fréquence de mises à jour réduite.</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_r2_shadow_omnipart_vischeck">
+		<text>Vérification de visibilité pour les omnilumière (r2_shadow_omnipart_vischeck)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_r2_shadow_omnipart_vischeck_desc">
+		<text>Améliore les performances en vérifiant la visibilité des lumières créées à partir de points lumineux et en ignorant celles qui sont invisibles.</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_optimizations_spawn_antifreeze">
+		<text>Apparition d'Antifreeze (spawn_antifreeze)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_spawn_antifreeze_desc">
+		<text>Place la procédure d'apparition des entités dans un thread séparé, n'élimine pas complètement les gels mais tente de les minimiser.</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_spawn_antifreeze_batch">
+		<text>Taille du lot de spawn de antifreeze (spawn_antifreeze_batch)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_spawn_antifreeze_batch_desc">
+		<text>Nombre d'événements d'apparition à traiter à chaque frame.</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_optimizations_r__optimize_calculate_bones">
+		<text>Optimiser les calculs des os (r__optimize_calculate_bones)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_r__optimize_calculate_bones_desc">
+		<text>Les modèles de squelette qui ne sont pas dans le champ de vision du joueur ou qui en sont trop éloignés ne recevront pas de mises à jour d'animation afin d'économiser les ressources processeur.</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_ik_calc_ssa">
+		<text>Surface maximale en espace écran (ik_calc_ssa)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_ik_calc_ssa_desc">
+		<text>Les objets dont la surface est inférieure à ce nombre seront optimisés. Un nombre plus élevé entraînera des optimisations plus agressives et pourrait provoquer des bugs visuels.</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_ik_always_calc_dist">
+		<text>Distance pour toujours effectuer les calculs des os (ik_always_calc_dist)</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_optimizations_mt_level_call">
+		<text>Exécution parallèle des événements CreateTimeEvent et AddUniqueCall en Lua (mt_level_call)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_lua_use_functor_cache">
+		<text>Mettre en cache les objets fonction Lua côté moteur (lua_use_functor_cache)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_lua_gcstep">
+		<text>Étape de collecte Lua pour la Décharge (lua_gcstep)</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_optimizations_lua_parallel_gc">
+		<text>Ramasse-miettes Lua parallèle (lua_parallel_gc)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_lua_parallel_gc_desc">
+		<text>Appelle le ramasse-miettes Lua (GC) de manière répétée sur un thread séparé avec les paramètres ci-dessous pour collecter les déchets pendant que le moteur effectue le rendu d'une frame.</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_optimizations_lua_parallel_gcstep">
+		<text>Étape du ramasse-miettes Lua parallèle (lua_parallel_gcstep)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_lua_parallel_gcstep_desc">
+		<text>Quantité de données à collecter en un seul appel. RECOMMANDATION : pour atteindre le point optimal où le temps de frame reste stable et le GC parallèle n'engorge pas le processeur, tapez « lua_parallel_gc_debug 1 » dans la console et vérifiez l'utilisation mémoire. Celle-ci doit rester stable à une valeur donnée, généralement autour de 45-50 Mo. Pour AUGMENTER l'efficacité du GC parallèle, AUGMENTEZ d'abord le pas du GC, PUIS le nombre d'appels. Si vous pensez pouvoir vous permettre un GC moins agressif, pour le DIMINUER, DIMINUEZ d'abord le nombre d'appels, PUIS le pas du GC. Privilégiez un pas du GC plus élevé qu'un nombre d'appels pour réduire la charge sur l'accès à Lua. Les valeurs par défaut sont très bonnes pour le mode vanilla (peut même fonctionner avec des valeurs plus basses) et bonnes pour Gamma.</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_optimizations_lua_parallel_gc_call_amount">
+		<text>Nombre d'appels du ramasse-miettes Lua parallèle (lua_parallel_gc_call_amount)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_lua_parallel_gc_call_amount_desc">
+		<text>Nombre d'appels à effectuer pour collecter les déchets. Ce nombre n'est PAS garanti si les frames sont rendues trop rapidement. RECOMMANDATION : pour atteindre le point optimal où le temps de frame reste stable et le GC parallèle n'engorge pas le processeur, tapez « lua_parallel_gc_debug 1 » dans la console et vérifiez l'utilisation mémoire. Celle-ci doit rester stable à une valeur donnée, généralement autour de 45-50 Mo. Pour AUGMENTER l'efficacité du GC parallèle, AUGMENTEZ d'abord le pas du GC, PUIS le nombre d'appels. Si vous pensez pouvoir vous permettre un GC moins agressif, pour le DIMINUER, DIMINUEZ d'abord le nombre d'appels, PUIS le pas du GC. Privilégiez un pas du GC plus élevé qu'un nombre d'appels pour réduire la charge sur l'accès à Lua. Les valeurs par défaut sont très bonnes pour le mode vanilla (peut même fonctionner avec des valeurs plus basses) et bonnes pour Gamma.</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_optimizations_lua_parallel_gc_debug">
+		<text>Débogage du ramasse-miettes Lua parallèle (lua_parallel_gc_debug)</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_visual_graphics_r__clear_resources_on_unload">
+		<text>Libérer les ressources au déchargement du niveau (r__clear_resources_on_unload)</text>
+	</string>
+	<string id="ui_mm_modded_exes_visual_graphics_r__clear_resources_on_unload_desc">
+		<text>Réduit l'utilisation de la RAM et de la VRAM mais augmente les temps de chargement.</text>
+	</string>
+
+	<string id="ui_mm_modded_exes_optimizations_dltx_use_cache">
+		<text>Cache DLTX (dltx_use_cache)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_dltx_use_cache_desc">
+		<text>Met en cache les fichiers et sections pour charger rapidement les données évaluées sans lecture disque ni analyse DLTX lors du prochain chargement de fichier. Consomme environ 50 Mo sur Anomaly et 150 Mo sur Gamma. </text>
+	</string>
+
+	<string id="ui_mm_modded_exes_optimizations_mouse_buffer_size">
+		<text>Taille du tampon d'entrée souris (mouse_buffer_size)</text>
+	</string>
+	<string id="ui_mm_modded_exes_optimizations_keyboard_buffer_size">
+		<text>Taille du tampon d'entrée clavier (keyboard_buffer_size)</text>
+	</string>
+</string_table>

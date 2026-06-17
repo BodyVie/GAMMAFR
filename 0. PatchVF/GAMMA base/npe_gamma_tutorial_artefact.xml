@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+    <string id="ui_mcm_npe_module_gamma_tutorial_artefact_artefact">
+        <text>Tutoriel Artefacts</text>
+    </string>
+
+    <string id="ui_mcm_npe_module_gamma_tutorial_artefact_title">
+        <text>Tutoriels G.A.M.M.A.</text>
+    </string>
+
+    <string id="ui_mcm_npe_module_gamma_tutorial_artefact_desc">
+        <text>Artefacts</text>
+    </string>
+	
+    <!-- MCM -->
+    <!-- Name of the toggle that sets if tutorial has been completed-->
+    <string id="ui_mcm_npe_module_gamma_tutorial_artefact">
+        <text>Artefacts G.A.M.M.A.</text>
+    </string>
+    <!-- MCM -->
+
+    <!-- Title of the whole tutorial -->
+    <string id="ui_mcm_npe_module_gamma_tutorial_artefact_title">
+        <text>Tutoriel Artefacts</text>
+    </string>
+
+    <!-- Cards -->
+    <!-- 1 -->
+    <string id="ui_gamma_tutorial_artefact_card_01_title">
+        <text>Utilisation d’un détecteur d’Artefacts
+		</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_artefact_card_01_description">
+        <text>%c[ui_white]
+		• Vous venez d'équiper un Détecteur de Artefacts. Ceux-ci peuvent être utilisés avec la touche « 6 » (par défaut). Notez que les détecteurs nécessitent des piles pour fonctionner.\n \n
+		
+		• Chaque détecteur peut repérer différents niveaux de artefacts : \n
+		  | - Détecteur Echo : jusqu'à des artefacts de niveau T1. \n
+		  | - Détecteur Bear : jusqu'à des artefacts de niveau T2. \n
+		  | - Détecteur Grizzly et autres : jusqu'à des artefacts de niveau T4. \n \n
+
+		• Les détecteurs détectent passivement les artefacts environnants : lorsqu’un artefact est disponible, une petite icône de artefact marquée d’un « ? » clignotera dans le coin inférieur gauche de l’écran. La portée de détection est cependant réduite par rapport à l’utilisation d’un détecteur en main. \n \n
+
+		• Les zones anomales où se trouvent des artefacts comportent généralement des anomalies élémentaires, des radiations et bien d’autres dangers : assurez-vous d’être correctement équipé avant de vous aventurer dans ces lieux hostiles. Votre inventaire dispose d’une interface pratique affichant toutes vos résistances (20 % signifie une réduction de 20 % des dégâts). \n \n
+		</text>
+    </string>
+    <!-- 1 -->
+
+    <!-- 2 -->
+    <string id="ui_gamma_tutorial_artefact_card_02_title">
+        <text>Types d’Artefacts
+		</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_artefact_card_02_description">
+        <text>%c[ui_white]
+				• Il existe deux types de artefacts : %c[d_orange]les Perktifacts%c[ui_white] et %c[pda_blue]les artefacts défensifs%c[ui_white].\n \n
+		
+				• Les %c[d_orange]Perktifacts%c[ui_white] apparaissent toujours avec une efficacité de 100 %. Cependant, leur efficacité diminue avec le temps lorsqu’ils sont équipés. Les %c[d_orange]Perktifacts%c[ui_white] offrent des buffs et des capacités extrêmement variés et situationnels. Ces effets sont souvent amplifiés en fonction du nombre de Perktifacts identiques équipés sur votre ceinture.\n \n
+
+				• Les %c[pda_blue]Artefacts Défensifs%c[ui_white] apparaissent avec une efficacité aléatoire et faible, mais celle-ci reste constante dans le temps. Plus l’efficacité d’un %c[pda_blue]Artefacts Défensif%c[ui_white] est élevée, plus ses effets sont puissants. Les %c[pda_blue]Artefacts Défensifs%c[ui_white] offrent des résistances aux dégâts. Toutefois, ils entraînent souvent des malus sur certaines résistances. Les %c[pda_blue]Artefacts Défensifs%c[ui_white] de niveau supérieur (indiqués par des chevrons sur l’icône de artefact) procurent des augmentations de résistances plus importantes... ainsi que des malus.\n \n
+		</text>
+    </string>
+    <!-- 2 -->
+    
+    <!-- 3 -->
+    <string id="ui_gamma_tutorial_artefact_card_03_title">
+        <text>Renforcement d’Artefacts
+		</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_artefact_card_03_description">
+        <text>%c[ui_white]
+				• Deux %c[pda_blue]Artefacts Défensifs%c[ui_white] du même type peuvent être combinés pour cumuler leurs efficacités via le processus de « Renforcement d’Artefact » (22 % de Tordu + 32 % de Tordu = 54 % de Tordu).\n \n
+				
+				• Ce processus nécessite le Fondeur de Artefacts, un outil que l'on peut trouver (dans les caches blanches, rarement) ou acheter (auprès des Scientifiques).\n \n
+
+				• Pour renforcer un %c[pda_blue]Artefacts Défensif%c[ui_white], effectuez un clic droit sur l’outil Artefact Fondeur, sélectionnez « renforcer », choisissez le Artefact à renforcer, puis sélectionnez un second Artefact du même type. Cette opération consomme une charge du Artefact Fondeur.\n \n	
+
+				• Les charges du Artefact Fondeur peuvent être régénérées en détruisant des artefacts : maintenez la touche Alt gauche enfoncée, puis faites glisser et déposez le Artefact Fondeur sur un Artefact donné dans votre inventaire. Le nombre de charges régénérées dépend du niveau du Artefact. \n \n		
+		</text>
+    </string>
+    <!-- 3 -->
+	
+    <!-- 4 -->
+    <string id="ui_gamma_tutorial_artefact_card_04_title">
+        <text>Fabrication d’Artefacts
+		</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_artefact_card_04_description">
+        <text>%c[ui_white]
+				• %c[pda_blue]Les Artefacts défensifs%c[ui_white] peuvent être fabriqués à l'aide du Artefact Fondeur.\n \n
+				
+				• Effectuez un clic droit sur le Artefact Fondeur, sélectionnez « fusion », puis fabriquez des artefacts en respectant les exigences de la recette (vous pouvez également accéder à ce menu via l’interface de l’établi).\n \n				
+
+				• De nouvelles recettes peuvent être achetées auprès des commerçants Scientifiques. Le niveau le plus élevé d’artefacts ne peut être fabriqué qu’à l’aide d’un ensemble de recettes trouvées sur des stalkers de haut rang.\n \n		
+				
+				• Le %c[pda_blue]Artefacts Défensif%c[ui_white] fabriqué héritera d’une efficacité calculée à partir des artefacts utilisés dans la recette (moyenne des efficacités de tous les Artefacts).\n \n		
+		</text>
+    </string>
+    <!-- 4 -->
+	
+    <!-- 5 -->
+    <string id="ui_gamma_tutorial_artefact_card_05_title">
+        <text>Autres objets de ceinture
+		</text>
+    </string>
+    <string id="ui_gamma_tutorial_artefact_card_05_description">
+        <text>%c[ui_white]
+				• Il existe d'autres types d'objets à équiper sur la ceinture : les Peaux et les Objets Technologiques.\n \n
+				
+				• Les peaux sont obtenues en dépouillant des mutants. Plus le couteau est de bonne qualité, meilleure sera l’état des peaux. Une seule peau peut être équipée à la fois, mais elles n’offrent que des bonus.\n \n
+
+				• Les objets techniques peuvent être achetés auprès des commerçants ou fabriqués. Les versions améliorées des objets techniques ne peuvent être obtenues qu’en améliorant les objets techniques de base via l’interface de fabrication.\n \n		
+
+				• %c[d_orange]Combiner les effets des Artefacts, des Peaux et des Objets Technologiques est d'une importance capitale pour surmonter les défis de la Zone.\n \n \n
+
+			%c[yellow]Vous pouvez revoir ce tutoriel en accédant au Menu de Configuration du Mod (MCM) &gt; Modules NPE &gt; G.A.M.M.A. et en décochant le tutoriel.\n \n			
+		</text>
+    </string>
+    <!-- 5 -->
+</string_table>

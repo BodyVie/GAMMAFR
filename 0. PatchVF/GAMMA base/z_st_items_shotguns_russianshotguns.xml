@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_mp133">
+		<text>MP-133</text>
+	</string>
+	<string id="st_wpn_mp133_descr">
+		<text>Évolution du précédent fusil à pompe IZh-81, le MP-133 a été conçu pour les marchés civil et sécuritaire en tant qu'arme de chasse et de défense fiable et pratique.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Usine mécanique Izhmash\n
+		</text>
+	</string>
+
+	<string id="st_wpn_mp153">
+		<text>MP-153</text>
+	</string>
+	<string id="st_wpn_mp153_descr">
+		<text>Premier fusil semi-automatique conçu et fabriqué par l'Usine mécanique d'Ijevsk, le MP-153 est l'un des fusils semi-automatiques d'origine russe les plus populaires et est largement utilisé pour la chasse de divers gibiers. Développé en parallèle du fusil à pompe MP-133, il partage de nombreuses pièces avec ce dernier et est reconnu pour sa fiabilité et sa construction solide et robuste.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Usine mécanique Izhmash\n
+		</text>
+	</string>
+
+    <string id="st_wpn_mp153_m1">
+        <text>MP-153 "Carabineer"</text>
+    </string>
+    <string id="st_wpn_mp153_m1_descr">
+		<text>Premier fusil semi-automatique conçu et fabriqué par l'Usine mécanique d'Ijevsk, le MP-153 est l'un des fusils semi-automatiques d'origine russe les plus populaires et est largement utilisé pour la chasse de divers gibiers. Développé en parallèle du fusil à pompe MP-133, il partage de nombreuses pièces avec ce dernier et est reconnu pour sa fiabilité et sa construction solide et robuste. La version « Carabinier » inclut un frein de bouche et un rail Picatinny.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Usine mécanique Izhmash\n
+		</text>
+    </string>
+<string id="st_wpn_ks23_vorkuta">
+        <text>KS-23M "Vorkuta"</text>
+    </string>
+    <string id="st_wpn_ks23_vorkuta_descr">
+		<text>Au coeur de sa conception, le KS-23 est une « carabine » à action manuelle et à pompe tirant des munitions uniques de 23 mm. Bien que son apparence rappelle davantage celle d'un fusil de chasse, les Russes l'ont désigné comme une « Carabine Spéciale » en raison de son canon rayé de gros calibre, comparé aux canons lisses des fusils de chasse conventionnels. Le Vorkuta est une version agrandie du KS-23, dotée d'un canon de 700 mm aminci et d'une poignée pistolet remplaçant la crosse standard. Le « Vorkuta » dispose d'un canon fileté permettant l'ajout d'un silencieux et d'une lunette PU adaptable pour améliorer les combats à distance. Le nom de l'arme suggère que son origine pourrait provenir de la ville du même nom.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Usine d'armes de Toula\n
+		%c[d_orange] • %c[0,255,255,255] Tube rallongé, silencieux adaptable et lunette PU\n
+		</text>
+    </string>
+	
+
+	
+</string_table>

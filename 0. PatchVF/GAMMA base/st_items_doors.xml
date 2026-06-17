@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+   <string id="st_placeable_door">
+		<text>Porte en bois</text>
+	</string>
+	<string id="st_placeable_door_descr">
+		<text>Une petite porte en bois sur laquelle sont collés des papiers déchirés, mesurant 1 mètre sur 1,9 mètre.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white]Posable\n
+		%c[d_orange] • %c[ui_gray_2]Compatible avec les encadrements de porte craftables\n
+		%c[d_cyan] • %c[pda_white]NOTE : %c[ui_gray_2]Pour retirer la porte, endommagez-la avec une arme de mêlée.\n
+		</text>
+	</string>
+	
+   <string id="st_placeable_door02">
+		<text>Porte métallique</text>
+	</string>
+	<string id="st_placeable_door02_descr">
+		<text>Une grande porte métallique rouillée, autrefois peinte en blanc immaculé, mesurant 1,5 mètre sur 2,5 mètres.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white]Posable\n
+		%c[d_cyan] • %c[pda_white]NOTE : %c[ui_gray_2]Pour retirer la porte, endommagez-la avec une arme de mêlée.\n
+		</text>
+	</string>
+	
+   <string id="st_placeable_door03">
+		<text>Porte en bois</text>
+	</string>
+	<string id="st_placeable_door03_descr">
+		<text>Une porte en bois décolorée par le soleil, fabriquée avec un savoir-faire remarquable, mesurant 1,15 mètre sur 2,15 mètres.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white]Posable\n
+		%c[d_cyan] • %c[pda_white]NOTE : %c[ui_gray_2]Pour retirer la porte, endommagez-la avec une arme de mêlée.\n
+		</text>
+	</string>
+	
+   <string id="st_placeable_door04">
+		<text>Porte en bois</text>
+	</string>
+	<string id="st_placeable_door04_descr">
+		<text>Une simple porte en bois décolorée par le soleil. Elle présente des signes de pourriture à la base, probablement dus à des dégâts causés par l'eau. Mesure 1,45 mètre sur 2,2 mètres.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white]Posable\n
+		%c[d_cyan] • %c[pda_white]NOTE : %c[ui_gray_2]Pour retirer la porte, endommagez-la avec une arme de mêlée.\n
+		</text>
+	</string>
+	
+   <string id="st_placeable_door05">
+		<text>Porte lourde</text>
+	</string>
+	<string id="st_placeable_door05_descr">
+		<text>Une porte renforcée de très grandes dimensions, assemblée dans la Zone à partir de planches et de morceaux de métal épais, mesurant 1,76 mètre sur 3 mètres.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white]Posable\n
+		%c[d_cyan] • %c[pda_white]NOTE : %c[ui_gray_2]Pour retirer la porte, endommagez-la avec une arme de mêlée.\n
+		</text>
+	</string>
+
+</string_table>

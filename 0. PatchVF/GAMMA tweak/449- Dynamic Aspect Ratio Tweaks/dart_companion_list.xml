@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+  <string id="ui_mcm_dart_companionList_title">
+    <text>Paramètres HUD liste des compagnons</text>
+  </string>
+
+  <string id="ui_mcm_menu_dart_companionList">
+    <text>Liste des compagnons</text>
+  </string>
+</string_table>

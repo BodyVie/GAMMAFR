@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    
+<!--
+Pistols and MP's
+-->
+
+	<string id="st_mag_ppp_1911_357_fmj">
+		<text>Chargeur Coonan .357</text>
+	</string>
+	<string id="st_mag_ppp_1911_357_fmj_descr">
+		<text>
+            Variante du chargeur Colt 1911 modifiée pour adapter la cartouche .357 Magnum, beaucoup plus longue. Compatible uniquement avec le pistolet Coonan .357, qui offre toute la puissance d'arrêt de la cartouche .357 Magnum dans un format compact.
+		</text>
+	</string>
+
+	<string id="st_mag_ppp_svi_45">
+		<text>Chargeur standard 15 cartouches Strayer-Voight</text>
+	</string>
+	<string id="st_mag_ppp_svi_45_descr">
+		<text>
+            Chargeur standard fourni avec le pistolet de compétition Strayer-Voight Infinity. Le chargeur prolongé de 15 cartouches est conçu pour être rapidement accessible afin de faciliter un changement rapide : une petite plaque de vitesse noire est fixée au fond, et elle est estampillée du logo SVI Diamond. À l'extérieur de la Zone, l'un de ces chargeurs pourrait acheter environ cinq Makarov PM. Cependant, dans la Zone, la valeur est déterminée uniquement par l'utilité, et ce chargeur n'a donc aucune distinction particulière, si ce n'est sa rareté extrême.
+		</text>
+	</string>
+
+	<string id="st_mag_ppp_px4_9x19_fmj">
+		<text>Chargeur standard 17 cartouches 9x19mm PX4</text>
+	</string>
+	<string id="st_mag_ppp_px4_9x19_fmj_descr">
+		<text>
+            Chargeur standard PX4 Storm. Bien que très similaire au Beretta 92F, les chargeurs présentent une conception légèrement différente des lèvres d'alimentation, les rendant incompatibles avec le 92F. Assez rare dans la Zone, tout comme le pistolet dont il est issu.
+		</text>
+	</string>
+    
+	<string id="st_mag_ppp_px4_45">
+		<text>Chargeur standard 10 cartouches .45 PX4</text>
+	</string>
+	<string id="st_mag_ppp_px4_45_descr">
+		<text>
+            Chargeur standard PX4 Storm en .45 ACP. Bien que très similaire au Beretta 92F, les chargeurs présentent une conception légèrement différente des lèvres d'alimentation, les rendant incompatibles avec le 92F. Assez rare dans la Zone, tout comme le pistolet dont il est issu.
+		</text>
+	</string>
+
+	<string id="st_mag_ppp_sig_9x19_fmj">
+		<text>Chargeur 9x19mm SIG P229</text>
+	</string>
+	<string id="st_mag_ppp_sig_9x19_fmj_descr">
+		<text>
+            Chargeur compact conçu pour s'adapter au pistolet SIG P229. Le P229 est une arme très rare dans la Zone, étant un pistolet extrêmement moderne. Les stalkers plus avisés portent des armes tout aussi efficaces et bien moins voyantes, car minimiser l'attention est crucial, quelle que soit votre identité.
+		</text>
+	</string>
+
+	<string id="st_mag_ppp_signimble_9x19_fmj">
+		<text>Chargeur 9x19mm SIG P320</text>
+	</string>
+	<string id="st_mag_ppp_signimble_9x19_fmj_descr">
+		<text>
+            Chargeur standard conçu pour s'adapter au pistolet SIG 320. Le P320 est un pistolet à percuteur, comme le Glock et le Five-Seven, et a récemment été adopté par l'armée américaine comme arme de poing standard, sous la désignation M17. Des quantités limitées de la variante RXP ont été introduites en contrebande par Nimble après avoir appris que certains clients américains se rendaient dans la Zone.
+		</text>
+	</string>
+    
+	<string id="st_mag_ppp_signimble_45_fmj">
+		<text>Chargeur .45 SIG P320</text>
+	</string>
+	<string id="st_mag_ppp_signimble_45_fmj_descr">
+		<text>
+            Chargeur standard adapté au pistolet SIG P320. Le P320 est un pistolet à percuteur, comme le Glock et le Five-Seven, et a récemment été adopté par l'armée américaine comme arme de poing standard, sous la désignation M17. Des quantités limitées de la variante RXP ont été introduites en contrebande par Nimble après avoir appris que certains clients américains se rendaient dans la Zone. Cette variante du chargeur est conçue pour le .45 ACP.
+		</text>
+	</string>
+
+	<string id="st_mag_ppp_mk23_45">
+		<text>Chargeur .45 Mark 23</text>
+	</string>
+	<string id="st_mag_ppp_mk23_45_descr">
+		<text>
+            Chargeur surdimensionné issu du pistolet tout aussi imposant Mark 23-SOCOM. Conçu comme arme principale, le Mark 23 est très précis et stable, mais extrêmement lourd, encombrant et peu pratique en tant qu'arme de poing, ce qui lui a valu la distinction moqueuse d'être le premier pistolet servi par un équipage. Il semble que l'appétit des riches de la stalker pour les armes rares surpasse leur intérêt pour les artefacts.
+		</text>
+	</string>
+
+
+	<string id="st_ppp_colt1911_762x25_fmj">
+		<text>Chargeur modifié 7,62x25mm Colt</text>
+	</string>
+	<string id="st_ppp_colt1911_762x25_fmj_descr">
+		<text>
+            Véritable curiosité, ce chargeur Colt 1911 a été modifié pour accepter la cartouche 7,62x25 Tokarev, beaucoup plus fine. Seules les variantes russes du 1911, populaires parmi les membres de Devoir, sont capables d'accepter une telle modification. Les partisans de cette modification soutiennent que la meilleure contrôlabilité d'une cartouche plus petite, combinée à la disponibilité courante des munitions, en fait une arme de poing bien plus fiable, surtout avec la robustesse du 1911. Les détracteurs estiment qu'il s'agit d'un luxe inutile et motivé par le patriotisme, d'autant plus que des options moins coûteuses, comme le pistolet CZ 52, existent.
+		</text>
+	</string>
+    
+	<string id="st_ppp_sw_45_fmj">
+		<text>Chargeur standard .45 S&amp;W</text>
+	</string>
+	<string id="st_ppp_sw_45_fmj_descr">
+		<text>
+            Chargeur standard pour la série de pistolets Smith &amp; Wesson 645. Le 645 est populaire en tant qu'arme de poing de service achetée à titre privé par les détectives et officiers de police américains. 
+		</text>
+	</string>
+
+	<string id="st_ppp_sw_919_fmj">
+		<text>Chargeur standard 9x19mm S&amp;W</text>
+	</string>
+	<string id="st_ppp_sw_919_fmj_descr">
+		<text>
+            Chargeur standard pour le pistolet Smith &amp; Wesson 659. Le 659 est effectivement la variante en 9 mm du pistolet 645, et à ce titre, les chargeurs sont en grande partie identiques.
+		</text>
+	</string>
+
+	<string id="st_ppp_xd9_9x19_fmj">
+		<text>Chargeur standard 9x19 XD9</text>
+	</string>
+	<string id="st_ppp_xd9_9x19_fmj_descr">
+		<text>
+            Chargeur standard de 9 cartouches pour le pistolet XD9. Le XD9 n'est pas un pistolet remarquable à quelque titre que ce soit, si ce n'est peut-être son rapport coût-efficacité.
+		</text>
+	</string>
+    
+	<string id="st_ppp_glock_45_fmj">
+		<text>Chargeur standard .45 Glock 21</text>
+	</string>
+	<string id="st_ppp_glock_45_fmj_descr">
+		<text>
+            Chargeur polymère standard de 13 cartouches pour le Glock 21. Grâce à la standardisation uniforme des chargeurs Glock, ce chargeur s'adapte également aux pistolets Glock 17 modifiés pour tirer du .45 ACP. Comment avez-vous pu convertir ce chargeur à partir d'un chargeur Glock standard ? Eh bien, la Zone recèle de nombreux secrets.
+		</text>
+	</string>
+
+    
+</string_table>

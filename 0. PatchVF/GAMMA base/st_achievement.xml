@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="st_achievement_1_name">
+		<text>Heavy Pockets</text>
+	</string>
+	<string id="st_achievement_1_hint">
+		<text>Les marchands sont plus enclins à te vendre du matos de haut niveau, même si t'as pas encore le niveau de bonne volonté requis avec leur faction.</text>
+	</string>
+	<string id="st_achievement_1_descr">
+		<text>Votre grande richesse est devenue notoire parmi les marchands de la Zone. Désireux de bénéficier de votre clientèle, ils sont plus enclins à vous proposer leurs meilleures marchandises, indépendamment de votre position au sein de leur faction.</text>
+	</string>
+	<string id="st_achievement_1_unlock">
+		<text>Tu as débloqué le succès « Les poches lourdes ».</text>
+	</string>
+	
+	<string id="st_achievement_2_name">
+		<text>Radiotherapy</text>
+	</string>
+	<string id="st_achievement_2_hint">
+		<text>À chaque fois qu'une tempête psy ou une émission commence, t'as une chance de survivre sans te mettre à couvert.</text>
+	</string>
+	<string id="st_achievement_2_descr">
+		<text>Votre esprit s'est engourdi face aux murmures, et vous ne craignez plus l'approche des émissions ou des tempêtes psychiques. Parfois, leur arrivée vous apporte même un sentiment de paix.</text>
+	</string>
+	<string id="st_achievement_2_unlock">
+		<text>Tu as débloqué le succès « Radiothérapie ».</text>
+	</string>
+	
+	<string id="st_achievement_3_name">
+		<text>Infopreneur</text>
+	</string>
+	<string id="st_achievement_3_hint">
+		<text>Les courtiers te verseront désormais un petit bonus pour chaque PDA supplémentaire que tu leur livres.</text>
+	</string>
+	<string id="st_achievement_3_descr">
+		<text>Les Artefacts sont tape-à-l'oeil, mais c'est le savoir qui détient le véritable pouvoir. Ayant appris cette leçon par l'expérience, vous êtes en mesure de facturer plus cher les secrets que vous vendez.</text>
+	</string>
+	<string id="st_achievement_3_unlock">
+		<text>Tu as débloqué le succès « Infopreneur ».</text>
+	</string>
+	
+	<string id="st_achievement_4_name">
+		<text>Duga Free</text>
+	</string>
+	<string id="st_achievement_4_hint">
+		<text>Les Stalkers ont plus de chances de traverser Yantar et Radar, ce qui pourrait augmenter leur population dans les zones nord.</text>
+	</string>
+	<string id="st_achievement_4_descr">
+		<text>Après avoir constaté les conséquences des expérimentations imprudentes dans la Zone d'Aliénation, vous avez choisi de mettre fin à certains de ses projets scientifiques en déclin. Avec deux champs psychiques majeurs désactivés, les passages à travers Yantar et Radar sont désormais plus accessibles que jamais.</text>
+	</string>
+	<string id="st_achievement_4_unlock">
+		<text>Tu as débloqué le succès « Duga Libre ».</text>
+	</string>
+	
+	<string id="st_achievement_5_name">
+		<text>Well Dressed</text>
+	</string>
+	<string id="st_achievement_5_hint">
+		<text>Tu peux dépecer les mutants bien plus vite que la normale.</text>
+	</string>
+	<string id="st_achievement_5_descr">
+		<text>La faune de la Zone vous craint, car plus que de raison ont péri de vos mains. Une pratique assidue rend le travail efficace, et vous êtes devenu véritablement expérimenté.</text>
+	</string>
+	<string id="st_achievement_5_unlock">
+		<text>Tu as débloqué le succès « Bien Habillé ».</text>
+	</string>
+	
+	<string id="st_achievement_6_name">
+		<text>Silver or Lead</text>
+	</string>
+	<string id="st_achievement_6_hint">
+		<text>Un stalkers qui se rend peut parfois révéler l'emplacement d'une deuxième planque.</text>
+	</string>
+	<string id="st_achievement_6_descr">
+		<text>Des corps et des douilles jonchent les traces derrière vous. Vos ennemis vous connaissent comme un tueur sans pitié. Ceux qui survivent à vos assauts terrifiants sont désormais bien plus disposés à se séparer de leurs biens.</text>
+	</string>
+	<string id="st_achievement_6_unlock">
+		<text>Tu as débloqué le succès « Plomb ou argent ».</text>
+	</string>
+	
+	<string id="st_achievement_7_name">
+		<text>Mechanized Warfare</text>
+	</string>
+	<string id="st_achievement_7_hint">
+		<text>Les objets bonus utilisés pour les réparations sont plus efficaces.</text>
+	</string>
+	<string id="st_achievement_7_descr">
+		<text>Reconnaissant pour votre aide assidue, le technicien que vous avez équipé a décidé de vous enseigner quelques astuces en matière de maintenance sur le terrain, vous permettant d'effectuer des réparations plus efficaces par vous-même.</text>
+	</string>
+	<string id="st_achievement_7_unlock">
+		<text>Tu as débloqué le succès « Guerre mécanisée ».</text>
+	</string>
+	
+	<string id="st_achievement_8_name">
+		<text>Tourist</text>
+	</string>
+	<string id="st_achievement_8_hint">
+		<text>Ta connaissance aiguë de la Zone t'a permis de déduire l'emplacement de certaines de ses meilleures planques.</text>
+	</string>
+	<string id="st_achievement_8_descr">
+		<text>En dépit des dangers, vous avez exploré toutes les parties accessibles de la Zone. Des profondeurs troubles du Grand marais aux paysages extraterrestres des Générateurs, vous connaissez la Zone comme votre poche.</text>
+	</string>
+	<string id="st_achievement_8_unlock">
+		<text>Tu as débloqué le succès « Touriste ».</text>
+	</string>
+	
+	<string id="st_achievement_9_name">
+		<text>Rag and Bone</text>
+	</string>
+	<string id="st_achievement_9_hint">
+		<text>Tu tombes parfois sur plus de loot en fouillant les caches.</text>
+	</string>
+	<string id="st_achievement_9_descr">
+		<text>Après avoir acquis une vaste expérience en fouillant les caches des autres stalkers, vous avez appris à repérer les faux fonds et les poches secrètes où des objets supplémentaires pourraient être dissimulés.</text>
+	</string>
+	<string id="st_achievement_9_unlock">
+		<text>Tu as débloqué le succès « Chiffons et Os ».</text>
+	</string>
+	
+	<string id="st_achievement_10_name">
+		<text>Completionist</text>
+	</string>
+	<string id="st_achievement_10_hint">
+		<text>Tous les succès disponibles ont été débloqués.</text>
+	</string>
+	<string id="st_achievement_10_descr">
+		<text>Tout ce qu'il était possible d'accomplir a été accompli. Le chemin a été long, mais vous êtes arrivé à la fin, triomphant.</text>
+	</string>
+	<string id="st_achievement_10_unlock">
+		<text>Tu as débloqué le succès « Collectionneur ».</text>
+	</string>
+	
+	<string id="st_achievement_11_name">
+		<text>Wishful Thinking</text>
+	</string>
+	<string id="st_achievement_11_hint">
+		<text>Tu as débloqué les « Renégats » comme faction jouable.</text>
+	</string>
+	<string id="st_achievement_11_descr">
+		<text>Vous avez fait tout ce qui était nécessaire pour obtenir des connaissances secrètes auprès de l'un des plus anciens stalkers de la Zone. Bien que vous doutiez qu'il vous ait révélé toute la vérité, ce que vous avez accompli dans votre quête de savoir ne peut être nié.</text>
+	</string>
+	<string id="st_achievement_11_unlock">
+		<text>Tu as débloqué le succès « Voeux pieux ».</text>
+	</string>
+	
+	<string id="st_achievement_12_name">
+		<text>Down to Earth</text>
+	</string>
+	<string id="st_achievement_12_hint">
+		<text>Les hélicoptères Mi-2 « Hoplite » apparaîtront à la place des Mi-24 « Hind ».</text>
+	</string>
+	<string id="st_achievement_12_descr">
+		<text>Plus ils volent haut, plus leur chute est dure. Ne souhaitant plus gaspiller d'équipement coûteux, les hélicoptères de la Zone semblent désormais appartenir à une catégorie bien moins performante.</text>
+	</string>
+	<string id="st_achievement_12_unlock">
+		<text>Tu as débloqué le succès « Retour aux sources ».</text>
+	</string>
+	
+	<string id="st_achievement_13_name">
+		<text>Geologist</text>
+	</string>
+	<string id="st_achievement_13_hint">
+		<text>Tu as plus de chances de trouver des artefacts après une émission.</text>
+	</string>
+	<string id="st_achievement_13_descr">
+		<text>Bourdonnantes, crépitantes et crachant des étincelles, les anomalies de la Zone ne vous effraient plus. Votre expérience approfondie avec les détecteurs rend également la localisation des artefacts plus aisée.</text>
+	</string>
+	<string id="st_achievement_13_unlock">
+		<text>Tu as débloqué le succès « Géologue ».</text>
+	</string>
+	
+	<string id="st_achievement_14_name">
+		<text>Folk Hero</text>
+	</string>
+	<string id="st_achievement_14_hint">
+		<text>Tu peux recruter des groupes plus importants de suiveurs pour t'accompagner.</text>
+	</string>
+	<string id="st_achievement_14_descr">
+		<text>Vos exploits ont commencé à faire de vous une légende locale, et vous vous comportez avec une assurance que seule l'expérience peut conférer. Des groupes plus importants de stalkers sont désormais plus enclins à se placer directement sous votre commandement, convaincus que vous les mènerez au succès.</text>
+	</string>
+	<string id="st_achievement_14_unlock">
+		<text>Tu as débloqué le succès « Héros du Peuple ».</text>
+	</string>
+	
+	<string id="st_achievement_15_name">
+		<text>Bookworm Food</text>
+	</string>
+	<string id="st_achievement_15_hint">
+		<text>Les clés USB seront remplacées par des PDA rares à l'apparition.</text>
+	</string>
+	<string id="st_achievement_15_descr">
+		<text>Que ce soit par vos propres efforts ou en lisant ceux des autres, vous avez beaucoup appris sur la Zone et ses nombreux habitants. Peut-être devriez-vous envisager de partager une partie de ces connaissances ?</text>
+	</string>
+	<string id="st_achievement_15_unlock">
+		<text>Tu as débloqué le succès « Nourriture de Rat de Bibliothèque ».</text>
+	</string>
+	
+	<string id="st_achievement_16_name">
+		<text>Infantile Pleasure</text>
+	</string>
+	<string id="st_achievement_16_hint">
+		<text>Tu as plus de chances de récupérer du loot en détruisant des caisses.</text>
+	</string>
+	<string id="st_achievement_16_descr">
+		<text>Les caisses de stockage tremblent désormais à votre approche, car des centaines de leurs semblables ont été ouvertes par vos soins. Vous avez depuis élevé l'ouverture des caisses au rang d'art, les forçant avec un minimum de dommages pour leur contenu.</text>
+	</string>
+	<string id="st_achievement_16_unlock">
+		<text>Tu as débloqué le succès « Plaisir puéril ».</text>
+	</string>
+	
+	<string id="st_achievement_17_name">
+		<text>Vigilant Recycler</text>
+	</string>
+	<string id="st_achievement_17_hint">
+		<text>Tu as une petite chance de récupérer des matériaux supplémentaires lors du désassemblage.</text>
+	</string>
+	<string id="st_achievement_17_descr">
+		<text>Convaincu que chaque pièce compte, vous ne pouvez vous empêcher de démonter les objets inutiles pour en récupérer des composants plus utiles. Après une longue expérience, vous êtes devenu plus précis. Rien ne se perd, rien ne se crée.</text>
+	</string>
+	<string id="st_achievement_17_unlock">
+		<text>Tu as débloqué le succès « Recycleur vigilant ».</text>
+	</string>
+	
+	<string id="st_achievement_18_name">
+		<text>Artificer Eagerness</text>
+	</string>
+	<string id="st_achievement_18_hint">
+		<text>La fabrication nécessite un ou deux composants en moins.</text>
+	</string>
+	<string id="st_achievement_18_descr">
+		<text>Fabriquer votre propre équipement a toujours été un processus valorisant, mais votre expérience accrue en la matière vous permet désormais d'utiliser vos composants avec une plus grande efficacité.</text>
+	</string>
+	<string id="st_achievement_18_unlock">
+		<text>Tu as débloqué le succès « Zèle de l'artificier ».</text>
+	</string>
+	
+	<string id="st_achievement_19_name">
+		<text>Unforeseen Guest</text>
+	</string>
+	<string id="st_achievement_19_hint">
+		<text>Tu as moins de risques d'éveiller les soupçons ou de te faire repérer quand tu es déguisé.</text>
+	</string>
+	<string id="st_achievement_19_descr">
+		<text>Vous vous êtes familiarisé avec les coutumes subtiles de vos ennemis, et vos déguisements sont désormais plus convaincants. Grâce à cela, vos diverses erreurs dans d'autres domaines sont plus susceptibles d'être ignorées, perçues comme de simples excentricités d'un invité discret et bien intentionné.</text>
+	</string>
+	<string id="st_achievement_19_unlock">
+		<text>Tu as débloqué le succès « Invité imprévu ».</text>
+	</string>
+	
+	<string id="st_achievement_20_name">
+		<text>Absolver</text>
+	</string>
+	<string id="st_achievement_20_hint">
+		<text>Tu as débloqué « Péché » comme faction jouable.</text>
+	</string>
+	<string id="st_achievement_20_descr">
+		<text>Lorsque les sombres stalkers de Péché ont émergé pour imposer leur vision au monde, vous leur avez résisté, offrant au monde une chance de se réorganiser sans la manipulation de la noosphère. </text>
+	</string>
+	<string id="st_achievement_20_unlock">
+		<text>Tu as débloqué le succès « Absolveur ».</text>
+	</string>
+	
+	<string id="st_achievement_21_name">
+		<text>Collaborator</text>
+	</string>
+	<string id="st_achievement_21_hint">
+		<text>Tu as débloqué « UNISG » comme faction jouable.</text>
+	</string>
+	<string id="st_achievement_21_descr">
+		<text>Quoi qu'il en soit, vous avez choisi votre camp et pris votre décision. Il est difficile de dire si vous aviez tort ou raison, mais vous l'avez fait.</text>
+	</string>
+	<string id="st_achievement_21_unlock">
+		<text>Tu as débloqué le succès « Collaborateur ».</text>
+	</string>
+	
+	<string id="st_achievement_22_name">
+		<text>Iron Curtain</text>
+	</string>
+	<string id="st_achievement_22_hint">
+		<text>Tu as reçu un bonus de 50 000 RU pour ta contribution à l'effort de guerre de ta faction.</text>
+	</string>
+	<string id="st_achievement_22_descr">
+		<text>Votre faction est devenue une force incontestable au sein de la Zone, au point que des groupes mineurs la considèrent comme une superpuissance locale. Les fruits de la guerre sont déjà partagés, et un dividende substantiel vous est revenu.</text>
+	</string>
+	<string id="st_achievement_22_unlock">
+		<text>Tu as débloqué le succès « Rideau de Fer ».</text>
+	</string>
+	
+	<string id="st_achievement_23_name">
+		<text>Murky Spirit</text>
+	</string>
+	<string id="st_achievement_23_hint">
+		<text>Ton grade a été grandement augmenté.</text>
+	</string>
+	<string id="st_achievement_23_descr">
+		<text>Vous avez survécu de manière remarquable à des événements qui auraient tué la plupart des stalkers à plusieurs reprises. Certains commencent à se demander si vous pouvez même être tué.</text>
+	</string>
+	<string id="st_achievement_23_unlock">
+		<text>Tu as débloqué le succès « Esprit Trouble ».</text>
+	</string>
+	
+	<string id="st_achievement_24_name">
+		<text>Invictus</text>
+	</string>
+	<string id="st_achievement_24_hint">
+		<text>Tu peux maintenant prendre une capture d'écran et te vanter de cet exploit auprès de tes potes stalkers.</text>
+	</string>
+	<string id="st_achievement_24_descr">
+		<text>En dépit des vicissitudes cruelles auxquelles vous avez été confronté, vous avez fait preuve d'un succès retentissant. Il ne reste plus rien dans la Zone pour vous défier, et il est peut-être temps de passer à des défis encore plus grands. </text>
+	</string>
+	<string id="st_achievement_24_unlock">
+		<text>Tu as débloqué le succès « Invictus ».</text>
+	</string>
+	
+</string_table>

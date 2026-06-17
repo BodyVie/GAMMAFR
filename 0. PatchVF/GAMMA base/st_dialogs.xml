@@ -1,0 +1,1972 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!-- Trading / Repair dialog -->
+	<string id="st_stalker_trade_dialog_init">
+		<text>T'as quelque chose à vendre? %c[d_orange][Échanger]</text>
+	</string>
+	<string id="st_stalker_trade_dialog_reply_1">
+		<text>Attends rien de fancy. Voici ce que j'ai.</text>
+	</string>
+	<string id="st_stalker_trade_dialog_reply_2">
+		<text>D'accord.</text>
+	</string>
+	<string id="st_stalker_trade_dialog_reply_3">
+		<text>Euh... bien sûr.</text>
+	</string>
+	<string id="st_stalker_trade_dialog_reply_no_1">
+		<text>Pas vraiment. Trouve quelqu'un d'autre.</text>
+	</string>
+	<string id="st_stalker_trade_dialog_reply_no_2">
+		<text>Désolé, je préfère garder mes affaires.</text>
+	</string>
+	
+	<string id="st_trader_dialog_init">
+		<text>Je veux acheter du matos. %c[d_orange][Trade]</text>
+	</string>
+	<string id="st_trader_dialog_reply_1">
+		<text>Bien sûr.</text>
+	</string>
+	<string id="st_trader_dialog_reply_2">
+		<text>Jette un oeil.</text>
+	</string>
+	<string id="st_trader_dialog_reply_3">
+		<text>Voilà ce que j'ai.</text>
+	</string>
+	
+	<string id="st_mechanic_dialog_init">
+		<text>Mon matos a besoin d'un petit réglage. %c[d_orange][Tutoriel]</text>
+	</string>
+	<string id="st_mechanic_dialog_reply_1">
+		<text>Je vois, montre-moi l’équipement... Et ton fric aussi.</text>
+	</string>
+	<string id="st_mechanic_dialog_reply_2">
+		<text>Encore de la merde à réparer ? Ça me va.</text>
+	</string>
+	<string id="st_mechanic_dialog_reply_3">
+		<text>Super, encore du boulot.</text>
+	</string>
+	
+	<string id="st_medic_dialog_init">
+		<text>Je veux acheter des fournitures médicales. %c[d_orange][Trade]</text>
+	</string>
+	<string id="st_medic_dialog_reply_1">
+		<text>J'suis à court de fournitures, mais j'ai ça.</text>
+	</string>
+	<string id="st_medic_dialog_reply_2">
+		<text>Merde, je vais bientôt être à sec... Enfin, tiens.</text>
+	</string>
+	<string id="st_medic_dialog_reply_3">
+		<text>D'accord, mais gaspille pas la marchandise.</text>
+	</string>
+	
+	<string id="st_bartender_dialog_init">
+		<text>T'as quoi à vendre? %c[d_orange][Échanger]</text>
+	</string>
+	<string id="st_bartender_dialog_reply_1">
+		<text>Bouffe, boissons, clopes... T'en veux quoi?</text>
+	</string>
+	<string id="st_bartender_dialog_reply_2">
+		<text>T'as la dalle ? J'ai exactement ce qu'il te faut...</text>
+	</string>
+	<string id="st_bartender_dialog_reply_3">
+		<text>Tu veux boire quoi aujourd’hui ? De la vodka ou de la Putinka ?</text>
+	</string>
+
+<!-- Selling important documents -->
+	<string id="st_trade_important_documents_0">
+		<text>J'ai trouvé des vieux documents, ça t'intéresse ?</text>
+	</string>
+	<string id="st_trade_important_documents_1">
+		<text>Bien sûr ! Voyons voir ce que t'as là.</text>
+	</string>
+	<string id="st_trade_important_documents_2">
+		<text>Tiens, jette un oeil.</text>
+	</string>
+	<string id="st_trade_important_documents_4">
+		<text>Marché conclu.</text>
+	</string>
+	<string id="st_trade_important_documents_5">
+		<text>Je pense que je vais les garder pour l'instant...</text>
+	</string>
+	<string id="st_trade_important_documents_7">
+		<text>Bon, d'accord.</text>
+	</string>
+	
+	<string id="st_trade_important_documents_ask_esc_m_trader">
+		<text>J'vais même pas te demander où t'as dégoté ça. Des documents comme ça, c'est exceptionnel. Presque tout le monde en tirerait profit... moi y compris. Je suis prêt à te les acheter maintenant pour %s RU, plus un petit quelque chose de mon stock. Ça te dit ?</text>
+	</string>
+	<string id="st_trade_important_documents_answer_esc_m_trader">
+		<text>Excellent ! Si tu trouves un truc dans le même genre, ramène-le-moi direct. Je m'assurerai que t'aies un petit quelque chose en échange... Hé hé.</text>
+	</string>
+	
+	<string id="st_trade_important_documents_ask_bar_visitors_barman_stalker_trader">
+		<text>Putain, mais... Bon, écoute bien. Ces documents valent vraiment le coup, ils contiennent des infos sur des expériences menées dans la Zone. Si j'étais toi, je ferais gaffe à pas les refiler aux mauvaises personnes. Voici une offre : %s RU, c'est un bon prix pour ces documents. Et je te couvrirai aussi pour d'autres trucs. Je peux t'arranger plus de thune si tu m'en ramènes d'autres. Alors, t'en penses quoi ?</text>
+	</string>
+	<string id="st_trade_important_documents_answer_bar_visitors_barman_stalker_trader">
+		<text>Super ! Tu sais où me trouver quand t'en auras d'autres.</text>
+	</string>
+	
+	<string id="st_trade_important_documents_ask_zat_b7_bandit_boss_sultan">
+		<text>Regarde-toi, petit héros courageux qui débarque avec ça comme par magie. Je vais être sympa aujourd'hui et laisser passer ces détails. Je connais des gens qui tueraient pour des documents comme ça, c'est quelque chose qui a été caché pendant des putains d'années, tu sais. %s RU, et je te conseille de bien réfléchir.</text>
+	</string>
+	<string id="st_trade_important_documents_answer_zat_b7_bandit_boss_sultan">
+		<text>Bien joué, gamin. La prochaine fois que tu « trouves » un truc comme ça, viens me voir.</text>
+	</string>
+	
+	<string id="st_trade_important_documents_ask_mar_smart_terrain_base_stalker_leader_marsh">
+		<text>Je suppose que ces documents contiennent des infos précieuses pour notre groupe. Malheureusement, les choses ne tournent pas très rond en ce moment, on vient à peine de se relever. Je peux t'offrir que %s RU, désolé, vieux.</text>
+	</string>
+	<string id="st_trade_important_documents_answer_mar_smart_terrain_base_stalker_leader_marsh">
+		<text>Merci ! Je comprends que ce que je viens de te donner est pas suffisant pour une info aussi précieuse. Je vais en parler à notre marchand, Dispute. Peut-être qu'il te réservera du matos en plus la prochaine fois que tu nous ramèneras des documents. Quand notre situation s'améliorera, je pourrai te payer bien plus pour ce genre d'infos, je te le promets !</text>
+	</string>
+	
+	<string id="st_trade_important_documents_ask_bar_dolg_leader">
+		<text>Intéressant... Procédons comme suit... %s RU, ce serait le bon prix. Sans compter que « Devoir » est pas au top de sa forme en ce moment. Grâce à ces documents, on pourra organiser les livraisons du matériel dont on a besoin. Je pense que t'y gagneras aussi quelque chose. T'es d'accord ?</text>
+	</string>
+	<string id="st_trade_important_documents_answer_bar_dolg_leader">
+		<text>Aujourd'hui, je vais entamer des négociations avec les militaires, je pense que ça prendra pas longtemps avant d'avoir des résultats. La prochaine fois que tu nous ramènes des documents comme ça, je te donnerai une récompense plus digne. Pour l'instant, prends ça, en gratitude de la part de « Devoir » !</text>
+	</string>
+	
+	<string id="st_trade_important_documents_ask_agr_smart_terrain_1_6_near_2_military_colonel_kovalski">
+		<text>Intéressant... Très intéressant. Je vais ignorer le fait que t'as soudainement trouvé ces documents tout seul. Bref, j'ai une meilleure idée, ou plutôt : une proposition commerciale. Alors, tu me refiles ces documents et tu oublies que t'as jamais rien vu. Si t'en trouves d'autres, tu me les apportes directement, sans intermédiaire, pigé ? Moi, de mon côté, je peux te payer en cash. %s RU par document. Alors, on est d'accord ?</text>
+	</string>
+	<string id="st_trade_important_documents_answer_agr_smart_terrain_1_6_near_2_military_colonel_kovalski">
+		<text>Bon, c'est d'accord. Pour l'instant, voici un peu d'argent de ma poche, pour pas te froisser.</text>
+	</string>
+	
+	<string id="st_trade_important_documents_ask_cit_killers_merc_trader_stalker">
+		<text>Vraiment divertissant... Des documents sur des expériences menées sur le territoire de la Zone... À l'époque des percées, certains de nos clients importants auraient offert des sommes fabuleuses pour les obtenir. Les temps ont changé, et on en a pas spécialement besoin dans cet état pitoyable, mais l'information reste suffisamment précieuse, hmm... Allez, je te les prends pour %s RU. Marché conclu ?</text>
+	</string>
+	<string id="st_trade_important_documents_answer_cit_killers_merc_trader_stalker">
+		<text>C'est bon. Si tu trouves le même genre de documents, ramène-les, sois pas timide.</text>
+	</string>
+	
+	<string id="st_trade_important_documents_ask_yan_stalker_sakharov">
+		<text>Vraiment très intéressant, tout ça ! Ces documents ne sont pas notre spécialité, mais leur contenu peut éclairer pas mal de nos recherches. En plus, j'ai aucun doute que nos sponsors seront extrêmement intéressés par leur possession, ce qui aura un impact très positif sur notre financement en retour. Tu veux conclure un accord spécial avec nous pour cette occasion ? Pour des documents comme ceux-ci, tu peux recevoir une récompense pécuniaire. Je peux t'arranger %s RU pour les documents que tu viens de me donner.</text>
+	</string>
+	<string id="st_trade_important_documents_answer_yan_stalker_sakharov">
+		<text>Merci ! J’suis ravi de notre nouvelle collaboration.</text>
+	</string>
+	
+	<string id="st_trade_important_documents_ask_mil_smart_terrain_7_7_freedom_leader_stalker">
+		<text>Ha, où t'as dégoté ces papiers ? Tu sais, ce genre d'infos peut tout faire basculer ! Je vais pas les planquer, c'est sûr. Si des expériences illégales ont eu lieu, les gens doivent connaître la vérité. Et « ça » entre tes mains, c'est juste le début. Je peux t'offrir %s RU. Et avant de refuser, réfléchis-y : aujourd'hui, tu fais une bonne action, et demain, ça te reviendra en triple.</text>
+	</string>
+	<string id="st_trade_important_documents_answer_mil_smart_terrain_7_7_freedom_leader_stalker">
+		<text>Parfait ! Si tu tombes sur autre chose qui peut nous aider, je t'en serai très reconnaissant.</text>
+	</string>
+	
+	
+<!-- Swap items with Companions -->
+	<string id="st_companion_inv_show_gui">
+		<text>Je dois gérer les objets que vous transportez.</text>
+	</string>
+	<string id="st_companion_inv_take_all_my_items">
+		<text>Je requiers que vous transportiez mon butin.</text>
+	</string>
+	<string id="st_companion_inv_take_all_my_items_dummy"> <!-- NPC will refuse -->
+		<text>Je dois vous confier le transport de mon butin.</text>
+	</string>
+	<string id="st_companion_inv_take_all_my_items_response_accept_1">
+		<text>Bien sûr, prévenez-moi lorsque vous souhaiterez récupérer vos affaires.</text>
+	</string>
+	<string id="st_companion_inv_take_all_my_items_response_accept_2">
+		<text>Vous me faites porter les objets les plus lourds, n'est-ce pas ? Très bien, dans ce cas.</text>
+	</string>
+	<string id="st_companion_inv_take_all_my_items_response_refuse_1">
+		<text>Attendez, j'ai également mes propres affaires ! Je ne peux pas transporter tous vos objets encombrants en une seule fois !</text>
+	</string>
+	<string id="st_companion_inv_take_all_my_items_response_refuse_2">
+		<text>Désolé, mais mon sac à dos est déjà plein.</text>
+	</string>
+	<string id="st_companion_inv_take_all_my_items_response_refuse_3">
+		<text>Suis-je une mule ? Allons, mon sac à dos est déjà sur le point d'éclater !</text>
+	</string>
+	<string id="st_companion_inv_give_me_back_all_items">
+		<text>C'est à mon tour de servir de bête de somme. Pouvez-vous me transmettre le butin ?</text>
+	</string>
+	<string id="st_companion_inv_give_me_back_all_items_response">
+		<text>Voici, je vous le remets.</text>
+	</string>
+
+<!-- Paid Companions -->
+	<string id="st_paid_companion_dialog_text_0">
+		<text>Je cherche un groupe d'escorte, ça t'intéresse ?</text>
+	</string>
+	<string id="st_paid_companion_dialog_text_1">
+		<text>Pour un paiement d'avance, je te protège. Je veux %s pour t'accompagner 24 heures, %s pour 48 heures. Attention, si tu vas dans certains labos ou zones contrôlées par le Monolithe, t'es tout seul, pigé ?</text>
+	</string>
+	<string id="st_paid_companion_dialog_text_2">
+		<text>Désolé, on a déjà d'autres boulots.</text>
+	</string>
+	<string id="st_paid_companion_dialog_text_3">
+		<text>24 heures, c'est tout ce qu'il me faut %c[d_orange][%s RU].</text>
+	</string>
+	<string id="st_paid_companion_dialog_text_4">
+		<text>D'accord, deux jours %c[d_orange][%s RU].</text>
+	</string>
+	<string id="st_paid_companion_dialog_text_5">
+		<text>En fait... j'ai changé d'avis.</text>
+	</string>
+	<string id="st_paid_companion_dialog_text_6">
+		<text>On y va.</text>
+	</string>
+	<string id="st_paid_companion_dialog_text_7">
+		<text>On y va.</text>
+	</string>
+	<string id="st_paid_companion_dialog_text_8">
+		<text>D'accord, alors.</text>
+	</string>
+	<string id="st_paid_companion_dialog_text_9">
+		<text>D'accord.</text>
+	</string>
+	<string id="st_paid_companion_contract_timeout_1">
+		<text>Le contrat est terminé. T'es livré à toi-même maintenant, reste prudent.</text>
+	</string>
+	<string id="st_paid_companion_contract_timeout_2">
+		<text>J'ai rempli ma mission, je rentre. Fais gaffe à toi.</text>
+	</string>
+	<string id="st_paid_companion_danger_1">
+		<text>C'est pas ce qu'on avait convenu. Désolé, mais j'ai pas envie de me suicider aujourd'hui. L'affaire est classée.</text>
+	</string>
+	<string id="st_paid_companion_danger_2">
+		<text>Sérieux ?! Qu'est-ce que je t'ai dit quand t'as accepté mon aide ? J'vais pas dans ces coins-là, j'me casse.</text>
+	</string>
+
+<!-- Medic general -->
+	<string id="st_dm_medic_general_text_0">
+		<text>J'ai besoin d'assistance médicale.</text>
+	</string>
+	<string id="st_dm_medic_general_text_1_0">
+		<text>Je peux soigner toutes tes blessures pour 1 850 RU. J'ai un sérum spécial qui te remettra sur pied en un rien de temps. Sauf si t'es irradié - ça, le sérum peut pas le réparer. Par contre, je peux te débarrasser de toute cette merde radioactive avec un autre traitement pour 1 480 RU. Alors, t'as décidé ?</text>
+	</string>
+	<string id="st_dm_medic_general_text_1_1">
+		<text>Ah, bien sûr, t'arrives même pas à rester entier. Voyons voir...</text>
+	</string>
+	<string id="st_dm_medic_general_text_1_2">
+		<text>Hein ? Ouais, viens par ici.</text>
+	</string>
+	<string id="st_dm_medic_general_text_1_3">
+		<text>Ouais, je peux te dépanner... mais ça se paie.</text>
+	</string>
+	<string id="st_dm_medic_general_text_10_0">
+		<text>T'as pas de blessures ni de signes de maladie des radiations. T'es bon pour y aller.</text>
+	</string>
+	<string id="st_dm_medic_general_text_10_1">
+		<text>Je vais jeter un oeil... Hmm... T'as l'air en forme, moi.</text>
+	</string>
+	<string id="st_dm_medic_general_text_10_2">
+		<text>Hmm... Bras et jambes intacts... la tête est en place... Ouais, t'es bon.</text>
+	</string>
+	<string id="st_dm_medic_general_text_10_3">
+		<text>Mec, t'es en meilleure forme qu'un bloodsucker.</text>
+	</string>
+	<string id="st_dm_medic_general_text_10_4">
+		<text>Arrête tes conneries. T'es bon.</text>
+	</string>
+	<string id="st_dm_medic_general_text_2">
+		<text>Soigne mes blessures. %c[d_orange][1,850 RU]</text>
+	</string>
+	<string id="st_dm_medic_general_text_3">
+		<text>Sors-moi cette radioactivité. %c[d_orange][1,480 RU]</text>
+	</string>
+	<string id="st_dm_medic_general_text_4">
+		<text>Putain, faut que je sois en forme. %c[d_orange][3,350 RU]</text>
+	</string>
+	<string id="st_dm_medic_general_text_5">
+		<text>Tu sais quoi, Doc ? Soigne-toi toi-même !</text>
+	</string>
+	
+	<string id="st_dm_medic_general_text_6">
+		<text>Tiens, et fais gaffe la prochaine fois.</text>
+	</string>
+	<string id="st_dm_medic_general_text_7">
+		<text>Comme tu veux.</text>
+	</string>
+
+
+<!-- Unlock PDAs -->
+	<string id="st_encrypted_pda_text_0">
+		<text>J'ai un PDA crypté, il réagit pas. Tu peux me le débloquer ?</text>
+	</string>
+	<string id="st_encrypted_pda_text_1">
+		<text>Si t'es prêt à casquer, bien sûr. 500 RU pour chaque PDA que je peux déverrouiller.</text>
+	</string>
+	<string id="st_encrypted_pda_text_2">
+		<text>Ça me va, tiens.</text>
+	</string>
+	<string id="st_encrypted_pda_text_3">
+		<text>Laisse tomber...</text>
+	</string>
+	<string id="st_encrypted_pda_text_4">
+		<text>Tiens, tu peux t'en servir maintenant. Amuse-toi bien.</text>
+	</string>
+	<string id="st_encrypted_pda_text_5">
+		<text>D'accord, alors.</text>
+	</string>
+	
+	
+<!-- Faction bribe -->
+	<string id="st_bribe_text_0">
+		<text>T'as des contacts, non ? Tu peux m'aider à régler un truc avec des mecs ?</text>
+	</string>
+	<string id="st_bribe_text_1">
+		<text>Peut-être. T'as énervé qui, cette fois ?</text>
+	</string>
+	
+	<string id="st_bribe_text_2">
+		<text>Je veux que les militaires ukrainiens dans le coin me foutent la paix.</text>
+	</string>
+	<string id="st_bribe_text_21">
+		<text>Hmm. Écoute, je peux faire forger des papiers temporaires par un de leurs officiers. 5 000 RU devraient suffire pour graisser la patte et obtenir un laissez-passer de deux jours. 10 000 RU pour quatre jours. Ils te tireront pas dessus à vue tant que le laissez-passer est valide, mais je te conseille quand même de pas trop tenter le diable avec eux.</text>
+	</string>
+	
+	<string id="st_bribe_text_3">
+		<text>Je veux que les hommes de Sultan arrêtent de me faire chier.</text>
+	</string>
+	<string id="st_bribe_text_31">
+		<text>S'arrêter ? Ils s'arrêteront jamais, mais ils pourraient t'ignorer un moment si tu leur épargnes la peine de te plumer. 5000 RU devraient les calmer deux jours, 10 000 RU pour quatre. Alors, tu choisis quoi ?</text>
+	</string>
+	
+	<string id="st_bribe_text_4">
+		<text>J'ai fait mauvaise impression auprès de Firmament et je veux leur montrer que j'ai pas de mauvaises intentions.</text>
+	</string>
+	<string id="st_bribe_text_41">
+		<text>J'arrive pas à imaginer ce que t'as bien pu faire pour énerver des mecs des marais. Enfin, bref, 5000 RU devraient suffire à les mettre de meilleure humeur pour un jour ou deux, et 10 000 RU, pour les détendre un peu pendant quatre.</text>
+	</string>
+	
+	<string id="st_bribe_text_5">
+		<text>Le Devoir me colle aux basques et j'veux qu'ils lâchent l'affaire.</text>
+	</string>
+	<string id="st_bribe_text_51">
+		<text>Malgré leurs grands idéaux de 'justice' et d''ordre', ils sont pas contre fermer les yeux sur les soi-disant 'anarchistes et criminels' si tu les paies. 5000 RU devraient les apaiser deux jours, 10 000 RU pour quatre.</text>
+	</string>
+	
+	<string id="st_bribe_text_6">
+		<text>Y'a un malentendu que j'aimerais régler avec les Scientifiques... et leurs gardes.</text>
+	</string>
+	<string id="st_bribe_text_61">
+		<text>Ça devrait être facile de convaincre les Scientifiques, ouais. Avec 5 000 RU, tu peux t'arranger pour un jour ou deux. 10 000 RU pour quatre jours.</text>
+	</string>
+	
+	<string id="st_bribe_text_7">
+		<text>J'ai énervé Liberté.</text>
+	</string>
+	<string id="st_bribe_text_71">
+		<text>Liberté ? Espèce de putain de fasciste. Je déconne, je déconne. 5000 RU devraient les faire t'ignorer un jour ou deux, 10000 RU pour quatre jours.</text>
+	</string>
+	
+	<string id="st_bribe_text_8">
+		<text>Les Mercenaires. On dirait qu'y a un contrat sur ma tête.</text>
+	</string>
+	<string id="st_bribe_text_81">
+		<text>T'en as probablement. Heureusement, ils vivent pour le fric. 5000 RU pourraient les acheter pour un jour ou deux, 10000 RU pour quatre jours.</text>
+	</string>
+	
+	<string id="st_bribe_text_9">
+		<text>Un Stalkers libre. J'ai réussi à me faire une sale réputation chez eux, d'une façon ou d'une autre.</text>
+	</string>
+	<string id="st_bribe_text_91">
+		<text>D'accord... attends, *tous* ? Wow, t'as vraiment le chic pour te faire des potes, hein ? Je peux les convaincre de te laisser tranquille deux jours si tu paies 5000 RU. Quatre jours, 10 000 RU. Marché conclu ?</text>
+	</string>
+	
+	<string id="st_bribe_text_13">
+		<text>Tiens, deux jours devraient suffire.</text>
+	</string>
+	<string id="st_bribe_text_14">
+		<text>Bon, faisons ça en quatre jours.</text>
+	</string>
+	
+	<string id="st_bribe_text_10">
+		<text>J'ai changé d'avis.</text>
+	</string>
+	<string id="st_bribe_text_11">
+		<text>D'accord.</text>
+	</string>
+	<string id="st_bribe_text_12">
+		<text>Je vais les contacter pour régler ça, alors termine ton affaire avant qu'ils changent d'avis. Et rappelle-toi : garde tes distances. Si tu t'approches trop, ils agiront.</text>
+	</string>
+	
+<!-- Guide Job -->
+	<string id="st_jg_1">
+		<text>J'ai reçu ton message. Besoin d'un guide ?</text>
+	</string>
+	<string id="st_jg_1_alt">
+		<text>Pour le boulot...</text>
+	</string>
+	<string id="st_jg_2">
+		<text>Ouais, t'es prêt à aider ?</text>
+	</string>
+	<string id="st_jg_2_alt">
+		<text>Qu'est-ce que c'est ?</text>
+	</string>
+	<string id="st_jg_3">
+		<text>Donne-moi des détails.</text>
+	</string>
+	<string id="st_jg_4">
+		<text>D'accord, on y va.</text>
+	</string>
+	<string id="st_jg_5">
+		<text>Ouvre la marche, stalker ! Quand on sera arrivé où je dois aller, parle-moi encore et je te filerai ton paiement.</text>
+	</string>
+	<string id="st_jg_6">
+		<text>Désolé, mais t'as pas les moyens de me payer si le plan foire.</text>
+	</string>
+	<string id="st_jg_mlr_1">
+		<text>J’sais même pas qui t’es. Non merci, stalker.</text>
+	</string>
+	<string id="st_jg_7">
+		<text>Rappelle-moi, on va où déjà ?</text>
+	</string>
+	<string id="st_jg_8">
+		<text>On y est.</text>
+	</string>
+	<string id="st_jg_9">
+		<text>Enfin ! Merci, stalker, bon boulot. Tiens, ton fric.</text>
+	</string>
+	<string id="st_jg_10">
+		<text>J’ai changé d’avis. Je préfère annuler le boulot.</text>
+	</string>
+	<string id="st_jg_11">
+		<text>Vraiment 0? T'es sûr de ça 0?</text>
+	</string>
+	<string id="st_jg_12">
+		<text>Ouais, j'suis sûr.</text>
+	</string>
+	<string id="st_jg_13">
+		<text>En fait, laisse tomber.</text>
+	</string>
+	<string id="st_jg_14">
+		<text>Je cherche un stalker expérimenté qui peut me guider jusqu'à %s. Là, je suis %s. Moi, c'est %s.</text>
+	</string>
+	<string id="st_jg_15">
+		<text>On est arrivés trop tard. Désolé, mais c'était pas le deal, tu toucheras pas le paiement complet.</text>
+	</string>
+	<string id="st_jg_16">
+		<text>Voilà le deal : dans %s heures, je dois être %s. Je peux te payer %s roubles pour le boulot, mais sache que tu toucheras pas la totalité si on arrive pas à temps.</text>
+	</string>
+	<string id="st_jg_17">
+		<text>Il faut que je sois</text>
+	</string>
+	<string id="st_jg_18">
+		<text>Alors je continue seul, et je garde le fric. Quelle honte.</text>
+	</string>
+	<string id="st_jg_19">
+		<text>Longueur, point de départ et destination inclus :</text>
+	</string>
+	<string id="st_jg_29">
+		<text>Un stalker doit être</text>
+	</string>
+	
+	<string id="st_jg_cancel_1">
+		<text>Super. Merci pour rien.</text>
+	</string>
+	<string id="st_jg_cancel_2">
+		<text>Quelle honte.</text>
+	</string>
+	<string id="st_jg_cancel_3">
+		<text>Merci de m'avoir fait perdre mon temps.</text>
+	</string>
+	
+<!-- Debt / Loan -->
+	<string id="debt_register_0">
+		<text>%s, tu peux me filer un peu de thune ?</text>
+	</string>
+	<string id="debt_register_1">
+		<text>T'as probablement besoin de thune pour une bonne raison... mais moi aussi. Tu me rendras cinquante pour cent du montant en plus de la somme elle-même, et n'oublie pas que mon matos sera pas dispo pour toi tant que t'auras pas remboursé ta dette.</text>
+	</string>
+	<string id="debt_register_2">
+		<text>J'ai juste besoin de %c[d_orange][5 000 RU].</text>
+	</string>
+	<string id="debt_register_3">
+		<text>OK, file-moi %c[d_orange][10 000 RU].</text>
+	</string>
+	<string id="debt_register_4">
+		<text>Je veux %c[d_orange]15 000 RU.</text>
+	</string>
+	<string id="debt_register_5">
+		<text>Ça me va. Je prends %c[d_orange][20,000 RU].</text>
+	</string>
+	<string id="debt_register_6">
+		<text>Laisse tomber...</text>
+	</string>
+	<string id="debt_register_7">
+		<text>La seule raison pour laquelle je te permets ça, c'est parce que j'ai entendu dire que t'avais été utile. J'espère que t'es digne de confiance aussi. Tiens. Je veux %c[d_orange][%s RU]%c[255,160,160,190] la prochaine fois que tu te pointes ici.</text>
+	</string>
+	<string id="debt_register_8">
+		<text>D'accord.</text>
+	</string>
+	<string id="debt_register_10">
+		<text>Je dois balancer du fric à chaque fois qu'un pauvre type se pointe ici ? La réponse, c'est non.</text>
+	</string>
+	
+	<string id="debt_pay_off_0">
+		<text>Pour l'argent que je te dois...</text>
+	</string>
+	<string id="debt_pay_off_1">
+		<text>Tu comptes rembourser ta dette ou quoi ?</text>
+	</string>
+	<string id="debt_pay_off_2">
+		<text>Bien sûr, tiens ton fric %c[d_orange][%s RU].</text>
+	</string>
+	<string id="debt_pay_off_3">
+		<text>Euh... J'suis encore dessus.</text>
+	</string>
+	<string id="debt_pay_off_4">
+		<text>Super, ton compte est clean maintenant.</text>
+	</string>
+	<string id="debt_pay_off_5">
+		<text>T'as intérêt à te magner.</text>
+	</string>
+	
+	<string id="st_debt_no_trade_1">
+		<text>J'crois pas, non. T'as une dette, tu te souviens ? T'as intérêt à la rembourser vite.</text>
+	</string>
+
+<!-- purchase extra equipment -->
+	<string id="buy_extra_items_0">
+		<text>T'as des offres spéciales ?</text>
+	</string>
+	<string id="buy_extra_items_1">
+		<text>T'as quelque chose à dire ?</text>
+	</string>
+	<string id="buy_extra_items_2">
+		<text>J'aimerais acheter du matos en plus.</text>
+	</string>
+	<string id="buy_extra_items_3">
+		<text>C'est tout à fait possible, mais pour l'instant, personne voudra te vendre quoi que ce soit en plus. Faut d'abord gagner un peu de confiance et d'expérience, et après, tu pourras acheter du matos en gros.</text>
+	</string>
+	<string id="buy_extra_items_4">
+		<text>J'aimerais acheter du matos en plus.</text>
+	</string>
+	<string id="buy_extra_items_5">
+		<text>T'es intéressé par quoi ?</text>
+	</string>
+		<string id="buy_extra_items_6">
+			<text>Fournitures médicales.</text>
+		</string>
+		<string id="buy_extra_items_7">
+			<text>Provisions.</text>
+		</string>
+		<string id="buy_extra_items_8">
+			<text>Munitions.</text>
+		</string>
+		<string id="buy_extra_items_9">
+			<text>Choisis.</text>
+		</string>
+		<string id="buy_extra_items_10">
+			<text>Choisis.</text>
+		</string>
+		<string id="buy_extra_items_11">
+			<text>Choisis.</text>
+		</string>
+	<string id="buy_extra_items_12">
+		<text>J'ai changé d'avis.</text>
+	</string>
+	
+	<string id="buy_extra_items_txt">
+		<text>%s %c[d_orange][%s RU]</text>
+	</string>
+
+
+<!-- Purchase routes -->
+	<string id="st_buy_route_0">
+		<text>J'aimerais acheter des infos sur les routes cachées.</text>
+	</string>
+	<string id="st_buy_route_1">
+		<text>J'ai des infos, oui.\nHuit mille roubles, c'est le prix habituel pour la plupart des zones et des endroits, dix mille pour les points sensibles et douze mille pour les infos sur les passages secrets.\nSi ça t'intéresse, je peux te filer des renseignements sur des itinéraires « secrets » précis. Quarante mille roubles, pas un kopeck de moins.</text>
+	</string>
+	<string id="st_buy_route_2">
+		<text>C'est un peu cher pour moi.</text>
+	</string>
+	<string id="st_buy_route_3">
+		<text>Pas mon problème, reviens quand t'auras les couilles de t'y mettre.</text>
+	</string>
+	<string id="st_buy_route_4">
+		<text>Tiens.</text>
+	</string>
+	<string id="st_buy_route_dialog">
+		<text>%c[255,160,160,190]•%c[255,220,220,220] %s - %s pour %c[255,160,160,190][%s RU]</text>
+	</string>
+	
+	<string id="st_route_open_title">
+		<text>Renseignements sur les routes</text>
+	</string>
+	<string id="st_route_open_msg">
+		<text>%c[255,160,160,190]Un nouveau chemin a été découvert entre %c[255,220,220,220](%s)%c[255,160,160,190] et %c[255,220,220,220](%s)</text>
+	</string>
+	<string id="st_route_unknown">
+		<text>Chemin inconnu</text>
+	</string>
+
+	<string id="st_route_aes1">
+		<text>CNPP Sud</text>
+	</string>
+	<string id="st_route_aes2">
+		<text>CNPP Nord</text>
+	</string>
+	<string id="st_route_agr">
+		<text>Agroprom</text>
+	</string>
+	<string id="st_route_bar">
+		<text>Rostok</text>
+	</string>
+	<string id="st_route_cit">
+		<text>Ville morte</text>
+	</string>
+	<string id="st_route_dsc">
+		<text>Darkscape</text>
+	</string>
+	<string id="st_route_esc">
+		<text>le Cordon</text>
+	</string>
+	<string id="st_route_gar">
+		<text>la Décharge</text>
+	</string>
+	<string id="st_route_gen">
+		<text>Générateurs</text>
+	</string>
+	<string id="st_route_jup">
+		<text>Jupiter</text>
+	</string>
+	<string id="st_route_kat">
+		<text>Hôpital abandonné</text>
+	</string>
+	<string id="st_route_lim">
+		<text>Limansk</text>
+	</string>
+	<string id="st_route_mar">
+		<text>le Grand marais</text>
+	</string>
+	<string id="st_route_mil">
+		<text>les Entrepôts de l'armée</text>
+	</string>
+	<string id="st_route_out">
+		<text>Périphérie</text>
+	</string>
+	<string id="st_route_pol">
+		<text>Prairie</text>
+	</string>
+	<string id="st_route_pri">
+		<text>Pripyat</text>
+	</string>
+	<string id="st_route_rad">
+		<text>le Radar</text>
+	</string>
+	<string id="st_route_red">
+		<text>la Forêt Rouge</text>
+	</string>
+	<string id="st_route_ros">
+		<text>le Territoire sauvage</text>
+	</string>
+	<string id="st_route_trc">
+		<text>le Cimetière de véhicules</text>
+	</string>
+	<string id="st_route_val">
+		<text>la Vallée Obscure</text>
+	</string>
+	<string id="st_route_yan">
+		<text>Yantar</text>
+	</string>
+	<string id="st_route_zat">
+		<text>Zaton</text>
+	</string>
+	<string id="st_route_x8">
+		<text>Labo X-8</text>
+	</string>
+	<string id="st_route_x16">
+		<text>Laboratoire X-16</text>
+	</string>
+	<string id="st_route_x18">
+		<text>Laboratoire X-18</text>
+	</string>
+	<string id="st_route_x19">
+		<text>Laboratoire X-19</text>
+	</string>
+	<string id="st_route_mar_h">
+		<text>Chemin caché de Firmament</text>
+	</string>
+	<string id="st_route_agr_u">
+		<text>les Souterrains d'agroprom</text>
+	</string>
+	<string id="st_route_jup_u">
+		<text>Souterrains de jupiter</text>
+	</string>
+	<string id="st_route_sar">
+		<text>le Sarcophage</text>
+	</string>
+	<string id="st_route_s_lab">
+		<text>Centre du QG du Monolithe</text>
+	</string>
+	<string id="st_route_w_lab">
+		<text>Labo de guerre Monolithe</text>
+	</string>
+	
+	<!-- Travel - unused -->
+	<string id="ka_travel_dialog_ask">
+		<text>J'ai besoin d'aller quelque part... T'es capable de m'arranger ça ?</text>
+	</string>
+	<string id="ka_travel_dialog_response">
+		<text>Bien sûr. Où veux-tu aller ?</text>
+	</string>
+	<string id="ka_travel_dialog_nevermind">
+		<text>Laisse tomber.</text>
+	</string>
+	<string id="ka_travel_dialog_accept">
+		<text>Ça a l'air top.</text>
+	</string>
+	<string id="ka_travel_dialog_change">
+		<text>En fait, je dois aller ailleurs...</text>
+	</string>
+	<string id="ka_travel_dialog_deny">
+		<text>C'est trop cher.</text>
+	</string>
+	<string id="ka_travel_dialog_cost">
+		<text>Ça va te coûter %s roubles.</text>
+	</string>
+	
+	<string id="ka_travel_dialog_zaton">
+		<text>Le Skadovsk à Zaton.</text>
+	</string>
+	<string id="ka_travel_dialog_jupiter">
+		<text>La station Yanov dans Jupiter.</text>
+	</string>
+	<string id="ka_travel_dialog_yantar">
+		<text>Le labo scientifique dans Yantar.</text>
+	</string>
+	<string id="ka_travel_dialog_cordon">
+		<text>Le village des recrues dans le Cordon.</text>
+	</string>
+	<string id="ka_travel_dialog_bar">
+		<text>Le Bar à Rostok.</text>
+	</string>
+	<string id="ka_travel_dialog_warehouses">
+		<text>La base de Liberté aux entrepôts de l'armée.</text>
+	</string>
+	<string id="ka_travel_dialog_city">
+		<text>La base des mercenaires dans la Ville morte.</text>
+	</string>
+	<string id="ka_travel_dialog_agroprom">
+		<text>La base militaire dans Agroprom.</text>
+	</string>
+	<string id="ka_travel_dialog_swamp">
+		<text>La base de Firmament dans le Grand marais.</text>
+	</string>
+	
+	<!-- About Quests Bandit -->
+	<string id="about_quests_dialog_bandit_0">
+		<text>T'as entendu des nouvelles dans le coin, récemment ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_1">
+		<text>Comme quoi ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_10">
+		<text>T'en penses quoi, de Nimble 0?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_101">
+		<text>Rapide ? Je pense qu'un de ces jours, on va coincer ce petit malin dans un coin tranquille !</text>
+	</string>
+	<string id="about_quests_dialog_bandit_11">
+		<text>T'as entendu parler de l'Oasis, toi ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_111">
+		<text>Ben, j'ai entendu une histoire marrante une fois. En gros, les mecs de la Décharge ont lancé une rumeur sur l'emplacement de l'Oasis, et ils l'ont rendue super crédible. Ensuite, ils sont allés à cet endroit et ont attendu. Alors, qu'est-ce que je peux dire ? Tellement de gogos se sont pointés pour partager leurs affaires que les mecs qui avaient lancé le bobard ont quitté la Zone peu après. Et pourquoi pas ? Ils étaient parés pour la vie. Un seul est resté, un certain Yoga...</text>
+	</string>
+	<string id="about_quests_dialog_bandit_112">
+		<text>Que si t'y vas, tous tes problèmes seront réglés... J'imagine que ça doit être pratique - plus de gueules de bois ni d'hémorroïdes, ça doit faire du bien ! Trouve-le, monte un resort et fais-toi un paquet de thune.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_113">
+		<text>Pourquoi j'me casserais la tête à écouter ces conneries ? Tout ça, c'est que du baratin pour losers... Les vrais mecs croient pas à ces salades. Tu vois, t'es assis dans un bar avec une binouze bien fraîche à la main, et les stalkers autour de toi déblatèrent sur l'Oasis, chacun jurant connaître l'endroit... Sauf que bizarrement, ça change à chaque fois. Putain, mais quel ramassis de gogos...</text>
+	</string>
+	<string id="about_quests_dialog_bandit_12">
+		<text>T'as déjà croisé un stalker qui s'appelle Pie ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_121">
+		<text>Carrément... Un coup d'oeil et j'ai tout de suite vu que c'était un vrai pigeon, et après j'ai entendu des stalkers dire qu'il était qu'une raclure, en plus. Mais où il est, ça... Faut que tu le trouves toi-même si tu le cherches.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_122">
+		<text>Nan... Première fois que j'entends ce nom, mon pote.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_13">
+		<text>Tu sais qui aurait pu piquer des trucs dans une boîte perso ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_131">
+		<text>Un rat. À mon avis, t'as intérêt à demander aux chefs de Yanov, ils sont connus pour en chasser.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_14">
+		<text>Qui pourrait m’aider à décrypter un truc ici ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_141">
+		<text>Ben, j'ai entendu dire que Nitro à Yanov est bon. Apparemment, à l'époque où il bossait pas encore pour le Devoir, les gars lui faisaient cracker des stalkers PDA deux ou trois fois... Ah, les bons vieux jours...</text>
+	</string>
+	<string id="about_quests_dialog_bandit_143">
+		<text>Fais pas ton scientifique avec moi, chef. Pour ce genre de merde, t'as besoin d'un hacker. Quand j'étais en taule, j'en ai connu un, mais c'est le seul que je connaisse. Quand je suis sorti, il lui restait encore cinq ans à tirer...</text>
+	</string>
+	<string id="about_quests_dialog_bandit_15">
+		<text>J'ai le PDA du marchand Devoir. Tu connais quelqu'un qui serait intéressé ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_151">
+		<text>Y'a un marchand au Skadovsk qui s'appelle Hibou. Il paie plutôt bien et les gars lui refilent des stalkers PDA de temps en temps. Il pose pas trop de questions non plus, donc tout baigne.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_152">
+		<text>N'importe qui, mon pote. Réfléchis : sa propre faction va l'enterrer vivant, les autres factions vont faire un foin de tous les diables, mais Hibou, à Zaton, il fera disparaître ce PDA comme par magie. Le seul problème, c'est que seul Hibou sait où ce PDA va réapparaître plus tard... À toi de voir.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_16">
+		<text>Où est-ce que je peux trouver des outils dans le coin ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_165">
+		<text>Bon, si t'as besoin d'outils chirurgicaux, cherche dans les hôpitaux et les postes de secours. Si c'est des outils de construction, vérifie près de la carrière à Jupiter. Et si c'est des petits outils, fouille les vieux ateliers.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_166">
+		<text>Comment veux-tu que j'sache ? J'ai pas besoin d'outils pour faire cracher les stalkers, au cas où tu saurais pas... Relax, je déconne.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_17">
+		<text>Qui peut débloquer un module mémoire 0?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_171">
+		<text>Bonne question ! Enfin, c'est ma spécialité, non ? Hah ! T'es con ou quoi, mon pote ? Ça sera soit des techniciens, soit des scientifiques... Tu crois vraiment que je touche à ce genre de merde, moi ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_172">
+		<text>Je vais être honnête avec toi : la dernière fois que j'ai débloqué des modules de mémoire, c'était à l'école, et le module en question, c'était une putain de disquette. Va voir les experts et fais-leur chier avec ça.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_18">
+		<text>Qui pourrait bien forcer un conteneur en acier ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_181">
+		<text>Tu connais Cardan, à Skadovsk ? Bon, il s'est mis minable l'autre jour et s'est mis à courser un connard dans le coin avec un pied-de-biche. Moi je dis que Cardan pourrait utiliser ce pied-de-biche pour des trucs plus utiles, genre forcer des trucs si t'as besoin.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_182">
+		<text>Ben, avec les bons outils, même moi je pourrais le faire, mais qui trimballerait du matos dans la Zone ? Va voir les techniciens, mon pote - ils sont doués pour ce genre de trucs.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_19">
+		<text>Je cherche un stalker qui s'appelle Snag. Tu sais où je peux le trouver ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_191">
+		<text>Qui sait ? Demande à Sultan au Skadovsk. Le patron sait généralement où se trouvent tous les pigeons.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_193">
+		<text>Ouais, j'ai entendu parler de ce loser. D'habitude, il traîne du côté de Zaton, alors tu le trouveras pas ici.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_2">
+		<text>Tu sais quelque chose sur les hélicos qui se sont crashés ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_20">
+		<text>Qui pourrait être intéressé par des infos sur le fondateur du Devoir ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_201">
+		<text>J'connais personne qui serait pas intéressé ! C'est une info explosive, mon pote, alors ton meilleur plan, c'est de passer par Hibou à Skadovsk - comme ça, tu te fais un peu de thune sans te faire d'ennemis.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_22">
+		<text>Non. Réfléchis deux secondes : j'ai Devoir à gauche, Liberté à droite et un stalkers au cul - et tu veux que je mate le ciel ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_23">
+		<text>Ben, les gars disent en avoir repéré un qui se balançait sur les câbles dans la Forêt de Fer, mais t'en verras bien d'autres là-bas... T'es sûr de vouloir y aller ? T'as toutes les chances de tomber sur une anomalie ou de te faire défoncer le crâne par un poltergeist.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_24">
+		<text>Ouais, des gars en ont vu un s'écraser sur un plateau, mais le problème, c'est qu'y a aucun moyen d'y monter... Ils ont dit qu'il volait tellement bizarrement que le pilote avait dû s'enfiler un truc ou je sais pas quoi.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_26">
+		<text>J'ai entendu dire qu'un hélico s'est crashé direct dans l'eau du marais. Il s'est échoué assez vite et l'eau là-bas est pas vraiment bonne pour la santé - poison, produits chimiques et tout le bordel.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_3">
+		<text>T'as repéré des militaires dans le coin ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_30">
+		<text>Qui pourrait bien s'intéresser aux cartes de la zone entre Zaton et Jupiter ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_301">
+		<text>Le Pilote, je dirais - c'est le guide principal dans le secteur. Ce serait bien s'il avait des cartes au lieu de se fier aux étoiles comme il fait maintenant...</text>
+	</string>
+	<string id="about_quests_dialog_bandit_31">
+		<text>Les gars ont dit qu'un détachement de l'armée a descendu le plateau sud direct vers le camp des mercenaires. Ils ont pensé que ça allait péter, alors ils se sont cassés en vitesse.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_32">
+		<text>J'ai entendu cette histoire comme quoi les cafards de l'armée essayaient de récupérer un truc dans leur hélico crashé dans le marais. Imagine un peu, cinq mecs en uniforme à patauger dans la boue en essayant de pas se mouiller...</text>
+	</string>
+	<string id="about_quests_dialog_bandit_33">
+		<text>Un type m'a raconté qu'il suivait un stalker pour choper un bout de son butin quand il a entendu des coups de feu et tout le bordel. En fait, c'était l'armée qui se battait contre les mercs. Il s'est planqué et a attendu que la fusillade se termine, mais à ce moment-là, le stalker s'était barré. Pas de bol, hein ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_34">
+		<text>Ben, un pote m'a raconté une scène plutôt marrante. Imagine la barge avec un moulin dessus et Noah qui jacte à côté, tout excité et tout, et dix mecs de l'armée qui essaient de se tenir le plus loin possible du chien de Noah. Mon pote, il s'est bien marré et il a laissé le cirque à ses affaires.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_35">
+		<text>Nan, c'est un coin super chelou, plein de mecs avec des flingues boostés et tout... J'ai pas le temps de vérifier qui c'est, des militaires ou des gars du Devoir en mission.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_4">
+		<text>Tu sais comment aller à Pripyat ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_40">
+		<text>Qui je pourrais engager pour protéger les scientifiques?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_403">
+		<text>Hah, moi et les gars, on va s'en occuper ! On va leur filer une protection comme ils en ont jamais vue ! Les Stalkers et les mutants vont avoir la trouille de s'approcher de ce putain d'endroit, crois-moi ! Balance le fric chaque semaine, et on est à toi. Et n'oublie pas la prime de Noël !</text>
+	</string>
+	<string id="about_quests_dialog_bandit_41">
+		<text>En marchant, mon pote. T'as qu'à te diriger vers Jupiter et poser tes questions là-bas, parce qu'y'a pas de route directe entre Zaton et Pripyat, c'est un fait scientifique.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_43">
+		<text>Hé, mon pote, j'ai une tête de guide ou quoi ? Y a un tatouage sur mon front qui dit « Posez vos questions débiles ici » ou un truc du genre ? Va voir Pilote, il est payé pour répondre à ces conneries.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_44">
+		<text>Non... Qu'est-ce que j'irais foutre là-bas, de toute façon ? Y'a pas de stalkers à dépouiller !</text>
+	</string>
+	<string id="about_quests_dialog_bandit_5">
+		<text>Tu peux me conseiller quelqu'un qui a les coudées franches et qui serait prêt à bouger pour Pripyat ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_51">
+		<text>Pripyat, c'est pas un endroit pour des gars comme nous. Réfléchis, c'est bourré de mutants et d'anomalies... comme le reste de la Zone... mais sans stalkers ni leur butin. Quand des stalkers débarquent à Pripyat, fais-nous signe et on ira y remettre de l'ordre, comme il se doit.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_57">
+		<text>Aucune idée, vieux. Désolé.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_6">
+		<text>J'ai trouvé un flingue bizarre. Tu connais quelqu'un qui s'y connaît là-dedans ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_62">
+		<text>Ben, demande aux techniciens. C'est leur boulot de connaître ces conneries, non ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_63">
+		<text>Aucune idée, mais les stalkers de Skadovsk croient que Cardan est un génie technique ou un truc du genre. Parle-lui si tu veux... Moi, je trouve que c'est juste un vieux poivrot.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_7">
+		<text>Qui je pourrais engager pour prendre des mesures pour les Scientifiques ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_73">
+		<text>Ça, c'est facile - nos gars s'en chargeront. Je veux dire, ils sont pas allés à l'école ou quoi, mais ils prendront qui tu veux et ils les mesureront bien comme il faut. Une fois qu'ils ont les mesures, ils ont juste besoin d'une belle tombe, et ça, c'est pas un problème non plus !</text>
+	</string>
+	<string id="about_quests_dialog_bandit_8">
+		<text>J'ai trouvé un artefact vraiment bizarre. Tu connais un acheteur ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_81">
+		<text>Un artefact bizarre, tu dis ? Laisse-moi voir ça... Passe-le-moi que je l'examine mieux... Haha, détends-toi, mon pote - je déconne, mais si j'étais toi, je garderais ce genre de truc hors de vue. D'autres pourraient pas avoir le même sens de l'humour.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_83">
+		<text>T'as des couilles de montrer cet artefact par ici. Respect. Écoute : le gars à voir pour ce genre de truc, c'est Barbu, à Skadovsk. On sait pas encore comment il fait sortir les artefacts de la Zone, alors tu devrais pouvoir fourguer le tien sans problème.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_9">
+		<text>J'ai trouvé un vrai nid de bloodsuckers dans le coin. On fait quoi ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_91">
+		<text>Euh... qu'est-ce qu'y a à faire ? Dégager en vitesse, c'est tout !</text>
+	</string>
+	<string id="about_quests_dialog_bandit_98">
+		<text>D'accord, oublie ça.</text>
+	</string>
+
+	<!-- About Quests Duty -->
+	<string id="about_quests_dialog_dolg_0">
+		<text>T'as entendu des nouvelles dans le coin, récemment ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_1">
+		<text>Comme quoi ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_10">
+		<text>T'en penses quoi, de Nimble 0?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_101">
+		<text>Nimble ? Jamais entendu parler. Peut-être qu'il est dans une autre escouade ou un truc du genre ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_11">
+		<text>T'as entendu parler de l'Oasis ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_111">
+		<text>C'est un conte de fées de stalker. C'est ce que font les stalkers : ils inventent des conneries qui existent pas et après ils se mettent tous à les chercher ! Moi, à ta place, j'ignorerais ces trucs. C'est comme un mythe d'initiation : tu y crois et bientôt tu vas croire que Exauceur de Souhaits existe pour de bon.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_112">
+		<text>Ah, cet endroit où les blessures guérissent toutes seules et où ton énergie se recharge comme par magie ? J'ai une nouvelle pour toi, mon pote : ça existe pas. Les Stalkers inventent ces conneries pour faire croire que la Zone est moins dangereuse qu'elle l'est vraiment, mais la réalité, c'est qu'y a pas d'endroits sûrs dans la Zone. Et faut bien garder ça en tête ici, mon gars - les rêveurs, ça fait pas long feu dans la Zone.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_113">
+		<text>Ouais, et tous les artefacts là-bas valent de l'or et te sont servis sur un plateau d'argent pendant qu'on te masse les pieds... Je déconne, bien sûr. J'doute que ça existe, même si ce serait cool. On pourrait même y monter un hosto sans avoir besoin de toubibs - les gens n'auraient qu'à y aller pour guérir... Putain, quel rêve de merde, hein ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_12">
+		<text>T'as déjà croisé un stalker qui s'appelle Pie ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_121">
+		<text>J'ai du mal à retenir tous les mecs de Devoir, et tu me demandes des infos sur un stalkers ? Ils ont leur base du côté de Skadovsk - va leur demander là-bas.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_122">
+		<text>Non, j'ai pas.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_13">
+		<text>Tu sais qui aurait pu piquer des trucs dans une boîte perso ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_131">
+		<text>Ça y est ! Ça arriverait jamais à la base du Devoir, mais ici, c'est bourré de ces punks de Liberté - c'est là que j'irais en premier.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_14">
+		<text>Qui pourrait m’aider à décrypter un truc ici ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_141">
+		<text>Y'a un technicien qui s'appelle Nitro à la station Yanov. Il est plutôt doué en électronique. Une fois, j'avais oublié le mot de passe de mon PDA, et il l'a cracké en cinq secondes chrono !</text>
+	</string>
+	<string id="about_quests_dialog_dolg_143">
+		<text>C'est à Yanov qu'il faut aller - cherche Nitro, il est calé pour ce genre de trucs.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_15">
+		<text>J'ai le PDA du marchand Devoir. Tu connais quelqu'un qui serait intéressé ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_151">
+		<text>Un marchand chez Devoir ? Impossible ! Enfin, si t'as des infos, tu ferais mieux de les refiler au Lieutenant-Colonel Shulga et de le laisser gérer.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_16">
+		<text>Tu sais où je peux dégoter des outils par ici ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_163">
+		<text>Y'a toute une usine pas loin. Bien sûr, elle a peut-être déjà été vidée, mais moi, à ta place, j'irais quand même vérifier les entrepôts de la boîte.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_165">
+		<text>Moi, à ta place, je commencerais par fouiller les vieux ateliers. Tu pourrais aussi trouver un truc dans les réserves.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_166">
+		<text>Y'a que des mutants et des anomalies dans le coin. Hah ! Les anomalies, j'irais pas fouiller dedans, et les burers ou les controllers t'aideront pas non plus pour ça.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_169">
+		<text>En fait, y a un train sous le pont par ici. J'en ai déjà vu - ils servent généralement à transporter le personnel technique, alors tu devrais pouvoir trouver des outils dedans.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_17">
+		<text>Qui peut débloquer un module mémoire 0?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_171">
+		<text>Nitro - c'est le seul à la gare de Yanov qui s'y connaît en ce genre de trucs.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_172">
+		<text>Faudrait voir un technicien pour ça. Le seul potable dans le coin, c'est Nitro à Yanov.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_18">
+		<text>Qui pourrait bien forcer un conteneur en acier ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_181">
+		<text>Paraît qu'y a un technicien parmi les stalkers. C'est un poivrot, mais il sait ce qu'il fait. Parle-lui.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_182">
+		<text>Hah, t'as qu'à te trimballer un coffre-fort, tant qu'à faire. Je suis sûr que Nitro pourra rien faire pour toi... Si y'avait eu une serrure électronique, ça aurait été une autre histoire...</text>
+	</string>
+	<string id="about_quests_dialog_dolg_19">
+		<text>Je cherche un stalker qui s'appelle Snag. Tu sais où je peux le trouver ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_191">
+		<text>T'as qu'à demander aux stalkers - ils connaissent les leurs. Moi, j'ai jamais entendu parler de ce Snog ou je sais pas quoi.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_2">
+		<text>Tu sais quelque chose sur les hélicos qui se sont crashés ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_20">
+		<text>Qui pourrait être intéressé par des infos sur le fondateur du Devoir ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_201">
+		<text>Notre commandant, bien sûr. Balance tout ce que tu sais à Shulga et tu auras la gratitude de Devoir, c'est sûr.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_22">
+		<text>Ouais, nos éclaireurs ont vu un hélico militaire descendre vers les pads de réserve près de Jupiter. Ils ont dit qu'ils leur ont fait des signaux pour qu'ils changent de cap, mais j'imagine que les pilotes avaient d'autres chats à fouetter. J'me demande si les gars de l'armée ont réussi à sortir du champ de mines sans encombre.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_23">
+		<text>Non, pas dans le coin. On est pas très présents ici... Essaie de demander à nos gars près de Yanov.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_25">
+		<text>Notre patrouille a signalé qu'un hélicoptère militaire a tenté un atterrissage forcé près de l'usine Jupiter. Malheureusement, l'hélico s'est crashé direct dans le toit au-dessus des ateliers. Y'a probablement aucun survivant - la patrouille a pas reçu de signal de détresse après le crash.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_3">
+		<text>T'as repéré des militaires dans le coin ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_30">
+		<text>Qui pourrait bien s'intéresser aux cartes de la zone entre Zaton et Jupiter ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_301">
+		<text>Quelqu'un qui en a l'utilité. Je parle de Pilot - c'est un guide sur la route entre Yanov et Skadovsk, donc ces cartes lui seraient bien utiles, c'est sûr.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_31">
+		<text>Des militaires ? J'en ai pas vu dans le coin, mais on traîne pas trop par ici.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_35">
+		<text>Un cadavre de soldat a été repéré dans le champ de mines récemment. Il doit faire partie des gars qui sont arrivés en hélico. L'hélico peut transporter jusqu'à huit personnes en plus de l'équipage, alors ils ont dû trouver une sortie, mais personne sait où ils sont passés.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_36">
+		<text>Un militaire a été repéré au bunker des scientifiques, et il vient d'arriver. J'ai pas les détails.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_37">
+		<text>Un type en uniforme militaire a été vu en train d'entrer dans un bâtiment près du complexe Volkhov AA l'autre jour. C'est bien possible que ce soit juste un zombie pris pour un soldat, ceci dit.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_38">
+		<text>Un Stalkers a repéré une unité militaire près de l'usine Jupiter. À en juger par la description, c'était des forces spéciales. Ils étaient accompagnés d'un stalker non identifié et se dirigeaient vers Pripyat. Ça a l'air crédible, mais l'expérience montre que ce genre d'infos, en général, on peut pas s'y fier.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_4">
+		<text>Tu sais comment aller à Pripyat ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_40">
+		<text>Qui je pourrais engager pour protéger les scientifiques?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_401">
+		<text>Ils trouveront pas mieux comme protection que celle de Devoir. Va voir le lieutenant-colonel Shulga à Yanov - je suis sûr que vous allez vous entendre.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_402">
+		<text>Nan. Tant qu'ils ont des mecs de Liberté qui bossent pour eux, on restera bien loin de cet endroit. Écouter ces abrutis débiter leurs blagues à la con toute la journée, c'est pire que la mort.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_42">
+		<text>Devoir n'a aucune raison de chercher un passage vers Pripyat pour l'instant, mais on collecte des infos quand même. Il y a des rumeurs non confirmées selon lesquelles des tunnels sous l'usine Jupiter mènent à Pripyat. Vérifier cette info demanderait de fouiller toute la zone de l'usine de fond en comble.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_43">
+		<text>Non. Si t'as besoin de ce genre d'infos, va voir un guide civil - nos éclaireurs ont déjà assez à faire comme ça.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_44">
+		<text>Nos éclaireurs vérifient régulièrement la zone pour trouver des chemins sûrs vers Pripyat, mais pour l'instant, ça donne rien.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_5">
+		<text>Tu peux me conseiller quelqu'un qui a les coudées franches et qui serait prêt à bouger pour Pripyat ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_51">
+		<text>La présence de Devoir dans le coin est limitée. Parle à nos gars à Yanov.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_52">
+		<text>Y'a une rumeur comme quoi les scientifiques ont un militaire dans leur bunker. Il a pas vraiment d'issue, cela dit. Tu vois, les scientifiques, ils restent là douze à dix-huit mois, et lui, il va pas arriver à la lisière de la Zone à pied et tout seul. Vu ça, je parie qu'il serait intéressé.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_53">
+		<text>Je te conseille de chercher parmi les gens qui cherchent l'aventure. Par exemple, y'a un stalker qui s'appelle Vano à la station Yanov. Il en a rien à foutre du genre de merde dans laquelle il se fourre, et il pourrait être utile - ce gars-là, il trouve un chemin à travers une anomalie les yeux fermés.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_54">
+		<text>Ben, tu pourrais lancer une campagne de recrutement dans un hôpital psychiatrique... Mais bon, je connais une meilleure alternative : les combattants du Monolithe. D'ailleurs, un escadron d'entre eux a été repéré près du complexe AA, et ils connaissent probablement même le chemin vers Pripyat... Hé, mec, j'espère que tu me prends pas au sérieux...</text>
+	</string>
+	<string id="about_quests_dialog_dolg_56">
+		<text>Cherche des volontaires chez Devoir. Strider, par exemple. Il a pas de mission pour l'instant, donc le lieutenant-colonel pourrait le laisser partir avec toi.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_57">
+		<text>Tout le monde sait que Devoir a les meilleurs combattants... mais on a d'autres objectifs en ce moment.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_6">
+		<text>J'ai trouvé un flingue bizarre. Tu connais quelqu'un qui s'y connaît là-dedans ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_62">
+		<text>Putain, c'est un vrai canon, ça ! T'as bricolé toi-même ou t'as vraiment trouvé ce truc ? J'ai jamais vu un engin pareil... Demande aux techniciens.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_7">
+		<text>Qui je pourrais engager pour prendre des mesures pour les Scientifiques ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_71">
+		<text>C'est une question con - Devoir, bien sûr. On a plein de gars expérimentés, et on a déjà bossé avec les scientifiques. Va voir le lieutenant-colonel Shulga - je suis sûr qu'il te trouvera une escouade pour le boulot.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_72">
+		<text>Qui voudrait bosser là si le bunker est gardé par Liberté ? Ces putains de pacifistes sont tellement défoncés la plupart du temps qu'ils sont aussi capables de se tirer dessus que sur l'ennemi.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_8">
+		<text>J'ai trouvé un artefact vraiment bizarre. Tu connais un acheteur ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_81">
+		<text>Les Artefacts, c'est chelou, et j'te conseille pas de les trimballer sur toi. File-les aux experts et basta.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_83">
+		<text>Tu devrais montrer ce machin à un stalkers - c'est des experts en ce genre de trucs. Encore mieux, montre-le à celui à qui ils revendent leurs artefacts.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_9">
+		<text>J'ai trouvé un vrai nid de bloodsuckers dans le coin. On fait quoi ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_91">
+		<text>Les escouades de Devoir mènent pas d'opérations de purge dans ce secteur pour l'instant, alors le repaire devra attendre.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_98">
+		<text>D'accord, oublie ça.</text>
+	</string>
+
+	<!-- About Quests Freedom -->
+	<string id="about_quests_dialog_freedom_0">
+		<text>T'as entendu des nouvelles dans le coin, récemment ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_1">
+		<text>Comme quoi ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_10">
+		<text>T'en penses quoi, de Nimble 0?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_101">
+		<text>J'ai pas entendu grand-chose sur lui... Tu ferais mieux de demander aux stalkers, c'est l'un des leurs, non ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_11">
+		<text>T'as entendu des trucs sur l'Oasis ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_111">
+		<text>Des tas... Une belle histoire, je te l'accorde. Un palais dans les sables, une île dans la brume, un château dans le ciel... Shangri-La, l'Éden... l'Oasis. Tout homme libre a un rêve, et je peux pas leur en vouloir.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_112">
+		<text>Ben, j'ai entendu une histoire intéressante de la part d'un stalker. Je crois que c'est le premier à m'avoir parlé de l'Oasis. Il disait que, selon la légende, toutes tes blessures y guérissent et que tu deviens calme et détendu, comme si t'étais plus dans la Zone du tout. Je l'ai plus revu depuis... C'est seulement après son départ que j'ai réalisé qu'il boitait avant, mais quand il est parti, il marchait droit et avait l'air d'avoir rajeuni de dix ans.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_113">
+		<text>Ouais, un stalkers libre m'a filé les coordonnées... Dix jeux de coordonnées différents. En les mettant bout à bout, ça donne une zone qui va du Scorcher à la CNPP, avec le bar de Yanov quelque part près du centre. C'est tout à fait possible qu'on soit dans l'Oasis en ce moment, alors profite !</text>
+	</string>
+	<string id="about_quests_dialog_freedom_12">
+		<text>T'as déjà croisé un stalker qui s'appelle Pie ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_121">
+		<text>Nan. J’connais pas beaucoup de stalkers libres dans l’coin.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_122">
+		<text>Pie ? Nan, mais c'est un nom stylé.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_13">
+		<text>Tu sais qui aurait pu piper des trucs dans une boîte perso ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_131">
+		<text>Nan, y'a personne comme ça ici. On a des mecs qui te piquent une bouchée de pain ou une gorgée de ta bibine quand t'as le dos tourné, mais pas de voleurs déclarés.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_14">
+		<text>Qui pourrait m’aider à décrypter un truc ici ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_141">
+		<text>J'ai entendu dire que Nitro à Yanov kiffe les combinaisons et les algorithmes. J'suis pas sûr, j'ai jamais vraiment parlé avec lui - il bosse pour Devoir, alors il a pas trop de temps pour nous, les mecs libres.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_143">
+		<text>J'suis pas un expert des experts locaux... Demande à nos gars à Yanov la prochaine fois que t'y passes - eux, ils sauront, c'est sûr.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_15">
+		<text>J'ai le PDA du marchand Devoir. Tu connais quelqu'un qui serait intéressé ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_151">
+		<text>Ça a l'air intéressant ! Je le filerais à Loki, notre chef à Yanov. Comme ça, les stalkers libres sauront quel genre de mecs Devoir recrute dans ses rangs.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_16">
+		<text>Où est-ce que je peux choper des outils dans les parages ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_163">
+		<text>À l'usine, mec, où veux-tu que ce soit ? C'est pas franchement animé là-dedans, mais les entrepôts devraient te remonter le moral. C'est un peu plus sûr et t'es sûr de trouver des outils potables.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_165">
+		<text>Bonne question, mec. Réfléchissons. Où tu trouves des outils en dehors de la Zone ? Si t'as un peu de jugeote, tu les achètes en magasin... Sinon, tu cherches les outils et la jugeote dans un atelier. C'est pareil dans la Zone - faut chercher aux mêmes endroits. C'est aussi simple que ça, stalker !</text>
+	</string>
+	<string id="about_quests_dialog_freedom_166">
+		<text>Des outils ? Écoute, mec, c'est un code ou quoi ? Y'a pas de flics ici, tu peux parler librement... Oh, t'es sérieux ? Dans ce cas, j'en sais vraiment rien.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_169">
+		<text>Ben, j'ai entendu dire qu'un des nôtres cherchait des outils et qu'il est entré dans le train sous le pont. Apparemment, y'a une Tesla là-dedans... Bref, il a dit que c'était pas marrant du tout... Pourquoi je te raconte ça ? Ben, il a dit qu'il avait vu des outils traîner, mais il a décidé de les laisser parce que c'était pas safe.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_17">
+		<text>Qui peut débloquer un module mémoire 0?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_171">
+		<text>Ben, le Tukarev dans le bunker des scientifiques peut le faire. Il est rapide, bon et poli. Y a aussi Nitro à Yanov, le pote à Devoir. Il est pas cher et merdique, mais il devrait faire l'affaire.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_172">
+		<text>Un technicien qualifié, je suppose. Celui d'ici est plus branché mécanique, alors à moins que t'aies besoin de faire rayer le canon de ton module mémoire, je te conseille d'aller demander du côté de Jupiter.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_18">
+		<text>Qui pourrait bien forcer un conteneur en acier ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_181">
+		<text>Ben, Cardan au Skadovsk est censé être bon. Les gens disent qu'il sait ce qu'il fait, même s'il est bourré la plupart du temps. Il pourra peut-être t'aider à cracker ce conteneur.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_182">
+		<text>N'importe qui qui force des conteneurs en acier pour vivre ? Nitro, le technicien local, ça sera pas lui. J'ai entendu dire qu'il préférait forcer l'électronique des autres.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_19">
+		<text>Je cherche un stalker qui s'appelle Snag. Tu sais où je peux le trouver ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_191">
+		<text>J'en ai jamais entendu parler... À ta place, j'irais demander à d'autres stalkers libres.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_2">
+		<text>Tu sais quelque chose sur les hélicos qui se sont crashés ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_20">
+		<text>Qui pourrait bien être intéressé par des infos sur le fondateur du Devoir ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_201">
+		<text>Loki, sans aucun doute. C'est notre chef ici, à Yanov. Même s'il sait pas quoi faire de l'info, l'essentiel, c'est que Devoir mette pas la main dessus. Tu imagines toute la propagande à la con que ça va générer ? Rien que d'y penser, j'ai mal au crâne.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_22">
+		<text>Ouais, t'as entendu l'histoire de l'hélico dans le champ de mines ? En gros, les bidasses se sont crashés sur l'hélisurface de réserve que leurs potes avaient minée y'a six ans. Certains disent que c'est par bêtise, mais moi, je pense qu'y a autre chose. Regarde ça comme ça : personne va y aller, alors une fois leur mission terminée, les militaires peuvent revenir à l'hélico, le réparer un peu et se casser. J'aimerais bien savoir quelle était leur mission...</text>
+	</string>
+	<string id="about_quests_dialog_freedom_23">
+		<text>J'suis pas du coin, mon pote, j'en sais que dalle. Passe nous voir à Yanov - nos gars te raconteront tout ce que tu veux savoir, et même ce que tu veux pas, par-dessus le marché.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_25">
+		<text>Ouais, des gars ont repéré un hélico qui volait super mal l'autre jour. Et en plus, il s'est pas posé au bon endroit - direct sur un des toits de Jupiter. Ils ont dit qu'il s'est crashé et qu'il a traversé le toit pour finir dans le bâtiment, en entraînant tout un tas de merde avec lui.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_3">
+		<text>T'as repéré des militaires dans le coin ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_30">
+		<text>Qui pourrait bien s'intéresser aux cartes de la zone entre Zaton et Jupiter ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_301">
+		<text>Pilote, c'est sûr, mec. C'est le guide principal des stalkers libres par ici - si tu veux parler cartes, c'est lui qu'il te faut.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_31">
+		<text>Relax, mec. Y'a pas de flics, pas de militaires et pas de putain de milice par ici - t'es aussi en sécurité que possible dans la Zone.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_35">
+		<text>Non, mais des gars m'ont dit qu'ils avaient vu une unité militaire se traîner dans le champ de mines près des héliports. Ces gars ont pensé à leur filer un coup de main, mais ils ont changé d'avis. Les marines, c'est une race imprévisible, tu sais jamais quand ils vont péter un câble et te tirer dans le dos.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_36">
+		<text>J'en ai pas vu moi-même, mais la rumeur dit qu'y a un marine au bunker des scientifiques. Ozersky, le biologiste, a dit qu'il venait de l'hélico qui s'est crashé dans l'usine... La blague qui circule, c'est que les intellos se sont trouvé un soldat de compagnie.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_37">
+		<text>Pas en personne, mais j'ai entendu des trucs par des stalkers libres. Ils ont dit qu'un marine avait été repéré près du complexe de DCA de Volkhov. Ça doit être un ghost ou un zombie qui s'est réveillé... t'en penses quoi ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_38">
+		<text>Nan. Un type racontait qu'il avait vu sept militaires suivre un stalker libre après l'usine radio, direction Pripyat. Ça fait un bail qu'y a plus d'herbe dans la Zone, alors j'me dis que c'est que des conneries, purement et simplement.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_4">
+		<text>Tu sais comment aller à Pripyat ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_40">
+		<text>Qui je pourrais engager pour protéger les scientifiques?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_401">
+		<text>Liberté, nous autres, quoi. On bosse avec les scientifiques tout le temps, alors les garder, ce serait du gâteau pour nous. Parle à notre boss Loki à Yanov - il sera d'accord, c'est sûr.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_402">
+		<text>J'suis pas sûr, frangin, parce que d'après ce que j'ai entendu, les intellos ont engagé une escouade de Devoir pour bosser pour eux... On aimerait bien garder les scientifiques, mais mater des gueules de Devoir constipés toute la journée, ça vaut pas le coup.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_42">
+		<text>Ils disent que tu peux y aller depuis Jupiter... Je parle de l'usine, pas de la planète... Hah ! Celle-là, faut avouer que c'est drôle !</text>
+	</string>
+	<string id="about_quests_dialog_freedom_43">
+		<text>Écoute, j'en ai aucune idée. J'arrive pas à trouver le temps d'y aller... Je demanderais à Pilot au camp, ouais ? C'est un stalker libre et il connaît la zone mieux que personne.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_44">
+		<text>Frère, si j'avais su, j'y serais allé y'a un bail. Me casser de Devoir, de ces crânes d'oeuf et de toute cette merde de baston, ça vaudrait carrément le coup...</text>
+	</string>
+	<string id="about_quests_dialog_freedom_5">
+		<text>Tu peux me conseiller quelqu'un qui a les coudées franches et qui serait prêt à bouger pour Pripyat ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_51">
+		<text>Désolé, l'ami, je connais personne à Zaton... Prends mon conseil et demande à nos gars à Yanov.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_52">
+		<text>Tu connais le bunker des scientifiques ? Eh ben, ils ont un problème sur les bras là-bas. D'abord Garry, le stalker, a décidé de filer vers Pripyat, et maintenant le militaire qui est là-bas a eu la même idée. Garry, c'est un solitaire et il en est fier, mais ce militaire, c'est exactement ce que tu cherches.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_53">
+		<text>Vano à Yanov est aussi bon que n'importe qui. C'est un gars correct, et il aurait pu rejoindre Liberté n'importe quand s'il avait voulu. J'ai l'impression qu'il a pas envie de notre lutte contre Devoir... ou de n'importe quelle lutte, d'ailleurs. C'est sa façon de voir les choses, et on la respecte !</text>
+	</string>
+	<string id="about_quests_dialog_freedom_54">
+		<text>Bien sûr. Un de nos gars a repéré une escouade près du lac asséché. Ils doivent connaître Pripyat comme leur poche, et ils ont pas l'air de bosser pour qui que ce soit. Ils ont l'air courageux, en plus - ce sont des combattants du Monolithe, après tout !</text>
+	</string>
+	<string id="about_quests_dialog_freedom_55">
+		<text>Ouais. Strider, le chef de nos nouvelles recrues... il a l'air mal à l'aise dans nos rangs. Ses gars se sont adaptés sans problème, mais lui, il est pas vraiment heureux ici... Parle-lui - j'aime pas voir un bon gars là où son coeur est pas.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_57">
+		<text>Nan, aucune idée.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_6">
+		<text>J'ai trouvé un flingue bizarre. Tu connais quelqu'un qui s'y connaît là-dedans ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_62">
+		<text>T'as pas trouvé un manuel avec ? Non ? Alors là, aucune idée.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_7">
+		<text>Qui je pourrais engager pour prendre des mesures pour les Scientifiques ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_71">
+		<text>Je pense que nos gars peuvent s'en charger. Liberté a son lot de mecs malins, et si on sait pas quelque chose, on demandera au bunker. On serait ravis d'aider la science ! Parle à Loki à Yanov - je suis sûr qu'il dira la même chose.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_72">
+		<text>Moi et les gars, on en rêve, mais Devoir garde le bunker ces temps-ci. Déjà que passer voir les scientifiques, c'est galère, mais y être tous les jours, ça serait carrément malsain, putain.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_8">
+		<text>J'ai trouvé un artefact vraiment bizarre. Tu connais un acheteur ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_81">
+		<text>T'as besoin d'un collecteur, mon pote. T'en trouveras pas à Yanov, vu que même certains stalkers ont la trouille de venir ici. T'as qu'à demander à Zaton, c'est plus calme par là-bas.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_83">
+		<text>Tu connais Barbu, le barman du camp des stalkers libres ? Il rachète des artefacts et il te fait pas trop les poches, en plus. Un bon gars, quoi qu'on en dise. Dommage qu'il bosse pas pour nous, franchement.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_9">
+		<text>J'ai trouvé un vrai nid de bloodsuckers dans le coin. On fait quoi ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_91">
+		<text>Écoute, faut prévenir les stalkers libres - ils ont leur camp principal dans le coin, après tout. La faune de la Zone a de la valeur, c'est sûr, mais moi, c'est les gens ici qui m'inquiètent.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_98">
+		<text>D'accord, oublie ça.</text>
+	</string>
+
+	<!-- About Quests Stalker -->
+	<string id="about_quests_dialog_stalkers_0">
+		<text>T'as entendu des nouvelles dans le coin, récemment ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_1">
+		<text>Comme quoi ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_10">
+		<text>T'en penses quoi, de Nimble 0?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_101">
+		<text>J'ai pas eu ce plaisir... T'as qu'à demander aux habitués du Skadovsk.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_11">
+		<text>T'as des infos sur l'Oasis ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_111">
+		<text>J'ai tout entendu sur l'Oasis ! C'est une légende, un mythe... chaque stalker en attend quelque chose de différent, et putain, chacun d'eux prétend connaître l'emplacement exact. Dommage que la seule chose que ces emplacements aient en commun, c'est qu'ils sont sacrément durs à atteindre.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_112">
+		<text>Ben, on dit que les blessures y guérissent instantanément et que ton énergie se recharge en quelques minutes... On dit que même la radioactivité ne résiste pas à l'Oasis ! La seule chose que je sais avec certitude, c'est où elle se trouve... Tu veux savoir ? Elle est au centre de la Zone ! Mais chut, motus et bouche cousue, hein !</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_113">
+		<text>J'ai entendu dire que n'importe quel mutant que tu croises là-bas te passe à côté sans même te regarder. Ils disent aussi qu'y a un artefact là-bas appelé le Coeur de l'Oasis... Personne sait exactement ce qu'il fait, mais une chose est sûre : faut pas y toucher. Celui qui le prend n'a plus sa place dans la Zone... L'emplacement ? Mec, tout le monde sait que c'est sous la grande roue à Pripyat ! Où veux-tu que ce soit, sinon ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_12">
+		<text>T'as déjà croisé un stalker qui s'appelle Pie ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_121">
+		<text>Ouais, j'l'ai vu... Mais aucune idée d'où il est maintenant.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_122">
+		<text>Hmm... Jamais entendu parler de lui...</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_13">
+		<text>Tu sais qui aurait pu piper des trucs dans une boîte perso ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_131">
+		<text>Euh... non ? Demande aux anciens à Yanov, ils pourront peut-être t'aider.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_14">
+		<text>Qui pourrait m’aider à décrypter un truc ici ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_141">
+		<text>Nitro à Yanov, qui d'autre ? Il kiffe cette merde de techno compliquée... bien plus que de gérer des mecs armés.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_143">
+		<text>Personne que je connais. Demande à Yanov - y'a un expert là-bas, d'après ce qu'on dit.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_15">
+		<text>J'ai le PDA du marchand Devoir. Tu connais quelqu'un qui serait intéressé ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_151">
+		<text>Tu connais Hibou à Skadovsk ? J'pense qu'il serait ravi de mettre la main dessus. Il aime se mêler des affaires sensibles...</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_152">
+		<text>Y'avait un type appelé Hibou à Skadovsk, du côté de Zaton. Il dealait des infos... Ton PDA pourrait l'intéresser.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_16">
+		<text>Y'a moyen de trouver des outils dans le secteur ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_161">
+		<text>Un stalker m'a dit que son vieux bossait dans les ateliers de la sous-station avant 86. Il disait qu'ils avaient tout un tas de matos là-bas, alors j'me dis qu'y doit y'avoir des outils aussi. Tout doit être rouillé à mort maintenant, mais ça vaut peut-être le coup d'aller voir quand même.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_162">
+		<text>Tu connais la scierie dans le bois sur la colline ? Il devrait y avoir des outils là-bas, à moins que quelqu'un soit déjà passé avant toi. J'en doute, ceci dit : plus tu t'approches de cet endroit, plus t'as envie de te chier dessus et de te barrer en courant. C'est même pas la radioactivité qui fait flipper, je vais pas en dire plus...</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_163">
+		<text>Bon, l'usine Jupiter est juste ici et y'a forcément des outils dedans. Personnellement, j'm'approcherais pas de l'usine elle-même... ce coin me fout les jetons. Tu pourrais jeter un oeil dans les entrepôts Jupiters, ceux sur le côté de l'usine.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_164">
+		<text>J'ai entendu dire qu'y a deux-trois endroits à Pripyat où tu peux trouver toutes sortes de merdes techniques. L'un d'eux, ce serait l'ancien grand magasin soviétique. À l'époque, c'était à peu près le seul endroit où on pouvait trouver des trucs utiles.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_165">
+		<text>Comment veux-tu que je sache ? Regarde dans les vieux ateliers ou les réserves, y'a peut-être un truc utilisable.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_166">
+		<text>Pour être honnête, la dernière fois que j'ai vu des outils corrects, c'était dans le bunker de Sidorovich au Cordon. Ouais, faut payer, mais ils sont neufs et pas trop chers non plus.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_167">
+		<text>Écoute, vieux, j'suis pas venu dans la Zone pour chercher des outils. Réfléchis, à quoi ça sert, un marteau radioactif ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_168">
+		<text>J'ai entendu une rumeur comme quoi on peut choper des pièces détachées au vieux centre de service... Tu pourrais même y trouver des outils. Mais comme pour tout le reste : si tu veux le bon matos, faut être le premier sur place.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_169">
+		<text>Bonne question... À ta place, j'irais fouiller dans le vieux train sous le pont. Me demande pas pourquoi... Mon flair me dit que t'y trouveras peut-être ton bonheur.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_17">
+		<text>Qui peut débloquer un module mémoire 0?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_171">
+		<text>Laisse-moi réfléchir... Bon, Nitro à Yanov pourra le faire, c'est sûr. Sinon, y'a aussi Tukarev, le technicien des scientifiques, un vrai pro. Faut juste savoir ce que tu veux, parce que Nitro est bien moins cher.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_172">
+		<text>Bon, t'auras besoin d'un technicien, mais le seul dans le coin, c'est Cardan. Le problème, c'est qu'après toutes ces années au fond d'une bouteille, il est plus vraiment fiable avec l'électronique complexe. Moi, à ta place, j'irais demander du côté de Jupiter - ils ont les bons experts là-bas.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_18">
+		<text>Qui pourrait bien forcer un conteneur en acier ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_181">
+		<text>Cardan au Skadovsk, je pense. Enfin, la façon dont il fait sauter les cadenas, c'est un régal à voir.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_182">
+		<text>Un genre de technicien, j'imagine. Mais Nitro voudra pas - il est pas chaud pour les trucs violents.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_183">
+		<text>Hah, tu demandes ça à Pripyat ?! Prends mon conseil et cherche quelqu'un un peu plus loin du centre de la Zone.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_19">
+		<text>Je cherche un stalker qui s'appelle Snag. Tu sais où je peux le trouver ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_191">
+		<text>Demande plutôt au Barbu, le barman du Skadovsk. D'habitude, il sait où traînent les stalkers.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_193">
+		<text>Un piège ? Putain, comment veux-tu que je sache ? T'as qu'à demander à Zaton, il traîne souvent là-bas.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_2">
+		<text>Tu sais quelque chose sur les hélicos qui se sont crashés ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_20">
+		<text>Qui est intéressé par des infos sur le fondateur du Devoir ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_201">
+		<text>J'irais discuter avec Owl, le marchand d'infos à Skadovsk. Tu peux être sûr qu'il sera chaud pour des infos crédibles sur une légende comme ça.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_21">
+		<text>J'en ai vu un moi-même... Il avait pas l'air d'avoir crashé, mais il volait bizarrement. Il tanguait de gauche à droite jusqu'à ce qu'il se pose sur un plateau au sud de Zaton... Ça serait intéressant de savoir si y'a des survivants... Si seulement on connaissait un moyen d'y monter. En fait, j'ai entendu dire que Noah, celui de la barge du taré, pourrait savoir...</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_22">
+		<text>J'ai entendu parler de quelques hélicos militaires qui se sont crashés pas loin d'ici... Les gens racontent des trucs différents, mais y'en a un que je me souviens bien. Ils disaient qu'il s'était posé sur l'hélisurface de réserve que les bidasses avaient minée eux-mêmes y'a six ans. Tu te rends compte de l'ironie de la situation ? Mon vieux disait toujours : « Ne creuse pas un trou pour les autres, parce que c'est toi qui vas y tomber. » Vrai, non ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_23">
+		<text>Un pote m'a raconté cette histoire... Il est allé dans la Forêt de Fer pour choper des artefacts et dès qu'il est arrivé, il a entendu un crash derrière lui. Il s'est retourné pour voir ce que c'était et a vu un hélico foncer droit sur lui à toute vitesse, défonçant les pylônes et tout sur son passage. Il a détalé comme un dératé... J'suis surpris qu'il s'en soit sorti sans atterrir dans une anomalie. La Forêt de Fer, tu la trouveras sans problème - on la voit à des kilomètres. Elle est aussi pleine de poltergeists, alors garde les yeux ouverts.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_24">
+		<text>J'ai entendu dire qu'un truc avait atterri sur le plateau sud, mais y monter, c'est pas une partie de plaisir. L'autre truc que j'ai entendu, c'est que quelqu'un a repéré Noah au bord de ce plateau, ce qui veut dire que ce taré connaît un moyen d'y accéder.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_25">
+		<text>J'en ai pas vu moi-même, mais la rumeur dit qu'un s'est crashé direct dans l'usine... Personne a envie d'aller vérifier, par contre - l'endroit est bien trop dangereux.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_26">
+		<text>Un stalker m'a dit qu'il avait vu plusieurs hélicos militaires avoir des ennuis... Il a vu le moteur d'un des appareils s'allumer et puis il est tombé direct dans un marais bourré d'anomalies. Tu pourras y arriver sans problème, mais le marais lui-même, c'est un vrai cauchemar... C'est pas un endroit pour les humains, crois-moi.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_3">
+		<text>T'as repéré des militaires dans le coin ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_30">
+		<text>Qui pourrait bien s'intéresser aux cartes de la zone entre Zaton et Jupiter ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_301">
+		<text>Le Pilote, qui d'autre ? C'est un guide, tu sais ? Il fait sans arrêt des allers-retours entre Skadovsk et Yanov, donc il trouvera bien une utilité à tes cartes.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_302">
+		<text>C'est ni Zaton ni Jupiter ici, alors ces cartes servent à rien, non ? Demande dans ces coins-là, t'auras peut-être plus de chance !</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_31">
+		<text>J'en ai pas vu moi-même, mais j'ai entendu une histoire sur des soldats qui descendaient du plateau sud du côté des égouts. Apparemment, ils ont d'abord essayé de descendre proprement, avec des cordes et tout. Mais ils ont abandonné et ont fini par glisser sur le cul, haha ! Luge humaine dans la Zone - faut aimer !</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_32">
+		<text>J'ai entendu une conversation à Skadovsk à propos de cinq marines environ qui ont été repérés en sortant d'un tunnel de drainage près du marais. Ils ont dit que les soldats étaient couverts de crasse, et l'un d'eux, on aurait même pas pu le distinguer d'un bloodsucker des marais, tellement il était couvert de boue de la tête aux pieds.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_33">
+		<text>Pas personnellement, mais un pote à moi a vu une unité militaire engager un groupe de mercs près de la station de traitement. Mais quand il a trouvé un bon spot pour mater le spectacle, c'était déjà fini parce que les marines avaient battu en retraite. Aucun mort des deux côtés non plus... typique, hein ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_34">
+		<text>Apparemment, une dizaine de bidasses traînaient autour de la barge à Noah. Vu que le taré était encore en vie à ce moment-là, il a dû passer un accord avec eux... C'est bien son genre. Évidemment, personne a voulu demander à Noah ce qui s'est passé - on sait jamais à quoi s'attendre avec ce fils de pute cinglé.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_35">
+		<text>J'ai entendu une explosion la nuit dernière, et ensuite quelqu'un à Yanov m'a dit qu'il avait vu un bidasse mort dans l'ancien champ de mines et un hélico militaire abandonné derrière lui. Apparemment, ils ont pas su où ils atterrissaient dans le noir et ont traversé les mines direct. Personne sait combien ont réussi à s'en sortir, mais j'doute qu'il ait piloté cet hélico tout seul.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_36">
+		<text>J'ai pas vraiment vu de militaires... mais j'ai entendu des rumeurs comme quoi un bidasse traînait avec les scientifiques. L'histoire raconte que Garry, un stalker, l'a trouvé en allant dans le complexe de missiles à la recherche de ses potes. Sauf que le complexe grouille de zombies qui sont pas vraiment sympas avec les humains égarés, alors Garry l'a sauvé d'une mort certaine.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_37">
+		<text>Non, mais j'ai entendu dire qu'un marine avait été repéré près du complexe de DCA de Volkhov. J'y crois pas trop, ceci dit... Ils mentent peut-être, ou alors ils arrivent pas à faire la différence entre un zombie et un soldat.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_38">
+		<text>Militaires ? Ben, j'ai entendu des gens dire qu'« une unité militaire entière menée par un stalker » passait près de l'usine de Jupiter, mais j'ai pas trop fait gaffe à ces ragots.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_4">
+		<text>Tu sais comment aller à Pripyat ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_40">
+		<text>Qui je pourrais engager pour protéger les scientifiques?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_401">
+		<text>Tu connais Spartacus et son escouade ? Tu vois, les stalkers à Zaton ? C'est des bons gars et des combattants solides - ils ont vu du pays et en ont ramené des souvenirs. J'ai dans l'idée qu'ils seraient partants pour garder les scientifiques.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_402">
+		<text>T'es tombé sur l'escouade d'Hatchet près des ateliers de la sous-station à Zaton ? Ils ont leurs problèmes, comme tous les mercs, mais au moins ils posent des questions avant de tirer. J'me dis que si tu arrives à les recruter pour ce boulot, les scientifiques seront contents et les stalkers pourront souffler un peu aussi. Tout le monde est gagnant, non ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_403">
+		<text>Euh... Rien qui me vient à l'esprit... Non, désolé.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_41">
+		<text>Ce que je sais, c'est qu'y a aucun moyen d'y arriver depuis Zaton. Tous ceux qui voulaient absolument rejoindre Pripyat sont partis vers Jupiter, alors renseigne-toi par là-bas.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_42">
+		<text>Bon, la rumeur dit qu'y aurait des tunnels secrets vers Pripyat sous l'usine Jupiter... Le truc, c'est que ces rumeurs, on les entend généralement après le deuxième verre, et ensuite Jupiter est un tel cauchemar que personne ose s'en approcher.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_43">
+		<text>Comment veux-tu que je sache, mec ? T'as pas une question plus facile ? Tout ce que je peux te dire, c'est que tu devrais trouver Pilot et lui parler - si y'a quelqu'un qui peut t'aider, c'est lui.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_44">
+		<text>Hah, si je connaissais le chemin pour Pripyat, je serais pas ici. Pourquoi tu crois que j'ai filé vers le centre de la Zone ? Pripyat est bourré de artefacts, mec ! Le premier qui y arrive va vivre comme un roi !</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_5">
+		<text>Tu connais quelqu'un qui serait pas trop coincé et qui voudrait bien tenter un coup vers Pripyat ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_51">
+		<text>Je pense pas qu'y ait quelqu'un comme ça dans le coin. Tous ceux qui voulaient se rapprocher du centre de Jupiter sont partis pour Zone. C'est là que j'irais demander, à ta place.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_52">
+		<text>T'as entendu parler du marine qui traîne avec les scientifiques en ce moment ? J'pense qu'il a pas grand-chose à perdre en partant avec toi. Les scientifiques vont pas bouger de sitôt, il peut pas rejoindre Cordon tout seul, alors il est peut-être assez con pour te suivre jusqu'à Pripyat !</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_53">
+		<text>Tu connais Vano, à la station Yanov ? C'est un gars honnête, un bon stalker, et naïf comme pas deux. Maintenant, y'a un chat qui est mieux parmi les anomalies que parmi les gens - tant qu'il est là, y'aura toujours quelqu'un pour profiter de lui.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_54">
+		<text>Écoute, mec, j'ai entendu dire qu'un escadron a été repéré près du lac asséché au sud du complexe AA... Apparemment, c'est pas les stalkers habituels, ni Liberté ni Devoir - c'est des hommes du Monolithe ! Alors si t'as besoin de quelqu'un pour aller à Pripyat, ils sont parfaits. Haha, t'as capté que je déconnais, hein ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_55">
+		<text>Tu connais Strider, le chef de la nouvelle escouade Liberté ? Si t'avais vu sa tronche de misère, tu saurais tout de suite que Yanov, c'est pas son truc. Tu devrais lui parler. Il pourrait être partant.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_56">
+		<text>Tu connais Strider, le chef de la nouvelle escouade Devoir ? Si t'avais vu sa tronche de misère, tu saurais tout de suite que Yanov, c'est pas son truc. Tu devrais lui parler. Il pourrait être partant.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_57">
+		<text>Hmm... Personne ne me vient à l'esprit.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_6">
+		<text>J'ai trouvé un flingue bizarre. Tu connais quelqu'un qui s'y connaît là-dedans ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_62">
+		<text>Aucune idée. J'demanderais aux experts... tu sais, les techniciens et tout.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_63">
+		<text>Je pense que demander à Cardan sur Skadovsk peut pas faire de mal, mon pote. Il deal avec les armes, et il est bon... Il a peut-être encore deux ou trois neurones malgré la picole.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_7">
+		<text>Qui je pourrais engager pour prendre des mesures pour les Scientifiques ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_71">
+		<text>Tu connais Gonta le chasseur ? Je me dis que lui et ses gars verraient pas d'inconvénient à bosser pour les scientifiques. Je veux dire, si les mutants deviennent un problème, ces gars-là, c'est exactement ce qu'il te faut pour les gérer.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_72">
+		<text>T'as entendu parler de Grizzly, Torba et Mitay, les stalkers de Yanov ? Ils bossent en trio, et ils assurent grave ! Je pense qu'ils sont faits pour ce genre de boulot... à condition que Mitay arrive à rester clean pour une fois.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_73">
+		<text>Aucune idée, mec. On a déjà assez de nos merdes à gérer ici.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_8">
+		<text>J'ai trouvé un artefact vraiment bizarre. Tu connais un acheteur ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_81">
+		<text>J'pense pas. Les gens d'ici préfèrent ce qui est familier. Demande du côté de Zaton, c'est plus près du bord de la Zone et tout ça.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_83">
+		<text>Moi, à ta place, je le montrerais à Barbu, le barman à Skadovsk. Paraît qu'il bosse avec des collectionneurs de l'extérieur, et ces chats kiffent grave les trucs bizarres.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_9">
+		<text>J'ai trouvé un vrai nid de bloodsuckers dans le coin. On fait quoi ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_91">
+		<text>Wow, faut que tu racontes ça au Barbu à Skadovsk... Parce que soit on les affronte, soit ils vont nous défoncer.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_98">
+		<text>D'accord, oublie ça.</text>
+	</string>
+	<string id="about_skadovsk_dialog_bandit_0">
+		<text>Où est le camp de stalkers le plus proche dans le coin ?</text>
+	</string>
+	<string id="about_skadovsk_dialog_bandit_1">
+		<text>T'es con ou quoi ? J'sais pas pour les camps de stalkers, mais le camp le plus proche par ici, c'est Skadovsk. Je te file les coordonnées et je te les donne même gratis. Sympa, non ?</text>
+	</string>
+	<string id="about_skadovsk_dialog_stalkers_0">
+		<text>Où est le camp de stalkers le plus proche dans le coin ?</text>
+	</string>
+	<string id="about_skadovsk_dialog_stalkers_1">
+		<text>Je vais t'envoyer les coordonnées sur ton PDA... Skadovsk est le seul camp important dans le secteur.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_27">
+		<text>J'ai entendu parler de quelques crashs... J'connais pas les détails - les ragots, c'est pas mon truc. Désolé si ça t'aide pas beaucoup.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_28">
+		<text>Mec, j'ai d'autres merdes à gérer sans tes hélicos... Je veux dire, je parie qu'un crash d'hélico, ça doit faire un mal de chien, mais à part ça, j'sais pas quoi te dire.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_27">
+		<text>De quoi tu parles, petit ? Faut fumer de la vraie merde pour voir un hélico dans le coin, parce que les vrais ont rien à foutre ici.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_27">
+		<text>Hein ? Nan, mec, moi, ce genre de conneries, ça m'intéresse pas. Ça aide pas du tout ma mission de diffuser la connaissance, tu vois ce que je veux dire ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_27">
+		<text>Notre patrouille a vu les hélicos atterrir, mais les détails ont été rapportés directement au lieutenant-colonel. C'est sur la base du « besoin d'en savoir », et moi, j'ai vraiment pas besoin de savoir ces trucs.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_50">
+		<text>Où est-ce que je peux trouver une combinaison avec un module respiratoire en circuit fermé ?</text>
+	</string>
+	<string id="about_quests_dialog_bandit_501">
+		<text>J'suis pas sûr de trouver, mais la bonne somme de thune fait des miracles - si tu sais où l'investir. Parle à Nimble... Si vous vous mettez d'accord sur les détails, il te dégoteras tes frusques d'une manière ou d'une autre. J'espère que tu le feras... on kifferait bien quelques jours sans lui ici, sur Skadovsk...</text>
+	</string>
+	<string id="about_quests_dialog_bandit_502">
+		<text>Qu'est-ce que j'en sais, moi ? J'suis là depuis pas longtemps... T'as qu'à demander à Zaton, nos frères là-bas gèrent leur propre réseau.</text>
+	</string>
+	<string id="about_quests_dialog_bandit_503">
+		<text>Aucune idée. Pourquoi, t'as l'intention de fourrer ton nez dans une anomalie ? Écoute, si jamais tu tombes sur des artefacts, fais-nous signe. On sera là en deux-deux... Pour te féliciter d'avoir bien bossé !</text>
+	</string>
+	<string id="about_quests_dialog_dolg_50">
+		<text>Où est-ce que je peux trouver une combinaison avec un module respiratoire en circuit fermé ?</text>
+	</string>
+	<string id="about_quests_dialog_dolg_501">
+		<text>Comment veux-tu que je sache ? Attends... y'a un type ici sur Skadovsk, ils disent qu'il peut te dégoter tout ce dont t'as besoin. Il squatte le pont supérieur, il s'appelle Nimble.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_502">
+		<text>Nan, personne va se taper tout ce chemin pour un surplus de combi comme ça... T'as qu'à demander du côté de Zaton - c'est déjà un peu plus civilisé, là-bas.</text>
+	</string>
+	<string id="about_quests_dialog_dolg_503">
+		<text>J'ai aucune idée d'où tu pourrais en trouver un... Les combinaisons comme ça sont rares, même chez les mecs de Devoir. Ils les distribuent seulement pour des distinctions spéciales au combat ou pour des missions dans des zones ultra-anormales.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_50">
+		<text>Où est-ce que je peux trouver une combinaison avec un module respiratoire en circuit fermé ?</text>
+	</string>
+	<string id="about_quests_dialog_freedom_501">
+		<text>J'ai entendu des stalkers parler d'un type bien connecté, Nimble ou un truc comme ça. Il peut te dégoter à peu près n'importe quoi : matos, flingues, des trucs comme ça... pas de la came. Il traîne à Skadovsk, si t'as besoin de lui.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_502">
+		<text>Bonne question, mec... On porte jamais ces trucs chez Liberté... Si j'étais toi, j'irais demander à un stalkers à Zaton. Y'a peut-être quelqu'un là-bas qui fait ce genre de business.</text>
+	</string>
+	<string id="about_quests_dialog_freedom_503">
+		<text>Heh, t'as besoin de cette merde pour quoi ? Ça sert à rien en combat. Enfin... j'imagine que ça peut servir à quelque chose. Ça facilite la respiration et le soleil te brûle moins les yeux... J'pourrais en prendre un moi aussi. Hé, tu sais où j'pourrais en dégoter un ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_50">
+		<text>Où est-ce que je peux trouver une combinaison avec un module respiratoire en circuit fermé ?</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_501">
+		<text>Mon p'tit doigt me dit que Nimble. Troisième pont à Skadovsk. Ce gars-là, il te dégoterait de la neige en plein désert... Mais ses services, ça coûte un bras.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_502">
+		<text>Laisse-moi réfléchir... Y'avait un gars comme ça du côté de Zaton, il s'appelait Nimble. Essaie de voir s'il y est encore. J'ai entendu dire qu'il dealait dans le haut de gamme.</text>
+	</string>
+	<string id="about_quests_dialog_stalkers_503">
+		<text>Mec, tu parles de ça comme si c'était des fournitures de bureau... Personne sait vraiment. Les pièces comme ça, c'est rare... Considère-toi chanceux si t'en dégotes une.</text>
+	</string>
+
+	<!-- Call of Chernobyl -->
+	<string id="dm_dialog_add_trade">
+		<text>Alors... J'ai entendu dire que tu faisais un peu de commerce à côté.</text>
+	</string>
+	<string id="dm_dialog_add_repair">
+		<text>Paraît que t'es doué avec une lime. Tu pourrais réparer mon matos ?</text>
+	</string>
+	<string id="dm_dialog_character_history">
+		<text>Parle-moi de toi.</text>
+	</string>
+
+	<!-- General -->
+	<string id="actor_break_dialog_0">
+		<text>Salut.</text>
+	</string>
+	<string id="actor_break_dialog_1">
+		<text>À plus tard.</text>
+	</string>
+	<string id="actor_break_dialog_2">
+		<text>Paix.</text>
+	</string>
+	<string id="actor_break_dialog_3">
+		<text>Salut.</text>
+	</string>
+
+	<!-- Wish Granter -->
+	<string id="st_wish_1">
+		<text>Je veux que la Zone disparaisse !</text>
+	</string>
+	<string id="st_wish_2">
+		<text>L'humanité est corrompue. L'humanité doit être contrôlée !</text>
+	</string>
+	<string id="st_wish_3">
+		<text>Je rêve de paix dans le monde !</text>
+	</string>
+	<string id="st_wish_4">
+		<text>Je veux tous les trésors de la Zone !</text>
+	</string>
+	<string id="st_wish_5">
+		<text>Rends-moi immortel !</text>
+	</string>
+	<string id="st_wish_99">
+		<text>Ne dis rien.</text>
+	</string>
+
+	<!-- Alundaio -->
+	<string id="axr_phrase_npc_start_wounded">
+		<text>Aide-moi...</text>
+	</string>
+	<string id="axr_phrase_actor_has_medkit">
+		<text>Je vais te filer un coup de main.</text>
+	</string>
+	<string id="axr_phrase_actor_dont_has_medkit">
+		<text>Désolé. J'peux pas t'aider.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_trade">
+		<text>Je voudrais échanger du matos.</text>
+	</string>
+	<string id="dm_dialog_become_companion_greeting">
+		<text>T'as l'air d'avoir un but ici, toi.</text>
+	</string>
+	<string id="dm_dialog_companion_I_have_a_question">
+		<text>Ouais ? Peut-être... J'ai une question.</text>
+	</string>
+	<string id="dm_dialog_companion_question_answer_1">
+		<text>Qu'est-ce que c'est ?</text>
+	</string>
+	<string id="dm_dialog_companion_question_answer_2">
+		<text>Demande à un autre solitaire.</text>
+	</string>
+	<string id="dm_dialog_actor_answer_1">
+		<text>Intéressant...</text>
+	</string>
+	<string id="dm_dialog_actor_answer_2">
+		<text>Euh... Désolé de couper court, mais faut que j'y aille.</text>
+	</string>
+	<string id="dm_dialog_companion_can_i_come_with_1">
+		<text>Faisons le trajet ensemble. Ça te dit ?</text>
+	</string>
+	<string id="dm_dialog_companion_can_we_come_with_2">
+		<text>Mes potes et moi, on a besoin d'un petit coup de main pour traverser la Zone. Ça te dérange si on se joint à toi ?</text>
+	</string>
+	<string id="dm_dialog_companion_can_i_come_with_2">
+		<text>On continue ensemble en équipe. T’en dis quoi ?</text>
+	</string>
+	<string id="dm_dialog_companion_actor_reply_to_join_1">
+		<text>Concentre-toi juste sur où tu vises avec ces flingues, hein.</text>
+	</string>
+	<string id="dm_dialog_companion_actor_reply_to_join_2">
+		<text>D'accord. Mais si tu crèves, j'pioche dans tes affaires.</text>
+	</string>
+	<string id="dm_dialog_companion_actor_reply_to_join_3">
+		<text>Non. Pas intéressé.</text>
+	</string>
+	<string id="dm_dialog_companion_actor_reply_to_join_4">
+		<text>Casse-toi !</text>
+	</string>
+	<string id="dm_dialog_companion_final_words_good_alone_1">
+		<text>Merci, vieux. Je te promets de pas te gêner.</text>
+	</string>
+	<string id="dm_dialog_companion_final_words_good_alone_2">
+		<text>Super. J'ai vraiment besoin d'un coup de main.</text>
+	</string>
+	<string id="dm_dialog_companion_final_words_good_alone_3">
+		<text>Un vrai dur, mec. Merci.</text>
+	</string>
+	<string id="dm_dialog_companion_final_words_bad_alone_1">
+		<text>D'accord. Merci quand même...</text>
+	</string>
+	<string id="dm_dialog_companion_final_words_bad_alone_2">
+		<text>Putain, mec! C'est quoi ton problème?</text>
+	</string>
+	<string id="dm_dialog_companion_final_words_good_1">
+		<text>Super à entendre ! Allez, les gars !</text>
+	</string>
+	<string id="dm_dialog_companion_final_words_good_2">
+		<text>D'accord. Hé, les gars, ce stalker va nous y emmener. Suivez-le.</text>
+	</string>
+	<string id="dm_dialog_companion_final_words_good_3">
+		<text>On se bouge. On a un bout de chemin à faire.</text>
+	</string>
+	<string id="dm_dialog_companion_final_words_bad_1">
+		<text>Peu importe.</text>
+	</string>
+	<string id="dm_dialog_companion_final_words_bad_2">
+		<text>Bute ce connard !</text>
+	</string>
+	<string id="axr_phrase_companion_ask_for_command">
+		<text>T'as besoin de quoi ?</text>
+	</string>
+	<string id="axr_phrase_actor_give_command">
+		<text>[Donner l'ordre]</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_combat">
+		<text>Parlons tactique...</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_combat_type_camper">
+		<text>J'veux que tu fasses gaffe en combat.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_combat_type_default">
+		<text>Fais comme d'hab en combat.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_combat_type_monolith">
+		<text>Balance tout ce que t'as sur les ennemis !</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_stay_close">
+		<text>Reste près de moi et couvre mes arrières.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_keep_distance">
+		<text>Je veux que tu gardes tes distances.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_stealth">
+		<text>Chut... Baisse-toi et reste discret.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_stop_stealth">
+		<text>D'accord. On continue comme d'hab.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_relax">
+		<text>Détends-toi un peu. Je te dirai quand c'est l'heure de bouger.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_relax_over">
+		<text>D'accord. C'est l'heure de bouger.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_leave">
+		<text>Je dois continuer seul à partir d'ici.</text>
+	</string>
+	<string id="axr_phrase_companion_are_you_sure">
+		<text>T'es sûr ?</text>
+	</string>
+	<string id="axr_phrase_actor_acknowledge_1">
+		<text>Ouais.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_wait">
+		<text>Attends ici et garde cette position.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_follow">
+		<text>Il faut que tu me suives.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_ignore_combat">
+		<text>Évite de tirer sur qui que ce soit pour l'instant.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_dont_ignore_combat">
+		<text>Attaque les ennemis uniquement à vue.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_ignore_combat_but_help_actor">
+		<text>N'attaque personne sauf s'ils m'attaquent en premier.</text>
+	</string>
+	<string id="axr_phrase_companion_acknowledge_1">
+		<text>T'as compris.</text>
+	</string>
+	<string id="axr_phrase_companion_acknowledge_2">
+		<text>D'accord, mec.</text>
+	</string>
+	<string id="axr_phrase_companion_acknowledge_3">
+		<text>Bien sûr, tu veux que je fasse quoi 0?</text>
+	</string>
+	<string id="axr_phrase_companion_goodbye_1">
+		<text>Merci pour la compagnie. À plus dans le coin.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_nevermind">
+		<text>Laisse tomber.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_hide_in_cover">
+		<text>Vite ! Trouve un couvert !</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_patrol_menu">
+		<text>Je veux que tu patrouilles une zone.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_start_patrol">
+		<text>Commence la patrouille.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_stop_patrol">
+		<text>Arrête la patrouille.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_patrol_remove_waypoints">
+		<text>Oublie tous tes points de repère.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_patrol_add_waypoints">
+		<text>Ajoute cet endroit à ta patrouille actuelle.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_gather_items">
+		<text>Ramasse tout le matos que tu croises, ça peut servir.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_loot_corpses">
+		<text>Fouille les cadavres pour récupérer ce qui peut servir.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_gather_items_stop">
+		<text>Ignore le matos que tu vois traîner.</text>
+	</string>
+	<string id="axr_phrase_actor_give_command_loot_corpses_stop">
+		<text>Ignore les morts.</text>
+	</string>
+	<string id="axr_phrase_friend_companion_ask_join">
+		<text>Hé, on explore en équipe. Comme ça, on s'entraide pour traverser la Zone.</text>
+	</string>
+	<string id="axr_phrase_friend_companion_answer_join">
+		<text>Ouais, ça a l'air top ! Montre le chemin.</text>
+	</string>
+	<string id="axr_phrase_friend_companion_ask_join_hostage">
+		<text>Tu viens avec moi sauver ton pote?</text>
+	</string>
+	<string id="axr_phrase_friend_companion_answer_join_hostage">
+		<text>Ouais, il a besoin de notre aide ! Montre-nous le chemin.</text>
+	</string>
+</string_table>

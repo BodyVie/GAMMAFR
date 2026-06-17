@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<!-- addon tab name (left) -->
+	<string id="ui_mcm_menu_ATS_illum">
+		<text>Illum. ATS</text>
+	</string>
+	<!-- addon menu title (right) -->
+	<string id="ui_mcm_ATS_illum_title">
+		<text>Paramètres réticule et sons</text>
+	</string>
+	<!-- string for keybind option -->
+	<string id="ui_mcm_ATS_illum_ATS_keybind">
+		<text>Raccourci activation éclairage</text>
+	</string>
+	<!-- dynamic zoom click sound strings -->
+	<string id = "ui_mcm_ATS_illum_dzs_mode">
+		<text>Mode son zoom dynamique</text>
+	</string>
+	<string id = "ui_mcm_ATS_illum_dzs_mode_desc">
+		<text>Mode 1 : Un son par clic pour chaque lunette. Choisissez le son dans la liste ci-dessous.\n\nMode 2 : Chaque lunette peut avoir des sons différents selon les configurations, les plugins ou le fichier dynamic_zoom_scope_sounds.ltx.</text>
+	</string>
+	<string id="ui_mcm_lst_dzs_mode_1">
+		<text>1</text>
+	</string>
+	<string id="ui_mcm_lst_dzs_mode_2">
+		<text>2</text>
+	</string>
+	<string id = "ui_mcm_ATS_illum_dzs_sound_type">
+		<text>Type son zoom dynamique</text>
+	</string>
+	<string id = "ui_mcm_ATS_illum_dzs_volume">
+		<text>Volume son zoom dynamique</text>
+	</string>
+	<string id = "ui_mcm_ATS_illum_dzs_volume_desc">
+		<text>!À UTILISER AVEC PRÉCAUTION!\n\nProtégez vos oreilles et ne montez pas trop le volume.</text>
+	</string>
+	<string id = "ui_mcm_ATS_illum_ATS_toggle_volume">
+		<text>Volume son activation éclairage</text>
+	</string>
+	<string id = "ui_mcm_ATS_illum_ATS_toggle_volume_desc">
+		<text>!À UTILISER AVEC PRÉCAUTION!\n\nProtégez vos oreilles et ne montez pas trop le volume.</text>
+	</string>
+
+	<string id="ui_mcm_lst_dzs_sound_1">
+		<text>Son 1</text>
+	</string>
+	<string id="ui_mcm_lst_dzs_sound_2">
+		<text>Son 2</text>
+	</string>
+	<string id="ui_mcm_lst_dzs_sound_3">
+		<text>Son 3</text>
+	</string>
+	<string id="ui_mcm_lst_dzs_sound_4">
+		<text>Son 4</text>
+	</string>
+	<string id="ui_mcm_lst_dzs_sound_5">
+		<text>Son 5</text>
+	</string>
+</string_table>e>

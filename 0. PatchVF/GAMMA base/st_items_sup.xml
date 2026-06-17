@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_addon_scope_sup_new">
+		<text>S.U.P. Pack Spécial Upgrade</text>
+	</string>
+	<string id="st_addon_scope_sup_new_descr">
+		<text>Un kit de montage comprenant divers outils, pièces et lunettes de visée destinés à améliorer une large gamme d'armes.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+</string_table>

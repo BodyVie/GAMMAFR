@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!-- 
+	MCM
+-->
+<string_table>
+
+
+	<string id="ui_mcm_stealth_title">
+		<text>Discrétion</text>
+	</string>
+	<string id="ui_mcm_menu_stealth">
+		<text>Discrétion</text>
+	</string>
+
+	<string id="ui_mcm_stealth_memory">
+		<text>Mémoire</text>
+	</string>
+	<string id="ui_mcm_stealth_memory_desc">
+		<text>Multiplicateur de mémoire. (Si un NPC a déjà vu la cible, il bénéficiera d'un bonus de vision contre cette cible. Ce bonus diminue avec le temps ; avec une valeur par défaut de 1,0, il faut environ 100 secondes en temps réel pour que le bonus du NPC retombe à 0 contre cette cible) \n 
+				\nValeur par défaut : 1,0</text>
+	</string>
+
+	<string id="ui_mcm_stealth_luminocity">
+		<text>Luminosité</text>
+	</string>
+	<string id="ui_mcm_stealth_luminocity_desc">
+		<text>Multiplicateur de luminosité. (Lumière sur l'objet) \n 
+				\nValeur par défaut : 1,0</text>
+	</string>
+
+	<string id="ui_mcm_stealth_distance">
+		<text>Distance</text>
+	</string>
+	<string id="ui_mcm_stealth_distance_desc">
+		<text>Multiplicateur de distance. (Distance entre objets, portée et champ de vision) \n 
+				\nValeur par défaut : 1,0</text>
+	</string>
+
+	<string id="ui_mcm_stealth_velocity">
+		<text>Vitesse</text>
+	</string>
+	<string id="ui_mcm_stealth_velocity_desc">
+		<text>Multiplicateur de vélocité. (Vitesse de l'objet) \n 
+				\nValeur par défaut : 1,0</text>
+	</string>
+
+	<string id="ui_mcm_stealth_weight">
+		<text>Poids</text>
+	</string>
+	<string id="ui_mcm_stealth_weight_desc">
+		<text>Multiplicateur de poids. (Poids sur l'acteur) \n 
+				\nValeur par défaut : 1,0</text>
+	</string>
+
+	<string id="ui_mcm_stealth_crouch">
+		<text>Accroupi</text>
+	</string>
+	<string id="ui_mcm_stealth_crouch_desc">
+		<text>Multiplicateur de posture accroupie. \n 
+				\nValeur par défaut : 0,4</text>
+	</string>
+
+	<string id="ui_mcm_stealth_low_crouch">
+		<text>Accroupi bas</text>
+	</string>
+	<string id="ui_mcm_stealth_low_crouch_desc">
+		<text>Multiplicateur de posture basse. \n 
+				\nValeur par défaut : 0,25</text>
+	</string>
+
+	<string id="ui_mcm_stealth_icon">
+		<text>Icône</text>
+	</string>
+	<string id="ui_mcm_stealth_icon_desc">
+		<text>Icône de luminosité. (Affiche la lumière sur l'acteur)</text>
+	</string>
+
+	<string id="ui_mcm_stealth_michiko_patch">
+		<text>Correctif météo Michiko</text>
+	</string>
+	<string id="ui_mcm_stealth_michiko_patch_desc">
+		<text>Il est recommandé d'activer cette option si vous utilisez la météo de Michiko.</text>
+	</string>
+
+	<string id="ui_mcm_stealth_debugx">
+		<text>Débogage</text>
+	</string>
+	<string id="ui_mcm_stealth_debugx_desc">
+		<text>Affichage des variables de l'équation (pour un seuil correct, vous devez maintenir le curseur sur l'objet en permanence) : \n 
+				\nConsole : toutes les variables \n 
+				\nActualités dynamiques : détermine si l'objet voit ou non l'acteur \n 
+				\nMessage en bas de l'écran : seuil de visibilité de l'objet (et variables modifiables dans le MCM)</text>
+	</string>
+
+
+
+</string_table>

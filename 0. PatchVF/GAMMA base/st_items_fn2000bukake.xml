@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_fn2000e_descr">
+		<text>L'objectif du FN F2000 était de produire une arme modulaire offrant toutes les caractéristiques populaires des fusils d'assaut modernes, telles qu'une configuration bullpup compacte, une structure ambidextre et une conception permettant de nombreuses options et accessoires. À ce jour, le fusil FN F2000 n'a trouvé que peu d'acquéreurs, parmi lesquels les Forces armées slovènes et les Forces spéciales belges. Néanmoins, il s'agit sans aucun doute d'une arme unique et d'apparence futuriste, ressemblant à un objet tout droit sorti d'un film de science-fiction.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Belgique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]FN Herstal\n
+		</text>
+	</string>
+	<string id="st_wpn_fn2000e_nimble">
+		<text>FN F2000 « Competitor »</text>
+	</string>
+	<string id="st_wpn_fn2000e_nimble_descr">
+		<text>L'objectif du FN F2000 était de produire une arme modulaire offrant toutes les caractéristiques populaires des fusils d'assaut modernes, telles qu'une configuration bullpup compacte, une structure ambidextre et une conception permettant de nombreuses options et accessoires. À ce jour, le fusil FN F2000 n'a trouvé que peu d'acquéreurs, parmi lesquels les Forces armées slovènes et les Forces spéciales belges. Néanmoins, il s'agit sans aucun doute d'une arme unique et d'apparence futuriste, ressemblant à un objet tout droit sorti d'un film de science-fiction. Équipé d'une visée EOTech et spécialement modifié pour un taux de tir plus élevé, le « Competitor » ne connaît que la compétition.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Belgique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]FN Herstal\n
+		</text>
+	</string>
+
+</string_table>

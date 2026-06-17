@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+	<string id="ui_mcm_menu_EA_settings">
+		<text>Paramètres FDDA</text>
+	</string>
+
+	<string id="ui_mcm_EA_settings_enable_animations">
+		<text>Activer les animations FDDA</text>
+	</string>
+
+	<string id="ui_mcm_EA_settings_enable_backpack_addon">
+		<text>Activer les animations du sac à dos</text>
+	</string>
+
+	<string id="ui_mcm_EA_settings_enable_crouch_toggle_backpack_addon">
+		<text>Activer l'animation de accroupissement pour le sac à dos</text>
+	</string>
+
+	<string id="ui_mcm_EA_settings_mutant_loot">
+		<text>Activer les animations de loot des mutants</text>
+	</string>
+
+	<string id="ui_mcm_EA_settings_take_item_anim">
+		<text>Activer l'animation de ramassage des objets</text>
+	</string>
+
+	<string id="ui_mcm_EA_settings_mutant_loot_desc">
+		<text>remarque : il se désactive automatiquement \n
+		\nsi les animations FDDA sont désactivées</text>
+	</string>
+
+	<string id="ui_mcm_EA_settings_take_dist">
+		<text>Distance des animations de ramassage</text>
+	</string>
+	
+	<string id="ui_mcm_EA_settings_ea_debug">
+		<text>Débogage EA</text>
+	</string>
+
+	<string id="ui_mcm_EA_settings_take_dist_desc">
+		<text>Valeur par défaut - 0,12, valeur recommandée pour la correction \n
+		 bug de l'addon pour chargeurs - 0.3-0.5</text>
+	</string>
+	
+	<string id="st_EA_ladder_item_not_allowed">
+      <text>T'as les mains occupées, là</text>
+    </string>
+	
+	<string id="st_EA_game_ver_error_1">
+      <text>ERREUR DE VERSION DE JEU FDDA !\nCET ADDON EST CRÉÉ POUR ANOMALY 1.5.2/1.5.3\nTA VERSION DE JEU EST\n--</text>
+    </string>
+	
+	<string id="st_EA_game_ver_error_2">
+      <text>--\nLISEZ LA DESCRIPTION FDDA SUR MODDB\nIL Y A UN LIEN POUR ANOMALY 1.5.1 LÀ-BAS </text>
+    </string>
+	
+	<string id="st_EA_game_ver_error_button_ok">
+      <text>Ok, fais-moi planter</text>
+    </string>
+	
+	<string id="st_EA_game_ver_error_button_cancel">
+      <text>Ok, je m'en fous</text>
+    </string>
+	
+	
+

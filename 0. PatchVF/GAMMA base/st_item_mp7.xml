@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_mp7">
+		<text>MP7</text>
+	</string>
+	<string id="st_wpn_mp7_descr_new">
+		<text>Une arme de défense personnelle compacte conçue pour une grande mobilité et une efficacité optimale en combat rapproché. Dotée d'une carcasse en polymère léger, d'un faible recul et d'une cadence de tir élevée, elle permet une acquisition rapide des cibles et un contrôle supérieur. Son design modulaire supporte divers accessoires, ce qui en fait un choix polyvalent pour les forces spéciales, les forces de l'ordre et le personnel de sécurité.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Allemagne\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Heckler &amp; Koch\n
+		</text>
+	</string>
+	
+</string_table>

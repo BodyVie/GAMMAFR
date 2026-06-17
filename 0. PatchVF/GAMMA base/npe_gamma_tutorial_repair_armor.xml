@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    <!-- SERIOUS: If anybody wants to edit this please make sure that you save it in `windows-1251` encoding. Otherwise the dots for card 5 get fcked up.-->
+
+    <!-- MCM -->
+    <!-- Name of the toggle that sets if tutorial has been completed-->
+    <string id="ui_mcm_npe_module_gamma_tutorial_repair_armor">
+        <text>Tutoriel réparation armure</text>
+    </string>
+    <!-- MCM -->
+
+    <!-- Title of the whole tutorial -->
+    <string id="ui_mcm_npe_module_gamma_tutorial_repair_armor_title">
+        <text>Tutoriel réparation et entretien armure</text>
+    </string>
+
+    <!-- Cards -->
+    <!-- 1 -->
+    <string id="ui_gamma_tutorial_repair_armor_card_01_title">
+        <text>Armures pillées à réparer</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_repair_armor_card_01_description">
+        <text>%c[ui_white]Vous venez de récupérer votre première armure, félicitations. Cependant, elle peut ne pas être immédiatement utilisable. Apprenons à la réparer.\n \n
+		
+		• Maintenir la touche Ctrl gauche enfoncée tout en survolant une armure avec la souris affiche ses statistiques à 100 % d'état. Cela est utile pour évaluer les qualités de l'armure avant de la réparer.\n \n
+		
+		• Pour réparer les armures dont l'état est inférieur à 50 %, vous avez besoin d'un %c[242,53,227,255]kit de réparation%c[ui_white] d'armure et de remplacer ses pièces à l'aide de %c[yellow]pièces détachées%c[ui_white] en bon état sur un établi. Les %c[242,53,227,255]kits de réparation%c[ui_white] sont verrouillés derrière les %c[d_orange]trousses à outils%c[ui_white].\n \n
+		
+		• Pour entretenir les armures dont l'état est égal ou supérieur à 65 %, vous avez besoin de %c[d_blue]kits d'entretien%c[ui_white] d'armure tels que des kits de couture et des colles, qui peuvent être améliorés à l'aide de %c[pda_green]matériaux de soutien%c[ui_white].\n \n
+		
+		• Les casques se réparent et s'entretiennent de la même manière.\n \n</text>
+    </string>
+    <!-- 1 -->
+
+    <!-- 2 -->
+    <string id="ui_gamma_tutorial_repair_armor_card_02_title">
+        <text>Réparation des armures &lt; 50%</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_repair_armor_card_02_description">
+        <text>Les %c[242,53,227,255]kits de réparation%c[ui_white] peuvent être utilisés aux établis pour remplacer les pièces d'armure à l'aide de %c[yellow]pièces détachées%c[ui_white], de préférence en bon état. L'état final de l'armure est basé sur la moyenne de toutes les pièces. Le remplacement des pièces ne consomme pas les charges des %c[242,53,227,255]kits de réparation%c[ui_white].\n \n
+		
+		• Chaque armure appartient à une classe d'armure (indiquée sur l'icône de l'armure). Chaque classe dispose d'un kit de réparation d'armure correspondant : léger, moyen, lourd, exosquelette.\n \n
+
+		• Ces %c[242,53,227,255]kits de réparation%c[ui_white] peuvent être fabriqués avec les %c[d_orange]trousses à outils%c[ui_white] et composants appropriés, selon la relation détaillée ci-dessous :
+		 - Trousse à outils basique &gt; Kit de réparation d'armure légère\n
+		 - Trousse à outils avancée &gt; Kit de réparation d'armure moyenne (et lourde).\n
+		 - Trousse à outils experte &gt; Kit de réparation d'armure lourde et exosquelette. Pour pouvoir fabriquer un kit de réparation d'exosquelette, vous devez d'abord trouver la recette de fabrication correspondante. \n \n
+
+		• Les %c[d_orange]trousses à outils%c[ui_white] peuvent être obtenues dans les caches jaunes, attribuées après l'accomplissement de missions.\n \n
+
+		• Les kits de réparation d'armure peuvent être utilisés pour réparer une armure dont l'état est supérieur à 50 % en suivant la même méthode que les %c[d_blue]kits d'entretien%c[ui_white] (détaillée ci-après). Cette opération utilise une charge du %c[242,53,227,255]kit de réparation%c[ui_white].\n \n       </text>
+		
+    </string>
+    <!-- 2 -->
+    
+    <!-- 3 -->
+    <string id="ui_gamma_tutorial_repair_armor_card_03_title">
+        <text>Réparation des parties d'armure</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_repair_armor_card_03_description">
+        <text>%c[ui_white]• Les %c[yellow]pièces détachées%c[ui_white] peuvent être réparées avant d'accéder à l'établi en utilisant divers éléments de réparation présents dans votre inventaire. Pour savoir quels éléments utiliser pour réparer une pièce, cliquez avec le bouton droit sur la pièce et cliquez avec le bouton gauche sur "détails".\n \n
+			  
+			  • En alternative, survoler des %c[yellow]pièces détachées%c[ui_white] met en évidence l'élément de réparation nécessaire disponible dans votre inventaire.\n \n
+			  
+			  • Pour réparer des %c[yellow]pièces détachées%c[ui_white], cliquez avec le bouton droit sur l'élément de réparation associé et cliquez avec le bouton gauche sur "utiliser". Procédez ensuite à la réparation des %c[yellow]pièces détachées%c[ui_white].\n \n
+              
+			  • Les %c[yellow]pièces détachées%c[ui_white] dont l'état est inférieur à 50 % ne peuvent pas être réparées. Elles peuvent cependant être utiles pour gagner rapidement de l'argent en les vendant aux mécaniciens (vous ne deviendrez toutefois pas riche de cette manière).\n \n</text>
+    </string>
+    <!-- 3 -->
+
+    <!-- 4 -->
+    <string id="ui_gamma_tutorial_repair_armor_card_04_title">
+        <text>Entretien des armures ? 65%</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_repair_armor_card_04_description">
+        <text>%c[ui_white]• Les %c[d_blue]kits d'entretien%c[ui_white] peuvent être utilisés pour réparer l'état d'une armure. Ces kits peuvent être achetés directement auprès de tout marchand mécanicien. Les %c[d_blue]kits d'entretien%c[ui_white] correspondent aux kits de couture et aux colles.\n \n
+		
+              • Les %c[d_blue]kits d'entretien%c[ui_white] peuvent utiliser des %c[pda_green]matériaux de soutien%c[ui_white] pour améliorer davantage l'état de l'armure après l'entretien.\n \n
+			  
+              • Un détail de l'effet de tous les %c[pda_green]matériaux de soutien%c[ui_white] pour un %c[d_blue]kit d'entretien%c[ui_white] donné peut être consulté en cliquant avec le bouton droit sur un kit et en cliquant avec le bouton gauche sur "détail".\n \n
+			  
+			  %c[yellow]Vous pouvez revoir ce tutoriel en accédant au Menu de Configuration du Mod (MCM) &gt; Modules NPE &gt; G.A.M.M.A. et en décochant le tutoriel.\n \n
+			  </text>
+    </string>
+    <!-- 4 -->
+    <!-- Cards -->
+</string_table>

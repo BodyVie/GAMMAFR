@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_mag_lancer">
+		<text>Chargeur Lancer L7AWM 7,62x51 25 cartouches</text>
+	</string>
+	<string id="st_mag_lancer_descr">
+		<text>Chargeur L7AWM de 25 cartouches à double pile pour munitions 7,62x51 OTAN. Fabricant : Lancer Systems.</text>
+	</string>
+	
+</string_table>

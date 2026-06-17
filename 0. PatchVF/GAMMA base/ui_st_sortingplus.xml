@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	UI
+-->
+
+	<string id="st_rax_fav">
+		<text>Marquer comme favori</text>
+	</string>
+	<string id="st_rax_unfav">
+		<text>Démarquer comme favori</text>
+	</string>
+	<string id="st_rax_junk">
+		<text>Marquer comme sans valeur</text>
+	</string>
+	<string id="st_rax_unjunk">
+		<text>Démarquer comme sans valeur</text>
+	</string>
+
+<!--
+	MCM
+-->
+
+	<string id="ui_mcm_title_SortingPlus">
+		<text>Sorting Plus</text>
+	</string>
+
+	<string id="ui_mcm_menu_SortingPlus">
+		<text>Sorting Plus</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_playerinv">
+		<text>Trier l'inventaire du joueur</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_playerinv_desc">
+		<text>Inventaire du côté droit sur tous les écrans, à l'exception de l'écran d'échange.</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_playertrade">
+		<text>Trier l'inventaire d'échange du joueur</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_playertrade_desc">
+		<text>Inventaire du côté droit lors des échanges.</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_npcinv">
+		<text>Trier l'inventaire des NPCS</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_npcinv_desc">
+		<text>Inventaire du côté gauche sur tous les écrans, à l'exception de l'écran d'échange.</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_npctrade">
+		<text>Trier l'inventaire d'échange des NPCS</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_npctrade_desc">
+		<text>Inventaire du côté gauche lors des échanges.</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_useltx">
+		<text>Utiliser sortingplus.ltx</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_useltx_desc">
+		<text>Ignore les paramètres ci-dessous au profit de ceux définis dans sortingplus.ltx, qui offrent un contrôle plus granulaire.</text>
+	</string>
+
+	<string id="ui_mcm_SortingPlus_iconjunk">
+		<text>Marquer comme sans valeur</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_iconjunk_desc">
+		<text>Marque les objets signalés comme Inutiles avec une icône.</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_hilitejunk">
+		<text>Surligner les objets sans valeur</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_hilitejunk_desc">
+		<text>Met en évidence les objets marqués comme Inutiles.</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_sortjunk">
+		<text>Utiliser la catégorie objets sans valeur</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_sortjunk_desc">
+		<text>Trie les objets Inutiles dans leur propre catégorie, par défaut la dernière.</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_selljunk">
+		<text>Vente automatique des objets sans valeur</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_selljunk_desc">
+		<text>Les objets Inutiles qu'un marchand acceptera d'acheter seront placés dans le panneau de vente. Vous devez tout de même appuyer sur le bouton de vente pour finaliser la transaction.</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_iconfavs">
+		<text>Marquer les favoris</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_iconfavs_desc">
+		<text>Marque les objets signalés comme Favoris avec une icône.</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_hilitefavs">
+		<text>Surligner les favoris</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_hilitefavs_desc">
+		<text>Met en évidence les objets marqués comme Favoris.</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_sortfavs">
+		<text>Utiliser la catégorie favoris</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_sortfavs_desc">
+		<text>Trie les objets Favoris dans leur propre catégorie, par défaut la première.</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_putallfavs">
+		<text>Bloquer « Tout déplacer » pour les favoris</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_putallfavs_desc">
+		<text>Les objets marqués comme Favoris ne seront pas déplacés de votre inventaire lors d'un transfert complet.</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_resort">
+		<text>Retrier lors du marquage</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_resort_desc">
+		<text>L'inventaire sera retrié immédiatement lors du marquage d'objets comme Favoris ou Inutiles. Sinon, le tri attendra la prochaine ouverture de l'inventaire. Cela fournit un retour utile si la mise en évidence est désactivée.</text>
+	</string>
+
+	<string id="ui_mcm_SortingPlus_001loadout">
+		<text>Équipement ARM</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_002mags">
+		<text>Chargeurs ARM</text>
+	</string>
+
+	<string id="ui_mcm_SortingPlus_000favorites">
+		<text>Favoris</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_999junk">
+		<text>Objets sans valeur</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_010weapons">
+		<text>Armes</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_020outfits">
+		<text>Tenues</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_030artifacts">
+		<text>Artefacts</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_040devices">
+		<text>Appareils</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_050tools">
+		<text>Outils</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_060medical">
+		<text>Médical</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_070foods">
+		<text>Nourriture</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_080mutantfoods">
+		<text>Nourriture de mutants</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_090quest">
+		<text>Objets de quête</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_100notes">
+		<text>Notes</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_110ammo">
+		<text>Munitions</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_120mutantparts">
+		<text>Pièces de mutants</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_130misc">
+		<text>Divers</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_140upgrades">
+		<text>Améliorations</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_150parts">
+		<text>Pièces</text>
+	</string>
+
+</string_table>

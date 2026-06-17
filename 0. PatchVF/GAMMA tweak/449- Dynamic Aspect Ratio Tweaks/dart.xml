@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+  <string id="ui_mcm_dart_title">
+    <text>DART</text>
+  </string>
+
+  <string id="ui_mcm_dart_core_title">
+    <text>Paramètres principaux</text>
+  </string>
+
+  <string id="ui_mcm_menu_dart">
+    <text>DART</text>
+  </string>
+
+  <string id="ui_mcm_menu_dart_core">
+    <text>Principal</text>
+  </string>
+
+  <string id="ui_mcm_dart_scale">
+    <text>Échelle</text>
+  </string>
+
+  <string id="ui_mcm_dart_scale_desc">
+    <text>Ajustez la taille de cet élément. Les valeurs supérieures à 1 agrandiront cet élément. Les valeurs inférieures à 1 le réduiront.</text>
+  </string>
+
+  <string id="ui_mcm_dart_scale_note">
+    <text>NOTE : La taille du texte est fixe et ne peut pas être mise à l'échelle.</text>
+  </string>
+
+  <string id="ui_mcm_dart_offsetX">
+    <text>Décalage X</text>
+  </string>
+
+  <string id="ui_mcm_dart_offsetX_desc">
+    <text>Ajustez la position horizontale de cet élément. Les valeurs positives le déplacent vers la droite. Les valeurs négatives le déplacent vers la gauche.</text>
+  </string>
+
+  <string id="ui_mcm_dart_offsetY">
+    <text>Décalage Y</text>
+  </string>
+
+  <string id="ui_mcm_dart_offsetY_desc">
+    <text>Ajustez la position verticale de cet élément. Les valeurs positives le déplacent vers le bas. Les valeurs négatives le déplacent vers le haut.</text>
+  </string>
+
+  <string id="ui_mcm_dart_alignX">
+    <text>Alignement horizontal</text>
+  </string>
+
+  <string id="ui_mcm_dart_alignX_desc">
+    <text>Alignez cet élément horizontalement par rapport à la zone spécifiée de l'écran.</text>
+  </string>
+
+  <string id="ui_mcm_dart_alignY">
+    <text>Alignement vertical</text>
+  </string>
+
+  <string id="ui_mcm_dart_alignY_desc">
+    <text>Alignez cet élément verticalement par rapport à la zone spécifiée de l'écran.</text>
+  </string>
+
+  <string id="ui_mcm_dart_core_safezone">
+    <text>Zone sûre</text>
+  </string>
+
+  <string id="ui_mcm_dart_core_safezone_desc">
+    <text>Rapprochez tous les éléments du centre de l'écran du nombre de pixels spécifié.</text>
+  </string>
+
+  <string id="ui_mcm_dart_core_debugOptions_title">
+    <text>Paramètres de débogage</text>
+  </string>
+
+  <string id="ui_mcm_dart_core_refreshKey">
+    <text>Touche de rafraîchissement manuel de l'interface</text>
+  </string>
+
+  <string id="ui_mcm_dart_core_refreshKey_desc">
+    <text>Attribuez une touche pour rafraîchir manuellement tous les éléments du HUD affectés par DART.</text>
+  </string>
+
+  <string id="ui_mcm_lst_dart_default">
+    <text>(Par défaut)</text>
+  </string>
+
+  <string id="ui_mcm_lst_dart_left">
+    <text>Gauche</text>
+  </string>
+
+  <string id="ui_mcm_lst_dart_center">
+    <text>Centre</text>
+  </string>
+
+  <string id="ui_mcm_lst_dart_right">
+    <text>Droite</text>
+  </string>
+
+  <string id="ui_mcm_lst_dart_top">
+    <text>Haut</text>
+  </string>
+
+  <string id="ui_mcm_lst_dart_bottom">
+    <text>Bas</text>
+  </string>
+</string_table>

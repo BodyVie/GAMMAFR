@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_menu_SMR">
+		<text>ZCP</text>
+	</string>
+	
+	<string id="ui_mcm_menu_smr_amain">
+		<text>Principal</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_persist_info_mm">
+		<text>Vous n'êtes pas en jeu. Toute modification effectuée maintenant s'appliquera au démarrage d'une nouvelle partie, mais sera écrasée si une sauvegarde chargée contient une configuration enregistrée.</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_persist_info_level">
+		<text>Vous êtes en jeu. Toute modification effectuée maintenant sera enregistrée et chargée avec votre sauvegarde.</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_tooltip_info">
+		<text>La plupart des options disposent d'infobulles. En cas de doute sur le fonctionnement d'une option, passez la souris sur son nom pour afficher une description.</text>
+	</string>
+	<!-- GENERAL -->
+	<string id="st_smr_glitched_pda_text">
+		<text>ERREUR FATAL : CORRUPTION DE LA MÉMOIRE INTERNE DÉTECTÉE</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_smr_enabled">
+		<text>Activer ZCP</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_smr_debug_log">
+		<text>Journalisation de débogage</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_smr_debug_log_desc">
+		<text>Active l’enregistrement des logs de débogage. ATTENTION : cette option augmentera très rapidement la taille de votre fichier de log ainsi que celle du fichier séparé « dph_zcp.log ».</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_smr_persist_override">
+		<text>Ne pas charger la configuration depuis la sauvegarde</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_smr_persist_override_desc">
+		<text>Ignore la configuration de chargement issue du fichier de sauvegarde. Utile si vous suspectez que les données enregistrées sont corrompues ou invalides.</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_respawn_idle">
+		<text>Temps de réapparition</text>
+	</string>
+	<string id="ui_mcm_lst_smr_amain_respawn_idle_10800">
+		<text>3 heures</text>
+	</string>
+	<string id="ui_mcm_lst_smr_amain_respawn_idle_21600">
+		<text>6 heures</text>
+	</string>
+	<string id="ui_mcm_lst_smr_amain_respawn_idle_43200">
+		<text>12 heures</text>
+	</string>
+	<string id="ui_mcm_lst_smr_amain_respawn_idle_86400">
+		<text>1 jour (par défaut)</text>
+	</string>
+	<string id="ui_mcm_lst_smr_amain_respawn_idle_172800">
+		<text>2 jours</text>
+	</string>
+	<string id="ui_mcm_lst_smr_amain_respawn_idle_345600">
+		<text>4 jours</text>
+	</string>
+	<string id="ui_mcm_lst_smr_amain_respawn_idle_604800">
+		<text>1 semaine</text>
+	</string>
+	<string id="ui_mcm_lst_smr_amain_respawn_idle_1209600">
+		<text>2 semaines</text>
+	</string>
+	<string id="ui_mcm_lst_smr_amain_respawn_idle_1">
+		<text>Jamais</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_pop_factor_info">
+		<text>Ces paramètres de facteur de population remplaceront ceux intégrés à Anomaly lorsque ZCP est activé.</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_monster_pop_factor">
+		<text>Facteur de population des Mutants</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_stalker_pop_factor">
+		<text>Facteur de population des Stalkers</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_respawn_idle_desc">
+		<text>Modifie le délai de réapparition pour tous les points de spawn des stalkers, des mutants et des zombies.</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_glitched_pda">
+		<text>PDA endommagé</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_glitched_pda_desc">
+		<text>Transforme votre PDA utile en presse-papiers, accompagné d’un charmant message d’erreur.</text>
+	</string>
+</string_table>

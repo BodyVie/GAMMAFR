@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	PROPS
+-->
+
+	<string id="st_placeable_exo_kit">
+		<text>Kit de réparation d'exosquelette Vide</text>
+	</string>
+	<string id="st_placeable_exo_kit_descr">
+		<text>Une caisse vide dépouillée de tout objet utile, bien que sa capacité et sa taille soient suffisantes pour être réutilisée comme rangement.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Utilisable comme planque\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_placeable_case">
+		<text>Caisse à flingues</text>
+	</string>
+	<string id="st_placeable_case_descr">
+		<text>Une mallette d'arme vide, dépourvue de toute armurerie. Elle offre plus d'espace que les sacs à dos conventionnels, au détriment du poids.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Utilisable comme planque\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_placeable_blue_box">
+		<text>Boîte en métal</text>
+	</string>
+	<string id="st_placeable_blue_box_descr">
+		<text>Une boîte métallique spacieuse conçue pour le rangement d'objets. Elle offre le plus d'espace par rapport aux alternatives, mais son poids important la rend plus difficile à transporter.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Utilisable comme planque\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_placeable_sumka6">
+		<text>Petit sac à dos</text>
+	</string>
+	<string id="st_placeable_sumka6_descr">
+		<text>Petites feuilles de tissu cousues ensemble pour former un sac rudimentaire. Utile pour créer une petite planque en cas d'urgence.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Utilisable comme planque\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+<!--
+	UI
+-->
+
+    <string id="st_place_furniture">
+		<text>Placer l'objet</text>
+	</string>
+	
+</string_table>

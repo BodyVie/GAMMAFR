@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Weapons upgrades
+-->
+
+<string_table>
+
+	<string id="st_prop_binoc_gamma_nightvision">
+		<text>Vision nocturne</text>
+	</string>	
+	<string id="st_prop_binoc_gamma_nightvision_0">
+		<text>Vision nocturne</text>
+	</string>
+	<string id="st_prop_binoc_gamma_nightvision_1">
+		<text>Vision nocturne Gén. 1</text>
+	</string>
+	<string id="st_prop_binoc_gamma_nightvision_2">
+		<text>Vision nocturne Gén. 2</text>
+	</string>
+	<string id="st_prop_binoc_gamma_nightvision_3">
+		<text>Vision nocturne Gén. 3</text>
+	</string>
+	
+	<string id="st_up_binoc_b1_gamma_name">
+		<text>Gen 1 Vision Nocturne</text>
+	</string>
+	<string id="st_up_binoc_b1_gamma_descr">
+		<text>Installation technologique de vision nocturne conçue pour les conditions de faible luminosité. Elle exploite les techniques de plage spectrale et d'intensité utiles de nuit afin de détecter les rayonnements invisibles à l'oeil humain.</text>
+	</string>
+	<string id="st_up_binoc_b2_gamma_name">
+		<text>Gen 2 Vision Nocturne</text>
+	</string>
+	<string id="st_up_binoc_b2_gamma_descr">
+		<text>Amélioration de la technologie de vision nocturne, introduisant un meilleur gain lumineux du système, une résolution accrue et une photosensibilité optimisée afin d'augmenter la qualité visuelle.</text>
+	</string>
+	<string id="st_up_binoc_b3_gamma_name">
+		<text>Gen 3 Vision Nocturne</text>
+	</string>
+	<string id="st_up_binoc_b3_gamma_descr">
+		<text>Amélioration de la technologie de vision nocturne, introduisant un meilleur gain lumineux du système, une résolution accrue et une photosensibilité optimisée pour améliorer la qualité visuelle, ainsi qu'un affichage à phosphore blanc pour une meilleure acuité et une réduction de la fatigue oculaire.</text>
+	</string>
+
+</string_table>

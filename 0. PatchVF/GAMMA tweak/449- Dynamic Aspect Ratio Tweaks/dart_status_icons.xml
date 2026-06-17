@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+  <string id="ui_mcm_dart_statusIcons_title">
+    <text>Paramètres HUD des icônes d'état</text>
+  </string>
+
+  <string id="ui_mcm_menu_dart_statusIcons">
+    <text>Icônes d'état</text>
+  </string>
+
+  <string id="ui_mcm_dart_statusIcons_spacing">
+    <text>Espacement des icônes</text>
+  </string>
+
+  <string id="ui_mcm_dart_statusIcons_spacing_desc">
+    <text>Ajoute le nombre spécifié de pixels d'espacement entre chaque icône de statut.</text>
+  </string>
+</string_table>

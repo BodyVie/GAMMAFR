@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_vihrn">
+		<text>SR-3M Vikhr</text>
+	</string>
+	<string id="st_wpn_vihrn_descr">
+		<text>Basé sur le fusil d'assaut AS Val équipé d'un silencieux et conçu pour le port dissimulé par les équipes de protection rapprochée de VIP et les agents de la Sécurité d'État, le SR-3M Vikhr « Tourbillon » résulte de la combinaison des qualités du SR-3, de l'AS Val et du VSS Vintorez. Le SR-3M dispose d'un chargeur de plus grande capacité, offrant également une alimentation plus fiable lors du tir automatique.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Usine d'armes de Toula\n
+		</text>
+	</string>
+
+</string_table>

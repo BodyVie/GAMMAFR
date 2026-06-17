@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_friend_companion_ask_join_individually">
+		<text>Hé, l'ami, tu veux lâcher ton groupe et venir avec moi à la place ?</text>
+	</string>
+
+	<string id="st_paid_companion_dialog_text_individually">
+		<text>Je peux te payer pour que tu quittes ton groupe et que tu bosses comme mon escort, ça t'intéresse ?</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_ace52">
+		<text>Galil ACE-52</text>
+	</string>
+	<string id="st_wpn_ace52_descr">
+		<text>Conçu pour répondre aux exigences des champs de bataille modernes, l'ACE-52 constitue un choix pratique pour les armées et les agents recherchant un fusil d'assaut avancé. Présenté comme l'arme d'assaut ultime, il a fait ses preuves dans les conditions les plus hostiles et extrêmes. Bien que basé sur les anciens IMI Galil, des mécanismes de conception et de performance avancés ont transformé l'ACE-52 en une arme plus fiable et d'une précision accrue pour les combats.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Israël\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Israel Weapon Industries\n
+		</text>
+	</string>
+
+	<string id="st_up_ace52_a5_name">
+		<text>Canon lourd</text>
+	</string>
+	<string id="st_up_ace52_a5_descr">
+		<text>Installation d'un canon lourd afin d'améliorer le recul.</text>
+	</string>
+	<string id="st_up_ace52_b1_name">
+		<text>Joue</text>
+	</string>
+	<string id="st_up_ace52_b1_descr">
+		<text>Installation d'une joue pour un meilleur confort de visée.</text>
+	</string>
+	<string id="st_up_ace52_c1_name">
+		<text>Rechambrer en 7,62x54</text>
+	</string>
+	<string id="st_up_ace52_c1_descr">
+		<text>Rechambrer l'arme pour utiliser des munitions 7,62x54 mm.</text>
+	</string>
+</string_table>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Repair Kits
+-->
+
+<string_table>
+	<string id="st_cleaning_kit_p_new">
+		<text>Kit de nettoyage d'arme Type A</text>
+	</string>
+	<string id="st_cleaning_kit_p_new_descr">
+		<text>Ensemble de brosses spécialisées permettant de nettoyer le canon et les autres parties d'une arme à feu de la saleté, du sable, de l'humidité, des résidus de lubrifiant et d'autres matériaux étrangers accumulés lors de son utilisation. De tels ensembles sont couramment utilisés dans la Zone afin de maintenir les armes à feu en parfait état en toutes circonstances. Il est possible d'utiliser des outils courants pour accéder plus facilement aux mécanismes internes d'une arme ou de l'alcool pour dissoudre plus aisément les résidus d'huile. Cet ensemble peut également servir à mieux répartir l'huile pour arme, bien qu'une méthode plus économique, utilisée par la plupart des stalkers expérimentés, consiste à appliquer de la graisse animale sur les brosses comme lubrifiant alternatif. Cet ensemble particulier est adapté aux calibres typiques des armes de poing.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_orange] • Peut être utilisé pour nettoyer les pièces encrassées à l'intérieur des armes. (état supérieur à 60)\n
+		%c[d_orange] • Cliquez avec le bouton droit sur une arme de type A &gt; entretenir les pièces &gt; nettoyer la pièce.\n
+		%c[0,255,255,255]COMPATIBILITÉ :\n
+		%c[d_orange] • %c[ui_gray_2]Principalement conçu pour les armes de petit calibre.\n
+		</text>
+	</string>
+    
+	<string id="st_cleaning_kit_s_new">
+		<text>Kit de nettoyage d'arme Type B</text>
+	</string>
+	<string id="st_cleaning_kit_s_new_descr">
+		<text>Ensemble de brosses spécialisées permettant de nettoyer le canon et les autres parties d'une arme à feu de la saleté, du sable, de l'humidité, des résidus de lubrifiant et d'autres matériaux étrangers accumulés lors de son utilisation. Il est possible d'utiliser des outils courants pour accéder plus facilement aux mécanismes internes d'une arme ou de l'alcool pour dissoudre plus aisément les résidus d'huile. Cet ensemble particulier est adapté aux armes de chasse et aux armes historiques, telles que les fusils à boulon et la plupart des fusils de chasse à action manuelle. Le kit « Aurora » comprend trois types de brosses spécialisées, chacune destinée respectivement au nettoyage après tir, à la répartition du lubrifiant et à l'élimination de la rouille. Il permet de maintenir votre arme préférée en parfait état en toutes circonstances.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_orange] • Peut être utilisé pour nettoyer les pièces encrassées à l'intérieur des armes. (état supérieur à 60)\n
+		%c[d_orange] • Cliquez avec le bouton droit sur une arme de type B &gt; entretenir les pièces &gt; nettoyer la pièce.\n
+		%c[0,255,255,255]COMPATIBILITÉ :\n
+		%c[d_orange] • %c[ui_gray_2] Principalement conçu pour les fusils de chasse et les carabines simples.\n
+		</text>
+	</string>
+	
+	<string id="st_cleaning_kit_r5_new">
+		<text>Kit de nettoyage d'arme Type C</text>
+	</string>
+	<string id="st_cleaning_kit_r5_new_descr">
+		<text>Ensemble de brosses spécialisées permettant de nettoyer le canon et les autres parties d'une arme à feu de la saleté, du sable, de l'humidité, des résidus de lubrifiant et d'autres matériaux étrangers accumulés lors de son utilisation. De tels ensembles sont couramment utilisés dans la Zone afin de maintenir les armes à feu en parfait état en toutes circonstances. Il est possible d'utiliser des outils courants pour accéder plus facilement aux mécanismes internes d'une arme ou de l'alcool pour dissoudre plus aisément les résidus d'huile. Cet ensemble peut également servir à mieux répartir l'huile pour arme, bien qu'une méthode plus économique, utilisée par la plupart des stalkers expérimentés, consiste à appliquer de la graisse animale sur les brosses comme lubrifiant alternatif. Ce kit particulier est fourni en dotation standard aux Forces armées ukrainiennes et est livré dans un conteneur réutilisable en plastique dur.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_orange] • Peut être utilisé pour nettoyer les pièces encrassées (état supérieur à 60) à l'intérieur des armes.\n 
+		%c[d_orange] • Cliquez avec le bouton droit sur une arme de type C &gt; entretenir les pièces &gt; nettoyer la pièce souhaitée.\n
+		%c[0,255,255,255]COMPATIBILITÉ :\n
+		%c[d_orange] • %c[ui_gray_2] Principalement destiné aux armes militaires standard et à certains pistolets-mitrailleurs spécifiques.\n
+		</text>
+	</string>
+	
+	<string id="st_cleaning_kit_r7_new">
+		<text>Kit de nettoyage d'arme Type D</text>
+	</string>
+	<string id="st_cleaning_kit_r7_new_descr">
+		<text>Ensemble de brosses spécialisées permettant de nettoyer le canon et les autres parties d'une arme à feu de la saleté, du sable, de l'humidité, des résidus de lubrifiant et d'autres matériaux étrangers accumulés lors de son utilisation. De tels ensembles sont couramment utilisés dans la Zone afin de maintenir les armes à feu en parfait état en toutes circonstances. Il est possible d'utiliser des outils courants pour accéder plus facilement aux mécanismes internes d'une arme ou de l'alcool pour dissoudre plus aisément les résidus d'huile. Cet ensemble peut également servir à mieux répartir l'huile pour arme, bien qu'une méthode plus économique, utilisée par la plupart des stalkers expérimentés, consiste à appliquer de la graisse animale sur les brosses comme lubrifiant alternatif. Ce kit particulier comprend certains solvants à pénétration profonde et des brosses de forme spéciale, permettant à l'utilisateur de nettoyer des armes aux mécanismes internes très complexes, ainsi que des fusils de précision sans altérer leur précision. Le fabricant est inconnu, mais sa conception simple, sa construction robuste et la très haute qualité des matériaux utilisés suggèrent une origine militaire, vraisemblablement issue des forces spéciales.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_orange] • Peut être utilisé pour nettoyer les pièces encrassées (état supérieur à 60) à l'intérieur des armes.\n 
+		%c[d_orange] • Cliquez avec le bouton droit sur une arme de type D &gt; entretenir les pièces &gt; nettoyer la pièce souhaitée.\n
+		%c[0,255,255,255]COMPATIBILITÉ :\n
+		%c[d_orange] • %c[ui_gray_2] Principalement destiné aux armes de gros calibre et/ou aux armes complexes.\n
+		</text>
+	</string>
+
+    <string id="st_toolkit_p_new">
+        <text>Kit de réparation d'arme Type A</text>
+    </string>
+    <string id="st_toolkit_p_new_descr">
+        <text>Ce kit contient des huiles, des solvants, du matériel de nettoyage de base et des outils spécialisés utilisés pour le démontage et l'entretien des mécanismes d'armes à feu. Il comprend également, en standard, un ensemble de pièces de rechange élémentaires pour armes. Bien que relativement lourd, ce kit est indispensable lors des expéditions en profondeur dans la Zone, car il peut être utilisé dans des situations critiques pour rendre une arme à feu à nouveau opérationnelle. En raison des différences de construction des armes, cet ensemble particulier ne peut être utilisé que pour le démontage et la réparation d'armes de calibres de pistolet. Il est également possible d'augmenter l'efficacité du kit en empruntant certains matériaux à d'autres kits ou en les combinant lors d'une même session d'entretien.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_orange] • Peut être utilisé pour remplacer des pièces à l'intérieur d'une arme par des pièces neuves issues du kit.\n 
+		%c[d_orange] • Cliquez avec le bouton droit sur une arme de type A &gt; entretenir les pièces &gt; remplacer la pièce souhaitée.\n
+        %c[0,255,255,255]COMPATIBILITÉ :\n
+        %c[d_orange] • %c[ui_gray_2] Principalement conçu pour les armes de petit calibre.\n
+        </text>
+    </string>
+
+    <string id="st_toolkit_s_new">
+        <text>Kit de réparation d'arme Type B</text>
+    </string>
+    <string id="st_toolkit_s_new_descr">
+        <text>Ce kit contient des huiles, des solvants, du matériel de nettoyage de base et des outils spécialisés utilisés pour le démontage et l'entretien des mécanismes d'armes à feu. Il comprend également, en standard, un ensemble de pièces de rechange élémentaires pour armes. Bien que relativement lourd, ce kit est indispensable lors des expéditions en profondeur dans la Zone, car il peut être utilisé dans des situations critiques pour rendre une arme à feu à nouveau opérationnelle. Il s'agit d'un kit assez courant, dont les outils et composants conviennent à la plupart des fusils de chasse et aux armes historiques de la Grande Guerre. Ces types de kits se trouvent généralement chez les chasseurs et les armuriers qui viennent exercer leur métier dans la Zone. Il est également possible d'augmenter l'efficacité du kit en empruntant certains matériaux à d'autres kits ou en les combinant lors d'une même session d'entretien.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_orange] • Peut être utilisé pour remplacer des pièces à l'intérieur d'une arme par des pièces neuves issues du kit.\n
+		%c[d_orange] • Cliquez avec le bouton droit sur une arme de type B &gt; entretenir les pièces &gt; remplacer la pièce souhaitée.\n
+        %c[0,255,255,255]COMPATIBILITÉ :\n
+        %c[d_orange] • %c[ui_gray_2] Principalement conçu pour les fusils de chasse et les carabines simples.\n
+        </text>
+    </string>
+
+    <string id="st_toolkit_r5_new">
+        <text>Kit de réparation d'arme Type C</text>
+    </string>
+    <string id="st_toolkit_r5_new_descr">
+        <text>Ce kit contient des huiles, des solvants, du matériel de nettoyage de base et des outils spécialisés utilisés pour le démontage et l'entretien des mécanismes d'armes à feu. Il comprend également, en standard, un ensemble de pièces de rechange élémentaires pour armes. Bien que relativement lourd, ce kit est indispensable lors des expéditions en profondeur dans la Zone, car il peut être utilisé dans des situations critiques pour rendre une arme à feu à nouveau opérationnelle. Il s'agit de kits de réparation standard fournis par l'intendance de l'armée ukrainienne pour l'entretien de ses armes réglementaires. Devoir a conclu un accord commercial avec l'armée pour se procurer ces kits, mais il arrive qu'un soldat peu scrupuleux soit prêt à en échanger un contre un artefact ou une caisse de vodka. Il est également possible d'augmenter l'efficacité du kit en empruntant certains matériaux à d'autres kits ou en les combinant lors d'une même session d'entretien.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_orange] • Peut être utilisé pour remplacer des pièces à l'intérieur d'une arme par des pièces neuves issues du kit.\n 
+		%c[d_orange] • Cliquez avec le bouton droit sur une arme de type C &gt; entretenir les pièces &gt; remplacer la pièce souhaitée.\n
+		%c[0,255,255,255]COMPATIBILITÉ :\n
+		%c[d_orange] • %c[ui_gray_2] Principalement destiné aux armes militaires standard et à certains pistolets-mitrailleurs spécifiques.\n
+        </text>
+    </string>
+
+    <string id="st_toolkit_r7_new">
+        <text>Kit de réparation d'arme Type D</text>
+    </string>
+    <string id="st_toolkit_r7_new_descr">
+        <text>Ce kit contient des huiles, des solvants, du matériel de nettoyage de base et des outils spécialisés utilisés pour le démontage et l'entretien des mécanismes d'armes à feu. Il comprend également, en standard, un ensemble de pièces de rechange élémentaires pour armes. Bien que relativement lourd, ce kit est indispensable lors des expéditions en profondeur dans la Zone, car il peut être utilisé dans des situations critiques pour rendre une arme à feu à nouveau opérationnelle. Il s'agit d'un ensemble spécialisé conçu pour l'entretien des armes de précision telles que les fusils de sniper et les fusils de combat, ainsi que certaines armes dotées de mécanismes internes complexes, comme les mitrailleuses légères et certains fusils d'assaut. Ces kits sont assez rares et ne se trouvent généralement qu'en quantité limitée, même au sein des factions les mieux armées de la Zone. Il est également possible d'augmenter l'efficacité du kit en empruntant certains matériaux à d'autres kits ou en les combinant lors d'une même session d'entretien.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_orange] • Peut être utilisé pour remplacer des pièces à l'intérieur d'une arme par des pièces neuves issues du kit.\n
+		%c[d_orange] • Cliquez avec le bouton droit sur une arme de type D &gt; entretenir les pièces &gt; remplacer la pièce souhaitée.\n
+		%c[0,255,255,255]COMPATIBILITÉ :\n
+        %c[d_orange] • %c[ui_gray_2] Principalement destiné aux armes de gros calibre et/ou aux armes complexes.\n
+        </text>
+    </string>
+</string_table>

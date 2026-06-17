@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_menu_oleh_misc_sounds">
+		<text>Sons de l'inventaire</text>
+	</string>
+	<string id="ui_mcm_title_oleh_misc_sounds">
+		<text>Sons de l'inventaire GAMMA</text>
+	</string>
+
+	<string id="ui_mcm_oleh_misc_sounds_enabled_inventory_pickup">
+		<text>Activer les sons des objets dans l'inventaire</text>
+	</string>
+		<string id="ui_mcm_oleh_misc_sounds_enabled_inventory_pickup_desc">
+		<text>Effets sonores lors de la prise en main, du dépôt, de la réparation et du déplacement d'objets entre les inventaires ou les emplacements.</text>
+	</string>
+	<string id="ui_mcm_oleh_misc_sounds_volume_inventory_pickup">
+		<text>Volume des objets dans l'inventaire</text>
+	</string>
+
+	<string id="ui_mcm_oleh_misc_sounds_enabled_inventory_hover">
+		<text>Activer les sons de survol du curseur</text>
+	</string>
+	<string id="ui_mcm_oleh_misc_sounds_enabled_inventory_hover_desc">
+		<text>Effets sonores lors du survol des icônes d'objets avec le curseur de la souris.</text>
+	</string>
+	<string id="ui_mcm_oleh_misc_sounds_volume_inventory_hover">
+		<text>Volume du survol du curseur</text>
+	</string>
+</string_table>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    <!-- SERIOUS: If anybody wants to edit this please make sure that you save it in `windows-1251` encoding. Otherwise the dots for card 5 get fcked up.-->
+
+    <!-- MCM -->
+    <!-- Name of the toggle that sets if tutorial has been completed-->
+    <string id="ui_mcm_npe_module_gamma_tutorial_repair_gun">
+        <text>Entretien des armes</text>
+    </string>
+    <!-- MCM -->
+
+    <!-- Title of the whole tutorial -->
+    <string id="ui_mcm_npe_module_gamma_tutorial_repair_gun_title">
+        <text>Entretien des armes</text>
+    </string>
+
+    <!-- Cards -->
+    <!-- 1 -->
+    <string id="ui_gamma_tutorial_repair_gun_card_01_title">
+        <text>Tutoriel de réparation d'arme</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_repair_gun_card_01_description">
+        <text> 
+		 • Vous venez de looter votre première arme, félicitations. Cependant, elle pourrait ne pas être immédiatement utilisable en raison de l'état de ses pièces. Chaque pièce possède une couleur indiquant son état, et chaque pièce a un effet sur les performances de l'arme :\n
+		  | - L'état du canon affecte les dégâts des balles et la pénétration d'armure. Il s'agit de la pièce la plus critique d'une arme.\n
+		  | - L'état des pièces internes influence la probabilité d'enrayage. \n \n
+		 
+		 • Un pistolet 9x18 en bon état est donc préférable à un fusil dont le canon est endommagé.\n \n
+		 
+		 • Se concentrer sur le loot d'armes dotées d'un canon en état vert est d'une importance capitale pour progresser rapidement. Cependant, toute arme peut être facilement réparée avec les outils appropriés.
+		</text>
+    </string>
+    <!-- 1 -->
+
+    <!-- 2 -->
+    <string id="ui_gamma_tutorial_repair_gun_card_02_title">
+        <text>Échange de pièces</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_repair_gun_card_02_description">
+        <text>
+		 • En fouillant les ennemis, les caches ou les objets dispersés dans la Zone, vous trouverez des pièces d'armes dans divers états.\n \n
+		 
+		 • Vous pouvez simplement faire glisser et déposer ces pièces sur une arme pour les échanger. Le canon ne peut cependant pas être remplacé.\n \n
+		
+		 • Cela ne nécessite aucun outil, établi ou autre matériel. Il suffit de faire glisser et déposer les pièces.
+		</text>
+    </string>
+    <!-- 2 -->
+    
+    <!-- 3 -->
+    <string id="ui_gamma_tutorial_repair_gun_card_03_title">
+        <text>Nettoyage des pièces</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_repair_gun_card_03_description">
+        <text>
+		 • Si l'état d'une pièce est supérieur ou égal à 60 %, vous devez acheter ou fabriquer un kit de nettoyage du même type que l'arme (A, B, C ou D).\n
+		
+		 • Pour nettoyer une pièce à l'intérieur d'une arme : clic droit sur l'arme &gt; entretien &gt; nettoyer la pièce &gt; la pièce sera à 100 % d'état.\n
+		
+         • De plus, les pièces peuvent être réparées depuis l'inventaire en double-cliquant sur un kit de réparation et en sélectionnant la pièce à réparer.\n
+		
+         • Les kits de nettoyage peuvent tous être achetés auprès de n'importe quel marchand Mécanicien dès le début.\n
+		
+		 • Les armes dotées d'un canon en état vert sont donc extrêmement précieuses : elles peuvent être facilement réparées pour infliger des dégâts maximaux en utilisant un simple kit de nettoyage, disponible partout.
+		</text>
+    </string>
+    <!-- 3 -->
+
+    <!-- 4 -->
+    <string id="ui_gamma_tutorial_repair_gun_card_04_title">
+        <text>Réparation des pièces</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_repair_gun_card_04_description">
+        <text>
+		 • Si l'état d'une pièce est inférieur à 60 %, vous aurez besoin d'un kit de réparation du même type. \n \n
+		
+		 • Pour réparer une pièce à l'intérieur d'une arme : clic droit sur les armes &gt; entretien &gt; réparer la pièce &gt; la pièce sera à 100 % d'état.\n \n
+		
+		 • De plus, les pièces peuvent être réparées depuis l'inventaire en double-cliquant sur un kit de réparation et en sélectionnant la pièce à réparer.
+		</text>
+    </string>
+    <!-- 4 -->
+
+    <!-- 5 -->
+    <string id="ui_gamma_tutorial_repair_gun_card_05_title">
+        <text>Obtention des kits de réparation</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_repair_gun_card_05_description">
+        <text>
+		 • Les kits de réparation sont des outils extrêmement puissants, mais seuls les kits de réparation de type A sont immédiatement disponibles auprès des marchands Mécaniciens dès le début, permettant la réparation de n'importe quel pistolet et de la plupart des pistolets-mitrailleurs.\n \n
+		
+		 • Vous devez explorer des caches rares pour obtenir des trousses à outils qui vous permettront d'acheter ou de fabriquer de nouveaux kits de réparation. Ces caches sont représentées par de grandes icônes jaunes sur la carte et sont récompensées par des missions. \n \n
+		
+		 • Plus la cache se situe au nord de la Zone, plus la probabilité d'obtenir une trousse à outils de meilleure qualité est élevée. \n \n
+		
+         • Les trousses à outils &gt; La correspondance pour la fabrication des kits de réparation est la suivante : \n
+            • Trousse à outils basique &gt; Kit de réparation de type B. \n
+            • Trousse à outils avancée &gt; Kit de réparation de type C. \n
+            • Trousse à outils experte &gt; Kit de réparation de type D.\n \n 
+			
+			%c[yellow]Vous pouvez revoir ce tutoriel en accédant au Menu de Configuration des Mods (MCM) &gt; Modules NPE &gt; G.A.M.M.A. et en décochant le tutoriel.\n \n
+			</text>
+    </string>
+    <!-- 5 -->
+    <!-- Cards -->
+</string_table>

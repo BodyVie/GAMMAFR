@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Weapons Attachments
+-->
+
+<string_table>
+
+	<string id="st_addon_ots2_upgr_kit">
+		<text>Kit d'upgrade OTs-02 Kiparis</text>
+	</string>
+	<string id="st_addon_ots2_upgr_kit_descr">
+		<text>\n \n%c[ui_gray_1]Kit de mise à niveau pour le pistolet-mitrailleur OTs-02 Kiparis. Il comprend un groupe de boulons boulons léger et un mécanisme de détente augmentant la cadence de tir. Mires au tritium vert, montage tactique et viseur laser. \n \n
+		%c[ui_gray_2]Caractéristiques : \n
+		%c[d_green] • %c[ui_gray_2] Cadence de tir augmentée.\n
+		%c[d_green] • %c[ui_gray_2] Précision accrue.\n
+		%c[d_green] • %c[ui_gray_2] Chargeur tambour de 50 cartouches en 9 mm.\n				
+		%c[d_green] • %c[ui_gray_2] Nouveau viseur arrière équipé de mires au tritium.\n
+		%c[d_green] • %c[ui_gray_2] Laser rouge tactique.\n \n</text>
+	</string>
+
+	<string id="st_addon_vorkutakit">
+		<text>Kit d'upgrade Vorkuta</text>
+	</string>
+	<string id="st_addon_vorkutakit_descr">
+		<text>Le kit de mise à niveau Vorkuta pour le KS-23 ajoute un canon fileté permettant l'installation d'un silencieux et une lunette PU amovible pour améliorer les combats à distance. Le nom du kit suggère que son origine pourrait provenir de la ville du même nom. \n \n</text>
+	</string>
+
+	<string id="st_addon_bd_upgr_kit">
+		<text>Kit d'upgrade Blood Diamond</text>
+	</string>
+	<string id="st_addon_bd_upgr_kit_descr">
+		<text>Kit de mise à niveau Blood Diamond pour le CAR-15. Reproduit l'apparence d'un fusil classique de Hollywood pour ceux qui souhaitent incarner leur fantasme de rôle rhodésien dans la Zone.\n \n
+</text>
+	</string>
+
+	<string id="st_addon_admin_upgr_kit">
+		<text>Kit d'upgrade Admin</text>
+	</string>
+	<string id="st_addon_admin_upgr_kit_descr">
+		<text>Kit de mise à niveau Admin pour le CAR-15. Met à jour le fusil classique pour le rapprocher des fusils modernes de type M4. Ce kit ajoute un Aimpoint T2 avec un grossisseur G33 et remplace la crosse et le garde-main par des éléments plus contemporains. Une lampe d'aide à la visée (LAM) et une lampe torche ont également été montées à l'avant pour faciliter l'acquisition de cibles dans des environnements sombres ou éclairés.\n \n</text>
+	</string>
+	
+</string_table>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	PROPS
+-->
+
+	<string id="st_placeable_light_altar">
+		<text>Psi-Lampe compacte</text>
+	</string>
+	<string id="st_placeable_light_altar_descr">
+		<text>Un objet d'origine et de fonction inconnues. À l'origine, cet étrange artefact émettait des ondes psi mortelles et a causé la mort de nombreux stalkers imprudents ayant bravé les zones nordiques. Celui-ci a été modifié par Sakharov et, grâce à un artefact Clair de lune, est devenu une source de lumière illimitée.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		%c[d_cyan] • %c[pda_white] Carburant : %c[ui_gray_2]Gauss Batteries\n
+		</text>
+	</string>
+
+	<string id="st_placeable_gas_lamp">
+		<text>Lampe à gaz</text>
+	</string>
+	<string id="st_placeable_gas_lamp_descr">
+		<text>Produit de la lumière en enflammant une mèche imbibée de kérosène.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		%c[d_cyan] • %c[pda_white] Carburant : %c[ui_gray_2]Kérosène\n
+		</text>
+	</string>
+
+	<string id="st_placeable_metal_torch">
+		<text>Torche métallique</text>
+	</string>
+	<string id="st_placeable_metal_torch_descr">
+		<text>Lampe torche portable de l'ère soviétique. Ce modèle particulier peut être fabriqué sur le terrain.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		%c[d_cyan] • %c[pda_white] Carburant : %c[ui_gray_2]Batteries\n
+		</text>
+	</string>
+
+	<string id="st_placeable_radio">
+		<text>Radio</text>
+	</string>
+	<string id="st_placeable_radio_descr">
+		<text>Une radio en état de fonctionnement. Elle est capable de recevoir les mêmes signaux que ceux captés dans de nombreuses bases à travers la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+<!--
+	FUNCTIONAL PROPS
+-->
+
+	<string id="st_placeable_exo_kit">
+		<text>Kit de réparation d'exosquelette Vide</text>
+	</string>
+	<string id="st_placeable_exo_kit_descr">
+		<text>Caisse vide dépouillée de tout objet utile, bien que sa capacité et sa taille restent suffisantes pour être réutilisée comme rangement.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Utilisable comme cache\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_placeable_case">
+		<text>Valise à armes</text>
+	</string>
+	<string id="st_placeable_case_descr">
+		<text>Valise à arme vide, dépourvue de toute armurerie. Elle offre plus d'espace que les sacs à dos conventionnels, au détriment du poids.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Utilisable comme cache\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_placeable_blue_box">
+		<text>Boîte métallique</text>
+	</string>
+	<string id="st_placeable_blue_box_descr">
+		<text>Une caisse métallique spacieuse utilisée pour le stockage d'objets. Elle offre l'espace le plus important par rapport aux alternatives, mais son poids élevé la rend plus difficile à transporter.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Utilisable comme cache\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+    <string id="st_placeable_piano">
+		<text>Clavier portable</text>
+	</string>
+	<string id="st_placeable_piano_descr">
+		<text>Une installation de luxe rarement rencontrée dans la Zone. Bien qu'elle n'offre aucune protection contre les mutants ou les stalkers hostiles, elle peut procurer un bref répit face aux hostilités de la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n		
+		%c[d_orange] • %c[pda_white] Posable\n
+		%c[d_orange] • %c[pda_white] Jouable\n
+		</text>
+	</string>
+
+	<string id="st_placeable_workshop">
+		<text>Atelier portable</text>
+	</string>
+	<string id="st_placeable_workshop_descr">
+		<text>Une combinaison de table déployable, d'outils d'atelier et d'une réserve intégrée. Cela permet aux stalkers d'être plus autonomes dans des zones peu accueillantes, bien que son poids dissuade de bricoler en déplacement.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		%c[d_orange] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Utilisable comme cache\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Réparation d'équipement\n
+		</text>
+	</string>
+
+	<string id="st_placeable_sumka6">
+		<text>Petit sac à dos</text>
+	</string>
+	<string id="st_placeable_sumka6_descr">
+		<text>Feuilles de tissu cousues ensemble pour former un sac rudimentaire. Utile pour créer une petite cache en cas de besoin.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Utilisable comme cache\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+<!--
+	UI
+-->
+
+    <string id="st_place_furniture">
+		<text>Placer un objet</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_recipe_basic_1">
+		<text>Guide de survie (numéro 1)</text>
+	</string>
+	<string id="st_recipe_basic_2">
+		<text>Guide de survie (numéro 2)</text>
+	</string>
+	<string id="st_recipe_basic_3">
+		<text>Guide de survie (numéro 3)</text>
+	</string>
+	<string id="st_recipe_basic_4">
+		<text>Guide de survie (numéro 4)</text>
+	</string>
+	<string id="st_recipe_basic_descr">
+		<text>Un guide usé contenant des stratégies de survie essentielles et des techniques de fabrication adaptées à la vie dans la Zone. Il couvre tout, depuis la construction d'abris de base jusqu'aux outils et fournitures improvisés.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Recette\n
+		</text>
+	</string>
+	
+	<string id="st_recipe_advanced_1">
+		<text>Manuel de mécanique (1re édition)</text>
+	</string>
+	<string id="st_recipe_advanced_2">
+		<text>Manuel de mécanique (2e édition)</text>
+	</string>
+	<string id="st_recipe_advanced_3">
+		<text>Manuel de mécanique (3e édition)</text>
+	</string>
+	<string id="st_recipe_advanced_4">
+		<text>Manuel de mécanique (4e édition)</text>
+	</string>
+	<string id="st_recipe_advanced_descr">
+		<text>Un manuel détaillé axé sur la réparation et la modification d'armes, d'armures et de machines à l'aide de pièces récupérées. Les Stalkers compétents en mécanique s'en servent pour maintenir leur équipement fonctionnel dans l'environnement hostile de la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Recette\n
+		</text>
+	</string>
+	
+	<string id="st_recipe_expert_1">
+		<text>Manuel d'ingénierie (1re édition)</text>
+	</string>
+	<string id="st_recipe_expert_2">
+		<text>Manuel d'ingénierie (2e édition)</text>
+	</string>
+	<string id="st_recipe_expert_3">
+		<text>Manuel d'ingénierie (3e édition)</text>
+	</string>
+	<string id="st_recipe_expert_4">
+		<text>Manuel d'ingénierie (4e édition)</text>
+	</string>
+	<string id="st_recipe_expert_descr">
+		<text>Un manuel technique décrivant des méthodes avancées de dépannage et de fabrication pour créer et améliorer des équipements, y compris des modifications électroniques. Seuls les stalkers les plus ingénieux peuvent exploiter pleinement ses schémas complexes.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Recette\n
+		</text>
+	</string>
+	
+	<string id="st_recipe_drug_1">
+		<text>Recette de drogue n°1</text>
+	</string>
+	<string id="st_recipe_drug_2">
+		<text>Recette de drogue n°2</text>
+	</string>
+	<string id="st_recipe_drug_3">
+		<text>Recette de drogue n°3</text>
+	</string>
+	<string id="st_recipe_drug_4">
+		<text>Recette de drogue n°4</text>
+	</string>
+	<string id="st_recipe_drug_descr">
+		<text>Quelques pages arrachées d'un livre, rédigées à la main avec une encre bleue maculée. Les notes décrivent la création de divers types de drogues et de médicaments à partir de fournitures médicales courantes.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Recette\n
+		</text>
+	</string>
+	
+	<string id="st_recipe_ammo_1">
+		<text>Guide de sécurité des munitions (1re éd.)</text>
+	</string>
+	<string id="st_recipe_ammo_2">
+		<text>Guide de sécurité des munitions (2e éd.)</text>
+	</string>
+	<string id="st_recipe_ammo_3">
+		<text>Guide de sécurité des munitions (3e éd.)</text>
+	</string>
+	<string id="st_recipe_ammo_4">
+		<text>Guide de sécurité des munitions (4e éd.)</text>
+	</string>
+	<string id="st_recipe_ammo_descr">
+		<text>Un guide pratique sur l'assemblage et la modification sécurisés de munitions à partir de poudre récupérée et de douilles. Indispensable pour tout stalker souhaitant fabriquer des cartouches fiables sans risquer un raté catastrophique.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Recette\n
+		</text>
+	</string>
+	
+	<string id="st_recipe_cooking_1">
+		<text>Notes du chef</text>
+	</string>
+	<string id="st_recipe_cooking_descr">
+		<text>Un recueil de recettes manuscrites expliquant comment préparer des repas comestibles à partir des ressources rares et souvent douteuses trouvées dans la Zone. Une découverte précieuse pour tout stalker lassé des rations périmées et de la viande de mutant à la sécurité incertaine.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Recette\n
+</text>
+	</string>
+	
+	<string id="st_memoirs_1_of_2_name">
+		<text>Journal d'un Stalker (1re partie)</text>
+	</string>
+	<string id="st_memoirs_1_of_2_desc">
+		<text>Ancien carnet décoloré glissé dans une pochette plastique afin de le protéger de l'usure. Malheureusement, il n'a pas résisté au passage du temps et présente désormais des dommages importants causés par l'eau.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_memoirs_2_of_2_name">
+		<text>Journal d'un Stalker (2e partie)</text>
+	</string>
+	<string id="st_memoirs_2_of_2_desc">
+		<text>Ancien carnet décoloré glissé dans une pochette plastique afin de le protéger de l'usure. Malheureusement, il n'a pas résisté au passage du temps et présente désormais des dommages importants causés par l'eau.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_freedom_manual_1_of_2_name">
+		<text>Techniques d'interrogatoire : les bases (1re partie)</text>
+	</string>
+	<string id="st_freedom_manual_1_of_2_desc">
+		<text>Dépliant pédagogique estampillé de l'emblème de la faction Liberté, exposant des méthodes fondamentales d'extraction d'informations par des moyens psychologiques et physiques. Qu'il soit destiné à l'autodéfense ou à des fins plus sombres, sa présence soulève des questions troublantes.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_freedom_manual_2_of_2_name">
+		<text>Techniques d'interrogatoire : les bases (2e partie)</text>
+	</string>
+	<string id="st_freedom_manual_2_of_2_desc">
+		<text>Dépliant pédagogique estampillé de l'emblème de la faction Liberté, exposant des méthodes fondamentales d'extraction d'informations par des moyens psychologiques et physiques. Qu'il soit destiné à l'autodéfense ou à des fins plus sombres, sa présence soulève des questions troublantes.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_stalker_letter_1_of_2_name">
+		<text>Mémoires (1re partie)</text>
+	</string>
+	<string id="st_stalker_letter_1_of_2_desc">
+		<text>Quelques pages manuscrites vieillies détaillant les expériences d'un stalker inconnu, remplies de réflexions personnelles, de conseils de survie et de souvenirs fragmentaires. Bien qu'incomplètes, elles offrent un aperçu poignant des épreuves et des tragédies de la vie dans la Zone.\n \n
+		</text>
+	</string>
+
+	<string id="st_stalker_letter_2_of_2_name">
+		<text>Mémoires (2e partie)</text>
+	</string>
+	<string id="st_stalker_letter_2_of_2_desc">
+		<text>Quelques pages manuscrites vieillies détaillant les expériences d'un stalker inconnu, remplies de réflexions personnelles, de conseils de survie et de souvenirs fragmentaires. Bien qu'incomplètes, elles offrent un aperçu poignant des épreuves et des tragédies de la vie dans la Zone.\n \n
+		</text>
+	</string>
+
+	<string id="st_ecologist_report_1_of_3_name">
+		<text>Rapport de terrain 39B rev. 2 - Découvertes sur les Marcheurs (1re partie)</text>
+	</string>
+	<string id="st_ecologist_report_1_of_3_desc">
+		<text>Document dactylographié classifié, estampillé de l'emblème de recherche des Scientifiques, détaillant des observations et des théories concernant le phénomène dit des "Morts-Vivants" dans la Zone. Signé par Arkady Cvetkovsky, il contient des récits troublants de stalkers zombifiés, des causes potentielles et les dangers d'une exposition prolongée aux radiations anormales.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_ecologist_report_2_of_3_name">
+		<text>Rapport de terrain 39B rev. 2 - Découvertes sur les Marcheurs (2e partie)</text>
+	</string>
+	<string id="st_ecologist_report_2_of_3_desc">
+		<text>Document dactylographié classifié, estampillé de l'emblème de recherche des Scientifiques, détaillant des observations et des théories concernant le phénomène dit des "Morts-Vivants" dans la Zone. Signé par Arkady Cvetkovsky, il contient des récits troublants de stalkers zombifiés, des causes potentielles et les dangers d'une exposition prolongée aux radiations anormales.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_ecologist_report_3_of_3_name">
+		<text>Rapport de terrain 39B rev. 2 - Découvertes sur les Marcheurs (3e partie)</text>
+	</string>
+	<string id="st_ecologist_report_3_of_3_desc">
+		<text>Document dactylographié classifié, estampillé de l'emblème de recherche des Scientifiques, détaillant des observations et des théories concernant le phénomène dit des "Morts-Vivants" dans la Zone. Signé par Arkady Cvetkovsky, il contient des récits troublants de stalkers zombifiés, des causes potentielles et les dangers d'une exposition prolongée aux radiations anormales.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_monolith_prayer_1_of_3_name">
+		<text>Prière du Monolithe (1re partie)</text>
+	</string>
+	<string id="st_monolith_prayer_1_of_3_desc">
+		<text>Prière manuscrite dédiée au Monolithe, empreinte d'une dévotion fervente et de références cryptiques à sa prétendue volonté divine. Le texte révèle une croyance quasi fanatique, offrant un aperçu de la mentalité sectaire des adeptes du Monolithe.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_monolith_prayer_2_of_3_name">
+		<text>Prière du Monolithe (2e partie)</text>
+	</string>
+	<string id="st_monolith_prayer_2_of_3_desc">
+		<text>Prière manuscrite dédiée au Monolithe, empreinte d'une dévotion fervente et de références cryptiques à sa prétendue volonté divine. Le texte révèle une croyance quasi fanatique, offrant un aperçu de la mentalité sectaire des adeptes du Monolithe.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_monolith_prayer_3_of_3_name">
+		<text>Prière du Monolithe (3e partie)</text>
+	</string>
+	<string id="st_monolith_prayer_3_of_3_desc">
+		<text>Prière manuscrite dédiée au Monolithe, empreinte d'une dévotion fervente et de références cryptiques à sa prétendue volonté divine. Le texte révèle une croyance quasi fanatique, offrant un aperçu de la mentalité sectaire des adeptes du Monolithe.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_monolithian_thoughts_name">
+		<text>Journal d'un Monolithien</text>
+	</string>
+	<string id="st_monolithian_thoughts_desc">
+		<text>Note manuscrite désordonnée et chaotique appartenant à un zélote du Monolithe, contenant des pensées fragmentaires, des journaux de mission et des éloges obsessionnels envers une entité mystérieuse.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_letter_to_outside_name">
+		<text>Lettre à Natalie</text>
+	</string>
+	<string id="st_letter_to_outside_desc">
+		<text>Une lettre écrite à quelqu'un à l'extérieur de la Zone, très probablement à son amante. Elle semble n'avoir malheureusement jamais atteint son destinataire.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_letter_military_stalker_name">
+		<text>Note d'un Stalker militaire</text>
+	</string>
+	<string id="st_letter_military_stalker_desc">
+		<text>Un mot trouvé dans une cache. Il semble que quelqu'un ait tué le temps lors d'une longue et ennuyeuse nuit.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_letter_mercenary_name">
+		<text>Note du mercenaire</text>
+	</string>
+	<string id="st_letter_mercenary_desc">
+		<text>Un mot manuscrit d'un Mercenaire contenant ses réflexions sur ses activités dans la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_letter_military_log_name">
+		<text>Journal de communication / Opération MSRC / 05.04.2014 18:36:21</text>
+	</string>
+	<string id="st_letter_military_log_desc">
+		<text>Transcription imprimée d'une transmission radio entre des unités militaires stationnées dans la Zone. Il s'agit très probablement d'une opération clandestine.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_letter_stalker_letter_3_name">
+		<text>Lettre à Nikolaï</text>
+	</string>
+	<string id="st_letter_stalker_letter_3_desc">
+		<text>Une lettre manuscrite adressée à Nikolaï.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+</string_table>

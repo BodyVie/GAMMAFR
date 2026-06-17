@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="ui_inv_outfit_speed">
+		<text>%c[pda_white]Vitesse de déplacement :</text>
+	</string>
+
+<!--
+	MCM
+-->
+	
+	<string id="ui_mcm_menu_speed">
+		<text>Vitesse</text>
+	</string>
+	<string id="ui_mcm_menu_speed_title">
+		<text>Tenues/armes affectent la vitesse de déplacement</text>
+	</string>
+	<string id="ui_mcm_speed_title">
+		<text>Tenues/armes affectent la vitesse de déplacement</text>
+	</string>
+	<string id="ui_mcm_speed_encumbrance">
+		<text>Encombrement affecte la vitesse</text>
+	</string>
+	<string id="ui_mcm_speed_encumbrance_desc">
+		<text>Les fonctionnalités d'encombrement accordent des bonus lorsque l'encombrement est léger (moins de 25 % de l'encombrement total) et des pénalités en cas d'encombrement élevé (plus de 70 %).\n\nSoyez averti que l'activation de cette option peut entraîner une vitesse de déplacement démesurée si vous voyagez avec un équipement léger.</text>
+	</string>
+	<string id="ui_mcm_speed_weapon">
+		<text>Arme affecte la vitesse de sprint</text>
+	</string>
+	<string id="ui_mcm_speed_weapon_desc">
+		<text>Si cette option est activée, les armes appliquent un modificateur à la vitesse de sprint en fonction de leur type et de leur poids.</text>
+	</string>
+	<string id="ui_mcm_speed_debug">
+		<text>(Développeur) Journalisation console supplémentaire</text>
+	</string>
+	<string id="ui_mcm_speed_debug_desc">
+		<text>Affiche certaines informations utiles dans la console.</text>
+	</string>
+
+</string_table>

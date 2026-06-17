@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="st_wpn_pp2000n">
+		<text>PP-2000</text>
+	</string>
+	<string id="st_wpn_pp2000n_descr">
+		<text>Un pistolet-mitrailleur léger et hautement maniable, conçu pour un déploiement rapide et la défense personnelle. Son cadre compact, sa cadence de tir élevée et sa facilité de contrôle en font un excellent choix pour les forces de l'ordre et les unités spéciales. Capable d'être équipé de silencieux et d'optiques, il offre une adaptabilité pour divers scénarios tactiques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]KBP Instrument Design Bureau\n
+		</text>
+	</string>
+
+</string_table>

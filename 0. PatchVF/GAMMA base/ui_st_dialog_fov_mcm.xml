@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="ui_mcm_demonized_dialog_fov_title">
+		<text>Interface dynamique des dialogues</text>
+	</string>
+	<string id="ui_mcm_menu_demonized_dialog_fov">
+		<text>Interface des dialogues</text>
+	</string>
+
+	<string id="ui_mcm_demonized_dialog_fov_enabled">
+		<text>Activer</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_zoom_fov_enabled">
+		<text>Activer le zoom</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_zoom_fov_modifier">
+		<text>Modificateur de zoom</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_min_zoom_fov">
+		<text>Zoom minimal</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_min_zoom_fov_desc">
+		<text>Lorsque le zoom est activé, le champ de vision (FOV) sera ajusté à au moins cette valeur.</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_distance_fov">
+		<text>Zoom basé sur la distance</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_distance_fov_desc">
+		<text>Ce paramètre modifie le champ de vision afin que la taille du personnage reste constante, quelle que soit sa distance par rapport au joueur.</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_fov_smoothing">
+		<text>Fluidité du zoom</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_track_npc">
+		<text>Centrage caméra sur NPC</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_turn_modifier">
+		<text>Facteur de rotation caméra</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_turn_modifier_desc">
+		<text>Facteur de rotation de la caméra pour ajuster la position du personnage. Une valeur de 0 signifie aucune rotation, tandis que des valeurs négatives feront pivoter la caméra dans la direction opposée.</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_smoothing">
+		<text>Fluidité du centrage caméra</text>
+	</string>
+	
+</string_table>

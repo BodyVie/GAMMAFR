@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_addon_scope_mauser_kit">
+		<text>Kit Tactique</text>
+	</string>
+	<string id="st_addon_scope_mauser_kit_descr">
+		<text>Un ensemble complet de mises à niveau comprenant poignées, rails, crosses et autres améliorations visant à optimiser l'ergonomie, le contrôle et l'efficacité globale au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2]Crosse et boîtier en polymère léger\n
+		%c[d_cyan] • %c[ui_gray_2]Lunette à grossissement variable haute précision\n
+		%c[d_cyan] • %c[ui_gray_2]Viseur Elcan SpecterDR DFOV14-C2\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_orange] • %c[ui_gray_2]Mauser K98\n
+		</text>
+	</string>
+	
+</string_table>

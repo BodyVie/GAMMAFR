@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="encyclopedia__notes">
+		<text>Notes</text>
+	</string>
+	
+	<string id="encyclopedia__notes__state">
+		<text>État de l'équipement</text>
+	</string>
+	<string id="encyclopedia__notes__state_text">
+		<text>Liste de l'état de l'équipement.\n \n</text>
+	</string>
+	
+	<string id="encyclopedia__notes__ironman">
+		<text>Mode Ironman</text>
+	</string>
+	<string id="encyclopedia__notes__ironman_text">
+		<text>États du mode Ironman :\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_mysteries_of_the_zone">
+		<text>Mystères de la Zone</text>
+	</string>
+	<string id="encyclopedia__notes_mysteries_of_the_zone_text">
+		<text>Un vieil ami de Strelok se cache quelque part dans les parages. Ce pourrait être une excellente occasion de le retrouver et d'en apprendre davantage sur la Zone. « Forester », dans la Forêt Rouge, pourrait savoir qui il est et où le trouver.\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_living_legend">
+		<text>Le retour de Strelok ?</text>
+	</string>
+	<string id="encyclopedia__notes_living_legend_text">
+		<text>Selon les rumeurs, un stalker légendaire serait récemment revenu. Il faisait partie des très rares à avoir atteint le centre de la Zone. Allez rencontrer %s.\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_mortal_sin">
+		<text>Nouveau clan 0?</text>
+	</string>
+	<string id="encyclopedia__notes_mortal_sin_text">
+		<text>La tension est palpable. Des stalkers mystérieux ont été aperçus errant dans les parages, prêchant et convainquant les autres de rejoindre leur « clan », mais leurs véritables motivations et objectifs restent obscurs. On dirait qu'une tempête se prépare. Allez rencontrer %s.</text>
+	</string>
+
+	<string id="encyclopedia__notes_recipe_cooking_1">
+		<text>Notes du chef</text>
+	</string>
+	<string id="encyclopedia__notes_recipe_cooking_1_text">
+		<text>Quelques pages manuscrites contenant des recettes détaillées et des notes sur la préparation adéquate de la viande de mutant.</text>
+	</string>
+
+	<string id="encyclopedia__notes_letter_memoirs_1_of_2">
+		<text>Journal de Stalker n°1</text>
+	</string>
+	<string id="encyclopedia__notes_letter_memoirs_1_of_2_text">
+		<text>Un vieux carnet décoloré glissé dans une pochette plastique pour le protéger de l'usure. Cependant, il n'a pas résisté au passage du temps et seule une partie du texte reste lisible :\n \n</text>
+	</string>
+	<string id="encyclopedia__notes_letter_memoirs_1_of_2_text2">
+		<text>« Je dois écrire ceci... d'une manière ou d'une autre, j'ai l'impression que cela allégera mon fardeau. Je ne peux qu'espérer que quelqu'un lira ces mots afin que mon héritage demeure après ma disparition et que personne ne commette les mêmes erreurs que moi. Je n'ai pas beaucoup d'amis et je n'en ai certainement aucun ici, dans la Zone. Les marchands me regardent tous comme si j'étais une sorte de paria. Ce type barbu de Zaton me sourit avec sarcasme chaque fois qu'il me voit... et le marchand hawaïen se moque de moi avec son attitude décontractée. Qu'ils aillent se faire voir, ces enfoirés. Tout ce dont j'ai besoin d'eux, c'est un peu de munitions, de nourriture et d'eau de temps en temps.\n
+		J'ai commencé à écrire ceci pour qu'au moins quelqu'un sache ce que j'ai traversé cette nuit-là et comprenne peut-être pourquoi je préfère rester seul. Je suis venu ici par mes propres moyens, mais j'ai immédiatement fait équipe avec ce nouveau. Il s'est avéré qu'il était passionné de minéraux. Il collectionnait les pierres, alors naturellement, les artefacts uniques de la Zone sont devenus sa nouvelle fascination. Il en a ramassé tellement que je ne peux que supposer que c'est ce qui lui a donné cette tumeur à l'estomac. Vomissements fréquents, diarrhée, stress...\n
+		Il était de bonne compagnie et j'en avais besoin à ce moment-là. Nous n'attaquions jamais les bandits, évitions la plupart des mutants et traînions simplement autour des anomalies, ramassant des pierres intéressantes et attrapant parfois quelques artefacts si nous avions de la chance. »</text>
+	</string>
+	
+	<string id="encyclopedia__notes_letter_memoirs_2_of_2">
+		<text>Journal de Stalker n°2</text>
+	</string>
+	<string id="encyclopedia__notes_letter_memoirs_2_of_2_text">
+		<text>Un vieux carnet décoloré glissé dans une pochette plastique pour le protéger de l'usure. Cependant, il n'a pas résisté au passage du temps et seule une partie du texte reste lisible :\n \n</text>
+	</string>
+	<string id="encyclopedia__notes_letter_memoirs_2_of_2_text2">
+		<text>« On parlait de cette anomalie qui serait située au fond d'une grotte ou d'une fissure dans le sol. Il devait y avoir des quantités folles de artefacts là-bas, mais pour une raison quelconque, personne ne voulait y aller. Nous les avons pris pour des lâches et des idiots. Pourquoi diable quelqu'un refuserait-il une telle occasion de s'enrichir et de vivre une vie facile ? Alors, nous avons ressenti un soudain élan de courage, nous avons fait nos bagages et sommes allés directement vers la grotte. Nous n'avons même pas réussi à jeter un coup d'oeil à l'intérieur qu'une ombre noire a survolé nos têtes. J'ai trébuché, me suis cogné la tête et ai perdu connaissance.\n
+		Après un moment, je suis revenu à moi et j'ai entendu quelque chose ou quelqu'un gémir. J'ai d'abord pensé que c'étaient des animaux, mais j'ai ensuite réalisé que c'était mon ami qui gisait devant moi. J'ai vu sa peau déchirée sur tout son corps, ses muscles saignants, des os sortant de plaies répugnantes. Il tenait maladroitement ses entrailles exposées dans ses mains. C'était un miracle qu'il ne soit pas mort sur le coup. Je n'arrivais à rien comprendre.\n
+		Il me restait mon pistolet de secours et j'ai commencé à tirer en direction des darkness de la grotte. J'avais 20 cartouches dans ce pistolet. Quand il ne m'en restait plus que 7, quelque chose a saisi ma main et m'a fait appuyer sur la détente. À ce moment-là, je ne réalisais même pas où était pointé mon arme ni où je tirais, mais je ne pouvais pas m'arrêter. Soudain, la force m'a lâché, mais j'étais dans un tel état de choc que j'ai continué à appuyer sur la détente quelques minutes après que le chargeur soit vide. Je savais que si je m'arrêtais, je devrais affronter ce que j'avais fait à mon ami. Je n'ai même pas eu le courage de prendre ses plaques d'identité chiens. Je me suis contenté de fuir.\n
+		Comment pourrais-je parler à quelqu'un ou me faire un autre ami alors que la Zone pourrait les emporter aussi ? Il vaut mieux rester seul. L'amitié a un prix et un risque. La chaleur éphémère de l'amitié ne vaut pas le coup si l'on peut perdre cette personne de la pire manière imaginable. J'ai cette bosse sur la tête maintenant pour me le rappeler.\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_letter_freedom_manual_1_of_2">
+		<text>Techniques d'interrogatoire n°1 : Les bases</text>
+	</string>
+	<string id="encyclopedia__notes_letter_freedom_manual_1_of_2_text">
+		<text>Un dépliant pédagogique portant un large emblème de la faction Liberté estampillé dans le coin supérieur droit :\n \n</text>
+	</string>
+	<string id="encyclopedia__notes_letter_freedom_manual_1_of_2_text2">
+		<text>« Je ne devrais même pas raconter ça, c'est tellement évident, mais vraiment, ne répands pas la nouvelle, ne montre pas ce manuel à tout le monde et ne le vends pas... jette-le, brûle-le ou ne le donne qu'à ceux en qui tu as le plus confiance. Tu ne veux pas que tout le monde soit au courant. Et s'ils l'utilisaient contre toi ? As-tu une planque ? Fais-toi une faveur et garde ça pour toi. Ne dis pas que je ne t'ai pas prévenu !\n
+		Tout le monde a une planque. Même les plus pauvres et les plus misérables ont quelques rations de nourriture et des munitions. C'est comme ça que les choses fonctionnent par ici. On rassemble un peu d'argent, on vend quelques artefacts ou des morceaux de mutants, on dépouille quelques pauvres types, et on achète de la nourriture ou des armes pour que, quand les choses tournent mal, on ait quelque chose sous le coude pour sauver sa peau.\n
+		Ce sont des temps difficiles et cet endroit est impitoyable. Quand on échoue ici, personne ne viendra vous aider. »</text>
+	</string>
+	
+	<string id="encyclopedia__notes_letter_freedom_manual_2_of_2">
+		<text>Techniques d'interrogatoire n°2 : Les bases</text>
+	</string>
+	<string id="encyclopedia__notes_letter_freedom_manual_2_of_2_text">
+		<text>Un dépliant pédagogique portant un large emblème de la faction Liberté estampillé dans le coin supérieur droit :\n \n</text>
+	</string>
+	<string id="encyclopedia__notes_letter_freedom_manual_2_of_2_text2">
+		<text>Mais devinez quoi ? Vous pouvez tirer parti de cette attitude « mieux vaut prévenir que guérir ». Si vous voulez obtenir des informations juteuses sur l'emplacement de la planque de quelqu'un, souvenez-vous de choisir soigneusement votre victime. Une fois cela fait et toutes les préparations terminées, il suffit de les manipuler psychologiquement. Tirez-leur dans les jambes ou les bras. Faites-les paniquer. Faites-leur ressentir la douleur jusqu'à ce qu'ils jettent leurs armes et s'agenouillent devant vous. Parlez-leur. Soyez gentil, mais ferme. Serviable, mais persuasif. Ne les tuez pas. Ce sont des êtres humains, après tout, et les mutants sont si nombreux... alors ne rendons pas la Zone pire qu'elle ne l'est déjà. De plus, vous voulez toujours la planque, n'est-ce pas ? Dites-leur que vous allez leur découper le visage. Faites-leur une peur bleue. Faites-leur croire que c'est vraiment la fin, afin qu'ils n'aient même plus besoin de la planque après votre passage. Ils la cèdent généralement sur-le-champ et s'enfuient.\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_letter_stalker_letter_1_of_2">
+		<text>Mémoires n°1</text>
+	</string>
+	<string id="encyclopedia__notes_letter_stalker_letter_1_of_2_text">
+		<text>Quelques pages arrachées d'un mémoire, rédigées à l'encre bleue maculée :\n \n</text>
+	</string>
+	<string id="encyclopedia__notes_letter_stalker_letter_1_of_2_text2">
+		<text>Je sens encore la chaleur de cette anomalie dans mon dos. Elle brûle même lorsque je suis assis dans Skadovsk. Alors, vous pouvez imaginer ce que je dois endurer quand je m'en approche vraiment. Bon sang. Lorsqu'on est frappé par une anomalie brûleur ou empoisonné par une anomalie toxique, cette saleté ne disparaît pas facilement, voire pas du tout. C'est comme si vous aviez emporté une partie de la Zone avec vous, à vie. « Marqué par la Zone », je suppose. Mais les cauchemars... ce sont les pires. Quand on fait l'expérience de ces abominations anomales, on perd toute la confiance qu'on a jamais eue. Je peux affronter dix Bloodsuckers en pleine nuit... mais le fait que ces anomalies violent toutes les lois de la science est tout simplement terrifiant. Est-ce seulement possible ? Ce que je sais être réel l'est-il vraiment ? Je n'arrête pas de penser que la Zone est un mauvais rêve et que je me réveille sans cesse dans un autre cauchemar, prisonnier d'une boucle sans fin.\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_letter_stalker_letter_2_of_2">
+		<text>Mémoires n°2</text>
+	</string>
+	<string id="encyclopedia__notes_letter_stalker_letter_2_of_2_text">
+		<text>Quelques pages arrachées d'un mémoire, rédigées à l'encre bleue maculée.\n \n</text>
+	</string>
+	<string id="encyclopedia__notes_letter_stalker_letter_2_of_2_text2">
+		<text>Chaque fois que j'y pense, mon dos me fait frissonner de douleur et je me couvre de plaques rouges. Cela fait pourtant quatre mois que je ne me suis pas approché d'une anomalie, car j'essaie de gagner ma vie en chassant. Cette foutue marque réagit comme si elle avait une volonté propre. Parfois, je regrette de ne pas être resté dans cette ferme en flammes. Peut-être aurais-je été plus utile à tout le monde en devenant la nourriture de ces sangliers. Probablement pas... Mais les sangliers, ce sont aussi des imbéciles... ils se jettent par dizaines dans les Brûleur. Sans cette ferme, Skadovsk serait envahie par les sangliers en quelques jours. Aucune quantité de munitions ne pourrait les tenir à distance. Parfois, je vais à Zaton pour regarder le feu d'artifice, même si la peau de mon dos me fait tellement mal que je peux à peine porter mon sac à dos. À cause de cette maudite cicatrice, je dois dormir sur le ventre ou sur le côté. Je déteste dormir sur le côté, j'ai toujours été un dormeur sur le dos. La Zone vous impose des changements et ne demande pas votre avis.\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_letter_ecologist_report_1_of_3">
+		<text>Rapport de terrain 39B rev. 2 sur les découvertes des Marcheurs morts (Partie 1)</text>
+	</string>
+	<string id="encyclopedia__notes_letter_ecologist_report_1_of_3_text">
+		<text>Document dactylographié estampillé du sceau de l'équipe de recherche des Scientifiques. Classé strictement confidentiel et signé par Arkady Cvetkovsky :\n \n
+		%c[pda_white]Officier scientifique adjoint du Laboratoire et Bunker de Recherche RX12\n
+		%c[pda_white]Rapport de terrain 39B rev. 2 - Découvertes sur les Marcheurs\n
+		%c[pda_white]Date : %c[ui_gray_2]19.03.2014\n
+		%c[pda_white]Paquet : %c[ui_gray_2]34\n
+		%c[pda_white]Page : %c[ui_gray_2]1 sur 3\n</text>
+	</string>
+	<string id="encyclopedia__notes_letter_ecologist_report_1_of_3_text2">
+		<text>« Ces « zombies » sont à peine vivants, et encore moins doués de sensibilité. Les données scientifiques indiquent que leur activité neurologique est pratiquement inexistante, ce qui les rend fondamentalement en état de mort cérébrale. Cependant, des essais sur le terrain ont prouvé que, pour des raisons encore inconnues de la science, ils sont capables de réactions mécaniques simples rappelant l'instinct. Lorsqu'ils sont menacés, ils adoptent un comportement extrêmement violent, il est donc conseillé de les approcher avec une grande prudence et précaution.\n
+		De manière remarquable, les parties du corps d'un « zombie » peuvent continuer à fonctionner même lorsqu'elles sont séparées du corps. L'une des entreprises les plus réussies de l'équipe scientifique a consisté à maintenir en vie un foie et un coeur pendant plus de 3 mois, bien qu'ils ne soient pas connectés à un système sanguin ou à d'autres organes. »\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_letter_ecologist_report_2_of_3">
+		<text>Rapport de terrain 39B rev. 2 sur les découvertes des Marcheurs morts (Partie 2)</text>
+	</string>
+	<string id="encyclopedia__notes_letter_ecologist_report_2_of_3_text">
+		<text>Document dactylographié estampillé du sceau de l'équipe de recherche des Scientifiques. Classé strictement confidentiel et signé par Arkady Cvetkovsky :\n \n
+		%c[pda_white]Officier scientifique adjoint du Laboratoire et Bunker de Recherche RX12\n
+		%c[pda_white]Rapport de terrain 39B rev. 2 - Découvertes sur les Marcheurs\n
+		%c[pda_white]Date : %c[ui_gray_2]21.03.2014\n
+		%c[pda_white]Paquet : %c[ui_gray_2]34\n
+		%c[pda_white]Page : %c[ui_gray_2]2 sur 3\n</text>
+	</string>
+	<string id="encyclopedia__notes_letter_ecologist_report_2_of_3_text2">
+		<text>Nos découvertes pourraient fournir les bases d'une explication valable quant à la raison pour laquelle, après avoir été touchés à de multiples reprises, ces spécimens sont capables de fonctionner presque indéfiniment. La marche est généralement entravée, la course est totalement exclue, mais le réflexe de viser et de tirer avec des armes semble intact. Veuillez vous abstenir d'utiliser les termes « tuer » ou « détruire » lorsqu'il s'agit de la désactivation d'un spécimen. Cela découle de l'argument psychologique selon lequel le terme « désactivation » est plus neutre que « destruction » et peut servir à nous distancier de la forme apparemment humaine qu'ils parviennent à conserver, ainsi qu'à réprimer le sentiment de remords après la « désactivation » d'un spécimen. La désactivation nécessite de sectionner physiquement le lien avec leur système moteur. Cela implique d'infliger des dommages au cerveau ou à la zone spinal, de préférence par traumatisme balistique. Chaque membre de l'équipe scientifique doit garder à l'esprit que leurs membres resteront mobiles même après la désactivation. Par conséquent, des précautions spéciales sont recommandées.\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_letter_ecologist_report_3_of_3">
+		<text>Rapport de terrain 39B rev. 2 sur les découvertes des Marcheurs morts (Partie 3)</text>
+	</string>
+	<string id="encyclopedia__notes_letter_ecologist_report_3_of_3_text">
+		<text>Document dactylographié estampillé du sceau de l'équipe de recherche des Scientifiques. Classé strictement confidentiel et signé par Arkady Cvetkovsky :\n \n
+		%c[pda_white]Officier scientifique adjoint du Laboratoire et Bunker de Recherche RX12\n
+		%c[pda_white]Rapport de terrain 39B rev. 2 - Découvertes sur les Marcheurs\n
+		%c[pda_white]Date : %c[ui_gray_2]29.03.2014\n
+		%c[pda_white]Paquet : %c[ui_gray_2]34\n
+		%c[pda_white]Page : %c[ui_gray_2]1 sur 3\n</text>
+	</string>
+	<string id="encyclopedia__notes_letter_ecologist_report_3_of_3_text2">
+		<text>Dans des cas extrêmement rares, certains « zombies » présentent un comportement rappelant celui d'animaux plus évolués, comme le fait d'abandonner leurs armes ou de refuser de s'engager dans un combat. Ces spécimens revêtent une grande valeur pour nos recherches, c'est pourquoi leur désactivation n'est pas recommandée. Leur isolement et leur analyse approfondie en laboratoire sont d'une importance capitale. Les neuropsychologues manifestent un intérêt particulier en raison du potentiel des greffes de tronc cérébral, qui pourraient théoriquement aider des patients en phase avancée de la maladie d'Alzheimer et d'autres pathologies. Dans la mesure du possible, évitez d'endommager les reins et le coeur lors de la désactivation, car ces organes possèdent un immense potentiel si les greffes s'avèrent un jour viables. Le prélèvement d'organes sur des « zombies » immobilisés est également envisageable, bien qu'il soit conseillé de se méfier des stalkers locaux, qui pourraient avoir des liens émotionnels avec certains spécimens. En cas de rencontre inévitable avec un stalker lors du prélèvement, deux options s'offrent à vous pour minimiser les risques de conflit. Premièrement, face à des stalkers inexpérimentés, leur montrer les yeux d'un spécimen donné s'est révélé très efficace, notamment parce que les pupilles sont totalement inertes et que les globes oculaires semblent inhumains. Deuxièmement, les stalkers plus aguerris sont généralement plus enclins à écouter raison, car ils parviennent mieux à maîtriser leurs émotions. Il reste toutefois recommandé de faire appel à une expertise psychologique pour interagir avec la population humaine locale, car dans certains cas, toute communication rationnelle est tout simplement impossible.</text>
+	</string>
+	
+	<string id="encyclopedia__notes_letter_monolith_prayer_1_of_3">
+		<text>Prière au Monolithe n°1</text>
+	</string>
+	<string id="encyclopedia__notes_letter_monolith_prayer_1_of_3_text">
+		<text>Un document sans titre bien conservé, composé de quelques paragraphes. Les références fréquentes au Monolithe indiquent une nature religieuse :\n \n</text>
+	</string>
+	<string id="encyclopedia__notes_letter_monolith_prayer_1_of_3_text2">
+		<text>« 0Ô Monolithe 0!\n
+		Nous Vous prions !\n
+		Ô Monolithe 0!\n
+		Notre seule Lumière dans les darkness !\n
+		Ô Monolithe 0!\n
+		Avec l'espoir dans nos coeurs, nous marchons !\n
+		Nous marchons vers les infidèles !\n
+		Ô Monolithe 0!\n
+		Pardonnez nos péchés !\n
+		Ô Monolithe 0!\n
+		Montrez-nous notre Destinée !\n
+		Ô Monolithe 0!\n
+		Accordez-nous la Puissance pour accomplir notre dessein !\n
+		Ô Monolithe 0!\n
+		Donnez-nous l'Espoir de terrasser Vos ennemis !\n
+		Ô Monolithe 0!\n
+		Partagez Votre Lumière avec nous !\n
+		Ô Monolithe 0!\n
+		Nous vous prions !\n
+		Ô Monolithe 0!\n
+		Nous sommes votre descendance !\n
+		Ô Monolithe 0!\n
+		Notre seul espoir de rédemption !\n
+		Ô Monolithe 0!\n
+		Votre nom est dans nos coeurs !"\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_letter_monolith_prayer_2_of_3">
+		<text>Prière au Monolithe n°2</text>
+	</string>
+	<string id="encyclopedia__notes_letter_monolith_prayer_2_of_3_text">
+		<text>Un document sans titre bien conservé, composé de quelques paragraphes. Les références fréquentes au Monolithe indiquent une nature religieuse :\n \n</text>
+	</string>
+	<string id="encyclopedia__notes_letter_monolith_prayer_2_of_3_text2">
+		<text>"Guerriers du Monolithe, nous résistons !\n
+		Ô Monolithe, notre Lumière !\n
+		Prenez nos âmes, nos esprits\n
+		Et purifiez-les !\n
+		Délivrez-les de leurs doutes et de leurs hésitations !\n
+		Ô Monolithe, notre Espérance !\n
+		Nous sommes Vos soldats !\n
+		Nous voulons donner nos vies pour Vous\n
+		Nous voulons donner nos âmes pour Vous\n
+		Et nous voulons ne faire qu'un avec Vous !\n
+		Ô Monolithe, nous éliminerons tous les obstacles de Votre chemin !\n
+		Prenez notre flesh !\n
+		Prenez notre sang !\n
+		Prenez nos âmes !\n
+		Et rendez-les à nouveau entiers !\n
+		Vous êtes en nous, ô Monolithe !"\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_letter_monolith_prayer_3_of_3">
+		<text>Prière au Monolithe n°3</text>
+	</string>
+	<string id="encyclopedia__notes_letter_monolith_prayer_3_of_3_text">
+		<text>Un document sans titre bien conservé, composé de quelques paragraphes. Les références fréquentes au Monolithe indiquent une nature religieuse :\n \n</text>
+	</string>
+	<string id="encyclopedia__notes_letter_monolith_prayer_3_of_3_text2">
+		<text>« 0Ô Monolithe 0!\n
+		Vous êtes notre destinée !\n
+		Et nous sommes frères !
+		Nous sommes les frères de la Lumière du Monolithe !\n
+		Nous mourrons pour Votre cause !\n
+		Nous mourrons en Votre nom !\n
+		Nous mourrons pour Votre Lumière !\n
+		La mort n'est que le commencement !\n
+		Nous marchons avec Votre nom sur nos lèvres, ô Monolithe !"\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_letter_monolithian_thoughts">
+		<text>Journal d'un Monolithien</text>
+	</string>
+	<string id="encyclopedia__notes_letter_monolithian_thoughts_text">
+		<text>Une note rédigée de manière chaotique :\n \n</text>
+	</string>
+	<string id="encyclopedia__notes_letter_monolithian_thoughts_text2">
+		<text>Autant que je m'en souvienne, il y avait du darkness autour de moi et je ne voyais rien. Rien ! Pendant des heures !\n
+		Mais soudain, j'ai vu une lumière ! Une lumière si éclatante, si réconfortante ! J'ai voulu la toucher ! J'ai voulu la sentir !\n
+		Je savais qu'il essayait de m'aider ! De me sauver ! Je le savais !\n
+		Après avoir touché cette lumière, j'ai tout oublié. Il n'y avait plus de vie derrière moi, il n'y avait que darkness derrière moi. La seule lumière se trouvait devant moi.\n
+		Son nom est Monolithe.\n
+		Il m'a sauvé et je lui en suis éternellement reconnaissant.\n
+		Parfois, je vois des visages... des visages du passé... une femme et un enfant... ma famille ?\n
+		Je suis vêtu d'une combinaison blanche... Peut-être étais-je un scientifique ?... Ce mot étrange... Radar... NON ! C'est ce darkness ! Il veut que je meure ! JE NE LE LAISSERAI PAS ME TUER !\n
+		Il n'y a pas de retour possible !\n
+		Il n'y a que la lumière devant moi !\n
+		Vers la lumière !\n
+		Pour le Monolithe !\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_letter_letter_to_outside">
+		<text>Lettre à Natalie</text>
+	</string>
+	<string id="encyclopedia__notes_letter_letter_to_outside_text">
+		<text>Une lettre apparemment écrite à quelqu'un à l'extérieur de la Zone. Le fait que vous la teniez entre vos mains suggère qu'elle n'a jamais atteint son destinataire :\n \n</text>
+	</string>
+	<string id="encyclopedia__notes_letter_letter_to_outside_text2">
+		<text>« Bonjour, Natalie !
+		Comment allez-vous ? Comment vont les enfants ? Dites à Sanya que s'il ne vous écoute pas, je lui donnerai une bonne correction à mon retour.\n
+		Et moi alors ? Eh bien, je ne pense pas que vous comprendrez. La Zone... Cet endroit est... unique. C'est seulement ici que je peux vraiment ressentir un lien avec les autres. C'est seulement ici que je peux les voir tels qu'ils sont vraiment. Il n'y a pas de masques ici, seulement la vérité. Mais, comme je l'ai dit, je vous en parlerai davantage la prochaine fois que nous nous verrons.\n
+		J'ai gagné pas mal d'argent ici ! Nous pouvons enfin t'acheter ce collier que tu désirais tant. Oh, et merci pour tes lettres. Elles me remontent vraiment le moral. Quand je pense à toi, tout semble bien mieux. Nous nous reverrons bientôt. Dis bonjour aux enfants pour moi !\n
+		Beaucoup d'amour.\n
+		 - Votre Mikhaïl. Votre brave stalker."\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_letter_military_stalker">
+		<text>Note d'un Stalker militaire</text>
+	</string>
+	<string id="encyclopedia__notes_letter_military_stalker_text">
+		<text>Une note trouvée dans une cache. Il semble que quelqu'un ait tué le temps pendant une longue garde :\n \n</text>
+	</string>
+	<string id="encyclopedia__notes_letter_military_stalker_text2">
+		<text>« Alors, je suppose que j'ai obtenu la vie propre que je voulais. Je suis enfin un stalker militaire, légalement autorisé à mener des opérations au sein de la Zone. Il m'a suffi de quelques années à gratter pour survivre dans cet enfer. Maintenant, les sbires militaires qui voulaient ma peau doivent me saluer. « Oui, mon commandant », disent-ils. « Non, mon commandant. À vos ordres, mon commandant. » Ils font tout ce que je leur demande. C'est irréel. Même les Spetsnaz et l'OMON me traitent avec respect, alors que si je les avais croisés la semaine dernière, ils n'auraient pas hésité à me loger une balle entre les yeux.\n
+		Désormais, ils m'équipent de la meilleure armure dont ils disposent. Des armes de premier ordre. Les gadgets et provisions les plus performants. Je mange comme un roi, et aujourd'hui marque la première fois depuis des années où je ne me sens pas malade. Je gagne même suffisamment d'argent pour en envoyer à ma femme. Mais il y a un hic. Je n'ai pas le droit de laisser les stalkers ordinaires s'approcher de moi pendant que je travaille. Mon commandant exige que j'ouvre le feu immédiatement si l'un d'eux s'aventure trop près. Bon, tous mes amis stalkers sont déjà morts, donc je ne risque pas d'abattre quelqu'un que je connais, mais je me demande tout de même... Je me demande si les gens me verront comme le même genre de monstre botté de fer que j'ai fui toutes ces années durant.\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_letter_mercenary">
+		<text>Note d'un mercenaire</text>
+	</string>
+	<string id="encyclopedia__notes_letter_mercenary_text">
+		<text>Une note rédigée par l'un des Mercenaires concernant leurs activités dans la Zone :\n \n</text>
+	</string>
+	<string id="encyclopedia__notes_letter_mercenary_text2">
+		<text>D'après ce que je vois, il n'y a rien de spécial ici. Nous restons des mercenaires. Nous sommes toujours des soldats de fortune. Cependant, nous pouvons choisir ce que nous faisons et ce que nous refusons. Parfois, nous déclinons même une mission parce qu'elle est trop « sale » pour nous. Si le client souhaite éliminer des gens honnêtes qui gagnent leur vie à la sueur de leur front, qu'il aille se faire voir. Ils peuvent toujours se rendre dans la Zone et régler leurs problèmes eux-mêmes. En revanche, pour les maraudeurs, les déserteurs et autres ordures ? À tout moment, en tout lieu. Quand il s'agit de nous PROTÉGER, c'est une autre affaire. Mais si vous voulez tuer un homme innocent, hors de question. Nous sommes différents. Gardez cela à l'esprit la prochaine fois que vous nous confierez votre argent.\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_letter_military_log">
+		<text>Journal de communication / Opération MSRC / 05.04.2014 18:36:21</text>
+	</string>
+	<string id="encyclopedia__notes_letter_military_log_text">
+		<text>Une transcription imprimée d'une transmission radio entre des unités militaires stationnées dans la Zone :\n \n</text>
+	</string>
+	<string id="encyclopedia__notes_letter_military_log_text2">
+		<text>« -QG, ici MSRC 1-03. Nous avons des photos du NII. 240 photos d'une anomalie dans les Marais. Environ 1400 photos de la base principale. Quand rentrons-nous ?\n
+		- MSRC 1-03, ici le QG. Ne revenez pas pour l'instant. Il y a des problèmes aux Entrepôts Militaires. MSRC 4-07 demande à nouveau de l'aide. Cette fois, cependant, leur signal de détresse est fort, donc nous savons au moins qu'ils sont encore en vie.\n
+		- Bien reçu, QG. Un hélicoptère ?\n
+		- Négatif. Il y a trop de champs d'anomalies dans l'institut NII Agroprom actuellement. C'est trop dangereux. Rendez-vous à Yantar. Notre MI-24 viendra vous y récupérer.\n
+		- Reçu. Avez-vous des informations sur la prochaine éruption ?\n
+		- Positif. Sakharov a indiqué qu'il restait au moins deux jours. Mais dépêchez-vous tout de même. Leurs informations n'ont jamais été fiables.\n
+		- Compris. Nous sommes en route. Dites à l'Oiseau d'être à Yantar dans 7 heures. MSRC 1-03, terminé.\n
+		- Attendez, 1-03. Et pour le souterrain en N-2 ? Avez-vous trouvé quelque chose là-bas ?\n
+		- Positif. Nous avons découvert cette nouvelle anomalie. Elle ressemble à une sorte de téléporteur. Cela devrait intéresser ces grosses têtes de Yantar. Nos détecteurs ont grillé lorsque nous avons tenté de mesurer les champs psi. Je ne sais pas pourquoi... peut-être à cause des ondes électroniques.\n
+		- Bien reçu, MSRC 1-03. Bonne chance sur votre trajet vers Yantar. On se reparle dans 7 heures. Quartier général, terminé. »\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_letter_stalker_letter_3">
+		<text>Lettre à Nikolaï</text>
+	</string>
+	<string id="encyclopedia__notes_letter_stalker_letter_3_text">
+		<text>Une lettre manuscrite adressée à Nikolaï. Le fait que vous la teniez entre vos mains suggère qu'elle n'a jamais atteint son destinataire :\n \n</text>
+	</string>
+	<string id="encyclopedia__notes_letter_stalker_letter_3_text2">
+		<text>Nikolaï, je viens de rentrer de mon expédition au centre de la Zone. C'était l'enfer. Le Monolithe et l'armée continuent de s'affronter, déterminés à s'exterminer mutuellement sans raison. À un moment, il semblait qu'ils allaient conclure un cessez-le-feu, mais finalement, rien n'en est sorti. Ce ne fut que chaos et destruction, et je n'ai eu d'autre choix que de fuir cet endroit. J'ai failli me faire tuer une fois, ces foutus psychopathes. Mais je ne leur en veux pas. C'est entièrement de ma faute. Je n'ai tout simplement pas fait attention quand cela comptait le plus. Quoi qu'il en soit, après quelques épreuves, j'ai réussi à rejoindre Pripyat et je compte me faire discret ici pendant un moment. Pour en revenir à ce dont nous avons discuté précédemment, il semble que nous devrons reporter notre mission jusqu'à ce que la situation soit plus sûre. Je n'ai pas fermé l'oeil depuis mon retour, mais je tenais à te faire savoir que je vais bien, du moins physiquement. Nous restons en contact.\n</text>
+	</string>
+
+	
+	<string id="encyclopedia__notes_recipe_basic_1_text">
+		<text>Ce guide détaille les compétences de base en survie et présente un aperçu des kits de survie courants. Les chapitres ultérieurs décrivent la fabrication d'équipements de base à partir de matériaux communs.\n</text>
+	</string>
+	<string id="encyclopedia__notes_recipe_basic_2_text">
+		<text>Ce guide détaille les compétences de base en survie et présente un aperçu des kits de survie courants. Les chapitres ultérieurs décrivent la fabrication d'équipements de base à partir de matériaux communs.\n</text>
+	</string>
+	<string id="encyclopedia__notes_recipe_basic_3_text">
+		<text>Ce guide détaille les compétences de base en survie et présente un aperçu des kits de survie courants. Les chapitres ultérieurs décrivent la fabrication d'équipements de base à partir de matériaux communs.\n</text>
+	</string>
+	<string id="encyclopedia__notes_recipe_basic_4_text">
+		<text>Ce guide détaille les compétences de base en survie et présente un aperçu des kits de survie courants. Les chapitres ultérieurs décrivent la fabrication d'équipements de base à partir de matériaux communs.\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_recipe_advanced_1_text">
+		<text>Un manuel de génie mécanique. Contient des détails sur les équipements mécaniques et électriques de base.\n</text>
+	</string>
+	<string id="encyclopedia__notes_recipe_advanced_2_text">
+		<text>Un manuel de génie mécanique. Contient des détails sur les équipements mécaniques et électriques de base.\n</text>
+	</string>
+	<string id="encyclopedia__notes_recipe_advanced_3_text">
+		<text>Un manuel de génie mécanique. Contient des détails sur les équipements mécaniques et électriques de base.\n</text>
+	</string>
+	<string id="encyclopedia__notes_recipe_advanced_4_text">
+		<text>Un manuel de génie mécanique. Contient des détails sur les équipements mécaniques et électriques de base.\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_recipe_expert_1_text">
+		<text>Un manuel de génie industriel. Contient des informations sur le fonctionnement des appareils électroniques modernes et le dépannage des dispositifs électriques.\n</text>
+	</string>
+	<string id="encyclopedia__notes_recipe_expert_2_text">
+		<text>Un manuel de génie industriel. Contient des informations sur le fonctionnement des appareils électroniques modernes et le dépannage des dispositifs électriques.\n</text>
+	</string>
+	<string id="encyclopedia__notes_recipe_expert_3_text">
+		<text>Un manuel de génie industriel. Contient des informations sur le fonctionnement des appareils électroniques modernes et le dépannage des dispositifs électriques.\n</text>
+	</string>
+	<string id="encyclopedia__notes_recipe_expert_4_text">
+		<text>Manuel d'ingénierie industrielle. Contient des informations sur le fonctionnement des appareils électroniques modernes et le dépannage des dispositifs électriques.\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_recipe_drug_1_text">
+		<text>Notes décrivant la fabrication de divers types de drogues et de médicaments à partir de fournitures médicales courantes.</text>
+	</string>
+	<string id="encyclopedia__notes_recipe_drug_2_text">
+		<text>Notes décrivant la fabrication de divers types de drogues et de médicaments à partir de fournitures médicales courantes.</text>
+	</string>
+	<string id="encyclopedia__notes_recipe_drug_3_text">
+		<text>Notes décrivant la fabrication de divers types de drogues et de médicaments à partir de fournitures médicales courantes.</text>
+	</string>
+	<string id="encyclopedia__notes_recipe_drug_4_text">
+		<text>Notes décrivant la fabrication de divers types de drogues et de médicaments à partir de fournitures médicales courantes.</text>
+	</string>
+	
+	<string id="encyclopedia__notes_recipe_ammo_1_text">
+		<text>Un guide fournissant des informations sur divers types de munitions ainsi qu'une analyse approfondie des composants de base des cartouches.</text>
+	</string>
+	<string id="encyclopedia__notes_recipe_ammo_2_text">
+		<text>Un guide fournissant des informations sur divers types de munitions ainsi qu'une analyse approfondie des composants de base des cartouches.</text>
+	</string>
+	<string id="encyclopedia__notes_recipe_ammo_3_text">
+		<text>Un guide fournissant des informations sur divers types de munitions ainsi qu'une analyse approfondie des composants de base des cartouches.</text>
+	</string>
+	<string id="encyclopedia__notes_recipe_ammo_4_text">
+		<text>Un guide fournissant des informations sur divers types de munitions ainsi qu'une analyse approfondie des composants de base des cartouches.</text>
+	</string>
+	
+	<string id="encyclopedia__notes_note_from_spirit">
+		<text>Note de Spirit</text>
+	</string>
+	<string id="encyclopedia__notes_note_from_spirit_text">
+		<text>« Spirit a une mauvaise habitude... il est prêt à me fournir du matériel militaire en échange de vodka.\n
+		- 4 chargeurs de 9x18 mm contre 2 bouteilles de Nemiroff\n
+		- 2 chargeurs de 5,45 mm contre 2 bouteilles de Nemiroff\n
+		- 4 chargeurs de 5,45 mm contre 3 bouteilles de Nemiroff\n
+		- 3 boîtes de cartouches de chevrotine 12x70 en échange de 3 bouteilles de Nemiroff\n
+		- 1 chargeur de munitions 7,62 mm 7N1 en échange de 3 bouteilles de Nemiroff\n 
+		- 3 chargeurs de munitions 7,62x54 mm PP en échange de 5 bouteilles de Nemiroff + 7 000 RU\n
+		- Outils de base contre 7 bouteilles de Nemiroff"\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_note_from_aslan">
+		<text>Note d'Aslan</text>
+	</string>
+	<string id="encyclopedia__notes_note_from_aslan_text">
+		<text>Une note d'un collectionneur d'écussons :\n \n</text>
+	</string>
+	<string id="encyclopedia__notes_note_from_aslan_text2">
+		<text>« Vous me donnez des patchs de stalkers et vous obtenez du matériel ou rien du tout. Le tout pour vingt-cinq patchs de n'importe quelle faction, à l'exception de ceux des Scientifiques et de Monolithe.\n
+		Vous avez une chance d'obtenir un artefact de qualité inférieure ou rien du tout.\n
+		Avec cinquante patchs, vous aurez une chance d'obtenir un artefact correct et un équipement plutôt solide, mais il existe également un risque de ne rien recevoir.\n
+		Pour vingt-cinq patchs Monolithe ou Scientifiques, vous obtiendrez un artefact plutôt bon avec les mêmes chances qu'avec cinquante patchs de n'importe quelle autre faction.\n
+		Cinquante patchs Monolithe ou Scientifiques vous garantiront un objet exceptionnel et un équipement de qualité, réservé uniquement aux stalkers les plus expérimentés, sans aucun risque de ne rien obtenir.\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_note_from_trunk">
+		<text>Note de Trunk</text>
+	</string>
+	<string id="encyclopedia__notes_note_from_trunk_text">
+		<text>« Trunk dit qu'il peut me fournir des munitions en échange d'autres types. Ils échangent probablement des cartouches en surplus contre des munitions dont ils ont réellement besoin.\n
+		Voici ce qui l'intéresse :\n
+		- 100 chargeurs de 9x18 mm +P+ contre 100 chargeurs de 9x19 mm FMJ\n
+		- 100 chargeurs de 5,45x39 mm contre 100 chargeurs de 5,56x45 mm\n
+		- 20 grenades M209 contre 10 grenades F1\n
+		- 3 ogives RPG contre 10 grenades RGD-5\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_note_from_meeker">
+		<text>Note de Meeker</text>
+	</string>
+	<string id="encyclopedia__notes_note_from_meeker_text">
+		<text>Note détaillant l'équipement spécial disponible à la commande auprès de Meeker. Une fois le paiement reçu et la livraison prête, le client sera informé pour la récupération :\n \n</text>
+	</string>
+	<string id="encyclopedia__notes_note_from_meeker_text2">
+		<text>• [150 000 RU] Fusil à Gauss - une arme trophée\n
+		• [11 000 RU] Carabinier - SPAS-12 modifié par l'armée\n
+		• [17 000 RU] Armsel Protecta - fusil à pompe basé sur le Striker\n
+		• [14 000 RU] Le H&amp;K G36 - fusil d'assaut d'une fiabilité sans précédent\n
+		• [17 000 RU] FN F2000 - une rareté belge\n
+		• [24 000 RU] OTs-03A SVU-A - version rare et compacte du fusil de sniper SVD\n
+		• [8 000 RU] « Steppe Eagle » - pistolet artisanal inspiré du Desert Eagle\n
+		• [65 000 RU] « Alpine » - SIG P220 modifié\n
+		• [7 000 RU] « March » - UDP Compact modifié\n
+		• [9 500 RU] « Frasier » - pistolet-mitrailleur artisanal basé sur le MP5\n
+		• [19 000 RU] « Storm » - OTs-14 Groza modifié.
+		• [20 000 RU] « Marée » - VSS Vintorez modifié exclusif\n
+		• [18 000 RU] « Lynx » - SVD modifié par l'armée\n
+		• [100 000 RU] Exosquelette du Monolithe - exosquelette utilisé par le Monolithe\n
+		• [75 000 RU] Exosquelette des Mercenaires - exosquelette utilisé par les Mercenaires\n
+		• [65 000 RU] Exosquelette des Bandits - exosquelette utilisé par les Bandits\n
+		• [70 000 RU] Combinaison Monolithe à cycle fermé\n
+		• [50 000 RU] Combinaison Mercenaire à cycle fermé\n</text>
+	</string>
+	
+	<string id="encyclopedia__notes_note_from_grifon">
+		<text>Note de Griffin</text>
+	</string>
+	<string id="encyclopedia__notes_note_from_grifon_text">
+		<text>Une note de Griffin concernant la récupération de documents dans le laboratoire X-8 :\n \n</text>
+	</string>
+	<string id="encyclopedia__notes_note_from_grifon_text2">
+		<text>Nous sommes venus ici pour récupérer des informations dans le Laboratoire X-8, situé près du centre de service Yubileiny, au nord d'ici. À l'intérieur, il y avait un ascenseur qui nous permettait de descendre au « sous-sol -1 », mais nous avons été interrompus par ces foutus Monolithiens. C'est à cause d'eux que nous nous retrouvons dans cette merde. Les Dushman vont nous tuer de toute façon, mais peut-être reste-t-il quelques documents. Nous aurions au moins quelque chose d'utile à laisser derrière nous. J'irais bien y retourner avec les gars, mais il ne reste plus beaucoup d'entre nous, et ce serait trop risqué. Nous préférons ne pas gaspiller davantage de ressources humaines alors que nous essayons de nous éloigner du centre de cette foutue Zone. Peut-être pourriez-vous descendre jusqu'au X-8... il pourrait encore y avoir quelque chose, et... eh bien... vous en tireriez un bon profit par la même occasion.\n</text>
+	</string>
+	
+</string_table>

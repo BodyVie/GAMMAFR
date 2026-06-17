@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+    <!-- MCM Menu Title -->
+    <string id="ui_mcm_fair_autocomplete_title">
+        <text>Juste Autocomplete</text>
+    </string>
+    
+    <string id="ui_mcm_menu_fair_autocomplete">
+        <text>Juste Autocomplete</text>
+    </string>
+    
+    <!-- General Settings -->
+    <string id="ui_mcm_fair_autocomplete_enable">
+        <text>Activer le mod</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_enable_desc">
+        <text>Active le suivi des kills et la surveillance des tâches. Lorsque désactivé, le mod ne fait rien.</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_enable_autocomplete">
+        <text>Activer Autocomplete</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_enable_autocomplete_desc">
+        <text>Complète automatiquement les tâches lorsque vous avez tué les cibles. Si désactivé, vous devez rendre visite manuellement au donneur de tâche, mais la détection des tâches volées reste active.</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_pda_check">
+        <text>Activer la vérification PDA</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_pda_check_desc">
+        <text>Uniquement les tâches de autocomplete si le joueur possède un PDA</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_require_player_kill">
+        <text>Exiger des kills du joueur/compagnon</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_require_player_kill_desc">
+        <text>Ne valide autocomplete que si vous ou vos compagnons avez tué les cibles</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_companion_kills_count">
+        <text>Compter les kills des compagnons</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_companion_kills_count_desc">
+        <text>Les éliminations effectuées par vos compagnons comptent pour l'accomplissement de la tâche</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_count_assists">
+        <text>Compter les assists (tirs)</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_count_assists_desc">
+        <text>Si vous ou vos compagnons touchez une cible avant sa mort, la comptabilise même si quelqu'un d'autre porte le coup fatal</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_max_kill_distance">
+        <text>Distance maximale de kill (0=désactivé)</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_max_kill_distance_desc">
+        <text>Distance maximale par rapport à l'acteur lorsque la cible meurt. Réglez à 0 pour désactiver la vérification de distance. Par défaut : 0 (désactivé)</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_require_same_level">
+        <text>Niveau identique requis</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_require_same_level_desc">
+        <text>La cible doit mourir sur le même niveau que le joueur pour que le kill soit comptabilisé</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_cancel_if_stolen">
+        <text>Annuler les quêtes volées</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_cancel_if_stolen_desc">
+        <text>Annuler les tâches sans pénalité si quelqu'un d'autre a tué votre cible</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_check_interval">
+        <text>Intervalle de vérification (secondes)</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_check_interval_desc">
+        <text>Fréquence de vérification de l'accomplissement des tâches. Plus faible = plus réactif, mais légèrement plus gourmand en CPU</text>
+    </string>
+
+    <string id="ui_mcm_fair_autocomplete_completion_delay">
+        <text>Délai d'achèvement (secondes)</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_completion_delay_desc">
+        <text>Délai entre la détection de l'accomplissement d'une tâche et sa validation effective. Ajoute une pause immersive où le donneur de tâche « traite » le résultat avant d'envoyer la récompense. Réglez à 0 pour conserver une validation instantanée.</text>
+    </string>
+    
+    <!-- Task Types Headers -->
+    <string id="ui_mcm_fair_autocomplete_task_types_header">
+        <text>--- Types de quêtes générales ---</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_special_tasks_header">
+        <text>--- Types de quêtes spéciales ---</text>
+    </string>
+    
+    <!-- General Task Types -->
+    <string id="ui_mcm_fair_autocomplete_assault">
+        <text>Quêtes d'assaut de camp</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_assault_desc">
+        <text>Éliminer des mutants ou des stalkers ennemis à un emplacement donné</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_bounty">
+        <text>Quêtes de prime</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_bounty_desc">
+        <text>Éliminer un stalker spécifique</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_mutant_hunt">
+        <text>Quêtes de chasse aux mutants</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_mutant_hunt_desc">
+        <text>Chasser et éliminer des mutants (tâches de Chasseur)</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_hostage">
+        <text>Quêtes de sauvetage</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_hostage_desc">
+        <text>Éliminer des stalkers ennemis et sauver l'otage</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_spy_extract">
+        <text>Quêtes d'exfiltration d'espion</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_spy_extract_desc">
+        <text>Éliminer une escouade ennemie et extraire l'espion</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_fate">
+        <text>Quêtes de destin</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_fate_desc">
+        <text>« Signal perdu », « Enquêter sur l'emplacement des éclaireurs », « Retracer le signal d'urgence » et « Trouver le soldat de Devoir disparu »</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_scripted">
+        <text>Tâches scénarisées</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_scripted_desc">
+        <text>Récupérer la cargaison de Sidorovich et récupérer le prototype de détecteur</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_retrieve">
+        <text>Quêtes de récupération</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_retrieve_desc">
+        <text>Fouiller une cache donnée et rapporter un objet spécifique de celle-ci</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_measurements">
+        <text>Quêtes de mesure</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_measurements_desc">
+        <text>Prendre des mesures dans un champ d'anomalie</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_scanner">
+        <text>Placer les quêtes Scanner</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_scanner_desc">
+        <text>Champ de Scannage" et "Placer le Scanner près de l'Anomalie Symbiote</text>
+    </string>
+
+    <string id="ui_mcm_fair_autocomplete_fetch">
+        <text>Quêtes de récupération</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_fetch_desc">
+        <text>Collecter et remettre des objets au donneur de tâche. Atteindre l'étape finale signifie que vous possédez déjà les objets, ces tâches se complètent donc sans vérification de kill. Simple commodité pour éviter un retour inutile.</text>
+    </string>
+
+    <!-- Special Task Types -->
+    <string id="ui_mcm_fair_autocomplete_snitch">
+        <text>Mission « Toppers »</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_snitch_desc">
+        <text>Éliminer les stalkers les mieux classés des listes des factions</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_spring_clean">
+        <text>Mission « Sécuriser la base »</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_spring_clean_desc">
+        <text>Nettoyer les zones de base des factions des mutants</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_defense">
+        <text>Mission « Défendre la station de pompage »</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_defense_desc">
+        <text>Tâches de défense de position assignées par Petrenko</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_destroy_btrs">
+        <text>Mission « Pourquoi on ne peut pas avoir de belles choses »</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_destroy_btrs_desc">
+        <text>Détruire des véhicules militaires</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_research_hunt">
+        <text>Mission « Chasse aux recherches de Semenov »</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_research_hunt_desc">
+        <text>Chasser des mutants spécifiques pour les recherches de Semenov</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_recover_tracker">
+        <text>Mission « Récupérer le dispositif de pistage »</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_recover_tracker_desc">
+        <text>Tuer des mutants équipés de dispositifs de traçage</text>
+    </string>
+    
+    <!-- Kill Requirement -->
+    <string id="ui_mcm_fair_autocomplete_kill_requirement">
+        <text>Exigence de kills en assaut</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_kill_requirement_desc">
+        <text>Nombre d'ennemis que vous devez tuer pour que les tâches d'assaut soient complétées par autocomplete</text>
+    </string>
+    
+    <string id="fair_autocomplete_kill_requirement_lst_one">
+        <text>Au moins un ennemi</text>
+    </string>
+
+    <string id="fair_autocomplete_kill_requirement_lst_half">
+        <text>Au moins la moitié</text>
+    </string>
+
+    <string id="fair_autocomplete_kill_requirement_lst_all">
+        <text>Tous les ennemis</text>
+    </string>
+    
+    <!-- Rewards -->
+    <string id="ui_mcm_fair_autocomplete_compensate_item_rewards">
+        <text>Remplacer les objets par de l'argent</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_compensate_item_rewards_desc">
+        <text>Lorsque activé, les récompenses en objets des tâches complétées automatiquement seront retirées de votre inventaire et remplacées par leur valeur monétaire. Lorsque désactivé, vous recevez les objets normalement.</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_compensation_coefficient">
+        <text>Coefficient de compensation</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_compensation_coefficient_desc">
+        <text>1,0 = Le coût de base de l'objet. Des valeurs inférieures rapportent moins d'argent.</text>
+    </string>
+    
+    <!-- UI Options -->
+    <string id="ui_mcm_fair_autocomplete_show_stolen_message">
+        <text>Afficher le message de quête volée</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_show_stolen_message_desc">
+        <text>Affiche un message sur le PDA lorsqu'une tâche est annulée parce que quelqu'un d'autre a tué votre cible</text>
+    </string>
+    
+    <!-- Advanced -->
+    <string id="ui_mcm_fair_autocomplete_whitelist">
+        <text>Liste blanche</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_whitelist_desc">
+        <text>Liste d'IDs de tâches séparées par des virgules qui seront toujours autocomplete (ex. : "task_id_1,task_id_2")</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_blacklist">
+        <text>Liste noire</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_blacklist_desc">
+        <text>Identifiants de tâches séparés par des virgules qui ne seront jamais complétés par autocomplete</text>
+    </string>
+    
+    <string id="ui_mcm_fair_autocomplete_debug">
+        <text>Activer les journaux de débogage</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_debug_desc">
+        <text>Uniquement utile pour les moddeurs. Affiche des informations détaillées dans la console.</text>
+    </string>
+
+    <string id="ui_mcm_fair_autocomplete_no_penalty_on_giver_death">
+        <text>Pas de perte de bonne volonté si le donneur de quête meurt</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_no_penalty_on_giver_death_desc">
+        <text>Lorsqu'un donneur de tâche est tué (par exemple, s'il erre dans un échange de tirs), annule la tâche sans la pénalité habituelle de bonne volonté, au lieu de la faire échouer. Les tâches d'escorte, de défense ou de sauvetage, où la survie d'une personne est l'objectif, appliquent toujours la pénalité.</text>
+    </string>
+
+    <!-- Fatal Error compatibility -->
+    <string id="ui_mcm_fair_autocomplete_respect_fe_pda_flag">
+        <text>Erreur fatale : Respecter le flag PDA Autocomplete</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_respect_fe_pda_flag_desc">
+        <text>Compatibilité avec le mod Fatal Error. Lorsque activé, les tâches ne se autocomplete que si le niveau du PDA équipé le permet (Fatal Error marque certains PDA avec autocomplete = false). Lorsque désactivé (par défaut), Fair autocomplete fonctionne avec n'importe quel PDA. Sans effet si Fatal Error (ou un autre mod ajoutant le flag « autocomplete » au PDA) n'est pas installé.</text>
+    </string>
+
+    <!-- Level Proximity Gate -->
+    <string id="ui_mcm_fair_autocomplete_level_proximity_check">
+        <text>Limiter Autocomplete par lieu</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_level_proximity_check_desc">
+        <text>Désactivé par défaut. Ne autocomplete une tâche que lorsque le joueur est suffisamment proche du niveau du donneur de tâche. Permet d'éviter les déséquilibres de progression dans GAMMA : le niveau de la cache d'outils accordée par le jeu dépend du niveau où vous terminez une tâche, donc accomplir des tâches de bas niveau loin au nord donnerait des outils de niveau supérieur. Si le joueur est trop éloigné, la tâche est laissée telle quelle (Anomaly la complète normalement avec les récompenses d'origine). Ne provoque jamais d'annulation.</text>
+    </string>
+
+    <string id="ui_mcm_fair_autocomplete_level_proximity_mode">
+        <text>Mode proximité</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_level_proximity_mode_desc">
+        <text>Même niveau : le joueur doit se trouver sur le niveau du donneur. Dans les N voisins : le joueur doit être à N transitions de carte du niveau du donneur. Même moitié de la Zone : le joueur et le donneur se trouvent dans la même moitié de la Zone (tout ce qui est en dessous de Forêt Rouge est considéré comme le sud).</text>
+    </string>
+    <string id="fair_autocomplete_level_proximity_mode_lst_same">
+        <text>Même niveau</text>
+    </string>
+    <string id="fair_autocomplete_level_proximity_mode_lst_neighbor">
+        <text>Dans les N niveaux voisins</text>
+    </string>
+    <string id="fair_autocomplete_level_proximity_mode_lst_half">
+        <text>Même moitié de carte (Sud/Nord)</text>
+    </string>
+
+    <string id="ui_mcm_fair_autocomplete_level_proximity_n">
+        <text>Distance des voisins (N)</text>
+    </string>
+    <string id="ui_mcm_fair_autocomplete_level_proximity_n_desc">
+        <text>Utilisé uniquement en mode « Dans les N niveaux voisins ». Nombre de transitions de carte à partir du niveau du donneur encore considéré comme suffisamment proche. Exemple : donneur dans Cordon, N=2 autorise jusqu'à Agroprom mais pas Entrepôts de l'armée.</text>
+    </string>
+    
+    <!-- In-game Messages -->
+    <string id="st_fa_task_stolen_msg_1">
+        <text>Quelqu'un s'en est chargé à votre place, sans arrière-pensée.</text>
+    </string>
+    
+    <string id="st_fa_task_stolen_msg_2">
+        <text>La mission a été accomplie par un tiers... eh bien, cela arrive.</text>
+    </string>
+    
+    <string id="st_fa_task_stolen_msg_3">
+        <text>La Zone donne, la Zone reprend. Revenez une autre fois1!</text>
+    </string>
+    
+    <string id="st_fa_task_autocomplete_msg">
+        <text>Mission accomplie automatiquement.</text>
+    </string>
+    
+    <string id="st_fa_task_giver_dead_msg">
+        <text>Votre commanditaire est décédé. Mission annulée, sans pénalité.</text>
+    </string>
+
+</string_table>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+    <string id="ui_mcm_uicellcontainer_optimize_title">
+		<text>Inventaire Antifreeze</text>
+	</string>
+    <string id="ui_mcm_menu_uicellcontainer_optimize">
+		<text>Inventaire de Antifreeze</text>
+	</string>
+    <string id="ui_mcm_uicellcontainer_optimize_enabled">
+		<text>Activé</text>
+	</string>
+	<string id="ui_mcm_uicellcontainer_optimize_deferredLimit">
+		<text>Nombre minimal d'objets dans le conteneur pour activer Antifreeze</text>
+	</string>
+	<string id="ui_mcm_uicellcontainer_optimize_sort_step2">
+		<text>Nombre d'appels du trieur par mise à jour de l'UI</text>
+	</string>
+	<string id="ui_mcm_uicellcontainer_optimize_sort_step2_desc">
+		<text>L'augmentation de cette valeur entraîne une ouverture plus rapide, mais moins fluide, de l'inventaire.</text>
+	</string>
+	<string id="ui_mcm_uicellcontainer_optimize_icon_step">
+		<text>Nombre d'icônes affichées par mise à jour de l'UI</text>
+	</string>
+	<string id="ui_mcm_uicellcontainer_optimize_icon_step_desc">
+		<text>L'augmentation de cette valeur entraîne un plus grand nombre d'affichages d'icônes par image, mais impacte davantage les performances (FPS).</text>
+	</string>
+</string_table>

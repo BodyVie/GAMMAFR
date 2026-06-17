@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+ <!-- Dusman (Mercenary Leader) -->
+ 	<string id="find_blackbox_mlr_reward_killer_0">
+		<text>Dushman, mate un peu ça, j'ai trouvé un enregistreur de vol. Je parie que ce truc contient des infos qui valent un paquet de thune pour cette bande, hein ?</text>
+	</string>
+	<string id="find_blackbox_mlr_reward_killer_1">
+		<text>Un modèle militaire ? Nickel. C'est un vrai petit bijou que t'as là - je te le prends contre un peu de thune.</text>
+	</string>
+
+
+<!-- (Mercenary Guide) -->
+	<string id="meet_ds_killer_guide_main_base_0">
+		<text>Comment je sors d'ici ?</text>
+	</string>
+	<string id="meet_ds_killer_guide_main_base_1">
+		<text>L'endroit est cerné par tous les dangers possibles, mais on a un réseau d'égouts souterrains. Un guide peut te faire sortir de la ville vers l'une de nos rares bases, située dans le sud de Zaton.</text>
+	</string>
+
+	<string id="meet_ds_killer_guide_main_base_list_0">
+		<text>Rappelle-moi, les routes mènent où ?</text>
+	</string>
+	<string id="meet_ds_killer_guide_main_base_list_1">
+		<text>Ta seule option, c'est l'usine de traitement des déchets dans le sud-est de Zaton. Ça te coûtera huit mille roubles.</text>
+	</string>
+	
+	<string id="travel_ds_killer_guide_main_base_0">
+		<text>Je veux quitter la ville.</text>
+	</string>
+	<string id="travel_ds_killer_guide_main_base_1">
+		<text>T'es sûr ? Notre seule option, c'est le nord - on arrivera à la station de traitement des déchets dans le sud de Zaton. Huit mille roubles.</text>
+	</string>
+	<string id="travel_ds_killer_guide_main_base_2">
+		<text>Je suis prêt, on y va pour Zaton. %c[d_orange][8000 RU]</text>
+	</string>
+	<string id="travel_ds_killer_guide_main_base_3">
+		<text>J'ai changé d'avis.</text>
+	</string>
+	
+	
+ <!-- Aslan (Mercenary Barman) -->
+	<string id="talk_to_aslan_on_main_base_merk_0">
+		<text>Parle-moi de toi.</text>
+	</string>
+	<string id="talk_to_aslan_on_main_base_merk_1"> <!-- Fixed -->
+		<text>Qu'est-ce que tu veux que je te raconte ? Je suis le barman du coin - mais qui peut bien le savoir dans ce bordel, hein ? On est coincés ici depuis des jours, on se maintient à peine. J'ai participé à la défense du palais présidentiel à l'époque, puis j'ai migré en Suisse. Après, je suis venu dans la Zone. J'aimais bien aller au Bar avec des potes, boire un coup et se rappeler le bon vieux temps... Lors d'une de ces virées, on m'a proposé une place au Syndicat. À l'époque, c'était à peine tenu, alors Dushman et moi, on est un peu des pionniers là-dedans. Et alors ? Les gars autour ont fait l'Afghanistan et la Géorgie. Mais les Baltes, ils sont pas très chauds pour venir, et encore moins les pays du premier monde.</text>
+	</string>
+
+
+	<string id="talk_to_aslan_about_lottery_0">
+		<text>J'ai entendu dire que t'étais intéressé par les patchs de faction.</text>
+	</string>
+	<string id="talk_to_aslan_about_lottery_1">
+		<text>Comment dire... Personnellement, non, j'ai pas vraiment d'« intérêt » pour ces trucs - c'est la hiérarchie qui les veut. Moi, je suis juste un gestionnaire intermédiaire pour tout, je préfère m'occuper de choses plus concrètes... comme des biens tangibles et du cash direct. Ce que je pense, c'est qu'avec le moral en berne ces derniers temps, ça pourrait être une autre façon sympa pour nos gars de se faire un peu de butin. Tu vois, pour garder les choses intéressantes et fraîches, je suppose que les paiements de contrats deviennent trop prévisibles... Alors voilà comment ça marche : tu me ramènes des patchs de stalkers, et t'as une chance de piocher dans un tas de marchandises que mes hommes ont récupérées. Ça te dit, comme deal ? Pour quinze patchs de n'importe quelle faction, t'as une chance de gagner des conteneurs artefacts, des fournitures médicales, des outils ou des artefacts. Avec trente patchs, tu auras droit aux mêmes récompenses, mais en version améliorée, et en plus, tu pourras gagner des armes et armures haut de gamme. Ah, et une dernière chose - les patchs des factions mieux équipées rapportent plus. Par exemple, ceux de Devoir auront tendance à donner de meilleures récompenses que ceux de ces Bandits de merde. Tu te demandes peut-être : « Pourquoi tant de générosité ? »... Parce que beaucoup préfèrent garder les patchs pour eux comme trophées de combat, surtout ceux dont on peut se vanter. Ça permet de faire circuler les patchs, maintenant qu'ils ont une vraie valeur.</text>
+	</string>
+	<string id="talk_to_aslan_about_lottery_2">
+		<text>Et toi alors ? Tu fais quoi avec tout ça ?</text>
+	</string>
+	<string id="talk_to_aslan_about_lottery_3">
+		<text>Ça te regarde pas. Ramène-moi juste les patchs, et prie pour que ça rapporte. C'est comme ça que marche la loterie, point final.</text>
+	</string>
+
+	<string id="lottery_ds_aslan_mlr_0">
+		<text>J'ai quelques patchs.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_1">
+		<text>Excellent, lesquels ?</text>
+	</string>
+		<string id="lottery_ds_aslan_mlr_2">
+			<text>Firmament, vingt patchs.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_3">
+			<text>Liberté, vingt patchs.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_4">
+			<text>Solitaires, vingt patchs.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_5">
+			<text>Scientifiques, vingt patchs.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_6">
+			<text>Bandits, vingt patchs.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_7">
+			<text>Devoir, vingt patchs.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_8">
+			<text>Monolithe, vingt patchs.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_9">
+			<text>Militaires, vingt patchs.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_50">
+		     <text>Mercenaires, vingt patchs.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_53">
+		     <text>Renégats, vingt patchs.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_51">
+		    <text>Péché, vingt patchs.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_52">
+		     <text>UNISG, vingt patchs.</text>
+		</string>									   
+		<string id="lottery_ds_aslan_mlr_11">
+			<text>Firmament, trente patchs.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_12">
+			<text>Liberté, trente patchs.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_13">
+			<text>Solitaires, trente patchs.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_14">
+			<text>Scientifiques, trente patchs.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_15">
+			<text>Bandits, trente patchs.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_16">
+			<text>Devoir, trente patchs.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_17">
+			<text>Monolithe, trente patchs.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_18">
+			<text>Militaires, trente patchs.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_56">
+		     <text>Renégats, trente patchs.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_54">
+		     <text>Péché, trente patchs.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_55">
+		     <text>UNISG, trente patchs.</text>
+		</string>  
+		<string id="lottery_ds_aslan_mlr_57">
+		     <text>Mercenaires, trente patchs.</text>
+		</string>
+	<string id="lottery_ds_aslan_mlr_10">
+		<text>J'ai changé d'avis.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_19">
+		<text>Tiens, prends ça.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_20">
+		<text>Tiens, prends ça.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_21">
+		<text>Tiens, prends ça.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_22">
+		<text>Tiens, prends ça.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_23">
+		<text>Tiens, prends ça.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_24">
+		<text>Tiens, prends ça.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_25">
+		<text>Tiens, prends ça.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_26">
+		<text>Tiens, prends ça.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_27">
+		<text>Tiens, prends ça.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_28">
+		<text>Tiens, prends ça.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_29">
+		<text>Tiens, prends ça.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_30">
+		<text>Tiens, prends ça.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_31">
+		<text>Tiens, prends ça.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_34">
+		<text>Tiens, prends ça.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_35">
+		<text>Tiens, prends ça.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_36">
+		<text>Tiens, prends ça.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_40">
+		<text>Tiens, prends ça.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_41">
+		<text>Tiens, prends ça.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_42">
+		<text>Tiens, prends ça.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_43">
+		<text>Tiens, prends ça.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_44">
+		<text>Tiens, prends ça.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_45">
+		<text>T'es tombé sur un conteneur d'application pour artefact. D'après ce que m'ont dit les Scientifiques, les matériaux ici sont bien meilleurs que les trucs bricolés, ça devrait offrir une sacrée bonne protection contre les radiations des artefacts.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_46">
+		<text>Voilà un kit médical militaire, on en a stocké un paquet sur des macchabées de Militaires et de Devoir. Il contient l'essentiel d'un kit de base, mais avec quelques extras en plus.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_47">
+		<text>Voilà un kit d'outils avancé pour toi. Celui-là comprend des outils de précision pour bosser sur du matos plus complexe.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_48">
+		<text>T'as maintenant entre les mains un module d'application pour artefact, un chef-d'oeuvre d'ingénierie signé par certains des meilleurs scientifiques. Tu trouveras rien de mieux dans la Zone pour transporter des Artefacts sur toi. On ajoute trois Artefacts vides à ça, t'as décroché le jackpot !</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_49">
+		<text>Ding ding ding ! On a un gagnant, un MP7 en parfait état avec quelques accessoires et des munitions AP !</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_58">
+		<text>Ce kit d'outils avancé est super bien, et maintenant il est à toi ! Il contient certains des meilleurs outils qu'un électricien ou un mécanicien puisse demander, du moins dans la Zone.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_59">
+		<text>Voilà des munitions AP 7,62x51 et des grenades, ça fait un paquet de dégâts !</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_60">
+		<text>Des balles perforantes pour toi, ça fait dans les trente macchabées de Liberté, mon pote.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_61">
+		<text>Putain, t'as gagné le jackpot à la loterie des flingues, félicitations, Stalker ! Me demande pas où j'ai déniché cette bête, c'est pas moi qui l'ai trouvée, quelqu'un d'autre en a chopé deux identiques ! Il me devait 25 000 roubles, avec des intérêts salés, et il a réglé sa dette avec l'un des deux. J'espère que t'auras jamais à lâcher ce monstre pour payer tes dettes, hein ? </text>
+	</string>
+
+	<string id="aslan_st_0">
+		<text>C'est quoi la situation actuelle ?</text>
+	</string>
+	<string id="aslan_st_1">
+		<text>Bon, le Syndicat n'a qu'une seule base centrale dans la Zone, et c'est ici. Le chemin vers Yantar est bloqué à cause de l'installation psy, et des hordes de zombies en sortent parfois, accompagnés de mutants. Limansk est devenu un vrai merdier - un labyrinthe bourré de dangers. La Forêt Rouge est encore plus risquée, vu que les combattants de Monolithe se sont installés sur le pont menant à Limansk, et le reste de la zone grouille de mutants. Aux Entrepôts de l'armée à l'est, c'est le territoire de Liberté.</text>
+	</string>
+	<string id="aslan_st_2">
+		<text>Allez, vas-y.</text>
+	</string>
+	<string id="aslan_st_3">
+		<text>Pour les dangers, tu les verras bien assez tôt. Mais retiens une chose : quand tu bosses sur un contrat, t'as un boulot à faire, et les émotions, ça te distrait. Mets-les de côté... Ici, y'a pas de place pour les sentiments, pas de place pour la morale - que l'intelligence et le calcul. Pour les autres chemins, le plus sûr, c'est de passer par Limansk. Y'a plein d'espaces fermés où tu seras à l'abri des tirs de sniper, et des abris pour te planquer pendant les échanges de feu, sans parler des anomalies. Par contre, la zone est sacrément imprévisible - tu sais jamais ce qui t'attend au coin de la rue.</text>
+	</string>
+	<string id="aslan_st_4">
+		<text>Tu dis que la base est centrale. Ça veut dire qu'il y a d'autres avant-postes dans le coin ?</text>
+	</string>
+	<string id="aslan_st_5">
+		<text>J'en connais deux petits. Le premier se trouve à Zaton, au bord des marais du nord. Le second est dans le sud-ouest des faubourgs de Pripyat. On a aussi un groupe stationné dans le Territoire sauvage, et tu peux tomber sur nos escouades un peu partout dans la Zone quand elles bossent sur des contrats.</text>
+	</string>
+	<string id="aslan_st_6">
+		<text>Tout ce qui est au nord de Limansk, c'est le territoire du Monolithe.</text>
+	</string>
+	<string id="aslan_st_7">
+		<text>À peu près. Y'a un vieil hosto pas loin de Limansk. Aucun intérêt d'y aller - le chemin vers la Centrale nucléaire de Tchernobyl, comme celui qui mène à Yantar, sont tous les deux coupés par des émissions psy.</text>
+	</string>
+	<string id="aslan_st_8">
+		<text>Compris, merci pour les infos.</text>
+	</string>
+
+	<string id="information_about_stash_aslan_0">
+		<text>J'ai entendu dire que t'avais des infos sur les planques.</text>
+	</string>
+	<string id="information_about_stash_aslan_1">
+		<text>T'as bien entendu. On garde toujours un oeil sur le loot après les raids. Il est à toi pour six mille cinq cents.</text>
+	</string>
+
+	<string id="information_about_stash_aslan1_0">
+		<text>Des emplacements de caches payants disponibles ? %c[d_orange][6500 RU]</text>
+	</string>
+	<string id="information_about_stash_aslan1_1">
+		<text>Super. Profites-en.</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    <string id="ui_mcm_menu_hideout_cat_settings">
+        <text>Repaire du chat</text>
+    </string>
+
+    <string id="ui_hideout_cat_mcm_sld">
+        <text>Repaire du chat</text>
+    </string>
+
+    <string id="ui_mcm_hideout_cat_sld_text">
+        <text>Repaire du chat</text>
+    </string>
+
+    <string id="ui_mcm_hideout_cat_color_help">
+        <text>Sélectionnez la couleur de votre chat</text>
+    </string>
+
+    <string id="ui_mcm_hideout_cat_settings_hideout_cat_color">
+        <text>Couleur du pelage :</text>
+    </string>
+
+    <string id="ui_mcm_lst_color_orange">
+        <text>Orange</text>
+    </string>
+
+    <string id="ui_mcm_lst_color_black">
+        <text>Noir</text>
+    </string>
+
+    <string id="ui_mcm_lst_color_white">
+        <text>Blanc</text>
+    </string>
+
+    <string id="ui_mcm_lst_color_black_spots">
+        <text>Noir à taches blanches</text>
+    </string>
+
+    <string id="ui_mcm_lst_color_white_spots">
+        <text>Blanc à taches noires</text>
+    </string>
+
+    <string id="ui_mcm_lst_color_brown">
+        <text>Brun à rayures</text>
+    </string>
+	<string id="ui_mcm_hideout_cat_settings_hideout_cat_fur_hidden">
+        <text>Désactiver le pelage avec texture alpha :</text>
+    </string>
+	<string id="ui_mcm_hideout_cat_settings_hideout_cat_fur_hidden_descr">
+        <text>Désactive le pelage avec texture alpha lorsque l'ombrage pose des problèmes d'éclairage.</text>
+    </string>
+	<string id="st_hideout_cat">
+        <text>Repaire du chat</text>
+    </string>
+    <string id="st_hideout_cat_descr">
+		<text>Un chat à moitié apprivoisé qui a mystérieusement trouvé son chemin dans la Zone. Il dort pendant les émissions, ronronne comme une anomalie et rappelle aux stalkers ce que « chez soi » pourrait presque évoquer. \n \n
+			%c[ui_white]PROPRIÉTÉS :\n
+			%c[d_orange] • %c[ui_white] Posable\n</text>
+	</string>
+	<string id="st_hideout_cat_bed">
+        <text>Panier du Chat</text>
+    </string>
+    <string id="st_hideout_cat_bed_descr">
+		<text>Un lit confortable pour votre chat. \n \n
+			%c[ui_white]PROPRIÉTÉS :\n
+			%c[d_orange] • %c[ui_white] Posable\n</text>
+	</string>
+</string_table>

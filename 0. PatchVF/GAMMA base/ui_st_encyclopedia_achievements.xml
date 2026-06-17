@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="encyclopedia_achievements">
+		<text>Succès</text>
+	</string>
+
+	<string id="encyclopedia_achievements_bookworm_food">
+		<text>NOURRITURE DE BIBLIOPHILE</text>
+	</string>
+	<string id="encyclopedia_achievements_bookworm_food_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Déverrouiller tous les articles du guide intégré au jeu.\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Les clés USB seront remplacées par des PDA rares lors de leur apparition.\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_achievements_completionist">
+		<text>PERFECTIONNISTE</text>
+	</string>
+	<string id="encyclopedia_achievements_completionist_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Déverrouiller tous les autres succès disponibles.\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Tout ce qu'il était possible d'accomplir a été accompli. Le chemin a été long, mais vous êtes parvenu à la fin, triomphant.\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_achievements_down_to_earth">
+		<text>TERRE À TERRE</text>
+	</string>
+	<string id="encyclopedia_achievements_down_to_earth_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Détruire soit 3 hélicoptères avec des armes légères, soit 1 avec un explosif.\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Les hélicoptères Mi-2 "Hoplite" apparaîtront à la place des hélicoptères Mi-24 "Hind".\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_achievements_duga_free">
+		<text>DUGA LIBRE</text>
+	</string>
+	<string id="encyclopedia_achievements_duga_free_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Désactiver à la fois la Machine à Miracles et le Lobotomisateur.\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Les Stalkers sont plus susceptibles de se déplacer à travers Yantar et Radar, ce qui pourrait augmenter leur population dans les zones septentrionales.\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_achievements_geologist">
+		<text>GÉOLOGUE</text>
+	</string>
+	<string id="encyclopedia_achievements_geologist_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Détecter un minimum de 50 artefacts.\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Vous avez une probabilité accrue de trouver des artefacts après une émission.\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_achievements_heavy_pockets">
+		<text>POCHES LOURDES</text>
+	</string>
+	<string id="encyclopedia_achievements_heavy_pockets_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Posséder 10 000 000 RU.\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Les marchands sont plus enclins à vous vendre des équipements de niveau supérieur, même si vous ne remplissez pas les conditions de bonne volonté requises auprès de leur faction.\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_achievements_infopreneur">
+		<text>INFOPRENEUR</text>
+	</string>
+	<string id="encyclopedia_achievements_infopreneur_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Remettre 50 PDA à des courtiers en informations.\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Les courtiers vous verseront désormais un petit bonus pour chaque PDA supplémentaire qui leur est livré.\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_achievements_mechanized_warfare">
+		<text>GUERRE MÉCANISÉE</text>
+	</string>
+	<string id="encyclopedia_achievements_mechanized_warfare_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Livrer les trois ensembles d'outils à un seul technicien.\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Les objets bonus utilisés lors des réparations sont plus efficaces.\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_achievements_patriarch">
+		<text>HÉROS POPULAIRE</text>
+	</string>
+	<string id="encyclopedia_achievements_patriarch_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Atteindre le rang le plus élevé possible.\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Vous pouvez recruter des groupes plus importants de suiveurs pour agir comme compagnons.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_radiotherapy">
+		<text>RADIOTHÉRAPIE</text>
+	</string>
+	<string id="encyclopedia_achievements_radiotherapy_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Survivre à 25 émissions et tempêtes psi.\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]À chaque début de tempête psychique ou d'émission, il existe une probabilité de survivre sans se mettre à couvert.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_rag_and_bone">
+		<text>CHIFFONNIER</text>
+	</string>
+	<string id="encyclopedia_achievements_rag_and_bone_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Piller 100 caches.\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Vous trouvez occasionnellement plus de butin en fouillant les caches.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_silver_or_lead">
+		<text>ARGENT OU PLOMB</text>
+	</string>
+	<string id="encyclopedia_achievements_silver_or_lead_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Tuer 500 stalkers ou en faire capituler 50 devant vous.\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]La reddition de stalkers peut occasionnellement révéler l'emplacement d'une seconde cache.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_tourist">
+		<text>TOURISTE</text>
+	</string>
+	<string id="encyclopedia_achievements_tourist_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Visiter les 33 lieux de la Zone.\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Obtenir les coordonnées de 3 caches uniques.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_well_dressed">
+		<text>BIEN HABILLÉ</text>
+	</string>
+	<string id="encyclopedia_achievements_well_dressed_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Tuer 500 mutants ou prélever 250 parties de mutants.\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Vous pouvez dépouiller les mutants beaucoup plus rapidement que la normale.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_wishful_thinking">
+		<text>PENSÉE MAGIQUE</text>
+	</string>
+	<string id="encyclopedia_achievements_wishful_thinking_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Terminer la trame scénaristique « Légende Vivante ».\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Déverrouiller « Renégats » en tant que faction jouable.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_infantile_pleasure">
+		<text>PLAISIR INFANTILE</text>
+	</string>
+	<string id="encyclopedia_achievements_infantile_pleasure_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Détruire 200 caisses.\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Les caisses ont 25 % de chances de contenir plus de butin.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_recycler">
+		<text>RECYCLEUR VIGILANT</text>
+	</string>
+	<string id="encyclopedia_achievements_recycler_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Démonter 200 objets.\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]33 % de chances d'obtenir une pièce supplémentaire lors du désassemblage.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_artificer_eagerness">
+		<text>EMPRESSEMENT DE L'ARTIFICIER</text>
+	</string>
+	<string id="encyclopedia_achievements_artificer_eagerness_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Fabriquer 50 objets.\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]De nombreuses recettes de crafting avancées nécessiteront moins de composants.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_unforeseen_guest">
+		<text>INVITÉ INATTENDU</text>
+	</string>
+	<string id="encyclopedia_achievements_unforeseen_guest_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Atteindre un total de 5 heures en état de camouflage.\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Vos actions sous déguisement susciteront moins de soupçons.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_absolver">
+		<text>ABSOLVEUR</text>
+	</string>
+	<string id="encyclopedia_achievements_absolver_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Terminer la trame scénaristique « Péché Mortel ».\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Déverrouiller « Péché » en tant que faction jouable.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_collaborator">
+		<text>COLLABORATEUR</text>
+	</string>
+	<string id="encyclopedia_achievements_collaborator_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Terminer la trame scénaristique « Opération Après-lueur ».\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Déverrouiller « UNISG » en tant que faction jouable.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_iron_curtain">
+		<text>RIDEAU DE FER</text>
+	</string>
+	<string id="encyclopedia_achievements_iron_curtain_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Capturer la moitié des territoires disponibles.\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Bonus de 50 000 RU.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_murky_spirit">
+		<text>ESPRIT TROUBLE</text>
+	</string>
+	<string id="encyclopedia_achievements_murky_spirit_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Terminer les trois scénarios "Perdus dans la Zone" en mode Ironman.\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Augmentation majeure de grade.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_invictus">
+		<text>INVICTUS</text>
+	</string>
+	<string id="encyclopedia_achievements_invictus_text">
+		<text>%c[pda_white] • Condition(s) requise(s) :\n
+		%c[ui_red] • %c[ui_gray_2]Jouer en mode Histoire et terminer les trois scénarios "Perdus dans la Zone".\n
+		%c[ui_red] • %c[ui_gray_2]Le mode Ironman doit être actif depuis le premier jour dans la Zone, jusqu'à la complétion des scénarios.\n
+		%c[ui_red] • %c[ui_gray_2]Jouer avec les difficultés de gameplay et de progression les plus élevées, sans modifier aucun de leurs paramètres.\n
+		%c[ui_red] • %c[ui_gray_2]Ne pas mourir plus d'une fois.\n
+		%c[ui_red] • %c[ui_gray_2]Ne jamais utiliser le mode débogage.\n
+		%c[pda_white] • Récompense(s) :\n
+		%c[d_cyan] • %c[ui_gray_2]Droit de se vanter.\n
+		</text>
+	</string>
+
+</string_table>

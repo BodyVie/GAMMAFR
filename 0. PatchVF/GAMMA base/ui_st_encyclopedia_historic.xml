@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="encyclopedia_historic">
+		<text>Historique</text>
+	</string>
+	
+	<string id="encyclopedia_historic_final_day">
+		<text>Jour Final</text>
+	</string>
+	<string id="encyclopedia_historic_final_day_text">
+		<text>%c[pda_white]Jour Final %c[ui_gray_2]était une faction de scientifiques, également connue sous le nom de %c[pda_green]Last Day%c[ui_gray_2], ou sous l'appellation de "%c[pda_green]stalkers sauvages%c[ui_gray_2]".\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Ils croyaient que la Zone entraînerait finalement la fin du monde, s'étendant et revendiquant toujours plus de terres à chaque émission. Outre leur fascination pour la chasse aux stalkers zombifiés à des fins de recherche, et le fait que leur chef, aujourd'hui oublié, ait été assassiné par un stalker nommé Ghost, on sait peu de choses sur eux.\n \n
+		Leur activité ayant débuté peu après l'émission qui a décimé une grande partie de Firmament, il est possible qu'ils aient été un petit groupe dissident ; des survivants devenus instables après ce qu'ils avaient vécu.\n \n
+		%c[pda_blue]Statistiques\n
+		%c[pda_white]• Dirigeants : %c[ui_gray_2]Inconnus\n
+		%c[pda_white]• Quartier général : %c[ui_gray_2]Inconnu\n
+		%c[pda_white]• Couleurs : %c[ui_gray_2]Inconnues\n \n
+		%c[pda_yellow]Anecdotes\n
+		%c[pda_white]• %c[ui_gray_2]Tout ce que l'on sait de cette faction provient des documents de conception du jeu.\n
+		%c[pda_white]• %c[ui_gray_2]Cette faction a été supprimée de %c[pda_white]S.T.A.L.K.E.R.: Shadow of Chernobyl%c[ui_gray_2].
+		</text>
+	</string>
+	
+	<string id="encyclopedia_historic_isg">
+		<text>ISG</text>
+	</string>
+	<string id="encyclopedia_historic_isg_text">
+		<text>Le %c[pda_white]Groupe Scientifique International %c[ui_gray_2]a été fondé pour étudier la Zone.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Suite à l'apparition soudaine de la Zone, les Nations Unies ont créé un nouvel organisme de recherche dont l'unique mission était d'étudier et d'expliquer ce phénomène étrange.\n
+		Une zone située loin au nord, entourant six grands générateurs, était considérée comme la plus intéressante sur le plan scientifique et a donc été choisie comme site pour leur expédition. Ne durant que quelques mois, leurs travaux ont été entravés par des problèmes qu'ils n'auraient jamais pu anticiper. Des chercheurs étaient dévorés par des anomalies invisibles ou ravagés par une faune horriblement mutée. D'autres disparaissaient inexplicablement, pour revenir quelques jours plus tard dans un état de transe zombifiée, tentant de tuer leurs collègues.\n \n
+		L'expédition a finalement été interrompue après avoir accompli très peu de choses, et avec un nombre de victimes inacceptablement élevé. Malgré cet échec, un institut a été créé par le gouvernement ukrainien pour poursuivre leurs travaux, désormais communément appelé les Scientifiques.\n \n
+		%c[pda_blue]Statistiques\n
+		%c[pda_white]• Dirigeants : %c[ui_gray_2]Inconnus\n
+		%c[pda_white]• Quartier général : %c[ui_gray_2]Générateurs\n
+		%c[pda_white]• Couleurs : %c[ui_gray_2]Blanc et rouge\n \n
+		%c[pda_yellow]Anecdotes%c[ui_gray_2]\n
+		%c[pda_white]• %c[ui_gray_2]Cette faction a été supprimée de %c[pda_white]S.T.A.L.K.E.R.: Clear Sky%c[ui_gray_2].
+		</text>
+	</string>
+	
+	<string id="encyclopedia_historic_renegade">
+		<text>Renegat</text>
+	</string>
+	<string id="encyclopedia_historic_renegade_text">
+		<text>Les %c[pda_white]Renegats %c[ui_gray_2]étaient parmi les stalkers les plus méprisables de la Zone.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Sans limites ni morale, ils étaient principalement composés de stalkers ayant commis des crimes si terribles que leurs factions d'origine les avaient bannis. La seule loi qu'ils respectaient était celle de la force, s'attaquant aux faibles aux abords de la Zone, souvent des individus trop jeunes et inexpérimentés pour leur résister.\n \n
+		Poussés dans les marais par leurs nombreux ennemis, ce n'est qu'en faisant face à Firmament que leur instinct de survie a contraint ces chacals à s'unir pour former leur propre faction.\n \n
+		%c[pda_blue]Statistiques\n
+		%c[pda_white]• Dirigeants : %c[ui_gray_2]Inconnus\n
+		%c[pda_white]• Quartier général : %c[ui_gray_2]Grand marais\n
+		%c[pda_white]• Couleurs : %c[ui_gray_2]Diverses\n \n
+		%c[pda_yellow]Anecdotes%c[ui_gray_2]\n
+		%c[pda_white]• %c[ui_gray_2]Ils sont apparus très brièvement dans %c[pda_white]S.T.A.L.K.E.R.: Clear Sky%c[ui_gray_2].\n
+		%c[pda_white]• %c[ui_gray_2]Cette faction n'existait que pour permettre au joueur de se lier d'amitié avec les bandits.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_historic_rat_wolf">
+		<text>Rats Wolf</text>
+	</string>
+	<string id="encyclopedia_historic_rat_wolf_text">
+		<text>Le %c[pda_white]Rat Wolf %c[ui_gray_2]était une sous-espèce rare de rats muté.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Bien plus dangereux que leurs cousins actuels présents dans la Zone, le rat Wolf était une machine à tuer indiscriminée. Menant souvent des meutes de rats ordinaires, ces créatures étaient faciles à repérer, car elles atteignaient fréquemment une taille deux à trois fois supérieure.\n \n
+		En dehors de cela, seules quelques différences apparaissaient dans leur apparence, comme des globes oculaires entièrement noirs et plus grands, ainsi qu'un corps supérieur gonflé et gras. La sélection naturelle a finalement joué son rôle, car en raison de leur taille anormale, ils se démarquaient et devenaient des proies faciles pour les Zone's chats et autres mutants similaires.\n \n
+		%c[pda_blue]Statistiques\n
+		%c[pda_white]• Attaques : %c[ui_gray_2]Corps à corps\n
+		%c[pda_white]• Santé : %c[ui_gray_2]Moyenne\n
+		%c[pda_white]• Vitesse : %c[ui_gray_2]Moyenne\n
+		%c[pda_white]• Particularités : %c[ui_gray_2]Aucune\n \n
+		%c[pda_yellow]Anecdotes%c[ui_gray_2]\n
+		%c[pda_white]• %c[ui_gray_2]Tout ce que l'on sait de ce mutant provient des documents de conception du jeu.\n
+		%c[pda_white]• %c[ui_gray_2]Ce mutant a été supprimé de %c[pda_white]S.T.A.L.K.E.R.: Shadow of Chernobyl%c[ui_gray_2].
+		</text>
+	</string>
+	
+	<string id="encyclopedia_historic_tark">
+		<text>Tark</text>
+	</string>
+	<string id="encyclopedia_historic_tark_text">
+		<text>Le %c[pda_white]Tark %c[ui_gray_2]était une créature disparue semblable à un cheval, probablement issue d'une mutation du cheval de Przewalski.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Cette créature ne ressemblait guère à ses ancêtres en raison d'une exposition massive aux radiations lors de la création de la Zone. Ses pattes arrière étaient atrophiées, tandis que celles de l'avant étaient visiblement exagérées, et sa queue ainsi qu'une grande partie de sa gueule avaient presque entièrement disparu ou s'étaient décomposées.\n \n
+		Similaire à un Flesh à certains égards, le corps du Tark était considérablement gonflé et boursouflé. On les observait également souvent chasser en grands groupes, bien que cela relève probablement davantage d'un réflexe instinctif que d'une forme naturelle de meute.\n \n
+		Contrairement aux autres mutants de la Zone, il s'agissait d'animaux incroyablement sauvages, dont la folie surpassait souvent leur perception de la peur et a probablement contribué à leur disparition finale.\n \n
+		%c[pda_blue]Statistiques\n
+		%c[pda_white]• Attaques : %c[ui_gray_2]Corps à corps\n
+		%c[pda_white]• Santé : %c[ui_gray_2]Moyenne\n
+		%c[pda_white]• Vitesse : %c[ui_gray_2]Élevée\n
+		%c[pda_white]• Particularités : %c[ui_gray_2]Frénétique\n \n
+		%c[pda_yellow]Anecdote%c[ui_gray_2]\n
+		%c[pda_white]• %c[ui_gray_2]Tout ce que l'on sait de ce mutant provient des éléments accompagnant sa soumission.\n
+		%c[pda_white]• %c[ui_gray_2]Ce mutant a perdu face au Snork lors de la compétition Monster Ball organisée par GSC Game World.
+		</text>
+	</string>
+	
+</string_table>

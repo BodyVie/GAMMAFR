@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_knife_6x4">
+		<text>Baïonnette 6h4</text>
+	</string>
+	<string id="st_knife_6x4_descr">
+		<text>Baïonnette polyvalente conçue pour être montée sur des fusils, dotée d'une lame tranchante, d'un bord dentelé et d'une capacité de coupe-fil lorsqu'elle est associée à son fourreau. Sa construction durable et sa polyvalence en font un outil essentiel pour les soldats, utile dans les tâches de combat, de survie et utilitaires.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Soin de terrain sur un Mutants\n
+		%c[d_cyan] • %c[pda_white]Arme de mêlée\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque légère : %c[ui_gray_2]30\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque lourde : %c[ui_gray_2]52\n
+		%c[d_cyan] • %c[pda_white] Pénétration de blindage : %c[ui_gray_2]10\n
+		%c[d_cyan] • %c[pda_white] Perce la peau épaisse des Mutants ? : NON\n
+		%c[d_cyan] • %c[pda_white] Qualité de la peau de Mutant : %c[ui_gray_2]25 % - 40 %\n
+		</text>
+	</string>
+
+	<string id="st_knife_needle">
+		<text>Couteau de reconnaissance NR-40</text>
+	</string>
+	<string id="st_knife_needle_descr">
+		<text>Couteau militaire classique, initialement conçu pour les éclaireurs et les forces spéciales, doté d'une lame courbée distinctive et d'un manche en bois ou en matériau synthétique durable. Réputé pour son équilibre et sa puissance de coupe, il reste une arme de combat rapproché et un outil utilitaire très apprécié.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Soin de terrain sur un Mutants\n
+		%c[d_cyan] • %c[pda_white]Arme de mêlée\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque légère : %c[ui_gray_2]45\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque lourde : %c[ui_gray_2]55\n
+		%c[d_cyan] • %c[pda_white] Pénétration de blindage : %c[ui_gray_2]18\n
+		%c[d_cyan] • %c[pda_white] Perce la peau épaisse des Mutants ? : NON\n
+		%c[d_cyan] • %c[pda_white] Qualité de la peau de Mutant : %c[ui_gray_2]35 % - 50 %\n
+		</text>
+	</string>
+
+	<string id="st_knife_hunting">
+		<text>Couteau de chasse</text>
+	</string>
+	<string id="st_knife_hunting_descr">
+		<text>Couteau à lame fixe polyvalent, conçu pour l'écorchage, la découpe et les tâches générales de survie en extérieur. Sa construction robuste et son manche ergonomique en font un outil indispensable pour les chasseurs et les amateurs de plein air.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white]Arme de mêlée\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque légère : %c[ui_gray_2]42\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque lourde : %c[ui_gray_2]71\n
+		%c[d_cyan] • %c[pda_white] Pénétration de blindage : %c[ui_gray_2]24\n
+		%c[d_cyan] • %c[pda_white] Perce la peau épaisse des Mutants ? : %c[ui_green]OUI\n
+		%c[d_cyan] • %c[pda_white] Qualité de la peau de Mutant : %c[ui_gray_2]45 % - 60 %\n
+		</text>
+	</string>
+
+	<string id="st_knife_swat">
+		<text>Couteau à cran d'arrêt Spetsnaz</text>
+	</string>
+	<string id="st_knife_swat_descr">
+		<text>Couteau automatique compact conçu pour un déploiement rapide et des engagements en corps à corps. Son mécanisme à assistance par ressort permet un accès rapide, ce qui en fait un outil efficace pour les forces spéciales et les opérations clandestines.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Soin de terrain sur un Mutants\n
+		%c[d_cyan] • %c[pda_white]Arme de mêlée\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque légère : %c[ui_gray_2]54\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque lourde : %c[ui_gray_2]78\n
+		%c[d_cyan] • %c[pda_white] Pénétration de blindage : %c[ui_gray_2]35\n
+		%c[d_cyan] • %c[pda_white] Perce la peau épaisse des Mutants ?: %c[ui_green]OUI\n
+		%c[d_cyan] • %c[pda_white] Qualité de la peau de Mutant : %c[ui_gray_2]55 % - 70 %\n
+		</text>
+	</string>
+
+	<string id="st_knife_combat">
+		<text>Baïonnette M9</text>
+	</string>
+	<string id="st_knife_combat_descr">
+		<text>Baïonnette militaire polyvalente conçue pour être montée sur des fusils, tout en servant également de couteau de combat et d'outil utilitaire autonome. Son bord dentelé, sa conception robuste et sa capacité à fonctionner comme coupe-fil en font un outil extrêmement adaptable dans les situations de combat et de survie.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Soin de terrain sur un Mutants\n
+		%c[d_cyan] • %c[pda_white]Arme de mêlée\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque légère : %c[ui_gray_2]48\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque lourde : %c[ui_gray_2]87\n
+		%c[d_cyan] • %c[pda_white] Pénétration de blindage : %c[ui_gray_2]35\n
+		%c[d_cyan] • %c[pda_white] Perce la peau épaisse des Mutants ?: %c[ui_green]OUI\n
+		%c[d_cyan] • %c[pda_white] Qualité de la peau de Mutant : %c[ui_gray_2]65 % - 85 %\n
+		</text>
+	</string>
+
+	<string id="st_knifebf4">
+        <text>Couteau de combat OTs-4</text>
+    </string>
+    	<string id="st_knifebf4_descr">
+        <text>Couteau tactique militaire conçu pour sa durabilité et son efficacité en combat rapproché. Doté d'une lame tranchante et renforcée, il est conçu à la fois pour des usages utilitaires et des engagements en corps à corps.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Soin de terrain sur un Mutants\n
+		%c[d_cyan] • %c[pda_white]Arme de mêlée\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque légère : %c[ui_gray_2]52\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque lourde : %c[ui_gray_2]97\n
+		%c[d_cyan] • %c[pda_white] Pénétration de blindage : %c[ui_gray_2]35\n
+		%c[d_cyan] • %c[pda_white] Perce la peau épaisse des Mutants ?: %c[ui_green]OUI\n
+		%c[d_cyan] • %c[pda_white] Qualité de la peau de Mutant : %c[ui_gray_2]75 % - 98 %\n
+		</text>
+    </string>
+
+	<string id="st_tactical_knife">
+		<text>Lame Monolithe</text>
+	</string>
+	<string id="st_tactical_knife_descr">
+        <text>Lame distinctement courbée, reconnue pour sa puissance de coupe, traditionnellement utilisée à la fois comme outil et comme arme. Sa conception avec un poids vers l'avant la rend particulièrement efficace pour la découpe, ce qui en fait un élément incontournable dans les applications de survie, de combat et utilitaires.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Soin de terrain sur un Mutants\n
+		%c[d_cyan] • %c[pda_white]Arme de mêlée\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque légère : %c[ui_gray_2]60\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque lourde : %c[ui_gray_2]107\n
+		%c[d_cyan] • %c[pda_white] Pénétration de blindage : %c[ui_gray_2]35\n
+		%c[d_cyan] • %c[pda_white] Perce la peau épaisse des Mutants ?: %c[ui_green]OUI\n
+		%c[d_cyan] • %c[pda_white] Qualité de la peau de Mutant : %c[ui_gray_2]75 % - 98 %\n
+		</text>
+	</string>
+
+	<string id="st_kukri">
+        <text>Kukri</text>
+    </string>
+    <string id="st_kukri_descr">
+        <text>Lame distinctement courbée, reconnue pour sa puissance de coupe, traditionnellement utilisée à la fois comme outil et comme arme. Sa conception avec un poids vers l'avant la rend particulièrement efficace pour la découpe, ce qui en fait un élément incontournable dans les applications de survie, de combat et utilitaires.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Soin de terrain sur un Mutants\n
+		%c[d_cyan] • %c[pda_white]Arme de mêlée\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque légère : %c[ui_gray_2]65\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque lourde : %c[ui_gray_2]117\n
+		%c[d_cyan] • %c[pda_white] Pénétration de blindage : %c[ui_gray_2]35\n
+		%c[d_cyan] • %c[pda_white] Perce la peau épaisse des Mutants ?: %c[ui_green]OUI\n
+		%c[d_cyan] • %c[pda_white] Qualité de la peau de Mutant : %c[ui_gray_2]75 % - 98 %\n
+		</text>
+	</string>
+
+	<string id="st_tomahawk">
+		<text>Tomahawk Gerber</text>
+	</string>
+	<string id="st_tomahawk_descr">
+		<text>Outil tactique moderne conçu pour le perçage, le combat rapproché et les applications de survie, doté d'une tête de hache tranchante et d'une pointe robuste pour une polyvalence accrue. Sa construction durable et sa poignée ergonomique en font un choix fiable pour un usage militaire, policier et en extérieur.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white]Arme de mêlée\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque légère : %c[ui_gray_2]90\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque lourde : %c[ui_gray_2]137\n
+		%c[d_cyan] • %c[pda_white] Pénétration de blindage : %c[ui_gray_2]35\n
+		</text>
+	</string>
+
+	<string id="st_axe">
+		<text>Hache de chasse</text>
+	</string>
+	<string id="st_axe2_descr">
+		<text>Outil compact à lame tranchante conçu pour couper du bois, préparer du gibier et assurer des tâches générales de survie. Son manche robuste et son poids équilibré en font un compagnon essentiel pour les expéditions en milieu sauvage et la survie en pleine nature.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Arme de mêlée\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque légère : %c[ui_gray_2]120\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque lourde : %c[ui_gray_2]170\n
+		%c[d_cyan] • %c[pda_white] Pénétration de blindage : %c[ui_gray_2]24\n
+		%c[d_green] • %c[pda_white] Portée augmentée\n
+		</text>
+	</string>
+
+	<string id="st_sledge_hammer">
+		<text>Masse</text>
+	</string>
+	<string id="st_sledge_hammer_descr">
+		<text>Outil de frappe lourd à deux mains, conçu pour un impact puissant, souvent utilisé pour la démolition, le perçage et le combat rapproché dans des situations extrêmes. Son poids massif et sa construction solide lui permettent de franchir des obstacles, ce qui en fait une arme ou un outil redoutable dans les scénarios de survie et tactiques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Arme de mêlée\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque légère : 120\n
+		%c[d_cyan] • %c[pda_white] Puissance d'attaque lourde : 170\n
+		%c[d_cyan] • %c[pda_white] Pénétration de blindage : 45\n
+		%c[d_green] • %c[pda_white] Portée augmentée\n
+		</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_itm_backpack_name">
+		<text>Sac à dos</text>
+	</string>
+	<string id="st_itm_backpack_desc">
+		<text>Sac à dos fabriqué dans un matériau résistant, capable de supporter les conditions météorologiques les plus extrêmes.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Utilisable comme cache\n
+		</text>
+	</string>
+	
+	<string id="st_equ_smallpack_name">
+		<text>Sac de camping</text>
+	</string>
+	<string id="st_equ_smallpack_desc">
+		<text>Sac à dos doté d'un espace de rangement conséquent. L'intérieur a été modifié pour être étanche. Un choix populaire parmi les stalkers et les recrues.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Utilisable comme cache\n
+		</text>
+	</string>
+	
+	<string id="st_equ_smilpack_name">
+		<text>Sac de voyage</text>
+	</string>
+	<string id="st_equ_smilpack_desc">
+		<text>Grand sac à dos conçu pour les longues expéditions. Grâce à son système de répartition du poids, il permet de transporter davantage de provisions et d'équipement.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Utilisable comme cache\n
+		</text>
+	</string>
+	
+	<string id="st_equ_milpack_name">
+		<text>Sac de combat</text>
+	</string>
+	<string id="st_equ_milpack_desc">
+		<text>Sac à dos tactique utilisé par les militaires. Dispose d'un volume généreux pour stocker des munitions supplémentaires et des fournitures médicales.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Utilisable comme cache\n
+		</text>
+	</string>
+	
+	<string id="st_equ_touristpack_name">
+		<text>Sac de randonnée</text>
+	</string>
+	<string id="st_equ_touristpack_desc">
+		<text>Sac à dos de randonnée offrant un grand espace de rangement. Peu prisé en raison de son encombrement.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Utilisable comme cache\n
+		</text>
+	</string>
+	
+	<string id="st_kit_hunt">
+		<text>Kit du chasseur</text>
+	</string>
+	<string id="st_kit_hunt_descr">
+		<text>Sac complet rempli de crochets, de couteaux et d'autres outils utiles pour dépecer et éviscérer les mutants. Grâce à la variété des instruments, ce kit permet de collecter efficacement des pièces supplémentaires de mutants lors du dépeçage.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Utilisable comme cache\n
+		%c[d_orange] • %c[pda_white] Collecte de pièces supplémentaires de Mutants lors du dépeçage\n
+		</text>
+	</string>
+	
+	<string id="st_itm_actor_backpack_name">
+		<text>Système de largage rapide</text>
+	</string>
+	<string id="st_itm_actor_backpack_descr">
+		<text>Souvent utilisé par les stalkers comme solution de repli en cas de circonstances imprévues. Ses fonctionnalités sont simples, se limitant à une sangle pouvant être larguée avec le sac à dos à tout moment.\n
+		Appuyez sur la touche rapide pour activer le largage d'urgence, déposant instantanément votre sac à dos (et tout son contenu) au sol.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] GPS intégré\n
+		%c[d_cyan] • %c[pda_white] L'utilisateur conserve son équipement de combat\n
+		%c[d_cyan] • %c[pda_white] NOTE : %c[ui_gray_2]Vos armes équipées, vos munitions, votre armure, les accessoires d'armure et votre PDA restent en votre possession, vous laissant prêt au combat.\n \n
+		</text>
+	</string>
+	<string id="st_itm_actor_backpack_desc_mlr">
+		<text>Souvent utilisé par les stalkers comme solution de repli en cas de circonstances imprévues. Ses fonctionnalités sont simples, se limitant à une sangle pouvant être larguée avec le sac à dos à tout moment.\n
+		Appuyez sur la touche rapide pour activer le largage d'urgence, déposant instantanément votre sac à dos (et tout son contenu) au sol.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] GPS intégré\n
+		%c[d_cyan] • %c[pda_white] L'utilisateur conserve son équipement de combat\n
+		%c[d_cyan] • %c[pda_white] NOTE : %c[ui_gray_2]Vos armes équipées, vos munitions, votre armure, les accessoires d'armure et votre PDA restent en votre possession, vous laissant prêt au combat.\n \n
+		</text>
+	</string>
+	
+	<string id="st_itm_backpack_stash_name">
+		<text>Sac marqué PDA</text>
+	</string>
+	<string id="st_itm_backpack_stash_desc">
+		<text>Sac à dos extrêmement résistant équipé d'un dispositif GPS intégré. Se synchronise automatiquement avec votre PDA une fois largué pour générer une cache marquée sur votre carte. Fabriqué dans des matériaux solides et durables, il protège votre équipement au sec, quelles que soient les conditions environnementales. Son design camouflé garantit qu'il ne se distingue pas de son environnement.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] GPS intégré\n
+		</text>
+	</string>
+	
+</string_table>

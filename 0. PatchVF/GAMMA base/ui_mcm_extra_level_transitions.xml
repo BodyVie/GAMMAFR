@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="ui_mcm_extra_level_transitions_title">
+		<text>Transitions de niveau supplémentaires</text>
+	</string>
+	<string id="ui_mcm_menu_extra_level_transitions">
+		<text>Transitions de niveau</text>
+	</string>
+	<string id="ui_mcm_extra_level_transitions_enable_time_advance">
+		<text>Avancer l'heure</text>
+	</string>
+	<string id="ui_mcm_extra_level_transitions_enable_time_advance_desc">
+		<text>L'heure sera avancée lors des transitions de niveau.</text>
+	</string>
+	<string id="ui_mcm_extra_level_transitions_delete_level_transitions">
+		<text>Supprimer les transitions de niveau</text>
+	</string>
+	<string id="ui_mcm_extra_level_transitions_delete_level_transitions_desc">
+		<text>Les transitions de niveau supplémentaires seront supprimées du jeu. Cette option est conçue pour une suppression sécurisée du mod.</text>
+	</string>
+	
+</string_table>

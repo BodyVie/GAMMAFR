@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_pba_sacrifice">
+		<text>Sacrifice</text>
+	</string>
+
+	<string id="st_pba_transmutate">
+		<text>Transmuter</text>
+	</string>
+
+	<string id="st_af_lucifer_name">
+		<text>Lucifer</text>
+	</string>
+	<string id="st_af_lucifer_descr">
+		<text>Vous avez signé un Pacte avec la Zone. Vous êtes récompensé par des capacités exceptionnelles en échange de votre force vitale. Afin d'éviter votre perte et de prolonger votre existence, il vous est offert la possibilité de sacrifier d'autres richesses de la Zone. La qualité de l'offrande détermine l'ampleur de la compensation. Lucifer confère une force et des aptitudes immenses, faisant de son porteur une sorte de demi-dieu, mais n'oubliez pas... le temps est compté.\n \n
+		%c[pda_white]Aptitude : %c[d_orange]L'Effet Lucifer\n
+		%c[pda_white] • %c[pda_white]100 % - 51 % ÉTAT :\n
+		%c[d_green] - %c[pda_white]Réduction des dégâts : %c[ui_gray_2]15 %\n
+		%c[d_green] - %c[pda_white]Augmentation de la vitesse : %c[ui_gray_2]35 %\n
+		%c[d_green] - %c[pda_white]Régénération de santé : %c[ui_gray_2]1 %/s\n
+		%c[d_green] - %c[pda_white]Régénération psychique : %c[ui_gray_2]3 %/s\n
+		%c[d_green] - %c[pda_white]Capacité de transport : %c[ui_gray_2]+50 kg\n
+		%c[pda_white] • %c[pda_white]50 % - 40 % ÉTAT :\n
+		%c[ui_red] - %c[pda_white] AUCUN effet positif\n
+		%c[ui_red] - %c[pda_white] Perte d'endurance\n
+		%c[pda_white] • %c[pda_white]39 % - 0 % ÉTAT :\n
+		%c[ui_red] - %c[pda_white] AUCUN effet positif\n
+		%c[ui_red] - %c[pda_white] Perte de santé et d'endurance\n \n
+		%c[pda_white] • %c[pda_white] Sacrifice d'un Artefacts\n
+		%c[d_cyan] - %c[pda_white]Niveau 1 d'Artefact : %c[ui_gray_2]3 %-5 %\n
+		%c[d_cyan] - %c[pda_white]Niveau 2 d'Artefact : %c[ui_gray_2]6 %-9 %\n
+		%c[d_cyan] - %c[pda_white]Niveau 3 d'Artefact : %c[ui_gray_2]10 %-13 %\n
+		%c[d_cyan] - %c[pda_white]Noeud d'Artefact : %c[ui_gray_2]20 %-30 %\n
+		%c[d_cyan] - %c[pda_white]Lampe de la Mort Artefact : %c[ui_gray_2]Surcharge les Artefacts à +100 %\n
+		%c[d_cyan] - %c[pda_white]Séraphin Artefact : %c[ui_gray_2]Ne peut pas être sacrifié\n \n
+		%c[d_cyan] • %c[pda_white]NOTE : %c[ui_gray_2]Lucifer fonctionnera depuis le sac à dos\n \n
+		%c[ui_red]LUCIFER NE PEUT ÊTRE ÉLIMINÉ PAR AUCUN MOYEN\n
+		</text>
+	</string>
+
+</string_table>

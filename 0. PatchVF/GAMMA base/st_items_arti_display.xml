@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+   <string id="st_placeable_arti_display">
+		<text>Affichage des Artefacts</text>
+	</string>
+	<string id="st_placeable_arti_display_descr">
+		<text>Meuble spécialisé conçu pour exposer et stocker en toute sécurité des artefacts. Au-delà de sa fonction de stockage pratique, il sert de pièce maîtresse visuelle, permettant aux stalkers d'apprécier les propriétés uniques et souvent envoûtantes des artefacts qu'ils ont collectés.
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Stockage d'objets\n
+		%c[d_orange] • %c[pda_white] Peut être posé\n
+		%c[d_orange] • %c[pda_white] Affiche les Artefacts\n
+		%c[d_cyan] • %c[pda_white]NOTE : %c[ui_gray_2]Les Artefacts ne sont visibles qu'en tenant un Détecteur d'Artefact\n
+		</text>
+	</string>
+	
+</string_table>

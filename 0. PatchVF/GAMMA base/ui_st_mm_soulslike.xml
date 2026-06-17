@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_cap_check_soulslike_mode">
+		<text>Mode Soulslike</text>
+	</string>
+	<string id="st_mm_ck_soulslike_mode_desc">
+		<text>%c[ui_gray_2]En mode Soulslike, la mort n'est pas une fin définitive. Vous êtes secouru par un stalker aléatoire dans la Zone, qui vous ramène à votre dernier point de réapparition enregistré. Au réveil, vous trouverez un message de votre sauveur détaillant l'endroit où vous avez été retrouvé et les efforts déployés pour vous mettre en sécurité. Cependant, tous les objets que vous transportiez devront être récupérés - certains pourront être perdus, et d'autres verront probablement leur état se dégrader.\n
+		%c[ui_red] • NON compatible avec le mode Azazel.\n
+		%c[ui_red] • NON compatible avec le mode Ironman.
+		</text>
+	</string>
+
+</string_table>

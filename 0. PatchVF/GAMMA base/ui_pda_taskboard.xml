@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="st_pda_accept_task">
+		<text>Accepter la mission</text>
+	</string>
+	<string id="st_pda_task_limit_reached">
+		<text>Limite de missions atteinte</text>
+	</string>
+	<string id="st_pda_refresh_tasks">
+		<text>Actualiser les missions</text>
+	</string>
+	<string id="st_pda_next_task">
+		<text>Prochaine mission</text>
+	</string>
+	<string id="st_pda_previous_task">
+		<text>Mission précédente</text>
+	</string>
+	<string id="pda_btn_taskboard">
+		<text>Tableau des missions</text>
+	</string>
+
+	<string id="st_pda_caption_setup_bounty_task">
+		<text>Missions de prime</text>
+	</string>
+	<string id="st_pda_caption_setup_assault_task">
+		<text>Missions d'assaut de camp</text>
+	</string>
+	<string id="st_pda_caption_setup_spy_task">
+		<text>Missions d'extraction d'espion</text>
+	</string>
+	<string id="st_pda_caption_on_init_delivery_task">
+		<text>Missions de livraison</text>
+	</string>
+	<string id="st_pda_caption_setup_measure_task">
+		<text>Missions de mesure</text>
+	</string>
+	<string id="st_pda_caption_on_init_fate_task">
+		<text>Missions du Destin</text>
+	</string>
+	<string id="st_pda_caption_setup_dominance_task">
+		<text>Missions de domination</text>
+	</string>
+	<string id="st_pda_caption_setup_fetch_task">
+		<text>Missions de récupération</text>
+	</string>
+	<string id="st_pda_caption_script">
+		<text>Missions scénarisées</text>
+	</string>
+	<string id="st_pda_caption_recover_mutant_data_location">
+		<text>Récupérer les données du Mutant</text>
+	</string>
+	<string id="st_pda_caption_rest">
+		<text>Autres missions</text>
+	</string>
+</string_table>

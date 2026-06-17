@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!-- 
+	Strings for "Dead Air Knives"
+-->
+
+
+<string_table>
+
+	<string id="st_mag_mp9iwp">
+		<text>Chargeur 9x19 30 cartouches</text>
+	</string>
+	<string id="st_mag_mp9iwp_descr">
+		<text>Chargeur MP9 de 30 cartouches pour munitions 9x19.</text>
+	</string>
+
+	<string id="st_mag_mp9iwp_ext">
+		<text>Chargeur 9x19 étendu 40 cartouches</text>
+	</string>
+	<string id="st_mag_mp9iwp_ext_descr">
+		<text>Chargeur MP9 prolongé de 40 cartouches pour munitions 9x19.</text>
+	</string>
+
+	<string id="st_mag_mp9iwp_9x18">
+		<text>Chargeur 9x18 30 cartouches</text>
+	</string>
+	<string id="st_mag_mp9iwp_9x18_descr">
+		<text>Chargeur MP9 de 30 cartouches pour munitions 9x18.</text>
+	</string>
+
+	<string id="st_mag_mp9iwp_9x18_ext">
+		<text>Chargeur 9x18 étendu 40 cartouches</text>
+	</string>
+	<string id="st_mag_mp9iwp_9x18_ext_descr">
+		<text>Chargeur MP9 prolongé de 40 cartouches pour munitions 9x18.</text>
+	</string>
+	
+</string_table>

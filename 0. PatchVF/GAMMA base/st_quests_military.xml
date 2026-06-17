@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--===========================================================
+<
+< TEXT  STRINGS FOR TASKS ON MILITARY WAREHOUSES MAP
+<	CoC 1.4.08 - DoctorX Questlines 1.6
+<
+<	Modified by: DoctorX
+<	Last revised: October 07, 2016
+<
+<===========================================================-->
+
+<string_table>
+
+
+	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
+	<!--
+	<!-- STORYLINE TASK TEXT  STRINGS
+	<!--
+	<!--	Modified by DoctorX
+	<!--	for DoctorX Questlines 1.6
+	<!--	October 07, 2016
+	<!--
+	<!-- ----------------------------------------------------------------------------------------- -->
+
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Lukash (Freedom Honcho) Default Storyline Task -->
+
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_default_task_name">
+		<text>Prochaine mission</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_default_task_text">
+		<text>J’ai une autre mission en attente. Je devrais m’y mettre.</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_default_task_about">
+		<text>Je souhaite que vous rencontriez quelqu'un. Ce n'est pas un ami, mais il pourrait avoir besoin de votre aide.</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_default_task_finish">
+		<text>Bonne chance, Stalker.</text>
+	</string>
+
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Lukash (Freedom Honcho) Assassination Storyline Task- -->
+
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_1_name">
+		<text>Assassinat pour Lukash</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_1_text">
+		<text>Lukash a une cible à éliminer.</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_1_about">
+		<text>Je suis heureux que vous soyez venu. J'ai une mission à vous confier. Un ennemi commun doit être éliminé. Il est dangereux. Neutralisez-le immédiatement.</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_1_finish">
+		<text>Formidable, mon frère ! Merci.</text>
+	</string>
+
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Lukash (Freedom Honcho) Freedom Assault on Monolith Storyline Task -->
+
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_2_name">
+		<text>Assaut de Liberté sur Monolithe</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_2_text">
+		<text>Lukash m’a demandé de mener Liberté dans un assaut contre le Monolithe.</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_2_about">
+		<text>Les forces de Monolithe continuent de percer notre blocus. Je veux cette fois les attaquer sur leur propre terrain. J'ai recruté une escouade d'assaut et souhaite que vous la meniez dans une invasion du territoire de Monolithe. Éliminez-les.</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_2_finish">
+		<text>Mon ami, vous avez du cran. Excellent travail.</text>
+	</string>
+
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Lukash (Freedom Honcho) Search Lab X-8 (Outskirts) Storyline Task -->
+
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_3_name">
+		<text>Fouille du Labo X-8</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_3_text">
+		<text>Fouillez le Labo X-8 dans la Périphérie pour trouver des preuves de l’occupation de Firmament.</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_3_about">
+		<text>J'ai reçu des informations indiquant que d'anciens membres de Firmament auraient occupé le Labo X-8 il y a quelque temps. Je souhaite que vous enquêtiez sur place et tentiez de récupérer les documents qu'ils auraient pu y laisser.</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_3_finish">
+		<text>Travail remarquable. Vous avez bien agi.</text>
+	</string>
+
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+
+	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
+	<!--
+	<!-- CHANGE FACTIONS TASK TEXT  STRINGS
+	<!--
+	<!--	Modified by DoctorX
+	<!--	for DoctorX Questlines 1.6
+	<!--	December 08, 2016
+	<!--
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Ïðîïóùåííûé äèàëîã Ëóêàøà -->
+
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_name">
+		<text>Liberté !</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_text">
+		<text>Lukash me présentera le mode de vie de Liberté pour une somme symbolique de 15 000 RU.</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_about">
+		<text>Hé, je suppose que vous cherchez à goûter un peu à la Liberté, n’est-ce pas ? Oui, je peux vous arranger ça. Mais posez-vous d’abord une question : « Ai-je ce qu’il faut pour être un vrai dur ? » Parce qu’il faut avoir des couilles plus grosses que Lampe de la Mort pour traîner avec nous. Nous passons de bons moments ici, c’est sûr, mais quand la merde éclate, il faut être prêt à défendre ses frères contre les fanatiques, les fascistes, les gouvernements...\n\nNous nous battons pour une Zone libre. Si vous êtes sérieux dans votre volonté de nous aider à établir une utopie anarchiste ici, veuillez mettre de côté 15 000 RU pour les gars, et je vous accueillerai avec plaisir.</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_finish">
+		<text>Bon travail. Vous êtes enfin libre. Un avertissement, cependant : quiconque perturbe la liberté de mes hommes finit généralement par dormir au Village des Bloodsuckers. Souvenez-vous d'être respectueux envers les autres ici.</text>
+	</string>
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Lukash (Freedom Honcho) Payoff Change Factions Task -->
+
+	<string id="drx_sl_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_name">
+		<text>Liberté !</text>
+	</string>
+	<string id="drx_sl_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_text">
+		<text>Lukash me présentera le mode de vie de Liberté pour une somme symbolique de 15 000 RU.</text>
+	</string>
+	<string id="drx_sl_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_about">
+		<text>Hé, je suppose que vous cherchez à goûter un peu à la Liberté, n’est-ce pas ? Oui, je peux vous arranger ça. Mais posez-vous d’abord une question : « Ai-je ce qu’il faut pour être un vrai dur ? » Parce qu’il faut avoir des couilles plus grosses que Lampe de la Mort pour traîner avec nous. Nous passons de bons moments ici, c’est sûr, mais quand la merde éclate, il faut être prêt à défendre ses frères contre les fanatiques, les fascistes, les gouvernements...\n\nNous nous battons pour une Zone libre. Si vous êtes sérieux dans votre volonté de nous aider à établir une utopie anarchiste ici, veuillez mettre de côté 15 000 RU pour les gars, et je vous accueillerai avec plaisir.</text>
+	</string>
+	<string id="drx_sl_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_finish">
+		<text>Bon travail. Vous êtes enfin libre. Un avertissement, cependant : quiconque perturbe la liberté de mes hommes finit généralement par dormir au Village des Bloodsuckers. Souvenez-vous d'être respectueux envers les autres ici.</text>
+	</string>
+
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+
+	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
+	<!--
+	<!-- DYNAMIC TASK TEXT  STRINGS
+	<!--
+	<!--	Modified by DoctorX
+	<!--	for DoctorX Questlines 1.6
+	<!--	October 07, 2016
+	<!--
+	<!-- ----------------------------------------------------------------------------------------- -->
+
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Lukash (Freedom Honcho) Stop Enemy Assault Task -->
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_1_name">
+		<text>Détruis le détachement ennemi</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_1_text">
+		<text>Un détachement de stalkers cause des problèmes aux amis de Liberté. Lukash offre une prime à quiconque éliminera ces voyous.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_1_about">
+		<text>Souhaitez-vous aider la Liberté en échange d’une récompense ? Nous avons affaire à des vauriens qui refusent de se calmer, et il est temps de leur donner une leçon. Ces petits malins s’infiltrent sur notre territoire, tirent sur nos amis, et pour couronner le tout, ils osent manipuler mes hommes ! Il est temps de leur apprendre le respect de l’espace personnel... de manière définitive. Pouvez-vous vous en charger ? </text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_1_finish">
+		<text>Ah, parfait ! Peut-être qu’on aura enfin un peu de paix et de tranquillité par ici, non ?</text>
+	</string>
+
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_2_name">
+		<text>Razzia ennemie</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_2_text">
+		<text>On m'a confié une mission de razzia en territoire ennemi pour Liberté. Je devrais faire mon rapport à Lukash une fois le travail terminé.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_2_about">
+		<text>J’ai une mission dangereuse mais importante à vous proposer, si vous êtes partant. Avec le Monolithe au nord et le Devoir au sud, les choses deviennent un peu trop étouffantes à mon goût. J’ai besoin d’un vrai dur à cuire pour mener un raid contre un camp ennemi et nous donner un peu d’air. Osez-vous être ce dur à cuire ?</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_2_finish">
+		<text>Ha ! Vous l'avez vraiment fait, sacré fou ! Tenez, vous l'avez mérité, ainsi que mon respect.</text>
+	</string>
+
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_3_name">
+		<text>Élimine le converti de Monolithe</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_3_text">
+		<text>Un membre de Liberté a rallié le Monolithe. Lukash m'a chargé de le retrouver et de l'éliminer.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_3_about">
+		<text>J’ai une nouvelle difficile à annoncer. L’un de nos combattants de la Liberté est tombé sous l’influence du Monolithe. C’était un homme bien, et je sais qu’il n’aurait pas voulu continuer à vivre en tant que tueur endoctriné par un cristal alien. S’il vous plaît, retrouvez-le et mettez fin à ses jours. Sinon, ce sont ses anciens amis qui devront s’en charger.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_3_finish">
+		<text>C'est fait ? Bien. Je sais que cela a été difficile. Nos frères à la Barrière boiront en l'honneur de leur camarade tombé. Quant à vous, voici votre paiement.</text>
+	</string>
+
+
+	<!-- ASSASSINATE DUTY FOR FREEDOM TASK -->
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_4_name">
+		<text>Règle le problème avec le Stalker</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_4_text">
+		<text>Lukash me récompensera pour avoir éliminé un Stalker gênant.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_4_about">
+		<text>Il y a un individu qui se promène non loin d'ici. Il a abattu l'un des nôtres une fois. Et cela ne peut être pardonné. Accepterez-vous la mission de l'éliminer ? Nous paierons, ne vous inquiétez pas.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_4_finish">
+		<text>Parfait ! Ça leur apprendra à nous chercher des noises. Voici votre récompense, comme promis. Bon travail, stalker.</text>
+	</string>
+
+
+	<!-- FIND WEAPON FOR FREEDOM TASK -->
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_5_name">
+		<text>Apporte un %s fiable à Lukash</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_5_text">
+		<text>Lukash m'a demandé de trouver une arme à feu spécifique en parfait état. Je devrais retourner le voir dès que j'aurai trouvé ce qu'il cherche.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_5_about">
+		<text>Bien que les bienfaiteurs de Liberté fournissent aux hommes l'armement dont ils ont besoin, j'aurais vraiment besoin d'un nouveau %s pour des raisons personnelles. Si vous en trouvez un en excellent état, je serais prêt à vous offrir une somme substantielle en échange.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_5_fetch_about">
+		<text>Bien que les bienfaiteurs de Liberté fournissent aux hommes l'armement dont ils ont besoin, j'aurais vraiment besoin d'un nouveau %s pour des raisons personnelles. Si vous en trouvez un en excellent état, je serais prêt à vous offrir une somme substantielle en échange.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_5_fetch_finish">
+		<text>Bien joué. Cette nouvelle arme fera une énorme différence si les choses tournent mal. Voici la rémunération promise.</text>
+	</string>
+	
+	<!-- Lukash (Freedom Honcho) Decimate the Enemy Task -->
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_6_name">
+		<text>Gâchette facile</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_6_text">
+		<text>Lukash encourage les actions agressives contre certains ennemis de Liberté. Je peux lui apporter un %s en échange d'une belle prime.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_6_about">
+		<text>Actuellement, nous sommes pris en étau. Des zélotes au nord, des extrémistes au sud, et pour couronner le tout, quelques soldats de l’armée. Que diriez-vous d’aller leur expliquer ce que nous pensons de leurs édits et de leurs ordres, à l’ancienne ? Une belle récompense vous attend à la fin, ne vous inquiétez pas.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_6_fetch_about">
+		<text>Actuellement, nous sommes pris en étau. Des zélotes au nord, des extrémistes au sud, et pour couronner le tout, quelques soldats de l’armée. Que diriez-vous d’aller leur expliquer ce que nous pensons de leurs édits et de leurs ordres, à l’ancienne ? Une fois que vous les aurez humiliés, rapportez-moi des %ses en guise de trophées. Une belle récompense vous attend à la fin, ne vous inquiétez pas.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_6_fetch_finish">
+		<text>Hé, beau travail. Voici votre argent.</text>
+	</string>
+	
+	<!-- Lukash (Freedom Honcho) Mortal Sin Unquenchable Flame Tasks -->
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_7_about">
+		<text>Écoutez. Voici l’affaire. Vous vous souvenez des membres de Péché ? Ils n’ont visiblement pas retenu la leçon la dernière fois que vous leur avez botté les fesses. Je pense qu’il est grand temps de leur offrir une nouvelle représentation. Loki m’a signalé qu’ils se comportaient de manière indisciplinée dans Zaton, surtout autour des ateliers de la sous-station abandonnée. Allez les mater.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_7_finish">
+		<text>Certains des nouveaux stalkers parmi Liberté commencent à penser que vous êtes la réincarnation de Rambo. Le fait que vous reveniez vivant et en bonne santé de missions comme celle-ci me fait penser qu'ils n'ont peut-être pas tort. Alors voici. Un petit quelque chose pour notre Rambo.</text>
+	</string>
+
+	<!-- Lukash (Freedom Honcho) Rescue the Freedom Agent Task -->
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_8_name">
+		<text>Zoneraker</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_8_text">
+		<text>Un espion de Liberté doit être extrait d'une faction ennemie. Je devrai éliminer les autres membres de l'escouade, puis l'escorter jusqu'à la base. L'espion possède un SVD.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_8_about">
+		<text>L’un de mes meilleurs hommes se cache actuellement parmi l’ennemi, tentant de percer leurs secrets. C’est généralement un type fiable, alors quand il commence à manquer nos rendez-vous, je commence à m’inquiéter. J’ai comme l’impression qu’il a été dénoncé, et que l’escouade avec laquelle il se trouve attend le moment idéal pour le faire taire définitivement. Nous devons le ramener à la maison. Il m’a laissé un signal de localisation, mais il est entouré d’autres stalkers. Vous devrez vous occuper d’eux et ramener mon homme sain et sauf. Vous le reconnaîtrez à son fusil, un SVD. Il devra tirer sur vous pour maintenir sa couverture lorsque vous attaquerez le groupe, mais il ne visera pas très bien, alors ne lui en tenez pas rigueur.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_8_finish">
+		<text>Beau travail. Il est temps de graisser la patte à ce type pour obtenir ses informations.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_8_msg_join">
+		<text>Hé, arrêtez ! Je suis l'espion de Liberté ! Désolé d'avoir tiré sur vous. Je devais garder ma couverture au cas où... Heureusement que vous avez réussi. Si vous me conduisez sain et sauf aux Entrepôts de l'armée, Lukash vous récompensera généreusement. Montrez-moi le chemin, je vous suis !</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_8_msg_leave">
+		<text>Merci de m’avoir tiré d’affaire, Stalker ! À bientôt !</text>
+	</string>
+	
+	
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_9_name">
+		<text>Pourquoi on peut pas avoir des trucs bien</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_9_text">
+		<text>Lukash m'a demandé de détruire les véhicules militaires dans Cordon avant qu'ils ne causent des dégâts dans la Zone. Je vais avoir besoin d'explosifs.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_9_about">
+		<text>Avez-vous des explosifs ? Si oui, j’ai un gros travail pour vous. En ce moment, l’armée fait entrer des véhicules blindés dans la Cordon pour renforcer ses troupes. Je vous le demande : est-ce juste ? Regardez les épaves rouillées et dysfonctionnelles qui pourrissent dans nos entrepôts ! Si nous ne pouvons pas avoir de chars opérationnels dans la Zone, alors le gouvernement non plus ! Mes espions m’informent que ces véhicules arrivent en ce moment même pour être stationnés au checkpoint de Cordon. Ne vous inquiétez pas, ils veilleront à ce que les véhicules soient sans équipage lorsque vous rendrez visite, afin que vous puissiez les détruire sans finir en passoire. Vous êtes partant ? Alors prenez vos ananas et mettez-vous en route !</text>
+	</string>
+
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Skinflint (Freedom Mechanic) -->
+	
+	<!-- FIND MUTANT MEAT FOR FREEDOM TASK -->
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_1_name">
+		<text>Apporte du gibier sauvage pour Liberté</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_1_text">
+		<text>Skinflint a dit qu’il me paierait pour lui rapporter %s. Il est temps de partir à la chasse.</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_1_about">
+		<text>J'ai exactement le travail qu'il vous faut, si vous n'avez pas peur de quelques mutants. Cela vous intéresse ?</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_1_fetch_about">
+		<text>Alors, certains d’entre nous organisent un dîner pour célébrer l’anniversaire de Bob Marley. Mieux vaut tard que jamais, n’est-ce pas ? En tout cas, plus nous aurons de viande pour le festin, mieux ce sera. Si vous êtes en déplacement et que vous pouvez m’apporter suffisamment de %s, je saurai vous récompenser. Jah ne vous oubliera jamais !</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_1_fetch_finish">
+		<text>Ah, cela fera un excellent repas une fois que le chef s'en sera occupé. Voici votre paiement. Pourquoi ne pas acheter de la vodka et fêter cela ?</text>
+	</string>
+
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Skinflint (Freedom Mechanic) Deliver Equipment Dynamic Task -->
+
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_2_name">
+		<text>Livre la mallette verrouillée à Skinflint</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_2_text">
+		<text>Skinflint a une livraison à récupérer.</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_2_about">
+		<text>L’un de nos coursiers devait livrer un colis aujourd’hui. Malheureusement, il a dû le cacher en lieu sûr lorsqu’une patrouille du Devoir a eu vent de sa présence. Il m’a envoyé les coordonnées de la cachette avant de disparaître du réseau. Si vous êtes prêt à vous rendre sur place et à terminer le travail en récupérant les marchandises, je vous offrirai une partie de sa rémunération.</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_2_finish">
+		<text>Voyons voir... ah oui. Exactement ce dont nous avions besoin. Merci stalker, voici votre part.</text>
+	</string>
+
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Skinflint (Freedom Trader) Night Terror Task -->
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_3_name">
+		<text>Fantômes dans l'obscurité</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_3_text">
+		<text>Skinflint me paiera pour éliminer un redoutable mutant qui hante le Village des Bloodsuckers. Je devrai rester sur mes gardes.</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_3_about">
+		<text>Le sommeil est devenu un peu plus difficile dans le camp ces derniers temps. Chaque nuit, nous entendons des cris, mais avant que nous puissions faire quoi que ce soit, un autre de nos hommes sur la route se fait engloutir par le darkness. Le lendemain, nous retrouvons ses restes déchiquetés éparpillés dans le village de Bloodsucker.\n\nLukash pense qu’une race rare de Bloodsucker pourrait être en ville. Une version plus sombre, plus forte, plus vicieuse, ce fils de pute ne sort que la nuit. Certains de nos chiens de guerre estiment que nous devrions cesser les randonnées nocturnes jusqu’à ce qu’il migre et s’en prenne plutôt au Devoir, jugeant trop risqué de l’affronter directement.\n\nMoi, je dis que si vous avez les tripes d’attendre ce monstre dans le Village après la tombée de la nuit, je serai ravi de vous couvrir de roubles pour avoir tué ce salaud, et les autres gars ici seront reconnaissants de pouvoir enfin passer une bonne nuit de sommeil. Ou du moins, aussi bonne que possible si près du Lobotomisateur. </text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_3_finish">
+		<text>Wow, vous l'avez vraiment fait ! Quel fou. J'informerai le camp de la bonne nouvelle. Heureux de compter un chasseur comme vous parmi nous.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Skinflint (Freedom Trader) Scarce Supplies Task -->
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_4_name">
+		<text>Ressources rares</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_4_text">
+		<text>Skinflint a besoin de %s pour approvisionner le médecin de Liberté. J’ai accepté de l’aider.</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_4_about">
+		<text>Certains de nos hommes se montrent parfois un peu trop aventureux. Nous n'avons pas assez de fournitures pour tous les soigner.</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_4_fetch_about">
+		<text>Oui. Vous savez à quel point la vie peut être rude et mouvementée au sein de la Liberté, n’est-ce pas ? Esquiver les balles et combattre les fanatiques fait partie du quotidien ici. Aussi badass que cela puisse nous faire sentir, cela signifie aussi que nous commençons à manquer de médicaments. Comme Solid est trop défoncé pour organiser les fournitures médicales, cette responsabilité m’incombe désormais. Si vous pouvez m’aider en ramenant quelques %s, la Liberté vous en sera reconnaissante. Et je vous récompenserai en roubles. </text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_4_fetch_finish">
+		<text>Ah, parfait. Je veillerai à ce que Solid ne les voie pas avant que ses patients n'en aient besoin. Merci beaucoup, stalker.</text>
+	</string>
+	
+	
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_5_name">
+		<text>Amasse du matériel pour l'infiltration de Liberté</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_5_about">
+		<text>Eh bien, il y a quelque chose d’important à examiner. Une mission d’infiltration spéciale vers Rostok est prévue, mais je dois garder les détails secrets, désolé. Nous avons besoin de certains équipements pour parfaire le déguisement de nos agents spéciaux afin qu’ils puissent se fondre parfaitement dans le paysage. Nous avons besoin de munitions 5,45x39 HP, environ 10 boîtes complètes, pour qu’ils puissent se défendre contre les mutants sur la route vers Rostok sans alerter les gardes du checkpoint. Si les choses tournent mal, nos hommes auront également besoin de fournitures médicales de grade militaire, 5 medkits militaire complets devraient suffire. Ne vous inquiétez pas, votre paiement sera adéquat. Si vous faites un effort supplémentaire et obtenez de la cocaïne et quelques magazines pornographiques, vous recevrez même un bonus. Cela devrait aider nos agents à soudoyer certains membres du Devoir pour accomplir leur mission. Alors, vous êtes partant ?</text>
+	</string>
+	
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+
+	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
+	<!--
+	<!-- MECHANIC TASK TEXT  STRINGS
+	<!--
+	<!--	Modified by DoctorX
+	<!--	for DoctorX Questlines 1.6
+	<!--	October 07, 2016
+	<!--
+	<!-- ----------------------------------------------------------------------------------------- -->
+
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Screw (Freedom Mechanic) Find Level 1 Toolkit Task -->
+
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_1_name">
+		<text>Trouve %s pour Screw</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_1_text">
+		<text>Screw a besoin de %s pour installer des améliorations de base sur l'équipement. Je devrais les lui rapporter si j'en trouve.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_1_about">
+		<text>Hé ! Des bandits devaient nous apporter de nouveaux outils depuis la Vallée Obscure, mais ils ne se sont jamais présentés ! Bon, ils mentaient probablement de toute façon, mais si vous parvenez à trouver des outils standard d'entrée de gamme, apportez-les ici aussi vite que possible. Vous serez bien payé pour votre aide. </text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_1_fetch_about">
+		<text>Bien ! Une fois que vous aurez trouvé %s, je pourrai enfin lancer les opérations ici.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_1_fetch_finish">
+		<text>Merci ! Je savais qu'il y avait une raison pour laquelle je vous avais demandé. Vous avez l'air d'un homme capable de mener les choses à bien.</text>
+	</string>
+
+
+
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_2_name">
+		<text>Trouve %s pour Screw</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_2_text">
+		<text>Screw a besoin de %s pour installer des améliorations avancées sur l'équipement. Je devrais les lui rapporter si j'en trouve.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_2_about">
+		<text>Oui, vous savez ce qui cloche ? Nous sommes assis sur l’un des anciens arsenaux du gouvernement - c’était un véritable entrepôt pour leurs forces spéciales, à l’époque. Pourtant, la moitié du matériel incroyable qu’ils y ont laissé pourrit sur place, rouillant à vue d’oeil parce que nous n’avons pas les outils adéquats pour tout entretenir.\n\nIl est temps de changer cela. Ramenez-moi une autre trousse à outils - quelque chose de plus avancé cette fois. Il est temps de montrer à l’État que nous savons mieux faire fonctionner ses machines de guerre que lui !</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_2_fetch_about">
+		<text>Merci. Si vous parvenez à m'aider cette fois, je pourrai également effectuer des améliorations plus complexes sur votre équipement à l'avenir.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_2_fetch_finish">
+		<text>Si vous continuez comme ça, tout le monde ici va vous adorer. Merci encore.</text>
+	</string>
+
+
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_3_name">
+		<text>Trouve %s pour Screw</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_3_text">
+		<text>Screw a besoin de %s pour installer des améliorations expertes sur l'équipement. Je devrais les lui rapporter si j'en trouve.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_3_about">
+		<text>Eh bien, la mauvaise nouvelle, c’est que la plupart des armes lourdes entreposées dans l’armurerie ne peuvent plus être sauvées à ce stade. La bonne nouvelle, en revanche, c’est que je pourrais effectuer des calibrages vraiment efficaces sur l’équipement encore opérationnel, y compris nos exosquelettes. Ce dont j’ai besoin, cependant, c’est d’un jeu d’outils plus précis.\n\nSouhaitez-vous aider la Liberté à se doter d’un meilleur équipement technique une fois de plus ? La récompense sera encore meilleure que la dernière fois, et je vous offrirai même quelques leçons de maintenance sur le terrain en prime !</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_3_fetch_about">
+		<text>Ha ! Vous êtes un vrai fou furieux ! Bon, allez-y. Une fois que vous serez de retour avec des outils d'expert, je vous montrerai ce qu'un mécanicien talentueux peut faire.</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_3_fetch_finish">
+		<text>Les gars de Liberté vont adorer ça. Des fusils à pompe avec parachutes ! Des SMG blindés ! Je vais y arriver ! Voici votre argent, pour un travail bien fait.</text>
+	</string>
+	
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Defend the barrier -->
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<string id="barrier_defense_monolith_announce">
+		<text>À tous les Stalkers amis qui lisent ce message, un gros groupe de soldats du Monolithe approche de la Barrière. Toute aide sera appréciée et récompensée.</text>
+	</string>
+	<string id="barrier_defense_monolith_title">
+		<text>Défendre la Barrière</text>
+	</string>
+	<string id="barrier_defense_monolith_descr">
+		<text>La faction Liberté sollicite une assistance pour repousser une attaque de Monolithe.</text>
+	</string>
+	
+	<string id="barrier_defense_monolith_chatter_1">
+		<text>Monolithe ? Je passe mon tour...</text>
+	</string>
+	<string id="barrier_defense_monolith_chatter_2">
+		<text>Oh, du fric gratuit. J'arrive !</text>
+	</string>
+	<string id="barrier_defense_monolith_chatter_3">
+		<text>De toute façon, j'avais pas prévu d'aller aux Entrepôts de l'armée de sitôt.</text>
+	</string>
+	<string id="barrier_defense_monolith_chatter_4">
+		<text>Récompensé comment ? Du fric, des artefacts, des flingues ? J'vais pas me traîner là-bas pour une bouteille de vodka.</text>
+	</string>
+	<string id="barrier_defense_monolith_chatter_5">
+		<text>Putain ! Je suis trop loin, j'arriverais quand ce sera déjà fini. Je voulais tester mon nouveau fusil.</text>
+	</string>
+	<string id="barrier_defense_monolith_chatter_6">
+		<text>Buter du Monolithe ? Je le fais gratis, ces enfoirés.</text>
+	</string>
+	<string id="barrier_defense_monolith_chatter_7">
+		<text>Je peux garder ce que je trouve sur les corps ?</text>
+	</string>
+	
+	<string id="barrier_defense_monolith_intro_1">
+		<text>J'ai capté ton appel, je viens aider à défendre la Barrière.</text>
+	</string>
+	<string id="barrier_defense_monolith_intro_2">
+		<text>Excellent, les éclaireurs signalent plusieurs escouades du Monolithe en approche. Tout renfort est le bienvenu. Prenez position et attendez que ces fanatiques se pointent, simple, non ? Si vous sentez que ça devient trop chaud et que vous décidez de vous barrer, on vous en tiendra pas rigueur, mais bien sûr, vous pouvez oublier la récompense.</text>
+	</string>
+	
+	<string id="barrier_defense_monolith_outro_1">
+		<text>La Barrière est sauve... pour l'instant, en tout cas.</text>
+	</string>
+	<string id="barrier_defense_monolith_outro_2">
+		<text>Bien tiré, stalker, ça devrait couvrir une partie du plomb que t'as balancé dans ces enfoirés. Et un petit extra pour te détendre. Content de t'avoir eu avec nous !</text>
+	</string>
+	
+	<string id="barrier_defense_monolith_start_announce">
+		<text>Les éclaireurs disent qu'ils bougent en ce moment même, tout le monde en position !</text>
+	</string>
+	<string id="barrier_defense_monolith_midchatter">
+		<text>Oh putain, attention ! Ils ont un RPG !</text>
+	</string>
+	<string id="barrier_defense_monolith_run_announce">
+		<text>C'est pas un camp de vacances ici, stalker. Sois reconnaissant qu'y ait des gens avec plus de couilles que toi pour protéger ta bande.</text>
+	</string>
+	<string id="barrier_defense_monolith_end_announce">
+		<text>Bien joué les frères, et merci à tous les volontaires qui n'ont pas pris leurs jambes à leur cou. Revenez me voir pour votre récompense.</text>
+	</string>
+	
+	<string id="barrier_defense_zombie_announce">
+		<text>À tous les Stalkers amis qui lisent ce message, un gros groupe de zombies approche de la Barrière. Toute aide sera appréciée et récompensée.</text>
+	</string>
+	<string id="barrier_defense_zombie_title">
+		<text>Défendre la Barrière</text>
+	</string>
+	<string id="barrier_defense_zombie_descr">
+		<text>La faction Liberté sollicite une assistance pour repousser une attaque de Zombies.</text>
+	</string>
+	
+	<string id="barrier_defense_zombie_chatter_1">
+		<text>Les pauvres...</text>
+	</string>
+	<string id="barrier_defense_zombie_chatter_2">
+		<text>Je passe, ça me semble pas correct.</text>
+	</string>
+	<string id="barrier_defense_zombie_chatter_3">
+		<text>Bon, au moins, c'est pas Monolithe.</text>
+	</string>
+	<string id="barrier_defense_zombie_chatter_4">
+		<text>J'espère que ça vaudra le coup, la dernière fois j'ai claqué plus de balles que ce que j'ai ramené.</text>
+	</string>
+	<string id="barrier_defense_zombie_chatter_5">
+		<text>Putain ! Je suis trop loin, j'arriverais quand ce sera déjà fini. Je voulais tester mon nouveau fusil.</text>
+	</string>
+	<string id="barrier_defense_zombie_chatter_6">
+		<text>Des Zombies repérés par le Radar ? Merde... mon pote y est allé il y a quelques jours à peine.</text>
+	</string>
+	<string id="barrier_defense_zombie_chatter_7">
+		<text>Je peux garder ce que je trouve sur les corps ?</text>
+	</string>
+	
+	
+	<string id="barrier_defense_zombie_intro_1">
+		<text>J'ai capté ton appel, je viens t'aider à combattre les zombies.</text>
+	</string>
+	<string id="barrier_defense_zombie_intro_2">
+		<text>Très bien, d'habitude ils opposent pas beaucoup de résistance, mais on manque de bras à cause du Monolithe et de ces faux soldats. Ça devrait être aussi simple que de tirer au stand.</text>
+	</string>
+	
+	<string id="barrier_defense_zombie_start_announce">
+		<text>La horde perce les lignes, tout le monde en position !</text>
+	</string>
+	<string id="barrier_defense_zombie_midchatter">
+		<text>Ils n'en finiront donc jamais ?</text>
+	</string>
+	<string id="barrier_defense_zombie_run_announce">
+		<text>Quoi, t'as peur de trucs qui savent à peine tirer ?</text>
+	</string>
+	<string id="barrier_defense_zombie_end_announce">
+		<text>Bien joué les frères, enfin ils peuvent reposer en paix. Les volontaires, revenez me voir pour votre récompense.</text>
+	</string>
+	
+	<string id="barrier_defense_zombie_outro_1">
+		<text>Ils sont tous morts, cette fois c'est sûr.</text>
+	</string>
+	<string id="barrier_defense_zombie_outro_2">
+		<text>Très bien, j'espère que t'as pas reconnu qui que ce soit là-dedans. Parfois, les gens reviennent de la Barrière plus secoués qu'après un combat contre le Monolithe. On va boire un coup à la mémoire de ces pauvres âmes, et quelque chose pour t'éviter de finir comme eux.</text>
+	</string>
+	
+	<string id="barrier_defense_reinforcements_1">
+		<text>Tenez bon, les gars, on arrive pour vous aider !</text>
+	</string>
+	<string id="barrier_defense_reinforcements_2">
+		<text>On vient de quitter la base, on arrive bientôt.</text>
+	</string>
+	<string id="barrier_defense_reinforcements_3">
+		<text>C'est si grave que ça là-bas ? Je croyais que vous suffiriez !</text>
+	</string>
+	<string id="barrier_defense_reinforcements_4">
+		<text>Ça a déjà commencé ! Allez les gars, magnez-vous ou on va rater tout le spectacle !</text>
+	</string>
+	
+	<!-- Solid (Freedom Medic) -->
+	<string id="mil_freedom_medic_task_1_name">
+		<text>Trouve %s pour Solid</text>
+	</string>
+	<string id="mil_freedom_medic_task_1_text">
+		<text>Solid a besoin d'un %s pour son travail sur les fournitures médicales. Je devrais le lui rapporter si j'en trouve un.</text>
+	</string>
+	<string id="mil_freedom_medic_task_1_about">
+		<text>Maintenir ce qu'il reste du stock de fournitures médicales avec le nombre de blessures que je dois traiter quotidiennement est préoccupant. Je vais finir par manquer de bandages et de medkits tôt ou tard. J'ai besoin que vous me trouviez l'un de ces anciens kits de fabrication de médicaments. Ils seront certainement utiles.</text>
+	</string>
+	<string id="mil_freedom_medic_task_1_fetch_about">
+		<text>Bien sûr que oui. Je cherche partout un %s. Il devrait contenir le mélange d’ingrédients idéal pour fabriquer toutes sortes de médicaments. À usage médical, bien entendu. Je sais ce que certains racontent sur moi par ici. Ne prêtez pas attention à ces conneries. Tout ce dont j’ai besoin, c’est d’un bon équipement, et je pourrai remettre mon petit dispensaire en état.</text>
+	</string>
+	<string id="mil_freedom_medic_task_1_fetch_finish">
+		<text>Excellent travail ! Je vous suis grandement redevable.</text>
+	</string>
+
+</string_table>

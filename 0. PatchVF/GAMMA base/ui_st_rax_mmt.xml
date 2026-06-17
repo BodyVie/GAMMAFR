@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	
+    <string id="ui_mcm_menu_rax_mmt">
+        <text>Activation mini-carte</text>
+    </string>
+
+	<string id="ui_mcm_rax_mmt_keybind">
+		<text>Touche d'activation mini-carte</text>
+	</string>
+
+	<string id="ui_mcm_rax_mmt_keybind_desc">
+		<text>Ce raccourci clavier peut être configuré pour exiger des touches modificatrices supplémentaires afin d'atténuer les conflits.</text>
+	</string>
+
+
+	<string id="ui_mcm_rax_mmt_update_mcm">
+		<text>Mettre à jour MCM pour accéder. Touche par défaut : slash [/]</text>
+	</string>
+
+
+</string_table>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_adar2_15">
+		<text>ADAR 2-15</text>
+	</string>
+	<string id="st_wpn_adar2_15_descr">
+		<text>Fusil semi-automatique civil produit en Russie, fortement inspiré de la plateforme AR-15. Réputé pour sa précision et son design léger, il utilise une monture en bois et est chambré en 5,56 x 45 mm OTAN. L'alliance de performances modernes et d'esthétique traditionnelle en fait une arme prisée des tireurs sportifs et des passionnés d'armes civiles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Molot Oruzhie\n
+		</text>
+	</string>
+
+	<string id="st_wpn_pkp_siber">
+		<text>PKP Pecheneg</text>
+	</string>
+	<string id="st_wpn_pkp_siber_descr">
+		<text>Mitrailleuse polyvalente russe modernisée, dérivée du PKM, conçue pour fournir un feu soutenu avec un refroidissement amélioré du canon pour une utilisation prolongée. Elle conserve le calibre 7,62 x 54 mmR et le système d'alimentation par bande, mais intègre un canon fixe non remplaçable doté d'une dissipation thermique optimisée. Largement utilisée par les forces russes, la Pecheneg est appréciée pour sa durabilité, sa fiabilité et son adaptabilité tant dans des rôles défensifs qu'offensifs.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Mikhaïl Kalachnikov\n
+		</text>
+	</string>
+	
+	<string id="st_wpn_pkm_siber">
+		<text>PKM</text>
+	</string>
+	<string id="st_wpn_pkm_siber_descr">
+		<text>Mitrailleuse polyvalente emblématique de l'ère soviétique, chambrée en 7,62 x 54 mmR, reconnue pour sa robustesse, sa simplicité et sa fiabilité au combat. Conçue dans les années 1960, elle reste en service au sein de nombreuses forces militaires à travers le monde grâce à son poids réduit pour sa catégorie et sa facilité d'entretien. Son système d'alimentation par bande et son adaptabilité en font une arme efficace dans divers rôles, allant du soutien d'infanterie aux opérations montées sur véhicule.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Usine Degtiariov\n
+		</text>
+	</string>
+
+	<string id="st_wpn_pkm_zenit_siber">
+		<text>PKM « Zenit »</text>
+	</string>
+	<string id="st_wpn_pkm_zenit_siber_descr">
+		<text>Mitrailleuse polyvalente emblématique de l'ère soviétique, chambrée en 7,62 x 54 mmR, reconnue pour sa robustesse, sa simplicité et sa fiabilité au combat. Conçue dans les années 1960, elle reste en service au sein de nombreuses forces militaires à travers le monde grâce à son poids réduit pour sa catégorie et sa facilité d'entretien. Son système d'alimentation par bande et son adaptabilité en font une arme efficace dans divers rôles, allant du soutien d'infanterie aux opérations montées sur véhicule.\nCe modèle a été largement modifié avec un rail Picatinny, une poignée avant verticale, un frein de bouche et un désignateur laser, ainsi que des modifications internes pour augmenter la cadence de tir.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]TsNIITochMash, Usine Degtiariov\n
+		</text>
+	</string>
+
+</string_table>

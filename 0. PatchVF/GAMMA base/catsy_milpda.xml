@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+    Milspec PDA
+    Author: Catspaw (CatspawMods @ ModDB)
+    Source: https://www.moddb.com/mods/stalker-anomaly/addons/milspec-pda-for-anomaly-151-152-and-gamma
+    Version: 1.10
+    Updated: 20240329
+    Contents: Official English string definitions
+
+    Permission granted to freely translate into any language.
+-->
+
+<!--
+	GMTOP Edited 18, 21
+-->
+
+<string_table>
+    <string id="st_pda_mil_name">
+        <text>Milspec PDA</text>
+    </string>
+    <string id="st_pda_mil_descr">
+        <text>Un appareil électronique de poche conçu pour intégrer les fonctions de base et les plus vitales d'un ordinateur. Le PDA est essentiel pour le partage quotidien d'informations. Il est équipé d'un module GPS préinstallé fournissant des données de géolocalisation et d'heure à l'utilisateur. Ce modèle sophistiqué a été conçu par une entité inconnue pour être utilisé par des opérateurs militaires ou d'ONG en mission secrète et comprend un module cryptographique permettant à l'utilisateur de s'infiltrer dans de nombreux réseaux privés sécurisés de la Zone, révélant ainsi l'emplacement approximatif des escouades ennemies opérant dans la zone.\n \n
+        %c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Affiche les positions des escouades à proximité\n
+        </text>
+    </string>
+
+    <string id="ui_mcm_menu_milpda">
+        <text>Milspec PDA</text>
+    </string>
+    <string id="ui_mcm_milpda_milpdagen_uninstall">
+        <text>Désinstaller Milspec PDA</text>
+    </string>
+    <string id="ui_mcm_milpda_milpdagen_uninstall_desc">
+        <text>Cocher cette case supprimera toutes les copies du Milspec PDA présentes dans l'inventaire du joueur.</text>
+    </string>
+    <string id="ui_mcm_milpda_facblacklist_enabled">
+        <text>Activer la liste noire personnalisée pour les factions ci-dessous</text>
+    </string>
+    <string id="ui_mcm_milpda_facblacklist_army">
+        <text>Masquer Militaires stalkers</text>
+    </string>
+    <string id="ui_mcm_milpda_facblacklist_bandit">
+        <text>Masquer Bandits stalkers</text>
+    </string>
+    <string id="ui_mcm_milpda_facblacklist_csky">
+        <text>Masquer stalkers Firmament</text>
+    </string>
+    <string id="ui_mcm_milpda_facblacklist_dolg">
+        <text>Masquer stalkers Devoir</text>
+    </string>
+    <string id="ui_mcm_milpda_facblacklist_ecolog">
+        <text>Masquer stalkers Scientifiques</text>
+    </string>
+    <string id="ui_mcm_milpda_facblacklist_freedom">
+        <text>Masquer Liberté stalkers</text>
+    </string>
+    <string id="ui_mcm_milpda_facblacklist_killer">
+        <text>Masquer stalkers Mercenaires</text>
+    </string>
+    <string id="ui_mcm_milpda_facblacklist_monolith">
+        <text>Masquer Monolithe stalkers</text>
+    </string>
+    <string id="ui_mcm_milpda_facblacklist_zombied">
+        <text>Masquer stalkers Zombifiés</text>
+    </string>
+    <string id="ui_mcm_milpda_facblacklist_greh">
+        <text>Masquer stalkers Péché</text>
+    </string>
+    <string id="ui_mcm_milpda_facblacklist_isg">
+        <text>Masquer stalkers UNISG</text>
+    </string>
+    <string id="ui_mcm_milpda_facblacklist_renegade">
+        <text>Masquer Renégats stalkers</text>
+    </string>
+    <string id="ui_mcm_milpda_facblacklist_stalker">
+        <text>Masquer stalkers Solitaires</text>
+    </string>
+    <string id="ui_mcm_menu_milpdagen">
+        <text>Paramètres</text>
+    </string>
+    <string id="ui_mcm_menu_facblacklist">
+        <text>Liste noire</text>
+    </string>
+    <string id="ui_mcm_menu_cfg_device_pda_1">
+        <text>Config. PDA : 1.0</text>
+    </string>
+    <string id="ui_mcm_menu_cfg_device_pda_2">
+        <text>Config. PDA : 2.0</text>
+    </string>
+    <string id="ui_mcm_menu_cfg_device_pda_3">
+        <text>Config. PDA : 3.1</text>
+    </string>
+    <string id="ui_mcm_menu_cfg_device_pda_milspec">
+        <text>Config. PDA : Milspec</text>
+    </string>
+    <string id="ui_mcm_milpda_milpdagen_kiltrak">
+        <text>Activer KilTrak</text>
+    </string>
+    <string id="ui_mcm_milpda_milpdagen_kiltrak_desc">
+        <text>Active la prise en charge de la fonction de suivi des éliminations, initialement basée sur l'extension Kill Tracker d'Ishmaeel.</text>
+    </string>
+    <string id="ui_mcm_milpda_cfg_device_pda_1_enabled">
+        <text>Personnaliser la visibilité des repères pour le PDA 1.0</text>
+    </string>
+    <string id="ui_mcm_milpda_cfg_device_pda_2_enabled">
+        <text>Personnaliser la visibilité des repères pour le PDA 2.0</text>
+    </string>
+    <string id="ui_mcm_milpda_cfg_device_pda_3_enabled">
+        <text>Personnaliser la visibilité des repères pour le PDA 3.1</text>
+    </string>
+    <string id="ui_mcm_milpda_cfg_device_pda_milspec_enabled">
+        <text>Personnaliser la visibilité des repères pour le Milspec PDA</text>
+    </string>
+
+    <string id="ui_mcm_milpda_show_f">
+        <text>Afficher les repères de carte pour les stalkers alliés</text>
+    </string>
+    <string id="ui_mcm_milpda_show_n">
+        <text>Afficher les repères de carte pour les stalkers neutres</text>
+    </string>
+    <string id="ui_mcm_milpda_show_e">
+        <text>Afficher les repères de carte pour les stalkers ennemis</text>
+    </string>
+    <string id="ui_mcm_milpda_show_k">
+        <text>Afficher les repères de cadavres sur la carte</text>
+    </string>
+    <string id="ui_mcm_milpda_obeybl">
+        <text>Utiliser la liste noire des factions</text>
+    </string>
+    <string id="ui_mcm_milpda_milpdagen_debuglogs">
+        <text>Journalisation debug</text>
+    </string>
+    <string id="ui_mcm_milpda_milpdagen_debuglogs_desc">
+        <text>Si cette option est activée, le script affichera dans la console des preuves bruyantes de ses actions. Cela devrait normalement être désactivé. Toutefois, si vous me signalez un problème, je vous demanderai probablement de reproduire l'incident avec le journal de débogage détaillé activé.</text>
+    </string>
+<!-- Added in 1.4 -->
+    <string id="st_kiltrak_bodyof">
+        <text>corps de</text>
+    </string>
+    <string id="ui_mcm_milpda_milpdagen_bodyicon">
+        <text>Style d'icône pour vos kills (ou ceux de votre escouade)</text>
+    </string>
+    <string id="ui_mcm_lst_milpda_whtx">
+        <text>Croix blanche</text>
+    </string>
+    <string id="ui_mcm_lst_milpda_skul">
+        <text>Grand crâne</text>
+    </string>
+    <string id="ui_mcm_lst_milpda_sdot">
+        <text>Petit point bleu</text>
+    </string>
+    <string id="ui_mcm_lst_milpda_mdot">
+        <text>Point bleu moyen</text>
+    </string>
+    <string id="ui_mcm_lst_milpda_ldot">
+        <text>Gros point bleu</text>
+    </string>
+<!-- Added in 1.5 -->
+    <string id="st_kiltrak_unidbody">
+        <text>corps non identifié</text>
+    </string>
+    <string id="st_milpda_delete_marker">
+        <text>Supprimer le marqueur de kill</text>
+    </string>
+<!-- Added in 1.6 -->
+    <string id="st_kiltrak_killedby">
+        <text>tué par</text>
+    </string>
+<!-- Added in 1.7 -->
+    <string id="ui_mcm_milpda_milpdagen_autoclear">
+        <text>Effacer automatiquement les corps à l'interaction</text>
+    </string>
+    <string id="ui_mcm_milpda_milpdagen_autoclear_desc">
+        <text>Lorsque cette option est activée, le Suivi des Eliminations effacera automatiquement les marqueurs de corps lorsque vous les pillez ou interagissez avec eux. La désactivation de cette option laissera les marqueurs de corps sur la carte jusqu'à ce que vous les effaciez manuellement ou que le corps disparaisse.</text>
+    </string>
+    <string id="ui_mcm_milpda_milpdagen_tracking_mode">
+        <text>Mode Kill Tracker</text>
+    </string>
+    <string id="ui_mcm_milpda_milpdagen_tracking_mode_desc">
+        <text>Définit le mode de fonctionnement du suivi des éliminations pour les stalkers morts.\n
+        --------------------------------------------------\n
+        Désactivé : le suivi des éliminations est désactivé.\n
+        Joueur : le suivi des éliminations n'affichera que vos propres éliminations.\n
+        Équipe du joueur : le suivi des éliminations affichera également les éliminations des compagnons.\n
+        Tous : les cadavres seront affichés, quel que soit l'auteur ou la cause de leur mort.</text>
+    </string>
+    <string id="ui_mcm_lst_milpda_trkmode_all">
+        <text>Tous</text>
+    </string>
+    <string id="ui_mcm_lst_milpda_trkmode_you">
+        <text>Joueur</text>
+    </string>
+    <string id="ui_mcm_lst_milpda_trkmode_cmp">
+        <text>Escouade du joueur</text>
+    </string>
+    <string id="ui_mcm_lst_milpda_trkmode_off">
+        <text>Désactivé</text>
+    </string>
+    <string id="ui_mcm_milpda_milpdagen_getpaw">
+        <text>Télécharger le Waypoint Personnel Ajustable ici :\n\nhttps://www.moddb.com/mods/stalker-anomaly/addons/personal-adjustable-waypoint-for-anomaly-151-152-and-gamma</text>
+    </string>
+
+<!-- Added in 1.7.4 -->
+
+    <string id="ui_mcm_milpda_milpdagen_bodyicon_other">
+        <text>Style d'icône pour les kills des autres</text>
+    </string>
+
+    <string id="ui_mcm_lst_milpda_upaw">
+        <text>Icône PAW</text>
+    </string>
+
+    <string id="st_kiltrak_deadbody">
+        <text>Cadavre</text>
+    </string>
+
+    <string id="st_milpda_thezone">
+        <text>la Zone</text>
+    </string>
+
+<!-- Added in 1.7.5 -->
+
+
+    <string id ="ui_mcm_milpda_milpdagen_wipe_all">
+        <text>Effacer toutes les données de marqueurs de corps</text>
+    </string>
+
+    <string id ="ui_mcm_milpda_milpdagen_wipe_all_desc">
+        <text>Supprime tous les marqueurs de cadavres de la carte et efface la base de données du suivi des éliminations. Cette action est irréversible.</text>
+    </string>
+
+<!-- Added in 1.8 -->
+    <string id="ui_mcm_menu_progressive">
+        <text>Progression</text>
+    </string>
+
+    <string id ="ui_mcm_milpda_progressive_enabled">
+        <text>Visibilité progressive de l'escouade (recommandé)</text>
+    </string>
+
+    <string id ="ui_mcm_milpda_progressive_enabled_desc">
+        <text>Si cette option est activée, le joueur doit débloquer la visibilité des points de repère des escouades pour chaque faction séparément en pillant les PDA de leurs cadavres et en accédant à leur réseau. Par défaut, les PDA provenant de stalkers de rang supérieur offrent une progression plus importante vers le déblocage de l'accès.\n
+        --------------------------------------------------\n
+        Un PDA pris en charge, capable d'afficher des repères amicaux, neutres ou hostiles (selon le cas), reste nécessaire.</text>
+    </string>
+
+    <string id="ui_mcm_prog_comm_descr">
+        <text>Dans ce menu, vous pouvez personnaliser la quantité de données de PDA devant être collectées afin de débloquer la visibilité des points de repère des escouades pour chaque faction, ainsi que la progression obtenue en pillant les NPC PDA de chaque rang.</text>
+    </string>
+    <string id="ui_mcm_milpda_progressive_army">
+        <text>Militaires</text>
+    </string>
+    <string id="ui_mcm_milpda_progressive_bandit">
+        <text>Bandits</text>
+    </string>
+    <string id="ui_mcm_milpda_progressive_csky">
+        <text>Firmament</text>
+    </string>
+    <string id="ui_mcm_milpda_progressive_dolg">
+        <text>Devoir</text>
+    </string>
+    <string id="ui_mcm_milpda_progressive_ecolog">
+        <text>Scientifiques</text>
+    </string>
+    <string id="ui_mcm_milpda_progressive_freedom">
+        <text>Liberté</text>
+    </string>
+    <string id="ui_mcm_milpda_progressive_killer">
+        <text>Mercenaires</text>
+    </string>
+    <string id="ui_mcm_milpda_progressive_monolith">
+        <text>Monolithe</text>
+    </string>
+    <string id="ui_mcm_milpda_progressive_greh">
+        <text>Péché</text>
+    </string>
+    <string id="ui_mcm_milpda_progressive_isg">
+        <text>UNISG</text>
+    </string>
+    <string id="ui_mcm_milpda_progressive_renegade">
+        <text>Renégats</text>
+    </string>
+    <string id="ui_mcm_milpda_progressive_stalker">
+        <text>Solitaires</text>
+    </string>
+
+    <string id="ui_mcm_prog_rank_descr">
+        <text>Progression acquise en fonction du rang du stalker ayant abandonné le PDA :</text>
+    </string>
+
+    <string id="ui_mcm_milpda_progressive_novice">
+        <text>Novice</text>
+    </string>
+    <string id="ui_mcm_milpda_progressive_trainee">
+        <text>Apprenti</text>
+    </string>
+    <string id="ui_mcm_milpda_progressive_experienced">
+        <text>Expérimenté</text>
+    </string>
+    <string id="ui_mcm_milpda_progressive_professional">
+        <text>Professionnel</text>
+    </string>
+    <string id="ui_mcm_milpda_progressive_veteran">
+        <text>Vétéran</text>
+    </string>
+    <string id="ui_mcm_milpda_progressive_expert">
+        <text>Expert</text>
+    </string>
+    <string id="ui_mcm_milpda_progressive_master">
+        <text>Maître</text>
+    </string>
+    <string id="ui_mcm_milpda_progressive_legend">
+        <text>Légende</text>
+    </string>
+
+    <string id="st_mapspot_access_prog">
+        <text>Grâce aux données du PDA de ce %s stalker, tu as progressé vers l'accès aux données GPS %s. Progression totale : %.2f%% (%s/%s)</text>
+    </string>
+
+    <string id="st_mapspot_access_unlock">
+        <text>Les données du PDA de ce %s stalker t'ont donné le coup de pouce nécessaire pour percer leur réseau de faction. Maintenant, t'as accès aux données GPS qui te permettent de voir les positions des escouades %s quand t'utilises ton PDA actuel, ou un autre appareil compatible.</text>
+    </string>
+
+<!-- Added in 1.8.1 -->
+
+    <string id="st_mapspot_access_lost">
+        <text>La faction %s a dû changer ses codes d'accès réseau, parce que t'as perdu la capacité de voir leurs escouades sur la carte. Va falloir trouver de nouveaux PDA %s pour récupérer l'accès à leurs données GPS.</text>
+    </string>
+
+    <string id ="ui_mcm_milpda_progressive_access_resets">
+        <text>Accès réseau temporaire</text>
+    </string>
+
+    <string id ="ui_mcm_milpda_progressive_access_resets_desc">
+        <text>Si cette option est activée, l'intrusion dans le réseau d'une autre faction de cette manière n'est que temporaire - après un certain temps, ils découvriront l'intrusion et changeront leurs codes d'accès, vous obligeant à regagner l'accès de la même manière. Il est préférable de combiner cela avec des valeurs de déblocage faibles, créant ainsi une boucle de gameplay régulière.</text>
+    </string>
+
+    <string id ="ui_mcm_milpda_progressive_only_enemy_resets">
+        <text>Seules les factions ennemies réinitialisent votre accès</text>
+    </string>
+
+    <string id ="ui_mcm_milpda_progressive_only_enemy_resets_desc">
+        <text>Si cette option est activée, les factions neutres ne vous excluront pas de leur réseau une fois que vous y aurez accédé, mais les factions ennemies le feront toujours.\n\nLorsque cette option est désactivée, toutes les factions qui ne sont pas la vôtre finiront par révoquer l'accès. Ce paramètre n'a aucun effet si les factions neutres ne nécessitent pas de déblocage.</text>
+    </string>
+
+    <string id ="ui_mcm_milpda_progressive_access_time">
+        <text>Durée de l'accès réseau obtenu</text>
+    </string>
+
+    <string id ="ui_mcm_milpda_progressive_access_unit">
+        <text>Unité de temps pour la durée d'accès</text>
+    </string>
+
+    <string id="ui_mcm_lst_timeunit_day">
+        <text>jour</text>
+    </string>
+    <string id="ui_mcm_lst_timeunit_days">
+        <text>jours</text>
+    </string>
+    <string id="ui_mcm_lst_timeunit_hour">
+        <text>heure</text>
+    </string>
+    <string id="ui_mcm_lst_timeunit_hours">
+        <text>heures</text>
+    </string>
+    <string id="ui_mcm_lst_timeunit_minute">
+        <text>minute</text>
+    </string>
+    <string id="ui_mcm_lst_timeunit_minutes">
+        <text>Minutes</text>
+    </string>
+    <string id="ui_mcm_lst_timeunit_second">
+        <text>seconde</text>
+    </string>
+    <string id="ui_mcm_lst_timeunit_seconds">
+        <text>Secondes</text>
+    </string>
+
+<!-- Added in 1.10 -->
+
+    <string id ="ui_mcm_milpda_progressive_only_enemy_unlock">
+        <text>Seules les factions ennemies nécessitent un déverrouillage</text>
+    </string>
+
+    <string id ="ui_mcm_milpda_progressive_only_enemy_unlock_desc">
+        <text>Si cette option est activée, les factions neutres sont exclues de la progression et respectent les paramètres de visibilité des appareils sans nécessiter de déverrouillage préalable.</text>
+    </string>
+
+
+    <string id ="ui_mcm_milpda_progressive_gain_mode">
+        <text>Progression obtenue via les PDA lootés</text>
+    </string>
+
+    <string id ="ui_mcm_milpda_progressive_gain_mode_desc">
+        <text>\n
+        Lors du pillage : le joueur gagne de la progression en pillant simplement un nouveau PDA pour la première fois. S'il est chiffré, il doit d'abord être déchiffré. Après cette opération, le joueur obtiendra la progression la prochaine fois qu'il le ramassera ou le retirera d'un conteneur.\n
+        --------------------------------------------------\n
+        Lors de la lecture : le joueur ne gagne de la progression qu'une fois qu'un nouveau PDA a été lu pour la première fois. S'il est verrouillé, il doit d'abord être déverrouillé/déchiffré avant que le joueur ne puisse en tirer un quelconque avantage.\n
+        --------------------------------------------------\n
+        Lors du recyclage : le joueur doit démonter le PDA pour en tirer une progression. Ce mode ne nécessite pas que le PDA soit décrypté.
+        </text>
+    </string>
+
+    <string id ="ui_mcm_lst_milpda_gain_on_pickup">
+        <text>Au loot</text>
+    </string>
+
+    <string id ="ui_mcm_lst_milpda_gain_on_read">
+        <text>À la lecture</text>
+    </string>
+
+    <string id ="ui_mcm_lst_milpda_gain_on_scrap">
+        <text>À la casse</text>
+    </string>
+
+    <string id="ui_mcm_milpda_milpdagen_verbose">
+        <text>Logs debug détaillés</text>
+    </string>
+
+    <string id="ui_mcm_milpda_milpdagen_verbose_desc">
+        <text>Si cette option est activée, le journal de débogage du script affichera dans la console des informations encore plus détaillées sur toutes ses actions. Cela n'a aucun effet si le journal de débogage n'est pas activé, mais veuillez l'activer si vous signalez un problème.</text>
+    </string>
+
+    <string id="ui_mcm_milpda_progressive_must_decrypt">
+        <text>Décryptage du PDA requis pour progresser</text>
+    </string>
+
+    <string id="ui_mcm_milpda_progressive_must_decrypt_desc">
+        <text>Si cette option est activée, le joueur ne peut pas obtenir de progression à partir des PDA cryptés, que ce soit en les pillant ou en les lisant. L'appareil doit d'abord être décrypté.</text>
+    </string>
+
+<!-- Added in 1.11 -->
+
+    <string id="ui_mcm_milpda_progmult">
+        <text>Multiplicateur de gain de progression</text>
+    </string>
+
+    <string id="ui_mcm_milpda_progmult_desc">
+        <text>Toute donnée de progression acquise par le joueur lorsque ce PDA est équipé sera multipliée par ce nombre. Une valeur définie à zéro désactivera effectivement tout gain de progression pour ce type de PDA.</text>
+    </string>
+
+    <string id="ui_mcm_milpda_milpdagen_victim_text_mode">
+        <text>Identifier la victime dans l'infobulle de la carte</text>
+    </string>
+
+    <string id="ui_mcm_milpda_milpdagen_victim_text_mode_desc">
+        <text>Lorsque cette option est activée, l'identité d'un cadavre sera affichée dans l'infobulle de sa position sur la carte.</text>
+    </string>
+
+    <string id="ui_mcm_milpda_milpdagen_killer_text_mode">
+        <text>Identifier le tueur dans l'infobulle de la carte</text>
+    </string>
+
+    <string id="ui_mcm_milpda_milpdagen_killer_text_mode_desc">
+        <text>Lorsque cette option est activée, l'identité de l'auteur de la mort sera affichée dans l'infobulle de la position du cadavre sur la carte.</text>
+    </string>
+
+    <string id="ui_mcm_milpda_progressive_noblacklist">
+        <text>Les factions blacklistées n'obtiennent pas de progression</text>
+    </string>
+
+    <string id="ui_mcm_milpda_progressive_noblacklist_desc">
+        <text>Lorsque ce paramètre et la liste noire des factions sont tous deux activés, les factions figurant sur la liste noire ne peuvent en aucun cas obtenir de données ou de progression.</text>
+    </string>
+
+    <string id="st_mapspot_access_unlock_nopda">
+        <text>Les données du PDA de ce %s stalker t'ont donné le coup de pouce nécessaire pour percer leur réseau de faction. Par contre, ton PDA actuel ne te permet pas d'afficher les positions des escouades %s, donc faudra upgrader pour les voir sur la carte.</text>
+    </string>
+
+<!-- Added in 1.12 -->
+
+    <string id ="ui_mcm_milpda_milpdagen_monster_tracking_mode">
+        <text>Mode Tracker pour les kills de mutants</text>
+    </string>
+
+    <string id ="ui_mcm_milpda_milpdagen_monster_tracking_mode_desc">
+        <text>Définit quelles éliminations de mutants seront affichées sur la carte.\n
+            --------------------------------------------------\n
+            Désactivé : le suivi des éliminations est désactivé pour les mutants.\n
+            Joueur : le suivi des éliminations n'affichera que vos éliminations de mutants.\n
+            Équipe du joueur : le suivi des éliminations affichera également les éliminations de mutants par les compagnons.\n
+            Tous : les mutants morts seront affichés, quel que soit l'auteur ou la cause de leur mort.</text>
+    </string>
+
+    <string id="ui_mcm_milpda_header_main_plaintext">
+        <text>\n
+                 • Permet une personnalisation détaillée des repères de carte pour l'escouade et les corps pris en charge par chaque niveau de PDA\n
+                 • Ajout du Milspec PDA : appareil de niveau 4 non vendu, non looté et difficile à fabriquer\n
+                 • Kill Tracker : suivi des corps personnalisable avec support optionnel des icônes PAW\n
+                 • Système de progression avancé permettant de déverrouiller l'accès aux données GPS des factions en fouillant les PDA de stalkers\n
+                 • Liste noire pour exclure certaines factions de tout PDA, quelles que soient ses capacités\n
+                 \n
+                Toutes les fonctionnalités sont optionnelles et personnalisables ici dans les Paramètres.\n
+                Pour plus d'informations, consultez la page Moddb :\n
+                https://www.moddb.com/mods/stalker-anomaly/addons/milspec-pda-for-anomaly-151-152-and-gamma
+        </text>
+    </string>
+
+    <string id="ui_mcm_milpda_header_main_complex1">
+        <text>\n$clr_def
+                $clr_def • $clr_whtPersonnalisation $clr_glddétaillée des marqueurs d'escouade et de corps$clr_wht selon le niveau de PDA\n
+                $clr_def • $clr_whtAjoute le $clr_milMilspec PDA$clr_wht: un $clr_gldnouvel appareil de niveau 4 qui n'est ni vendu ni abandonné$clr_wht, et qui est difficile à fabriquer\n
+                $clr_def • $clr_whtIntègre le $clr_milKill Tracker$clr_wht: $clr_gldsuivi personnalisable des corps$clr_wht avec option d'icônes PAW\n
+                $clr_def • $clr_whtSystème de progression $clr_milavancé$clr_wht permettant de déverrouiller$clr_gld l'accès aux données GPS des factions en fouillant les PDA de stalkers\n
+                $clr_def • $clr_milListe noire$clr_wht permet d$clr_gld exclure certaines factions de tout PDA$clr_wht, quelles que soient ses fonctionnalités\n
+        </text>
+    </string>
+
+    <string id="ui_mcm_milpda_header_main_complex2">
+        <text>$clr_def
+            Toutes les fonctionnalités sont optionnelles et personnalisables ici. Pour plus d'informations, consultez la page ModDB :\n
+            $clr_lblhttps://www.moddb.com/mods/stalker-anomaly/addons/milspec-pda-for-anomaly-151-152-and-gamma
+        </text>
+    </string>
+
+    <string id="ui_mcm_milpda_header_prog_plaintext">
+        <text>\nNormalement, le jeu détermine si vous pouvez voir une escouade sur la carte selon que sa faction est neutre, alliée ou ennemie par rapport à la vôtre. Dès l'achat d'un PDA plus avancé, vous voyez immédiatement toutes les factions qu'il supporte.\n
+        --------------------------------------------------\n
+        C'est un avantage puissant, surtout contre les factions ennemies. Le mode Progressif vous oblige à mériter cet avantage en lootant des PDA sur des stalkers morts, et en utilisant ce que vous trouvez sur ces rares drops pour infiltrer leur réseau et accéder aux données GPS de leur escouade. Ajustez les paramètres selon vos préférences ci-dessous.\n
+        </text>
+    </string>
+
+    <string id="ui_mcm_milpda_header_prog_complex1">
+        <text>$clr_defLe jeu détermine normalement si vous pouvez voir une escouade sur la carte selon que sa faction est $clr_gldneutre$clr_def, $clr_grnalliée$clr_def ou un $clr_redennemi$clr_def par rapport à la vôtre. Dès l'équipement d'un PDA plus avancé, vous voyez immédiatement toutes les factions qu'il supporte.</text>
+    </string>
+
+    <string id="ui_mcm_milpda_header_prog_complex2">
+        <text>$clr_defC'est un avantage puissant, surtout contre les factions ennemies. Le mode $clr_milProgressif $clr_defvous oblige à mériter cet avantage en $clr_gldlootant des PDA sur des stalkers morts$clr_def, et en utilisant ce que vous trouvez sur ces rares drops pour $clr_gldinfiltrer leur réseau$clr_def et $clr_gldaccéder aux données GPS de leur escouade$clr_def. Ajustez les paramètres selon vos préférences ci-dessous.
+        </text>
+    </string>
+
+    <string id="ui_mcm_milpda_header_bl_plaintext">
+        <text>Peut-être estimez-vous que personne ne devrait jamais voir les ISG ou Monolithe sur la carte. Peut-être suivez-vous un ensemble de règles pour un défi spécial, ou incarnez-vous un stalker exclu de certaines factions.\n
+        Quelle qu'en soit la raison, activer la Liste noire vous empêchera de voir certaines factions sur la carte, même si votre PDA pourrait normalement les afficher. Par défaut, cela empêchera également d'obtenir des données pour une faction blacklistée en mode Progressif.</text>
+    </string>
+
+    <string id="ui_mcm_milpda_header_bl_complex1">
+        <text>$clr_defPeut-être estimez-vous que personne ne devrait jamais voir les ISG ou Monolithe sur la carte. Peut-être suivez-vous un ensemble de règles pour un défi spécial, ou incarnez-vous un stalker exclu de certaines factions.</text>
+    </string>
+
+    <string id="ui_mcm_milpda_header_bl_complex2">
+        <text>$clr_defQuelles qu'en soient les raisons, activer la $clr_milListe noire$clr_def vous $clr_gldempêchera de voir certaines factions sur la carte$clr_def, même si votre PDA pourrait normalement les afficher. Par défaut, cela $clr_gldempêchera également d'obtenir des données pour une faction blacklistée$clr_def en mode $clr_milProgressif$clr_def.
+        </text>
+    </string>
+    
+    <string id="ui_mcm_milpda_header_pda_plaintext">
+        <text>Si souhaité, personnalisez les fonctionnalités supportées par cet appareil via les paramètres ci-dessous. Ces réglages ne s'appliqueront à votre partie que si l'option principale est activée.</text>
+    </string>
+
+<!-- Added in 1.13 -->
+
+    <string id="ui_mcm_milpda_milpdagen_squadmate_mapspots">
+        <text>Afficher les repères de carte pour tous les membres de l'escouade</text>
+    </string>
+
+    <string id="ui_mcm_milpda_milpdagen_squadmate_mapspots_desc">
+        <text>Normalement, Anomaly n'affiche sur la carte que l'emplacement du chef actuel d'une escouade. Lorsque ce paramètre est activé, tous les membres individuels de l'escouade seront également affichés, mais avec une icône légèrement différente. Cela peut sembler familier aux joueurs des précédents jeux.</text>
+    </string>
+
+    <string id="encyclopedia_addons">
+        <text>Accessoires</text>
+    </string>
+
+    <string id="encyclopedia_addons_milspec_pda">
+        <text>Milspec PDA</text>
+    </string>
+
+    <string id="encyclopedia_addons_milspec_pda_text">
+        <text>
+            \n\n%c[ui_gray_1]L'accessoire %c[255,130,180,130]Milspec PDA%c[ui_gray_1] a plusieurs objectifs connexes : \n 
+            %c[ui_gray_1] • %c[pda_white]Permet une %c[pda_yellow]personnalisation détaillée des repères de carte pour les escouades et les corps%c[pda_white] pris en charge par chaque niveau de PDA\n
+            %c[ui_gray_1] • %c[pda_white]Ajoute le %c[255,130,180,130]Milspec PDA%c[pda_white] : un %c[pda_yellow]appareil de niveau 4 qui n'est ni vendu ni abandonné%c[pda_white], et qui est difficile à fabriquer\n
+            %c[ui_gray_1] • %c[pda_white]Inclut %c[255,130,180,130]le Suivi des Kills%c[pda_white] : %c[pda_yellow]suivi personnalisable des corps%c[pda_white] avec prise en charge des icônes PAW\n
+            %c[ui_gray_1] • %c[255,130,180,130]Liste noire%c[pda_white] vous permet de %c[pda_yellow]bloquer une faction pour qu'elle n'apparaisse sur aucun PDA%c[pda_white]\n \n
+            %c[ui_gray_1] • %c[pda_white]Le puissant %c[255,130,180,130]Mode Progressif%c[pda_white] permet au joueur de %c[pda_yellow]gagner l'accès pour voir d'autres factions sur la carte\n
+            
+            \n%c[ui_gray_1]Chaque fonctionnalité peut être personnalisée selon vos préférences dans les menus MCM. %c[pda_white]Si quelque chose ne vous convient pas, consultez d'abord le MCM ! Il existe probablement un paramètre pour cela.\n
+
+            \n%c[pda_white]Depuis %c[pda_yellow]PDA &gt; Milspec PDA%c[pda_white] :\n
+            %c[pda_yellow]Paramètres%c[pda_white] : Paramètres généraux pour le Suivi des Kills, l'interface utilisateur et l'accessoire complet.\n
+            %c[pda_yellow]Liste noire%c[pda_white] : Choisissez les factions qui n'apparaîtront jamais sur un PDA.\n
+            %c[pda_yellow]Progression%c[pda_white] : Paramètres du Mode Progression optionnel.\n
+            %c[pda_yellow]Cfg du PDA : 1.0%c[pda_white] : Personnalisez les repères de carte visibles par le PDA de départ 1.0.\n 
+            %c[pda_yellow]Config. PDA : 2.0%c[pda_white] : Identique, mais pour la version 2.0 du PDA.\n 
+            %c[pda_yellow]Config. PDA : 3.1%c[pda_white] : Identique, mais pour la version 3.1 du PDA.\n
+            %c[pda_yellow]Config. PDA : Milspec%c[pda_white] : Identique, mais pour le PDA Milspec.\n \n
+
+            %c[pda_red]Vous rencontrez toujours des difficultés ? Faites défiler vers le bas pour obtenir des informations de dépannage.\n
+
+            \n%c[pda_green]SUIVI AVANCÉ DES TUES\n
+            %c[ui_gray_1]
+            Le %c[pda_yellow]suivi des éliminations%c[ui_gray_1] est, par défaut, pris en charge par tous les PDA, à l'exception du PDA 1.0 d'origine. En interne, l'accessoire suit en permanence tous les corps présents sur la carte, mais ce que vous voyez dépend de vos préférences.\n \n
+
+            Par défaut, le suivi des éliminations %c[pda_yellow]affiche des marqueurs sur la carte pour toutes les cibles abattues par vous ou vos coéquipiers%c[ui_gray_1]. Cela inclut à la fois les stalkers et les mutants. Cependant, vous ne verrez pas de marqueurs pour les corps des cibles éliminées par d'autres personnes.\n \n
+
+            Si vous préférez voir tous les kills ou la carte, cet aspect ainsi que de nombreux autres du Suivi des Kills sont-comme tout le reste-%c[pda_yellow]entièrement configurables dans le MCM%c[ui_gray_1].\n 
+
+            \n%c[pda_green]OBTENTION DU NOUVEAU PALIER 4 PDA\n
+            %c[ui_gray_1]
+            Le %c[pda_yellow]Milspec PDA%c[ui_gray_1] présente des besoins énergétiques supérieurs à ceux du PDA 3.1, mais offre la capacité unique de %c[pda_yellow]visualiser la position des escouades ennemies%c[ui_gray_1] sur la carte.\n \n
+
+            Cela est évidemment très puissant, il est donc recommandé d'équilibrer ce pouvoir avec le %c[pda_yellow]Mode Progressif%c[ui_gray_1] de cet accessoire, décrit plus en détail ci-dessous.\n \n
+
+            Le nouveau PDA ne peut être acheté nulle part, et aucun stalker ne le laissera jamais tomber. Par défaut, vous devez le fabriquer en utilisant %c[pda_yellow]les Outils Experts%c[ui_gray_1].
+
+            Cette opération nécessite que vous ayez trouvé et lu le volume approprié du %c[pda_yellow]manuel d'ingénierie%c[ui_gray_1], ainsi que certains %c[pda_yellow]composants rares%c[ui_gray_1].\n \n
+
+            Vous pouvez modifier ces exigences dans les fichiers de script ou de configuration si vous maîtrisez ces outils. Si ce n'est pas le cas, et que vous ne souhaitez pas obtenir le Milspec PDA de manière conventionnelle, la console de débogage reste une option. Aucun jugement de ma part.\n 
+
+            \n%c[pda_green]MODE PROGRESSIF\n
+            %c[ui_gray_1]Lorsque vous activez le %c[pda_yellow]mode progressif%c[ui_gray_1] du Milspec PDA, l'achat ou la fabrication d'un PDA plus avancé ne vous donne pas automatiquement accès à toutes les factions qu'il permet normalement de visualiser. Vous devez mériter cet accès, que ce soit temporairement ou définitivement, en récupérant des PDA sur des stalkers morts.\n \n
+
+            En %c[pda_yellow]récupérant suffisamment de PDA d'une faction%c[ui_gray_1], vous obtiendrez des données permettant d'infiltrer son réseau sans fil, ce qui vous donnera la capacité de %c[pda_yellow]voir ses escouades sur la carte%c[ui_gray_1]. La plupart des factions finiront par découvrir ce qui s'est passé et %c[pda_yellow]changeront leurs codes d'accès%c[ui_gray_1] après un certain temps. Profitez-en donc tant que cela dure.\n \n
+
+            Le mode progressif est %c[pda_yellow]très puissant et configurable selon vos préférences%c[ui_gray_1]. Vous trouvez que le déverrouillage de l'accès est trop facile ou trop difficile ? Ajustez les exigences comme bon vous semble. Choisissez si les factions neutres doivent également être déverrouillées, si les factions peuvent un jour révoquer votre accès, et, le cas échéant, combien de temps cela prendra.\n \n
+
+            Cette durée de déverrouillage peut s'étendre sur plusieurs semaines si vous le souhaitez, ou même se limiter à quelques secondes ou minutes. Avec un seuil de déverrouillage bas et des durées courtes, chaque récupération de PDA se transforme en un puissant buff temporaire. À l'inverse, si vous préférez un long effort pour un avantage à plus long terme, cela fonctionne également.\n \n
+
+            %c[pda_yellow]C'est votre partie. Jouez comme vous l'entendez.\n 
+
+            \n%c[pda_green]LISTE NOIRE DES FACTIONS\n
+            %c[ui_gray_1]Il est logique que vous puissiez infiltrer les réseaux de Devoir ou de Liberté. Une bonne cybersécurité chez les Bandits, c'est quand leur mot de passe réseau n'est pas une suite de chiffres ou une variation de « blyat ». Mais qu'en est-il de Monolithe ? Ou de l'ISG ?\n \n
+
+            Si vous estimez que certaines factions ne devraient jamais apparaître sur la carte, ne vous inquiétez pas : la %c[pda_yellow]liste noire des factions%c[ui_gray_1] vous permet de les exclure. Il suffit de cocher les factions qui ne doivent pas s'afficher, et elles n'apparaîtront pas.\n 
+
+            \n%c[ui_gray_1]--------------------------------------------------------------------------------\n \n
+            %c[pda_red]DÉPANNAGE\n \n
+
+            %c[pda_white]Si vous pouvez consulter cette entrée d'encyclopédie, vos fichiers binaires prennent en charge DLTX.%c[ui_gray_1] Bien joué : disposer de fichiers exécutables modifiés constitue la moitié du travail. Avoir des fichiers d'accessoires mis à jour et les bonnes options installées en représente la majeure partie.\n \n
+
+            %c[pda_red]Avant de signaler un problème :%c[pda_yellow] Si votre exemplaire du Milspec PDA a été préinstallé dans le cadre d'un modpack%c[ui_gray_1], il est possible qu'il s'agisse d'une ancienne version, que toutes ses fonctionnalités n'aient pas été installées, ou que certains paramètres par défaut du MCM aient été modifiés. Cela est particulièrement vrai si vous disposez de toutes les recettes de craft et que vous ne parvenez toujours pas à fabriquer le PDA T4, ou si quelque chose lié à la progression ne fonctionne pas correctement.\n \n
+            %c[ui_gray_1]
+            Dans ce cas, il peut être nécessaire de %c[pda_yellow]réinstaller cet accessoire via le FOMOD%c[pda_white] et de vérifier que les options d'installation correctes ont été sélectionnées pour l'opération que vous souhaitez effectuer.\n 
+
+            \n%c[pda_red]IMPORTANT : Pour signaler un bug, vous devez suivre la procédure suivante :\n \n
+            %c[pda_white]1. Allez dans %c[pda_yellow]PDA &gt; Milspec PDA &gt; Général\n
+            %c[pda_white]2. Activez %c[pda_yellow]l'enregistrement de débogage%c[pda_white] et %c[pda_yellow]l'enregistrement détaillé\n
+            %c[pda_white]3. Quittez et redémarrez le jeu\n
+            %c[pda_white]4. Reproduisez le problème de la manière la plus simple possible\n
+            %c[pda_white]5. Récupérez le journal du jeu depuis %c[pda_yellow](Votre dossier Anomaly)\appdata\logs%c[pda_white] et publiez-le en ligne\n \n
+            
+            %c[ui_gray_1]Si vous ne le faites pas, il est peu probable que votre journal contienne les informations dont j'ai besoin.\n
+
+            \nJe ne suis pas notifié des commentaires sur Moddb, vous obtiendrez donc généralement une réponse plus rapide sur le Discord de GAMMA, dans le canal de discussion du Milspec PDA. Les messages privés non sollicités seront ignorés.\n
+        </text>
+    </string>
+
+<!-- Added in 1.14 -->
+    <string id="ui_catsy_hide_intro_header">
+        <text>$clr_tgr</text>
+    </string>
+
+    <string id="encyclopedia_items_milspec_pda">
+        <text>Milspec PDA</text>
+    </string>
+    <string id="encyclopedia_items_milspec_pda_text">
+        <text>
+            Conçu par une entité inconnue pour être utilisé par des opérateurs militaires ou d'ONG en mission secrète, le %c[255,130,180,130]Milspec PDA%c[ui_gray_1], ou « MilPDA » en abrégé, est une variante personnalisée sophistiquée du PDA ordinaire utilisé par presque tous les stalkers dans la Zone. Il intègre toutes les fonctionnalités des PDA commerciaux standards, mais comprend également un module cryptographique permettant à l'utilisateur d'infiltrer de nombreux réseaux privés sécurisés de la Zone en utilisant des données téléchargées à partir de PDA trouvés ou capturés.\n
+
+            \nAvec les paramètres de configuration appropriés, ce dispositif permet de révéler la position des escouades ennemies opérant à proximité, à condition que l'utilisateur ait infiltré la sécurité réseau de cette faction et obtenu l'accès à leurs données GPS.\n
+
+            \n• Le PDA consomme %c[pda_white]0,2 mAh%c[ui_gray_1] par seconde d'utilisation continue.\n
+
+            \nVoir aussi :
+            \nGuide du PDA : %c[255,0,200,220]Accessoires &gt; Milspec PDA%c[ui_gray_1]
+            \nParamètres : %c[pda_yellow]Mod Configuration Menu &gt; Milspec PDA%c[ui_gray_1]
+        </text>
+    </string>
+
+</string_table>

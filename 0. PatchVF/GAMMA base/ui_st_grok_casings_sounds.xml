@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_menu_grok_casings_sounds">
+		<text>Sons des armes</text>
+	</string>
+	<string id="ui_mcm_title_grok_casings_sounds">
+		<text>Sons des armes GAMMA</text>
+	</string>
+
+	<string id="ui_mcm_grok_casings_sounds_volume_gunfire">
+		<text>Volume des tirs du joueur</text>
+	</string>
+	<string id="ui_mcm_grok_casings_sounds_volume_gunfire_desc">
+		<text>S'applique également à certaines armes dotées de silencieux intégrés.</text>
+	</string>
+	<string id="ui_mcm_grok_casings_sounds_volume_gunfire_sil">
+		<text>Volume des tirs du joueur (supprimés)</text>
+	</string>
+	<string id="ui_mcm_grok_casings_sounds_volume_gunfire_npc">
+		<text>Volume des tirs des NPCS</text>
+	</string>
+	<string id="ui_mcm_grok_casings_sounds_volume_gunfire_npc_desc">
+		<text>S'applique également à certaines armes dotées de silencieux intégrés.</text>
+	</string>
+	<string id="ui_mcm_grok_casings_sounds_volume_gunfire_sil_npc">
+		<text>Volume des tirs des NPCS (supprimés)</text>
+	</string>
+
+	<string id="ui_mcm_grok_casings_sounds_enabled">
+		<text>Activer les sons de douilles tombantes</text>
+	</string>
+	<string id="ui_mcm_grok_casings_sounds_ubgl_enabled">
+		<text>Sons des douilles du lance-grenades sous canon</text>
+	</string>
+	<string id="ui_mcm_grok_casings_sounds_volume">
+		<text>Volume des sons de douilles tombantes</text>
+	</string>
+	<string id="ui_mcm_grok_casings_sounds_ice_patch">
+		<text>Correctif des shaders d'espace écran (version glace)</text>
+	</string>
+	<string id="ui_mcm_grok_casings_sounds_ice_patch_desc">
+		<text>Atténue les sons de chute des douilles lors des tirs sur la glace.</text>
+	</string>
+
+	<string id="ui_mcm_grok_casings_sounds_enabled_aim_rattle">
+		<text>Activer le cliquetis de visée</text>
+	</string>
+	<string id="ui_mcm_grok_casings_sounds_enabled_lower_raise_rattle">
+		<text>Activer le cliquetis de relevage/abaissement</text>
+	</string>
+	<string id="ui_mcm_grok_casings_sounds_volume_aim_rattle">
+		<text>Volume du cliquetis de visée</text>
+	</string>
+	<string id="ui_mcm_grok_casings_sounds_volume_lower_raise_rattle">
+		<text>Volume du cliquetis de relevage/abaissement</text>
+	</string>
+
+	<string id="ui_mcm_grok_casings_sounds_enabled_sprint_rattle">
+		<text>Activer le cliquetis de sprint</text>
+	</string>
+	<string id="ui_mcm_grok_casings_sounds_enabled_sprint_rattle_lowered">
+		<text>Activer le cliquetis de sprint en position basse</text>
+	</string>
+	<string id="ui_mcm_grok_casings_sounds_enabled_sprint_rattle_lowered_desc">
+		<text>Produit un bruit de cliquetis même lorsque l'arme équipée est baissée.</text>
+	</string>
+	<string id="ui_mcm_grok_casings_sounds_volume_sprint_rattle">
+		<text>Volume du cliquetis de sprint</text>
+	</string>
+
+	<string id="ui_mcm_grok_casings_sounds_enabled_reload_hint">
+		<text>Activer les sons de munitions faibles</text>
+	</string>
+	<string id="ui_mcm_grok_casings_sounds_volume_reload_hint">
+		<text>Volume des sons de munitions faibles</text>
+	</string>
+</string_table>

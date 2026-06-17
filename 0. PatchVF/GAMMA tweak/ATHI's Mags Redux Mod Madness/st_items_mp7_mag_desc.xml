@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="st_mag_mp7_5.7x28_ss190">
+		<text>Chargeur MP7 5,7x28 modifié</text>
+	</string>
+	<string id="st_mag_mp7_5.7x28_ss190_descr">
+		<text>
+            Chargeur allongé de 40 cartouches pour MP7, modifié pour accepter des munitions 5,7x28. En raison de la relative rareté des cartouches 4,6x30, certains techniciens ingénieux ont réussi à adapter le MP7 afin qu'il puisse tirer des munitions de pistolet 5,7 mm, plus courantes.
+		</text>
+	</string>	
+</string_table>

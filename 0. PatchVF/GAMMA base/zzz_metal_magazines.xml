@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_porn">
+		<text>Magazine Terroraiser</text>
+	</string>
+	<string id="st_porn_descr">
+		<text>Un magazine ukrainien de heavy metal rédigé en russe et publié par Dark Arts Ltd. À l'intérieur, vous trouverez des interviews exclusives de groupes tels que DEICIDE, KORPIKLAANI, BLEED FROM WITHIN, DARK MILLENIUM, et bien d'autres, ainsi que des rapports de festivals comme Wacken et Black Sea Metal Fest. Bien que disparu depuis 2018, il reste une lecture agréable et un excellent moyen de passer le temps.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Récréatif\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Passer le temps\n
+		</text>
+	</string>
+
+	<string id="st_porn2">
+		<text>Magazine Atmosfear</text>
+	</string>
+	<string id="st_porn2_descr">
+		<text>Un magazine ukrainien de heavy metal rédigé en russe, doté d'une couverture glacée et de pages imprimées professionnellement, remplies d'interviews originales de groupes tels que MOONSORROW, NIGHTRAGE, CALIBAN, BUTTERFLY TEMPLE, et bien d'autres. Il contient également plus de 200 critiques couvrant les dernières sorties dans tous les styles de heavy metal. Une lecture agréable et un excellent moyen de passer le temps.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Récréatif\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Passer le temps\n
+		</text>
+	</string>
+
+</string_table>

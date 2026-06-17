@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+-- Author: Catspaw
+-- Source: https://www.moddb.com/members/catspawmods/addons
+-->
+
+<string_table>
+	<string id="ui_mcm_menu_customsquadsize">
+		<text>Taille personnalisée de l'escouade de compagnons</text>
+	</string>
+
+	<string id="ui_mcm_customsquadsize_maxsquadsize">
+		<text>Nombre maximal normal de compagnons</text>
+	</string>
+
+	<string id="ui_mcm_customsquadsize_maxsquadsize_folkhero">
+		<text>Nombre maximal de compagnons avec le succès "Héros du peuple"</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="st_wpn_mac10">
+		<text>MAC-10</text>
+	</string>
+	<string id="st_wpn_mac10_descr">
+		<text>Le MAC-10 est un pistolet-mitrailleur compact et emblématique, reconnu pour sa conception légère et son impressionnant taux de tir. Développé à l'origine dans les années 1960 par Gordon B. Ingram, cette arme à feu a acquis une notoriété pour son utilisation par les forces militaires et les agences de maintien de l'ordre, ainsi que pour ses apparitions dans la culture populaire. Chambré dans divers calibres, le MAC-10 est apprécié pour sa portabilité et sa polyvalence, ce qui en fait un choix privilégié pour les combats rapprochés. Son fonctionnement caractéristique en culasse non verrouillée à boulon ouvert et sa crosse télescopique en fil métallique contribuent à sa compacité, tandis que sa réputation en matière de capacités de tir rapide a consolidé sa place dans l'histoire des armes à feu.\n\n
+		%c[ui_gray_2]ACCESSOIRES : \n
+		%c[d_purple] %c[ui_gray_2] - Grossissement : Aucun\n
+		%c[ui_gray_2] - Silencieux : Silencieux 9 mm\n
+		</text>
+	</string>
+	
+	<string id="st_mag_mac10_9x19_standard">
+		<text>Chargeur MAC-10 32 cartouches</text>
+	</string>
+	<string id="st_mag_mac10_9x19_standard_descr">
+		<text>Chargeur pour pistolet-mitrailleur MAC-10, chambré en 9x19 mm Parabellum, ce chargeur contient 32 cartouches.\n</text>
+	</string>
+	
+	<string id="st_mag_mac10_9x19_ext">
+		<text>Chargeur MAC-10 50 cartouches</text>
+	</string>
+	<string id="st_mag_mac10_9x19_ext_descr">
+		<text>Chargeur pour pistolet-mitrailleur MAC-10, chambré en 9x19 mm Parabellum, ce chargeur contient 50 cartouches.\n</text>
+	</string>
+	
+</string_table>

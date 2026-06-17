@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    
+<!--
+Pistols and MP's
+-->
+
+
+	<string id="ext_mag_colt1911_11.43x23_fmj">
+		<text>Chargeur Étendu .45 ACP Colt 1911 </text>
+	</string>
+	<string id="ext_mag_colt1911_11.43x23_fmj_descr">
+		<text>
+		Chargeur prolongé ProMag de 15 cartouches pour Colt 1911. Fabriqué en acier bleui léger et en polymère résistant aux chocs.
+		</text>
+	</string>
+	
+	<string id="ext_mag_ppp_1911_357_fmj">
+		<text>Chargeur Étendu Coonan .357</text>
+	</string>
+	<string id="ext_mag_ppp_1911_357_fmj_descr">
+		<text>
+            Chargeur prolongé modifié pour s'adapter à la cartouche .357 Magnum, bien plus longue. Compatible uniquement avec le pistolet Coonan .357, qui offre toute la puissance d'arrêt de la munition .357 Magnum dans un format compact. Capacité : 12 cartouches.
+		</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,1416 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	SCOPES
+-->
+
+	<string id="st_addon_scope">
+		<text>PSO-1M</text>
+	</string>
+	<string id="st_addon_scope_descr">
+		<text>Version modernisée de la lunette soviétique classique PSO-1, équipée d'optiques améliorées et d'un réticule plus précis pour le tir de précision. Elle conserve son compensateur de chute de balle emblématique, permettant des engagements efficaces à longue distance.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Usine d'État NPZ Optics\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_1p29">
+		<text>1P29 Tulipe</text>
+	</string>
+	<string id="st_addon_scope_1p29_descr">
+		<text>Lunette robuste à grossissement 4x utilisée par les forces russes, réputée pour sa conception prismatique et sa construction légère. Elle est équipée d'un réticule télémétrique et d'un système d'illumination pour les conditions de faible luminosité.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_ac10632">
+		<text>Viseur électronique</text>
+	</string>
+	<string id="st_addon_scope_ac10632_descr">
+		<text>Viseur reflex électronique polyvalent conçu pour l'acquisition rapide de cibles en combat rapproché et à moyenne distance. Il offre un réticule illuminé net pour améliorer la vitesse et la précision du pointage.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Barska\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_acog">
+		<text>ACOG 4.0x</text>
+	</string>
+	<string id="st_addon_scope_acog_descr">
+		<text>Lunette à grossissement fixe 4x développée par Trijicon, largement utilisée pour des applications militaires en raison de sa construction robuste et de son réticule illuminé. Elle excelle en combat à moyenne distance, offrant une excellente clarté et une compensation de chute de balle.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Trijicon\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_eotech">
+		<text>EOTech 553</text>
+	</string>
+	<string id="st_addon_scope_eotech_descr">
+		<text>Viseur holographique pour armes conçu pour les forces militaires et de l'ordre, offrant une acquisition rapide des cibles avec un large champ de vision. Il est compatible avec la vision nocturne et présente une construction étanche et durable.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]EOTech\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+		
+	<string id="st_addon_scope_kobra">
+		<text>Kobra EKP 1S-03</text>
+	</string>
+	<string id="st_addon_scope_kobra_descr">
+		<text>Viseur reflex russe réputé pour sa robustesse et ses quatre réticules sélectionnables. Il offre une acquisition rapide de la cible et un design résistant, adapté aux conditions extrêmes du champ de bataille.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Axion\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_pso-1m2-01">
+		<text>PSO-1M2-1</text>
+	</string>
+	<string id="st_addon_scope_pso-1m2-01_descr">
+		<text>Variante avancée du PSO-1M, dotée de revêtements de lentilles améliorés et d'une meilleure résistance aux conditions environnementales. Elle conserve le design classique du réticule pour des tirs précis à longue distance.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Usine d'État NPZ Optics\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+		
+	<string id="st_addon_scope_cmore">
+        <text>Viseur tactique C-MORE</text>
+    </string>
+    <string id="st_addon_scope_cmore_descr">
+		<text>Viseur reflex compact réputé pour sa construction légère en polymère et son large champ de vision. Il est populaire pour le tir sportif et les applications tactiques nécessitant un engagement rapide des cibles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]C-More Systems\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+    </string>
+
+	<string id="st_addon_trijicon_acog">
+		<text>ACOG 2.0x</text>
+	</string>
+	<string id="st_addon_trijicon_acog_descr">
+		<text>Version à faible grossissement de la série ACOG, conçue pour une acquisition plus rapide des cibles tout en offrant un certain grossissement pour les engagements à moyenne distance. Elle dispose d'une illumination par fibre optique et tritium pour une utilisation par tous les temps.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Trijicon\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]2,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_okp-7">
+		<text>OKP-7</text>
+	</string>
+	<string id="st_addon_scope_okp-7_descr">
+		<text>Viseur reflex russe moderne doté d'une conception ouverte unique, offrant un champ de vision dégagé et une acquisition rapide des cibles. Léger et très résistant, il convient à diverses conditions de combat.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_rmr">
+		<text>RMR Red Dot</text>
+	</string>
+	<string id="st_addon_scope_rmr_descr">
+		<text>Le Trijicon RMR (Ruggedized Miniature Reflex) est un viseur à point rouge compact et robuste conçu pour les pistolets et les fusils. Sa petite taille et sa construction solide le rendent idéal pour un usage militaire et civil.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Trijicon\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_aimpoint">
+		<text>Aimpoint Red Dot</text>
+	</string>
+	<string id="st_addon_scope_aimpoint_descr">
+		<text>Viseur à point rouge de haute qualité, sans parallaxe, connu pour sa longue autonomie et sa construction robuste. Il permet une acquisition rapide des cibles et est largement utilisé par les unités militaires et les forces de l'ordre.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Aimpoint\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_ekp8_02">
+		<text>Point rouge Kobra EKP 8-02</text>
+	</string>
+	<string id="st_addon_scope_ekp8_02_descr">
+		<text>Version améliorée du viseur reflex Kobra, proposant un réticule illuminé fiable avec des réglages de luminosité ajustables. Sa construction robuste est appréciée pour les applications militaires et des forces spéciales russes.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Kobra-Axion\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_specterDR">
+		<text>ELCAN SpecterDR</text>
+	</string>
+	<string id="st_addon_scope_specterDR_descr">
+		<text>Optique de combat polyvalente capable de basculer entre un grossissement 1x et 4x, offrant une grande flexibilité pour les engagements en combat rapproché et à longue distance. Elle se distingue par des optiques de haute qualité et une conception robuste adaptée aux applications militaires.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Raytheon ELCAN\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x - 4,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_pso2">
+		<text>PSO-1</text>
+	</string>
+	<string id="st_addon_scope_pso2_descr">
+		<text>Version modernisée de la lunette soviétique classique PSO-1, équipée d'optiques améliorées et d'un réticule plus précis pour le tir de précision. Elle conserve son compensateur de chute de balle emblématique, permettant des engagements efficaces à longue distance.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Usine d'État NPZ Optics\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_0kp2">
+		<text>OKP-7</text>
+	</string>
+	<string id="st_addon_scope_0kp2_descr">
+		<text>Viseur reflex moderne de conception russe, doté d'un design ouvert unique offrant un champ de vision dégagé et une acquisition rapide des cibles. Léger et extrêmement résistant, il convient à diverses conditions de combat.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Divers fabricants\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_d0cter">
+		<text>Docter Sight III</text>
+	</string>
+	<string id="st_addon_scope_d0cter_descr">
+		<text>Viseur à point rouge compact haut de gamme de fabrication allemande, reconnu pour ses optiques d'une clarté exceptionnelle. Largement utilisé sur les pistolets, fusils et fusils de chasse pour un engagement rapide des cibles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Allemagne\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]NOBLEX E-Optics\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_1p59">
+		<text>1P59 Giperon</text>
+	</string>
+	<string id="st_addon_scope_1p59_descr">
+		<text>Lunette optique russe à fort grossissement conçue pour les tireurs d'élite désignés, offrant des capacités avancées de télémétrie. Elle est équipée d'un réticule illuminé et conçue pour un usage militaire intensif.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Divers fabricants\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x - 8,0x\n \n
+		</text>
+	</string>	
+	
+	<string id="st_addon_scope_1pn93">
+		<text>Viseur nocturne 1PN93-4</text>
+	</string>
+	<string id="st_addon_scope_1pn93_descr">
+		<text>Lunette de vision nocturne russe optimisée pour les scénarios de combat en faible luminosité et de nuit. Elle offre une visibilité améliorée dans les darkness grâce à un boîtier résistant de qualité militaire.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]NPZ Optics\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]3,7x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_leupold">
+		<text>Leupold Mark 8</text>
+	</string>
+	<string id="st_addon_scope_leupold_descr">
+		<text>Lunette haut de gamme pour tir à longue distance, équipée d'un grossissement variable, d'optiques haute définition et d'un réticule en première focale. Conçue pour le tir de précision dans des environnements militaires et compétitifs.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Leupold\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x - 8,0x\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_mepro">
+		<text>Meprolight M21</text>
+	</string>
+	<string id="st_addon_scope_mepro_descr">
+		<text>Viseur reflex auto-illuminé ne nécessitant aucune batterie, utilisant des fibres optiques et du tritium pour une visibilité diurne et en faible luminosité. Robuste et conçu pour un usage en combat, il permet une acquisition rapide des cibles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Meprolight\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_aim_low">
+		<text>Micro T1</text>
+	</string>
+	<string id="st_addon_scope_aim_low_descr">
+		<text>Viseur à point rouge compact et léger d'Aimpoint, réputé pour sa longue autonomie et sa grande durabilité. Il est largement utilisé pour les applications militaires et civiles en raison de sa précision et de sa fiabilité.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Aimpoint\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>	
+
+	<string id="st_addon_scope_aimpoint_pro">
+		<text>Aimpoint PRO</text>
+	</string>
+	<string id="st_addon_scope_aimpoint_pro_descr">
+		<text>Le Patrol Rifle Optic (PRO) est un viseur à point rouge durable et économique conçu pour les forces de l'ordre et les applications tactiques. Il dispose d'une longue autonomie, d'un boîtier étanche et d'un point de 2 MOA pour un pointage précis.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Aimpoint\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_1p76">
+		<text>1P76 Rakurs-A</text>
+	</string>
+	<string id="st_addon_scope_1p76_descr">
+		<text>Viseur de combat russe à prisme offrant un large champ de vision et un réticule gravé illuminé. Il assure une performance sans parallaxe et ne nécessite pas de piles pour une utilisation diurne.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]NPZ Optics\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>	
+
+	<string id="st_addon_scope_pka">
+		<text>PK-A Red Dot</text>
+	</string>
+	<string id="st_addon_scope_pka_descr">
+		<text>Viseur à point rouge russe robuste conçu pour les plateformes AK, offrant une acquisition rapide des cibles grâce à un réticule net et réglable. Sa construction durable le rend idéal pour les conditions difficiles du champ de bataille.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]BelOMO\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_ekp8_18">
+		<text>EKP 8-18 Red Dot</text>
+	</string>
+	<string id="st_addon_scope_ekp8_18_descr">
+		<text>Variante moderne du viseur reflex Kobra, dotée d'un réticule illuminé réglable et d'une conception robuste de qualité militaire. Il est couramment utilisé sur les fusils russes pour un pointage rapide et précis.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Kobra\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_deltapoint">
+		<text>Point rouge Deltapoint PRO</text>
+	</string>
+	<string id="st_addon_scope_deltapoint_descr">
+		<text>Viseur à point rouge micro premium de Leupold, connu pour son large champ de vision, son illumination activée par le mouvement et sa clarté exceptionnelle. Il est largement utilisé sur les pistolets, les fusils et dans les applications tactiques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Leupold\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_e0t2">
+		<text>EOTech XPS3-0</text>
+	</string>
+	<string id="st_addon_scope_e0t2_descr">
+		<text>Viseur holographique compact conçu pour une acquisition rapide des cibles, compatible avec la vision nocturne et doté d'un point unique de 1 MOA pour un pointage précis. Léger et extrêmement résistant, il est plébiscité par les militaires et les forces de l'ordre.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]EOTech\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_pn23">
+		<text>Viseur nocturne PN-23</text>
+	</string>
+	<string id="st_addon_scope_pn23_descr">
+		<text>Lunette de vision nocturne russe optimisée pour les engagements en faible luminosité, offrant une visibilité améliorée dans darkness. Conçue pour être utilisée sur diverses armes à feu, elle présente une construction durable et résistante aux intempéries.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]KULA\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]3,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_gauss_sight">
+		<text>Viseur EOTS-62</text>
+	</string>
+	<string id="st_addon_scope_gauss_sight_descr">
+		<text> Viseur électro-optique spécialisé conçu pour le ciblage de précision dans diverses conditions de combat. Il offre une clarté optique améliorée et est couramment utilisé sur les armes de qualité militaire.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Ukraine\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]NON DIVULGUÉ\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x - 8,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_marchf">
+		<text>March Tactical 3-24x42 FFP</text>
+	</string>
+	<string id="st_addon_scope_marchf_descr">
+		<text>Lunette à haute performance à premier plan focal (FFP) avec grossissement variable, offrant une clarté et une précision exceptionnelles pour le tir à longue distance. Prisée des tireurs d'élite et des compétiteurs pour sa polyvalence.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Japon\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]DEON Optical Design\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]3,0x - 24,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_pgo7gs">
+		<text>PGO-7</text>
+	</string>
+	<string id="st_addon_scope_pgo7gs_descr">
+		<text>Viseur optique fixe 2,7x conçu pour les lanceurs RPG-7, équipé d'un réticule de télémétrie pour un ciblage précis. Robuste et optimisé pour les engagements anti-blindage.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_rakurs">
+		<text>1P76 Rakurs-A</text>
+	</string>
+	<string id="st_addon_scope_rakurs_descr">
+		<text>Viseur prismatique russe robuste et sans batterie, doté d'un réticule gravé restant visible dans toutes les conditions d'éclairage. Il offre un large champ de vision et est conçu pour une acquisition rapide des cibles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Usine NPZ\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_compm4s">
+		<text>Aimpoint CompM4s</text>
+	</string>
+	<string id="st_addon_scope_compm4s_descr">
+		<text>Viseur à point rouge de qualité militaire doté d'une autonomie exceptionnellement longue, conçu pour une durabilité extrême et une grande précision. Il est largement utilisé par les forces armées en raison de sa construction robuste et de ses performances fiables.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Aimpoint\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_susat">
+		<text>SUSAT</text>
+	</string>
+	<string id="st_addon_scope_susat_descr">
+		<text>Le Sight Unit Small Arms, Trilux (SUSAT) est une lunette optique 4x utilisée par les forces britanniques, dotée d'un réticule illuminé pour une performance améliorée en faible luminosité. Elle est réputée pour sa durabilité et sa netteté d'image.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Royaume-Uni\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Avimo\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_1p78gs">
+		<text>1P78 Kashtan</text>
+	</string>
+	<string id="st_addon_scope_1p78gs_descr">
+		<text>Viseur de combat russe à prisme 2,8x conçu pour les fusils AK, offrant un large champ de vision et une compensation de la chute des projectiles. Très résistant, il est adapté aux conditions difficiles du champ de bataille.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Usine NPZ\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]2,8x\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_1pn93n2_1gs">
+		<text>Viseur nocturne 1PN93-1</text>
+	</string>
+	<string id="st_addon_scope_1pn93n2_1gs_descr">
+		<text>Lunette de vision nocturne russe conçue pour les combats en faible luminosité, offrant une compatibilité infrarouge et un boîtier résistant. Elle améliore la visibilité nocturne tout en maintenant la précision sur de longues distances.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_kemper">
+		<text>Kemper XL-M</text>
+	</string>
+	<string id="st_addon_scope_kemper_descr">
+		<text>Viseur reflex haut de gamme reconnu pour sa large fenêtre de visée et ses optiques avancées, permettant un engagement rapide des cibles. Conçu pour les tirs tactiques et compétitifs.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Firefield\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_usp1">
+		<text>1P29 Tulpan</text>
+	</string>
+	<string id="st_addon_scope_usp1_descr">
+		<text>Lunette russe robuste offrant un grossissement 4x, similaire au SUSAT, dotée d'un réticule de télémétrie illuminé. Conçue pour être montée sur les fusils d'infanterie AK et autres.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_lazup_pl15">
+		<text>LAM Sight</text>
+	</string>
+	<string id="st_addon_scope_lazup_pl15_descr">
+		<text>Module de visée laser (LAM) combinant le ciblage laser et l'illumination pour une précision accrue dans les scénarios de faible luminosité. Il est couramment utilisé dans les applications militaires pour améliorer l'acquisition des cibles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Lebedev PL-15\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_kp_sr2">
+		<text>Viseur reflex KP-SR2</text>
+	</string>
+	<string id="st_addon_scope_kp_sr2_descr">
+		<text>Viseur reflex russe compact conçu pour une acquisition rapide des cibles, souvent utilisé sur les pistolets-mitrailleurs et les carabines. Sa construction robuste et son réticule illuminé améliorent le pointage dans diverses conditions d'éclairage.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] SR-2M Veresk\n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_susatov">
+		<text>Viseur SUSAT 4.0x</text>
+	</string>
+	<string id="st_addon_scope_susatov_descr">
+		<text>Le Sight Unit Small Arms, Trilux (SUSAT) est une lunette optique à grossissement fixe 4x utilisée principalement par les forces britanniques. Elle dispose d'un réticule illuminé et d'une conception prismatique, offrant une image claire et une estimation efficace de la portée.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Royaume-Uni\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Royal Armament Research Development\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] L85A2\n \n
+		</text>
+	</string>
+
+<!--
+	SUPPRESSORS
+-->
+
+	<string id="st_addon_sil_57">
+		<text>Silencieux 5.7x28</text>
+	</string>
+	<string id="st_addon_sil_57_descr">
+		<text>Silencieux compact spécialement conçu pour les armes en calibre 5,7x28 mm, réduisant le flash de bouche et la signature sonore tout en maintenant l'efficacité balistique.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Belgique\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 5,7 mm\n
+		</text>
+	</string>
+			
+	<string id="st_addon_sil_9mm">
+		<text>Silencieux 9mm</text>
+	</string>
+	<string id="st_addon_sil_9mm_descr">
+		<text>Silencieux polyvalent et couramment utilisé pour les armes de calibre 9 mm, assurant une réduction efficace du bruit et du recul pour les pistolets et pistolets-mitrailleurs.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Variable\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 9 mm\n
+		</text>
+	</string>
+		
+	<string id="st_addon_sil_atg">
+		<text>Silencieux ATG</text>
+	</string>
+	<string id="st_addon_sil_atg_descr">
+		<text>Un silencieux haute performance conçu pour les applications tactiques, offrant une suppression sonore et une durabilité exceptionnelles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 5,56 mm, 7,62 mm\n
+		</text>
+	</string>
+	
+	<string id="st_addon_sil_gemtech">
+		<text>Silencieux Gemtech</text>
+	</string>
+	<string id="st_addon_sil_gemtech_descr">
+		<text>Marque de silencieux réputée proposant des modèles légers et performants pour divers calibres, largement utilisée dans les applications militaires, policières et civiles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 9 mm, .45\n
+		</text>
+	</string>
+	
+	<string id="st_addon_sil_kzrzp">
+		<text>Silencieux KZRZP</text>
+	</string>
+	<string id="st_addon_sil_kzrzp_descr">
+		<text>Silencieux de conception russe optimisé pour réduire la signature acoustique tout en maintenant précision et fiabilité en environnement de combat.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 7,62 mm\n
+		</text>
+	</string>
+	
+	<string id="st_addon_sil_nato">
+		<text>Silencieux OTAN</text>
+	</string>
+	<string id="st_addon_sil_nato_descr">
+		<text>Silencieux standardisé utilisé par les forces de l'OTAN, conçu pour être compatible avec une gamme d'armes militaires et optimisé pour la durabilité et les performances.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Belgique\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] .45, 5,56 mm, 7,62 mm\n
+		</text>
+	</string>
+	
+	<string id="st_addon_sil_pbs1">
+		<text>Silencieux PBS-1</text>
+	</string>
+	<string id="st_addon_sil_pbs1_descr">
+		<text>Silencieux d’époque soviétique développé pour les fusils de type AK chambrés en 7,62x39 mm, reconnu pour sa fiabilité et son efficacité dans les opérations furtives.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 7,62 mm\n
+		</text>
+	</string>
+	
+	<string id="st_addon_sil_pbs4">
+		<text>Silencieux PBS-4</text>
+	</string>
+	<string id="st_addon_sil_pbs4_descr">
+		<text>Une variante raffinée de la série PBS, conçue pour être utilisée avec les fusils AK-74, offrant une suppression sonore et une durabilité améliorées.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 5,45 mm\n
+		</text>
+	</string>
+		
+	<string id="st_addon_sil_tgp-a">
+		<text>Silencieux TGP-A</text>
+	</string>
+	<string id="st_addon_sil_tgp-a_descr">
+		<text>Silencieux russe conçu pour diverses plateformes de fusils, réputé pour son excellente réduction du bruit et sa fiabilité sur le champ de bataille.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 5,45 mm\n
+		</text>
+	</string>
+		
+	<string id="st_addon_silencer">
+		<text>Silencieux US Army Smallbore</text>
+	</string>
+	<string id="st_addon_silencer_descr">
+		<text>Un silencieux développé pour l'armée américaine, optimisé pour les fusils de petit calibre afin d'améliorer la furtivité et de réduire le souffle de bouche.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 5,56x45 mm\n
+		</text>
+	</string>
+
+	<string id="st_addon_sil_salvo">
+		<text>Silencieux Salvo 12</text>
+	</string>
+	<string id="st_addon_sil_salvo_descr">
+		<text>Silencieux pour fusil de chasse développé par SilencerCo, réduisant significativement le bruit et le recul des armes en calibre 12 tout en préservant l'intégrité de la gerbe de tir.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Calibre 12\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_sil_hexagon">
+		<text>Silencieux Hexagon SKS 7.62x39</text>
+	</string>
+	<string id="st_addon_sil_hexagon_descr">
+		<text>Silencieux spécialisé pour les fusils SKS chambrés en 7,62x39 mm, offrant une réduction efficace du bruit sans compromettre la précision.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 7,62 mm\n
+		</text>
+	</string>
+
+	<string id="st_addon_sil_hex23">
+		<text>Silencieux Swine-23</text>
+	</string>
+	<string id="st_addon_sil_hex23_descr">
+		<text>Un silencieux lourd conçu pour les armes de gros calibre, offrant une suppression supérieure du bruit et un meilleur contrôle du recul.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 23 mm\n \n
+		</text>
+	</string>		
+	
+	<string id="st_addon_sil_aac762">
+		<text>Silencieux AAC 7.62 SDN-6</text>
+	</string>
+	<string id="st_addon_sil_aac762_descr">
+		<text>Silencieux polyvalent à détachement rapide fabriqué par Advanced Armament Corporation, optimisé pour les fusils de calibre 7,62 mm avec un impact minimal sur la précision.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 7,62 mm\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_sil_tgpv">
+		<text>Silencieux TGP-V</text>
+	</string>
+	<string id="st_addon_sil_tgpv_descr">
+		<text>Un silencieux russe développé pour le tir de précision, conçu pour améliorer les opérations furtives grâce à un amortissement supérieur du bruit.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 7,62 mm\n \n
+		</text>
+	</string>		
+	
+	<string id="st_addon_sil_osp9">
+		<text>Silencieux Osprey-9</text>
+	</string>
+	<string id="st_addon_sil_osp9_descr">
+		<text>Silencieux de forme polygonale distinctive conçu par SilencerCo, offrant une excellente réduction sonore pour les pistolets en 9 mm tout en conservant un profil discret.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 9 mm\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_sil_pmm">
+		<text>Silencieux PMM</text>
+	</string>
+	<string id="st_addon_sil_pmm_descr">
+		<text>Silencieux de fabrication russe conçu pour les pistolets et pistolets-mitrailleurs, alliant suppression sonore, compacité et durabilité.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 9 mm\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_sil_geks545">
+		<text>Silencieux Hexagon</text>
+	</string>
+	<string id="st_addon_sil_geks545_descr">
+		<text>Un silencieux multi-calibre reconnu pour sa conception avancée de déflecteurs et ses capacités exceptionnelles de réduction du bruit.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 5,45 mm, 7,62 mm\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_sil_kek12">
+		<text>Silencieux Hexagon 12K</text>
+	</string>
+	<string id="st_addon_sil_kek12_descr">
+		<text>Silencieux adapté aux fusils de chasse de calibre 12, réduisant à la fois le bruit et le recul ressenti tout en maintenant une dispersion efficace des projectiles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Calibre 12\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_sil_black_box">
+		<text>Silencieux AAC Black Box</text>
+	</string>
+	<string id="st_addon_sil_black_box_descr">
+		<text>Silencieux compact et haute performance fabriqué par Advanced Armament Corporation, conçu pour une suppression optimale dans des scénarios tactiques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 9 mm, .45\n \n
+		</text>
+	</string>
+	<string id="st_addon_sil_daniel">
+		<text>Silencieux Daniel Defense Wave QD</text>
+	</string>
+	<string id="st_addon_sil_daniel_descr">
+		<text>Un silencieux durable et léger à détachement rapide, doté d'une construction imprimée en 3D pour une résistance et des performances accrues.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Remington M700\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_sil_sr1m">
+		<text>Silencieux SR1M Gyurza</text>
+	</string>
+	<string id="st_addon_sil_sr1m_descr">
+		<text>Silencieux russe conçu pour le pistolet SR1M Gyurza, réduisant sa signature sonore pour les opérations spéciales et les missions discrètes.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Pistolet Serdyukov SR1M Gyurza\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_sil_forester">
+		<text>Silencieux 98k</text>
+	</string>
+	<string id="st_addon_sil_forester_descr">
+		<text>Un silencieux conçu pour le fusil à verrou boulon Mauser 98k, améliorant les capacités de furtivité pour le tir de précision.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Mauser 98k Forester\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_sil_lapu7">
+		<text>Silencieux Deer Hunter</text>
+	</string>
+	<string id="st_addon_sil_lapu7_descr">
+		<text>Silencieux de chasse conçu pour le Remington M700, offrant une réduction du bruit afin de minimiser les perturbations tout en préservant la précision.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Remington M700 « Deer Hunter »\n
+		</text>
+	</string>
+
+	<string id="st_addon_sil_pl15">
+		<text>Silencieux PL-15</text>
+	</string>
+	<string id="st_addon_sil_pl15_descr">
+		<text>Silencieux développé pour le pistolet PL-15, offrant une atténuation efficace du son tout en conservant une compacité adaptée à un usage tactique.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Lebedev PL-15\n
+		</text>
+	</string>
+
+	<string id="st_addon_sil_spec_isg">
+		<text>Silencieux Rifle Dynamics ISG</text>
+	</string>
+	<string id="st_addon_sil_spec_isg_descr">
+		<text>Un silencieux conçu par Rifle Dynamics pour les plateformes AK, alliant durabilité et suppression efficace du bruit.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Armes à feu ISG : 5,45 mm, 7,62 mm\n
+		</text>
+	</string>
+
+	<string id="st_addon_sil_apb">
+		<text>Silencieux APS</text>
+	</string>
+	<string id="st_addon_sil_apb_descr">
+		<text>Silencieux spécialement conçu pour les fusils sous-marins APS, destiné à réduire le bruit et le souffle de bouche en milieu aquatique.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] APS Stechkin\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_sil_veresk">
+		<text>Silencieux GZV-SR2</text>
+	</string>
+	<string id="st_addon_sil_veresk_descr">
+		<text>Un silencieux compact adapté au pistolet-mitrailleur SR-2 Veresk, améliorant la furtivité tout en préservant les performances balistiques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] SR-2M Veresk\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_sil_auga">
+		<text>Silencieux Steyr UMS</text>
+	</string>
+	<string id="st_addon_sil_auga_descr">
+		<text>Un silencieux conçu pour le Steyr UMS, améliorant la suppression sonore tout en maintenant l'équilibre et la maniabilité de l'arme.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Autriche\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Steyr AUG\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_sil_m42k">
+		<text>Silencieux AAC M4-2000</text>
+	</string>
+	<string id="st_addon_sil_m42k_descr">
+		<text>Un silencieux à détachement rapide optimisé pour les fusils de calibre 5,56 mm, offrant une excellente réduction du bruit et un impact minimal sur la précision.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] M4A1 RAS, L85A2\n
+		</text>
+	</string>
+
+	<string id="st_addon_sil_surfire">
+		<text>Silencieux Surefire SOCOM556-MONSTER</text>
+	</string>
+	<string id="st_addon_sil_surfire_descr">
+		<text>Silencieux haute performance conçu pour une durabilité extrême et une suppression sonore supérieure, destiné aux applications militaires et policières.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] M4A1 « Protector »\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_sil_kac4">
+		<text>Silencieux KAC QDSS NT-4 5.56x45</text>
+	</string>
+	<string id="st_addon_sil_kac4_descr">
+		<text>Silencieux Knight’s Armament conçu pour un montage rapide sur les fusils de calibre 5,56 mm, largement utilisé par les forces militaires pour sa fiabilité et ses performances.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Japon\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Howa Type 20\n	
+		</text>
+	</string>
+
+<!--
+	OTHER
+-->	
+
+	<string id="st_addon_sil_rotor">
+		<text>Frein de bouche Rotor 43 7.62x54</text>
+	</string>
+	<string id="st_addon_sil_rotor_descr">
+		<text>Frein de bouche à haute efficacité conçu pour réduire le recul et le relèvement de bouche des fusils chambrés en 7,62x54 mm, améliorant la stabilité globale des tirs. Sa fabrication de précision renforce sa durabilité et minimise l'impact sur la précision.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 7,62 mm\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_23_up">
+		<text>Canon KS-23 510 mm</text>
+	</string>
+	<string id="st_addon_scope_23_up_descr">
+		<text>Canon long et renforcé conçu pour le fusil de chasse KS-23, améliorant la précision et la portée tout en conservant la puissance de frappe de l'arme. Sa construction robuste optimise les performances pour les applications militaires et policières.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] KS-23\n \n
+		</text>
+	</string>
+
+	<string id="st_grenade_launcher_monolit">
+		<text>Lance-grenades Guard 30 mm</text>
+	</string>
+	<string id="st_grenade_launcher_monolit_descr">
+		<text>Lance-grenades sous canon compact de 30 mm de fabrication russe, conçu pour être utilisé sur des fusils d'assaut afin d'apporter une puissance de feu supplémentaire contre les positions fortifiées. Il offre une solution légère et fiable pour engager le personnel ennemi et les véhicules légers.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] AK-12 « Lumière du Monolithe »\n \n
+		</text>
+	</string>
+
+	<string id="st_grenade_launcher_scar">
+		<text>Lance-grenades FN40GL 40 mm</text>
+	</string>
+	<string id="st_grenade_launcher_scar_descr">
+		<text>Lance-grenades modulaire de 40 mm développé par FN Herstal, pouvant être monté sur divers fusils ou utilisé comme arme autonome. Il renforce la puissance de feu de l'infanterie, supportant à la fois des munitions explosives et non létales.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Belgique\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] FN SCAR-H\n \n
+		</text>
+	</string>
+
+	<string id="st_grenade_launcher_l85">
+		<text>Lance-grenades M320 40 mm</text>
+	</string>
+	<string id="st_grenade_launcher_l85_descr">
+		<text>Lance-grenades polyvalent de 40 mm à un coup, utilisé par les forces militaires modernes, doté d'un système de chargement latéral pour un rechargement plus rapide. Il peut être monté sur des fusils ou utilisé comme arme autonome avec une crosse et une poignée ajustables.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Allemagne\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] L85A2\n \n
+		</text>
+	</string>
+
+<!--
+	KITS
+-->
+
+	<string id="st_addon_scope_silen98">
+		<text>Kit adaptateur pour silencieux</text>
+	</string>
+	<string id="st_addon_scope_silen98_descr">
+		<text>Système d'attache modulaire permettant de monter divers silencieux sur des armes compatibles, améliorant la polyvalence et les capacités de suppression sonore.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Adaptateur pour silencieux\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Mauser 98k Forester\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_trijicon_rmr">
+		<text>Kit viseur Trijicon</text>
+	</string>
+	<string id="st_addon_scope_trijicon_rmr_descr">
+		<text>Ensemble de viseurs optiques et mécaniques conçu pour améliorer l’acquisition des cibles, la précision et l’adaptabilité sur différentes distances d’engagement.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Trijicon ACOG BAC 5.56 BDC\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Trijicon RMR\n \n
+		</text>
+	</string>	
+	
+	<string id="st_addon_scope_mark8_rmr">
+		<text>Kit viseur RMR Leupold</text>
+	</string>
+	<string id="st_addon_scope_mark8_rmr_descr">
+		<text>Ensemble de viseurs optiques et mécaniques conçu pour améliorer l’acquisition des cibles, la précision et l’adaptabilité sur différentes distances d’engagement.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Leupold Mark 8 CQBSS\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Trijicon RMR\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_spec_alt">
+		<text>Kit viseur SpecterDR-RMR</text>
+	</string>
+	<string id="st_addon_scope_spec_alt_descr">
+		<text>Ensemble de viseurs optiques et mécaniques conçu pour améliorer l’acquisition des cibles, la précision et l’adaptabilité sur différentes distances d’engagement.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Elcan SpecterDR DFOV14-C2\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Trijicon RMR\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_kashtan_rmr">
+		<text>Kit viseur RMR Kashtan</text>
+	</string>
+	<string id="st_addon_scope_kashtan_rmr_descr">
+		<text>Ensemble de viseurs optiques et mécaniques conçu pour améliorer l’acquisition des cibles, la précision et l’adaptabilité sur différentes distances d’engagement.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Tochpribor 1P78 Kashtan\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Trijicon RMR\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_psicho_rmr">
+		<text>Kit viseur PSO RMR S</text>
+	</string>
+	<string id="st_addon_scope_psicho_rmr_descr">
+		<text>Ensemble de viseurs optiques et mécaniques conçu pour améliorer l’acquisition des cibles, la précision et l’adaptabilité sur différentes distances d’engagement.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur BelOMO PSO-1 2-1\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Trijicon RMR\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_mono_kit">
+		<text>Kit tactique</text>
+	</string>
+	<string id="st_addon_scope_mono_kit_descr">
+		<text>Ensemble complet d'améliorations comprenant poignées, rails, crosses et autres éléments pour optimiser l'ergonomie, le contrôle et l'efficacité au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Garde-main ergonomique pour lance-grenades sous canon de 30 mm\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Trijicon ACOG\n
+		%c[d_cyan] • %c[ui_gray_2] Module d'illumination TNVC AN/PEQ-16 LAM\n
+		%c[d_cyan] • %c[ui_gray_2] Tambour de 60 cartouches\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] ÀÊ-12 « Monolithe »\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_kit_aus_tri">
+		<text>Kit tactique</text>
+	</string>
+	<string id="st_addon_scope_kit_aus_tri_descr">
+		<text>Ensemble complet d'améliorations comprenant poignées, rails, crosses et autres éléments pour optimiser l'ergonomie, le contrôle et l'efficacité au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Poignée de pistolet Fab AG FAL\n
+		%c[d_cyan] • %c[ui_gray_2] Couvercle de culasse renforcé SA-58\n
+		%c[d_cyan] • %c[ui_gray_2] Rail Picatinny\n
+		%c[d_cyan] • %c[ui_gray_2] Poignée avant Vltor CASV\n
+		%c[d_cyan] • %c[ui_gray_2] Canon de 21 pouces\n
+		%c[d_cyan] • %c[ui_gray_2] Crosse DSA BRS\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Aimpoint T1\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Trijicon ACOG\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] SA-58 AUS\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_kit_fal_leup">
+		<text>Kit tactique</text>
+	</string>
+	<string id="st_addon_scope_kit_fal_leup_descr">
+		<text>Ensemble complet d'améliorations comprenant poignées, rails, crosses et autres éléments pour optimiser l'ergonomie, le contrôle et l'efficacité au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Poignée de pistolet Fab AG FAL\n
+		%c[d_cyan] • %c[ui_gray_2] Couvercle de culasse renforcé SA-58\n
+		%c[d_cyan] • %c[ui_gray_2] Rail Picatinny\n
+		%c[d_cyan] • %c[ui_gray_2] Poignée avant Vltor CASV\n
+		%c[d_cyan] • %c[ui_gray_2] Canon de 21 pouces\n
+		%c[d_cyan] • %c[ui_gray_2] Crosse DSA BRS\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Aimpoint T1\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Leupold Mark 8 CQBSS\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] SA-58 AUS\n \n
+		</text>
+	</string>	
+
+	<string id="st_addon_scope_kit_sa5x_spec">
+		<text>Kit tactique</text>
+	</string>
+	<string id="st_addon_scope_kit_sa5x_spec_descr">
+		<text>Ensemble complet d'améliorations comprenant poignées, rails, crosses et autres éléments pour optimiser l'ergonomie, le contrôle et l'efficacité au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Poignée de pistolet Fab AG FAL\n
+		%c[d_cyan] • %c[ui_gray_2] Couvercle de culasse renforcé SA-58\n
+		%c[d_cyan] • %c[ui_gray_2] Rail Picatinny\n
+		%c[d_cyan] • %c[ui_gray_2] Poignée avant Vltor CASV\n
+		%c[d_cyan] • %c[ui_gray_2] Canon de 21 pouces\n
+		%c[d_cyan] • %c[ui_gray_2] Crosse DSA BRS\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Aimpoint T1\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Elcan SpecterDR DFOV14-C2\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] SA-58 AUS\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_226sig_kit">
+		<text>Kit tactique</text>
+	</string>
+	<string id="st_addon_scope_226sig_kit_descr">
+		<text>Ensemble complet d'améliorations comprenant poignées, rails, crosses et autres éléments pour optimiser l'ergonomie, le contrôle et l'efficacité au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Canon fileté (pour silencieux)\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Trijicon RMR\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] SIG P226R\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_mod9">
+		<text>Kit tactique</text>
+	</string>
+	<string id="st_addon_scope_mod9_descr">
+		<text>Ensemble complet d'améliorations comprenant poignées, rails, crosses et autres éléments pour optimiser l'ergonomie, le contrôle et l'efficacité au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Canon fileté (pour silencieux)\n
+		%c[d_cyan] • %c[ui_gray_2] Viseurs au tritium\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur laser Viridian X5L\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Walther P99\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_upg220">
+		<text>Kit tactique</text>
+	</string>
+	<string id="st_addon_scope_upg220_descr">
+		<text>Ensemble complet d'améliorations comprenant poignées, rails, crosses et autres éléments pour optimiser l'ergonomie, le contrôle et l'efficacité au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Canon fileté (pour silencieux)\n
+		%c[d_cyan] • %c[ui_gray_2] Viseurs au tritium\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur laser Viridian X5L\n
+		%c[d_cyan] • %c[ui_gray_2] Chargeur de 12 cartouches\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] SIG P220\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_sr1upgr1">
+		<text>Kit tactique</text>
+	</string>
+	<string id="st_addon_scope_sr1upgr1_descr">
+		<text>Ensemble complet d'améliorations comprenant poignées, rails, crosses et autres éléments pour optimiser l'ergonomie, le contrôle et l'efficacité au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Canon fileté (pour silencieux)\n
+		%c[d_cyan] • %c[ui_gray_2] Organes de visée au tritium\n
+		%c[d_cyan] • %c[ui_gray_2] Module de visée laser\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Pistolet Serdyukov SR1M Gyurza\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_kab_up">
+		<text>Kit tactique</text>
+	</string>
+	<string id="st_addon_scope_kab_up_descr">
+		<text>Ensemble complet d'améliorations comprenant poignées, rails, crosses et autres éléments pour optimiser l'ergonomie, le contrôle et l'efficacité au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Canon fileté (pour silencieux)\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Trijicon RMR\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] KS-23M Drozd\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_archangel">
+		<text>Kit tactique</text>
+	</string>
+	<string id="st_addon_scope_archangel_descr">
+		<text>Ensemble complet d'améliorations comprenant poignées, rails, crosses et autres éléments pour optimiser l'ergonomie, le contrôle et l'efficacité au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Crosse polymère Archangel\n
+		%c[d_cyan] • %c[ui_gray_2] Jeu de chargeurs de 20 cartouches\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Remington M700\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_magpul_pro">
+		<text>Kit tactique</text>
+	</string>
+	<string id="st_addon_scope_magpul_pro_descr">
+		<text>Ensemble complet d'améliorations comprenant poignées, rails, crosses et autres éléments pour optimiser l'ergonomie, le contrôle et l'efficacité au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Crosse polymère Magpul PRO 700\n
+		%c[d_cyan] • %c[ui_gray_2] Jeu de chargeurs 12 cartouches\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Trijicon RMR\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Remington M700\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_mod_x_gen3">
+		<text>Kit tactique</text>
+	</string>
+	<string id="st_addon_scope_mod_x_gen3_descr">
+		<text>Ensemble complet d'améliorations comprenant poignées, rails, crosses et autres éléments pour optimiser l'ergonomie, le contrôle et l'efficacité au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Système modulaire de fusil ABAC MOD X GEN III\n
+		%c[d_cyan] • %c[ui_gray_2] Jeu de chargeurs 12 cartouches\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Leupold DeltaPoint PRO\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Remington M700\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_swamp">
+		<text>Kit tactique</text>
+	</string>
+	<string id="st_addon_scope_swamp_descr">
+		<text>Ensemble complet d'améliorations comprenant poignées, rails, crosses et autres éléments pour optimiser l'ergonomie, le contrôle et l'efficacité au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Garde-main allongé\n
+		%c[d_cyan] • %c[ui_gray_2] Crosse et poignée pistolet ergonomiques\n
+		%c[d_cyan] • %c[ui_gray_2] Détente améliorée\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Elcan SpecterDR DFOV14-C2\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Trijicon RMR\n
+		%c[d_cyan] • %c[ui_gray_2] Module laser AN/PEQ-15 LAM\n
+		%c[d_cyan] • %c[ui_gray_2] Jeu de chargeurs de 45 cartouches\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] AK-105\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_lapua700">
+		<text>Kit tactique</text>
+	</string>
+	<string id="st_addon_scope_lapua700_descr">
+		<text>Ensemble complet d'améliorations comprenant poignées, rails, crosses et autres éléments pour optimiser l'ergonomie, le contrôle et l'efficacité au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Canon fileté (pour silencieux)\n
+		%c[d_cyan] • %c[ui_gray_2] Crosse Magpul Pro\n
+		%c[d_cyan] • %c[ui_gray_2] Jeu de chargeurs .338LM\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Leupold amélioré\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Remington M700\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_gurza_up">
+		<text>Kit tactique</text>
+	</string>
+	<string id="st_addon_scope_gurza_up_descr">
+		<text>Ensemble complet de mises à niveau comprenant poignées, rails, crosses et autres améliorations visant à optimiser l'ergonomie, le contrôle et l'efficacité globale au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Trijicon RMR\n
+		%c[d_cyan] • %c[ui_gray_2] Monture à quatre rails\n
+		%c[d_cyan] • %c[ui_gray_2] LAM\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] SR1M Gyurza\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_u2p2g0r">
+		<text>Kit tactique</text>
+	</string>
+	<string id="st_addon_scope_u2p2g0r_descr">
+		<text>Ensemble complet de mises à niveau comprenant poignées, rails, crosses et autres améliorations visant à optimiser l'ergonomie, le contrôle et l'efficacité globale au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Canon fileté (pour silencieux)\n
+		%c[d_cyan] • %c[ui_gray_2] Viseurs au tritium\n
+		%c[d_cyan] • %c[ui_gray_2] Module laser Viridian X5L\n
+		%c[d_cyan] • %c[ui_gray_2] Chargeur de 19 cartouches\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Sig Sauer P220\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_shakal">
+		<text>Kit tactique Shakal</text>
+	</string>
+	<string id="st_addon_scope_shakal_descr">
+		<text>Ensemble complet de mises à niveau comprenant poignées, rails, crosses et autres améliorations visant à optimiser l'ergonomie, le contrôle et l'efficacité globale au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Garde-main allongé\n
+		%c[d_cyan] • %c[ui_gray_2] Crosse et poignée pistolet ergonomiques\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Trijicon ACOG\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Trijicon RMR\n
+		%c[d_cyan] • %c[ui_gray_2] Module laser AN/PEQ-15 LAM\n
+		%c[d_cyan] • %c[ui_gray_2] Jeu de chargeurs de 45 cartouches\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] AK-105\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_pl15_scolaz">
+		<text>Kit tactique</text>
+	</string>
+	<string id="st_addon_scope_pl15_scolaz_descr">
+		<text>Ensemble complet de mises à niveau comprenant poignées, rails, crosses et autres améliorations visant à optimiser l'ergonomie, le contrôle et l'efficacité globale au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] LAM\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Aimpoint T1\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Lebedev PL-15\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_apsabigo">
+		<text>Kit tactique</text>
+	</string>
+	<string id="st_addon_scope_apsabigo_descr">
+		<text>Ensemble complet de mises à niveau comprenant poignées, rails, crosses et autres améliorations visant à optimiser l'ergonomie, le contrôle et l'efficacité globale au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Canon fileté (pour silencieux)\n
+		%c[d_cyan] • %c[ui_gray_2] Viseurs au tritium\n
+		%c[d_cyan] • %c[ui_gray_2] Poignée pistolet ergonomique\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] APS\n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_sr2_upkit">
+		<text>Kit tactique</text>
+	</string>
+	<string id="st_addon_scope_sr2_upkit_descr">
+		<text>Ensemble complet de mises à niveau comprenant poignées, rails, crosses et autres améliorations visant à optimiser l'ergonomie, le contrôle et l'efficacité globale au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Garde-main tactique\n
+		%c[d_cyan] • %c[ui_gray_2] Rail Picatinny\n
+		%c[d_cyan] • %c[ui_gray_2] LAM\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur reflex KP-SR2\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] SR-2M Veresk\n \n
+		</text>
+	</string>	
+
+	<string id="st_addon_scope_5c_tik">
+		<text>Kit tactique</text>
+	</string>
+	<string id="st_addon_scope_5c_tik_descr">
+		<text>Ensemble complet de mises à niveau comprenant poignées, rails, crosses et autres améliorations visant à optimiser l'ergonomie, le contrôle et l'efficacité globale au combat de l'arme.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Canon raccourci\n
+		%c[d_cyan] • %c[ui_gray_2] Poignée avant basse\n
+		%c[d_cyan] • %c[ui_gray_2] LA5 LAM\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur optique Leupold pour carabine\n
+		%c[d_cyan] • %c[ui_gray_2] Lunette D-EVO 6.0x\n
+		%c[d_cyan] • %c[ui_gray_2] Module à gaz modifié\n \n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] AK 5C\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_vitup_kit">
+		<text>Kit tactique d'amélioration pour PP-19-01 Vityaz</text>
+	</string>
+	<string id="st_addon_scope_vitup_kit_descr">
+		<text>Kit de modernisation tactique pour le PP-19-01 Vityaz, comprenant des éléments en polymère tels qu'une poignée avant inclinée, un boulon allégé et un module de visée laser pour améliorer l'acquisition des cibles et la maniabilité en combat rapproché.\n \n
+		%c[pda_white]Caractéristiques :\n
+		%c[d_cyan] • %c[ui_gray_2] Cadence de tir améliorée\n
+		%c[d_cyan] • %c[ui_gray_2] Contrôle de recul amélioré\n
+		%c[d_cyan] • %c[ui_gray_2] Laser tactique bleu\n \n
+		%c[pda_white]Compatibilité :\n
+		%c[d_cyan] • %c[ui_gray_2] PP-19-01 Vityaz\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_pm_upgr_kit">
+		<text>Kit d'amélioration pour pistolet Makarov PM</text>
+	</string>
+<string id="st_addon_scope_pm_upgr_kit_descr">
+    <text> Kit d’amélioration tactique pour le pistolet Makarov PM en 9x18. Comprend des modifications visant à améliorer l’ergonomie ainsi que le viseur reflex miniature Zarya Z-1x20. \n \n
+    %c[ui_gray_2]Caractéristiques : \n
+    %c[d_green] • %c[ui_gray_2] Viseur reflex miniature Zarya Z-1x20. \n
+    %c[d_green] • %c[ui_gray_2] Poignée de pistolet Zarya olive. \n	
+    %c[d_green] • %c[ui_gray_2] Chargeur prolongé (20 cartouches). \n \n</text>
+</string>
+
+<string id="st_addon_scope_pl15_scolaz_new">
+    <text>Kit d'amélioration pour pistolet Lebedev PL-15 9x19</text>
+</string>
+<string id="st_addon_scope_pl15_scolaz_new_descr">
+    <text>Kit de mise à niveau tactique pour le pistolet Lebedev PL-15 9x19. Comprend une lampe tactique SureFire X400 Ultra avec laser, un mini viseur reflex Zarya Z-1x20 et une housse thermique pour silencieux. \n \n
+    %c[ui_gray_2]Caractéristiques : \n
+    %c[d_green] • %c[ui_gray_2] Canon fileté PL-15 9x19 de 112 mm. \n
+    %c[d_green] • %c[ui_gray_2] Viseur reflex miniature Zarya Z-1x20. \n
+    %c[d_green] • %c[ui_gray_2] Bande thermique pour silencieux. \n	
+    %c[d_green] • %c[ui_gray_2] Lampe tactique SureFire X400 Ultra avec laser. \n \n</text>
+</string>
+
+<!--
+	UNUSED
+-->	
+	<string id="st_addon_scope_pks">
+		<text>Viseur PKS-07 (HORS SERVICE)</text>
+	</string>
+	<string id="st_addon_scope_pks_descr">
+		<text>.</text>
+	</string>
+
+	<string id="st_addon_sil_osprey">
+		<text>Objet plus utilisé dans l'addon
+		</text>
+	</string>
+	<string id="st_addon_sil_osprey_descr">
+		<text>.</text>
+	</string>
+	
+</string_table>

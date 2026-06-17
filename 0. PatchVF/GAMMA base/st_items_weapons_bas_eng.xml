@@ -1,0 +1,1411 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	PISTOLS
+-->
+	<string id="st_wpn_aps_bas">
+		<text>APS Stechkin</text>
+	</string>
+	<string id="st_wpn_aps_bas_descr">
+		<text>Le Stechkin APS est un pistolet-mitrailleur russe à tir sélectif, portant le nom de son concepteur Igor Stechkin. Initialement chambré pour la munition 7,62x25 mm Tokarev, le pistolet a été modifié pour utiliser la 9x18 mm, car il est devenu évident que cette cartouche allait devenir la nouvelle munition de service pour les pistolets de l'armée soviétique. En 1951, le Stechkin a été introduit dans l'arsenal militaire soviétique, remplaçant le vieillissant TT-33.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Usine d'armement de Toula\n
+		</text>
+	</string>
+
+	<string id="st_wpn_aps_bas_apsabigo">
+		<text>APS Stechkin</text>
+	</string>
+	<string id="st_wpn_aps_bas_apsabigo_descr">
+		<text>Le Stechkin APS est un pistolet-mitrailleur russe à tir sélectif, portant le nom de son concepteur Igor Stechkin. Initialement chambré pour la munition 7,62x25 mm Tokarev, le pistolet a été modifié pour utiliser la 9x18 mm, car il est devenu évident que cette cartouche allait devenir la nouvelle munition de service pour les pistolets de l'armée soviétique. En 1951, le Stechkin a été introduit dans l'arsenal militaire soviétique, remplaçant le vieillissant TT-33.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Usine d'armement de Toula\n
+		</text>
+	</string>
+
+	<string id="st_wpn_colt1911_n">
+		<text>Colt M1911</text>
+	</string>
+	<string id="st_wpn_colt1911_n_descr">
+		<text>Conçu par John Browning, le M1911 est un pistolet extrêmement fiable et robuste qui est resté l'arme de poing standard de l'armée américaine de 1911 à 1985. À ce jour, il reste très populaire pour un usage militaire, policier et civil dans le monde entier.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Colt Manufacturing Company\n
+		</text>
+	</string>
+
+	<string id="st_wpn_fn57">
+		<text>FN Five-seveN</text>
+	</string>
+	<string id="st_wpn_fn57_descr">
+		<text>Un pistolet semi-automatique à culasse retardée, conçu comme arme d'appoint pour le pistolet-mitrailleur FN P90, car ils partagent tous deux la même cartouche de 5,7x28 mm. Cela permet au Five-seveN de percer efficacement les cibles protégées par une armure corporelle, tout en maintenant un poids, des dimensions et un recul raisonnables.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Belgique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]FN Herstal\n
+		</text>
+	</string>
+
+	<string id="st_wpn_glock17_m1">
+		<text>Glock 17 « Bruder »</text>
+	</string>
+	<string id="st_wpn_glock17_m1_descr">
+		<text>Pistolet classique à carcasse polymère, fonctionnant par court recul et opéré en mode semi-automatique, apprécié des forces de l'ordre et du personnel militaire à travers le monde pour sa fiabilité inégalée, sa capacité optimale de chargeur et son faible poids. Le Glock 17 est facile à utiliser et à entretenir, et constitue une arme polyvalente adaptée à l'autodéfense, au tir sportif ou aux situations de combat. Le « Bruder » a été équipé d'une base intégrée pour l'installation de viseurs, d'une poignée en caoutchouc tactique et d'un canon fileté, ainsi que de diverses modifications internes.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Autriche\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Glock Ges.m.b.H.\n
+		</text>
+	</string>	
+
+	<string id="st_wpn_korth">
+		<text>Korth Custom 4</text>
+	</string>
+	<string id="st_wpn_korth_descr">
+		<text>Pistolet personnalisé fabriqué par le légendaire fabricant d'armes haut de gamme Korth. Pour certains passionnés d'armes à feu, cela suffit amplement à le définir. Les armes Korth sont peut-être surtout connues pour leurs étiquettes de prix que la plupart des gens associeraient plus facilement à des voitures allemandes qu'à des armes allemandes, bien que le point d'entrée soit bien plus accessible. En résumé, les armes Korth sont légendaires.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Allemagne\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Korth Waffen\n
+		</text>
+	</string>
+
+	<string id="st_wpn_korth_custom">
+		<text>Korth Custom 6</text>
+	</string>
+	<string id="st_wpn_korth_custom_descr">
+		<text>Pistolet personnalisé fabriqué par le légendaire fabricant d'armes haut de gamme Korth. Pour certains passionnés d'armes à feu, cela suffit amplement à le définir. Les armes Korth sont peut-être surtout connues pour leurs étiquettes de prix que la plupart des gens associeraient plus facilement à des voitures allemandes qu'à des armes allemandes, bien que le point d'entrée soit bien plus accessible. En résumé, les armes Korth sont légendaires.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Allemagne\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Korth Waffen\n
+		</text>
+	</string>
+
+<!--Also overwrites 'pl15_tan'-->
+	<string id="st_wpn_pl15">
+		<text>Lebedev PL-15</text>
+	</string>
+	<string id="st_wpn_pl15_descr">
+		<text>Pistolet semi-automatique russe à recul, à culasse verrouillée, utilisant un système de verrouillage à came modifié dérivé du Browning Hi-Power. Conçu pour un usage policier et militaire, le PL-15 met l'accent sur l'ergonomie et la sécurité.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Kalashnikov Concern\n
+		</text>
+	</string>
+
+<!--Also overwrites 'pl15_tan_pl15_scolaz'-->
+	<string id="st_wpn_pl15_pl15_scolaz">
+		<text>Lebedev PL-15 « Bearcat »</text>
+	</string>
+	<string id="st_wpn_pl15_pl15_scolaz_descr">
+		<text>Pistolet semi-automatique russe à recul, à culasse verrouillée, utilisant un système de verrouillage à came Browning modifié, adapté du pistolet Browning Hi-Power. Conçu pour un usage policier et militaire, le PL-15 met l'accent sur l'ergonomie et la sécurité. Le modèle « Bearcat » est équipé d'une lunette Aimpoint T1 et d'un désignateur laser, ainsi que de nombreuses autres modifications internes. Ce n'est pas qu'une simple arme de poing.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Kalashnikov Concern\n
+		%c[d_orange] • %c[0,255,255,255] Amélioration de kit tactique\n
+		</text>
+	</string>
+		
+	<string id="st_wpn_pm_bas">
+	      <text>Makarov PM</text>
+	</string>
+	<string id="st_wpn_pm_bas_descr">
+		<text>Héritage soviétique, ce pistolet compact de défense personnelle est l'un des meilleurs disponibles. Petit, extrêmement fiable, facile à utiliser et à entretenir, le Pistolet Makarov a été choisi pour sa simplicité, sa facilité de fabrication, sa précision et sa puissance d'arrêt raisonnable. Malheureusement, il est surpassé par les pistolets modernes de sa catégorie en termes de poids, de capacité du chargeur et de performances générales.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Izhevsk Mechanical Plant\n
+		</text>
+	</string>
+
+	<string id="st_wpn_pm_bas_custom">
+		<text>Makarov PM Custom</text>
+	</string>
+	<string id="st_wpn_pm_bas_custom_descr">
+		<text>Héritage soviétique, ce pistolet est l'une des meilleures armes de défense compactes disponibles. Petit, extrêmement fiable, facile à utiliser et à entretenir, le Pistolet Makarov a été choisi pour sa simplicité, sa facilité de fabrication, sa précision et son pouvoir d'arrêt raisonnable. Malheureusement, il est surpassé par les pistolets modernes de sa catégorie en termes de poids, de capacité du chargeur et de performance générale. La version Custom inclut un canon fileté et des organes de visée au tritium.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Izhevsk Mechanical Plant\n
+		</text>
+	</string>
+
+	<string id="st_wpn_pm_bas_actor">
+		<text>Makarov PM « Mythic »</text>
+	</string>
+	<string id="st_wpn_pm_bas_actor_descr">
+		<text>Héritage soviétique, ce pistolet compact est l'une des meilleures armes de défense personnelle disponibles. Petit, extrêmement fiable, facile à utiliser et à entretenir, le Pistolet Makarov a été choisi pour sa simplicité, sa facilité de fabrication, sa précision et sa puissance d'arrêt raisonnable. Cependant, il est surpassé par les pistolets modernes de sa catégorie en termes de poids, de capacité de chargeur et de performance générale. Certains affirment que ce pistolet a été fabriqué lors d'une série limitée de PM. D'autres soutiennent qu'il s'agit d'une amélioration artisanale. Quelle que soit la vérité, c'est une arme de qualité, équipée d'un canon préfileté pour une installation facile de silencieux.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Izhevsk Mechanical Plant\n
+		</text>
+	</string>
+
+	<string id="st_wpn_pmm_bas">
+		<text>Makarov PMM</text>
+	</string>
+	<string id="st_wpn_pmm_bas_descr">
+		<text>Une refonte du légendaire Makarov, le PMM utilise une augmentation de 25 % de la pression des gaz pour accroître significativement la vitesse initiale et dispose d'un chargeur de 12 cartouches tout en conservant la simplicité, la facilité de fabrication et la précision du PM. Cependant, même avec ces améliorations réduisant légèrement l'écart avec les pistolets modernes, il reste en retrait en termes de poids et de performance générale. Ce modèle est équipé d'un canon fileté.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Izhevsk Mechanical Plant\n
+		</text>
+	</string>
+
+	<string id="st_wpn_pb_bas">
+		<text>PB</text>
+	</string>
+	<string id="st_wpn_pb_bas_custom">
+		<text>PB</text>
+	</string>
+	<string id="st_wpn_pb_bas_descr">
+		<text>Le PB (Pistolet Besshumnyj ou Pistolet Silencieux) a été développé en 1967 pour les unités Spetsnaz de l'Armée soviétique et les agents du KGB. Le pistolet est basé sur une version modifiée du Makarov PM et dispose d'un silencieux intégré en deux parties qui réduit la vitesse de la balle à des niveaux subsoniques.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Belgique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]FN Herstal\n
+		</text>
+	</string>
+
+	<string id="st_wpn_sr1m">
+		<text>Serdyukov SR1M Gyurza</text>
+	</string>
+	<string id="st_wpn_sr1m_descr">
+		<text>Pistolet semi-automatique conçu comme un analogue du célèbre Beretta italien pour l'armée russe. Cependant, les concepteurs ont décidé de rendre leur future création plus puissante et plus efficace en combat rapproché. Le résultat a dépassé leurs plus grandes attentes, car le SR-1 Gyurza nouvellement arrivé a été immédiatement adopté par les Services fédéraux de protection.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Institut TsNIITochMash\n
+		</text>
+	</string>
+
+<!--Also overwrites 'sr1m_gurza_up'-->	
+		<string id="st_wpn_sr1m_sr1upgr1">
+		<text>Serdyukov SR1M Gyurza Custom</text>
+	</string>
+	<string id="st_wpn_sr1m_sr1upgr1_descr">
+		<text>Pistolet semi-automatique conçu comme un analogue du célèbre Beretta italien pour l'armée russe. Cependant, les concepteurs ont décidé de rendre leur création plus puissante et plus efficace en combat rapproché. Le résultat a dépassé toutes leurs attentes, puisque le SR-1 Gyurza nouvellement arrivé a été immédiatement adopté par les Services fédéraux de protection. Comprend un canon fileté et un désignateur laser.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Institut TsNIITochMash\n
+		%c[d_orange] • %c[0,255,255,255] Amélioration de kit tactique\n
+		</text>
+	</string>
+
+	<string id="st_wpn_sig220_n">
+		<text>SIG P220</text>
+	</string>
+	<string id="st_wpn_sig220_n_descr">
+		<text>Souvent considéré comme le meilleur pistolet double action en calibre .45 disponible dès sa sortie d'usine, le P220 est réputé pour sa précision comparable à celle des pistolets de compétition. Un succès immédiat, il a été adopté par les forces spéciales suisses et japonaises ainsi que par de nombreuses organisations policières européennes.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Allemagne de l'Ouest, Suisse\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]SIG Sauer\n
+		</text>
+	</string>
+
+	<string id="st_wpn_sig220_n_u2p2g0r">
+		<text>SIG P220 « Stalker »</text>
+	</string>
+	<string id="st_wpn_sig220_n_u2p2g0r_descr">
+		<text>Souvent considéré comme le meilleur pistolet double action en calibre .45 disponible dès sa sortie d'usine, le P220 est reconnu pour sa précision comparable à celle des pistolets de compétition. Un succès immédiat, il a été adopté par les forces de défense suisses et japonaises ainsi que par de nombreuses organisations policières européennes. La version « Custom Nine » est équipée d'un canon fileté, de viseurs au tritium, d'un désignateur laser et d'un chargeur de 19 cartouches, parmi d'autres modifications internes diverses.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Allemagne de l'Ouest, Suisse\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]SIG Sauer\n
+		%c[d_orange] • %c[0,255,255,255] Amélioration de kit tactique\n
+		</text>
+	</string>
+
+	<string id="st_wpn_sig220_n_upg220">
+		<text>SIG P220 « XXX »</text>
+	</string>
+	<string id="st_wpn_sig220_n_upg220_descr">
+		<text>Souvent considéré comme le meilleur pistolet double action en calibre .45 disponible dès sa sortie d'usine, le P220 est réputé pour sa précision comparable à celle des pistolets de compétition. Succès immédiat, il a été adopté par les forces de défense suisses et japonaises ainsi que par de nombreuses organisations policières européennes. Le modèle « XXX » comprend un canon fileté, des organes de visée au tritium, un désignateur laser et un chargeur de 12 cartouches, ainsi que diverses autres modifications internes.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Allemagne de l'Ouest, Suisse\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]SIG Sauer\n
+		%c[d_orange] • %c[0,255,255,255] Amélioration de kit tactique\n
+		</text>
+	</string>
+
+	<string id="st_wpn_sig226">
+		<text>SIG P226R</text>
+	</string>
+	<string id="st_wpn_sig226_descr">
+		<text>Le P226 a établi la norme par laquelle tous les autres pistolets de combat sont mesurés. Utilisé aux côtés des Navy SEALs américains pendant des décennies et ayant servi sur tous les théâtres d'opérations, sa précision et sa fiabilité lui ont valu la réputation de meilleur pistolet de combat.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Allemagne, Suisse\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]SIG Sauer\n
+		</text>
+	</string>
+
+	<string id="st_wpn_sig226_226sig_kit">
+		<text>SIG P226R Custom</text>
+	</string>
+	<string id="st_wpn_sig226_226sig_kit_descr">
+		<text>Le P226 a établi la norme à laquelle tous les autres pistolets de combat sont mesurés. Utilisé aux côtés des Navy SEALs américains pendant des décennies et ayant servi sur tous les théâtres d'opération, sa précision et sa fiabilité lui ont valu la réputation de pistolet de combat par excellence. Ce modèle personnalisé dispose d'un canon fileté, de plaques de poignée ergonomiques et d'une visée optique avec plaque de montage.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Allemagne, Suisse\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]SIG Sauer\n
+		%c[d_orange] • %c[0,255,255,255] Amélioration de kit tactique\n
+		</text>
+	</string>
+
+	<string id="st_wpn_usp_tac">
+        <text>USP Match « Overwatch »</text>
+    </string>
+    <string id="st_wpn_usp_tac_descr">
+		<text>Pistolet semi-automatique conçu comme une amélioration de l'USP, doté d'un prolongement de canon alourdi, d'un rayage polygonal et d'une détente réglable améliorant la précision et les performances de l'arme. Utilisé par les forces spéciales et les tireurs sportifs du monde entier, l'USP Match est considéré comme une arme haut de gamme capable de rivaliser avec l'élite. Le modèle personnalisé comprend un canon fileté et un chargeur étendu de 22 cartouches.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Allemagne\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Heckler &amp; Koch\n
+		%c[d_orange] • %c[0,255,255,255] kit tactique de mise à niveau\n
+		</text>
+    </string>
+
+	<string id="st_wpn_walther_p99">
+		<text>Walther P99</text>
+	</string>
+	<string id="st_wpn_walther_p99_descr">
+		<text>Héritage et innovation se rencontrent pour créer l'un des pistolets les plus emblématiques et influents de l'histoire de Walther. Performant et riche en fonctionnalités, le P99 est rapidement devenu l'un des pistolets les plus fiables des forces de l'ordre à travers le monde.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Allemagne\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Carl Walther GmbH Sportwaffen\n
+		</text>
+	</string>
+
+	<string id="st_wpn_walther_p99_mod9">
+		<text>Walther P99 Custom</text>
+	</string>
+	<string id="st_wpn_walther_p99_mod9_descr">
+		<text>L'héritage et l'innovation se rencontrent pour créer l'un des pistolets les plus emblématiques et influents de l'histoire de Walther. Performant et riche en fonctionnalités, le P99 est rapidement devenu l'un des pistolets les plus fiables des forces de l'ordre à travers le monde. Il inclut un canon fileté, des organes de visée au tritium et un désignateur laser.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Allemagne\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Carl Walther GmbH Sportwaffen\n
+		%c[d_orange] • %c[0,255,255,255] kit tactique de mise à niveau\n
+		</text>
+	</string>
+
+<!--
+	SHOTGUNS
+-->
+
+	<string id="st_wpn_saiga12s_isg">
+		<text>KS-12</text>
+	</string>
+	<string id="st_wpn_saiga12s_isg_descr">
+		<text>Fusil à pompe semi-automatique fabriqué aux États-Unis, mais basé sur la populaire ligne de fusils de chasse Saiga russes. Le système à gaz à longue course du légendaire AK-47 a été repris sur le KS-12 et assure un fonctionnement fiable dans des conditions environnementales extrêmes. Ce modèle inclut un mécanisme de détente permettant des rafales de deux coups.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis, Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Kalashnikov USA\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ks23">
+		<text>KS-23</text>
+	</string>
+	<string id="st_wpn_ks23_descr">
+		<text>Au coeur de sa conception, le KS-23 est une « carabine » à action manuelle et à pompe tirant des cartouches uniques de 23 mm. Bien que son apparence ressemble davantage à celle d'un fusil de chasse, les Russes ont désigné le KS-23 comme une « Carabine Spéciale » en raison de son canon rayé de 700 mm de gros calibre, comparé aux canons lisses des fusils de chasse conventionnels.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Usine d'armement de Toula\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ks23_23_up">
+		<text>KS-23 Shortie</text>
+	</string>
+	<string id="st_wpn_ks23_23_up_descr">
+		<text>Au coeur de sa conception, le KS-23 est une « carabine » à action manuelle et à pompe tirant des munitions uniques de 23 mm. Bien qu'il présente une apparence similaire à un fusil de chasse, les Russes l'ont désigné comme une « carabine spéciale » en raison de son canon rayé de 700 mm de gros calibre, comparé aux canons lisses des fusils de chasse conventionnels. Le modèle « Shortie » dispose d'un canon réduit à 510 mm.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Usine d'armement de Toula\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ks23_kaban">
+		<text>KS-23M Drozd</text>
+	</string>
+	<string id="st_wpn_ks23_kaban_descr">
+		<text>Au coeur de sa conception, le KS-23 est une « carabine » à action manuelle et à pompe tirant des munitions uniques de 23 mm. Bien que son apparence rappelle davantage celle d'un fusil de chasse, les Russes l'ont désigné comme une « Carabine Spéciale » en raison de son canon rayé de gros calibre de 700 mm comparé aux canons lisses des fusils de chasse conventionnels. Le Drozd est une version plus compacte du KS-23, dotée d'un canon réduit à 510 mm et d'une poignée pistolet à la place de la crosse fixe standard.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Usine d'armement de Toula\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ks23_kaban_kab_up">
+		<text>KS-23M Drozd « Sanglier »</text>
+	</string>
+	<string id="st_wpn_ks23_kaban_kab_up_descr">
+		<text>Au coeur de sa conception, le KS-23 est une « carabine » à action manuelle et à pompe tirant des munitions uniques de 23 mm. Bien que son apparence soit plus proche de celle d'un fusil de chasse, les Russes ont désigné le KS-23 comme une « carabine spéciale » en raison de son canon rayé de gros calibre, comparé aux canons lisses des fusils de chasse conventionnels. Le Drozd est une version plus compacte du KS-23, dotée d'un canon réduit à 510 mm et d'une poignée pistolet en remplacement de la crosse standard. Le « Sanglier » est équipé d'un canon fileté pour l'ajout d'un silencieux et d'un viseur reflex pour une meilleure acquisition des cibles.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Usine d'armement de Toula\n
+		%c[d_orange] • %c[0,255,255,255] kit tactique de mise à niveau\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ks23_ecolog">
+		<text>KS-23 Eco</text>
+	</string>
+	<string id="st_wpn_ks23_ecolog_descr">
+		<text>Au coeur de sa conception, le KS-23 est une « carabine » à action manuelle et à pompe tirant des munitions uniques de 23 mm. Bien que son apparence rappelle davantage celle d'un fusil de chasse, les Russes l'ont désigné comme une « Carabine Spéciale » en raison de son canon rayé de gros calibre comparé aux canons lisses des fusils de chasse conventionnels. La version « Eco » a été spécifiquement modifiée pour répondre aux besoins du personnel scientifique présent dans la Zone.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Usine d'armement de Toula\n
+		</text>
+	</string>
+
+	<string id="st_wpn_mp133_bas">
+		<text>MP-133</text>
+	</string>
+	<string id="st_wpn_mp133_bas_descr">
+		<text>Évolution du précédent fusil à pompe IZh-81, le MP-133 a été conçu pour les marchés civils et de sécurité comme une arme de chasse et de défense personnelle fiable et pratique.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Izhmekh Mechanical Plant\n
+		</text>
+	</string>
+
+	<string id="st_wpn_mp153_bas">
+		<text>MP-153</text>
+	</string>
+	<string id="st_wpn_mp153_bas_descr">
+		<text>Premier fusil de chasse semi-automatique conçu et fabriqué par l'usine mécanique d'Ijevsk, le MP-153 est l'un des fusils de chasse semi-automatiques d'origine russe les plus populaires et est largement utilisé pour la chasse de divers gibiers. Développé parallèlement au fusil à pompe MP-133, il partage de nombreuses pièces avec ce dernier et est reconnu pour sa fiabilité et sa construction solide et lourde.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Izhmekh Mechanical Plant\n
+		</text>
+	</string>
+
+    <string id="st_wpn_mp153_m1">
+        <text>MP-153 « Carabineer »</text>
+    </string>
+    <string id="st_wpn_mp153_m1_descr">
+		<text>Premier fusil semi-automatique conçu et fabriqué par l'Usine Mécanique d'Ijevsk, le MP-153 est l'un des fusils semi-automatiques d'origine russe les plus populaires et est largement utilisé pour la chasse de divers gibiers. Développé parallèlement au fusil à pompe MP-133, il partage de nombreuses pièces avec ce dernier et est reconnu pour sa fiabilité et sa construction solide et lourde. La version « Carabineer » inclut un frein de bouche et un rail Picatinny.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Izhmekh Mechanical Plant\n
+		</text>
+    </string>
+
+	<string id="st_wpn_saiga12s">
+		<text>Saiga-12</text>
+	</string>
+	<string id="st_wpn_saiga12s_descr">
+		<text>Fusil de combat de calibre 12 reconnaissable à sa conception Kalashnikov, destiné à engager des cibles à courte distance ou dans des espaces confinés. Réputé pour son efficacité et sa létalité, il a remplacé l'Armsel Protecta pour le contrôle des émeutes et le combat d'infanterie en Russie.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Izhmash\n
+		</text>
+	</string>
+
+	<string id="st_wpn_saiga12s_m2">
+		<text>Saiga-12 « Merc »</text>
+	</string>
+	<string id="st_wpn_saiga12s_m2_descr">
+		<text>Fusil de combat de calibre 12 reconnaissable à sa conception inspirée du Kalachnikov, destiné à engager des cibles à courte distance ou dans des espaces confinés. Réputé pour son efficacité et sa létalité, il a remplacé l'Armsel Protecta pour le contrôle des émeutes et les combats d'infanterie en Russie. Ce modèle inclut un compensateur et a été fabriqué et largement modifié sur demande pour un membre inconnu des mercenaires. La qualité de fabrication est absolument exceptionnelle.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Izhmash\n
+		</text>
+	</string>
+
+	<string id="st_wpn_saiga12s_m1">
+		<text>Saiga-12 « Nerd »</text>
+	</string>
+	<string id="st_wpn_saiga12s_m1_descr">
+		<text>Fusil de combat de calibre 12 reconnaissable à sa conception inspirée du Kalachnikov, destiné à engager des cibles à courte distance ou dans des espaces confinés. Réputé pour son efficacité et sa létalité, il a remplacé l'Armsel Protecta pour le contrôle des émeutes et les combats d'infanterie en Russie. Le modèle « Nerd » a été modifié spécifiquement pour le personnel scientifique au sein de la Zone et suscite souvent l'envie des Stalkers expérimentés.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Izhmash\n
+		</text>
+	</string>
+
+    <string id="st_wpn_toz106">
+        <text>TOZ-106</text>
+    </string>
+    <string id="st_wpn_toz106_descr">
+		<text>Connu sous son appellation vernaculaire, la Mort du Président, en raison de sa taille compacte, le TOZ-106 est un fusil de chasse calibre 20 à un coup, à culasse à boulon et équipé d'un boulon coulissant.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Tulsky Oruzheiny Zavod\n
+		</text>
+    </string>
+
+    <string id="st_wpn_toz106_m1">
+        <text>TOZ-106</text>
+    </string>
+    <string id="st_wpn_toz106_m1_descr">
+		<text>Connu sous son appellation vernaculaire, la Mort du Président, en raison de sa taille compacte, le TOZ-106 est un fusil de chasse calibre 20 à un coup, à culasse à boulon et équipé d'un boulon coulissant. Il dispose d'un chargeur étendu de 4 cartouches.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Tulsky Oruzheiny Zavod\n
+		</text>
+    </string>
+
+<!--
+	SMGS
+-->
+
+<!--
+	RIFLES
+-->
+	<string id="st_wpn_adar2_15">
+		<text>ADAR 2-15</text>
+	</string>
+	<string id="st_wpn_adar2_15_descr">
+		<text>Carabine civile russe produite à Saint-Pétersbourg et basée sur la conception de l'AR-15. Comme c'est le cas pour de nombreuses autres entreprises fabriquant des AR-15, ADAR ne produit pas réellement ces carabines, mais les assemble à partir de pièces provenant de divers fabricants. \n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Molot Oruzhie\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ak5c_bas">
+		<text>AK 5C</text>
+	</string>
+	<string id="st_wpn_ak5c_bas_descr">
+		<text>Version du fusil d'assaut FN FNC fabriquée pour les Forces armées suédoises et modifiée pour s'adapter au climat partiellement subarctique de la Suède. L'AK 5C est la version modernisée de l'AK 5 original, avec des améliorations incluant un nouveau système de rail, des organes de visée métalliques et un loquet de boulon.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Suède\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Carl Gustafs Stads Gevärsfaktori\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ak5c_isg">
+		<text>AK 5C « ISG »</text>
+	</string>
+	<string id="st_wpn_ak5c_isg_descr">
+		<text>Une version du fusil d'assaut FN FNC fabriquée pour les Forces armées suédoises et modifiée pour s'adapter au climat partiellement subarctique de la Suède. L'AK 5C est la version modernisée de l'AK 5 original, avec des améliorations incluant un nouveau système de rail, des organes de visée métalliques et un loquet de boulon. Ce modèle a été modifié.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Suède\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Carl Gustafs Stads Gevärsfaktori\n
+		</text>
+	</string>
+	
+	<string id="st_wpn_ak5c_bas_5c_tik">
+		<text>AK 5C « ISG Special »</text>
+	</string>
+	<string id="st_wpn_ak5c_bas_5c_tik_descr">
+		<text>Une version du fusil d'assaut FN FNC fabriquée pour les Forces armées suédoises et modifiée pour s'adapter au climat partiellement subarctique de la Suède. L'AK 5C est la version modernisée de l'AK 5 original, avec des améliorations incluant un nouveau système de rail, des organes de visée métalliques et un loquet de boulon. Ce modèle a été largement modifié.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Suède\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Carl Gustafs Stads Gevärsfaktori\n
+		</text>
+	</string>	
+
+	<string id="st_wpn_akm_alfa">
+    	<text>AK Alfa</text>
+  	</string>
+  	<string id="st_wpn_akm_alfa_descr">
+		<text>Développé par une équipe d'ingénieurs et de tireurs d'élite triés sur le volet de l'armée israélienne, l'AK Alfa a été conçu sur la base de l'AK et repensé dans le seul but d'offrir des performances exceptionnelles sur le champ de bataille, en améliorant l'ergonomie du fusil AK tout en conservant sa fiabilité et sa facilité d'entretien. \n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis, Israël\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]CAA Tactical\n
+		</text>
+  	</string>
+
+	<string id="st_wpn_ak12_m1">
+        <text>AK-12</text>
+    </string>
+    <string id="st_wpn_ak12_m1_descr">
+		<text>Fusil d'assaut standard de l'armée russe, conçu pour remplacer les anciens modèles AK-74M et de la série AK-100. Ce modèle représente l'aboutissement du développement du système AK, se distinguant des générations précédentes par son ergonomie élaborée, son utilisation tout au long de la journée et sa précision accrue. Capable d'un mode de tir en hyperrafale.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Izhmash\n
+		</text>
+    </string>
+
+	<string id="st_wpn_ak12">
+		<text>AK-12</text>
+	</string>
+	<string id="st_wpn_ak12_descr">
+		<text>Fusil d'assaut standard de l'armée russe, conçu pour remplacer les anciens modèles AK-74M et de la série AK-100. Ce modèle représente l'aboutissement du développement du système AK, se distinguant des générations précédentes par son ergonomie élaborée, son utilisation tout au long de la journée et sa précision accrue. Capable d'un mode de tir en hyperrafale.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Izhmash\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ak12_custom">
+        <text>AK-12 « Monolithe »</text>
+    </string>
+    <string id="st_wpn_ak12_custom_descr">
+		<text>Fusil d'assaut standard de l'armée russe, conçu pour remplacer les anciens modèles AK-74M et de la série AK-100. Ce modèle représente l'aboutissement du développement du système AK, se distinguant des générations précédentes par son ergonomie élaborée, son utilisation optimale en toutes conditions et sa précision accrue. Capable d'un mode de tir en hyperrafale. Ce modèle est rarement rencontré et se trouve souvent entre les mains des membres du Monolithe. Il est équipé d'un chargeur étendu et d'une poignée avant verticale pour une meilleure stabilité.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Izhmash\n
+		</text>
+    </string>
+
+    <string id="st_wpn_ak12_mono_kit">
+		<text>AK-12 « Monolithe’s Light »</text>
+    </string>
+    <string id="st_wpn_ak12_mono_kit_descr">
+		<text>Fusil d'assaut standard de l'armée russe, conçu pour remplacer les anciens modèles AK-74M et de la série AK-100. Ce modèle représente l'aboutissement du développement du système AK, se distinguant des générations précédentes par son ergonomie élaborée, son utilisation optimale en toutes conditions et sa précision accrue. Capable d'un mode de tir en hyperrafale. Ce modèle est très rarement rencontré et se trouve souvent entre les mains de hauts gradés du Monolithe. Doté d'un chargeur de grande capacité, d'une lunette ACOG, d'un désignateur laser et d'un ensemble de modifications internes équivalant à une tablette, le « Monolith's Light » est l'apogée de l'armement monolithien.\n \n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Izhmash\n
+		%c[d_orange] • %c[0,255,255,255] kit tactique de mise à niveau\n
+		</text>
+    </string>
+
+	<string id="st_wpn_ak74_n">
+		<text>AK-74</text>
+	</string>
+    <string id="st_wpn_ak74_n_descr">
+		<text>Développé au début des années 1970 par Mikhail Kalashnikov pour remplacer l'AKM, l'AK-74 est une adaptation du fusil d'assaut AKM en 7,62x39 mm et intègre plusieurs améliorations de conception importantes, notamment l'utilisation de la nouvelle munition à haute vélocité 5,45x39 mm. Comparé à l'AKM précédent, il offre une meilleure portée effective, une précision et une fiabilité accrues.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Izhmash\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ak74_pmc">
+		<text>AK-74 « PMC »</text>
+	</string>
+	<string id="st_wpn_ak74_pmc_descr">
+		<text>Développé au début des années 1970 par Mikhaïl Kalachnikov pour remplacer l'AKM, l'AK-74 est une adaptation du fusil d'assaut AKM en calibre 7,62x39 mm et intègre plusieurs améliorations de conception importantes, notamment l'utilisation de la nouvelle cartouche à haute vélocité 5,45x39 mm. Comparé à l'AKM précédent, il offre une meilleure portée effective, une précision et une fiabilité accrues. La version « PMC » inclut un désignateur laser, une poignée avant verticale et un frein de bouche, en plus d'une série de modifications internes.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Izhmash\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ak74m_n">
+		<text>AK-74M</text>
+	</string>
+    <string id="st_wpn_ak74m_n_descr">
+		<text>Version améliorée de l'AK-74 et fusil de service de la Fédération de Russie, conçu avec des matériaux modernes et composites pour réduire significativement le poids et améliorer la précision. Chaque AK-74M est équipé d'un rail latéral pour le montage d'optiques.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Kalashnikov Concern\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ak74m_beard">
+		<text>AK-74M « Venom »</text>
+	</string>
+	<string id="st_wpn_ak74m_beard_descr">
+		<text>Version améliorée de l'AK-74 et fusil de service de la Fédération de Russie, conçu avec des matériaux modernes et composites pour réduire significativement le poids et améliorer la précision. Chaque AK-74M est équipé d'un rail latéral pour le montage d'optiques. Le « Venom » a été fabriqué à Skadovsk et à la gare de Yanov sur demande de Barbu pour une variante légère et fiable de l'AK-74M. Il est équipé d'un désignateur laser, d'un chargeur étendu et a été optimisé pour une meilleure fiabilité dans les conditions difficiles de la Zone.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Kalashnikov Concern\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ak74u_n1">
+		<text>AKS-74U</text>
+	</string>
+	<string id="st_wpn_ak74u_n1_descr">
+		<text>L'AKS-74U comble l'écart tactique entre un pistolet-mitrailleur et un fusil d'assaut et a été conçu comme une alternative automatique compacte mais relativement puissante à l'AKS-74. Il est significativement plus léger et plus maniable dans les espaces confinés, tout en conservant la fiabilité d'un Kalachnikov.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Kalashnikov Concern\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ak74u_tac">
+		<text>AKS-74U « Tactician »</text>
+	</string>
+	<string id="st_wpn_ak74u_tac_descr">
+		<text>L'AKS-74U comble le fossé tactique entre un pistolet-mitrailleur et un fusil d'assaut et a été conçu comme une alternative automatique compacte mais relativement puissante au AKS-74. Il est significativement plus léger et plus maniable dans les espaces restreints tout en conservant la fiabilité d'un Kalachnikov. Ce modèle a été largement modifié, incluant notamment une poignée avant verticale, un chargeur prolongé et un désignateur laser. Ses performances sont exceptionnelles.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Kalashnikov Concern\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ak104_alfa">
+    	<text>AK-104 « Alpha »</text>
+  	</string>
+  	<string id="st_wpn_ak104_alfa_descr">
+		<text>Version compacte du fusil AK-103, dotée d'un canon raccourci. Le fusil est conçu avec des matériaux modernes et composites afin de réduire significativement le poids et d'améliorer la précision. L'« Alpha » dispose d'un rail Picatinny multipoints et d'une poignée avant verticale, parmi une multitude d'autres modifications internes. Cette arme a mérité son nom.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Kalashnikov Concern\n
+		</text>
+  	</string>
+
+	<string id="st_wpn_ak105">
+		<text>AK-105</text>
+	</string>
+	<string id="st_wpn_ak105_descr">
+		<text>Version carabine du fusil AK-74M, l'AK-105, comme l'AK-104, dispose d'un canon raccourci et est idéal pour le combat rapproché. Le fusil est conçu avec des matériaux modernes et composites afin de réduire significativement le poids et d'améliorer la précision.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Izhmash\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ak105_shakal">
+		<text>AK-105 « Shakal »</text>
+	</string>
+	<string id="st_wpn_ak105_shakal_descr">
+		<text>Une version carabine du fusil AK-74M, l'AK-105, comme l'AK-104, dispose d'un canon raccourci et est idéale pour le combat rapproché. Le fusil est conçu avec des matériaux modernes et composites afin de réduire significativement son poids et d'améliorer sa précision. Ce modèle a été largement modifié.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Izhmash\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ak105_sp">
+		<text>AK-105 « Specialist »</text>
+	</string>
+	<string id="st_wpn_ak105_sp_descr">
+		<text>Version carabine du fusil AK-74M, l'AK-105, comme l'AK-104, dispose d'un canon raccourci et est idéal pour le combat rapproché. Le fusil est conçu avec des matériaux modernes et composites pour réduire significativement le poids et améliorer la précision. Le modèle « Specialist » est le rêve d'un tacticien, doté d'une crosse pliable, d'une visée inclinée, d'une poignée avant verticale et d'une multitude de modifications internes.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Izhmash\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ak105_swamp">
+		<text>AK-105 « Swamp Thing »</text>
+	</string>
+	<string id="st_wpn_ak105_swamp_descr">
+		<text>Version carabine du fusil AK-74M, l'AK-105, comme l'AK-104, dispose d'un canon raccourci et est idéal pour le combat rapproché. Le fusil est conçu avec des matériaux modernes et composites pour réduire significativement le poids et améliorer la précision. Une arme monstrueuse, la version « Swamp Thing » est équipée d'une lunette Elcan, d'un viseur latéral, d'un module laser, d'un chargeur prolongé et d'une série de modifications supplémentaires pour rendre cette arme extrêmement maniable.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Izhmash\n
+		%c[d_orange] • %c[0,255,255,255] kit tactique de mise à niveau\n
+		</text>
+	</string>
+
+	<string id="st_wpn_akm_bas">
+		<text>AKM</text>
+	</string>
+	<string id="st_wpn_akm_bas_descr">
+		<text>Une version améliorée du fusil d'assaut AK-47, intégrant des améliorations et des optimisations détaillées pour une production de masse. Parmi ces modifications, le poids de l'AKM a été réduit, la précision en tir automatique a été augmentée et plusieurs problèmes de fiabilité ont été résolus.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Usine d'armement de Toula\n
+		</text>
+	</string>
+
+	<string id="st_wpn_akms_bas">
+		<text>AKMS</text>
+	</string>
+	<string id="st_wpn_akms_bas_descr">
+		<text>Version améliorée du fusil AK-47, intégrant des améliorations et des optimisations détaillées pour une production de masse. Parmi ces modifications, le poids de l'AKM a été réduit, la précision en tir automatique a été augmentée et plusieurs problèmes de fiabilité ont été résolus. Tous les fusils AKMS étaient équipés d'une crosse métallique repliable sous le canon, remplaçant la crosse fixe en bois.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Usine d'armement de Toula\n
+		</text>
+	</string>
+
+	<string id="st_wpn_abakan_n">
+		<text>AN-94</text>
+	</string>
+	<string id="st_wpn_abakan_n_descr">
+		<text>Conçu comme un remplaçant potentiel de la série de fusils AK-74, il n'a pas rempli son rôle en raison de sa conception complexe et de son coût élevé. Toujours utilisé comme arme spéciale à usage limité, l'AN-94 offre une fonction unique de rafale de deux coups à une cadence annoncée de 1800 coups par minute, avec la particularité de retarder le recul pour les deux premiers coups. Capable d'un mode de tir en hyperrafale.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Izhmash\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ar15_freedom">
+		<text>AR-15 HERA</text>
+	</string>
+	<string id="st_wpn_ar15_freedom_descr">
+		<text>Après l'expiration de la plupart des brevets de Colt pour l'AR-15 en 1977, de nombreux fabricants d'armes à feu ont commencé à produire des copies du Colt AR-15 sous divers noms. Malgré l'expiration des brevets, Colt a conservé la marque déposée de l'AR-15 et est le seul fabricant autorisé à étiqueter ses armes comme telles. Le HERA est une variante profondément modernisée créée par Hera Arms.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Hera Arms\n
+		</text>
+	</string>
+
+	<string id="st_wpn_val_tac">
+		<text>AS Val</text>
+	</string>
+	<string id="st_wpn_val_tac_descr">
+		<text>Conçu pour les unités spéciales soviétiques, l'AS Val est une arme à gaz, intégralement équipée d'un silencieux, destinée à remplacer les fusils AK-47 et AKM. Facile à démonter et à dissimuler, léger et confortable à tirer, le silencieux réduit la vitesse des projectiles en dessous des niveaux subsoniques. Aujourd'hui, l'AS Val est largement utilisé par les forces spéciales russes.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Usine d'armement de Toula\n
+		</text>
+	</string>
+
+	<string id="st_wpn_aug_a1_custom_bas">
+		<text>Steyr AUG A1</text>
+	</string>
+	<string id="st_wpn_aug_a1_custom_bas_descr">
+		<text>Le AUG (Armee-Universal-Gewehr) est l'arme légère standard de nombreuses forces armées et unités spéciales à travers le monde depuis 1977. Il est célèbre pour sa conception modulaire bullpup, qui en fait un fusil court, bien équilibré, doté d'une grande précision et fiabilité. La variante A1 est équipée d'une lunette intégrée de 1,5x.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Autriche\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Steyr Arms\n
+		</text>
+    </string>
+
+	<string id="st_wpn_scar_siber">
+		<text>FN SCAR-H</text>
+	</string>
+	<string id="st_wpn_scar_siber_descr">
+		<text>Au début de l'année 2004, l'USSOCOM a émis une demande de conception pour une famille de fusils d'assaut utilisant deux calibres différents tout en conservant des pièces et une ergonomie presque identiques ; ainsi est né le Special Operations Forces Combat Assault Rifle « SCAR ». Tirant la cartouche 7,62x51 mm OTAN, longue portée et puissante, le FN SCAR-H à tir sélectif utilise un système innovant à emprunt de gaz et piston à course courte pour réduire l'encrassement et améliorer la fiabilité.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Belgique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]FN Herstal, FN America\n
+		</text>
+	</string>
+
+	<string id="st_wpn_scar_siber_black">
+		<text>FN SCAR-H « Black »</text>
+	</string>
+	<string id="st_wpn_scar_siber_black_descr">
+		<text>Au début de l'année 2004, l'USSOCOM a émis une demande de conception pour une famille de fusils d'assaut utilisant deux calibres différents tout en conservant des pièces et une ergonomie presque identiques ; ainsi est né le Special Operations Forces Combat Assault Rifle « SCAR ». Tirant la cartouche 7,62x51 mm OTAN, longue portée et puissante, le FN SCAR-H à tir sélectif utilise un système innovant à emprunt de gaz et piston à course courte pour réduire l'encrassement et améliorer la fiabilité.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Belgique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]FN Herstal, FN America\n
+		</text>
+	</string>
+
+	<string id="st_wpn_scar_siber_m1">
+		<text>FN SCAR-H « Tactical »</text>
+	</string>
+	<string id="st_wpn_scar_siber_m1_descr">
+		<text>Au début de l'année 2004, l'USSOCOM a émis une demande de conception pour une famille de fusils d'assaut utilisant deux calibres différents tout en conservant des pièces et une ergonomie presque identiques ; ainsi est né le Special Operations Forces Combat Assault Rifle « SCAR ». Tirant la cartouche 7,62x51 mm OTAN, longue portée et puissante, le FN SCAR-H à tir sélectif utilise un système innovant à emprunt de gaz et piston à course courte pour réduire l'encrassement et améliorer la fiabilité. Ce modèle a été modifié.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Belgique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]FN Herstal, FN America\n
+		</text>
+	</string>
+
+	<string id="st_wpn_scar_siber_m2">
+		<text>FN SCAR-H « Expert Operator »</text>
+	</string>
+	<string id="st_wpn_scar_siber_m2_descr">
+		<text>Au début de l'année 2004, l'USSOCOM a émis une demande de conception pour une famille de fusils d'assaut utilisant deux calibres différents tout en conservant des pièces et une ergonomie presque identiques ; ainsi est né le Special Operations Forces Combat Assault Rifle « SCAR ». Tirant la cartouche 7,62x51 mm OTAN, longue portée et puissante, le FN SCAR-H à tir sélectif utilise un système innovant à emprunt de gaz et piston à course courte pour réduire l'encrassement et améliorer la fiabilité. Ce modèle a été modifié.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Belgique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]FN Herstal, FN America\n
+		</text>
+	</string>
+	
+	<string id="st_wpn_scar_siber_m2_custom">
+		<text>FN SCAR-H « Specialist Operator »</text>
+	</string>
+	<string id="st_wpn_scar_siber_m2_custom_descr">
+		<text>Au début de l'année 2004, l'USSOCOM a émis une demande de conception pour une famille de fusils d'assaut utilisant deux calibres différents tout en conservant des pièces et une ergonomie presque identiques ; ainsi est né le Special Operations Forces Combat Assault Rifle « SCAR ». Tirant la cartouche 7,62x51 mm OTAN, longue portée et puissante, le FN SCAR-H à tir sélectif utilise un système innovant à emprunt de gaz et piston à course courte pour réduire l'encrassement et améliorer la fiabilité. Ce modèle a été largement modifié.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Belgique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]FN Herstal, FN America\n
+		</text>
+	</string>
+
+	<string id="st_wpn_scar_siber_m1_black">
+		<text>FN SCAR-H « Tactical Black »</text>
+	</string>
+	<string id="st_wpn_scar_siber_m1_black_descr">
+		<text>Au début de l'année 2004, l'USSOCOM a émis une demande de conception pour une famille de fusils d'assaut utilisant deux calibres différents tout en conservant des pièces et une ergonomie presque identiques ; ainsi est né le Special Operations Forces Combat Assault Rifle « SCAR ». Tirant la cartouche 7,62x51 mm OTAN, longue portée et puissante, le FN SCAR-H à tir sélectif utilise un système innovant à emprunt de gaz et piston à course courte pour réduire l'encrassement et améliorer la fiabilité. Ce modèle a été modifié.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Belgique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]FN Herstal, FN America\n
+		</text>
+	</string>
+
+	<string id="st_wpn_howa20">
+		<text>Howa Type 20</text>
+	</string>
+	<string id="st_wpn_howa20_descr">
+		<text>Fusil d'assaut à fonctionnement par emprunt de gaz et à tir sélectif, semblant être un amalgame de nombreuses armes modernes telles que le FN SCAR-16, le SIG 516 et le HK 416, sans presque aucune caractéristique originale pour le distinguer. Cependant, cela n'est pas nécessairement un inconvénient, car les exigences typiques pour une arme militaire incluent la fiabilité, la durabilité, la facilité de maintenance et l'efficacité au combat, des critères que le Howa Type 20 remplit efficacement.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Japon\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Howa\n
+		</text>
+	</string>
+
+	<string id="st_wpn_l85_m1">
+		<text>L85A2</text>
+	</string>
+	<string id="st_wpn_l85_m1_descr">
+		<text>Reconnu pour sa fiabilité extrême et sa précision impressionnante, le L85A2 est l'arme standard des forces armées britanniques et une amélioration par rapport au L85A1, corrigeant de nombreux défauts de conception. Notamment, le A2 est extrêmement fiable dans divers climats et conditions adverses, ce qui lui permet d'être déployé dans divers scénarios opérationnels.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Royaume-Uni\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Royal Ordnance, Heckler &amp; Koch\n
+		</text>
+	</string>
+	
+	<string id="st_wpn_l85_m2">
+		<text>L85A2</text>
+	</string>
+	<string id="st_wpn_l85_m2_descr">
+		<text>Reconnu pour sa fiabilité extrême et sa précision impressionnante, le L85A2 est l'arme standard des forces armées britanniques et une amélioration par rapport au L85A1, corrigeant de nombreux défauts de conception. Notamment, le A2 est extrêmement fiable dans divers climats et conditions adverses, ce qui lui permet d'être déployé dans divers scénarios opérationnels.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Royaume-Uni\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Royal Ordnance, Heckler &amp; Koch\n
+		</text>
+	</string>
+
+	<string id="st_wpn_l85_m3">
+		<text>L85A2 « Tactical »</text>
+	</string>
+	<string id="st_wpn_l85_m3_descr">
+		<text>Reconnu pour sa fiabilité extrême et sa précision impressionnante, le L85A2 est l'arme standard des forces armées britanniques et une amélioration par rapport au L85A1, corrigeant de nombreux défauts de conception. Notamment, l'A2 est extrêmement fiable dans diverses conditions climatiques et adverses, ce qui lui permet d'être déployé dans divers scénarios opérationnels. Ce modèle a été modifié.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Royaume-Uni\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Royal Ordnance, Heckler &amp; Koch\n
+		</text>
+	</string>	
+
+	<string id="st_wpn_m4a1_siber">
+		<text>M4A1</text>
+	</string>
+	<string id="st_wpn_m4a1_siber_descr">
+		<text>Le M4 Carbine descend d'une famille d'armes à feu dont la lignée remonte à l'AR-15 original d'ArmaLite. Il s'agit d'un fusil à gaz, refroidi par air, à tir sélectif, partageant 80 % de ses pièces avec le fusil d'assaut M16, bien qu'il soit notablement plus court et plus léger. Il a été adopté par le United States Special Operations Command (USSOCOM) et est l'arme de prédilection des forces spéciales de l'armée américaine et des Navy SEALs. La variante A1 a renforcé le canon et remplacé le sélecteur de tir en rafale par une option entièrement automatique.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Colt's Manufacturing Company\n
+		</text>
+	</string>
+
+	<string id="st_wpn_m4_butcher">
+		<text>M4A1 « Butcher »</text>
+	</string>
+	<string id="st_wpn_m4_butcher_descr">
+		<text>Le M4 Carbine descend d'une famille d'armes à feu dont la lignée remonte à l'AR-15 original d'ArmaLite. Il s'agit d'un fusil à gaz, refroidi par air, à tir sélectif, partageant 80 % de ses pièces avec le fusil d'assaut M16, bien qu'il soit notablement plus court et plus léger. Il a été adopté par le United States Special Operations Command (USSOCOM) et est l'arme de prédilection des forces spéciales de l'armée américaine et des Navy SEALs. La variante A1 a renforcé le canon et remplacé le sélecteur de tir en rafale par une option entièrement automatique. Le « Butcher » est une monstruosité conçue pour un feu soutenu et ininterrompu.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Colt's Manufacturing Company\n
+		</text>
+	</string>
+
+	<string id="st_wpn_m4_tac">
+		<text>M4A1 « Protector »</text>
+	</string>
+	<string id="st_wpn_m4_tac_descr">
+		<text>Le M4 Carbine descend d'une famille d'armes à feu dont la lignée remonte à l'AR-15 original d'ArmaLite. Il s'agit d'un fusil à gaz, refroidi par air, à tir sélectif, partageant 80 % de ses pièces avec le fusil d'assaut M16, bien qu'il soit notablement plus court et plus léger. Il a été adopté par le United States Special Operations Command (USSOCOM) et est l'arme de prédilection des forces spéciales de l'armée américaine et des Navy SEALs. La variante A1 a renforcé le canon et remplacé le sélecteur de tir en rafale par une option entièrement automatique. Ce modèle a subi de nombreuses modifications, incluant, mais sans s'y limiter, une poignée avant verticale, un chargeur étendu et un rail Picatinny multipoints. Ses performances sont exceptionnelles.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Colt's Manufacturing Company\n
+		</text>
+	</string>
+
+		<string id="st_wpn_pkm_zenit_siber">
+		<text>PKM « Zenit »</text>
+	</string>
+	<string id="st_wpn_pkm_zenit_siber_descr">
+		<text>Version modernisée et améliorée de la PK, les améliorations du PKM visaient principalement à réduire le poids, à faciliter son utilisation et à simplifier la production. Mitrailleuse très fiable, elle reste utilisée comme arme de première ligne pour l'infanterie et montée sur véhicules au sein des forces armées russes. Ce modèle a été modifié manuellement pour inclure un chargeur de munitions élargi. Ce modèle a été largement modifié.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Zenit\n
+		</text>
+	</string>
+	
+		<string id="st_wpn_pkp_siber">
+		<text>PKP Pecheneg</text>
+	</string>
+	<string id="st_wpn_pkp_siber_descr">
+		<text>Version modernisée de la mitrailleuse PKM, chambrée pour la munition 7,62x54 mm, réputée plus précise que tous ses prédécesseurs grâce à un canon lourd non amovible à refroidissement forcé par air, doté d'ailettes de refroidissement radiales et d'une poignée unique éliminant l'effet de brume causé par les gaz chauds. Actuellement utilisée par les Spetsnaz de l'armée russe et, bien qu'elle ait été développée principalement pour un usage infanterie, elle est souvent montée sur des véhicules légers.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Mikhaïl Kalachnikov\n
+		</text>
+	</string>
+
+		<string id="st_wpn_akm_isg">
+		<text>RD-47</text>
+	</string>
+	<string id="st_wpn_akm_isg_descr">
+		<text>Modèle personnalisé développé sur la base de l'AKM par la société Rifle Dynamics, basée à Las Vegas. Il s'agit de l'une des armes les plus high-tech de la Zone, construite avec un niveau de précision et de soin sans précédent.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Rifle Dynamics\n
+		</text>
+	</string>
+	
+		<string id="st_wpn_ak74u_isg">
+		<text>RD-74U</text>
+	</string>
+	<string id="st_wpn_ak74u_isg_descr">
+		<text>Modèle personnalisé développé sur la base de l'AK-74U par la société américaine Rifle Dynamics, basée à Las Vegas. Il s'agit de l'une des armes les plus high-tech de la Zone, construite avec un niveau de précision et de soin sans précédent et souvent utilisée par les unités spéciales de l'ISG.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Rifle Dynamics\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ak74_isg">
+		<text>RD-74M</text>
+	</string>
+	<string id="st_wpn_ak74_isg_descr">
+		<text>Modèle personnalisé développé sur la base de l'AK-74M par la société américaine Rifle Dynamics, basée à Las Vegas. Il s'agit de l'une des armes les plus high-tech de la Zone, construite avec un niveau de précision et de soin sans précédent et souvent utilisée par les unités spéciales de l'ISG.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Rifle Dynamics\n
+		</text>
+	</string>
+
+		<string id="st_wpn_ak74u_m1_isg">
+		<text>RD-74U Tactic</text>
+	</string>
+	<string id="st_wpn_ak74u_m1_isg_descr">
+		<text>Un modèle personnalisé développé sur la base de l'AK-74U par la société américaine Rifle Dynamics, basée à Las Vegas. Il s'agit de l'une des armes les plus high-tech de la Zone, construite avec un niveau de précision et de soin sans précédent, et souvent utilisée par les unités spéciales de l'ISG. Il a été modifié pour utiliser des munitions 5,45x39 mm.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Rifle Dynamics\n
+		</text>
+	</string>
+
+	<string id="st_wpn_vintorez_isg">
+		<text>RD-939</text>
+	</string>
+	<string id="st_wpn_vintorez_isg_descr">
+		<text>Modèle personnalisé développé sur la base du VSS Vintorez par la société américaine Rifle Dynamics, basée à Las Vegas. Il s'agit de l'une des armes les plus high-tech de la Zone, construite avec un niveau de précision et de soin sans précédent, et souvent utilisée par les unités spéciales de l'ISG. Elle a été modifiée pour permettre un tir en rafale de deux coups.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Rifle Dynamics\n
+		</text>
+	</string>
+
+	<string id="st_wpn_rpk74_16">
+		<text>RPK-16 LMG</text>
+	</string>
+	<string id="st_wpn_rpk74_16_descr">
+		<text>Conçu en tant que projet privé par le groupe Kalashnikov et destiné à être utilisé par l'Armée russe et les forces spéciales, le RPK-16 est basé sur le fusil d'assaut AK-12 et est proposé comme remplaçant du vénérable RPK-74. Capable d'un mode de tir en hyperrafale.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Kalashnikov Concern\n
+		</text>
+	</string>
+
+	<string id="st_wpn_m4_ru556">
+		<text>Ruger SR-556</text>
+	</string>
+	<string id="st_wpn_m4_ru556_descr">
+		<text>Fusil de style AR-15 semi-automatique, actionné par piston et fonctionnant par emprunt de gaz. Léger et ergonomique, Ruger a cherché à minimiser l'impulsion brutale du piston frappant le porte-boulon, typique des systèmes AR à course courte, en utilisant une conception à deux étages dans laquelle le piston transmet deux impulsions plus petites à la tige de commande. Ce choix de conception permet à l'arme d'être plus facile à manipuler et plus précise lors de tirs soutenus. Capable d'un mode de tir hyperburst.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Sturm, Ruger &amp; Co.\n
+		</text>
+	</string>
+
+   <string id="st_wpn_fal_aus">
+        <text>SA-58 AUS</text>
+    </string>
+    <string id="st_wpn_fal_aus_descr">
+		<text>Une variante d'assaut-carabine du modèle parachutiste FAL, capable d'utiliser tous les chargeurs FAL à mesure métrique. Les modifications notables incluent un canon de 21 pouces, une poignée avant autrichienne et un ensemble en nylon. Bien que les versions civiles soient limitées au semi-automatique, les variantes militaires et policières sont équipées d'une option de tir automatique.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]David Selvaggio Arms\n
+		</text>
+    </string>
+
+		<string id="st_wpn_fal_aus_kit_sa5x_spec">
+		<text>SA-58 AUS Defender</text>
+	</string>
+	<string id="st_wpn_fal_aus_kit_sa5x_spec_descr">
+		<text>Une variante d'assaut-carabine du modèle parachutiste FAL, capable d'utiliser tous les chargeurs FAL à mesure métrique. Les modifications notables incluent un canon de 21 pouces, une poignée avant autrichienne et un ensemble en nylon. Bien que les versions civiles soient limitées au semi-automatique, les variantes militaires et policières sont équipées d'une option de tir automatique.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]David Selvaggio Arms\n
+		</text>
+	</string>
+
+	<string id="st_wpn_fal_aus_kit_fal_leup">
+		<text>SA-58 AUS Marauder</text>
+	</string>
+	<string id="st_wpn_fal_aus_kit_fal_leup_descr">
+		<text>Une variante d'assaut-carabine du modèle parachutiste FAL, capable d'utiliser tous les chargeurs FAL à mesure métrique. Les modifications notables incluent un canon de 21 pouces, une poignée avant autrichienne et un ensemble en nylon. Bien que les versions civiles soient limitées au semi-automatique, les variantes militaires et policières sont équipées d'une option de tir automatique.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]David Selvaggio Arms\n
+		</text>
+	</string>
+
+		<string id="st_wpn_fal_aus_kit_aus_tri">
+		<text>SA-58 AUS Scout</text>
+	</string>
+	<string id="st_wpn_fal_aus_kit_aus_tri_descr">
+		<text>Une variante d'assaut-carabine du modèle parachutiste FAL, capable d'utiliser tous les chargeurs FAL à mesure métrique. Les modifications notables incluent un canon de 21 pouces, une poignée avant autrichienne et un ensemble en nylon. Bien que les versions civiles soient limitées au semi-automatique, les variantes militaires et policières sont équipées d'une option de tir automatique.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]David Selvaggio Arms\n
+		</text>
+	</string>
+
+    <string id="st_wpn_fal_sa58_osw">
+		<text>SA-58 OSW</text>
+    </string>
+    <string id="st_wpn_fal_sa58_osw_descr">
+		<text>Une variante d'assaut-carabine du modèle parachutiste FAL, capable d'utiliser tous les chargeurs FAL à mesure métrique. Les modifications notables incluent une crosse en polymère repliable latéralement et un canon plus court. Bien que les versions civiles soient limitées au semi-automatique, les variantes militaires et policières sont équipées d'une option de tir automatique.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]David Selvaggio Arms\n
+		</text>
+    </string>
+
+	<string id="st_wpn_sr2_veresk">
+    	<text>SR-2M Veresk</text>
+  	</string>
+  	<string id="st_wpn_sr2_veresk_descr">
+		<text>Un pistolet-mitrailleur russe conçu comme une arme compacte capable d'engager des ennemis équipés d'armures corporelles russes de classe II ainsi que des véhicules à peau souple à des distances allant jusqu'à 200 mètres. Le SR-2M est une version modifiée dotée d'une poignée pistolet avant sous le garde-main et d'une crosse entièrement repliable.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]TsNIITochMash\n
+		</text>
+  	</string>
+
+	<string id="st_wpn_sr2_m1">
+    	<text>SR-2M Veresk</text>
+  	</string>
+  	<string id="st_wpn_sr2_m1_descr">
+		<text>Un pistolet-mitrailleur russe conçu comme une arme compacte capable d'engager des ennemis équipés d'armures corporelles russes de classe II ainsi que des véhicules à peau souple à des distances allant jusqu'à 200 mètres. Le SR-2M est une version modifiée dotée d'une poignée pistolet avant sous le garde-main et d'une crosse entièrement repliable.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]TsNIITochMash\n
+		</text>
+  	</string>
+
+	<string id="st_wpn_sr2_veresk_sr2_upkit">
+    	<text>SR-2M Veresk « Tactical »</text>
+  	</string>
+  	<string id="st_wpn_sr2_veresk_sr2_upkit_descr">
+		<text>Pistolet-mitrailleur russe conçu comme une arme compacte capable d'engager des ennemis équipés de gilets pare-balles russes de classe II et des véhicules non blindés à des distances allant jusqu'à 200 mètres. Le SR-2M est une version modifiée dotée d'une poignée pistolet avant sous le garde-main et d'une crosse entièrement repliable. Ce modèle a été largement modifié.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]TsNIITochMash\n
+		%c[d_orange] • %c[0,255,255,255] kit tactique de mise à niveau\n
+		</text>
+  	</string>	
+
+	<string id="st_wpn_aug_a1_bas">
+		<text>Steyr AUG A1</text>
+	</string>
+	<string id="st_wpn_aug_a1_bas_descr">
+		<text>Le AUG (Armee-Universal-Gewehr) est l'arme légère standard de nombreuses forces armées et unités spéciales à travers le monde depuis 1977. Il est célèbre pour son concept modulaire de conception « Bullpup », qui en fait un fusil court, bien équilibré, doté d'une grande précision et fiabilité. La variante A1 est équipée d'une lunette intégrée de 1,5x.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Autriche\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Steyr Arms\n
+		</text>
+	</string>
+	
+	<string id="st_wpn_aug_a3_bas">
+		<text>Steyr AUG A3</text>
+	</string>
+	<string id="st_wpn_aug_a3_bas_descr">
+		<text>Le AUG (Armee-Universal-Gewehr) est l'arme légère standard de nombreuses forces armées et unités spéciales à travers le monde depuis 1977. Il est célèbre pour son concept modulaire de conception « Bullpup », qui en fait un fusil court, bien équilibré, doté d'une grande précision et fiabilité. La variante A3 est équipée de quatre rails Picatinny.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Autriche\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Steyr Arms\n
+		</text>
+	</string>	
+
+	<string id="st_wpn_aug_a3_custom_bas">
+		<text>Steyr AUG A3 Commando</text>
+	</string>
+	<string id="st_wpn_aug_a3_custom_bas_descr">
+		<text>Le AUG (Armee-Universal-Gewehr) est l'arme légère standard de nombreuses forces armées et unités spéciales à travers le monde depuis 1977. Il est célèbre pour son concept modulaire et sa conception « Bullpup », qui en fait un fusil court, bien équilibré, doté d'une grande précision et fiabilité. La variante A3 est équipée de quatre rails Picatinny, désignés sous le nom de Commando, spécialement conçus pour les forces spéciales autrichiennes Jagdkommando. Ce modèle permet de configurer les rails pour accueillir divers systèmes optiques, illuminateurs ou pointeurs.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Autriche\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Steyr Arms\n
+		</text>
+	</string>
+
+	<string id="st_wpn_umirotvoritel_bas">
+		<text>Arme non identifiée</text>
+	</string>
+	<string id="st_wpn_umirotvoritel_bas_descr">
+		<text>Arme inconnue. Elle semble défectueuse, car appuyer sur la détente ne produit aucun effet. Après inspection minutieuse, il apparaît qu'elle ne tire pas de munitions par ignition, mais plutôt par force électromagnétique.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Inconnue\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Inconnu\n
+		</text>
+	</string> 
+
+	<string id="st_wpn_vintorez_n1">
+		<text>VSS Vintorez</text>
+	</string>
+	<string id="st_wpn_vintorez_n1_descr">
+		<text>Destinée à diverses unités Spetsnaz de l'Armée soviétique, du KGB et du MVD, la VSS est très appréciée de ses utilisateurs pour ses capacités furtives, son silencieux intégré et la létalité élevée de la munition lourde 9x39 mm.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Usine d'armement de Toula\n
+		</text>
+	</string>	
+
+	<string id="st_wpn_vintorez_m1">
+		<text>VSS Vintorez « Savant »</text>
+	</string>
+	<string id="st_wpn_vintorez_m1_descr">
+		<text>Destiné à diverses troupes Spetsnaz de l'Armée soviétique, du KGB et du MVD, le VSS est très apprécié de ses utilisateurs pour ses capacités furtives, son silencieux intégré et la létalité élevée de la munition lourde 9x39 mm. Le "Savant" est un prototype précoce incluant une poignée avant verticale, un désignateur laser et des mécanismes internes significativement modifiés.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Usine d'armement de Toula\n
+		</text>
+	</string>
+	
+	<string id="st_wpn_vintorez_m2">
+		<text>VSS Vintorez « Venal »</text>
+	</string>
+	<string id="st_wpn_vintorez_m2_descr">
+		<text>Conçu pour diverses troupes Spetsnaz de l'Armée soviétique, du KGB et du MVD, le VSS est très prisé de ses utilisateurs pour ses capacités furtives, son silencieux intégré et la grande létalité de la cartouche lourde 9x39 mm. Ce modèle est un prototype précoce. Il inclut une poignée avant verticale et un désignateur laser, et a été fabriqué et largement modifié sur demande pour un membre inconnu des mercenaires. La qualité de fabrication est absolument exceptionnelle.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Usine d'armement de Toula\n
+		</text>
+	</string>
+
+<!--
+	SNIPERS
+-->
+
+	<string id="st_wpn_dvl10_m1">
+		<text>DVL-10 M1 Saboteur</text>
+	</string>
+	<string id="st_wpn_dvl10_m1_descr">
+		<text>Fusil modulaire, léger et compact, développé pour les missions spéciales et de combat nécessitant une précision et une portée exceptionnelles. L'Urbana est équipé d'un canon spécial en tube de fibre de carbone et d'un silencieux en titane propriétaire, offrant une résistance et une durabilité accrues du système d'arme, ainsi qu'une réduction de la propagation du flash et du son à la bouche.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Lobaev Arms\n
+		%c[d_orange] • Pénétration accrue : +5\n
+		</text>
+	</string>	
+	
+	<string id="st_wpn_dvl10">
+		<text>DVL-10 M2 Urbana</text>
+	</string>
+	<string id="st_wpn_dvl10_descr">
+		<text>Fusil modulaire, polyvalent, léger et compact, développé pour les missions spéciales et les opérations de combat exigeant une modularité, une précision et une portée exceptionnelles.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Lobaev Arms\n
+		%c[d_orange] • Pénétration accrue : +5\n
+		</text>
+	</string>
+
+	<string id="st_wpn_gauss_bas">
+		<text>Fusil Gauss</text>
+	</string>
+	<string id="st_wpn_gauss_bas_descr">
+		<text>Arme hautement expérimentale et extrêmement précise, alimentée par un artefact, fabriquée par une partie inconnue dans la Zone. Au lieu de la poudre à canon, le fusil à induction utilise des forces électromagnétiques pour lancer des projectiles à des vitesses incroyables, similaires à un canon électrique. Proportionnellement à sa puissance de feu considérable, le recul est étonnamment maîtrisable. Parmi les armes de sa catégorie, sa précision et sa puissance de feu sont inégalées.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Non divulgué\n
+		</text>
+	</string>
+
+	<string id="st_wpn_k98_mod">
+		<text>Mauser 98k Forester mk.1</text>
+	</string>
+	<string id="st_wpn_k98_mod_descr">
+		<text>Version directement modifiée du fusil de sniper allemand Mauser Karabiner 98k de la Seconde Guerre mondiale. La crosse en bois a été remplacée par une version en polymère plus ergonomique. Le fusil est équipé d'une excellente lunette de sniper fabriquée par MARCH, au Japon.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Allemagne nazie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Mauser\n
+		%c[d_orange] • Pénétration accrue : +5\n
+		</text>
+	</string>
+
+	<string id="st_wpn_k98_mod_silen98">
+		<text>Karabiner 98k Forester mk.2</text>
+	</string>
+	<string id="st_wpn_k98_mod_silen98_descr">
+		<text>Version directement modifiée du fusil de sniper allemand Mauser Karabiner 98k de la Seconde Guerre mondiale. La crosse en bois a été remplacée par une version en polymère plus ergonomique. Le fusil est équipé d'une excellente lunette de sniper fabriquée par MARCH, au Japon.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Allemagne nazie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Mauser\n
+		%c[d_orange] • Pénétration accrue : +5\n
+		</text>
+	</string>
+
+	<string id="st_wpn_remington700">
+		<text>Remington 700</text>
+	</string>
+	<string id="st_wpn_remington700_descr">
+		<text>Souvent considéré comme la référence en matière d'action à boulon de tous les temps, le Model 700 est le premier choix de nombreux militaires et agents des forces de l'ordre. Avec une précision inégalée alliée à une qualité de fabrication et une fiabilité sans pareilles, il reste un leader du secteur à ce jour, bien que sa conception date de près de six décennies.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Remington Arms\n
+		%c[d_orange] • Pénétration accrue : +5\n
+		</text>
+	</string>
+	
+		<string id="st_wpn_remington700_archangel">
+		<text>Remington 700 « Archangel »</text>
+	</string>
+	<string id="st_wpn_remington700_archangel_descr">
+		<text>Souvent considéré comme la meilleure action à boulon de tous les temps, le Model 700 est le premier choix de nombreux militaires et officiers des forces de l'ordre. Avec une précision inégalée alliée à une qualité de fabrication et une fiabilité sans pareilles, il reste un leader du secteur à ce jour, bien que sa conception date de près de six décennies. Ce modèle a été largement modifié.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Remington Arms\n
+		%c[d_orange] • Pénétration accrue : +5\n
+		</text>
+	</string>
+
+		<string id="st_wpn_remington700_lapua700">
+		<text>Remington 700 « Deer Hunter »</text>
+	</string>
+	<string id="st_wpn_remington700_lapua700_descr">
+		<text>Souvent considéré comme la meilleure action à boulon de tous les temps, le Model 700 est le premier choix de nombreux militaires et officiers des forces de l'ordre. Avec une précision inégalée alliée à une qualité de fabrication et une fiabilité sans pareilles, il reste un leader du secteur à ce jour, bien que sa conception date de près de six décennies. Ce modèle a été modifié pour la munition .338 Lapua Magnum.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Remington Arms\n
+		%c[d_orange] • Pénétration accrue : +5\n
+		</text>
+	</string>
+
+		<string id="st_wpn_remington700_magpul_pro">
+		<text>Remington 700 « Magpul PRO »</text>
+	</string>
+	<string id="st_wpn_remington700_magpul_pro_descr">
+		<text>La série Remington Model 700 est une gamme de carabines à verrou boulons fabriquées par Remington Arms depuis 1962. Il s'agit d'une évolution des séries Remington 721 et 722, introduites en 1948. Ce modèle a été largement modifié.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Remington Arms\n
+		%c[d_orange] • Pénétration accrue : +5\n
+		</text>
+	</string>
+
+		<string id="st_wpn_remington700_mod_x_gen3">
+		<text>Remington 700 « MOD X Gen.3 »</text>
+	</string>
+	<string id="st_wpn_remington700_mod_x_gen3_descr">
+		<text>La série Remington Model 700 est une gamme de carabines à verrou boulons fabriquées par Remington Arms depuis 1962. Il s'agit d'une évolution des séries Remington 721 et 722, introduites en 1948. Ce modèle a été largement modifié.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Remington Arms\n
+		%c[d_orange] • Pénétration accrue : +5\n
+		</text>
+	</string>
+
+		<string id="st_wpn_sks_molot">
+		<text>SKS Molot</text>
+	</string>
+	<string id="st_wpn_sks_molot_descr">
+		<text>Une carabine semi-automatique, à emprunt de gaz et auto-chargeante, principalement utilisée durant la guerre du Cold, le SKS est encore en service aujourd'hui au sein des unités de deuxième ligne et de réserve. En raison de l'absence de sélecteur de tir et de sa capacité limitée à 10 cartouches, il a été rendu obsolète par l'AK-47. Ce modèle a été modifié pour utiliser des munitions 7,62x39 mm.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Swiss Arms AG\n
+		</text>
+	</string>
+
+	<string id="st_wpn_sks_tac">
+		<text>SKS Tactical</text>
+	</string>
+	<string id="st_wpn_sks_tac_descr">
+		<text>Carabine semi-automatique, à gaz et à chargement automatique, principalement utilisée pendant la guerre Cold, le SKS est encore en service aujourd'hui au sein des unités de deuxième ligne et de réserve de l'armée. Comme elle ne disposait pas d'un sélecteur de tir et était limitée à 10 cartouches, elle a été rendue obsolète par l'AK-47. Ce modèle a été modifié avec une détente plus légère permettant une cadence de tir significativement accrue.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Swiss Arms AG\n
+		</text>
+	</string>
+
+	<string id="st_wpn_svd_m1">
+		<text>SVD</text>
+	</string>
+	<string id="st_wpn_svd_m1_descr">
+		<text>L'une des fusils de sniper les plus emblématiques bien qu'elle ne soit pas techniquement une arme de sniper, le SVD était conçu pour fournir un feu précis et de suppression sur les positions ennemies ainsi que pour éliminer des cibles de haute valeur. Cependant, ce fusil de précision au niveau de l'escouade a finalement été utilisé comme fusil de sniper par ceux n'ayant accès à rien d'autre. Relativement léger, précis et bien équilibré, il est malheureusement surpassé en performance par les fusils de sniper dédiés.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Kalashnikov Concern\n
+		</text>
+	</string>
+
+	<string id="st_wpn_svds">
+		<text>SVDS</text>
+	</string>
+	<string id="st_wpn_svds_descr">
+		<text>L'une des fusils de sniper les plus emblématiques, bien qu'elle ne soit pas techniquement un fusil de sniper, la SVD a été conçue pour fournir un feu précis et suppressif sur les positions ennemies ainsi que pour éliminer des cibles de haute valeur. Cependant, ce fusil de précision au niveau de l'escouade a finalement été utilisé comme fusil de sniper par ceux n'ayant accès à rien d'autre. Relativement légère, précise et bien équilibrée, elle est malheureusement surpassée en performance par les fusils de sniper dédiés. La SVDS est une version compacte de la SVD, dotée d'une crosse pliable.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Kalashnikov Concern\n
+		</text>
+	</string>
+
+		<string id="st_wpn_svds_pmc">
+		<text>SVDS « Retribution »</text>
+	</string>
+	<string id="st_wpn_svds_pmc_descr">
+		<text>L'une des fusils de sniper les plus emblématiques, bien qu'elle ne soit pas techniquement un fusil de sniper, la SVD a été conçue pour fournir un feu précis et suppressif sur les positions ennemies ainsi que pour éliminer des cibles de haute valeur. Cependant, ce fusil de précision au niveau de l'escouade a finalement été utilisé comme fusil de sniper par ceux n'ayant accès à rien d'autre. Relativement légère, précise et bien équilibrée, elle est malheureusement surpassée en performance par les fusils de sniper dédiés. La SVDS est une version compacte de la SVD, dotée d'une crosse pliable. Ce modèle a subi de nombreuses modifications.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Kalashnikov Concern\n
+		</text>
+	</string>
+
+<!--
+	EXPLOSIVES
+-->
+	<string id="st_grenade_launcher">
+		<text>Lance-grenades GP-25</text>
+	</string>
+	<string id="st_grenade_launcher_descr">
+		<text>Le Kostyor est un lance-grenades à un coup, chargé par la bouche et rayé, conçu pour être monté sous le canon des fusils d'assaut fabriqués dans les pays du Pacte de Varsovie. Il a été développé pour accroître considérablement la puissance de feu d'une escouade d'infanterie de base. Le mécanisme de tir est à armement automatique, avec un cran de sûreté manuel et une prévention automatique du tir en cas de montage incorrect sur un fusil.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Kalashnikov Concern\n
+		</text>
+	</string>
+	
+	<string id="st_grenade_launcher_m203">
+		<text>Lance-grenades M203</text>
+	</string>
+	<string id="st_grenade_launcher_m203_descr">
+		<text>Version modifiée et raccourcie du M203, pouvant être fixée au moyen d'un rail Picatinny. Bien que moderne, elle présente des caractéristiques similaires à son équivalent soviétique, le GP-25.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Colt Defense\n
+		</text>
+	</string>
+
+<!--
+	MELEE
+-->
+	<string id="st_tomahawk">
+		<text>Tomahawk Gerber</text>
+	</string>
+	<string id="st_tomahawk_descr">
+		<text>Une hache tactique combinant les fonctions de multitool et d'outil de percée, le tout en un seul ensemble.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[ui_gray_2] Arme de mêlée\n
+		%c[pda_green] • %c[ui_gray_2] Coupe une peau épaisse ? : %c[ui_green]OUI\n
+		</text>
+	</string>
+	
+	<string id="st_kukri">
+        <text>Kukri</text>
+    </string>
+    <string id="st_kukri_descr">
+        <text>Arme nationale du Népal, le Kukri présente une courbure distinctive de sa lame et sert à de multiples usages, tant comme arme blanche que comme outil de coupe.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Royaume du Gorkha\n
+		%c[d_cyan] • %c[ui_gray_2] Arme de mêlée\n
+		%c[pda_green] • %c[ui_gray_2] Coupe une peau épaisse ? : %c[ui_green]OUI\n
+		</text>
+	</string>
+
+	<string id="st_tactical_knife">
+		<text>Lame Monolithe</text>
+	</string>
+	<string id="st_tactical_knife_descr">
+		<text>Ces lames sont produites en très petit nombre par les maîtres de la faction Monolithe. Leur composition provient d'un alliage inconnu, réputé être extrait directement du coeur du Sarcophage.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[ui_gray_2] Arme de mêlée\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Inconnue\n
+		%c[pda_green] • %c[ui_gray_2] Coupe une peau épaisse ? : %c[ui_green]OUI\n
+		</text>
+	</string>
+
+	<string id="st_knifebf4">
+        <text>Couteau de combat OTs-4</text>
+    </string>
+    	<string id="st_knifebf4_descr">
+        <text>Développée à la fin des années 80 par le Bureau central de conception et de recherche de Tula pour les forces spéciales du Ministère de l'Intérieur. Dotée d'une lame dentelée, le manche est fabriqué en polymère et présente une texture distinctive en forme de « grenade ».\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[ui_gray_2] Arme de mêlée\n
+		%c[pda_green] • %c[ui_gray_2] Coupe une peau épaisse ? : %c[ui_green]OUI\n
+		</text>
+    </string>
+
+<!--
+	OTHER
+-->
+	<string id="st_not_in_use">
+        <text>Non utilisé</text>
+    </string>
+    <string id="st_not_in_use_descr">
+        <text>Cet objet n'est pas utilisé.</text>
+    </string>
+-->
+
+</string_table>

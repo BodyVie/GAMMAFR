@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+  <!-- Consequence display strings. Resolved via game.translate_string at render time.
+         id matches the Lua enum value (ap_core_const.CONSEQUENCE / ACTION):
+           consequence:<key>  short caption     (config / debug context, marker bracket)
+           action:<key>       full action       (PDA marker, warfare tooltip, news)
+         Both id sets must stay in parity (eng <-> rus). -->
+  <!-- Short captions (consequence names) -->
+  <string id="consequence:alpha_promote">
+    <text>Promotion Alpha</text>
+  </string>
+  <string id="consequence:alphakill_targeted">
+    <text>Cible Alpha éliminée</text>
+  </string>
+  <string id="consequence:massacre_scavenge">
+    <text>Butin de massacre</text>
+  </string>
+  <string id="consequence:massacre_investigate">
+    <text>Enquête sur un massacre</text>
+  </string>
+  <string id="consequence:massacre_loot">
+    <text>Butin de massacre</text>
+  </string>
+  <string id="consequence:stash_ambush">
+    <text>Embuscade en planque</text>
+  </string>
+  <string id="consequence:stash_loot">
+    <text>Butin de planque</text>
+  </string>
+  <string id="consequence:stash_fill">
+    <text>Remplissage de planque</text>
+  </string>
+  <string id="consequence:squadkill_revenge">
+    <text>Vengeance après un meurtre de groupe</text>
+  </string>
+  <string id="consequence:basekill_support">
+    <text>Soutien après un meurtre en base</text>
+  </string>
+  <string id="consequence:basekill_flee">
+    <text>Fuite après un meurtre en base</text>
+  </string>
+  <string id="consequence:wounded_hunt">
+    <text>Chasse aux blessés</text>
+  </string>
+  <string id="consequence:wounded_help">
+    <text>Secours aux blessés</text>
+  </string>
+  <string id="consequence:area_conquer">
+    <text>Conquête de zone</text>
+  </string>
+  <string id="consequence:area_swarm">
+    <text>Essaimage de zone</text>
+  </string>
+  <string id="consequence:area_infest">
+    <text>Infestation de zone</text>
+  </string>
+  <string id="consequence:harvest_rob">
+    <text>Pillage de récolte</text>
+  </string>
+  <string id="consequence:harvest_haunt">
+    <text>Chasse aux récoltes</text>
+  </string>
+  <string id="consequence:hunger_campfire">
+    <text>Faim au feu de camp</text>
+  </string>
+  <string id="consequence:sleep_campfire">
+    <text>Sommeil au feu de camp</text>
+  </string>
+  <string id="consequence:rest_campfire">
+    <text>Repos au feu de camp</text>
+  </string>
+  <string id="consequence:heal_shelter">
+    <text>Soins en abri</text>
+  </string>
+  <string id="consequence:shelter_indoor">
+    <text>Abri en intérieur</text>
+  </string>
+  <string id="consequence:shelter_outdoor">
+    <text>Abri en extérieur</text>
+  </string>
+  <string id="consequence:money_harvest">
+    <text>Moisson de fric</text>
+  </string>
+  <string id="consequence:money_hunt">
+    <text>Chasse au fric</text>
+  </string>
+  <string id="consequence:supply_trader">
+    <text>Ravitaillement chez le marchand</text>
+  </string>
+  <string id="consequence:job_outpost">
+    <text>Mission avant-poste</text>
+  </string>
+  <string id="consequence:job_explore">
+    <text>Exploration de mission</text>
+  </string>
+  <string id="consequence:job_research">
+    <text>Recherche de mission</text>
+  </string>
+  <string id="consequence:social_campfire">
+    <text>Social au feu de camp</text>
+  </string>
+  <string id="consequence:social_base">
+    <text>Base sociale</text>
+  </string>
+  <string id="consequence:feed">
+    <text>Ravitaillement</text>
+  </string>
+  <string id="consequence:slumber_field">
+    <text>Repos en plein champ</text>
+  </string>
+  <string id="consequence:slumber_lair">
+    <text>Repaire de repos</text>
+  </string>
+  <string id="consequence:slumber_surge">
+    <text>Vague de repos</text>
+  </string>
+  <string id="consequence:roam">
+    <text>Errance</text>
+  </string>
+  <string id="consequence:pack">
+    <text>Paquetage</text>
+  </string>
+  <string id="consequence:scatter">
+    <text>Dispersion</text>
+  </string>
+  <!-- Full action phrases (named after consequence concept; spans travel + arrival) -->
+  <string id="action:alpha_promote">
+    <text>Devenu Alpha des Mutants</text>
+  </string>
+  <string id="action:alphakill_targeted">
+    <text>Poursuite du tueur d'Alpha</text>
+  </string>
+  <string id="action:massacre_scavenge">
+    <text>Butinage d'un site de massacre</text>
+  </string>
+  <string id="action:massacre_investigate">
+    <text>Enquête sur un site de massacre</text>
+  </string>
+  <string id="action:massacre_loot">
+    <text>Pillage d'un site de massacre</text>
+  </string>
+  <string id="action:stash_ambush">
+    <text>Surveillance d'une planque</text>
+  </string>
+  <string id="action:stash_loot">
+    <text>Pillage de planque</text>
+  </string>
+  <string id="action:stash_fill">
+    <text>Remplissage de planque</text>
+  </string>
+  <string id="action:squadkill_revenge">
+    <text>Poursuite du tueur de groupe</text>
+  </string>
+  <string id="action:basekill_support">
+    <text>Renfort d'une base attaquée</text>
+  </string>
+  <string id="action:basekill_flee">
+    <text>Évacuation d'une base attaquée</text>
+  </string>
+  <string id="action:wounded_hunt">
+    <text>Chasse aux blessés</text>
+  </string>
+  <string id="action:wounded_help">
+    <text>Secours aux blessés</text>
+  </string>
+  <string id="action:area_conquer">
+    <text>Conquête de zone</text>
+  </string>
+  <string id="action:area_swarm">
+    <text>Essaimage de zone</text>
+  </string>
+  <string id="action:area_infest">
+    <text>Infestation de zone</text>
+  </string>
+  <string id="action:harvest_rob">
+    <text>Poursuite du voleur d'Artefacts</text>
+  </string>
+  <string id="action:harvest_haunt">
+    <text>Chasse aux sites à Artefacts</text>
+  </string>
+  <string id="action:hunger_campfire">
+    <text>Direction un feu de camp pour manger</text>
+  </string>
+  <string id="action:sleep_campfire">
+    <text>Direction un feu de camp pour dormir</text>
+  </string>
+  <string id="action:rest_campfire">
+    <text>Direction un feu de camp pour se reposer</text>
+  </string>
+  <string id="action:heal_shelter">
+    <text>Direction un abri pour se soigner</text>
+  </string>
+  <string id="action:shelter_indoor">
+    <text>Direction un abri en intérieur</text>
+  </string>
+  <string id="action:shelter_outdoor">
+    <text>Direction un abri en extérieur</text>
+  </string>
+  <string id="action:money_harvest">
+    <text>Récolte d'Artefacts</text>
+  </string>
+  <string id="action:money_hunt">
+    <text>Chasse aux mutants</text>
+  </string>
+  <string id="action:supply_trader">
+    <text>Ravitaillement chez le marchand</text>
+  </string>
+  <string id="action:job_outpost">
+    <text>Garde d'un avant-poste</text>
+  </string>
+  <string id="action:job_explore">
+    <text>En exploration</text>
+  </string>
+  <string id="action:job_research">
+    <text>Recherche d'anomalies</text>
+  </string>
+  <string id="action:social_campfire">
+    <text>Recherche d'un feu de camp pour socialiser</text>
+  </string>
+  <string id="action:social_base">
+    <text>Recherche d'une base pour socialiser</text>
+  </string>
+  <string id="action:feed">
+    <text>Chasse à la nourriture</text>
+  </string>
+  <string id="action:slumber_field">
+    <text>Repos en plein air</text>
+  </string>
+  <string id="action:slumber_lair">
+    <text>Retour au repaire</text>
+  </string>
+  <string id="action:slumber_surge">
+    <text>Abri pour repos</text>
+  </string>
+  <string id="action:roam">
+    <text>Errance en territoire</text>
+  </string>
+  <string id="action:pack">
+    <text>Rejoindre un paquetage</text>
+  </string>
+  <string id="action:scatter">
+    <text>Dispersion face aux prédateurs</text>
+  </string>
+  <string id="action:job_explore_offmap">
+    <text>Exploration sur une autre carte</text>
+  </string>
+  <string id="action:social_offmap">
+    <text>Visite d'une base hors-carte</text>
+  </string>
+  <string id="action:supply_trader_offmap">
+    <text>Ravitaillement sur une autre carte</text>
+  </string>
+  <string id="consequence:job_explore_offmap">
+    <text>Exploration de mission hors-carte</text>
+  </string>
+  <string id="consequence:social_offmap">
+    <text>Social hors-carte</text>
+  </string>
+  <string id="consequence:supply_trader_offmap">
+    <text>Ravitaillement chez le marchand hors-carte</text>
+  </string>
+</string_table>

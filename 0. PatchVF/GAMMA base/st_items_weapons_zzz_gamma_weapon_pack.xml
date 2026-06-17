@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_sr25">
+		<text>SR-25</text>
+	</string>
+	<string id="st_wpn_sr25_descr">
+		<text>Un fusil AR-15 redimensionné pour tirer des cartouches de plus gros calibre, 60 % des pièces du SR-25 sont interchangeables avec celles de l'AR-15. Très prisé des tireurs civils ayant besoin d'un fusil semi-automatique précis pour la chasse ou le tir sur cible, ce fusil a également été adopté par l'armée des États-Unis. Le SR-25 offre une construction robuste de niveau militaire et des performances efficaces, que ce soit pour des cibles à courte ou à longue distance.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Knight's Armament Company\n
+		</text>
+	</string>
+	
+	<string id="st_wpn_bm16_full_alt_23">
+		<text>TOZ-34 "Ours"</text>
+	</string>
+	<string id="st_wpn_bm16_full_alt_23_descr">
+		<text>Conçue pour la chasse professionnelle et amateur, la TOZ-34 est un fusil de chasse superposé à deux canons ayant obtenu le label de qualité d'État de l'URSS. Robuste, fiable et puissante, cette TOZ-34 particulière a été modifiée pour supporter des munitions de plus gros calibre.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]URSS\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Tulsky Oruzheiny Zavod\n
+		</text>
+	</string>
+	
+	<string id="st_wpn_toz34_mark4_23">
+		<text>TOZ-34 "Chasseuse de Chimère"</text>
+	</string>
+	<string id="st_wpn_toz34_mark4_23_descr">
+		<text>Conçue pour la chasse professionnelle et amateur, la TOZ-34 est un fusil de chasse superposé à deux canons ayant obtenu le label de qualité d'État de l'URSS. Robuste, fiable et puissante, cette TOZ-34 particulière a été modifiée pour supporter des munitions de plus gros calibre et est équipée d'un viseur point rouge.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]URSS\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Tulsky Oruzheiny Zavod\n
+		</text>
+	</string>
+
+</string_table>

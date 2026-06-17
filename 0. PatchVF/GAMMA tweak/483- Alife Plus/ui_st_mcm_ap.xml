@@ -1,0 +1,1956 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+  <!-- ==================== MAIN MENU ==================== -->
+  <string id="ui_mcm_menu_ap">
+    <text>AlifePlus</text>
+  </string>
+  <!-- ==================== LEVEL 2 MENU NAMES ==================== -->
+  <string id="ui_mcm_menu_framework">
+    <text>Cadre</text>
+  </string>
+  <string id="ui_mcm_menu_world">
+    <text>Monde</text>
+  </string>
+  <string id="ui_mcm_menu_news">
+    <text>Actualités</text>
+  </string>
+  <string id="ui_mcm_menu_causes">
+    <text>Causes</text>
+  </string>
+  <string id="ui_mcm_menu_consequences">
+    <text>Conséquences</text>
+  </string>
+  <string id="ui_mcm_menu_development">
+    <text>Développement</text>
+  </string>
+  <!-- ==================== LEVEL 3 MENU NAMES (CAUSE CATEGORIES) ==================== -->
+  <string id="ui_mcm_menu_reactions">
+    <text>Réactions</text>
+  </string>
+  <string id="ui_mcm_menu_opportunities">
+    <text>Opportunités</text>
+  </string>
+  <!-- ==================== LEVEL 4 MENU NAMES (CAUSE FAMILIES) ==================== -->
+  <string id="ui_mcm_menu_alpha">
+    <text>Alpha</text>
+  </string>
+  <string id="ui_mcm_menu_alphakill">
+    <text>Meurtre alpha</text>
+  </string>
+  <string id="ui_mcm_menu_massacre">
+    <text>Massacre</text>
+  </string>
+  <string id="ui_mcm_menu_stash">
+    <text>Cache</text>
+  </string>
+  <string id="ui_mcm_menu_squadkill">
+    <text>Meurtre de groupe</text>
+  </string>
+  <string id="ui_mcm_menu_basekill">
+    <text>Meurtre de base</text>
+  </string>
+  <string id="ui_mcm_menu_wounded">
+    <text>Blessés</text>
+  </string>
+  <string id="ui_mcm_menu_area">
+    <text>Zone</text>
+  </string>
+  <string id="ui_mcm_menu_harvest">
+    <text>Récolte</text>
+  </string>
+  <string id="ui_mcm_menu_needs">
+    <text>Besoins</text>
+  </string>
+  <string id="ui_mcm_menu_offmap">
+    <text>Hors-carte</text>
+  </string>
+  <string id="ui_mcm_menu_instincts">
+    <text>Instincts</text>
+  </string>
+  <string id="ui_mcm_menu_scatter">
+    <text>Dispersion</text>
+  </string>
+  <string id="ui_mcm_menu_feed">
+    <text>Nourriture</text>
+  </string>
+  <string id="ui_mcm_menu_slumber_field">
+    <text>Repaire\nChamp</text>
+  </string>
+  <string id="ui_mcm_menu_slumber_lair">
+    <text>Repaire\nde sommeil</text>
+  </string>
+  <string id="ui_mcm_menu_slumber_surge">
+    <text>Repaire\nVague</text>
+  </string>
+  <string id="ui_mcm_menu_roam">
+    <text>Errance</text>
+  </string>
+  <string id="ui_mcm_menu_pack">
+    <text>Groupe</text>
+  </string>
+  <string id="ui_mcm_menu_area_infest">
+    <text>Zone\nInfestation</text>
+  </string>
+  <!-- ==================== LEVEL 3 MENU NAMES (CONSEQUENCES) ==================== -->
+  <string id="ui_mcm_menu_alpha_promote">
+    <text>Alpha\nPromouvoir</text>
+  </string>
+  <string id="ui_mcm_menu_alphakill_targeted">
+    <text>Meurtre d'alpha\nCiblé</text>
+  </string>
+  <string id="ui_mcm_menu_mutators">
+    <text>Mutateurs</text>
+  </string>
+  <string id="ui_mcm_menu_conquest">
+    <text>Conquête</text>
+  </string>
+  <string id="ui_mcm_menu_swarm">
+    <text>Essaim</text>
+  </string>
+  <string id="ui_mcm_menu_infest">
+    <text>Infester</text>
+  </string>
+  <string id="ui_mcm_menu_massacre_scavenge">
+    <text>Massacre\nButinage</text>
+  </string>
+  <string id="ui_mcm_menu_massacre_investigate">
+    <text>Massacre\nEnquête</text>
+  </string>
+  <string id="ui_mcm_menu_massacre_loot">
+    <text>Massacre\nButin</text>
+  </string>
+  <string id="ui_mcm_menu_stash_ambush">
+    <text>Cache\nEmbuscade</text>
+  </string>
+  <string id="ui_mcm_menu_stash_loot">
+    <text>Butin\nde cache</text>
+  </string>
+  <string id="ui_mcm_menu_stash_fill">
+    <text>Remplissage\nde cache</text>
+  </string>
+  <string id="ui_mcm_menu_squadkill_revenge">
+    <text>Meurtre de groupe\nVengeance</text>
+  </string>
+  <string id="ui_mcm_menu_basekill_support">
+    <text>BaseKill\nSupport</text>
+  </string>
+  <string id="ui_mcm_menu_basekill_flee">
+    <text>Meurtre de base\nFuite</text>
+  </string>
+  <string id="ui_mcm_menu_wounded_hunt">
+    <text>Blessés\nChasse</text>
+  </string>
+  <string id="ui_mcm_menu_wounded_help">
+    <text>Blessés\nAide</text>
+  </string>
+  <string id="ui_mcm_menu_area_conquer">
+    <text>Conquérir\nla zone</text>
+  </string>
+  <string id="ui_mcm_menu_area_swarm">
+    <text>Essaim\nde zone</text>
+  </string>
+  <string id="ui_mcm_menu_harvest_rob">
+    <text>Récolte\nVol</text>
+  </string>
+  <string id="ui_mcm_menu_harvest_haunt">
+    <text>Récolte\nHanter</text>
+  </string>
+  <string id="ui_mcm_menu_hunger_campfire">
+    <text>Faim\nFeu de camp</text>
+  </string>
+  <string id="ui_mcm_menu_sleep_campfire">
+    <text>Sommeil\nFeu de camp</text>
+  </string>
+  <string id="ui_mcm_menu_rest_campfire">
+    <text>Repos\nFeu de camp</text>
+  </string>
+  <string id="ui_mcm_menu_heal_shelter">
+    <text>Soin\nà l'abri</text>
+  </string>
+  <string id="ui_mcm_menu_shelter_indoor">
+    <text>Abri\nIntérieur</text>
+  </string>
+  <string id="ui_mcm_menu_shelter_outdoor">
+    <text>Refuge\nExtérieur</text>
+  </string>
+  <string id="ui_mcm_menu_money_harvest">
+    <text>Argent\nRécolte</text>
+  </string>
+  <string id="ui_mcm_menu_money_hunt">
+    <text>Chasse\nà l'argent</text>
+  </string>
+  <string id="ui_mcm_menu_supply_trader">
+    <text>Fournisseur\nRavitaillement</text>
+  </string>
+  <string id="ui_mcm_menu_supply_trader_offmap">
+    <text>Fournisseur\nRavitaillement hors-carte</text>
+  </string>
+  <string id="ui_mcm_menu_job_outpost">
+    <text>Poste avancé\n</text>
+  </string>
+  <string id="ui_mcm_menu_job_explore">
+    <text>Travail\nExplorer</text>
+  </string>
+  <string id="ui_mcm_menu_job_explore_offmap">
+    <text>Mission Explorer\nHors-carte</text>
+  </string>
+  <string id="ui_mcm_menu_job_research">
+    <text>Travail\nRecherche</text>
+  </string>
+  <string id="ui_mcm_menu_social_campfire">
+    <text>Feu de camp social\n</text>
+  </string>
+  <string id="ui_mcm_menu_social_base">
+    <text>Base\nsociale</text>
+  </string>
+  <string id="ui_mcm_menu_social_offmap">
+    <text>Base sociale\nHors-carte</text>
+  </string>
+  <!-- ==================== FRAMEWORK TAB ==================== -->
+  <string id="ui_mcm_ap_framework_title">
+    <text>Cadre</text>
+  </string>
+  <string id="ui_mcm_ap_framework_desc">
+    <text>Contrôles du pipeline d'événements. Les événements passent par des limiteurs de débit spécialisés, régulés par le Ratio A-Life, l'Intervalle A-Life, le Budget de Cause et le Budget de Conséquence.</text>
+  </string>
+  <string id="ui_mcm_ap_framework_alife_ratio">
+    <text>Ratio A-Life</text>
+  </string>
+  <string id="ui_mcm_ap_framework_alife_ratio_desc">
+    <text>Équilibre entre les événements sur la carte du joueur et les cartes en arrière-plan, similaire à la vitesse de déplacement originale de X-Ray. Des valeurs plus élevées favorisent la carte du joueur. Zéro traite toutes les cartes de manière égale. Les valeurs négatives favorisent les cartes en arrière-plan.</text>
+  </string>
+  <string id="ui_mcm_ap_framework_distributor_interval_sec">
+    <text>Intervalle A-Life</text>
+  </string>
+  <string id="ui_mcm_ap_framework_distributor_interval_sec_desc">
+    <text>[secondes]\nDurée entre les évaluations des événements radiants. Une valeur plus faible signifie une activité accrue, tandis qu'une valeur plus élevée indique une Zone plus calme. Les événements réactifs directs utilisent un limiteur distinct avec un intervalle fixe par type d'événement, afin de prendre en charge les événements en rafale comme les décès.</text>
+  </string>
+  <string id="ui_mcm_ap_framework_cause_max_reactions">
+    <text>Budget réactions</text>
+  </string>
+  <string id="ui_mcm_ap_framework_cause_max_reactions_desc">
+    <text>Nombre maximal de publications de réactions par période de 60 secondes (massacre, meurtre de groupe, destruction de base, blessé, récolte, alpha, meurtre d'alpha).</text>
+  </string>
+  <string id="ui_mcm_ap_framework_cause_max_needs">
+    <text>Budget des besoins</text>
+  </string>
+  <string id="ui_mcm_ap_framework_cause_max_needs_desc">
+    <text>Nombre maximal de publications des besoins des stalkers par période de 60 secondes (faim, sommeil, repos, soin, abri, argent, approvisionnement, travail, social).</text>
+  </string>
+  <string id="ui_mcm_ap_framework_cause_max_instincts">
+    <text>Budget instincts</text>
+  </string>
+  <string id="ui_mcm_ap_framework_cause_max_instincts_desc">
+    <text>Nombre maximal de publications d'instincts des mutants par période de 60 secondes (dispersion, alimentation, sommeil, exploration, socialisation, infestation).</text>
+  </string>
+  <string id="ui_mcm_ap_framework_cause_max_opportunities">
+    <text>Budget d'opportunités</text>
+  </string>
+  <string id="ui_mcm_ap_framework_cause_max_opportunities_desc">
+    <text>Publication maximale de la territorialité-opportunité toutes les 60 secondes (interactions avec les caches, conquête de zone).</text>
+  </string>
+  <string id="ui_mcm_ap_framework_consequence_max_events">
+    <text>Budget de conséquences</text>
+  </string>
+  <string id="ui_mcm_ap_framework_consequence_max_events_desc">
+    <text>[count]\nNombre maximal d'activations par type de conséquence par période de 60 secondes. Empêche une conséquence de se déclencher trop fréquemment.</text>
+  </string>
+  <string id="ui_mcm_ap_framework_global_consequence_max_events">
+    <text>Limite globale du taux de conséquences</text>
+  </string>
+  <string id="ui_mcm_ap_framework_global_consequence_max_events_desc">
+    <text>[nombre]\nNombre maximal d'activations de conséquences au total pour tous les types par période de 60 secondes. Empêche les inondations de conséquences dues à plusieurs causes déclenchées en succession rapide.</text>
+  </string>
+  <string id="ui_mcm_ap_framework_allow_external_ownership">
+    <text>Autoriser la propriété externe</text>
+  </string>
+  <string id="ui_mcm_ap_framework_allow_external_ownership_desc">
+    <text>Lorsqu'activé, d'autres mods peuvent enregistrer la propriété d'une escouade. AP ne touche pas aux escouades possédées par d'autres mods (Warfare, BAO, etc.). Lorsqu'il est désactivé, AP ignore les revendications de propriété externes et contrôle toutes les escouades éligibles.</text>
+  </string>
+  <!-- ==================== NEWS ==================== -->
+  <string id="ui_mcm_ap_news_title">
+    <text>Actualités</text>
+  </string>
+  <string id="ui_mcm_ap_news_desc">
+    <text>Composeur de rumeurs du PDA. Les événements de la Zone (meurtres, conquêtes, raids, activité de mutants) sont enregistrés au fur et à mesure, puis périodiquement transformés en échanges radio et diffusés via le PDA par un stalker connecté à l'événement.</text>
+  </string>
+  <string id="ui_mcm_ap_news_news_enabled">
+    <text>Activer actualités</text>
+  </string>
+  <string id="ui_mcm_ap_news_news_enabled_desc">
+    <text>Interrupteur principal du compositeur de nouvelles du PDA. Lorsqu'il est désactivé, aucune rumeur n'est diffusée. L'enregistrement des événements se poursuit néanmoins.</text>
+  </string>
+  <string id="ui_mcm_ap_news_news_interval_min_sec">
+    <text>Intervalle de composition min</text>
+  </string>
+  <string id="ui_mcm_ap_news_news_interval_min_sec_desc">
+    <text>[secondes]\nDélai minimal entre les messages du PDA. Chaque cycle choisit un délai aléatoire entre les valeurs minimale et maximale, afin que la cadence paraisse humaine plutôt que mécanique.</text>
+  </string>
+  <string id="ui_mcm_ap_news_news_interval_max_sec">
+    <text>Intervalle de composition max</text>
+  </string>
+  <string id="ui_mcm_ap_news_news_interval_max_sec_desc">
+    <text>[secondes]\nDélai maximal entre les messages du PDA. Une valeur plus élevée signifie une Zone globalement plus silencieuse. Définissez les valeurs minimale et maximale identiques pour une cadence fixe.</text>
+  </string>
+  <string id="ui_mcm_ap_news_news_scope">
+    <text>Portée des actualités</text>
+  </string>
+  <string id="ui_mcm_ap_news_news_scope_desc">
+    <text>Quelles radios de factions vous syntonisez. Propre : seule votre faction parle. Alliés : votre faction ainsi que les factions amies. Monde : tout stalker non ennemi. Les canaux secrets des factions (Monolithe, Armée, Greh, ISG) restent réservés aux membres, quelle que soit l'option sélectionnée. Par défaut : alliés.</text>
+  </string>
+  <string id="ap_news_news_scope_lst_own">
+    <text>Faction propre uniquement</text>
+  </string>
+  <string id="ap_news_news_scope_lst_allies">
+    <text>Alliés et soi</text>
+  </string>
+  <string id="ap_news_news_scope_lst_world">
+    <text>Non-ennemis</text>
+  </string>
+  <string id="ui_mcm_ap_news_news_max_age_game_hours">
+    <text>Âge maximal des actualités</text>
+  </string>
+  <string id="ui_mcm_ap_news_news_max_age_game_hours_desc">
+    <text>[heures de jeu]\nÂge maximal d'un événement pour qu'il soit encore mentionné dans les discussions. Chaque cycle de composition choisit un événement aléatoire parmi les N dernières heures de jeu. Une valeur plus faible signifie des nouvelles plus fraîches, une valeur plus élevée élargit le bassin de discussions. Valeur par défaut : 12.</text>
+  </string>
+  <!-- ==================== CAUSES / REACTIONS (page banner) ==================== -->
+  <string id="ui_mcm_ap_causes_reactions_title">
+    <text>Réactions</text>
+  </string>
+  <!-- ==================== CAUSES / OPPORTUNITIES (page banner) ==================== -->
+  <string id="ui_mcm_ap_causes_opportunities_title">
+    <text>Opportunités</text>
+  </string>
+  <!-- ==================== CAUSES / ALPHA ==================== -->
+  <string id="ui_mcm_ap_causes_alpha_tag">
+    <text>Cause : Alpha\nDesc : Mutant a accumulé assez de kills pour passer alpha. 10 niveaux, chacun nécessitant plus de kills. Les Stalkers utilisent le rang du moteur\nRègles : seuil de kills</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_alpha_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_alpha_enabled_desc">
+    <text>Déclenche un événement de type « alpha » lorsqu'un mutant atteint un nouveau niveau alpha.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_alpha_kills_per_level">
+    <text>Tués par niveau</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_alpha_kills_per_level_desc">
+    <text>Nombre de kills requis par niveau alpha. À 2 : niveau 1 à 2 kills, niveau 10 à 20 kills.</text>
+  </string>
+  <!-- ==================== CAUSES / ALPHAKILL ==================== -->
+  <string id="ui_mcm_ap_causes_alphakill_tag">
+    <text>Cause : Meurtre d'alpha\nDesc : Un alpha mutant est mort.\nRègles : alpha mort</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_alphakill_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_alphakill_enabled_desc">
+    <text>Cause de feu : événement alphakill déclenché lorsque des mutants alpha meurent. Requis pour la chasse ciblée d'une meute.</text>
+  </string>
+  <!-- ==================== CAUSES / MASSACRE ==================== -->
+  <string id="ui_mcm_ap_causes_massacre_tag">
+    <text>Cause : Massacre\nDescription : Accumulation de morts sur un terrain intelligent\nRègles : morts humaines multiples ; hors base</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_massacre_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_massacre_enabled_desc">
+    <text>Surveille l'accumulation des décès et déclenche des événements de massacre lorsque le seuil est atteint.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_massacre_threshold">
+    <text>Seuil de mort</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_massacre_threshold_desc">
+    <text>Nombre de morts requis dans une zone avant le déclenchement d'un événement de massacre.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_massacre_decay_time">
+    <text>Durée de dégradation</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_massacre_decay_time_desc">
+    <text>[secondes]\nFenêtre temporelle pour l'accumulation des décès. Les décès antérieurs à cette période ne sont pas pris en compte.</text>
+  </string>
+  <!-- ==================== CAUSES / STASH ==================== -->
+  <string id="ui_mcm_ap_causes_stash_loot_tag">
+    <text>Cause : Pillage de cache disponible\nDesc : Escouade trouve une cache non vide et la pille\nRègles : portée visuelle ; jour ; stalkers en quête de butin ; personnalité(cupidité, perception) ; cache non vide ; destination non base ; tactiques ; MVT</text>
+  </string>
+  <string id="ui_mcm_ap_causes_stash_ambush_tag">
+    <text>Cause : Embuscade de cache disponible\nDesc : Escouade hors-la-loi surveille une cache bien approvisionnée\nRègles : portée visuelle ; jour ; stalkers hors-la-loi ; personnalité(cupidité, agressivité) ; objets ? min ; destination non base ; tactiques ; MVT</text>
+  </string>
+  <string id="ui_mcm_ap_causes_stash_fill_tag">
+    <text>Cause : Remplissage de cache disponible\nDesc : Escouade trouve une cache vide et la remplit\nRègles : portée visuelle ; jour ; tout stalker ; personnalité(cupidité, relation) ; cache vide ; destination non base ; tactiques ; MVT</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_loot_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_loot_enabled_desc">
+    <text>Autorise la publication de la cause « looter ».</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_ambush_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_ambush_enabled_desc">
+    <text>Autorise la publication de la cause « embuscade ».</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_fill_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_fill_enabled_desc">
+    <text>Autorise la publication de la cause « remplir ».</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_loot_threshold">
+    <text>Seuil MVT</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_loot_threshold_desc">
+    <text>Heures de jeu par escouade avant une nouvelle tentative de récupération de butin. Temps de récupération du mouvement.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_ambush_threshold">
+    <text>Seuil MVT</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_ambush_threshold_desc">
+    <text>Nombre d'heures de jeu par escouade avant une nouvelle tentative d'embuscade. Temps de récupération MVT.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_fill_threshold">
+    <text>Seuil MVT</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_fill_threshold_desc">
+    <text>Heures de jeu par escouade avant une nouvelle tentative de remplissage. Temps de récupération du mouvement.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_ambush_min_items">
+    <text>Nombre minimal d'objets</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_ambush_min_items_desc">
+    <text>Nombre minimal d'objets requis pour que les hors-la-loi établissent une cache. En dessous de ce seuil, ils pillent directement.</text>
+  </string>
+  <!-- ==================== CAUSES / SQUADKILL ==================== -->
+  <string id="ui_mcm_ap_causes_squadkill_tag">
+    <text>Cause : Meurtre d'escouade\nDesc : Une escouade a été éliminée.\nRègles : escouade humaine éliminée ; pas à la base</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_squadkill_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_squadkill_enabled_desc">
+    <text>Déclenche un événement de type « squadkill » lorsque le dernier membre d'une escouade meurt.</text>
+  </string>
+  <!-- ==================== CAUSES / BASEKILL ==================== -->
+  <string id="ui_mcm_ap_causes_basekill_tag">
+    <text>Cause : Meurtre de base\nDescription : Accumulation de morts dans une base de faction\nRègles : morts humaines multiples ; sur une base</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_basekill_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_basekill_enabled_desc">
+    <text>Surveille les décès aux bases des factions et déclenche des événements lorsque le seuil est atteint.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_basekill_threshold">
+    <text>Seuil de mort</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_basekill_threshold_desc">
+    <text>Nombre de décès requis à la base avant que l'événement ne se déclenche.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_basekill_decay_time">
+    <text>Durée de dégradation</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_basekill_decay_time_desc">
+    <text>[seconds]\nFenêtre de temps pour l'accumulation des morts à une base.</text>
+  </string>
+  <!-- ==================== CAUSES / WOUNDED ==================== -->
+  <string id="ui_mcm_ap_causes_wounded_tag">
+    <text>Cause : Blessé\nDescription : Un NPC ou le joueur utilise un objet de soin\nRègles : objet de soin utilisé ; hors base</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_wounded_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_wounded_enabled_desc">
+    <text>Déclencher l'événement lorsqu'un NPC ou le joueur utilise un objet de soin.</text>
+  </string>
+  <!-- ==================== CAUSES / AREA ==================== -->
+  <string id="ui_mcm_ap_causes_area_conquer_tag">
+    <text>Cause : Conquête de zone disponible\nDesc : Escouade de Stalkers s'empare d'un smart vide\nRègles : portée visuelle ; jour ; stalkers non écologiste ; personnalité(territoire, agressivité) ; smart vide ; pas à la base ; tactiques ; MVT</text>
+  </string>
+  <string id="ui_mcm_ap_causes_area_swarm_tag">
+    <text>Cause : Essaimage de zone disponible\nDesc : Escouade de Mutants s'empare d'un smart vide\nRègles : portée visuelle ; jour ; mutants non lâche ; personnalité(territoire, agressivité) ; smart vide ; pas à la base ; tactiques ; MVT</text>
+  </string>
+  <string id="ui_mcm_ap_causes_area_infest_tag">
+    <text>Cause : Infestation de zone disponible\nDesc : Mutant s'empare d'un repaire ou d'un abri anti-surtension\nRègles : portée visuelle ; jour ; mutants non lâche ; personnalité(territoire, survie) ; abri spécifique à l'espèce ; pas à la base ; non infesté ; présence d'un alpha ; limite par niveau ; tactiques ; MVT</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_conquer_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_conquer_enabled_desc">
+    <text>Autorise la publication de la cause « conquérir ».</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_conquer_threshold">
+    <text>Seuil MVT</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_conquer_threshold_desc">
+    <text>Nombre d'heures de jeu par escouade avant une nouvelle tentative de conquête. Temps de récupération MVT.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_swarm_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_swarm_enabled_desc">
+    <text>Autorise la publication de la cause « essaim ».</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_swarm_threshold">
+    <text>Seuil MVT</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_swarm_threshold_desc">
+    <text>Nombre d'heures de jeu par escouade avant une nouvelle tentative d'essaimage. Temps de récupération MVT.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_infest_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_infest_enabled_desc">
+    <text>Autorise la publication de la cause « infester ».</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_infest_threshold">
+    <text>Seuil MVT</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_infest_threshold_desc">
+    <text>Nombre d'heures de jeu par escouade avant une nouvelle tentative d'infestation. Temps de récupération MVT.</text>
+  </string>
+  <!-- ==================== CAUSES / HARVEST ==================== -->
+  <string id="ui_mcm_ap_causes_harvest_tag">
+    <text>Cause : Récolte\nDesc : Un NPC ou un joueur ramasse un artefact.\nRègles : artefact ramassé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_harvest_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_harvest_enabled_desc">
+    <text>Déclencher la cause : récolte lorsqu'un artefact est ramassé.</text>
+  </string>
+  <!-- ==================== CAUSES / NEEDS ==================== -->
+  <string id="ui_mcm_ap_causes_needs_title">
+    <text>Besoins</text>
+  </string>
+  <!-- Per-cause tags (14 sub-causes) -->
+  <string id="ui_mcm_ap_causes_needs_hunger_campfire_tag">
+    <text>Cause : Faim feu de camp disponible\nDesc : Escouade affamée se rendant près d'un feu de camp pour manger\nRègles : portée radio ; tout stalker ; personnalité (survie) ; feu de camp ; non hostile ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_sleep_campfire_tag">
+    <text>Cause : Sommeil feu de camp disponible\nDesc : Escouade fatiguée s'installant près d'un feu de camp\nRègles : portée radio ; nuit ; tout stalker ; personnalité (survie) ; feu de camp ; non hostile ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_rest_campfire_tag">
+    <text>Cause : Repos feu de camp disponible\nDesc : Escouade épuisée faisant halte près d'un feu de camp\nRègles : portée radio ; tout stalker ; personnalité (survie) ; feu de camp ; non hostile ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_heal_shelter_tag">
+    <text>Cause : Abri de guérison disponible\nDesc : Escouade blessée cherche un abri anti-surtension\nRègles : portée radio ; tout stalker ; personnalité(territoire, survie) ; abri anti-surtension ; non hostile ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_shelter_indoor_tag">
+    <text>Cause : Abri intérieur disponible\nDesc : Escouade utilise un abri anti-surtension intérieur\nRègles : portée radio ; nuit ; tout stalker ; personnalité(territoire, discipline) ; abri anti-surtension ; non hostile ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_shelter_outdoor_tag">
+    <text>Cause : Abri extérieur disponible\nDesc : Escouade utilise un feu de camp comme abri extérieur\nRègles : portée radio ; nuit ; tout stalker ; personnalité(perception) ; feu de camp ; non hostile ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_supply_trader_tag">
+    <text>Cause : Fournisseur Ravitaillement disponible\nDesc : Escouade se dirige vers un smart abritant un marchand, un médecin ou un mécanicien sélectionné\nRègles : portée radio ; jour ; tout stalker ; personnalité(cupidité, relation) ; service NPC au smart ; non hostile ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_supply_trader_offmap_tag">
+    <text>Cause : Fournisseur Ravitaillement Hors-carte disponible\nDesc : Escouade se dirige vers un smart sur une autre carte abritant un marchand, un médecin ou un mécanicien sélectionné. Variante de supply_trader ; factions pacifiques et cupides voyagent pour commercer\nRègles : analyse tous niveaux ; exclut le niveau source ; limite d'équilibre hors-carte appliquée ; voyageurs hors-carte ; personnalité(cupidité, INV_agressivité) ; service NPC au smart ; non hostile ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_money_harvest_tag">
+    <text>Cause : Récolte de gains disponible\nDesc : Escouade se dirige vers une anomalie pour extraire artefacts\nRègles : portée radio ; jour ; stalkers intéressé ; personnalité(cupidité, perception) ; anomalie ; non hostile ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_money_hunt_tag">
+    <text>Cause : Chasse aux gains disponible\nDesc : Escouade se dirige vers un repaire pour traquer mutants\nRègles : portée radio ; jour ; stalkers naturaliste ; personnalité(cupidité, perception) ; repaire ; non hostile ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_job_outpost_tag">
+    <text>Cause : Mission Avant-poste disponible\nDesc : Escouade tient un poste éloigné en surveillance\nRègles : portée radio ; jour ; stalkers principiel ; personnalité(territoire, discipline) ; pas à la base ; pas au repaire ; non hostile ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_job_explore_tag">
+    <text>Cause : Mission Explorer disponible\nDesc : Escouade explorant un smart non revendiqué\nRègles : portée radio ; jour ; stalkers intéressé ; personnalité (perception, territoire) ; non revendiqué ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_job_explore_offmap_tag">
+    <text>Cause : Mission Explorer Hors-carte disponible\nDesc : Escouade explore un smart non réclamé sur une autre carte. Variante de job_explore ; factions pacifiques et curieuses explorent les cartes voisines\nRègles : analyse tous niveaux ; exclut le niveau source ; limite d'équilibre hors-carte appliquée ; voyageurs hors-carte ; personnalité(perception, INV_agressivité) ; faction non réclamée ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_job_research_tag">
+    <text>Cause : Mission Recherche disponible\nDesc : Escouade de scientifiques prélève des échantillons sur un champ d'anomalies\nRègles : portée radio ; jour ; écologistes ; personnalité(perception, discipline) ; anomalie ; non hostile ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_social_campfire_tag">
+    <text>Cause : Base sociale feu de camp disponible\nDesc : Escouade se rassemblant près d'un feu de camp pour boire\nRègles : portée radio ; tout stalker ; personnalité (relation) ; feu de camp ; non hostile ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_social_base_tag">
+    <text>Cause : Base sociale disponible\nDesc : Escouade retournant à la base pour se reposer\nRègles : portée radio ; stalkers principiels ; personnalité (relation, territoire) ; base ; non hostile ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_social_offmap_tag">
+    <text>Cause : Base sociale Hors-carte disponible\nDesc : Escouade visite une base sur une autre carte pour compagnie. Variante de social_base ; factions sociables et pacifiques visitent d'autres camps\nRègles : analyse tous niveaux ; exclut le niveau source ; limite d'équilibre hors-carte appliquée ; voyageurs hors-carte ; personnalité(relation, INV_agressivité) ; base ; non hostile ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_hunger_threshold">
+    <text>Seuil de faim</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_hunger_threshold_desc">
+    <text>[game-hours]\nIntervalle de temps entre les événements de faim. Par défaut : 8 (3 repas par jour).</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_sleep_threshold">
+    <text>Seuil de sommeil</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_sleep_threshold_desc">
+    <text>[heures-de-jeu]\nIntervalle entre les événements de sommeil. Limité à la nuit (20:00-05:00). Par défaut : 16.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_rest_threshold">
+    <text>Seuil de repos</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_rest_threshold_desc">
+    <text>[heures-de-jeu]\nIntervalle entre les événements de repos (fumer, boire, se détendre). Par défaut : 4.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_heal_threshold">
+    <text>Seuil de soin</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_heal_threshold_desc">
+    <text>[game-hours]\nIntervalle de temps entre les événements de soin. Valeur par défaut : 12.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_shelter_threshold">
+    <text>Seuil d'abri</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_shelter_threshold_desc">
+    <text>[game-hours]\nIntervalle de temps entre les événements de mise à l'abri. Valeur par défaut : 24.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_money_threshold">
+    <text>Seuil d'argent</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_money_threshold_desc">
+    <text>[game-hours]\nIntervalle de temps entre les événements de recherche d'argent. Par défaut : 24.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_supply_threshold">
+    <text>Seuil de ravitaillement</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_supply_threshold_desc">
+    <text>[game-hours]\nIntervalle de temps entre les événements d'approvisionnement (visite d'un marchand, dépôt dans une cache). Valeur par défaut : 48.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_job_threshold">
+    <text>Seuil de travail</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_job_threshold_desc">
+    <text>[heures-de-jeu]\nIntervalle entre les événements de mission (garder, explorer, rechercher). Par défaut : 18.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_social_threshold">
+    <text>Seuil social</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_social_threshold_desc">
+    <text>[game-hours]\nIntervalle de temps entre les événements sociaux (rassemblement autour d'un feu de camp, visite de base). Valeur par défaut : 36.</text>
+  </string>
+  <!-- Per-cause enable labels (uniform "Enabled") -->
+  <string id="ui_mcm_ap_causes_needs_cause_hunger_campfire_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_hunger_campfire_enabled_desc">
+    <text>Autorise la cause hunger_campfire à publier.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_sleep_campfire_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_sleep_campfire_enabled_desc">
+    <text>Autorise la cause sleep_campfire à publier.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_rest_campfire_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_rest_campfire_enabled_desc">
+    <text>Autorise la cause rest_campfire à publier.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_heal_shelter_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_heal_shelter_enabled_desc">
+    <text>Autorise la cause heal_shelter à publier.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_shelter_indoor_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_shelter_indoor_enabled_desc">
+    <text>Autorise la cause shelter_indoor à publier.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_shelter_outdoor_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_shelter_outdoor_enabled_desc">
+    <text>Autorise la cause shelter_outdoor à publier.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_supply_trader_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_supply_trader_enabled_desc">
+    <text>Autorise la cause supply_trader à publier.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_money_harvest_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_money_harvest_enabled_desc">
+    <text>Autorise la cause money_harvest à publier.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_money_hunt_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_money_hunt_enabled_desc">
+    <text>Autorise la publication de la cause « chasse_argent ».</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_job_outpost_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_job_outpost_enabled_desc">
+    <text>Autorise la publication de la cause « mission_poste_avancé ».</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_job_explore_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_job_explore_enabled_desc">
+    <text>Autorise la publication de la cause « mission_exploration ».</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_job_research_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_job_research_enabled_desc">
+    <text>Autorise la cause job_research à publier.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_social_campfire_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_social_campfire_enabled_desc">
+    <text>Autorise la cause social_campfire à publier.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_social_base_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_social_base_enabled_desc">
+    <text>Autorise la publication de la cause « base_sociale ».</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_social_offmap_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_social_offmap_enabled_desc">
+    <text>Autorise la publication de la cause social_offmap (équivalente à social_base ; les factions sociables et pacifiques visitent d'autres camps).</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_supply_trader_offmap_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_supply_trader_offmap_enabled_desc">
+    <text>Autorise la publication de la cause supply_trader_offmap (équivalente à supply_trader ; les factions pacifiques et avides voyagent pour commercer).</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_job_explore_offmap_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_job_explore_offmap_enabled_desc">
+    <text>Autorise la publication de la cause job_explore_offmap (équivalente à job_explore ; les factions pacifiques et curieuses explorent les cartes voisines).</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / ALPHA PROMOTE ==================== -->
+  <string id="ui_mcm_ap_consequences_alpha_promote_title">
+    <text>Alpha\nPromouvoir</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alpha_promote_tag">
+    <text>Desc : Enregistre un nouvel alpha ou augmente son niveau\nCause : Alpha\nRègles : mutants ; seuil de mise à mort</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alpha_promote_consequence_alpha_promote_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alpha_promote_consequence_alpha_promote_enabled_desc">
+    <text>Enregistre les mutants comme alphas lorsqu'ils montent en niveau grâce à des éliminations.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alpha_promote_consequence_alpha_promote_max_alphas">
+    <text>Nombre maximal d'alphas</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alpha_promote_consequence_alpha_promote_max_alphas_desc">
+    <text>Nombre maximal d'alphas autorisés à l'échelle mondiale. Bloque uniquement l'apparition de nouveaux alphas, et non les montées en niveau.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / ALPHAKILL TARGETED ==================== -->
+  <string id="ui_mcm_ap_consequences_alphakill_targeted_title">
+    <text>Ciblage après meurtre d'alpha</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alphakill_targeted_tag">
+    <text>Description : mutants de la même espèce poursuivent le tueur\nCause : Meurtre d'alpha\nRègles : portée d'odeur ; même espèce ; personnalité (agressivité)</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_enabled_desc">
+    <text>Les mutants de la même espèce présents sur le niveau poursuivent le meurtrier.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_max_squads">
+    <text>Nombre maximal d'escouades par événement</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_max_squads_desc">
+    <text>Nombre maximal d'escouades alpha qui poursuivent le tueur.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_max_chases">
+    <text>Poursuites max par chasseur</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_max_chases_desc">
+    <text>Nombre maximal de fois qu'un chasseur réécrit son script pour poursuivre un tueur en fuite. 0 désactive la poursuite.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / MASSACRE SCAVENGE ==================== -->
+  <string id="ui_mcm_ap_consequences_massacre_scavenge_title">
+    <text>Massacre Butinage</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_scavenge_tag">
+    <text>Desc : mutants lâches fouillant les cadavres\nCause : Massacre\nRègles : portée odeur ; mutants lâches ; personnalité (survie, perception)</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_enabled_desc">
+    <text>Les hors-la-loi et les mutants peureux convergent vers les sites de massacre.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_max_squads">
+    <text>Nombre maximal d'escouades par événement</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_max_squads_desc">
+    <text>Nombre maximal d'escouades de charognards répondant à un massacre.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / MASSACRE INVESTIGATE ==================== -->
+  <string id="ui_mcm_ap_consequences_massacre_investigate_title">
+    <text>Massacre\nEnquête</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_investigate_tag">
+    <text>Desc : stalkers de la faction victime se rendant sur le lieu du massacre\nCause : Massacre\nRègles : portée radio ; stalkers non renégat ; personnalité (perception, relation)</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_enabled_desc">
+    <text>Les factions de Stalkers enquêtent lorsque l'un des leurs meurt.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_max_squads">
+    <text>Nombre maximal d'escouades par événement</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_max_squads_desc">
+    <text>Nombre maximal d'escouades de faction enquêtant sur un massacre (aléatoire entre 1 et N).</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / MASSACRE LOOT ==================== -->
+  <string id="ui_mcm_ap_consequences_massacre_loot_title">
+    <text>Massacre\nButin</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_loot_tag">
+    <text>Description : Hors-la-loi dépouillent les cadavres\nCause : Massacre\nRègles : portée radio ; stalkers hors-la-loi ; personnalité (cupidité, perception)</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_loot_consequence_massacre_loot_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_loot_consequence_massacre_loot_enabled_desc">
+    <text>Les hors-la-loi dépouillent les cadavres sur les lieux de massacre.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_loot_consequence_massacre_loot_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_loot_consequence_massacre_loot_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_loot_consequence_massacre_loot_max_squads">
+    <text>Nombre maximal d'escouades par événement</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_loot_consequence_massacre_loot_max_squads_desc">
+    <text>Nombre maximal d'escouades de hors-la-loi se rendant sur les lieux d'un massacre pour le piller.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / STASH AMBUSH ==================== -->
+  <string id="ui_mcm_ap_consequences_stash_ambush_title">
+    <text>Cache\nEmbuscade</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_ambush_tag">
+    <text>Desc : Escouade arrive et attend pour tendre une embuscade à un pilleur\nCause : Embuscade de cache disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_ambush_consequence_stash_ambush_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_ambush_consequence_stash_ambush_enabled_desc">
+    <text>Les bandits établissent leur campement aux emplacements de caches révélées et attendent.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_ambush_consequence_stash_ambush_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_ambush_consequence_stash_ambush_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / STASH LOOT ==================== -->
+  <string id="ui_mcm_ap_consequences_stash_loot_title">
+    <text>Butin\nde cache</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_loot_tag">
+    <text>Desc : Escouade prélève des bandes par catégorie dans la cache (munitions adaptées aux armes équipées, medkits, bandages, nourriture, boisson, antirad, grenades). Les objets de quête ignorent toute la cache. Option MCM pour ignorer les caches contenant des objets de craft\nCause : Pillage de cache disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_enabled_desc">
+    <text>Les charognards se précipitent vers les caches révélées pour les piller avant l'arrivée du joueur.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_skip_crafting">
+    <text>Ignorer les caches avec objets de craft</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_skip_crafting_desc">
+    <text>Si une cache contient un élément de workflow d'artisanat (outils, kits, pièces d'arme, améliorations), l'escouade laisse la cache intacte dans son intégralité. Cela préserve la chaîne d'approvisionnement en artisanat du joueur. Désactivez cette option pour permettre aux escouades de piller toutes les caches, quel que soit leur contenu.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / STASH FILL ==================== -->
+  <string id="ui_mcm_ap_consequences_stash_fill_title">
+    <text>Remplissage\nde cache</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_fill_tag">
+    <text>Description : Escouade dépose l'excédent de butin par catégorie dans une cache, limité par événement\nCause : Remplissage de cache disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_enabled_desc">
+    <text>Les Stalkers cachent des fournitures dans les caches qu'ils découvrent.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / SQUADKILL REVENGE ==================== -->
+  <string id="ui_mcm_ap_consequences_squadkill_revenge_title">
+    <text>Vengeance après meurtre de groupe</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_squadkill_revenge_tag">
+    <text>Desc : Escouades de la faction victime pourchassant le meurtrier\nCause : Meurtre de groupe\nRègles : portée radio ; stalkers sans principes ou hors-la-loi ; personnalité (agressivité, relation)</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_enabled_desc">
+    <text>Les escouades amicales proches poursuivent les tueurs lorsqu'une escouade est anéantie.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_max_squads">
+    <text>Nombre maximal d'escouades par événement</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_max_squads_desc">
+    <text>Nombre maximal d'escouades de vengeurs poursuivant un tueur (aléatoire entre 1 et N).</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_max_chases">
+    <text>Poursuites max par vengeur</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_max_chases_desc">
+    <text>Nombre maximal de fois qu'un vengeur réécrit son script pour poursuivre un tueur en fuite. 0 désactive la poursuite.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / BASEKILL SUPPORT ==================== -->
+  <string id="ui_mcm_ap_consequences_basekill_support_title">
+    <text>Soutien après meurtre de base</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_support_tag">
+    <text>Desc : Escouades de la faction victime se ruant pour défendre la base\nCause : Meurtre de base\nRègles : portée radio ; stalkers non renégat ; personnalité (discipline, relation)</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_enabled_desc">
+    <text>Les escouades proches se précipitent pour renforcer une base attaquée.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_max_squads">
+    <text>Nombre maximal d'escouades par événement</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_max_squads_desc">
+    <text>Nombre maximal d'escouades de renfort envoyées pour défendre la base (aléatoire entre 1 et N).</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / BASEKILL FLEE ==================== -->
+  <string id="ui_mcm_ap_consequences_basekill_flee_title">
+    <text>Fuite après meurtre de base</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_flee_tag">
+    <text>Desc : Escouades voisines fuyant vers une base amie éloignée\nCause : Meurtre de base\nRègles : portée visuelle ; stalkers sans principes ; personnalité (indiscipline, rejet du territoire) ; base sur le niveau</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_enabled_desc">
+    <text>Les escouades abandonnent leur base sous une attaque massive et se replient vers une zone sûre.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_max_squads">
+    <text>Nombre maximal d'escouades par événement</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_max_squads_desc">
+    <text>Nombre maximal d'escouades qui fuient par événement (aléatoire entre 1 et N).</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / WOUNDED HUNT ==================== -->
+  <string id="ui_mcm_ap_consequences_wounded_hunt_title">
+    <text>Blessés\nChasse</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_hunt_tag">
+    <text>Desc : mutants prédateurs et aberrants convergeant vers les blessés\nCause : Blessés\nRègles : portée radio ; espèce prédatrice ou aberrante ; personnalité (agressivité, perception)</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_enabled_desc">
+    <text>Les mutants prédateurs et aberrants chassent les blessés.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_max_squads">
+    <text>Nombre maximal d'escouades par événement</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_max_squads_desc">
+    <text>Nombre maximal d'escouades de mutants attirées par un blessé (aléatoire entre 1 et N).</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / WOUNDED FACTION HELP ==================== -->
+  <string id="ui_mcm_ap_consequences_wounded_help_title">
+    <text>Blessés\nAide</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_help_tag">
+    <text>Desc : Médecins de même faction convergeant vers les blessés\nCause : Blessés\nRègles : portée radio ; stalkers non hors-la-loi ; personnalité (relation, discipline)</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_enabled_desc">
+    <text>Les membres de la faction se précipitent pour porter assistance à leurs camarades blessés.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_max_squads">
+    <text>Nombre maximal d'escouades par événement</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_max_squads_desc">
+    <text>Nombre maximal d'escouades d'assistance envoyées par événement (aléatoire entre 1 et N).</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / AREA CONQUER ==================== -->
+  <string id="ui_mcm_ap_consequences_area_conquer_title">
+    <text>Conquérir\nla zone</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_conquer_tag">
+    <text>Description : Une escouade de Stalkers arrive et ajoute sa faction au pool d'apparition\nCause : Conquête de zone disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_conquer_consequence_area_conquer_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_conquer_consequence_area_conquer_enabled_desc">
+    <text>Envoyer des escouades humaines pour revendiquer les zones inoccupées.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_conquer_consequence_area_conquer_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_conquer_consequence_area_conquer_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / AREA SWARM ==================== -->
+  <string id="ui_mcm_ap_consequences_area_swarm_title">
+    <text>Essaim\nde zone</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_swarm_tag">
+    <text>Desc : Meute de Mutants arrive et ajoute son espèce au pool de spawn\nCause : Essaimage de zone disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_swarm_consequence_area_swarm_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_swarm_consequence_area_swarm_enabled_desc">
+    <text>Envoyer des escouades de mutants pour revendiquer les zones inoccupées.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_swarm_consequence_area_swarm_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_swarm_consequence_area_swarm_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / HARVEST ROB ==================== -->
+  <string id="ui_mcm_ap_consequences_harvest_rob_title">
+    <text>Récolte\nVol</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_rob_tag">
+    <text>Desc : Hors-la-loi pourchassant le récupérateur d'artefact\nCause : Récolte\nRègles : portée radio ; stalkers hors-la-loi ; personnalité (cupidité, agressivité)</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_enabled_desc">
+    <text>Les hors-la-loi poursuivent les preneurs d'artefacts.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_max_squads">
+    <text>Nombre maximal d'escouades par événement</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_max_squads_desc">
+    <text>Nombre maximal d'escouades de chasseurs poursuivant le preneur de artefact (aléatoire entre 1 et N).</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_max_chases">
+    <text>Poursuites max par chasseur</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_max_chases_desc">
+    <text>Nombre maximal de fois qu'un chasseur réécrit son script pour poursuivre un preneur en fuite. 0 désactive la poursuite.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / HARVEST HAUNT ==================== -->
+  <string id="ui_mcm_ap_consequences_harvest_haunt_title">
+    <text>Récolte\nHanter</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_haunt_tag">
+    <text>Desc : mutants aberrants hantant le site de ramassage\nCause : Récolte\nRègles : portée odeur ; espèce aberrante ; personnalité (perception, territoire)</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_enabled_desc">
+    <text>Les mutants aberrants convergent vers les sites de récupération d'artefacts.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_max_squads">
+    <text>Nombre maximal d'escouades par événement</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_max_squads_desc">
+    <text>Nombre maximal d'escouades aberrantes convergeant vers le site de ramassage (aléatoire entre 1 et N).</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / HUNGER CAMPFIRE ==================== -->
+  <string id="ui_mcm_ap_consequences_hunger_campfire_title">
+    <text>Faim Feu de camp</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_hunger_campfire_tag">
+    <text>Desc : Escouade se dirige vers un feu de camp pour manger\nCause : Faim feu de camp disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_enabled_desc">
+    <text>Les stalkers affamés recherchent des feux de camp pour se nourrir.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / SLEEP CAMPFIRE ==================== -->
+  <string id="ui_mcm_ap_consequences_sleep_campfire_title">
+    <text>Sommeil au feu de camp</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_sleep_campfire_tag">
+    <text>Desc : Escouade se dirige vers un feu de camp pour dormir\nCause : Sommeil feu de camp disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_sleep_campfire_consequence_sleep_campfire_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_sleep_campfire_consequence_sleep_campfire_enabled_desc">
+    <text>Les stalkers fatigués recherchent des feux de camp pour dormir la nuit.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_sleep_campfire_consequence_sleep_campfire_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_sleep_campfire_consequence_sleep_campfire_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / REST CAMPFIRE ==================== -->
+  <string id="ui_mcm_ap_consequences_rest_campfire_title">
+    <text>Repos au feu de camp</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_rest_campfire_tag">
+    <text>Desc : Escouade se dirige vers un feu de camp pour se reposer\nCause : Repos feu de camp disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_enabled_desc">
+    <text>Les stalkers fatigués recherchent des feux de camp pour se reposer.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / HEAL SHELTER ==================== -->
+  <string id="ui_mcm_ap_consequences_heal_shelter_title">
+    <text>Soigner l'abri</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_heal_shelter_tag">
+    <text>Desc : Escouade se dirige vers un abri pour se soigner\nCause : Abri de soin disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_enabled_desc">
+    <text>Les stalkers blessés recherchent des emplacements abrités pour se soigner.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / SHELTER ==================== -->
+  <string id="ui_mcm_ap_consequences_shelter_indoor_title">
+    <text>Abri</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_shelter_indoor_tag">
+    <text>Desc : Escouade se met à l'abri en intérieur lors de la vague\nCause : Abri intérieur disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_shelter_indoor_consequence_shelter_indoor_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_shelter_indoor_consequence_shelter_indoor_enabled_desc">
+    <text>Les stalkers exposés recherchent des lieux abrités des émissions.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_shelter_indoor_consequence_shelter_indoor_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_shelter_indoor_consequence_shelter_indoor_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / SHELTER OUTDOOR ==================== -->
+  <string id="ui_mcm_ap_consequences_shelter_outdoor_title">
+    <text>Abri Extérieur</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_shelter_outdoor_tag">
+    <text>Desc : Escouade utilise un refuge extérieur pendant la vague\nCause : Refuge extérieur disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_shelter_outdoor_consequence_shelter_outdoor_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_shelter_outdoor_consequence_shelter_outdoor_enabled_desc">
+    <text>Les stalkers exposés recherchent des feux de camp lorsqu'aucun abri anti-surtension n'est à proximité.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_shelter_outdoor_consequence_shelter_outdoor_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_shelter_outdoor_consequence_shelter_outdoor_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / MONEY HARVEST ==================== -->
+  <string id="ui_mcm_ap_consequences_money_harvest_title">
+    <text>Récolte d'argent</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_money_harvest_tag">
+    <text>Desc : Escouade se dirige vers un champ d'anomalies pour récolter des artefacts\nCause : Récolte d'argent disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_enabled_desc">
+    <text>Les Stalkers recherchent les zones d'anomalies lorsqu'ils ont besoin d'argent.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / MONEY HUNT ==================== -->
+  <string id="ui_mcm_ap_consequences_money_hunt_title">
+    <text>Chasse à l'argent</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_money_hunt_tag">
+    <text>Desc : Escouade se dirige vers un repaire pour chasser des trophées\nCause : Chasse aux gains disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_money_hunt_consequence_money_hunt_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_money_hunt_consequence_money_hunt_enabled_desc">
+    <text>Les Stalkers chassent les mutants lorsqu'ils ont besoin d'argent.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_money_hunt_consequence_money_hunt_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_money_hunt_consequence_money_hunt_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / SUPPLY TRADER ==================== -->
+  <string id="ui_mcm_ap_consequences_supply_trader_title">
+    <text>Fournisseur de ravitaillement</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_tag">
+    <text>Desc : Escouade se rend chez un marchand, vend le surplus et se réapprovisionne selon une politique adaptée au grade. Les recrues emportent des munitions basiques, medkits, bandages. Les vétérans ajoutent des munitions premium et des grenades\nCause : Fournisseur Ravitaillement disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_enabled_desc">
+    <text>Les Stalkers rendent visite aux marchands lorsqu'ils ont besoin de fournitures.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_arrive_action_enabled">
+    <text>Action à l'arrivée</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_arrive_action_enabled_desc">
+    <text>La phase de vente élimine tout élément dont le nombre dépasse le maximum défini par la politique. Les objets équipés, les objets de quête et l'argent ne sont jamais touchés. La phase d'achat comble toute catégorie dont le nombre tombe en dessous du minimum, en fonction des munitions par emplacement équipé et par niveau, et des consommables du moins cher au plus cher. Les vétérans ajoutent des munitions premium et des grenades. profit_max limite le gain en espèces par événement pour le net.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / SUPPLY TRADER OFF-MAP ==================== -->
+  <string id="ui_mcm_ap_consequences_supply_trader_offmap_title">
+    <text>Fournisseur Ravitaillement hors-carte</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_offmap_tag">
+    <text>Desc : Escouade se rend à une base sur une autre carte pour se ravitailler\nCause : Fournisseur Ravitaillement hors-carte disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_offmap_consequence_supply_trader_offmap_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_offmap_consequence_supply_trader_offmap_enabled_desc">
+    <text>Le Stalkers traverse vers une base située sur une autre carte pour se réapprovisionner lorsqu'aucun marchand n'est disponible sur la carte actuelle.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_offmap_consequence_supply_trader_offmap_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_offmap_consequence_supply_trader_offmap_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_offmap_consequence_supply_trader_offmap_arrive_action_enabled">
+    <text>Action à l'arrivée</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_offmap_consequence_supply_trader_offmap_arrive_action_enabled_desc">
+    <text>La phase de vente élimine tout élément dont le nombre dépasse le maximum défini par la politique. Les objets équipés, les objets de quête et l'argent ne sont jamais touchés. La phase d'achat comble toute catégorie dont le nombre tombe en dessous du minimum, en fonction des munitions par emplacement équipé et par niveau, et des consommables du moins cher au plus cher. Les vétérans ajoutent des munitions premium et des grenades. profit_max limite le gain en espèces par événement pour le net.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / JOB OUTPOST ==================== -->
+  <string id="ui_mcm_ap_consequences_job_outpost_title">
+    <text>Avant-poste</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_outpost_tag">
+    <text>Desc : Escouade se dirige vers un avant-poste pour monter la garde\nCause : Mission avant-poste disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_enabled_desc">
+    <text>Les Stalkers gardent les avant-postes et les points de contrôle lorsque leur devoir les appelle.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / JOB EXPLORE ==================== -->
+  <string id="ui_mcm_ap_consequences_job_explore_title">
+    <text>Exploration</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_explore_tag">
+    <text>Desc : Escouade se dirige vers un territoire non revendiqué pour explorer\nCause : Mission exploration disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_explore_consequence_job_explore_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_explore_consequence_job_explore_enabled_desc">
+    <text>Les Stalkers explorent des zones inconnues lorsque le devoir les appelle.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_explore_consequence_job_explore_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_explore_consequence_job_explore_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / JOB EXPLORE OFF-MAP ==================== -->
+  <string id="ui_mcm_ap_consequences_job_explore_offmap_title">
+    <text>Mission Explorer hors-carte</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_explore_offmap_tag">
+    <text>Desc : Escouade se dirige vers un territoire non revendiqué sur une autre carte\nCause : Mission Explorer hors-carte disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_explore_offmap_consequence_job_explore_offmap_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_explore_offmap_consequence_job_explore_offmap_enabled_desc">
+    <text>Le Stalkers traverse vers un territoire non réclamé sur une autre carte lorsqu'aucun terrain intelligent non réclamé n'est disponible sur la carte actuelle.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_explore_offmap_consequence_job_explore_offmap_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_explore_offmap_consequence_job_explore_offmap_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / JOB RESEARCH ==================== -->
+  <string id="ui_mcm_ap_consequences_job_research_title">
+    <text>Recherche</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_research_tag">
+    <text>Desc : Escouade se dirige vers un champ d'anomalies pour étudier\nCause : Mission recherche disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_enabled_desc">
+    <text>Les Stalkers étudient les zones d'anomalies lorsque le devoir les appelle.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / JOB RESEARCH OFF-MAP ==================== -->
+  <!-- ==================== CONSEQUENCES / SOCIAL CAMPFIRE ==================== -->
+  <string id="ui_mcm_ap_consequences_social_campfire_title">
+    <text>Base sociale Feu de camp</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_campfire_tag">
+    <text>Desc : Escouade se dirige vers un feu de camp pour socialiser\nCause : Feu de camp social disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_enabled_desc">
+    <text>Les stalkers solitaires recherchent la compagnie des feux de camp.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / SOCIAL BASE ==================== -->
+  <string id="ui_mcm_ap_consequences_social_base_title">
+    <text>Base sociale</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_base_tag">
+    <text>Desc : Escouade se dirige vers une base pour socialiser\nCause : Base sociale disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_enabled_desc">
+    <text>Les stalkers solitaires retournent à la base pour trouver de la compagnie.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / SOCIAL OFF-MAP ==================== -->
+  <string id="ui_mcm_ap_consequences_social_offmap_title">
+    <text>Base sociale hors-carte</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_offmap_tag">
+    <text>Description : Escouade se rend à une base sur une autre carte pour repos ; voyageurs hors-carte\nCause : Base sociale hors-carte disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_offmap_consequence_social_offmap_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_offmap_consequence_social_offmap_enabled_desc">
+    <text>Un Stalkers traverse vers une base située sur une autre carte pour une période de repos lorsqu'aucune base sur la carte actuelle n'est disponible. S'applique aux voyageurs hors carte (armée, Monolithe et zombifiés exclus).</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_offmap_consequence_social_offmap_rush">
+    <text>Mode charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_offmap_consequence_social_offmap_rush_desc">
+    <text>Les escouades scriptées se déplacent à vitesse maximale. Désactivez cette option pour un mouvement plus lent et plus réaliste.</text>
+  </string>
+  <!-- ==================== MUTATORS / AREA CONQUEST ==================== -->
+  <string id="ui_mcm_ap_mutators_conquest_title">
+    <text>Conquête de zone</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_desc">
+    <text>Mutation de terrain intelligent pour la conquête de zone. Ajoute un emplacement de réapparition supplémentaire pour la faction conquérante en plus des apparitions LTX d'origine. Les escouades de la faction conquérante et des occupants initiaux se disputent les emplacements de population. Désactivez cette option pour conserver le mouvement des escouades (la conséquence area_conquer) sans modifier les tables d'apparition du moteur.</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_mutate_smart">
+    <text>Injection d'apparitions</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_mutate_smart_desc">
+    <text>Les zones conquises font apparaître les groupes du conquérant en plus des apparitions originales. Désactivez cette option pour maintenir les déplacements de groupes sans modifier les apparitions.</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_max_per_level">
+    <text>Conquis max par niveau</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_max_per_level_desc">
+    <text>[1-5]\nNombre maximal de terrains intelligents conquis par niveau. Par défaut : 3.</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_spawn_num">
+    <text>Escouades par zone</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_spawn_num_desc">
+    <text>Escouades supplémentaires dans les zones conquises. Ajoutées en complément des apparitions d'origine.</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_decay_hours">
+    <text>Durée de déclin (heures)</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_decay_hours_desc">
+    <text>Les smart terrains conquis perdent les points d'apparition du conquérant après ce nombre d'heures de jeu. Les points d'apparition d'origine ne sont pas affectés. Réglez à 0 pour désactiver la décroissance.</text>
+  </string>
+  <!-- ==================== MUTATORS / AREA SWARM ==================== -->
+  <string id="ui_mcm_ap_mutators_swarm_title">
+    <text>Essaim de zone</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_swarm_desc">
+    <text>Mutation de terrain intelligent pour l'essaimage des mutants. Ajoute un emplacement de réapparition supplémentaire pour l'espèce essaimante en plus des apparitions LTX d'origine. Les escouades de l'espèce essaimante et des occupants initiaux se disputent les emplacements de population. Désactivez cette option pour conserver le mouvement des escouades (la conséquence area_swarm) sans modifier les tables d'apparition du moteur.</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_mutate_smart">
+    <text>Injection d'apparitions</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_mutate_smart_desc">
+    <text>Les zones envahies font apparaître l'espèce envahissante en plus des apparitions originales. Désactivez cette option pour maintenir les déplacements de groupes sans modifier les apparitions.</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_max_per_level">
+    <text>Essaims max par niveau</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_max_per_level_desc">
+    <text>[1-5]\nNombre maximal de terrains intelligents essaimés par niveau. Par défaut : 3.</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_spawn_num">
+    <text>Escouades par zone</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_spawn_num_desc">
+    <text>Escouades supplémentaires dans les zones saturées. Ajoutées en complément des apparitions d'origine.</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_decay_hours">
+    <text>Durée de dispersion (heures)</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_decay_hours_desc">
+    <text>Les smart terrains submergés perdent les points d'apparition de l'espèce envahissante après ce nombre d'heures de jeu. Les points d'apparition d'origine ne sont pas affectés. Réglez à 0 pour désactiver la décroissance.</text>
+  </string>
+  <!-- ==================== MUTATORS / AREA INFEST ==================== -->
+  <string id="ui_mcm_ap_mutators_infest_title">
+    <text>Infestation de zone</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_infest_desc">
+    <text>Mutation de terrain intelligent pour l'infestation par les mutants. Remplace les apparitions LTX d'origine exclusivement par l'espèce infestante. Une limite par niveau restreint le nombre de terrains intelligents pouvant être infestés sur chaque niveau. Désactivez cette option pour conserver le mouvement des escouades (la conséquence area_infest) sans modifier les tables d'apparition du moteur.</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_mutate_smart">
+    <text>Injection d'apparitions</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_mutate_smart_desc">
+    <text>Les zones infestées font apparaître exclusivement l'espèce infestante, remplaçant les apparitions originales. Désactivez cette option pour maintenir les déplacements de groupes sans modifier les apparitions.</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_max_per_level">
+    <text>Infestés max par niveau</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_max_per_level_desc">
+    <text>[1-5]\nNombre maximal de terrains intelligents infestés par niveau. Par défaut : 3.</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_spawn_num">
+    <text>Nombre d'apparitions</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_spawn_num_desc">
+    <text>[1-5]\nNombre d'escouades que l'entrée de spawn infestée peut produire. Par défaut : 3.</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_decay_hours">
+    <text>Durée de dégradation (heures)</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_decay_hours_desc">
+    <text>[0-168]\nNombre d'heures de jeu avant expiration de l'infestation. 0 = permanente (pas de dégradation). Valeur par défaut : 0.</text>
+  </string>
+  <!-- ==================== WORLD TAB ==================== -->
+  <string id="ui_mcm_ap_world_offmap_title">
+    <text>Hors-carte</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_desc">
+    <text>Les envois hors carte utilisent l'adjacence des cartes A-Life vanilla. Chaque escouade commence avec la portée de base définie ci-dessous (par défaut 0 ; augmentez cette valeur pour accorder une portée pré-scénario). Chaque jalon de progression (désactivation de X-16, désactivation du Lobotomisateur) et chaque commandant de rang maître ajoute une carte supplémentaire. La limite d'équilibrage plafonne le nombre total d'envois par carte source dans une fenêtre glissante de 48 heures de jeu.</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_cause_max_offmap">
+    <text>Limite hors-carte</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_cause_max_offmap_desc">
+    <text>[1-10]\nNombre maximal d'envois hors carte par niveau de source dans une fenêtre de 48 heures de jeu. Indépendant de la faction et de la destination ; un compteur partagé pour toutes les causes hors carte. Valeur par défaut : 2.</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_base_hops">
+    <text>Portée de la base hors-carte</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_base_hops_desc">
+    <text>[0-3]\nSauts d'adjacence de base disponibles pour chaque escouade avant les bonus liés à l'histoire ou au rang. 0 maintient les escouades sur leur carte d'origine jusqu'à ce qu'un jalon débloque la portée. 1 permet à un stalkers novice de reconnaître immédiatement une carte voisine. Valeur par défaut : 0.</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_extra_map_x16">
+    <text>Cartes supplémentaires après désactivation de Yantar X-16</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_extra_map_x16_desc">
+    <text>[0-3]\nSauts d'adjacence supplémentaires une fois que yan_labx16_switcher_primary_off a été défini (Yantar X-16 émetteur psy désactivé). 0 désactive cette option. Valeur par défaut : 1.</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_extra_map_radar">
+    <text>Cartes supplémentaires après désactivation du Radar Lobotomisateur</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_extra_map_radar_desc">
+    <text>[0-3]\nSauts d'adjacence supplémentaires une fois que bar_deactivate_radar_done a été défini (Radar Lobotomisateur désactivé). 0 désactive cette option. Valeur par défaut : 1.</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_extra_map_rank">
+    <text>Cartes supplémentaires pour commandant d'escouade maître</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_extra_map_rank_desc">
+    <text>[0-3]\nSauts d'adjacence supplémentaires lorsque le commandant d'escouade est de rang maître ou supérieur (character_rank &gt;= 17499). 0 désactive cette option. Valeur par défaut : 1.</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_return_home_hours">
+    <text>Heures de retour au repaire</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_return_home_hours_desc">
+    <text>[1-336 game-hours]\nDurée de séjour à la destination hors carte avant que le groupe ne soit renvoyé vers son point d'origine. Valeur par défaut : 72 (3 jours en zone).</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_despawn_hours">
+    <text>Heures de sécurité avant déspawn</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_despawn_hours_desc">
+    <text>[24-720 heures de jeu]\nÂge maximal hors carte avant que l'escouade ne soit libérée par mesure de sécurité. Ne s'applique que lorsque l'escouade est hors ligne et non protégée (scénario/tâche/compagnon/warfare). Valeur par défaut : 168 (7 jours en Zone).</text>
+  </string>
+  <!-- ==================== DEVELOPMENT TAB ==================== -->
+  <string id="ui_mcm_ap_development_title">
+    <text>Développement et outils</text>
+  </string>
+  <string id="ui_mcm_ap_development_btn_reset_all">
+    <text>Réinitialiser TOUT aux valeurs par défaut</text>
+  </string>
+  <string id="ui_mcm_ap_development_btn_reset_all_desc">
+    <text>Rétablit chaque paramètre d'AlifePlus à sa valeur d'usine par défaut. Prend effet immédiatement ; fermez et rouvrez le MCM pour voir les curseurs mis à jour. Utile après des expérimentations ou lors d'une mise à niveau vers une nouvelle version avec des valeurs par défaut rééquilibrées.</text>
+  </string>
+  <string id="ui_mcm_ap_development_btn_reset_stateless">
+    <text>Réinitialiser TOUT aux valeurs sans état</text>
+  </string>
+  <string id="ui_mcm_ap_development_btn_reset_stateless_desc">
+    <text>Réinitialise chaque paramètre à sa valeur d'usine par défaut, puis désactive toute fonctionnalité modifiant l'inventaire, les échanges ou les apparitions dans le monde, comme le commerce, la consommation d'objets, le remplissage des caches et le loot, ainsi que la propriété intelligente.</text>
+  </string>
+  <string id="ui_mcm_ap_development_reset_warning">
+    <text>Avertissement : sauvegardez ou annulez d'abord les modifications MCM en attente, sinon elles écraseront la réinitialisation lors du prochain Accept.</text>
+  </string>
+  <string id="ui_mcm_ap_development_desc">
+    <text>Débogage et développement. Le mode DEBUG active le traçage, le chronométrage des performances et les journaux détaillés. Les marqueurs de débogage affichent les destinations des escouades sur la carte du PDA.</text>
+  </string>
+  <string id="ui_mcm_ap_development_log_level">
+    <text>Niveau de journal</text>
+  </string>
+  <string id="ui_mcm_ap_development_log_level_desc">
+    <text>Contrôle le niveau de détail des journaux et les fonctionnalités de débogage. Le mode DEBUG active le traçage de style OTel, le chronométrage des performances et les journaux détaillés. Impacte les performances.</text>
+  </string>
+  <string id="ap_development_log_level_lst_error">
+    <text>Erreur</text>
+  </string>
+  <string id="ap_development_log_level_lst_warn">
+    <text>Avertissement</text>
+  </string>
+  <string id="ap_development_log_level_lst_info">
+    <text>Info</text>
+  </string>
+  <string id="ap_development_log_level_lst_debug">
+    <text>Débogage</text>
+  </string>
+  <string id="ui_mcm_ap_development_map_markers">
+    <text>Marqueurs de débogage</text>
+  </string>
+  <string id="ui_mcm_ap_development_map_markers_desc">
+    <text>Affiche les marqueurs de destination des groupes sur la carte du PDA. Positions approximatives pour tracer les mouvements A-Life, non exactes. Rechargez la sauvegarde pour appliquer.</text>
+  </string>
+  <string id="st_ap_teleport_to_squad">
+    <text>Téléporter vers l'escouade</text>
+  </string>
+  <string id="ui_mcm_ap_development_statistics_position">
+    <text>Superposition des statistiques</text>
+  </string>
+  <string id="ui_mcm_ap_development_statistics_position_desc">
+    <text>Affiche les statistiques du pipeline à l'écran et les enregistre dans le journal toutes les 10 secondes. Sélectionnez la position ou désactivez. Aucun surcoût lorsque désactivé.</text>
+  </string>
+  <string id="ap_development_statistics_position_lst_off">
+    <text>Désactivé</text>
+  </string>
+  <string id="ap_development_statistics_position_lst_top_left">
+    <text>En haut à gauche</text>
+  </string>
+  <string id="ap_development_statistics_position_lst_top_right">
+    <text>En haut à droite</text>
+  </string>
+  <string id="ap_development_statistics_position_lst_center_left">
+    <text>Au centre à gauche</text>
+  </string>
+  <string id="ap_development_statistics_position_lst_center_right">
+    <text>Au centre à droite</text>
+  </string>
+  <string id="ap_development_statistics_position_lst_bottom_left">
+    <text>En bas à gauche</text>
+  </string>
+  <string id="ap_development_statistics_position_lst_bottom_right">
+    <text>En bas à droite</text>
+  </string>
+  <!-- Cause: Instincts (5 drives + 7 answers, multi-answer drive: slumber splits 3 ways) -->
+  <string id="ui_mcm_ap_causes_instincts_title">
+    <text>Instincts</text>
+  </string>
+  <!-- Per-cause tags (7 sub-causes) -->
+  <string id="ui_mcm_ap_causes_instincts_scatter_tag">
+    <text>Cause : Dispersion disponible\nDesc : Mutant fuit une menace de niveau supérieur\nRègles : portée odeur ; toute période ; mutants proie ; personnalité(INV_agressivité, survie) ; menace proche ; smart sûr ; pas à la base ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_feed_tag">
+    <text>Cause : Nourriture disponible\nDesc : Mutant se rend sur un champ pour se nourrir\nRègles : portée odeur ; jour ; tout Mutant ; personnalité (survie, perception) ; territoire ; pas à la base ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_slumber_field_tag">
+    <text>Cause : Repos en plein air disponible\nDesc : Mutant dort à la belle étoile\nRègles : portée odeur ; nuit ; mutants lâche ; personnalité (survie) ; territoire ; pas à la base ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_slumber_lair_tag">
+    <text>Cause : Repaire de repos disponible\nDesc : Mutant se replie vers son repaire\nRègles : portée odeur ; nuit ; féral ou prédateur ; personnalité (survie) ; repaire ; pas à la base ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_slumber_surge_tag">
+    <text>Cause : Repos anti-surtension disponible\nDesc : Mutant se met à l'abri des anomalies\nRègles : portée odeur ; nuit ; aberrant ou prédateur ; personnalité(survie) ; abri anti-surtension ; pas à la base ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_roam_tag">
+    <text>Cause : Errance disponible\nDesc : Mutant explore de nouveaux territoires\nRègles : portée odeur ; jour ; mutants non aberrant ; personnalité(perception, territoire) ; territoire ou repaire ; pas à la base ; tactiques ; Hull</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_pack_tag">
+    <text>Cause : Meute disponible\nDesc : Mutant rejoint ses congénères à proximité\nRègles : portée odeur ; jour ; féral ou prédateur ; personnalité (relation) ; congénères présents ; pas à la base ; tactiques ; Hull</text>
+  </string>
+  <!-- Per-cause enable labels (uniform "Enabled"; single-answer drives use the drive name as cause name) -->
+  <string id="ui_mcm_ap_causes_instincts_cause_scatter_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_scatter_enabled_desc">
+    <text>Autorise la publication de la cause « disperser ».</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_feed_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_feed_enabled_desc">
+    <text>Autorise la publication de la cause « nourrir ».</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_roam_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_roam_enabled_desc">
+    <text>Autorise la publication de la cause « errer ».</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_pack_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_pack_enabled_desc">
+    <text>Autorise la publication de la cause « meute ».</text>
+  </string>
+  <!-- Drive thresholds (5; drive-level sliders sit above their cause sections) -->
+  <string id="ui_mcm_ap_causes_instincts_cause_scatter_threshold">
+    <text>Seuil de dispersion</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_scatter_threshold_desc">
+    <text>[game-hours]\nTemps de récupération de la coque pour le module d'alimentation *scatter*. Par défaut : 12.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_feed_threshold">
+    <text>Seuil de nourriture</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_feed_threshold_desc">
+    <text>[game-hours]\nTemps de récupération de la coque pour le module d'alimentation *feed*. Par défaut : 12.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_slumber_threshold">
+    <text>Seuil de repaire</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_slumber_threshold_desc">
+    <text>[game-hours]\nTemps de récupération de la coque pour le lecteur de sommeil (partagé par les 3 réponses ; toute réponse déclenchée réinitialise le compteur). Valeur par défaut : 12.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_roam_threshold">
+    <text>Seuil de déambulation</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_roam_threshold_desc">
+    <text>[game-hours]\nTemps de récupération de la coque pour le module d'alimentation *roam*. Par défaut : 12.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_pack_threshold">
+    <text>Seuil de meute</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_pack_threshold_desc">
+    <text>[game-hours]\nTemps de récupération de la coque pour le module d'alimentation *pack*. Par défaut : 24.</text>
+  </string>
+  <!-- Slumber per-answer enables -->
+  <string id="ui_mcm_ap_causes_instincts_cause_slumber_field_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_slumber_field_enabled_desc">
+    <text>Autorise la cause slumber_field à publier.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_slumber_lair_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_slumber_lair_enabled_desc">
+    <text>Autorise la cause slumber_lair à publier.</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_slumber_surge_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_slumber_surge_enabled_desc">
+    <text>Autorise la cause slumber_surge à publier.</text>
+  </string>
+  <!-- Consequence: Scatter -->
+  <string id="ui_mcm_ap_consequences_scatter_title">
+    <text>Dispersion</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_scatter_tag">
+    <text>Desc : Meute se disperse face à un prédateur de rang supérieur\nCause : Dispersion disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_scatter_consequence_scatter_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_scatter_consequence_scatter_enabled_desc">
+    <text>Dirige les mutants de niveau inférieur vers un terrain intelligent sécurisé, loin des prédateurs de niveau supérieur à proximité.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_scatter_consequence_scatter_rush">
+    <text>Charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_scatter_consequence_scatter_rush_desc">
+    <text>Les Mutants sprintent lorsqu'ils fuient des prédateurs.</text>
+  </string>
+  <!-- Consequence: Feed -->
+  <string id="ui_mcm_ap_consequences_feed_title">
+    <text>Nourriture</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_feed_tag">
+    <text>Desc : Meute se dirige vers un terrain de chasse pour se nourrir\nCause : Nourriture disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_feed_consequence_feed_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_feed_consequence_feed_enabled_desc">
+    <text>Diriger les mutants vers des territoires ouverts pour se nourrir.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_feed_consequence_feed_rush">
+    <text>Charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_feed_consequence_feed_rush_desc">
+    <text>Le Mutants sprinte vers ses zones de nourrissage.</text>
+  </string>
+  <!-- Consequence: Slumber Field (cowardly mutants in open territory) -->
+  <string id="ui_mcm_ap_consequences_slumber_field_title">
+    <text>Repaire\nChamp</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_field_tag">
+    <text>Desc : Meute peureuse se blottit en territoire pour dormir\nCause : Repos en territoire disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_field_consequence_slumber_field_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_field_consequence_slumber_field_enabled_desc">
+    <text>Diriger les mutants peureux vers des territoires ouverts avec intelligence.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_field_consequence_slumber_field_rush">
+    <text>Charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_field_consequence_slumber_field_rush_desc">
+    <text>Le Mutants sprinte vers son lieu de repos.</text>
+  </string>
+  <!-- Consequence: Slumber Lair (feral + predator returning to lair) -->
+  <string id="ui_mcm_ap_consequences_slumber_lair_title">
+    <text>Repaire\nde sommeil</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_lair_tag">
+    <text>Desc : Meute de prédateurs ou féraux s’installe dans un repaire pour dormir\nCause : Repaire disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_lair_consequence_slumber_lair_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_lair_consequence_slumber_lair_enabled_desc">
+    <text>Oriente les mutants féraux et les prédateurs vers les repaires intelligents.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_lair_consequence_slumber_lair_rush">
+    <text>Charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_lair_consequence_slumber_lair_rush_desc">
+    <text>Le Mutants sprinte vers son repaire.</text>
+  </string>
+  <!-- Consequence: Slumber Surge (aberrant + predator overflow into surge shelter) -->
+  <string id="ui_mcm_ap_consequences_slumber_surge_title">
+    <text>Repaire\nVague</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_surge_tag">
+    <text>Desc : Meute de prédateurs ou aberrants se met à l'abri pendant la vague\nCause : Repaire pendant la vague disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_surge_consequence_slumber_surge_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_surge_consequence_slumber_surge_enabled_desc">
+    <text>Oriente les mutants aberrants et les prédateurs vers les abris de surtension.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_surge_consequence_slumber_surge_rush">
+    <text>Charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_surge_consequence_slumber_surge_rush_desc">
+    <text>Le Mutants sprinte vers un abri.</text>
+  </string>
+  <!-- Consequence: Roam -->
+  <string id="ui_mcm_ap_consequences_roam_title">
+    <text>Errance</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_roam_tag">
+    <text>Desc : Meute erre en territoire non revendiqué\nCause : Errance disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_roam_consequence_roam_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_roam_consequence_roam_enabled_desc">
+    <text>Dirige le mutants vers un territoire ou un repaire proche pour exploration.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_roam_consequence_roam_rush">
+    <text>Charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_roam_consequence_roam_rush_desc">
+    <text>Le Mutants sprinte durant l'exploration.</text>
+  </string>
+  <!-- Consequence: Pack -->
+  <string id="ui_mcm_ap_consequences_pack_title">
+    <text>Groupe</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_pack_tag">
+    <text>Desc : Meute rejoint ses congénères\nCause : Meute disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_pack_consequence_pack_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_pack_consequence_pack_enabled_desc">
+    <text>Le mutants se dirige vers les escouades de la même faction.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_pack_consequence_pack_rush">
+    <text>Charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_pack_consequence_pack_rush_desc">
+    <text>Le Mutants sprinte en direction de ses congénères.</text>
+  </string>
+  <!-- ==================== CONSEQUENCE: AREA INFEST ==================== -->
+  <string id="ui_mcm_ap_consequences_area_infest_title">
+    <text>Infestation de zone</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_infest_tag">
+    <text>Description : Une meute de Mutants arrive et remplace le pool d'apparition par son espèce\nCause : Infestation de zone disponible</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_infest_consequence_area_infest_enabled">
+    <text>Activé</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_infest_consequence_area_infest_enabled_desc">
+    <text>Active la conséquence d'infestation de zone. Les Mutants revendiqueront les terrains intelligents comme nids.</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_infest_consequence_area_infest_rush">
+    <text>Mouvement en charge</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_infest_consequence_area_infest_rush_desc">
+    <text>Lorsque cette option est activée, les escouades se déplacent à vitesse accélérée pour revendiquer leur nid.</text>
+  </string>
+</string_table>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+- @ Version: SCREEN SPACE SHADERS - UPDATE 21
+- @ Description: Water - MCM strings
+- @ Author: https://www.moddb.com/members/ascii1457
+- @ Mod: https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+	<!-- Button -->
+	<string id="ui_mcm_ssfx_module_water">
+		<text>Eau</text>
+	</string>
+
+	<!-- SSR Settings -->
+	<string id="ui_mcm_ssfx_module_water_title">
+		<text>Paramètres de l'eau</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_ssr_quality_mcm">
+		<text>Qualité SSR</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_ssr_quality_mcm_desc">
+		<text>[ REDÉMARRAGE REQUIS ] Nombre d'échantillons utilisés pour le rendu des reflets. Des paramètres plus élevés peuvent fortement impacter vos performances et le temps de chargement initial après avoir effacé le cache des shaders. [ 8, 16, 24, 32, 64 ]</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_ssr_res_mcm">
+		<text>Résolution SSR</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_ssr_res_mcm_desc">
+		<text>Résolution du rendu SSR. Vous pouvez améliorer les performances en réduisant la résolution. [ 1.0 = 100 % ~ 0.5 = 50 % ]</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_parallax_quality_mcm">
+		<text>Qualité de la parallaxe</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_parallax_quality_mcm_desc">
+		<text>[ REDÉMARRAGE REQUIS ] Nombre d'échantillons utilisés pour le rendu de l'effet de parallaxe des vagues. Des valeurs plus basses peuvent améliorer les performances. [ 8, 16, 32 ]</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_parallax_height_mcm">
+		<text>Hauteur de parallaxe</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_parallax_height_mcm_desc">
+		<text>Hauteur maximale de l'effet de parallaxe des vagues.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_blur_mcm">
+		<text>Flou</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_blur_mcm_desc">
+		<text>Intensité du flou des reflets.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_blur_pattern_mcm">
+		<text>Motif de flou</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_blur_pattern_mcm_desc">
+		<text>Quantité de variation ajoutée au flou des reflets. ( 0 = Désactivé )</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_distortion_mcm">
+		<text>Distorsion des vagues</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_distortion_mcm_desc">
+		<text>Intensité de la distorsion des reflets et de la réfraction.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_turbidity_mcm">
+		<text>Turbidité de l'eau</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_turbidity_mcm_desc">
+		<text>Règle la turbidité de l'eau. [ 0.0 = Eau claire ]</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_softborder_mcm">
+		<text>Bordure douce</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_softborder_mcm_desc">
+		<text>Utilisez cette valeur pour ajuster la douceur des bordures de l'eau.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_reflection_int_mcm">
+		<text>Intensité des réflexions</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_reflection_int_mcm_desc">
+		<text>Intensité des reflets sur l'eau.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_specular_int_mcm">
+		<text>Intensité spéculaire</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_specular_int_mcm_desc">
+		<text>Intensité des reflets spéculaires de l'eau.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_caustics_int_mcm">
+		<text>Intensité des caustiques</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_caustics_int_mcm_desc">
+		<text>Intensité de l'effet de caustiques.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_ripples_int_mcm">
+		<text>Intensité des ondulations</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_water_ripples_int_mcm_desc">
+		<text>Intensité de l'effet d'ondulations sous la pluie.</text>
+	</string>
+
+</string_table>

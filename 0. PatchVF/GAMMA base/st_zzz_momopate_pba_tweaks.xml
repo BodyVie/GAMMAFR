@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="st_af_sandstone_descr">
+		<text>Formé dans des anomalies à températures extrêmes. Contient des traces d'or.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+	
+	<string id="st_pba_af_sandstone_perk">
+		<text>%c[pda_white]APTITUDE : %c[d_orange]TEMPO MORTEL\n
+		%c[d_orange] • %c[pda_white] Tuer un stalkers ou un mutants te charge d'une puissance immense pendant 5 secondes.\n
+		%c[d_orange] • %c[pda_white] +25 % de dégâts reçus.\n
+		%c[d_cyan]--- %c[pda_white] 1 EXEMPLAIRE : %c[ui_gray_2]Augmentation de la vitesse de déplacement.\n
+		%c[d_cyan]--- %c[pda_white] 2 EXEMPLAIRES : %c[ui_gray_2]Régénération de santé.\n
+		%c[d_cyan]--- %c[pda_white] 3 EXEMPLAIRES : %c[ui_gray_2]Rétablit légèrement une partie aléatoire du corps.\n
+		%c[d_cyan]--- %c[pda_white] 4 EXEMPLAIRES : %c[ui_gray_2]Rétablit légèrement une partie aléatoire du corps.\n
+		%c[d_cyan]--- %c[pda_white] 5 EXEMPLAIRES : %c[ui_gray_2]Retire le malus de +25 % de dégâts reçus.\n
+		%c[d_orange] • %c[pda_white] Empilement multiple d'Artefacts ? : %c[ui_green]OUI\n
+		%c[d_orange] • %c[pda_white] Rendements décroissants ? : %c[ui_red]OUI
+		</text>
+	</string>
+
+	<string id="st_pba_af_elektron_perk">
+		<text>%c[pda_white]APTITUDE : %c[d_orange]HAUTE TENSION\n
+		%c[d_orange] • %c[pda_white] Marcher sur une anomalie Electra recharge les batteries et les appareils actifs.\n
+		%c[d_orange] • %c[pda_white] Marcher sur une anomalie Electra permet aussi de sprinter indéfiniment pendant une courte période.\n
+		%c[d_orange] • %c[pda_white] Avec 5 exemplaires, permet de recharger les batteries de l'Exosquelette.\n
+		%c[d_orange] • %c[pda_white] Empilement multiple d'Artefacts ? : %c[ui_green]OUI %c[pda_white]&amp; %c[ui_red]NON\n
+		</text>
+	</string>
+
+	<string id="st_pba_af_repei_perk">
+		<text>%c[pda_white]APTITUDE : %c[d_orange]LACÉRATIONS MINEURES\n
+		%c[d_orange] • %c[pda_white] Ton arme perd 50 % de sa puissance de feu, mais gagne la capacité d'infliger des dégâts de saignement.\n
+		%c[d_orange] • %c[pda_white] Les dégâts de saignement sont proportionnels aux dégâts de l'arme.\n
+		%c[d_orange] • %c[pda_white] Augmente la probabilité que les ennemis se rendent.\n
+		%c[d_orange] • %c[pda_white] Empilement multiple d'Artefacts ? : %c[ui_green]OUI\n
+		%c[d_orange] • %c[pda_white] Rendements décroissants ? : %c[ui_green]NON
+		</text>
+	</string>
+
+</string_table>

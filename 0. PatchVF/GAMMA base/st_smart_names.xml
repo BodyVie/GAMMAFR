@@ -1,0 +1,1729 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="monster_zombied_night">
+		<text>Humanoïde nocturne</text>
+	</string>
+	<string id="monster_zombied_day">
+		<text>Humanoïde diurne</text>
+	</string>
+	<string id="monster_predatory_night">
+		<text>Prédateur nocturne</text>
+	</string>
+	<string id="monster_predatory_day">
+		<text>Prédateur diurne</text>
+	</string>
+	<string id="monster_vegetarian">
+		<text>Mutant herbivore</text>
+	</string>
+	<string id="zoo_monster">
+		<text>Mutant</text>
+	</string>
+	<string id="monster_special">
+		<text>Mutant spécial</text>
+	</string>
+
+	<string id="st_sq_enemy">
+		<text>Ennemi</text>
+	</string>
+	<string id="st_sq_friends">
+		<text>Allié</text>
+	</string>
+	<string id="st_sq_neutral">
+		<text>Neutre</text>
+	</string>
+	<string id="st_sq_count">
+		<text>Nombre = </text>
+	</string>
+	<string id="st_sq_count_companions">
+		<text>Nombre de compagnons : </text>
+	</string>
+	<string id="st_sq_target">
+		<text>Cible </text>
+	</string>
+	<string id="st_sq_type">
+		<text>Espèce : </text>
+	</string>
+
+	<string id="st_sm_faction">
+		<text>Faction :</text>
+	</string>
+	<string id="st_sm_squad_count">
+		<text>Capacité=</text>
+	</string>
+	<string id="st_sm_max_population">
+		<text>de</text>
+	</string>
+	<string id="st_sm_respawn">
+		<text>Temps avant apparition %d h %d min %.0f s</text>
+	</string>
+
+	<string id="st_squad_show_1">
+		<text>firmament_1</text>
+	</string>
+	<string id="st_squad_show_2">
+		<text>firmament_2</text>
+	</string>
+	<string id="st_squad_show_3">
+		<text>guerre_1</text>
+	</string>
+	<string id="st_squad_show_4">
+		<text>guerre_2</text>
+	</string>
+	<string id="st_squad_show_5">
+		<text>uniquement_naturel</text>
+	</string>
+	<string id="st_squad_show_0">
+		<text>masquer</text>
+	</string>
+	<string id="ui_mm_squad_on_map">
+		<text>Escouades sur la carte</text>
+	</string>
+	<string id="ui_mm_smarts_on_map">
+		<text>Afficher les points d'intérêt</text>
+	</string>
+
+	<string id="st_esc_smart_terrain_3_16_name">
+		<text>Cordon - Poste de contrôle Sud</text>
+	</string>
+	<string id="st_esc_smart_terrain_2_12_name">
+		<text>Cordon - Village des Recrues</text>
+	</string>
+	<string id="st_esc_smart_terrain_4_13_name">
+		<text>Cordon - Campement de Tentes</text>
+	</string>
+	<string id="st_esc_smart_terrain_2_14_name">
+		<text>Cordon - Feu de camp sous l'arbre</text>
+	</string>
+	<string id="st_esc_smart_terrain_4_11_name">
+		<text>Cordon - Campement de Caravanes</text>
+	</string>
+	<string id="st_esc_smart_terrain_1_11_name">
+		<text>Cordon - Camp secret</text>
+	</string>
+	<string id="st_esc_smart_terrain_5_12_name">
+		<text>Cordon - Tente Solitaire</text>
+	</string>
+	<string id="st_esc_smart_terrain_7_11_name">
+		<text>Cordon - Station de Véhicules</text>
+	</string>
+	<string id="st_esc_smart_terrain_5_9_name">
+		<text>Cordon - Silo à Grains</text>
+	</string>
+	<string id="st_esc_smart_terrain_4_9_name">
+		<text>Cordon - Passage Inférieur</text>
+	</string>
+	<string id="st_esc_smart_terrain_6_8_name">
+		<text>Cordon - Pont effondré</text>
+	</string>
+	<string id="st_esc_smart_terrain_8_10_name">
+		<text>Cordon - Campement de Colline</text>
+	</string>
+	<string id="st_esc_smart_terrain_8_9_name">
+		<text>Cordon - Feu de Camp dans la Forêt</text>
+	</string>
+	<string id="st_esc_smart_terrain_9_7_name">
+		<text>Cordon - Campement des Rails</text>
+	</string>
+	<string id="st_esc_smart_terrain_6_6_name">
+		<text>Cordon - Maisons abandonnées</text>
+	</string>
+	<string id="st_esc_smart_terrain_5_7_name">
+		<text>Cordon - Vieille Ferme</text>
+	</string>
+	<string id="st_esc_smart_terrain_3_7_name">
+		<text>Cordon - Feu de camp près des rochers</text>
+	</string>
+	<string id="st_esc_smart_terrain_5_6_name">
+		<text>Cordon - Feu de Camp dans la Forêt</text>
+	</string>
+	<string id="st_esc_smart_terrain_5_4_name">
+		<text>Cordon - Feu de Camp près de la Route</text>
+	</string>
+	<string id="st_esc_smart_terrain_5_2_name">
+		<text>Cordon - Avant-poste Nord</text>
+	</string>
+
+	<string id="st_ds_ptr4_name">
+		<text>Darkscape - Camion Abandonné</text>
+	</string>
+	<string id="st_ds2_lager_st_name">
+		<text>Darkscape - Campement en Falaise</text>
+	</string>
+	<string id="st_ds2_st_dogs_name">
+		<text>Darkscape - Point de Rassemblement en Forêt</text>
+	</string>
+	<string id="st_ds_grverfer2_name">
+		<text>Darkscape - Point de Rassemblement en Bord de Route</text>
+	</string>
+	<string id="st_ds_ptr2_name">
+		<text>Darkscape - Zone de Repos</text>
+	</string>
+	<string id="st_ds_deb1_name">
+		<text>Darkscape - Barrage Routier</text>
+	</string>
+	<string id="st_ds_kem2_name">
+		<text>Darkscape - Station-Service</text>
+	</string>
+	<string id="st_ds2_domik_st_name">
+		<text>Darkscape - Planque Forestière</text>
+	</string>
+	<string id="st_ds_boars_nest_name">
+		<text>Darkscape - Point de ralliement en falaise</text>
+	</string>
+	<string id="st_ds2_st_hoofs_name">
+		<text>Darkscape - Site d'Embuscade</text>
+	</string>
+	<string id="st_ds_ptr_name">
+		<text>Darkscape - Pont ferroviaire détruit</text>
+	</string>
+	<string id="st_ds_ptr3_name">
+		<text>Darkscape - Arrêt de camion radioactif</text>
+	</string>
+	<string id="st_ds_kem3_name">
+		<text>Darkscape - Petite Passerelle</text>
+	</string>
+	<string id="st_ds_kem1_name">
+		<text>Darkscape - Traversée Vallée Obscure</text>
+	</string>
+
+	<string id="st_mar_smart_terrain_base_name">
+		<text>Grand marais - Base secrète</text>
+	</string>
+	<string id="st_mar_smart_terrain_5_12_name">
+		<text>Grand marais - Hameau de pêche</text>
+	</string>
+	<string id="st_mar_smart_terrain_6_11_name">
+		<text>Grand marais - Tour de Guet</text>
+	</string>
+	<string id="st_mar_smart_terrain_8_11_name">
+		<text>Grand marais - Église Détruite</text>
+	</string>
+	<string id="st_mar_smart_terrain_11_11_name">
+		<text>Grand marais - Village Sud</text>
+	</string>
+	<string id="st_mar_smart_terrain_10_10_name">
+		<text>Grand marais - Feu de Camp près de l'Étang</text>
+	</string>
+	<string id="st_mar_smart_terrain_8_9_name">
+		<text>Grand marais - Campement en bord de route</text>
+	</string>
+	<string id="st_mar_smart_terrain_6_10_name">
+		<text>Grand marais - Petit Étang</text>
+	</string>
+	<string id="st_mar_smart_terrain_3_10_name">
+		<text>Grand marais - Poste Avancé</text>
+	</string>
+	<string id="st_mar_smart_terrain_doc_2_name">
+		<text>Grand marais - Poste de Guet Solitaire</text>
+	</string>
+	<string id="st_mar_smart_terrain_5_8_name">
+		<text>Grand marais - Station de pompage</text>
+	</string>
+	<string id="st_mar_smart_terrain_6_8_name">
+		<text>Grand marais - Cimetière de Bateaux</text>
+	</string>
+	<string id="st_mar_smart_terrain_8_8_name">
+		<text>Grand marais - Hameau Brûlé</text>
+	</string>
+	<string id="st_mar_smart_terrain_10_7_name">
+		<text>Grand marais - Feu près de la Route</text>
+	</string>
+	<string id="st_mar_smart_terrain_3_7_name">
+		<text>Grand marais - Campement</text>
+	</string>
+	<string id="st_mar_smart_terrain_4_7_name">
+		<text>Grand marais - Feu Follet</text>
+	</string>
+	<string id="st_mar_smart_terrain_6_7_name">
+		<text>Grand marais - Barricades de tuyaux</text>
+	</string>
+	<string id="st_mar_smart_terrain_7_7_name">
+		<text>Grand marais - Feu de Camp</text>
+	</string>
+	<string id="st_mar_smart_terrain_10_5_name">
+		<text>Grand marais - Parc de Machines</text>
+	</string>
+	<string id="st_mar_smart_terrain_8_4_name">
+		<text>Grand marais - Feu de Camp en Bord de Route</text>
+	</string>
+	<string id="st_mar_smart_terrain_6_4_name">
+		<text>Grand marais - Campement de fortune</text>
+	</string>
+	<string id="st_mar_smart_terrain_4_5_name">
+		<text>Grand marais - Ruines du Village</text>
+	</string>
+	<string id="st_mar_smart_terrain_3_3_name">
+		<text>Grand marais - Quais de Pêche</text>
+	</string>
+	<string id="st_mar_smart_terrain_doc_name">
+		<text>Grand marais - Tranchée</text>
+	</string>
+	<string id="st_mar_smart_terrain_12_2_name">
+		<text>Grand marais - Village Nord</text>
+	</string>
+	<string id="st_mar_smart_terrain_11_3_name">
+		<text>Grand marais - Feu près du Camion</text>
+	</string>
+	<string id="st_mar_smart_terrain_7_3_name">
+		<text>Grand marais - Campement près de l'épave du train</text>
+	</string>
+
+	<string id="st_gar_smart_terrain_3_7_name">
+		<text>Décharge - Cimetière de Véhicules</text>
+	</string>
+	<string id="st_gar_smart_terrain_6_7_name">
+		<text>Décharge - Point de Vue</text>
+	</string>
+	<string id="st_gar_smart_terrain_5_6_name">
+		<text>Décharge - Grue Effondrée</text>
+	</string>
+	<string id="st_gar_smart_terrain_6_6_name">
+		<text>Décharge - Planque Forestière</text>
+	</string>
+	<string id="st_gar_smart_terrain_1_7_name">
+		<text>Décharge - Avant-Poste de Fortune</text>
+	</string>
+	<string id="st_gar_smart_terrain_3_5_name">
+		<text>Décharge - Dépôt de Trains</text>
+	</string>
+	<string id="st_gar_smart_terrain_2_4_name">
+		<text>Décharge - Planque derrière les Tuyaux</text>
+	</string>
+	<string id="st_gar_smart_terrain_1_5_name">
+		<text>Décharge - Barrage Routier</text>
+	</string>
+	<string id="st_gar_smart_terrain_4_5_name">
+		<text>Décharge - Arrêt de Bus</text>
+	</string>
+	<string id="st_gar_smart_terrain_5_5_name">
+		<text>Décharge - Campement de la Décharge</text>
+	</string>
+	<string id="st_gar_smart_terrain_7_4_name">
+		<text>Décharge - Petit Avant-Poste</text>
+	</string>
+	<string id="st_gar_smart_terrain_6_3_name">
+		<text>Décharge - Marché aux Puces</text>
+	</string>
+	<string id="st_gar_smart_terrain_6_1_name">
+		<text>Décharge - Campement Caché</text>
+	</string>
+	<string id="st_gar_smart_terrain_5_2_name">
+		<text>Décharge - Avant-Poste Fortifié</text>
+	</string>
+	<string id="st_gar_smart_terrain_4_2_name">
+		<text>Décharge - Gravière</text>
+	</string>
+	<string id="st_gar_smart_terrain_5_4_name">
+		<text>Décharge - Poste Routier</text>
+	</string>
+	<string id="st_gar_smart_terrain_8_3_name">
+		<text>Décharge - Avant-poste Ouest</text>
+	</string>
+	<string id="st_gar_smart_terrain_8_5_name">
+		<text>Décharge - Campement de l'Arrière-Pays</text>
+	</string>
+	<string id="st_gar_smart_terrain_5_8_name">
+		<text>Décharge - Point de Traversée</text>
+	</string>
+
+	<string id="st_agr_smart_terrain_6_4_name">
+		<text>Agroprom - Repaire du Tunnel</text>
+	</string>
+	<string id="st_agr_smart_terrain_5_3_name">
+		<text>Agroprom - Wagon Fortifié</text>
+	</string>
+	<string id="st_agr_smart_terrain_5_2_name">
+		<text>Agroprom - Campement du Sommet</text>
+	</string>
+	<string id="st_agr_smart_terrain_2_2_name">
+		<text>Agroprom - Feu de Camp près des Rochers</text>
+	</string>
+	<string id="st_agr_smart_terrain_1_2_name">
+		<text>Agroprom - Campement Marécageux</text>
+	</string>
+	<string id="st_agr_smart_terrain_1_3_name">
+		<text>Agroprom - Poste Radio</text>
+	</string>
+	<string id="st_agr_smart_terrain_1_6_near_1_name">
+		<text>Agroprom - Entrée Nord</text>
+	</string>
+	<string id="st_agr_smart_terrain_1_6_name">
+		<text>Agroprom - Institut de Recherche</text>
+	</string>
+	<string id="st_agr_smart_terrain_1_6_near_2_name">
+		<text>Agroprom - Entrée Est</text>
+	</string>
+	<string id="st_agr_smart_terrain_4_6_name">
+		<text>Agroprom - Poste de Contrôle Routier</text>
+	</string>
+	<string id="st_agr_smart_terrain_5_7_name">
+		<text>Agroprom - Camp près des Souterrains</text>
+	</string>
+	<string id="st_agr_smart_terrain_7_5_name">
+		<text>Agroprom - Feu dangereux</text>
+	</string>
+	<string id="st_agr_smart_terrain_4_4_name">
+		<text>Agroprom - Complexe Usinier</text>
+	</string>
+	<string id="st_agr_smart_terrain_4_4_near_3_name">
+		<text>Agroprom - Entrée de l'Usine</text>
+	</string>
+	<string id="st_agr_smart_terrain_4_4_2_name">
+		<text>Agroprom - Sortie Arrière</text>
+	</string>
+	<string id="st_agr_smart_terrain_4_4_near_1_name">
+		<text>Agroprom - Quai de Chargement</text>
+	</string>
+	<string id="st_agr_smart_terrain_4_4_near_2_name">
+		<text>Agroprom - Échappée</text>
+	</string>
+
+	<string id="st_val_smart_terrain_7_4_name">
+		<text>Vallée Obscure - Usine du Nord</text>
+	</string>
+	<string id="st_val_smart_terrain_7_3_name">
+		<text>Dépôt de l'Usine - Vallée Obscure</text>
+	</string>
+	<string id="st_val_smart_terrain_9_4_name">
+		<text>Vallée Obscure - Bâtiment Hanté</text>
+	</string>
+	<string id="st_val_smart_terrain_7_5_name">
+		<text>Vallée Obscure - Bloc administratif</text>
+	</string>
+	<string id="st_val_smart_terrain_8_6_name">
+		<text>Vallée Obscure - Avant-poste avancé de l'usine</text>
+	</string>
+	<string id="st_val_smart_terrain_9_2_name">
+		<text>Vallée Obscure - Arbre Déraciné</text>
+	</string>
+	<string id="st_val_smart_terrain_6_4_name">
+		<text>Vallée Obscure - Avant-Poste sur la Colline</text>
+	</string>
+	<string id="st_val_smart_terrain_6_5_name">
+		<text>Vallée Obscure - Campement dans le ravin</text>
+	</string>
+	<string id="st_val_smart_terrain_8_7_name">
+		<text>Vallée Obscure - Camp de Caravanes</text>
+	</string>
+	<string id="st_val_smart_terrain_7_8_name">
+		<text>Vallée Obscure - Île Radio</text>
+	</string>
+	<string id="st_val_smart_terrain_8_9_name">
+		<text>Vallée Obscure - Île Solitaire</text>
+	</string>
+	<string id="st_val_smart_terrain_1_2_name">
+		<text>Vallée Obscure - Arrière-Cour de l'Usine</text>
+	</string>
+	<string id="st_val_smart_terrain_9_6_name">
+		<text>Vallée Obscure - Camp près de l'Usine</text>
+	</string>
+	<string id="st_val_smart_terrain_9_10_name">
+		<text>Vallée Obscure - Feu de Camp sur une Pente</text>
+	</string>
+	<string id="st_val_smart_terrain_4_0_name">
+		<text>Vallée Obscure - Porcherie</text>
+	</string>
+	<string id="st_val_smart_terrain_5_10_name">
+		<text>Vallée Obscure - Point de rassemblement</text>
+	</string>
+	<string id="st_val_smart_terrain_3_0_name">
+		<text>Vallée Obscure - Campement de Fortune</text>
+	</string>
+	<string id="st_val_smart_terrain_7_11_name">
+		<text>Vallée Obscure - Passage Darkscape</text>
+	</string>
+
+	<string id="st_yan_smart_terrain_6_4_name">
+		<text>Yantar - Bunker de Sakharov</text>
+	</string>
+	<string id="st_yan_smart_terrain_3_6_name">
+		<text>Yantar - Basses Terres</text>
+	</string>
+	<string id="st_yan_smart_terrain_4_5_name">
+		<text>Yantar - Sous-station</text>
+	</string>
+	<string id="st_yan_smart_terrain_2_5_name">
+		<text>Yantar - Entrée de l'Usine</text>
+	</string>
+	<string id="st_yan_smart_terrain_1_6_name">
+		<text>Yantar - Camp des Anomalies</text>
+	</string>
+	<string id="st_yan_smart_terrain_3_4_name">
+		<text>Yantar - Hangar de l'Usine</text>
+	</string>
+	<string id="st_yan_smart_terrain_zombi_spawn_name">
+		<text>Yantar - Grue d'usine effondrée</text>
+	</string>
+	<string id="st_yan_smart_terrain_2_4_name">
+		<text>Yantar - Usine mystérieuse</text>
+	</string>
+	<string id="st_yan_smart_terrain_5_5_name">
+		<text>Yantar - Entrée de Drainage</text>
+	</string>
+	<string id="st_yan_smart_terrain_4_4_name">
+		<text>Sommet de Yantar</text>
+	</string>
+	<string id="st_yan_smart_terrain_5_3_name">
+		<text>Yantar - Lac Yantar</text>
+	</string>
+	<string id="st_yan_smart_terrain_6_2_name">
+		<text>Yantar - Point de Vue</text>
+	</string>
+	<string id="st_yan_smart_terrain_4_2_name">
+		<text>Yantar - Camp de l'Anomalie du Feu de Camp</text>
+	</string>
+	<string id="st_yan_smart_terrain_snork_u_name">
+		<text>Yantar - Repaire du Snork</text>
+	</string>
+
+
+	<string id="st_ros_smart_stalker_killers1_name">
+		<text>Territoire sauvage - Chantier</text>
+	</string>
+	<string id="st_ros_smart_monster7_name">
+		<text>Territoire sauvage - Passage Inférieur</text>
+	</string>
+	<string id="st_ros_smart_snork1_name">
+		<text>Territoire sauvage - Cabane radioactive</text>
+	</string>
+	<string id="st_ros_smart_killers1_name">
+		<text>Territoire sauvage - Entrée</text>
+	</string>
+	<string id="st_ros_smart_stalker1_name">
+		<text>Territoire sauvage - Matériaux de construction abandonnés</text>
+	</string>
+	<string id="st_ros_smart_poltergeist2_name">
+		<text>Territoire sauvage - Gare ferroviaire délabrée</text>
+	</string>
+	<string id="st_ros_smart_monster5_name">
+		<text>Territoire sauvage - Tunnel effondré</text>
+	</string>
+	<string id="st_ros_smart_monster4_name">
+		<text>Territoire sauvage - Train de charbon</text>
+	</string>
+
+	<string id="st_bar_zastava_2_name">
+		<text>Rostok - Avant-poste Ouest</text>
+	</string>
+	<string id="st_bar_zastava_dogs_lair_2_name">
+		<text>Rostok - Repaire des Mutants</text>
+	</string>
+	<string id="st_bar_visitors_name">
+		<text>Rostok - 100 Rads Bar</text>
+	</string>
+	<string id="st_bar_dolg_general_name">
+		<text>Rostok - Entrée de la Base</text>
+	</string>
+	<string id="st_bar_dolg_bunker_name">
+		<text>Rostok - Caserne de fortune</text>
+	</string>
+	<string id="st_bar_zastava_name">
+		<text>Rostok - Avant-Poste Sud</text>
+	</string>
+	<string id="st_bar_zastava_dogs_lair_name">
+		<text>Rostok - Douve de Rostok</text>
+	</string>
+
+	<string id="st_trc_sim_20_name">
+		<text>Cimetière de véhicules - Poste de contrôle Est</text>
+	</string>
+	<string id="st_trc_sim_17_name">
+		<text>Cimetière de véhicules - Camp derrière les débris</text>
+	</string>
+	<string id="st_trc_sim_7_name">
+		<text>Cimetière de véhicules - Point de vue forestier</text>
+	</string>
+	<string id="st_trc_sim_21_name">
+		<text>Cimetière de véhicules - Arrière-Pays</text>
+	</string>
+	<string id="st_trc_sim_4_name">
+		<text>Cimetière de véhicules - Sommet près de la Maison Brûlée</text>
+	</string>
+	<string id="st_trc_sim_18_name">
+		<text>Cimetière de véhicules - Camp entre les camions</text>
+	</string>
+	<string id="st_trc_sim_1_name">
+		<text>Cimetière de véhicules - Poste d'observation</text>
+	</string>
+	<string id="st_trc_sim_2_name">
+		<text>Cimetière de véhicules - Camp près des conteneurs</text>
+	</string>
+	<string id="st_trc_sim_3_name">
+		<text>Cimetière de véhicules - Bifurcation</text>
+	</string>
+	<string id="st_trc_sim_12_name">
+		<text>Cimetière de véhicules - Planque Forestière</text>
+	</string>
+	<string id="st_trc_sim_10_name">
+		<text>Cimetière de véhicules - Coin de forêt</text>
+	</string>
+	<string id="st_trc_sim_11_name">
+		<text>Cimetière de véhicules - Casse de véhicules militaires</text>
+	</string>
+	<string id="st_trc_sim_14_name">
+		<text>Cimetière de véhicules - Cimetière de camions de pompiers</text>
+	</string>
+	<string id="st_trc_sim_15_name">
+		<text>Cimetière de véhicules - Cimetière d'hélicoptères</text>
+	</string>
+	<string id="st_trc_sim_6_name">
+		<text>Cimetière de véhicules - Tour de Guet</text>
+	</string>
+	<string id="st_trc_sim_19_name">
+		<text>Cimetière de véhicules - Casse de camions</text>
+	</string>
+	<string id="st_trc_sim_5_name">
+		<text>Cimetière de véhicules - Carrefour</text>
+	</string>
+	<string id="st_trc_sim_16_name">
+		<text>Cimetière de véhicules - Casse Périphérie</text>
+	</string>
+	<string id="st_trc_sim_9_name">
+		<text>Cimetière de véhicules - Sommet</text>
+	</string>
+	<string id="st_trc_sim_13_name">
+		<text>Cimetière de véhicules - Point de rassemblement près du ravin</text>
+	</string>
+	<string id="st_trc_sim_8_name">
+		<text>Cimetière de véhicules - Cimetière de camions-citernes</text>
+	</string>
+
+	<string id="st_cit_bandits_2_name">
+		<text>Ville morte - Maisons Isolées</text>
+	</string>
+	<string id="st_cit_kanaliz1_name">
+		<text>Ville morte - Point de Vue de la Ville</text>
+	</string>
+	<string id="st_cit_bandits_name">
+		<text>Ville morte - École abandonnée</text>
+	</string>
+	<string id="st_cit_killers_name">
+		<text>Ville morte - Centre sportif</text>
+	</string>
+	<string id="st_cit_killers_vs_bandits_name">
+		<text>Ville morte - Monobloc Abandonné</text>
+	</string>
+	<string id="st_cit_killers_2_name">
+		<text>Ville morte - Maisons détruites</text>
+	</string>
+	<string id="st_cit_kanaliz2_name">
+		<text>Ville morte - Dépression du Terrain</text>
+	</string>
+	<string id="st_zombie_smart_ds_mlr_1_name">
+		<text>Ville morte - Cour des Morts</text>
+	</string>
+	<string id="st_zombie_smart_ds_mlr_2_name">
+		<text>Ville morte - Appartements</text>
+	</string>
+
+	<string id="st_mil_smart_terrain_7_4_name">
+		<text>Entrepôts de l'armée - Village abandonné</text>
+	</string>
+	<string id="st_mil_smart_terrain_7_12_name">
+		<text>Entrepôts de l'armée - Base Militaire</text>
+	</string>
+	<string id="st_mil_smart_terrain_8_3_name">
+		<text>Entrepôts de l'armée - Abri Caché</text>
+	</string>
+	<string id="st_mil_smart_terrain_2_10_name">
+		<text>Entrepôts de l'armée - Village des Bloodsuckers</text>
+	</string>
+	<string id="st_mil_smart_terrain_4_3_name">
+		<text>Entrepôts de l'armée - Tour de guet du village</text>
+	</string>
+	<string id="st_mil_smart_terrain_4_2_name">
+		<text>Entrepôts de l'armée - Services de base du village</text>
+	</string>
+	<string id="st_mil_smart_terrain_2_2_name">
+		<text>Entrepôts de l'armée - Poste de contrôle fortifié</text>
+	</string>
+	<string id="st_mil_smart_terrain_2_4_name">
+		<text>Entrepôts de l'armée - Ferme abandonnée</text>
+	</string>
+	<string id="st_mil_smart_terrain_2_1_name">
+		<text>Entrepôts de l'armée - Planque</text>
+	</string>
+	<string id="st_mil_smart_terrain_2_6_name">
+		<text>Entrepôts de l'armée - Hélicoptère écrasé</text>
+	</string>
+	<string id="st_mil_smart_terrain_3_8_name">
+		<text>Entrepôts de l'armée - La Barrière</text>
+	</string>
+	<string id="st_mil_smart_terrain_4_8_name">
+		<text>Entrepôts de l'armée - Poste de guet de la barrière</text>
+	</string>
+	<string id="st_mil_smart_terrain_4_7_name">
+		<text>Entrepôts de l'armée - Campement routier</text>
+	</string>
+	<string id="st_mil_smart_terrain_7_8_name">
+		<text>Entrepôts de l'armée - Entrée de la base militaire</text>
+	</string>
+	<string id="st_mil_smart_terrain_7_10_name">
+		<text>Entrepôts de l'armée - Sous-station détruite</text>
+	</string>
+	<string id="st_mil_smart_terrain_7_7_name">
+		<text>Entrepôts de l'armée - Zone commune de la base militaire</text>
+	</string>
+	<string id="st_mil_smart_terrain_4_5_name">
+		<text>Entrepôts de l'armée - Camp</text>
+	</string>
+
+	<string id="st_rad_entrance_name">
+		<text>Radar - Poste de Contrôle en Ruine</text>
+	</string>
+	<string id="st_rad_valley_name">
+		<text>Radar - Char Abandonné</text>
+	</string>
+	<string id="st_rad_after_valley_name">
+		<text>Radar - Vieux Véhicules</text>
+	</string>
+	<string id="st_rad2_prip_teleport_name">
+		<text>Radar - Installation Secrète</text>
+	</string>
+	<string id="st_rad2_loner_0001_name">
+		<text>Radar - Barrage Routier</text>
+	</string>
+	<string id="st_rad_snork1_name">
+		<text>Radar - Planque Sinistre</text>
+	</string>
+	<string id="st_rad_zombied1_name">
+		<text>Radar - Repaire de Mutants</text>
+	</string>
+	<string id="st_rad_snork2_name">
+		<text>Passage du Radar</text>
+	</string>
+	<string id="st_rad_pseudodogs_name">
+		<text>Radar - Planque près de l'Hélicoptère</text>
+	</string>
+	<string id="st_rad_bloodsucker_name">
+		<text>Radar - Point de ralliement près de la clôture</text>
+	</string>
+	<string id="st_rad_zombied2_name">
+		<text>Radar - Coin Isolé</text>
+	</string>
+	<string id="st_rad_antenna_patrol_name">
+		<text>Radar - Lobotomisateur</text>
+	</string>
+	<string id="st_rad_antenna_monolith_name">
+		<text>Radar - Entrée du Lobotomisateur</text>
+	</string>
+	<string id="st_rad_antenna_camper_name">
+		<text>Radar - Entrée du Tunnel</text>
+	</string>
+	<string id="st_rad2_loner_0002_name">
+		<text>Sacs de Sable du Radar</text>
+	</string>
+	<string id="st_rad2_loner_0000_name">
+		<text>Radar - Poste Avancé</text>
+	</string>
+	<string id="st_rad_valley_dogs_name">
+		<text>Radar - Repaire du Chien</text>
+	</string>
+
+	<string id="st_red_smart_terrain_6_3_name">
+		<text>Forêt Rouge - Campement Diabolique</text>
+	</string>
+	<string id="st_red_smart_terrain_monsters_name">
+		<text>Forêt Rouge - Char abandonné</text>
+	</string>
+	<string id="st_red_smart_terrain_monsters_2_name">
+		<text>Forêt Rouge - Puits de Mine</text>
+	</string>
+	<string id="st_red_smart_terrain_6_6_name">
+		<text>Forêt Rouge - Feu de camp en forêt</text>
+	</string>
+	<string id="st_red_smart_terrain_bridge_name">
+		<text>Forêt Rouge - Pont de Limansk</text>
+	</string>
+	<string id="st_red_smart_terrain_5_5_name">
+		<text>Forêt Rouge - Planque près des rochers</text>
+	</string>
+	<string id="st_red_smart_terrain_5_6_name">
+		<text>Forêt Rouge - Clairière</text>
+	</string>
+	<string id="st_red_smart_terrain_monsters_3_name">
+		<text>Forêt Rouge - Repaire Connu</text>
+	</string>
+	<string id="st_red_smart_terrain_4_5_name">
+		<text>Forêt Rouge - Ancien campement forestier</text>
+	</string>
+	<string id="st_red_smart_terrain_4_3_name">
+		<text>Forêt Rouge - Clairière</text>
+	</string>
+	<string id="st_red_smart_terrain_3_3_name">
+		<text>Forêt Rouge - Point de rassemblement</text>
+	</string>
+	<string id="st_red_smart_terrain_4_2_name">
+		<text>Forêt Rouge - Camp près de l'Entrée</text>
+	</string>
+	<string id="st_red_smart_terrain_3_1_name">
+		<text>Forêt Rouge - Poste de contrôle abandonné</text>
+	</string>
+	<string id="st_red_smart_terrain_3_2_name">
+		<text>Forêt Rouge - Caserne de la Mine</text>
+	</string>
+	<string id="st_red_bridge_bandit_smart_skirmish_name">
+		<text>Forêt Rouge - Tunnel de Limansk</text>
+	</string>
+
+	<string id="st_lim_smart_terrain_1_name">
+		<text>Limansk - Camp près d'une maison détruite</text>
+	</string>
+	<string id="st_lim_smart_terrain_3_name">
+		<text>Limansk - Poste de contrôle</text>
+	</string>
+	<string id="st_lim_smart_terrain_4_name">
+		<text>Limansk - Barrière d'Anomalies</text>
+	</string>
+	<string id="st_lim_smart_terrain_5_name">
+		<text>Limansk - Passage dans la Maison</text>
+	</string>
+	<string id="st_lim_smart_terrain_6_name">
+		<text>Limansk - Bâtiment abandonné</text>
+	</string>
+	<string id="st_lim_smart_terrain_7_name">
+		<text>Limansk - Pont Détruit</text>
+	</string>
+	<string id="st_lim_smart_terrain_8_name">
+		<text>Limansk - Sous-station près des Hangars</text>
+	</string>
+	<string id="st_lim_smart_terrain_9_name">
+		<text>Limansk - Ancien Chantier</text>
+	</string>
+	<string id="st_lim_smart_terrain_10_name">
+		<text>Limansk - Maison Délabrée</text>
+	</string>
+
+	<string id="st_katacomb_smart_terrain_name">
+		<text>Hôpital Désert</text>
+	</string>
+
+	<string id="st_pri_smart_neutral_stalker1_name">
+		<text>Pripyat - Campement dans la fosse brûlée</text>
+	</string>
+	<string id="st_pri_smart_monolith_stalker2_name">
+		<text>Pripyat - Campement près des monoblocs</text>
+	</string>
+	<string id="st_pri_smart_monster_lair1_name">
+		<text>Pripyat - Poste de garde près de la remorque</text>
+	</string>
+	<string id="st_pri_smart_monolith_stalker3_name">
+		<text>Pripyat - Route Principale</text>
+	</string>
+	<string id="st_pri_smart_controler_lair1_name">
+		<text>Pripyat - Bâtiment abandonné</text>
+	</string>
+	<string id="st_pri_smart_monolith_stalker4_name">
+		<text>Pripyat - Avant-Poste près de la Statue</text>
+	</string>
+	<string id="st_pri_depot_name">
+		<text>Pripyat - Gare Routière</text>
+	</string>
+	<string id="st_pri_smart_controler_lair2_name">
+		<text>Pripyat - Camp près des Bus Rouillés</text>
+	</string>
+	<string id="st_pri_smart_snork_lair2_name">
+		<text>Pripyat - Statue de Lénine effondrée</text>
+	</string>
+	<string id="st_pri_smart_tushkano_lair1_name">
+		<text>Hôtel Pripyat</text>
+	</string>
+	<string id="st_pri_smart_snork_lair1_name">
+		<text>Camp près des ruines radioactives de Pripyat</text>
+	</string>
+	<string id="st_pri_monolith_name">
+		<text>Pripyat - Centre Culturel</text>
+	</string>
+	<string id="st_pri_smart_monolith_stalker6_name">
+		<text>Pripyat - Entrée du Stade</text>
+	</string>
+	<string id="st_pri_smart_pseudodog_lair1_name">
+		<text>Pripyat - Campement Solitaire</text>
+	</string>
+	<string id="st_pri_smart_giant_lair1_name">
+		<text>Pripyat - Arène du Stade</text>
+	</string>
+	<string id="st_pri_smart_bloodsucker_lair1_name">
+		<text>Pripyat - Vieux Marché</text>
+	</string>
+
+	<string id="st_gen_smart_terrain_cemetery_name">
+		<text>Générateurs - Cimetière</text>
+	</string>
+	<string id="st_gen_smart_terrain_junk_name">
+		<text>Générateurs - Grue effondrée</text>
+	</string>
+	<string id="st_gen_smart_terrain_lab_entrance_2_name">
+		<text>Générateurs - Sous-station abandonnée</text>
+	</string>
+	<string id="st_gen_smart_terrain_lab_entrance_name">
+		<text>Générateurs - Surface du labo de guerre</text>
+	</string>
+	<string id="st_gen_smart_terrain_forest_name">
+		<text>Générateurs - Planque forestière étrange</text>
+	</string>
+	<string id="st_gen_smart_terrain_urod_name">
+		<text>Générateurs - Poste de guet</text>
+	</string>
+	<string id="st_gen_smart_terrain_military_name">
+		<text>Générateurs - Poste de contrôle abandonné</text>
+	</string>
+
+	<string id="st_warlab_common_consciousness_smart_terrain_name">
+		<text>Labo de Guerre Monolithe</text>
+	</string>
+
+	<string id="st_pri_b36_smart_terrain_name">
+		<text>Périphérie - Port Fluvial</text>
+	</string>
+	<string id="st_pri_sim_2_name">
+		<text>Périphérie - Route Sans Issue</text>
+	</string>
+	<string id="st_pri_a28_heli_name">
+		<text>Périphérie - Cour du Théâtre</text>
+	</string>
+	<string id="st_pri_sim_1_name">
+		<text>Périphérie - Cinéma Prometheus</text>
+	</string>
+	<string id="st_pri_b303_name">
+		<text>Périphérie - Ancien Centre de Service</text>
+	</string>
+	<string id="st_pri_a28_evac_name">
+		<text>Périphérie - Parking de l'immeuble d'habitation</text>
+	</string>
+	<string id="st_pri_b302_name">
+		<text>Périphérie - Planque</text>
+	</string>
+	<string id="st_pri_sim_6_name">
+		<text>Périphérie - Ruelle Arrière de l'Hôpital</text>
+	</string>
+	<string id="st_pri_a17_name">
+		<text>Périphérie - Hôpital</text>
+	</string>
+	<string id="st_pri_b301_name">
+		<text>Périphérie - École détruite</text>
+	</string>
+	<string id="st_pri_a28_school_name">
+		<text>Périphérie - Porte de l'École</text>
+	</string>
+	<string id="st_pri_b306_name">
+		<text>Périphérie - Centre de service Yubileiny</text>
+	</string>
+	<string id="st_pri_sim_10_name">
+		<text>Périphérie - Route Diabolique</text>
+	</string>
+	<string id="st_pri_sim_12_name">
+		<text>Périphérie - Repaire des Mutants</text>
+	</string>
+	<string id="st_pri_a16_name">
+		<text>Périphérie - Blanchisserie</text>
+	</string>
+	<string id="st_pri_a28_base_name">
+		<text>Périphérie - Cour avant de la blanchisserie</text>
+	</string>
+	<string id="st_pri_b35_military_name">
+		<text>Périphérie - Poste de Guet de la Ville</text>
+	</string>
+	<string id="st_pri_sim_5_name">
+		<text>Périphérie - Passage du monobloc</text>
+	</string>
+	<string id="st_pri_a28_shop_name">
+		<text>Périphérie - Magasin Abandonné</text>
+	</string>
+	<string id="st_pri_a28_arch_name">
+		<text>Périphérie - Arche du Bâtiment</text>
+	</string>
+	<string id="st_pri_a22_smart_terrain_name">
+		<text>Périphérie - Camp entre les immeubles</text>
+	</string>
+	<string id="st_pri_sim_3_name">
+		<text>Périphérie - Grille du jardin d'enfants</text>
+	</string>
+	<string id="st_pri_a25_smart_terrain_name">
+		<text>Périphérie - Jardin d'Enfants</text>
+	</string>
+	<string id="st_pri_b307_name">
+		<text>Périphérie - Parc de Feu</text>
+	</string>
+	<string id="st_pri_sim_7_name">
+		<text>Périphérie - Coin Isolé</text>
+	</string>
+	<string id="st_pri_sim_9_name">
+		<text>Périphérie - Camp près de la Sous-station</text>
+	</string>
+	<string id="st_pri_a21_smart_terrain_name">
+		<text>Périphérie - Épicerie</text>
+	</string>
+	<string id="st_pri_sim_8_name">
+		<text>Périphérie - Repaire des Chiens</text>
+	</string>
+	<string id="st_pri_sim_11_name">
+		<text>Périphérie - Campement Ouvert</text>
+	</string>
+	<string id="st_pri_a18_smart_terrain_name">
+		<text>Périphérie - Librairie</text>
+	</string>
+	<string id="st_pri_b304_monsters_smart_terrain_name">
+		<text>Périphérie - Grand magasin</text>
+	</string>
+	<string id="st_pri_sim_4_name">
+		<text>Périphérie - Gare Routière</text>
+	</string>
+	<string id="st_pri_b35_mercs_name">
+		<text>Périphérie - Complexe d'appartements</text>
+	</string>
+	<string id="st_pri_b305_dogs_name">
+		<text>Périphérie - Cour arrière du complexe d'appartements</text>
+	</string>
+	<string id="st_pri_a15_name">
+		<text>Périphérie - Entrée des Égouts</text>
+	</string>
+
+	<string id="st_jup_a12_name">
+		<text>Entrepôt de conteneurs Jupiter</text>
+	</string>
+	<string id="st_jup_sim_10_name">
+		<text>Repaire de Jupiter</text>
+	</string>
+	<string id="st_jup_a12_merc_name">
+		<text>Jupiter - Poste routier près d'une voiture</text>
+	</string>
+	<string id="st_jup_sim__name">
+		<text>Jupiter - Tunnel de Train Effondré</text>
+	</string>
+	<string id="st_jup_b203_name">
+		<text>Complexe de ventilation souterrain de Jupiter</text>
+	</string>
+	<string id="st_jup_b212_name">
+		<text>Complexe de ventilation Jupiter</text>
+	</string>
+	<string id="st_jup_b32_name">
+		<text>Jupiter - Parking</text>
+	</string>
+	<string id="st_jup_sim_1_name">
+		<text>Jupiter - Camp près des Voies</text>
+	</string>
+	<string id="st_jup_b205_smart_terrain_name">
+		<text>Jupiter - Complexe antiaérien Volkhov</text>
+	</string>
+	<string id="st_jup_sim_16_name">
+		<text>Jupiter - Camp près du Lac</text>
+	</string>
+	<string id="st_jup_sim_9_name">
+		<text>Jupiter - Territoire des Zombies</text>
+	</string>
+	<string id="st_jup_b19_name">
+		<text>Jupiter - Village de Kopachy</text>
+	</string>
+	<string id="st_jup_b6_anom_2_name">
+		<text>Jupiter - Poste de guet de Kopachy</text>
+	</string>
+	<string id="st_jup_b1_name">
+		<text>Jupiter - Tunnel Nord-Ouest</text>
+	</string>
+	<string id="st_jup_b46_name">
+		<text>Jupiter - Tour de Refroidissement</text>
+	</string>
+	<string id="st_jup_sim_21_name">
+		<text>Jupiter - Planque Solitaire</text>
+	</string>
+	<string id="st_jup_sim_8_name">
+		<text>Marais de Jupiter</text>
+	</string>
+	<string id="st_jup_sim_14_name">
+		<text>Jupiter - Repaire des Mutants</text>
+	</string>
+	<string id="st_jup_b202_name">
+		<text>Jupiter - Gare</text>
+	</string>
+	<string id="st_jup_a6_name">
+		<text>Jupiter - Gare de Yanov</text>
+	</string>
+	<string id="st_jup_b211_name">
+		<text>Camp près du marais de Jupiter</text>
+	</string>
+	<string id="st_jup_sim_20_name">
+		<text>Jupiter - Pont Détruit</text>
+	</string>
+	<string id="st_jup_b200_name">
+		<text>Jupiter - Poste de guet</text>
+	</string>
+	<string id="st_jup_b200_tushkan_smart_terrain_name">
+		<text>Jupiter - Cimenterie</text>
+	</string>
+	<string id="st_jup_sim_7_name">
+		<text>Jupiter - Poste de Guet de la Carrière</text>
+	</string>
+	<string id="st_jup_b25_name">
+		<text>Carrière de Jupiter</text>
+	</string>
+	<string id="st_jup_b207_name">
+		<text>Jupiter - Avant-poste improvisé</text>
+	</string>
+	<string id="st_jup_b207_depot_attack_name">
+		<text>Jupiter - Plaines Ouvertes</text>
+	</string>
+	<string id="st_jup_sim_15_name">
+		<text>Jupiter - Sommet</text>
+	</string>
+	<string id="st_jup_b206_name">
+		<text>Jupiter - Campement Routier</text>
+	</string>
+	<string id="st_jup_a10_smart_terrain_name">
+		<text>Jupiter - Poste de contrôle</text>
+	</string>
+	<string id="st_jup_b41_name">
+		<text>Jupiter - Bunker d'Hermann</text>
+	</string>
+	<string id="st_jup_sim_6_name">
+		<text>Jupiter - Versant de la Carrière</text>
+	</string>
+	<string id="st_jup_b209_name">
+		<text>Jupiter - Entrée de l'anomalie Bitume</text>
+	</string>
+	<string id="st_jup_sim_5_name">
+		<text>Jupiter - Carrefour</text>
+	</string>
+	<string id="st_jup_sim_4_name">
+		<text>Jupiter - Moteur Abandonné</text>
+	</string>
+	<string id="st_jup_b204_name">
+		<text>Jupiter - Avant-Poste du Canal</text>
+	</string>
+	<string id="st_jup_sim_11_name">
+		<text>Jupiter - Arrière-Pays</text>
+	</string>
+	<string id="st_jup_sim_12_name">
+		<text>Jupiter - Camp près du Complexe</text>
+	</string>
+	<string id="st_jup_sim_18_name">
+		<text>Jupiter - Dépôt de l'Usine Jupiter</text>
+	</string>
+	<string id="st_jup_sim_17_name">
+		<text>Jupiter - Canal Asséché</text>
+	</string>
+	<string id="st_jup_a9_name">
+		<text>Jupiter - Entrée de l'Usine</text>
+	</string>
+	<string id="st_jup_b47_name">
+		<text>Jupiter - Routes Intérieures</text>
+	</string>
+	<string id="st_jup_sim_19_name">
+		<text>Jupiter - Dépotoir de l'Usine</text>
+	</string>
+	<string id="st_jup_b8_smart_terrain_name">
+		<text>Jupiter - Hélicoptère écrasé</text>
+	</string>
+	<string id="st_jup_b219_name">
+		<text>Jupiter - Usine</text>
+	</string>
+	<string id="st_jup_b4_name">
+		<text>Jupiter - Planque sous le Pont</text>
+	</string>
+	<string id="st_jup_sim_3_name">
+		<text>Jupiter - Marais Peu Profond</text>
+	</string>
+	<string id="st_jup_sim_13_name">
+		<text>Jupiter - Camp Dangereux</text>
+	</string>
+	<string id="st_jup_b205_smart_terrain_tushkano_name">
+		<text>Souterrains de Volkhov Jupiter</text>
+	</string>
+	<string id="st_jup_sim_2_name">
+		<text>Jupiter - Tunnel Ouest</text>
+	</string>
+	<string id="st_jup_b208_name">
+		<text>Jupiter - Tunnel Est</text>
+	</string>
+	<string id="st_depo_terrain_name">
+		<text>Souterrains de l'usine Jupiter</text>
+	</string>
+
+	<string id="st_aes_smart_terrain_monolit_blockpost4_name">
+		<text>CNPP Sud - Centrale Électrique</text>
+	</string>
+	<string id="st_aes_smart_terrain_monolit_blockpost2_name">
+		<text>Sud CNPP - Citernes à pétrole</text>
+	</string>
+	<string id="st_aes_smart_terrain_monolit_blockpost_name">
+		<text>Sud CNPP - Entrée de la centrale</text>
+	</string>
+	<string id="st_aes_smart_terrain_soldier2_name">
+		<text>Sud CNPP - Complexe de bureaux</text>
+	</string>
+	<string id="st_aes_smart_terrain_monsters1_name">
+		<text>Route Principale - CNPP Sud</text>
+	</string>
+	<string id="st_aes_smart_terrain_monsters2_name">
+		<text>CNPP Sud - Campement Éloigné</text>
+	</string>
+	<string id="st_aes_smart_terrain_monsters3_name">
+		<text>Sud CNPP - Tours de transmission</text>
+	</string>
+	<string id="st_aes_smart_terran_soldier_name">
+		<text>Sud CNPP - Avant-Poste</text>
+	</string>
+	<string id="st_aes_smart_terrain_monsters4_name">
+		<text>Sud CNPP - Campement isolé</text>
+	</string>
+
+	<string id="st_sar_monolith_general_name">
+		<text>Sarcophage</text>
+	</string>
+	<string id="st_sar_monolith_sklad_name">
+		<text>Sarcophage</text>
+	</string>
+	<string id="st_sar_monolith_bloodsuckers_name">
+		<text>Sarcophage</text>
+	</string>
+	<string id="st_sar_monolith_poltergeists_name">
+		<text>Sarcophage</text>
+	</string>
+	<string id="st_sar_monolith_guard_name">
+		<text>Sarcophage</text>
+	</string>
+	<string id="st_sar_monolith_zombies_name">
+		<text>Sarcophage</text>
+	</string>
+
+	<string id="st_aes2_monolith_snipers_2_name">
+		<text>CNPP Nord - Camp Intérieur</text>
+	</string>
+	<string id="st_aes2_monolith_snipers_1_name">
+		<text>Nord CNPP - Toits</text>
+	</string>
+	<string id="st_aes2_monolith_camp1_name">
+		<text>Nord CNPP - Grand Campement</text>
+	</string>
+	<string id="st_aes2_monolith_camp2_name">
+		<text>CNPP Nord - Poste de Guet Intérieur</text>
+	</string>
+	<string id="st_aes2_monsters2_name">
+		<text>CNPP Nord - Atterrissage de la Zone</text>
+	</string>
+	<string id="st_aes2_monolith_camp3_name">
+		<text>CNPP Nord - Campement sur Toit</text>
+	</string>
+	<string id="st_aes2_monsters1_name">
+		<text>CNPP Nord - Sortie Arrière</text>
+	</string>
+	<string id="st_aes2_monolith_snipers_3_name">
+		<text>Nord CNPP - Dépôt de la Centrale</text>
+	</string>
+	<string id="st_aes2_monolith_camp4_name">
+		<text>CNPP Nord - Stockage sur Toit</text>
+	</string>
+
+	<string id="st_zat_b40_smart_terrain_name">
+		<text>Zaton - Station de Traitement</text>
+	</string>
+	<string id="st_zat_sim_10_name">
+		<text>Zaton - Arrière-Pays Diabolique</text>
+	</string>
+	<string id="st_zat_sim_14_name">
+		<text>Zaton - Plateau Sud</text>
+	</string>
+	<string id="st_zat_b12_name">
+		<text>Zaton - Pont Preobrazhensky</text>
+	</string>
+	<string id="st_zat_sim_11_name">
+		<text>Zaton - Campement de Fortune</text>
+	</string>
+	<string id="st_zat_b54_name">
+		<text>Zaton - Camp de Scar</text>
+	</string>
+	<string id="st_zat_sim_24_name">
+		<text>Zaton - Passage de Rivière</text>
+	</string>
+	<string id="st_zat_b5_smart_terrain_name">
+		<text>Zaton - Poste des Rangers</text>
+	</string>
+	<string id="st_zat_sim_28_name">
+		<text>Zaton - Planque près du Pont</text>
+	</string>
+	<string id="st_zat_sim_16_name">
+		<text>Zaton - Repaire des Mutants</text>
+	</string>
+	<string id="st_zat_b14_smart_terrain_name">
+		<text>Zaton - Station de Dragage</text>
+	</string>
+	<string id="st_zat_sim_18_name">
+		<text>Zaton - Collines Solitaires</text>
+	</string>
+	<string id="st_zat_sim_1_name">
+		<text>Zaton - Repaire dans les Collines</text>
+	</string>
+	<string id="st_zat_b53_name">
+		<text>Zaton - Camp de l'Anomalie de la Chaudière</text>
+	</string>
+	<string id="st_zat_sim_29_name">
+		<text>Zaton - Colline boisée</text>
+	</string>
+	<string id="st_zat_a1_name">
+		<text>Zaton - Campement Éloigné</text>
+	</string>
+	<string id="st_zat_sim_15_name">
+		<text>Point de vue fluvial nord-est de Zaton</text>
+	</string>
+	<string id="st_zat_b42_smart_terrain_name">
+		<text>Vieux Quai de Zaton</text>
+	</string>
+	<string id="st_zat_sim_2_name">
+		<text>Zaton - Campement du Rivage</text>
+	</string>
+	<string id="st_zat_sim_30_name">
+		<text>Zaton - Collines Oubliées</text>
+	</string>
+	<string id="st_zat_sim_3_name">
+		<text>Zaton - Point de vue nord de la rivière</text>
+	</string>
+	<string id="st_zat_sim_19_name">
+		<text>Zaton - Sommet Dangereux</text>
+	</string>
+	<string id="st_zat_sim_4_name">
+		<text>Zaton - Route du Nord</text>
+	</string>
+	<string id="st_zat_b104_zombied_name">
+		<text>Zaton - Scierie Abandonnée</text>
+	</string>
+	<string id="st_zat_sim_5_name">
+		<text>Zaton - Planque derrière les Rochers</text>
+	</string>
+	<string id="st_zat_b101_name">
+		<text>Zaton - Campement Mortel</text>
+	</string>
+	<string id="st_zat_sim_6_name">
+		<text>Zaton - Poste de Guet des Anomalies du Marais</text>
+	</string>
+	<string id="st_zat_b38_name">
+		<text>Zaton - Complexe d'antennes Krug</text>
+	</string>
+	<string id="st_zat_b38u_name">
+		<text>Zaton - Ventilation du Complexe</text>
+	</string>
+	<string id="st_zat_sim_7_name">
+		<text>Zaton - Arrière-Pays Complexe</text>
+	</string>
+	<string id="st_zat_sim_8_name">
+		<text>Zaton - Repaire de Mutants</text>
+	</string>
+	<string id="st_zat_sim_26_name">
+		<text>Zaton - Vieux Camp Forestier</text>
+	</string>
+	<string id="st_zat_b39_name">
+		<text>Zaton - Camp des Anomalies Chêne-Pin</text>
+	</string>
+	<string id="st_zat_sim_25_name">
+		<text>Zaton - Station de Ravitaillement</text>
+	</string>
+	<string id="st_zat_sim_13_name">
+		<text>Zaton - Campement Routier</text>
+	</string>
+	<string id="st_zat_b33_name">
+		<text>Zaton - Repaire des Snorks</text>
+	</string>
+	<string id="st_zat_b55_name">
+		<text>Zaton - Camp de l'Anomalie Griffe</text>
+	</string>
+	<string id="st_zat_b100_name">
+		<text>Zaton - Forêt de fer</text>
+	</string>
+	<string id="st_zat_a23_smart_terrain_name">
+		<text>Zaton - Hélicoptère Écrasé</text>
+	</string>
+	<string id="st_zat_sim_9_name">
+		<text>Zaton - Arrière-Pays de la Forêt de Fer</text>
+	</string>
+	<string id="st_zat_b103_merc_smart_name">
+		<text>Zaton - Ateliers de la Sous-station</text>
+	</string>
+	<string id="st_zat_b56_name">
+		<text>Zaton - Camp de l'Anomalie du Cirque</text>
+	</string>
+	<string id="st_zat_stalker_base_smart_name">
+		<text>Zaton - Épave du Skadovsk</text>
+	</string>
+	<string id="st_zat_sim_20_name">
+		<text>Zaton - Entrée des Souterrains</text>
+	</string>
+	<string id="st_zat_b20_smart_terrain_name">
+		<text>Zaton - Ferme Brûlée</text>
+	</string>
+	<string id="st_zat_b28_name">
+		<text>Zaton - Grotte secrète</text>
+	</string>
+	<string id="st_zat_b106_smart_terrain_name">
+		<text>Zaton - Izumrudnoye</text>
+	</string>
+	<string id="st_zat_sim_17_name">
+		<text>Zaton - Entrée secrète souterraine</text>
+	</string>
+	<string id="st_zat_sim_21_name">
+		<text>Zaton - Point de Vue Central</text>
+	</string>
+	<string id="st_zat_sim_27_name">
+		<text>Zaton - Rivière Peu Profonde</text>
+	</string>
+	<string id="st_zat_b7_stalker_raider_name">
+		<text>Zaton - Salle des Machines Shevchenko</text>
+	</string>
+	<string id="st_zat_b7_name">
+		<text>Zaton - Épave du Shevchenko</text>
+	</string>
+	<string id="st_zat_sim_23_name">
+		<text>Zaton - Rivière Marécageuse</text>
+	</string>
+	<string id="st_zat_b18_name">
+		<text>Zaton - Vieille Barge</text>
+	</string>
+	<string id="st_zat_medic_home_start_name">
+		<text>Zaton - Campement des Docks</text>
+	</string>
+	<string id="st_zat_b52_name">
+		<text>Zaton - Grues du dock</text>
+	</string>
+	<string id="st_zat_sim_12_name">
+		<text>Zaton - Pique-Nique Routier</text>
+	</string>
+	<string id="st_zat_sim_22_name">
+		<text>Colline de Zaton</text>
+	</string>
+	<string id="st_zat_medic_home_smart_name">
+		<text>Zaton - Maison Abandonnée</text>
+	</string>
+
+	<string id="st_agr_u_monsters_name">
+		<text>Souterrains d'Agroprom</text>
+	</string>
+	<string id="st_agr_u_bloodsucker_name">
+		<text>Souterrains d'Agroprom</text>
+	</string>
+	<string id="st_agr_u_bloodsucker_2_name">
+		<text>Souterrains d'Agroprom</text>
+	</string>
+	<string id="st_agr_u_bandits_name">
+		<text>Souterrains d'Agroprom</text>
+	</string>
+	<string id="st_agr_u_soldiers_name">
+		<text>Souterrains d'Agroprom</text>
+	</string>
+
+	<string id="st_lx8_smart_terrain_name">
+		<text>Labo X-8</text>
+	</string>
+
+	<string id="st_bun2_st_bloodsucker_name">
+		<text>Laboratoire X-19</text>
+	</string>
+	<string id="st_bun_krovosos_nest_name">
+		<text>Laboratoire X-19</text>
+	</string>
+	<string id="st_bun2_tushkano_lair_name">
+		<text>Laboratoire X-19</text>
+	</string>
+
+	<string id="st_dar_control_poltergeist_name">
+		<text>Laboratoire X-18</text>
+	</string>
+	<string id="st_dar_angar_name">
+		<text>Laboratoire X-18</text>
+	</string>
+	<string id="st_dar_smart_snork_name">
+		<text>Laboratoire X-18</text>
+	</string>
+	<string id="st_dar_poltergeist_ring_name">
+		<text>Laboratoire X-18</text>
+	</string>
+	<string id="st_dar_poltergeist_tele_name">
+		<text>Laboratoire X-18</text>
+	</string>
+	<string id="st_dar_military_scout_name">
+		<text>Laboratoire X-18</text>
+	</string>
+	<string id="st_dar_poltergeist_tele_round_name">
+		<text>Laboratoire X-18</text>
+	</string>
+
+	<string id="st_x162_st_snork_name">
+		<text>Laboratoire X-16</text>
+	</string>
+	<string id="st_x162_st_gigant_name">
+		<text>Laboratoire X-16</text>
+	</string>
+	<string id="st_x162_st_burer_name">
+		<text>Laboratoire X-16</text>
+	</string>
+	<string id="st_x162_st_poltergeist_name">
+		<text>Laboratoire X-16</text>
+	</string>
+
+	<string id="st_pas_b400_canalisation_name">
+		<text>Souterrains de Jupiter</text>
+	</string>
+	<string id="st_pas_b400_downstairs_name">
+		<text>Souterrains de Jupiter</text>
+	</string>
+	<string id="st_pas_b400_elevator_name">
+		<text>Souterrains de Jupiter</text>
+	</string>
+	<string id="st_pas_b400_fake_name">
+		<text>Souterrains de Jupiter</text>
+	</string>
+	<string id="st_pas_b400_hall_name">
+		<text>Souterrains de Jupiter</text>
+	</string>
+	<string id="st_pas_b400_track_name">
+		<text>Souterrains de Jupiter</text>
+	</string>
+	<string id="st_pas_b400_tunnel_name">
+		<text>Souterrains de Jupiter</text>
+	</string>
+	<string id="st_pas_b400_way_name">
+		<text>Souterrains de Jupiter</text>
+	</string>
+
+<!-- MLR -->
+
+	<string id="ui_st_red_forest_vagon_csky">
+		<text>Forêt Rouge - Camp de la Marque</text>
+	</string>
+	<string id="ui_st_truck_cemetery_bandits_post">
+		<text>Cimetière de Camions - Camp de la Périphérie</text>
+	</string>
+	<string id="ui_st_yanov_depo_monolith">
+		<text>Jupiter - Tunnel Est</text>
+	</string>
+	<string id="ui_st_bridge_red_forest_mon">
+		<text>Forêt Rouge - Pont vers Limansk</text>
+	</string>
+	<string id="ui_st_fo_cordon">
+		<text>Cordon - Poste de contrôle Sud</text>
+	</string>
+	<string id="ui_st_dasc_sawwill">
+		<text>Darkscape - Scierie</text>
+	</string>
+	<string id="ui_st_l13_generators">
+		<text>Générateurs - Laboratoire Militaire</text>
+	</string>
+
+	<string id="st_bar100rent_name">
+		<text>100 Rads Bar</text>
+	</string>
+	<string id="st_gar_baraholka_name">
+		<text>Marché aux Puces</text>
+	</string>
+	<string id="st_gar_outpost_name">
+		<text>Poste de contrôle près de Rostok</text>
+	</string>
+	<string id="st_gar_angar_name">
+		<text>Hangar à Trains</text>
+	</string>
+	<string id="st_yanbunker_name">
+		<text>Centre de Recherche</text>
+	</string>
+	<string id="st_yancomplex_name">
+		<text>Complexe Industriel</text>
+	</string>
+	<string id="st_novice_village_name">
+		<text>Village des Recrues</text>
+	</string>
+	<string id="st_south_blokpost_name">
+		<text>Poste de contrôle Sud</text>
+	</string>
+	<string id="st_ATP_name">
+		<text>Station de Véhicules</text>
+	</string>
+	<string id="st_elevator_name">
+		<text>Ascenseur</text>
+	</string>
+	<string id="st_tunnel_electr_name">
+		<text>Tunnel Brûlé</text>
+	</string>
+	<string id="st_neut_base_name">
+		<text>Ferme</text>
+	</string>
+	<string id="st_north_blockpost_name">
+		<text>Avant-Poste Militaire</text>
+	</string>
+	<string id="st_dar_farm_name">
+		<text>Ferme</text>
+	</string>
+	<string id="st_dar_complex_name">
+		<text>Complexe Industriel</text>
+	</string>
+	<string id="st_bs_village_name">
+		<text>Village des Bloodsuckers</text>
+	</string>
+	<string id="st_base_freedom_name">
+		<text>Entrepôt Militaire</text>
+	</string>
+	<string id="st_border_name">
+		<text>Barrière</text>
+	</string>
+	<string id="st_mon_base_name">
+		<text>Palais de la Culture</text>
+	</string>
+	<string id="st_hotel_poless_name">
+		<text>Hôtel</text>
+	</string>
+	<string id="st_big_bus_station_name">
+		<text>Gare Routière</text>
+	</string>
+	<string id="st_ds_administration_name">
+		<text>Administration</text>
+	</string>
+	<string id="st_ds_market_name">
+		<text>Marché</text>
+	</string>
+	<string id="st_ds_HoC_name">
+		<text>Maison de la Culture</text>
+	</string>
+	<string id="st_lim_zastava_name">
+		<text>Avant-Poste Frontal</text>
+	</string>
+	<string id="st_lim_bubbles_name">
+		<text>Anomalies Spatiales</text>
+	</string>
+	<string id="st_lim_nonbuild_name">
+		<text>Chantier</text>
+	</string>
+	<string id="st_lim_dyga_name">
+		<text>Installation Duga Radar</text>
+	</string>
+	<string id="st_lim_old_church_name">
+		<text>Vieille Église</text>
+	</string>
+	<string id="st_lim_village_csky_name">
+		<text>Base Firmament</text>
+	</string>
+	<string id="st_lim_water_pump_station_name">
+		<text>Station de Pompage</text>
+	</string>
+	<string id="st_lim_mechanic_yard_name">
+		<text>Chantier Mécanique</text>
+	</string>
+	<string id="st_lim_bridge_name">
+		<text>Pont vers Limansk</text>
+	</string>
+	<string id="st_lim_house_lesnik_name">
+		<text>Bâtiment du Forestier</text>
+	</string>
+	<string id="st_lim_post_vishka_name">
+		<text>Poste d'Observation</text>
+	</string>
+	<string id="st_agr_SRI_name">
+		<text>Institut de Recherche Agroprom</text>
+	</string>
+	<string id="st_red_crap_name">
+		<text>Campement Diabolique</text>
+	</string>
+	<string id="st_red_dark_yar_name">
+		<text>Banque Sombre</text>
+	</string>
+	<string id="st_red_central_mine_name">
+		<text>Mine</text>
+	</string>
+	<string id="st_tc_bandit_base_name">
+		<text>Campement à la Périphérie</text>
+	</string>
+	<string id="st_tc_kpp_name">
+		<text>Poste de Contrôle Jupiter</text>
+	</string>
+	<string id="st_tc_vert_name">
+		<text>Hélicoptère dans la Forêt Rouge</text>
+	</string>
+	<string id="st_radar_first_zastava_name">
+		<text>Premier Avant-Poste</text>
+	</string>
+	<string id="st_rad_bunker_name">
+		<text>Bunker</text>
+	</string>
+	<string id="st_dasc_treesucker_state_name">
+		<text>Scierie</text>
+	</string>
+
+<!-- MISSING SMARTS -->
+
+	<string id="st_esc_smart_terrain_9_10_name">
+		<text>Cordon - Feu près du Tunnel</text>
+	</string>	
+
+	<string id="st_agr_smart_terrain_7_4_name">
+		<text>Agroprom - Route vers Décharge</text>
+	</string>
+	<string id="st_agr_smart_terrain_5_4_name">
+		<text>Agroprom - Bifurcation</text>
+	</string>	
+	<string id="st_agr_smart_terrain_6_6_name">
+		<text>Agroprom - Campement de fortune</text>
+	</string>	
+
+	<string id="st_pol_sim_1_name">
+		<text>Prairie - Cour de l'Usine</text>
+	</string>
+	<string id="st_pol_smart_terrain_1_1_name">
+		<text>Village de la Prairie</text>
+	</string>
+	<string id="st_pol_smart_terrain_1_2_name">
+		<text>Prairie - Cantine ¹14</text>
+	</string>
+	<string id="st_pol_smart_terrain_1_3_name">
+		<text>Prairie - Ancien Parking de Voitures</text>
+	</string>
+	<string id="st_pol_smart_terrain_2_1_name">
+		<text>Prairie - Administration de l'Usine</text>
+	</string>
+	<string id="st_pol_smart_terrain_2_2_name">
+		<text>Prairie - Ateliers de l'Usine</text>
+	</string>
+	
+	<string id="st_val_smart_terrain_5_8_name">
+		<text>Vallée Obscure - Campement de Terrain</text>
+	</string>	
+	<string id="st_val_smart_terrain_5_7_name">
+		<text>Vallée Obscure - Dernier Avant-poste</text>
+	</string>	
+	
+	<string id="st_rad_prip_road_name">
+		<text>Radar - Dalles de Béton</text>
+	</string>
+	<string id="st_rad_rusty_forest_center_name">
+		<text>Radar - Forêt Morte</text>
+	</string>
+	<string id="st_rad_freedom_vs_duty_name">
+		<text>Radar - Route vers Pripyat</text>
+	</string>
+	<string id="st_rad2_rad_prip_road_name">
+		<text>Radar - Carrefour</text>
+	</string>
+	
+	<string id="st_hotel_poless_smart_alife_name">
+		<text>Pripyat - Arrière-cour de l'hôtel</text>
+	</string>
+	<string id="st_mlr_terrain_name">
+		<text>Pripyat - Salle de Théâtre</text>
+	</string>
+	<string id="st_monolith_snipers_smart_1_mlr_name">
+		<text>Pripyat - Allée de la Damnation</text>
+	</string>
+	
+	<string id="st_kbo_terrain_name">
+		<text>Périphérie - Entrée du centre de service</text>
+	</string>
+	<string id="st_pri_a16_mlr_copy_name">
+		<text>Périphérie - Entrée de la Blanchisserie</text>
+	</string>
+
+	<string id="st_gen_undeground_smart_mlr_burers_name">
+		<text>Générateurs - Repaire des Burers</text>
+	</string>
+	<string id="st_gen_undeground_smart_mlr_giant_name">
+		<text>Générateurs - Repaire du Pseudogiant</text>
+	</string>
+	<string id="st_gen_undeground_smart_mlr_controller_name">
+		<text>Générateurs - Repaire du Controller</text>
+	</string>
+
+</string_table>

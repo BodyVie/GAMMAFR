@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="ui_mcm_menu_mark_switch">
+		<text>Commutateur de repère 3DSS</text>
+	</string>
+	
+	<string id="ui_mcm_mark_switch_title">
+		<text>Commutateur de repère</text>
+	</string>
+
+	<string id="ui_mcm_mark_switch_keybind">
+		<text>Commutateur de repère de viseur reflex</text>
+	</string>
+
+</string_table>

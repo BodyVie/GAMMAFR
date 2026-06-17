@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="bar_arena_manager_game_0">
+		<text>L'arène des mutants est ouverte aux nouveaux challengers ?</text>
+	</string>
+	<string id="bar_arena_manager_game_1">
+		<text>Depuis un petit accident avec certains des mutants capturés, Petrenko nous a fermés. Pas de bol, stalker, faudra les affronter là-bas.</text>
+	</string>
+</string_table>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+    <string id="ui_mcm_npe_module_gamma_tutorial_ammo_ammo">
+        <text>Tutoriel Système de dégâts</text>
+    </string>
+
+    <string id="ui_mcm_npe_module_gamma_tutorial_ammo_title">
+        <text>Tutoriels G.A.M.M.A.</text>
+    </string>
+
+    <string id="ui_mcm_npe_module_gamma_tutorial_ammo_desc">
+        <text>Système de dégâts</text>
+    </string>
+	
+    <!-- MCM -->
+    <!-- Name of the toggle that sets if tutorial has been completed-->
+    <string id="ui_mcm_npe_module_gamma_tutorial_ammo">
+        <text>Munitions G.A.M.M.A.</text>
+    </string>
+    <!-- MCM -->
+
+    <!-- Title of the whole tutorial -->
+    <string id="ui_mcm_npe_module_gamma_tutorial_ammo_title">
+        <text>Tutoriel Système de dégâts</text>
+    </string>
+
+    <!-- Cards -->
+    <!-- 1 -->
+    <string id="ui_gamma_tutorial_ammo_card_01_title">
+        <text>Outil adapté
+		</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_ammo_card_01_description">
+        <text>
+			 • Votre survie dépendra de l'utilisation du type et du calibre de munition appropriés en fonction des ennemis que vous affrontez.\n
+			 • Les munitions appartiennent généralement à l'un des 3 types suivants :\n
+				 | - Chemisée (FMJ) : munitions économiques offrant un bon compromis entre pénétration de blindage et dégâts.\n
+				 | - À pointe creuse (HP) : munitions plus coûteuses conçues pour infliger davantage de dégâts aux cibles molles, comme les flesh.\n
+				 | - Perforantes (AP) : munitions encore plus coûteuses conçues pour percer les blindages des stalkers.\n
+			 • Vous pouvez appuyer sur la touche Y (par défaut) pour sélectionner rapidement le type de munition adapté à l'arme actuellement équipée.\n
+			 • Certains calibres n'ont pas accès aux trois types de munitions (9x21, 7,62x39, 7,62x54R, 7,62x51...).\n \n
+			 • Vous pouvez consulter les propriétés des munitions en survolant les boîtes de munitions dans votre inventaire avec la souris. Cette méthode vous fournira des informations précieuses :\n
+				 | - Valeur de pénétration de blindage des munitions (AP).\n
+				 | - Pouvoir d'arrêt des munitions (DMG).\n
+			 • Certains fusils peuvent présenter des augmentations légères de dégâts par rapport à d'autres armes d'un même calibre, ce qui accroît la puissance d'arrêt des munitions.\n
+		</text>
+    </string>
+    <!-- 1 -->
+
+    <!-- 2 -->
+    <string id="ui_gamma_tutorial_ammo_card_02_title">
+        <text>Perforante
+		</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_ammo_card_02_description">
+        <text>%c[ui_white]• Les Stalkers portent des protections capables de résister à plusieurs impacts de balles dont le pouvoir de pénétration est insuffisant. \n \n
+
+ • Les Stalkers possèdent des valeurs d'armure réparties en trois zones : %c[d_red]Tête%c[ui_white], %c[d_orange]Haut du corps%c[ui_white] et %c[pda_blue]Jambes%c[ui_white]. Chaque groupe de membres dispose d'une valeur d'armure spécifique en fonction de l'équipement porté par le stalker. Chaque impact de balle réduit progressivement l'armure du groupe de membres touché, en fonction de la valeur de pénétration (AP) de la munition.  \n \n
+
+ • Chaque groupe de membres possède son propre multiplicateur de dégâts : les tirs à la tête infligent plus de dommages que les tirs dans les jambes. \n \n
+
+ • Tirer de manière répétée sur le même groupe de membres permet de vaincre les adversaires plus rapidement. L'utilisation de munitions à haute valeur de pénétration (AP) facilite la neutralisation des adversaires équipés d'armures.\n \n
+
+ • L'utilisation de munitions à faible pénétration d'armure contre des ennemis lourdement blindés peut tout de même les éliminer, notamment en visant les %c[pda_blue]jambes%c[ui_white], moins protégées que le %c[d_orange]haut du corps%c[ui_white] ou la %c[d_red]tête%c[ui_white]. Cela nécessitera cependant une quantité de munitions bien plus importante que si des munitions AP étaient utilisées sur la %c[d_red]tête%c[ui_white].\n \n	
+		</text>
+    </string>
+    <!-- 2 -->
+    
+    <!-- 3 -->
+    <string id="ui_gamma_tutorial_ammo_card_03_title">
+        <text>Dommage sur la chaire
+		</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_ammo_card_03_description">
+        <text>• Les Mutants sont considérés comme des cibles molles et sont plus faciles à neutraliser avec des munitions à haut pouvoir de dégâts. \n \n
+
+ • La pénétration de blindage a peu d'importance lors de la chasse aux mutants.\n \n
+
+ • Gardez à l'esprit que l'infliction de dégâts et la perforation des armures reposent avant tout sur des valeurs élevées par munition. Cependant, une cadence de tir élevée et un faible recul peuvent souvent offrir de meilleurs résultats qu'une arme plus puissante, mais plus lente et moins maniable.\n \n
+
+ • Vous pouvez revoir ce tutoriel en accédant au Menu de Configuration du Mod &gt; Modules NPE &gt; G.A.M.M.A. et en décochant l'option du tutoriel. \n \n
+</text>
+    </string>
+    <!-- 3 -->
+</string_table>

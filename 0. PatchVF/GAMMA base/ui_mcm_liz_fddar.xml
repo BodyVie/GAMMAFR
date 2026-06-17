@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+    <string id="ui_mcm_menu_fddar">
+        <text>FDDA remanié</text>
+    </string>
+
+    <string id="ui_mcm_menu_consumables">
+        <text>Consommables</text>
+    </string>
+
+    <string id="ui_mcm_menu_backpack">
+        <text>Sac à dos</text>
+    </string>
+
+    <string id="ui_mcm_menu_skinning">
+        <text>Dépouillement des Mutants</text>
+    </string>
+
+    <string id="ui_mcm_menu_pickup">
+        <text>Animation de ramassage</text>
+    </string>
+
+    <string id="ui_mcm_menu_nvg">
+        <text>Animation NVG</text>
+    </string>
+
+    <string id="ui_mcm_menu_headgear_anm">
+        <text>Couvre-chef</text>
+    </string>
+
+    <string id="ui_mcm_menu_outfit_anm">
+        <text>Tenue</text>
+    </string>
+
+    <string id="ui_mcm_menu_body_search">
+        <text>Fouille corporelle</text>
+    </string>
+
+
+
+    <string id="ui_mcm_fddar_backpack_speed_type_mcm">
+        <text>Utiliser une vitesse maximale unique pour tous les sacs à dos</text>
+    </string>
+
+    <string id="ui_mcm_fddar_backpack_speed_type_load">
+        <text>Vitesse dépend de la charge du sac à dos</text>
+    </string>
+
+    <string id="ui_mcm_fddar_backpack_speed_type_config">
+        <text>Vitesse dépend du type de sac à dos</text>
+    </string>
+
+    
+
+    <string id="ui_mcm_liz_body_search_wpn_lower_type_none">
+        <text>Ne pas baisser l'arme</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_wpn_lower_type_pistols">
+        <text>Baisser uniquement les pistolets</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_wpn_lower_type_all">
+        <text>Tout baisser</text>
+    </string>
+
+    
+
+    <string id="ui_mcm_liz_qht_icon_state_none">
+        <text>Aucun</text>
+    </string>
+
+    <string id="ui_mcm_liz_qht_icon_state_enabled">
+        <text>Afficher lorsque couvre-chef équipé</text>
+    </string>
+
+    <string id="ui_mcm_liz_qht_icon_state_inverted">
+        <text>Afficher lorsque couvre-chef déséquipé</text>
+    </string>
+
+
+
+    <string id="ui_mcm_qht_icon_type_anomaly">
+        <text>Anomalie</text>
+    </string>
+
+    <string id="ui_mcm_qht_icon_type_gamma">
+        <text>GAMMA</text>
+    </string>
+
+
+
+    <string id="ui_mcm_fddar_consumables_enable">
+        <text>Animation activée</text>
+    </string>
+
+    <string id="ui_mcm_fddar_consumables_recepie_anim_enable">
+        <text>Activer l'animation de lecture de recette</text>
+    </string>
+    
+    <string id="ui_mcm_fddar_consumables_allow_skip_abuse">
+        <text>Autoriser le saut d'animation après application de l'effet</text>
+    </string>
+
+    <string id="ui_mcm_fddar_consumables_strict_sprinting">
+        <text>Désactiver l'utilisation d'objet en sprint</text>
+    </string>
+
+    <string id="ui_mcm_fddar_consumables_unequip_helmet">
+        <text>Déséquiper automatiquement le couvre-chef avant consommation</text>
+    </string>
+
+    <string id="ui_mcm_fddar_consumables_auto_cancel">
+        <text>Activer l'annulation automatique de l'animation</text>
+    </string>
+
+    <string id="ui_mcm_fddar_consumables_ac_wound">
+        <text>Annuler l'animation lors d'une attaque par un mutant</text>
+    </string>
+
+    <string id="ui_mcm_fddar_consumables_ac_fire_wound">
+        <text>Annuler l'animation en cas de blessure par balle</text>
+    </string>
+
+    <string id="ui_mcm_fddar_consumables_ac_explosion">
+        <text>Annuler l'animation en cas de dégâts d'explosion</text>
+    </string>
+
+    
+
+    <string id="ui_mcm_fddar_backpack_enable">
+        <text>Animation activée</text>
+    </string>
+
+    <string id="ui_mcm_fddar_backpack_type">
+        <text>Vitesse du sac à dos dépend de</text>
+    </string>
+
+    <string id="ui_mcm_fddar_backpack_max_speed">
+        <text>Vitesse d'animation maximale</text>
+    </string>
+
+    <string id="ui_mcm_fddar_backpack_min_weight_multiplier">
+        <text>Charge du sac à dos en % lorsque la vitesse d'ouverture commence à baisser</text>
+    </string>
+
+    
+
+    <string id="ui_mcm_fddar_skinning_enable">
+        <text>Animation activée</text>
+    </string>
+
+    <string id="ui_mcm_fddar_skinning_auto_loot_all">
+        <text>Tout prendre automatiquement (ignorer l'UI)</text>
+    </string>
+
+    <string id="ui_mcm_fddar_skinning_every_part_pickup">
+        <text>Jouer l'animation de ramassage pour chaque partie de mutant</text>
+    </string>
+
+    
+
+    <string id="ui_mcm_fddar_pickup_enable">
+        <text>Animation activée</text>
+    </string>
+    
+    <string id="ui_mcm_fddar_pickup_multipickup">
+        <text>Ramasser plusieurs objets à la fois</text>
+    </string>
+
+    <string id="ui_mcm_fddar_pickup_speed">
+        <text>Vitesse d'animation de ramassage</text>
+    </string>
+
+    <string id="ui_mcm_fddar_pickup_use_attachments">
+        <text>Attacher l'objet à la main pendant l'animation de ramassage</text>
+    </string>
+
+
+
+    <string id="ui_mcm_fddar_nvg_enable">
+        <text>Animation activée</text>
+    </string>
+
+    
+
+    <string id="ui_mcm_fddar_headgear_anm_enable">
+        <text>Animation activée</text>
+    </string>
+
+    <string id="ui_mcm_fddar_headgear_anm_keybind">
+        <text>Raccourci équipement/déséquipement masque à gaz</text>
+    </string>
+
+    <string id="ui_mcm_fddar_update_mcm">
+        <text>Votre version de MCM est obsolète. Mettez à jour vers une version plus récente.</text>
+    </string>
+
+    <!-- <string id="ui_mcm_fddar_headgear_anm_modifier">
+        <text></text>
+    </string>
+
+    <string id="ui_mcm_fddar_headgear_anm_mode">
+        <text></text>
+    </string>
+
+    <string id="ui_mcm_fddar_headgear_anm_desc_mcm">
+        <text></text>
+    </string> -->
+
+    <string id="ui_mcm_fddar_headgear_anm_speed">
+        <text>Vitesse d'animation</text>
+    </string>
+
+    <string id="ui_mcm_fddar_headgear_anm_strict_helmets">
+        <text>Mode casques strict activé</text>
+    </string>
+
+    <string id="ui_mcm_fddar_headgear_anm_icon_state">
+        <text>Afficher l'icône d'état du couvre-chef</text>
+    </string>
+
+    <string id="ui_mcm_fddar_headgear_anm_icon_type">
+        <text>Style d'icône d'état</text>
+    </string>
+
+    <string id="liz_ha_text_cant_consume_item">
+        <text>Impossible d'utiliser cet objet avec un couvre-chef équipé</text>
+    </string>
+
+    
+
+    <string id="ui_mcm_fddar_outfit_anm_keybind">
+        <text>Vérifier l'animation de la tenue</text>
+    </string>
+
+    <!-- <string id="ui_mcm_fddar_outfit_anm_mode">
+        <text></text>
+    </string>
+
+    <string id="ui_mcm_fddar_outfit_anm_modifier">
+        <text></text>
+    </string>
+
+    <string id="ui_mcm_fddar_outfit_anm_desc_mcm">
+        <text></text>
+    </string> -->
+
+    <string id="ui_mcm_fddar_outfit_anm_memory">
+        <text>Mémoire tenue activée</text>
+    </string>
+
+    <string id="ui_mcm_fddar_outfit_anm_memory_size">
+        <text>Taille mémoire tenue</text>
+    </string>
+
+    <string id="ui_mcm_fddar_outfit_anm_allow_movement">
+        <text>Autoriser le déplacement pendant l'animation</text>
+    </string>
+
+    <string id="ui_mcm_fddar_outfit_anm_enable_outfit_equip">
+        <text>Animation d'équipement tenue activée</text>
+    </string>
+
+    <string id="ui_mcm_fddar_outfit_anm_always_short">
+        <text>Toujours utiliser l'animation courte d'équipement</text>
+    </string>
+
+    <string id="ui_mcm_fddar_outfit_anm_enable_backpack_equip">
+        <text>Activer l'animation d'équipement/déséquipement du sac à dos</text>
+    </string>
+
+    <string id="ui_mcm_fddar_outfit_anm_enable_plate_equip">
+        <text>Activer l'animation d'équipement/déséquipement des plaques de blindage</text>
+    </string>
+
+    <string id="ui_mcm_fddar_outfit_anm_enable_patches">
+        <text>Activer l'animation de retrait/application de rustine</text>
+    </string>
+
+    <string id="ui_mcm_fddar_outfit_anm_enable_patches_inventory">
+        <text>Activer l'animation de retrait/application de rustine pour tenue non équipée</text>
+    </string>
+
+    
+
+    <string id="ui_mcm_fddar_body_search_enable">
+        <text>Animation activée</text>
+    </string>
+
+    <string id="ui_mcm_fddar_body_search_ui_open_delay">
+        <text>Délai avant ouverture de l'inventaire ennemi</text>
+    </string>
+
+    <string id="ui_mcm_fddar_body_search_wpn_lower_mode">
+        <text>Baisser l'arme pendant la fouille</text>
+    </string>
+
+    <string id="ui_mcm_fddar_body_search_enable_anm_for_containers">
+        <text>Jouer l'animation pour les conteneurs</text>
+    </string>
+
+    <string id="ui_mcm_fddar_body_search_enable_crouch">
+        <text>Accroupissement activé</text>
+    </string>
+
+    <string id="ui_mcm_fddar_body_search_disable_walk">
+        <text>Désactiver le déplacement pendant la fouille</text>
+    </string>
+
+    <string id="ui_mcm_fddar_body_search_enable_random_search_time">
+        <text>Utiliser un délai aléatoire avant l'ouverture de l'UI d'inventaire</text>
+    </string>
+
+    <string id="ui_mcm_fddar_body_search_random_search_time_max">
+        <text>Plage de délai aléatoire</text>
+    </string>
+
+
+</string_table>

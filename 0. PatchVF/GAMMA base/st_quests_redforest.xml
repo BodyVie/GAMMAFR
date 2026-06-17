@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+
+	<!-- Stribog (Sin Trader) Default Storyline Task -->
+
+	<string id="drx_sl_red_greh_trader_default_task_name">
+		<text>Prochaine mission</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_default_task_text">
+		<text>Recevez votre prochaine mission.</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_default_task_about">
+		<text>Vous devez rencontrer l'un des dirigeants du groupe Péché. Allez le voir sans tarder.</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_default_task_finish">
+		<text>Bonne chance.</text>
+	</string>
+	
+
+	<!-- Stribog (Sin Trader) Retrieve the Secrets of Lab X-16 Storyline Task -->
+
+	<string id="drx_sl_red_greh_trader_task_1_name">
+		<text>Récupérer les Secrets de Laboratoire X-16</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_1_text">
+		<text>Rapportez les secrets découverts dans Laboratoire X-16 à Stribog.</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_1_about">
+		<text>En tant que véritables gardiens de la Zone, nous devons agir rapidement et préserver ses secrets des regards de ce monde pécheur. L'un de ces secrets se trouve dans le laboratoire connu sous le nom de « X-16 ». Apportez-les-moi, frère. Nous les mettrons en sécurité.</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_1_finish">
+		<text>Vous avez bien agi.</text>
+	</string>
+	
+
+	<!-- Stribog (Sin Trader) Escort The Believer Storyline Task -->
+
+	<string id="drx_sl_red_greh_trader_task_2_name">
+		<text>Escorter le Croyant</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_2_text">
+		<text>Un homme cherche l'illumination. Il souhaite quitter son escouade, tuer les autres membres et être escorté jusqu'à Stribog. L'homme porte un fusil SVD.</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_2_about">
+		<text>Un homme qui croit en notre cause nous a contactés. Il souhaite se libérer de ce monde, mais ignore comment abandonner sa vie passée. Vous le reconnaîtrez au SVD qu'il porte. Tuez ceux qui l'accompagnent. Sauvez le croyant. Toutefois, attendez-vous à ce qu'il riposte tant qu'il est sous surveillance, car il ne doit pas éveiller les soupçons. Bientôt, il sera éclairé.</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_2_finish">
+		<text>Vos efforts nous rendent plus forts. Bien joué!</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_2_msg_join">
+		<text>Merci, frère. Je vous suis sincèrement reconnaissant... Montrez-moi le chemin. Il est temps de laisser ce vieux monde derrière nous.</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_2_msg_leave">
+		<text>Je vous remercie encore. Je vais rejoindre mes frères. Adieu.</text>
+	</string>
+	
+
+	<!-- Stribog (Sin Trader) Avange the Sinners Storyline Task -->
+
+	<string id="drx_sl_red_greh_trader_task_3_name">
+		<text>Venger les Pécheurs</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_3_text">
+		<text>Trouvez l'infidèle qui a tué les membres de Péché, et vengez-les.</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_3_about">
+		<text>Quelques-uns de nos courageux combattants ont été assassinés de sang-froid. Nous ne pouvons laisser l'infidèle s'échapper. Vengez nos frères.</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_3_finish">
+		<text>Vous avez bien servi notre cause.</text>
+	</string>
+	
+
+	<!-- Stribog (Sin Trader) Limansk Purge Storyline Task -->
+
+	<string id="drx_sl_red_greh_trader_task_4_name">
+		<text>Purge de Limansk</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_4_text">
+		<text>Éliminez les ennemis à l'intérieur de Limansk.</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_4_about">
+		<text>L'heure est venue, frère. Les anciens du Monolithe sollicitent notre aide pour purger Limansk et vaincre les ennemis qui s'y cachent. Rendez-nous fiers.</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_4_finish">
+		<text>Vous êtes un excellent guerrier.</text>
+	</string>
+	
+	<!-- Stribog (Sin Trader) Payoff Change Factions Task -->
+
+	<string id="drx_sl_pri_red_greh_trader_stalker_cf_task_1_name">
+		<text>Abandonner le Paiement pour Rejoindre Péché</text>
+	</string>
+	<string id="drx_sl_pri_red_greh_trader_stalker_cf_task_1_text">
+		<text>Vous allez devenir membre de Péché. Vous n'aurez plus besoin d'argent. Donnez 1 000 RU à Stribog pour rejoindre notre cause.</text>
+	</string>
+	<string id="drx_sl_pri_red_greh_trader_stalker_cf_task_1_about">
+		<text>Il est bon que vous ayez retrouvé vos esprits, mon enfant. Nous vous accueillerons dans l'ordre de la Zone, mais vous devez d'abord renoncer à 1 000 RU. Considérez cela comme un droit pour vous libérer véritablement de votre ancienne vie et repartir de zéro.</text>
+	</string>
+	<string id="drx_sl_pri_red_greh_trader_stalker_cf_task_1_finish">
+		<text>Bien joué. Vous apporterez désormais la lumière dans ce monde agité.</text>
+	</string>
+	
+
+	<!-- Dazhbog (Sin Mechanic) Default Storyline Task -->
+
+	<string id="drx_sl_red_greh_tech_default_task_name">
+		<text>Prochaine mission</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_default_task_text">
+		<text>Recevez votre prochaine mission.</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_default_task_about">
+		<text>Mon fils, vous servez bien les Pécheurs et le Monolithe. Parlez à l'un des anciens et demandez ce que vous pouvez faire pour aider davantage notre grande cause.</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_default_task_finish">
+		<text>Bonne chance, mon fils.</text>
+	</string>
+	
+	<!-- Dazhbog (Sin Mechanic) Retrieve the Secrets of Lab X-18 Storyline Task -->
+
+	<string id="drx_sl_red_greh_tech_task_1_name">
+		<text>Récupérer les Secrets de Laboratoire X-18</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_task_1_text">
+		<text>Rapportez les secrets découverts à l'intérieur de Laboratoire X-18 à Dazhbog.</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_task_1_about">
+		<text>En tant que véritables gardiens de la Zone, nous devons agir rapidement et préserver ses secrets des regards de ce monde pécheur. L'un de ces secrets se trouve dans le laboratoire connu sous le nom de « X-18 ». Apportez-les-moi, frère. Nous les mettrons en sécurité.</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_task_1_finish">
+		<text>Excellent travail!</text>
+	</string>
+	
+
+	<!-- Dazhbog (Sin Mechanic) Hunt the Forest Beast Storyline Task -->
+
+	<string id="drx_sl_red_greh_tech_task_2_name">
+		<text>Chasser la Bête de la Forêt</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_task_2_text">
+		<text>Traquez la bête qui a attaqué les hommes de Dazhbog à l'intérieur de la Forêt Rouge.</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_task_2_about">
+		<text>Cette forêt peut être rude, même pour nos frères. L'un d'eux a été attaqué par une bête dangereuse. Allez-y et traquez-la.</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_task_2_finish">
+		<text>Bien joué, frère. La forêt sera plus sûre.</text>
+	</string>
+	
+
+	<!-- Dazhbog (Sin Mechanic) Slay the Enemy Informer Storyline Task -->
+
+	<string id="drx_sl_red_greh_tech_task_3_name">
+		<text>Tuer l'Informateur ennemi</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_task_3_text">
+		<text>Tuez l'infidèle pour Dazhbog.</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_task_3_about">
+		<text>L'un des infidèles a été vu observant nos frères de loin. Le lâche est retourné vers ses dirigeants. Il doit être abattu à tout prix.</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_task_3_finish">
+		<text>Excellent travail. Personne n'osera plus s'approcher de nous.</text>
+	</string>
+
+
+	<!-- Dazhbog (Sin Mechanic) Find Toolkit Tasks -->
+
+	<string id="red_greh_tech_task_1_name">
+		<text>Trouver %s pour Dazhbog</text>
+	</string>
+	<string id="red_greh_tech_task_1_text">
+		<text>Dazhbog nécessite %s pour installer les améliorations de base de l'équipement.</text>
+	</string>
+	<string id="red_greh_tech_task_1_about">
+		<text>J'ai besoin que vous fassiez quelque chose pour moi. Il me faut des outils spécifiques pour ajuster nos armes.</text>
+	</string>
+	<string id="red_greh_tech_task_1_fetch_about">
+		<text>D'accord, j'ai besoin d'un %s. Allez-y, maintenant.</text>
+	</string>
+	<string id="red_greh_tech_task_1_fetch_finish">
+		<text>Vous avez bien agi.</text>
+	</string>
+
+	<string id="red_greh_tech_task_2_name">
+		<text>Trouver %s pour Dazhbog</text>
+	</string>
+	<string id="red_greh_tech_task_2_text">
+		<text>Dazhbog nécessite %s pour installer des améliorations d'équipement avancées.</text>
+	</string>
+	<string id="red_greh_tech_task_2_about">
+		<text>J'ai besoin d'outils de meilleure qualité. Pouvez-vous m'en trouver, frère ?</text>
+	</string>
+	<string id="red_greh_tech_task_2_fetch_about">
+		<text>J'ai besoin d'un ensemble d'outils avancés pour mieux servir mes frères. Trouvez-m'en et apportez-les-moi. Maintenant, partez.</text>
+	</string>
+	<string id="red_greh_tech_task_2_fetch_finish">
+		<text>Bien. Vous me les avez apportés. Vous nous servez bien. Cela ne sera pas oublié.</text>
+	</string>
+
+	<string id="red_greh_tech_task_3_name">
+		<text>Trouver %s pour Dazhbog</text>
+	</string>
+	<string id="red_greh_tech_task_3_text">
+		<text>Dazhbog nécessite %s pour installer les améliorations expertes de l'équipement.</text>
+	</string>
+	<string id="red_greh_tech_task_3_about">
+		<text>J'ai besoin d'outils qui me permettront de modifier et de créer des armes de pure rétribution. Servez-nous à nouveau, frère.</text>
+	</string>
+	<string id="red_greh_tech_task_3_fetch_about">
+		<text>J'ai besoin du meilleur des meilleurs : un ensemble d'outils d'expert. Ceux-ci seront parfaits. Trouvez-les pour moi, et je veillerai à ce que cela en vaille la peine.</text>
+	</string>
+	<string id="red_greh_tech_task_3_fetch_finish">
+		<text>Bien. Vous me les avez apportés comme demandé. Votre dévouement n'est pas passé inaperçu.</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_npc_loot_claim_warn_1">
+		<text>Ce butin est à moi ! Dégage !</text>
+	</string>
+	<string id="st_npc_loot_claim_warn_2">
+		<text>Hé, ce butin est à moi ! Dégage de là !</text>
+	</string>
+	<string id="st_npc_loot_claim_warn_3">
+		<text>Éloigne-toi de lui, ce butin est à moi !</text>
+	</string>
+	<string id="st_npc_loot_claim_warn_4">
+		<text>T’avise même pas, les affaires de ce gars sont à moi.</text>
+	</string>
+	<string id="st_npc_loot_claim_warn_5">
+		<text>Bas les pattes, ce butin est à moi.</text>
+	</string>
+	<string id="st_npc_loot_claim_warn_6">
+		<text>Les affaires de ce type sont à nous ! Laisse tomber.</text>
+	</string>
+	
+	<string id="st_npc_loot_claim_last_1">
+		<text>Je ne te préviendrai plus. Éloigne-toi de ce butin !</text>
+	</string>
+	<string id="st_npc_loot_claim_last_2">
+		<text>C’est la dernière fois que je te dis de laisser ce corps tranquille ! Lâche l’affaire.</text>
+	</string>
+	<string id="st_npc_loot_claim_last_3">
+		<text>Je te préviens... Si tu essaies de piquer ce butin, on ouvre le feu.</text>
+	</string>
+	<string id="st_npc_loot_claim_last_4">
+		<text>Dernier avertissement... laisse ce butin tranquille.</text>
+	</string>
+	<string id="st_npc_loot_claim_last_5">
+		<text>Dernier avertissement ! Touche pas à ce corps ou on ouvre le feu !</text>
+	</string>
+
+	<string id="st_npc_loot_claim_attack_1">
+		<text>On t’a prévenu ! On va pas te laisser nous voler !</text>
+	</string>
+	<string id="st_npc_loot_claim_attack_2">
+		<text>Il essaie de nous piquer notre butin ! Ouvrez le feu !</text>
+	</string>
+	<string id="st_npc_loot_claim_attack_3">
+		<text>Hé, il essaie de nous piquer nos affaires ! Butte-le !</text>
+	</string>
+	<string id="st_npc_loot_claim_attack_4">
+		<text>Butte ce pilleur !</text>
+	</string>
+	<string id="st_npc_loot_claim_attack_5">
+		<text>Tu vas pas nous voler et t’en tirer comme ça !</text>
+	</string>
+	
+	<string id="st_npc_loot_claim_far">
+		<text>Rien d'utile ici.</text>
+	</string>
+
+</string_table>

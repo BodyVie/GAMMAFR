@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	UI
+-->
+
+	<string id="st_use_stove">
+		<text>Utiliser le poêle</text>
+	</string>
+
+<!--
+	PROPS
+-->
+
+	<string id="st_prop_dish2">
+		<text>Bol en céramique</text>
+	</string>
+	<string id="st_prop_dish2_descr">
+		<text>Un bol en céramique simple mais résistant.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_prop_dish1">
+		<text>Assiette en céramique</text>
+	</string>
+	<string id="st_prop_dish1_descr">
+		<text>Plaque en céramique de type non-combat.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_prop_bong">
+		<text>Narguilé</text>
+	</string>
+	<string id="st_prop_bong_descr">
+		<text>Également connu sous le nom de narguilé ou chicha, cet instrument est utilisé pour fumer du tabac à chicha, la fumée étant refroidie par l'eau contenue dans sa base.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_prop_keyboard">
+		<text>Clavier</text>
+	</string>
+	<string id="st_prop_keyboard_descr">
+		<text>Un ancien clavier ayant développé une légère teinte jaunâtre avec le temps.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_prop_laptop_item">
+		<text>Ordinateur portable</text>
+	</string>
+	<string id="st_prop_laptop_item_descr">
+		<text>Un ordinateur portable moderne.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n	
+		</text>
+	</string>
+
+	<string id="st_prop_monitor">
+		<text>Écran</text>
+	</string>
+	<string id="st_prop_monitor_descr">
+		<text>Un ancien moniteur en bon état.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_prop_mice">
+		<text>Souris</text>
+	</string>
+	<string id="st_prop_mice_descr">
+		<text>Souris d'ordinateur basique et ancienne. Retour aux années 90.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_prop_mice_pad">
+		<text>Souris avec tapis</text>
+	</string>
+	<string id="st_prop_mice_pad_descr">
+		<text>Une souris d'ordinateur basique et ancienne, accompagnée d'un tapis de souris. Un retour aux années 90.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_prop_mug">
+		<text>Tasse</text>
+	</string>
+	<string id="st_prop_mug_descr">
+		<text>Une tasse basique.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_prop_couch_1">
+		<text>Vieux canapé</text>
+	</string>
+	<string id="st_prop_couch_1_descr">
+		<text>Un vieux canapé en surprenamment bon état.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_prop_case">
+		<text>Tour PC</text>
+	</string>
+	<string id="st_prop_case_descr">
+		<text>Un ancien boîtier d'ordinateur. L'unité centrale à l'intérieur est hors service. Reste néanmoins esthétique.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_prop_poster_vertical_item">
+		<text>Poster (vertical)</text>
+	</string>
+	<string id="st_prop_poster_vertical_item_descr">
+		<text>Une affiche verticale simple.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_prop_fan">
+		<text>Petit ventilateur</text>
+	</string>
+	<string id="st_prop_fan_descr">
+		<text>Un petit ventilateur fonctionnel. Utile lors des rares journées ensoleillées dans la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_prop_bed_3">
+		<text>Lit en bois</text>
+	</string>
+	<string id="st_prop_bed_3_descr">
+		<text>Un lit en bois robuste. Le matelas est moelleux et confortable. Comprend une double paire de couvertures pour vous tenir au chaud lors des nuits froides.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n	
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Repos\n
+		</text>
+	</string>
+
+	<string id="st_prop_chair">
+		<text>Chaise en bois</text>
+	</string>
+	<string id="st_prop_chair_descr">
+		<text>Chaise en bois simple et robuste, dotée d'un siège rembourré.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_prop_counter_1">
+		<text>Comptoir en bois</text>
+	</string>
+	<string id="st_prop_counter_1_descr">
+		<text>Comptoir en bois simple, toujours en bon état.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_prop_table_1">
+		<text>Bureau en bois</text>
+	</string>
+	<string id="st_prop_table_1_descr">
+		<text>Bureau en bois robuste, toujours en bon état.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_prop_shelf_1">
+		<text>Étagère en bois</text>
+	</string>
+	<string id="st_prop_shelf_1_descr">
+		<text>Une étagère simple, fabriquée en bois.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_prop_shelf_2">
+		<text>Étagère en bois (grande)</text>
+	</string>
+	<string id="st_prop_shelf_2_descr">
+		<text>Une étagère en bois robuste, fabriquée en bois.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_prop_table_2">
+		<text>Table en bois</text>
+	</string>
+	<string id="st_prop_table_2_descr">
+		<text>Table en bois robuste, toujours en bon état.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+	<string id="st_prop_board_map">
+		<text>Carte de la Zone</text>
+	</string>
+	<string id="st_prop_board_map_descr">
+		<text>Carte topographique de la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+<!--
+	FUNCTIONAL PROPS
+-->
+
+	<string id="st_placeable_ammo_box">
+		<text>Boîte de munitions</text>
+	</string>
+	<string id="st_placeable_ammo_box_descr">
+		<text>Une boîte en bois spacieuse utilisée par les militaires pour le stockage des munitions.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Utilisable comme cache\n
+		%c[d_orange] • %c[pda_white] Posable\n	
+		%c[d_orange] • %c[pda_white] Contient : %c[ui_gray_2]Munitions\n
+		</text>
+	</string>
+
+	<string id="st_prop_cans_tuna">
+		<text>Caisse de conserves</text>
+	</string>
+	<string id="st_prop_cans_tuna_descr">
+		<text>Une caisse en bois couramment utilisée par les marchands pour exposer leurs marchandises. Convient uniquement pour les conserves.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Utilisable comme cache\n
+		%c[d_orange] • %c[pda_white] Posable\n	
+		%c[d_orange] • %c[pda_white] Contient : %c[ui_gray_2] Nourriture en conserve\n
+		</text>
+	</string>
+
+	<string id="st_prop_lamp1">
+		<text>Lampe de bureau</text>
+	</string>
+	<string id="st_prop_lamp1_descr">
+		<text>Petite lampe destinée à éclairer un espace de vie.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		%c[d_cyan] • %c[pda_white] Carburant : %c[ui_gray_2]Batteries\n
+		</text>
+	</string>
+
+	<string id="st_prop_lamp2">
+		<text>Lampe de bureau (grande)</text>
+	</string>
+	<string id="st_prop_lamp2_descr">
+		<text>Grande lampe destinée à éclairer un espace de vie.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		%c[d_cyan] • %c[pda_white] Carburant : %c[ui_gray_2]Batteries\n
+		</text>
+	</string>
+
+	<string id="st_prop_prop_clock_1">
+		<text>Horloge numérique</text>
+	</string>
+	<string id="st_prop_prop_clock_1_descr">
+		<text>Une horloge numérique récente. Un objet plutôt rare dans la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		%c[d_orange] • %c[pda_white] Affiche l'heure\n
+		</text>
+	</string>
+
+	<string id="st_prop_med_case_1">
+		<text>Trousse médicale</text>
+	</string>
+	<string id="st_prop_med_case_1_descr">
+		<text>Caisse en plastique robuste conçue pour le stockage d'objets médicaux.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Utilisable comme cache\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		%c[d_orange] • %c[pda_white] Contient : %c[ui_gray_2] Objets médicaux\n
+		</text>
+	</string>
+
+	<string id="st_prop_bed_2">
+		<text>Lit en métal</text>
+	</string>
+	<string id="st_prop_bed_2_descr">
+		<text>Un lit en métal ancien équipé d'un matelas basique et d'une couverture. Préférable à dormir à même le sol.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n	
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Repos\n
+		</text>
+	</string>
+
+	<string id="st_prop_fridge">
+		<text>Vieux frigo</text>
+	</string>
+	<string id="st_prop_fridge_descr">
+		<text>Un réfrigérateur lourd utilisé pour conserver la viande de mutants et autres denrées périssables.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Utilisable comme cache\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		%c[pda_white] • %c[ui_red] La viande de mutants ne se détériore pas lorsqu'elle est stockée à l'intérieur\n
+		</text>
+	</string>
+
+	<string id="st_prop_bed_1">
+		<text>Lit roulant</text>
+	</string>
+	<string id="st_prop_bed_1_descr">
+		<text>Un matelas simple accompagné d'une couverture. Léger et portable.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n		
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Repos\n
+		</text>
+	</string>
+
+	<string id="st_prop_stove2">
+		<text>Poêle (grand)</text>
+	</string>
+	<string id="st_prop_stove2_descr">
+		<text>Un grand fourneau fonctionnel, réaménagé pour fonctionner avec tous types de combustibles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Cuisson\n
+		</text>
+	</string>
+
+	<string id="st_prop_stove1">
+		<text>Poêle (petit)</text>
+	</string>
+	<string id="st_prop_stove1_descr">
+		<text>Un petit fourneau fonctionnel, réaménagé pour fonctionner avec tous types de combustibles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Cuisson\n
+		</text>
+	</string>
+
+	<string id="st_prop_tv">
+		<text>Télé</text>
+	</string>
+	<string id="st_prop_tv_descr">
+		<text>Un ancien téléviseur captant les mêmes chaînes disponibles dans la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		</text>
+	</string>
+
+</string_table>

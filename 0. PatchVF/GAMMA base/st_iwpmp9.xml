@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_mp9">
+		<text>Brugger &amp; Thomet MP9</text>
+	</string>
+	<string id="st_wpn_mp9_descr">
+		<text>Un pistolet-mitrailleur léger et compact conçu pour les engagements à tir rapide en combat rapproché. Doté d'une crosse pliable, d'une compatibilité avec un silencieux intégré et d'une cadence de tir élevée, il est idéal pour les forces spéciales, les unités d'application de la loi et les missions de défense personnelle. Sa construction moderne en polymère et ses commandes ambidextres en font une arme agile et fiable pour les scénarios tactiques dynamiques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Suisse\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Brugger &amp; Thomet\n
+		</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!-- ====================================================================
+	Anomalous RF Signals (included with New Extensible RF Sources)
+    Author: Catspaw
+    Source: https://www.moddb.com/members/catspawmods/addons
+    Version: 1.2
+
+    Permission granted to freely translate into any language.
+===================================================================== -->
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+	<string id="st_note_rf_tip_name">
+		<text>Signal RF anormal</text>
+	</string>
+	<string id="st_note_rf_tip_desc">
+		<text>Un morceau de papier ressemblant à un extrait de lettre ou d'entrée de journal, décrivant une fréquence RF que l'auteur a jugée utile.\n \n
+		%c[ui_gray_2]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[ui_gray_2] effets personnels\n
+		</text>
+	</string>
+
+	<string id="st_note_rf_tip_controller_name">
+		<text>Signal RF anormal : Controller</text>
+	</string>
+
+	<string id="encyclopedia__notes_letter_rf_tip_controller">
+		<text>Signal RF anormal : Controller</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_controller_text">
+		<text>
+			Un morceau de papier ressemblant à un extrait de lettre ou de journal, décrivant une fréquence RF que l'auteur a jugée utile.
+		</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_controller_text2">
+		<text>
+			\n\n« Il m'a dit que la cache émettrait un signal sur 145 MHz, mais il n'y avait rien. Pourtant, quelque chose d'étrange s'est produit. J'ai commencé à capter des interférences sur le récepteur RF - une fois, j'ai même cru entendre une voix, ou des tonalités, mais rien de clair.\n \n
+			Peu de temps après, j'ai commencé à avoir des maux de tête, une vision floue, des chuchotements, une perte des couleurs - tous les signes habituels indiquant qu'un controller est tout près. Et pour une fois, j'ai repéré cette ordure avant qu'il ne me voie.\n \n
+			Et ce bruit RF ? Cette partie-là, je ne l'ai pas hallucinée : il a cessé dès que la tête de la créature a explosé.\n
+		</text>
+	</string>
+
+	<string id="st_note_rf_tip_poltergeist_name">
+		<text>Signal RF anormal : Poltergeist</text>
+	</string>
+
+	<string id="encyclopedia__notes_letter_rf_tip_poltergeist">
+		<text>Signal RF anormal : Poltergeist</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_poltergeist_text">
+		<text>
+			Un morceau de papier ressemblant à un extrait de lettre ou de journal, décrivant une fréquence RF que l'auteur a jugée utile.
+		</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_poltergeist_text2">
+		<text>
+			\n\n« On nous avait dit que nous capterions le signal sur 219 MHz, mais il n'y avait rien. Puis, tout à coup, j'ai commencé à capter des interférences sur le récepteur RF - une fois, on aurait même dit une voix ou des tonalités, mais rien de clair.\n \n
+			Peu de temps après, j'ai commencé à entendre ce bourdonnement étrange dans ma tête et une teinte bleutée est apparue dans ma vision, des objets se sont mis à flotter - vous vous souvenez de la dernière fois que cela s'est produit ? C'était encore un poltergeist, et j'ai filé dès que je l'ai aperçu.\n \n
+			Et ce bruit RF ? Dès que je me suis éloigné de quelques centaines de mètres du bâtiment, il s'est arrêté.\n
+		</text>
+	</string>
+
+	<string id="st_note_rf_tip_burer_name">
+		<text>Signal RF anormal : Burer</text>
+	</string>
+
+	<string id="encyclopedia__notes_letter_rf_tip_burer">
+		<text>Signal RF anormal : Burer</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_burer_text">
+		<text>
+			Un morceau de papier ressemblant à un extrait de lettre ou de journal, décrivant une fréquence RF que l'auteur a jugée utile.
+		</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_burer_text2">
+		<text>
+			\n\n« ...et ce n'était rien de ce qu'ils avaient annoncé sur 106 MHz. Au lieu de cela, j'ai commencé à capter toutes sortes d'interférences sur mon récepteur RF - une fois, on aurait même dit une voix ou des tonalités, mais rien de compréhensible.\n \n
+			Mais écoutez bien ceci : vous souvenez-vous de cette rencontre avec un burer au nord ? C'était la même situation, avec cette teinte visuelle étrange et ces hallucinations, des objets volant dans les airs. Je ne l'ai vu qu'une fois, mais nous avons déguerpi avant qu'il ne nous repère.\n \n
+			Mais ce bruit RF ? Il a disparu une fois que nous nous sommes suffisamment éloignés, peut-être à quelques centaines de mètres. Je n’avais jamais entendu quelque chose de semblable sur le scanner auparavant, mais cet avertissement précoce nous a probablement sauvés.\n
+		</text>
+	</string>
+
+	<string id="st_note_rf_tip_psydog_name">
+		<text>Signal RF anormal : Psydog</text>
+	</string>
+
+	<string id="encyclopedia__notes_letter_rf_tip_psydog">
+		<text>Signal RF anormal : Psydog</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_psydog_text">
+		<text>
+			Un morceau de papier ressemblant à un extrait de lettre ou de journal, décrivant une fréquence RF que l'auteur a jugée utile.
+		</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_psydog_text2">
+		<text>
+			\n\nComme vous le savez peut-être, Vanya peut être têtu. Je lui avais indiqué que la cache se trouvait sur la fréquence 197 MHz, mais il a insisté pour dire que c'était 190 MHz. Nous avons donc sorti nos récepteurs RF pour vérifier qui avait raison. Cela m'a probablement sauvé la vie.\n \n
+			Un chiens psychique s’est approché dangereusement du camp - vous y croyez, vous ? Immédiatement, nous avons ressenti des maux de tête, une vision floue, et nous avons commencé à tirer sur des chiens fantômes qui n’étaient pas réellement là.\n \n
+			Mais voici le plus intéressant : chaque fois qu'un de ces fantômes s'approchait, mon récepteur RF se mettait à émettre des interférences. Celui de Vanya, en revanche ? Il n'a grésillé qu'une seule fois, quand la créature réelle l'a attaqué. Pauvre Vanya.\n
+		</text>
+	</string>
+
+	<string id="st_note_rf_tip_af_ring_name">
+		<text>Signal RF anormal : Anneau (Artefact)</text>
+	</string>
+
+	<string id="encyclopedia__notes_letter_rf_tip_af_ring">
+		<text>Signal RF anormal : Anneau (Artefact)</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_af_ring_text">
+		<text>
+			Un morceau de papier ressemblant à un extrait de lettre ou d'entrée de journal, décrivant une fréquence RF que l'auteur a jugée utile.
+		</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_af_ring_text2">
+		<text>
+			\n\n« ... J’ai pensé que la zone avait déjà été ratissée, aussi longtemps après une émission, alors j’ai décidé d’essayer de retrouver la planque que cette recrue avait mentionnée.\n \n
+			Peut-être que 23 MHz n'était pas la bonne fréquence, mais il n'y avait aucune cache à proximité. Heureusement, la chance était de mon côté, car j'ai capté autre chose : une interférence électromagnétique étrange.\n \n
+			L'interférence était assez localisée, sur une quarantaine ou cinquantaine de mètres environ, mais elle m'a conduit directement à un artefact Anneau ! J'ai tout de même dû sortir mon détecteur Bear une fois suffisamment proche, mais j'étais vraiment soulagé d'avoir mon récepteur RF avec moi.\n
+		</text>
+	</string>
+
+	<string id="st_note_rf_tip_af_electra_flash_name">
+		<text>Signal RF anormal : Éclair (Artefact)</text>
+	</string>
+
+	<string id="encyclopedia__notes_letter_rf_tip_af_electra_flash">
+		<text>Signal RF anormal : Éclair (Artefact)</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_af_electra_flash_text">
+		<text>
+			Un morceau de papier ressemblant à un extrait de lettre ou d'entrée de journal décrivant une fréquence RF que l'auteur a jugée utile.
+		</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_af_electra_flash_text2">
+		<text>
+			\n\n« ... J’ai pensé que la zone avait déjà été ratissée, aussi longtemps après une émission, alors j’ai décidé d’essayer de retrouver cette planque dont mon pote m’avait parlé.\n \n
+			Peut-être que 124 MHz n'était pas la bonne fréquence, mais il n'y avait aucune cache à proximité. Heureusement, la chance était de mon côté, car j'ai capté autre chose : une interférence électromagnétique étrange.\n \n
+			L'interférence était assez localisée, sur une quarantaine ou cinquantaine de mètres environ, mais elle m'a conduit directement à un artefact Éclair ! J'ai tout de même dû sortir mon détecteur une fois suffisamment proche, mais j'étais vraiment soulagé d'avoir mon récepteur RF avec moi.\n
+		</text>
+	</string> 
+
+	<string id="st_note_rf_tip_af_electra_moonlight_name">
+		<text>Signal RF anormal : Clair de lune (Artefact)</text>
+	</string>
+
+	<string id="encyclopedia__notes_letter_rf_tip_af_electra_moonlight">
+		<text>Signal RF anormal : Clair de lune (Artefact)</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_af_electra_moonlight_text">
+		<text>
+			Un morceau de papier ressemblant à un extrait de lettre ou d'entrée de journal décrivant une fréquence RF que l'auteur a jugée utile.
+		</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_af_electra_moonlight_text2">
+		<text>
+			\n\n« ...Après tout ça, j'ai estimé qu'il n'y avait plus rien à trouver, alors j'ai décidé d'essayer un balayage sur l'ancienne fréquence de la boîte morte.\n \n
+			Peut-être que 57 MHz n’était pas la bonne fréquence, car je n’ai capté aucun signal de planque aux alentours. J’ai eu de la chance, cependant, car j’ai repéré autre chose : une sorte d’interférence électromagnétique étrange.\n \n
+			L'interférence était assez localisée, sur une quarantaine ou cinquantaine de mètres environ, mais elle m'a conduit directement à un artefact Clair de lune ! J'ai tout de même dû sortir mon détecteur une fois suffisamment proche, mais j'étais vraiment soulagé d'avoir mon récepteur RF avec moi.\n
+		</text>
+	</string> 
+
+	<string id="st_note_rf_tip_af_black_spray_name">
+		<text>Signal RF anormal : Peinture Noire (Artefact)</text>
+	</string>
+
+	<string id="encyclopedia__notes_letter_rf_tip_af_black_spray">
+		<text>Signal RF anormal : Peinture Noire (Artefact)</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_af_black_spray_text">
+		<text>
+			Un morceau de papier ressemblant à un extrait de lettre ou d'entrée de journal décrivant une fréquence RF que l'auteur a jugée utile.
+		</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_af_black_spray_text2">
+		<text>
+			\n\n« ... J’ai pensé que la zone avait déjà été ratissée, aussi longtemps après une émission, alors j’ai décidé de vérifier si le sac à dos perdu du vieil homme émettait encore.\n \n
+			Peut-être que 89 MHz n'était pas la bonne fréquence, mais il n'y avait aucune cache à proximité. Heureusement, la chance était de mon côté, car j'ai capté autre chose : une interférence électromagnétique étrange.\n \n
+			L'interférence était assez localisée, sur une quarantaine ou cinquantaine de mètres environ, mais elle m'a directement mené à un artefact Peinture Noire ! J'ai tout de même dû sortir mon détecteur une fois suffisamment proche, mais j'étais vraiment soulagé d'avoir le récepteur RF sur moi.\n
+		</text>
+	</string> 
+
+	<string id="st_note_rf_tip_af_full_empty_name">
+		<text>Signal RF anormal : Vide Absolu (Artefact)</text>
+	</string>
+
+	<string id="encyclopedia__notes_letter_rf_tip_af_full_empty">
+		<text>Signal RF anormal : Vide Absolu (Artefact)</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_af_full_empty_text">
+		<text>
+			Un morceau de papier ressemblant à un extrait de lettre ou d'entrée de journal décrivant une fréquence RF que l'auteur a jugée utile.
+		</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_af_full_empty_text2">
+		<text>
+			\n\n« ... J’ai pensé que la zone avait déjà été ratissée, aussi longtemps après une émission, alors j’ai décidé de voir si je pouvais retrouver cette planque perdue dont nous avions entendu parler.\n \n
+			Peut-être que 236 MHz n'était pas la bonne fréquence, mais il n'y avait aucune cache à proximité. Heureusement, la chance était de mon côté, car j'ai capté une forte interférence électromagnétique de quelque nature que ce soit.\n \n
+			L'interférence était assez localisée, sur une quarantaine ou cinquantaine de mètres environ, mais elle m'a conduit directement à un artefact Vide Absolu ! J'ai tout de même dû sortir mon détecteur une fois suffisamment proche, mais j'étais vraiment soulagé d'avoir mon récepteur RF avec moi.\n
+		</text>
+	</string> 
+
+	<string id="st_note_rf_tip_af_ice_name">
+		<text>Signal RF anormal : Glace (Artefact)</text>
+	</string>
+
+	<string id="encyclopedia__notes_letter_rf_tip_af_ice">
+		<text>Signal RF anormal : Glace (Artefact)</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_af_ice_text">
+		<text>
+			Un morceau de papier ressemblant à un extrait de lettre ou d'entrée de journal décrivant une fréquence RF que l'auteur a jugée utile.
+		</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_af_ice_text2">
+		<text>
+			\n\n« ... J’ai pensé que la zone avait déjà été ratissée, aussi longtemps après une émission, alors je suis parti à la recherche de ce conseil de planque que m’a donné le médecin.\n \n
+			Il est possible que 178 MHz n’ait pas été la bonne fréquence, car aucun dépôt n’a été trouvé à proximité. J’ai toutefois eu de la chance, car j’ai capté autre chose : des interférences électromagnétiques d’origine inconnue.\n \n
+			L'interférence était assez localisée, sur une quarantaine ou cinquantaine de mètres environ, mais elle m'a conduit directement à un artefact Glace ! J'ai tout de même dû sortir mon détecteur une fois suffisamment proche, mais j'étais vraiment soulagé d'avoir mon récepteur RF avec moi.\n
+		</text>
+	</string> 
+
+	<string id="st_note_rf_tip_af_soul_name">
+		<text>Signal RF anormal : Âme (Artefact)</text>
+	</string>
+
+	<string id="encyclopedia__notes_letter_rf_tip_af_soul">
+		<text>Signal RF anormal : Âme (Artefact)</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_af_soul_text">
+		<text>
+			Un morceau de papier ressemblant à un extrait de lettre ou d'entrée de journal décrivant une fréquence RF que l'auteur a jugée utile.
+		</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_af_soul_text2">
+		<text>
+			\n\n« ... J’ai pensé que la zone avait déjà été ratissée, aussi longtemps après une émission, alors j’ai décidé d’essayer de retrouver cette planque dont le marchand m’avait parlé.\n \n
+			Il est possible que 302 MHz n’ait pas été la bonne fréquence, car aucun dépôt n’a été trouvé à proximité. J’ai toutefois eu de la chance, car j’ai capté autre chose : des interférences électromagnétiques, en réalité juste du bruit.\n \n
+			L'interférence était assez localisée, sur une quarantaine ou cinquantaine de mètres environ, mais elle m'a conduit directement à un artefact Âme ! J'ai tout de même dû sortir mon détecteur une fois suffisamment proche, mais j'étais vraiment soulagé d'avoir mon récepteur RF avec moi.\n
+		</text>
+	</string> 
+
+	<string id="st_note_rf_tip_af_compass_name">
+		<text>Signal RF anormal : Boussole (Artefact)</text>
+	</string>
+
+	<string id="encyclopedia__notes_letter_rf_tip_af_compass">
+		<text>Signal RF anormal : Boussole (Artefact)</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_af_compass_text">
+		<text>
+			Un morceau de papier ressemblant à un extrait de lettre ou d'entrée de journal décrivant une fréquence RF que l'auteur a jugée utile.
+		</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_af_compass_text2">
+		<text>
+			\n\n« ... J’ai pensé que la zone avait déjà été ratissée, aussi longtemps après une émission, alors j’ai décidé d’essayer de retrouver ce signal de planque que j’avais laissé la dernière fois.\n \n
+			Il est possible que 285 MHz n’ait pas été la bonne fréquence, car aucun dépôt n’a été trouvé à proximité. J’ai toutefois eu de la chance, car j’ai capté autre chose : des interférences électromagnétiques importantes, inexplicables.\n \n
+			Il m'a fallu un certain temps pour le localiser, mais cette interférence m'a conduit directement à un artefact Boussole ! J'ai tout de même dû sortir mon détecteur une fois suffisamment proche, mais le récepteur RF avait probablement capté le signal à une bonne centaine de mètres.\n
+		</text>
+	</string> 
+
+	<string id="st_note_rf_tip_af_death_lamp_name">
+		<text>Signal RF anormal : Lampe de la Mort (Artefact)</text>
+	</string>
+
+	<string id="encyclopedia__notes_letter_rf_tip_af_death_lamp">
+		<text>Signal RF anormal : Lampe de la Mort (Artefact)</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_af_death_lamp_text">
+		<text>
+			Un morceau de papier ressemblant à un extrait de lettre ou d'entrée de journal décrivant une fréquence RF que l'auteur a jugée utile.
+		</text>
+	</string>
+	<string id="encyclopedia__notes_letter_rf_tip_af_death_lamp_text2">
+		<text>
+			\n\n« ... J’ai pensé que la zone avait déjà été ratissée, aussi longtemps après une émission, alors j’ai décidé d’essayer de retrouver cette planque dont vous m’aviez parlé.\n \n
+			Peut-être que 321 MHz était la mauvaise fréquence, mais je n’ai rien pu capter à cause de toutes les interférences - c’était comme si quelqu’un brouillait le signal dans un rayon de cent mètres autour d’un point précis.\n \n
+			Je suis presque certain que la source était un artefact Lampe de la Mort - rien d'autre n'a cette lueur malsaine. J'ai aperçu cette chose maudite au milieu d'un amas d'anomalies particulièrement dangereux, et mon récepteur RF est devenu fou à mesure que je m'en approchais. Je n'avais pas l'équipement de protection nécessaire pour m'aventurer là-dedans, mais au moins, je sais maintenant quoi rechercher.\n
+		</text>
+	</string> 
+
+<!-- Added by NERFS -->
+
+
+</string_table>

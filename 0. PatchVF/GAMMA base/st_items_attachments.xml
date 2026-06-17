@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="st_af_surge_up_name">
+		<text>Régénérateur de surtension amélioré</text>
+	</string>
+	<string id="st_af_surge_up_descr">
+		<text>Dispositif unique qui absorbe l'énergie électrique environnante et la transforme partiellement en énergie corporelle, augmentant ainsi l'endurance. L'excès d'énergie permet la régénération des tissus endommagés. Il sert principalement de protection contre les surtensions en limitant le courant de choc de court-circuit, réduisant ainsi la quantité d'électricité entrant en contact avec le corps en la dérivant vers la terre. Il s'agit d'un circuit électronique plutôt complexe composé de composants radio de valeur, qui augmente considérablement la résistance électrique du corps. En conséquence, le corps est soumis à une tension plus faible et peut résister à des décharges électriques qui, auparavant, auraient été mortelles. Il est donc vital de disposer d'un microréacteur limiteur de courant lorsqu'il est nécessaire de s'approcher d'anomalies électriques ou d'autres sources d'électricité. Comme tout objet électronique, il peut être utilisé comme matériau de réparation avec les outils et compétences appropriés.\n \n
+		%c[d_red]AVERTISSEMENT :%c[ui_gray_2] Il est important de noter que ce module ne fonctionnera pas correctement et n'offrira pas une protection suffisante si votre combinaison ne répond pas aux exigences minimales de protection.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_green] • %c[ui_gray_2] empilable? %c[ui_red]NON\n
+		</text>
+	</string>
+	
+	<string id="st_af_frames_up_name">
+		<text>Cadres en aluminium améliorés</text>
+	</string>
+	<string id="st_af_frames_up_descr">
+		<text>Au lieu de simplement porter un sac à dos maintenu par une paire de bretelles, il est possible de le fixer à la combinaison au moyen de cadres en aluminium améliorés, ce qui optimise vos capacités de port. Ces cadres améliorés sont fabriqués en aluminium, un matériau privilégié pour sa légèreté, et certains éléments externes sont en plastique afin d'obtenir la flexibilité souhaitée lors des sprints. L'ensemble de la structure est équipé d'un système de sangles et de filets pour offrir un haut degré d'ajustabilité. Cette conception de qualité permet de régler les bretelles vers le haut ou vers le bas, assurant ainsi un port confortable du sac à dos, quelle que soit la taille du torse. Un seul jeu de cadres ne remplace que la structure principale de votre sac à dos, mais il est possible d'utiliser plusieurs jeux pour améliorer davantage vos capacités de port. Bien que le système soit constitué d'aluminium léger, certaines pièces peuvent encore s'avérer utiles pour des réparations mineures de l'équipement.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_green] • %c[ui_gray_2] empilable? %c[ui_red]NON\n
+		</text>
+	</string>
+	
+	<string id="st_af_grid_up_name">
+		<text>Grille en titane améliorée</text>
+	</string>
+	<string id="st_af_grid_up_descr">
+		<text>Au lieu de simplement porter un sac à dos maintenu par une paire de bretelles, il est possible de le fixer à la combinaison au moyen d'une grille en titane améliorée, ce qui optimise vos capacités de port. La grille améliorée est fabriquée en titane, un matériau privilégié pour sa légèreté et sa grande durabilité, et certains éléments externes sont en plastique afin d'obtenir la flexibilité souhaitée lors des sprints. L'ensemble de la structure est équipé d'un système de sangles et de filets pour offrir un haut degré d'ajustabilité. Cette conception de qualité permet de régler les bretelles vers le haut ou vers le bas, assurant ainsi un port confortable du sac à dos, quelle que soit la taille du torse. Une seule grille ne remplace que la structure principale de votre sac à dos, mais il est possible d'utiliser plusieurs grilles pour améliorer davantage vos capacités de port. Les grilles sont créées à partir de titane de très haute qualité, de sorte qu'une grille démontée peut être utilisée comme complément efficace pour la réparation d'une combinaison de combat ou d'un casque.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_green] • %c[ui_gray_2] empilable? %c[ui_red]NON\n
+		</text>
+	</string>
+	
+	<string id="st_af_freon_up_name">
+		<text>Module Freon Emission amélioré</text>
+	</string>
+	<string id="st_af_freon_up_descr">
+		<text>Le module Freon Emission amélioré est conçu pour maintenir une température constante autour du corps à 20 degrés Celsius. Il est donc extrêmement utile pour minimiser les effets de la chaleur extrême dans les situations nécessitant une protection supplémentaire. Il émet une épaisse couche de particules d'air refroidies au fréon, produisant un minuscule vide qui absorbe l'excès de chaleur et diminue légèrement la température autour de l'utilisateur. Une autre caractéristique du module Freon Emission est sa capacité à résister modérément à l'électricité.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_green] • %c[ui_gray_2] empilable? %c[ui_red]NON\n</text>
+	</string>
+	
+	<string id="st_af_cooler_up_name">
+		<text>Body Cooler amélioré</text>
+	</string>
+	<string id="st_af_cooler_up_descr">
+		<text>Le Body Cooler amélioré est un module électrique conçu pour maintenir une température constante autour du corps à hauteur de 14 degrés Celsius. Il s'avère ainsi extrêmement utile pour minimiser les effets de la chaleur extrême dans les situations nécessitant une protection supplémentaire. Il émet des impulsions électriques rapides qui créent un minuscule vide absorbant tout excès de chaleur et réduisant légèrement la température autour de l'utilisateur. Il ne nécessite pas d'eau pour fonctionner. Une autre caractéristique de ce module est sa capacité à résister modérément à l'électricité. En cas de démontage de l'unité à l'aide d'un kit d'outils, le boîtier métallique peut être réutilisé comme matériau de réparation pour les tenues.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_green] • %c[ui_gray_2] empilable? %c[ui_red]NON\n
+		</text>
+	</string>
+	
+	<string id="st_af_kevlar_up_name">
+		<text>Plaques et attaches en Kevlar améliorées</text>
+	</string>
+	<string id="st_af_kevlar_up_descr">
+		<text>Les plaques en Kevlar sont largement reconnues pour leurs capacités de protection et sont hautement valorisées pour cette caractéristique. Elles remplissent diverses fonctions, dont la plus importante est l'absorption de l'impact des projectiles d'armes à feu sur l'avant et l'arrière du torse. Elles constituent une alternative légère aux plaques d'acier épaisses. De plus, tout type de plaque de blindage contribue à maintenir les combinaisons en bon état, en prévenant la dégradation due à l'usure. Utilisées par les unités militaires du monde entier.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • La protection s'applique uniquement aux bras, aux jambes et au torse\n
+		%c[d_green] • +3 classes BR\n
+		%c[d_green] • Atténuation des dégâts de classe BR de 8 %\n
+		</text>
+	</string>
+	
+	<string id="st_af_plates_up_name">
+		<text>Plaques en acier carbone améliorées</text>
+	</string>
+	<string id="st_af_plates_up_descr">
+		<text>Ces plaques d'acier sont spécialement conçues, traitées thermiquement et façonnées pour leurs propriétés de résistance balistique, s'adaptant à une grande variété d'applications de protection. Elles sont conçues pour résister aux impacts balistiques de faible intensité sur l'avant et l'arrière du torse. Cette protection a cependant un prix, car les plaques d'acier épaisses sont très lourdes, limitant ainsi la liberté de mouvement. De plus, tout type de plaque de blindage contribue à maintenir les combinaisons en bon état, en prévenant la dégradation due à l'usure. Utilisées extensivement par les forces Spetsnaz.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • La protection n'est appliquée qu'aux bras, aux jambes et au torse\n
+		%c[d_green] • +10 classes BR\n
+		%c[d_green] • Atténuation des dégâts de classe BR de 17 %\n
+		</text>
+	</string>
+	
+	<string id="st_af_camelbak_up_name">
+		<text>Camelbak amélioré</text>
+	</string>
+	<string id="st_af_camelbak_up_descr">
+		<text>Empruntant son nom au mythe selon lequel les chameaux stockent de l'eau dans leurs bosses, le Camelbak est un sac porté sur le dos ou autour de la taille de l'utilisateur, contenant une poche remplie d'eau pour maintenir l'hydratation. Un tube flexible avec un embout buccal facilite son utilisation même dans les situations les plus pressantes. Ce modèle est camouflé et intégré à la combinaison pour protéger le système des dommages, qu'ils proviennent d'un combat ou d'une anomalie. Comme le conteneur est fabriqué dans un textile de haute qualité, les stalkers expérimentés réutilisent parfois des Camelbaks mis au rebut pour obtenir des matériaux de qualité afin de réparer leurs tenues de terrain.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_green] • %c[ui_gray_2] empilable? %c[ui_red]NON\n
+		</text>
+	</string>
+	
+	<string id="st_af_surge_name">
+		<text>Suppresseur de surtension</text>
+	</string>
+	<string id="st_af_surge_descr">
+		<text>Dispositif petit mais avancé qui absorbe l'énergie électrique de son environnement immédiat. Il sert de protection en limitant la quantité d'électricité entrant en contact direct avec le corps, soit en la bloquant, soit en la dérivant vers la terre. En tant que circuit résistif très sophistiqué, le Suppresseur de surtension augmente considérablement la résistance électrique du corps. Il en résulte que l'utilisateur est soumis à une tension significativement réduite et peut survivre à des décharges qui seraient normalement mortelles. Il est donc d'une importance vitale de porter un suppresseur de surtension à la ceinture lorsqu'on se trouve à proximité d'anomalies électriques et d'autres sources d'électricité dans la Zone. Comme tout objet métallique, il peut être utilisé comme source de matériau de réparation, à condition de disposer des outils appropriés et d'un niveau de compétence suffisant.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_green] • %c[ui_gray_2] empilable? %c[ui_red]NON\n
+		</text>
+	</string>
+	
+	<string id="st_af_frames_name">
+		<text>Cadres en aluminium</text>
+	</string>
+	<string id="st_af_frames_descr">
+		<text>Au lieu de simplement porter un sac à dos maintenu par une paire de bretelles, il est possible de le fixer à la combinaison au moyen de cadres en aluminium, ce qui optimise vos capacités de port. Les cadres sont fabriqués en aluminium, un matériau privilégié pour sa légèreté, et certains éléments externes sont en plastique afin d'obtenir la flexibilité souhaitée lors des sprints. L'ensemble de la structure est équipé d'un système de sangles et de filets pour offrir un haut degré d'ajustabilité. Cette conception de qualité permet de régler les bretelles vers le haut ou vers le bas, assurant ainsi un port confortable du sac à dos, quelle que soit la taille du torse. Un seul jeu de cadres ne remplace que la structure principale de votre sac à dos, mais il est possible d'utiliser plusieurs jeux pour améliorer davantage vos capacités de port. Bien que le système soit constitué d'aluminium léger, certaines pièces peuvent encore s'avérer utiles pour des réparations mineures de l'équipement.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_green] • %c[ui_gray_2] empilable? %c[ui_red]NON\n
+		</text>
+	</string>
+	
+	<string id="st_af_grid_name">
+		<text>Grille en titane</text>
+	</string>
+	<string id="st_af_grid_descr">
+		<text>Au lieu de simplement porter un sac à dos maintenu par une paire de bretelles, il est possible de le fixer à la combinaison au moyen d'une grille en titane, ce qui optimise vos capacités de port. La grille est fabriquée en titane, un matériau privilégié pour sa légèreté et sa grande durabilité, et certains éléments externes sont en plastique afin d'obtenir la flexibilité souhaitée lors des sprints. L'ensemble de la structure est équipé d'un système de sangles et de filets pour offrir un haut degré d'ajustabilité. Cette conception de qualité permet de régler les bretelles vers le haut ou vers le bas, assurant ainsi un port confortable du sac à dos, quelle que soit la taille du torse. Une seule grille ne remplace que la structure principale de votre sac à dos, mais il est possible d'utiliser plusieurs grilles pour améliorer davantage vos capacités de port. Les grilles sont créées à partir de titane de très haute qualité, de sorte qu'une grille démontée peut être utilisée comme complément efficace pour la réparation d'une combinaison de combat ou d'un casque.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_green] • %c[ui_gray_2] empilable? %c[ui_red]NON\n
+		</text>
+	</string>
+	
+	<string id="st_af_freon_name">
+		<text>Module Freon Emission</text>
+	</string>
+	<string id="st_af_freon_descr">
+		<text>Le module Freon Emission est conçu pour maintenir une température constante autour du corps à 24 degrés Celsius. Il est donc extrêmement utile pour minimiser les effets de la chaleur extrême dans les situations nécessitant une protection supplémentaire. Il émet une épaisse couche de particules d'air refroidies au fréon, produisant un minuscule vide qui absorbe l'excès de chaleur et diminue légèrement la température autour de l'utilisateur. Une autre caractéristique du module Freon Emission est sa capacité à résister modérément à l'électricité.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_green] • %c[ui_gray_2] empilable? %c[ui_red]NON\n</text>
+	</string>
+	
+	<string id="st_af_cooler_name">
+		<text>Body Cooler</text>
+	</string>
+	<string id="st_af_cooler_descr">
+		<text>Le Body Cooler est un module électrique conçu pour maintenir une température constante autour du corps à 18 degrés Celsius. Il est donc extrêmement utile pour minimiser les effets de la chaleur extrême dans les situations nécessitant une protection supplémentaire. Il émet des impulsions électriques rapides qui produisent un minuscule vide absorbant l'excès de chaleur et diminuant légèrement la température autour de l'utilisateur. Il ne nécessite pas d'eau pour fonctionner. Une autre caractéristique du Body Cooler est sa capacité à résister modérément à l'électricité. En cas de démontage de l'unité à l'aide d'un kit d'outils, le boîtier métallique peut être réutilisé comme matériau de réparation pour la combinaison.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_green] • %c[ui_gray_2] empilable? %c[ui_red]NON\n
+		</text>
+	</string>
+	
+	<string id="st_af_kevlar_name">
+		<text>Plaques et attaches en Kevlar</text>
+	</string>
+	<string id="st_af_kevlar_descr">
+		<text>Les plaques en Kevlar sont largement reconnues pour leurs capacités de protection et sont hautement valorisées pour cette caractéristique. Elles remplissent diverses fonctions, dont la plus importante est l'absorption de l'impact des projectiles d'armes à feu sur l'avant et l'arrière du torse. Elles constituent une alternative légère aux plaques d'acier épaisses. De plus, tout type de plaque de blindage contribue à maintenir les combinaisons en bon état, en prévenant la dégradation due à l'usure. Utilisées par les unités militaires du monde entier.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • La protection n'est appliquée qu'aux bras, aux jambes et au torse\n
+		%c[d_green] • +1 classe BR\n
+		%c[d_green] • Atténuation des dégâts de classe BR de 5 %\n
+		</text>
+	</string>
+	
+	<string id="st_af_plates_name">
+		<text>Plaques en acier carbone</text>
+	</string>
+	<string id="st_af_plates_descr">
+		<text>Ces plaques d'acier sont spécialement conçues, traitées thermiquement et façonnées pour leurs propriétés de résistance balistique, s'adaptant à une grande variété d'applications de protection. Elles sont conçues pour résister aux impacts balistiques de faible intensité sur l'avant et l'arrière du torse. Cette protection a cependant un prix, car les plaques d'acier épaisses sont très lourdes, limitant ainsi la liberté de mouvement. De plus, tout type de plaque de blindage contribue à maintenir les combinaisons en bon état, en prévenant la dégradation due à l'usure. Utilisées extensivement par les forces Spetsnaz.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • La protection n'est appliquée qu'aux bras, aux jambes et au torse\n
+		%c[d_green] • +6 classes BR\n
+		%c[d_green] • Atténuation des dégâts de classe BR de 12 %\n
+		</text>
+	</string>
+	
+	<string id="st_af_camelbak_name">
+		<text>Camelbak</text>
+	</string>
+	<string id="st_af_camelbak_descr">
+		<text>Empruntant son nom au mythe selon lequel les chameaux stockent de l'eau dans leurs bosses, le Camelbak est un sac porté sur le dos ou autour de la taille de l'utilisateur, contenant une poche remplie d'eau pour maintenir l'hydratation. Un tube flexible avec un embout buccal facilite son utilisation même dans les situations les plus pressantes. Ce modèle est camouflé et intégré à la combinaison pour protéger le système des dommages, qu'ils proviennent d'un combat ou d'une anomalie. Comme le conteneur est fabriqué dans un textile de haute qualité, les stalkers expérimentés réutilisent parfois des Camelbaks mis au rebut pour obtenir des matériaux de qualité afin de réparer leurs tenues de terrain.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_green] • %c[ui_gray_2] empilable? %c[ui_red]NON\n
+		</text>
+	</string>
+	
+	<string id="st_af_iam_name">
+		<text>Module d'application improvisé (Vide)</text>
+	</string>
+	<string id="st_af_iam_descr">
+		<text>Le Module d'Application Improvisé (IAM) filtre une petite quantité de particules radioactives émises par les artefacts. Cette pochette métallique mécanique est le dispositif le moins coûteux permettant à l'utilisateur d'exploiter la puissance des Artefacts les moins puissants. Le filtre du Artefact est composé de plusieurs couches principalement en plomb qui protègent des radiations. Une alternative économique aux AACS et AAMS, plus fiables. En cas d'urgence ou si le module n'est plus nécessaire, il peut être utilisé comme source de métal de qualité pour les réparations de tenues ou de casques. Actuellement inutilisable. Pour l'attacher à la ceinture, vous devez y placer un Artefact. Ce dernier conservera ses caractéristiques, à l'exception d'une réduction de la production de radiations. En raison de sa faible qualité, le IAM ne peut bloquer que les particules bêta. Produites par tous les artefacts, les particules bêta peuvent endommager la peau de manière similaire à une brûlure.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[ui_gray_2] dispositif de stockage d'artefact\n
+		%c[d_cyan] • %c[ui_gray_2] capacité maximale : 1\n
+		%c[d_cyan] • %c[ui_gray_2] Protège contre les émissions radioactives suivantes :\n
+		%c[d_blue] - particules bêta\n
+		</text>
+	</string>
+	
+	<string id="st_af_aac_name">
+		<text>Conteneur d'application d'Artefact (Vide)</text>
+	</string>
+	<string id="st_af_aac_descr">
+		<text>Le conteneur d'application d'Artefact (AAC) filtre une quantité modérée de particules radioactives émises par les artefacts. Ce conteneur mécanique en aluminium est le moyen le plus rentable et donc le plus populaire de manipuler les artefacts, car il permet à l'utilisateur d'exploiter la puissance des artefacts les plus puissants. Le filtre d'Artefact est composé de plusieurs couches, principalement en plomb, avec une couche de thorium qui possède de fortes propriétés de blindage contre les radiations. Cet appareil a été fabriqué par des scientifiques résidant dans des bunkers militaires autour de la Zone. En cas d'urgence ou s'il n'est plus nécessaire, le module peut être utilisé comme source de métal de qualité pour des réparations d'équipement ou de casque. Actuellement inutilisable. Pour le fixer à la ceinture, vous devez placer un Artefact à l'intérieur. Le Artefact conservera ses caractéristiques, à l'exception d'une réduction de la sortie de radiation. Comparé au IAM, le AAC est capable de filtrer les rayons gamma. Formés par la plupart des artefacts, les rayons gamma sont capables de pénétrer la peau, d'endommager l'ADN et, à haute dose, les organes internes en rompant les liaisons entre les atomes d'une molécule.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[ui_gray_2] dispositif de stockage d'artefact\n
+		%c[d_cyan] • %c[ui_gray_2] capacité maximale : 1\n
+		%c[d_cyan] • %c[ui_gray_2] Protège contre les émissions radioactives suivantes :\n
+		%c[d_blue] - particules bêta\n
+		%c[d_green] - rayons gamma\n
+		</text>
+	</string>
+	
+	<string id="st_af_aam_name">
+		<text>Module d'application d'Artefact (Vide)</text>
+	</string>
+	<string id="st_af_aam_descr">
+		<text>Le module d'application d'Artefact (AAM) filtre une quantité significative de particules radioactives émises par les artefacts. Ce module mécanique avancé est le moyen le plus efficace d'exploiter la puissance des artefacts les plus puissants. Le filtre d'Artefact est composé de nombreuses couches en nano-carbone. Il est donc léger et possède les propriétés de blindage contre les radiations les plus fortes de tous les dispositifs. Considéré comme un symbole de richesse dans la Zone. Le plus souvent utilisé par les scientifiques pour minimiser les effets nocifs des artefacts. Conçu et fabriqué en Ukraine par un institut gouvernemental qui fournit du matériel aux scientifiques résidant dans la Zone d'Aliénation. En cas d'urgence ou s'il n'est plus nécessaire, le module peut être utilisé comme source de métal de qualité pour des réparations d'équipement ou de casque. Actuellement inutilisable. Pour le fixer à la ceinture, vous devez placer un Artefact à l'intérieur. Le Artefact conservera ses caractéristiques, à l'exception d'une réduction de la sortie de radiation. Comparé au AAC, le AAM est capable de filtrer les neutrons. Formés uniquement par les artefacts les plus instables, les neutrons sont capables de pénétrer la peau et, à haute dose, d'endommager l'ADN et les organes internes en provoquant une instabilité des noyaux atomiques d'une molécule, qui peuvent ensuite se désintégrer et causer davantage de dommages. Même si le neutron est « absorbé en toute sécurité », une exposition suffisante entraînera un empoisonnement au deutérium.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[ui_gray_2] dispositif de stockage d'artefact\n
+		%c[d_cyan] • %c[ui_gray_2] capacité maximale :%c 1\n
+		%c[d_cyan] • %c[ui_gray_2] Protège contre les émissions radioactives suivantes :\n
+		%c[d_cyan] - particules bêta\n
+		%c[d_green] - rayons gamma\n
+		%c[d_orange] - neutrons\n
+		</text>
+	</string>
+	
+<!------------------------ Mutant Hide ------------------------>
+	<string id="st_hide_flesh_name">
+		<text>Peau de Flesh</text>
+	</string>
+	<string id="st_hide_flesh_descr">
+		<text>Peau prélevée sur une race de porcs mutants communément appelés flesh. Son poids élevé (son principal inconvénient) résulte d'une épaisse couche de graisse sous une peau relativement molle et peu profonde. Elle offre une faible protection physique, mais réduit considérablement les effets nocifs des anomalies chimiques, thermiques et électriques. Ne peut être utilisée que pour des réparations mineures, car la couche de graisse est inutile pour l'entretien de l'armure et doit être découpée, ne laissant qu'une petite partie de tissu cutané superficiel.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[d_orange] Une seule peau peut être équipée\n
+		</text>
+	</string>
+	
+	<string id="st_hide_boar_name">
+		<text>Peau de Sanglier</text>
+	</string>
+	<string id="st_hide_boar_descr">
+		<text>Une peau presque entièrement recouverte d'une épaisse couche de fourrure, prélevée sur l'un des sangliers sauvages que l'on trouve couramment dans la Zone. Les mutants eux-mêmes sont assez résistants aux dommages et peuvent encaisser des chocs considérables, et la raison en est simple : une masse musculaire importante et des os presque incassables. La peau, en revanche, est assez fine (probablement pour offrir à la créature un moyen efficace de régulation thermique), ce qui en fait un choix plutôt médiocre pour renforcer une armure. La fourrure, quant à elle, fait de cette peau un isolant thermique relativement efficace. Elle peut également être utilisée pour des réparations légères. Malheureusement, porter cette peau par-dessus une armure rend l'utilisateur moins résistant aux dommages radioactifs et toxiques, car les particules lourdes s'accumulent souvent dans la fourrure.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[d_orange] Une seule peau peut être équipée\n
+		%c[d_green] • +2 classes BR\n
+		%c[d_green] • Atténuation des dégâts de classe BR de 5 %\n
+		</text>
+	</string>
+	
+	<string id="st_hide_bloodsucker_name">
+		<text>Peau de Bloodsucker</text>
+	</string>
+	<string id="st_hide_bloodsucker_descr">
+		<text>Le Bloodsuckers, en tant qu'espèce, a évolué à partir des humains, et cette affinité se retrouve encore dans la texture de sa peau. Ce qui est le plus caractéristique, c'est que la peau est très douce et agréable au toucher, presque comme celle d'un enfant. Cela ne s'applique cependant qu'à la couche externe - en dessous, le Bloodsuckers possède des muscles bien développés qui peuvent être utilisés pour former une sorte de manteau offrant un potentiel de réduction des dommages considérable, en particulier contre les attaques au corps à corps. Cela fait de la peau de bloodsucker un choix populaire parmi les chasseurs expérimentés, qui la portent également comme signe de leur compétence. La propriété la plus unique, et en même temps le principal inconvénient de cette peau, est sa réaction très intense aux changements de température - bien que le tissu lui-même ne brûle qu'à des températures très élevées, il peut devenir très chaud, ce qui le rend de plus en plus dangereux pour le porteur et l'équipement situé en dessous.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[d_orange] Une seule peau peut être équipée\n
+		</text>
+	</string>
+	
+	<string id="st_hide_psysucker_name">
+		<text>Peau de Psysucker</text>
+	</string>
+	<string id="st_hide_psysucker_descr">
+		<text>Le Psysuckers, en tant qu'espèce, a évolué à partir du bloodsuckers, et cette affinité se voit encore dans la texture de leur peau. Ce qui est le plus caractéristique, c'est que la peau est très douce et agréable au toucher, presque comme celle d'un enfant. Cela ne s'applique cependant qu'à la couche externe - en dessous, les Psysuckers possèdent des muscles bien développés qui peuvent être utilisés pour former une sorte de manteau offrant un potentiel de réduction des dégâts considérable, en particulier contre les attaques au corps à corps. Cela fait de la peau de psysucker un choix populaire parmi les chasseurs expérimentés, qui la portent également comme signe de leur compétence. La propriété la plus unique, et en même temps le principal inconvénient de la peau, est sa réaction très intense aux changements de température - bien que le tissu lui-même ne brûle qu'à des températures très élevées, il peut devenir très chaud, causant des dommages croissants au porteur et à l'équipement situé en dessous. Les rapports indiquent que, bien que la peau offre une protection physique relativement faible, elle peut être utilisée pour absorber et disperser des quantités significatives d'ondes psy entrantes lorsqu'elle est portée sur la tête.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[d_orange] Une seule peau peut être équipée\n
+		</text>
+	</string>
+	
+	<string id="st_hide_lurker_name">
+		<text>Peau de Lurker</text>
+	</string>
+	<string id="st_hide_lurker_descr">
+		<text>Une peau épaisse presque entièrement recouverte d'une couche de fourrure, prélevée sur un lurker. Les mutants eux-mêmes sont assez résistants aux dommages et peuvent encaisser des chocs considérables, et la raison en est simple : une masse musculaire importante et des os presque incassables. La peau du lurker est connue pour être épaisse et durable, ce qui en fait un bon choix pour l'amélioration des armures. La fourrure, quant à elle, fait de cette peau un isolant thermique relativement efficace. Peut également être utilisée pour des réparations légères.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[d_orange] Une seule peau peut être équipée\n
+		</text>
+	</string>
+	
+	<string id="st_hide_burer_name">
+		<text>Peau de Burer</text>
+	</string>
+	<string id="st_hide_burer_descr">
+		<text>Dépouiller un burer ressemble beaucoup à dépouiller un nain difforme. Ajoutez à cela une puanteur presque insupportable d'oeufs pourris, et vous comprendrez pourquoi les stalkers considèrent cela comme un véritable exploit. Les rapports indiquent que, bien que cette peau offre une protection physique relativement faible, elle peut être utilisée pour absorber et disperser des quantités importantes d'ondes psychiques entrantes lorsqu'elle est portée sur la tête. La peau du burer présente une faible résistance électrique, ce qui rend le porteur plus vulnérable aux dommages électriques. De plus, en raison du fait que les burers sont relativement rares dans la Zone, cette peau présente un potentiel de recherche significatif, ce qui en fait une marchandise de valeur pour les scientifiques.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[d_orange] Une seule peau peut être équipée\n
+		</text>
+	</string>
+	
+	<string id="st_hide_chimera_name">
+		<text>Peau de Chimère</text>
+	</string>
+	<string id="st_hide_chimera_descr">
+		<text>La Chimère, l'un des mutants les plus dangereux de la Zone, ne représente pas seulement une menace significative, mais peut également être considérée comme une source de richesse viable. Toutes les parties prélevées sur le cadavre d'une Chimère peuvent être vendues pour une somme importante, mais c'est la peau qui constitue l'un des spécimens scientifiques les plus prisés ainsi que l'une des meilleures améliorations d'armure disponibles dans la Zone d'Exclusion. Elle offre de très bonnes propriétés de protection et, plus important encore, est relativement légère, ce qui ne limite pas la mobilité. Cependant, sa caractéristique la plus unique est que les fibres organiques présentes dans la peau agissent comme des conducteurs électriques très efficaces. Ce fait confirme dans une large mesure les rapports des unités de reconnaissance (en particulier celles opérant autour du complexe industriel AMK) concernant des observations de chimères entourées de ce qui semblait être une anomalie électrique, produisant des décharges au contact de tout organisme vivant hostile. Malheureusement, aucune unité n'a pu revenir, il n'existe donc aucune preuve confirmant l'existence d'une telle créature.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[d_orange] Une seule peau peut être équipée\n
+		</text>
+	</string>
+	
+	<string id="st_hide_pseudogiant_name">
+		<text>Peau de Pseudogiant</text>
+	</string>
+	<string id="st_hide_pseudogiant_descr">
+		<text>La peau d'un pseudogiant ressemble à bien des égards à celle d'un éléphant. Elle est épaisse et dure au toucher, sa texture est très irrégulière et parsemée de plis qui servent de mécanisme de refroidissement à la créature. L'épaisseur moyenne de la peau d'un pseudogiant est d'environ 2 cm, ce qui la rend très résistante et capable de supporter des dommages importants. Cela se fait cependant au prix d'un poids accru. Comme les pseudogiants sont connus pour vivre souvent dans des zones de forte toxicité et de radioactivité, leur peau s'est naturellement adaptée à ces conditions, ce qui accroît encore son utilité. Elle peut également être utilisée pour réparer même les tenues les plus lourdes, mais ce processus nécessite les outils les plus durables et les plus coûteux disponibles. Elle est appréciée non seulement pour ses qualités pratiques, mais peut aussi servir de trophée de chasse prestigieux et de spécimen rare pour les scientifiques dans la Zone.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[d_orange] Une seule peau peut être équipée\n
+		%c[d_green] • +4 classes BR\n
+		%c[d_green] • Atténuation des dégâts de classe BR de 10 %\n
+		</text>
+	</string>
+	
+	<string id="st_hide_controller_name">
+		<text>Scalp de Controller</text>
+	</string>
+	<string id="st_hide_controller_descr">
+		<text>Comme c'est le cas pour d'autres mutants humanoïdes, scalper un controller représente un défi émotionnel considérable, et cela s'avère encore plus difficile car le visage d'un controller conserve certaines caractéristiques de la personne qu'il était autrefois. Des sources confidentielles au sein de l'armée ont également révélé que les empreintes digitales de la personne transformée en controller peuvent parfois être retrouvées dans les bases de données. Une analyse récente montre que non seulement la main du controller est capable de produire des ondes psy, mais que tout son corps est une source d'émissions. Pour cette raison, le scalp - lorsqu'il est correctement préparé - a la capacité d'absorber et de filtrer l'énergie psy, mais pour que cet effet se produise, il est nécessaire de couvrir sa tête avec plusieurs scalps. La peau est également conductrice d'électricité. Concernant ses propriétés physiques, elle est légère et ne peut être utilisée que pour des réparations mineures de l'équipement. Comme c'est le cas pour toutes les créatures psy humanoïdes, la peau d'un controller est conductrice d'électricité.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[d_orange] Une seule peau peut être équipée\n
+		</text>
+	</string>
+	
+	<string id="st_hide_pseudodog_name">
+		<text>Fourrure de Pseudochien</text>
+	</string>
+	<string id="st_hide_pseudodog_descr">
+		<text>Recouverte d'une fourrure courte et raide, la peau de pseudochiens reste l'une des peaux de mutants les plus utiles, répandues et polyvalentes disponibles dans la Zone. Elle peut être facilement fixée à une armure avec les outils les plus légers, tout en étant assez résistante, ce qui la rend adaptée aux réparations de tenues de niveau moyen. Utilisée dans son intégralité, elle peut couvrir une surface significative du corps avec une couche protectrice qui augmente la résistance aux dommages physiques ainsi qu'à la chaleur. La fourrure offre également une isolation efficace. Cependant, comme c'est le cas pour toutes les peaux de ce type, elle retient facilement les particules radioactives et toxiques, il est donc fortement recommandé de la retirer lorsque l'on se trouve dans des zones radioactives ou toxiques.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[d_orange] Une seule peau peut être équipée\n
+		</text>
+	</string>
+	
+	<string id="st_hide_psy_dog_name">
+		<text>Fourrure de Psy-chien</text>
+	</string>
+	<string id="st_hide_psy_dog_descr">
+		<text>La fourrure d'un psy-chien est sans aucun doute l'un des matériaux vestimentaires les plus beaux et les plus rares au monde. Généralement d'un blanc immaculé ou gris, elle est très demandée et peut se vendre à prix d'or. Elle a probablement fait son entrée dans l'industrie de la mode grâce aux contrebandiers, dont certains se sont récemment tournés vers la chasse aux mutants. Pour ceux qui évoluent dans la Zone, elle peut servir de couverture, notamment lors des nuits froides, et offre une protection efficace contre les déchirures ainsi qu'une légère réduction de l'influence psychique lorsque la partie correspondant à la tête est utilisée comme masque ou capuche. Cependant, elle retient facilement les particules radioactives et toxiques, il est donc fortement recommandé de la retirer lorsque l'on se trouve dans des zones radioactives ou toxiques. Les chasseurs la portent avec fierté, mais uniquement si la créature a été abattue de leurs propres mains.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[d_orange] Une seule peau peut être équipée\n
+		</text>
+	</string>
+	
+	<string id="st_powder_poltergeist">
+		<text>Poudre de diamant</text>
+	</string>
+	<string id="st_powder_poltergeist_descr">
+		<text>La « poudre de diamant » est le nom commun donné à une substance cristalline parfois trouvée dans l'abdomen de toutes les espèces de créatures psychiques. On ignore quels processus métaboliques conduisent à son apparition, et c'est pourquoi les scientifiques sont prêts à payer des sommes importantes pour en obtenir. Son utilisation pratique est limitée, mais certains stalkers sont connus pour en saupoudrer leurs couteaux de chasse préférés, car cela facilite grandement l'affûtage. Cela donne également aux lames un aspect brillant et bien entretenu.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[ui_gray_2] spécimen scientifique\n
+		</text>
+	</string>
+	
+</string_table>

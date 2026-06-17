@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="st_wpn_mp155">
+		<text>Baikal MP-155</text>
+	</string>
+	<string id="st_wpn_mp155_descr">
+		<text>Le Baikal MP-155 est un fusil de chasse semi-automatique chambré en calibre 12, doté d'un canon lisse de 750 mm. En production depuis 2011, il s'agit du modèle le plus populaire auprès des chasseurs russes. La version introduite clandestinement dans la Zone a été modifiée en usine pour intégrer un chargeur de 8 cartouches.
+		\n \n
+		%c[ui_gray_2]ACCESSOIRES : \n
+		%c[d_purple] - %c[ui_gray_2] Lunettes : La plupart des optiques compatibles avec les systèmes Picatinny/Weaver.\n
+		%c[d_purple] - %c[ui_gray_2] Silencieux : Silencieux multicalibre compatible OTAN. \n</text>
+	</string>
+</string_table>

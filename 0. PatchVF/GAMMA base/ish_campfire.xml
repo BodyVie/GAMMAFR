@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	GMTOP Edited 9, 12, 72
+-->
+
+<string_table>
+	<string id="st_ui_no_save_campfire_baby">
+		<text>Vous ne pouvez %s qu'à proximité des feux de camp.</text>
+	</string>
+	<string id="st_ui_no_save_campfire_base">
+		<text>Vous ne pouvez %s qu'à proximité des feux de camp allumés et dans les bases amicales.</text>
+	</string>
+	<string id="st_ui_no_save_campfire_unlit">
+		<text>Le feu de camp doit être allumé pour pouvoir %s.</text>
+	</string>
+	<string id="ui_mcm_menu_yasc">
+		<text>YACS</text>
+	</string>
+	<string id="ui_mcm_lst_Sanctuaries_None">
+		<text>Non</text>
+	</string>
+	<string id="ui_mcm_lst_Sanctuaries_Friendly">
+		<text>Amicaux uniquement</text>
+	</string>
+	<string id="ui_mcm_lst_Sanctuaries_Neutral">
+		<text>Amicaux et neutres</text>
+	</string>
+	<string id="ui_mcm_yacs_title">
+		<text>Encore une sauvegarde de feu de camp</text>
+	</string>
+	<string id="ui_mcm_yasc_enableCampfireSaving">
+		<text>Activer la sauvegarde des feux de camp</text>
+	</string>
+	<string id="ui_mcm_yasc_enableCampfireSaving_desc">
+		<text>Vous ne pourrez sauvegarder qu'à proximité de feux de camp allumés et au sein des bases alliées.</text>
+	</string>
+	<string id="ui_mcm_yasc_allowNeutralBases">
+		<text>Activer les bases neutres</text>
+	</string>
+	<string id="ui_mcm_yasc_allowNeutralBases_desc">
+		<text>Les autres factions vous autoriseront à sauvegarder dans leurs bases en fonction de votre niveau de bonne volonté.</text>
+	</string>
+	<string id="ui_mcm_yasc_allowSanctuaries">
+		<text>Activer les sanctuaires</text>
+	</string>
+	<string id="ui_mcm_yasc_allowSanctuaries_desc">
+		<text>Certains individus influents vous permettront de sauvegarder dans leurs résidences si vous entretenez de bonnes relations avec eux.</text>
+	</string>
+	<string id="ui_mcm_yasc_enableNotifications">
+		<text>Activer les notifications de jetons</text>
+	</string>
+	<string id="ui_mcm_yasc_enableNotifications_desc">
+		<text>Vous serez informé du temps restant avant de recevoir un jeton de sauvegarde gratuite.</text>
+	</string>
+	<string id="ui_mcm_yasc_isNotMommy">
+		<text>Pas une maman</text>
+	</string>
+	<string id="ui_mcm_yasc_isNotMommy_desc">
+		<text>Vous vous identifiez en tant que Daddy.</text>
+	</string>
+	<string id="mommy_true">
+		<text>Maman</text>
+	</string>
+	<string id="mommy_false">
+		<text>Papa</text>
+	</string>
+	<string id="token_pending">
+		<text>Tu recevras un jeton %s dans %i secondes.</text>
+	</string>
+	<string id="token_granted">
+		<text>T'as un jeton %s. Appuie sur MAJ+F5 pour l'utiliser.</text>
+	</string>
+</string_table>

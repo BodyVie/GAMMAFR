@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	Overwrites
+	beretta_camo
+-->
+	<string id="st_wpn_beretta_px4">
+		<text>Beretta Px4 Storm</text>
+	</string>
+	<string id="st_wpn_beretta_px4_descr">
+		<text>Pistolet semi-automatique moderne reconnu pour son système de canon rotatif, améliorant la précision et réduisant le recul. Conçu pour un usage militaire, policier et civil, il dispose d'une carcasse en polymère léger, de commandes ambidextres et d'options de poignées modulaires pour une ergonomie optimisée. Sa combinaison de robustesse, de fonctionnement fluide et d'adaptabilité en fait un choix fiable pour la défense personnelle et les applications tactiques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Italie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Fabbrica d'Armi Pietro Beretta\n
+		</text>
+	</string>
+	
+	<string id="st_up_px4_a1_name">
+		<text>Rechambrer en .45 ACP</text>
+	</string>
+	<string id="st_up_px4_a1_descr">
+		<text>Réarmer l'arme pour utiliser des munitions .45 ACP.</text>
+	</string>
+
+<!-- UNUSED
+
+	<string id="st_wpn_beretta_m9">
+		<text>Beretta M9</text>
+	</string>
+	<string id="st_wpn_beretta_m9_descr">
+		<text>Ce pistolet semi-automatique légendaire n'a pas seulement remporté le contrat historique avec l'armée américaine en 1985, mais a également obtenu son renouvellement après plus de deux décennies d'utilisation intensive dans les conditions les plus extrêmes et les plus difficiles au monde. Il s'agit d'une arme offrant une précision exceptionnelle dès sa sortie d'usine, ainsi qu'une durabilité et une fiabilité remarquables.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Italie, États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Fabbrica d'Armi Pietro Beretta\n
+		</text>
+	</string>
+
+-->
+
+</string_table>

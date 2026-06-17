@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+    <string id="ui_mcm_npe_module_gamma_tutorial_repair">
+        <text>Réparation G.A.M.M.A.</text>
+    </string>
+
+    <string id="ui_mcm_npe_module_gamma_tutorial_repair_title">
+        <text>Tutoriels G.A.M.M.A.</text>
+    </string>
+
+    <string id="ui_mcm_npe_module_gamma_tutorial_repair_desc">
+        <text>Entretien des armes &amp; armures
+
+Cette option permet de configurer les paramètres de maintenance automatique des armes et des armures. Lorsque l'option est activée, les équipements subissent une usure réduite et conservent un état optimal plus longtemps. Désactivée, l'usure suit le rythme normal du jeu, reflétant une utilisation réaliste sans entretien régulier. L'entretien automatique ne s'applique qu'aux objets équipés ou placés dans l'inventaire du joueur. Les objets abandonnés au sol ou dans des conteneurs ne bénéficient d'aucun traitement particulier.</text>
+    </string>
+
+</string_table>

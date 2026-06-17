@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	AMMO_CHECK MESSAGES
+-->
+	
+    <string id="st_ac_overfull">
+        <text>[Surchargé]</text>
+    </string>
+    <string id="st_ac_plus1">
+        <text>[Plein + un]</text>
+    </string>
+    <string id="st_ac_oitc">
+        <text>[Un]</text>
+    </string>
+    <string id="st_ac_just_one">
+        <text>[Un seul]</text>
+    </string>
+    <string id="st_ac_full">
+        <text>[Plein]</text>
+    </string>
+    <string id="st_ac_nearly_full">
+        <text>[Presque plein]</text>
+    </string>
+    <string id="st_ac_more_half">
+        <text>[Plus de moitié]</text>
+    </string>
+    <string id="st_ac_about_half">
+        <text>[À moitié]</text>
+    </string>
+    <string id="st_ac_less_half">
+        <text>[Moins de moitié]</text>
+    </string>
+    <string id="st_ac_near_empty">
+        <text>[Presque Vide]</text>
+    </string>
+    <string id="st_ac_empty">
+        <text>[Vide]</text>
+    </string>
+    <string id="st_ac_jammed">
+        <text>[Arme enrayée]</text>
+    </string>
+    <string id="st_ac_noMag">
+        <text>[Aucun chargeur]</text>
+    </string>
+    <string id="st_ac_grenade">
+        <text>[Grenade chargée]</text>
+    </string>
+    <string id="st_ac_noAmmo">
+        <text>[Sans munitions]</text>
+    </string>
+    <string id="st_ac_ammoLeft">
+        <text>Restantes</text>
+    </string>
+    <string id="ui_mcm_menu_rax_ammo_check">
+        <text>Vérification des munitions</text>
+    </string>
+    <string id="ui_mm_title_rax_ammo_check">
+        <text>Vérification des munitions</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_usecolor">
+        <text>Messages en couleur</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_hidecounter">
+        <text>Masquer le compteur de munitions</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_hideicon">
+        <text>Masquer l'icône des munitions</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_busy_hands_fix">
+        <text>Correction des mains occupées</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_busy_hands_fix_desc">
+        <text>Cochez cette case si l'animation de vérification des munitions reste bloquée. Ce problème est susceptible de survenir lorsque FDDA est installé.</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_keybind">
+        <text>Touche de vérification des munitions</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_keybind_desc">
+        <text>Ce raccourci clavier peut être configuré pour nécessiter des touches modificatrices supplémentaires afin d'atténuer les conflits.</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_update_mcm">
+        <text>Mettre à jour le MCM pour modifier la touche ici. Touche par défaut : T</text>
+    </string>
+
+</string_table>

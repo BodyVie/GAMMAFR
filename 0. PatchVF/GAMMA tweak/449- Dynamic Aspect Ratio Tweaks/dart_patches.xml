@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+  <string id="ui_mcm_dart_patches_title">
+    <text>Paramètres HUD des écussons de faction</text>
+  </string>
+
+  <string id="ui_mcm_menu_dart_patches">
+    <text>Identifiant de faction</text>
+  </string>
+
+  <string id="ui_mcm_dart_patches_scale">
+    <text>Échelle des écussons</text>
+  </string>
+
+  <string id="ui_mcm_dart_patches_scale_desc">
+    <text>Ajustez la taille des patches. Les valeurs supérieures à 1 les agrandissent. Les valeurs inférieures à 1 les réduisent.</text>
+  </string>
+</string_table>

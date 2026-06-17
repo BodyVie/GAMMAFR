@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id = "encyclopedia__notes_rfpackages">
+		<text>Fréquences radio des colis</text>
+	</string>
+	<string id = "encyclopedia__notes_rfpackages_text">
+		<text>Les factions cachent des colis pour vous, que vous pouvez localiser à l'aide du récepteur RF. Ces colis peuvent contenir des drogues, des kits de réparation ou des munitions, ainsi que des objets bonus potentiels tels que des drogues supplémentaires, des objets de valeur, des explosifs, des éléments d'amélioration ou des « artefacts artefacts » sans utilité.\n \n
+		Des colis sont ajoutés à une file d'attente chaque fois que vous obtenez 250 points de bonne volonté auprès d'une faction. Ils sont placés dans des zones situées en dehors de l'endroit où vous avez gagné les 250 points de bonne volonté ayant déclenché la récompense.\n \n
+		Vous ne pouvez avoir qu'un seul colis actif à la fois. Vous pouvez choisir de récupérer le colis ou de l'annuler en utilisant l'option « Cancel RF Package » dans le menu contextuel (clic droit) du PDA. Annuler un colis le supprime de la file d'attente. S'il s'agissait de votre seul colis en attente, vous n'aurez pas besoin d'obtenir 250 points de bonne volonté supplémentaires pour recevoir le suivant.\n \n
+		Vous pouvez personnaliser les rappels de colis, le déballage automatique à la récupération, ainsi que le type de contenus (améliorations standards ou moddées) dans le mod configuration menu, sous les options RF Receiver Package Options.\n \n
+		</text>
+	</string>
+
+</string_table>

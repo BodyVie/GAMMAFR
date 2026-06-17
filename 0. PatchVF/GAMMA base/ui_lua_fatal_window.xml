@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="st_lua_fatal_error">
+		<text>AVERTISSEMENT : ÉTAT DE JEU INSTABLE\n\nUne erreur Lua critique a provoqué une corruption du moteur de script, soit un état « Busy Hands ».\nVotre partie a été sauvegardée dans le fichier « tempsave ». Il est fortement recommandé de retourner au menu principal ou de recharger la sauvegarde immédiatement.\nContinuer depuis ce point entraînera une corruption supplémentaire et pourrait faire planter le jeu.\n\nScript : %s\n\nL'erreur a été consignée avec le message [BusyHandsDebug].\nEnvoyez le journal et signalez le problème à l'auteur du script ou au créateur du mod pack.</text>
+	</string>
+	<string id="st_disconnect">
+		<text>Retour au menu principal</text>
+	</string>
+	<string id="st_reload_save">
+		<text>Recharger la sauvegarde</text>
+	</string>
+	<string id="st_continue">
+		<text>Continuer</text>
+	</string>
+</string_table>

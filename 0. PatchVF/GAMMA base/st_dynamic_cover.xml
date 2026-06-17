@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    <string id="ui_mcm_dynamic_cover_title">
+        <text>Configuration couverture dynamique Emission</text>
+    </string>
+     <string id="ui_mcm_menu_dynamic_cover">
+        <text>Couverture dynamique Emission</text>
+    </string>
+    <string id="ui_mcm_dynamic_cover_distance_factor">
+        <text>Facteur de couverture requis</text>
+    </string>
+    <string id="ui_mcm_dynamic_cover_distance_factor_desc">
+        <text>Une valeur plus élevée rend plus difficile la recherche d'un abri</text>
+    </string>
+    <string id="ui_mcm_dynamic_cover_north_cover_bonus">
+        <text>Bonus couverture face au nord</text>
+    </string>
+    <string id="ui_mcm_dynamic_cover_north_cover_bonus_desc">
+        <text>Un abri orienté vers le nord est plus efficace pendant les émissions</text>
+    </string>
+    <string id="ui_mcm_dynamic_cover_show_cover_bar">
+        <text>Afficher indicateur de couverture</text>
+    </string>
+    <string id="ui_mcm_dynamic_cover_show_cover_bar_desc">
+        <text>Affiche une barre indiquant le niveau de protection dont vous disposez pendant les émissions\nMasquée lorsque vous êtes à l'abri</text>
+    </string>
+    <string id="ui_mcm_dynamic_cover_cover_range">
+        <text>Portée dynamique de couverture</text>
+    </string>
+    <string id="ui_mcm_dynamic_cover_cover_range_desc">
+        <text>Distance à laquelle le module vérifie la présence d'abris valides autour de vous</text>
+    </string>
+    <string id="ui_mcm_dynamic_cover_rays_per_update">
+        <text>Rayons de vérification de couverture par image</text>
+    </string>
+    <string id="ui_mcm_dynamic_cover_rays_per_update_desc">
+        <text>Réduisez cette valeur en cas de problèmes de fps\nAugmentez-la pour une vérification des abris plus rapide et plus régulière</text>
+    </string>
+    <string id="ui_mcm_dynamic_cover_debug_mode">
+        <text>Mode débogage</text>
+    </string>
+    <string id="ui_mcm_dynamic_cover_debug_mode_desc">
+        <text>À des fins de test uniquement !\nCela activera la vérification des abris en dehors des émissions (y compris le bonus pour les abris orientés vers le nord) et créera des particules aux points d'arrivée des raycasts utilisés pour la vérification des abris</text>
+    </string>
+    <string id="ui_mcm_dynamic_cover_protect_companions">
+        <text>Portée des compagnons en abri</text>
+    </string>
+    <string id="ui_mcm_dynamic_cover_protect_companions_desc">
+        <text>En abri dynamique, les compagnons situés dans cette portée (en mètres) sont également protégés\nDéfinissez à 0 pour désactiver</text>
+    </string>
+    <string id="ui_mcm_dynamic_cover_grace_period">
+        <text>Délai de grâce en couverture</text>
+    </string>
+    <string id="ui_mcm_dynamic_cover_grace_period_desc">
+        <text>Nombre de secondes pendant lesquelles vous êtes protégé après avoir quitté un abri dynamique</text>
+    </string>
+    <string id="ui_mcm_dynamic_cover_hud_show_delay">
+        <text>Délai indicateur Bar</text>
+    </string>
+    <string id="ui_mcm_dynamic_cover_hud_show_delay_desc">
+        <text>Délai avant l'affichage de la barre d'indicateur</text>
+    </string>
+</string_table>

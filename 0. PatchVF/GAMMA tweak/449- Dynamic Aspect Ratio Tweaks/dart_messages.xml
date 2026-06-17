@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+  <string id="ui_mcm_dart_messages_title">
+    <text>Paramètres de la liste des messages</text>
+  </string>
+
+  <string id="ui_mcm_menu_dart_messages">
+    <text>Messages</text>
+  </string>
+</string_table>

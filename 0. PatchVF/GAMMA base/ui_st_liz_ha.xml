@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+    <string id="liz_ha_text_cant_consume_item">
+        <text>Impossible d'utiliser cet objet avec le casque.</text>
+    </string>
+
+</string_table>

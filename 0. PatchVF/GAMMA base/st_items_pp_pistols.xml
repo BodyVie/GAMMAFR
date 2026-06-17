@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    
+<!--
+Pistols and MP's
+-->
+
+	<string id="st_mag_ppp_1911_357_fmj">
+		<text>Chargeur .357 Coonan</text>
+	</string>
+	<string id="st_mag_ppp_1911_357_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Chargeur\n</text>
+	</string>
+
+	<string id="st_mag_ppp_svi_45">
+		<text>Chargeur Strayer-Voight</text>
+	</string>
+	<string id="st_mag_ppp_svi_45_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Chargeur\n</text>
+	</string>
+
+	<string id="st_mag_ppp_px4_9x19_fmj">
+		<text>Chargeur 9x19 PX4</text>
+	</string>
+	<string id="st_mag_ppp_px4_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Chargeur\n</text>
+	</string>
+    
+	<string id="st_mag_ppp_px4_45">
+		<text>Chargeur .45 PX4</text>
+	</string>
+	<string id="st_mag_ppp_px4_45_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Chargeur\n</text>
+	</string>
+
+	<string id="st_mag_ppp_sig_9x19_fmj">
+		<text>Chargeur 9x19 SIG P229</text>
+	</string>
+	<string id="st_mag_ppp_sig_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Chargeur\n</text>
+	</string>
+
+	<string id="st_mag_ppp_signimble_9x19_fmj">
+		<text>Chargeur 9x19 SIG P320</text>
+	</string>
+	<string id="st_mag_ppp_signimble_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Chargeur\n</text>
+	</string>
+    
+	<string id="st_mag_ppp_signimble_45_fmj">
+		<text>Chargeur .45 SIG P320</text>
+	</string>
+	<string id="st_mag_ppp_signimble_45_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Chargeur\n</text>
+	</string>
+
+	<string id="st_mag_ppp_mk23_45">
+		<text>Chargeur .45 Mark 23</text>
+	</string>
+	<string id="st_mag_ppp_mk23_45_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Chargeur\n</text>
+	</string>
+
+	<string id="st_ppp_colt1911_762x25_fmj">
+		<text>Chargeur 7,62x25 Colt modifié</text>
+	</string>
+	<string id="st_ppp_colt1911_762x25_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Chargeur\n</text>
+	</string>
+    
+	<string id="st_ppp_sw_45_fmj">
+		<text>Chargeur .45 S&amp;W</text>
+	</string>
+	<string id="st_ppp_sw_45_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Chargeur\n</text>
+	</string>
+
+	<string id="st_ppp_sw_919_fmj">
+		<text>Chargeur 9x19 S&amp;W</text>
+	</string>
+	<string id="st_ppp_sw_919_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Chargeur\n</text>
+	</string>
+
+	<string id="st_ppp_xd9_9x19_fmj">
+		<text>Chargeur 9x19 XD9</text>
+	</string>
+	<string id="st_ppp_xd9_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Chargeur\n</text>
+	</string>
+    
+	<string id="st_ppp_glock_45_fmj">
+		<text>Chargeur .45 Glock 21</text>
+	</string>
+	<string id="st_ppp_glock_45_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Chargeur\n</text>
+	</string>
+
+</string_table>

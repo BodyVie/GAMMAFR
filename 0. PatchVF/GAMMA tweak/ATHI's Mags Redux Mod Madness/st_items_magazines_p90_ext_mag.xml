@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_mag_p90_ext">
+		<text>Chargeur P90 Étendu</text>
+	</string>
+	<string id="st_mag_p90_ext_descr">
+		<text>
+		Chargeur translucide en polymère étendu pour le P90. Contient 75 cartouches.
+		</text>
+	</string>
+	
+	
+</string_table>	

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+
+<!--
+    demonized Mugging Squads
+    Generated with AnomalyModCreator
+-->
+
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!-- 
+	MCM
+-->
+<string_table>
+
+	<string id="ui_mcm_demonized_mugging_squads_title">
+		<text>Équipes de détrousseurs</text>
+	</string>
+	<string id="ui_mcm_menu_demonized_mugging_squads">
+		<text>Équipes de détrousseurs</text>
+	</string>
+
+	<string id="ui_mcm_demonized_mugging_squads_delayBetweenSpawns">
+		<text>Délai entre apparitions</text>
+	</string>
+	<string id="ui_mcm_demonized_mugging_squads_spawnDistance">
+		<text>Distance minimale d'apparition</text>
+	</string>
+	<string id="ui_mcm_demonized_mugging_squads_safeSmartDistance">
+		<text>Distance de sécurité Zone</text>
+	</string>
+	<string id="ui_mcm_demonized_mugging_squads_allowSameSquads">
+		<text>Autoriser détrousseurs de même faction</text>
+	</string>
+	<string id="ui_mcm_demonized_mugging_squads_allowFriendlySquads">
+		<text>Autoriser détrousseurs de factions alliées</text>
+	</string>
+	<string id="ui_mcm_demonized_mugging_squads_factions">
+		<text>Factions autorisées</text>
+	</string>
+
+</string_table>
+                        

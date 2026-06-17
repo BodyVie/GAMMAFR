@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<!-- DRX Storyline Documents Quest Item -->
+	<string id="drx_sl_quest_item_1_name">
+		<text>Documents fortement chiffrés</text>
+	</string>
+	<string id="drx_sl_quest_item_1_desc">
+		<text>"Jxu Pedu ev Qbyudqjyed - Jxu Hebu ev Ucyiiyedi yd Ckjqdj Hufhetksjyed\nro Fhevuiieh Q.R. Ijhkwqjiao\n \n
+		Qrijhqsj\n
+		Concernant les recherches menées au Laboratoire X-10, il est mentionné que des expériences ont été réalisées sur des champs énergétiques inconnus, tandis que le Laboratoire X-16 se concentrait sur des études liées à la manipulation de la matière organique. Pourquoi ces deux installations ont-elles travaillé sur des projets aussi similaires ?\n \n
+		Ces documents contiennent des informations classifiées concernant les anomalies détectées dans la zone interdite. Bien que partiellement endommagés, les rapports restants révèlent des tentatives répétées de pénétrer dans une structure souterraine située près du point de contrôle militaire, où des phénomènes inexpliqués ont été observés.\n \n
+		Selon les données disponibles, ces expériences visaient à étudier un phénomène appelé « champ » - une structure énergétique capable d'altérer les propriétés physiques de la matière environnante, bien que son mécanisme exact reste inconnu. Les champs semblent interagir avec les objets et les êtres vivants, provoquant des mutations, des distorsions spatiales ou même la création de zones où les lois physiques conventionnelles ne s'appliquent plus. Les champs pourraient également être liés à la formation d'anomalies stables, bien que cette hypothèse nécessite des recherches supplémentaires pour être confirmée, notamment en raison de la complexité des interactions observées et de la difficulté à reproduire ces phénomènes en laboratoire.\n \n
+		Classifié : un rapport confidentiel révèle que des tentatives ont été faites pour infiltrer une installation secrète où des expériences interdites étaient menées. Malheureusement, tous les agents envoyés ont disparu sans laisser de trace dans la région de Pripyat, ce qui suggère soit une trahison, soit une force inconnue les ayant interceptés.\n
+		cc -2018\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+	<!-- DRX Storyline Locked Case Quest Item -->
+	<string id="drx_sl_quest_item_2_name">
+		<text>Caisse verrouillée</text>
+	</string>
+	<string id="drx_sl_quest_item_2_desc">
+		<text>Un conteneur renforcé et solidement scellé, dont le contenu reste inconnu sans la clé appropriée ou les outils nécessaires pour l'ouvrir.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+	<!-- DRX Storyline PDA Quest Item -->
+	<string id="drx_sl_quest_item_3_name">
+		<text>PDA chiffré</text>
+	</string>
+	<string id="drx_sl_quest_item_3_desc">
+		<text>Un assistant numérique personnel protégé par un chiffrement avancé, contenant probablement des données précieuses.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+	<string id="bad_psy_helmet_name">
+		<text>Casque-psy (non calibré)</text>
+	</string>
+	<string id="bad_psy_helmet_desc">
+		<text>Un prototype de casque conçu pour protéger le porteur des émissions psi. Cependant, sans étalonnage approprié, son efficacité est aléatoire et peut même amplifier les hallucinations ou les maux de tête. Dans son état actuel, il s'agit davantage d'un pari que d'une véritable protection.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+	<string id="good_psy_helmet_name">
+		<text>Casque-psy (calibré)</text>
+	</string>
+	<string id="good_psy_helmet_desc">
+		<text>Un prototype de Casque-psy entièrement ajusté, conçu pour protéger contre les émissions psi de la Zone, réduisant significativement le risque d'attaques psychiques. Étalonné sur les schémas cérébraux du porteur, il offre une protection vitale lors de l'approche de zones comme le Lobotomisateur ou d'autres zones psi-actives.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+
+
+	<string id="cit_doctors_key_name">
+		<text>Clé du médecin</text>
+	</string>
+	<string id="cit_doctors_key_desc">
+		<text>Une clé portant la gravure « Hôtel Polissya - Chambre 26 » sur le côté.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+	<string id="cit_doctors_key_short_desc">
+		<text>Une clé portant la gravure « Hôtel Polissya - Chambre 26 » sur le côté.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+	<string id="item_docs_hiden_pri_name">
+		<text>Manuscrit de Strelok</text>
+	</string>
+	<string id="item_docs_hiden_pri_desc">
+		<text>Un manuscrit usé à reliure de cuir, rédigé par Strelok. Il pourrait expliquer certains des secrets de la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+	<string id="cit_doctors_pda_name">
+		<text>Notes du médecin</text>
+	</string>
+	<string id="cit_doctors_pda_desc">
+		<text>Quelques notes concernant les théories conspirationnistes d'anciens hommes.\n \n
+		Des rumeurs circulent selon lesquelles l'Institut Agroprom aurait servi de couverture à un laboratoire non officiel dans les années précédant l'accident de 2006. Ce laboratoire aurait abrité un certain nombre d'expériences très inhabituelles. Les marchands ont exhumé de nombreuses informations concernant ces laboratoires.\n
+		J'ai rencontré le Barman. Il affirme avoir envoyé des éclaireurs de Devoir pour pénétrer dans les soubassements souterrains de la Vallée Obscure, appelés X-18, mais ils ont disparu. D'autres rumeurs évoquent un mécanisme « psi-cerveau ». Tout le quartier de Yantar est sous l'influence de cet appareil. Il a zombifié quiconque s'en est approché. Un autre mécanisme se trouve dans les souterrains du Forêt Rouge radar, appelé Laboratoire X-19. Il s'agit probablement du Lobotomisateur.\n
+		Des éléments suggèrent que la présence du Lobotomisateur bloque intentionnellement la route vers le Nord, mais personne ne sait exactement de quoi il s'agit. Le Barman pense que le Lobotomisateur est artificiel et que ces mécanismes ne fonctionnent pas toujours à pleine puissance. Il estime qu'il existe des périodes où leur énergie est réduite pour permettre le refroidissement de l'appareil. Il est temps de visiter tous les laboratoires souterrains de la Zone et de découvrir quels secrets ils dissimulent. Je suis trop vieux pour ces conneries. J'aurais préféré que Strelok soit encore là...\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+	<string id="item_decoder_name">
+		<text>Décodeur</text>
+	</string>
+	<string id="item_decoder_desc">
+		<text>Un crocheteur électronique puissant. Il semble avoir été conçu pour un verrou électronique spécifique et ne peut être utilisé pour autre chose.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+	<string id="pri_decoder_docs_conclusion_txt">
+		<text>Le manuscrit contient un bref rapport détaillant comment Fang et Strelok ont infiltré un laboratoire secret et le trajet qu'ils ont emprunté pour y parvenir. Il mentionne une présence significative de Monolithe dans et autour de la Centrale nucléaire de Tchernobyl, en particulier sous le sarcophage de béton, suggérant que ce pourrait être leur principale base d'opérations, cachant peut-être quelque chose d'important. Plus loin, le rapport décrit la découverte d'un autre laboratoire plus au nord, sous les générateurs, bien qu'ils n'aient pas pu y accéder à ce moment-là en raison de la nécessité d'un décodeur spécial.\n \n</text>
+	</string>
+
+	<string id="item_quest_case_02_name">
+		<text>Documents militaires</text>
+	</string>
+	<string id="item_quest_case_02_desc">
+		<text>Une mallette ignifugée contenant des documents militaires et des rapports d'enquêtes menées près de Agroprom. Les rapports détaillent la disparition de machines et d'équipements de l'institut, ainsi que la falsification apparente des résultats des investigations sur leur localisation.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+
+	<string id="item_doc_x18_name">
+		<text>Rapport de recherche en biologie</text>
+	</string>
+	<string id="item_doc_x18_desc">
+		<text>Le rapport détaille l'étude d'échantillons biologiques envoyés depuis Laboratoire X-18. Ces échantillons ont été soumis à des effets de champs informationnels d'intensités variables. Le rapport décrit méticuleusement les mutations des êtres vivants suite à l'exposition à ces émissions.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+	<string id="item_doc_x16_name">
+		<text>Documents de recherche Psy</text>
+	</string>
+	<string id="item_doc_x16_desc">
+		<text>Les documents traitent de la découverte selon laquelle les êtres vivants sont capables de générer des émissions psychiques dirigées, ainsi que de la culture d'un large champ biologique émetteur appelé « cerveau », dans le cadre des recherches menées au Laboratoire X-16.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+	<string id="item_doc_x10_name">
+		<text>Documents sur l'émetteur Arc-en-ciel</text>
+	</string>
+	<string id="item_doc_x10_desc">
+		<text>Les documents décrivent les caractéristiques techniques d'une antenne et les écarts par rapport à ses conceptions prévues. Une note au verso indique que ces documents ont été préparés au Laboratoire X-19.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+	<string id="item_doc_x8_name">
+		<text>Ordre de transfert</text>
+	</string>
+	<string id="item_doc_x8_desc">
+		<text>Les documents font référence au transfert de l'équipe de recherche et de l'ensemble des matériaux vers un autre laboratoire situé loin au nord, ainsi qu'à leur utilisation pour étudier des questions liées à l'influence de la noosphère. Pour accéder au laboratoire, la date de l'accident doit être utilisée comme code (jjmmAAAA).\n
+		L'équipe de recherche était composée de : N.A. Lebedev, E.F. Kalancha et V.I. Suslov.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+	<string id="item_doc_jup_ug_name">
+		<text>Carnet d'expérimentation</text>
+	</string>
+	<string id="item_doc_jup_ug_desc">
+		<text>Le carnet contient une description détaillée d'une expérience évaluant l'effet d'un champ psi sur un objet situé dans un autre hémisphère. Un groupe de scientifiques dans les Caraïbes a reçu le signal, mais celui-ci avait été modifié de manière étrange, comme s'il avait été corrigé par quelqu'un. Une explication possible est que la théorie de la noosphère est correcte et que les modifications ont été apportées par la noosphère.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+
+	<string id="item_doc_mon_con_name">
+		<text>Rapport sur arme prototype</text>
+	</string>
+	<string id="item_doc_mon_con_name_desc">
+		<text>Des documents décrivant le mécanisme de fonctionnement et les principales caractéristiques techniques d'un dispositif électromagnétique plus avancé.\n
+		Un mot est inscrit à l'intérieur des documents : « Les documents doivent être retournés au laboratoire central de X-8. Je serai occupé, donc apportez-les vous-même. - N. Lebedev ».\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+	<string id="quest_package_name">
+		<text>Colis</text>
+	</string>
+	<string id="quest_package_desc">
+		<text>Le contenu de ce colis est inconnu.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+	
+	<string id="st_jup_b32_scanner_device_name">
+		<text>Scanner d'activité anormale</text>
+	</string>
+	<string id="st_jup_b32_scanner_device_desc">
+		<text>Cette mallette combine un détecteur d'artefact, une batterie et un émetteur puissant. L'appareil analysera les anomalies pour déterminer le nombre et le type d'artefacts présents. Toutes ces informations seront automatiquement relayées vers le bunker des scientifiques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+	
+	<!-- MLR -->
+	<string id="mlr_strelok_item_01">
+		<text>Carnet usé</text>
+	</string>
+	<string id="mlr_strelok_item_01_desc">
+		<text>Un carnet, probablement appartenant à Strelok. Il décrit en détail comment accéder à un complexe souterrain nommé X-18.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+	
+	<string id="blackbox_mlr">
+		<text>Enregistreur de vol</text>
+	</string>
+	<string id="blackbox_mlr_descr">
+		<text>Un enregistreur de vol, ou « boîte noire ». Les enregistreurs de vol sont utilisés pour enregistrer l'état des systèmes internes et les conversations de l'équipage, et peuvent fournir des informations vitales en cas d'accident. Dans la Zone, les stalker et le personnel militaire s'intéressent tout particulièrement à ces appareils.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+	
+	<string id="item_pda_map_mlr_name">
+		<text>PDA</text>
+	</string>
+	<string id="item_pda_map_mlr_descr">
+		<text>Un PDA contenant des informations sur les itinéraires entre différentes zones.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+	
+	
+	<!-- DRX -->
+	<string id="drx_x8_documents_name">
+		<text>Documents d'installation d'antenne</text>
+	</string>
+	<string id="drx_x8_documents_desc">
+		<text>Les documents font référence à ce qui semble être une installation massive de radar. Il s'agit très probablement de la structure abritant le Lobotomisateur.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+	
+	<string id="drx_x16_documents_name">
+		<text>Recherches biologiques</text>
+	</string>
+	<string id="drx_x16_documents_desc">
+		<text>Un ensemble de vieux documents faisant référence à des expériences menées sur des rats et d'autres animaux.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+	
+	<string id="drx_x18_documents_name">
+		<text>Rapport d'expérimentation : B0-D4</text>
+	</string>
+	<string id="drx_x18_documents_desc">
+		<text>D'anciens documents faisant référence à une expérience liée à la résonance des ondes psychiques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+	
+	<string id="drx_x19_documents_name">
+		<text>Journal de communication / 21.03.2006</text>
+	</string>
+	<string id="drx_x19_documents_desc">
+		<text>Une transcription imprimée d'une transmission radio entre des groupes de scientifiques de l'institut.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+	
+	<string id="drx_agr_u_documents_name">
+		<text>Documentation de l'Institut Agroprom</text>
+	</string>
+	<string id="drx_agr_u_documents_desc">
+		<text>Un ensemble de notes, de photos et d'une carte marquée concernant Agroprom. Probablement rédigé par Strelok.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+	
+	<string id="drx_jup_u_documents_name">
+		<text>Registres de transport</text>
+	</string>
+	<string id="drx_jup_u_documents_desc">
+		<text>Ces documents font référence à d'anciens registres concernant le transport d'équipements mécaniques et d'outils vers l'usine située dans Jupiter. Ils incluent également des schémas géométriques des tunnels menant vers le côté est.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+	
+	<string id="lx8_history_documents_name">
+		<text>Expérimentation (11.04.2005)</text>
+	</string>
+	<string id="lx8_history_documents_desc">
+		<text>Ce journal documente les résultats d'une expérience menée il y a plusieurs années sur de nouveaux types de émetteurs psy.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+	<string id="lx8_history_2_documents_name">
+		<text>Expérimentation (24.09.2005)</text>
+	</string>
+	<string id="lx8_history_2_documents_desc">
+		<text>Ce journal documente les résultats d'une expérience menée il y a plusieurs années sur les applications des ondes psychiques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+	<string id="lx8_history_3_documents_name">
+		<text>Expérimentation (02.05.2006)</text>
+	</string>
+	<string id="lx8_history_3_documents_desc">
+		<text>Ce journal documente les résultats d'une expérience biologique.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+	
+</string_table>

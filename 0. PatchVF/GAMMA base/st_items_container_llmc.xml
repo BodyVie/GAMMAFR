@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--UNUSED -->
+
+	<string id="st_af_itcher_lead_box_name">
+		<text>LLMC avec Itcher</text>
+	</string>  
+	<string id="st_af_itcher_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string> 
+
+	<string id="st_af_pin_lead_box_name">
+		<text>LLMC avec Épingle</text>
+	</string>  
+	<string id="st_af_pin_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>  
+	
+	<string id="st_af_cristall_lead_box_name">
+		<text>LLMC avec Crystal</text>
+	</string>
+	<string id="st_af_cristall_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_fireball_lead_box_name">
+		<text>LLMC avec Boule de feu</text>
+	</string>
+	<string id="st_af_fireball_lead_box_descr">
+		<text>
+		Il s’agit d’un artefact sphérique constitué de cristal de couleur rouge, formé dans l’anomalie Brûleur.
+		\nIl possède une propriété unique : sa température reste constante à 75 degrés Fahrenheit (24 degrés Celsius), indépendamment de son environnement. Cela lui permet d’absorber la chaleur environnante et de créer une poche d’air autour de l’utilisateur, empêchant les flammes d’endommager le corps.
+		\nUn effet dangereux de cet artefact réside dans le fait qu’il augmente la conductivité électrique, ce qui accroît considérablement le risque d’électrocution lors du port de cet artefact, en particulier pendant les orages et à proximité d’anomalies électriques. Il est relativement lourd en raison de la densité élevée du matériau cristallin.
+		\n\nLe niveau de radiation émis est élevé sur l’échelle de radiation des artefacts.\n \n
+		%c[ui_gray_2]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[ui_gray_2] Objet technologique\n
+		%c[d_cyan] • %c[ui_gray_2] objet de valeur\n
+		%c[pda_white] • %c[ui_gray_2] Dispositif de stockage d’artefacts\n
+		%c[pda_white] • %c[ui_gray_2] Capacité maximale :%c[ui_gray_2] 1\n
+		%c[pda_white] • %c[ui_gray_2] émissions radioactives :\n
+		-aucun\n
+		%c[pda_white] • %c[ui_gray_2] État :%c[ui_gray_2] complet\n
+
+		</text>
+	</string>
+	
+	<string id="st_af_blood_lead_box_name">
+		<text>LLMC avec Sang de Pierre</text>
+	</string>
+	<string id="st_af_blood_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_mincer_meat_lead_box_name">
+		<text>LLMC avec Morceau de Viande</text>
+	</string>
+	<string id="st_af_mincer_meat_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_bracelet_lead_box_name">
+		<text>LLMC avec Bracelet</text>
+	</string>  
+	<string id="st_af_bracelet_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>  
+	
+	<string id="st_af_baloon_lead_box_name">
+		<text>LLMC avec Bulle</text>
+	</string>
+	<string id="st_af_baloon_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_electra_sparkler_lead_box_name">
+		<text>LLMC avec Étincelle</text>
+	</string>
+	<string id="st_af_electra_sparkler_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_sponge_lead_box_name">
+		<text>LLMC avec Éponge</text>
+	</string>  
+	<string id="st_af_sponge_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string> 
+	
+	<string id="st_af_ring_lead_box_name">
+		<text>LLMC avec Anneau</text>
+	</string>  
+	<string id="st_af_ring_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string> 
+	
+	<string id="st_af_electra_flash_lead_box_name">
+		<text>LLMC avec Éclair</text>
+	</string>
+	<string id="st_af_electra_flash_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_cristall_flower_lead_box_name">
+		<text>LLMC avec Fleur de Pierre</text>
+	</string>
+	<string id="st_af_cristall_flower_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_lobster_eyes_lead_box_name">
+		<text>LLMC avec Yeux de Homard</text>
+	</string>  
+	<string id="st_af_lobster_eyes_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string> 
+	
+	<string id="st_af_electra_moonlight_lead_box_name">
+		<text>LLMC avec Clair de lune</text>
+	</string>
+	<string id="st_af_electra_moonlight_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_black_spray_lead_box_name">
+		<text>LLMC avec Peinture Noire</text>
+	</string>  
+	<string id="st_af_black_spray_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>  
+	
+	<string id="st_af_medusa_lead_box_name">
+		<text>LLMC avec Méduse</text>
+	</string>
+	<string id="st_af_medusa_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_vyvert_lead_box_name">
+		<text>LLMC avec Tordu</text>
+	</string>
+	<string id="st_af_vyvert_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_empty_lead_box_name">
+		<text>LLMC avec Vide</text>
+	</string>  
+	<string id="st_af_empty_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string> 
+ 	
+	<string id="st_af_full_empty_lead_box_name">
+		<text>LLMC avec Vide Absolu</text>
+	</string>  
+	<string id="st_af_full_empty_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string> 
+	
+	<string id="st_af_night_star_lead_box_name">
+		<text>LLMC avec Étoile de nuit</text>
+	</string>
+	<string id="st_af_night_star_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_gravi_lead_box_name">
+		<text>LLMC avec Gravi</text>
+	</string>
+	<string id="st_af_gravi_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_gold_fish_lead_box_name">
+		<text>LLMC avec Poisson doré</text>
+	</string>
+	<string id="st_af_gold_fish_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_dummy_glassbeads_lead_box_name">
+		<text>LLMC avec Perles de Maman</text>
+	</string>
+	<string id="st_af_dummy_glassbeads_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_eye_lead_box_name">
+		<text>LLMC avec Oeil</text>
+	</string>
+	<string id="st_af_eye_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_fire_lead_box_name">
+		<text>LLMC avec Flamme</text>
+	</string>
+	<string id="st_af_fire_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_dummy_battery_lead_box_name">
+		<text>LLMC avec Battery</text>
+	</string>
+	<string id="st_af_dummy_battery_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_dummy_dummy_lead_box_name">
+		<text>LLMC avec Coquille</text>
+	</string>
+	<string id="st_af_dummy_dummy_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_ice_lead_box_name">
+		<text>LLMC avec Flocon de neige</text>
+	</string>
+	<string id="st_af_ice_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_soul_lead_box_name">
+		<text>LLMC avec Âme</text>
+	</string>
+	<string id="st_af_soul_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_fuzz_kolobok_lead_box_name">
+		<text>LLMC avec Kolobok</text>
+	</string>
+	<string id="st_af_fuzz_kolobok_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_glass_lead_box_name">
+		<text>LLMC avec Luciole</text>
+	</string>
+	<string id="st_af_glass_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_compass_lead_box_name">
+		<text>LLMC avec Boussole</text>
+	</string>
+	<string id="st_af_compass_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_oasis_heart_lead_box_name">
+		<text>LLMC avec Coeur de l'Oasis</text>
+	</string>
+	<string id="st_af_oasis_heart_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+	
+	<string id="st_af_death_lamp_lead_box_name">
+		<text>LLMC avec Lampe de la Mort</text>
+	</string>  
+	<string id="st_af_death_lamp_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string> 
+	
+	<string id="st_af_misery_bread_lead_box_name">
+		<text>LLMC avec pain anomal</text>
+	</string>
+	<string id="st_af_misery_bread_lead_box_descr">
+		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
+	</string>
+
+</string_table>

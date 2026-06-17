@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="st_wpn_raptr">
+		<text>RAPTR</text>
+	</string>
+	<string id="st_wpn_raptr_descr">
+		<text>Fusil à pompe automatique alimenté par chargeur, conçu et adapté aux besoins spécifiques de la Zone. Son cadence de tir élevée, sa grande capacité de chargeur et son ergonomie inégalée lui ont valu le surnom de « Tueur de Bloodsuckers ». Il est considéré comme l'une des meilleures armes en calibre 12x70 mm disponibles dans la Zone.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Ukraine\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Inconnu\n
+		</text>
+	</string>
+	<string id="mag_raptr">
+		<text>Chargeur tambour RAPTR</text>
+	</string>
+	<string id="mag_raptr_descr">
+		<text>Chargeur tambour RAPTR de calibre 12.</text>
+	</string>
+	
+</string_table>

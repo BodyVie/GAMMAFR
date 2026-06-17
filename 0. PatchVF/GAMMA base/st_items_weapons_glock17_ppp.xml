@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+overwrites st_wpn_glock17
+-->
+	<string id="st_wpn_glock17">
+		<text>Glock 17</text>
+	</string>
+	<string id="st_wpn_glock17_short">
+		<text>Glock 17</text>
+	</string>
+	<string id="st_wpn_glock17_descr">
+		<text>Pistolet semi-automatique largement utilisé, reconnu pour son cadre en polymère léger, sa grande capacité de chargeur et sa fiabilité exceptionnelle. Sa conception simple mais efficace en fait un favori parmi les militaires, les forces de l'ordre et les stalkers. Grâce à une détente fluide et un faible recul, il constitue une arme de poing fiable pour les situations défensives comme offensives.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Autriche\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Glock Ges.m.b.H.\n
+		</text>
+	</string>
+
+	<string id="st_up_glock17_45acp_name">
+		<text>Rechambrer en .45 ACP</text>
+	</string>
+
+<!--UNUSED
+
+	<string id="st_wpn_xd9">
+		<text>XD Mod.2</text>
+	</string>
+	<string id="st_wpn_xd9_short">
+		<text>XD Mod.2</text>
+	</string>
+	<string id="st_wpn_xd9_descr">
+		<text>Équivalent américain du HS2000 à cadre en polymère et à percussion par percuteur, fabriqué par HS Produkt. Le modèle Mod.2 est une version bien plus compacte du HS2000, conçue pour le port dissimulé, avec comme changement notable la « Grip Zone », offrant des améliorations ergonomiques remarquables. Malgré sa taille réduite et sa faible capacité de chargeur, il représente un ajout apprécié pour ceux qui recherchent une arme précise avec un recul minimal.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Croatie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Springfield Armory, Inc.\n
+		</text>
+	</string>
+
+-->
+
+</string_table>

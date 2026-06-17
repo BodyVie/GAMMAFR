@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+    <string id="ui_mcm_menu_liz_qht">
+        <text>Animations de couvre-chef</text>
+    </string>
+
+    <string id="ui_mcm_liz_qht_keybind">
+		<text>Raccourci équipement/déséquipement masque à gaz</text>
+	</string>
+
+    <string id="ui_mcm_liz_qht_keybind_desc">
+		<text>Ce raccourci clavier peut être configuré pour nécessiter des touches modificatrices supplémentaires afin d'éviter les conflits.</text>
+	</string>
+
+    <string id="ui_mcm_liz_qht_update_mcm">
+        <text>Votre version de MCM est obsolète. Mettez à jour vers une version plus récente.</text>
+    </string>
+
+    <string id="ui_mcm_liz_qht_strict_helmets">
+        <text>Mode casques stricts</text>
+    </string>
+
+    <string id="ui_mcm_liz_qht_strict_helmets_desc">
+        <text>Lorsque cette option est activée, vous ne pourrez pas manger, boire, prendre des pilules ou fumer lorsque votre couvre-chef est équipé. Cela inclut les armures dotées de casques intégrés. Il existe quelques exceptions pour les couvre-chefs qui ne couvrent pas la bouche.</text>
+    </string>
+
+    <string id="ui_mcm_liz_qht_icon_state">
+        <text>Afficher l'icône d'état du couvre-chef</text>
+    </string>
+    
+    <string id="ui_mcm_liz_qht_icon_state_desc">
+        <text>Contrôle le mode d'affichage de l'icône d'état du casque. Cette icône s'affiche dans la section d'état du personnage et avertit le joueur que le couvre-chef est équipé (ou non équipé selon l'option sélectionnée).</text>
+    </string>
+
+    <string id="ui_mcm_liz_qht_icon_state_none">
+        <text>Aucun</text>
+    </string>
+    
+    <string id="ui_mcm_liz_qht_icon_state_enabled">
+        <text>Afficher lorsque le couvre-chef est équipé</text>
+    </string>
+    
+    <string id="ui_mcm_liz_qht_icon_state_inverted">
+        <text>Afficher lorsque le couvre-chef est déséquipé</text>
+    </string>
+    
+
+</string_table>

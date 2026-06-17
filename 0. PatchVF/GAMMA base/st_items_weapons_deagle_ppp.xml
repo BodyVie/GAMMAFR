@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--UNUSED
+
+	<string id="st_wpn_desert_eagle_gold">
+		<text>Desert Eagle</text>
+	</string>
+	
+	<string id="st_wpn_desert_eagle_black">
+		<text>Desert Eagle</text>
+	</string>
+
+	<string id="st_wpn_desert_eagle_dhampyr">
+		<text>Desert Eagle « Dhampyr »</text>
+	</string>
+	<string id="st_wpn_desert_eagle_dhampyr_descr">
+		<text>Pistolet semi-automatique à gaz, connu pour chambrer la plus puissante cartouche de tous les pistolets à chargeur et à rechargement automatique. Il utilise un mécanisme d'éjection et de chambrage à gaz, normalement réservé aux fusils, ce qui lui permet d'utiliser des cartouches bien plus puissantes que les modèles traditionnels de pistolets semi-automatiques. Cela permet au Desert Eagle de rivaliser dans un domaine auparavant dominé par les revolvers Magnum. Curieusement, ce modèle a été modifié pour tirer du .357 Magnum.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis, Israël\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Israel Military Industries\n
+		</text>
+	</string>
+	
+	<string id="st_up_deagle_127_name">
+		<text>Rechambrer en 12,7x55</text>
+	</string>
+
+	<string id="st_up_deagle_127_descr">
+		<text>Rechambrer l'arme pour utiliser le 12,7x55 mm</text>
+	</string>
+-->
+
+</string_table>

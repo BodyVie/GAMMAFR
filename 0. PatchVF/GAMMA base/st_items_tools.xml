@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	KITS/TOOLS
+-->
+
+	<string id="st_itm_repairkit_tier_1_name">
+		<text>Outils de base</text>
+	</string>
+	<string id="st_itm_basickit_name">
+		<text>Outils de base</text>
+	</string>
+	<string id="st_itm_basickit_descr">
+		<text>Ensemble simple de clés, pinces et tournevis utilisé pour les réparations de base sur les armes, les armures et les équipements électroniques en campagne. Suffisant pour des réparations mineures, mais dépourvu de la précision nécessaire pour les modifications avancées ou le travail sur des équipements délicats.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white]Nécessite des matériaux adaptés\n
+		%c[d_orange] • %c[pda_white] Utilisable à l'atelier du mécanicien\n
+		%c[d_orange] • %c[pda_white] Remarque : %c[ui_gray_2] Un technicien pourrait utiliser ceci pour modifier des armes et des armures\n
+		</text>
+	</string>
+
+	<string id="st_itm_repairkit_tier_2_name">
+		<text>Outils avancés</text>
+	</string>
+	<string id="st_itm_advancedkit_name">
+		<text>Outils avancés</text>
+	</string>
+	<string id="st_itm_advancedkit_descr">
+		<text>Collection plus raffinée d'instruments de précision, incluant des tournevis spécialisés, du matériel de soudure et des appareils de diagnostic. Idéale pour réparer des armes avancées, améliorer des équipements de protection ou ajuster des dispositifs, ces outils sont appréciés tant par les stalkers expérimentés que par les techniciens.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nécessite des matériaux adaptés\n
+		%c[d_orange] • %c[pda_white] Utilisable à l'atelier du mécanicien\n
+		%c[d_orange] • %c[pda_white] Remarque : %c[ui_gray_2] Un technicien pourrait utiliser ceci pour modifier des armes et des armures\n
+		</text>
+	</string>
+
+	<string id="st_itm_repairkit_tier_3_name">
+		<text>Outils experts</text>
+	</string>
+	<string id="st_itm_expertkit_name">
+		<text>Outils experts</text>
+	</string>
+	<string id="st_itm_expertkit_descr">
+		<text>Ensemble rare et très prisé d'outils professionnels, incluant des micro-soudeuses, des pieds à coulisse de précision et des appareils de diagnostic avancés. Seuls les techniciens les plus qualifiés peuvent les utiliser pleinement, permettant des modifications complexes et des réparations haut de gamme sur les armes, les armures et les équipements.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nécessite des matériaux adaptés\n
+		%c[d_orange] • %c[pda_white] Utilisable à l'atelier du mécanicien\n
+		%c[d_orange] • %c[pda_white] Remarque : %c[ui_gray_2] Un technicien pourrait utiliser ceci pour modifier des armes et des armures\n
+		</text>
+	</string>
+
+	<string id="st_itm_drugkit">
+		<text>Kit de fabrication de drogues</text>
+	</string>
+	<string id="st_itm_drugkit_descr">
+		<text>Laboratoire chimique compact contenant des outils de mesure, des brûleur, des fioles et des agents de mélange pour la synthèse de médicaments et de stimulants sur le terrain. Essentiel pour ceux qui fabriquent leurs propres stimulants, médicaments ou améliorants.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nécessite des matériaux adaptés\n
+		%c[d_orange] • %c[pda_white] Utilisable à l'atelier du mécanicien\n
+		</text>
+	</string>
+
+	<string id="st_itm_ammokit">
+		<text>Outils d'armurier</text>
+	</string>
+	<string id="st_itm_ammokit_descr">
+		<text>Kit spécialisé conçu pour l'entretien, la modification et la fabrication de pièces d'armes à feu, incluant des limes, des poinçons, des clés dynamométriques et des produits de nettoyage de précision. Avec suffisamment de connaissances et d'expérience, ce kit peut être utilisé pour recycler des munitions endommagées et créer des variantes améliorées.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nécessite des matériaux adaptés\n
+		%c[d_orange] • %c[pda_white] Utilisable à l'atelier du mécanicien\n
+		</text>
+	</string>
+
+<!--
+	UTILITY
+-->
+
+	<string id="st_binocular_name">
+		<text>Jumelles</text>
+	</string>
+	<string id="st_binocular_descr">
+		<text>Paire de jumelles militaires ukrainiennes robustes, utilisées par les stalkers pour repérer les anomalies lointaines, les territoires hostiles ou les chemins potentiellement sûrs. Équipées d'une fonction de zoom, des optiques fiables comme celles-ci peuvent faire la différence entre détecter un danger à temps et tomber dans une embuscade.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white]Équiper dans l'emplacement jumelles\n
+		</text>
+	</string>
+
+	<string id="st_swiss">
+		<text>Couteau suisse</text>
+	</string>
+	<string id="st_swiss_descr">
+		<text>Outil compact et polyvalent équipé de lames, de tournevis et d'autres accessoires essentiels, idéal pour les réparations rapides, le démontage d'outils, la découpe et les tâches de survie. Léger et fiable, il constitue un compagnon de confiance dans un format de poche.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white]Outil de désassemblage\n
+		</text>
+	</string>
+
+	<string id="st_grooming">
+		<text>Kit de toilettage</text>
+	</string>
+	<string id="st_grooming_descr">
+		<text>Petite trousse de soins personnels contenue dans un sac en nylon, incluant un rasoir, un peigne, des ciseaux et une brosse à dents. Bien que l'hygiène de base aide à préserver un sentiment de normalité, certains réutilisent parfois ces outils pour l'entretien sur le terrain.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white]Outil de désassemblage\n
+		</text>
+	</string>
+
+	<string id="st_bolts_pack">
+		<text>Lot de projectiles</text>
+	</string>
+	<string id="st_bolts_pack_descr">
+		<text>Un petit paquet contenant une poignée de boulons et de cartouches vides, utilisé comme alternative économique pour la navigation dans les anomalies.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Contient 20 à 30 « Boulons » et/ou « Cartouches de Vide »\n
+		</text>
+	</string>
+	
+<!--
+	ARTEFACT HANDLING
+-->
+
+<!-- UNUSED
+	<string id="st_lead_box_name">
+		<text>Conteneur métallique plombé (Vide)</text>
+	</string>
+	<string id="st_lead_box_descr">
+		<text>Le LLMC est une simple boîte métallique aux parois épaisses, dotée d'inserts en mousse et d'un couvercle lourd à fermeture hermétique. Conçu spécifiquement pour le transport de artefacts au sein de la Zone. Il bloque toute radiation, garantissant ainsi la sécurité de l'utilisateur lors de la possession de artefacts. Cependant, l'appareil ne peut pas être attaché à la ceinture, empêchant l'application des propriétés positives ou négatives.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[ui_cyan] • %c[pda_white]Dispositif de stockage d'artefacts\n
+		%c[ui_cyan] • %c[pda_white] Capacité : %c[ui_gray_2]1\n \n
+		%c[ui_red]AVERTISSEMENT : %c[ui_gray_2]Vous devez retirer les artefacts du conteneur avant de les vendre.\n \n
+		</text>
+	</string>
+	
+	<string id="st_lead_box_half_name">
+		<text>Conteneur métallique plombé (à moitié rempli)</text>
+	</string>
+	<string id="st_lead_box_half_descr">
+		<text>Le LLMC est une simple boîte métallique aux parois épaisses, dotée d'inserts en mousse et d'un couvercle lourd à fermeture hermétique. Conçu spécifiquement pour le transport de artefacts au sein de la Zone. Il bloque toute radiation, garantissant ainsi la sécurité de l'utilisateur lors de la possession de artefacts. Cependant, l'appareil ne peut pas être attaché à la ceinture, empêchant l'application des propriétés positives ou négatives.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[ui_cyan] • %c[pda_white]Dispositif de stockage d'artefacts\n
+		%c[ui_cyan] • %c[pda_white] Capacité : %c[ui_gray_2]1\n \n
+		%c[ui_red]AVERTISSEMENT : %c[ui_gray_2]Vous devez retirer les artefacts du conteneur avant de les vendre.\n \n
+		</text>
+	</string>
+	
+	<string id="st_lead_box_closed_name">
+		<text>Conteneur métallique plombé (complet)</text>
+	</string>
+	<string id="st_lead_box_closed_descr">
+		<text>Le LLMC est une simple boîte métallique aux parois épaisses, dotée d'inserts en mousse et d'un couvercle lourd à fermeture hermétique. Conçu spécifiquement pour le transport de artefacts au sein de la Zone. Il bloque toute radiation, garantissant ainsi la sécurité de l'utilisateur lors de la possession de artefacts. Cependant, l'appareil ne peut pas être attaché à la ceinture, empêchant l'application des propriétés positives ou négatives.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[ui_cyan] • %c[pda_white]Dispositif de stockage d'artefacts\n
+		%c[ui_cyan] • %c[pda_white] Capacité : %c[ui_gray_2]1\n \n
+		%c[ui_red]AVERTISSEMENT : %c[ui_gray_2]Vous devez retirer les artefacts du conteneur avant de les vendre.\n \n
+		</text>
+	</string>
+-->
+
+<!--
+	SLEEPING
+-->
+
+	<string id="st_itm_sleepbag_name">
+		<text>Sac de couchage (complet)</text>
+	</string>
+	<string id="st_itm_sleepbag_descr">
+		<text>Sac de couchage compact et entièrement équipé, conçu pour offrir un confort de base et une isolation thermique lors des nuits froides. Léger et facile à transporter, il assure une chaleur et une protection essentielles contre les intempéries dans les camps de fortune.\n \n
+		%c[ui_red]AVERTISSEMENT : %c[ui_gray_2]Dormir à découvert peut attirer des prédateurs.\n
+		Ne protège pas des radiations.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Placer un Sac de couchage, Dormir\n
+		%c[d_cyan] • %c[pda_white]REMARQUE : %c[ui_gray_2]Utiliser le Sac de transport pour ramasser\n
+		</text>
+	</string>
+
+	<string id="st_compression_bag">
+		<text>Sac de couchage (Vide)</text>
+	</string>
+	<string id="st_compression_bag_descr">
+		<text>Sac vide conçu pour le rangement d'un sac de couchage.\n \n
+		%c[ui_gray_2]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Récupérer le sac de couchage\n
+		%c[d_cyan] • %c[pda_white]REMARQUE : %c[ui_gray_2]À utiliser à proximité d'un Sac de couchage\n
+		</text>
+	</string>
+
+	<string id="st_itm_tent_name">
+		<text>Tente de camping (complète)</text>
+	</string>
+	<string id="st_itm_tent_descr">
+		<text>Tente de camping portable et entièrement équipée, offrant un abri contre les intempéries. Indispensable pour les expéditions prolongées, elle procure sécurité et intimité temporaires dans les zones sauvages de la Zone.\n \n
+		%c[ui_red]AVERTISSEMENT : %c[ui_gray_2]Dormir à découvert peut attirer des prédateurs.\n
+		Ne protège pas des radiations.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Placer la tente, dormir\n
+		%c[d_cyan] • %c[pda_white]REMARQUE : %c[ui_gray_2]Utiliser le Sac de tente de camping (Vide) pour ramasser\n
+		</text>
+	</string>
+
+	<string id="st_itm_tent_bag">
+		<text>Tente de camping (Vide)</text>
+	</string>
+	<string id="st_itm_tent_bag_descr">
+		<text>Sac vide servant au stockage d'une tente.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Récupérer la tente\n
+		%c[d_cyan] • %c[pda_white]REMARQUE : %c[ui_gray_2]À utiliser à proximité d'une tente\n
+		</text>
+	</string>
+
+<!--
+	OTHER
+-->
+
+	<string id="st_itm_mapkit">
+		<text>Carte des anomalies</text>
+	</string>
+	<string id="st_itm_mapkit_descr">
+		<text>Une grande carte imprimée avec certains lieux marqués et des feuilles manuscrites. Apparemment, le propriétaire était un chasseur d'artefacts.\n \n
+		</text>
+	</string>
+	<string id="st_itm_mapkit_1">
+		<text>Carte des anomalies (Entrepôts de l'armée)</text>
+	</string>
+	<string id="st_itm_mapkit_2">
+		<text>Carte des anomalies (Yantar)</text>
+	</string>
+	<string id="st_itm_mapkit_3">
+		<text>Carte des anomalies (Forêt Rouge)</text>
+	</string>
+	<string id="st_itm_mapkit_4">
+		<text>Carte des anomalies (Ville morte)</text>
+	</string>
+	<string id="st_itm_mapkit_5">
+		<text>Carte des anomalies (Cimetière de véhicules)</text>
+	</string>
+	<string id="st_itm_mapkit_6">
+		<text>Carte des anomalies (Jupiter)</text>
+	</string>
+	<string id="st_itm_mapkit_7">
+		<text>Carte des anomalies (Zaton)</text>
+	</string>
+	<string id="st_itm_mapkit_8">
+		<text>Carte des anomalies (Décharge)</text>
+	</string>
+	<string id="st_itm_mapkit_9">
+		<text>Carte des anomalies (Agroprom)</text>
+	</string>
+	
+	<string id="st_ammo_box">
+		<text>5,45x39 mm FMJ (BaS)</text>
+	</string>
+	<string id="st_ammo_box_descr">
+		<text>Chaque stalker connaît l'importance d'un armement fiable. C'est pourquoi un examen quotidien et approfondi de votre arme est vital pour votre survie. Les Stalkers comptent souvent leurs munitions et les nettoient afin de minimiser les risques d'enrayage en pleine bataille.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+	
+	<string id="st_itm_gunsmith_toolkit">
+		<text>Kit d'armurier</text>
+	</string>
+	<string id="st_itm_gunsmith_toolkit_descr">
+		<text>Un kit contenant des huiles et des outils pour l'entretien de base des armes à feu. Utile lors des explorations, mais assez lourd.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] faites glisser sur l'objet que vous souhaitez réparer\n
+		</text>
+	</string>
+	
+	<string id="st_itm_outfit_toolkit">
+		<text>Kit de couture</text>
+	</string>
+	<string id="st_itm_outfit_toolkit_descr">
+		<text>Kit de fortune composé d'équipement de couture et de matériaux de rechange destinés à l'entretien des tenues. Utile pour réparer les trous et les déchirures dans les armures.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] faites glisser sur l'objet que vous souhaitez réparer\n
+		</text>
+	</string>
+
+<!--
+	UNUSED
+-->
+
+	<string id="st_itm_artefact_container_name">
+		<text>Conteneur à Artefacts</text>
+	</string>
+
+	<string id="st_con_checker_name">
+		<text>Page d'état de l'équipement</text>
+	</string>
+	<string id="st_con_checker_descr">
+		<text>Un morceau de papier indiquant l'état de votre équipement.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisable pour évaluer l'état de l'équipement\n
+		</text>
+	</string>
+
+	<string id="st_crowbar">
+		<text>Pied-de-biche</text>
+	</string>
+	<string id="st_crowbar_descr">
+		<text>Outil optimal pour l'ouverture de serrures et le démontage de portes.\n
+		Des rumeurs circulent au sujet d'un stalker célèbre ayant utilisé une barre à mine comme arme, sur laquelle était inscrite la mention « Property of Black Mesa ».\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white]Utilisations illimitées\n
+		</text>
+	</string>
+
+	<string id="st_itm_lantern_name">
+		<text>Lanterne à LED</text>
+	</string>
+	<string id="st_itm_lantern_desc">
+		<text>Une lampe volumineuse, robuste et puissante fonctionnant sur batteries lithium-ion.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_lighter">
+		<text>Briquet</text>
+	</string>
+	<string id="st_lighter_descr">
+		<text>Une source de feu fiable et étanche est essentielle dans la Zone.\n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Cuisson, Fumage, Allumage de feu\n
+		</text>
+	</string>
+	
+	<string id="st_lighter_refillers_descr">
+		<text>Porter un briquet ne sert à presque rien si l'on ne peut pas l'utiliser. Les stalkers expérimentés veillent toujours à remplir leurs briquets de carburant avant de s'aventurer profondément dans la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Ravitaillement des briquets\n
+		</text>
+	</string>
+	
+	<string id="st_lighter_refiller5">
+		<text>Carburant pour briquet (133 ml)</text>
+	</string>
+	<string id="st_lighter_refiller4">
+		<text>Carburant pour briquet (107 ml)</text>
+	</string>
+	<string id="st_lighter_refiller3">
+		<text>Carburant pour briquet (80 ml)</text>
+	</string>
+	<string id="st_lighter_refiller2">
+		<text>Carburant pour briquet (54 ml)</text>
+	</string>
+	<string id="st_lighter_refiller1">
+		<text>Carburant pour briquet (27 ml)</text>
+	</string>
+
+	<string id="st_drugs_kit">
+		<text>Petit kit de médicaments</text>
+	</string>
+	<string id="st_drugs_kit_descr">
+		<text>Petites boîtes de sachets plastiques contenant des pilules et des herbes utilisées pour la gestion et la production de drogues.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[ui_red] • %c[pda_white]Inutilisable\n
+		</text>
+	</string>
+
+</string_table>

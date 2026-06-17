@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!-- General -->
+	<string id="story_line_dialog_1">
+		<text>Voilà les coordonnées de l'anomalie. Fais-en le relevé avec ton détecteur. Les échantillons qui m'intéressent devraient s'y trouver.</text>
+	</string>
+	<string id="story_line_answer_1">
+		<text>Reçu.</text>
+	</string>	
+	<string id="story_line_dialog_2">
+		<text>Comme tu l'as probablement deviné, je bosse dans un groupe scientifique de l'Institut de Recherche sur la Zone Anomale de Tchernobyl. Les artefacts sont invisibles à l'oeil nu, mais la fréquence qu'ils émettent peut être captée par les détecteurs.</text>
+	</string>
+	<string id="story_line_answer_2">
+		<text>Ouais, je sais.</text>
+	</string>	
+	<string id="story_line_dialog_3">
+		<text>Chaque artefact émet de l'énergie sur sa propre fréquence unique. C'est comme une empreinte digitale, la signature d'un artiste sur sa toile. Plus la base de données du détecteur et le spectre de balayage sont larges, plus il peut repérer d'artefacts. En règle générale, les stalkers cherchent des artefacts aux propriétés exceptionnelles. Pendant ce temps, n'importe quel échantillon issu des anomalies intéresse énormément la science.</text>
+	</string>
+	<string id="story_line_answer_3">
+		<text>Très intéressant.</text>
+	</string>	
+	<string id="story_line_dialog_4">
+		<text>Comme tu le sais, Strelok a réussi à percer le secret de la création des Zone. Maintenant, cette info est accessible à de nombreux scientifiques. Ça a fait avancer à pas de géant notre compréhension de la nature fascinante des anomalies et de leur impact sur l'environnement et les organismes vivants. C'est même comme ça que certaines équipes de recherche ont créé les Artefacts Fondeurs, un outil permettant de fusionner et de renforcer des artefacts existants. Mais là, on est en train de compiler une base de données d'observations et de mesures sur le terrain. On peut pas vraiment appeler ça un boulot facile. C'est pour ça qu'on cherche des assistants parmi les stalkers libres.</text>
+	</string>
+	<string id="story_line_answer_4">
+		<text>Pour une récompense digne de ce nom, bien sûr.</text>
+	</string>	
+	<string id="story_line_dialog_5">
+		<text>Effectivement... La rupture de la Noosphère, que tout le monde connaît sous le nom de Seconde Explosion, a engendré la Zone anomale. Les lignes de force des champs psi enveloppent ce territoire comme des tentacules. Tout objet à l'intérieur de la Zone subit leur influence. Même toi, t'es déjà marqué par la Zone. Les Artefacts sont un cadeau incroyable que tout le monde ne sait pas apprécier. Et c'est pas une question de fric. Les artefacts sont les messagers de la Zone ; à travers eux, elle communique avec nous. C'est pour ça qu'on en a tant besoin : pour mieux comprendre la Zone.</text>
+	</string>
+	<string id="story_line_answer_5">
+		<text>Épargne-moi le jargon de cerveau, s'te plaît... On peut pas tartiner un artefact sur une tranche de pain, tu sais ?</text>
+	</string>	
+	<string id="story_line_dialog_6">
+		<text>Enfin, chaque artefact a une modulation unique, même s'ils sont du même type. Ça peut nous en apprendre beaucoup sur la Noosphère. La pire connerie à faire, c'est de les accrocher à ta ceinture en espérant qu'ils te protègent des balles ou des anomalies. On commence tout juste à entrevoir une réponse, et notre plan, c'est de compiler un spectrogramme complet de la Zone. Pour ça, faudra arpenter les quatre coins de la Zone.</text>
+	</string>
+	<string id="story_line_answer_6">
+		<text>Ben, à ton avis, je fais quoi ? J'écris une thèse toute la journée ?</text>
+	</string>	
+	<string id="story_line_dialog_7">
+		<text>T'es jamais demandé de quoi sont faits les artefacts ? Le plus souvent, ce sont les restes de créatures vivantes qui ont trébuché dans des anomalies. Alors la prochaine fois que tu te la joues avec une trouvaille rare, souviens-toi : ça pourrait être les restes d'un stalker comme toi. Ou d'un sanglier, va savoir.</text>
+	</string>
+	<string id="story_line_answer_7">
+		<text>Ça... c'était une info utile. Merci. J'essaierai de m'en souvenir.</text>
+	</string>	
+	<string id="story_line_dialog_8">
+		<text>On pense que les anomalies sont une sorte de déchirures spatio-temporelles où les lois physiques de notre monde ne s'appliquent plus. Mais y'a un autre point de vue : ce seraient des sources de signaux puissants qu'on est juste incapables de capter. Qui les émet, et pourquoi ? Ou alors, c'est juste un couvercle de casserole qui claque à cause de la soupe qui bout à l'intérieur ?</text>
+	</string>	
+	<string id="story_line_answer_8">
+		<text>L'essentiel, c'est que ça n'explose plus.</text>
+	</string>	
+	<string id="story_line_dialog_9">
+		<text>Une anomalie choisit généralement des échantillons organiques comme récepteur d'informations. Par exemple, des bêtes sauvages ou des zombies qui crèvent souvent dedans. C'est comme ça que les artefacts apparaissent. En connaissant l'endroit exact d'où vient un artefact, tu peux le lire comme un livre ou une clé USB.</text>
+	</string>
+	<string id="story_line_answer_9">
+		<text>J'espère que vous avez pas pensé à balancer n'importe quelle merde dans les anomalies, vous ?</text>
+	</string>	
+	<string id="story_line_dialog_10">
+		<text>On n'achète pas d'artefacts aux stalkers ni aux bandits. Sans connaître leur point d'origine exact, ils nous servent à rien. Notre mission, c'est de prélever des échantillons dans tous les recoins de la Zone.</text>
+	</string>	
+	<string id="story_line_answer_10">
+		<text>Compris.</text>
+	</string>	
+	<string id="story_line_dialog_11">
+		<text>Chaque artefact, même du même type, a une signature radioactive unique selon l'endroit où il a été trouvé. La Zone a laissé sur chacun d'eux une empreinte inimitable. En connaissant le spectre complet des émissions, on pourra cartographier les champs psioniques de la Zone. Comprendre les origines des perturbations qui ont engendré la Zone. Et peut-être même les contrôler ou prédire leurs déplacements.</text>
+	</string>	
+	<string id="story_line_answer_11">
+		<text>Des plans ambitieux. Mais ça nous serait sacrément utile.</text>
+	</string>	
+	<string id="story_line_dialog_12">
+		<text>Grâce à toi, notre cluster de calcul tourne 24h/24. Y'a assez de données pour des années d'analyse. C'était vraiment la bonne décision, malgré les risques, de disperser l'équipe sur tout le territoire. Notre chef, l'académicien Skabinsky, a fait preuve d'une grande clairvoyance. Impossible pour une seule personne de saisir une structure aussi massive dans son ensemble. C'est seulement en mutualisant nos capacités cognitives qu'on peut réussir.</text>
+	</string>	
+	<string id="story_line_answer_12">
+		<text>Content pour toi.</text>
+	</string>	
+	<string id="story_line_dialog_13">
+		<text>Merci d'être resté avec nous. D'habitude, les stalkers qui nous aident finissent par disparaître sans arrêt. L'analyse préliminaire du spectrogramme est pleine de surprises ; on dirait que le centre de la Zone a toujours été sous notre nez. Notre collègue n'a pas pu attendre les calculs finaux et est déjà parti là-bas. Moi, par contre, je penche pour finir la compilation de la carte. Il me manque encore quelques échantillons.</text>
+	</string>	
+	<string id="story_line_answer_13">
+		<text>Ce boulot n'en finit jamais.</text>
+	</string>	
+	<string id="story_line_dialog_14">
+		<text>Notre travail touche à sa fin. Bientôt, nous prouverons que nous méritons de prendre notre place... Tu sais qu'il y a une giga-anomalie au centre de la Zone, et que toutes les lignes psi s'y croisent ? Un artefact né en ce lieu unique possédera des propriétés uniques. La Zone finira par nous parler.</text>
+	</string>	
+	<string id="story_line_answer_14">
+		<text>Pour « nous » ?</text>
+	</string>	
+	<string id="story_line_dialog_15">
+		<text>Mauvaise nouvelle. Notre frère ne répond plus. Pas de raison d'espérer le meilleur ; il a très probablement clamsé. Il y a une giga-anomalie au centre de la Zone. La traverser est quasi impossible. Faudra qu'on réfléchisse à comment résoudre ce problème ; peut-être qu'on devrait affiner les calculs.</text>
+	</string>	
+	<string id="story_line_answer_15">
+		<text>Dans la Zone, faut toujours réfléchir avant d'agir.</text>
+	</string>	
+	
+</string_table>

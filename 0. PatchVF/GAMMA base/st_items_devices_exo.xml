@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Devices
+-->
+
+<string_table>
+
+	<string id="st_itm_exo_psu_name">
+		<text>Alimentation exosquelette bricolée</text>
+	</string>
+	<string id="st_itm_exo_psu_descr">
+		<text>Alimentation auxiliaire équipée sur les exosquelettes pour augmenter leur capacité énergétique. Populaire auprès de la plupart des stalkers en raison des centrales électriques plutôt inefficaces des exosquelettes standard. Pour l'utiliser, faites glisser sur un exosquelette.\n \nCe type d'alimentation est assemblé de manière improvisée et est assez inefficace. Bien que léger, il n'offre qu'une augmentation marginale de la capacité énergétique. L'un des principaux inconvénients de la plupart des exosquelettes est qu'ils sont conçus pour être utilisés sur le terrain pendant une courte durée, généralement lors de batailles intenses avant de retourner à la base pour se recharger. Les alimentations externes comme celle-ci peuvent partiellement atténuer ce problème, mais, comme le montre clairement cet exemple, elles ne sont pas nécessairement efficaces.\n\n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet technologique\n
+		%c[d_blue] • %c[ui_gray_2] capacité énergétique : 150\n
+		%c[d_blue] • %c[ui_gray_2] Taux de consommation d'énergie : 100 %\n
+		</text>
+	</string>
+
+	<string id="st_itm_exo_psu_mili_name">
+		<text>Alimentation exosquelette militaire</text>
+	</string>
+	<string id="st_itm_exo_psu_mili_descr">
+		<text>Alimentation auxiliaire équipée sur les exosquelettes pour améliorer leur capacité énergétique. Populaire auprès de la plupart des stalkers en raison des centrales électriques plutôt inefficaces des exosquelettes standard. Pour l'utiliser, installez-la sur un exosquelette.\n \nCe modèle est fabriqué en usine de manière professionnelle et s'intègre parfaitement à un exosquelette. Il est lourd mais très durable et assez économe en énergie, offrant un gain substantiel de capacité énergétique ainsi qu'un léger avantage en efficacité énergétique. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet technologique\n
+		%c[d_blue] • %c[ui_gray_2] objet militaire\n
+		%c[d_blue] • %c[ui_gray_2] capacité énergétique : 250\n
+		%c[d_blue] • %c[ui_gray_2] taux de consommation énergétique : 85 %\n
+		</text>
+	</string>
+	
+	<string id="st_itm_exo_psu_sci_name">
+		<text>Alimentation expérimentale « Reactor »</text>
+	</string>
+	<string id="st_itm_exo_psu_sci_descr">
+		<text>Alimentation auxiliaire équipée sur les exosquelettes pour améliorer leur capacité énergétique. Populaire auprès de la plupart des stalkers en raison des centrales électriques plutôt inefficaces des exosquelettes standard. Pour l'utiliser, faites glisser sur un exosquelette.\n \nCe modèle est un prototype expérimental construit à partir de schémas obtenus auprès des Scientifiques, utilisant les propriétés statiques latentes de l'artefact Battery pour réduire le taux d'utilisation de la batterie.\n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet technologique\n
+		%c[d_blue] • %c[ui_gray_2] dispositif prototype\n
+		%c[d_blue] • %c[ui_gray_2] capacité énergétique : 400\n
+		%c[d_blue] • %c[ui_gray_2] taux de consommation énergétique : 50 %\n
+		%c[d_blue] • %c[ui_gray_2] Appuyez deux fois rapidement sur $$ACTION_SPRINT_TOGGLE$$ pour déclencher une nova électrique\n
+		</text>
+	</string>
+	
+	<string id="st_itm_exo_psu_tank_name">
+		<text>Alimentation expérimentale « Stronghold »</text>
+	</string>
+	<string id="st_itm_exo_psu_tank_descr">
+		<text>Alimentation auxiliaire équipée sur les exosquelettes pour améliorer leur capacité énergétique. Populaire auprès de la plupart des stalkers en raison des centrales électriques plutôt inefficaces des exosquelettes standard. Pour l'utiliser, faites glisser sur un exosquelette.\n \nCe modèle est un prototype expérimental construit à partir de schémas obtenus auprès des Scientifiques. Conçu pour compléter les troupes de première ligne devant avancer sous un feu nourri, ce prototype utilise les propriétés gravitationnelles de l'artefact Vide pour générer une zone d'anomalie localisée lors de son activation. La zone d'anomalie est centrée sur l'utilisateur et ralentit efficacement les projectiles à haute vélocité ainsi que les éclats d'obus, tout en rendant les attaques des mutants inutiles. Cependant, le puits gravitationnel interfère avec les mouvements de l'utilisateur. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet technologique\n
+		%c[d_blue] • %c[ui_gray_2] dispositif prototype\n
+		%c[d_blue] • %c[ui_gray_2] capacité énergétique : 500\n
+		%c[d_blue] • %c[ui_gray_2] Taux de consommation d'énergie : 135 %\n
+		%c[d_blue] • %c[ui_gray_2] Appuyez deux fois rapidement sur $$ACTION_SPRINT_TOGGLE$$ pour une réduction majeure des dégâts subis\n
+		%c[d_blue] • %c[ui_gray_2] Coût en énergie : 20, durée : 8 secondes, temps de recharge : 20 secondes\n
+		</text>
+	</string>
+
+	<string id="st_itm_exo_psu_sprint_name">
+		<text>Alimentation expérimentale « Engine »</text>
+	</string>
+	<string id="st_itm_exo_psu_sprint_descr">
+		<text>Alimentation auxiliaire équipée sur les exosquelettes pour améliorer leur capacité énergétique. Populaire auprès de la plupart des stalkers en raison des centrales électriques plutôt inefficaces des exosquelettes standard. Pour l'utiliser, faites glisser sur un exosquelette.\n \nCe modèle est un prototype expérimental construit à partir de schémas obtenus auprès des Scientifiques. Conçu pour ajouter des options de mobilité aux troupes de choc, ce prototype utilise les propriétés capacitives de l'artefact Éclair pour alimenter un ensemble personnalisé de servomoteurs. L'artefact Éclair peut être temporairement activé pour augmenter considérablement la mobilité de l'utilisateur. L'augmentation significative de la vitesse de déplacement permet également à l'utilisateur d'infliger des dégâts massifs à toute créature ou personne se trouvant sur son passage.\n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet technologique\n
+		%c[d_blue] • %c[ui_gray_2] objet de valeur\n
+		%c[d_blue] • %c[ui_gray_2] capacité énergétique : 300\n
+		%c[d_blue] • %c[ui_gray_2] Taux de consommation d'énergie : 85 %\n
+		%c[d_blue] • %c[ui_gray_2] Consommation électrique modérée\n
+		%c[d_blue] • %c[ui_gray_2] Appuyez deux fois rapidement sur $$ACTION_SPRINT_TOGGLE$$ pour un boost de vitesse important\n
+		%c[d_blue] • %c[ui_gray_2] Permet de foncer sur les ennemis pour leur infliger des dégâts\n
+		%c[d_blue] • %c[ui_gray_2] Coût en énergie : 20, durée : 8 secondes, temps de recharge : 20 secondes\n
+		</text>
+	</string>
+
+	<string id="st_batteries_ccell">
+		<text>Unité de batterie militaire</text>
+	</string>
+	<string id="st_batteries_ccell_descr">
+		<text>Batterie milspec lourde destinée à alimenter les exosquelettes. Développée par des installations de recherche ukrainiennes sur la base des recherches menées dans la Zone, ces blocs d'alimentation haute densité peuvent remplacer les cellules épuisées des centrales électriques des exosquelettes ou transférer de l'énergie vers le stockage embarqué. Faites glisser sur un exosquelette pour recharger son énergie.\n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet technologique\n
+		%c[d_blue] • %c[ui_gray_2] Alimente les exosquelettes en énergie\n
+		</text>
+	</string>
+
+	
+	<string id="st_exo_recipe_1">
+		<text>Comportement des artefacts « Battery » sous champs électromagnétiques artificiels</text>
+	</string>
+	<string id="st_exo_recipe_1_descr">
+		<text>Article scientifique rédigé par V.R. Solenov et R.R. Romanovich, détaillant le comportement et les effets observés des artefacts Batteries lorsqu'ils sont soumis à diverses intensités de champs électromagnétiques. À certains niveaux de VPM, l'artefact Battery émet de brèves et intenses surtensions de courant continu, sans corrélation avec l'intensité du champ. Le document est très verbeux et, en plus du texte et des équations, comprend plusieurs graphiques, des photos en noir et blanc et des journaux de tests. À la fin de l'article figurent des schémas expliquant comment contenir un tel artefact Battery pour lui faire produire plus de tension lorsqu'il est soumis à un courant positif. Le carnet est estampillé du sceau officiel du Ministère ukrainien de la Science.\n\n
+			%c[ui_gray_3]PROPRIÉTÉS :\n
+			%c[d_green] • %c[ui_gray_2] informatif\n
+			%c[d_blue] • %c[ui_gray_2] recette de craft\n
+			%c[d_blue] • %c[ui_gray_2] objet de valeur\n</text>
+	</string>
+	
+	<string id="st_exo_recipe_2">
+		<text>Observations et analyse des coques gravitationnelles projetées par l'artefact « Vide Absolu »</text>
+	</string>
+	<string id="st_exo_recipe_2_descr">
+		<text>Article scientifique rédigé par A.N. Perchenov et V.R. Solenov, détaillant les observations des effets gravitationnels particuliers de l'artefact Vide Absolu. Selon le document, l'espace entre les disques de Vide résulte de la distorsion partielle de l'espace-temps par chacun des disques, créant une anomalie gravitationnelle miniature. Le contenu de la partie « pleine » du Vide Absolu reste inconnu et serait la forme visible de particules d'air chargées d'énergie du point zéro hautement excitée. Lorsqu'il est soumis à un courant alternatif d'une certaine intensité sous vide, le contenu se dissipe temporairement et l'anomalie gravitationnelle contenue entre les deux disques s'étend pour créer une « coque » presque impénétrable où tout objet solide entrant dans l'espace est capturé et dévié de sa trajectoire initiale. La découverte de ce comportement aurait blessé quatre stagiaires et deux assistants de laboratoire lorsque la configuration correcte a été trouvée. Dans le journal d'expérimentation figure un schéma du dispositif de confinement sous vide nécessaire pour reproduire ce comportement.\n\n
+			%c[ui_gray_3]PROPRIÉTÉS :\n
+			%c[d_green] • %c[ui_gray_2] informatif\n
+			%c[d_blue] • %c[ui_gray_2] recette de craft\n
+			%c[d_blue] • %c[ui_gray_2] objet de valeur\n</text>
+	</string>
+	
+	<string id="st_exo_recipe_3">
+		<text>Application des champs de l'artefact Éclair à la puissance du moteur</text>
+	</string>
+	<string id="st_exo_recipe_3_descr">
+		<text>Article scientifique rédigé par R.R. Romanovich et A.N. Perchenov, détaillant les effets étranges des artefacts Éclair sur les machines alimentées par électricité. Lorsqu'un artefact Éclair est soumis à un courant électrique positif sous vide, il projette un champ anormal de taille variable qui augmente considérablement la puissance physique des machines électriques dans la zone - les moteurs tournent plus vite, les processeurs surcadencent, et même les montres mécaniques avancent plus rapidement. Divers journaux expérimentaux notent la propension des machines à s'autodétruire en raison de la chaleur et des frottements générés si le champ est maintenu pendant une période prolongée. La majeure partie de l'article consiste en des spéculations sur les causes possibles de ce comportement. La théorie dominante actuelle suggère une influence au niveau quantique augmentant le flux d'électricité et la force du magnétisme. Cependant, ces théories restent non confirmées. Au milieu de l'article se trouve un diagramme détaillant la construction de la chambre de confinement de l'artefact utilisé lors des expérimentations.\n\n
+			%c[ui_gray_3]PROPRIÉTÉS :\n
+			%c[d_green] • %c[ui_gray_2] informatif\n
+			%c[d_blue] • %c[ui_gray_2] recette de fabrication\n
+			%c[d_blue] • %c[ui_gray_2] objet de valeur\n</text>
+	</string>
+	
+	<string id="st_power">
+		<text>Niveau d'alimentation :</text>
+	</string>
+	<string id="st_equipped_supply">
+		<text>Alimentation équipée :</text>
+	</string>
+	<string id="st_equipped_none">
+		<text>Aucun</text>
+	</string>
+	<string id="st_charge_exo">
+		<text>recharger la combinaison</text>
+	</string>
+	<string id="st_install_psu">
+		<text>installer</text>
+	</string>
+	<string id="st_remove_psu">
+		<text>retirer le PSU</text>
+	</string>
+	<string id="kb_power">
+		<text>Activer les alimentations</text>
+	</string>
+	
+	<string id="st_dot">
+		<text>•</text>
+	</string>
+	<string id="article_exo">
+		<text>Exosquelettes motorisés</text>
+	</string>
+	<string id="article_exo_text">
+		<text>
+			%c[pda_white]Exosquelettes motorisés\n\n%c[ui_gray_1] 
+			Chaque exosquelette possède désormais sa propre source d'alimentation unique. Le niveau d'alimentation doit être maintenu pour que l'exosquelette reste efficace.
+			\n\n%c[pda_blue]Batteries Exo%c[ui_gray_1]
+			\nLes réserves d'énergie des exosquelettes peuvent être rechargées avec des Batteries achetées chez les marchands ou trouvées dans la Zone. Les Batteries contiennent 100 points d'énergie par défaut, ce qui suffit à recharger complètement un exosquelette non amélioré.
+			\nL'énergie de l'exosquelette se consume avec les déplacements, plus rapidement en sprint. Si l'alimentation tombe à 0, le joueur sera ralenti de façon ridicule, sauf s'il retire l'armure.
+			\n\n%c[pda_green]Alimentations externes%c[ui_gray_1]
+			\nLes exosquelettes peuvent être améliorés avec des alimentations achetables, craftables ou récupérables. 
+			\nPour équiper une alimentation, fais glisser-déposer l'alimentation sur l'armure ou fais un clic droit sur l'alimentation quand l'exosquelette est équipé.
+			\nLes alimentations augmentent la capacité énergétique d'un exosquelette au-delà de 100 %, et les versions de niveau supérieur confèrent des avantages et des pouvoirs uniques.
+		</text>
+	</string>
+	
+	<string id="st_err_none">
+		<text>[SYSCTL] ALERTE : FONCTIONNALITÉ INTROUVABLE</text>
+	</string>
+	<string id="st_err_power">
+		<text>[SYSCTL] ALERTE : PUISSANCE INSUFFISANTE</text>
+	</string>
+	<string id="st_err_cooldown">
+		<text>[SYSCTL] ALERTE : TEMPÉRATURE SYS AU-DESSUS DU SEUIL DE SÉCURITÉ</text>
+	</string>
+	<string id="st_ok_cooldown">
+		<text>[SYSCTL] INFO : TEMPÉRATURE SYS SOUS LE SEUIL DE SÉCURITÉ</text>
+	</string>
+	<string id="st_act_tank">
+		<text>[SYSCTL] INFO : BARRIÈRE GRAVITATIONNELLE ACTIVE</text>
+	</string>
+	<string id="st_act_sprint">
+		<text>[SYSCTL] INFO : SURRÉGIME MOTEUR ACTIF</text>
+	</string>
+
+	<string id="st_low_power">
+		<text>[SYSCTL] ALERTE : BATTERIE FAIBLE</text>
+	</string>
+	
+	<string id="ui_mcm_menu_exo">
+		<text>Exosquelettes motorisés</text>
+	</string>
+	<string id="ui_mcm_exo_title">
+		<text>Exosquelettes motorisés</text>
+	</string>
+	<string id="ui_mcm_exo_drain">
+		<text>Consommation d'énergie de l'exosquelette</text>
+	</string>
+	<string id="ui_mcm_exo_sprint_drain">
+		<text>Consommation d'énergie en sprint</text>
+	</string>
+	<string id="ui_mcm_exo_debug">
+		<text>Activer les journaux de débogage</text>
+	</string>
+	<string id="ui_mcm_exo_drain_desc">
+		<text>Multiplicateur de consommation d'énergie pour les exosquelettes.</text>
+	</string>
+	<string id="ui_mcm_exo_sprint_drain_desc">
+		<text>Multiplicateur de consommation d'énergie lors de la course.</text>
+	</string>
+	<string id="ui_mcm_exo_battery_chance">
+		<text>Chance de récupération de Battery</text>
+	</string>
+	<string id="ui_mcm_exo_battery_chance_desc">
+		<text>Probabilité qu'un stalkers laisse tomber des batteries. Réservé aux porteurs d'exosquelette !</text>
+	</string>
+	<string id="ui_mcm_exo_debug_desc">
+		<text>Active les journaux de débogage dans la console.</text>
+	</string>
+
+	<string id="ui_mcm_menu_exo_power">
+		<text>Raccourci alimentation Exo</text>
+	</string>
+	<string id="ui_mcm_exo_power_keybind">
+		<text>Activer l'alimentation PSU</text>
+	</string>
+	<string id="ui_mcm_exo_power_keybind_desc">
+		<text>Utilisé pour activer les capacités liées à l'exosquelette.</text>
+	</string>
+</string_table>

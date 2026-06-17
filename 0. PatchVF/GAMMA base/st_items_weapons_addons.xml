@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	SCOPES
+-->
+
+	<string id="st_addon_scope">
+		<text>PSO-1M</text>
+	</string>
+	<string id="st_addon_scope_descr">
+		<text>Version modernisée du célèbre viseur soviétique PSO-1, dotée d'optiques améliorées et d'un réticule plus raffiné pour le tir de précision. Il conserve le compensateur de chute de balle emblématique pour des engagements efficaces à longue distance.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]NPZ Optics State Plant\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_1p29">
+		<text>1P29 Tulipe</text>
+	</string>
+	<string id="st_addon_scope_1p29_descr">
+		<text>Viseur robuste à grossissement 4x, utilisé par les forces russes, réputé pour sa conception prismatique et sa construction légère. Il dispose d'un réticule télémétrique et d'un éclairage pour les conditions de faible luminosité.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_ac10632">
+		<text>Viseur électro</text>
+	</string>
+	<string id="st_addon_scope_ac10632_descr">
+		<text>Viseur réflexe électronique polyvalent, conçu pour une acquisition rapide des cibles en combat rapproché et à moyenne distance. Il propose un réticule éclairé pour améliorer la vitesse et la précision de visée.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Barska\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_acog">
+		<text>ACOG 4.0x</text>
+	</string>
+	<string id="st_addon_scope_acog_descr">
+		<text>Viseur à grossissement fixe 4x développé par Trijicon, largement utilisé pour les applications militaires en raison de sa construction robuste et de son réticule éclairé. Il excelle dans les combats à moyenne distance, offrant une excellente clarté et une compensation de la chute de balle.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Trijicon\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_eotech">
+		<text>EOTech 553</text>
+	</string>
+	<string id="st_addon_scope_eotech_descr">
+		<text>Viseur holographique conçu pour les forces militaires et les forces de l'ordre, offrant une acquisition rapide des cibles avec un large champ de vision. Il est compatible avec la vision nocturne et dispose d'une construction étanche et durable.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]EOTech\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_galil_susat">
+		<text>Galil 4.0x SUSAT</text>
+	</string>
+	<string id="st_addon_scope_galil">
+		<text>Galil 4.0x SUSAT</text>
+	</string>
+	<string id="st_addon_scope_galil_descr">
+		<text>Viseur optique à puissance fixe conçu pour les fusils Galil, équipé d'un réticule illuminé au tritium pour une meilleure visibilité dans des conditions de faible luminosité. Sa conception prismatique offre une excellente clarté et une durabilité robuste, ce qui en fait un choix fiable pour le combat à moyenne distance et le tir de précision.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Israël\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Israel Military Industries\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_kobra">
+		<text>Kobra EKP 1S-03</text>
+	</string>
+	<string id="st_addon_scope_kobra_descr">
+		<text>Viseur réflexe russe réputé pour sa robustesse et ses quatre réticules sélectionnables. Il offre une visée rapide grâce à une conception résistante, adaptée aux conditions extrêmes des champs de bataille.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Axion\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_po4x34">
+		<text>PO4x34</text>
+	</string>
+	<string id="st_addon_scope_po4x34_descr">
+		<text>Viseur soviétique à grossissement fixe 4x, doté d'un réticule télémétrique distinctif. Conçu pour les fusils de tireur d'élite, il garantit une précision fiable pour les engagements à moyenne distance.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]TsKIB SOO\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_pso-1m2-01">
+		<text>PSO-1M2-1</text>
+	</string>
+	<string id="st_addon_scope_pso-1m2-01_descr">
+		<text>Variante avancée du PSO-1M, dotée de traitements de lentilles améliorés et d'une meilleure résistance aux conditions environnementales. Il conserve le réticule classique pour un tir précis à longue distance.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]NPZ Optics State Plant\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_pu">
+		<text>Viseur PU</text>
+	</string>
+	<string id="st_addon_scope_pu_descr">
+		<text>Lunette compacte et robuste initialement conçue pour les fusils de sniper soviétiques, offrant un grossissement fixe et un réticule simple mais efficace pour le ciblage à longue distance. Réputée pour sa durabilité et sa facilité d'utilisation, elle reste un choix populaire parmi les tireurs d'élite utilisant des fusils plus anciens dans la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]3,5x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_zf4">
+		<text>ZF-4</text>
+	</string>
+	<string id="st_addon_scope_zf4_descr">
+		<text>Viseur allemand de la Seconde Guerre mondiale à grossissement 4x, conçu pour les fusils de sniper. Il se distingue par son réticule simple et sa construction robuste, et fut largement utilisé sur les fusils Kar98k pour les engagements à longue distance.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Allemagne\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Allemagne nazie\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]2,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_cmore">
+        <text>C-MORE Tactical</text>
+    </string>
+    <string id="st_addon_scope_cmore_descr">
+		<text>Viseur réflexe compact, connu pour sa construction légère en polymère et son large champ de vision. Il est populaire pour le tir sportif et les applications tactiques nécessitant un engagement rapide des cibles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]C-More Systems\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+    </string>
+	
+	<string id="st_addon_scope_ac11090">
+        <text>AC11090</text>
+    </string>
+    <string id="st_addon_scope_ac11090_descr">
+		<text>Viseur reflex léger et compact conçu pour une acquisition rapide des cibles, doté d'un réticule illuminé clair pour un meilleur pointage dans les engagements à courte et moyenne distance. Sa construction robuste et ses réglages de luminosité ajustables en font un choix fiable pour les scénarios tactiques et de survie.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Barska\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]2,0x\n \n
+		</text>
+    </string>
+
+	<string id="st_addon_trijicon_acog">
+		<text>ACOG 2,0x</text>
+	</string>
+	<string id="st_addon_trijicon_acog_descr">
+		<text>Version à grossissement réduit de la série ACOG, conçue pour une acquisition plus rapide des cibles tout en offrant un certain grossissement pour les engagements à moyenne distance. Il dispose d'un éclairage par fibre optique et tritium pour une utilisation par tous les temps.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Trijicon\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]2,0x\n \n
+		</text>
+	</string>
+
+<!--
+	SUPPRESSORS
+-->
+
+	<string id="st_addon_sil_45">
+		<text>Silencieux .45 ACP</text>
+	</string>
+	<string id="st_addon_sil_45_descr">
+		<text>Silencieux spécifiquement conçu pour les armes en .45 ACP, réduisant le bruit et le flash à la bouche pour une meilleure discrétion. Sa conception adaptée aux munitions subsoniques en fait un choix idéal pour les opérations tactiques et clandestines où la discrétion est cruciale.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] .45\n
+		</text>
+	</string>
+	
+	<string id="st_addon_sil_57">
+		<text>Silencieux 5,7x28</text>
+	</string>
+	<string id="st_addon_sil_57_descr">
+		<text>Silencieux de précision optimisé pour les armes de calibre 5,7x28 mm, réduisant efficacement le bruit de bouche tout en maintenant les performances balistiques. Conçu pour les munitions à haute vélocité, il offre une réduction sonore améliorée sans compromettre la précision.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Belgique\n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 5,7 mm\n
+		</text>
+	</string>
+	
+	<string id="st_addon_sil_6p9">
+		<text>Silencieux 6P9</text>
+	</string>
+	<string id="st_addon_sil_6p9_descr">
+		<text>Silencieux dédié au pistolet soviétique silencieux 6P9, conçu pour atténuer significativement le bruit lors d'opérations secrètes. Sa construction robuste lui permet de supporter plusieurs tirs avec une fuite sonore minimale, ce qui le rend particulièrement efficace pour les engagements furtifs.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 9 mm\n
+		</text>
+	</string>
+
+	<string id="st_addon_sil_9a91">
+		<text>Silencieux 9A-91/VSK-94</text>
+	</string>
+	<string id="st_addon_sil_9a91_descr">
+		<text>Silencieux spécialisé conçu pour le fusil d'assaut compact 9A-91 et la variante de sniper VSK-94, assurant une réduction du bruit et du flash de bouche. Il améliore les capacités de furtivité sans altérer significativement les performances de l'arme, ce qui le rend idéal pour les missions urbaines et de reconnaissance.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 9x39 mm\n
+		</text>
+	</string>
+	
+	<string id="st_addon_sil_9mm">
+		<text>Silencieux 9 mm</text>
+	</string>
+	<string id="st_addon_sil_9mm_descr">
+		<text>Silencieux polyvalent destiné aux armes de calibre 9 mm, offrant une suppression efficace du bruit pour les pistolets, les pistolets-mitrailleurs et certaines carabines. Sa conception compacte et légère garantit un impact minimal sur la maniabilité de l'arme tout en améliorant son efficacité tactique.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Variable\n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 9 mm\n
+		</text>
+	</string>
+	
+	<string id="st_addon_sil_aps">
+		<text>Silencieux APS</text>
+	</string>
+	<string id="st_addon_sil_aps_descr">
+		<text>Silencieux spécifiquement conçu pour le pistolet sous-marin APS, permettant une réduction du bruit aussi bien en surface que sous l'eau. Son ingénierie unique en fait un outil rare mais précieux pour les forces spéciales opérant en milieu aquatique.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 9 mm\n
+		</text>
+	</string>
+	
+	<string id="st_addon_sil_atg">
+		<text>Silencieux ATG</text>
+	</string>
+	<string id="st_addon_sil_atg_descr">
+		<text>Silencieux haute performance conçu pour les applications tactiques, équilibrant suppression sonore et impact minimal sur la précision et le recul. Sa construction durable et polyvalente en fait un choix privilégié pour les unités militaires et les forces de l'ordre.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 5,56 mm, 7,62 mm\n
+		</text>
+	</string>
+	
+	<string id="st_addon_sil_gemtech">
+		<text>Silencieux Gemtech</text>
+	</string>
+	<string id="st_addon_sil_gemtech_descr">
+		<text>Marque de silencieux réputée proposant des modèles légers et durables, conçus pour une réduction supérieure du bruit sur divers calibres. Ses matériaux avancés et son système de chicanes en font un choix fiable pour les tireurs professionnels et les opérateurs tactiques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 9 mm, .45 ACP\n
+		</text>
+	</string>
+	
+	<string id="st_addon_sil_kzrzp">
+		<text>Silencieux KZRZP</text>
+	</string>
+	<string id="st_addon_sil_kzrzp_descr">
+		<text>Silencieux de fabrication russe destiné aux forces spéciales, optimisé pour les munitions subsoniques et standard. Conçu pour la durabilité et l'efficacité, il assure une excellente réduction du bruit lors des missions de combat et de reconnaissance.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 7,62 mm\n
+		</text>
+	</string>
+	
+	<string id="st_addon_sil_nato">
+		<text>Silencieux OTAN</text>
+	</string>
+	<string id="st_addon_sil_nato_descr">
+		<text>Silencieux standardisé utilisé par les forces de l'OTAN, conçu pour être compatible avec une gamme d'armes militaires. Construit pour résister aux conditions difficiles des champs de bataille, il assure une réduction efficace du bruit sans compromettre la durabilité.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Belgique\n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] .45, 5,56 mm, 7,62 mm\n
+		</text>
+	</string>
+	
+	<string id="st_addon_sil_pbs1">
+		<text>Silencieux PBS-1</text>
+	</string>
+	<string id="st_addon_sil_pbs1_descr">
+		<text>Silencieux de conception soviétique spécialement conçu pour les fusils de type AK, réduisant efficacement le bruit et le flash à la bouche lorsqu'il est utilisé avec des munitions subsoniques. Sa construction robuste garantit une fiabilité prolongée dans des situations de combat intensives.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 7,62 mm\n
+		</text>
+	</string>
+	
+	<string id="st_addon_sil_pbs4">
+		<text>Silencieux PBS-4</text>
+	</string>
+	<string id="st_addon_sil_pbs4_descr">
+		<text>Évolution plus moderne de la série PBS, conçue pour les fusils AK-74, offrant une réduction supérieure du bruit tout en maintenant la précision de l'arme. Il est largement utilisé par les forces spéciales pour les opérations nécessitant la discrétion.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 5,45 mm\n
+		</text>
+	</string>
+	
+	<string id="st_addon_sil_sr25">
+		<text>Silencieux SR-25</text>
+	</string>
+	<string id="st_addon_sil_sr25_descr">
+		<text>Silencieux de précision conçu pour le fusil de précision SR-25, destiné à maintenir la précision tout en réduisant significativement la signature sonore. Son système de chicanes avancé permet de minimiser le recul et le flash de bouche, ce qui en fait un choix idéal pour les engagements à longue distance.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 7,62 mm\n
+		</text>
+	</string>
+	
+	<string id="st_addon_sil_tgp-a">
+		<text>Silencieux TGP-A</text>
+	</string>
+	<string id="st_addon_sil_tgp-a_descr">
+		<text>Silencieux de fabrication russe conçu pour réduire le bruit et le flash à la bouche dans divers calibres de fusil. Reconnu pour sa conception simple mais efficace, il est fréquemment utilisé dans les applications militaires nécessitant la discrétion.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 5,45 mm\n
+		</text>
+	</string>
+	
+	<string id="st_addon_sil_vihr">
+		<text>Silencieux SR-3M</text>
+	</string>
+	<string id="st_addon_sil_vihr_descr">
+		<text>Silencieux personnalisé conçu pour le fusil d'assaut compact SR-3M, destiné à améliorer la furtivité en combat rapproché. Il s'intègre parfaitement à l'arme, assurant une suppression efficace du bruit sans compromettre la maniabilité.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 9x39 mm\n
+		</text>
+	</string>
+	
+	<string id="st_addon_silencer">
+		<text>Silencieux US Army Smallbore Rifle</text>
+	</string>
+	<string id="st_addon_silencer_descr">
+		<text>Silencieux de qualité militaire conçu pour les fusils de petit calibre, réduisant à la fois le bruit et la signature de bouche afin d'accroître la furtivité sur le champ de bataille. Conçu pour une durabilité et une utilisation prolongée, il améliore l'efficacité tactique lors des opérations secrètes.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] 5,56x45 mm\n
+		</text>
+	</string>
+	
+	<string id="st_addon_silencer_svu">
+		<text>Silencieux SVU</text>
+	</string>
+	<string id="st_addon_silencer_svu_descr">
+		<text>Silencieux spécialisé conçu pour le fusil de sniper bullpup SVU, visant à réduire considérablement le bruit tout en préservant la précision à longue distance. Son intégration avec le fusil assure un amortissement efficace du son sans altérer la trajectoire ou la précision des projectiles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] Fusils SVU\n
+		</text>
+	</string>
+	
+</string_table>

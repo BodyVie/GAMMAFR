@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!-- [ Mercenary Guide) at the merc base -->
+<!-- [ Mercenary Trader) at the merc base -->
+	<string id="meet_zaton_killer_guide_station_0">
+		<text>T'es qui, toi ?</text>
+	</string>
+	<string id="meet_zaton_killer_guide_station_1">
+		<text>Je pourrais te renvoyer la balle avec une question raisonnable : c'est quoi ton putain de problème ? Mais c'est probablement pas ce que tu veux entendre, hein ? Je bosse comme marchand, et aussi comme guide entre ici et notre avant-poste principal dans la Ville morte.</text>
+	</string>
+
+	<string id="meet_zaton_killer_guide_station_list_0">
+		<text>Tu peux me rappeler quelles routes tu fais ?</text>
+	</string>
+	<string id="meet_zaton_killer_guide_station_list_1">
+		<text>T'es passé par le Scorcher pour venir ici ? Y'a qu'une seule route. Vers la Ville morte, et ça coûte huit mille.</text>
+	</string>
+
+	<string id="travel_zaton_killer_guide_station_base_0">
+		<text>Je veux aller à la Ville morte.</text>
+	</string>
+	<string id="travel_zaton_killer_guide_station_base_1">
+		<text>Super. Prépare-toi pour un bon gros trip dans les égouts. Un jour, j'économiserai assez pour m'offrir un respirateur potable. T'es prêt ?</text>
+	</string>
+	<string id="travel_zaton_killer_guide_station_base_2">
+		<text>Je suis prêt. %c[d_orange][8000 RU]</text>
+	</string>
+	<string id="travel_zaton_killer_guide_station_base_3">
+		<text>J'ai changé d'avis.</text>
+	</string>
+
+	
+<!-- Pilot [ Loner Guide) -->
+	<string id="meet_guid_zat_0">
+		<text>T'as l'air d'un sacré personnage.</text>
+	</string>
+	<string id="meet_guid_zat_1">
+		<text>Pilote Éclaireur à ton service. J'connais pas des tonnes d'endroits où t'emmener, mais ce sera bien plus rapide et sûr. J'offre mes services pour Pripyat et ses alentours via mon pote guide Garry, mais je peux t'emmener à Jupiter moi-même.</text>
+	</string>
+
+	<string id="meet_guid_zat_list_0">
+		<text>Redonne-moi ta liste de voyages.</text>
+	</string>
+	<string id="meet_guid_zat_list_1">
+		<text>Je peux parler à Garry pour t'emmener à Pripyat pour quatre mille, ou dans les faubourgs pour cinq mille. Moi, je peux t'emmener à la gare de Yanov dans Jupiter pour deux mille.</text>
+	</string>
+
+	<string id="travel_guid_zat_0">
+		<text>Emmène-moi quelque part.</text>
+	</string>
+	<string id="travel_guid_zat_1">
+		<text>Où ça ?</text>
+	</string>
+	<string id="travel_guid_zat_2">
+		<text>Vers Pripyat. %c[d_orange][4000 RU]</text>
+	</string>
+	<string id="travel_guid_zat_3">
+		<text>Vers la Périphérie. %c[d_orange][5000 RU]</text>
+	</string>
+	<string id="travel_guid_zat_4">
+		<text>Vers Jupiter. %c[d_orange][2000 RU]</text>
+	</string>
+	<string id="travel_guid_zat_5">
+		<text>J'ai changé d'avis.</text>
+	</string>
+
+	<string id="stalker_guide_about_himself_0">
+		<text>Parle-moi de toi.</text>
+	</string>
+	<string id="stalker_guide_about_himself_1">
+		<text>Mon nom c'est Pilote, et c'est pas pour rien. Moi, j'emprunte que les routes sûres. J'ai pas les tripes pour choper des artefacts ou me frotter aux bandits, alors... Chacun son talent, et les autres en profitent. Bien sûr, chaque talent a son prix.</text>
+	</string>
+	
+	<string id="stalker_guide_about_anomalies_1116">
+		<text>D'accord, laisse tomber.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_1111">
+		<text>Parle-moi des anomalies à chaleur.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_11111">
+		<text>Si tu vois une sorte de miroitement, comme de l'air qui tremble au-dessus du bitume en plein été - c'est une anomalie thermique. Quand quelque chose la traverse, l'endroit s'embrase dans une flamme ultra-chaude. Au début, ils pensaient que c'étaient des jets de gaz naturel, mais cette théorie est tombée aux oubliettes.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_1112">
+		<text>Parle-moi des anomalies à gaz.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_11121">
+		<text>Ce type d'anomalie porte ce nom à cause de ses étranges réactions chimiques sans fin. Elles produisent de l'acide qui bouffe ta peau en quelques secondes, et des gaz toxiques qui ravagent tes poumons tout aussi vite... Heureusement, les anomalies à gaz sont faciles à repérer en plein air. Quand tu marches dedans dans un tunnel sombre - là, c'est la galère.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_1113">
+		<text>Parle-moi des anomalies électriques.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_11131">
+		<text>Un type d'anomalie très intéressant qui accumule une sacrée dose d'électricité statique. Les Stalkers profitent du fait qu'une anomalie électrique peut être déchargée avec n'importe quel objet métallique. Ils balancent un boulon dedans et sprintent avant qu'elle ne se recharge. Moi, je préfère faire le tour - la phase de recharge est trop rapide.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_1114">
+		<text>Parle-moi des anomalies gravitationnelles.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_11141">
+		<text>Elles sont généralement fixes. Quand tu regardes un endroit et que tu vois les objets déformés derrière, t'en as une. Et tu ferais mieux de garder tes distances. Les trois variétés connues réagissent instantanément dès que quelque chose les touche. Le Tremplin projette tout ce qui est en dessous - souvent à une sacrée distance. Le Vortex fait l'inverse : il aspire un objet, le broie avec une pression monstrueuse, puis envoie les morceaux valdinguer quelques secondes après. Le Toupie soulève sa victime dans les airs, la fait tourner et la déchiquette... Une fin pas très agréable, peu importe comment tu t'y prends.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_1">
+		<text>Quand tu t'approches d'une anomalie, garde en tête qu'elle sera soit ultra-chaude, soit l'air sera saturé de gaz toxiques, soit ce sera un point chaud radioactif. Il peut aussi y avoir des perturbations psy, mais j'vais pas entrer dans les détails maintenant. Ça dépend de la nature de l'anomalie - chaleur, gaz ou électricité... ou gravité, mais j'espère que t'auras pas à gérer ça. Y'a aussi les anomalies mobiles, mais c'est une autre paire de manches.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_0">
+		<text>Parle-moi des anomalies.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_1115">
+		<text>Parle-moi des anomalies mobiles.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_11151">
+		<text>Perso, j'en ai croisé qu'un Comet et une Tesla. Le premier, c'est une boule de feu d'environ un mètre de diamètre. Mais crois-moi, tu sentiras la chaleur bien avant. La deuxième, pour faire simple, c'est une boule d'électricité. C'est clairement une boule, et clairement électrique. Les deux anomalies bougent tout le temps, mais généralement en boucle fermée. Un stalker prudent devrait pouvoir les contourner facilement... Faut juste pas perdre sa concentration.</text>
+	</string>
+	
+<!-- Gonta -->
+	<string id="gonta_about_himself_0">
+		<text>Parle-moi de toi.</text>
+	</string>
+	<string id="gonta_about_himself_1">
+		<text>Moi c'est Gonta, chef de l'équipe de chasse. On bute des mutants pour du fric. On peut aussi les capturer vivants - pour des expériences scientifiques ou si quelqu'un veut un animal de compagnie exotique... Comme disait Trapper, « À chaque bête sa balle... »</text>
+	</string>
+	
+	<string id="gonta_about_mutants_0">
+		<text>Parle-moi de la chasse aux mutants.</text>
+	</string>
+	<string id="gonta_about_mutants_1">
+		<text>Bon, j'suis pas le chasseur le plus expérimenté, mais je peux t'en dire un rayon sur les bestioles qui chassent en meute. Flesh, sangliers, chiens aveugles, pseudochiens, snorks, des hamsters... J'connais même deux-trois trucs sur les bloodsuckers.</text>
+	</string>
+	<string id="gonta_about_mutants_1111">
+		<text>Parle-moi des sangliers et de flesh.</text>
+	</string>
+	<string id="gonta_about_mutants_11111">
+		<text>Bon, les flesh, c'est les plus inoffensifs des mutants. Ils essaient de rester loin des stalkers, mais ils se défendront si tu les attaques. Maintenant, si y'a un sanglier parmi ces flesh, ça sent le roussi. Trois cents kilos de rage, c'est pas à prendre à la légère. Essaie de pas te mettre sur son chemin quand il charge... Utilise son élan contre lui. Un gros tas comme ça pourra pas tourner sur place, hein ? Esquive sur le côté, puis crève-le à coups de chevrotine.</text>
+	</string>
+	<string id="gonta_about_mutants_1112">
+		<text>Parle-moi des chiens et pseudochiens aveugles.</text>
+	</string>
+	<string id="gonta_about_mutants_11121">
+		<text>Un chien seul, c'est pas très dangereux, mais une meute, putain, c'est la galère. Ils attaquent seulement s'ils ont faim... le problème, c'est qu'ils ont presque toujours faim. Si t'es face à une meute entière, essaie de les descendre depuis un point en hauteur, sinon ils vont te submerger. Surtout s'il y a des pseudochiens adultes parmi eux. Ils sont pas beaucoup plus costauds que les aveugles, mais bien plus rusés et dangereux... Si un seul se transforme en meute entière, c'est que t'es attaqué par des fantômes. Le vrai pseudochien reste en retrait et essaie juste de te mordre de temps en temps... Essaie de l'identifier. Dès que le vrai chien est mort, les fantômes disparaissent.</text>
+	</string>
+	<string id="gonta_about_mutants_1113">
+		<text>Parle-moi des snorks.</text>
+	</string>
+	<string id="gonta_about_mutants_11131">
+		<text>Des restes d'humains... Un snork seul, c'est pas un gros problème pour un chasseur expérimenté. Tu l'attends qu'il te saute dessus et tu le crèves à coups de chevrotine en l'air. Maintenant, quand y'en a plusieurs... Faut tirer aussi vite que possible en esquivant leurs sauts. Ils le savent et attaquent généralement en groupe.</text>
+	</string>
+	<string id="gonta_about_mutants_1114">
+		<text>Parle-moi des tushkanos.</text>
+	</string>
+	<string id="gonta_about_mutants_11141">
+		<text>Le cauchemar d'un chasseur... Le pire, c'est de les sous-estimer à cause de leur petite taille. Ils sont ultra-rapides, agiles et toujours en meute. Quand tu sens des dizaines de petites dents te déchirer, là, tu arrêtes de sous-estimer et tu commences à tirer... Et c'est ça le plus flippant : ils sont hyper durs à toucher. C'est pour ça que j'dis toujours aux stalkers de trimballer un shotgun chargé.</text>
+	</string>
+	<string id="gonta_about_mutants_1115">
+		<text>Parle-moi des bloodsuckers.</text>
+	</string>
+	<string id="gonta_about_mutants_11151">
+		<text>Ce sont des chasseurs experts, avec un camouflage de malade. Quand ils sont planqués, t'arrives à peine à les voir. Si tu chasses un bloodsucker, essaie de le faire bouger. Tu le verras mieux quand il sera en mouvement... Souviens-toi, un bloodsucker essaiera de se faufiler derrière toi et d'enrouler ses tentacules autour de ton cou. Putain, c'est flippant... Si t'as la poisse de tomber sur plusieurs bloodsuckers, surveille toujours tes arrières.</text>
+	</string>
+	<string id="gonta_about_mutants_1116">
+		<text>D'accord, laisse tomber.</text>
+	</string>
+
+	
+<!-- Owl [ Loner Trader) -->
+	<string id="owl_story_0">
+		<text>Parle-moi de ce port tranquille.</text>
+	</string>
+	<string id="owl_story_1">
+		<text>Et t'es qui, toi, pour me demander des infos, hein ? Je vais te dire ce que tout le monde sait déjà par ici. Y'avait ce stalker bizarre, un major des SSU. Il a bien aidé, et il a aussi réglé pas mal de dangers. C'est que récemment que tout a merdé... Les Yantars émetteur psy et Lobotomisateur ont été réactivés. Y'a clairement des activités à la Centrale nucléaire de Tchernobyl, et c'est à portée de main. Une escouade de stalkers expérimentés a disparu, et après ça, une autre escouade est tombée sur des Monolithes près de la scierie, d'après ce que j'ai entendu. Après cette baston, les gens sont partis, et les mutants en ont profité pour se reproduire sans contrôle. C'est pas un endroit pour les recrues, je te le dis.</text>
+	</string>
+	<string id="owl_story_2">
+		<text>Bon, je vois que tout n'est pas perdu ici. Y'a autre chose à savoir ?</text>
+	</string>
+	<string id="owl_story_3">
+		<text>Ouais. Je suis courtier en infos. Tu vois, certains gros bras débarquent ici pour quitter la course du rat et faire fortune. Mais ici, y'a plein de dangers - des fanatiques, des mutants, des zombies, tout ce que tu veux. Un stalker peut crever facilement dans ces marais. Alors si tu tombes, euh, sur un de ces macchabées... Je rachète leur PDA, sans poser de questions. T'as capté ?</text>
+	</string>
+	<string id="owl_story_4">
+		<text>Ouais, je vois où tu veux en venir.</text>
+	</string>
+
+	<string id="information_about_stash_owl_zat_0">
+		<text>T'as des infos sur les caches ?</text>
+	</string>
+	<string id="information_about_stash_owl_zat_1">
+		<text>J'ai tout et même plus - si t'as le pognon, bien sûr. J'ai plein d'infos en rab de différentes sources. Huit mille pour celle-là, pas un kopeck de moins.</text>
+	</string>
+
+	<string id="information_about_stash_owl_zat1_0">
+		<text>Tiens. %c[d_orange][8000 RU]</text>
+	</string>
+	<string id="information_about_stash_owl_zat1_1">
+		<text>D'accord. Voici tes coordonnées.</text>
+	</string>
+
+	<string id="find_blackbox_mlr_reward_owl_0">
+		<text>Ça t'intéresse, les données d'un enregistreur de vol ?</text>
+	</string>
+	<string id="find_blackbox_mlr_reward_owl_1">
+		<text>Heu... bien sûr ! File-moi ça.</text>
+	</string>
+
+	
+<!-- Beard [ Loner Barman) -->
+	<string id="boroda_story_0">
+		<text>T'es sûrement Barbu.</text>
+	</string>
+	<string id="boroda_story_1">
+		<text>Exact. J't'ai jamais vu dans l'coin - bienvenue au Skadovsk.</text>
+	</string>
+	<string id="boroda_story_2">
+		<text>Qu'est-ce que j'peux faire ici ?</text>
+	</string>
+	<string id="boroda_story_3">
+		<text>Fais comme tu préfères. Depuis le départ de Sultan, la chasse aux artefacts par ici est plus tranquille que jamais. Si tu prévois d'aller vers le sud, en direction des ateliers de la sous-station et de la station de traitement des déchets, fais gaffe. Le Syndicat contrôle ces territoires, et ils représentent une sacrée menace. Si tu tombes sur des artefacts, n'hésite pas à me les ramener - je t'en donnerai un bon prix. Reste prudent dans le coin, stalker.</text>
+	</string>
+	<string id="boroda_story_4">
+		<text>Merci.</text>
+	</string>
+
+	<string id="devushka_boroda_help_0">
+		<text>Hé Barbu ! On est toujours dans les temps, non ? On t'a apporté un petit cadeau.</text>
+	</string>
+	<string id="devushka_boroda_help_1">
+		<text>Juste à temps, même. Tiens, pour vous deux, une récompense pour vos efforts.</text>
+	</string>
+
+	
+<!-- Noah [ Loner Honcho) Character Description -->
+	<string id="noah_start_dialog_0">
+		<text>Putain, mais t'as tiré sur quoi ?! J'ai failli y passer, bordel !</text>
+	</string>
+	<string id="noah_start_dialog_1">
+		<text>Et toi, t'es là pour quoi ? Pas de conneries - fais pas perdre mon temps.</text>
+	</string>
+	<string id="noah_start_dialog_2">
+		<text>D'accord, doucement. Je passais juste. Besoin d'un coup de main ? Tu peux répondre à deux-trois questions ?</text>
+	</string>
+	<string id="noah_start_dialog_3">
+		<text>Je réponds, mais fais pas le con.</text>
+	</string>
+
+	<string id="noah_start_dialog1_0">
+		<text>J'ai deux-trois questions.</text>
+	</string>
+	<string id="noah_start_dialog1_1">
+		<text>...</text>
+	</string>
+		<string id="noah_start_dialog1_2">
+			<text>T'as trouvé ce chien où ?</text>
+		</string>
+		<string id="noah_start_dialog1_7">
+			<text>Ça, c'est Lassie. Une brave petite chienne... Sans elle, j'aurais été bouffé dans mon sommeil depuis longtemps. Ces putains de mutants... J'les hais ! Dès que t'as les yeux fermés, ils commencent à t'agripper avec leurs sales griffes, crocs et tentacules...</text>
+		</string>
+		<string id="noah_start_dialog1_8">
+			<text>Je vois.</text>
+		</string>
+		<string id="noah_start_dialog1_9">
+			<text>Et ces clébards - ils sortent d'où si Lassie passe tout son temps avec toi ? Hehe.</text>
+		</string>
+		<string id="noah_start_dialog1_3">
+			<text>Pourquoi tu vis dans ce dépotoir ?</text>
+		</string>
+		<string id="noah_start_dialog1_10">
+			<text>C'est une arche ! Retiens ça... tu t'en souviendras, si tu veux survivre ! Quand une Vague commence, reste près. Ici, t'as une chance de t'en sortir. Aucun mutants ne pourra jamais entrer ici.</text>
+		</string>
+		<string id="noah_start_dialog1_11">
+			<text>Quelle « Vague » ? De quoi tu parles ?</text>
+		</string>
+		<string id="noah_start_dialog1_12">
+			<text>Ces créatures me surveillent jour et nuit. Tu comprends pas... ces snorks du plateau sud m'ont suivi jusqu'à l'Arche ! J'suis un chasseur expérimenté et je sais qu'ils n'auraient pas poursuivi leur proie aussi longtemps, putain. Y'a un truc qui cloche... ils doivent avoir une sorte d'esprit collectif. Mes craintes ont été confirmées par les récentes attaques de ces horreurs sur la barge.</text>
+		</string>
+		<string id="noah_start_dialog1_13">
+			<text>J'imagine que tout peut arriver dans la Zone, mais si tes estimations sont bonnes, on est dans la merde jusqu'au cou.</text>
+		</string>
+		<string id="noah_start_dialog1_4">
+			<text>Pourquoi tu fais pas confiance aux gens ?</text>
+		</string>
+		<string id="noah_start_dialog1_14">
+			<text>Avec le temps, tu trouveras la réponse toi-même.</text>
+		</string>
+	<string id="noah_start_dialog1_5">
+		<text>Je crois que j'me casse.</text>
+	</string>
+
+	<string id="tasks_noah_dialog_0">
+		<text>Besoin d'un coup de main ?</text>
+	</string>
+	<string id="tasks_noah_dialog_1">
+		<text>Bon... J'ai deux-trois services que tu pourrais me rendre, si ça te dit.</text>
+	</string>
+	<string id="tasks_noah_dialog_2">
+		<text>Trouver un nouveau fusil à pompe.</text>
+	</string>
+		<string id="tasks_noah_dialog_5">
+			<text>Mon flingue actuel, c'est de la merde. Si tu pouvais m'dégoter un truc mieux, genre une Saiga... Bon, j'suis pas sûr qu'on trouve une arme comme ça dans la Zone. J'ai vu quelques bandits avec des Armsel Protecta, par contre. Tu peux m'en ramener une ?</text>
+		</string>
+	<string id="tasks_noah_dialog_3">
+		<text>Règle son compte au snorks sur le plateau sud.</text>
+	</string>
+		<string id="tasks_noah_dialog_6">
+			<text>Il est temps de mettre fin à ces sales bestioles. Chaque nuit, j'les entends rôder autour de la barge, attendre, respirer, renifler. Pour rejoindre le plateau sud, faudra utiliser un téléporteur. Je te l'ai marqué sur ta carte - c'est pas loin de la ferme carbonisée.</text>
+		</string>
+	<string id="tasks_noah_dialog_4">
+		<text>J'ai changé d'avis.</text>
+	</string>
+	
+	<string id="task_1_noah_done_0">
+		<text>Voilà une Armsel Protecta.</text>
+	</string>
+	<string id="task_1_noah_done_1">
+		<text>...Impressionnant. Merci pour le coup de main. Maintenant, ces bestioles y réfléchiront à deux fois avant de venir fouiner par ici.</text>
+	</string>
+
+	<string id="task_2_noah_done_0">
+		<text>J'ai buté ces snorks, y'en avait un paquet. Ils te chassaient pour quoi, au juste ?</text>
+	</string>
+	<string id="task_2_noah_done_1">
+		<text>J'suis pas sûr. Avant, j'y allais de temps en temps pour les nettoyer, mais j'ai plus le temps pour ça... faut que je garde un oeil sur les chiots. Alors, merci pour ton aide.</text>
+	</string>
+
+	
+
+	<string id="zat_a2_stalker_barmen_actor_info_0">
+		<text>Parle-moi de la vie ici.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_1">
+		<text>C'est un sujet vaste. Essaie de poser des questions précises, et j'ferai de mon mieux pour y répondre.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_1111">
+		<text>Les stalkers font quoi ici ?</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_11111">
+		<text>Pose-toi la question, mon pote. Ils débarquent de Skadovsk pour explorer le terrain et chercher des artefacts, en tirant sur tout ce qui bouge. Ils reviennent à Skadovsk pour se saouler et déblatérer... profiter d'un peu de repos avant le prochain raid... même si, quand une émission frappe, c'est une autre histoire. Là, on reste planqués et on pense à ceux qui n'ont pas trouvé d'abri à temps...</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_1112">
+		<text>Qu'est-ce qui a poussé stalkers à aller au centre de la Zone ?</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_11121">
+		<text>Drôle de question. Certains voulaient découvrir la prochaine mine d'or de artefacts. D'autres étaient attirés par les rumeurs de l'Oasis. D'autres encore cherchaient l'Exauceur de Souhaits. Et puis y'a les désirs humains de base : la cupidité et la curiosité... Chacun ses raisons. J'suis sûr que t'as les tiennes aussi.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_1113">
+		<text>Comment t'es arrivé ici ?</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_11131">
+		<text>Je suis arrivé ici avec Grouse après que le Scorcher ait été neutralisé. Mais je suis sûr que c'est pas ce que tu veux vraiment savoir, hein ? Je fais surtout dans les artefacts. L'extérieur est déjà bourré de babioles, alors les clients sérieux veulent des trucs rares. C'est pour ça que j'ai monté un camp de stalkers, où on peut encore trouver des articles de grande valeur. Je veux dire, quand un stalker revient avec son butin, de quoi il a vraiment besoin ? D'une bière bien fraîche et d'un peu de contact humain, c'est tout. Et c'est ça, le Skadovsk.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_1114">
+		<text>T'en penses quoi, des bandits ?</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_11141">
+		<text>Écoute, j'ai rien contre eux à bord du Skadovsk, du moment qu'ils se tiennent correctement. Après tout, on croise pas des gros connards tous les jours. Certains sont même d'anciens stalkers. Qui sait, un de ces pauvres mecs pourrait décider de lâcher le business avant de se prendre une balle... La vie est pleine de surprises.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_1115">
+		<text>Non, c'est bon. Laisse tomber.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_11151">
+		<text>Si tu l'dis.</text>
+	</string>
+
+	<string id="zat_b7_stalkers_victims_dialog_11">
+		<text>Salut, stalker. Là, j'suis occupé. On en parle plus tard, d'accord ?</text>
+	</string>
+
+	<string id="zat_b22_stalker_medic_start_1">
+		<text>Qu'est-ce qui t'amène ici ?</text>
+	</string>
+	<string id="zat_b22_stalker_medic_dialog_start_21">
+		<text>J't'écoute.</text>
+	</string>
+	<string id="zat_b22_stalker_medic_dialog_start_22">
+		<text>Salut, t'as besoin d'un coup de main ?</text>
+	</string>
+	<string id="zat_b22_stalker_medic_dialog_start_23">
+		<text>Salut.</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_0">
+		<text>J'ai besoin d'assistance médicale.</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_1">
+		<text>Je vais voir ce que je peux faire.</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_2">
+		<text>Je vais jeter un oeil... Hmm... T'as l'air en forme, pour moi. Pas de blessures, pas de signes de maladie des radiations. T'es bon pour y aller.</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_111">
+		<text>Je vais être honnête avec toi - bien sûr, tu peux utiliser un ou deux medikits et tout ira bien. Moi, je peux régler la plupart de tes problèmes pour, disons, 1 850 RU. J'ai un sérum de malade qui te remettra sur pied en un rien de temps. Mais toutes ces particules radioactives qui brillent vont continuer à circuler dans ton corps. Non, ça, le sérum peut pas le réparer. Mais pour 1 480 RU de plus, je te débarrasse de toute cette merde. Alors, t'as décidé ?</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_11">
+		<text>Quoi ? C'est si grave que ça ?</text>
+	</string>
+
+	<string id="zat_b22_stalker_medic_need_health_care_1111">
+		<text>Bon, prends ton fric et au boulot. La santé, c'est plus important que le pognon.</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_1112">
+		<text>D'accord, répare juste les radiations. Les blessures, je peux me les soigner avec des bandages moi-même.</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_1113">
+		<text>Tu sais quoi, Doc ? Soigne-toi toi-même !</text>
+	</string>
+
+	<string id="zat_b22_stalker_medic_need_health_care_11111">
+		<text>Un instant, s'il te plaît... Oui, tout devrait être bon maintenant. Tu peux y aller.</text>
+	</string>
+
+	<string id="zat_b22_stalker_medic_need_health_care_11112">
+		<text>Bon, t'as pas de risque de crever d'une faible irradiation. Pour l'instant, en tout cas. Mais j'te préviens, si tu crèves d'une hémorragie, c'est pas ma faute. Bonne chance, vieux !</text>
+	</string>
+
+	<string id="zat_b22_stalker_medic_need_health_care_11113">
+		<text>Comme tu voudras, camarade. Mais si tu crèves d'un coup, c'est pas ma faute.</text>
+	</string>
+
+	<string id="zat_b18_noah_start_11">
+		<text>T'es qui ?</text>
+	</string>
+	<string id="zat_b18_noah_start_111">
+		<text>Un stalker. On s'est déjà croisés.</text>
+	</string>
+	<string id="zat_b18_noah_start_1111">
+		<text>J'me souviens plus... Enfin, t'as besoin de quoi ?</text>
+	</string>
+	<string id="zat_b18_noah_start_112">
+		<text>Un stalker. Juste un stalker.</text>
+	</string>
+	<string id="zat_b18_noah_start_1121">
+		<text>Je vois. Tu cherches un refuge dans l'Arche ? Fais comme chez toi.</text>
+	</string>
+	<string id="zat_b18_noah_start_113">
+		<text>Occupe-toi de tes oignons.</text>
+	</string>
+	<string id="zat_b18_noah_start_21">
+		<text>Ah, c'est toi. Qu'est-ce que tu veux ?</text>
+	</string>
+
+	<string id="zat_b3_stalker_tech_start_15">
+		<text>Un choix judicieux, mon pote. Faut garder ton flingue en parfait état... Et si t'as une ou deux bouteilles sur toi, je peux te faire des upgrades à gogo ici. Tu veux un parachute cousu sur ton shotgun ? Je peux faire ça, héhé.</text>
+	</string>
+	<string id="zat_b3_stalker_tech_drink_1_0">
+		<text>J'ai de la gnôle. Un coup ?</text>
+	</string>
+	<string id="zat_b3_stalker_tech_drink_1_2">
+		<text>Nan, j'ai arrêté la bouteille, mec. Quand j'ai vu l'objet 62, j'me suis dit : « Ça y est, j'ai les jumps... » Tu vois, l'alcool, ça te défonce. C'est pas bon pour la santé. Et si j'suis plus là, qui va te fabriquer des munitions pour ton Gauss ?</text>
+	</string>
+	<string id="zat_b3_stalker_tech_drink_2_0">
+		<text>En voilà une autre pour toi.</text>
+	</string>
+	<string id="zat_b3_stalker_tech_drink_3_0">
+		<text>J'en ai un troisième, si t'en as besoin.</text>
+	</string>
+
+<!-- Nimble -->
+	<string id="player_inquiry">
+		<text>J'aimerais améliorer un flingue.</text>
+	</string>
+	<string id="nimble_response">
+		<text>D'accord, quel type de flingue tu veux que j'upgrade ? Et au fait, même pas la peine de penser me refiler un flingue en miettes. Chaque pièce et le flingue lui-même doivent être au moins à 90 % d'état si tu veux que je bosse dessus.</text>
+	</string>
+	<string id="option_pistol_0">
+		<text>Un pistolet.</text>
+	</string>
+	<string id="option_cqc_0">
+		<text>Un flingue de CQC.</text>
+	</string>
+	<string id="option_rifle_0">
+		<text>Un fusil.</text>
+	</string>
+	<string id="option_sniper_0">
+		<text>Un sniper.</text>
+	</string>
+	<string id="option_pistol_1">
+		<text>Quel genre de pistolet ?</text>
+	</string>
+	<string id="option_cqc_1">
+		<text>Quel genre de flingue de CQC ?</text>
+	</string>
+	<string id="option_rifle_1">
+		<text>Quel genre de fusil ?</text>
+	</string>
+	<string id="option_sniper_1">
+		<text>Quel genre de sniper ?</text>
+	</string>
+	<string id="option_pistol_2_1">
+		<text>Un 1911 amélioré pour taper plus fort [ 50 000 RU ].</text>
+	</string>
+	<string id="option_pistol_2_2">
+		<text>Un 1911 amélioré pour tirer plus vite [ 70 000 RU ].</text>
+	</string>
+	<string id="option_pistol_2_3">
+		<text>Un Deagle [50 000 RU].</text>
+	</string>
+	<string id="option_pistol_2_4">
+		<text>Un USP [ 30 000 RU ].</text>
+	</string>
+	<string id="option_cqc_2_1">
+		<text>Une Protecta [30 000 RU].</text>
+	</string>
+	<string id="option_cqc_2_2">
+		<text>Un SPAS-12 [30 000 RU].</text>
+	</string>
+	<string id="option_cqc_2_3">
+		<text>Un TOZ-34 [ 45 000 RU ].</text>
+	</string>
+	<string id="option_cqc_2_4">
+		<text>Un MP5 [ 65 000 RU ].</text>
+	</string>
+	<string id="option_rifle_2_1">
+		<text>Un G36 [ 45 000 RU ].</text>
+	</string>
+	<string id="option_rifle_2_2">
+		<text>Une Groza [ 45 000 RU ].</text>
+	</string>
+	<string id="option_rifle_2_3">
+		<text>Une PKM [ 100 000 RU ].</text>
+	</string>
+	<string id="option_sniper_2_1">
+		<text>Un DVL-10 Urbana [ 45 000 RU ].</text>
+	</string>
+	<string id="option_sniper_2_2">
+		<text>Un DVL-10 Saboteur [ 45 000 RU ].</text>
+	</string>
+	<string id="option_sniper_2_3">
+		<text>Un SVU [ 45 000 RU ].</text>
+	</string>
+	<string id="convo_exit">
+		<text>En fait, laisse tomber.</text>
+	</string>
+	<string id="convo_back">
+		<text>Quels types d'armes tu peux upgrader, déjà ?</text>
+	</string>
+	<string id="nimble_rant_missing_gun_and_money">
+		<text>Si t'es sérieux en venant me demander de upgrader un flingue que t'as pas, avec du fric que t'as pas, alors je dois être Lukashenko, et j'te fais arrêter sur-le-champ.</text>
+	</string>
+	<string id="nimble_rant_missing_gun">
+		<text>Tu crois que je les fais pousser dans mon jardin ? Reviens quand t'auras vraiment le flingue.</text>
+	</string>
+	<string id="nimble_rant_missing_money">
+		<text>Putain, comment tu veux que j'achète des pièces si tu m'files pas un rond ? Reviens avec le fric, et on en reparlera.</text>
+	</string>
+	<string id="player_acknowledge">
+		<text>D'accord.</text>
+	</string>
+</string_table>

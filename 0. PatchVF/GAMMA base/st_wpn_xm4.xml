@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="st_wpn_xm4">
+		<text>XM177E2</text>
+	</string>
+	<string id="st_wpn_xm4_descr">
+		<text>Le carabine M4 est issue d'une famille d'armes à feu dont la lignée remonte aux versions carabine antérieures du M16, toutes basées sur l'AR-15 original fabriqué par ArmaLite. Il s'agit d'une version plus courte et plus légère du fusil d'assaut M16, partageant 80 % de ses pièces. Le M4 tire des munitions de 5,56 x 45 mm OTAN et fonctionne par emprunt de gaz, est refroidi par air, alimenté par chargeur, dispose d'un sélecteur de tir et d'une crosse télescopique à 4 positions. Comme de nombreuses carabines, le M4 est maniable et plus pratique à transporter qu'un fusil de taille standard. Il a été adopté par le United States Special Operations Command (USSOCOM) et constitue l'arme de prédilection des forces spéciales de l'armée américaine et des Navy SEALs.\n \n
+		%c[ui_gray_2]ACCESSOIRES : \n
+		%c[d_purple] • %c[ui_gray_2] Silencieux : ADVANCED ARMAMENT (AAC) M4-2000 \n</text>
+	</string>
+	
+</string_table>

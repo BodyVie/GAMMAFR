@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_mac10">
+		<text>Ingram MAC-18</text>
+	</string>
+	<string id="st_wpn_mac10_s">
+		<text>MAC-18</text>
+	</string>
+	<string id="st_wpn_mac10_descr">
+		<text>
+		Le Military Armament Corporation Model 10 est un pistolet-mitrailleur compact, à tir sélectif et à fonctionnement par recul, développé par Gordon B. Ingram en 1964. Ce modèle spécifique a été curieusement adapté pour des munitions de calibre 9x18mm dans une version « MAC-18 », afin de répondre aux besoins de la Zone. \n
+		Une telle mitraillette imprécise, convertie pour des munitions 9x18mm moins coûteuses, semble tout à fait adaptée à ces régions. \n \n
+		%c[ui_gray_3]ACCESSOIRES :\n
+		%c[d_purple] • %c[ui_gray_2] Silencieux compatible avec le 9x18\n
+		</text>
+	</string>
+	
+	<string id="st_mag_mac10_9x19_standard">
+		<text>Chargeur Standard 9x18 M3</text>
+	</string>
+	<string id="st_mag_mac10_9x19_standard_descr">
+		<text>Chargeur modifié M3 « Grease Gun » d'une capacité de 32 cartouches, compatible avec le MAC-18.
+		</text>
+	</string>	
+	
+	<string id="st_mag_mac10_9x19_ext">
+		<text>Chargeur Étendu 9x18 M3</text>
+	</string>
+	<string id="st_mag_mac10_9x19_ext_descr">
+		<text>Chargeur prolongé M3 « Grease Gun » d'une capacité de 50 cartouches, compatible avec le MAC-18.
+		</text>
+	</string>
+
+		<string id="st_mag_mac10_11.43x23_standard">
+		<text>Chargeur Modifié 11.43x23 M3</text>
+	</string>
+	<string id="st_mag_mac10_11.43x23_standard_descr">
+		<text>Chargeur « Grease Gun » modifié pour alimenter des cartouches de 11,43x23, d'une capacité de 24 cartouches. Il peut être utilisé dans le MAC-10.
+		</text>
+	</string>
+
+		<string id="st_mag_mac10_11.43x23_ext">
+		<text>Chargeur Étendu Modifié 11.43x23 M3</text>
+	</string>
+	<string id="st_mag_mac10_11.43x23_ext_descr">
+		<text>Chargeur prolongé « Grease Gun » modifié pour alimenter des cartouches de 11,43x23, d'une capacité de 35 cartouches. Il peut être utilisé dans le MAC-10.
+		</text>
+	</string>
+	
+</string_table>

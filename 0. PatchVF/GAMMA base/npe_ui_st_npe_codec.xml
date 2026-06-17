@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="npe_codec_btn_continue">
+		<text>Espace pour continuer</text>
+	</string>	
+	<string id="npe_codec_btn_close">
+		<text>Fin</text>
+	</string>	
+	<string id="st_mgs_codec">
+		<text>Codec</text>
+	</string>
+	<string id="st_mgs_codec_descr">
+		<text>Le Codec. Système radio utilisé pour transmettre les ordres et les communications entre le personnel sur le terrain, les états-majors et les unités de soutien, avec des émetteurs-récepteurs largement employés dans les opérations de collecte de renseignements. \n \n
+		Inventé dans les années 2000 par l'armée américaine, il intègre un codage anti-écoute, une communication numérique en rafale en temps réel. Cet équipement est distribué en dotation standard aux opérateurs de FOXHOUND, servant de lien vital entre eux, leurs officiers traitants, leurs camarades et des informateurs énigmatiques.\n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet technologique\n
+		%c[d_blue] • %c[ui_gray_2] consommation électrique modérée\n
+		</text>
+	</string>						
+</string_table>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_9a91n">
+		<text>9A-91</text>
+	</string>
+	<string id="st_wpn_9a91n_descr">
+		<text>Fusil d'assaut compact et léger, conçu pour les forces spéciales et les unités de maintien de l'ordre, offrant une puissance de feu élevée dans un format réduit. Sa conception simple mais robuste garantit des performances fiables en combat urbain et lors d'engagements en milieu confiné. Grâce à sa capacité à monter des silencieux et des optiques, il s'agit d'une arme polyvalente, adaptée aussi bien aux opérations furtives qu'aux confrontations directes.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]KBP Instrument Design Bureau\n
+		</text>
+	</string>
+
+	<string id="st_wpn_vsk94n">
+		<text>VSK-94</text>
+	</string>	
+	<string id="st_wpn_vsk94n_descr">
+		<text>Fusil de précision désignateur supprimé, basé sur la plateforme 9A-91, conçu pour des engagements silencieux et précis à moyenne portée. Doté d'un silencieux intégré et compatible avec des optiques haute performance, il est idéal pour les missions de reconnaissance et les opérations discrètes. Sa taille compacte et son faible recul en font une arme extrêmement efficace pour éliminer des cibles sans révéler la position du tireur.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]KBP Instrument Design Bureau\n
+		</text>
+	</string>
+
+</string_table>

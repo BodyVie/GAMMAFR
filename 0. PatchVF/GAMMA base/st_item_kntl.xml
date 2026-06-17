@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_streetsweeper">
+		<text>Armsel Protecta</text>
+	</string>
+	<string id="st_wpn_streetsweeper_aim">
+		<text>Armsel Protecta</text>
+	</string>
+	<string id="st_wpn_streetsweeper_nimble">
+		<text>Armsel Protecta Custom</text>
+	</string>
+
+	<string id="st_wpn_streetsweeper_descr">
+		<text>Fusil de combat (également connu sous le nom de Striker), conçu pour une capacité de tir rapide, doté d'un cylindre rotatif unique permettant des tirs de suivi rapides. Sa construction robuste et son fonctionnement simple en font une arme très efficace pour les engagements en milieu confiné et le contrôle de foules. Grâce à son mécanisme de chargement rapide et son action semi-automatique, il est privilégié pour les applications militaires, policières et de sécurité.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Afrique du Sud\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Divers\n
+		</text>
+	</string>
+
+	<string id="st_wpn_streetsweeper_aim_descr">
+		<text>Fusil de combat (également connu sous le nom de Striker), conçu pour une capacité de tir rapide, doté d'un cylindre rotatif unique permettant des tirs de suivi rapides. Sa construction robuste et son fonctionnement simple en font une arme très efficace pour les engagements en milieu confiné et le contrôle de foules. Grâce à son mécanisme de chargement rapide et son action semi-automatique, il est privilégié pour les applications militaires, policières et de sécurité.\n
+		Cette variante est équipée d'une visée collimatrice Aimpoint AB et offre une énergie de bouche ainsi qu'une puissance d'arrêt significativement accrues, au détriment de la cadence de tir.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Afrique du Sud\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Divers\n
+		</text>
+	</string>
+
+	<string id="st_wpn_streetsweeper_nimble_descr">
+		<text>Fusil de combat (également connu sous le nom de Striker), conçu pour une capacité de tir rapide, doté d'un cylindre rotatif unique permettant des tirs de suivi rapides. Sa construction robuste et son fonctionnement simple en font une arme très efficace pour les engagements en milieu confiné et le contrôle de foules. Grâce à son mécanisme de chargement rapide et son action semi-automatique, il est privilégié pour les applications militaires, policières et de sécurité.\n
+		Selon certaines sources, ce modèle aurait autrefois appartenu à Tank, mais on sait peu de choses sur lui ou sur la véracité de cette information.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Afrique du Sud\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Divers\n
+		</text>
+	</string>
+
+</string_table>

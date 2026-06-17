@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!-- ====================================================================
+	Timed Tutorial Prompt
+    Author: Catspaw
+    Updated: 20260128
+    Permission granted to freely translate this file into any language.
+===================================================================== -->
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	
+	<string id="ui_st_catsy_new_tutorial">
+		<text>Nouveau tutoriel</text>
+	</string>
+
+	<string id="ui_st_catsy_view_tutorial">
+		<text>Appuyez pour afficher</text>
+	</string>
+
+	<string id="ui_st_catsy_dismiss_prompt">
+		<text>Maintenez pour ignorer</text>
+	</string>
+
+	<string id="ui_st_catsy_ignored_offer_later">
+		<text>$clr_lblLe tutoriel sera proposé à nouveau ultérieurement, lorsque cela sera pertinent.
+			\n$clr_def Marquer ou décocher comme vu dans $clr_gldMCM &gt; Modules NPE$clr_def.</text>
+	</string>
+			
+</string_table>

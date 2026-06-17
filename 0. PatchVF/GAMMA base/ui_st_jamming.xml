@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	JAMMING
+-->
+	<string id="kb_unjam">
+		<text>Désenrayer l'arme</text>
+	</string>
+	<string id="ui_st_misfire">
+		<text>Raté de tir !</text>
+	</string>
+	<string id="ui_st_jam">
+		<text>Arme enrayée !</text>
+	</string>
+	<string id="ui_st_superjam">
+		<text>Arme gravement enrayée !</text>
+	</string>
+	<string id="ui_st_nothing">
+		<text>Rien à désenrayer</text>
+	</string>
+	<string id="ui_st_unjam">
+		<text>Arme désenrayée avec succès</text>
+	</string>
+	<string id="ui_st_functional">
+		<text>Arme fonctionnelle</text>
+	</string>
+	<string id="ui_st_oldjam">
+		<text>Vous utilisez des chargeurs Anomaly. Ne désenrayez pas votre arme. Rechargez-la.</text>
+	</string>
+	<string id="ui_st_unjam_fail">
+		<text>Échec du désenrayage de l'arme.</text>
+	</string>
+	<string id="ui_st_parts_damage">
+		<text>L'arme a subi des dommages internes au niveau de ses composants.</text>
+	</string>
+	<string id="st_news_parts_alreadygood">
+		<text>Cette pièce n'a pas besoin d'être remplacée.</text>
+	</string>
+	<string id="ui_st_heat1">
+		<text>, mais tiède.</text>
+	</string>
+	<string id="ui_st_heat2">
+		<text>, mais chaud !</text>
+	</string>
+	<string id="ui_st_heat3">
+		<text>, mais très chaud !</text>
+	</string>
+	
+	<string id="st_unjam">
+		<text>désenrayer</text>
+	</string>
+
+<!--
+	MESSAGES
+-->
+
+	<string id="st_news_parts_success">
+		<text>Pièce remplacée avec succès : </text>
+	</string>
+	<string id="st_news_parts_fail">
+		<text>%c[d_red]L'arme possède déjà une pièce en meilleur état.</text>
+	</string>
+	<string id="st_news_parts_incompatible">
+		<text>%c[d_red]Pièce incompatible avec l'arme.</text>
+	</string>
+	<string id="st_news_parts_barrel">
+		<text>%c[d_red]Les canons ne peuvent pas être remplacés sur le terrain.</text>
+	</string>
+	<string id="st_news_parts_rusty">
+		<text>%c[d_red]L'arme est trop rouillée pour être démontée sur le terrain.</text>
+	</string>
+	<string id="st_news_dis_items">
+		<text>%c[d_red]Un outil de démontage adapté est requis.</text>
+	</string>
+	<string id="st_news_fieldstrip">
+		<text>Pièces retirées : </text>
+	</string>
+	<string id="st_news_cleaned">
+		<text>Pièce nettoyée : </text>
+	</string>
+
+<!--
+	MCM
+-->
+
+	<string id="ui_mcm_menu_wpo">
+		<text>WPO</text>
+	</string>
+	<string id="ui_mcm_wpo_title">
+		<text>Configuration de la révision des pièces d'arme</text>
+	</string>
+	<string id="ui_mcm_wpo_profanity">
+		<text>Jurons lors des enrayages</text>
+	</string>
+	<string id="ui_mcm_wpo_profanity_desc">
+		<text>Active les dialogues colorés en cas de dysfonctionnement.</text>
+	</string>
+	<string id="ui_mcm_wpo_profanity_timeout">
+		<text>Désactiver le spam de jurons</text>
+	</string>
+	<string id="ui_mcm_wpo_profanity_timeout_desc">
+		<text>Ajoute un délai avant la réapparition des jurons en cas d'enrayage si défini sur « true ».</text>
+	</string>
+	<string id="ui_mcm_wpo_profanity_language">
+		<text>Langage grossier</text>
+	</string>
+	<string id="ui_mcm_wpo_jamchance">
+		<text>Coefficient de chance d'enrayage</text>
+	</string>
+	<string id="ui_mcm_wpo_jamchance_desc">
+		<text>Probabilité que vos armes s'enrayent.</text>
+	</string>
+	<string id="ui_mcm_wpo_superjam">
+		<text>Activer les super-enrayages</text>
+	</string>
+	<string id="ui_mcm_wpo_superjam_desc">
+		<text>Active (ou désactive) les super-enrayages. Les super-enrayages sont des enrayages nécessitant le retrait des munitions chargées pour nettoyer ou résoudre correctement le problème.</text>
+	</string>
+	<string id="ui_mcm_wpo_simplejam">
+		<text>Super-enrayages éjectent le chargeur</text>
+	</string>
+	<string id="ui_mcm_wpo_simplejam_desc">
+		<text>Si activé, lors du rechargement d'une arme en super-enrayage, le chargeur sera éjecté automatiquement. Plus besoin de manipuler l'inventaire pour résoudre le problème.</text>
+	</string>
+	<string id="ui_mcm_wpo_threshold">
+		<text>Seuil d'état des dégâts de pièce</text>
+	</string>
+	<string id="ui_mcm_wpo_threshold_desc">
+		<text>État de l'arme en dessous duquel son utilisation a une probabilité d'endommager ses composants. Plus la valeur est basse, moins les pièces risquent d'être endommagées.</text>
+	</string>
+	<string id="ui_mcm_wpo_cleancoef">
+		<text>Multiplicateur de nettoyage par le technicien</text>
+	</string>
+	<string id="ui_mcm_wpo_cleancoef_desc">
+		<text>Ajustement du coût du nettoyage des armes par le technicien.</text>
+	</string>
+	<string id="ui_mcm_wpo_verbosity">
+		<text>Verbosité des messages d'enrayage</text>
+	</string>
+	<string id="ui_mcm_wpo_verbosity_desc">
+		<text>Niveau de verbosité des messages d'enrayage sur l'interface HUD. Il existe trois niveaux :\n
+		Aucun : Seuls les enrayages basés sur l'état de l'arme sont signalés (car cela peut prêter à confusion autrement).\n
+		Normal (recommandé) : Vous serez informé lorsque votre arme s'enraye et se désenraye avec succès.\n
+		Complet : inclut tout ce qui est couvert par le mode 'Normal', mais vous serez également informé en cas de super-enrayage sévère nécessitant le déchargement de l'arme et une intervention pour le résoudre, ainsi qu'en cas d'endommagement d'un composant.</text>
+	</string>
+	<string id="ui_mcm_wpo_minpart">
+		<text>État minimal des pièces à vendre</text>
+	</string>
+	<string id="ui_mcm_wpo_minpart_desc">
+		<text>Condition minimale requise pour TOUS les composants d'une arme afin qu'elle soit éligible à la vente. Si une arme possède UN SEUL composant en dessous de cette condition, elle sera exclue de la vente.\n
+		Définissez sur 0 pour désactiver.</text>
+	</string>
+	<string id="ui_mcm_wpo_fun">
+		<text>Niveau de fun</text>
+	</string>
+	<string id="ui_mcm_wpo_title">
+		<text>Révision des pièces d'arme</text>
+	</string>
+	<string id="ui_mcm_lst_eng">
+		<text>Anglais</text>
+	</string>
+	<string id="ui_mcm_lst_rus">
+		<text>Russe</text>
+	</string>
+	<string id="ui_mcm_lst_verbosity_none">
+		<text>Aucun</text>
+	</string>
+	<string id="ui_mcm_lst_verbosity_normal">
+		<text>Normal</text>
+	</string>
+	<string id="ui_mcm_lst_verbosity_full">
+		<text>Complet</text>
+	</string>
+	<string id="ui_mcm_lst_no">
+		<text>Devoir</text>
+	</string>
+	<string id="ui_mcm_lst_yes">
+		<text>Solitaires</text>
+	</string>
+	<string id="ui_mcm_lst_ofc">
+		<text>Liberté</text>
+	</string>
+	<string id="ui_mcm_wpo_debug">
+		<text>Journalisation de débogage</text>
+	</string>
+	<string id="ui_mcm_wpo_debug_desc">
+		<text>Active une grande quantité d'informations supplémentaires dans le journal de la console.</text>
+	</string>
+	<string id="ui_mcm_wpo_babymode">
+		<text>Mode Bitch</text>
+	</string>
+	<string id="ui_mcm_wpo_babymode_desc">
+		<text>Désactive les enrayages partiels. Si vous devez cocher cette option, pourquoi avoir installé ce mod en premier lieu ?</text>
+	</string>
+	<string id="ui_mcm_wpo_newdrops">
+		<text>Activer les jets de pièces alternatifs</text>
+	</string>
+	<string id="ui_mcm_wpo_newdrops_desc">
+		<text>Attribue les composants selon une nouvelle formule. La probabilité d'obtenir des pièces de qualité ci-dessous est ajustée en fonction de l'état de l'arme et d'un poids caché supplémentaire. Rend le jeu plus difficile si les poids sont suffisamment bas. Pour utiliser l'ancienne méthode, désactivez cette option.</text>
+	</string>
+	<string id="ui_mcm_wpo_newdropschance">
+		<text>Jets de pièces alternatifs (chance de bonne pièce)</text>
+	</string>
+	<string id="ui_mcm_wpo_degradation">
+		<text>Dégradation par la pluie</text>
+	</string>
+	<string id="ui_mcm_wpo_degradation_desc">
+		<text>Taux auquel votre arme se dégrade plus rapidement par temps de pluie.</text>
+	</string>
+	
+	<string id="st_field_strip">
+		<text>démonter</text>
+	</string>
+	<string id="st_field_strip_fail">
+		<text>Cette arme n'a aucune pièce à retirer.</text>
+	</string>
+	<string id="ui_st_missing">
+		<text>Cette arme manque de pièces.</text>
+	</string>
+
+<!--
+	ENCYCLOPEDIA
+-->
+
+	<string id="article_wpo">
+		<text>Entretien de l'arme</text>
+	</string>
+	<string id="article_wpo_text">
+		<text>%c[pda_green]FAQ RAPIDES\n
+		%c[pda_white]Question : Pourquoi mon flingue s'enraye à 100 % ?\n
+		%c[pda_white]Réponse : %c[ui_gray_1]Tes pièces sont endommagées. Vérifie leur état.\n
+		%c[pda_white]Question : Comment désenrayer ?\n
+		%c[pda_white]Réponse : %c[ui_gray_1]Double-clique sur le bouton « %c[pda_white]UTILISER%c[ui_gray_1] ». Ou fais un « %c[pda_white]clic droit%c[ui_gray_1] » sur l'arme dans ton inventaire pour faire apparaître la commande « %c[pda_white]désenrayer%c[ui_gray_1] ».\n
+		%c[pda_white]Question : Pourquoi je perds de l'état quand je remplace des pièces ?\n
+		%c[pda_white]Réponse : %c[ui_gray_1]Il faut lubrifier l'arme. Ça n'arrive pas en dessous de 60 % d'état. Utilise un kit d'outils pour réduire la perte d'état ou un établi pour l'éliminer complètement.\n
+		%c[pda_white]Question : Pourquoi les techniciens réparent pas mes pièces ?\n
+		%c[pda_white]Réponse : %c[ui_gray_1]Il faut récupérer les pièces. Tu peux en acheter chez le technicien ou utiliser un kit de réparation d'arme. C'est le principe de base de la Révision des pièces d'arme. Ce système change radicalement la façon dont l'entretien des armes fonctionne dans Anomaly. Lis bien ce guide pour tout comprendre.\n \n
+		%c[pda_green]Pièces et entretien\n
+		%c[pda_white]ï¿½ %c[ui_gray_1]L'état global de ton arme (la barre d'état) est maintenant plus facile à entretenir. Le mécanicien te le restaurera pour 60 % de moins, et tous les objets de réparation d'arme sont bien plus efficaces.\n \n
+		%c[pda_white]ï¿½ %c[ui_gray_1]Les pièces d'arme ont besoin d'entretien. Tu peux voir l'état des pièces en survolant l'arme, la couleur du texte indiquant leur statut : %c[d_red]Manquant%c[ui_gray_1], %c[d_orange]Endommagé %c[ui_gray_1]et %c[pda_yellow]Sale%c[ui_gray_1].\n \n
+		%c[pda_white]ï¿½ %c[ui_gray_1]Les pièces d'arme peuvent être retirées en démontant l'arme. Avec ça, tu peux enlever tous les composants qui ne sont pas des canons. Pour retirer un canon, il faut utiliser un établi avec le bon kit de réparation.\n \n
+		%c[d_red]ATTENTION\n
+		%c[pda_white]ï¿½ %c[ui_gray_1]Démonter une arme avec un kit d'outils ou un établi fera baisser son état si celui-ci est supérieur à 60 %.\n \n
+		%c[pda_green]Enrayages et dégâts des pièces\n
+		%c[pda_white]Les pièces ont cinq niveaux de dégâts :\n
+		%c[pda_white]ï¿½ %c[d_red]Cassé\n
+		%c[pda_white]ï¿½ %c[d_red]Endommagé\n
+		%c[pda_white]ï¿½ %c[d_orange]Usé\n
+		%c[pda_white]ï¿½ %c[0,250,250,0]Sale\n
+		%c[pda_white]ï¿½ %c[d_green]Fonctionnel\n
+		%c[ui_gray_1]Plus les pièces sont endommagées, plus le risque de dysfonctionnement est élevé.\n
+		%c[pda_white]Échec/Enrayement : %c[ui_gray_1]Peut être éliminé simplement en désenrayant.\n
+		%c[pda_white]Enrayage sévère : %c[ui_gray_1]Nécessite d'éjecter le chargeur avant de désenrayer.\n
+		%c[ui_gray_1]Les canons n'influencent pas la probabilité d'enrayage. Cependant, les canons sales réduisent les dégâts de l'arme jusqu'à 50 %.\n
+		%c[ui_gray_1]Tirer avec une arme en dessous de 85 % d'état a une chance d'endommager les pièces.\n
+		%c[ui_gray_1]Tirer avec une arme sous une pluie battante dégrade l'arme plus vite.\n
+		%c[ui_gray_1]Tirer trop longtemps avec une arme provoque une surchauffe, ce qui augmente les enrayages et accélère la dégradation.\n \n
+		%c[pda_green]Modifications économiques\n
+		%c[pda_white]ï¿½ %c[ui_gray_1]Avoir un kit de nettoyage te permettra de nettoyer les pièces d'arme « sales » (état supérieur à 60 %). Cela restaure aussi 10 % d'état.\n
+		%c[pda_white]ï¿½ %c[ui_gray_1]Avoir un kit de réparation te permettra de remplacer des pièces via le menu « clic droit ». Cela utilise une charge et restaure 10 % d'état.\n
+		%c[pda_white]ï¿½ %c[ui_gray_1]Les techniciens vendent aléatoirement des pièces d'arme avec une majoration.\n
+		%c[ui_gray_1]Les pièces d'arme au-dessus de 60 % peuvent être réparées avec des limes, des baguettes ou des multitools.\n
+		%c[ui_gray_1]Les pièces d'arme dont l'état est supérieur à 10 % mais inférieur à 60 % peuvent être réparées avec un kit d'outils très coûteux disponible chez les marchands.
+		</text>
+	</string>
+
+<!--
+	INFO
+-->
+
+	<string id="st_dot">
+		<text>•</text>
+	</string>
+	<string id="st_damage_missing">
+		<text>Manquant</text>
+	</string>
+	<string id="st_damage_0">
+		<text>Cassé</text>
+	</string>
+	<string id="st_damage_1">
+		<text>Endommagé</text>
+	</string>
+	<string id="st_damage_2">
+		<text>Usé</text>
+	</string>
+	<string id="st_damage_3">
+		<text>Sale</text>
+	</string>
+	<string id="st_damage_4">
+		<text>Fonctionnel</text>
+	</string>
+	<string id="st_damage_5">
+		<text>Fonctionnel</text>
+	</string>
+	<string id="st_jam">
+		<text>Probabilité d'enrayage</text>
+	</string>
+
+	<string id="st_wpo_replace_parts">
+		<text>entretenir les pièces</text>
+	</string>
+	
+	<string id="st_wpo_replace">
+		<text>remplacer</text>
+	</string>
+	<string id="st_wpo_clean">
+		<text>propre</text>
+	</string>
+	<string id="st_wpo_remove">
+		<text>retirer</text>
+	</string>
+
+	<string id="st_name_trigger">
+		<text>Mécanisme de détente</text>
+	</string>
+	<string id="st_name_spring">
+		<text>Ressort de recul</text>
+	</string>
+	<string id="st_name_barrel">
+		<text>Canon</text>
+	</string>
+	<string id="st_name_bolt_carrier">
+		<text>Porte-Boulon</text>
+	</string>
+	<string id="st_name_bolt">
+		<text>Boulon</text>
+	</string>
+	<string id="st_name_gas_tube">
+		<text>Système à gaz</text>
+	</string>
+	<string id="st_name_extractor">
+		<text>Extracteur</text>
+	</string>
+	<string id="st_name_ejector">
+		<text>Éjecteur</text>
+	</string>
+	<string id="st_name_pump">
+		<text>Pompe</text>
+	</string>
+	<string id="st_name_hammers">
+		<text>Chien</text>
+	</string>
+	<string id="st_name_chock">
+		<text>Choke</text>
+	</string>
+	<string id="st_name_all">
+		<text>tous</text>
+	</string>
+	<string id="st_name_issues">
+		<text>ÉTAT :</text>
+	</string>
+
+<!--
+	UNUSED
+-->
+
+	<string id="st_partskit">
+		<text>Kit de réparation de pièce</text>
+	</string>
+	<string id="st_partskit_descr">
+		<text>Trousse d'outils hautement avancée incluant des micro-limes, une résine époxy métallique à froid, un dispositif de bain d'électrolyse et une grande quantité de lubrifiants, distillats de pétrole et autres solvants. Cependant, cet équipement est extrêmement complexe à assembler et n'est donc vendu qu'en très petites quantités par les techniciens de Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] ? %c[ui_gray_1] trousse à outils\n
+		%c[d_orange] ? %c[ui_gray_1] capable de réparer les composants d'une arme dont l'état est supérieur à 10 % mais inférieur à 60 %\n
+		</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,2467 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	OPTIONS
+-->
+
+	<string id="ui_mm_options_n">
+		<text>Paramètres</text>
+	</string>
+	<string id="ui_mm_btn_apply_all">
+		<text>Appliquer à tous</text>
+	</string>
+
+<!--
+	OPTIONS MENU
+-->
+
+	<string id="ui_mm_menu_video">
+		<text>Visuel</text>
+	</string>
+		<string id="ui_mm_menu_basic">
+			<text>De base</text>
+		</string>
+		<string id="ui_mm_menu_advanced">
+			<text>Avancé</text>
+		</string>
+		<string id="ui_mm_menu_hud">
+			<text>UI/IU</text>
+		</string>
+		<string id="ui_mm_menu_player">
+			<text>Joueur</text>
+		</string>
+		<string id="ui_mm_menu_weather">
+			<text>Météo</text>
+		</string>
+		<string id="ui_mm_menu_night">
+			<text>Nuit</text>
+		</string>
+	<string id="ui_mm_menu_sound">
+		<text>Son</text>
+	</string>
+		<string id="ui_mm_menu_general">
+			<text>Général</text>
+		</string>
+		<string id="ui_mm_menu_environment">
+			<text>Environnement</text>
+		</string>
+		<string id="ui_mm_menu_radio">
+			<text>Radio</text>
+		</string>
+	<string id="ui_mm_menu_control">
+		<text>Contrôle</text>
+	</string>
+		<string id="ui_mm_menu_keybind">
+			<text>Raccourcis clavier</text>
+		</string>
+	<string id="ui_mm_menu_gameplay">
+		<text>Gameplay</text>
+	</string>
+		<string id="ui_mm_menu_economy_diff">
+			<text>Difficulté de Progression</text>
+		</string>
+		<string id="ui_mm_menu_gameplay_diff">
+			<text>Difficulté de gameplay</text>
+		</string>
+		<string id="ui_mm_menu_disguise">
+			<text>Déguisement</text>
+		</string>
+		<string id="ui_mm_menu_fast_travel">
+			<text>Voyage rapide</text>
+		</string>
+		<string id="ui_mm_menu_backpack_travel">
+			<text>Voyage avec sac à dos</text>
+		</string>
+	<string id="ui_mm_menu_other">
+		<text>Autres</text>
+	</string>
+	
+	<string id="ui_mm_menu_alife">
+		<text>La Zone</text>
+	</string>
+		<string id="ui_mm_menu_event">
+		<text>Événements</text>
+		</string>
+	<string id="ui_mm_menu_warfare">
+		<text>Guerre</text>
+	</string>
+	<string id="ui_mm_menu_azazel">
+		<text>Azazel</text>
+	</string>
+	<string id="ui_mm_menu_stalker">
+		<text>Stalker</text>
+	</string>
+	<string id="ui_mm_menu_bandit">
+		<text>Bandits</text>
+	</string>
+	<string id="ui_mm_menu_csky">
+		<text>Firmament</text>
+	</string>
+	<string id="ui_mm_menu_army">
+		<text>Militaires</text>
+	</string>
+	<string id="ui_mm_menu_freedom">
+		<text>Liberté</text>
+	</string>
+	<string id="ui_mm_menu_dolg">
+		<text>Devoir</text>
+	</string>
+	<string id="ui_mm_menu_ecolog">
+		<text>Scientifiques</text>
+	</string>
+	<string id="ui_mm_menu_killer">
+		<text>Mercenaires</text>
+	</string>
+	<string id="ui_mm_menu_monolith">
+		<text>Monolithe</text>
+	</string>
+	<string id="ui_mm_menu_renegade">
+		<text>Renégats</text>
+	</string>
+	<string id="ui_mm_menu_greh">
+		<text>Péché</text>
+	</string>
+	<string id="ui_mm_menu_isg">
+		<text>UNISG</text>
+	</string>
+	<string id="ui_mm_menu_zombied">
+		<text>Zombifiés</text>
+	</string>
+	<string id="ui_mm_menu_dynamic_news">
+		<text>Actualités dynamiques</text>
+	</string>
+
+<!--
+	BUTTONS
+-->
+
+	<string id="ui_mm_apply">
+		<text>Appliquer</text>
+	</string>
+	<string id="ui_mm_reset">
+		<text>Réinitialiser</text>
+	</string>
+	<string id="ui_mm_default">
+		<text>Par défaut</text>
+	</string>
+	<string id="ui_mm_cancel">
+		<text>Annuler</text>
+	</string>
+	<string id="ui_mm_preset">
+		<text>(À NE PAS UTILISER)</text>
+	</string>
+
+<!--
+	MESSAGES
+-->
+
+	<string id="ui_mm_warning_pending">
+		<text>Vous avez (%s) modifications en attente.</text>
+	</string>
+	<string id="ui_mm_warning_economy_diff_not_level_present">
+		<text>Les facteurs de difficulté de progression ne sont accessibles que pendant une partie chargée.\n
+		Remarque : ces modifications de paramètres sont spécifiques à la sauvegarde.</text>
+	</string>
+	<string id="ui_mm_warning_gameplay_diff_not_level_present">
+		<text>Les facteurs de difficulté de gameplay ne sont accessibles que pendant une partie chargée.\n
+		Remarque : ces modifications de paramètres sont spécifiques à la sauvegarde.</text>
+	</string>
+	<string id="ui_mm_change_done_restart">
+		<text>Modifications enregistrées\n
+		Redémarrez votre jeu pour que les modifications prennent effet.</text>
+	</string>
+	<string id="ui_mm_change_done">
+		<text>Modifications enregistrées</text>
+	</string>
+	<string id="ui_mm_discard_changes">
+		<text>Les modifications en attente seront abandonnées.\n
+		Continuer ?</text>
+	</string>
+
+<!--
+	VIDEO - BASIC
+-->
+
+	<string id="ui_mm_title_video_basic">
+		<text>Paramètres vidéo</text>
+	</string>
+	
+	<string id="ui_mm_lst_renderer_r1">
+		<text>DirectX 8 (Basique)</text>
+	</string>
+	<string id="ui_mm_lst_renderer_r2a">
+		<text>DirectX 9 (Basique)</text>
+	</string>
+	<string id="ui_mm_lst_renderer_r2">
+		<text>DirectX 9 (Normal)</text>
+	</string>
+	<string id="ui_mm_lst_renderer_r2.5">
+		<text>DirectX 9 (Amélioré)</text>
+	</string>
+	<string id="ui_mm_lst_renderer_r3">
+		<text>DirectX 10 (Amélioré)</text>
+	</string>
+	<string id="ui_mm_lst_renderer_r4">
+		<text>DirectX 11 (Amélioré)</text>
+	</string>
+	<string id="ui_mm_lst_pres_default">
+		<text>Moyen</text>
+	</string>
+	<string id="ui_mm_lst_pres_extreme">
+		<text>Extrême</text>
+	</string>
+	<string id="ui_mm_lst_pres_high">
+		<text>Élevé</text>
+	</string>
+	<string id="ui_mm_lst_pres_low">
+		<text>Faible</text>
+	</string>
+	<string id="ui_mm_lst_pres_minimum">
+		<text>Pomme de terre</text>
+	</string>
+	<string id="ui_mm_lst_fullscreen">
+		<text>Plein écran</text>
+	</string>
+	<string id="ui_mm_lst_borderless">
+		<text>Sans bordure</text>
+	</string>
+	<string id="ui_mm_lst_windowed">
+		<text>Fenêtré</text>
+	</string>
+	
+	<string id="ui_mm_video_basic_renderer">
+		<text>Type de rendu</text>
+	</string>
+	<string id="ui_mm_video_basic_preset">
+		<text>Paramètres de qualité</text>
+	</string>
+	<string id="ui_mm_video_basic_resolution">
+		<text>Résolution</text>
+	</string>
+	<string id="ui_mm_video_basic_gamma">
+		<text>Gamma</text>
+	</string>
+	<string id="ui_mm_video_basic_contrast">
+		<text>Saturation des couleurs</text>
+	</string>
+	<string id="ui_mm_video_basic_brightness">
+		<text>Luminosité</text>
+	</string>
+	<string id="ui_mm_video_basic_hud_fov">
+		<text>Champ de vision de l'IU</text>
+	</string>
+	<string id="ui_mm_video_basic_fov">
+		<text>Champ de vision</text>
+	</string>
+	<string id="ui_mm_video_basic_screen_mode">
+		<text>Mode d'affichage</text>
+	</string>
+	<string id="ui_mm_video_basic_lighting">
+		<text>Paramètres d'éclairage de base</text>
+	</string>
+	
+	
+<!--
+	VIDEO - ADVANCED
+-->
+
+	<string id="ui_mm_title_video_advanced">
+		<text>Paramètres vidéo avancés</text>
+	</string>
+	
+	<string id="ui_mm_prst_video_default">
+		<text>Moyen</text>
+	</string>
+	<string id="ui_mm_prst_video_extreme">
+		<text>Extrême</text>
+	</string>
+	<string id="ui_mm_prst_video_high">
+		<text>Élevé</text>
+	</string>
+	<string id="ui_mm_prst_video_low">
+		<text>Bas</text>
+	</string>
+	<string id="ui_mm_prst_video_minimum">
+		<text>Pomme de terre</text>
+	</string>
+	
+	<string id="ui_mm_lst_low">
+		<text>Bas</text>
+	</string>
+	<string id="ui_mm_lst_medium">
+		<text>Moyen</text>
+	</string>
+	<string id="ui_mm_lst_high">
+		<text>Élevé</text>
+	</string>
+	<string id="ui_mm_lst_ultra">
+		<text>Ultra</text>
+	</string>
+	<string id="ui_mm_lst_extreme">
+		<text>Extrême</text>
+	</string>
+	<string id="ui_mm_lst_off">
+		<text>Désactivé</text>
+	</string>
+	<string id="ui_mm_lst_default">
+		<text>Par défaut</text>
+	</string>
+	<string id="ui_mm_lst_hbao">
+		<text>HBAO</text>
+	</string>
+	<string id="ui_mm_lst_hdao">
+		<text>HDAO</text>
+	</string>
+	<string id="ui_mm_lst_x2">
+		<text>x2</text>
+	</string>
+	<string id="ui_mm_lst_x4">
+		<text>x4</text>
+	</string>
+	<string id="ui_mm_lst_x8">
+		<text>x8</text>
+	</string>
+	<string id="ui_mm_lst_atest_msaa_dx10_0">
+		<text>Utiliser DX10</text>
+	</string>
+	<string id="ui_mm_lst_atest_msaa_dx10_1">
+		<text>Utiliser DX10.1</text>
+	</string>
+	<string id="ui_mm_lst_volumetric">
+		<text>Volumétrique</text>
+	</string>
+	<string id="ui_mm_lst_screen_space">
+		<text>Espace écran</text>
+	</string>
+	<string id="ui_mm_lst_combined">
+		<text>Les deux</text>
+	</string>
+	
+	<string id="ui_mm_video_advanced_ai_torch">
+		<text>Utilisation des frontales par les Stalkers</text>
+	</string>
+	<string id="ui_mm_video_advanced_v_sync">
+		<text>Synchronisation verticale</text>
+	</string>
+	<string id="ui_mm_video_advanced_refresh_60hz">
+		<text>Fréquence 60 Hz</text>
+	</string>
+	<string id="ui_mm_video_advanced_framelimit">
+		<text>Limiteur de FPS</text>
+	</string>
+	<string id="ui_mm_video_advanced_framelimit_desc">
+		<text>Permet de définir une limite personnalisée de fréquence d'images par seconde (FPS).\n
+		"0" signifie qu'il n'y a pas de limite de fréquence d'images.</text>
+	</string>
+	
+	<string id="ui_mm_header_rendering_dist">
+		<text>Distance de rendu</text>
+	</string>
+	<string id="ui_mm_video_advanced_vis_distance">
+		<text>Monde</text>
+	</string>
+	<string id="ui_mm_video_advanced_optimize_static_geom">
+		<text>Objets statiques</text>
+	</string>
+	<string id="ui_mm_video_advanced_optimize_dynamic_geom">
+		<text>Objets dynamiques</text>
+	</string>
+	<string id="ui_mm_video_advanced_optimize_shadow_geom">
+		<text>Culling des ombres distantes</text>
+	</string>
+	<string id="ui_mm_video_advanced_optimize_shadow_geom_desc">
+		<text>L'activation de cette option peut améliorer les performances en supprimant les ombres lointaines (que vous ne distinguez généralement pas de toute façon).\n
+		Peut entraîner la suppression de très longues ombres (notamment visible au lever et au coucher du soleil).
+		</text>
+	</string>
+	
+	<string id="ui_mm_header_rendering_quality">
+		<text>Qualité de rendu</text>
+	</string>
+	<string id="ui_mm_video_advanced_texture_lod">
+		<text>Détail des textures</text>
+	</string>
+	<string id="ui_mm_video_advanced_mipbias">
+		<text>Biais MIP des textures</text>
+	</string>
+	<string id="ui_mm_video_advanced_mipbias_desc">
+		<text>Définit la qualité et la netteté des textures à distance.</text>
+	</string>
+	<string id="ui_mm_video_advanced_geometry_lod">
+		<text>Détail des objets</text>
+	</string>
+	<string id="ui_mm_video_advanced_detail_textures">
+		<text>Textures détaillées</text>
+	</string>
+	<string id="ui_mm_video_advanced_tf_aniso">
+		<text>Filtrage anisotrope</text>
+	</string>
+	<string id="ui_mm_video_advanced_ssample">
+		<text>Anti-crénelage</text>
+	</string>
+	<string id="ui_mm_video_advanced_ssample_list">
+		<text>Anti-crénelage</text>
+	</string>
+	<string id="ui_mm_video_advanced_smaa">
+		<text>SMAA</text>
+	</string>
+	<string id="ui_mm_video_advanced_detail_bump">
+		<text>Détail de relief</text>
+	</string>
+		<string id="ui_mm_video_advanced_steep_parallax">
+		<text>Parallaxe prononcée</text>
+	</string>
+	<string id="ui_mm_video_advanced_enable_tessellation">
+		<text>Tessellation</text>
+	</string>
+
+	<string id="ui_mm_header_grass">
+		<text>Herbe</text>
+	</string>
+	<string id="ui_mm_video_advanced_detail_density">
+		<text>Densité de l'herbe</text>
+	</string>
+	<string id="ui_mm_video_advanced_detail_radius">
+		<text>Distance de rendu de l'herbe</text>
+	</string>
+	<string id="ui_mm_video_advanced_detail_height">
+		<text>Taille de l'herbe</text>
+	</string>
+	<string id="ui_mm_video_advanced_grass_shadow">
+		<text>Ombres de l'herbe</text>
+	</string>
+	<string id="ui_mm_video_advanced_sun_details">
+		<text>Ombre de l'herbe</text>
+	</string>
+	
+	<string id="ui_mm_header_lighting">
+		<text>Éclairage</text>
+	</string>
+	<string id="ui_mm_video_advanced_actor_shadow">
+		<text>Ombre de l'acteur</text>
+	</string>
+	<string id="ui_mm_video_advanced_gloss_factor">
+		<text>Facteur de brillance spéculaire (NE PAS TOUCHER)</text>
+	</string>
+	<string id="ui_mm_video_advanced_slight_fade">
+		<text>Distance d'éclairage</text>
+	</string>
+	<string id="ui_mm_video_advanced_ls_squality">
+		<text>Qualité des ombres</text>
+	</string>
+	<string id="ui_mm_video_advanced_sun">
+		<text>Ombre du soleil</text>
+	</string>
+	<string id="ui_mm_video_advanced_sun_quality">
+		<text>Qualité des ombres du soleil</text>
+	</string>
+	<string id="ui_mm_video_advanced_sunshafts_mode">
+		<text>Mode rayons du soleil</text>
+	</string>
+	<string id="ui_mm_video_advanced_sunshafts_quality">
+		<text>Qualité des rayons du soleil (volumétrique)</text>
+	</string>
+	<string id="ui_mm_video_advanced_sunshafts_value">
+		<text>Intensité principale des rayons du soleil</text>
+	</string>
+	<string id="ui_mm_video_advanced_sunshafts_min">
+		<text>Intensité de base des rayons du soleil</text>
+	</string>
+	<string id="ui_mm_video_advanced_ssao_mode">
+		<text>Mode SSAO</text>
+	</string>
+	<string id="ui_mm_video_advanced_ssao">
+		<text>Qualité SSAO</text>
+	</string>
+	<string id="ui_mm_video_advanced_volumetric_lights">
+		<text>Lumière volumétrique</text>
+	</string>
+	
+	
+	<string id="ui_mm_video_advanced_msaa_alphatest">
+		<text>Lissage des objets A-test</text>
+	</string>
+	<string id="ui_mm_video_advanced_msaa_opt">
+		<text>Optimiser le lissage</text>
+	</string>
+
+	<string id="ui_mm_header_effects">
+		<text>Effets</text>
+	</string>
+	<string id="ui_mm_video_advanced_soft_water">
+		<text>Eau douce</text>
+	</string>
+	<string id="ui_mm_video_advanced_soft_particles">
+		<text>Particules douces</text>
+	</string>
+	<string id="ui_mm_video_advanced_dof_enable">
+		<text>Profondeur de champ</text>
+	</string>
+	<string id="ui_mm_video_advanced_mblur_enable">
+		<text>Flou de mouvement</text>
+	</string>
+	<string id="ui_mm_video_advanced_mblur">
+		<text>Intensité du flou de mouvement</text>
+	</string>
+	<string id="ui_mm_video_advanced_dynamic_wet_surfaces">
+		<text>Surfaces mouillées</text>
+	</string>
+	<string id="ui_mm_video_advanced_volumetric_smoke">
+		<text>Fumée volumétrique</text>
+	</string>
+
+<!--
+	VIDEO - HUD
+-->
+
+	<string id="ui_mm_title_hud">
+		<text>UI/IU</text>
+	</string>
+	
+	<string id="ui_mm_video_hud_show_crosshair">
+		<text>Afficher le réticule</text>
+	</string>
+	<string id="ui_mm_video_hud_crosshair_dist">
+		<text>Distance de la cible du réticule</text>
+	</string>
+	<string id="ui_mm_video_hud_dynamic_crosshair">
+		<text>Réticule dynamique</text>
+	</string>
+	<string id="ui_mm_video_hud_crosshair_clr_a">
+		<text>Couleur du réticule (Alpha)</text>
+	</string>
+	<string id="ui_mm_video_hud_crosshair_clr_r">
+		<text>Couleur du réticule (Rouge)</text>
+	</string>
+	<string id="ui_mm_video_hud_crosshair_clr_g">
+		<text>Couleur du réticule (Vert)</text>
+	</string>
+	<string id="ui_mm_video_hud_crosshair_clr_b">
+		<text>Couleur du réticule (Bleu)</text>
+	</string>
+	<string id="ui_mm_video_hud_show_wpn">
+		<text>Afficher l'arme</text>
+	</string>
+	<string id="ui_mm_video_hud_tips_desc">
+		<text>Affiche le nom du NPC lorsque vous le pointez. La couleur représente sa relation avec le joueur, facilitant ainsi la distinction entre amis et ennemis.</text>
+	</string>
+	<string id="ui_mm_video_hud_show_tracers">
+		<text>Afficher les traçants</text>
+	</string>
+	<string id="ui_mm_video_hud_show_hud">
+		<text>Afficher l'IU</text>
+	</string>
+	<string id="ui_mm_video_hud_show_slots">
+		<text>Afficher les Artefacts de la Ceinture sur l'Interface</text>
+	</string>
+	<string id="ui_mm_video_hud_show_minimap">
+		<text>Afficher la minicarte</text>
+	</string>
+	<string id="ui_mm_video_hud_show_enemy_health">
+		<text>Afficher la santé des ennemis</text>
+	</string>
+	<string id="ui_mm_video_hud_show_identity">
+		<text>Afficher l'identification des NPCS</text>
+	</string>
+	<string id="ui_mm_video_hud_autohide_stamina_bar">
+		<text>Masquage automatique de l'endurance Bar</text>
+	</string>
+	<string id="ui_mm_video_hud_ironsights_zoom_factor">
+		<text>Facteur de zoom des organes de visée</text>
+	</string>
+	<string id="ui_mm_video_hud_head_bob_factor">
+		<text>Facteur de balancement de la tête</text>
+	</string>
+	<string id="ui_mm_video_hud_3d_pda">
+		<text>Afficher le modèle 3D du PDA</text>
+	</string>
+	
+<!--
+	VIDEO - VISUAL EFFECTS
+-->
+
+	<string id="ui_mm_title_effects">
+		<text>Effets du joueur</text>
+	</string>
+	<string id="ui_mm_title_mask">
+		<text>Masque à gaz</text>
+	</string>
+
+	<string id="ui_mm_video_player_animations">
+		<text>Animations d'utilisation d'objet</text>
+	</string>
+	<string id="ui_mm_video_player_shoot_effects">
+		<text>Effets de recul améliorés</text>
+	</string>
+	<string id="ui_mm_video_player_mask_hud">
+		<text>Masque de superposition</text>
+	</string>
+	<string id="ui_mm_video_player_breathing_fog">
+		<text>Brouillard respiratoire</text>
+	</string>
+	<string id="ui_mm_video_player_radiation_effect">
+		<text>Effet de radiation</text>
+	</string>
+	<string id="ui_mm_video_player_blood_splash">
+		<text>Effet de saignement</text>
+	</string>
+	<string id="ui_mm_video_player_bleed_effect">
+		<text>Flou en cas de faible santé</text>
+	</string>
+	<string id="ui_mm_video_player_item_swap_animation">
+		<text>Animations d'échange d'objets</text>
+	</string>
+	<string id="ui_mm_video_player_hit_impact_effect">
+		<text>Effet d'impact des coups</text>
+	</string>
+	<string id="ui_mm_video_player_tiny_pfx">
+		<text>Particules de poussière</text>
+	</string>
+	<string id="ui_mm_video_player_fog_pfx">
+		<text>Brouillard dynamique</text>
+	</string>
+	<string id="ui_mm_video_player_rain_droplets">
+		<text>Gouttes de pluie</text>
+	</string>
+	<string id="ui_mm_video_player_visor_reflection">
+		<text>Reflet du verre</text>
+	</string>
+
+<!--
+	VIDEO - WEATHER
+-->
+
+	<string id="ui_mm_lst_rare">
+		<text>Rare</text>
+	</string>
+	<string id="ui_mm_lst_regular">
+		<text>Régulier</text>
+	</string>
+	<string id="ui_mm_lst_3h">
+		<text>3 h</text>
+	</string>
+	<string id="ui_mm_lst_4h">
+		<text>4 h</text>
+	</string>
+	<string id="ui_mm_lst_5h">
+		<text>5 h</text>
+	</string>
+	<string id="ui_mm_lst_6h">
+		<text>6 h</text>
+	</string>
+	<string id="ui_mm_lst_7h">
+		<text>7 h</text>
+	</string>
+	<string id="ui_mm_lst_8h">
+		<text>8 h</text>
+	</string>
+	<string id="ui_mm_lst_9h">
+		<text>9 h</text>
+	</string>
+	<string id="ui_mm_lst_10h">
+		<text>10 h</text>
+	</string>
+	<string id="ui_mm_lst_11h">
+		<text>11 h</text>
+	</string>
+	<string id="ui_mm_lst_12h">
+		<text>12 h</text>
+	</string>
+
+	<string id="ui_mm_video_weather_period">
+		<text>Période</text>
+	</string>
+	<string id="ui_mm_video_weather_occurrence">
+		<text>Occurrence</text>
+	</string>
+
+<!--
+	VIDEO - NIGHT
+-->
+
+	<string id="ui_mm_title_night">
+		<text>Nuits</text>
+	</string>
+	
+	<string id="ui_mm_lst_dark_night">
+		<text>Nuits sombres</text>
+	</string>
+	<string id="ui_mm_lst_slight_night">
+		<text>Nuits légèrement lumineuses</text>
+	</string>
+	<string id="ui_mm_lst_medium_night">
+		<text>Nuits moyennement lumineuses</text>
+	</string>
+	<string id="ui_mm_lst_bright_night">
+		<text>Nuits très lumineuses</text>
+	</string>
+	<string id="ui_mm_lst_8days">
+		<text>8 jours</text>
+	</string>
+	<string id="ui_mm_lst_28days">
+		<text>28 jours</text>
+	</string>
+	<string id="ui_mm_lst_moon_phase_0">
+		<text>Nouvelle Lune</text>
+	</string>
+	<string id="ui_mm_lst_moon_phase_1">
+		<text>Premier croissant</text>
+	</string>
+	<string id="ui_mm_lst_moon_phase_2">
+		<text>Premier quartier</text>
+	</string>
+	<string id="ui_mm_lst_moon_phase_3">
+		<text>Gibbeuse croissante</text>
+	</string>
+	<string id="ui_mm_lst_moon_phase_4">
+		<text>Pleine lune</text>
+	</string>
+	<string id="ui_mm_lst_moon_phase_5">
+		<text>Gibbeuse décroissante</text>
+	</string>
+	<string id="ui_mm_lst_moon_phase_6">
+		<text>Troisième quartier</text>
+	</string>
+	<string id="ui_mm_lst_moon_phase_7">
+		<text>Dernier croissant</text>
+	</string>
+	
+	<string id="ui_mm_video_night_brightness">
+		<text>Luminosité nocturne ambiante</text>
+	</string>
+	<string id="ui_mm_video_night_moon_cycle">
+		<text>Durée du cycle lunaire</text>
+	</string>
+	<string id="ui_mm_video_night_moon_phase_state">
+		<text>Activer la phase de lune statique</text>
+	</string>
+	<string id="ui_mm_video_night_moon_phase">
+		<text>Phase lunaire statique</text>
+	</string>
+
+
+<!--
+	SOUNDS - GENERAL
+-->
+
+	<string id="ui_mm_title_sound">
+		<text>Paramètres Sonores Généraux</text>
+	</string>
+	
+	<string id="ui_mm_lst_none">
+		<text>Aucun</text>
+	</string>
+	<string id="ui_mm_lst_storyonly">
+		<text>Caractères spéciaux uniquement</text>
+	</string>
+	<string id="ui_mm_lst_all">
+		<text>Tous</text>
+	</string>
+	
+	<string id="ui_mm_sound_general_master_volume">
+		<text>Volume des effets sonores</text>
+	</string>
+	<string id="ui_mm_sound_general_music_volume">
+		<text>Volume de la musique</text>
+	</string>
+	<string id="ui_mm_sound_general_sound_device">
+		<text>Périphérique audio</text>
+	</string>
+	<string id="ui_mm_sound_general_eax">
+		<text>EAX</text>
+	</string>
+	<string id="ui_mm_sound_general_snd_targets">
+		<text>Cibles sonores</text>
+	</string>
+	<string id="ui_mm_sound_general_dynamic_music">
+		<text>Musique dynamique</text>
+	</string>
+	<string id="ui_mm_sound_general_caption">
+		<text>Légendes</text>
+	</string>
+	
+<!--
+	SOUNDS - ENVIRONMENT
+-->
+
+	<string id="ui_mm_title_sound_environment">
+		<text>Effets sonores d'ambiance</text>
+	</string>
+	
+	<string id="ui_mm_sound_environment_ambient_volume">
+		<text>Volume des sons d'ambiance</text>
+	</string>
+	<string id="ui_mm_sound_environment_ambient_volume_desc">
+		<text>Ce curseur contrôle le volume des sons d'ambiance tels que les grillons, les corbeaux, les oiseaux, les cris nocturnes, etc.</text>
+	</string>
+	<string id="ui_mm_sound_environment_wind_sound">
+		<text>Sons du vent ambiant</text>
+	</string>
+	<string id="ui_mm_sound_environment_breathing_sound">
+		<text>Son de respiration du masque</text>
+	</string>
+	<string id="ui_mm_sound_environment_helmet_rain_sound">
+		<text>Gouttes de pluie sur le casque</text>
+	</string>
+
+<!--
+	SOUNDS - RADIO/ZONE FM
+-->
+
+	<string id="ui_mm_title_sound_radio">
+		<text>Radio</text>
+	</string>
+	
+	<string id="ui_mm_sound_radio_zone">
+		<text>Radios de la Zone</text>
+	</string>
+	<string id="ui_mm_sound_radio_zone_desc">
+		<text>Cette option permet aux radios situées dans la Zone de diffuser de la musique.</text>
+	</string>
+	<string id="ui_mm_sound_radio_access">
+		<text>Bouton du menu des options radio</text>
+	</string>
+	<string id="ui_mm_sound_radio_access_call">
+		<text>Bouton du menu des paramètres radio</text>
+	</string>
+	<string id="ui_mm_sound_radio_1_play">
+		<text>Lecture/Arrêt de la radio</text>
+	</string>
+	<string id="ui_mm_sound_radio_2_play">
+		<text>Lecture/Arrêt du Lecteur de Musique</text>
+	</string>
+	<string id="ui_mm_sound_radio_vol_up">
+		<text>Bouton Augmenter le volume</text>
+	</string>
+	<string id="ui_mm_sound_radio_vol_down">
+		<text>Bouton Baisser le volume</text>
+	</string>
+	<string id="ui_mm_sound_radio_next">
+		<text>Morceau suivant</text>
+	</string>
+	<string id="ui_mm_sound_radio_previous">
+		<text>Piste précédente</text>
+	</string>
+	<string id="ui_mm_sound_radio_playlist">
+		<text>Canal/Playlist suivant</text>
+	</string>
+	<string id="ui_mm_sound_radio_emission_intereferences">
+		<text>Interférence du signal des Emissions </text>
+	</string>
+	<string id="ui_mm_sound_radio_underground_intereferences">
+		<text>Interférence du signal dans les zones souterraines </text>
+	</string>
+	<string id="ui_mm_sound_radio_display_tracks">
+		<text>Pistes du lecteur musical sur l'interface</text>
+	</string>
+	<string id="ui_mm_sound_radio_playlist_name_1">
+		<text>Nom de la playlist 1</text>
+	</string>
+	<string id="ui_mm_sound_radio_playlist_name_2">
+		<text>Nom de la playlist 2</text>
+	</string>
+	<string id="ui_mm_sound_radio_playlist_name_3">
+		<text>Nom de la playlist 3</text>
+	</string>
+	<string id="ui_mm_sound_radio_playlist_name_4">
+		<text>Nom de la playlist 4</text>
+	</string>
+	<string id="ui_mm_sound_radio_playlist_name_5">
+		<text>Nom de la playlist 5</text>
+	</string>
+	<string id="ui_mm_sound_radio_playlist_name_6">
+		<text>Nom de la playlist 6</text>
+	</string>
+	<string id="ui_mm_sound_radio_playlist_name_7">
+		<text>Nom de la playlist 7</text>
+	</string>
+	<string id="ui_mm_sound_radio_playlist_name_8">
+		<text>Nom de la playlist 8</text>
+	</string>
+	<string id="ui_mm_sound_radio_playlist_name_9">
+		<text>Nom de la playlist 9</text>
+	</string>
+	<string id="ui_mm_sound_radio_playlist_name_10">
+		<text>Nom de la playlist 10</text>
+	</string>
+	
+	
+<!--
+	CONTROL - GENERAL
+-->
+
+	<string id="ui_mm_title_control">
+		<text>Contrôles généraux</text>
+	</string>
+	
+	<string id="ui_mm_control_general_mouse_sens">
+		<text>Sensibilité de la souris</text>
+	</string>
+	<string id="ui_mm_control_general_mouse_sens_aim">
+		<text>Sensibilité de visée</text>
+	</string>
+	<string id="ui_mm_control_general_mouse_invert">
+		<text>Inverser la souris</text>
+	</string>
+	<string id="ui_mm_control_general_crouch_toggle">
+		<text>Mode de marche accroupie</text>
+	</string>
+	<string id="ui_mm_control_general_walk_toggle">
+		<text>Mode de marche</text>
+	</string>
+	<string id="ui_mm_control_general_sprint_toggle">
+		<text>Mode de sprint</text>
+	</string>
+	<string id="ui_mm_control_general_lookout_toggle">
+		<text>Mode d'inclinaison</text>
+	</string>
+	<string id="ui_mm_control_general_aim_toggle">
+		<text>Basculer le mode de visée</text>
+	</string>
+	<string id="ui_mm_control_general_pickup_mode">
+		<text>Mode de Ramassage Multi-Objets</text>
+	</string>
+	<string id="ui_mm_control_general_pickup_mode_desc">
+		<text>Lorsque cette option est activée, vous pouvez ramasser plusieurs objets simultanément. Dans le cas contraire, vous ne ramasserez qu'un seul objet à la fois.</text>
+	</string>
+	<string id="ui_mm_control_general_simple_pda_mode">
+		<text>Mode simple PDA</text>
+	</string>
+	<string id="ui_mm_control_general_simple_pda_mode_desc">
+		<text>%c[ui_gray_2]•%c[ui_gray_2]Activé : Mode Simple.\n
+		Le PDA n'entrera en mode focus (Interface) que lorsque la touche « Recharger » sera maintenue enfoncée pour le tenir près des yeux.\n\n
+		%c[ui_gray_2]•%c[ui_gray_2]Désactivé : Mode Avancé.\n
+		Le joueur peut basculer entre les modes de focalisation et de déplacement en appuyant sur la touche assignée à « Grenade Launcher », indépendamment de la distance à laquelle le PDA est tenu par rapport au point de vue.
+		</text>
+	</string>
+	<string id="ui_mm_control_general_disassembly_warning">
+		<text>Maintenir (ALT) pour le désassemblage</text>
+	</string>
+	<string id="ui_mm_control_general_disassembly_warning_desc">
+		<text>Empêche le joueur de démonter des objets sans maintenir la touche « Alt gauche » enfoncée, afin d'éviter un démontage accidentel.</text>
+	</string>
+	
+	
+<!--
+	GAMEPLAY - GENERAL
+-->
+	<string id="ui_mm_title_gameplay">
+		<text>Paramètres généraux de gameplay</text>
+	</string>
+
+	<string id="ui_mm_gameplay_general_hardcore_ai_aim">
+		<text>Visée IA hardcore</text>
+	</string>
+	<string id="ui_mm_gameplay_general_show_tip_reputation">
+		<text>Notifications Bonne volonté</text>
+	</string>
+	<string id="ui_mm_gameplay_general_show_tip_reputation_desc">
+		<text>Informe le joueur des changements de bienveillance envers les factions après l'accomplissement (ou l'échec) de missions.</text>
+	</string>
+	<string id="ui_mm_gameplay_general_mechanic_feature">
+		<text>Réparations différées par les mécaniciens</text>
+	</string>
+	<string id="ui_mm_gameplay_general_mechanic_feature_desc">
+		<text>Lorsque cette option est activée, le joueur doit attendre une journée ou plus pour que les mécaniciens achèvent les réparations de ses objets endommagés.\n
+		Les objets sont restitués une fois les réparations terminées.</text>
+	</string>
+	<string id="ui_mm_gameplay_general_player_name">
+		<text>Nom du joueur</text>
+	</string>
+	<string id="ui_mm_gameplay_general_outfit_portrait">
+		<text>Portrait du Joueur avec Tenue</text>
+	</string>
+	<string id="ui_mm_gameplay_general_outfit_portrait_desc">
+		<text>Modifie le portrait du joueur en fonction de la tenue équipée.\n
+		La désactivation de cette option restaurera le portrait par défaut choisi dans le menu Nouvelle Partie.</text>
+	</string>
+	<string id="ui_mm_gameplay_general_char_portrait">
+		<text>Portrait par défaut</text>
+	</string>
+	<string id="ui_mm_gameplay_general_release_dropped_items">
+		<text>Désapparition des anciens objets abandonnés</text>
+	</string>
+	<string id="ui_mm_gameplay_general_corpse_max_count">
+		<text>Nombre de cadavres à désapparier</text>
+	</string>
+	<string id="ui_mm_gameplay_general_corpse_max_count_desc">
+		<text>Les cadavres sont supprimés pour éviter les baisses de performances et l'occupation de l'A-Life causées par l'accumulation de corps.\n
+		Le processus de déspawn commence lorsque le nombre de cadavres, leur distance par rapport au joueur et le minuteur de déspawn dépassent leurs limites respectives.
+		</text>
+	</string>
+	<string id="ui_mm_gameplay_general_corpse_min_dist">
+		<text>Distance de disparition des cadavres (mètres)</text>
+	</string>
+	<string id="ui_mm_gameplay_general_corpse_min_dist_desc">
+		<text>Les cadavres sont supprimés pour éviter les baisses de performances et l'occupation de l'A-Life causées par l'accumulation de corps.\n
+		Le processus de déspawn commence lorsque le nombre de cadavres, leur distance par rapport au joueur et le minuteur de déspawn dépassent leurs limites respectives.
+		</text>
+	</string>
+	<string id="ui_mm_gameplay_general_npc_loot_distance">
+		<text>Distance de loot des cadavres (mètres)</text>
+	</string>
+	<string id="ui_mm_gameplay_general_npc_loot_distance_desc">
+		<text>Les cadavres ne sont fouillés par d'autres stalkers que si le joueur se trouve à au moins cette distance.\n
+		Cette option devrait empêcher l'IA de s'emparer du butin durement acquis par le joueur.
+		</text>
+	</string>
+	
+	<string id="ui_mm_gameplay_general_max_tasks">
+		<text>Nombre maximal de tâches pour les NPCS</text>
+	</string>
+	<string id="ui_mm_gameplay_general_max_tasks_desc">
+		<text>Nombre de missions pouvant être actives simultanément auprès d'un même NPC.</text>
+	</string>
+	
+	<string id="ui_mm_gameplay_general_need_equipped_hkit">
+		<text>Nécessité d'équiper un kit de chasse pour le bonus</text>
+	</string>
+	
+<!--
+	GAMEPLAY DIFFICULTY
+-->
+
+	<string id="ui_mm_title_gameplay_diff">
+		<text>Difficulté de gameplay</text>
+	</string>
+	<string id="ui_mm_desc_gameplay_diff">
+		<text>Les modifications apportées aux paramètres de difficulté du gameplay ne s'appliqueront qu'à votre partie en cours.</text>
+	</string>
+	
+	<string id="ui_mm_prst_gameplay_easy">
+		<text>Facile</text>
+	</string>
+	<string id="ui_mm_prst_gameplay_medium">
+		<text>Moyen</text>
+	</string>
+	<string id="ui_mm_prst_gameplay_hard">
+		<text>Difficile</text>
+	</string>
+	
+	<string id="ui_mm_lst_great">
+		<text>Excellent</text>
+	</string>
+	<string id="ui_mm_lst_good">
+		<text>Bon</text>
+	</string>
+	<string id="ui_mm_lst_average">
+		<text>Moyen</text>
+	</string>
+	<string id="ui_mm_lst_poor">
+		<text>Médiocre</text>
+	</string>
+	
+	<string id="ui_mm_gameplay_gameplay_diff_actor_immunities">
+		<text>Protection du joueur</text>
+	</string>
+	<string id="ui_mm_gameplay_gameplay_diff_actor_immunities_desc">
+		<text>Cette option contrôle l'immunité du joueur face à toutes les sources de dégâts.\n
+		Plus la protection est efficace, plus le joueur peut encaisser de dégâts.</text>
+	</string>
+	<string id="ui_mm_gameplay_gameplay_diff_hit_power">
+		<text>Facteur de puissance des impacts de balle</text>
+	</string>
+	<string id="ui_mm_gameplay_gameplay_diff_hit_power_desc">
+		<text>Coefficient multiplicateur des dégâts causés par les projectiles.\n\n
+		%c[pda_yellow]Note :%c[ui_gray_2]\n
+		Ce paramètre ne s'applique qu'aux balles tirées par le joueur et n'affecte pas celles tirées par les NPCs.
+		</text>
+	</string>
+	<string id="ui_mm_gameplay_gameplay_diff_dispersion_base">
+		<text>Dispersion de base des ennemis</text>
+	</string>
+	<string id="ui_mm_gameplay_gameplay_diff_dispersion_base_desc">
+		<text>Valeur de base de la dispersion des armes ennemies.\n
+		Des valeurs plus élevées réduisent la précision des ennemis à longue distance.
+		</text>
+	</string>
+	<string id="ui_mm_gameplay_gameplay_diff_dispersion_factor">
+		<text>Facteur de dispersion des ennemis</text>
+	</string>
+	<string id="ui_mm_gameplay_gameplay_diff_dispersion_factor_desc">
+		<text>Coefficient multiplicateur de la dispersion des armes ennemies.\n
+		Des valeurs plus élevées augmentent le recul des armes ennemies à longue distance.
+		</text>
+	</string>
+	<string id="ui_mm_gameplay_gameplay_diff_power_loss_bias">
+		<text>Facteur de perte d'endurance</text>
+	</string>
+	<string id="ui_mm_gameplay_gameplay_diff_weight">
+		<text>Poids maximal transportable</text>
+	</string>
+	<string id="ui_mm_gameplay_gameplay_diff_thirst">
+		<text>Manque d'eau</text>
+	</string>
+	<string id="ui_mm_gameplay_gameplay_diff_sleep">
+		<text>Manque de sommeil</text>
+	</string>
+	<string id="ui_mm_gameplay_gameplay_diff_radiation_day">
+		<text>Air radioactif pendant la journée</text>
+	</string>
+	<string id="ui_mm_gameplay_gameplay_diff_radiation_day_desc">
+		<text>Lorsque cette option est activée, le joueur sera exposé à des radiations constantes en extérieur pendant la journée, et les zones souterraines seront bien plus radioactives.\n
+		Les casques et tenues offrant une protection significative contre les radiations contribueront à se prémunir contre cet effet.</text>
+	</string>
+	<string id="ui_mm_gameplay_gameplay_diff_notify_geiger">
+		<text>Clics de radiation (Compteur Geiger uniquement)</text>
+	</string>
+	<string id="ui_mm_gameplay_gameplay_diff_notify_geiger_desc">
+		<text>%c[ui_gray_2]Désactivé :%c[ui_gray_2] Le joueur entendra des cliquetis de radiation en s'approchant des champs radioactifs.
+		\n\n%c[ui_gray_2]Activé :%c[ui_gray_2] Les cliquetis ne sont audibles que si le joueur possède un Compteur Geiger dans son inventaire avec une batterie suffisamment chargée.
+		</text>
+	</string>
+	<string id="ui_mm_gameplay_gameplay_diff_notify_anomaly">
+		<text>Son du détecteur d'anomalies</text>
+	</string>
+	<string id="ui_mm_gameplay_gameplay_diff_notify_anomaly_desc">
+		<text>Lorsque cette option est activée, le joueur entendra des bips d'avertissement en s'approchant des anomalies.</text>
+	</string>
+	
+	
+<!--
+	GAMEPLAY - PROGRESSION DIFFICULTY
+-->
+
+	<string id="ui_mm_title_economy_diff">
+		<text>Difficulté de Progression</text>
+	</string>
+	<string id="ui_mm_desc_economy_diff">
+		<text>Les modifications apportées aux paramètres de difficulté de Progression ne s'appliqueront qu'à votre partie en cours.</text>
+	</string>
+	
+	<string id="ui_mm_prst_economy_easy">
+		<text>Touriste</text>
+	</string>
+	<string id="ui_mm_prst_economy_medium">
+		<text>Récupérateur</text>
+	</string>
+	<string id="ui_mm_prst_economy_hard">
+		<text>Survivaliste</text>
+	</string>
+	
+	<string id="ui_mm_lst_progressive">
+		<text>Progressif</text>
+	</string>
+	
+	<string id="ui_mm_gameplay_economy_diff_goodwill">
+		<text>Facteur de Bonne Volonté Acquise</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_goodwill_desc">
+		<text>Multiplicateur de la quantité de bonne volonté que le joueur obtient après avoir accompli des missions.</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_rewards">
+		<text>Facteur de récompenses en argent</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_rewards_desc">
+		<text>Coefficient multiplicateur appliqué au montant d'argent gagné par le joueur à l'accomplissement des missions.</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_repair">
+		<text>Facteur de coût de réparation</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_repair_desc">
+		<text>Coefficient multiplicateur appliqué au coût des services de réparation proposés par les mécaniciens.</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_upgrade">
+		<text>Facteur de coût des améliorations</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_upgrade_desc">
+		<text>Coefficient multiplicateur du coût des services de mise à niveau proposés par les mécaniciens.</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_buy">
+		<text>Facteur de prix de vente</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_buy_desc">
+		<text>Coefficient multiplicateur du prix de vente des objets par le joueur aux marchands.</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_sell">
+		<text>Facteur de prix d'achat</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_sell_desc">
+		<text>Coefficient multiplicateur appliqué au prix des objets achetés par le joueur auprès des marchands.</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_loots">
+		<text>Facteur de chance des objets de loot</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_loots_desc">
+		<text>Coefficient multiplicateur de la probabilité de trouver des objets sur les cadavres.</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_money_loots">
+		<text>Facteur d'argent du butin</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_money_loots_desc">
+		<text>Coefficient multiplicateur de la somme d'argent trouvée sur les cadavres.</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_wpn_condition">
+		<text>État moyen armes lootées</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_stash_chance">
+		<text>Chance de découverte des caches de PDA</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_stash_chance_desc">
+		<text>Probabilité de récupérer un PDA contenant des emplacements de caches sur les cadavres.</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_max_medkit_uses">
+		<text>Facteur d'utilisation du Medkits</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_weapon_degradation">
+		<text>Facteur de dégradation des armes</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_weapon_degradation_desc">
+		<text>Les armes se dégradent à chaque balle tirée, le niveau de dégradation étant déterminé par l'arme et les munitions utilisées.\n
+		Ce facteur global agit comme un multiplicateur pour ces valeurs individuelles afin de contrôler le taux de dégradation.</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_battery_consumption">
+		<text>Facteur de consommation d'énergie des Batteries</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_battery_consumption_desc">
+		<text>Les appareils électroniques consomment de l'énergie de la batterie lorsqu'ils sont utilisés, le taux de décharge étant déterminé par l'appareil.\n
+		Ce facteur global agit comme un multiplicateur de ces valeurs individuelles afin de contrôler le taux de décharge de la batterie.</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_limited_bolts">
+		<text>Boulons limités ?</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_limited_bolts_desc">
+		<text>Lorsque cette option est activée, les boulons ne sont plus en quantité illimitée. Le joueur doit soit en acheter, soit en trouver lorsqu'il en manque.\n
+		%c[pda_white]Conseil :%c[ui_gray_2] Le joueur peut ramasser les boulons lancés tant qu'ils ne sont pas endommagés par les anomalies.
+		</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_arty_degradation">
+		<text>Dégradation des Artefacts</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_bkpk_degradation">
+		<text>Dégradation du sac à dos</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_percentage_parts">
+		<text>Système de pièces en pourcentage complet</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_percentage_parts_desc">
+		<text>Lorsque cette option est activée, les pièces issues du désassemblage d'objets utilisent l'échelle complète de condition (de 1 à 100 % d'état).\n
+		Lorsque cette option est désactivée, les objets utilisent l'une des quatre catégories d'état (25 %, 50 %, 75 % et 100 % d'état).</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_restock">
+		<text>Cycle de réapprovisionnement des marchands (heures)</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_restock_desc">
+		<text>Détermine le nombre d'heures avant que les marchands ne réapprovisionnent complètement leurs inventaires.</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_arty_chance">
+		<text>Chance de réapparition des Artefacts</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_arty_chance_desc">
+		<text>Les Artefacts sont généralement créés lors des émissions et, moins fréquemment, lors des tempêtes psi à l'intérieur des champs anormaux.\n
+		Cette option contrôle la possibilité qu'un champ anormal génère un artefact.</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_outfit_drops">
+		<text>Facteur de butin des tenues</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_outfit_drops_desc">
+		<text>Contrôle la possibilité de trouver des tenues sur les cadavres.\n\n
+		« Progressif » signifie que les tenues disponibles en butin dépendent de la progression du joueur. Des rangs plus élevés permettront de trouver des tenues de meilleure qualité.</text>
+	</string>
+	
+<!--
+	GAMEPLAY - DISGUISE
+-->
+
+	<string id="ui_mm_title_disguise">
+		<text>Paramètres de déguisement</text>
+	</string>
+	<string id="ui_mm_desc_disguise">
+		<text>Les joueurs peuvent se déguiser en membres d'autres factions tout en dissimulant leur véritable identité, à diverses fins telles que le vol et l'assassinat. Les paramètres suivants contrôlent différents aspects du système de déguisement. Un article détaillé expliquant cette fonctionnalité est disponible dans l'encyclopédie du PDA.</text>
+	</string>
+	
+	<string id="ui_mm_gameplay_disguise_state">
+		<text>Activer le Système de Déguisement</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_active_item">
+		<text>Prendre en compte l'objet actif</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_active_item_desc">
+		<text>Lorsque cette option est activée, le type et l'état de l'objet tenu par le joueur sont pris en compte par les NPCs qui l'observent.\n\n
+		Ce facteur détermine l'importance de cet élément dans le calcul du facteur global de suspicion.</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_active_item_factor">
+		<text>Facteur de suspicion des objets actifs</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_weapon">
+		<text>Prendre en compte l'arme du joueur</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_weapon_desc">
+		<text>Lorsque cette option est activée, le type et l'état de l'arme située dans l'emplacement principal du joueur sont pris en compte par les NPCs qui l'observent.\n\n
+		Ce facteur détermine l'importance de cet élément dans le calcul du facteur global de suspicion.</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_weapon_factor">
+		<text>Facteur de suspicion de l'arme du joueur</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_outfit">
+		<text>Prendre en compte la tenue du joueur</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_outfit_desc">
+		<text>Lorsque cette option est activée, le type et l'état de l'armure équipée dans l'emplacement de tenue du joueur sont pris en compte par les NPCs observateurs. Ce facteur détermine l'importance de cet élément dans le calcul du niveau global de suspicion.\n
+		%c[pda_white]Conseil :%c[ui_gray_2] L'état de la tenue est un élément critique du système de dissimulation. Les NPCs considéreront les tenues endommagées comme très suspectes.</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_outfit_factor">
+		<text>Facteur de suspicion de la tenue du joueur</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_helmet">
+		<text>Prendre en compte le casque du joueur</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_helmet_desc">
+		<text>Lorsque cette option est activée, le type et l'état du casque porté par le joueur, que ce soit dans l'emplacement dédié ou intégré, sont pris en compte par les NPCs observateurs. Ce facteur détermine l'importance de cet élément dans le calcul du niveau global de suspicion.\n
+		%c[pda_white]Conseil :%c[ui_gray_2] Les casques sont un élément critique du système de déguisement, car ils couvrent le visage et l'identité du joueur.
+		</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_helmet_factor">
+		<text>Facteur de suspicion du casque du joueur</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_backpack">
+		<text>Prendre en compte le sac à dos du joueur</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_backpack_desc">
+		<text>Lorsque cette option est activée, le type et l'état du sac à dos équipé dans l'emplacement dédié du joueur sont pris en compte par les NPCs observateurs. Ce facteur détermine l'importance de cet élément dans le calcul du niveau global de suspicion.\n
+		%c[pda_white]Conseil :%c[ui_gray_2] Les grands sacs à dos attirent davantage l'attention, mais ce facteur a un faible impact global.
+		</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_backpack_factor">
+		<text>Facteur de suspicion du sac à dos du joueur</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_inventory">
+		<text>Prendre en compte l'inventaire du joueur</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_inventory_desc">
+		<text>Lorsque cette option est activée, la quantité, le poids et la taille des objets dans l'inventaire du joueur sont pris en compte par les NPCs observateurs. Ce facteur détermine l'importance de cet élément dans le calcul du niveau global de suspicion.\n\n
+		%c[pda_white]Conseil :%c[ui_gray_2] Transporter de nombreux objets, en particulier des objets volumineux comme des armes, est considéré comme suspect par les NPCs, bien que cet élément ait un impact global limité.   
+		</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_inventory_factor">
+		<text>Facteur de suspicion de l'inventaire du joueur</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_speed">
+		<text>Prendre en compte les mouvements du joueur</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_speed_desc">
+		<text>Lorsque cette option est activée, le mouvement et la vitesse du joueur sont pris en compte par les NPCs observateurs. Ce paramètre contrôle l'importance de cet élément dans le calcul du facteur global de suspicion.\n
+		%c[pda_white]Astuce :%c[ui_gray_2] Essayez de vous fondre dans la masse. Ne courez pas et ne sautez pas lorsque des NPCs sont à proximité.
+		</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_speed_factor">
+		<text>Facteur de suspicion des déplacements du joueur</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_distance">
+		<text>Prendre en compte la distance entre le joueur et les NPCs</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_distance_desc">
+		<text>Lorsque cette option est activée, la distance entre le joueur et les NPCs est prise en compte. Ce facteur détermine la distance minimale de sécurité avant que la suspicion ne soit calculée.
+		</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_distance_factor">
+		<text>Distance de sécurité minimale (mètres)</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_stay_time">
+		<text>Prendre en compte le temps passé près des NPCs</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_stay_time_desc">
+		<text>Lorsque cette option est activée, la durée passée par le joueur à une distance sûre d'un NPCs est prise en compte. Ce paramètre détermine le temps maximal autorisé avant que le niveau de suspicion ne soit calculé.\n\n
+		%c[pda_white]Conseil :%c[ui_gray_2] Ce facteur inclut le temps passé en conversation, évitez donc de trop vous attarder.
+		</text>
+	</string>
+	<string id="ui_mm_gameplay_disguise_stay_time_factor">
+		<text>Temps de séjour sécurisé maximal (secondes)</text>
+	</string>
+	
+<!--
+	GAMEPLAY - FAST TRAVEL
+-->
+
+	<string id="ui_mm_desc_fast_travel">
+		<text>Avec quelques restrictions, vous pouvez effectuer un voyage rapide vers de nombreux emplacements dans la Zone en cliquant sur les marqueurs de voyage présents sur la carte du PDA. Un marqueur de voyage rapide apparaît dès que vous visitez un emplacement pour la première fois. Les paramètres suivants vous permettent de contrôler différents aspects du voyage rapide.</text>
+	</string>
+	
+	<string id="ui_mm_lst_disabled">
+		<text>Désactivé</text>
+	</string>
+	<string id="ui_mm_lst_visit_only">
+		<text>Visités uniquement</text>
+	</string>
+	<string id="ui_mm_lst_show_all">
+		<text>Tout afficher</text>
+	</string>
+	
+	<string id="ui_mm_gameplay_fast_travel_state">
+		<text>État du voyage rapide</text>
+	</string>
+	<string id="ui_mm_gameplay_fast_travel_on_combat">
+		<text>Combat ?</text>
+	</string>
+	<string id="ui_mm_gameplay_fast_travel_on_overweight">
+		<text>Surcharge ?</text>
+	</string>
+	<string id="ui_mm_gameplay_fast_travel_on_damage">
+		<text>Blessé ?</text>
+	</string>
+	<string id="ui_mm_gameplay_fast_travel_on_emission">
+		<text>Emissions ?</text>
+	</string>
+	<string id="ui_mm_gameplay_fast_travel_long_names">
+		<text>Utiliser les noms longs</text>
+	</string>
+	<string id="ui_mm_gameplay_fast_travel_visit_message">
+		<text>Message de Visite de Lieu</text>
+	</string>
+	<string id="ui_mm_gameplay_fast_travel_time">
+		<text>Voyage sans changement d'heure</text>
+	</string>
+
+<!--
+	GAMEPLAY - BACKPACK TRAVEL
+-->
+
+	<string id="ui_mm_desc_backpack_travel">
+		<text>Avec peu de restrictions, vous pouvez voyager rapidement vers les caches que vous créez dans la Zone en cliquant dessus sur la carte du PDA. Les paramètres suivants permettent de contrôler les aspects du voyage via sac à dos.</text>
+	</string>
+	
+	<string id="ui_mm_gameplay_backpack_travel_state">
+		<text>État de voyage du sac à dos</text>
+	</string>
+	<string id="ui_mm_gameplay_backpack_travel_on_combat">
+		<text>Combat ?</text>
+	</string>
+	<string id="ui_mm_gameplay_backpack_travel_on_damage">
+		<text>Blessé ?</text>
+	</string>
+	<string id="ui_mm_gameplay_backpack_travel_on_emission">
+		<text>Emissions ?</text>
+	</string>
+	<string id="ui_mm_gameplay_backpack_travel_on_overweight">
+		<text>Surcharge ?</text>
+	</string>
+	<string id="ui_mm_gameplay_backpack_travel_time">
+		<text>Voyage sans changement d'heure</text>
+	</string>
+	
+<!--
+	ALIFE - GENERAL
+-->
+
+	<string id="ui_mm_title_alife">
+		<text>Paramètres généraux A-Life</text>
+	</string>
+	
+	<string id="ui_mm_lst_full">
+		<text>Complet</text>
+	</string>
+	<string id="ui_mm_lst_on_smarts_only">
+		<text>Smart Terrains uniquement</text>
+	</string>
+	
+	<string id="ui_mm_alife_general_alife_stalker_pop">
+		<text>Facteur de population des Stalkers</text>
+	</string>
+	<string id="ui_mm_alife_general_alife_stalker_pop_desc">
+		<text>Multiplicateur des apparitions de stalkers dans la Zone. Plus le chiffre est élevé, plus la probabilité d'apparition d'escouades est grande.\n\n
+		%c[pda_white]Note :%c[ui_gray_2] Ce paramètre a son effet le plus marqué au début d'une nouvelle partie. Le modifier en cours de jeu produira des changements très progressifs dans la population, en raison des escouades déjà présentes dans la Zone.
+		</text>
+	</string>
+	<string id="ui_mm_alife_general_alife_mutant_pop">
+		<text>Facteur de population des Mutants</text>
+	</string>
+	<string id="ui_mm_alife_general_alife_mutant_pop_desc">
+		<text>Multiplicateur du nombre d'apparitions de mutants dans la Zone. Plus le chiffre est élevé, plus le nombre de mutants apparaissant sera important.\n\n
+		%c[pda_white]Note :%c[ui_gray_2] Ce paramètre a son effet le plus marqué au début d'une nouvelle partie. Le modifier en cours de jeu produira des changements très progressifs dans la population, en raison des mutants déjà présents dans la Zone.
+		</text>
+	</string>
+	<string id="ui_mm_alife_general_offline_combat">
+		<text>Combat hors ligne</text>
+	</string>
+	<string id="ui_mm_alife_general_offline_combat_desc">
+		<text>Cette option ajoute des aspects dynamiques à la simulation A-Life en permettant aux escouades situées dans des parties éloignées de la Zone de combattre leurs ennemis. Cela peut influencer les factions et les populations de mutants, en fonction de l'issue de ces batailles.\n\n
+		%c[pda_white]Note :%\n
+		•%c[ui_gray_2] Lorsque l'option de relations dynamiques est activée, les combats hors ligne jouent un rôle majeur dans les changements de relations, en raison des affrontements entre factions.\n
+		%c[pda_white]•%c[ui_gray_2] Cette fonctionnalité est opérationnelle pour tous les modes de jeu, y compris Warfare.\n
+		%c[pda_white]•%c[ui_gray_2] Notez que cette fonctionnalité peut réduire la population globale de stalkers. Ne l'activez pas si vous souhaitez une Zone plus peuplée.
+		</text>
+	</string>
+	<string id="ui_mm_alife_general_excl_dist">
+		<text>Rayon d'exclusion</text>
+	</string>
+	<string id="ui_mm_alife_general_excl_dist_desc">
+		<text>Les escouades ne apparaîtront pas si leurs points d'apparition (terrains intelligents) se trouvent à l'intérieur du rayon d'exclusion du joueur.\n
+		Cette mesure vise à éviter les apparitions inesthétiques et injustes à proximité immédiate du joueur.
+		</text>
+	</string>
+	<string id="ui_mm_alife_general_dynamic_anomalies">
+		<text>Anomalies dynamiques</text>
+	</string>
+	<string id="ui_mm_alife_general_dynamic_anomalies_desc">
+		<text>Lorsque cette option est activée, les émissions peuvent générer de nouvelles anomalies autour de la Zone.\n
+		Des anomalies peuvent apparaître ou disparaître dans la Zone après chaque émission.</text>
+	</string>
+	<string id="ui_mm_alife_general_dynamic_relations">
+		<text>Relations dynamiques entre factions</text>
+	</string>
+	<string id="ui_mm_alife_general_dynamic_relations_desc">
+		<text>Lorsque cette option est activée, les relations entre factions peuvent évoluer en fonction des batailles survenant dans la Zone, pour le meilleur ou pour le pire.\n
+		La mort d'ennemis communs peut avoir un impact positif sur les relations, et inversement.\n
+		L'ampleur du changement des relations est déterminée par l'importance de la victime.</text>
+	</string>
+	<string id="ui_mm_alife_general_war_goodwill_reset">
+		<text>Réinitialiser la bienveillance des factions hostiles</text>
+	</string>
+	<string id="ui_mm_alife_general_war_goodwill_reset_desc">
+		<text>Lorsqu'une faction devient ennemie de la faction du joueur, ce dernier perd tout le capital de sympathie précédemment accumulé auprès d'elle.</text>
+	</string>
+	<string id="ui_mm_alife_general_heli_engine_sound">
+		<text>Sons de l'hélicoptère</text>
+	</string>
+	<string id="ui_mm_alife_general_heli_spawn">
+		<text>Patrouilles en hélicoptère</text>
+	</string>
+	
+<!--
+	ALIFE - EVENTS
+-->
+
+	<string id="ui_mm_title_emission">
+		<text>L'Emissions</text>
+	</string>
+	<string id="ui_mm_title_psi_storm">
+		<text>Tempêtes psi</text>
+	</string>
+
+	<string id="ui_mm_lst_every_12h">
+		<text>Toutes les 6 à 12 heures</text>
+	</string>
+	<string id="ui_mm_lst_every_24h">
+		<text>Toutes les 12 à 24 heures</text>
+	</string>
+	<string id="ui_mm_lst_every_2d">
+		<text>Tous les 1 à 2 jours</text>
+	</string>
+	<string id="ui_mm_lst_every_4d">
+		<text>Tous les 2 à 4 jours</text>
+	</string>
+	<string id="ui_mm_lst_kill_at_end">
+		<text>Tuer à la fin</text>
+	</string>
+	<string id="ui_mm_lst_kill_at_wave">
+		<text>Éliminer au passage de l'onde</text>
+	</string>
+	<string id="ui_mm_lst_kill_at_vortex">
+		<text>Tuer au vortex</text>
+	</string>
+	<string id="ui_mm_lst_turn_to_zombie">
+		<text>Se transformer en zombie</text>
+	</string>
+	<string id="ui_mm_lst_explode">
+		<text>Exploser</text>
+	</string>
+	<string id="ui_mm_lst_unhurt">
+		<text>Ne pas tuer</text>
+	</string>
+	<string id="ui_mm_lst_siren_radio">
+		<text>Sirène et radio</text>
+	</string>
+	<string id="ui_mm_lst_siren">
+		<text>Sirène uniquement</text>
+	</string>
+	<string id="ui_mm_lst_radio">
+		<text>Radio uniquement</text>
+	</string>
+	<string id="ui_mm_lst_no_warning">
+		<text>Aucun avertissement</text>
+	</string>
+	
+	<string id="ui_mm_alife_event_emission_state">
+		<text>Activer l'Emissions</text>
+	</string>
+	<string id="ui_mm_alife_event_emission_frequency">
+		<text>Fréquence</text>
+	</string>
+	<string id="ui_mm_alife_event_emission_fate">
+		<text>Destin du Stalkers</text>
+	</string>
+	<string id="ui_mm_alife_event_emission_warning">
+		<text>Avertissement</text>
+	</string>
+	<string id="ui_mm_alife_event_emission_task">
+		<text>Donner la tâche de cachette</text>
+	</string>
+	
+	<string id="ui_mm_alife_event_psi_storm_state">
+		<text>Activer les tempêtes Psi</text>
+	</string>
+	<string id="ui_mm_alife_event_psi_storm_frequency">
+		<text>Fréquence</text>
+	</string>
+	<string id="ui_mm_alife_event_psi_storm_fate">
+		<text>Destin du Stalkers</text>
+	</string>
+	<string id="ui_mm_alife_event_psi_storm_warning">
+		<text>Avertissement</text>
+	</string>
+	<string id="ui_mm_alife_event_psi_storm_task">
+		<text>Attribuer la tâche de cachette</text>
+	</string>
+	
+<!--
+	ALIFE - WARFARE - GENERAL
+-->
+
+	<string id="ui_mm_prst_warfare_default">
+		<text>Rapide</text>
+	</string>
+	<string id="ui_mm_prst_warfare_yoko">
+		<text>Lent</text>
+	</string>
+	
+	<string id="ui_mm_title_warfare">
+		<text>Paramètres principaux de la guerre</text>
+	</string>
+	
+	<string id="ui_mm_alife_warfare_general_all_out_war">
+		<text>Guerre totale</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_all_out_war_desc">
+		<text>Lorsque cette option est activée, chaque faction sera hostile envers toutes les autres. Si les Relations Dynamiques du DrX sont détectées, cette règle ne s'appliquera qu'au début d'une partie.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_random_starting_locations">
+		<text>Lieux de départ aléatoires</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_random_starting_locations_desc">
+		<text>Lorsque cette option est activée, le joueur apparaîtra dans une base aléatoire de la Zone. Toutes les autres bases seront peuplées en fonction des options random_stalker_chance et random_mutant_chance.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_random_starting_character">
+		<text>Personnage de départ aléatoire</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_random_starting_character_desc">
+		<text>Lorsque cette option est activée, le nom et la faction du joueur sont randomisés au démarrage d'une nouvelle partie. Il est recommandé de l'utiliser avec l'option random_starting_locations.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_random_stalker_chance">
+		<text>Chance aléatoire de Stalkers</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_random_stalker_chance_desc">
+		<text>La probabilité, comprise entre 0 et 100, que des escouades de stalkers soient générées à une base ou un point de ressources lorsque random_starting_locations est activé. Cette probabilité s'applique à chaque escouade individuellement. Si une base a une population maximale de 2 et que random_stalker_chance est défini à 50, il y a 50 % de chances que la première escouade apparaisse, et 50 % de chances que la seconde escouade apparaisse.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_random_monster_chance">
+		<text>Chance aléatoire de Mutants</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_random_monster_chance_desc">
+		<text>Probabilité, comprise entre 0 et 100, qu'une meute de mutants soit générée à un point de territoire lorsque l'option random_starting_locations est activée. Un seul mutant par point sera généré.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_auto_capture">
+		<text>Activer la capture automatique</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_auto_capture_desc">
+		<text>Lorsque cette option est activée, le joueur pourra capturer des points en restant dans la distance spécifiée par auto_capture_distance pendant la durée définie par auto_capture_time. Si vous êtes proche de plusieurs points, la base la plus proche sera choisie en premier, suivie des autres bases, puis des points de ressources. Les points de territoire ne peuvent pas être capturés automatiquement.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_auto_capture_max_distance">
+		<text>Distance maximale de capture automatique</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_auto_capture_max_distance_desc">
+		<text>Les points situés dans cette distance par rapport au joueur seront automatiquement capturés. Si la distance entre le joueur et le point en cours de capture dépasse cette valeur, la capture s'interrompra.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_auto_capture_wait_time">
+		<text>Temps d'attente de la capture automatique</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_auto_capture_wait_time_desc">
+		<text>Durée (en minutes de jeu) nécessaire pour capturer manuellement un point.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_fog_of_war">
+		<text>Brouillard de guerre</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_fog_of_war_desc">
+		<text>Lorsque cette option est activée, tout élément situé dans un rayon défini par fog_of_war_distance par rapport au joueur ou à toute escouade de la même faction sera affiché.\n %c[pda_white]Note :%c[ui_gray_2] les paramètres show_unfriendly_squads et hide_smarts continueront d'influencer l'affichage ou non d'un objet sur le PDA.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_fog_of_war_distance">
+		<text>Distance du brouillard de guerre</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_fog_of_war_distance_desc">
+		<text>Lorsque fog_of_war est activé, tout élément situé dans cette portée par rapport au joueur ou à une escouade de sa faction sera affiché sur le PDA.\n
+		%c[pda_white]Remarque :%c[ui_gray_2] Les options show_unfriendly_squads et hide_smarts influencent toujours l'affichage ou non d'un objet sur le PDA.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_hide_unfriendly_squads">
+		<text>Masquer les Escouades Inamicales</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_hide_unfriendly_squads_desc">
+		<text>Lorsque cette option est activée, les escouades neutres et ennemies ne sont pas affichées sur le PDA.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_hide_smarts">
+		<text>Masquer les Smarts</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_hide_smarts_desc">
+		<text>Lorsque cette option est activée, les icônes des terrains intelligents ne seront pas affichées sur le PDA. Les cibles de la faction du joueur resteront visibles sur le PDA.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_hide_underground_smarts">
+		<text>Masquer les Smarts souterrains sur la carte</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_hide_underground_smarts_desc">
+		<text>Lorsque cette option est activée, les intelligences artificielles souterraines ne seront pas affichées sur le PDA.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_enemy_new_game_bonus">
+		<text>Escouades ennemies bonus de départ</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_enemy_new_game_bonus_desc">
+		<text>Lorsque cette option est activée, les escouades ennemies disposeront d'un nombre légèrement supérieur d'escouades initiales, tandis que les factions neutres et alliées en auront légèrement moins.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_enemy_base_boost">
+		<text>Bonus de base ennemie</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_enemy_base_boost_desc">
+		<text>Tous les ennemis de la faction du joueur seront traités comme s'ils possédaient le nombre spécifié de bases en plus de celles qu'ils possèdent réellement.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_enemy_resource_boost">
+		<text>Augmentation des ressources ennemies</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_enemy_resource_boost_desc">
+		<text>Tous les ennemis de la faction du joueur seront considérés comme possédant le nombre spécifié de ressources en plus de celles qu'ils possèdent réellement. Les ressources influencent le temps de réapparition des escouades de défense, d'attaque et de patrouille, ainsi que le niveau de compétence des escouades générées. Un nombre plus élevé de ressources signifie des temps de réapparition plus courts avec des escouades de meilleure qualité.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_actor_influence_weight">
+		<text>Poids de l'influence de l'acteur</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_actor_influence_weight_desc">
+		<text>Priorité ajoutée à une cible par chaque point d'influence. Les valeurs typiques de priorité se situent entre 1 et 10 ; plus le nombre est élevé, plus les points ont de chances de cibler le point bénéficiant de l'influence ajoutée.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_novice_squad_price">
+		<text>Prix d'une escouade novice</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_novice_squad_price_desc">
+		<text>Le prix d'une escouade de recrues. Lorsque vous disposez de cette somme d'argent ou plus et effectuez un clic droit sur une base de votre faction, une option d'achat d'une escouade de recrues sera disponible. Celle-ci sera générée immédiatement à cette base et traitée comme des compagnons.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_advanced_squad_price">
+		<text>Prix d'une escouade avancée</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_advanced_squad_price_desc">
+		<text>Le prix d'une escouade avancée. Lorsque vous disposez de cette somme d'argent ou plus et effectuez un clic droit sur une base de votre faction, une option d'achat d'une escouade avancée sera disponible. Celle-ci sera générée immédiatement à cette base et traitée comme des compagnons.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_veteran_squad_price">
+		<text>Prix d'une escouade vétéran</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_veteran_squad_price_desc">
+		<text>Le prix d'une escouade de vétérans. Lorsque vous disposez de cette somme d'argent ou plus et effectuez un clic droit sur une base de votre faction, une option d'achat d'une escouade de vétérans sera disponible. Celle-ci sera générée immédiatement à cette base et traitée comme des compagnons.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_heli_price">
+		<text>Prix de l'hélicoptère</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_heli_price_desc">
+		<text>Prix d'un hélicoptère. Lorsque vous possédez cette somme ou plus et effectuez un clic droit sur une base de votre faction, une option pour acheter un hélicoptère sera disponible. Un seul hélicoptère par faction peut être présent sur un même niveau.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_actor_support_enemy_rank_weight">
+		<text>Poids du grade de l'ennemi récompensé</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_actor_support_enemy_rank_weight_desc">
+		<text>Lors de l'élimination d'un ennemi, une récompense actor_support_reward_money + (enemy_rank * actor_support_enemy_rank_weight) vous sera attribuée.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_actor_support_reward_money">
+		<text>Récompense en argent</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_actor_support_reward_money_desc">
+		<text>Lors de l'élimination d'un ennemi, une récompense actor_support_reward_money + (enemy_rank * actor_support_enemy_rank_weight) vous sera attribuée.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_actor_support_reward_influence">
+		<text>Influence de la récompense</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_actor_support_reward_influence_desc">
+		<text>À chaque ennemi tué, le joueur reçoit ce nombre de points d'influence en récompense.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_monster_max_squads_per_level">
+		<text>Nombre maximal d'escouades de monstres</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_monster_max_squads_per_level_desc">
+		<text>Dès qu'il y a moins que ce nombre d'escouades de mutants sur un niveau, celui-ci pourra être ciblé par d'autres escouades de mutants et des mutants apparaîtront à tout point inoccupé ou repaire, en fonction des variables monster_min_faction_respawn et monster_max_faction_respawn.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_monster_min_faction_respawn">
+		<text>Réapparition minimale des monstres</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_monster_min_faction_respawn_desc">
+		<text>Durée minimale avant qu'un repaire ou une base/ressource inoccupée ne génère une escouade de mutants si le nombre d'escouades de mutants déjà présentes sur le niveau du point est inférieur à monster_max_squads_per_level.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_monster_max_faction_respawn">
+		<text>Nombre maximal de réapparitions de monstres</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_monster_max_faction_respawn_desc">
+		<text>Durée maximale avant qu'un repaire ou une base/ressource inoccupée ne génère une escouade de mutants si le nombre d'escouades de mutants déjà présentes sur le niveau du point est inférieur à monster_max_squads_per_level.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_zombies_act_as_faction">
+		<text>Faction des Zombies</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_zombies_act_as_faction_desc">
+		<text>Lorsque cette option est activée, les stalkers zombifiés participent aux guerres de factions.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_enable_mutant_offline_combat">
+		<text>Combat hors ligne des Mutants</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_enable_mutant_offline_combat_desc">
+		<text>Lorsque cette option est activée, les mutants participent aux combats hors ligne. Lorsqu'elle est désactivée, les mutants auront une présence plus marquée dans la Zone.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_disable_smart_pop_cap">
+		<text>Désactiver la limite intelligente de population</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_disable_smart_pop_cap_desc">
+		<text>Lorsque cette option est activée, les terrains intelligents ne suppriment pas automatiquement les escouades en surnombre.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_purge_zone_on_emission">
+		<text>Purger la Zone lors de l'Emission</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_purge_zone_percentage">
+		<text>Pourcentage de purge de la Zone</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_debug_logging">
+		<text>Journalisation de débogage (gonfle le fichier journal)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_general_debug_logging_desc">
+		<text>Lorsque cette option est activée, Warfare utilisera la journalisation de débogage. Celle-ci enregistrera le début et la fin de la plupart des fonctions dans Warfare, ce qui augmentera considérablement la taille de votre fichier journal.</text>
+	</string>
+	
+<!--
+	ALIFE - WARFARE - FACTION
+-->
+
+	<string id="ui_mm_title_warfare_faction">
+		<text>Paramètres de faction pour la guerre</text>
+	</string>
+	
+	<string id="ui_mm_alife_warfare_faction_participate_in_warfare">
+		<text>Participer à la Guerre</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_spawn_on_new_game">
+		<text>Apparition au début d'une nouvelle partie</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_random_spawn_entries">
+		<text>Entrées de réapparition aléatoires</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_linked_level_targeting">
+		<text>Ciblage des niveaux liés</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_ignore_empty_targets">
+		<text>Ignorer les cibles vides</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_offline_power_multiplier">
+		<text>Multiplicateur de puissance hors ligne</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_offline_power_multiplier_desc">
+		<text>Lorsqu'une escouade inflige des dégâts lors d'un combat hors ligne, ceux-ci sont multipliés par cette valeur. Si ce paramètre est réglé sur 2, par exemple, les escouades appartenant à cette faction infligeront deux fois plus de dégâts que les escouades typiques en combat hors ligne.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_expansion_aggression">
+		<text>Agression des extensions</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_expansion_aggression_desc">
+		<text>Chaque fois qu'une base dispose de moins que le nombre autorisé de cibles et que process_targets est appelé, un nombre aléatoire entre 0 et 100 sera généré. Si ce nombre est inférieur ou égal à expansion_aggression, la faction choisira une nouvelle cible. Sinon, la faction ne choisira aucune nouvelle cible.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_night_activity_chance">
+		<text>Chance d'activité nocturne</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_night_activity_chance_desc">
+		<text>Probabilité qu'une faction envoie des forces d'invasion ou des escouades de patrouille n'importe où pendant la nuit. La nuit est définie entre 20h00 et 6h00.</text>
+	</string>
+
+	<string id="ui_mm_alife_warfare_faction_min_faction_respawn">
+		<text>Durée minimale de réapparition</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_min_faction_respawn_desc">
+		<text>La durée minimale qui doit s'écouler avant qu'une base ne génère une escouade de défense. Cette valeur, combinée aux ressources disponibles de la base, détermine le temps de réapparition des défenses. Les ressources disponibles d'une base sont calculées comme suit : total_resources = global_resources + (regional_resources * 2) + (local_resources * 3). Le temps de réapparition de la base est déterminé en choisissant une valeur entre le temps de réapparition minimal et maximal de la faction, avec un facteur de resource_count / warfare.resource_count. Temps de réapparition = (100 % - pourcentage de ressources contrôlées) * min_faction_respawn + (pourcentage de ressources contrôlées * max_faction_respawn.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_max_faction_respawn">
+		<text>Durée maximale de réapparition</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_max_faction_respawn_desc">
+		<text>La durée maximale qui doit s'écouler avant qu'une base ne génère une escouade de défense. Cette valeur, combinée aux ressources disponibles de la base, détermine le temps de réapparition des défenses. Les ressources disponibles d'une base sont calculées comme suit : total_resources = global_resources + (regional_resources * 2) + (local_resources * 3). Le temps de réapparition de la base est déterminé en choisissant une valeur entre min_faction_respawn et max_faction_respawn, avec un facteur de resource_count / warfare.resource_count. Temps de réapparition = (100 % - pourcentage de ressources contrôlées) * min_faction_respawn + (pourcentage de ressources contrôlées * max_faction_respawn.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_keep_last_base">
+		<text>Conserver la dernière base</text>
+	</string>
+
+	<string id="ui_mm_alife_warfare_faction_min_invasion_size">
+		<text>Facteur minimal de population de l'invasion</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_min_invasion_size_desc">
+		<text>Le multiplicateur de taille d'invasion minimale. Il est utilisé conjointement avec max_invasion_size et le nombre de bases contrôlées par la faction pour calculer une taille d'invasion finale. Ce multiplicateur s'applique à la population maximale d'un terrain intelligent, de sorte que le facteur de population des stalkers issu des options de gameplay des stalkers influencera la taille finale de l'invasion. Taille d'invasion actuelle = (100 % - pourcentage de bases contrôlées) * min_invasion_size + (pourcentage de bases contrôlées * max_invasion_size). Population d'invasion actuelle = min(1, target.max_population * taille d'invasion actuelle).</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_max_invasion_size">
+		<text>Facteur maximal de population de l'invasion</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_max_invasion_size_desc">
+		<text>Le multiplicateur de taille d'invasion maximale. Il est utilisé conjointement avec max_invasion_size et le nombre de bases contrôlées par la faction pour calculer une taille d'invasion finale. Ce multiplicateur s'applique à la population maximale d'un terrain intelligent, de sorte que le facteur de population des stalkers issu des options de gameplay des stalkers influencera la taille finale de l'invasion. Taille d'invasion actuelle = (100 % - pourcentage de bases contrôlées) * min_invasion_size + (pourcentage de bases contrôlées * max_invasion_size). Population d'invasion actuelle = min(1, target.max_population * taille d'invasion actuelle).</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_min_invasion_depart_time">
+		<text>Temps minimal de départ de l'invasion</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_max_invasion_depart_time">
+		<text>Temps maximal de départ de l'invasion</text>
+	</string>
+
+	<string id="ui_mm_alife_warfare_faction_min_patrol_squads">
+		<text>Facteur minimal de population des patrouilles</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_min_patrol_squads_desc">
+		<text>Le facteur minimal de population des escouades de patrouille. Lorsqu'une faction ne contrôle aucune base, chaque base disposerait théoriquement (puisqu'elles ne sont pas contrôlées) d'un nombre d'escouades de patrouille égal à min_patrol_squads multiplié par max_population. Facteur actuel des escouades de patrouille = (100 % - pourcentage de bases contrôlées) * min_patrol_squads + (pourcentage de bases contrôlées * max_patrol_squads). Nombre actuel d'escouades de patrouille autorisées = base.max_population * facteur actuel des escouades de patrouille.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_max_patrol_squads">
+		<text>Facteur maximal de population des patrouilles</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_max_patrol_squads_desc">
+		<text>Le facteur maximal de population des escouades de patrouille. Lorsqu'une faction contrôle toutes les bases, chaque base disposera d'un nombre d'escouades de patrouille égal à max_patrol_squads multiplié par max_population. Facteur actuel des escouades de patrouille = (100 % - pourcentage de bases contrôlées) * min_patrol_squads + (pourcentage de bases contrôlées * max_patrol_squads). Nombre actuel d'escouades de patrouille autorisées = base.max_population * facteur actuel des escouades de patrouille.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_min_patrol_time">
+		<text>Durée minimale des patrouilles</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_min_patrol_time_desc">
+		<text>La durée minimale qui doit s'écouler avant qu'une base ne génère une escouade de patrouille. Cette valeur, combinée aux ressources disponibles de la base, détermine le temps de réapparition des patrouilles. Les ressources disponibles d'une base sont calculées comme suit : total_resources = global_resources + (regional_resources * 2) + (local_resources * 3). Le temps de réapparition des patrouilles de la base est déterminé en choisissant une valeur entre min_patrol_time et max_patrol_time, avec un facteur de resource_count / warfare.resource_count. Temps de réapparition = (100 % - pourcentage de ressources contrôlées) * min_patrol_time + (pourcentage de ressources contrôlées * max_patrol_time.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_max_patrol_time">
+		<text>Durée maximale des patrouilles</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_max_patrol_time_desc">
+		<text>La durée maximale qui doit s'écouler avant qu'une base ne génère une escouade de patrouille. Cette valeur, combinée aux ressources disponibles de la base, détermine le temps de réapparition des patrouilles. Les ressources disponibles d'une base sont calculées comme suit : total_resources = global_resources + (regional_resources * 2) + (local_resources * 3). Le temps de réapparition des patrouilles de la base est déterminé en choisissant une valeur entre min_patrol_time et max_patrol_time, avec un facteur de resource_count / warfare.resource_count. Temps de réapparition = (100 % - pourcentage de ressources contrôlées) * min_patrol_time + (pourcentage de ressources contrôlées * max_patrol_time.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_patrol_hunt_chance">
+		<text>Chance de chasse des patrouilles</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_patrol_hunt_chance_desc">
+		<text>Lorsqu'une base recherche une nouvelle cible pour une escouade de patrouille, et s'il y a une escouade de patrouille ennemie sur le niveau actuel ou un niveau lié, cette valeur représente la probabilité que la base assigne cette escouade ennemie comme cible. Si l'escouade ne se voit pas attribuer une escouade de patrouille ennemie comme cible, elle se verra assigner un point de territoire près de la base à patrouiller, comme d'habitude.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_min_patrol_rest_time">
+		<text>Temps de repos minimal des patrouilles</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_min_patrol_rest_time_desc">
+		<text>Durée minimale pendant laquelle une escouade de patrouille attendra à un point de territoire. La probabilité d'activité nocturne influencera également l'envoi ou non de l'escouade vers un nouveau point de territoire.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_max_patrol_rest_time">
+		<text>Temps de repos maximal des patrouilles</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_max_patrol_rest_time_desc">
+		<text>Durée maximale pendant laquelle une escouade de patrouille attendra à un point de territoire. La probabilité d'activité nocturne influencera également l'envoi ou non de l'escouade vers un nouveau point de territoire.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_min_resurgence_wait_time">
+		<text>Temps d'attente minimal de résurgence</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_max_resurgence_wait_time">
+		<text>Temps d'attente maximal de résurgence</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_random_squad_count">
+		<text>Nombre d'escouades aléatoires</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_random_squad_count_desc">
+		<text>Lorsque cette option est activée, chaque escouade de cette faction comptera un nombre aléatoire de NPCs compris entre min_random_squad_count et max_random_squad_count.</text>
+	</string>	
+	<string id="ui_mm_alife_warfare_faction_min_random_squad_count">
+		<text>Nombre minimal de groupes aléatoires</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_min_random_squad_count_desc">
+		<text>Lorsque l'option random_squad_count est activée, il s'agit du nombre minimal de NPCs qu'une escouade de cette faction peut compter.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_max_random_squad_count">
+		<text>Nombre maximal de groupes aléatoires</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_max_random_squad_count_desc">
+		<text>Lorsque l'option random_squad_count est activée, il s'agit du nombre maximal de NPCs qu'une escouade de cette faction peut compter.</text>
+	</string>
+	
+	<string id="ui_mm_alife_warfare_faction_random_patrols">
+		<text>Patrouilles aléatoires</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_max_random_patrols">
+		<text>Nombre Maximal de Patrouilles Aléatoires</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_min_random_patrol_time">
+		<text>Temps maximal des patrouilles aléatoires</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_max_random_patrol_time">
+		<text>Temps maximal des patrouilles aléatoires</text>
+	</string>
+
+	<string id="ui_mm_alife_warfare_faction_invasion_departure_chance">
+		<text>Chance de départ de l'invasion</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_invasion_departure_chance_desc">
+		<text>Probabilité qu'une invasion soit lancée lors de la mise à jour process_targets en cours. Cette vérification est effectuée toutes les 1 à 5 minutes en jeu.</text>
+	</string>
+	
+	<string id="ui_mm_alife_warfare_faction_base_priority">
+		<text>Priorité de base</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_base_priority_desc">
+		<text>Détermine dans quelle mesure la faction privilégie les bases. Les valeurs de priorité typiques se situent entre 0 et 10.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_resource_priority">
+		<text>Priorité des ressources</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_resource_priority_desc">
+		<text>Indique le niveau de priorité accordé par la faction aux points de ressources. Les valeurs typiques de priorité se situent entre 0 et 10.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_territory_priority">
+		<text>Priorité des territoires</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_territory_priority_desc">
+		<text>Indique le niveau de priorité accordé par la faction aux points de territoire. Les valeurs typiques de priorité se situent entre 0 et 10.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_flag_priority">
+		<text>Priorité des drapeaux de faction</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_flag_priority_desc">
+		<text>Détermine dans quelle mesure une base priorise les points marqués pour sa faction propriétaire dans le fichier gamedata/configs/misc/simulation_objects_props.ltx. Par exemple, si Firmament examine un point de territoire, la priorité pour ce point augmentera de 2 si, dans ce fichier, le point a la définition csky = 1.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_is_being_targeted_priority">
+		<text>Priorité aux cibles activement visées</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_is_being_targeted_priority_desc">
+		<text>Si une base est ciblée par une autre base, cette valeur sera ajoutée à sa priorité afin de tenter de contrer l'invasion.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_target_weaker_priority">
+		<text>Priorité aux cibles affaiblies</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_target_weaker_priority_desc">
+		<text>Détermine dans quelle mesure une base privilégie les points où sont présentes des escouades moins puissantes.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_target_stronger_priority">
+		<text>Priorité aux cibles résistantes</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_target_stronger_priority_desc">
+		<text>Détermine dans quelle mesure une base privilégie les points où sont présentes des escouades plus puissantes.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_target_on_same_level_priority">
+		<text>Priorité aux cibles du même niveau</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_target_on_same_level_priority_desc">
+		<text>Niveau de priorité accordé par une base aux points situés sur le même niveau qu'elle.</text>
+	</string>
+
+	<string id="ui_mm_alife_warfare_faction_max_smart_targets_per_base">
+		<text>Nombre Maximal de Cibles Intelligentes de Base</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_max_smart_targets_per_base_desc">
+		<text>Nombre de cibles qu'une base peut engager simultanément.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_resource_count_modifier">
+		<text>Modificateur de quantité de ressources</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_resource_count_modifier_desc">
+		<text>Nombre de points de ressources ajoutés aux points de ressources disponibles de chaque base. Cette valeur peut être négative. Des nombres plus élevés entraînent des temps de réapparition plus rapides.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_base_count_modifier">
+		<text>Modificateur du nombre de bases</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_base_count_modifier_desc">
+		<text>Nombre de bases ajoutées au décompte des bases détenues par chaque faction. Cette valeur peut être négative. Des nombres plus élevés entraînent davantage de patrouilles et des forces d'invasion plus importantes.</text>
+	</string>
+	
+	<string id="ui_mm_alife_warfare_faction_enemy_faster_respawn">
+		<text>Activer la réapparition accélérée des ennemis</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_manual_capture_wait_time">
+		<text>Temps d'attente de la capture manuelle</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_offline_combat_distance">
+		<text>Distance de combat hors ligne</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_disable_offline_combat">
+		<text>Désactiver le combat hors ligne</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_disable_offline_combat_desc">
+		<text>Lorsque cette option est activée, les escouades ne participeront pas aux combats hors ligne. Cela aura pour effet de faire en sorte que les guerres organisent des batailles qui se dérouleront à mesure que vous vous en approchez. Cela ralentira les combats et les recentrera autour de vous et des escouades environnantes.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_simulate_offline_combat_at_smarts">
+		<text>Simuler les combats hors ligne pour les Smarts</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_simulate_offline_combat_at_smarts_desc">
+		<text>Lorsque cette option est activée, les escouades ne simuleront des combats hors ligne que lorsqu'elles défendent un point cible. Si deux escouades sont proches mais attendent sur des terrains intelligents différents, elles ne s'engageront pas dans un combat hors ligne.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_enable_offline_news">
+		<text>Activer les événements d'actualités hors ligne</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_enable_offline_news_desc">
+		<text>Lorsque cette option est activée, vous recevrez des mises à jour d'actualités hors ligne chaque fois qu'une escouade amie entre en combat hors ligne, en combat en ligne, ou qu'une base est prise ou perdue par/au profit d'une faction amie.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_offline_news_display_percentage">
+		<text>Pourcentage d'affichage des actualités hors ligne</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_offline_news_display_percentage_desc">
+		<text>Un nombre compris entre 0 et 100 ; Warfare n'affichera que ce pourcentage de messages d'actualités hors ligne.</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_randomize_squad_count">
+		<text>Nombre aléatoire de membres dans les escouades</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_min_squad_count">
+		<text>Nombre Minimal de Membres d'Escouade</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_max_squad_count">
+		<text>Nombre Maximal de Membres d'Escouade</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_factions_keep_last_base">
+		<text>Les factions conservent leur dernière base</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_zombie_mode">
+		<text>Mode Zombie</text>
+	</string>
+	
+	<string id="ui_mm_alife_warfare_faction_target_faction_stronger_priority">
+		<text>Priorité aux factions ennemies plus fortes</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_target_faction_weaker_priority">
+		<text>Priorité aux factions ennemies plus faibles</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_target_resource_priority">
+		<text>Priorité des ressources de la faction cible</text>
+	</string>
+
+	<string id="ui_mm_alife_warfare_faction_lvl_k00_marsh_priority">
+		<text>Priorité du niveau (Grand marais)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_k01_darkscape_priority">
+		<text>Priorité du niveau (Darkscape)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_l01_escape_priority">
+		<text>Priorité du niveau (Cordon)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_l02_garbage_priority">
+		<text>Priorité du niveau (Décharge)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_l03_agroprom_priority">
+		<text>Priorité du niveau (Agroprom)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_l04_darkvalley_priority">
+		<text>Priorité du niveau (Vallée Obscure)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_l05_bar_priority">
+		<text>Priorité du niveau (Rostok)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_l06_rostok_priority">
+		<text>Priorité du niveau (Territoire sauvage)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_l07_military_priority">
+		<text>Priorité du niveau (Entrepôts de l'armée)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_l08_yantar_priority">
+		<text>Priorité du niveau (Yantar)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_l09_deadcity_priority">
+		<text>Priorité du niveau (Ville morte)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_l10_limansk_priority">
+		<text>Priorité du niveau (Limansk)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_l10_radar_priority">
+		<text>Priorité du Niveau (Radar)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_l10_red_forest_priority">
+		<text>Priorité du niveau (Forêt Rouge)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_l11_hospital_priority">
+		<text>Priorité du niveau (Hôpital abandonné)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_l11_pripyat_priority">
+		<text>Priorité du niveau (Pripyat)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_l12_stancia_priority">
+		<text>Priorité du niveau (Centrale nucléaire de Tchernobyl (Sud))</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_l12u_sarcofag_priority">
+		<text>Priorité du niveau (Sarcophage)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_l12u_control_monolith_priority">
+		<text>Priorité du niveau (QG du Monolithe Centre)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_l12_stancia_2_priority">
+		<text>Priorité du niveau (Centrale nucléaire de Tchernobyl (Nord))</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_l13_generators_priority">
+		<text>Priorité du niveau (Générateurs)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_zaton_priority">
+		<text>Priorité du Niveau (Zaton)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_jupiter_priority">
+		<text>Priorité du niveau (Jupiter)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_pripyat_priority">
+		<text>Priorité du niveau (Périphérie)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_jupiter_underground_priority">
+		<text>Priorité du niveau (Souterrains de Jupiter)</text>
+	</string>
+	<string id="ui_mm_alife_warfare_faction_lvl_k02_trucks_cemetery_priority">
+		<text>Priorité du niveau (Cimetière de véhicules)</text>
+	</string>
+	
+	
+<!--
+	ALIFE - WARFARE - AZAZEL MODE
+-->
+
+	<string id="ui_mm_title_warfare_azazel">
+		<text>Paramètres du mode Azazel (Guerre)</text>
+	</string>
+	
+	<string id="ui_mm_alife_warfare_azazel_state">
+		<text>Mode Azazel</text>
+	</string>
+	
+	<string id="ui_mm_alife_warfare_azazel_respawn_as_companions">
+		<text>Réapparaître en tant que compagnon</text>
+	</string>
+	<string id="ui_mm_alife_warfare_azazel_respawn_as_actor_faction">
+		<text>Réapparaître en tant que membre de faction</text>
+	</string>
+	<string id="ui_mm_alife_warfare_azazel_respawn_as_allies">
+		<text>Réapparaître en tant qu'allié Stalker</text>
+	</string>
+	<string id="ui_mm_alife_warfare_azazel_respawn_as_neutrals">
+		<text>Réapparaître en tant que Stalker neutre</text>
+	</string>
+	<string id="ui_mm_alife_warfare_azazel_respawn_as_enemies">
+		<text>Réapparaître en tant qu'ennemi Stalker</text>
+	</string>
+	<string id="ui_mm_alife_warfare_azazel_respawn_as_nearest">
+		<text>Réapparaître en tant que Stalker le plus proche</text>
+	</string>
+	<string id="ui_mm_alife_warfare_azazel_companion_dist_mult">
+		<text>Facteur de distance de réapparition des compagnons</text>
+	</string>
+	<string id="ui_mm_alife_warfare_azazel_actor_faction_dist_mult">
+		<text>Facteur de distance de réapparition des membres de faction</text>
+	</string>
+	<string id="ui_mm_alife_warfare_azazel_friend_dist_mult">
+		<text>Facteur de distance de réapparition des amis</text>
+	</string>
+	<string id="ui_mm_alife_warfare_azazel_ally_dist_mult">
+		<text>Facteur de distance de réapparition des alliés</text>
+	</string>	
+	<string id="ui_mm_alife_warfare_azazel_neutral_dist_mult">
+		<text>Facteur de distance de réapparition des neutres</text>
+	</string>
+	<string id="ui_mm_alife_warfare_azazel_enemy_dist_mult">
+		<text>Facteur de distance de réapparition des ennemis</text>
+	</string>
+	
+	<string id="ui_mm_alife_warfare_azazel_companion_min_respawn_dist">
+		<text>Distance minimale de réapparition des compagnons</text>
+	</string>
+	<string id="ui_mm_alife_warfare_azazel_companion_max_respawn_dist">
+		<text>Distance maximale de réapparition des compagnons</text>
+	</string>
+	<string id="ui_mm_alife_warfare_azazel_actor_faction_min_respawn_dist">
+		<text>Distance minimale de réapparition des membres de faction</text>
+	</string>
+	<string id="ui_mm_alife_warfare_azazel_actor_faction_max_respawn_dist">
+		<text>Distance maximale de réapparition des membres de faction</text>
+	</string>
+	<string id="ui_mm_alife_warfare_azazel_ally_min_respawn_dist">
+		<text>Distance minimale de réapparition des alliés</text>
+	</string>
+	<string id="ui_mm_alife_warfare_azazel_ally_max_respawn_dist">
+		<text>Distance maximale de réapparition des alliés</text>
+	</string>
+	<string id="ui_mm_alife_warfare_azazel_neutral_respawn_min_dist">
+		<text>Distance minimale de réapparition des neutres</text>
+	</string>
+	<string id="ui_mm_alife_warfare_azazel_neutral_respawn_max_dist">
+		<text>Distance maximale de réapparition des neutres</text>
+	</string>	
+	<string id="ui_mm_alife_warfare_azazel_enemy_respawn_min_dist">
+		<text>Distance minimale de réapparition des ennemis</text>
+	</string>
+	<string id="ui_mm_alife_warfare_azazel_enemy_respawn_max_dist">
+		<text>Distance maximale de réapparition des ennemis</text>
+	</string>
+	
+<!--
+	ALIFE - DYNAMIC NEWS
+-->
+
+	<string id="ui_mm_desc_dynamic_news">
+		<text>Des missions aux rapports de décès, en passant par les blagues quotidiennes et les échanges informels, les stalkers communiquent pour toutes sortes de raisons. Les paramètres suivants permettent de filtrer le type de messages que votre PDA recevra.</text>
+	</string>
+	
+	<string id="ui_mm_alife_dynamic_news_message_duration">
+		<text>Durée des messages sur l'interface (secondes)</text>
+	</string>
+	<string id="ui_mm_alife_dynamic_news_death_stalker_news">
+		<text>Rapports SOS/décès (Raid ennemi)</text>
+	</string>
+	<string id="ui_mm_alife_dynamic_news_death_mutant_news">
+		<text>Rapports SOS/décès (Raid de Mutants)</text>
+	</string>
+	<string id="ui_mm_alife_dynamic_news_generic_death_news">
+		<text>Rapports de décès et découvertes</text>
+	</string>
+	<string id="ui_mm_alife_dynamic_news_death_report_news">
+		<text>Rapports de décès (Nécrologies)</text>
+	</string>
+	<string id="ui_mm_alife_dynamic_news_tips_news">
+		<text>Conseils d'actualité</text>
+	</string>
+	<string id="ui_mm_alife_dynamic_news_kill_wounded_news">
+		<text>Menaces</text>
+	</string>
+	<string id="ui_mm_alife_dynamic_news_found_artifact_news">
+		<text>Découvertes d'Artefacts</text>
+	</string>
+	<string id="ui_mm_alife_dynamic_news_heli_call_news">
+		<text>Demandes d'hélicoptère</text>
+	</string>
+	<string id="ui_mm_alife_dynamic_news_loot_news">
+		<text>Butin trouvé</text>
+	</string>
+	<string id="ui_mm_alife_dynamic_news_cycle_of_special_news">
+		<text>Cycle de temps des actualités spéciales (secondes)</text>
+	</string>
+
+	<string id="ui_mm_alife_dynamic_news_reaction_news">
+		<text>Réactions des Stalkers</text>
+	</string>
+	
+	<string id="ui_mm_alife_dynamic_news_weather_news">
+		<text>Rumeurs météorologiques</text>
+	</string>
+	<string id="ui_mm_alife_dynamic_news_time_news">
+		<text>Rumeurs temporelles</text>
+	</string>
+	<string id="ui_mm_alife_dynamic_news_nearby_activity_news">
+		<text>Rumeurs d'activités proches</text>
+	</string>
+	<string id="ui_mm_alife_dynamic_news_dumb_zombie_news">
+		<text>Tentatives de communication des Zombies</text>
+	</string>
+	
+	<string id="ui_mm_alife_dynamic_news_bounty_news">
+		<text>Rumeurs de primes</text>
+	</string>
+	<string id="ui_mm_alife_dynamic_news_cycle_of_task_news">
+		<text>Délai d'actualisation des missions (en secondes)</text>
+	</string>
+
+	<string id="ui_mm_alife_dynamic_news_random_msg_news">
+		<text>Dialogues aléatoires</text>
+	</string>
+	<string id="ui_mm_alife_dynamic_news_factions_report_news">
+		<text>Activités des factions</text>
+	</string>
+	<string id="ui_mm_alife_dynamic_news_zone_activity_news">
+		<text>Activités de la Zone</text>
+	</string>
+	<string id="ui_mm_alife_dynamic_news_found_dead_news">
+		<text>Découvertes de cadavres</text>
+	</string>
+	<string id="ui_mm_alife_dynamic_news_surge_news">
+		<text>Prédictions d'Emissions</text>
+	</string>
+	<string id="ui_mm_alife_dynamic_news_cycle_of_random_news">
+		<text>Cycle de temps des actualités aléatoires (secondes)</text>
+	</string>
+
+	<string id="ui_mm_alife_dynamic_news_companions_news">
+		<text>Dialogues des compagnons</text>
+	</string>	
+	<string id="ui_mm_alife_dynamic_news_cycle_of_companions_news">
+		<text>Cycle de temps des échanges entre compagnons (secondes)</text>
+	</string>
+	
+<!--
+	OTHERS
+-->
+
+	<string id="ui_mm_title_other">
+		<text>Autres paramètres</text>
+	</string>
+	
+	<string id="ui_mm_other_localization">
+		<text>Langue</text>
+	</string>
+	<string id="ui_mm_other_discord">
+		<text>Statut Discord</text>
+	</string>
+	<string id="ui_mm_other_discord_desc">
+		<text>Si vous êtes connecté à Discord alors que cette option est activée, votre statut de jeu apparaîtra sur votre profil pour que tout le monde puisse le voir.\n
+		Informations affichées : niveau, tâche active, faction, santé et mode de jeu.</text>
+	</string>
+	<string id="ui_mm_other_important_save">
+		<text>Sauvegarde automatique (changement de niveau)</text>
+	</string>
+	<string id="ui_mm_other_autosave_timer">
+		<text>Sauvegarde automatique (toutes les 15 minutes)</text>
+	</string>
+	<string id="ui_mm_other_autosave_timer_new">
+		<text>Sauvegarde automatique (toutes les X minutes (0 = désactivé))</text>
+	</string>
+	<string id="ui_mm_other_quicksave_cnt">
+		<text>Nombre de sauvegardes rapides</text>
+	</string>
+	<string id="ui_mm_other_debug_hud">
+		<text>IU de débogage</text>
+	</string>
+	<string id="ui_mm_other_debug_map_hud">
+		<text>Points de débogage sur la carte</text>
+	</string>
+	<string id="ui_mm_other_debug_map_hud_desc">
+		<text>Affiche des marqueurs de carte pour toutes les escouades présentes dans la Zone, accompagnés d'informations de débogage supplémentaires.</text>
+	</string>
+	<string id="ui_mm_other_debug_error">
+		<text>Notifications d'erreurs de débogage</text>
+	</string>
+	<string id="ui_mm_other_debug_error_desc">
+		<text>Affiche une notification sur l'interface tête haute (HUD) en cas d'enregistrement d'une erreur dans la console.</text>
+	</string>
+
+	<string id="st_sk_desc">
+		<text>Fonctionnalité expérimentale permettant des éliminations silencieuses de PNJ non conscients de la menace.\n
+		Pour effectuer une mise à mort furtive, vous devez frapper un NPC avec une arme adaptée (par défaut, le couteau Spetsnaz ou un tir à la tête avec une arme équipée d'un silencieux), sans que ni vous ni la victime ne soyez vus par un autre NPC.\n
+		En cas de succès, le NPC mourra sans alerter ses alliés ou amis à proximité. Cependant, si quelqu'un vous voit près du NPC tué trop rapidement, il comprendra que vous l'avez assassiné et tout le monde réagira comme à l'accoutumée.\n
+		Cette fonctionnalité est désactivée par défaut car elle est encore en cours de développement et peut gravement affecter l'équilibre (en raison de la possibilité de tuer librement des NPC alliés si elle est bien exécutée ou de nettoyer des bases ennemies en étant déguisé).</text>
+	</string>
+	<string id="ui_mm_menu_silent_kills">
+		<text>Eliminations furtives</text>
+	</string>
+	<string id="ui_mm_gameplay_silent_kills_sk_enabled">
+		<text>Activer les éliminations silencieuses</text>
+	</string>
+	<string id="ui_mm_gameplay_silent_kills_sk_melee_enabled">
+		<text>Autoriser les éliminations silencieuses avec arme de mêlée</text>
+	</string>
+	<string id="ui_mm_gameplay_silent_kills_sk_all_melee_ok">
+		<text>Toutes les armes de mêlée (valides pour élimination silencieuse)</text>
+	</string>
+	<string id="ui_mm_gameplay_silent_kills_sk_all_melee_ok_desc">
+		<text>Si cette case n'est pas cochée, une arme blanche ne peut être utilisée pour un assassinat silencieux que si sa valeur de configuration « can_stealth_stab » est vraie. Par défaut, seul le Spetnaz Switchblade possède cette capacité.</text>
+	</string>
+	<string id="ui_mm_gameplay_silent_kills_sk_gun_enabled">
+		<text>Armes supprimées (valides pour élimination silencieuse)</text>
+	</string>
+	<string id="ui_mm_gameplay_silent_kills_sk_headshot_only">
+		<text>Tir dans la tête nécessaire pour une élimination silencieuse avec arme à feu</text>
+	</string>
+	<string id="ui_mm_gameplay_silent_kills_sk_fresh_time">
+		<text>Durée de suspicion après une élimination silencieuse</text>
+	</string>
+	<string id="ui_mm_gameplay_silent_kills_sk_fresh_time_desc">
+		<text>Durée pendant laquelle le joueur peut être vu à proximité d'un cadavre qu'il a tué avant d'être repéré.</text>
+	</string>
+	<string id="ui_mm_gameplay_silent_kills_sk_suspect_dist">
+		<text>Découverte des cadavres (distance du joueur)</text>
+	</string>
+	<string id="ui_mm_gameplay_silent_kills_sk_suspect_dist_desc">
+		<text>Détermine la distance à laquelle le joueur doit se trouver d'un NPC tué silencieusement pour être reconnu comme l'auteur du meurtre par d'autres NPCs.</text>
+	</string>
+	<string id="ui_mm_gameplay_silent_kills_sk_melee_hear_dist">
+		<text>Élimination silencieuse avec arme de mêlée (distance minimale des témoins)</text>
+	</string>
+	<string id="ui_mm_gameplay_silent_kills_sk_melee_hear_dist_desc">
+		<text>Une tentative d'assassinat furtif au corps-à-corps échouera systématiquement (cet effet diminue sous la pluie) s'il y a des NPCs à proximité ou à côté de la victime dans un rayon défini (en mètres).</text>
+	</string>
+	<string id="ui_mm_gameplay_silent_kills_sk_gun_hear_dist">
+		<text>Élimination silencieuse avec arme à feu (distance minimale des témoins)</text>
+	</string>
+	<string id="ui_mm_gameplay_silent_kills_sk_gun_hear_dist_desc">
+		<text>Une tentative d'assassinat furtif au corps-à-corps échouera systématiquement (cet effet diminue sous la pluie) s'il y a des NPCs à proximité ou à côté de la victime dans un rayon défini (en mètres).</text>
+	</string>
+
+	<string id="ui_mm_gameplay_economy_diff_condition_buy_override">
+		<text>État minimal de l'objet pour la vente</text>
+	</string>
+	<string id="ui_mm_gameplay_economy_diff_condition_buy_override_desc">
+		<text>Cette valeur, exprimée en pourcentage, indique l'état de condition minimal requis pour qu'un objet soit accepté par les marchands.\n
+		Si défini sur 0, l'état minimal des objets est déterminé par le fichier de configuration de chaque marchand.
+		</text>
+	</string>
+
+</string_table>

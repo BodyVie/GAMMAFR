@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	OUTFITS
+-->
+	<string id="st_upgr_o_health">
+		<text>Pack utilitaire de combinaison 'HPs-1'</text>
+	</string>
+	<string id="st_upgr_o_health_desc">
+		<text>Un ensemble contenant divers dispositifs mécaniques, incluant différents types d'injecteurs et des réservoirs de fluide stérile. Bien qu'inutile en soi, il peut être combiné avec d'autres ensembles d'utilitaires pour combinaison de même qualité afin de créer un kit de mise à niveau pour combinaison.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_o_bleed">
+		<text>Pack utilitaire de combinaison 'KrV'</text>
+	</string>
+	<string id="st_upgr_o_bleed_desc">
+		<text>Un ensemble contenant divers dispositifs mécaniques, incluant différents types d'injecteurs et des réservoirs de fluide stérile. Bien qu'inutile en soi, il peut être combiné avec d'autres ensembles d'utilitaires pour combinaison de même qualité afin de créer un kit de mise à niveau pour combinaison.\n \n
+		</text>
+	</string>
+
+    <string id="st_upgr_o_power">
+		<text>Pack utilitaire de combinaison 'UPRz'</text>
+	</string>
+	<string id="st_upgr_o_power_desc">
+		<text>Un ensemble contenant divers composants, sangles de fixation et autres éléments variés. Bien qu'inutile en soi, il peut être combiné avec d'autres ensembles d'utilitaires pour combinaison de même qualité afin de créer un kit de mise à niveau pour combinaison.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_o_carry">
+		<text>Pack utilitaire de combinaison 'OSEL'</text>
+	</string>
+	<string id="st_upgr_o_carry_desc">
+		<text>Un ensemble contenant divers composants, sangles de fixation et autres éléments variés. Bien qu'inutile en soi, il peut être combiné avec d'autres ensembles d'utilitaires pour combinaison de même qualité afin de créer un kit de mise à niveau pour combinaison.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_o_arty">
+		<text>Pack utilitaire de combinaison 'APTe'</text>
+	</string>
+	<string id="st_upgr_o_arty_desc">
+		<text>Un ensemble contenant divers composants, sangles de fixation et autres éléments variés. Bien qu'inutile en soi, il peut être combiné avec d'autres ensembles d'utilitaires pour combinaison de même qualité afin de créer un kit de mise à niveau pour combinaison.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_o_run">
+		<text>Pack utilitaire de combinaison 'DVgt'</text>
+	</string>
+	<string id="st_upgr_o_run_desc">
+		<text>Un ensemble contenant des moteurs hydrauliques avancés. Bien qu'inutile en soi, il peut être combiné avec d'autres ensembles d'utilitaires pour combinaison de même qualité afin de créer un kit de mise à niveau pour combinaison.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_o_armor">
+		<text>Kit de matériaux balistiques 'BRna'</text>
+	</string>
+	<string id="st_upgr_o_armor_desc">
+		<text>Un ensemble de plaques de blindage corporel et de couches sous-jacentes variées, incluant du Kevlar, du titane, du béryl, de l'aluminium, des polymères et de la fibre de carbone. Bien qu'inutilisable seul, il peut être combiné avec d'autres ensembles de matériaux balistiques de même qualité afin de créer un kit de mise à niveau de blindage pour combinaison.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_o_damage">
+		<text>Kit de matériaux balistiques 'PzDH'</text>
+	</string>
+	<string id="st_upgr_o_damage_desc">
+		<text>Un ensemble de plaques de blindage corporel et de couches sous-jacentes variées, incluant du Kevlar, du titane, du béryl, de l'aluminium, des polymères et de la fibre de carbone. Bien qu'inutilisable seul, il peut être combiné avec d'autres ensembles de matériaux balistiques de même qualité afin de créer un kit de mise à niveau de blindage pour combinaison.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_o_durability">
+		<text>Kit de matériaux balistiques 'PRCh'</text>
+	</string>
+	<string id="st_upgr_o_durability_desc">
+		<text>Un ensemble de plaques de blindage corporel et de couches sous-jacentes variées, incluant du Kevlar, du titane, du béryl, de l'aluminium, des polymères et de la fibre de carbone. Bien qu'inutilisable seul, il peut être combiné avec d'autres ensembles de matériaux balistiques de même qualité afin de créer un kit de mise à niveau de blindage pour combinaison.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_o_weight">
+		<text>Kit de matériaux balistiques 'LGkY'</text>
+	</string>
+	<string id="st_upgr_o_weight_desc">
+		<text>Un ensemble de plaques de blindage corporel et de couches sous-jacentes variées, incluant du Kevlar, du titane, du béryl, de l'aluminium, des polymères et de la fibre de carbone. Bien qu'inutilisable seul, il peut être combiné avec d'autres ensembles de matériaux balistiques de même qualité afin de créer un kit de mise à niveau de blindage pour combinaison.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_o_chem">
+		<text>Pack de matériaux CBRN 'CHM-1'</text>
+	</string>
+	<string id="st_upgr_o_chem_desc">
+		<text>Un ensemble de matériaux textiles conçus pour résister aux hautes températures, aux courants électriques et aux menaces CBRN. Bien qu'inutilisable seul, il peut être combiné avec d'autres ensembles de matériaux CBRN de même qualité afin de créer un kit de mise à niveau de protection environnementale pour combinaison.\n \n
+        </text>
+	</string>
+
+	<string id="st_upgr_o_burn">
+		<text>Pack de matériaux CBRN 'KHMy'</text>
+	</string>
+	<string id="st_upgr_o_burn_desc">
+		<text>Un ensemble de matériaux textiles conçus pour résister aux hautes températures, aux courants électriques et aux menaces CBRN. Bien qu'inutilisable seul, il peut être combiné avec d'autres ensembles de matériaux CBRN de même qualité afin de créer un kit de mise à niveau de protection environnementale pour combinaison.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_o_shock">
+		<text>Pack de matériaux CBRN 'MSCh'</text>
+	</string>
+	<string id="st_upgr_o_shock_desc">
+		<text>Un ensemble de matériaux textiles conçus pour résister aux hautes températures, aux courants électriques et aux menaces CBRN. Bien qu'inutilisable seul, il peut être combiné avec d'autres ensembles de matériaux CBRN de même qualité afin de créer un kit de mise à niveau de protection environnementale pour combinaison.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_o_psi">
+		<text>Pack de matériaux CBRN 'MZg'</text>
+	</string>
+	<string id="st_upgr_o_psi_desc">
+		<text>Un ensemble de matériaux textiles conçus pour résister aux hautes températures, aux courants électriques et aux menaces CBRN. Bien qu'inutilisable seul, il peut être combiné avec d'autres ensembles de matériaux CBRN de même qualité afin de créer un kit de mise à niveau de protection environnementale pour combinaison.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_o_rad">
+		<text>Pack de matériaux CBRN 'CHst'</text>
+	</string>
+	<string id="st_upgr_o_rad_desc">
+		<text>Un ensemble de matériaux textiles conçus pour résister aux hautes températures, aux courants électriques et aux menaces CBRN. Bien qu'inutilisable seul, il peut être combiné avec d'autres ensembles de matériaux CBRN de même qualité afin de créer un kit de mise à niveau de protection environnementale pour combinaison.\n \n
+		</text>
+	</string>
+
+<!--
+	WEAPONS
+-->
+	<string id="st_upgr_w_reliability">
+		<text>Pack de réglage d'armes légères 'D-11'</text>
+	</string>
+	<string id="st_upgr_w_reliability_desc">
+		<text>Un ensemble contenant divers composants d'armes, incluant des mécanismes de détente, des boulons et des transporteurs, des ressorts de recul et des tiges de guidage. Bien qu'inutile en soi, il peut être combiné avec d'autres ensembles d'optimisation pour armes légères de même qualité afin de créer un kit de mise à niveau pour le mécanisme d'une arme.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_w_recoil">
+		<text>Pack de réglage d'armes légères 'K-01'</text>
+	</string>
+	<string id="st_upgr_w_recoil_desc">
+		<text>Un ensemble contenant divers composants d'armes, incluant des mécanismes de détente, des boulons et des transporteurs, des ressorts de recul et des tiges de guidage. Bien qu'inutile en soi, il peut être combiné avec d'autres ensembles d'optimisation pour armes légères de même qualité afin de créer un kit de mise à niveau pour le mécanisme d'une arme.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_w_calibre">
+		<text>Pack de réglage d'armes légères 'C-22'</text>
+	</string>
+	<string id="st_upgr_w_calibre_desc">
+		<text>Un ensemble contenant divers composants d'armes, incluant des mécanismes de détente, des boulons et des transporteurs, des ressorts de recul et des tiges de guidage. Bien qu'inutile en soi, il peut être combiné avec d'autres ensembles d'optimisation pour armes légères de même qualité afin de créer un kit de mise à niveau pour le mécanisme d'une arme.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_w_rpm">
+		<text>Pack de réglage d'armes légères 'R-39'</text>
+	</string>
+	<string id="st_upgr_w_rpm_desc">
+		<text>Un ensemble contenant divers composants d'armes, incluant des mécanismes de détente, des boulons et des transporteurs, des ressorts de recul et des tiges de guidage. Bien qu'inutile en soi, il peut être combiné avec d'autres ensembles d'optimisation pour armes légères de même qualité afin de créer un kit de mise à niveau pour le mécanisme d'une arme.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_w_firemode">
+		<text>Pack de réglage d'armes légères 'F-23'</text>
+	</string>
+	<string id="st_upgr_w_firemode_desc">
+		<text>Un ensemble contenant divers composants d'armes, incluant des mécanismes de détente, des boulons et des transporteurs, des ressorts de recul et des tiges de guidage. Bien qu'inutile en soi, il peut être combiné avec d'autres ensembles d'optimisation pour armes légères de même qualité afin de créer un kit de mise à niveau pour le mécanisme d'une arme.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_w_weight">
+		<text>Kit de réglage d'armes légères 'W-02'</text>
+	</string>
+	<string id="st_upgr_w_weight_desc">
+		<text>Une boîte remplie de poignées variées, de compensateurs, de canons de rechange et de crosses en polymère pour différentes armes à feu. Bien qu'inutile en soi, elle peut être combinée avec d'autres ensembles de pièces détachées de même qualité afin de créer un kit de mise à niveau pour la structure d'une arme.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_w_speed">
+		<text>Pack de réglage d'armes légères 'V-99'</text>
+	</string>
+	<string id="st_upgr_w_speed_desc">
+		<text>Une boîte remplie de poignées variées, de compensateurs, de canons de rechange et de crosses en polymère pour différentes armes à feu. Bien qu'inutile en soi, elle peut être combinée avec d'autres ensembles de pièces détachées de même qualité afin de créer un kit de mise à niveau pour la structure d'une arme.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_w_magazine">
+		<text>Pack de réglage d'armes légères 'M-45'</text>
+	</string>
+	<string id="st_upgr_w_magazine_desc">
+		<text>Une boîte remplie de poignées variées, de compensateurs, de canons de rechange et de crosses en polymère pour différentes armes à feu. Bien qu'inutile en soi, elle peut être combinée avec d'autres ensembles de pièces détachées de même qualité afin de créer un kit de mise à niveau pour la structure d'une arme.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_w_dispersion">
+		<text>Pack de pièces aftermarket 'D-19'</text>
+	</string>
+	<string id="st_upgr_w_dispersion_desc">
+		<text>Une boîte remplie de poignées variées, de compensateurs, de canons de rechange et de crosses en polymère pour différentes armes à feu. Bien qu'inutile en soi, elle peut être combinée avec d'autres ensembles de pièces détachées de même qualité afin de créer un kit de mise à niveau pour la structure d'une arme.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_w_inertion">
+		<text>Pack de réglage d'armes légères 'H-7'</text>
+	</string>
+	<string id="st_upgr_w_inertion_desc">
+		<text>Une boîte remplie de poignées variées, de compensateurs, de canons de rechange et de crosses en polymère pour différentes armes à feu. Bien qu'inutile en soi, elle peut être combinée avec d'autres ensembles de pièces détachées de même qualité afin de créer un kit de mise à niveau pour la structure d'une arme.\n \n
+		</text>
+	</string>
+
+	<string id="st_upgr_w_muffle">
+		<text>Kit d'optiques et montures pour armes à feu 'SPS'</text>
+	</string>
+	<string id="st_upgr_w_muffle_desc">
+		<text>Un ensemble contenant des supports de montage, des outils de filetage de canon et des viseurs optiques de différentes qualités. Bien qu'inutile en soi, il peut être combiné avec d'autres ensembles de pièces détachées de même qualité afin de créer un kit de mise à niveau pour la structure d'une arme.\n \n
+        </text>
+	</string>
+
+	<string id="st_upgr_w_grenade_mount">
+		<text>Kit d'optiques et montures pour armes à feu 'Gzh-L'</text>
+	</string>
+	<string id="st_upgr_w_grenade_mount_desc">
+		<text>Un ensemble contenant des supports de montage, des outils de filetage de canon et des viseurs optiques de différentes qualités. Bien qu'inutile en soi, il peut être combiné avec d'autres ensembles de pièces détachées de même qualité afin de créer un kit de mise à niveau pour la structure d'une arme.\n \n
+        </text>
+	</string>
+
+	<string id="st_upgr_w_scope">
+		<text>Kit d'optiques et montures pour armes à feu 'OByE'</text>
+	</string>
+	<string id="st_upgr_w_scope_desc">
+		<text>Un ensemble contenant des supports de montage, des outils de filetage de canon et des viseurs optiques de différentes qualités. Bien qu'inutile en soi, il peut être combiné avec d'autres ensembles de pièces détachées de même qualité afin de créer un kit de mise à niveau pour la structure d'une arme.\n \n
+        </text>
+	</string>
+
+	<string id="st_upgr_w_scope_mount">
+		<text>Pack Optiques &amp; Montures Arme 'MTt'</text>
+	</string>
+	<string id="st_upgr_w_scope_mount_desc">
+		<text>Un ensemble contenant des supports de montage, des outils de filetage de canon et des viseurs optiques de différentes qualités. Bien qu'inutile en soi, il peut être combiné avec d'autres ensembles de pièces détachées de même qualité afin de créer un kit de mise à niveau pour la structure d'une arme.\n \n
+        </text>
+	</string>
+
+</string_table>

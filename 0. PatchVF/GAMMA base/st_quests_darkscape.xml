@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!-- Mechanic -->
+	<string id="dasc_tech_mlr_task_1_name">
+		<text>Trouve %s pour le mécano solitaire dans Darkscape</text>
+	</string>
+	<string id="dasc_tech_mlr_task_1_text">
+		<text>Le technicien de la scierie m'a demandé de lui rapporter %s.</text>
+	</string>
+	<string id="dasc_tech_mlr_task_1_about">
+		<text>Comme vous l'avez déjà constaté, la nature sauvage ici est tout à fait irréelle. Bien que ce soit une ancienne scierie, il ne reste plus que les bûches. J'aurais besoin de quelques kits pour travailler. Si vous pouvez en trouver des basiques, veuillez me les apporter.</text>
+	</string>
+	<string id="dasc_tech_mlr_task_1_fetch_about">
+		<text>Comme vous l'avez déjà constaté, la nature sauvage ici est tout à fait irréelle. Bien que ce soit une ancienne scierie, il ne reste plus que les bûches. J'aurais besoin de quelques kits pour travailler. Si vous pouvez en trouver des basiques, veuillez me les apporter.</text>
+	</string>
+	<string id="dasc_tech_mlr_task_1_fetch_finish">
+		<text>Merci. Les choses seront bien plus faciles avec ceux-ci. Gardez cet artefact. Il s'appelle "Pellicule". Il est effectivement assez rare.</text>
+	</string>
+
+	<string id="dasc_tech_mlr_task_2_name">
+		<text>Trouve %s pour le mécano solitaire dans Darkscape</text>
+	</string>
+	<string id="dasc_tech_mlr_task_2_text">
+		<text>Le technicien de la scierie m'a demandé de lui rapporter %s.</text>
+	</string>
+	<string id="dasc_tech_mlr_task_2_about">
+		<text>Puisque vous avez déjà trouvé un premier jeu d'outils, sauriez-vous où en trouver des plus avancés ? J'en ai désespérément besoin.</text>
+	</string>
+	<string id="dasc_tech_mlr_task_2_fetch_about">
+		<text>Puisque vous avez déjà trouvé un premier jeu d'outils, sauriez-vous où en trouver des plus avancés ? J'en ai désespérément besoin.</text>
+	</string>
+	<string id="dasc_tech_mlr_task_2_fetch_finish">
+		<text>Merci, merci beaucoup. Voici une petite réduction.</text>
+	</string>
+
+	<string id="dasc_tech_mlr_task_3_name">
+		<text>Trouve %s pour le mécano solitaire dans Darkscape</text>
+	</string>
+	<string id="dasc_tech_mlr_task_3_text">
+		<text>Le technicien de la scierie m'a demandé de lui rapporter %s.</text>
+	</string>
+	<string id="dasc_tech_mlr_task_3_about">
+		<text>Je comprends qu'il est peut-être trop demander dans cet endroit abandonné de Dieu, mais pourriez-vous m'aider à trouver un troisième kit, plus complexe ? Un kit d'expert ferait parfaitement l'affaire.</text>
+	</string>
+	<string id="dasc_tech_mlr_task_3_fetch_about">
+		<text>Je comprends qu'il est peut-être trop demander dans cet endroit abandonné de Dieu, mais pourriez-vous m'aider à trouver un troisième kit, plus complexe ? Un kit d'expert ferait parfaitement l'affaire.</text>
+	</string>
+	<string id="dasc_tech_mlr_task_3_fetch_finish">
+		<text>Merci pour tout. Peut-être que cet endroit maudit deviendra un jour un campement à part entière.</text>
+	</string>
+
+</string_table>

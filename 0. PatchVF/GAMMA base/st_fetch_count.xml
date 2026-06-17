@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+    <string id="st_fetch_count_have">
+        <text>%$clr_txt T'as %$clr_num berx$count %$clr_txt dans ton inventaire.</text>
+    </string>
+	<string id="st_fetch_count_in_stashes">
+        <text>%$clr_txt T'as %$clr_num berx$count %$clr_txt dans les caches à proximité.</text>
+    </string>
+
+</string_table>

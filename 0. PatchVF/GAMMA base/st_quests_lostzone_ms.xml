@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--===========================================================
+<
+< TEXT STRINGS FOR LOST TO THE ZONE: MORTAL SIN TASKS
+<	Anomaly 1.5 - Lost to the Zone: Mortal Sin
+<
+<===========================================================-->
+
+<string_table>
+
+<!--
+	ITEMS
+-->
+
+	<string id="drekavac_notes_name">
+		<text>Notes de Drekavac</text>
+	</string>
+	<string id="drekavac_notes_desc">
+		<text>« Enfin, après plusieurs années de préparation ardue, nous pouvons poursuivre le plan des Maîtres. Il est regrettable que tant de gens ne nous croient pas, mais parfois les mots ne suffisent pas. Ils sont aveuglés par des désirs humains bassement matériels. S'ils persistent dans leurs voies violentes, nous les traiterons par la violence. Peut-être comprendront-ils alors. La graine de Vyraj germe, et je suis ici pour étendre ce paradis toujours plus loin. Je suis la pointe de la lance. »\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+	<string id="chernobog_notes_name">
+		<text>Notes de Tchernobog</text>
+	</string>
+	<string id="chernobog_notes_desc">
+		<text>« La Zone est un miracle. Les Maîtres nous ont purifiés. Nous pensions que, bientôt, la Zone purifierait le monde. Mais non. Notre petit paradis a rapidement été envahi par les êtres imparfaits d'un monde pécheur. Et, dans un acte d'atrocité impensable, la bête nommée Strelok a mutilé le vaillant Monolithe et est entrée dans les chambres des Maîtres pour tuer leurs formes mortelles. Cependant, je ne dois pas désespérer. Je ne peux permettre que ce miracle soit consumé par le vice et la souillure des indignes. Ainsi, nous, Péché, devons entreprendre une quête pour accomplir le voeu des Maîtres. Nous mènerons la guerre contre les violents afin d'instaurer une paix éternelle. »\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+	<string id="attackers_pda_name">
+		<text>PDA du chef Sin</text>
+	</string>
+	<string id="attackers_pda_desc">
+		<text>Ce PDA appartenait autrefois au chef d'escouade de Péché. Il contient une carte de la Forêt Rouge avec un ensemble de lieux marqués, dont l'un n'a pas encore été vérifié. Il semble que l'escouade était à la poursuite de quelqu'un et qu'ils étaient très proches de le trouver. De nombreuses données cryptées supplémentaires, potentiellement précieuses, y sont également présentes.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+	<string id="contact_lost_pda_name">
+		<text>PDA du chef éclaireur</text>
+	</string>
+	<string id="contact_lost_pda_desc">
+		<text>Ce PDA appartenait autrefois au chef de l'équipe de reconnaissance. Il avait réussi à enregistrer certaines informations sur les forces ennemies avant sa mort prématurée.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+	<string id="vodnik_notes_name">
+		<text>Notes de Vodnik</text>
+	</string>
+	<string id="vodnik_notes_desc">
+		<text>« Nombreux sont ceux qui ont rejoint notre cause, qu'ils aient compris dès le début la magnificence de la Zone ou qu'ils aient eu besoin d'explications. J'envie les Fondateurs. Ils ont été créés par les Maîtres eux-mêmes. Ils ont pu assister à la naissance de Vyraj ! Mais ils nous ont purifiés, nous jugeant dignes, et ils purifieront nos nouveaux frères. Ensemble, nous répandrons la parole dans le monde entier. »\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Task 1 -->
+	<string id="lttz_ms_start_title">
+		<text>Péché mortel : Émissaire mystérieux</text>
+	</string>
+	
+	<string id="lttz_ms_start_dolg_descr">
+		<text>Le général Voronin souhaite que vous interrogiez un émissaire mystérieux qui harcèle les stalkers au bar des 100 Rads.</text>
+	</string>
+	<string id="lttz_ms_start_dolg_descr_talk">
+		<text>Vous avez obtenu des informations utiles de la part de l'émissaire. Faites votre rapport au Général Voronin.</text>
+	</string>
+	<string id="lttz_ms_start_dolg_descr_kill">
+		<text>Vous avez obtenu des informations utiles et éliminé l'émissaire mystérieux. Faites votre rapport au général Voronin.</text>
+	</string>
+	
+	<string id="lttz_ms_start_killer_descr">
+		<text>Dushman souhaite que vous interrogiez un émissaire mystérieux qui harcèle les mercenaires dans la base de la Ville morte.</text>
+	</string>
+	<string id="lttz_ms_start_killer_descr_talk">
+		<text>Vous avez obtenu des informations utiles de la part de l'émissaire. Faites votre rapport à Dushman.</text>
+	</string>
+	<string id="lttz_ms_start_killer_descr_kill">
+		<text>Vous avez obtenu des informations utiles et éliminé l'émissaire mystérieux. Faites votre rapport à Dushman.</text>
+	</string>
+	
+	<string id="lttz_ms_start_stalker_descr">
+		<text>Sidorovich souhaite que vous interrogiez un émissaire mystérieux qui harcèle les stalkers dans le Village des Recrues.</text>
+	</string>
+	<string id="lttz_ms_start_stalker_descr_talk">
+		<text>Vous avez obtenu des informations utiles de la part de l'émissaire. Faites votre rapport à Sidorovich.</text>
+	</string>
+	<string id="lttz_ms_start_stalker_descr_kill">
+		<text>Vous avez obtenu des informations utiles et éliminé l'émissaire mystérieux. Faites votre rapport à Sidorovich.</text>
+	</string>
+	
+	<string id="lttz_ms_start_csky_descr">
+		<text>Cold souhaite que vous interrogiez un émissaire mystérieux qui harcèle les stalkers dans la Base Secrète.</text>
+	</string>
+	<string id="lttz_ms_start_csky_descr_talk">
+		<text>Vous avez obtenu des informations utiles de l'envoyé. Faites votre rapport à Cold.</text>
+	</string>
+	<string id="lttz_ms_start_csky_descr_kill">
+		<text>Vous avez obtenu des informations utiles et éliminé l'émissaire mystérieux. Faites votre rapport à Cold.</text>
+	</string>
+	
+	<string id="lttz_ms_start_freedom_descr">
+		<text>Lukash souhaite que vous interrogiez un émissaire mystérieux qui harcèle les stalkers au QG de Liberté.</text>
+	</string>
+	<string id="lttz_ms_start_freedom_descr_talk">
+		<text>Vous avez obtenu des informations utiles de l'envoyé. Faites votre rapport à Lukash.</text>
+	</string>
+	<string id="lttz_ms_start_freedom_descr_kill">
+		<text>Vous avez obtenu des informations utiles et éliminé l'émissaire mystérieux. Faites votre rapport à Lukash.</text>
+	</string>
+	
+	<string id="lttz_ms_start_ecolog_descr">
+		<text>Le professeur Sakharov souhaite que vous interrogiez un émissaire mystérieux qui harcèle les gardes près du laboratoire mobile-bunker.</text>
+	</string>
+	<string id="lttz_ms_start_ecolog_descr_talk">
+		<text>Vous avez obtenu des informations utiles de la part de l'émissaire. Faites votre rapport au Professeur Sakharov.</text>
+	</string>
+	<string id="lttz_ms_start_ecolog_descr_kill">
+		<text>Vous avez obtenu des informations utiles et éliminé l'émissaire mystérieux. Faites votre rapport au professeur Sakharov.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Task 2 -->
+	<string id="lttz_ms_red_forester_title">
+		<text>Péché mortel : Forestier rouge</text>
+	</string>
+	<string id="lttz_ms_red_forester_descr">
+		<text>Parlez à Forester au sujet d'une éventuelle activité du Péché dans Forêt Rouge.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Task 3 -->
+	<string id="lttz_ms_red_forest_attackers_title">
+		<text>Péché mortel : Les spectres de la Forêt Rouge</text>
+	</string>
+	<string id="lttz_ms_red_forest_attackers_descr">
+		<text>Forester a déduit où le mystérieux stalker que vous enquêtez pourrait avoir établi son camp. Confrontez-le.</text>
+	</string>
+	<string id="lttz_ms_red_forest_attackers_descr2">
+		<text>Fouillez les corps à la recherche d'informations utiles.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Task 4 -->
+	<string id="lttz_ms_runaway_title">
+		<text>Péché mortel : Fugitif</text>
+	</string>
+	<string id="lttz_ms_runaway_descr">
+		<text>Les Pécheurs poursuivaient quelqu'un. Ils devaient ensuite inspecter les mines à l'ouest. Allez enquêter à leur place.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Task 5 -->
+	<string id="lttz_ms_needle_haystack_title">
+		<text>Péché mortel : Aiguille dans une botte de foin</text>
+	</string>
+	<string id="lttz_ms_needle_haystack_descr">
+		<text>Stitch a besoin de son dispositif de piratage pour une mission importante. Récupérez l'objet dans l'un des bus accidentés au milieu du Cimetière de véhicules.</text>
+	</string>
+	<string id="lttz_ms_return_stitch_descr">
+		<text>Rendez l'appareil de piratage à Stitch.</text>
+	</string>
+	
+	<string id="stitch_decoder_name">
+		<text>Décodeur de Stitch</text>
+	</string>
+	<string id="stitch_decoder_desc">
+		<text>Cet appareil de piratage quelque peu obsolète appartient à Stitch.\n
+		Il devrait être compatible avec des pièces de technologie tout aussi obsolètes disséminées dans la Zone.\n \n</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Task 6 -->
+	<string id="lttz_ms_report_title">
+		<text>Péché mortel : Rapport de situation</text>
+	</string>
+	<string id="lttz_ms_report_dolg_descr">
+		<text>Selon Stitch, Péché prépare une campagne à grande échelle. Présentez vos conclusions au général Voronin.</text>
+	</string>
+	<string id="lttz_ms_report_killer_descr">
+		<text>Selon Stitch, Péché prépare une campagne à grande échelle. Présentez vos conclusions à Dushman.</text>
+	</string>
+	<string id="lttz_ms_report_stalker_descr">
+		<text>Selon Stitch, Péché prépare une campagne à grande échelle. Présentez vos conclusions à Sidorovich.</text>
+	</string>
+	<string id="lttz_ms_report_csky_descr">
+		<text>Selon Stitch, Péché prépare une campagne à grande échelle. Présentez vos conclusions à Cold.</text>
+	</string>
+	<string id="lttz_ms_report_freedom_descr">
+		<text>Selon Stitch, Péché prépare une campagne à grande échelle. Présentez vos conclusions à Lukash.</text>
+	</string>
+	<string id="lttz_ms_report_ecolog_descr">
+		<text>Selon Stitch, Péché prépare une campagne à grande échelle. Faites un rapport de vos découvertes au professeur Sakharov.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Task 7 -->
+	<string id="lttz_ms_ambush_title">
+		<text>Péché mortel : Embuscade</text>
+	</string>
+	<string id="lttz_ms_ambush_dolg_descr">
+		<text>Les forces du Péché envahissent le Bar. Repoussez-les.</text>
+	</string>
+	<string id="lttz_ms_ambush_dolg_done_descr">
+		<text>Vous avez repoussé l'assaut ennemi. Faites votre rapport au général Voronin.</text>
+	</string>
+	<string id="lttz_ms_ambush_killer_descr">
+		<text>Les forces du Péché envahissent Ville morte. Vous devez les repousser.</text>
+	</string>
+	<string id="lttz_ms_ambush_killer_done_descr">
+		<text>Vous avez repoussé l'assaut ennemi. Faites votre rapport à Dushman.</text>
+	</string>
+	<string id="lttz_ms_ambush_stalker_descr">
+		<text>Les forces du Péché envahissent le village des recrues. Repoussez-les.</text>
+	</string>
+	<string id="lttz_ms_ambush_stalker_done_descr">
+		<text>Vous avez repoussé l'assaut ennemi. Faites votre rapport à Sidorovich.</text>
+	</string>
+	<string id="lttz_ms_ambush_csky_descr">
+		<text>Les forces du Péché envahissent le hameau de pêcheurs. Repoussez-les.</text>
+	</string>
+	<string id="lttz_ms_ambush_csky_done_descr">
+		<text>Vous avez repoussé l'assaut ennemi. Faites votre rapport à Cold.</text>
+	</string>
+	<string id="lttz_ms_ambush_freedom_descr">
+		<text>Les forces du Péché envahissent le quartier général. Repoussez-les.</text>
+	</string>
+	<string id="lttz_ms_ambush_freedom_done_descr">
+		<text>Vous avez repoussé l'assaut ennemi. Faites votre rapport à Lukash.</text>
+	</string>
+	<string id="lttz_ms_ambush_ecolog_descr">
+		<text>Les forces du Péché attaquent le bunker mobile. Repoussez-les.</text>
+	</string>
+	<string id="lttz_ms_ambush_ecolog_done_descr">
+		<text>Vous avez repoussé l'assaut ennemi. Faites votre rapport au professeur Sakharov.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Task -->
+	<string id="lttz_ms_dark_crusade_title">
+		<text>Péché mortel : Croisade noire</text>
+	</string>
+	<string id="lttz_ms_dark_crusade_descr">
+		<text>Péché représente une menace considérable pour la communauté des stalker. Faites tout votre possible pour les arrêter.</text>
+	</string>
+	<string id="lttz_ms_dark_crusade_descr2">
+		<text>Chernobog projette d'étendre la Zone pour qu'elle couvre le monde entier. Il doit être arrêté.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Task 8 -->
+	<string id="lttz_ms_preemptive_strike_title">
+		<text>Péché mortel : Frappe préventive</text>
+	</string>
+	<string id="lttz_ms_protect_miracle_machine_descr">
+		<text>Péché tente de réactiver la Machine Miracle. Éliminez l'escouade de sentinelles près de l'entrée du laboratoire.</text>
+	</string>
+	<string id="lttz_ms_protect_miracle_machine_descr2">
+		<text>Péché tente de réactiver la Machine Miracle. Descendez dans le laboratoire et éliminez tous les ennemis rencontrés.</text>
+	</string>
+	<string id="lttz_ms_protect_miracle_machine_descr3">
+		<text>Péché tente de réactiver la Machine à Miracle. Empêchez le dernier escadron de réussir.</text>
+	</string>
+	
+	<string id="lttz_ms_protect_brain_scorcher_descr">
+		<text>Péché tente de réactiver le Lobotomisateur. Rendez-vous au Radar et éliminez toutes les forces hostiles pour les en empêcher.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Task 9 -->
+	<string id="lttz_ms_to_war_title">
+		<text>Péché mortel : À la guerre</text>
+	</string>
+	<string id="lttz_ms_to_war_descr">
+		<text>Après leur échec à réactiver les installations psychiques, Péché a déclaré une guerre ouverte. Rendez-vous à Limansk pour contacter Rogue et former un front uni.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Task 10 -->
+	<string id="lttz_ms_urban_warfare_title">
+		<text>Péché mortel : Guerre urbaine</text>
+	</string>
+	<string id="lttz_ms_urban_warfare_descr">
+		<text>Les forces de Péché occupent la majeure partie de Limansk. Éliminez leurs dirigeants pour les désorganiser.</text>
+	</string>
+	<string id="lttz_ms_urban_warfare_descr2">
+		<text>Vous avez vaincu les Castigateurs du Péché. Faites votre rapport à Rogue.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Task 11 -->
+	<string id="lttz_ms_war_prisoner_title">
+		<text>Péché mortel : Prisonnier de guerre</text>
+	</string>
+	<string id="lttz_ms_war_prisoner_descr">
+		<text>Un membre de Péché a été capturé par un Renégat. Interrogez-le afin d'obtenir des renseignements utiles.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Task 12 -->
+	<string id="lttz_ms_contact_lost_title">
+		<text>Péché mortel : Contact perdu</text>
+	</string>
+	<string id="lttz_ms_contact_lost_descr">
+		<text>L'équipe de reconnaissance envoyée par les Renégats n'est pas revenue de sa mission. Enquêtez sur la situation.</text>
+	</string>
+	<string id="lttz_ms_contact_lost_descr2">
+		<text>Vous avez réussi à obtenir des renseignements de l'équipe. Retournez voir Rogue.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Task 13 -->
+	<string id="lttz_ms_destruction_site_title">
+		<text>Péché mortel : Site de destruction</text>
+	</string>
+	<string id="lttz_ms_destruction_site_descr">
+		<text>Les forces de Péché se sont retranchées dans une position fortifiée sur un ancien chantier de construction. Éliminez-les pour sécuriser Limansk et accéder au chemin vers le nord.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Task 14 -->
+	<string id="lttz_ms_hospital_assault_title">
+		<text>Péché mortel : Hospitalité nordique</text>
+	</string>
+	<string id="lttz_ms_hospital_assault_descr">
+		<text>Éliminez les restes des forces du Péché à Limansk pour accéder à l'Hôpital abandonné.</text>
+	</string>
+	<string id="lttz_ms_hospital_assault_descr2">
+		<text>Éliminez les forces de Péché de l'Hôpital Déserté, leur refusant ainsi une place forte alors que vous avancez vers la CNPP.</text>
+	</string>
+	<string id="lttz_ms_hospital_assault_descr3">
+		<text>Une voix télépathique vous a appelé vers l'emplacement d'un stalker mystérieux. Enquêtez.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Task 15 -->
+	<string id="lttz_ms_heart_zone_title">
+		<text>Péché mortel : Coeur de la Zone</text>
+	</string>
+	<string id="lttz_ms_heart_zone_descr">
+		<text>Éliminez les patrouilles de Péché sur votre trajet vers le nord de la CNPP afin de garantir un voyage de retour sécurisé.</text>
+	</string>
+	<string id="lttz_ms_heart_zone_descr2">
+		<text>Rendez-vous dans la zone inquiétante connue sous le nom des Générateurs.</text>
+	</string>
+	<string id="lttz_ms_heart_zone_descr3">
+		<text>Un stalker non identifié vous a contacté via votre PDA. Espérons qu'il s'agisse d'un allié.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Task 16 -->
+	<string id="lttz_ms_decisive_blow_title">
+		<text>Péché mortel : Coup décisif</text>
+	</string>
+	<string id="lttz_ms_decisive_blow_descr">
+		<text>Les dernières forces de Péché se rassemblent près de l'entrée principale du Laboratoire de Guerre. Attaquez-les pour détourner leur attention de la mission de sabotage de Strelok.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Task 17 -->
+	<string id="lttz_ms_confrontation_title">
+		<text>Péché mortel : Affrontement</text>
+	</string>
+	<string id="lttz_ms_confrontation_descr">
+		<text>Le Péché a échoué de manière critique dans sa mission. Affrontez Chernobog.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Task 18 -->
+	<string id="lttz_ms_endgame_title">
+		<text>Péché mortel : Fin de partie</text>
+	</string>
+	<string id="lttz_ms_endgame_descr">
+		<text>Poursuivez Chernobog et empêchez-le d'exaucer son souhait avec la plus grande fermeté.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Task 19 -->
+	<string id="lttz_ms_choice_title">
+		<text>Péché mortel : Choix</text>
+	</string>
+	<string id="lttz_ms_choice_descr">
+		<text>Chernobog est mort. Utiliser ou non l'Exauceur de Souhaits vous revient désormais.</text>
+	</string>
+	<string id="lttz_ms_choice_descr2">
+		<text>Parlez à l'Exauceur de Souhaits.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Task 20 -->
+	<string id="lttz_ms_zone_hero_title">
+		<text>Péché mortel : Héros de la Zone</text>
+	</string>
+	<string id="lttz_ms_zone_hero_dolg_descr">
+		<text>Vous avez empêché Péché d'accélérer l'expansion de la Zone. Signalez votre succès au général Voronin.</text>
+	</string>
+	<string id="lttz_ms_zone_hero_killer_descr">
+		<text>Vous avez assuré que la Zone conserve son état actuel lucratif. Signalez votre succès à Dushman.</text>
+	</string>
+	<string id="lttz_ms_zone_hero_stalker_descr">
+		<text>Vous avez affronté une menace pour les stalkers partout et l'avez vaincue. Signalez votre succès à Sidorovich.</text>
+	</string>
+	<string id="lttz_ms_zone_hero_csky_descr">
+		<text>Vous avez empêché la Zone d'être déséquilibrée. Signalez votre succès à Cold.</text>
+	</string>
+	<string id="lttz_ms_zone_hero_freedom_descr">
+		<text>Vous avez empêché un tyran de s'imposer au monde. Signalez votre succès à Lukash.</text>
+	</string>
+	<string id="lttz_ms_zone_hero_ecolog_descr">
+		<text>Vous avez survécu à une aventure qui aurait tué la plupart des scientifiques, et maintenu la Zone sous contrôle en toute sécurité pour étude. Faites votre rapport au professeur Sakharov.</text>
+	</string>
+	
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Mortal Sin Unquenchable Flame Tasks -->
+	<string id="unquenchable_flame_task_name">
+		<text>Flamme inextinguible</text>
+	</string>
+	<string id="unquenchable_flame_task_text">
+		<text>Les survivants du Sin se rassemblent dans Zaton. Vous devez les éliminer.</text>
+	</string>
+	
+	<string id="esc_m_trader_task_4_about">
+		<text>Vous voyez, stalker... Je sais que vous avez déjà combattu votre lot de ces fanatiques du Sin, mais Barbu m'a informé que leurs restes sont très actifs. Plusieurs stalkers ont signalé qu'ils établissaient une base dans des ateliers de sous-stations abandonnés en Zaton. Ils mettent en danger mes routes commerciales et cela ne me plaît vraiment pas. Allez les réduire au silence définitivement.</text>
+	</string>
+	<string id="esc_m_trader_task_4_finish">
+		<text>N'êtes-vous pas une véritable armée à vous seul ? Bien joué, stalker. J'espère que nous n'entendrons plus parler d'eux.</text>
+	</string>
+	<string id="cit_killers_merc_trader_stalker_task_4_about">
+		<text>Vous avez acquis une sacrée réputation en détruisant presque seul toute une faction de fanatiques. Le problème, c'est qu'ils n'ont pas encore été complètement anéantis. Nos hommes de l'avant-poste en Zaton ont signalé une activité suspecte dans des ateliers de sous-stations abandonnés à proximité, et ils sont certains qu'il s'agit à nouveau du Sin. Éliminez-les avant qu'ils ne lancent une nouvelle croisade sanglante.</text>
+	</string>
+	<string id="cit_killers_merc_trader_stalker_task_4_finish">
+		<text>Je peux toujours compter sur vous pour terminer le travail comme un véritable professionnel. Voici votre récompense.</text>
+	</string>
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_3_about">
+		<text>Merde, alors que j'allais enfin oublier cette répétition de l'histoire d'il y a quelques années, ces types réapparaissent soudainement. Il s'avère que des survivants du Sin se regroupent dans des ateliers de sous-stations abandonnés en Zaton. Je sais que c'est un sacré détour pour atteindre l'endroit, mais l'idée qu'ils se renforcent là-bas comme une sorte de tumeur maligne ne me plaît vraiment pas. Prenez quelques-uns de nos hommes et éliminez-les.</text>
+	</string>
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_3_finish">
+		<text>Ah, bien joué. Je pense que nous avons fait notre part de combats pour les prochaines années, qu'en pensez-vous ?</text>
+	</string>
+		
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+</string_table>

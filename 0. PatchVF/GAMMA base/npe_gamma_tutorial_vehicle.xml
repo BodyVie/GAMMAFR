@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+    <string id="ui_mcm_npe_module_gamma_tutorial_vehicle_vehicle">
+        <text>Tutoriel véhicule</text>
+    </string>
+
+    <string id="ui_mcm_npe_module_gamma_tutorial_vehicle_title">
+        <text>Tutoriels G.A.M.M.A.</text>
+    </string>
+
+    <string id="ui_mcm_npe_module_gamma_tutorial_vehicle_desc">
+        <text>Véhicule</text>
+    </string>
+	
+    <!-- MCM -->
+    <!-- Name of the toggle that sets if tutorial has been completed-->
+    <string id="ui_mcm_npe_module_gamma_tutorial_vehicle">
+        <text>Véhicule G.A.M.M.A.</text>
+    </string>
+    <!-- MCM -->
+
+    <!-- Title of the whole tutorial -->
+    <string id="ui_mcm_npe_module_gamma_tutorial_vehicle_title">
+        <text>Tutoriel véhicule</text>
+    </string>
+
+    <!-- Cards -->
+    <!-- 1 -->
+    <string id="ui_gamma_tutorial_vehicle_card_01_title">
+        <text>Comment conduire les véhicules
+		</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_vehicle_card_01_description">
+        <text>%c[ui_white]
+		• Certaines zones de la Zone contiennent des véhicules fonctionnels, notamment : Darkscape, Jupiter, Zaton et CNPP. Les véhicules ne peuvent pas être déplacés d'une carte à une autre.\n \n
+		
+		• Vous pouvez vous approcher des véhicules utilisables tels que les voitures, les camions ou les tracteurs et appuyer sur la touche « Utiliser » (F par défaut) pour monter à bord.\n \n
+
+		• Il vous faut ensuite appuyer sur la touche « Détecteur » (6 par défaut) pour démarrer le moteur. Appuyez sur la touche « Phare » (L par défaut) pour allumer les feux du véhicule. Il n'y a pas de gestion de carburant, cependant les véhicules peuvent être endommagés et exploser. Évitez donc de les utiliser comme couvertures.\n \n
+
+		• Veillez à éviter de pénétrer dans des anomalies en conduisant, car cela signifiera très probablement votre fin.\n \n
+		</text>
+    </string>
+    <!-- 1 -->
+</string_table>

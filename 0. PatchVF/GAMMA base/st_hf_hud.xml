@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+    <string id="st_hf_holding_msg">
+		<text>$key_interact - Placer l'objet\n
+            $key_collision - Basculer la détection des collisions\n
+            $key_align - Basculer l'alignement de surface\n
+            $key_mode - Passer en mode avancé\n
+            ÉCHAP - Annuler le placement
+        </text>
+	</string>
+
+    <string id="st_hf_advanced_msg">
+		<text>$key_interact - Placer l'objet\n
+            Transformations:\n
+            SOURIS1 - Déplacer sur le plan horizontal\n
+            SOURIS2 - Pivoter autour de l'axe vertical\n
+            LSHIFT + SOURIS1 - Déplacer le long de l'axe vertical\n
+            Modificateurs:\n
+            LALT - Ajustement rapide\n
+            LCTRL - Contrôle de précision\n
+            $key_mode - Passer en mode aperçu\n
+            ÉCHAP - Passer en mode normal
+        </text>
+	</string>
+
+    <string id="st_hf_preview_msg">
+		<text>$key_interact - Placer l'objet\n
+            ÉCHAP - Annuler le placement\n
+            $key_mode - Passer en mode avancé
+        </text>
+	</string>
+
+</string_table>

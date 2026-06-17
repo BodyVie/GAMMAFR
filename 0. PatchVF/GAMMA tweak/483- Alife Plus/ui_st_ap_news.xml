@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+  <!-- ========================================================================= -->
+  <!-- PER-CONSEQUENCE TEMPLATES                                                  -->
+  <!-- 5 variants per consequence on speaker-rotation discipline:                 -->
+  <!--   V1 hearsay  - "Heard X" (short)                                          -->
+  <!--   V2 witness  - "Saw X" (medium)                                           -->
+  <!--   V3 survivor - "I was with..." / "I crossed..." (long)                    -->
+  <!--   V4 tracker  - "Tracks at X show..." / "Looks like..." (medium)           -->
+  <!--   V5 named    - uses #subject_name# (short) | mutant pools: direct factual -->
+  <!-- Every variant carries an explicit consequence tell.                        -->
+  <!-- See doc/standards/writing-standards.md "Generative templates" section.     -->
+  <!-- ========================================================================= -->
+  <!-- massacre_investigate (TWO-PARTY: subject = recovery crew, other = killer) -->
+  <string id="st_ap_news_tpl_massacre_investigate_001">
+    <text>J'ai entendu dire qu'une équipe #subject_faction# est venue récupérer ses morts à #location# après le départ de #other_faction#.</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_investigate_002">
+    <text>J'ai vu une équipe de #subject_faction# entrer dans #location# #ago# pour récupérer leurs morts après un massacre des #other_faction#.</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_investigate_003">
+    <text>J'étais près de #location# #ago# quand une patrouille de #subject_faction# est arrivée pour identifier leurs morts. Ils ont récupéré les plaques et laissé les corps.</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_investigate_004">
+    <text>Les traces à #location# montrent que #other_faction# a tout nettoyé après un massacre et qu'une équipe de #subject_faction# est venue récupérer les corps.</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_investigate_005">
+    <text>#subject_name# a amené une équipe de #subject_faction# à #location# #ago# pour récupérer les morts après un nettoyage de #other_faction#.</text>
+  </string>
+  <!-- massacre_scavenge (TWO-PARTY mutant: subject = scavenger, other = victim) -->
+  <string id="st_ap_news_tpl_massacre_scavenge_001">
+    <text>J'ai entendu qu'une meute de #subject_species#s a attaqué les #other_faction# morts près de #location# #ago#.</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_scavenge_002">
+    <text>J'ai vu des #subject_species# bouffer les morts des #other_faction# à #location# avant que les équipes de récup' débarquent.</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_scavenge_003">
+    <text>J'étais sous le vent de #location# #ago# quand une meute de #subject_species#s a fondu sur les corps de #other_faction#. Plus rien à identifier.</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_scavenge_004">
+    <text>Les traces à #location# montrent qu'une meute de #subject_species#s est tombée sur le cadavre des #other_faction# avant que quiconque puisse le récupérer.</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_scavenge_005">
+    <text>Une meute de #subject_species#s a bouffé les morts des #other_faction# à #location# #ago# jusqu'à ce qu'il ne reste plus que les os.</text>
+  </string>
+  <!-- massacre_loot (TWO-PARTY: subject = outlaw looter, other = victim) -->
+  <string id="st_ap_news_tpl_massacre_loot_001">
+    <text>J'ai entendu dire qu'une équipe de #subject_faction# est tombée sur les morts des #other_faction# à #location# #ago# et les a dépouillés jusqu'à l'os.</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_loot_002">
+    <text>J'ai vu #subject_faction# récupérer les armes et le matos sur les cadavres de #other_faction# à #location# avant que l'équipe de récup' n'arrive.</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_loot_003">
+    <text>J'étais près de #location# #ago# quand une équipe de #subject_faction# a débarqué pour buter les #other_faction#. Ils ont tout raflé, même ce qui était cloué sur les macchabées.</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_loot_004">
+    <text>Les traces à #location# montrent que #subject_faction# est tombé sur le nettoyage #other_faction# et est reparti les sacs pleins.</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_loot_005">
+    <text>#subject_faction# a dépouillé les morts #other_faction# à #location# #ago#. Plus rien à récupérer.</text>
+  </string>
+  <!-- squadkill_revenge (TWO-PARTY: subject = avenger, other = killer) -->
+  <string id="st_ap_news_tpl_squadkill_revenge_001">
+    <text>J'ai entendu dire qu'une équipe de #subject_faction# a quitté #location# #ago# pour traquer les #other_faction# après qu'une escouade de soeurs s'est fait descendre.</text>
+  </string>
+  <string id="st_ap_news_tpl_squadkill_revenge_002">
+    <text>J'ai vu un groupe de vengeance de #subject_faction# couper vers l'est sur les traces de #other_faction# #ago# après que leur escouade soeur se soit fait descendre à #location#.</text>
+  </string>
+  <string id="st_ap_news_tpl_squadkill_revenge_003">
+    <text>J'étais près de #location# quand #other_faction# a attaqué un groupe de #subject_faction# #ago#. L'équipe de représailles qui les a poursuivis n'est jamais revenue.</text>
+  </string>
+  <string id="st_ap_news_tpl_squadkill_revenge_004">
+    <text>Les traces à #location# montrent que #subject_faction# a laissé un carnage derrière lui et s'est barré vers l'est sur les bottes de #other_faction# avant que les corps ne refroidissent.</text>
+  </string>
+  <string id="st_ap_news_tpl_squadkill_revenge_005">
+    <text>#subject_name# a lancé une équipe de vengeance #subject_faction# contre #other_faction# depuis #location# #ago#.</text>
+  </string>
+  <!-- basekill_support (TWO-PARTY: subject = backup arrives, other = attacker) -->
+  <string id="st_ap_news_tpl_basekill_support_001">
+    <text>J'ai entendu qu'une équipe de renforts #subject_faction# est montée pour reprendre #location# aux #other_faction# #ago#.</text>
+  </string>
+  <string id="st_ap_news_tpl_basekill_support_002">
+    <text>J'ai vu une équipe de #subject_faction# brûler du carburant vers #location# #ago# pour soutenir les gars qui tenaient contre #other_faction# à la porte.</text>
+  </string>
+  <string id="st_ap_news_tpl_basekill_support_003">
+    <text>J'étais près de #location# #ago# quand une équipe de #subject_faction# est arrivée en renfort à la porte. Ils ont frappé #other_faction#, mais le mur était déjà par terre.</text>
+  </string>
+  <string id="st_ap_news_tpl_basekill_support_004">
+    <text>Les traces à #location# montrent que #subject_faction# a ramené une autre équipe pour reprendre la porte à #other_faction# après que le mur soit tombé.</text>
+  </string>
+  <string id="st_ap_news_tpl_basekill_support_005">
+    <text>#subject_name# a mené des renforts de #subject_faction# contre #other_faction# à #location# #ago#, mais le mur est tombé quand même.</text>
+  </string>
+  <!-- basekill_flee (TWO-PARTY: subject = defender, other = attacker took base) -->
+  <string id="st_ap_news_tpl_basekill_flee_001">
+    <text>J'ai entendu dire que les #subject_faction# ont quitté #location# #ago#. Maintenant, c'est les #other_faction# qui tiennent la porte.</text>
+  </string>
+  <string id="st_ap_news_tpl_basekill_flee_002">
+    <text>J'ai vu les derniers flingues de #subject_faction# quitter #location# #ago# avant que #other_faction# ne débarque par les barbelés.</text>
+  </string>
+  <string id="st_ap_news_tpl_basekill_flee_003">
+    <text>J'ai traversé #location# #ago# au moment où #other_faction# a pris le mur. #subject_faction# s'est tiré avant que la porte tombe et a cramé les archives en partant.</text>
+  </string>
+  <string id="st_ap_news_tpl_basekill_flee_004">
+    <text>Les traces à #location# montrent que #subject_faction# est parti avant que #other_faction# n'arrive et prenne la porte sans vraiment se battre.</text>
+  </string>
+  <string id="st_ap_news_tpl_basekill_flee_005">
+    <text>#subject_name# a mené les derniers flingues des #subject_faction# hors de #location# #ago# avant que les #other_faction# ne prennent la porte.</text>
+  </string>
+  <!-- alpha_promote (SINGLE MUTANT: new pack leader) -->
+  <string id="st_ap_news_tpl_alpha_promote_001">
+    <text>J'ai entendu qu'un nouveau #subject_species# alpha a pris la tête de la meute à #location# #ago#. L'ancien est mort.</text>
+  </string>
+  <string id="st_ap_news_tpl_alpha_promote_002">
+    <text>J'ai vu un nouveau taureau #subject_species# prendre la meute à #location# #ago#. Plus costaud que le précédent.</text>
+  </string>
+  <string id="st_ap_news_tpl_alpha_promote_003">
+    <text>J'étais sur la crête au-dessus de #location# #ago# quand la meute de #subject_species#s a changé de chef. Le nouveau alpha a viré deux stalkers avant midi.</text>
+  </string>
+  <string id="st_ap_news_tpl_alpha_promote_004">
+    <text>Les traces à #location# montrent que la meute de #subject_species#s a changé de chef #ago#. Le nouveau alpha est plus costaud que l'ancien.</text>
+  </string>
+  <string id="st_ap_news_tpl_alpha_promote_005">
+    <text>Un nouveau #subject_species# alpha a pris la tête du groupe à #location# #ago#.</text>
+  </string>
+  <!-- alphakill_targeted (TWO-PARTY mutant: subject = pack, other = killer human) -->
+  <string id="st_ap_news_tpl_alphakill_targeted_001">
+    <text>J'ai entendu que l'alpha des #subject_species#s à #location# est tombé sous les tirs de #other_faction# #ago#.</text>
+  </string>
+  <string id="st_ap_news_tpl_alphakill_targeted_002">
+    <text>J'ai vu une équipe de #other_faction# buter l'alpha des #subject_species#s à #location# #ago# avant que la meute ne dévale la crête.</text>
+  </string>
+  <string id="st_ap_news_tpl_alphakill_targeted_003">
+    <text>J'étais sur la même crête que #other_faction# quand ils ont descendu l'alpha des #subject_species#s à #location# #ago#. La meute a rappliqué avant qu'ils aient le temps de se barrer.</text>
+  </string>
+  <string id="st_ap_news_tpl_alphakill_targeted_004">
+    <text>Les traces à #location# montrent que #other_faction# a buté l'alpha des #subject_species#s et que la meute les a poursuivis de l'autre côté de la crête.</text>
+  </string>
+  <string id="st_ap_news_tpl_alphakill_targeted_005">
+    <text>Des #other_faction# ont buté l'alpha #subject_species# à #location# #ago#. La meute les traque maintenant.</text>
+  </string>
+  <!-- wounded_hunt (TWO-PARTY mutant: subject = predator, other = bleeding stalker) -->
+  <string id="st_ap_news_tpl_wounded_hunt_001">
+    <text>J'ai entendu dire qu'une meute de #subject_species# a repéré une piste de sang des #other_faction# près de #location# #ago#.</text>
+  </string>
+  <string id="st_ap_news_tpl_wounded_hunt_002">
+    <text>J'ai repéré une meute de #subject_species#s qui s'est jetée sur un blessé de #other_faction# près de #location# #ago#. La piste était encore chaude.</text>
+  </string>
+  <string id="st_ap_news_tpl_wounded_hunt_003">
+    <text>J'étais sous le vent de #location# #ago# quand une meute de #subject_species#s est tombée sur un blessé de #other_faction#. La meute est arrivée avant moi.</text>
+  </string>
+  <string id="st_ap_news_tpl_wounded_hunt_004">
+    <text>Les traces à #location# montrent qu'une meute de #subject_species#s piste un #other_faction# blessé sur la crête.</text>
+  </string>
+  <string id="st_ap_news_tpl_wounded_hunt_005">
+    <text>Une meute de #subject_species#s a encerclé un blessé de #other_faction# près de #location# #ago#.</text>
+  </string>
+  <!-- wounded_help (TWO-PARTY: subject = medic, other = bleeding squad) -->
+  <string id="st_ap_news_tpl_wounded_help_001">
+    <text>J'ai entendu qu'une équipe médicale des #subject_faction# a décampé de #location# #ago# pour un frère blessé.</text>
+  </string>
+  <string id="st_ap_news_tpl_wounded_help_002">
+    <text>J'ai aperçu une équipe médicale de #subject_faction# courir vers #location# #ago# après qu'un frère blessé a appelé à la radio.</text>
+  </string>
+  <string id="st_ap_news_tpl_wounded_help_003">
+    <text>J'ai traversé #location# #ago# quand une équipe médicale de #subject_faction# a couru vers un frère blessé. Il a claqué avant qu'ils puissent le sortir.</text>
+  </string>
+  <string id="st_ap_news_tpl_wounded_help_004">
+    <text>Les traces à #location# montrent qu'une équipe médicale des #subject_faction# est montée vers un frère blessé qui saignait dans les broussailles.</text>
+  </string>
+  <string id="st_ap_news_tpl_wounded_help_005">
+    <text>#subject_name# a mené une équipe médicale des #subject_faction# vers un frère blessé à #location# #ago#.</text>
+  </string>
+  <!-- harvest_rob (TWO-PARTY: subject = outlaw chase, other = artefact carrier) -->
+  <string id="st_ap_news_tpl_harvest_rob_001">
+    <text>J'ai entendu qu'un groupe de #subject_faction# a poursuivi un coursier de #other_faction# hors de #location# #ago#.</text>
+  </string>
+  <string id="st_ap_news_tpl_harvest_rob_002">
+    <text>J'ai vu une équipe de #subject_faction# courir après un stalker des #other_faction# qui trimballait un artefact près de #location# #ago#.</text>
+  </string>
+  <string id="st_ap_news_tpl_harvest_rob_003">
+    <text>J'étais chez le marchand quand #subject_faction# a pris en chasse un porteur de #other_faction# sorti de #location# #ago#. Le artefact n'a jamais atteint le comptoir.</text>
+  </string>
+  <string id="st_ap_news_tpl_harvest_rob_004">
+    <text>Les traces à #location# montrent que les #subject_faction# serrent de près un stalker des #other_faction# qui est sorti avec un artefact.</text>
+  </string>
+  <string id="st_ap_news_tpl_harvest_rob_005">
+    <text>#subject_name# a lancé une équipe #subject_faction# à la poursuite d'un transporteur #other_faction# sorti de #location# #ago#.</text>
+  </string>
+  <!-- harvest_haunt (TWO-PARTY mutant: subject = aberrant, other = artefact carrier) -->
+  <string id="st_ap_news_tpl_harvest_haunt_001">
+    <text>J'ai entendu qu'une meute de #subject_species#s est tombée sur un coursier de #other_faction# près de #location# #ago#.</text>
+  </string>
+  <string id="st_ap_news_tpl_harvest_haunt_002">
+    <text>J'ai vu une meute de #subject_species#s s'en prendre à un stalker des #other_faction# qui sortait un artefact de #location# #ago#.</text>
+  </string>
+  <string id="st_ap_news_tpl_harvest_haunt_003">
+    <text>J'étais sous le vent de #location# #ago# quand une meute de #subject_species#s a repéré l'odeur d'un artefact sur un porteur de #other_faction# et s'est rapprochée en silence.</text>
+  </string>
+  <string id="st_ap_news_tpl_harvest_haunt_004">
+    <text>Les traces à #location# montrent qu'une meute de #subject_species#s a coincé un porteur de #other_faction# qui sortait avec un artefact.</text>
+  </string>
+  <string id="st_ap_news_tpl_harvest_haunt_005">
+    <text>Une meute de #subject_species# a pisté un porteur d'artefact des #other_faction# qui sortait de #location# #ago#.</text>
+  </string>
+  <!-- stash_loot (SINGLE STALKER) -->
+  <string id="st_ap_news_tpl_stash_loot_001">
+    <text>J'ai entendu dire que #subject_faction# a vidé une planque près de #location# #ago#.</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_loot_002">
+    <text>J'ai vu des #subject_faction# se barrer de #location# #ago# avec des sacs plus lourds qu'à l'arrivée.</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_loot_003">
+    <text>Je vérifiais ma propre cache quand #subject_faction# est passé près de #location# #ago# avec du matos qu'ils n'avaient pas mérité. La planque était vide après.</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_loot_004">
+    <text>Des traces à #location# montrent que des #subject_faction# ont quitté la piste avec un butin, maintenant vide.</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_loot_005">
+    <text>#subject_name# a mené un groupe de #subject_faction# à une planque près de #location# #ago# et l'a vidée.</text>
+  </string>
+  <!-- stash_ambush (SINGLE STALKER) -->
+  <string id="st_ap_news_tpl_stash_ambush_001">
+    <text>J'ai entendu dire que #subject_faction# a planqué un butin à #location# #ago# et attend que le proprio revienne.</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_ambush_002">
+    <text>J'ai vu des #subject_faction# à #location#, les lunettes déjà braquées sur le butin qu'ils avaient préparé pour l'embuscade.</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_ambush_003">
+    <text>J'ai failli me faire avoir à #location# #ago# quand j'ai repéré #subject_faction# en train de surveiller une planque. J'ai reculé avant qu'ils me voient.</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_ambush_004">
+    <text>On dirait que #subject_faction# a mis en place une surveillance sur la planque de #location# et a descendu le premier pilleur qui a remonté la piste.</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_ambush_005">
+    <text>#subject_name# a mené une équipe de #subject_faction# en surveillance sur une planque à #location# #ago# et a buté le premier pilleur qui montait la piste.</text>
+  </string>
+  <!-- stash_fill (SINGLE STALKER) -->
+  <string id="st_ap_news_tpl_stash_fill_001">
+    <text>J'ai entendu dire que #subject_faction# a enterré une nouvelle cache près de #location# #ago#.</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_fill_002">
+    <text>J'ai vu des #subject_faction# enterrer du matos près de #location# #ago#, sur une route que personne d'autre n'emprunte.</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_fill_003">
+    <text>J'ai croisé les traces de #subject_faction# près de #location# #ago# menant à un trou fraîchement creusé. Ils avaient fait un détour avec des sacs bien lourds.</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_fill_004">
+    <text>Des traces à #location# montrent que des #subject_faction# sont arrivés en force et ont planqué un nouveau stock dans les buissons.</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_fill_005">
+    <text>#subject_name# a mené un groupe de #subject_faction# enterrer une nouvelle cache près de #location# #ago#.</text>
+  </string>
+  <!-- area_conquer (humans claim empty smart) -->
+  <string id="st_ap_news_tpl_area_conquer_001">
+    <text>J'ai entendu dire que #subject_faction# a pris position à #location# #ago# et s'est retranché.</text>
+  </string>
+  <string id="st_ap_news_tpl_area_conquer_002">
+    <text>J'ai vu des #subject_faction# débarquer à #location# #ago# et tenir la position avant que quiconque puisse réagir.</text>
+  </string>
+  <string id="st_ap_news_tpl_area_conquer_003">
+    <text>J'étais en hauteur au-dessus de #location# #ago# quand #subject_faction# a débarqué et a pris le contrôle. La carte de #level# a changé.</text>
+  </string>
+  <string id="st_ap_news_tpl_area_conquer_004">
+    <text>Les traces à #location# montrent que les #subject_faction# sont arrivés #ago# et ont organisé des tours de garde qui tiennent toujours.</text>
+  </string>
+  <string id="st_ap_news_tpl_area_conquer_005">
+    <text>#subject_name# a mené une équipe de #subject_faction# sur #location# #ago#, et ils tiennent la position depuis.</text>
+  </string>
+  <!-- area_swarm (mutants claim empty smart) -->
+  <string id="st_ap_news_tpl_area_swarm_001">
+    <text>J'ai entendu dire qu'un groupe de #subject_species#s a pris position à #location# #ago# et s'est retranché.</text>
+  </string>
+  <string id="st_ap_news_tpl_area_swarm_002">
+    <text>J'ai vu des #subject_species# débarquer à #location# #ago# et s'y installer avant que quiconque puisse les virer.</text>
+  </string>
+  <string id="st_ap_news_tpl_area_swarm_003">
+    <text>J'étais sur la crête au-dessus de #location# #ago# quand #subject_species# a débarqué et a revendiqué le secteur. Cette partie de #level# est à eux maintenant.</text>
+  </string>
+  <string id="st_ap_news_tpl_area_swarm_004">
+    <text>Des traces à #location# montrent que des #subject_species#s sont arrivés #ago# et n'ont plus bougé depuis.</text>
+  </string>
+  <string id="st_ap_news_tpl_area_swarm_005">
+    <text>Une meute de #subject_species#s a pris #location# #ago# et ils le tiennent depuis.</text>
+  </string>
+  <!-- hunger_campfire (SINGLE STALKER need: cooking) -->
+  <string id="st_ap_news_tpl_hunger_campfire_001">
+    <text>J'ai entendu dire que #subject_faction# a monté un coup à #location# #ago#.</text>
+  </string>
+  <string id="st_ap_news_tpl_hunger_campfire_002">
+    <text>J'ai vu des #subject_faction# autour du feu de camp à #location# #ago#, en train de bouffer après une longue route.</text>
+  </string>
+  <string id="st_ap_news_tpl_hunger_campfire_003">
+    <text>Je cherchais à bouffer quand j'ai senti l'odeur venir de #location# #ago#. #subject_faction# avait un ragoût sur les braises avec une bête fraîchement tuée.</text>
+  </string>
+  <string id="st_ap_news_tpl_hunger_campfire_004">
+    <text>Les traces à #location# montrent que les #subject_faction# ont quitté le sentier pour allumer un feu de camp avant de poster la moindre garde.</text>
+  </string>
+  <string id="st_ap_news_tpl_hunger_campfire_005">
+    <text>#subject_name# a emmené un groupe de #subject_faction# hors de la piste pour bouffer à #location# #ago#.</text>
+  </string>
+  <!-- sleep_campfire (SINGLE STALKER need: bedded down) -->
+  <string id="st_ap_news_tpl_sleep_campfire_001">
+    <text>J'ai entendu dire que des #subject_faction# se sont posés à #location# #ago# après une longue marche.</text>
+  </string>
+  <string id="st_ap_news_tpl_sleep_campfire_002">
+    <text>J'ai vu des #subject_faction# pioncer à #location# #ago# après deux jours de marche sans bouffer.</text>
+  </string>
+  <string id="st_ap_news_tpl_sleep_campfire_003">
+    <text>Je cherchais un abri quand je suis tombé sur #subject_faction# déjà en train de pioncer à #location# #ago#. Ils étaient sur la route depuis deux jours.</text>
+  </string>
+  <string id="st_ap_news_tpl_sleep_campfire_004">
+    <text>Les traces à #location# montrent que les #subject_faction# sont arrivés crevés et se sont couchés sans même monter la garde.</text>
+  </string>
+  <string id="st_ap_news_tpl_sleep_campfire_005">
+    <text>#subject_name# a conduit une équipe de #subject_faction# pioncer à #location# #ago# après une marche forcée.</text>
+  </string>
+  <!-- rest_campfire (SINGLE STALKER need: brief halt) -->
+  <string id="st_ap_news_tpl_rest_campfire_001">
+    <text>J'ai entendu dire que des #subject_faction# ont quitté la piste à #location# #ago# pour faire une pause.</text>
+  </string>
+  <string id="st_ap_news_tpl_rest_campfire_002">
+    <text>J'ai vu #subject_faction# faire une halte à #location# #ago# pendant quelques minutes avant de reprendre la route.</text>
+  </string>
+  <string id="st_ap_news_tpl_rest_campfire_003">
+    <text>J'ai croisé #subject_faction# en pause à #location# #ago# sur une longue route. Ils ont repris la marche avant que j'aie fini ma clope.</text>
+  </string>
+  <string id="st_ap_news_tpl_rest_campfire_004">
+    <text>Les traces à #location# montrent que #subject_faction# s'est arrêté brièvement avant de repartir, puis la piste s'est perdue.</text>
+  </string>
+  <string id="st_ap_news_tpl_rest_campfire_005">
+    <text>#subject_name# a ordonné une halte pour un groupe de #subject_faction# à #location# #ago#.</text>
+  </string>
+  <!-- heal_shelter (SINGLE STALKER need: medic + wounded) -->
+  <string id="st_ap_news_tpl_heal_shelter_001">
+    <text>J'ai entendu dire que #subject_faction# a amené des blessés à #location# #ago# pour les faire soigner.</text>
+  </string>
+  <string id="st_ap_news_tpl_heal_shelter_002">
+    <text>J'ai vu des #subject_faction# trimballer des blessés vers #location# #ago#, le toubib était déjà en train de bosser avant même qu'ils arrivent.</text>
+  </string>
+  <string id="st_ap_news_tpl_heal_shelter_003">
+    <text>Je suis arrivé pour échanger et je me suis retrouvé au milieu du bordel #ago#. #subject_faction# avait des blessés partout par terre à #location#. Deux n'ont pas survécu.</text>
+  </string>
+  <string id="st_ap_news_tpl_heal_shelter_004">
+    <text>Une traînée de sang mène à #location# : des #subject_faction# ont traîné les leurs #ago#.</text>
+  </string>
+  <string id="st_ap_news_tpl_heal_shelter_005">
+    <text>#subject_name# a amené des #subject_faction# blessés à #location# #ago# avec le toubib sur leur dos.</text>
+  </string>
+  <!-- shelter_indoor (SINGLE STALKER need) -->
+  <string id="st_ap_news_tpl_shelter_indoor_001">
+    <text>J'ai entendu dire que des #subject_faction# ont verrouillé les portes à #location# #ago# et se sont barricadés à l'intérieur.</text>
+  </string>
+  <string id="st_ap_news_tpl_shelter_indoor_002">
+    <text>J'ai vu des #subject_faction# se replier à #location# #ago# avant que l'orage n'arrive par-dessus la crête.</text>
+  </string>
+  <string id="st_ap_news_tpl_shelter_indoor_003">
+    <text>Je cherchais un abri quand j'ai trouvé #subject_faction# déjà installé à #location# #ago#. Ils avaient allumé le poêle derrière des portes barricadées.</text>
+  </string>
+  <string id="st_ap_news_tpl_shelter_indoor_004">
+    <text>Les traces à #location# montrent que les #subject_faction# se sont repliés #ago# et n'en sont pas ressortis.</text>
+  </string>
+  <string id="st_ap_news_tpl_shelter_indoor_005">
+    <text>#subject_name# a fait rentrer un groupe de #subject_faction# à l'intérieur à #location# #ago#.</text>
+  </string>
+  <!-- shelter_outdoor (SINGLE STALKER need: dug-in) -->
+  <string id="st_ap_news_tpl_shelter_outdoor_001">
+    <text>J'ai entendu dire que #subject_faction# a creusé des trous de renard sur la crête près de #location# #ago#, sans intention de redescendre.</text>
+  </string>
+  <string id="st_ap_news_tpl_shelter_outdoor_002">
+    <text>J'ai vu #subject_faction# se planquer dans la crête au-dessus de #location# #ago# après avoir perdu la piste de ceux qui les traquaient.</text>
+  </string>
+  <string id="st_ap_news_tpl_shelter_outdoor_003">
+    <text>J'ai failli marcher dans un trou de #subject_faction# sur la crête au-dessus de #location# #ago#. Ils étaient planqués depuis deux jours sans allumer de feu.</text>
+  </string>
+  <string id="st_ap_news_tpl_shelter_outdoor_004">
+    <text>Les traces à #location# montrent que #subject_faction# s'est enterré dans la crête et n'a pas bougé depuis leur arrivée.</text>
+  </string>
+  <string id="st_ap_news_tpl_shelter_outdoor_005">
+    <text>#subject_name# a planqué une équipe des #subject_faction# dans des trous de renard sur la crête au-dessus de #location# #ago#.</text>
+  </string>
+  <!-- money_harvest (SINGLE STALKER need: anomaly field) -->
+  <string id="st_ap_news_tpl_money_harvest_001">
+    <text>J'ai entendu dire que des #subject_faction# ont traversé le champ d'anomalies à #location# #ago#, boulon par boulon.</text>
+  </string>
+  <string id="st_ap_news_tpl_money_harvest_002">
+    <text>J'ai vu des #subject_faction# dans les anomalies de #location# #ago#, détecteurs en main et un boulons à la pogne.</text>
+  </string>
+  <string id="st_ap_news_tpl_money_harvest_003">
+    <text>J'étais sur la crête au-dessus de #location# #ago# quand #subject_faction# a traversé le champ. Deux boulons se sont fait choper et un stalker n'est pas revenu.</text>
+  </string>
+  <string id="st_ap_news_tpl_money_harvest_004">
+    <text>Les traces à #location# montrent que #subject_faction# a arpenté chaque ligne près des boulons avant que le détecteur ne lâche.</text>
+  </string>
+  <string id="st_ap_news_tpl_money_harvest_005">
+    <text>#subject_name# a mené une équipe de #subject_faction# à travers les anomalies de #location# #ago#, boulon par boulon.</text>
+  </string>
+  <!-- money_hunt (SINGLE STALKER need: hunting) -->
+  <string id="st_ap_news_tpl_money_hunt_001">
+    <text>J'ai entendu que des #subject_faction# sont partis chasser près de #location# #ago# pour ce que le marchand paie.</text>
+  </string>
+  <string id="st_ap_news_tpl_money_hunt_002">
+    <text>J'ai vu des #subject_faction# sortir de #location# #ago# avec des peaux prélevées sur une proie fraîche.</text>
+  </string>
+  <string id="st_ap_news_tpl_money_hunt_003">
+    <text>J'étais sur la même piste de sangliers quand #subject_faction# m'a devancé #ago# à #location#. Ils ont laissé du sang et des tripes dans l'herbe.</text>
+  </string>
+  <string id="st_ap_news_tpl_money_hunt_004">
+    <text>Des traces à #location# montrent que des #subject_faction# ont pisté un sanglier et l'ont buté avant la nuit.</text>
+  </string>
+  <string id="st_ap_news_tpl_money_hunt_005">
+    <text>#subject_name# a mené un groupe de #subject_faction# à la chasse aux peaux près de #location# #ago#.</text>
+  </string>
+  <!-- supply_trader (SINGLE STALKER need: trader) -->
+  <string id="st_ap_news_tpl_supply_trader_001">
+    <text>J'ai entendu dire que #subject_faction# a envahi le marchand à #location# #ago#.</text>
+  </string>
+  <string id="st_ap_news_tpl_supply_trader_002">
+    <text>J'ai vu #subject_faction# déballer des sacs sur le comptoir du marchand à #location# #ago# jusqu'à ce que la caisse soit presque vide.</text>
+  </string>
+  <string id="st_ap_news_tpl_supply_trader_003">
+    <text>J'étais à la queue chez le marchand à #location# #ago# quand #subject_faction# est arrivé. Ils ont payé du matos pendant une heure. J'ai attendu plus longtemps.</text>
+  </string>
+  <string id="st_ap_news_tpl_supply_trader_004">
+    <text>Des traces à #location# montrent qu'un groupe de #subject_faction# a déchargé des sacs chez le marchand #ago#.</text>
+  </string>
+  <string id="st_ap_news_tpl_supply_trader_005">
+    <text>#subject_name# a emmené un groupe de #subject_faction# chez le marchand à #location# #ago#.</text>
+  </string>
+  <!-- job_outpost (SINGLE STALKER need: post/wire) -->
+  <string id="st_ap_news_tpl_job_outpost_001">
+    <text>J'ai entendu dire que des #subject_faction# ont pris le fil à #location# #ago# avec deux gardes en profondeur.</text>
+  </string>
+  <string id="st_ap_news_tpl_job_outpost_002">
+    <text>J'ai vu #subject_faction# s'installer sur le fil barbelé à #location# #ago#, lunettes en place et postes de guet déjà montés.</text>
+  </string>
+  <string id="st_ap_news_tpl_job_outpost_003">
+    <text>Je cherchais un raccourci quand j'ai vu #subject_faction# sur les barbelés de #location# #ago#. Deux tours de garde et j'ai fait demi-tour.</text>
+  </string>
+  <string id="st_ap_news_tpl_job_outpost_004">
+    <text>Des traces à #location# montrent que des #subject_faction# se sont approchés du grillage et y sont restés en poste depuis.</text>
+  </string>
+  <string id="st_ap_news_tpl_job_outpost_005">
+    <text>#subject_name# a mis une équipe de #subject_faction# sur le coup à #location# #ago#.</text>
+  </string>
+  <!-- job_explore (SINGLE STALKER need: recon) -->
+  <string id="st_ap_news_tpl_job_explore_001">
+    <text>J'ai entendu dire que #subject_faction# a envoyé une patrouille de reconnaissance près de #location# #ago#.</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_002">
+    <text>J'ai repéré une patrouille de #subject_faction# qui a fait un grand détour près de #location# #ago#, personne leur avait rien demandé.</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_003">
+    <text>J'ai croisé une patrouille de #subject_faction# près de #location# #ago# en train de cartographier une zone que personne n'avait encore tracée. Ils sont revenus avec deux batteries à plat.</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_004">
+    <text>Des traces près de #location# montrent qu'une patrouille de #subject_faction# a fait un grand détour sur un nouveau terrain #ago#.</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_005">
+    <text>#subject_name# a emmené une patrouille de #subject_faction# près de #location# #ago# pour une longue boucle de reconnaissance.</text>
+  </string>
+  <!-- job_research (SINGLE STALKER need: instruments) -->
+  <string id="st_ap_news_tpl_job_research_001">
+    <text>J'ai entendu dire que les #subject_faction# ont installé des instruments autour de #location# #ago# et ont bossé sur les relevés jusqu'à tard.</text>
+  </string>
+  <string id="st_ap_news_tpl_job_research_002">
+    <text>J'ai vu #subject_faction# à #location# #ago#, capteurs déployés et le dosimètre qui tournait toute la nuit.</text>
+  </string>
+  <string id="st_ap_news_tpl_job_research_003">
+    <text>J'ai traversé le camp des Scientifiques à #location# #ago#, pile quand #subject_faction# faisait des relevés. Les chiffres étaient tellement chelous qu'il a fallu réécrire tout le rapport.</text>
+  </string>
+  <string id="st_ap_news_tpl_job_research_004">
+    <text>Les traces vers #location# montrent que #subject_faction# a apporté du matos et ne l'a pas encore sorti depuis.</text>
+  </string>
+  <string id="st_ap_news_tpl_job_research_005">
+    <text>#subject_name# a mené une équipe scientifique de #subject_faction# à #location# #ago#.</text>
+  </string>
+  <!-- social_campfire (SINGLE STALKER need: fire socializing) -->
+  <string id="st_ap_news_tpl_social_campfire_001">
+    <text>J'ai entendu dire que des #subject_faction# se sont attardés près du feu à #location# #ago#, bouteille à la main.</text>
+  </string>
+  <string id="st_ap_news_tpl_social_campfire_002">
+    <text>J'ai vu des #subject_faction# autour du feu à #location# #ago#, leurs chants portaient jusqu'à la moitié de #level#.</text>
+  </string>
+  <string id="st_ap_news_tpl_social_campfire_003">
+    <text>Je cherchais un abri quand j'ai entendu la musique venir de #location# #ago#. #subject_faction# avait sorti une bouteille et est resté jusqu'à ce que les chansons s'arrêtent.</text>
+  </string>
+  <string id="st_ap_news_tpl_social_campfire_004">
+    <text>Les traces à #location# montrent que #subject_faction# est resté tard près du feu, les bouteilles vidées là où ils étaient assis.</text>
+  </string>
+  <string id="st_ap_news_tpl_social_campfire_005">
+    <text>#subject_name# a gardé une équipe de #subject_faction# autour du feu à #location# #ago#, la bouteille tournait.</text>
+  </string>
+  <!-- social_base (SINGLE STALKER need: base social) -->
+  <string id="st_ap_news_tpl_social_base_001">
+    <text>J'ai entendu dire que des #subject_faction# ont ouvert la vodka à #location# #ago#, le soir de la paie.</text>
+  </string>
+  <string id="st_ap_news_tpl_social_base_002">
+    <text>J'ai vu des #subject_faction# à #location# #ago#, cartes sur la table et la bouteille de vodka à moitié vide.</text>
+  </string>
+  <string id="st_ap_news_tpl_social_base_003">
+    <text>Je suis arrivé pour échanger et je suis tombé sur une nuit de paie à #location# #ago#. #subject_faction# était déjà bien entamé dans la vodka, les cartes sur la table.</text>
+  </string>
+  <string id="st_ap_news_tpl_social_base_004">
+    <text>La musique qui s'échappe de #location# #ago#, ça dit que les #subject_faction# sont en pleine nuit de paie à la vodka.</text>
+  </string>
+  <string id="st_ap_news_tpl_social_base_005">
+    <text>#subject_name# a mené un groupe de #subject_faction# à une nuit de paie près de #location# #ago#.</text>
+  </string>
+  <!-- feed (SINGLE MUTANT instinct) -->
+  <string id="st_ap_news_tpl_feed_001">
+    <text>J'ai entendu dire qu'un groupe de #subject_species#s est tombé sur une proie à #location# #ago#.</text>
+  </string>
+  <string id="st_ap_news_tpl_feed_002">
+    <text>J'ai vu une meute de #subject_species#s en train de bouffer à #location# #ago# après avoir couru quelque chose dans les broussailles.</text>
+  </string>
+  <string id="st_ap_news_tpl_feed_003">
+    <text>J'étais sous le vent de #location# #ago# quand une meute de #subject_species#s est tombée sur une proie. D'abord les cris, puis plus un bruit.</text>
+  </string>
+  <string id="st_ap_news_tpl_feed_004">
+    <text>Des traces à #location# montrent qu'une meute de #subject_species# a traqué quelque chose et bouffé avant de repartir.</text>
+  </string>
+  <string id="st_ap_news_tpl_feed_005">
+    <text>Un groupe de #subject_species#s a bouffé une proie à #location# #ago#.</text>
+  </string>
+  <!-- slumber_lair (SINGLE MUTANT instinct) -->
+  <string id="st_ap_news_tpl_slumber_lair_001">
+    <text>J'ai entendu dire qu'un groupe de #subject_species#s a été descendu dans la tanière à #location# #ago#.</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_lair_002">
+    <text>J'ai vu une meute de #subject_species#s rentrer dans leur tanière à #location# #ago# au petit matin.</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_lair_003">
+    <text>J'ai traversé #location# à l'aube #ago# et la meute de #subject_species#s était déjà rentrée dans son repaire en avance, jusqu'au crépuscule.</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_lair_004">
+    <text>Les traces à #location# montrent qu'une meute de #subject_species# est descendue dans le repaire et n'a plus bougé.</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_lair_005">
+    <text>Un groupe de #subject_species#s s'est endormi dans la tanière à #location# #ago#.</text>
+  </string>
+  <!-- slumber_field (cowardly mutants bedding down in open territory) -->
+  <string id="st_ap_news_tpl_slumber_field_001">
+    <text>J'ai entendu dire que #subject_species# s'est installé dans l'herbe à #location# #ago# sans même se planquer.</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_field_002">
+    <text>J'ai vu une harde de #subject_species# s'installer en terrain découvert à #location# #ago# et plus bouger d'un poil.</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_field_003">
+    <text>J'ai gravi la crête au-dessus de #location# #ago# et une meute de #subject_species#s roupillait dans l'herbe en contrebas. Réveillés ou pas, ils bougeaient pas d'un poil.</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_field_004">
+    <text>Les traces à #location# montrent qu'une harde de #subject_species# s'est installée en terrain découvert et y est restée des heures.</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_field_005">
+    <text>Un troupeau de #subject_species#s s'est installé pour la nuit à #location# #ago#.</text>
+  </string>
+  <!-- slumber_surge (aberrant + predators sheltering in surge shelter) -->
+  <string id="st_ap_news_tpl_slumber_surge_001">
+    <text>J'ai entendu dire que des #subject_species# se sont terrés dans l'abri à #location# #ago# et refusent d'en sortir.</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_surge_002">
+    <text>J'ai vu un #subject_species# disparaître dans l'abri à #location# #ago#, et la porte est restée silencieuse après.</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_surge_003">
+    <text>Je suis passé près de #location# #ago# et l'abri là-bas avait des #subject_species#s à l'intérieur. Quoi que ce soit, ça ne sortait pas pour moi.</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_surge_004">
+    <text>Des traces à #location# montrent que des #subject_species#s sont entrés dans l'abri et y sont restés.</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_surge_005">
+    <text>Un groupe de #subject_species#s s'est installé à l'abri à #location# #ago#.</text>
+  </string>
+  <!-- roam (SINGLE MUTANT instinct) -->
+  <string id="st_ap_news_tpl_roam_001">
+    <text>J'ai entendu dire que des #subject_species#s ont tracé une longue ligne à travers #location# #ago#, sans direction précise.</text>
+  </string>
+  <string id="st_ap_news_tpl_roam_002">
+    <text>J'ai vu une meute de #subject_species# traverser près de #location# #ago#, dispersée et sans suivre de piste.</text>
+  </string>
+  <string id="st_ap_news_tpl_roam_003">
+    <text>Je rentrais quand j'ai croisé des traces de #subject_species# près de #location# #ago#. La meute avait tracé une ligne de ouf, sans logique, comme si personne pouvait piger.</text>
+  </string>
+  <string id="st_ap_news_tpl_roam_004">
+    <text>Des traces fraîches de #subject_species#s à #location# #ago#, en ligne droite, mais impossible de savoir où ils vont ou combien ils sont.</text>
+  </string>
+  <string id="st_ap_news_tpl_roam_005">
+    <text>Un groupe de #subject_species#s a traversé #location# #ago#.</text>
+  </string>
+  <!-- pack (SINGLE MUTANT instinct) -->
+  <string id="st_ap_news_tpl_pack_001">
+    <text>J'ai entendu que des #subject_species# se sont rassemblés à #location# #ago# en nombre, et c'est pas un hasard.</text>
+  </string>
+  <string id="st_ap_news_tpl_pack_002">
+    <text>J'ai vu une meute de #subject_species#s converger vers #location# #ago# de tous les côtés à la fois.</text>
+  </string>
+  <string id="st_ap_news_tpl_pack_003">
+    <text>J'étais en hauteur quand les appels ont commencé à porter depuis #location# #ago#. #subject_species#s se sont regroupés en une meute plus grosse que d'habitude.</text>
+  </string>
+  <string id="st_ap_news_tpl_pack_004">
+    <text>Les traces à #location# montrent qu'une meute de #subject_species#s est arrivée de trois directions #ago# et qu'ils sont restés groupés après.</text>
+  </string>
+  <string id="st_ap_news_tpl_pack_005">
+    <text>Un groupe de #subject_species#s s'est rassemblé à #location# #ago#.</text>
+  </string>
+  <!-- scatter (SINGLE MUTANT instinct) -->
+  <string id="st_ap_news_tpl_scatter_001">
+    <text>J'ai entendu dire que des #subject_species#s ont décampé de #location# #ago# sans s'arrêter, et ce qui les a fait flipper est toujours là-bas.</text>
+  </string>
+  <string id="st_ap_news_tpl_scatter_002">
+    <text>J'ai vu un #subject_species# cavaler près de #location# #ago#, tellement flippé qu'il a laissé des traces sur le chemin.</text>
+  </string>
+  <string id="st_ap_news_tpl_scatter_003">
+    <text>J'étais sur le sentier quand une meute de #subject_species#s est passée près de moi #ago#, fuyant #location# sans même chercher à se battre.</text>
+  </string>
+  <string id="st_ap_news_tpl_scatter_004">
+    <text>Les traces à #location# montrent qu'une meute de #subject_species#s s'est dispersée dans tous les sens, et ce qui les a fait fuir est toujours là.</text>
+  </string>
+  <string id="st_ap_news_tpl_scatter_005">
+    <text>Une meute de #subject_species#s s'est dispersée dans tous les sens depuis #location# #ago#.</text>
+  </string>
+  <!-- area_infest (AREA-family mutant opportunity: territory claim) -->
+  <string id="st_ap_news_tpl_area_infest_001">
+    <text>J'ai entendu dire que des #subject_species#s ont pris #location# comme tanière #ago#. La meute grossit.</text>
+  </string>
+  <string id="st_ap_news_tpl_area_infest_002">
+    <text>J'ai repéré des #subject_species# qui se sont pointés en nombre à #location# #ago#, et ils comptent pas bouger.</text>
+  </string>
+  <string id="st_ap_news_tpl_area_infest_003">
+    <text>Je repérais le coin quand des #subject_species#s sont arrivés à #location# #ago# et se sont enterrés. Cette partie de #level# est à eux maintenant.</text>
+  </string>
+  <string id="st_ap_news_tpl_area_infest_004">
+    <text>Les traces à #location# montrent qu'une meute de #subject_species#s s'est installée et se reproduit depuis leur arrivée.</text>
+  </string>
+  <string id="st_ap_news_tpl_area_infest_005">
+    <text>Un groupe de #subject_species#s a pris #location# comme tanière #ago#.</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_offmap_001">
+    <text>J'ai entendu que des #subject_faction# ont traversé #ago# pour explorer une zone non réclamée autour de #location#.</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_offmap_002">
+    <text>J'ai vu #subject_faction# quitter la zone grillagée avec un équipement léger #ago#. Ils avaient des cartes en main. Ils parlaient de terrain à #location# dont personne n'avait les plans.</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_offmap_003">
+    <text>J'étais sur la crête quand #subject_faction# a traversé du sud #ago# en direction de #location#. Ils marquaient un territoire autour d'une zone vierge que personne n'avait revendiquée. Ils disaient qu'il y avait un trou sur leur carte.</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_offmap_004">
+    <text>Les traces à la transition montrent que #subject_faction# est parti à l'aube #ago#. Leur propre terrain est cartographié depuis des années. Ils voulaient du neuf.</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_offmap_005">
+    <text>#subject_name# a emmené des #subject_faction# vers #location# #ago# pour cartographier une zone vide.</text>
+  </string>
+  <string id="st_ap_news_tpl_social_offmap_001">
+    <text>J'ai entendu que des #subject_faction# ont traversé vers la base près de #location# #ago# pour les verres là-bas.</text>
+  </string>
+  <string id="st_ap_news_tpl_social_offmap_002">
+    <text>J'ai vu #subject_faction# se casser avec la ration de gnôle sous le bras #ago#. Ils disaient que leur base était trop calme, alors ils sont partis à #location# pour trouver de la vraie compagnie.</text>
+  </string>
+  <string id="st_ap_news_tpl_social_offmap_003">
+    <text>J'étais à la base à #location# #ago# quand #subject_faction# est arrivé du sud. Deux jours de marche, presque des bastons avec des mutants sur la route. Tout ça pour une partie de cartes et une bouteille. Ils sont repartis en rigolant.</text>
+  </string>
+  <string id="st_ap_news_tpl_social_offmap_004">
+    <text>Les traces à la frontière montrent que #subject_faction# est parti vers l'est de nuit #ago#. Équipement léger. Pas de matos pro. Direction la base de #location#.</text>
+  </string>
+  <string id="st_ap_news_tpl_social_offmap_005">
+    <text>#subject_name# a emmené des #subject_faction# à la base près de #location# #ago# pour la nuit de paie.</text>
+  </string>
+  <string id="st_ap_news_tpl_supply_trader_offmap_001">
+    <text>J'ai entendu dire que des #subject_faction# ont traversé jusqu'à la base de #location# #ago# pour vider un sac au comptoir.</text>
+  </string>
+  <string id="st_ap_news_tpl_supply_trader_offmap_002">
+    <text>J'ai vu #subject_faction# partir avec des sacs bien chargés #ago#. Ils ont dit que le receleur ici était à sec et qu'ils allaient deux cartes plus loin, à #location#.</text>
+  </string>
+  <string id="st_ap_news_tpl_supply_trader_offmap_003">
+    <text>J'ai fait la route avec #subject_faction# #ago#. Trois checkpoints, un passage sous le feu, jusqu'au marchand à #location#. Je suis revenu avec des munitions et des bandages. Ça valait le coup.</text>
+  </string>
+  <string id="st_ap_news_tpl_supply_trader_offmap_004">
+    <text>Les traces à la frontière montrent que des #subject_faction# sont sortis les sacs pleins #ago#. Le marchand local est à sec depuis des semaines.</text>
+  </string>
+  <string id="st_ap_news_tpl_supply_trader_offmap_005">
+    <text>#subject_name# a emmené des #subject_faction# à la base de #location# #ago# pour voir le marchand là-bas.</text>
+  </string>
+</string_table>

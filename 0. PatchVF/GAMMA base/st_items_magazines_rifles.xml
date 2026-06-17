@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+ <!-- 5.45 -->
+
+	<string id="st_mag_ak74_5.45x39">
+		<text>Chargeur 5,45x39 AK-74</text>
+	</string>
+	<string id="st_mag_ak74_5.45x39_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_ak74_5.45x39_extended">
+		<text>Chargeur 5,45x39 AK-74</text>
+	</string>
+	<string id="st_mag_ak74_5.45x39_extended_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_ak74m_5.45x39">
+		<text>Chargeur 5,45x39 AK-74M</text>
+	</string>
+	<string id="st_mag_ak74m_5.45x39_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_ak74_fast_5.45x39">
+		<text>Chargeur 5,45x39 AK-74M à chargement rapide</text>
+	</string>
+	<string id="st_mag_ak74_fast_5.45x39_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_rpk74_5.45x39">
+		<text>Chargeur 5,45x39 RPK-74</text>
+	</string>
+	<string id="st_mag_rpk74_5.45x39_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_rpk74_5.56x45">
+		<text>Chargeur 5,56x45 RPK-74 modifié</text>
+	</string>
+	<string id="st_mag_rpk74_5.56x45_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_ak_7.62x39">
+		<text>Chargeur 7,62x39 AKM</text>
+	</string>
+	<string id="st_mag_ak_7.62x39_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_ak103_7.62x39">
+		<text>Chargeur 7,62x39 AK-103</text>
+	</string>
+	<string id="st_mag_ak103_7.62x39_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_ak103_fast_7.62x39">
+		<text>Chargeur 7,62x39 AK-103 à chargement rapide</text>
+	</string>
+	<string id="st_mag_ak103_fast_7.62x39_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_rpd_7.62x39">
+		<text>Tambour 7,62x39 RPD</text>
+	</string>
+	<string id="st_mag_rpd_7.62x39_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_rpk_7.62x39">
+		<text>Chargeur 7,62x39 RPK</text>
+	</string>
+	<string id="st_mag_rpk_7.62x39_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_rpk_7.62x39_drum">
+		<text>Tambour 7,62x39 RPK</text>
+	</string>
+	<string id="st_mag_rpk_7.62x39_drum_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<!-- 5.56 -->
+	
+	<string id="st_mag_ace21_5.56x45">
+		<text>Chargeur 5,56x45 Galil ACE-21</text>
+	</string>
+	<string id="st_mag_ace21_5.56x45_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_ak101_5.56x45">
+		<text>Chargeur 5,56x45 AK-101</text>
+	</string>
+	<string id="st_mag_ak101_5.56x45_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	<string id="st_mag_aug_5.56x45">
+		<text>Chargeur 5,56x45 AUG</text>
+	</string>
+	<string id="st_mag_aug_5.56x45_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_g36_5.56x45">
+		<text>Chargeur 5,56x45 G36</text>
+	</string>
+	<string id="st_mag_g36_5.56x45_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_stanag">
+		<text>Chargeur 5,56x45 STANAG</text>
+	</string>
+	<string id="st_mag_stanag_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_nato_5.45x39">
+		<text>Chargeur 5,45x39 STANAG modifié</text>
+	</string>
+	<string id="st_mag_nato_5.45x39_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_nato_5.56x45_fast">
+		<text>Chargeur 5,56x45 STANAG à chargement rapide</text>
+	</string>
+	<string id="st_mag_nato_5.56x45_fast_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_nato_5.56x45_extended">
+		<text>Chargeur 5,56x45 STANAG étendu</text>
+	</string>
+	<string id="st_mag_nato_5.56x45_extended_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_nato_5.56x45_casket">
+		<text>Chargeur 5,56x45 STANAG</text>
+	</string>
+	<string id="st_mag_nato_5.56x45_casket_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_sig550_5.56x45">
+		<text>Chargeur 5,56x45 SG550</text>
+	</string>
+	<string id="st_mag_sig550_5.56x45_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_sig550_sniper_5.56x45">
+		<text>Chargeur 5,56x45 SG550-1</text>
+	</string>
+	<string id="st_mag_sig550_sniper_5.56x45_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_m249_5.56x45">
+		<text>Boîte 5,56x45 M249</text>
+	</string>
+	<string id="st_mag_m249_5.56x45_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_xm8_5.56x45">
+		<text>Chargeur 5,56x45 XM8</text>
+	</string>
+	<string id="st_mag_xm8_5.56x45_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_type63_7.62x39">
+		<text>Chargeur 7,62x39 Type 63</text>
+	</string>
+	<string id="st_mag_type63_7.62x39_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_type63_7.62x54">
+		<text>Chargeur 7,62x54 Type 63 modifié</text>
+	</string>
+	<string id="st_mag_type63_7.62x54_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<!-- 9x39 -->
+
+	<string id="st_mag_val_9x39_pab9">
+		<text>Chargeur 9x39 AS VAL</text>
+	</string>
+	<string id="st_mag_val_9x39_pab9_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_vihr_9x39_pab9">
+		<text>Chargeur 9x39 SR-3M</text>
+	</string>
+	<string id="st_mag_vihr_9x39_pab9_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_vintorez_9x39_pab9">
+		<text>Chargeur 9x39 VSS</text>
+	</string>
+	<string id="st_mag_vintorez_9x39_pab9_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_vsk94_9x39_pab9">
+		<text>Boîte 9x39</text>
+	</string>
+	<string id="st_mag_vsk94_9x39_pab9_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_groza_9x39_pab9">
+		<text>Chargeur 9x39 Groza</text>
+	</string>
+	<string id="st_mag_groza_9x39_pab9_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+
+<!-- sniper rifles / full size rifles -->
+	
+		
+	<string id="st_mag_g43_7.92x33">
+		<text>Chargeur 7,92x57 G43</text>
+	</string>
+	<string id="st_mag_g43_7.92x33_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_galil_7.62x51">
+		<text>Chargeur 7,62x51 Galil</text>
+	</string>
+	<string id="st_mag_galil_7.62x51_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_stanag_7.62x51">
+		<text>Chargeur 7,62x51 STANAG</text>
+	</string>
+	<string id="st_mag_stanag_7.62x51_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_stanag_7.62x51_ext">
+		<text>Chargeur 7,62x51 STANAG étendu</text>
+	</string>
+	<string id="st_mag_stanag_7.62x51_ext_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_stanag_fast_7.62x51">
+		<text>Chargeur 7,62x51 STANAG à chargement rapide</text>
+	</string>
+	<string id="st_mag_stanag_fast_7.62x51_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_stanag_7.62x51_short">
+		<text>Chargeur 7,62x51 STANAG</text>
+	</string>
+	<string id="st_mag_stanag_7.62x51_short_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_hinge_7.62x51">
+		<text>Chargeur 7,62x51</text>
+	</string>
+	<string id="st_mag_hinge_7.62x51_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_hinge_ext_7.62x51">
+		<text>Chargeur 7,62x51 étendu</text>
+	</string>
+	<string id="st_mag_hinge_ext_7.62x51_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_l96a1_7.62x51">
+		<text>Chargeur 7,62x51 L96A1</text>
+	</string>
+	<string id="st_mag_l96a1_7.62x51_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_remington700_7.62x51">
+		<text>Chargeur 7,62x51 Remington 700</text>
+	</string>
+	<string id="st_mag_remington700_7.62x51_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_wa2000_7.62x51">
+		<text>Chargeur 7,62x51 Walther WA 2000</text>
+	</string>
+	<string id="st_mag_wa2000_7.62x51_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_pkm_pkm">
+		<text>Boîte 7,62x54 PKM</text>
+	</string>
+	<string id="st_mag_pkm_pkm_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_l96a1_pkm">
+		<text>Chargeur 7,62x54 L96A1 modifié</text>
+	</string>
+	<string id="st_mag_l96a1_pkm_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_sv98_7.62x54">
+		<text>Chargeur 7,62x54 SV98</text>
+	</string>
+	<string id="st_mag_sv98_7.62x54_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_svd_7.62x54">
+		<text>Chargeur 7,62x54 SVD</text>
+	</string>
+	<string id="st_mag_svd_7.62x54_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_svd_7.62x54_extended">
+		<text>Chargeur 7,62x54 SVD</text>
+	</string>
+	<string id="st_mag_svd_7.62x54_extended_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_svt40_7.62x54">
+		<text>Chargeur 7,62x54 SVT-40</text>
+	</string>
+	<string id="st_mag_svt40_7.62x54_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_svt40_pkm">
+		<text>Chargeur 7,62x54 SVT-40</text>
+	</string>
+	<string id="st_mag_svt40_pkm_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_svt40_7.62x39">
+		<text>Chargeur 7,62x39 SVT-40 modifié</text>
+	</string>
+	<string id="st_mag_svt40_7.62x39_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_trg_magnum_300">
+		<text>Chargeur .338 LM</text>
+	</string>
+	<string id="st_mag_trg_magnum_300_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_l96a1m_magnum_300">
+		<text>Chargeur .338 LM L96A1</text>
+	</string>
+	<string id="st_mag_l96a1m_magnum_300_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_m98b_magnum_300">
+		<text>Chargeur .338 LM M98B</text>
+	</string>
+	<string id="st_mag_m98b_magnum_300_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_vssk_12.7x55">
+		<text>Chargeur 12,7x55 VSSK</text>
+	</string>
+	<string id="st_mag_vssk_12.7x55_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_ash12_12.7x55">
+		<text>Chargeur 12,7x55 ASh-12</text>
+	</string>
+	<string id="st_mag_ash12_12.7x55_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_ash12_ext_12.7x55">
+		<text>Chargeur 12,7x55 ASh-12 étendu</text>
+	</string>
+	<string id="st_mag_ash12_ext_12.7x55_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_m82_12.7x55">
+		<text>Chargeur 12,7x55 M82</text>
+	</string>
+	<string id="st_mag_m82_12.7x55_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_saiga12s_12x70">
+		<text>Chargeur 12x70 Saiga-12S</text>
+	</string>
+	<string id="st_mag_saiga12s_12x70_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_saiga12s_ext_12x70">
+		<text>Chargeur 12x70 Saiga-12S étendu</text>
+	</string>
+	<string id="st_mag_saiga12s_ext_12x70_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_usas12_12x70">
+		<text>Tambour 12x70 USAS-12</text>
+	</string>
+	<string id="st_mag_usas12_12x70_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_vepr_12x70">
+		<text>Chargeur 12x70 Vepr-12</text>
+	</string>
+	<string id="st_mag_vepr_12x70_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_vepr_compact_12x70">
+		<text>Chargeur 12x70 Vepr-12 compact</text>
+	</string>
+	<string id="st_mag_vepr_compact_12x70_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+</string_table>

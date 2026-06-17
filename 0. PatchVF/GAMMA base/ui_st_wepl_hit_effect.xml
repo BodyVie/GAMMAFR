@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!-- 
+	MCM
+-->
+<string_table>
+
+
+	<string id="ui_mcm_wepl_hit_effect_title">
+		<text>Effets de tir</text>
+	</string>
+	<string id="ui_mcm_menu_wepl_hit_effect">
+		<text>Effets de tir</text>
+	</string>
+
+
+	<!-- Main configs -->
+	<string id="ui_mcm_wepl_hit_effect_enable_stalker">
+		<text>Activer le son de frappe pour le joueur</text>
+	</string>
+
+	<string id="ui_mcm_wepl_hit_effect_enable_npc">
+		<text>Activer le son lors de la frappe d'un NPC</text>
+	</string>
+
+	<string id="ui_mcm_wepl_hit_effect_volume">
+		<text>Volume du son de frappe</text>
+	</string>
+
+</string_table>

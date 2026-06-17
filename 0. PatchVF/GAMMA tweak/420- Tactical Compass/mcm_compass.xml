@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+    <!-- Main -->
+
+    <string id="ui_mcm_menu_tactic_compass">
+        <text>Boussole tactique</text>
+    </string>
+
+    <string id="ui_mcm_compass_title">
+        <text>Boussole tactique</text>
+    </string>
+
+    <string id="ui_mcm_menu_tc_main">
+        <text>Paramètres principaux</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_main_t_c_show">
+        <text>Activer la boussole intégrée</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_main_compass_sc_pos">
+        <text>Position de la Boussole à l'écran</text>
+    </string>
+
+    <string id="ui_mcm_compass_state_up">
+        <text>Haut</text>
+    </string>
+
+    <string id="ui_mcm_compass_state_down">
+        <text>Bas</text>
+    </string>
+
+    <!-- Key binding -->
+
+    <string id="ui_mcm_menu_tc_keybinds">
+        <text>Raccourci clavier</text>
+    </string>
+
+    <string id="ui_mcm_keybinds_title">
+        <text>Raccourci clavier</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_keybinds_keybind">
+        <text>Touche de bascule Boussole</text>
+    </string>
+
+    <!-- Markers -->
+
+    <string id="ui_mcm_menu_tc_markers">
+        <text>Paramétrage des repères</text>
+    </string>
+
+    <string id="ui_mcm_markers_title">
+        <text>Repères</text>
+    </string>
+
+    <string id="ui_mcm_tc_markers_marker_m_desc">
+        <text>Personnalisez l'affichage des marqueurs. Vous pouvez activer/désactiver l'affichage d'une certaine catégorie de marqueurs,
+            activer/désactiver l'affichage de la distance à la cible et modifier la distance d'affichage.
+            distance d'affichage. Le paramètre « Toujours afficher » affichera toujours les marqueurs à une distance maximale.
+            Distance possible. Le paramètre « Distance à la cible » est ignoré dans ce cas.</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_show_quest">
+        <text>Affichage marqueur de mission</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_is_quest_dist">
+        <text>Affichage distance au marqueur de mission</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_show_quest_dist">
+        <text>Affichage distance marqueur de mission</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_show_unique">
+        <text>Affichage marqueurs de NPCS uniques</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_is_unique_dist">
+        <text>Affichage distance marqueurs de NPCS uniques jusqu'à la cible</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_show_unique_dist">
+        <text>Affichage distance marqueurs de NPCS uniques</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_show_sleep">
+        <text>Affichage marqueur de lieu de sommeil</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_is_sleep_dist">
+        <text>Affichage distance marqueur de lieu de sommeil jusqu'à la cible</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_show_sleep_dist">
+        <text>Affichage distance marqueur de lieu de sommeil</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_show_stashes">
+        <text>Affichage marqueurs de planque</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_is_stashes_dist">
+        <text>Affichage distance marqueurs de planque jusqu'à la cible</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_show_stashes_dist">
+        <text>Affichage distance marqueurs de planque</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_show_transitions">
+        <text>Affichage marqueurs de transition</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_is_transitions_dist">
+        <text>Affichage distance marqueurs de transition jusqu'à la cible</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_show_transitions_dist">
+        <text>Affichage distance marqueurs de transition</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_show_squads">
+        <text> Affichage marqueurs d'escouade</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_is_squads_dist">
+        <text>Affichage distance marqueurs d'escouade jusqu'à la cible</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_show_squads_dist">
+        <text> Affichage distance marqueurs d'escouade</text>
+    </string>
+
+    <string id="ui_mcm_tc_markers_marker_m_corpses_desc">
+        <text>Nécessite l'addon Points Corporels sur la Minicarte ou un Milspec PDA.</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_show_corpses">
+        <text>Affichage marqueur de cadavre</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_is_corpses_dist">
+        <text>Affichage distance marqueur de cadavre jusqu'à la cible</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_show_corpses_dist">
+        <text>Affichage distance marqueur de cadavre</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_show_campf">
+        <text>Affichage marqueur de feu de camp</text>
+    </string>
+
+    <string id="ui_mcm_tc_markers_marker_m_campf_desc">
+        <text>Nécessite l'addon Affichage des Feux de Camp sur la Carte.</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_is_campf_dist">
+        <text>Affichage distance marqueur de feu de camp jusqu'à la cible</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_show_campf_dist">
+        <text>Affichage distance marqueur de feu de camp</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_show_pump">
+        <text>Affichage marqueur de pompe à eau</text>
+    </string>
+
+    <string id="ui_mcm_tc_markers_marker_m_pump_desc">
+        <text>Nécessite l'addon Correctif pour Gourdes Remplissables avec Pompes à Eau.</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_is_pump_dist">
+        <text>Affichage distance marqueur de pompe à eau jusqu'à la cible</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_show_pump_dist">
+        <text>Affichage distance marqueur de pompe à eau</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_is_quest_av">
+        <text>Affichage permanent marqueur de mission</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_is_unique_av">
+        <text>Affichage permanent marqueurs de NPCS uniques</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_is_sleep_av">
+        <text>Affichage permanent marqueur de lieu de sommeil</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_is_stashes_av">
+        <text>Affichage permanent marqueurs de planque</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_is_transitions_av">
+        <text>Affichage permanent marqueurs de transition</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_is_squads_av">
+        <text>Affichage permanent marqueurs d'escouade</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_is_corpses_av">
+        <text>Affichage permanent marqueur de cadavre</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_is_campf_av">
+        <text>Affichage permanent marqueur de feu de camp</text>
+    </string>
+
+    <string id="ui_mcm_tactic_compass_tc_markers_is_pump_av">
+        <text>Affichage permanent marqueur de pompe à eau</text>
+    </string>
+</string_table>

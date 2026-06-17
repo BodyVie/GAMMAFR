@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!-- Lukash (Freedom Leader) -->
+	<string id="about_freedom_lider_miklyha_0">
+		<text>T'es le stalker qui a percé le Lobotomisateur et qui a vécu là-bas pendant six mois ?</text>
+	</string>
+	<string id="about_freedom_lider_miklyha_1">
+		<text>Ben, un des rares. Et c'était pas six mois - plutôt un peu plus d'un mois. Mais ouais, moi c'est Lukash. Enchanté.</text>
+	</string>
+	<string id="about_freedom_lider_miklyha_2">
+		<text>Ça s'est passé comment ?</text>
+	</string>
+	<string id="about_freedom_lider_miklyha_3">
+		<text>Écoute, mon pote. Je sais que l'endroit est fascinant et tout, mais j'ai pas envie de me lancer dans les souvenirs. L'important, c'est que j'en sois sorti entier.</text>
+	</string>
+	<string id="about_freedom_lider_miklyha_4">
+		<text>C'est bon. Merci quand même.</text>
+	</string>
+	
+	<string id="monolith_eidolon_start_0">
+		<text>Gloire au Monolithe, frère.</text>
+	</string>
+	
+	<string id="find_blackbox_mlr_reward_freedom_0">
+		<text>J'ai trouvé un enregistreur de vol.</text>
+	</string>
+	<string id="find_blackbox_mlr_reward_freedom_1">
+		<text>Ah ouais ? Ramène-le ici. On va voir ce que ces abrutis manigancent.</text>
+	</string>
+
+
+	<string id="look_for_cs_history_part_3_1_0">
+		<text>Je cherche Leshiy, il est avec toi ?</text>
+	</string>
+	<string id="look_for_cs_history_part_3_1_1">
+		<text>Bien sûr. Descends au premier étage, il est au bout.</text>
+	</string>
+	<string id="look_for_cs_history_part_3_1_2">
+		<text>Merci.</text>
+	</string>
+	
+	<string id="devushka_5_help_0">
+		<text>Hé Lukash, une amie à moi voulait venir te voir. Je crois que tu la connais.</text>
+	</string>
+	<string id="devushka_5_help_1">
+		<text>Ah, oui. Entre donc ! Sers-toi un peu d'herbe - tu risques d'en avoir besoin pour la route. T'as fait le bon choix en venant ici, tous les deux. Le boulot de Loki est devenu bien plus dur depuis que Monolithe a repris du poil de la bête. Les médocs que tu lui apporteras aideront à sauver pas mal de braves gens.</text>
+	</string>
+	
+	<string id="devushka_help1_0">
+		<text>Apparemment, Hip n'a jamais dépassé la Barrière avant. C'est vrai ?</text>
+	</string>
+	<string id="devushka_help1_1">
+		<text>Ouais. On peut pas lui en vouloir. Après avoir vu certains de tes potes se faire zombifier sous tes yeux, ça se comprend que t'aies envie de te casser loin de l'endroit où c'est arrivé. Entre ça et devoir se battre contre Devoir... Bref. Mais elle semble décidée à faire le voyage maintenant. Vous deux, vous allez à la station Yanov dans Jupiter. Dépose ces médocs chez Loki une fois arrivés.</text>
+	</string>
+	<string id="devushka_help1_2">
+		<text>D'accord. Plus on y va tôt, mieux c'est.</text>
+	</string>
+	<string id="devushka_help1_3">
+		<text>Attends Lukash. J'ai juste besoin d'une minute pour tout rassembler.</text>
+	</string>
+
+	<string id="st_mil_smart_terrain_7_7_freedom_leader_stalker_life_ask">
+		<text>Hé, Lukash ! Ça te dit de discuter un peu de la vie chez Liberté ?</text>
+	</string>
+	<string id="st_mil_smart_terrain_7_7_freedom_leader_stalker_life_1">
+		<text>Bien sûr ! T'as déjà entendu parler de Bob Marley, non ? Son anniversaire, c'est un événement qu'on célèbre ici... *soupir* dommage que les gars arrivent jamais à se souvenir de la date. C'est le six février, au cas où ça t'intéresse, même si bonne chance pour leur faire rentrer ça dans le crâne.\n \nFaut pas se mentir, les célébrations sont plutôt mémorables - plus de jambon qu'on peut en mettre sur une broche, et assez de vodka pour assommer un pseudogiant.\n \nHahaha... ouais, des bons moments. Enfin, des fois je regrette d'avoir entraîné les gars dans ce trou avec moi. Tout le monde a pas la volonté de camper à côté du Radar pendant des années, et ça se voit que ça les use.\n \nFaut pas se tromper - mes gars, c'est des durs. Solides jusqu'à la moelle. Mais je vois ce qu'ils se racontent autour des feux de camp. Ça me rappelle nos jours sous Chekhov - pathétique.\n \nMais qu'est-ce qu'ils sont censés faire d'autre - utiliser ces casque-psy flippants que les scientifiques du gouvernement bidouillent dans leurs bunkers ? Non merci. Je sais que certains de nos gars un peu coincés les utilisent, mais comment savoir si ces casques servent juste à protéger leur conscience ? Comment savoir si ça les transformera pas en une autre sorte de zombie quand l'État décidera de faire son grand coup ?</text>
+	</string>
+	<string id="st_mil_smart_terrain_7_7_freedom_leader_stalker_life_2">
+		<text>Il y a un moment, le gouvernement a développé un gilet pare-balles spécialement modifié. Il intégrait des fragments d'artefacts traités avec soin, capables de soigner les blessures du porteur sous ses yeux. Naturellement, seul l'armée y avait accès, alors on a décidé de changer ça, héhé. Une fois qu'on a mis la main sur quelques modèles, on a essayé de reproduire la technologie dans nos propres tenues.\n \nÇa n'a pas vraiment marché au début, mais heureusement, un de mes gars, euh, est tombé sur des notes de recherche. Les données ont été rendues publiques immédiatement. Comme ça, Liberté a assuré que le monopole gouvernemental sur les systèmes de survie en combat personnel serait brisé à jamais.\n \nC'est ça, Liberté. On fait en sorte que les souris et les rats de ce monde ne se fassent pas entuber par tous les gros chats assis au sommet.</text>
+	</string>
+	<string id="st_mil_smart_terrain_7_7_freedom_leader_stalker_life_3">
+		<text>Ouais, j’ai deux minutes.\n\nTu sais ce qui me gave vraiment certains jours ? L’idée que Liberté ne serait qu’un ramassis de déviants sexuels et de toxicos en quête de leur prochaine dose, de leur prochain fix.\n\nJ’ai entendu des rumeurs dégueulasses de la part de nos détracteurs au fil des ans... mais aucune ne me fait plus monter les nerfs que leurs histoires de fétichistes qui racontent qu’on essaierait de fourrer notre bite dans un Bloodsuckers. Tout a commencé comme une rumeur vicieuse lancée par Devoir il y a quelques années. Tu veux savoir comment cette rumeur est née ? Je te préviens, c’est pas pour les âmes sensibles.\n\nVoilà ce qui s’est passé : une poignée de nos nouvelles recrues - six, en fait - étaient parties chasser des artefacts dans le Village des Bloodsuckers. J’étais plutôt fier d’eux, la plupart des gens ont trop la trouille pour s’approcher de cet endroit. C’était un guet-apens. Une escouade vétérane de Devoir campait déjà dans ce village, attendant juste qu’ils débarquent. À l’époque, on pensait que ces novices avaient simplement été butés, mais non...\n\nCe qui s’est passé, c’est que Devoir les a submergés et enlevés sans problème. Ils leur ont arraché leur armure, les ont traînés jusqu’à cette arène de combat sanglant à Rostok, et ont organisé un combat. Hors des registres. Ils ont promis à mes gars qu’ils seraient libérés s’ils arrivaient à maîtriser un Bloodsucker à mains nues et... je te laisse deviner ce qu’ils devaient faire ensuite. Ça me retourne l’estomac de raconter ça, mais faut que tu connaisses toute l’histoire.\n\nIls les ont opposés à deux Bloodsuckers - un pour trois de mes gars capturés. On les a forcés à épingle les bêtes, et puis... Non, je peux pas le dire. Sache juste que les enfoirés de Devoir ont tout filmé. Fidèles à leur parole, Devoir a relâché les survivants. Si on peut encore les appeler comme ça. Après leur « libération », la plupart refusaient de bouffer ou de picoler. Quelques-uns ont réussi à chopper une bonne corde bien épaisse... ou à se coller un flingue dans la bouche et...\n\n...d’autres, ben, ils sont morts d’une overdose. Nos toubibs ont retrouvé des traces de meth, de coke et d’Adderall dans leur sang. On donne pas ce genre de merde à nos gars, alors on peut supposer que Devoir leur a fourgué de force.\n\nEt Devoir, qu’est-ce qu’ils ont gagné ? Des images bien croustillantes pour alimenter leur propagande. Et moi, j’ai eu quelques noms des salopards impliqués. Et eux, ils ont fini empalés et abandonnés à crever comme des porcs saignants. Mais je suis pas encore satisfait.\n\nOn est des combattants de la Liberté, et Devoir a pas encore payé pour tous les crimes qu’ils ont commis contre elle.</text>
+	</string>
+	<string id="st_mil_smart_terrain_7_7_freedom_leader_stalker_life_4">
+		<text>D'accord. Aujourd'hui, ça peut servir de leçon. Il y a de ça un paquet d'années, on avait un gars parmi nous - Pavlik, il s'appelait. Sympa, pas un mauvais bougre. Il avait l'air ouvert et décontracté, comme beaucoup de nos nouvelles recrues au début. Bon, il s'est vite fait des potes, et les gars de la base lui ont confié toutes sortes de faits intéressants, des secrets, des histoires perso... Un jour, j'ai découvert qu'il balançait ces secrets aux mercs.\n \nPavlik n'est pas le seul à avoir fait un coup comme ça. Liberté a une triste histoire avec ce genre de merde, à peu près tous les ans. Ces histoires commencent toujours différemment, mais elles finissent toutes de la même façon - avec le putain de mouchard qui crache le sang par les poumons, regrettant amèrement ses choix de vie.\n \nY'a beaucoup d'amour dans notre communauté. Beaucoup de confiance. J'aimerais *jamais* être le gars qui trahit ça. Et toi ? </text>
+	</string>
+	<string id="st_mil_smart_terrain_7_7_freedom_leader_stalker_life_5">
+		<text>Ouais, l'état de la Zone me trotte dans la tête depuis un bail. Ça ferait pas de mal d'avoir quelqu'un d'autre dans les parages pour écouter ce que j'ai à dire.\n\nFaut être honnête, la vie ici, c'est pas une partie de plaisir. Seuls les forts, les souples ou les malins peuvent espérer tenir longtemps. Ceux qui deviennent trop têtus, trop négligents, trop sûrs d'eux... ils crèvent vite. La Zone a une façon de buter ceux qui essaient de la menacer ou de la baiser, tandis qu'elle élève ceux qui la respectent - ceux qui se souviennent qu'ils sont ici parce qu'ils ont nulle part ailleurs où aller. Ceux qui ne la prennent pas pour acquise.\n\nC'est pour ça que Liberté doit tout faire pour préserver la Zone. Malgré ses dangers, c'est un endroit merveilleux pour les autres. Pour ceux qui n'ont rien, ceux qui ont perdu espoir, ils peuvent venir ici et trouver un nouveau but. Même les inventeurs ou les artistes qui ont perdu leur inspiration, ou qui savent pas comment faire leur prochaine percée - ils peuvent débarquer ici et repartir avec tout ce dont ils ont besoin.\n\nC'est pour ça qu'on se bat contre le gouvernement - ceux qui voudraient enchaîner ce miracle dans la paperasse, les cages et les catégories. C'est pour ça qu'on affronte Devoir, ceux qui seraient prêts à faire péter ce coin une nouvelle fois si ça signifiait la fin des mutants et des anomalies ici. Moi, je veux que la Zone soit encore là quand les fils et les filles de mes neveux et nièces grandiront. Je veux qu'ils puissent venir et partir d'ici comme ils veulent, sans qu'un fonctionnaire rabougri ou une organisation visqueuse leur dise qu'ils peuvent pas.\n\nCet endroit était fait pour toute l'humanité. Pas pour un seul humain. Pas même pour un groupe d'entre eux. Et pour cette raison, faut en finir avec les tyrans.</text>
+	</string>
+	<string id="st_mil_smart_terrain_7_7_freedom_leader_stalker_life_6">
+		<text>Bien sûr. Je suppose que tu pourrais avoir des questions sur nos relations avec certains des autres groupes.\n \nPremièrement, en règle générale, les stalkers neutres sont hors-limites. Ils représentent l’homme ordinaire et sont le sang vital de ce que représente la Liberté. Bien sûr, cela ne signifie pas que tu devrais leur faire aveuglément confiance, ni jamais te soumettre à eux sans bonne raison - beaucoup d’entre eux ont des opinions pro-Devoir ou même pro-gouvernement. Mais tant qu’ils ne causent pas de problèmes, vis et laisse vivre.\n \nDeuxièmement, les bandits. Qui les a appelés bandits en premier, d’ailleurs ? Certains d’entre eux sont vraiment des salauds. Ceux-là, je les descendrais moi-même, mais la plupart ne sont que des stalkers neutres que Devoir a ciblés et séparés avec leurs campagnes de propagande. En conséquence, ils sont bien plus désespérés que la plupart des stalkers, mais ils essaient simplement de survivre ici comme n’importe qui d’autre.\n \nLes mercenaires de Dushman ? Entre toi et moi, la plupart sont des salauds peu recommandables, mais fiables lorsqu’ils sont sous contrat. La seule chose qui les intéresse, c’est l’argent, et en ce moment, leur argent leur dit de saper le gouvernement local, tout comme nous. On s’entend à distance respectable, et c’est tout ce que j’ai vraiment à dire à leur sujet.\n \nLes Écologistes ? Si j’avais eu mon mot à dire, j’aurais donné un avis d’expulsion à la plupart de leurs culs financés par l’État il y a bien longtemps. Mais Radin n’arrête pas de geindre sur le fait qu’on a besoin de leurs fournitures depuis leurs bunkers, et Loki est trop compatissant pour me soutenir là-dessus, bien qu’il soit par ailleurs un bon leader. Globalement, la Liberté respecte suffisamment leurs points de vue pour laisser les scientifiques tranquilles. Même si, personnellement, je crois que leurs études sont trop dures et invasives envers la faune locale.\n \nNe me lance même pas sur Devoir ou les Militaires, sinon tu vas me faire râler pendant des heures.\n \nMonolithe se concentre trop sur leur précieux rocher, plutôt que sur la Zone dans son ensemble. Sans parler du fait qu’ils sont vraiment exécrables quand il s’agit de partager. N’essaie pas de raisonner avec eux - ils préféreraient te faire sauter à la figure plutôt que de s’asseoir pour discuter, et te tueraient plutôt que de te laisser faire un pas au-delà de la Barrière.\n \nEt les autres groupes ? Eh bien, ils existent, mais la Liberté ne les croise pas assez au quotidien pour que je m’en préoccupe beaucoup. Bref, c’est tout pour l’instant. Je ne peux pas passer ma journée entière à en discuter.</text>
+	</string>
+	<string id="st_mil_smart_terrain_7_7_freedom_leader_stalker_life_7">
+		<text>Écoute, la vie est trop morose en ce moment. Tout le monde est à son poste, l'air sinistre. C'est ridicule. Laisse-moi te raconter deux-trois blagues.\n \nAlors, un journaliste d'État réussit à décrocher une interview avec un membre de Liberté - ouais, je sais, ça part déjà mal. Attends, ça devient encore mieux.\n \n« Alors, qu'est-ce que vous pensez des forces militaires qu'on a déployées ici ? » demande le journaliste.\n« Ce sont des porcs. Des brutes cruelles, stupides et aveugles, la lie de la terre ! » répond le Libérateur, comme un bon petit soldat.\nLe journaliste marque une pause, puis pose sa question suivante.\n« Bon. Et qu'est-ce que vous pensez de Devoir ? »\nLe Libérateur se tait, comme s'il réfléchissait profondément, avant de finalement lâcher...\n« En fait, les militaires, c'est pas si mal quand on y pense... »</text>
+	</string>
+	<string id="st_mil_smart_terrain_7_7_freedom_leader_stalker_life_8">
+		<text>Peu importe ce qu'on peut te raconter sur Liberté, retiens une chose : on accueille à bras ouverts tous ceux qui reconnaissent que la Zone est un endroit où la loi de l'État n'a pas cours. C'est un lieu où tu peux vivre droit et libre selon tes propres valeurs et ton bon sens... à condition d'assumer les conséquences aussi. C'est ça, Liberté - prendre la vie à notre manière. En nous serrant les coudes, on s'assure que cet idéal ne sera jamais étouffé.</text>
+	</string>
+	<string id="st_mil_smart_terrain_7_7_freedom_leader_stalker_life_9">
+		<text>Ouais, laisse-moi te raconter un truc sur notre pire ennemi.\n \nAlors, un Dutyer expérimenté et une recrue marchent dans la Zone, quand soudain le plus vieux s'arrête net et chuchote à son subalterne.\n« Chut ! Va te planquer derrière cet arbre. Doucement. »\nLe jeune Dutyer commence à transpirer et se met à avancer prudemment, très prudemment, vers l'arbre. Il fait des petits zigzags, tourne même sur lui-même pour repérer le danger.\nFinalement, il atteint l'arbre. Soudain, le vétéran hurle.\n« JE LE SAVAIS ! JE SAVAIS QU'ILS MENTAIENT QUAND ILS DISAIENT QU'IL Y AVAIT DES ANOMALIES LÀ-BAS ! »\n \nHeh. Une blague de feu de camp. Quoi, tu t'attendais à quelque chose de sérieux ? L'ambiance est déjà assez tendue comme ça. À moins qu'on ait vraiment quelque chose à discuter, j'apprécierais que tu me laisses un peu d'espace pour l'instant. Faut que je me concentre pour garder cette base à flot.</text>
+	</string>
+	<string id="st_mil_smart_terrain_7_7_freedom_leader_stalker_life_end">
+		<text>Une autre fois, mec ? Là, faut que je me concentre pour garder les gars coordonnés, et je sais que quelques-uns voudront me voir en privé bientôt. </text>
+	</string>
+	
+<!-- (Freedom guide) -->
+	<string id="mil_freedom_guid_meet_0">
+		<text>Hé, quoi de neuf ?</text>
+	</string>
+	<string id="mil_freedom_guid_meet_1">
+		<text>Pas grand-chose. Moi c'est Leshiy, ravi de te rencontrer. Je suis le guide et éclaireur local.</text>
+	</string>
+	<string id="mil_freedom_guid_meet_2">
+		<text>Et le renseignement local, ça donne quoi ? J'imagine que t'as visité pas mal d'endroits.</text>
+	</string>
+	<string id="mil_freedom_guid_meet_3">
+		<text>Exact. J'ai même traversé une anomalie. C'était quand j'étais encore mercenaire... on est entrés dans une bulle spatiale avec mon escouade. Une longue histoire. Bref, je propose des guides pour le Cordon, Yantar et la station Yanov dans Jupiter. Quatre mille cinq cents, cinq mille et six mille roubles respectivement.</text>
+	</string>
+	<string id="mil_freedom_guid_meet_4">
+		<text>Je m'en souviendrai.</text>
+	</string>
+
+	<string id="mil_freedom_guid_go_0">
+		<text>Guide-moi quelque part.</text>
+	</string>
+	<string id="mil_freedom_guid_go_1">
+		<text>OK, mec. Où ça ?</text>
+	</string>
+		<string id="mil_freedom_guid_go_2">
+			<text>Vers Jupiter. %c[d_orange][6000 RU]</text>
+		</string>
+		<string id="mil_freedom_guid_go_5">
+			<text>Le fric d'abord, mon pote.</text>
+		</string>
+		<string id="mil_freedom_guid_go_8">
+			<text>Tiens, c'est à toi.</text>
+		</string>
+		<string id="mil_freedom_guid_go_3">
+			<text>Vers le Cordon. %c[d_orange][4500 RU]</text>
+		</string>
+		<string id="mil_freedom_guid_go_6">
+			<text>T'as le fric ?</text>
+		</string>
+		<string id="mil_freedom_guid_go_9">
+			<text>Tiens, garde ça.</text>
+		</string>
+		<string id="mil_freedom_guid_go_4">
+			<text>Vers Yantar. %c[d_orange][5000 RU]</text>
+		</string>
+		<string id="mil_freedom_guid_go_7">
+			<text>T'as apporté le fric ?</text>
+		</string>
+		<string id="mil_freedom_guid_go_10">
+			<text>Bien sûr. Tiens.</text>
+		</string>
+	<string id="mil_freedom_guid_go_11">
+		<text>J'ai zappé.</text>
+	</string>
+	<string id="mil_freedom_guid_go_12">
+		<text>J'ai changé d'avis.</text>
+	</string>
+
+</string_table>

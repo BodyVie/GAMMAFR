@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_mag_aps_9x18_fmj">
+		<text>Chargeur 9x18 APS</text>
+	</string>
+	<string id="st_mag_aps_9x18_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_aps_9x19_fmj">
+		<text>Chargeur 9x19 APS modifié</text>
+	</string>
+	<string id="st_mag_aps_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_beretta_9x19_fmj">
+		<text>Chargeur 9x19 Beretta 92F</text>
+	</string>
+	<string id="st_mag_beretta_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_beretta_9x18_fmj">
+		<text>Chargeur 9x18 Beretta 92F modifié</text>
+	</string>
+	<string id="st_mag_beretta_9x18_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_colt1911_11.43x23_fmj">
+		<text>Chargeur .45 ACP Colt 1911</text>
+	</string>
+	<string id="st_mag_colt1911_11.43x23_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_colt_kimber_11.43x23_fmj">
+		<text>Chargeur .45 ACP Colt Kimber</text>
+	</string>
+	<string id="st_mag_colt_kimber_11.43x23_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_cz52_7.62x25_p">
+		<text>Chargeur 7.62x25 CZ-52</text>
+	</string>
+	<string id="st_mag_cz52_7.62x25_p_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_cz75_9x19_fmj">
+		<text>Chargeur 9x19 CZ-75</text>
+	</string>
+	<string id="st_mag_cz75_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_cz75_9x18_fmj">
+		<text>Chargeur 9x18 CZ-75 modifié</text>
+	</string>
+	<string id="st_mag_cz75_9x18_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_desert_eagle_357_hp">
+		<text>Chargeur .357 Desert Eagle</text>
+	</string>
+	<string id="st_mag_desert_eagle_357_hp_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_fn57_5.7x28_ss190">
+		<text>Chargeur 5.7x28 Five-seveN</text>
+	</string>
+	<string id="st_mag_fn57_5.7x28_ss190_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_fnp45_11.43x23_fmj">
+		<text>Chargeur .45 ACP FNP-45</text>
+	</string>
+	<string id="st_mag_fnp45_11.43x23_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_fnx45_11.43x23_fmj">
+		<text>Chargeur .45 ACP FNX-45</text>
+	</string>
+	<string id="st_mag_fnx45_11.43x23_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_fort_9x18_fmj">
+		<text>Chargeur 9x18 Fort-17</text>
+	</string>
+	<string id="st_mag_fort_9x18_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_fort_9x19_fmj">
+		<text>Chargeur 9x19 Fort-17 modifié</text>
+	</string>
+	<string id="st_mag_fort_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_glock_9x19_fmj">
+		<text>Chargeur 9x19 Glock</text>
+	</string>
+	<string id="st_mag_glock_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_glock_9x18_fmj">
+		<text>Chargeur 9x18 Glock modifié</text>
+	</string>
+	<string id="st_mag_glock_9x18_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_gsh18_9x19_fmj">
+		<text>Chargeur 9x19 Gsh-18</text>
+	</string>
+	<string id="st_mag_gsh18_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_hpsa_9x19_fmj">
+		<text>Chargeur 9x19 Browning Hi-Power</text>
+	</string>
+	<string id="st_mag_hpsa_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_hpsa_9x18_fmj">
+		<text>Chargeur 9x18 Browning Hi-Power modifié</text>
+	</string>
+	<string id="st_mag_hpsa_9x18_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_mp443_9x19_fmj">
+		<text>Chargeur 9x19 MP-443</text>
+	</string>
+	<string id="st_mag_mp443_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_mp443_9x18_fmj">
+		<text>Chargeur 9x18 MP-443 modifié</text>
+	</string>
+	<string id="st_mag_mp443_9x18_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_oc33_9x18_fmj">
+		<text>Chargeur 9x18 OTs-33 Pernach</text>
+	</string>
+	<string id="st_mag_oc33_9x18_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_oc33_9x19_fmj">
+		<text>Chargeur 9x19 OTs-33 Pernach modifié</text>
+	</string>
+	<string id="st_mag_oc33_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_pm_9x18_fmj">
+		<text>Chargeur 9x18 PM</text>
+	</string>
+	<string id="st_mag_pm_9x18_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_pm_9x19_fmj">
+		<text>Chargeur 9x19 PM modifié</text>
+	</string>
+	<string id="st_mag_pm_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_pmm_9x18_fmj">
+		<text>Chargeur 9x18 PMM</text>
+	</string>
+	<string id="st_mag_pmm_9x18_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_pmm_9x19_fmj">
+		<text>Chargeur 9x19 PMM modifié</text>
+	</string>
+	<string id="st_mag_pmm_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_pp2000_9x19_fmj">
+		<text>Chargeur 9x19 PP-2000</text>
+	</string>
+	<string id="st_mag_pp2000_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_pp2000_9x18_fmj">
+		<text>Chargeur 9x18 PP-2000 modifié</text>
+	</string>
+	<string id="st_mag_pp2000_9x18_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_sig220_11.43x23_fmj">
+		<text>Chargeur .45 ACP SIG Sauer P220</text>
+	</string>
+	<string id="st_mag_sig220_11.43x23_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_tt33_7.62x25_p">
+		<text>Chargeur 7.62x25 TT-33</text>
+	</string>
+	<string id="st_mag_tt33_7.62x25_p_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_usp_11.43x23_fmj">
+		<text>Chargeur .45 ACP USP</text>
+	</string>
+	<string id="st_mag_usp_11.43x23_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_usp_9x19_fmj">
+		<text>Chargeur 9x19 USP</text>
+	</string>
+	<string id="st_mag_usp_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_walther_9x19_fmj">
+		<text>Chargeur 9x19 Walther P99</text>
+	</string>
+	<string id="st_mag_walther_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_bizon_9x18_fmj">
+		<text>Chargeur 9x18 PP-19</text>
+	</string>
+	<string id="st_mag_bizon_9x18_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_bizon_9x19_fmj">
+		<text>Chargeur 9x19 PP-19 modifié</text>
+	</string>
+	<string id="st_mag_bizon_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_bizon_7.62x25_p">
+		<text>Chargeur 7.62x25 PP-19 modifié</text>
+	</string>
+	<string id="st_mag_bizon_7.62x25_p_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_kiparis_9x18_fmj">
+		<text>Chargeur 9x18 Kiparis</text>
+	</string>
+	<string id="st_mag_kiparis_9x18_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_kiparis_9x19_fmj">
+		<text>Chargeur 9x18 Kiparis modifié</text>
+	</string>
+	<string id="st_mag_kiparis_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_vityaz_9x19_fmj">
+		<text>Chargeur 9x19 Vityaz-SN</text>
+	</string>
+	<string id="st_mag_vityaz_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_vityaz_9x18_fmj">
+		<text>Chargeur 9x18 Vityaz-SN modifié</text>
+	</string>
+	<string id="st_mag_vityaz_9x18_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_vz61_9x19_fmj">
+		<text>Chargeur 9x19 vz.61</text>
+	</string>
+	<string id="st_mag_vz61_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_vz61_9x18_fmj">
+		<text>Chargeur 9x18 vz.61 modifié</text>
+	</string>
+	<string id="st_mag_vz61_9x18_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_p90_5.7x28_ss190">
+		<text>Chargeur 5.7x28 P90</text>
+	</string>
+	<string id="st_mag_p90_5.7x28_ss190_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+	<string id="st_mag_ppsh41_7.62x25_p">
+		<text>Chargeur tambour 7.62x25 PPSh41</text>
+	</string>
+	<string id="st_mag_ppsh41_7.62x25_p_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_mp5_9x19_fmj">
+		<text>Chargeur 9x19 MP5</text>
+	</string>
+	<string id="st_mag_mp5_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_mp5_9x18_fmj">
+		<text>Chargeur 9x18 MP5 modifié</text>
+	</string>
+	<string id="st_mag_mp5_9x18_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_mp7_9x19_fmj">
+		<text>Chargeur 9x19 MP7</text>
+	</string>
+	<string id="st_mag_mp7_9x19_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_mp7_9x18_fmj">
+		<text>Chargeur 9x18 MP7 modifié</text>
+	</string>
+	<string id="st_mag_mp7_9x18_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_mp5_11.43x23_fmj">
+		<text>Chargeur .45 ACP MP5 « Frasier »</text>
+	</string>
+	<string id="st_mag_mp5_11.43x23_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+	<string id="st_mag_ump45_11.43x23_fmj">
+		<text>Chargeur .45 ACP UMP</text>
+	</string>
+	<string id="st_mag_ump45_11.43x23_fmj_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+	
+</string_table>

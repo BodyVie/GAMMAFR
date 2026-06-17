@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_aug_9mm_spectre">
+		<text>Steyr AUG A3 Spectre Tactical</text>
+	</string>
+	<string id="st_wpn_aug_9mm_spectre_descr">
+		<text>Pistolet-mitrailleur AUG 9x19 mm. Cette version est la carabine d'assaut standard AUG A3 équipée du kit de conversion 9x19 mm Nightsword. Le mécanisme de détente permet le tir en mode semi-automatique et entièrement automatique avec un boulon fermé. Les composants et mécanismes de base sont identiques à ceux de la carabine d'assaut, à l'exception du nouveau canon raccourci, du boulon, de l'adaptateur de chargeur et des nouveaux chargeurs de 32 cartouches.\n \n
+		Ce Kit Tactique est équipé d'un canon allongé qui affecte les caractéristiques de l'arme telles que : le dégâts, la précision, la vitesse des projectiles et la portée efficace.\n \n		
+		%c[ui_gray_2]Caractéristiques : \n
+		%c[d_green] • %c[ui_gray_2] Canon allongé (417 mm).\n
+		%c[d_green] • %c[ui_gray_2] Silencieux (9 mm).\n
+		%c[d_green] • %c[ui_gray_2] Boîtier VLTOR bas profil.\n
+		%c[d_green] • %c[ui_gray_2] Rail tactique Corvus Defensio.\n
+		%c[d_green] • %c[ui_gray_2] Crosse tactique noire Spectre Tactical personnalisée.\n
+		%c[d_green] • %c[ui_gray_2] Viseur holographique Etherium avec grossissement 3X.\n
+		%c[d_green] • %c[ui_gray_2] Laser MAWL-C1+.\n \n</text>
+	</string>
+	
+	<string id="st_wpn_aug_9mm_infiltrator">
+		<text>Steyr AUG A3 Infiltrator</text>
+	</string>
+	<string id="st_wpn_aug_9mm_infiltrator_descr">
+		<text>Pistolet-mitrailleur AUG 9x19 mm. Cette version est la carabine d'assaut standard AUG A3 équipée du kit de conversion 9x19 mm Nightsword. Le mécanisme de détente permet le tir en mode semi-automatique et entièrement automatique avec un boulon fermé. Les composants et mécanismes de base sont identiques à ceux de la carabine d'assaut, à l'exception du nouveau canon raccourci, du boulon, de l'adaptateur de chargeur et des nouveaux chargeurs de 32 cartouches.\n \n
+		Ce Kit Tactique est équipé d'un canon lourd long qui AUGMENTE CONSIDÉRABLEMENT les caractéristiques de l'arme telles que : le dégâts, la précision, la vitesse des projectiles et la portée efficace.\n \n		
+		%c[ui_gray_2]Caractéristiques : \n
+		%c[d_green] • %c[ui_gray_2] Canon lourd long (508 mm).\n
+		%c[d_green] • %c[ui_gray_2] Silencieux (9 mm).\n
+		%c[d_green] • %c[ui_gray_2] Boîtier VLTOR bas profil.\n
+		%c[d_green] • %c[ui_gray_2] Rail tactique Corvus Defensio.\n		
+		%c[d_green] • %c[ui_gray_2] Viseur thermique Voodoo-s avec ACOG (réticule TA47C).\n
+		%c[d_green] • %c[ui_gray_2] Laser MAWL-C1+.\n \n</text>
+	</string>	
+
+</string_table>

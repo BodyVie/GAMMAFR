@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!-- 
+	MCM
+-->
+<string_table>
+
+
+	<string id="ui_mcm_rad_ai_title">
+		<text>IA semi-radiante</text>
+	</string>
+	<string id="ui_mcm_menu_rad_ai">
+		<text>IA semi-radiante</text>
+	</string>
+
+	<string id="ui_mcm_rad_ai_trader_sleep">
+		<text>Marchands endormis</text>
+	</string>
+
+	<string id="ui_mcm_rad_ai_mechanic_sleep">
+		<text>Mécaniciens endormis</text>
+	</string>
+
+	<string id="ui_mcm_rad_ai_medic_sleep">
+		<text>Médecins endormis</text>
+	</string>
+
+	<string id="ui_mcm_rad_ai_sleep_from">
+		<text>Marchands dorment de</text>
+	</string>
+
+	<string id="ui_mcm_rad_ai_sleep_to">
+		<text>Marchands dorment à</text>
+	</string>
+
+
+</string_table>

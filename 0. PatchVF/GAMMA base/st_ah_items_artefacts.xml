@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="st_af_ah_o1">
+		<text>Aimant</text>
+	</string>
+	<string id="st_af_ah_o1_descr">
+		<text>Artefact presque entièrement formé, composé d'un alliage principalement constitué de fer, de bismuth, de cadmium et de nickel. Il se forme dans des anomalies de type feu. Il ne possède aucune propriété utile, et la plupart des stalkers le considèrent comme un simple déchet. La seule particularité notable de cet objet est sa forme torique très particulière. En raison de traces de radiation, il n'est pas adapté comme souvenir en dehors de la Zone et a peu de valeur.</text>
+	</string>	
+
+	<string id="st_af_ah_o2">
+		<text>Aimant</text>
+	</string>
+	<string id="st_af_ah_o2_descr">
+		<text>Artefact presque entièrement formé, composé d'un alliage principalement constitué de fer, de bismuth, de cadmium et de nickel. Il se forme dans des anomalies de type feu. Il ne possède aucune propriété utile, et la plupart des stalkers le considèrent comme un simple déchet. La seule particularité notable de cet objet est sa forme torique très particulière. En raison de traces de radiation, il n'est pas adapté comme souvenir en dehors de la Zone et a peu de valeur.</text>
+	</string>	
+
+	<string id="st_af_ah_h1">
+		<text>Éponge</text>
+	</string>
+	<string id="st_af_ah_h1_descr">
+		<text>Substance vert pâle sans forme définie ni propriétés utiles. Cet artefact alterne de manière aléatoire entre un état solide et semi-liquide, ce qui rend son traitement et son stockage difficiles. Contrairement à des artefacts similaires comme « Âme », la substance visqueuse sécrétée par cet artefact n'a ni effets positifs ni effets négatifs sur le corps humain.</text>
+	</string>	
+
+	<string id="st_af_ah_h2">
+		<text>Éponge</text>
+	</string>
+	<string id="st_af_ah_h2_descr">
+		<text>Substance vert pâle sans forme définie ni propriétés utiles. Cet artefact alterne de manière aléatoire entre un état solide et semi-liquide, ce qui rend son traitement et son stockage difficiles. Contrairement à des artefacts similaires comme « Âme », la substance visqueuse sécrétée par cet artefact n'a ni effets positifs ni effets négatifs sur le corps humain, à l'exception d'une faible quantité de radiation qu'il contient.</text>
+	</string>	
+
+	<string id="st_af_ah_g1">
+		<text>Poumon</text>
+	</string>
+	<string id="st_af_ah_g1_descr">
+		<text>Masse de terre argileuse ridée et de restes organiques. Il semble impossible de séparer les différents éléments en raison de la présence d'un agent liant inconnu et incroyablement résistant. Certains scientifiques suggèrent que l'artefact est maintenu par des anomalies gravitationnelles internes, bien que cela reste non prouvé. Un Compteur geiger ne produit presque aucun son lorsqu'il est approché de cet étrange artefact.</text>
+	</string>	
+
+	<string id="st_af_ah_g2">
+		<text>Poumon</text>
+	</string>
+	<string id="st_af_ah_g2_descr">
+		<text>Masse de terre argileuse ridée et de restes organiques. Il semble impossible de séparer les différents éléments en raison de la présence d'un agent liant inconnu et incroyablement résistant. Certains scientifiques suggèrent que l'artefact est maintenu par des anomalies gravitationnelles internes, bien que cela reste non prouvé. Un Compteur geiger ne produit presque aucun son lorsqu'il est approché de cet étrange artefact.</text>
+	</string>	
+
+	<string id="st_af_ah_e1">
+		<text>Souvenir</text>
+	</string>
+	<string id="st_af_ah_e1_descr">
+		<text>Fragment de quartz d'une pureté remarquable, comprise entre 99,5 % et 99,9 %, formé exclusivement dans des anomalies électriques. En raison de l'absence de propriétés utiles, cet artefact magnifique n'a que peu de valeur dans la Zone. Toutefois, les collectionneurs et les scientifiques seront prêts à payer un prix élevé pour ce bibelot unique.</text>
+	</string>	
+
+	<string id="st_af_ah_e2">
+		<text>Souvenir</text>
+	</string>
+	<string id="st_af_ah_e2_descr">
+		<text>Fragment de quartz d'une pureté remarquable, comprise entre 99,5 % et 99,9 %, formé exclusivement dans des anomalies électriques. En raison de l'absence de propriétés utiles, cet artefact magnifique n'a que peu de valeur dans la Zone. Toutefois, les collectionneurs et les scientifiques seront prêts à payer un prix élevé pour ce bibelot unique.</text>
+	</string>	
+
+	<string id="st_af_ah_s1">
+		<text>Arot-8</text>
+	</string>
+	<string id="st_af_ah_s1_descr">
+		<text>Artefact expérimental et instable, créé artificiellement. Le lieu et les circonstances de sa formation restent inconnus. Il semble amplifier le processus naturel de guérison du corps, mais émet également de fortes rafales de radiation. Une exposition prolongée à proximité de cet artefact n'est pas recommandée.</text>
+	</string>	
+
+	<string id="st_af_ah_f1">
+		<text>Pierre qui parle</text>
+	</string>
+	<string id="st_af_ah_f1_descr">
+		<text>Artefact sans précédent aux propriétés remarquables. Il semble être d'origine organique et présente une symétrie élevée, un trait inhabituel pour les artefacts trouvés dans la Zone. Il augmente la résistance structurelle et l'élasticité de tout matériau avec lequel il entre en contact. Si on le porte à l'oreille, on pourrait jurer entendre des murmures indistincts.</text>
+	</string>	
+
+	<string id="st_af_ah_r1">
+		<text>Mycélium</text>
+	</string>
+	<string id="st_af_ah_r1_descr">
+		<text>Artefact trouvé uniquement dans la Forêt Morte au sud du Laboratoire X-9, composé principalement de matière végétale. On pense que les forts champs psi auxquels il a été exposé lors de sa formation ont significativement influencé sa forme et ses propriétés. De ce fait, il offre une opportunité unique d'étudier l'influence de ces phénomènes encore mal compris.</text>
+	</string>	
+
+	<string id="st_af_ah_r2">
+		<text>Mycélium</text>
+	</string>
+	<string id="st_af_ah_r2_descr">
+		<text>Artefact trouvé uniquement dans la Forêt Morte au sud du Laboratoire X-9, composé principalement de matière végétale. On pense que les forts champs psi auxquels il a été exposé lors de sa formation ont significativement influencé sa forme et ses propriétés. De ce fait, il offre une opportunité unique d'étudier l'influence de ces phénomènes encore mal compris.</text>
+	</string>	
+
+	<string id="st_af_ah_r3">
+		<text>Mycélium</text>
+	</string>
+	<string id="st_af_ah_r3_descr">
+		<text>Artefact trouvé uniquement dans la Forêt Morte au sud du Laboratoire X-9, composé principalement de matière végétale. On pense que les forts champs psi auxquels il a été exposé lors de sa formation ont significativement influencé sa forme et ses propriétés. De ce fait, il offre une opportunité unique d'étudier l'influence de ces phénomènes encore mal compris.</text>
+	</string>	
+
+	<string id="st_af_ah_r4">
+		<text>Mycélium</text>
+	</string>
+	<string id="st_af_ah_r4_descr">
+		<text>Artefact trouvé uniquement dans la Forêt Morte au sud du Laboratoire X-9, composé principalement de matière végétale. On pense que les forts champs psi auxquels il a été exposé lors de sa formation ont significativement influencé sa forme et ses propriétés. De ce fait, il offre une opportunité unique d'étudier l'influence de ces phénomènes encore mal compris.</text>
+	</string>	
+
+	<string id="st_af_ah_r5">
+		<text>Mycélium</text>
+	</string>
+	<string id="st_af_ah_r5_descr">
+		<text>Artefact trouvé uniquement dans la Forêt Morte au sud du Laboratoire X-9, composé principalement de matière végétale. On pense que les forts champs psi auxquels il a été exposé lors de sa formation ont significativement influencé sa forme et ses propriétés. De ce fait, il offre une opportunité unique d'étudier l'influence de ces phénomènes encore mal compris.</text>
+	</string>	
+
+	<string id="st_kovalev_pda_name">
+		<text>Ordinateur portable de Kovalev</text>
+	</string>
+
+	<string id="st_kovalev_pda_descr">
+		<text>L'ordinateur portable contient les données de la dernière étude de terrain des zones anomales autour de l'Institut de Recherche Agroprom, menée par Kovalev. Parmi les fichiers figure une carte avec les emplacements exacts des zones anomales que je dois investiguer.</text>
+	</string>	
+
+	<string id="st_pirogov_pda_name">
+		<text>PDA de l'assistant</text>
+	</string>
+
+	<string id="st_pirogov_pda_descr">
+		<text>PDA d'un stalkers décédé ayant aidé le candidat Pirogov à placer des prototypes dans des anomalies de la zone de la Décharge. Il contient tous les emplacements restants que je dois scanner.</text>
+	</string>		
+
+	<string id="st_strelok_pda_name">
+		<text>PDA d'un Stalker décédé</text>
+	</string>
+
+	<string id="st_strelok_pda_descr">
+		<text>PDA d'un stalkers décédé ayant réussi à marquer des zones anomales dans la Forêt Rouge, mais intercepté par une escouade de Monolithe lors du retour. L'écran est couvert de sang séché, et certains boutons ne fonctionnent pas.</text>
+	</string>		
+
+	<string id="st_chernov_pda_name">
+		<text>Rapport n°9 de l'opération « Arc-en-ciel » : « De la nature de la formation des artefacts »</text>
+	</string>
+
+	<string id="st_chernov_pda_descr">
+		<text>Liasse de documents en provenance du Laboratoire X-19. La plupart des pages sont humides et illisibles. Cependant, les fragments d'images et de diagrammes encore visibles contiennent des informations sur la formation de certains artefacts « sur les arbres » dans la forêt au sud du complexe du laboratoire X-19.</text>
+	</string>		
+
+	<string id="st_vorobushkin_pda_name">
+		<text>Module mémoire du VNZ « Kroug »</text>
+	</string>
+
+	<string id="st_vorobushkin_pda_descr">
+		<text>Module prélevé sur l'équipement de la station de sondage à retour d'inclinaison « Krug ». Restauré par le professeur Vorobushkin. Il contient un spectrogramme des émissions anomales autour de la station, ainsi qu'une carte de leurs formations.</text>
+	</string>	
+
+	<string id="ah_gramota_info">
+		<text>Lettre de recommandation</text>
+	</string>
+
+	<string id="ah_gramota_desc">
+		<text>Lettre de reconnaissance personnalisée saluant vos contributions à la science, signée personnellement par l'académicien Skabinsky. Elle inclut également une recommandation pour accepter le porteur de ce document en tant que candidat à l'Institut Zonal de Tchernobyl.</text>
+	</string>	
+</string_table>

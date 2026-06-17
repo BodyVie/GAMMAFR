@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="duty_girl_hunting_chimera_title">
+		<text>Chasse à la Chimère</text>
+	</string>
+	<string id="duty_girl_hunting_chimera_descr_1">
+		<text>J'ai accepté d'aider Anna à traquer une Chimère. Retrouvez-la au Marché aux Puces.</text>
+	</string>
+	<string id="duty_girl_hunting_chimera_descr_2">
+		<text>J'ai accepté d'aider Anna à traquer une Chimère. Nous attaquons la tanière du monstre.</text>
+	</string>
+	<string id="duty_girl_hunting_chimera_descr_3">
+		<text>La créature est morte. Retournez pour recevoir votre récompense.</text>
+	</string>
+	
+	<string id="duty_girl_monolith_elite_title">
+		<text>Nettoyer la route vers le nord</text>
+	</string>
+	<string id="duty_girl_monolith_elite_descr_1">
+		<text>Devoir s'apprête à lancer une attaque contre un escadron haut gradé de Monolithe. Toute aide est la bienvenue, avec la promesse d'une récompense.</text>
+	</string>
+	<string id="duty_girl_monolith_elite_descr_2">
+		<text>L'attaque a commencé. Aidez Devoir à combattre les ennemis.</text>
+	</string>
+	<string id="duty_girl_monolith_elite_descr_3">
+		<text>L'attaque a été couronnée de succès. Il est temps de récupérer votre récompense.</text>
+	</string>
+	
+	<string id="duty_girl_loot_stash_title">
+		<text>Récompense bonus</text>
+	</string>
+	<string id="duty_girl_loot_stash_descr_1">
+		<text>Des coordonnées de cache m'ont été remises en guise de bonus pour avoir assisté Devoir lors de la mission précédente.</text>
+	</string>
+	
+	<string id="duty_girl_capture_the_brirge_title">
+		<text>Capture du pont</text>
+	</string>
+	<string id="duty_girl_capture_the_brirge_descr_1">
+		<text>Devoir souhaite prendre le contrôle du pont dans la Forêt Rouge. Ils sont sur le point de frapper. Toute aide est la bienvenue, avec la promesse d'une récompense.</text>
+	</string>
+	<string id="duty_girl_capture_the_brirge_descr_2">
+		<text>L'attaque a commencé. Aidez Devoir à combattre les ennemis.</text>
+	</string>
+	<string id="duty_girl_capture_the_brirge_descr_3">
+		<text>L'attaque a été couronnée de succès. Il est temps de récupérer votre récompense.</text>
+	</string>
+</string_table>

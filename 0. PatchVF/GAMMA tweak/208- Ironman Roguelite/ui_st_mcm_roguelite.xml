@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_menu_roguelite">
+		<text>Mode Ironman Roguelite</text>
+	</string>
+
+    <!--Global Settings-->
+    <string id="ui_mcm_roguelite_title">
+        <text>Paramètres Ironman Roguelite des Jabbers</text>
+    </string>
+    <string id="ui_mcm_roguelite_global_description">
+        <text>Paramètres globaux</text>
+    </string>
+    <string id="ui_mcm_roguelite_is_roguelite_enabled">
+        <text>Activé</text>
+    </string>
+
+    <!--Player Stash Settings-->
+    <string id="ui_mcm_roguelite_stashes_description">
+        <text>Persistance des caches du joueur</text>
+    </string>
+    <string id="ui_mcm_roguelite_is_stash_restore_enabled">
+        <text>Rétablir les caches</text>
+    </string>
+    <string id="ui_mcm_roguelite_show_stashes_on_pda">
+        <text>Afficher les caches du joueur restaurés sur votre PDA</text>
+    </string>
+    <string id="ui_mcm_roguelite_stash_item_condition_loss_percent">
+        <text>Pourcentage de dégradation de l'état des objets entre les parties</text>
+    </string>
+    <string id="ui_mcm_roguelite_is_money_restore_enabled">
+        <text>Rétablir l'argent</text>
+    </string>
+    
+    <!--Player Corpse Settings-->
+    <string id="ui_mcm_roguelite_drop_player_inventory_description">
+        <text>Persistance des cadavres du joueur</text>
+    </string>
+    <string id="ui_mcm_roguelite_drop_player_inventory_on_death_enabled">
+        <text>Rétablir le dernier cadavre</text>
+    </string>
+    <string id="ui_mcm_roguelite_drop_player_inventory_item_loss_chance">
+        <text>Pourcentage de perte d'objets dans l'inventaire</text>
+    </string>
+	<string id="ui_mcm_roguelite_drop_player_inventory_item_loss_chance_desc">
+		<text>Il s'agit d'une probabilité, et non d'une garantie. Exemple : une chance de 25 % signifie que chaque objet sur votre cadavre fait l'objet d'un lancer de dé et a 25 % de chances d'être perdu.</text>
+	</string>
+    <string id="ui_mcm_roguelite_drop_player_inventory_item_loss_max_ingame_time_enabled">
+        <text>Activation de la perte de temps</text>
+    </string>
+    <string id="ui_mcm_roguelite_drop_player_inventory_item_loss_max_ingame_time_seconds">
+        <text>Durée de perte (en secondes) pour un pourcentage de perte d'objets maximal</text>
+    </string>
+	<string id="ui_mcm_roguelite_drop_player_inventory_item_loss_max_ingame_time_seconds_desc">
+		<text>Vos paramètres sont les suivants : probabilité de perte d'objet de 25 %, durée de perte d'objet de 1 heure.
+Vous mourez dans l'entrepôt militaire en tant que Solitaire.
+Au prochain démarrage, il vous faudra 45 minutes pour atteindre l'entrepôt militaire et récupérer votre cadavre.
+Le pourcentage de perte d'objet serait de 0,75 x 0,25, car il vous a fallu trois quarts d'heure pour rejoindre votre cadavre.
+</text>
+	</string>
+
+    <!--Trader Reputation Settings-->
+    <string id="ui_mcm_roguelite_trader_rep_description">
+        <text>Persistance de la réputation auprès des marchands</text>
+    </string>
+    <string id="ui_mcm_roguelite_is_trader_rep_restore_enabled">
+        <text>Rétablir la réputation auprès des marchands</text>
+    </string>
+    <string id="ui_mcm_roguelite_trader_rep_penalty_percent">
+        <text>Pourcentage de perte de réputation auprès des marchands entre les parties</text>
+    </string>
+
+    <!--Charater Reputation Settings-->
+    <string id="ui_mcm_roguelite_character_rep_description">
+        <text>Persistance de la réputation des personnages</text>
+    </string>
+    <string id="ui_mcm_roguelite_is_character_rep_restore_enabled">
+        <text>Rétablir la réputation des personnages</text>
+    </string>
+    <string id="ui_mcm_roguelite_character_rep_penalty_percent">
+        <text>Pourcentage de perte de réputation des personnages entre les parties</text>
+    </string>
+    <string id="ui_mcm_roguelite_character_rank_penalty_percent">
+        <text>Pourcentage de perte de rang des personnages entre les parties</text>
+    </string>
+    
+    <string id="ui_mcm_roguelite_debug_description">
+        <text>Paramètres de débogage</text>
+    </string>
+    <string id="ui_mcm_roguelite_debug">
+        <text>Débogage</text>
+    </string>
+</string_table>

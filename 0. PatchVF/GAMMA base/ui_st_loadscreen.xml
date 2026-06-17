@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ls_header">
+		<text>S.T.A.L.K.E.R. G.A.M.M.A. 0.9.5</text>
+	</string>
+	<string id="ls_tip_number">
+		<text>Manuel, Lore et Histoires #</text>
+	</string>
+	<string id="ls_tip_1">
+		<text>Les armes doivent être réparées pour progresser, car vous ne pouvez pas les acheter auprès des marchands. En effet, l'UE et l'ONU ont décidé de mettre un terme aux effusions de sang dans la Zone ainsi qu'au trafic d'armes depuis la Zone vers les pays voisins en tentant de limiter la circulation des armes. Aucune faction ne souhaite avoir de problèmes avec davantage de Sociétés Militaires Privées financées par ces organisations, d'autant que les SMP pullulent déjà dans la Zone.</text>
+	</string>
+	<string id="ls_tip_2">
+		<text> L'état d'une arme est distinct de l'état de ses pièces. L'état de l'arme représente sa propreté et influence la vitesse de dégradation des pièces. L'état du canon affecte les dégâts et la pénétration des munitions. L'état des autres pièces influence la fréquence des enrayages. Les pièces peuvent être échangées sur le terrain par glisser-déposer.</text>
+	</string>
+	<string id="ls_tip_3">
+		<text>Récupérez les pièces d'arme dont l'état est supérieur à 60 % et réparez-les avec l'outil adapté pour atteindre 100 % (consultez les détails de la pièce). Manipuler les pièces en les insérant ou en les retirant de l'arme augmente son niveau d'encrassement.</text>
+	</string>
+	<string id="ls_tip_4">
+		<text>« Limiter le trafic d'armes ?! Dites ça aux politiques quand vous avez une horde de Monolithiens devant vous ! Pourquoi croient-ils que le Monolithe est de retour après toutes ces années ?! Que l'UE et l'ONU aillent se faire voir ! » - Illich Popov, Solitaire vétéran.</text>
+	</string>
+	<string id="ls_tip_5">
+		<text>Les armures et les casques peuvent être réparés en collectant et en restaurant des pièces dont l’état est supérieur à 50 %, puis en les échangeant via le menu de l’établi (clic droit sur un kit d’outils pour ouvrir l’établi). Vous aurez besoin du kit de réparation adapté.</text>
+	</string>
+	<string id="ls_tip_6">
+		<text>Pour progresser rapidement, accomplissez des missions, tuez des mutants, récupérez leurs parties, conservez ces parties pour réaliser les missions des stalkers, collectez les coordonnées des caches, visitez ces caches, obtenez du bon butin, récupérez des boîtes à outils et réparez ce butin. Effectuez des missions, améliorez votre bienveillance, reposez-vous, rendez visite aux marchands et achetez de nouvelles munitions de qualité pour votre équipement.</text>
+	</string>
+	<string id="ls_tip_7">
+		<text>Utilisez des objets de soin basiques comme medkits ou bandages pour soigner votre santé principale. Cela soignera aussi temporairement vos membres (PV jaunes). Pour convertir les PV temporaires en PV permanents pour vos membres (jaunes en PV blancs), utilisez des objets de soin post-guérison (comme l’Ibuprofène, avec des points blancs dans leur description).</text>
+	</string>
+	<string id="ls_tip_8">
+		<text>Le craft est essentiel pour survivre. Cliquez avec le bouton droit sur n'importe quel kit d'outillage pour « ouvrir l'établi ». Vous accéderez alors au menu de craft, où la plupart des recettes sont déjà débloquées. Pensez à démonter les armures et les armes dont vous n'avez pas besoin, ainsi que les objets inutiles, identifiables par une petite roue dentée sur leur icône, afin de récupérer des composants de craft.</text>
+	</string>
+	<string id="ls_tip_9">
+		<text>Maintenir la touche Ctrl gauche enfoncée sur un objet affichera ses statistiques, comme si l'objet était réparé à son état maximal.</text>
+	</string>
+	<string id="ls_tip_10">
+		<text>Lors de l'accès à un conteneur (coffre, cadavre, etc.), maintenez la touche Majuscule en survolant un objet pour le transférer rapidement dans votre inventaire.</text>
+	</string>
+	<string id="ls_tip_11">
+		<text>Les munitions peuvent être assez lourdes, mais les composants de munitions démontées sont très légers : conservez ces pièces et fabriquez des munitions en déplacement avec votre trousse de gunsmith. Assurez-vous de démonter toutes les munitions inutiles.</text>
+	</string>
+	<string id="ls_tip_12">
+		<text>Vous pouvez faire un clic droit et marquer certains objets comme « Favoris » et d'autres comme « Camelote ». Cela vous donnera un accès facile aux objets importants, qui seront toujours en haut de chaque conteneur d'inventaire. C'est l'inverse pour la camelote : elle sera toujours en bas des inventaires.</text>
+	</string>
+	<string id="ls_tip_13">
+		<text>Vous n'avez pas besoin de tous les objets médicaux pour soigner votre corps. Marquez les plus importants comme favoris pour y accéder facilement.</text>
+	</string>
+	<string id="ls_tip_14">
+		<text>L'eau minérale est bien plus légère que les gourdes pour étancher votre soif. Conservez les gourdes dans votre cache principal pour cuisiner des aliments à base de mutants, qui sont meilleurs que les produits importés pour remplir votre estomac.</text>
+	</string>
+	<string id="ls_tip_15">
+		<text>" Bonjour Stalker, vous êtes nouveau par ici, n'est-ce pas ? Pas de munitions sophistiquées pour vous, nous ne vous faisons pas encore confiance... Je vois que vous avez ce vieux PPSh de votre grand-père, non ? Voici quelques munitions 7,62x25, c'est tout ce que vous obtiendrez pour aujourd'hui. Maintenant, allez chasser ces mutants et rendez la Zone plus sûre." - Petrenko</text>
+	</string>
+	<string id="ls_tip_16">
+		<text>« Mais qu'est-ce que c'est que cette histoire, pas de café ?! Vous me dites qu'on peut importer des litres de vodka, de bière, d'eau pétillante et de boissons énergisantes, mais je ne peux pas avoir quelques foutues graines de café dans ce trou paumé ? »</text>
+	</string>
+	<string id="ls_tip_17">
+		<text>Les marchands vendent principalement des fournitures et quelques accessoires. Vous pouvez augmenter leur niveau de stock en accomplissant des missions pour la faction du marchand. Les seuils de bonne volonté sont : 500, 1000, 1500 et 2000. C'est le principal moyen d'assurer un approvisionnement constant en bonnes munitions. Consultez l'onglet « Relations » de votre PDA et activez « Afficher les chiffres » pour vérifier votre niveau de bonne volonté avec toutes les factions.</text>
+	</string>
+	<string id="ls_tip_18">
+		<text>Les marchands appartiennent soit au type OTAN, soit au type Pacte de Varsovie. Cela influence le type de fournitures qu'ils proposent (principalement des munitions et des accessoires). Factions OTAN : Mercenaires, Firmament, Liberté, UNISG. Factions Pacte de Varsovie : Militaires, Solitaires, Devoir, Bandits, Renégats, Monolithe.</text>
+	</string>
+	<string id="ls_tip_19">
+		<text>Certains marchands vendent des objets très spécifiques, comme le Prof. Sakharov et Hermann. Ils proposent le Artefacts Melter, un kit spécifique qui permet d'améliorer et de fabriquer des Artefacts (et de décomposer des Artefacts pour recharger l'énergie du Melter). Ils vendent également des recettes de PSU pour exosquelettes à un niveau d'approvisionnement élevé.</text>
+	</string>
+	<string id="ls_tip_20">
+		<text>L'entretien d'un exosquelette représente un gouffre financier, car vous devez souvent acheter des batteries exo coûteuses en grande quantité... Ou bien vous pouvez les récupérer sur les cadavres encore froids de vos ennemis.</text>
+	</string>
+	<string id="ls_tip_21">
+		<text>Votre personnage sera fatigué en fin de journée. Vous devez dormir pour reconstituer votre énergie. Vous ne pouvez dormir que si vous êtes suffisamment épuisé. L’utilisation de somnifères vous permettra de dormir de force. Boire de la vodka et consommer des repas riches en calories favorise également le sommeil. À l’inverse, les comprimés de caféine et les boissons énergisantes vous maintiendront éveillé plus longtemps.</text>
+	</string>
+	<string id="ls_tip_22">
+		<text>Vous aurez une chance de vous réveiller plus tôt si vous n'utilisez pas un équipement de couchage adapté (sac de couchage et tapis de sol). Si vous dormez dans des lits « libres », essayez de dormir plus longtemps que prévu, car ils sont inconfortables et d'autres stalkers peuvent être bruyants, ce qui pourrait vous réveiller prématurément.</text>
+	</string>
+	<string id="ls_tip_23">
+		<text>Assurez-vous d'utiliser les munitions adaptées à chaque cible. Les stalkers lourdement blindés nécessiteront des munitions perforantes de gros calibre pour être éliminés facilement, tandis que les mutants redoutent les munitions HP et les cartouches à chevrotines. Ces dernières peuvent fonctionner contre un bandit moyen, mais pas contre un Monolithe équipé d'un exosquelette Nosorog.</text>
+	</string>
+	<string id="ls_tip_24">
+		<text>Une fois que vous avez acquis une certaine bienveillance auprès d’une faction, vous recevrez des messages aléatoires vous indiquant de trouver des colis dans certaines zones. Pour les localiser, équipez votre Récepteur RF et appuyez sur la touche du détecteur. Rangez votre arme et commencez à ajuster la fréquence du Récepteur RF pour qu’elle corresponde à celle indiquée dans le message, en utilisant les boutons de la souris et la touche Maj.</text>
+	</string>
+	<string id="ls_tip_25">
+		<text>Les caches doivent être marquées pour contenir des objets. Les caches non marquées seront toujours vides. Le contenu des caches est lié à la carte sur laquelle elles apparaissent : plus une cache se situe au nord dans la Zone, meilleur sera le butin. Vous pouvez obtenir des emplacements de caches en accomplissant des missions ou en les trouvant sur des ennemis morts et dans leur PDA.</text>
+	</string>
+	<string id="ls_tip_26">
+		<text>Stocker des objets dans des caches est sûr : ils ne seront pas pillés par d'autres stalkers et, même si la cache est marquée à un moment donné, son contenu apparaîtra en plus de ce que vous y aviez précédemment entreposé.</text>
+	</string>
+	<string id="ls_tip_27">
+		<text>Pour cuisiner, vous n'avez pas nécessairement besoin de charbon : placez-vous près d'un feu de camp et ouvrez le menu de cuisine depuis un kit de cuisson. Si cela ne fonctionne pas, rapprochez-vous du feu de camp.</text>
+	</string>
+	<string id="ls_tip_28">
+		<text>Les Artefacts apparaissent dans un état de « condition » faible, ce ne sont presque que des cailloux inutiles, déformant à peine la réalité à leur proximité. Cependant, vous pouvez les renforcer en fusionnant deux Artefacts de même type à l'aide du Artefacts Melter, que vous pouvez acheter auprès du professeur Sakharov, pour les rendre bien plus puissants et, éventuellement, défier les lois de la physique...</text>
+	</string>
+	<string id="ls_tip_29">
+		<text>Le Artefacts Fusionneur, que vous pouvez acheter auprès des Scientifiques, permet de fusionner différents Artefacts pour en créer de nouveaux, plus puissants.</text>
+	</string>
+	<string id="ls_tip_30">
+		<text>Appuyer sur la touche Alt gauche dans l'écran de loot permet de ramasser et de récupérer automatiquement tout ce qui a de la valeur. Le comportement de loot peut être configuré dans le Menu de Configuration des Mods (MCM).</text>
+	</string>
+	<string id="ls_tip_31">
+		<text>Porter les armures d'une autre faction vous permet de vous déguiser en membre de cette faction si l'écusson de l'armure est visible. Ne tentez pas le diable, cependant : si vous vous approchez trop, les stalkers perceront votre subterfuge. Arrachez l'écusson pour être identifié comme appartenant à votre propre faction.</text>
+	</string>
+	<string id="ls_tip_32">
+		<text>La radioactivité réduit progressivement votre santé et diminue votre endurance maximale. Plus vous êtes irradié, plus vos organes vitaux seront endommagés par les particules radioactives. Cela provoque des toux sévères et des blessures graves. Pensez à porter un masque à gaz adapté à la zone où vous vous rendez.</text>
+	</string>
+	<string id="ls_tip_33">
+		<text>Plus vous vous dirigez vers le nord, plus les radiations deviennent dangereuses. Assurez-vous de disposer d'un masque à gaz adapté avant de vous aventurer dans les zones septentrionales. Les Entrepôts de l'armée sans masque à gaz peuvent vous tuer si vous traversez une zone de radiation intense sans médicament anti-radiation approprié.</text>
+	</string>
+	<string id="ls_tip_34">
+		<text>Évitez la surcharge, elle vous ralentira et finira par vous coûter la vie. Pensez à vendre périodiquement les objets superflus dont vous n’avez pas besoin, ou à les stocker pour une utilisation ultérieure. Les sacs à dos achetés auprès des marchands peuvent servir de cache.</text>
+	</string>
+	<string id="ls_tip_35">
+		<text>Chasser les mutants vous rapportera certaines de leurs parties grâce aux net. De plus, vous obtiendrez leur viande, que vous pourrez cuisiner pour vous nourrir si vos finances sont limitées. Vous pouvez faire bouillir la viande pour réduire sa radioactivité. Sinon, ayez toujours quelque chose sous la main pour éliminer les radiations après un tel repas.</text>
+	</string>
+	<string id="ls_tip_36">
+		<text>Les trousses à outils basiques, avancées et expertes sont requises par de nombreux mécaniciens pour effectuer certaines améliorations sur les armes et les tenues. Ces objets peuvent souvent être trouvés dans les caches reçues en récompense pour l'accomplissement de missions.</text>
+	</string>
+	<string id="ls_tip_37">
+		<text>Il est préférable de vous familiariser avec les kits de couture, l'huile pour armes et les tubes de colle. Ces articles permettent de maintenir votre équipement en parfait état sur le terrain bien plus longtemps. Les kits de réparation complets sont plus efficaces, mais aussi plus rares, plus lourds et plus coûteux.</text>
+	</string>
+	<string id="ls_tip_38">
+		<text>Le Cimetière de véhicules est un vaste cimetière de véhicules agricoles, civils et militaires irradiés. C'est un excellent endroit pour cacher une cache, et un stalker observateur pourrait y trouver de nombreuses objets de valeur parmi les épaves.</text>
+	</string>
+	<string id="ls_tip_39">
+		<text>Les Artefacts constituent les meilleurs renforts d'armure qu'un stalker puisse avoir. N'oubliez pas de vérifier leurs statistiques maximales en appuyant sur Ctrl gauche tout en les survolant.</text>
+	</string>
+	<string id="ls_tip_40">
+		<text>Le rang comporte huit niveaux différents et peut être augmenté par presque toute activité en jeu. Certaines fonctionnalités peuvent nécessiter d'atteindre un rang élevé avant de pouvoir être utilisées ou entièrement débloquées.</text>
+	</string>
+	<string id="ls_tip_41">
+		<text>La réputation représente la façon dont un stalker est perçu par sa faction. Elle s'acquiert ou se perd en aidant ou en nuisant respectivement à des stalkers non hostiles.</text>
+	</string>
+	<string id="ls_tip_42">
+		<text>Pensez à demander aux stalkers réguliers s'ils ont des missions disponibles. Même s'ils ne sont pas importants, ils pourraient être prêts à vous payer pour effectuer des tâches ingrates.</text>
+	</string>
+	<string id="ls_tip_43">
+		<text>L'arène de Rostok accueille deux types de compétitions : les combats traditionnels où les stalkers s'affrontent pour des récompenses en espèces, ou des défis où ils tentent de tuer des mutants de plus en plus coriaces.</text>
+	</string>
+	<string id="ls_tip_44">
+		<text>Accéder au panneau « Tableau des missions » de votre PDA vous permettra de rechercher et d'accepter des missions proposées par les stalkers alentour.</text>
+	</string>
+	<string id="ls_tip_45">
+		<text>Vous pouvez interroger Cold, Spore et les autres personnages majeurs de Firmament sur leur histoire. Cela peut éclairer la survie globale de leur faction... et vous pourriez obtenir de nouvelles missions à accomplir.</text>
+	</string>
+	<string id="ls_tip_46">
+		<text>Liberté occupe entièrement la gare de Yanov dans Jupiter après le départ de Shulga pour combattre le Monolithe renaissant. De nombreux stalkers qui avaient précédemment quitté Liberté l'ont depuis rejointe pour renforcer sa position.</text>
+	</string>
+	<string id="ls_tip_47">
+		<text>Une barrière psychique puissante vous empêchera de traverser la forêt rouge et de progresser plus au nord. Obtenez le casque-psy auprès de Sakharov pour pouvoir franchir cette zone.</text>
+	</string>
+	<string id="ls_tip_48">
+		<text>Il est bien plus facile d'éviter d'être repéré en voyageant de nuit ou sous une forte pluie. Cependant, vous risquez de rencontrer des mutants nocturnes particulièrement agressifs.</text>
+	</string>
+	<string id="ls_tip_49">
+		<text>Si vous n'êtes pas assez fatigué pour dormir, boire de la bière ou de la vodka, ou utiliser des somnifères, vous aidera à vous endormir. Dormir soignera vos membres, mais pas vos points de vie principaux.</text>
+	</string>
+	<string id="ls_tip_50">
+		<text>Il est conseillé de comparer les prix des aliments sains et propres chez les tenanciers de bars et d'en emporter avec vous. N'oubliez pas de vous procurer de quoi étancher votre soif pendant que vous y êtes.</text>
+	</string>
+	<string id="ls_tip_51">
+		<text>Si les choses deviennent trop difficiles pour vous, vous pouvez essayer de réduire la difficulté via le menu de progression. Vous pouvez y accéder en appuyant sur F1 depuis le menu principal après avoir chargé la partie.</text>
+	</string>
+	<string id="ls_tip_52">
+		<text>Les bases de faction disposent généralement d'un médecin capable de vous soigner et d'éliminer votre radiation pour une somme modique. Vous pouvez également y acheter des médicaments à des prix inférieurs à ceux pratiqués ailleurs.</text>
+	</string>
+	<string id="ls_tip_53">
+		<text>Les scientifiques n'ont jamais assez de pièces de mutants, en particulier celles provenant des espèces rares. Celles-ci peuvent se vendre à bon prix, et les scientifiques pourraient vous charger de trouver des échantillons spécifiques pour une rémunération encore plus élevée.</text>
+	</string>
+	<string id="ls_tip_54">
+		<text>Emportez toujours une lampe torche et envisagez d'investir dans des lunettes de vision nocturne. Vous ignorez quand vous pourriez vous retrouver la nuit, loin d'un endroit sûr.</text>
+	</string>
+	<string id="ls_tip_55">
+		<text>Récupérez chaque balle, quel que soit son type, et stockez-la. Vous pourriez en avoir besoin demain. Ou peut-être pas, mais prenez-la quand même : leur démontage vous fournira des pièces pour fabriquer des net, utilisables avec un kit de gunsmith.</text>
+	</string>
+	<string id="ls_tip_56">
+		<text>Investir dans une protection psychique vous permettra d'aller loin dans la Zone. À minima, procurez-vous des pilules psy-blockant, on ne sait jamais quand vous croiserez un controller.</text>
+	</string>
+	<string id="ls_tip_57">
+		<text>Fiez-vous à vos oreilles. Le son porte au-delà des collines et à travers les buissons denses. Un bruit faible mais familier peut être tout ce dont vous avez besoin pour vous préparer à une attaque surprise.</text>
+	</string>
+	<string id="ls_tip_58">
+		<text>Ne jetez pas votre pistolet, conservez-le comme arme de secours. Léger, facile à manier et peu coûteux à entretenir, si vous en prenez soin, votre pistolet saura vous protéger, en particulier les modèles en .45 Hydrashock ou .357 HP contre les mutants.</text>
+	</string>
+	<string id="ls_tip_59">
+		<text>Les marchands vous confieront des missions plus difficiles à mesure que vous gagnez en réputation auprès de leurs factions. Bien que mieux rémunérées, ces missions sont plus dangereuses et mettront vos compétences à l'épreuve.</text>
+	</string>
+	<string id="ls_tip_60">
+		<text>Envisagez de conserver certains des artefacts que vous trouvez, leurs propriétés pourraient vous permettre d'en obtenir de nouveaux par la suite.</text>
+	</string>
+	<string id="ls_tip_61">
+		<text>Si vous vous retrouvez largement surpassé en nombre et en équipement, envisagez de fuir. Non seulement vous sauverez votre vie, mais vous préserverez également votre argent et vos médicaments.</text>
+	</string>
+	<string id="ls_tip_62">
+		<text>Si vous êtes pris pour cible : restez calme, comptez leurs tirs et attaquez lorsqu'ils rechargent.</text>
+	</string>
+	<string id="ls_tip_63">
+		<text>Ayez toujours sur vous de quoi stopper une hémorragie. Un médecin pourra soigner vos blessures à moindre coût par la suite, mais seulement si vous ne vous videz pas de votre sang en chemin.</text>
+	</string>
+	<string id="ls_tip_64">
+		<text>La plupart des stalkers préfèrent chasser les artefacts dans les parties sud de la Zone, mais les stalkers expérimentés savent que les meilleurs spots se trouvent tous au nord de la Forêt Rouge. Peu survivent longtemps dans ces zones sans préparation, cependant.</text>
+	</string>
+	<string id="ls_tip_65">
+		<text>Si vous affrontez un controller, essayez de placer un objet (arbre, rocher, mur) pour bloquer sa ligne de vue. S'il ne vous voit pas, il ne peut pas vous contrôler.</text>
+	</string>
+	<string id="ls_tip_66">
+		<text>Les stimulants sont très utiles. Ils vous soignent bien plus rapidement qu'un medkits.</text>
+	</string>
+	<string id="ls_tip_67">
+		<text>Les stimulants antidouleur offrent une réduction de dégâts très précieuse ainsi qu'un contrôle des saignements. Utilisez-les avant de charger au combat.</text>
+	</string>
+	<string id="ls_tip_68">
+		<text>Les MP7 et P90 sont des pistolets-mitrailleurs légers offrant un excellent contrôle du recul et une grande maniabilité. Vous pouvez même les utiliser d'une seule main.</text>
+	</string>
+	<string id="ls_tip_69">
+		<text>La radio RF vous aidera à trouver des objets éloignés et cachés. Vous pouvez modifier la fréquence de la radio en utilisant les boutons LMB, RMB, Shift + LMB/RMB et Alt + LMB/RMB, à condition d'avoir l'autre main libre.</text>
+	</string>
+	<string id="ls_tip_70">
+		<text>Pensez à consulter le PDA des stalkers décédés, vous pourriez y trouver des informations utiles. Si vous ne parvenez pas à y accéder, vous pouvez demander à une personne compétente en technologie de l'ouvrir pour vous.</text>
+	</string>
+	<string id="ls_tip_71">
+		<text>Écoutez les sons émis par les anomalies : votre ouïe peut parfois mieux indiquer leur position que votre vue.</text>
+	</string>
+	<string id="ls_tip_72">
+		<text>Emportez le strict minimum lorsque vous sortez, afin de pouvoir ramasser davantage d'objets utiles et les vendre aux marchands à votre retour.</text>
+	</string>
+	<string id="ls_tip_73">
+		<text>Gardez votre détecteur de artefacts sorti aussi souvent que possible à proximité des champs anormaux. Vous seriez surpris de voir à quel point les artefacts sont courants dans la Zone.</text>
+	</string>
+	<string id="ls_tip_74">
+		<text>Être un stalker sournois et traître peut s'avérer économiquement avantageux, mais tôt ou tard, ceux qui vous détestent chercheront à se débarrasser de vous. Même si vous vous faites discret, vous serez traqué.</text>
+	</string>
+	<string id="ls_tip_75">
+		<text>Retenez les sons émis par les mutants. Savoir ce qui vous guette facilite la gestion de la situation de la meilleure manière possible.</text>
+	</string>
+	<string id="ls_tip_76">
+		<text>Selon les rumeurs, un stalker lourdement blindé, équipé d'artefacts spécifiques, aurait massacré à la hache tout un régiment de soldats Monolithe sous emprise psychique.</text>
+	</string>
+	<string id="ls_tip_77">
+		<text>Ayez toujours une lame-chargeur de munitions perforantes sur vous, quelle que soit l'arme que vous utilisez. Les Mutants ne portent pas d'armure, mais les stalkers hostiles, si.</text>
+	</string>
+	<string id="ls_tip_78">
+		<text>Butcher est considéré comme une légende dans les zones sud de la Zone. Lorsqu'il est arrivé à la Décharge, celle-ci grouillait de mutants et la région était inhospitalière pour les stalkers. Je ne crois pas aux histoires que certains racontent, selon lesquelles il l'aurait nettoyée seul, mais il connaît effectivement beaucoup de choses sur la chasse aux mutants.</text>
+	</string>
+	<string id="ls_tip_79">
+		<text>Les kits de fabrication de médicaments servent à créer vos propres remèdes à partir d'objets que vous auriez autrement jetés, ce qui permet d'économiser beaucoup d'argent.</text>
+	</string>
+	<string id="ls_tip_80">
+		<text>Faites glisser et déposez les pièces réparées sur une arme pour les remplacer. Cela réduira les risques d'enrayage, mais introduira un peu de saleté et de poussière. Pensez simplement à nettoyer votre arme après avoir changé les pièces.</text>
+	</string>
+	<string id="ls_tip_81">
+		<text>L'état du canon influence les dégâts et la pénétration des balles. N'utilisez pas d'armes endommagées. En cliquant avec le bouton droit sur une arme et en sélectionnant « entretenir les pièces », vous pouvez nettoyer le canon d'une arme si son état est supérieur à 60 % à l'aide du kit de nettoyage approprié. Sinon, utilisez un kit de réparation pour remplacer directement le canon.</text>
+	</string>
+	<string id="ls_tip_82">
+		<text>L'état de l'arme est distinct de l'état de ses pièces. L'état de l'arme représente sa propreté et influence la vitesse de dégradation des pièces. L'état du canon affecte les dégâts et la pénétration des munitions. L'état des autres pièces influence la fréquence des enrayages. Les pièces peuvent être échangées sur le terrain par glisser-déposer.</text>
+	</string>
+	<string id="ls_tip_83">
+		<text>Récupérez les pièces d'arme dont l'état est supérieur à 60 % et réparez-les avec l'outil adapté pour atteindre 100 % (consultez les détails de la pièce). Manipuler les pièces en les insérant ou en les retirant de l'arme augmente son niveau d'encrassement.</text>
+	</string>
+	<string id="ls_tip_84">
+		<text>Appuyer sur la touche Alt gauche dans l'écran de loot permet de ramasser et de désassembler automatiquement tout le contenu. Le comportement de loot peut être configuré dans le Menu de Configuration des Mods (MCM).</text>
+	</string>
+	<string id="ls_tip_85">
+		<text>Les armures et les casques peuvent être réparés en collectant et en restaurant des pièces dont l’état est supérieur à 50 %, puis en les échangeant via le menu de l’établi (clic droit sur un kit d’outils pour ouvrir l’établi). Vous aurez besoin du kit de réparation adapté.</text>
+	</string>
+	<string id="ls_tip_86">
+		<text>Péché est un groupe dangereux de fanatiques qui a comploté dans les recoins obscurs de la Zone pendant longtemps. Ils ont maîtrisé des aspects spécifiques de la Zone et de la Noosphère, ce qui les rend bien plus résistants qu'un être humain normal.</text>
+	</string>
+	<string id="ls_tip_87">
+		<text>Utilisez des objets de soin basiques comme medkits ou bandages pour soigner votre santé principale. Cela soignera aussi temporairement vos membres (PV jaunes). Pour convertir ces PV temporaires en PV permanents pour vos membres (PV jaunes en PV blancs), utilisez des objets de soin post-guérison (comme l'Ibuprofène, avec des points blancs dans leur description).</text>
+	</string>
+	<string id="ls_tip_88">
+		<text>Le craft est essentiel pour survivre. Cliquez avec le bouton droit sur n'importe quel kit d'outillage pour « ouvrir l'établi ». Vous accéderez alors au menu de craft, où la plupart des recettes sont déjà débloquées. Pensez à démonter les armures et les armes dont vous n'avez pas besoin, ainsi que les objets inutiles, identifiables par une petite roue dentée sur leur icône, afin de récupérer des composants de craft.</text>
+	</string>
+	<string id="ls_tip_89">
+		<text>Maintenez la touche Ctrl gauche enfoncée sur un objet pour afficher ses statistiques, comme si l'objet était réparé à son état maximal.</text>
+	</string>
+	<string id="ls_tip_90">
+		<text>Lors de l'accès à un conteneur (coffre, cadavre...), maintenir la touche Maj enfoncée tout en survolant un objet le déplacera rapidement vers votre inventaire ou le remettra dans le conteneur.</text>
+	</string>
+	<string id="ls_tip_91">
+		<text>Les munitions peuvent être assez lourdes, mais les composants de munitions démontées sont très légers : conservez ces pièces et fabriquez des munitions en déplacement avec votre trousse de gunsmith. Assurez-vous de démonter toutes les munitions inutiles.</text>
+	</string>
+	<string id="ls_tip_92">
+		<text>Vous pouvez faire un clic droit et marquer certains objets comme "Favoris" et d'autres comme "Camelote". Cela vous donnera un accès facile aux objets importants qui seront toujours en haut de chaque conteneur d'inventaire. C'est l'inverse pour la camelote : elle sera toujours en bas des inventaires.</text>
+	</string>
+	<string id="ls_tip_93">
+		<text>Vous n'avez pas besoin de tous les objets médicaux pour soigner votre corps. Marquez les plus importants comme favoris pour un accès facile.</text>
+	</string>
+	<string id="ls_tip_94">
+		<text>L'eau minérale est bien plus légère que les gourdes pour étancher votre soif. Conservez les gourdes dans votre cache principal pour cuisiner de la viande de mutants, qui est meilleure que les produits importés pour remplir votre estomac.</text>
+	</string>
+	<string id="ls_tip_95">
+		<text>"Bonjour Stalker, tu es nouveau par ici, n'est-ce pas ? Aucune munition sophistiquée pour toi, on ne te fait pas encore confiance... Je vois que tu as ce vieux PPSh de ton grand-père, non ? Voici quelques munitions de 7.62x25, c'est tout ce que tu auras pour aujourd'hui. Maintenant, va chasser ces mutants et rends Zone plus sûr." - Petrenko</text>
+	</string>
+	<string id="ls_tip_96">
+		<text>Comment cela, pas de café ?! Vous me dites que nous pouvons importer des litres de vodka, de bière, d’eau pétillante et de boissons énergisantes, mais que je ne peux pas trouver quelques grains de café dans cet endroit maudit ?</text>
+	</string>
+	<string id="ls_tip_97">
+		<text>Les marchands vendent principalement des fournitures et quelques accessoires. Vous pouvez augmenter leur niveau de stock en accomplissant des missions pour la faction du marchand. Les seuils de bonne volonté sont : 500, 1000, 1500 et 2000. C'est le principal moyen d'assurer un approvisionnement constant en bonnes munitions. Consultez l'onglet « Relations » de votre PDA et activez « Afficher les chiffres » pour vérifier votre niveau de bonne volonté avec toutes les factions.</text>
+	</string>
+	<string id="ls_tip_98">
+		<text>Les marchands appartiennent soit au type OTAN, soit au type Pacte de Varsovie. Cela influence le type de fournitures qu'ils proposent (principalement des munitions et des accessoires). Factions OTAN : Mercenaires, Firmament, Liberté, UNISG. Factions Pacte de Varsovie : Militaires, Solitaires, Devoir, Bandits, Renégats, Monolithe.</text>
+	</string>
+	<string id="ls_tip_99">
+		<text>Certains marchands vendent des objets très spécifiques, comme le professeur Sakharov et Hermann. Ils proposent le Artefacts Melter, un kit d'outillage spécialisé qui permet d'améliorer et de fabriquer des Artefacts (et de les démonter pour recharger l'énergie du Melter). Ils vendent également des recettes de bloc d'alimentation pour exosquelettes lorsque le niveau d'approvisionnement est élevé.</text>
+	</string>
+	<string id="ls_tip_100">
+		<text>L'entretien d'un exosquelette représente un gouffre financier, car vous devez souvent acheter des batteries exo coûteuses en grande quantité... Ou bien vous pouvez les récupérer sur les cadavres encore froids de vos ennemis.</text>
+	</string>
+	<string id="ls_tip_101">
+		<text>Les armes doivent être réparées pour progresser, car vous ne pouvez pas les acheter auprès des marchands. En effet, l'UE et l'ONU ont décidé de mettre un terme aux effusions de sang dans la Zone ainsi qu'au trafic d'armes depuis la Zone vers les pays voisins en tentant de limiter la circulation des armes. Aucune faction ne souhaite avoir de problèmes avec davantage de Sociétés Militaires Privées financées par ces organisations, d'autant que les SMP pullulent déjà dans la Zone.</text>
+	</string>
+	<string id="ls_tip_102">
+		<text>Vous avez une chance de vous réveiller plus tôt que prévu si vous ne disposez pas d'un équipement de couchage adapté (sac de couchage et tapis de sol). Si vous dormez dans des lits "libres", prévoyez de dormir plus longtemps que nécessaire. Ils sont inconfortables et d'autres stalkers peuvent être bruyants, ce qui augmente les risques de vous réveiller avant l'heure.</text>
+	</string>
+	<string id="ls_tip_103">
+		<text>Assurez-vous d'utiliser les munitions adaptées à chaque cible. Les stalkers lourdement blindés nécessiteront des munitions perforantes de gros calibre pour être éliminés facilement, tandis que les mutants redoutent les munitions HP et les cartouches à chevrotines. Ces dernières peuvent fonctionner contre un bandit moyen, mais pas contre un Monolithe équipé d'un exosquelette Nosorog.</text>
+	</string>
+	<string id="ls_tip_104">
+		<text>Une fois que vous avez accumulé suffisamment de bonne volonté auprès d'une faction, vous recevrez des messages aléatoires vous indiquant de trouver des colis dans certaines zones. Pour les localiser, équipez votre Récepteur RF et appuyez sur la touche du détecteur. Rangez votre arme et commencez à ajuster la fréquence du Récepteur RF pour qu'elle corresponde à celle indiquée dans le message, en utilisant les boutons de la souris et la touche Maj.</text>
+	</string>
+	<string id="ls_tip_105">
+		<text>Les caches doivent être marquées pour contenir quoi que ce soit. Les caches non marquées seront toujours vides. Le contenu d'une cache est lié à la carte sur laquelle elle apparaît : plus une cache est située au nord dans la Zone, meilleur sera le butin.</text>
+	</string>
+	<string id="ls_tip_106">
+		<text>Stocker des objets dans des caches est sûr : ils ne seront pas pillés par d'autres stalkers et, même si la cache est marquée à un moment donné, son contenu apparaîtra en plus de ce que vous y aviez précédemment entreposé.</text>
+	</string>
+	<string id="ls_tip_107">
+		<text>Pour cuisiner, vous n'avez pas nécessairement besoin de charbon : placez-vous près d'un feu de camp et ouvrez le menu de cuisine depuis un kit de cuisson. Si cela ne fonctionne pas, rapprochez-vous du feu de camp.</text>
+	</string>
+	<string id="ls_tip_108">
+		<text>Les Artefacts apparaissent dans un état de « condition » faible et ne sont guère plus que des cailloux inutiles, déformant à peine la réalité à leur proximité. Cependant, vous pouvez les renforcer en fusionnant deux Artefacts de même type à l’aide du Artefacts Melter, que vous pouvez acheter auprès du professeur Sakharov. Cela les rendra bien plus puissants et finira par défier les lois de la physique...</text>
+	</string>
+	<string id="ls_tip_109">
+		<text>Péché est un groupe dangereux de fanatiques qui a comploté dans les recoins obscurs de la Zone pendant longtemps. Ils ont maîtrisé des aspects spécifiques de la Zone et de la Noosphère, ce qui les rend bien plus résistants qu'un être humain normal. </text>
+	</string>
+</string_table>

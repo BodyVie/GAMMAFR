@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!-- UNUSED
+
+	<string id="st_wpn_ppk">
+		<text>Walther PPK</text>
+	</string>
+	<string id="st_wpn_ppk_descr">
+		<text>Parmi les premiers pistolets semi-automatiques à double action couronnés de succès au monde, le PPK est une version compacte du Walther PP, dotée d'une poignée, d'un canon et d'une carcasse plus courts, permettant une dissimulation plus aisée.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Allemagne\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Carl Walther GmbH Sportwaffen\n
+		</text>
+	</string>
+
+-->
+
+</string_table>

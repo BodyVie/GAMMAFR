@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_exo_servo_sounds_title">
+		<text>Sons des servomoteurs Exo</text>
+	</string>
+	<string id="ui_mcm_menu_exo_servo_sounds">
+		<text>Sons des servomoteurs Exo</text>
+	</string>
+	<string id="ui_mcm_exo_servo_sounds_volume_walk">
+		<text>Volume (marche)</text>
+	</string>
+	<string id="ui_mcm_exo_servo_sounds_volume_walk_desc">
+		<text>Volume de la marche.</text>
+	</string>
+	<string id="ui_mcm_exo_servo_sounds_volume_land">
+		<text>Volume (atterrissage)</text>
+	</string>
+	<string id="ui_mcm_exo_servo_sounds_volume_land_desc">
+		<text>Volume de l'atterrissage.</text>
+	</string>
+	<string id="ui_mcm_exo_servo_sounds_volume_jump">
+		<text>Volume du saut</text>
+	</string>
+	<string id="ui_mcm_exo_servo_sounds_volume_jump_desc">
+		<text>Volume du saut.</text>
+	</string>
+	<string id="ui_mcm_exo_servo_sounds_discharge">
+		<text>Décharge</text>
+	</string>
+	<string id="ui_mcm_exo_servo_sounds_discharge_desc">
+		<text>Quantité de charge perdue après avoir été touché par une anomalie électro.</text>
+	</string>
+	<string id="ui_mcm_exo_servo_sounds_scale_freq">
+		<text>Mise à l'échelle de la fréquence</text>
+	</string>
+	<string id="ui_mcm_exo_servo_sounds_scale_freq_desc">
+		<text>Échelle de la fréquence sonore en fonction de l'état (marche, rampement, sprint, etc.).</text>
+	</string>
+</string_table>

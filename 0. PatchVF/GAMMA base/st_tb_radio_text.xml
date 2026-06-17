@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<!-- PDA UI -->
+	
+	<string id="cb_pda_cancel">
+		<text>Annuler le colis RF</text>
+	</string>
+
+	<string id="cb_cancel_package_inactive">
+		<text>Tu n’as pas de colis RF actif à annuler.</text>
+	</string>
+	
+	<string id="cb_cancel_package_underground">
+		<text>Le signal ne passe pas depuis le sous-sol.</text>
+	</string>
+	
+	<string id="cb_cancel_package_success">
+		<text>Tu n’en veux pas ? On enverra quelqu’un le récupérer, alors.</text>
+	</string>
+	
+	<!-- PDA MESSAGES -->
+
+	<string id="tb_anon_sender">
+		<text>« Anonyme »</text>
+	</string>
+
+	<!-- PDA MESSAGES -->
+
+	<string id="tb_sooner_rf">
+		<text>Plus vite tu auras un Récepteur RF, plus vite on pourra t’aider... si on peut.</text>
+	</string>
+
+
+	<string id="tb_package_can_be_found">
+		<text>Un colis peut être trouvé quelque part dans </text>
+	</string>
+
+	<string id="tb_use_rf_on_freq">
+		<text>, utilise un Récepteur RF sur la fréquence </text>
+	</string>
+
+	<string id="tb_mhz_to_search">
+		<text> MHz pour le chercher.</text>
+	</string>
+
+
+	<string id="tb_dont_forget">
+		<text>N’oublie pas ce colis dans </text>
+	</string>
+
+	<string id="tb_freq_was_on">
+		<text>, la fréquence était sur </text>
+	</string>
+
+	<string id="tb_the_mhz">
+		<text> MHz.</text>
+	</string>
+	
+	<string id="cb_package_lost">
+		<text>Le colis a été perdu, un nouveau colis peut être trouvé quelque part dans </text>
+	</string>
+
+	<!-- ROUGH LOCATION TEXTS -->
+
+	<string id="tb_loc_n_r">
+		<text>la région nord </text>
+	</string>
+	<string id="tb_loc_ne_r">
+		<text>la région nord-est </text>
+	</string>
+	<string id="tb_loc_e_r">
+		<text>la région est </text>
+	</string>
+	<string id="tb_loc_se_r">
+		<text>la région sud-est </text>
+	</string>
+	<string id="tb_loc_s_r">
+		<text>la région sud </text>
+	</string>
+	<string id="tb_loc_sw_r">
+		<text>la région sud-ouest </text>
+	</string>
+	<string id="tb_loc_w_r">
+		<text>la région ouest </text>
+	</string>
+	<string id="tb_loc_nw_r">
+		<text>la région nord-ouest </text>
+	</string>
+
+	<!-- LEVEL NAMES -->
+
+	<string id="tb_loc_mar">
+		<text>du Grand marais</text>
+	</string>
+	<string id="tb_loc_dsc">
+		<text>du Darkscape</text>
+	</string>
+	<string id="tb_loc_esc">
+		<text>du Cordon</text>
+	</string>
+	<string id="tb_loc_gar">
+		<text>de la Décharge</text>
+	</string>
+	<string id="tb_loc_agr">
+		<text>d'Agroprom</text>
+	</string>
+	<string id="tb_loc_val">
+		<text>de la Vallée Obscure</text>
+	</string>
+	<string id="tb_loc_bar">
+		<text>de Rostok</text>
+	</string>
+	<string id="tb_loc_ros">
+		<text>du Territoire sauvage</text>
+	</string>
+	<string id="tb_loc_mil">
+		<text>des Entrepôts de l'armée</text>
+	</string>
+	<string id="tb_loc_yan">
+		<text>d'Yantar</text>
+	</string>
+	<string id="tb_loc_cit">
+		<text>de la Ville morte</text>
+	</string>
+	<string id="tb_loc_lim">
+		<text>de Limansk</text>
+	</string>
+	<string id="tb_loc_rad">
+		<text>du Radar</text>
+	</string>
+	<string id="tb_loc_red">
+		<text>de la Forêt Rouge</text>
+	</string>
+	<string id="tb_loc_pri">
+		<text>de Pripyat</text>
+	</string>
+	<string id="tb_loc_aes1">
+		<text>du CNPP Sud</text>
+	</string>
+	<string id="tb_loc_aes2">
+		<text>du CNPP Nord</text>
+	</string>
+	<string id="tb_loc_gen">
+		<text>des Générateurs</text>
+	</string>
+	<string id="tb_loc_zat">
+		<text>de Zaton</text>
+	</string>
+	<string id="tb_loc_jup">
+		<text>de Jupiter</text>
+	</string>
+	<string id="tb_loc_out">
+		<text>de la Périphérie</text>
+	</string>
+	<string id="tb_loc_trc">
+		<text>du Cimetière de véhicules</text>
+	</string>
+	<string id="tb_loc_pol">
+		<text>de la Prairie</text>
+	</string>
+	<string id="tb_loc_dbg">
+		<text>du Niveau de débogage</text>
+	</string>
+
+</string_table>

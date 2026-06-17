@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    <string id="ui_mcm_menu_xlibs">
+        <text>xlibs</text>
+    </string>
+    <string id="ui_mcm_xlibs_title">
+        <text>xlibs</text>
+    </string>
+    <string id="ui_mcm_xlibs_desc">
+        <text>Bibliothèque utilitaire partagée pour le modding Lua de STALKER Anomaly. Modules couvrant les requêtes d'entités, les opérations de groupe, la logique des terrains intelligents, la manipulation des caches, la journalisation, le profilage, les systèmes d'événements et les structures de données.</text>
+    </string>
+</string_table>

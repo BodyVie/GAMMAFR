@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+- @ Version: SCREEN SPACE SHADERS - UPDATE 18
+- @ Description: Wet Surfaces - MCM strings
+- @ Author: https://www.moddb.com/members/ascii1457
+- @ Mod: https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+	<!-- Gloss Title -->
+	<string id="ui_mcm_ssfx_module_wet_surf_title">
+		<text>Paramètres des surfaces mouillées</text>
+	</string>
+
+	<!-- Gloss Settings -->
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_buildup_speed_mcm">
+		<text>Vitesse d'accumulation de l'humidité</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_buildup_speed_mcm_desc">
+		<text>Vitesse d'accumulation. Plus la valeur est élevée, plus l'accumulation d'humidité (flaques et surfaces humides) est rapide.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_dry_speed_mcm">
+		<text>Vitesse de séchage de l'humidité</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_dry_speed_mcm_desc">
+		<text>Temps de séchage. Plus la valeur est élevée, plus le séchage des surfaces mouillées (flaques et surfaces humides) est rapide.</text>
+	</string>
+
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_ripples_size_mcm">
+		<text>Échelle des ondulations de pluie</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_ripples_size_mcm_desc">
+		<text>Échelle des ondulations de pluie. Plus la valeur est élevée, plus la taille des ondulations est importante.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_ripples_speed_mcm">
+		<text>Vitesse des ondulations de pluie</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_ripples_speed_mcm_desc">
+		<text>Définissez la vitesse de l'animation des ondulations de pluie. (L'intensité de la pluie détermine la vitesse de base)</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_ripples_min_speed_mcm">
+		<text>Vitesse minimale des ondulations de pluie</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_ripples_min_speed_mcm_desc">
+		<text>Définissez la vitesse minimale de l'animation des ondulations de pluie.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_ripples_intensity_mcm">
+		<text>Intensité des ondulations de pluie</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_ripples_intensity_mcm_desc">
+		<text>Définissez l'intensité des ondulations de pluie.</text>
+	</string>
+
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_waterfall_size_mcm">
+		<text>Échelle des cascades</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_waterfall_size_mcm_desc">
+		<text>Échelle de l'effet de cascade. Plus la valeur est élevée, plus la taille est importante.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_waterfall_speed_mcm">
+		<text>Vitesse des cascades</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_waterfall_speed_mcm_desc">
+		<text>Définissez la vitesse de la chute. (L'intensité de la pluie détermine la vitesse de base)</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_waterfall_min_speed_mcm">
+		<text>Vitesse minimale des cascades</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_waterfall_min_speed_mcm_desc">
+		<text>Définissez la vitesse minimale de la chute d'eau.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_waterfall_intensity_mcm">
+		<text>Intensité des cascades</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_waterfall_intensity_mcm_desc">
+		<text>Définissez l'intensité de l'effet de cascade.</text>
+	</string>
+
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_cover_res_mcm">
+		<text>Résolution de couverture de pluie</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_cover_res_mcm_desc">
+		<text>Résolution du rendu de la couverture de pluie. Des valeurs plus élevées génèrent des couvertures plus nettes au détriment des performances.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_cover_distance_mcm">
+		<text>Distance de couverture de pluie</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_cover_distance_mcm_desc">
+		<text>Distance de rendu de la couverture de pluie. Des valeurs plus élevées ont un impact plus important sur les performances.</text>
+	</string>
+
+	<!-- Resolution Combobox -->
+	<string id="ui_mcm_lst_ssfx_cover_64">
+		<text>64</text>
+	</string>
+
+	<string id="ui_mcm_lst_ssfx_cover_128">
+		<text>128 (Recommandé)</text>
+	</string>
+
+	<string id="ui_mcm_lst_ssfx_cover_256">
+		<text>256</text>
+	</string>
+
+	<string id="ui_mcm_lst_ssfx_cover_512">
+		<text>512</text>
+	</string>
+
+	<string id="ui_mcm_lst_ssfx_cover_1024">
+		<text>1024</text>
+	</string>
+
+	<string id="ui_mcm_lst_ssfx_cover_2048">
+		<text>2048</text>
+	</string>
+
+</string_table>

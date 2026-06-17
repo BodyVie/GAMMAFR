@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_addon_companion_quick_menu_tooFar">
+		<text>Mon escouade m'entend pas. Faut que je me rapproche ou que je les contacte via PDA.</text>
+	</string>
+
+	<string id="st_addon_companion_quick_menu_followMe">
+		<text>SUIS-MOI</text>
+	</string>
+	
+	<string id="st_addon_companion_quick_menu_waitHere">
+		<text>ATTENDS ICI</text>
+	</string>
+	
+	<string id="st_addon_companion_quick_menu_stopStealth">
+		<text>STOP FURTIF</text>
+	</string>
+	
+	<string id="st_addon_companion_quick_menu_stealth">
+		<text>FURTIF</text>
+	</string>
+	
+	<string id="st_addon_companion_quick_menu_stayClose">
+		<text>RESTE PRÈS</text>
+	</string>
+	
+	<string id="st_addon_companion_quick_menu_stayFar">
+		<text>RESTE LOIN</text>
+	</string>
+	
+	<string id="st_addon_companion_quick_menu_fireAtWill">
+		<text>FEU À VOLONTÉ</text>
+	</string>
+	
+	<string id="st_addon_companion_quick_menu_ignoreCombatButHelpMe">
+		<text>IGNORE LE COMBAT, MAIS AIDE-MOI</text>
+	</string>
+	
+	<string id="st_addon_companion_quick_menu_ignoreCombat">
+		<text>IGNORE LE COMBAT</text>
+	</string>
+	
+	<string id="st_addon_companion_quick_menu_doNotLootCorpses">
+		<text>NE PILLE PAS LES CORPS</text>
+	</string>
+	
+	<string id="st_addon_companion_quick_menu_lootCorpses">
+		<text>PILLE LES CORPS</text>
+	</string>
+	
+</string_table>

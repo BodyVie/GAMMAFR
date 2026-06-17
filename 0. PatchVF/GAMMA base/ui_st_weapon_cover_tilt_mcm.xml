@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="ui_mcm_weapon_cover_tilt_title">
+		<text>Inclinaison du couvert</text>
+	</string>
+	<string id="ui_mcm_menu_weapon_cover_tilt">
+		<text>Inclinaison du couvert</text>
+	</string>
+
+	<string id="ui_mcm_weapon_cover_tilt_enabled">
+		<text>Activé</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_use_fire_bone">
+		<text>Utiliser dimensions du modèle HUD</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_use_fire_bone_desc">
+		<text>Lorsque cette option est activée, les dimensions réelles du modèle HUD déterminent le moment où l'arme sera inclinée. WCT effectuera un raycast depuis l'os fire_bone et son décalage fire_point dans la direction de tir. REQUIERT MODDED EXES &gt;= 2025.04.22. La méthode par défaut sera utilisée si la nouvelle n'est pas disponible.</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_use_fire_bone_debug">
+		<text>Débogage dimensions du modèle HUD</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_animation_speed">
+		<text>Inertie des animations</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_animation_speed_desc">
+		<text>Une valeur plus faible accélère l'animation.</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_animation_weight_coeff">
+		<text>Facteur de poids</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_animation_weight_coeff_desc">
+		<text>Plus le nombre est élevé, plus l'effet du poids de l'arme sur la vitesse de l'animation est important.</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_trigger_radius">
+		<text>Rayon de déclenchement en mètres</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_trigger_radius_magnitude">
+		<text>Modificateur de longueur de l'arme</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_trigger_radius_magnitude_desc">
+		<text>Cette option modifie la dépendance du rayon de déclenchement à la longueur de l'arme : plus la valeur est élevée, plus la différence entre les armes courtes et longues sera marquée.</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_consider_silencer">
+		<text>Prise en compte des silencieux pour le rayon</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_consider_silencer_desc">
+		<text>Les armes équipées de silencieux amovibles verront leur rayon de déclenchement augmenté d'environ 0,1 mètre lorsque le silencieux est attaché.</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_tilt_rattle">
+		<text>Son de cliquetis lors de l'inclinaison</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_offset_x">
+		<text>Décalage de position de l'arme sur X</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_offset_x_desc">
+		<text>&lt; 0 - vers la gauche. &gt; 0 - vers la droite.</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_offset_y">
+		<text>Décalage de position de l'arme sur Y</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_offset_y_desc">
+		<text>&lt; 0 - vers le bas. &gt; 0 - vers le haut.</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_offset_z">
+		<text>Décalage de position de l'arme sur Z</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_offset_z_desc">
+		<text>&lt; 0 - vers l'arrière. &gt; 0 - vers l'avant.</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_yaw_variation">
+		<text>Variation de lacet de l'arme</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_yaw_variation_desc">
+		<text>Lors de la mise en joue d'une arme, celle-ci sera aléatoirement inclinée en lacet de ± un degré donné pour augmenter la variation des animations.</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_roll_variation">
+		<text>Variation de roulis de l'arme</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_roll_variation_desc">
+		<text>Lors de la mise en joue d'une arme, celle-ci sera aléatoirement inclinée en roulis de ± un degré donné pour augmenter la variation des animations.</text>
+	</string>
+
+	<string id="ui_mcm_weapon_cover_tilt_enable_manual_tilt">
+		<text>Activation inclinaison manuelle</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_manual_tilt_key_bind">
+		<text>Raccourci inclinaison manuelle</text>
+	</string>
+	
+</string_table>

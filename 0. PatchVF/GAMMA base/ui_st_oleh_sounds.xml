@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_menu_oleh_sounds">
+		<text>Sons</text>
+	</string>
+	<string id="ui_mcm_menu_movement">
+		<text>Déplacement</text>
+	</string>
+	<string id="ui_mcm_menu_weapons">
+		<text>Armes</text>
+	</string>
+	<string id="ui_mcm_menu_inventory">
+		<text>Inventaire</text>
+	</string>
+	<string id="ui_mcm_title_oleh_sounds_movement">
+		<text>Sons de déplacement</text>
+	</string>
+	<string id="ui_mcm_title_oleh_sounds_weapons">
+		<text>Sons des armes</text>
+	</string>
+	<string id="ui_mcm_title_oleh_sounds_inventory">
+		<text>Sons de l'inventaire</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_movement_player_disc">
+		<text>Les paramètres ci-dessous s'appliquent uniquement aux sons du joueur</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_enabled_footstep_sounds">
+		<text>Activer les sons de pas</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_volume_footstep_sounds">
+		<text>Volume des sons de pas</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_enabled_gear_rustle_sounds">
+		<text>Activer les sons de frottement d'équipement</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_enabled_gear_rustle_sounds_desc">
+		<text>Le volume des bruits de frottement de l'équipement s'ajuste en fonction du poids transporté.</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_volume_gear_rustle_sounds">
+		<text>Volume des sons de frottement d'équipement</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_enabled_servo_sounds">
+		<text>Activer les sons de l'Exo</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_volume_servo_sounds">
+		<text>Volume des sons de l'Exo</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_movement_enabled_stance_sounds">
+		<text>Activer les sons d'accroupissement</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_enabled_lookout_sounds">
+		<text>Activer les sons d'inclinaison</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_volume_stance_sounds">
+		<text>Volume des sons d'accroupissement</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_volume_lookout_sounds">
+		<text>Volume des sons d'inclinaison</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_movement_enabled_jump_sounds">
+		<text>Activer les sons de saut</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_volume_jump_sounds">
+		<text>Volume des sons de saut</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_movement_crawl_sounds_dependency">
+		<text>Les sons de reptation nécessitent MCM / Inertia Expanded / Other / Activer l'animation de reptation</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_enabled_crawl_sounds">
+		<text>Activer les sons de reptation</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_volume_crawl_sounds">
+		<text>Volume des sons de reptation</text>
+	</string>
+
+	
+
+	<string id="ui_mcm_menu_oleh_misc_sounds">
+		<text>Sons de l'inventaire</text>
+	</string>
+	<string id="ui_mcm_title_oleh_misc_sounds">
+		<text>Sons de l'inventaire GAMMA</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_inventory_enabled_inventory_pickup">
+		<text>Activer les sons des objets dans l'inventaire</text>
+	</string>
+		<string id="ui_mcm_oleh_sounds_inventory_enabled_inventory_pickup_desc">
+		<text>Effets sonores lors de la récupération, du dépôt, de la réparation et du déplacement d'objets entre les inventaires ou les emplacements.</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_inventory_volume_inventory_pickup">
+		<text>Volume des objets dans l'inventaire</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_inventory_enabled_inventory_hover">
+		<text>Activer les sons de survol du curseur</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_inventory_enabled_inventory_hover_desc">
+		<text>Effets sonores lors du survol des icônes d'objets avec le curseur de la souris.</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_inventory_volume_inventory_hover">
+		<text>Volume du survol du curseur</text>
+	</string>
+
+
+
+	<string id="ui_mcm_menu_grok_casings_sounds">
+		<text>Sons des armes</text>
+	</string>
+	<string id="ui_mcm_title_grok_casings_sounds">
+		<text>Sons des armes GAMMA</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_weapons_volume_gunfire">
+		<text>Volume des tirs du joueur</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_volume_gunfire_desc">
+		<text>S'applique également à certaines armes dotées de silencieux intégrés.</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_volume_gunfire_sil">
+		<text>Volume des tirs du joueur (silencieux)</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_volume_gunfire_npc">
+		<text>Volume des tirs des NPCS</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_volume_gunfire_npc_desc">
+		<text>S'applique également à certaines armes dotées de silencieux intégrés.</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_volume_gunfire_sil_npc">
+		<text>Volume des tirs des NPCS (silencieux)</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_weapons_enabled">
+		<text>Activer les sons de douilles tombantes</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_ubgl_enabled">
+		<text>Sons des douilles du lance-grenades sous canon</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_volume">
+		<text>Volume des sons de douilles tombantes</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_ice_patch">
+		<text>Correctif des shaders d'espace écran version glace</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_ice_patch_desc">
+		<text>Atténue les sons de chute des douilles lors des tirs sur la glace.</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_weapons_enabled_aim_rattle">
+		<text>Activer le cliquetis de visée</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_enabled_lower_raise_rattle">
+		<text>Activer le cliquetis de montée/descente</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_volume_aim_rattle">
+		<text>Volume du cliquetis de visée</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_volume_lower_raise_rattle">
+		<text>Volume du cliquetis de montée/descente</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_weapons_enabled_sprint_rattle">
+		<text>Activer le cliquetis en sprint</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_enabled_sprint_rattle_lowered">
+		<text>Activer le cliquetis en sprint ralenti</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_enabled_sprint_rattle_lowered_desc">
+		<text>Émet un cliquetis même lorsque l'arme équipée est baissée.</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_volume_sprint_rattle">
+		<text>Volume du cliquetis en sprint</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_weapons_enabled_reload_hint">
+		<text>Activer les sons de munitions faibles</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_volume_reload_hint">
+		<text>Volume des sons de munitions faibles</text>
+	</string>
+</string_table>

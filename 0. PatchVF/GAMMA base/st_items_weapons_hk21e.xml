@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_hk21e">
+		<text>HK21E</text>
+	</string>
+	<string id="st_wpn_hk21e_descr">
+		<text>La HK 21 est une mitrailleuse polyvalente de calibre 7,62 mm, basée sur le fusil HK G3, utilisée par les forces armées de divers États africains, asiatiques et européens. Le modèle HK21E est une version révisée et modernisée visant à améliorer la fiabilité, l'efficacité et la durée de vie de l'arme, le « E » signifiant « export ».\n
+		Rares dans la Zone, ces armes de fabrication allemande ont été abandonnées par des mercenaires étrangers après une opération ratée près du périmètre. Lourdes, fiables et mortelles.\n\n
+		%c[ui_gray_2]ACCESSOIRES :\n
+		%c[d_purple] • %c[ui_gray_2] Lunettes ACOG, Barska ES AC10632 et viseurs EOTech\n\n</text>
+	</string>
+
+	<string id="st_mag_hk21_7.62x51">
+		<text>Chargeur Standard 7.62x51 HK21</text>
+	</string>
+	<string id="st_mag_hk21_7.62x51_descr">
+		<text>Boîte contenant une bande d'une capacité de 100 cartouches 7,62x51, lourde et volumineuse. Il s'agit probablement d'une réplique, les boîtes originales allemandes n'étant plus produites depuis de nombreuses années.</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_mine_name">
+		<text>PFM-1 Mine antipersonnel dispersable</text>
+	</string>
+	<string id="st_mine_descr">
+		<text>Une petite mine dispersée par voie aérienne, conçue pour neutraliser le personnel ennemi en explosant sous l'effet d'une pression (ou de la proximité). Sa conception légère permet un déploiement sur de vastes zones, en faisant un danger persistant dans les zones de conflit.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white]Explosif\n
+		%c[d_cyan] • %c[pda_white]Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Mécanisme de déclenchement : %c[ui_gray_2]Proximité\n
+		</text>
+	</string>
+	
+	<string id="st_ied_rpg">
+		<text>IED (ogive OG-7V)</text>
+	</string>
+	<string id="st_ied_rpg_descr">
+		<text>Un engin explosif improvisé utilisant une ogive OG-7V, reconvertie pour produire des effets de fragmentation dévastateurs contre le personnel et les véhicules légers. Sa nature artisanale permet un placement dissimulé ou une détonation à distance, en faisant une menace dangereuse et imprévisible sur le champ de bataille.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white]Explosif\n
+		%c[d_cyan] • %c[pda_white] Mécanisme de déclenchement : %c[ui_gray_2]Proximité\n
+		</text>
+	</string>
+	
+	<string id="st_ied">
+		<text>IED chimique</text>
+	</string>
+	<string id="st_ied_descr">
+		<text>Un engin explosif improvisé conçu pour disperser des agents chimiques dangereux lors de la détonation, créant une zone de contamination toxique. Son utilisation représente une menace immédiate et à long terme, en faisant une arme extrêmement dangereuse dans les guerres non conventionnelles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white]Explosif\n
+		%c[d_cyan] • %c[pda_white] Mécanisme de déclenchement : %c[ui_gray_2]Proximité\n
+		</text>
+	</string>
+	
+	<string id="st_balon_gas">
+		<text>Ballon de gaz</text>
+	</string>
+	<string id="st_balon_gas_descr">
+		<text>Un conteneur métallique sous pression rempli de gaz comprimé, principalement utilisé comme source de combustible portable pour la cuisson et le chauffage. Cependant, en raison de sa nature inflammable, il est parfois détourné en engin explosif improvisé, ce qui en fait un danger potentiel dans les zones de conflit.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white]Explosif\n
+		%c[d_cyan] • %c[pda_white]Combustible de cuisson\n
+		%c[d_cyan] • %c[pda_white]Mécanisme de déclenchement : %c[ui_gray_2]Percussion\n
+		</text>
+	</string>
+
+	<string id="st_balon_gas_empty">
+		<text>Ballon de gaz (Vide)</text>
+	</string>
+	<string id="st_balon_gas_empty_descr">
+		<text>Une cartouche métallique vide ayant autrefois contenu du gaz comprimé, désormais inutilisable à moins d'être remplie. Certains marchands ou techniciens peuvent l'accepter pour recyclage ou réutilisation.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white]Ferraille\n
+		</text>
+	</string>
+	
+	<string id="st_metalcan_powder">
+		<text>Boîte de poudre</text>
+	</string>
+	<string id="st_metalcan_powder_descr">
+		<text>Un petit conteneur métallique modérément lourd rempli d'un mélange de produits chimiques industriels explosifs, de boulons métalliques et d'écrous ainsi que de poudre noire récupérée sur de vieilles munitions. Lors d'un impact direct, il explosera instantanément, projetant des boulons métalliques et des produits chimiques corrosifs dans toutes les directions.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white]Explosif\n
+		%c[d_cyan] • %c[pda_white] Mécanisme de déclenchement : %c[ui_gray_2]Percussion\n
+		</text>
+	</string>
+	
+	<string id="st_jerrycan_item">
+		<text>Jerricane</text>
+	</string>
+	
+	<string id="st_jerrycan_fuel">
+		<text>Jerricane</text>
+	</string>
+	<string id="st_jerrycan_fuel_descr">
+		<text>Un grand bidon métallique rempli d'essence E95. Ce carburant est essentiel pour alimenter les véhicules, les générateurs ou peut être utilisé comme combustible de cuisson haut de gamme. Certains ont toutefois trouvé des utilisations alternatives, notamment comme explosif improvisé.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white]Explosif\n
+		%c[d_cyan] • %c[pda_white]Combustible de cuisson\n
+		%c[d_cyan] • %c[pda_white] Mécanisme de déclenchement : %c[ui_gray_2]Percussion\n
+		</text>
+	</string>
+
+	<string id="st_jerrycan_fuel_empty">
+		<text>Jerricane (Vide)</text>
+	</string>
+	<string id="st_jerrycan_fuel_empty_descr">
+		<text>Un jerrican vide ayant autrefois contenu du carburant liquide, désormais inutilisable à moins d'être rempli. Certains marchands ou techniciens peuvent l'accepter pour recyclage ou réutilisation.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white]Ferraille\n
+		</text>
+	</string>
+	
+</string_table>

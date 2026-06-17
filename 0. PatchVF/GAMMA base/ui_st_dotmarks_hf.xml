@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!-- ====================================================================
+	Interaction Dot Marks
+    Hideout Furniture module
+    Author: Catspaw
+    Updated: 20250703
+    Permission granted to freely translate this file into any language.
+===================================================================== -->
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+    <string id="st_hf_workshop_menu">
+        <text>Ouvrir le menu de l'établi</text>
+    </string>
+
+    <string id="st_hf_control_menu">
+        <text>Ouvrir le menu de contrôle</text>
+    </string>
+
+    <string id="st_prop_chair">
+        <!-- Fixes a typo in HFE that causes this text to be broken -->
+        <text>Chaise en bois</text>
+    </string>
+
+    <string id="ui_mcm_dotmarks_dmarkobjs_scan_furniture">
+        <text>Marquer le mobilier du repaire</text>
+    </string>
+
+    <string id="ui_mcm_dotmarks_addons_hideout_furniture">
+        <text>$clr_gldMobilier du repaire</text>
+    </string>
+
+    <string id="ui_mcm_dotmarks_dmarkmods_hf_add_primary_pickup">
+        <text>Ajouter l'interaction principale pour ramasser les objets</text>
+    </string>
+    <string id="ui_mcm_dotmarks_dmarkmods_hf_add_primary_pickup_desc">
+        <text>De nombreux meubles de repaire possèdent déjà des interactions principales, comme les lits et les lumières interactives. Si un objet de décor n'en dispose pas et que ce paramètre est activé, DotMarks ajoutera une interaction principale personnalisée permettant de ramasser l'objet immédiatement, sans avoir à effectuer un appui long sur le menu des Meubles de Repaire.</text>
+    </string>
+
+    <string id="ui_mcm_dotmarks_dmarkmods_hf_show_default_secmenu">
+        <text>Afficher l'invite pour le menu par défaut du mobilier du repaire</text>
+    </string>
+    <string id="ui_mcm_dotmarks_dmarkmods_hf_show_default_secmenu_desc">
+        <text>Si DotMarks n'a pas déjà ajouté une action secondaire personnalisée à un objet et que ce paramètre est activé, DotMarks affichera une invite secondaire pour le menu par défaut des Meubles de Repaire - normalement accessible via un appui long sur la touche d'utilisation principale.</text>
+    </string>
+
+</string_table>

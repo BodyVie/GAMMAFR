@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    
+	<!---------------------- Task 1 ------------------------------------------->
+	<string id="st_sl_hidden_threat_task_1_stage_0_title">
+	    <text>Menace Cachée : Le commencement</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_0_descr">
+	    <text>Trouvez le « chat noir » dans la « pièce sombre ». Demandez plus de détails au Colonel Kuznetsov.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_1_title">
+	    <text>Menace Cachée : Survivre en tant que Stalker</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_1_descr">
+	    <text>Vérifier ce qui est arrivé au stalkers dans Darkscape.\n
+		À la ferme située dans le Cordon, parlez au survivant de la Scierie en utilisant un déguisement.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_2_title">
+	    <text>Menace Cachée : Retourner voir le colonel Kuznetsov</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_2_descr">
+	    <text>Quelque chose a mal tourné et le stalker est mort. Informez Kuznetsov de l'échec.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_3_title">
+	    <text>Menace Cachée : Rejoindre la scierie dans Darkscape</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_3_descr">
+	    <text>Inspectez les alentours de la Scierie afin de recueillir des informations utiles sur les événements récents survenus en ce lieu.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_4_title">
+	    <text>Menace Cachée : Examiner le bâtiment de la scierie</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_4_descr">
+	    <text>Inspectez les alentours de la Scierie afin de recueillir des informations utiles sur les événements récents survenus en ce lieu.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_5_title">
+	    <text>Menace Cachée : Retourner voir le colonel Kuznetsov</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_5_descr">
+	    <text>Retourner auprès du commandant avec un rapport.</text>
+	</string>
+	<!---------------------- Task 2 ------------------------------------------->
+	<string id="st_sl_hidden_threat_task_2_stage_0_title">
+	    <text>Menace Cachée : Désactiver le Lobotomisateur</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_2_stage_0_descr">
+	    <text>Désactiver le Lobotomisateur. Parler à Sakharov.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_2_stage_1_title">
+	    <text>Menace Cachée : Retourner voir le colonel Kuznetsov</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_2_stage_1_descr">
+	    <text>Le « Lobotomisateur » est désactivé. Je dois en informer le colonel.</text>
+	</string>
+	<!---------------------- Task 3 ------------------------------------------->
+	<string id="st_sl_hidden_threat_task_3_stage_0_title">
+	    <text>Menace Cachée : Se rendre à l'usine Jupiter</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_3_stage_0_descr">
+	    <text>Se rendre à l'usine Jupiter et fournir un appui-feu.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_3_stage_1_title">
+	    <text>Menace Cachée : Inspectez les installations de production de l'usine Jupiter.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_3_stage_1_descr">
+	    <text>Poursuivre l'exploration des installations de production.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_3_stage_2_title">
+	    <text>Menace Cachée : Examiner les corps des assaillants</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_3_stage_2_descr">
+	    <text>Examinez les corps et récupérez l'un des chevrons portant des symboles.\n
+		Vous devez en collecter au moins un.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_3_stage_3_title">
+	    <text>Menace Cachée : Parler au colonel Kuznetsov</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_3_stage_3_descr">
+	    <text>Interrogez le Colonel Kuznetsov au sujet des écussons portant des symboles inconnus.</text>
+	</string>
+	<!---------------------- Task 4 ------------------------------------------->
+	<string id="st_sl_hidden_threat_task_4_stage_0_title">
+	    <text>Menace Cachée : Parler au lieutenant Kirillov</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_0_descr">
+	    <text>Découvrir ce que souhaite le lieutenant Kirillov.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_1_title">
+	    <text>Menace Cachée : Livrer la radio</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_1_descr">
+	    <text>Remettez la radio aux unités militaires assurant la garde de l'entrée de « X-18 » dans la Vallée Obscure.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_2_title">
+	    <text>Menace Cachée : Repousser l'attaque de l'ISG</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_2_descr">
+	    <text>Organiser la défense et repousser l'attaque de l'ISG.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_3_title">
+	    <text>Menace Cachée : Examiner les assaillants</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_3_descr">
+	    <text>Examiner les assaillants pour obtenir des informations utiles.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_4_title">
+	    <text>Menace Cachée : Parler au lieutenant Kirillov</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_4_descr">
+	    <text>Un PDA verrouillé a été découvert sur l'un des mercenaires de l'ISG. Rendez-vous auprès du lieutenant Kirillov.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_5_title">
+	    <text>Menace Cachée : Veuillez attendre que Kirillov déverrouille le PDA.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_5_descr">
+	    <text>Attendre un ou deux jours que Kirillov débloque le PDA.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_6_title">
+	    <text>Menace Cachée : Parler au lieutenant Kirillov</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_6_descr">
+	    <text>Kirillov a débloqué le PDA. Lui faire un rapport.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_7_title">
+	    <text>Menace Cachée : Parler au colonel Kuznetsov</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_7_descr">
+	    <text>Une carte marquée de l'usine Jupiter au-dessus de X-18 ainsi que des cibles de l'ISG ont été trouvées sur le PDA. Faites-en rapport à Kuznetsov.</text>
+	</string>
+	<!---------------------- Task 5 ------------------------------------------->
+	<string id="st_sl_hidden_threat_task_5_stage_0_title">
+	    <text>Menace Cachée : Rencontrer le sergent Gorobetz</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_0_descr">
+	    <text>Retrouvez le Sergent Gorobetz à l'hôpital situé en périphérie de Pripyat.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_1_title">
+	    <text>Menace Cachée : La Souris dans le Piège</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_1_descr">
+	    <text>.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_2_title">
+	    <text>Menace Cachée : Éliminer le sniper ISG</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_2_descr">
+	    <text>Trouvez et éliminez le sniper avant qu'il n'élimine le Colonel Degtyarev.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_3_title">
+	    <text>Menace Cachée : Fournissez un appui-feu au détachement des Forces Spéciales Ukrainiennes.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_3_descr">
+	    <text>Portez secours au détachement de l'SSU dirigé par Degtyarev.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_4_title">
+	    <text>Menace Cachée : Parler au colonel Degtyarev</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_4_descr">
+	    <text>Le groupe de l'ISG a été éliminé. Parlez avec le Colonel.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_5_title">
+	    <text>Menace Cachée : Trouvez la mallette dans le grand magasin.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_5_descr">
+	    <text>Récupérez une mallette laissée par un agent de l'SSU dans le grand magasin.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_6_title">
+	    <text>Menace Cachée : Apporter la mallette à Agroprom</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_6_descr">
+	    <text>Remettez la mallette à Degtyarev à la base militaire de Agroprom.</text>
+	</string>
+	<!---------------------- Task 6 ------------------------------------------->
+	<string id="st_sl_hidden_threat_task_6_stage_0_title">
+	    <text>Menace Cachée : Parler au colonel Degtyarev</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_0_descr">
+	    <text>S'entretenir avec le colonel Degtyarev.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_1_title">
+	    <text>Menace Cachée : Placer l'enregistreur</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_1_descr">
+	    <text>Placez l'enregistreur dans une maison isolée au sud-ouest de Ville morte.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_2_title">
+	    <text>Menace Cachée : Attendre 2 jours</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_2_descr">
+	    <text>L'enregistreur a été placé. Récupérez-le dans deux jours.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_3_title">
+	    <text>Menace Cachée : Récupérer le marque-page à Ville morte</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_3_descr">
+	    <text>Deux jours se sont écoulés. Récupérez l'enregistreur et remettez-le au Colonel Degtyarev.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_4_title">
+	    <text>Menace Cachée : Retourner voir Degtyarev</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_4_descr">
+	    <text>Remettre l'enregistreur au colonel Degtyarev.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_5_title">
+	    <text>Menace Cachée : Parler au chef d'escouade à la CNPP</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_5_descr">
+	    <text>Retrouvez l'escouade de soutien au point de rendez-vous convenu et empêchez l'ISG de s'approcher du Sarcophage.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_6_title">
+	    <text>Menace Cachée : Rendez-vous au nord-ouest de la CNPP</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_6_descr">
+	    <text>Le chef d'escouade craint que l'un de ses éclaireurs n'ait été repéré et tué. Vérifiez la route menant à l'Hôpital.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_7_title">
+	    <text>Menace Cachée : Éliminer l'équipe ISG</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_7_descr">
+	    <text>Éliminer l'équipe de l'ISG.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_8_title">
+	    <text>Menace Cachée : Faire un rapport de réussite à Degtyarev</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_8_descr">
+	    <text>Faire un rapport au colonel Degtyarev.</text>
+	</string>
+	<!---------------------- Task 7 ------------------------------------------->
+	<string id="st_sl_hidden_threat_task_7_stage_0_title">
+	    <text>Menace Cachée : Faire un rapport au colonel Kuznetsov</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_0_descr">
+	    <text>Faire un rapport au colonel Degtyarev.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_1_title">
+	    <text>Menace Cachée : Parler au major Vereshchagin</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_1_descr">
+	    <text>S'entretenir avec le major Vereshchagin.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_2_title">
+	    <text>Menace Cachée : Rendez-vous à l'entrée des Souterrains de Pripyat.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_2_descr">
+	    <text>Retrouvez l'escouade d'assaut à l'entrée côté Jupiter des Souterrains de Pripyat.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_3_title">
+	    <text>Menace Cachée : Pénétrer dans les Souterrains de Pripyat</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_3_descr">
+	    <text>Pénétrer dans les Souterrains de pripyat.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_4_title">
+	    <text>Menace Cachée : Éliminez la présence de l'ISG dans les Souterrains de Pripyat.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_4_descr">
+	    <text>Éliminez la présence de l'ISG dans les Souterrains de pripyat.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_5_title">
+	    <text>Menace Cachée : Faites votre rapport au Major Vereshchagin concernant la réussite de la mission.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_5_descr">
+	    <text>Signaler la réussite au major Vereshchagin.</text>
+	</string>
+	<!---------------------- Second Task 1 ------------------------------------>
+	<string id="st_sl_hidden_threat_second_task_1_stage_0_title">
+	    <text>[HT]Poste de contrôle sud : Remettre les documents</text>
+	</string>
+	<string id="st_sl_hidden_threat_second_task_1_stage_0_descr">
+	    <text>Remettez les rapports comptables au Major Zhurov, au barrage routier sud dans le Cordon.</text>
+	</string>
+	<!---------------------- Second Task 2 ------------------------------------>
+	<string id="st_sl_hidden_threat_second_task_2_stage_0_title">
+	    <text>[HT]Agroprom : Trouver le coursier</text>
+	</string>
+	<string id="st_sl_hidden_threat_second_task_2_stage_0_descr">
+	    <text>Trouvez le coursier perdu quelque part sur la route menant à la base depuis la décharge.</text>
+	</string>
+	<string id="st_sl_hidden_threat_second_task_2_stage_1_title">
+	    <text>[HT]Agroprom : Rendre le colis à Lozhkin</text>
+	</string>
+	<string id="st_sl_hidden_threat_second_task_2_stage_1_descr">
+	    <text>Trouvez le coursier perdu quelque part sur la route menant à la base depuis la décharge.</text>
+	</string>
+	<!---------- Tips message äëÿ "Hidden Threat" ---------------------------->
+	<string id="st_sl_hidden_threat_msg_start">
+	    <text>%s, on a besoin de toi à la base. Y'a une mission urgente.</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_task_2_start">
+	    <text>Militaires stalkers, notre affaire est toujours au point mort, mais une mission délicate vous attend. Nos opérations au nord sont gravement entravées par le Lobotomisateur. Parlez à Sakharov à Yantar et trouvez un moyen de le neutraliser.</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_task_3_start">
+	    <text>Militaire-stalker, présentez-vous. J'ai besoin de vous parler.</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_task_4_start">
+	    <text>%s, veuillez vous présenter un instant, nous devons discuter.</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_task_4_stg_6_msg">
+	    <text>%s, à propos de votre PDA. Venez me voir, nous avons à discuter.</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_task_5_start">
+	    <text>Hé %s, ça fait un bail. J'ai repéré un groupe de l'ISG. Je ne peux pas y aller seul et j'ai besoin de votre aide. Avez-vous le courage de vous rendre à l'hôpital en périphérie de Pripyat ? Si oui, vous pourriez même obtenir une promotion de la part des supérieurs.</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_task_6_start">
+	    <text>Militaire stalker %s, les ordres sont de rejoindre la base et de vous présenter directement à moi.</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_task_7_start">
+	    <text>Militaire stalker %s, les ordres sont de vous présenter immédiatement à moi.</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_armistice_title">
+	    <text>Reçu :</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_armistice_msg">
+	    <text>%s : stalkers libre - 2 heures</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_armistice_path">
+	    <text>Armistice</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_armistice_start">
+	    <text>%s t'a demandé. On t'ouvre un laissez-passer gratuit pour nos bases, 2 heures. Fais gaffe à pas déconner si tu veux rester en vie. Nos gars... ils aiment pas trop les guerriers.</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_armistice_end">
+	    <text>La trêve %s est terminée.</text>
+	</string>
+	<string id="st_sl_hidden_threat_spooner_notes_title">
+	    <text>Reçu :</text>
+	</string>
+	<string id="st_sl_hidden_threat_spooner_notes_descr">
+	    <text>Nouvelle entrée du PDA : Une note du sergent Lozhkin.</text>
+	</string>
+	<string id="st_sl_hidden_threat_darkvalley_msg_header">
+	    <text>Militaires</text>
+	</string>
+	<string id="st_sl_hidden_threat_darkvalley_msg_text">
+	    <text>J'vois l'ennemi ! Au combat !</text>
+	</string>
+    <!------------------------------------------------------------------------->
+    <string id="st_sl_hidden_threat_map_spot_cf">
+	    <text>Point d'intérêt</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_car15">
+		<text>CAR-15</text>
+	</string>
+	<string id="st_wpn_car15_descr">
+		<text> Le CAR-15 est une famille d'armes dérivées du M16, commercialisée par Colt dans les années 1960 et 1970, principalement associée à des versions compactes de type carabine, comme le Colt Commando. Ces armes ont été conçues pour une grande maniabilité, en particulier pour les forces d'opérations spéciales et les équipages aériens durant la guerre du Vietnam. Aujourd'hui, le terme « CAR-15 » est souvent utilisé de manière générique pour désigner les variantes de M16/AR-15 en version carabine, les modèles modernes intégrant des composants actualisés tout en conservant un profil classique.\n \n
+		%c[ui_gray_3]ACCESSOIRES :\n \n
+		%c[ui_gray_3]VISÉES RÉFLEXES :\n
+		%c[d_purple] %c[ui_gray_2]Aimpoint 2000\n \n
+		%c[ui_gray_3]LUNETTES :\n
+		%c[d_purple] %c[ui_gray_2]ACOG, ACOG 2x, Lunette à poignée de transport\n \n
+		%c[ui_gray_3]SILENCIEUX :\n
+		%c[d_purple] %c[ui_gray_2]Silencieux OTAN\n \n
+		</text>
+	</string>
+
+	<string id="st_wpn_admin">
+		<text>CAR-15 « Administrator »</text>
+	</string>
+	<string id="st_wpn_admin_descr">
+		<text>Une réinterprétation moderne du classique CAR-15, l'Administrator a été conçu par un ancien mercenaire souhaitant allier le profil emblématique de la poignée de transport du CAR-15 à toutes les capacités d'un montage M4 contemporain. La forme avant la fonction, mon ami.\n \n
+		%c[ui_gray_3]ACCESSOIRES :\n \n
+		%c[ui_gray_3]OPTIQUE :\n
+		%c[d_purple] %c[ui_gray_2]Aimpoint T2 avec grossisseur G33\n \n
+		%c[ui_gray_3]SILENCIEUX :\n
+		%c[d_purple] %c[ui_gray_2]Silencieux OTAN\n \n
+		</text>
+	</string>
+	
+	<string id="st_wpn_car15_bd">
+		<text>CAR-15 « Blood Diamond »</text>
+	</string>
+	<string id="st_wpn_car15_bd_descr">
+		<text>« Si vous savez, vous savez. Ya Ya »\n \n
+		%c[ui_gray_3]ACCESSOIRES :\n \n
+		%c[ui_gray_3]VISÉES RÉFLEXES :\n
+		%c[d_purple] %c[ui_gray_2]Aimpoint Pro \n \n
+		%c[ui_gray_3]SILENCIEUX :\n
+		%c[d_purple] %c[ui_gray_2]Silencieux OTAN\n \n
+		</text>
+	</string>
+	
+</string_table>
+

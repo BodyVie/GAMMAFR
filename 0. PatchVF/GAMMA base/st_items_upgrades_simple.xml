@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Upgrading Parts
+-->
+
+<string_table>
+
+<!-- Outfits -->
+	<string id="st_upgr_o_physical">
+		<text>Kit d'amélioration d'armure de combinaison</text>
+	</string>
+	<string id="st_upgr_o_physical_desc">
+		<text>Un kit contenant divers types de plaques de blindage, composants et accessoires pour l'installation de mises à niveau liées à l'armure.\n\n
+        %c[yellow]Peut être utilisé pour améliorer :\n
+        %c[d_cyan] • %c[ui_gray_2]Résistance balistique\n
+        %c[d_cyan] • %c[ui_gray_2]Résistance aux impacts\n
+        %c[d_cyan] • %c[ui_gray_2]Résistance à la rupture\n
+        %c[d_cyan] • %c[ui_gray_2]Durabilité de la combinaison\n
+        %c[d_cyan] • %c[ui_gray_2]Réduction de poids\n
+        %c[d_cyan] • %c[ui_gray_2]Résistance aux explosions\n \n
+        </text>
+    </string>
+	<string id="st_upgr_o_magical">
+		<text>Kit d'amélioration de protection environnementale de combinaison</text>
+	</string>
+	<string id="st_upgr_o_magical_desc">
+		<text>Un kit contenant divers types de matériaux spécialement résistants pour l'installation de mises à niveau liées à l'armure.\n\n
+        %c[yellow]Peut être utilisé pour améliorer :\n
+        %c[d_cyan] • %c[ui_gray_2]Résistance aux radiations\n
+        %c[d_cyan] • %c[ui_gray_2]Résistance chimique\n
+        %c[d_cyan] • %c[ui_gray_2]Résistance aux brûlures\n
+        %c[d_cyan] • %c[ui_gray_2]Résistance électrique\n
+        %c[d_cyan] • %c[ui_gray_2]Résistance psychique\n \n
+        </text>
+    </string>
+	<string id="st_upgr_o_utility">
+		<text>Kit d'amélioration d'utilitaires de combinaison</text>
+	</string>
+	<string id="st_upgr_o_utility_desc">
+		<text>Un kit contenant des sangles de fixation, des pochettes assorties et divers dispositifs mécaniques pour l'installation de mises à niveau utilitaires liées à l'armure.\n\n
+        %c[yellow]Peut être utilisé pour améliorer :\n
+        %c[d_cyan] • %c[ui_gray_2]Poids transporté\n
+        %c[d_cyan] • %c[ui_gray_2]Emplacements de bande\n
+        %c[d_cyan] • %c[ui_gray_2]Récupération de l'endurance\n
+        %c[d_cyan] • %c[ui_gray_2]Restauration de santé\n
+        %c[d_cyan] • %c[ui_gray_2]Contrôle des hémorragies\n
+        %c[d_cyan] • %c[ui_gray_2]Renforts de servomoteurs\n \n
+        </text>
+    </string>
+	<string id="st_upgr_w_internal">
+		<text>Kit d'amélioration de mécanisme d'arme</text>
+	</string>
+	<string id="st_upgr_w_internal_desc">
+		<text>Un kit contenant des composants et outils de haute qualité pour ajuster les mécanismes internes d'une arme.\n\n
+        %c[yellow]Peut être utilisé pour améliorer :\n
+        %c[d_cyan] • %c[ui_gray_2]Fiabilité\n
+        %c[d_cyan] • %c[ui_gray_2]Réduction du recul\n
+        %c[d_cyan] • %c[ui_gray_2]Cadence de tir\n
+        %c[d_cyan] • %c[ui_gray_2]Changement de calibre\n
+        %c[d_cyan] • %c[ui_gray_2]Modes de tir\n \n
+		</text>
+    </string>
+	<string id="st_upgr_w_external">
+		<text>Kit d'amélioration de carcasse d'arme</text>
+	</string>
+	<string id="st_upgr_w_external_desc">
+		<text>Un kit contenant des outils utilisés pour modifier et entretenir le corps d'une arme, y compris le canon, le rail, le support et les éléments de crosse.\n \n
+        %c[yellow]Peut être utilisé pour améliorer :\n
+        %c[d_cyan] • %c[ui_gray_2]Stabilité\n
+        %c[d_cyan] • %c[ui_gray_2]Précision\n
+        %c[d_cyan] • %c[ui_gray_2]Maniabilité\n
+        %c[d_cyan] • %c[ui_gray_2]Poids de l'arme\n
+        %c[d_cyan] • %c[ui_gray_2]Points de fixation\n \n
+		</text>
+    </string>
+	<string id="st_upgr_w_optical">
+		<text>Kit d'amélioration de lunette optique</text>
+	</string>
+	<string id="st_upgr_w_optical_desc">
+		<text>Un kit contenant des lentilles et optiques de haute qualité adaptées au remplacement sur des jumelles et lunettes de visée.\n \n
+		</text>
+    </string>
+
+	<string id="st_try_combine">
+		<text>Amélioration</text>
+	</string>
+	<string id="st_try_downgrade">
+		<text>Rétrogradation</text>
+	</string>
+	<string id="ui_mcm_menu_supgrades">
+		<text>Améliorations</text>
+	</string>
+	<string id="ui_mcm_supgrades_title">
+		<text>Améliorations d'équipement simplifiées</text>
+	</string>
+
+	<string id="ui_mcm_supgrades_drop">
+		<text>Probabilité de loot</text>
+	</string>
+	<string id="ui_mcm_supgrades_drop_desc">
+		<text>Pourcentage de chances que les kits de mise à niveau existants soient remplacés par les nouveaux kits génériques.</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="look_for_cs_history_part_4_2_0">
+		<text>Salut, Gardien.</text>
+	</string>
+	<string id="look_for_cs_history_part_4_2_1">
+		<text>Salut. Tu vas à Limansk, c’est ça ? Sans le Leshiy... Bref, bienvenue. Il va falloir me filer l’oseille... Et fais gaffe à pas te faire choper par nos patrouilles - elles sont pas dans le deal.</text>
+	</string>
+
+	<string id="look_for_cs_history_part_4_1_0">
+		<text>Voilà l'oseille.</text>
+	</string>
+	<string id="look_for_cs_history_part_4_1_1">
+		<text>Très bien. Je vais prévenir la garde du pont. Une fois sur place, adresse-toi au « Gardien ». Reste cool, et essaie de dégoter quelque chose qui éclairerait la disparition des Scars.</text>
+	</string>
+
+	<string id="look_for_cs_history_part_3_2_0">
+		<text>Le Leshiy, c'est ça ?</text>
+	</string>
+	<string id="look_for_cs_history_part_3_2_1">
+		<text>Ouais. T'as besoin d'un guide, ou tu voulais autre chose ?</text>
+	</string>
+	<string id="look_for_cs_history_part_3_2_2">
+		<text>Bon, je sais deux-trois trucs sur ton passé. J'aurais besoin de ton aide, merc.</text>
+	</string>
+	<string id="look_for_cs_history_part_3_2_3">
+		<text>Euh... Quel genre d'aide ?</text>
+	</string>
+	<string id="look_for_cs_history_part_3_2_4">
+		<text>Tu pourrais parler aux mercs qui gardent le pont dans la Forêt Rouge ? J’ai besoin d’aller à Limansk. Je sais que c’est galère, mais je peux te promettre que je vais essayer de trouver des traces laissées par les Scars mercenaires.</text>
+	</string>
+	<string id="look_for_cs_history_part_3_2_5">
+		<text>Hm. Faut que tu comprennes que j’ai quitté le Syndicat depuis un bail... J’suis même pas sûr de savoir qui dirige le groupe au pont. J’ai quelques contacts, mais ça va me prendre du temps... et de l’oseille. Cent cinquante mille, pas un rond de moins.</text>
+	</string>
+
+	<string id="look_for_cs_history_part_1_1_0">
+		<text>J’ai entendu parler de l’histoire de ton groupe. J’aimerais enquêter là-dessus.</text>
+	</string>
+	<string id="look_for_cs_history_part_1_1_1">
+		<text>Tu cherches quelque chose, ou quoi ? Écoute, t’as pratiquement aucune chance de survivre dans ces coins - mais même si t’y arrives, trouver des infos sur notre passage là-bas, ça sera pas une partie de plaisir.</text>
+	</string>
+	<string id="look_for_cs_history_part_1_1_2">
+		<text>Ça t'intéresse pas ? Ou t'attends quelque chose en échange ?</text>
+	</string>
+	<string id="look_for_cs_history_part_1_1_3">
+		<text>Hmm... Tu peux nous aider à buter une meute de bloodsuckers dans le marais, et après, peut-être que je te filerai ce que j’ai.</text>
+	</string>
+	<string id="look_for_cs_history_part_1_1_4">
+		<text>Bon, donne-moi les coordonnées.</text>
+	</string>
+	<string id="look_for_cs_history_part_1_1_5">
+		<text>Tiens, amuse-toi bien.</text>
+	</string>
+
+	<string id="look_for_cs_history_part_1_2_0">
+		<text>C'est fait. T'as des infos ?</text>
+	</string>
+	<string id="look_for_cs_history_part_1_2_1">
+		<text>J’ai entendu, bravo. T’es un bon combattant et je te fais confiance, alors je vais te donner ce qu’il te faut. Les gars t’ont probablement parlé de l’assaut sur ce pont maudit à Limansk. Au cas où tu saurais pas... À l’époque, en ville - et dans les alentours de la Forêt Rouge - c’étaient les mercenaires qui faisaient la loi. Bien sûr, ils vont pas baisser le pont comme ça, mais y’a un survivant de ces événements - on l’appelle le Forestier. C’est lui, avec les Scars, qui avait réussi à négocier pour qu’un groupe de « standards » baisse le pont pendant que nos gars les couvraient depuis l’autre rive. Tiens, je te file les infos sur un itinéraire entre les Entrepôts de l'armée et la Forêt Rouge - utilise-le pour trouver le Forestier et lui parler. Et voilà une récompense pour le nettoyage des bloodsuckers.</text>
+	</string>
+	<string id="look_for_cs_history_part_1_2_2">
+		<text>Merci.</text>
+	</string>
+
+	<string id="mlr_inventory_box_unuse">
+		<text>Cache verrouillée</text>
+	</string>
+
+	<string id="totaliz_helper_mlr_text">
+		<text>Pour une vue différente de la zone, appuie sur la touche tilde ou \ pour ouvrir la console, puis entre : demo_record 1. La caméra se contrôle avec les touches W, A, S et D, ainsi que CTRL. Pour quitter, appuie sur ÉCHAP.</text>
+	</string>
+	
+	<string id="st_pda_mlr_descr">
+		<text>Un PDA contenant des informations sur les itinéraires entre différentes zones.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+	<string id="st_new_path_mlr">
+		<text>Un passage entre deux zones est désormais accessible.</text>
+	</string>
+
+	<string id="killer_bridge_trader_mlr_task_1_name">
+		<text>Trouver %s</text>
+	</string>
+	<string id="killer_bridge_trader_mlr_task_1_text">
+		<text>Les mercenaires m’ont chargé de me procurer un %s.</text>
+	</string>
+	<string id="killer_bridge_trader_mlr_task_1_about">
+		<text>Nos soldats ont besoin de matériel. Pourriez-vous nous le procurer?</text>
+	</string>
+	<string id="killer_bridge_trader_mlr_task_1_fetch_about">
+		<text>Nos soldats ont besoin d’un %s. Pourriez-vous le récupérer pour nous?</text>
+	</string>
+	<string id="killer_bridge_trader_mlr_task_1_fetch_finish">
+		<text>Je vous remercie. Voici votre récompense.</text>
+	</string>
+
+	<string id="killer_bridge_trader_mlr_task_2_name">
+		<text>Trouver un %s artefact</text>
+	</string>
+	<string id="killer_bridge_trader_mlr_task_2_text">
+		<text>Un mercenaire a besoin d’un %s.</text>
+	</string>
+	<string id="killer_bridge_trader_mlr_task_2_about">
+		<text>Nos soldats auraient besoin de quelques artefacts. Il sera difficile de traverser Limansk sans eux. Pourriez-vous nous aider à en trouver un?</text>
+	</string>
+	<string id="killer_bridge_trader_mlr_task_2_fetch_about">
+		<text>Nos soldats auraient besoin de quelques artefacts. Il sera difficile de traverser Limansk sans eux. Pourriez-vous nous aider à trouver un %s?</text>
+	</string>
+	<string id="killer_bridge_trader_mlr_task_2_fetch_finish">
+		<text>Merci beaucoup. Tenez, voici votre récompense.</text>
+	</string>
+
+	<string id="task_look_for_cs_history_part_1_1">
+		<text>Trouve et bute le bloodsuckers</text>
+	</string>
+	<string id="task_look_for_cs_history_part_1_2">
+		<text>Retour vers Cold</text>
+	</string>
+	<string id="task_look_for_cs_history_part_1_3">
+		<text>Donc, il a la trouille de m’envoyer « par là », mais c’est bon si je vais me battre contre des bloodsuckers dans le marais ? Des marchands de merde, même chez Firmament, j’te jure...</text>
+	</string>
+
+	<string id="task_look_for_cs_history_part_2_1">
+		<text>Sur les traces de Firmament : discuter avec le Forestier</text>
+	</string>
+	<string id="task_look_for_cs_history_part_descr_2_1">
+		<text>Cold m’a indiqué que le témoin direct de ces événements était Forester et m’a fourni ses coordonnées. Je dois lui parler et me rendre à Limansk.</text>
+	</string>
+
+	<string id="task_look_for_cs_history_part_3_1">
+		<text>Sur les traces de Firmament : trouver le Leshiy</text>
+	</string>
+	<string id="task_look_for_cs_history_part_3_2">
+		<text>Sur les traces de Firmament : parler au Leshiy</text>
+	</string>
+	<string id="task_look_for_cs_history_part_descr_3_1">
+		<text>Eh bien, retour chez les militaires. Il s’avère que la figure clé de cette bataille pour le pont était sous mon nez tout ce temps.</text>
+	</string>
+	<string id="task_look_for_cs_history_part_descr_3_2">
+		<text>Je n’ai plus qu’à parvenir à un accord avec Leshiy en personne, j’espère que cela mettra fin à ma quête.</text>
+	</string>
+
+	<string id="task_look_for_cs_history_part_4_1">
+		<text>Sur les traces de Firmament : récupère 150000 RU et rapporte-les au Leshiy.</text>
+	</string>
+	<string id="task_look_for_cs_history_part_4_3">
+		<text>Sur les traces de Firmament : aller à un rendez-vous avec Gardien</text>
+	</string>
+	<string id="task_look_for_cs_history_part_4_4">
+		<text>Sur les traces de Firmament : parler à Gardien</text>
+	</string>
+
+	<string id="task_look_for_cs_history_part_descr_4_1">
+		<text>Enfin, je serai bientôt de l’autre côté du pont et ces corvées prendront fin.</text>
+	</string>
+
+	<string id="st_bridge_is_open_message">
+		<text>Gardien :\nJ’aperçois quelqu’un. Hé, stalker ! Ramène-toi, j’ai deux mots à te dire.</text>
+	</string>
+
+</string_table>

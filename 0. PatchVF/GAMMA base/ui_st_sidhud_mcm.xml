@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!-- 
+	SidHUD strings
+-->
+
+<string_table>
+	<string id="ui_mcm_menu_sidhud">
+		<text>SidHUD</text>
+	</string>
+	<string id="ui_mm_video_hud_sidslide">
+		<text>Options SidHUD</text>
+	</string>
+
+
+
+	<string id="ui_mcm_sidhud_armorbar">
+		<text>État de l'armure Bar</text>
+	</string>
+	<string id="ui_mcm_sidhud_armorbar_desc">
+		<text>Affiche l'état de l'armure sur le Bar.</text>
+	</string>
+	<string id="ui_mcm_sidhud_armortext">
+		<text>Texte état armure</text>
+	</string>
+	<string id="ui_mcm_sidhud_armortext_desc">
+		<text>Affiche l'État de l'Armure en pourcentage dans un texte cyan.\n%c[ui_gray_2]N'a aucun effet si la barre est désactivée.</text>
+	</string>
+	<string id="ui_mcm_sidhud_weaponshow">
+		<text>État de l'arme Bar</text>
+	</string>
+	<string id="ui_mcm_sidhud_weaponshow_desc">
+		<text>Affiche l'état de l'arme sur le Bar.</text>
+	</string>
+	<string id="ui_mcm_sidhud_weapontext">
+		<text>Texte état arme</text>
+	</string>
+	<string id="ui_mcm_sidhud_weapontext_desc">
+		<text>Affiche l'État de l'Arme en pourcentage dans un texte orange.\n%c[ui_gray_2]N'a aucun effet si la barre est désactivée.</text>
+	</string>
+	<string id="ui_mcm_sidhud_weaponbarhide">
+		<text>Masquer au déséquipement</text>
+	</string>
+	<string id="ui_mcm_sidhud_weaponbarhide_desc">
+		<text>Fait disparaître le Bar d'État de l'Arme lorsque vous déséquipez celle-ci.\n%c[ui_gray_2]N'a aucun effet si la barre est désactivée.</text>
+	</string>
+	<string id="ui_mcm_sidhud_ammoshow">
+		<text>Compteur total de munitions</text>
+	</string>
+	<string id="ui_mcm_sidhud_ammoshow_desc">
+		<text>Affiche la quantité TOTALE de munitions disponibles pour chacun des 3 types présents dans l'inventaire.</text>
+	</string>
+	<string id="ui_mcm_sidhud_oldammoshow">
+		<text>Anciennes munitions</text>
+	</string>
+	<string id="ui_mcm_sidhud_oldammoshow_desc">
+		<text>Fait apparaître les anciennes munitions aux emplacements pertinents (par exemple, en l'absence de leurs équivalents « bon état »).</text>
+	</string>
+	<string id="ui_mcm_sidhud_radhealthshow">
+		<text>Exposition aux radiations Bar</text>
+	</string>
+	<string id="ui_mcm_sidhud_radhealthshow_desc">
+		<text>Affiche le niveau de radiation sur le Bar Santé, de gauche à droite. </text>
+	</string>
+	<string id="ui_mcm_sidhud_bleedingbarshow">
+		<text>Saignement Bar</text>
+	</string>
+	<string id="ui_mcm_sidhud_bleedingbarshow_desc">
+		<text>Affiche la quantité de sang perdue sur le Bar d'Endurance, de gauche à droite. </text>
+	</string>
+	<string id="ui_mcm_sidhud_healingbar">
+		<text>Prédiction santé Bar</text>
+	</string>
+	<string id="ui_mcm_sidhud_healingbar_desc">
+		<text>Active une barre discrète sur le Bar de Points de Vie indiquant la quantité exacte de soins que vous recevrez lors de l'utilisation d'un objet de soin.</text>
+	</string>
+	
+</string_table>

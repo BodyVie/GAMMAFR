@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    <string id="ui_mcm_menu_serious_the_job_can_wait">
+        <text>La mission peut attendre</text>
+    </string>
+
+    <string id="ui_tjcw_mcm_sld">
+        <text>La mission peut attendre</text>
+    </string>
+
+    <string id="ui_mcm_tjcw_sld_text">
+        <text>La mission peut attendre</text>
+    </string>
+
+    <string id="ui_mcm_serious_the_job_can_wait_scan_mode_override_help">
+        <text>L'option ci-dessous n'est prise en compte que pour les catégories suivantes (les autres nécessiteraient une refonte majeure, : Désolé) : Sauvetage d'agent, Assaut, Mesure</text>
+    </string>
+
+    <string id="ui_mcm_serious_the_job_can_wait_scan_mode_override">
+        <text>Écrasement du mode analyse des missions :</text>
+    </string>
+
+    <string id="ui_mcm_lst_off">
+        <text>Désactivé</text>
+    </string>
+
+    <string id="ui_mcm_lst_same">
+        <text>Même carte</text>
+    </string>
+
+    <string id="ui_mcm_lst_same_near">
+        <text>Même carte + cartes proches</text>
+    </string>
+
+    <string id="ui_mcm_lst_near">
+        <text>Cartes proches</text>
+    </string>
+
+    <string id="ui_mcm_lst_far">
+        <text>Cartes lointaines</text>
+    </string>
+
+    <string id="ui_mcm_lst_anywhere">
+        <text>N'importe où (selon progression de l'histoire)</text>
+    </string>
+</string_table>

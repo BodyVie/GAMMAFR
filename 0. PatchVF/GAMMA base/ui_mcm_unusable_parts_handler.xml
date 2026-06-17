@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="ui_mcm_menu_unusable_parts_handler">
+		<text>Gestionnaire de pièces inutilisables</text>
+	</string>
+
+	<string id="ui_mcm_unusable_parts_handler_title">
+		<text>Gestionnaire de pièces inutilisables</text>
+	</string>
+
+	<string id="ui_mcm_unusable_parts_handler_title_desc">
+		<text>Automatise la gestion des éléments de pièces que vous ne pouvez pas utiliser ou réparer.</text>
+	</string>
+
+	<string id="ui_mcm_unusable_parts_handler_sell_parts">
+		<text>Vente des pièces</text>
+	</string>
+	<string id="ui_mcm_unusable_parts_handler_sell_parts_desc">
+		<text>Déplace les éléments de pièces dont l'état est inférieur au seuil spécifié vers le sac de commerce du joueur et donne les éléments de pièces à 0 % d'état.\nLe déplacement des éléments vers le sac de commerce dépend des articles acceptés par chaque marchand, normalement seuls les techniciens acceptent les éléments de pièces.</text>
+	</string>
+
+	<string id="ui_mcm_unusable_parts_handler_dump_parts">
+		<text>Éjection des pièces</text>
+	</string>
+	<string id="ui_mcm_unusable_parts_handler_dump_parts_desc">
+		<text>Déplace les éléments de pièces dont l'état est inférieur au seuil spécifié vers le corps que le joueur est en train de fouiller. Les corps des NPCs importants sont ignorés.</text>
+	</string>
+
+	<string id="ui_mcm_unusable_parts_handler_delete_parts">
+		<text>Suppression des pièces</text>
+	</string>
+	<string id="ui_mcm_unusable_parts_handler_delete_parts_desc">
+		<text>Supprime les éléments de pièces dont l'état est inférieur au seuil spécifié dès qu'ils entrent dans l'inventaire du joueur.</text>
+	</string>
+
+	<string id="ui_mcm_unusable_parts_handler_weapon_part_condition_threshold">
+		<text>Seuil d'état des pièces d'arme</text>
+	</string>
+	<string id="ui_mcm_unusable_parts_handler_weapon_part_condition_threshold_desc">
+		<text>Seuls les éléments de pièces d'arme dont l'état est inférieur à ce pourcentage seront gérés par ce module.</text>
+	</string>
+
+	<string id="ui_mcm_unusable_parts_handler_outfit_part_condition_threshold">
+		<text>Seuil d'état des pièces d'équipement</text>
+	</string>
+	<string id="ui_mcm_unusable_parts_handler_outfit_part_condition_threshold_desc">
+		<text>Seuls les éléments de pièces d'équipement dont l'état est inférieur à ce pourcentage seront gérés par ce module.</text>
+	</string>
+
+	<string id="ui_mcm_unusable_parts_handler_never_handle_favorites">
+		<text>Exclure les favoris</text>
+	</string>
+	<string id="ui_mcm_unusable_parts_handler_never_handle_favorites_desc">
+		<text>Les pièces marquées comme favorites ne seront jamais gérées par le script, quel que soit leur pourcentage d'état.</text>
+	</string>
+
+	<string id="ui_mcm_unusable_parts_handler_always_handle_junk">
+		<text>Gestion systématique des déchets</text>
+	</string>
+	<string id="ui_mcm_unusable_parts_handler_always_handle_junk_desc">
+		<text>Les pièces marquées comme déchets seront toujours gérées par le script, quel que soit leur pourcentage d'état.</text>
+	</string>
+
+	<string id="ui_mcm_unusable_parts_handler_ignore_recipe_materials">
+		<text>Ignorer les matériaux de recette</text>
+	</string>
+	<string id="ui_mcm_unusable_parts_handler_ignore_recipe_materials_desc">
+		<text>Ignore les éléments de pièces d'équipement utilisés dans les recettes de craft.</text>
+	</string>
+
+	<string id="ui_mcm_unusable_parts_handler_ignore_fabrics">
+		<text>Ignorer les tissus</text>
+	</string>
+	<string id="ui_mcm_unusable_parts_handler_ignore_fabrics_desc">
+		<text>Ignore les feuilles de tissu ordinaires et synthétiques, ainsi que les textiles durables et de qualité militaire.\nCette option est redondante avec celle ci-dessus.</text>
+	</string>
+
+	<string id="ui_mcm_unusable_parts_handler_handle_useless_ammo_parts">
+		<text>Gestion des composants de munitions inutiles</text>
+	</string>
+	<string id="ui_mcm_unusable_parts_handler_handle_useless_ammo_parts_desc">
+		<text>Gère les éléments de munitions que vous trouvez parfois dans des boîtes ou sur les corbeaux.\nLe module les vendra ou les supprimera, selon les options que vous avez activées.</text>
+	</string>
+
+	<string id="ui_mcm_unusable_parts_handler_announce_handled_part">
+		<text>Notification des pièces traitées</text>
+	</string>
+	<string id="ui_mcm_unusable_parts_handler_announce_handled_part_desc">
+		<text>Affiche un message sur le PDA indiquant le nom des éléments de pièces supprimés ou donnés.\nAucun message n'est affiché pour les éléments transférés dans le sac de commerce, car vous pouvez facilement les y retrouver.</text>
+	</string>
+
+</string_table>

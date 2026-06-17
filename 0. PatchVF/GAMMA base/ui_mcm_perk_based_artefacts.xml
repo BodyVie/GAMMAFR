@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="ui_mcm_perk_based_artefacts_title">
+		<text>Aptitudes basées sur les Artefacts</text>
+	</string>
+	<string id="ui_mcm_menu_perk_based_artefacts">
+		<text>Aptitude Artefact</text>
+	</string>
+	<string id="ui_mcm_perk_based_artefacts_debug_mode">
+		<text>Mode débogage</text>
+	</string>
+	<string id="ui_mcm_perk_based_artefacts_debug_mode_desc">
+		<text>Active l'affichage de messages répétitifs dans la console.</text>
+	</string>
+	<string id="ui_mcm_perk_based_artefacts_allow_arty_containers">
+		<text>Autoriser les Artefacts dans les conteneurs</text>
+	</string>
+	<string id="ui_mcm_perk_based_artefacts_allow_arty_containers_desc">
+		<text>Permet aux artefacts contenus dans les conteneurs d'utiliser leurs aptitudes. Les descriptions des aptitudes resteront cependant uniquement disponibles pour les artefacts non placés dans un conteneur.</text>
+	</string>
+	<string id="ui_mcm_perk_based_artefacts_treasure_chance">
+		<text>Régularité des Artefacts dans les caches</text>
+	</string>
+	<string id="ui_mcm_perk_based_artefacts_treasure_chance_desc">
+		<text>Plus le nombre est faible, plus l'aptitude liée à l'artefacts sera rare dans les caches.</text>
+	</string>
+	<string id="ui_mcm_perk_based_artefacts_timed_degradation">
+		<text>Dégradation de l'état</text>
+	</string>
+	<string id="ui_mcm_perk_based_artefacts_timed_degradation_desc">
+		<text>Toutes les 20 secondes, l'artefacts perdra un pourcentage de son état défini par cette valeur.</text>
+	</string>
+	
+</string_table>

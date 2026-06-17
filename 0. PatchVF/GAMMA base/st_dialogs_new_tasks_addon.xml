@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<!-- The Living Fire -->
+	<string id="baraholka_trader_the_living_fire_1_0">
+		<text>L'Indic m'a dit de te retrouver. T'as des infos qui pourraient éclairer le stalker « enflammé » dont tout le monde parle, c'est ça ?</text>
+	</string>
+	<string id="baraholka_trader_the_living_fire_1_1">
+		<text>Ah, ouais... J'ai un truc, mais te fais pas trop d'illusions. Il y a un moment, on a observé des éclairs bizarres la nuit derrière le gros tas d'ordures au sud, suivis par des hurlements terrifiants de mutants. Quelques Solitaires ont été curieux de savoir c'qui s'était passé et ont visité l'endroit en journée. Ils ont trouvé des flesh morts là-bas qui étaient... bon... légèrement grillés. Au début, on a pensé que ces flesh étaient tombés dans une anomalie à peine visible qui avait disparu le lendemain ou qu'ils avaient croisé un poltergeist cracheur de feu, mais y'avait un truc bizarre avec l'un d'eux. Il avait comme une marque dans le dos - en forme de main humaine. Ça pouvait être un simple accident... ou pas ? Qui sait...\n\nTu peux jeter un oeil dans l'coin la nuit si tu veux en savoir plus. Si ce type existe vraiment, son affinité avec le feu pourrait t'indiquer où le chercher.</text>
+	</string>
+	<string id="baraholka_trader_the_living_fire_1_2">
+		<text>Hmm... ça sent encore l'histoire de vétéran pour faire flipper les recrues. Quoi qu'il en soit, je vais essayer d'en savoir plus. Merci.</text>
+	</string>
+	<string id="baraholka_trader_the_living_fire_1_3">
+		<text>Ouais... J'avoue, ça a l'air complètement taré. Mais reste sur tes gardes. La Zone, c'est un endroit bizarre...\nBref - l'Indic me doit un verre pour ça, peu importe comment ton enquête va tourner.</text>
+	</string>
+
+	<string id="baraholka_trader_the_living_fire_2_0">
+		<text>J'reviens de ma reco...</text>
+	</string>
+	<string id="baraholka_trader_the_living_fire_2_1">
+		<text>Laisse-moi deviner. Tu viens encore de perdre ton temps à courir après une rumeur pour l'Indic, c'est ça...</text>
+	</string>
+	<string id="baraholka_trader_the_living_fire_2_2">
+		<text>Je l'ai vu... ce stalker dont tout le monde parle.</text>
+	</string>
+	<string id="baraholka_trader_the_living_fire_2_3">
+		<text>T'as vu... quoi ? T'es sérieux, là ? Attends... t'es un peu pâle... T'es sérieux ?! Ça a un rapport avec cette grosse explosion qu'on a entendue ?</text>
+	</string>
+	<string id="baraholka_trader_the_living_fire_2_4">
+		<text>Ouais. Il faisait une sorte de... rituel... près de l'anomalie Feu Grec. Y'avait du feu partout autour. Un flesh égaré s'est approché et s'est... évaporé ?</text>
+	</string>
+	<string id="baraholka_trader_the_living_fire_2_5">
+		<text>Mais comment t'as fait pour survivre, putain ? T'as parlé avec lui ?</text>
+	</string>
+	<string id="baraholka_trader_the_living_fire_2_6">
+		<text>J'en sais rien. Il a forcément su que j'étais là dès le début, même s'il m'a pas vu. Quand j'ai voulu lui demander qui il était, il m'a coupé en disant que tout le monde connaîtrait bientôt son nom, et il a disparu dans une explosion de feu juste après.</text>
+	</string>
+	<string id="baraholka_trader_the_living_fire_2_7">
+		<text>Tout le monde connaîtra son nom, hein ? Ça sent pas bon. Bon - au moins, l'Indic sera content d'apprendre que t'as trouvé un truc. Maintenant, il me doit carrément une bouteille.</text>
+	</string>
+
+	<string id="bar_informator_mlr_the_living_fire_2_0">
+		<text>Indic - faut qu'on cause.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_2_1">
+		<text>La rumeur s'est avérée vraie. Je sais... J'ai déjà reçu un message de mon pote. T'as bien bossé. Tiens - t'as mérité ça.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_2_2">
+		<text>Cinq mille ? T'es complètement taré ou quoi ? J'aurais pu y rester, là-bas !</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_2_3">
+		<text>Chut... ferme-la. Y'a encore des trucs à venir. Travaille encore un peu pour moi et tu l'auras. Faut en savoir plus. Les gens paieront pas cher juste pour savoir que ce stalker existe. Enfin... peut-être que Petrenko, lui, paiera, vu qu'il a perdu deux hommes à cause de lui.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_2_4">
+		<text>Alors, c'est quoi le plan maintenant ? On sait pas où il est parti ni quel est son but. On a aucune piste.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_2_5">
+		<text>Ouais. Pendant que tu faisais ton enquête, j'ai surpris une conversation entre deux scientifiques sur une activité anormale d'anomalies exactement à l'endroit où t'as rencontré l'inconnu. Tu devrais aller voir Sakharov et lui proposer ton aide pour enquêter sur le problème.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_2_6">
+		<text>Bon. Je me casse, alors.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_2_7">
+		<text>Juste une dernière chose. Évite de lui dire que c'est moi qui ai espionné ses collègues. J'veux pas qu'ils deviennent plus méfiants envers moi. Les infos scientifiques, ça vaut de l'or.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_the_living_fire_1_0">
+		<text>Professeur, j'peux vous parler deux minutes ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_1">
+		<text>Pas maintenant, gamin. On est occupés à enquêter sur un incident récent.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_2">
+		<text>Cette affaire-là, c'est pas par hasard lié à l'anomalie du Feu Grec ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_3">
+		<text>Comment t'as su ? T'as intercepté un message que j'ai envoyé à mes assistants ?! Ces infos sont classifiées !</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_4">
+		<text>Te fâche pas, professeur. Peu importe comment j'ai su. Le truc, c'est que j'y suis allé y'a pas longtemps quand un truc bizarre s'est passé, et j'suis prêt à partager ce que j'sais si tu acceptes de me dire ce que tu sais. Ça pourrait être bénéfique pour nous deux. Peut-être que je pourrais t'aider avec...</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_5">
+		<text>J'me suis pas bien fait comprendre ?! Ces infos sont class... attends... T'as dit que t'avais vu quelque chose là-bas ? C'était quoi ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_6">
+		<text>Du savoir contre du savoir, professeur. Je peux t'assurer que mes infos valent le coup.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_7">
+		<text>Putain... comme tu veux. Nos scanners montrent des lectures anormales depuis quelques jours - des pics soudains dans l’énergie émise par cette anomalie. Comme si elle s’étendait et revenait à son état de base. On a déjà vu des fluctuations comme ça dans d’autres anomalies, mais pas avec cette fréquence. On a décidé de les ignorer. Il y a pas longtemps, nos lectures ont explosé la nuit pendant un court moment avant de revenir à la normale. C’est très inquiétant. On pourrait avoir de gros problèmes si les anomalies commencent à s’étendre sans contrôle.\n\nAlors, dis-moi - qu’est-ce que t’as vu là-bas ? Je suppose que t’as vu pas mal d’anomalies dans ta vie, alors ça devait être quelque chose d’extraordinaire.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_8">
+		<text>Ouais - c’était ça. Comme t’as dit, l’anomalie était vraiment active à ce moment-là. Elle crachait des flammes de partout. Le plus intéressant, c’est qu’il y avait un mec au milieu de ces flammes. Il faisait une sorte de rituel. Ce que j’ai découvert plus tard, c’est qu’il pouvait contrôler le feu. Il a littéralement désintégré un flesh sous mes yeux. Peu après, il a pris feu et a disparu. C’est aussi à ce moment-là que les flammes se sont calmées.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_9">
+		<text>Fascinant ! Donc c'est lui qui a boosté l'anomalie. T'as eu l'occasion de lui parler ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_10">
+		<text>Non... malheureusement pas... mais il a dit qu'avec le temps, tout le monde connaîtrait son nom.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_11">
+		<text>Ça sent pas bon, vu la puissance qu'il a. Faut qu'on découvre ce qu'il veut accomplir.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_12">
+		<text>Je suis d'accord et je dois dire que j'espérais que tu pourrais me dire où je devrais me diriger ensuite.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_13">
+		<text>J'crains de pas pouvoir t'aider là-dessus. Nos scanners montraient rien d'autre pour... attends... le voilà ! Les scanners détectent une activité anormale à l'anomalie de la Faille. T'y rends direct !</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_14">
+		<text>Merci, professeur ! Je me tire, alors.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_the_living_fire_2_0">
+		<text>Mauvaises nouvelles, professeur. J'ai pas réussi à arriver à temps pour rencontrer ce type.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_2_1">
+		<text>Je dirais que c'est une super nouvelle. Nos relevés ont montré un pic d'énergie hyper violent émis par cette anomalie. Si t'avais été plus près, t'aurais probablement été réduit en miettes.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_2_2">
+		<text>Oh, ben... j'ai eu du bol, j'imagine...</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_2_3">
+		<text>Je suis aussi content que t'aies réussi à revenir entier. Maintenant, dis-moi - comment t'as fait pour empêcher l'anomalie de se ramifier ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_2_4">
+		<text>Euh - se ramifier ? J'ai juste buté une bande de poltergeists enflammés à cet endroit. Ils avaient rien de spécial. J'en ai déjà vu quelques-uns.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_2_5">
+		<text>Elles étaient vraiment spéciales, jeune homme. Tu vois - nos scanners les détectaient comme des entités séparées avec une énergie similaire à celle des autres anomalies thermiques, juste un peu plus faible. C'étaient une sorte de proto-anomalies. Si tu les avais pas arrêtées là, elles se seraient transformées en d'autres grandes zones anormales, avec le temps.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_2_6">
+		<text>Hmm... Je crois que ce type est encore plus dangereux qu'on le pensait, alors.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_2_7">
+		<text>Ouais, tout à fait. Faut qu'on découvre ses motivations au plus vite. Malheureusement, j'pense pas pouvoir t'aider à le localiser à nouveau. Nos relevés sont revenus à la normale, encore une fois.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_2_8">
+		<text>C'est bon, professeur. Je continue l'enquête tout seul. À plus.</text>
+	</string>
+
+	<string id="bar_informator_mlr_the_living_fire_3_0">
+		<text>Je reviens de Yantar. J'ai encore des infos pour toi.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_1">
+		<text>Super ! Mais d'abord, laisse-moi t'dire un truc. Les gens paient pas mal pour en savoir plus sur Le Feu Vivant. Un surnom accrocheur, hein ? Je l'ai trouvé moi-même, vu que t'as pas encore appris son vrai nom. Tiens, ta part, mon pote. Alors - t'as appris quoi ?</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_2">
+		<text>Ça, c’est mieux. Pour mes découvertes - les scientifiques ont bien remarqué l’augmentation de l’activité anormale à la Décharge. Ils m’ont aussi envoyé enquêter sur une autre activité suspecte au Grand marais. J’étais en retard, et la fête avait déjà commencé avant que j’arrive, mais c’était une bonne chose - sinon, je serais probablement pas en train de te parler maintenant. Cette fois, le mec a réussi à créer des trucs appelés "proto-anomalies" près de la Sakharov, qui pouvaient plus tard se transformer en grosses zones anormales. J’ai réussi à m’en débarrasser à temps.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_3">
+		<text>Wouah ! Donc on a une apocalypse où on va tous cramer en enfer ? Ça sent le bon pognon, ça.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_4">
+		<text>Qu... T'es sérieux ? T'as même pas un peu les jetons ?</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_5">
+		<text>On va tous crever tôt ou tard, mon pote. Les gens avec du fric, eux, ils crèvent plus tard - et visiblement, notre partenariat va me rendre sacrément riche bientôt. J'quitterai la Zone juste à temps si jamais un truc merde.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_6">
+		<text>Ouais... J'suis pas aussi optimiste que toi.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_7">
+		<text>T'es pas obligé. C'est juste du business. Toi aussi, t'es dans le coup pour percer les mystères de la Zone, non ? Donc t'as un double bénéfice ici.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_8">
+		<text>T'as peut-être raison. De toute façon, les scientifiques ont pas détecté d'autres pics d'activité anormale pour l'instant, donc on est peut-être dans une impasse.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_9">
+		<text>Pas exactement - t’as oublié ma pomme. Le bon vieux Petrenko est passé récemment avec son talkie-walkie, et il se trouve que j’étais dans le coin pour entendre des trucs intéressants. Il parlait avec des officiels. Tu vois - l’escouade militaire qui garde le labo X-18 a eu une visite inattendue. Le dernier survivant a réussi à envoyer un signal de détresse, mentionnant aussi que ses potes avaient été réduits en cendres avant qu’il ne coupe la communication. Je suis sûr que c’était le mec qu’on cherche.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_10">
+		<text>D'accord... Et tu t'attends à ce que j'le cours après ?</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_11">
+		<text>Pourquoi pas ? T'as survécu à ta dernière rencontre avec lui, non ? Peut-être qu'y'a une raison à ça. Il sait peut-être quelque chose sur toi qui t'a sauvé la vie. En plus, tu veux vraiment laisser ce mystère sans réponse ? T'as oublié la fin du monde ? *rit*</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_12">
+		<text>Merde, l'Indic. Tu devrais prendre ça plus au sérieux. J'crois pas avoir le choix, de toute façon... J'irai là-bas.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_13">
+		<text>Ça, c'est l'esprit ! J'espère que tu vas ramener des infos encore plus utiles.</text>
+	</string>
+
+	<string id="the_living_fire_prometheus_the_living_fire_1_0">
+		<text>C'est pas un piège, hein ?</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_1">
+		<text>Pourquoi ça le serait ? Si j'avais voulu te buter, on serait pas en train de discuter, là.</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_2">
+		<text>Pourquoi t'as pas fait ça, alors ? J'ai vu ta puissance... ce flesh sur la Décharge a pris feu.</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_3">
+		<text>Je te connais, stalker. Je sais que t'as vu le Exauceur de Souhaits et que t'as pas fait un voeu égoïste, comme beaucoup d'autres l'auraient fait. T'as le coeur pur. Maintenant - je crois que t'as plein de questions.</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_4">
+		<text>T'as sacrément raison. T'es qui, toi ?! Pourquoi tu fais tout ça... et... c'est quoi exactement que tu fabriques ?</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_5">
+		<text>Je suis juste un stalker comme toi. Je traînais surtout dans le sud de la Zone avant un certain accident, mais on y viendra. Je m’appelais Boris... un simple bleu qui est venu dans la Zone pour se faire un peu de thune et rembourser mes dettes. Je faisais surtout des courses pour les marchands locaux... surtout pour ce salaud de Sidorovich.\n\nTu vois - un jour, j’ai reçu une mission pour livrer un colis aux scientifiques à Yantar. Ça semblait être de l’argent facile. Ça s’est pas bien passé pour moi... Je me suis fait choper par une escouade de militaires, et ils m’ont proposé de me laisser partir si je les payais. Une fois qu’ils ont eu l’argent, ils m’ont tout piqué et m’ont tabassé si fort que j’arrivais à peine à marcher... ces putains de bâtards corrompus.</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_6">
+		<text>Ouais... la justice, c'est pas vraiment une qualité qu'on trouve chez nos soldats et nos officiels... et après, qu'est-ce qui s'est passé ?</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_7">
+		<text>J’ai réussi à atteindre la Décharge, où je suis resté dans le hangar. Le Boucher s’est occupé de moi pendant quelques jours et m’a aidé à soigner mes blessures. Il connaît un paquet de trucs sur la Zone et il a une pommade faite avec de la graisse de mutant qui fait cicatriser les plaies plus vite.\n\nUne fois que j’ai retrouvé mes forces, je suis retourné au Cordon. Je voulais récupérer des fournitures dans ma planque là-bas, mais devine quoi - un enfoiré a encore tout piqué.</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_8">
+		<text>Pas de bol, hein ? Ça arrive, dans la Zone.</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_9">
+		<text>T’aurais pas cru te faire dépouiller par tes potes, hein ? Je sais de source sûre que c’est un de mes "amis" qui a piqué mes affaires et qui est parti plus au nord pour éviter de me croiser. Sans flingue ni thune, j’ai dû me tourner vers Sidorovich pour un prêt. Il a refusé, parce que j’avais pas livré le colis qui s’est fait choper par les militaires. Il m’a filé une autre mission, par contre - il m’a dit d’aller chercher un artefact rare qu’on ne trouve que dans les anomalies thermiques. Il m’a donné un vieux PM et un paquet de balles que je devais lui rendre une fois la mission terminée. Il a aussi dit qu’il mettrait une prime sur ma tête si je revenais pas avec cet artefact dans trois jours.</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_10">
+		<text>Sidor est un putain d'avare, mais là, c'est extrême même pour lui... T'as fait quoi après ?</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_11">
+		<text>J'pouvais pas refuser... Y'a pas d'anomalies thermiques autour du Cordon, alors j'ai dû aller ailleurs. Darkscape et Grand marais, c'est super dangereux, surtout quand t'as qu'un PM. J'ai décidé de traîner autour de l'anomalie Greek Fire. J'ai passé deux jours à glander près du Marché aux Puces, à bouffer des restes, à éviter les bastons et à visiter l'anomalie de temps en temps. Les marchands m'ont vu dans la misère et m'ont filé un quignon de pain une fois.\n\nAu troisième jour, la chance a enfin souri... ou du moins, c'est c'que j'croyais. Le bon artefact est apparu et j'ai essayé de l'attraper sans finir en grillade. Il a dérivé vers moi et je l'ai chopé. Puis, d'un coup, un flesh a jailli des buissons et m'a poussé direct dans l'anomalie. J'ai senti une douleur atroce dans tout l'corps et j'ai perdu connaissance peu après. J'me suis dit que c'était la fin... dévoré par les flammes.</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_12">
+		<text>Comment t'as fait pour être encore en vie, toi ?</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_13">
+		<text>Patience, mon pote. Je me suis réveillé un jour plus tard, à poil, entouré de flammes que j'sentais même pas... Pourtant, j'avais une douleur brûlante au coeur. J'essayais de rassembler mes idées quand j'ai vu des stalkers s'approcher et me viser direct - c'était le chasseur de primes envoyé par Sidorovich. J'ai supplié pour avoir pitié et j'ai tendu la main, mais il a tiré quand même. Ses balles m'ont pas atteint... elles ont fondu dans le mur de feu qui est apparu devant moi. C'est là que j'ai compris - la Zone m'avait accordé ce nouveau pouvoir. Le chasseur de primes était choqué de me voir encore en vie après que les flammes se soient éteintes. Avant qu'il ait pu appuyer à nouveau sur la détente, une boule de feu a jailli de ma main et l'a réduit en tas de cendres. La Zone m'a rendu tout ce qu'on m'avait fait subir comme souffrance et humiliation. J'ai été choisi par elle.</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_14">
+		<text>Hé, l'Élu ? Tu crois vraiment que c'était une sorte de destin ? Des trucs bizarres, y'en a tous les jours dans la Zone... Ça aurait pu être un simple accident.</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_15">
+		<text>C'est possible, mais je sais pertinemment que Boris est mort ce jour-là. J'ai pris un nouveau nom - Prométhée.</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_16">
+		<text>Prométhée ? C'est... poétique.</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_17">
+		<text>Ouais... c’est un hommage à l’anomalie qui m’a donné mes pouvoirs.\n\nJ’y ai passé quelques jours de plus, à apprendre à bien utiliser mes pouvoirs consciemment. Le jour où on s’est croisés, j’ai atteint un nouveau niveau... J’ai appris à puiser de l’énergie dans les anomalies et aussi à les booster. J’ai aussi senti ta présence au Grand marais, alors je suppose que c’est toi qui as stoppé ma petite expérience. Ensuite, je suis venu ici pour méditer encore sur mes pouvoirs, et regarde qui est là. Pourquoi tu me cours après comme ça, stalker ?</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_18">
+		<text>Je... Je crois que c'était surtout la curiosité qui me poussait. C'est quoi, ton but ultime ?</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_19">
+		<text>Mon but ultime ? Bah... *soupir*... Je crois qu'on a des invités indésirables. À la prochaine, stalker - porte-toi bien.</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_20">
+		<text>Attends ! Qu...</text>
+	</string>
+
+	<string id="bar_informator_mlr_the_living_fire_4_0">
+		<text>Yo l'Indic. J...</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_4_1">
+		<text>Notre sauveur est de retour ! T'as encore réussi à t'en sortir vivant - trop fort ! T'as enfin réglé son compte à la légende ?</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_4_2">
+		<text>Il a réduit une escouade de militaires en miettes, alors tu devines que j'ai pas... mais j'ai eu l'occasion de lui parler.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_4_3">
+		<text>C'est encore mieux ! T'as appris quoi ?</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_4_4">
+		<text>J'ai appris son nom : Prométhée. Il est...</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_4_5">
+		<text>Le Feu Vivant, Prométhée - né dans le Feu Grec ! Putain de merde ! C'est encore plus accrocheur ! Quoi d'autre...</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_4_6">
+		<text>Va te faire foutre, l'Indic ! T'es complètement taré ! Tout ce qui t'intéresse, c'est le fric ! J'te dirai plus rien, point final !</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_4_7">
+		<text>Quoi ?! Et notre deal, alors ? T'avais pas envie de te faire un peu de thune, toi aussi ?</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_4_8">
+		<text>J'me tire. Garde ton fric dégueu.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_4_9">
+		<text>Tu vas regretter ça, stalker...</text>
+	</string>
+
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_0">
+		<text>Sidorovich - faut qu'on parle.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_1">
+		<text>Qu'est-ce qu'y a ? J'suis assez occupé, là.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_2">
+		<text>Tu te souviens d'un nouveau stalker qui s'appelait Boris ?</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_3">
+		<text>Nan... y'a trop de bleusailles qui passent par notre bled - impossible de me souvenir de tout le monde.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_4">
+		<text>Bon, alors... T'as entendu parler du Feu Vivant ?</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_5">
+		<text>La nouvelle rumeur débile ? Ouais, j'en ai entendu parler. Pourquoi tu poses des questions aussi connes ? J'ai pas le temps pour ces conneries.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_6">
+		<text>Et si j'te disais que ta vie est en danger ? Boris se fait appeler Prométhée, maintenant, et c'est lui, le Feu Vivant de la rumeur. Disons qu'il t'aime pas des masses... parce que t'es un connard qui l'a envoyé à une mort certaine.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_7">
+		<text>Arrête tes conneries ! Pourquoi j'te croirais ?</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_8">
+		<text>J'ai eu l'occasion de lui parler. C'était ton coursier malchanceux qui s'est fait dérouiller par les militaires et que t'as envoyé plus tard avec un PM pour dénicher un artefact rare. Ça te dit quelque chose, maintenant ?</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_9">
+		<text>Comment tu sais tout ça, putain ?! Oh merde - t'es sérieux ! Pourquoi t'as pas mis une balle dans sa tête quand t'en avais l'occasion ?</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_10">
+		<text>T’as clairement zappé les parties importantes de cette rumeur, hein ? T’es pas le seul à tenir à ta peau. Je pense pas qu’on puisse le buter avec une arme. Notre meilleure chance, c’est de lui parler. Maintenant que t’as tout rafraîchi avec un peu de motivation, tu sais quelque chose qui pourrait m’aider à le retrouver ?</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_11">
+		<text>Je sais que ce pauvre type avait un pote dans le coin, un certain Andrei. Ils traînaient ensemble parce qu'ils étaient tous les deux malchanceux et fauchés. Il est plus là. Paraît qu'il est parti vers le nord y'a pas longtemps. Ce con est probablement mort, maintenant.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_12">
+		<text>Putain... ça m'avance pas des masses. Bon, écoute - j'te conseille d'embaucher des gardes et d'installer des portes résistantes à la chaleur. Si ce type décide de te rendre visite, ça pourrait te sauver la peau... Même si j'en doute.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_13">
+		<text>Hah... t'es trop con...</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_the_living_fire_3_0">
+		<text>Quelle est la situation, professeur ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_3_1">
+		<text>Ravi de te voir, jeune homme. La situation est très grave, alors je vais faire vite.\n\nOn a repéré un pic extrême d’activité anormale dans le complexe souterrain X-16. J’ai jamais vu un truc pareil. C’est sûrement l’oeuvre de notre mystérieux stalker. Si une énergie de cette magnitude se transforme en un vrai champ anormal, cet endroit va devenir un enfer !\n\nOn a envoyé un petit groupe de mercenaires pour enquêter, et ils ont croisé un stalker à l’entrée qui a ouvert le feu direct. Les mercenaires étaient plus nombreux, alors ils ont pris d’assaut l’endroit. Grosse erreur. Ils ont réussi à buter le stalker, mais quelque chose d’inattendu s’est produit juste après. Ils ont commencé à se rassembler près de son corps, et puis il a explosé. Un seul mec de l’escouade a survécu - son corps était gravement brûlé.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_3_2">
+		<text>Ça sent carrément un coup de Prométhée, ça...</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_3_3">
+		<text>Prométhée ? C'est le nom du stalker qu'on cherche ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_3_4">
+		<text>Désolé, professeur, mais j'ai pas le temps de tout t'expliquer en détail.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_3_5">
+		<text>Ah, t'as raison, jeune homme. T'as déjà réussi à stopper la ramification de l'anomalie une fois, alors j'espère que tu peux recommencer.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_3_6">
+		<text>J'espère aussi. Je me casse.</text>
+	</string>
+
+	<string id="the_living_fire_prometheus_the_living_fire_2_0">
+		<text>Qu... Qu'est-ce qui s'est passé ici ? C'est quoi, tous ces corps carbonisés ?</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_2_1">
+		<text>Ce sont des stalkers qui partagent ma vision. Ils sont venus me chercher après qu'Andreï, un pote que j'ai rencontré récemment, a commencé à répandre mon message. Je vais purifier ce monde de toute cette merde injuste, et ils ont accepté de m'aider. Ils en ont assez bavé - comme moi.</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_2_2">
+		<text>Pourquoi qu'ils sont tous morts, alors ?</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_2_3">
+		<text>C'est pas tous - juste quelques expériences ratées. T'en as croisé des réussies en venant ici.</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_2_4">
+		<text>Qu'est-ce que t'as fait d'eux ? Tuer ces gens et les transformer en bombes ambulantes, ça te met sur le même plan que la « racaille » que tu veux éradiquer ? Tuer un homme, c'est le pire des crimes.</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_2_5">
+		<text>Fais gaffe à ce que tu dis... tu marches sur des oeufs... Ils sont tous venus à moi de leur plein gré et ont accepté tout ce qui pouvait arriver. En plus, c'est toi qui as buté les vivants. J't'ai à la bonne, alors je vais pas te descendre sur place - je te laisserai assister à mon Magnum Opus.</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_2_6">
+		<text>Ton quoi ? Qu'est-ce que tu manigances ?</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_2_7">
+		<text>J'ai imprégné ces gens de mon pouvoir. Malheureusement, tous les corps ne peuvent pas le supporter. Ils me serviront de relais de puissance quand le moment viendra. Y'a encore un endroit que je dois visiter en personne - aucun relais ne pourrait canaliser son pouvoir. Ensuite... tu verras ce qui se passera. Adieu, stalker.</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_2_8">
+		<text>J'trouverai un moyen de t'arrêter, Prométhée...</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_the_living_fire_4_0">
+		<text>Prof...</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_1">
+		<text>T'as encore réussi, gamin ! Les relevés reviennent à la normale. Je...</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_2">
+		<text>C'est pas fini. Prométhée s'est tiré et il manigance un truc. J'sais pas quoi, mais c'est clairement pas bon. J'aurai besoin de ton aide.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_3">
+		<text>Oh - qu'est-ce que j'peux faire pour toi ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_4">
+		<text>Le type que les mercenaires ont descendu, c'est un des disciples de Prométhée. Il leur a transmis son pouvoir et il compte s'en servir comme relais énergétique. Faudra utiliser tes contacts avec les autorités.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_5">
+		<text>Je vois. Tu veux que je demande à l'armée de protéger un max d'anomalies thermiques et de buter les stalkers suspects quand ils s'approchent, c'est ça ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_6">
+		<text>Pas exactement. Je pense que Prométhée le sentira quand il perdra le contact avec ses disciples. Il faut lui faire croire que tout va bien. Il va essayer d’utiliser toute cette puissance d’un coup, donc si on se débarrasse de tous ses relais de pouvoir en même temps, il va probablement pomper trop de sa propre énergie avant de réaliser ce qui se passe. Ça pourrait me donner une fenêtre pour en finir avec lui.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_7">
+		<text>C'est un plan sacrément risqué... Mais j'crois qu'on a pas d'autres options.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_8">
+		<text>Probablement pas. Je vais essayer une arme plus puissante pour augmenter mes chances. Le fusil Gauss devrait faire l'affaire.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_9">
+		<text>Ça me semble un bon plan. Tu sais où il est, là ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_10">
+		<text>Il a dit qu'il devait visiter une anomalie en personne pour en maîtriser le pouvoir. Tu sais de quelle anomalie il parlait ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_11">
+		<text>Y'a une anomalie avec une énergie exceptionnellement élevée. Elle est située dans la Forêt Rouge. J'doute que les militaires acceptent d'y envoyer des gars. C'est trop risqué. Faudra que tu la sécurises toi-même d'abord. Si elle commence à se ramifier, j'espère que tu sauras encore l'arrêter.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_12">
+		<text>Merci, professeur. Je te tiens au jus quand l'endroit est sécurisé. À plus.</text>
+	</string>
+
+	<string id="bar_informator_mlr_the_living_fire_5_0">
+		<text>Petit rat. Dis-moi pourquoi j'devrais pas te loger une balle dans le crâne, là, tout de suite ?</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_5_1">
+		<text>Quoi ? De quoi tu parles ?</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_5_2">
+		<text>J'ai croisé l'escouade de chasseurs de primes que t'as envoyée après moi. Ils sont tous morts, et maintenant, c'est ton tour.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_5_3">
+		<text>Attends ! J'ai pas engagé d'escouade de chasseurs de primes ! Des mecs sérieux sont passés me voir y'a un moment et ont commencé à me poser des questions sur Prométhée. Je leur ai juste dit que c'était toi qui en savais le plus sur lui. J'savais pas qu'ils allaient t'attaquer. C'était juste du business.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_5_4">
+		<text>J'en ai rien à foutre, l'Indic. J'aurais pu y passer... alors je vais reposer ma question. Pourquoi je devrais pas te buter maintenant ?</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_5_5">
+		<text>Attends ! Et si je te filais des infos gratos en échange de ma peau ? On appellera ça une compensation pour tes pertes. Je te garantis que ça te servira.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_5_6">
+		<text>J't'écoute...</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_5_7">
+		<text>Les mecs de Liberté ont chopé une sorte de prédicateur dans leur base. Apparemment, c'était un pote de Prométhée. Liberté lui a soutiré plus d'infos. Ils vont se rassembler à la Périphérie pour « un truc grandiose ». Il a mentionné le Cinéma Prométhée.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_5_8">
+		<text>Putain... son Magnum Opus... Il aurait pas pu choisir pire endroit.</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_5_9">
+		<text>Son quoi ? T'es en train de...</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_5_10">
+		<text>T'as racheté ta faute, l'Indic. Faut que j'y aille, maintenant.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_the_living_fire_5_0">
+		<text>J'suis de retour, professeur. Prométhée, c'est fini - je l'ai vu exploser de mes propres yeux. Sans tes contacts, ça aurait pas été possible. Qu'est-ce que tu voulais ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_5_1">
+		<text>Je voulais te remercier, jeune homme. Peut-être que les militaires nous ont aidés à stopper Prométhée, mais c’est toi qui as vraiment enquêté sur cette affaire et qui l’as menée à son terme, en risquant ta peau.\n\nJe ne sais pas ce que Prométhée fabriquait à ce moment-là, mais il a réussi à booster à distance la plus grosse anomalie de la Zone, située plus au nord que la CNPP. Si tu ne l’avais pas arrêté, beaucoup de gens seraient morts. Je t’en suis reconnaissant.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_5_2">
+		<text>Ben... Il voulait me tuer aussi, alors j'avais pas vraiment le choix.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_5_3">
+		<text>Ça se peut *rit*\n\nEnfin bon - t’as mérité une récompense. Mes collègues ont aidé les militaires près des anomalies que Prométhée a visitées en personne. Après sa mort, un artefact exceptionnel est né dans le Feu grec. Je veux que tu l’aies. Il semble avoir une mauvaise influence sur mes collègues, et je préfère éviter qu’un autre taré assoiffé de pouvoir réapparaisse.\n\nT’as survécu à plusieurs rencontres avec Prométhée, alors il a vu quelque chose en toi... Je crois que ce truc te protégera de l’influence de cet artefact.</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_5_4">
+		<text>Merci, professeur. J'espère que je vais pas perdre la boule, non plus.</text>
+	</string>
+
+	<!-- Mystery of the Swamps -->
+	<string id="bar_visitors_barman_stalker_trader_mystery_of_the_swamps_1_0">
+		<text>Hé Barman. T'avais besoin de quelque chose ?</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_mystery_of_the_swamps_1_1">
+		<text>T'es pas en train de chercher un boulot, par hasard ? Sakharov m'a contacté récemment. Il recrute des mercenaires pour protéger ses équipes scientifiques quand elles font des relevés. Il t'en dira plus quand t'arriveras là-bas.</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_mystery_of_the_swamps_1_2_0">
+		<text>Un peu de thune me ferait pas de mal. Merci - j'irai lui rendre visite.</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_mystery_of_the_swamps_1_2_1">
+		<text>Désolé, j'suis occupé là.</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_mystery_of_the_swamps_1_3">
+		<text>Dommage. Si tu changes d'avis, tu peux toujours essayer de lui parler quand même.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_1_0">
+		<text>Salut, professeur. T'as l'air un peu soucieux. T'as besoin d'un coup de main ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_1_1">
+		<text>En fait - oui. On cherche des mercenaires pour protéger nos équipes scientifiques. Les militaires sont à bout de forces en ce moment, alors on est obligés d’embaucher des stalkers en solo.\n\nTu vois - quelque chose de bizarre a commencé à se passer dans les zones marécageuses du Zone. On reçoit des données sur une activité anormale accrue, même dans des endroits qui semblent calmes. Certains stalkers ont aussi signalé que des quantités inhabituelles de Karliks sont attirées par ces zones. On voudrait récolter des données sur tous ces endroits. Ça t’intéresse de prendre ce boulot ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_1_2_0">
+		<text>Ça a l'air intéressant. Je suis partant.</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_1_2_1">
+		<text>Traîner dans les marais à courir après des nains ? Ça a l'air d'être une sacrée perte de temps...</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_1_3">
+		<text>Super ! On a déjà monté quelques équipes qui sont sur le coup. Voyons voir... Darkscape, Agroprom et la Décharge sont déjà couverts, et Firmament a accepté de nous faire un rapport sur le Grand marais... voilà - tu seras envoyé aux Entrepôts militaires. Notre scientifique et l’autre garde du corps t’attendent dehors.</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_1_4">
+		<text>Super. On revient vite.</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_1_5">
+		<text>Tant pis pour toi, jeune homme. Si tu changes d'avis, je serai encore là... si on a pas déjà rempli tous les rôles de mercenaire, bien sûr.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_2_0">
+		<text>À propos de cette mission d'escorte...</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_2_1">
+		<text>Ouais ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_2_2_0">
+		<text>J'ai changé d'avis. Je suis partant.</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_2_2_1">
+		<text>Laisse tomber...</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_2_3">
+		<text>Super ! On a déjà monté quelques équipes qui sont sur le coup. Voyons voir... Darkscape, Agroprom et la Décharge sont déjà couverts, et Firmament a accepté de nous faire un rapport sur le Grand marais... voilà - tu seras envoyé aux Entrepôts militaires. Notre scientifique et l’autre garde du corps t’attendent dehors.</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_2_4">
+		<text>Super. On revient vite.</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_2_5">
+		<text>Arrête de me faire perdre mon temps, gamin.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_0">
+		<text>On est de retour, professeur. Je crois que ton pote a rassemblé les données que tu voulais.</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_1">
+		<text>Parfait ! Laisse-moi voir... hein ? Ça n'a aucun sens. L'anomalie elle-même n'a subi aucun changement d'activité. Nos scanners ici ont aussi arrêté d'enregistrer des anomalies après ton passage là-bas.\n\nDis-moi - t'as trouvé quelque chose de bizarre près de l'anomalie ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_2">
+		<text>Pas vraiment... à part peut-être un nombre plus élevé que la moyenne de Karliks dans le coin, mais t'as probablement déjà deviné ça, vu que tu m'as prévenu.</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_3">
+		<text>Ouais... c’est vraiment bizarre, ça...\n\nPeut-être que c’est le Karliks qui a causé ces lectures bizarres sur nos scanners... On a besoin de plus de données là-dessus.\n\nL’équipe qu’on a envoyée à Agroprom et les Scientifiques à la stalkers sur le Grand marais ont aussi croisé des Karliks autour des zones de mesure, et les choses sont revenues à la normale quelque temps après les avoir butés, même si les anomalies n’étaient pas aussi spectaculaires au début...</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_4">
+		<text>Euh... Désolé de t'interrompre, professeur, mais je pense pas que ce truc me concerne, non ? En plus - t'as pas oublié un truc, là ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_5">
+		<text>Ah, oui... ces jeunes impatients... Tiens, ta récompense.\n\nTu veux bien m'écouter maintenant ? Tu pourrais gagner un peu plus.</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_6">
+		<text>Bon, j't'écoute.</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_7">
+		<text>Super. Où j’en étais ? Ah oui - les données de Agroprom et du Grand marais ne nous serviront pas à grand-chose, mais j’aimerais t’embaucher pour une autre mission.\n\nTu vois - un de nos mercenaires a merdé dans sa mission de garde du corps. Il est revenu ici et a réclamé son paiement, parce qu’il prétendait qu’on lui avait menti sur la tâche. Il a dit qu’il avait nettoyé les Karliks et que notre scientifique avait réussi à récolter les données, mais au moment où il allait se relever, une apparition fantomatique lui a brisé la nuque.\n\nTu crois ça, toi ? Prétendre que ghost a buté notre collègue... Moi, je pense que le mec a été affecté par les pouvoirs psychiques des Karliks ou qu’il a inhalé trop de vapeurs de l’anomalie...</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_8">
+		<text>Ben... j'ai vu pas mal de trucs chelous qui sont durs à croire... Peut-être que ce type mentait pas, après tout.</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_9">
+		<text>Ça va, jeune homme ? Je pense que tu devrais aussi te faire soigner...</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_10">
+		<text>Arrête de te foutre de ma gueule. Je suis sérieux, professeur.</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_11">
+		<text>Bon, ben tes expériences chelous font de toi le candidat idéal pour la mission dont j't'ai parlé. On doit récupérer les données que notre scientifique a rassemblées. Ces données sont cruciales pour nous, et on peut pas risquer de les perdre. Tu seras bien récompensé.</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_12">
+		<text>Bon, d'accord. Je vais t'aider. Ça devient... intéressant.</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_13">
+		<text>Splendide ! Ton coéquipier de la dernière mission t'accompagnera aussi. S'il vous plaît, couvrez-vous mutuellement et magnez-vous !</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_0">
+		<text>Professeur, j...</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_1">
+		<text>Mon Dieu ! T'es vivant ! Nos machines ont détecté une activité psi ultra-puissante qui venait du Darkscape. Qu'est-ce qui s'est passé là-bas ? Où sont les autres mercenaires ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_2">
+		<text>Tu vas pas me croire... Le garde du corps de ton collègue qu'on a envoyé à la Décharge disait vrai. On est tombés sur un ghost là-bas. C'est pour ça que mon premier partenaire a décidé de résilier son contrat.</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_3">
+		<text>Et le Darkscape, alors ? C'était quoi, cette énergie monstrueuse ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_4">
+		<text>On a aussi croisé quelques ghost là-bas, mais je pense pas que ce soit eux les responsables.\nQuand on a voulu bouger, tes gars se sont fait déchiqueter par... Baba Yaga.</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_5">
+		<text>Pardon ? ... Un quoi ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_6">
+		<text>Baba...</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_7">
+		<text>J'ai entendu c'que tu racontais ! J'ai juste l'impression que tu essaies de m'faire passer pour un con ! Baba Yaga ? Tu veux que j'croie qu'une vieille sorcière de contes slaves pour mômes a buté mes gars ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_8">
+		<text>J'ai l'air de plaisanter ?! J'suis sérieux, professeur. Le Barman m'a demandé y'a un moment d'enquêter sur un mutant qui s'est fait surnommer Baba Yaga. J'pensais l'avoir butée, mais apparemment, c'est pas si simple...</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_9">
+		<text>Je... pardonne-moi, jeune homme. En tant qu'homme de science, c'est dur pour moi de croire aux ghost. La Zone est un endroit bizarre, après tout, mais... des ghost ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_10">
+		<text>Ouais... Plus rien ne m'étonne, maintenant. Les marais pullulent dans la Zone et si cette sorcière est liée à eux d'une façon ou d'une autre, faut s'en occuper avant que d'autres y passent.</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_11">
+		<text>Je pense pas que la science puisse t'aider là-dessus, gamin.</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_12">
+		<text>T'inquiète, professeur. J'aime bien démêler les mystères de la Zone, et je crois savoir qui pourrait m'aider.</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_13">
+		<text>Bon - bonne chance pour ta quête, alors. Ah, et n'oublie pas la récompense pour les données que t'as récupérées.</text>
+	</string>
+
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_0">
+		<text>Salut, Boucher ! Faut qu'on parle.</text>
+	</string>
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_1">
+		<text>Quoi de neuf ? T'as besoin de viande fraîche ? Ou alors un conseil de chasse ?</text>
+	</string>
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_2">
+		<text>Hah - t'as deviné juste pour la deuxième option, mais ça va pas être une question ordinaire. Dis-moi - t'as déjà eu affaire à des ghost avant ?</text>
+	</string>
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_3">
+		<text>Un Ghost ? Non... mais j'ai entendu des vieilles histoires sur comment bannir les esprits vengeurs, si ça t'intéresse. T'as énervé qui, au juste ?</text>
+	</string>
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_4">
+		<text>Au moins, tu te fous pas de ma gueule...\nBref - tu te souviens de Baba Yaga ? Je l'ai recroisée. En fait, c'est pas une mutant ordinaire. Elle a des pouvoirs psychiques super puissants qui attirent aussi les Karliks. On dirait qu'elle peut aussi invoquer d'autres esprits...</text>
+	</string>
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_5">
+		<text>Intéressant... On dirait qu'on a une sorcière ici. Vu que t'as pas réussi à la buter la première fois avec des flingues, je parie que c'est encore pire - l'esprit d'une sorcière.</text>
+	</string>
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_6">
+		<text>Super... comment on bute un ghost ?</text>
+	</string>
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_7">
+		<text>Tu peux pas. Mais tu peux le bannir en brûlant ses os ou en l'aidant à régler ses affaires inachevées. Enfin, c'est ce que racontent les vieilles légendes.</text>
+	</string>
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_8">
+		<text>Elle a pas l'air très chaude pour discuter, alors ça risque d'être coton de découvrir ce qui la lie à tout ça. J'pense qu'il faut retrouver le corps. T'as des pistes ? Une chose est sûre, elle est liée aux marais d'une façon ou d'une autre.</text>
+	</string>
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_9">
+		<text>J'pense pas que tu vas pouvoir le trouver comme ça. Y'a trop de marécages dans la Zone. Fouiller partout prendrait un temps de ouf.\n\nTu devrais demander aux gens du coin s'ils connaissent des histoires qui pourraient te mettre sur la voie... De préférence ceux qui traînent ici depuis un bail.</text>
+	</string>
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_10">
+		<text>Merci pour les conseils. Je me casse.</text>
+	</string>
+
+	<string id="bar_visitors_barman_stalker_trader_mystery_of_the_swamps_2_0">
+		<text>Hé Barman. T'as passé pas mal de temps dans la Zone et t'as sûrement entendu un paquet d'histoires par ici. Ça te dérange si je te pose quelques questions ?</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_mystery_of_the_swamps_2_1">
+		<text>Hah - t'es chaud pour les histoires de poivrots ? Vas-y, balance.</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_mystery_of_the_swamps_2_2">
+		<text>Tu connais une histoire sur une femme qui vivait par ici et qui était une sorte de sorcière, par hasard ?</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_mystery_of_the_swamps_2_3">
+		<text>Ben - y'avait plein de monde qui vivait ici avant, surtout à Pripyat, mais j'ai jamais entendu parler de ça... à part l'histoire de Baba Yaga que t'as réglée.</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_mystery_of_the_swamps_2_4">
+		<text>Euh, ouais... laisse tomber. Merci.</text>
+	</string>
+
+	<string id="esc_2_12_stalker_trader_mystery_of_the_swamps_1_0">
+		<text>Hé Sidor. Faut que j'te parle.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_mystery_of_the_swamps_1_1">
+		<text>Qu'est-ce qu'y a ?</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_mystery_of_the_swamps_1_2">
+		<text>T'es planqué dans ce bunker depuis un bail, non ? T'as entendu parler d'une femme qui vivait dans le coin et qui avait des pouvoirs psy, ou un truc du genre ?</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_mystery_of_the_swamps_1_3">
+		<text>Des pouvoirs ? De quoi tu parles, bordel ?</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_mystery_of_the_swamps_1_4">
+		<text>Tu sais... la télépathie et tout le bordel...</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_mystery_of_the_swamps_1_5">
+		<text>Y'a des controllers dans le coin et d'après les rumeurs, ils sont bien vivants. Tu pourrais te rendre utile et en chasser quelques-uns au lieu de poser des questions à la con.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_mystery_of_the_swamps_1_6">
+		<text>Merci pour que dalle...</text>
+	</string>
+
+	<string id="red_forester_tech_mystery_of_the_swamps_1_0">
+		<text>Hé, Forestier. T'as passé pas mal de temps dans le coin, non ? Je peux te poser quelques questions ?</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_1">
+		<text>J'reçois pas souvent de visite... encore moins des gens prêts à discuter un peu. Qu'est-ce que tu veux savoir, gamin ?</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_2">
+		<text>J'essaie de glaner des infos sur une femme savante qui est morte y'a un bail. Tu vas peut-être pas me croire, mais on dirait que son ghost s'est agité et réclame justice.</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_3">
+		<text>J'te crois, mon pote. J'ai vu des trucs dans ma vie qui défient toute explication. Pour ta question - une femme savante... Tu veux parler d'une chuchoteuse... ou peut-être d'une sorcière ?</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_4">
+		<text>Yes ! C'est ça ! T'en connais un, toi, un gars comme ça ?</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_5">
+		<text>Ouais... Il y a très longtemps, quand j'étais gamin, une femme comme ça vivait dans le village voisin. T'en as peut-être entendu parler. C'est le village de Kopachy, au nord d'ici.\n\nÀ l'époque, quand cette terre commençait tout juste à se remettre de la guerre, c'était dur de recevoir des soins médicaux corrects dans des coins paumés comme ça, et les gens confiaient souvent leur sort aux sorcières locales, aux anciens ou aux chamans. La femme dont tu parles était ce genre de guérisseuse. Me fais pas dire c'que j'ai pas dit - ses connaissances se transmettaient de génération en génération, et elle arrivait vraiment à aider les gens avec des remèdes naturels. Elle était connue dans le coin.\n\nMalheureusement, la confiance des gens simples va et vient aussi vite... Dès qu'une épidémie ou une famine frappait le village, les gens devenaient méfiants envers cette femme qui restait en bonne santé... certains ont même prétendu que c'était elle la responsable.\n\nLes gens qui se nourrissent de mensonges finissent toujours par péter un câble... et c'est ce qui est arrivé à un des hommes dont le jeune fils a disparu un jour et n'a jamais été retrouvé. Le père a commencé à raconter n'importe quoi sur la sorcière qui mangeait les enfants et se régalait du malheur de ses voisins à chaque tragédie. Euh... euh... je t'ennuie pas avec cette histoire ?</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_6">
+		<text>Non ! Bien sûr que non ! Vas-y, continue.</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_7">
+		<text>Très bien. On approche de la fin de l'histoire. C'est dur à comprendre, mais les gens autour ont vite commencé à croire les paroles de ce fou et à lui tourner le dos. Chaque version des ragots devenait de plus en plus sombre. Avec le temps, une guérisseuse autrefois respectée a été considérée par beaucoup comme le diable en personne.\n\nIl n'a fallu qu'une tragédie de plus pour sceller le sort de cette femme. Un autre gamin a disparu dans les bois pendant que ses parents travaillaient, et les gens étaient plus enclins à croire que c'était elle plutôt qu'une meute de loups ou un ours. La foule en colère est venue à sa cabane de nuit, et même s'ils n'ont trouvé aucune preuve de meurtre, ils l'ont quand même déclarée coupable. Ses supplications n'ont servi à rien. Les deux pères des enfants disparus l'ont traînée jusqu'au marais voisin et l'y ont noyée. Selon eux, c'était une « punition digne d'une sorcière »...\n\nC'était une mort terrible et inutile... Penser que les gens peuvent tourner le dos à quelqu'un qui était toujours là pour les aider... Ça me donne l'impression qu'on est pires que des bêtes. Bref - si c'est son ghost que tu veux régler, tu vois bien qu'elle a des raisons de haïr les gens.</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_8">
+		<text>C'est une histoire vraiment triste... J'ai aussi pitié d'elle.\n\nLe Boucher a mentionné qu'il y a deux façons de bannir un esprit - brûler les os de son corps ou l'aider à terminer ce qui le retient dans ce monde. Vu qu'elle semble être une victime ici, t'as une idée de ce qui pourrait être son affaire inachevée ?</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_9">
+		<text>Tous ceux qui sont responsables de sa mort - directement ou indirectement - sont morts depuis longtemps. La Zone est encore pleine de gens prêts à poignarder leurs potes dans le dos pour n'importe quelle raison. Peut-être que son but, c'est de punir des gens comme ça, et dans ce cas, j'doute que tu puisses jamais l'aider à accomplir ça.</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_10">
+		<text>Hmm... son esprit était accompagné d'un autre ghost la dernière fois que je l'ai vue. Peut-être qu'elle tourmente ces âmes même après la mort ?</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_11">
+		<text>Vu comment les gens l'ont traitée alors qu'elle les aidait, ça m'étonnerait pas qu'elle ait voulu se venger. Peut-être que tu devrais la laisser faire ?</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_12">
+		<text>J'aurais bien aimé, si elle avait pas essayé de me buter aussi. J'suis pas un mauvais gars... ou du moins, j'pense pas l'être. Elle a aussi tué des scientifiques et mes potes. C'est quoi la probabilité qu'on mérite tous ça ?</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_13">
+		<text>Hmm... y’a un truc là-dedans. D’après des vieilles histoires que j’ai entendues gamin, si les âmes traînent trop longtemps dans ce monde, elles finissent par pourrir. Je pensais qu’elle était revenue que récemment, mais vu comment elle attaque tout le monde, je suis sûr que son âme est plus sauvable.\n\nY’a pas d’autre solution. Il va falloir brûler ses os.</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_14">
+		<text>Mais comment je vais les trouver ? T'as dit qu'elle s'était noyée dans le marais y'a un bail.</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_15">
+		<text>T'as dit que ses pouvoirs psychiques ont persisté même après sa mort. Tu devrais parler aux scientifiques. J'suis presque sûr qu'ils pourront t'aider à localiser ses os. En plus, c'est dans leur intérêt, vu qu'un de leurs bunkers est près de Kopachy et l'autre borde un énorme marais...</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_16">
+		<text>Merci, Forestier. T'm'as sacrément aidé.</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_17">
+		<text>Merci à toi aussi, jeune homme. Passe de temps en temps pour discuter. Je te souhaite bonne chance. Et n'oublie pas les allumettes !</text>
+	</string>
+
+	<string id="jup_b6_scientist_nuclear_physicist_mystery_of_the_swamps_1_0">
+		<text>Salut, Professeur. Tu m'accorderais une minute ?</text>
+	</string>
+	<string id="jup_b6_scientist_nuclear_physicist_mystery_of_the_swamps_1_1">
+		<text>Dépêche-toi, s'te plaît. On a un gros problème avec une invasion de Karliks qui hantent les ruines du village voisin.</text>
+	</string>
+	<string id="jup_b6_scientist_nuclear_physicist_mystery_of_the_swamps_1_2">
+		<text>En fait, c'est lié à ce que je dois te discuter. Tes instruments détectent un champ psy anormal autour du village ?</text>
+	</string>
+	<string id="jup_b6_scientist_nuclear_physicist_mystery_of_the_swamps_1_3">
+		<text>Hein... comment t'as su ça ?</text>
+	</string>
+	<string id="jup_b6_scientist_nuclear_physicist_mystery_of_the_swamps_1_4">
+		<text>C'est pas la question, mais disons que je sais comment régler ton problème. Tu peux me donner plus de détails ?</text>
+	</string>
+	<string id="jup_b6_scientist_nuclear_physicist_mystery_of_the_swamps_1_5">
+		<text>Bien sûr ! On détecte ce faible champ psychique anormal qui s’accumule depuis quelques semaines. La plupart du temps, il était dispersé dans toute la région du village, mais récemment, on a réussi à localiser son centre. Il se trouve dans le grand bâtiment qui a le mieux résisté. On a essayé d’envoyer des escouades pour enquêter, mais dès que quelqu’un s’approche du village, des Karliks sortent des décombres et des gravats. Certains de nos collègues ont aussi signalé des hallucinations. Alors - peux-tu me dire ce que tu sais ?</text>
+	</string>
+	<string id="jup_b6_scientist_nuclear_physicist_mystery_of_the_swamps_1_6">
+		<text>Désolé Professeur, mais y'a pas le temps pour les explications. On va avoir de gros problèmes si on agit pas vite. T'as des hommes capables de se battre ?</text>
+	</string>
+	<string id="jup_b6_scientist_nuclear_physicist_mystery_of_the_swamps_1_7">
+		<text>J'ai bien peur de pas pouvoir t'aider. On est en sous-effectif. Si tu dis qu'on est en danger, on peut pas laisser le bunker sans protection.</text>
+	</string>
+	<string id="jup_b6_scientist_nuclear_physicist_mystery_of_the_swamps_1_8">
+		<text>Compris. Je me casse, alors.</text>
+	</string>
+</string_table>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+- @ Version: SCREEN SPACE SHADERS - UPDATE 21
+- @ Description: Water - MCM strings
+- @ Author: https://www.moddb.com/members/ascii1457
+- @ Mod: https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+	<!-- Button -->
+	<string id="ui_mcm_ssfx_module_il">
+		<text>Lumière indirecte</text>
+	</string>
+
+	<!-- SSR Settings -->
+	<string id="ui_mcm_ssfx_module_il_title">
+		<text>Paramètres de la lumière indirecte</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_il_quality_mcm">
+		<text>Qualité</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_il_quality_mcm_desc">
+		<text>[ REDÉMARRAGE REQUIS ] Nombre d'échantillons utilisés pour le rendu de l'éclairage indirect. Les paramètres Élevé et Très Élevé peuvent fortement impacter vos performances. [ 16, 24, 32, 48, 64 ]</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_il_res_mcm">
+		<text>Résolution</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_il_res_mcm_desc">
+		<text>Résolution du rendu de l'éclairage indirect. Des valeurs élevées peuvent fortement impacter vos performances.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_il_blur_mcm">
+		<text>Flou</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_il_blur_mcm_desc">
+		<text>Intensité du flou. Cela permet d'améliorer la fluidité du résultat.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_il_vibrance_mcm">
+		<text>Vibrance des couleurs</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_il_vibrance_mcm_desc">
+		<text>Option permettant de définir l'intensité de la couleur de l'éclairage indirect.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_il_distance_mcm">
+		<text>Distance maximale</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_il_distance_mcm_desc">
+		<text>Distance maximale du rendu de l'éclairage indirect.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_il_global_int_mcm">
+		<text>Intensité globale</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_il_global_int_mcm_desc">
+		<text>Intensité globale de l'éclairage indirect. [ 1,0 = 100 % ~ 0,5 = 50 % ]</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_il_hud_int_mcm">
+		<text>Intensité de l'interface</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_il_hud_int_mcm_desc">
+		<text>Intensité des éléments de l'interface (armes, bras, etc.). Il s'agit d'un pourcentage de l'intensité globale. [ 1,0 = 100 % ~ 0,5 = 50 % ]</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_il_flora_int_mcm">
+		<text>Intensité de la flore</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_il_flora_int_mcm_desc">
+		<text>Intensité de la flore (herbes, arbres, etc.). Il s'agit d'un pourcentage de l'intensité globale. [ 1,0 = 100 % ~ 0,5 = 50 % ]</text>
+	</string>
+
+</string_table>

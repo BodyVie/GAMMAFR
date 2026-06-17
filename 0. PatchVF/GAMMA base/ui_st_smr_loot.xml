@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_menu_smr_loot">
+		<text>Butin</text>
+	</string>
+	<!-- GENERAL -->
+	<string id="ui_mcm_SMR_smr_loot_random_items">
+		<text>Butin dispersé</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_random_items_desc">
+		<text>Modifie la quantité d'objets trouvés dispersés dans le monde. Cette option n'aura d'effet qu'au début d'une nouvelle partie.</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_general_info">
+		<text>Les options ci-dessous ajoutent une probabilité de trouver des objets supplémentaires dans les caches et sur les NPCs morts. Très utile si vous jouez avec le préréglage de population de base « Aucun ».</text>
+	</string>
+	<!-- PDA MESSAGES -->
+	<string id="ui_mcm_SMR_smr_loot_send_message">
+		<text>Afficher la notification PDA</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_send_message_desc">
+		<text>Affiche une notification chaque fois que le joueur trouve un objet supplémentaire.</text>
+	</string>
+	<string id="st_smr_loot_found_repair">
+		<text>Un kit de réparation trouvé</text>
+	</string>
+	<string id="st_smr_loot_found_ammo">
+		<text>Des munitions trouvées</text>
+	</string>
+	<string id="st_smr_loot_found_useful">
+		<text>Un objet utile trouvé</text>
+	</string>
+	<string id="st_smr_loot_found_meds">
+		<text>Un objet médical trouvé</text>
+	</string>
+	<string id="st_smr_loot_found_mags">
+		<text>Un chargeur trouvé pour ton arme</text>
+	</string>
+	<string id="st_smr_loot_found_lootbox">
+		<text>Butin trouvé dans une caisse</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_npc_spawn">
+		<text>Trouver des objets supplémentaires sur les NPCs</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_npc_chance">
+		<text>Probabilité d'apparition d'objets sur les NPCS</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_npc_chance_desc">
+		<text>Probabilité de trouver des objets supplémentaires sur les NPCs. En cas de succès, un second jet sera effectué en utilisant la probabilité standard de trouver des objets dans les caches.</text>
+	</string>
+	<!-- ITEMS -->
+	<string id="ui_mcm_SMR_smr_loot_items_title">
+		<text>Apparition d'objets supplémentaires dans les caches</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_repair_spawn">
+		<text>Apparition de kits de réparation</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_repair_spawn_desc">
+		<text>Ajoute une probabilité de trouver des kits de réparation dans les caches.</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_repair_parts_spawn">
+		<text>Apparition d'éléments de réparation</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_repair_parts_spawn_desc">
+		<text>Active/désactive les objets de réparation de pièces en tant que kits de réparation mineurs. Si vous ne souhaitez pas vous préoccuper de la réparation ou du remplacement des pièces d'armes et d'équipements, vous pouvez désactiver l'apparition des objets associés.</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_repair_chance">
+		<text>Probabilité de kits de réparation</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_repair_chance_desc">
+		<text>Probabilité de trouver des kits de réparation dans les caches.</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_repair_minor_spawn">
+		<text>Apparition de petits kits de réparation</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_repair_minor_spawn_desc">
+		<text>Ajoute une probabilité de trouver des kits de réparation mineurs, tels que les tubes de colle et les kits de pièces, dans les caches.</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_repair_minor_chance">
+		<text>Probabilité de petits kits de réparation</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_repair_minor_chance_desc">
+		<text>Probabilité d'apparition des kits de réparation mineurs, tels que les tubes de colle et les kits de pièces.</text>
+	</string>
+	<!-- AMMO -->
+	<string id="ui_mcm_SMR_smr_loot_ammo_spawn">
+		<text>Apparition de munitions supplémentaires</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_ammo_spawn_desc">
+		<text>Ajoute une probabilité de trouver des munitions dans les caches.</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_ammo_chance">
+		<text>Probabilité de munitions</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_ammo_chance_desc">
+		<text>Pourcentage de chances de trouver des munitions dans les caches.</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_ammo_bad_spawn">
+		<text>Apparition de vieilles munitions</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_ammo_bad_chance">
+		<text>Probabilité de vieilles munitions</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_ammo_bad_chance_desc">
+		<text>Pourcentage de chances que les munitions trouvées soient anciennes.</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_ammo_amount">
+		<text>Quantité de munitions</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_ammo_amount_desc">
+		<text>Multiplicateur de quantité de munitions trouvées.</text>
+	</string>
+    <!-- USEFUL -->
+    <string id="ui_mcm_SMR_smr_loot_useful_spawn">
+		<text>Apparition d'objets utiles</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_useful_spawn_desc">
+		<text>Ajoute une probabilité de trouver des objets difficiles à obtenir sans passer par les marchands dans les caches. Cela inclut les couteaux, les sacs à dos, les détecteurs, les lampes frontales et autres.</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_useful_chance">
+		<text>Probabilité d'objets utiles</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_useful_chance_desc">
+		<text>Pourcentage de chances de trouver des objets utiles dans les caches.</text>
+	</string>
+	<!-- MEDS -->
+    <string id="ui_mcm_SMR_smr_loot_meds_spawn">
+		<text>Apparition d'objets médicaux</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_meds_spawn_desc">
+		<text>Ajoute une probabilité de trouver des objets médicaux dans les caches.</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_meds_chance">
+		<text>Probabilité d'objets médicaux</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_meds_chance_desc">
+		<text>Pourcentage de chances de trouver des objets médicaux dans les caches.</text>
+	</string>
+</string_table>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="sar_monolith">
+		<text>L'appel du Nord</text>
+	</string>
+	<string id="sar_monolith_0">
+		<text>Parler au Exauceur de Souhaits.</text>
+	</string>
+	<string id="sar_monolith_1">
+		<text>Une voix venue du nord t'a appelé. Trouve d'où elle vient.</text>
+	</string>
+	<string id="sar_monolith_2">
+		<text>La voix qui t'appelle doit venir du Exauceur de Souhaits. Tu devrais pouvoir le trouver quelque part dans le sarcophage.</text>
+	</string>
+	<string id="sar_monolith_destroy">
+		<text>Un tombeau de béton</text>
+	</string>
+	<string id="sar_monolith_destroy_0">
+		<text>Trouve la base secrète du Monolithe mentionnée dans le manuscrit et découvre ce qu'elle cache.</text>
+	</string>
+	<string id="sar_monolith_destroy_1">
+		<text>Détruis le Exauceur de Souhaits en battant les 10 vagues de projections invoquées.</text>
+	</string>
+	<string id="sar_monolith_destroy_2">
+		<text>Désactiver les générateurs d'alimentation des capsules de la C-Conscience.</text>
+	</string>
+	<string id="sar_monolith_destroy_3">
+		<text>Désactiver les Générateurs.</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    <string id="st_manual_on_startup">
+        <text>Bienvenue dans S.T.A.L.K.E.R. G.A.M.M.A. Consulte la section GAMMA de ton PDA &gt; Guide \npour un aperçu détaillé et le manuel des mécaniques de jeu.</text>
+    </string>
+</string_table>

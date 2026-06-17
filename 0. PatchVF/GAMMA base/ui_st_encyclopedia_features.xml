@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="encyclopedia_features">
+		<text>Fonctionnalités</text>
+	</string>
+	
+	<string id="encyclopedia_features_azazel_mode">
+		<text>Mode Azazel</text>
+	</string>
+	<string id="encyclopedia_features_azazel_mode_text">
+		<text>%c[pda_white]Mode Azazel%c[ui_gray_2]vous permet de continuer à jouer avec un autre personnage après votre mort.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Dans le mode Azazel, la mort n'est pas une fin. Au décès de votre personnage, vous prendrez possession du corps d'un stalker aléatoire précédemment contrôlé par l'IA.\n \n
+		Si vous avez des compagnons au moment de votre mort, ceux-ci seront prioritaires et vous continuerez à jouer en incarnant l'un d'eux.\n \n
+		%c[ui_red]ATTENTION\n
+		%c[pda_white]• %c[ui_gray_2]Ce mode ne peut être activé qu'à partir de l'écran de création de personnage.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_ironman_mode">
+		<text>Mode Ironman</text>
+	</string>
+	<string id="encyclopedia_features_ironman_mode_text">
+		<text>%c[pda_white]Le Mode Ironman %c[ui_gray_2]ajoute une couche indirecte de difficulté au gameplay : toutes les sauvegardes d'un personnage sont supprimées en cas de décès.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Vous pouvez personnaliser votre partie en Mode Ironman lors de la configuration d'une nouvelle partie, notamment en définissant le nombre maximal de morts avant la suppression de vos sauvegardes.\n \n
+		La fonction de rétablissement de la vie annule un compteur de mort après un certain laps de temps, permettant ainsi aux joueurs de bénéficier de davantage de chances de survie au fil du temps.\n \n
+		Lorsque ce mode est activé, toutes les sauvegardes que vous effectuez seront étiquetées de manière unique comme une partie Ironman distincte. Ainsi, il est impossible de supprimer par erreur des sauvegardes sans rapport.\n \n
+		%c[ui_red]ATTENTION\n
+		%c[pda_white]• %c[ui_gray_2]Ce mode ne peut être activé qu'à partir de l'écran de création de personnage.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_story_mode">
+		<text>Mode Histoire</text>
+	</string>
+	<string id="encyclopedia_features_story_mode_text">
+		<text>%c[pda_white]Mode Histoire%c [ui_gray_1]introduit le joueur aux intrigues de "Lost of the Zone", en plus des quêtes de faction pouvant être accomplies séparément.\n \n
+		%c[pda_green]Informations
+		%c[ui_gray_2]Parlez à votre chef de faction des événements récents dans la Zone, il devrait vous fournir des informations et des pistes.\n \n
+		%c[pda_red]Ce mode ne peut être activé qu'à partir de l'écran de création de personnage.\n \n
+		%c[pda_blue]Disponibilité\n
+		%c[pda_white]• %c[ui_gray_2]Firmament\n
+		%c[pda_white]• %c[ui_gray_2]Devoir\n
+		%c[pda_white]• %c[ui_gray_2]Scientifiques\n
+		%c[pda_white]• %c[ui_gray_2]Liberté\n
+		%c[pda_white]• %c[ui_gray_2]Solitaires\n
+		%c[pda_white]• %c[ui_gray_2]Mercenaires\n
+		%c[pda_blue]Notes\n
+		%c[ui_gray_2]Les quêtes de factions peuvent être accomplies pour toutes les factions, tant que le Mode Histoire est actif. Les joueurs des factions bonus peuvent compléter ces quêtes en parlant au chef d'une faction amie, si celui-ci est trouvé.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_warfare">
+		<text>Guerre</text>
+	</string>
+	<string id="encyclopedia_features_warfare_text">
+		<text>%c[pda_white]Guerre %c[ui_gray_2]simule un conflit dynamique où chaque faction lutte pour dominer la Zone.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]La fonctionnalité Guerre permet au joueur de prendre le contrôle de sa faction. Cela s'effectue en cours de partie, et le joueur peut choisir entre le système d'expansion dynamique ou le système d'expansion manuelle. Le système d'expansion dynamique s'adaptera automatiquement aux bases que vous aurez capturées en mode expansion manuelle lorsque vous basculerez à nouveau vers ce mode.\n \n
+		Avec un simulateur de combat hors ligne, les escouades peuvent intercepter d'autres escouades de manière arbitraire, rendant ainsi la Zone bien plus dynamique et permettant à une guerre à grande échelle de faire rage aux confins de la carte.\n \n
+		Un système d’expansion dynamique s’adapte aux changements sur le plateau de simulation et garantit qu’aucune partie ne sera entièrement identique.\n \n
+		%c[pda_yellow]Anecdote\n
+		%c[ui_gray_2]Ce mode a été initialement créé par « %c[pda_white]werejew%c[ui_gray_2] » pour %c[pda_white]Call of Chernobyl%c[ui_gray_2].
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_survival_mode">
+		<text>Mode Survie</text>
+	</string>
+	<string id="encyclopedia_features_survival_mode_text">
+		<text>Le %c[pda_white]Mode Survie %c[ui_gray_2]transforme la Zone en terrain de chasse où %c[pda_white]vous %c[ui_gray_2]êtes la proie.\n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Avec ce mode activé, tous les spawns sont remplacés par des stalkers et des mutants zombifiés qui avanceront lentement vers votre position pour tenter de vous éliminer.\n \n
+		Les zombies jouent un rôle plus marqué ; il s'agit de la dernière étape de dévolution des stalkers zombifiés, ayant perdu la capacité d'utiliser des dispositifs mécaniques tels que les armes à feu.\n \n
+		Seuls quelques marchands et escouades de stalkers peuvent être rencontrés, ce qui signifie que vous devrez survivre avec ce que vous pouvez récupérer dans le monde.\n \n
+		%c[ui_red]ATTENTION\n
+		%c[pda_white]• %c[ui_gray_2]Ce mode ne peut être activé qu'à partir de l'écran de création de personnage.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_campfire_mode">
+		<text>Mode Sauvegarde au Feu de Camp</text>
+	</string>
+	<string id="encyclopedia_features_campfire_mode_text">
+		<text>%c[pda_white]Mode Sauvegarde au Feu de Camp %c[ui_gray_2]vous empêche d'enregistrer votre progression sauf si vous vous tenez à proximité d'un feu de camp.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Pour sauvegarder votre progression en mode Feu de Camp, approchez-vous d'un feu de camp à proximité, puis sauvegardez votre partie comme à l'accoutumée.\n \n
+		%c[ui_red]ATTENTION\n
+		%c[pda_white]• %c[ui_gray_2]Ce mode ne peut être activé qu'à partir de l'écran de création de personnage.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_agony_mode">
+		<text>Mode Agonie</text>
+	</string>
+	<string id="encyclopedia_features_agony_mode_text">
+		<text>%c[pda_white]Le Mode Agonie %c[ui_gray_2]ajoute une couche de difficulté supplémentaire en empêchant la sauvegarde de votre progression selon certains critères.\n \n
+		%c[pda_green]Informations\n
+		%c[pda_white]Vous ne pouvez pas sauvegarder votre progression en Mode Agonie si vous êtes :\n
+		%c[pda_white]• %c[ui_gray_2]Blessé\n
+		%c[pda_white]• %c[ui_gray_2]Saignement\n
+		%c[pda_white]• %c[ui_gray_2]Irradié\n
+		%c[pda_white]• %c[ui_gray_2]En combat\n
+		%c[pda_white]• %c[ui_gray_2]Emission\n
+		%c[pda_white]• %c[ui_gray_2]Tempête psi
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_timer_mode">
+		<text>Mode Chrono</text>
+	</string>
+	<string id="encyclopedia_features_timer_mode_text">
+		<text>%c[pda_white]Mode Chrono %c[ui_gray_2]limite les sauvegardes aux intervalles de temps prédéfinis.\n \n
+		%c[ui_red]ATTENTION\n
+		%c[pda_white]• %c[ui_gray_2]Ce mode ne peut être activé qu'à partir de l'écran de création de personnage.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_companions">
+		<text>Compagnons</text>
+	</string>
+	<string id="encyclopedia_features_companions_text">
+		<text>%c[pda_white]Les Compagnons %c[ui_gray_2]sont des stalkers que vous pouvez recruter à vos côtés, similaires aux suivants et familiers dans d'autres jeux.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]La Zone étant aussi dangereuse, la plupart des stalkers explorent en petits groupes, généralement composés de 3 à 4 membres.\n \n
+		Cette fonctionnalité vous permet d'agir de la même manière : en discutant avec le chef de l'un de ces groupes, vous pourrez peut-être les convaincre d'explorer la Zone avec vous.\n \n
+		Les seules exigences sont que le chef de l'escouade doit avoir des relations amicales avec vous, que son grade ne dépasse pas d'un seul niveau le vôtre et que vous n'ayez pas déjà trop de stalkers vous suivant.\n \n
+		Dans des cas très particuliers, certains personnages peuvent être utilisés comme compagnons pour aider à accomplir certaines tâches. Ceux-ci ont leurs propres exigences uniques et ne sont pas comptabilisés dans la limite de votre escouade.\n \n
+		Les informations concernant vos compagnons peuvent être consultées dans l'onglet « Relations » du PDA, où vous pouvez également leur donner des ordres individuellement ou en groupe, ainsi que modifier leur comportement. Une option permet d'afficher les informations des Compagnons sur l'interface HUD.\n \n
+		Cela peut également être effectué via des raccourcis clavier, configurables dans le menu « %c[pda_white]Contrôles%c[ui_gray_2] ».
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_guide">
+		<text>Guide</text>
+	</string>
+	<string id="encyclopedia_features_guide_text">
+		<text>Le %c[pda_white]Guide %c[ui_gray_2]est une ressource destinée à vous aider à découvrir le jeu et son contenu.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Cette fonctionnalité a été ajoutée à la demande expresse des joueurs pour aider à expliquer les fonctionnalités et les mécaniques de gameplay, ainsi que pour offrir une représentation visuelle de votre progression.\n \n
+		Les articles sont classés par catégorie, tout le contenu de type tutoriel et les informations importantes étant débloqués après la création de votre personnage.\n \n
+		Lorsque vous débloquez un article, son nom et sa catégorie s'affichent dans le message, vous permettant de trouver le contenu avec une relative facilité.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_hud">
+		<text>HUD</text>
+	</string>
+	<string id="encyclopedia_features_hud_text">
+		<text>%c[pda_white]L'interface utilisateur (HUD) %c[ui_gray_2]affiche divers indicateurs concernant l'état de votre santé et de votre équipement.\n \n
+		%c[pda_green]Informations\n
+		%c[pda_white]Indicateurs d'état %c[ui_gray_2]affichent l'état actuel de votre santé et de votre équipement. Un indicateur gris apparaît si l'état est légèrement dégradé, tandis que le jaune signale un motif d'inquiétude. L'orange et le rouge indiquent des états critiques.\n
+		%c[pda_white]Indicateurs de danger %c[ui_gray_2]s'affichent lorsque vous entrez dans une zone dangereuse ayant un effet direct sur votre santé ou votre équipement. Plus la couleur est critique, plus la perte de santé que vous subirez sera sévère.\n
+		%c[pda_white]Les indicateurs d'amélioration %c[ui_gray_2]s'affichent tant que vous bénéficiez des effets positifs d'un consommable. Généralement, ces effets prennent la forme d'une guérison, d'une protection ou d'une régénération. Tous les indicateurs disparaissent lorsque l'effet correspondant s'estompe.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_map_spots">
+		<text>Repères sur la carte</text>
+	</string>
+	<string id="encyclopedia_features_map_spots_text">
+		<text>%c[pda_white]Repères sur la carte %c[ui_gray_2]sont des icônes apparaissant sur la carte pour signaler des points d'intérêt particuliers.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]De nombreux lieux et entités possèdent des repères sur la carte qui leur sont associés, facilitant ainsi la lecture de la carte d'un seul coup d'oeil sans avoir à mémoriser une multitude d'informations.\n \n
+		%c[pda_blue]Bascules\n
+		%c[ui_gray_2]Les zones anormales, les personnes et objets importants (marchands, techniciens, lits, etc.), les cachettes et les points de repère de mission peuvent être activés ou désactivés dans le PDA en appuyant sur les boutons appropriés situés en haut de l'onglet carte.\n \n
+		Quels que soient ces paramètres, ceux attribués aux stalkers et autres objets mobiles restent toujours visibles sur votre mini-carte, car il n'y a aucune garantie qu'ils restent stationnaires et à un seul endroit.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_rank">
+		<text>Grade</text>
+	</string>
+	<string id="encyclopedia_features_rank_text">
+		<text>%c[pda_white]Grade %c[ui_gray_2]est un système de notation basé sur les accomplissements d'un stalker dans la Zone.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Les actions que vous effectuez tout au long de votre partie sont enregistrées et rapportent un nombre variable de points selon l'action réalisée.\n \n
+		À mesure que vous accumulez des points, votre grade évoluera progressivement en franchissant chaque palier, chaque nouveau palier nécessitant 1 000 points supplémentaires par rapport aux exigences du précédent.\n \n
+		La majorité de ces actions sont consignées dans l'onglet statistiques du PDA, qui contient également un classement en jeu suivant les 100 stalkers les mieux classés.\n \n
+		Plus votre grade est élevé, plus vous aurez d'influence parmi les stalkers ordinaires. Bien que cela signifie que vous pourrez recruter des compagnons plus compétents, cela implique également que ceux qui vous sont opposés enverront d'autres personnes pour s'assurer que vous soyez... pris en charge. Méfiez-vous.\n \n
+		%c[pda_blue]Grades\n
+		%c[pda_white]• Recrue : %c[ui_gray_2]0\n
+		%c[pda_white]• Apprenti : %c[ui_gray_2]2000\n
+		%c[pda_white]• Expérimenté : %c[ui_gray_2]4000\n
+		%c[pda_white]• Professionnel : %c[ui_gray_2]7000\n
+		%c[pda_white]• Vétéran : %c[ui_gray_2]10 000\n
+		%c[pda_white]• Expert : %c[ui_gray_2]15 000\n
+		%c[pda_white]• Maître : %c[ui_gray_2]21 000\n
+		%c[pda_white]• Légende : %c[ui_gray_2]28 000
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_reputation">
+		<text>Réputation</text>
+	</string>
+	<string id="encyclopedia_features_reputation_text">
+		<text>%c[pda_white]Réputation %c[ui_gray_2]représente la manière dont un stalker interagit avec les autres.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]La réputation est similaire au grade, mais diffère en ce qu'elle n'est pas tout à fait linéaire - elle peut à la fois augmenter ou diminuer en fonction de vos interactions avec les autres stalkers plutôt qu'avec l'environnement.\n \n
+		Les moyens les plus simples d'augmenter sa réputation consistent à accomplir des missions, à prodiguer les premiers soins à ceux dans le besoin et à éliminer les ennemis de sa faction. À l'inverse, les moyens les plus simples de perdre de la réputation sont d'annuler ou d'échouer à des missions, ainsi que de tuer des stalkers neutres ou amicaux.\n \n
+		Il est important de noter que, bien qu'elle soit utilisée par certaines fonctionnalités, la réputation est principalement axée sur l'immersion et ne doit pas être confondue avec la bienveillance.\n \n
+		Plus votre réputation est basse, plus les autres membres de votre faction et leurs alliés vous mépriseront. Dans les cas extrêmes, ils pourraient même commencer à comploter votre assassinat.\n \n
+		%c[pda_blue]Réputations\n
+		%c[pda_white]• Affreux : %c[ui_gray_2]-2000\n
+		%c[pda_white]• Morne : %c[ui_gray_2]-1500\n
+		%c[pda_white]• Désastreux : %c[ui_gray_2]-1000\n
+		%c[pda_white]• Mauvais : %c[ui_gray_2]-500\n
+		%c[pda_white]• Neutre : %c[ui_gray_2]0\n
+		%c[pda_white]• Bon : %c[ui_gray_2]500\n
+		%c[pda_white]• Excellent : %c[ui_gray_2]1000\n
+		%c[pda_white]• Brillant : %c[ui_gray_2]1500\n
+		%c[pda_white]• Très bon : %c[ui_gray_2]2000
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_stashes">
+		<text>Cachettes</text>
+	</string>
+	<string id="encyclopedia_features_stashes_text">
+		<text>%c[pda_white]Cachettes %c[ui_gray_2]sont des objets dissimulés par les stalkers dans des endroits souvent bien cachés.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]La plupart des stalkers dans la Zone stockent des munitions, de la nourriture et des médicaments dans des conteneurs, des sacs à dos et d'autres objets cachés, dans l'intention de les récupérer plus tard.\n \n
+		Souvent, les informations concernant leur emplacement disparaissent avec le stalker qui les a cachées, laissant de nombreuses cachettes remplies d'objets inutilisés dispersées dans le paysage, attendant d'être découvertes à tout moment.\n \n
+		Les courtiers en informations et les marchands fournissent souvent des coordonnées de cachettes en guise de paiement bonus pour ceux ayant accompli un bon travail.\n \n
+		Vous pouvez créer vos propres cachettes en %c[pda_white]cliquant avec le bouton droit %c[ui_gray_2]et en sélectionnant l'option appropriée sur n'importe quel sac à dos de votre inventaire.\n \n
+		%c[pda_yellow]Notes\n
+		%c[pda_white]• %c[ui_gray_2]Les cachettes que vous créez ne sont jamais pillées par d’autres stalkers, vos objets y seront donc toujours en sécurité.\n \n
+		%c[pda_blue]Identification
+		%c[ui_gray_2]Le type et/ou l'état d'une cachette peuvent être facilement déterminés en observant son icône sur la carte ou en survolant celle-ci avec le curseur de la souris.\n
+		%c[pda_white]• Vert : %c[ui_gray_2]Intact\n
+		%c[pda_white]• Violet : %c[ui_gray_2]Unique\n
+		%c[pda_white]• Rouge : %c[ui_gray_2]Urgence\n
+		%c[pda_white]• Jaune : %c[ui_gray_2]Appartenant au joueur
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_workshop">
+		<text>Atelier</text>
+	</string>
+	<string id="encyclopedia_features_workshop_text">
+		<text>L’%c[pda_white]Atelier du Mécanicien%c[ui_gray_2] permet au joueur de réparer, d’améliorer et de fabriquer lui-même son équipement.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Chaque mécanicien de la Zone utilise son atelier ou son étau pour des services de réparation et d'amélioration appropriés. Certains stalkers expérimentés préfèrent effectuer ce type de travail eux-mêmes. Ainsi, beaucoup louent temporairement un atelier à son propriétaire pour ajuster leur propre équipement.\n \n
+		%c[pda_white]Avec un atelier et les outils appropriés, les opérations suivantes sont possibles :\n
+		%c[pda_white]• Réparation (Remplacement de pièces) : %c[ui_gray_2]Chaque arme ou tenue est composée de pièces et de composants spécifiques. Lorsqu'ils sont endommagés, vous pouvez utiliser des pièces équivalentes pour remplacer les anciennes, endommagées, et améliorer l'état de votre équipement.\n
+		%c[pda_white]• Amélioration : %c[ui_gray_2]Avec les outils appropriés, vous pouvez installer des améliorations pour votre équipement.\n
+		%c[pda_white]• Fabrication : %c[ui_gray_2]Avec les bons composants/pièces et suffisamment de connaissances, il est possible de fabriquer une variété d'objets.\n \n
+		Lorsque vous utilisez un atelier, une liste des outils principaux sera affichée avec leur disponibilité (en votre possession ou appartenant au mécanicien). Ces outils sont nécessaires pour la fabrication et l'amélioration.\n \n
+		Une barre d'informations est affichée en bas pour assister le joueur dans les étapes nécessaires à l'utilisation de l'atelier.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_workshop_repair">
+		<text>Atelier (Réparation/Pièces)</text>
+	</string>
+	<string id="encyclopedia_features_workshop_repair_text">
+		<text>Un %c[pda_white]Atelier de Mécanicien %c[ui_gray_2]permet de réparer les armes ou équipements endommagés en remplaçant les pièces abîmées par des pièces en meilleur état.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Chaque arme ou équipement est composé d'un ensemble de composants/pièces. L'état général d'un objet est la somme de l'état de ses différentes pièces.\n \n
+		%c[pda_white]Les éléments d'arme possèdent 4 états de condition :\n
+		%c[pda_white]• %c[ui_red]Déformé\n
+		%c[pda_white]• %c[d_orange]Endommagé\n
+		%c[pda_white]• %c[0,250,250,0]Rayé\n
+		%c[pda_white]• %c[d_green]Fonctionnel\n \n
+		%c[pda_white]Les éléments d'équipement possèdent 4 états de condition :\n
+		%c[pda_white]• %c[ui_red]Déchiré\n
+		%c[pda_white]• %c[d_orange]Endommagé\n
+		%c[pda_white]• %c[0,250,250,0]Rayé\n
+		%c[pda_white]• %c[d_green]Intact\n \n
+		%c[pda_white]Pour réparer de l'équipement, vous avez besoin des éléments suivants :\n
+		%c[pda_white]• Kits de réparation adaptés : %c[ui_gray_2]Ces kits sont vendus par les mécaniciens.\n
+		%c[pda_white]• Contreparties identiques (en meilleur état) : %c[ui_gray_2]Celles-ci peuvent être obtenues en démontant des armes et des tenues.\n \n
+		%c[pda_blue]Procédures de réparation\n
+		%c[pda_white]1) %c[ui_gray_2]Vérifiez d'abord les exigences pour réparer votre équipement. Lorsque vous disposez des outils et d'au moins une pièce de rechange en meilleur état, les boutons des pièces seront actifs.\n
+		%c[pda_white]2) %c[ui_gray_2]Cliquez sur l'une des pièces mises en évidence. La liste des pièces disponibles sera mise à jour avec les éléments correspondants présents dans votre inventaire.\n
+		%c[pda_white]3) %c[ui_gray_2]Dans la liste de ramassage des pièces, cliquez sur l'une des pièces équivalentes en meilleur état. La pièce principale sera remplacée et mise à jour avec la nouvelle. Cela se répercutera sur l'état général de votre équipement.\n
+		%c[pda_white]4) %c[ui_gray_2]Répétez le processus tant que vous avez des pièces à remplacer et suffisamment de trousses à outils.\n
+		%c[pda_white]5) %c[ui_gray_2]Lorsque vous avez terminé, appuyez sur le bouton « Réparer ».\n \n
+		%c[pda_yellow]Notes\n
+		%c[pda_white]• %c[ui_gray_2]Les pièces grisées indiquent que vous ne disposez pas, dans votre inventaire, de pièces de rechange en meilleur état, vous ne pouvez donc pas interagir avec celles-ci.\n
+		%c[pda_white]• %c[ui_gray_2]Si vous disposez de pièces de rechange pour remplacer des éléments de votre équipement, mais que leur état n'est pas suffisamment bon, vous pouvez utiliser des trousses à outils spécifiques pour réparer ces pièces au préalable avant d'utiliser l'atelier, telles que : %c[pda_white]Multitool, Lime, Tige de nettoyage, Fil à coudre.\n
+		%c[pda_white]• %c[ui_gray_2]Chaque remplacement de pièce nécessite une utilisation d'un kit de réparation adapté.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_workshop_upgrade">
+		<text>Atelier (Amélioration)</text>
+	</string>
+	<string id="encyclopedia_features_workshop_upgrade_text">
+		<text>L'%c[pda_white]Atelier du Mécanicien %c[ui_gray_2]peut être utilisé pour améliorer votre arme ou votre tenue en disposant des outils appropriés, au lieu de dépenser de l'argent pour que les mécaniciens effectuent le travail à votre place.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]La méthode pour améliorer votre équipement est similaire à tout système d'amélioration mécanique, mais nécessite des outils supplémentaires.\n \n
+		%c[pda_white]Pour améliorer de l'équipement, vous avez besoin des éléments suivants :\n
+		%c[pda_white]• Kits de réparation adaptés : %c[ui_gray_2]Ces kits sont vendus par les mécaniciens.\n \n
+		%c[pda_white]• Trousses d'outils d'amélioration : %c[ui_gray_2]Ces outils peuvent être trouvés en possession d'autres stalkers ou comme butin dans la Zone.\n
+		%c[pda_white]• Outils principaux : %c[ui_gray_2]Ces trousses d'outils sont rares à trouver, car les mécaniciens en ont toujours besoin pour installer des améliorations.\n \n
+		%c[pda_blue]Procédures de réparation\n
+		%c[pda_white]1) %c[ui_gray_2]Vérifiez d'abord les exigences pour améliorer votre équipement. Lorsque vous disposez du kit de réparation approprié, vous pouvez procéder.\n
+		%c[pda_white]2) %c[ui_gray_2]Cliquez sur l'objet que vous souhaitez améliorer. L'arbre d'amélioration apparaîtra, ainsi que les améliorations déjà installées.\n
+		%c[pda_white]3) %c[ui_gray_2]Chaque amélioration nécessite une trousse à outils spécifique, comme indiqué à côté de l'amélioration elle-même.\n
+		%c[pda_white]4) %c[ui_gray_2]Si une amélioration est disponible à l'installation, cliquez dessus. Répétez la même procédure si vous le souhaitez.\n
+		%c[pda_white]5) %c[ui_gray_2]Une fois toutes les améliorations sélectionnées, appuyez sur le bouton « Améliorer » pour les installer.\n \n
+		%c[pda_yellow]Notes\n
+		%c[pda_white]• %c[ui_gray_2]Survolez une amélioration pour afficher tous les détails concernant ses propriétés. Cela indiquera également les exigences supplémentaires si l'amélioration n'est pas disponible.\n
+		%c[pda_white]• %c[ui_gray_2]Chaque amélioration nécessite une utilisation du kit de réparation adapté.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_workshop_craft">
+		<text>Atelier (Fabrication)</text>
+	</string>
+	<string id="encyclopedia_features_workshop_craft_text">
+		<text>Les %c[pda_white]Ateliers du Mécanicien %c[ui_gray_2]peuvent être utilisés pour fabriquer une variété d'objets.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Il est parfois difficile de se procurer certains équipements dans la Zone. Ainsi, différents matériaux peuvent s'avérer utiles pour fabriquer du matériel indispensable.\n \n
+		%c[pda_white]Pour fabriquer de l'équipement, vous avez besoin des éléments suivants :\n
+		%c[pda_white]• Outils principaux : %c[ui_gray_2]Ces trousses d'outils sont rares à trouver, car les mécaniciens en ont toujours besoin pour installer des améliorations.\n
+		%c[pda_white]• Guides et Recettes : %c[ui_gray_2]Une fabrication efficace repose sur le savoir. De nombreux stalkers peuvent posséder des recettes ou des guides utiles.\n
+		%c[pda_white]• Composants : %c[ui_gray_2]Chaque objet est fabriqué à partir de différents matériaux et composants. Ces matériaux peuvent être obtenus en démontant divers objets.\n \n
+		%c[pda_blue]Procédures de réparation\n
+		%c[pda_white]1) %c[ui_gray_2]Choisissez une entrée de fabrication. Les entrées sont classées par type d'objet, chacune affichant une liste d'objets associés parmi lesquels choisir.\n
+		%c[pda_white]2) %c[ui_gray_2]Si l’objet que vous souhaitez fabriquer est mis en surbrillance, cela signifie que vous connaissez la recette. Cliquez dessus pour continuer.\n
+		%c[pda_white]3) %c[ui_gray_2]Une liste des composants ainsi que l'outillage requis sera affichée. La quantité minimale de composants est indiquée sous l'icône du composant.\n
+		%c[pda_white]4) %c[ui_gray_2]Si l'outil principal est manquant ou qu'un composant ne répond pas aux exigences minimales, la fabrication ne peut être effectuée.\n
+		%c[pda_white]5) %c[ui_gray_2]Sinon, cliquez sur le bouton « %c[pda_white]Fabriquer%c[ui_gray_2] » pour créer l’objet souhaité.\n \n
+		%c[pda_yellow]Remarques\n \n
+		%c[pda_white]• %c[ui_gray_2]Les outils principaux doivent être disponibles pour effectuer le travail, mais ils ne seront pas consommés durant le processus.\n
+		%c[pda_white]• Outils utilisables : %c[ui_gray_2]Outils de base, outils avancés, outils experts, kit de fabrication de drogues, outils de gunsmithing.\n
+		%c[pda_white]• %c[ui_gray_2]Si vous avez déjà apporté des trousses d'outils à un mécanicien, celles-ci seront disponibles immédiatement à l'atelier pour être utilisées.\n
+		%c[pda_white]• %c[ui_gray_2]Le démontage peut être effectué à l'aide d'outils spécifiques, consultez l'article correspondant.\n
+		%c[pda_white]• %c[ui_gray_2]Toutes les recettes seront affichées dans le coin. Seules les recettes connues seront mises en évidence.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_disassembly">
+		<text>Démontage d'objets</text>
+	</string>
+	<string id="encyclopedia_features_disassembly_text">
+		<text>
+		Vous pouvez %c[pda_white]démonter %c[ui_gray_2]divers types d'objets pour obtenir des pièces de base.\n \n
+		\n%c[pda_green]Informations\n
+		%c[ui_gray_2]Le démontage permet de recycler des objets indésirables pour obtenir des pièces utilisables à d'autres fins significatives, telles que la réparation ou la fabrication d'autres objets à l'atelier.\n \n
+		%c[pda_white]Cela peut être réalisé en utilisant l'un des trois outils suivants :\n
+		%c[pda_white]• Couteau suisse %c[ui_gray_2](sauf pour les armes)\n
+		%c[pda_white]• Trousse de toilettage %c[ui_gray_2](sauf pour les armes)\n
+		%c[pda_white]• Multitool\n \n
+		%c[pda_blue]Procédure\n
+		%c[ui_gray_2]Les objets pouvant être démontés affichent une option (%c[pda_white]démonter [!]%c[ui_gray_2]) lorsque vous cliquez dessus dans votre inventaire. Pour démonter un objet, assurez-vous de disposer d'un outil de démontage adapté, puis maintenez la touche « %c[pda_white]ALT Gauche%c[ui_gray_2] », cliquez sur l'objet que vous souhaitez démonter et sélectionnez (%c[pda_white]démonter [!]%c[ui_gray_2]).\n \n
+		%c[pda_yellow]Note\n
+		%c[ui_gray_2] La touche « %c[pda_white]Alt gauche%c[ui_gray_2] » agit comme une procédure de sécurité pour éviter le démontage accidentel. Cette option peut être désactivée dans les paramètres.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_battery">
+		<text>Appareils et Batteries</text>
+	</string>
+	<string id="encyclopedia_features_battery_text">
+		<text>Chaque %c[pda_white]appareil %c[ui_gray_2]possède sa propre %c[pda_white]batterie %c[ui_gray_2]et ne fonctionnera pas sans celle-ci.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]L'alimentation des appareils est représentée par une petite barre bleue sous leur icône. Lors de l'utilisation d'un appareil, celle-ci se vide constamment. Une fois les batteries complètement épuisées, l'appareil cessera de fonctionner.\n \n
+		Vous pouvez extraire et réinsérer des batteries dans les appareils. Si un appareil important est presque déchargé, vous pouvez toujours extraire des batteries d'autres appareils inutilisés.\n \n
+		La consommation d'énergie varie selon les appareils. Les appareils haut de gamme tendent à épuiser leur batterie plus rapidement que les modèles moins performants. Il est conseillé de garder des batteries supplémentaires à portée de main, car on ne sait jamais quand elles seront nécessaires.\n \n
+		%c[pda_blue]Procédure\n
+		%c[pda_white]• %c[ui_gray_2]Pour insérer des batteries dans un appareil, faites simplement glisser et déposez les batteries sur l'appareil.\n
+		%c[pda_white]• %c[ui_gray_2]Pour extraire les batteries des appareils, effectuez un '%c[pda_white]clic droit%c[ui_gray_2]' sur l'appareil dans votre inventaire, puis choisissez l'option '%c[pda_white]extraire les batteries%c[ui_gray_2]'.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_economy_difficulty">
+		<text>Difficulté de Progression</text>
+	</string>
+	<string id="encyclopedia_features_economy_difficulty_text">
+		<text>%c[pda_white]Difficulté de Progression %c[ui_gray_2]détermine la rigueur de l'économie au sein de la Zone et influence directement l'avancement de votre partie.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Les aspects affectés par cette option vont (sans s'y limiter) des prix d'achat/vente avec les marchands, aux prix de réparation/amélioration auprès des mécaniciens, en passant par la rareté du butin, l'argent et la bienveillance obtenus en accomplissant des missions. Vous pouvez personnaliser tous les aspects de la Difficulté de Progression.\n \n
+		%c[pda_white]Voici une liste de toutes les options disponibles :\n
+		%c[pda_white]• Réputation gagnée : %c[ui_gray_2]Multiplicateur de la quantité de réputation obtenue à l'accomplissement des missions.\n
+		%c[pda_white]• Récompenses en argent : %c[ui_gray_2]Multiplicateur du montant d'argent gagné à l'accomplissement des missions.\n
+		%c[pda_white]• Coefficient de coût de réparation : %c[ui_gray_2]Multiplicateur appliqué au coût des services de réparation proposés par les mécaniciens.\n
+		%c[pda_white]• Facteur des coûts d'amélioration : %c[ui_gray_2]Multiplicateur des coûts des services d'amélioration proposés par les mécaniciens.\n
+		%c[pda_white]• Facteur des prix d'achat : %c[ui_gray_2]Multiplicateur des prix des objets que les marchands vous vendent.\n
+		%c[pda_white]• Facteur de prix de vente : %c[ui_gray_2]Multiplicateur appliqué aux prix des objets que les marchands vous achètent.\n
+		%c[pda_white]• Facteur de probabilité de loot (objets) : %c[ui_gray_2]Multiplicateur de la probabilité de trouver des objets sur les cadavres.\n
+		%c[pda_white]• Facteur de butin (argent) : %c[ui_gray_2]Multiplicateur de la quantité d'argent trouvée sur les cadavres.\n
+		%c[pda_white]• Système de pièces en pourcentage complet : %c[ui_gray_2]Lorsqu'il est activé, les pièces démontées des armes/tenues auront des états numériques, ce qui rend le système plus complexe.\n
+		%c[pda_white]• Probabilité de découverte de cachettes : %c[ui_gray_2]Contrôle la probabilité de trouver des emplacements de cachettes dans le PDA.\n
+		%c[pda_white]• Facteur de dégradation des armes : %c[ui_gray_2]Multiplicateur du taux de dégradation de vos armes.\n
+		%c[pda_white]• Battery Facteur de consommation énergétique : %c[ui_gray_2]Multiplicateur de la quantité d’énergie consommée par les appareils lors de leur utilisation.\n
+		%c[pda_white]• Activer le stockage limité des Boulons : %c[ui_gray_2]Limite la capacité de stockage des Boulons.\n
+		%c[pda_white]• Activation de la dégradation des Artefacts : %c[ui_gray_2]Les artefacts peuvent se dégrader lorsqu'ils protègent leur utilisateur des dommages anormaux relatifs. La dégradation affecte le prix des Artefacts.\n
+		%c[pda_white]• Probabilité de réapparition des Artefacts : %c[ui_gray_2]Probabilité que des artefacts apparaissent dans les champs anomaux.\n
+		%c[pda_white]• Cycle de réapprovisionnement des commerçants (heures) : %c[ui_gray_2]Nombre d'heures avant le réapprovisionnement des commerçants.\n \n
+		%c[ui_red]ATTENTION\n
+		%c[pda_white]• %c[ui_gray_2]Les facteurs économiques sont configurés pour la partie en cours.\n
+		%c[pda_white]• %c[ui_gray_2]Les facteurs de progression ne sont accessibles que via les sauvegardes chargées. Vous pouvez les ajuster dans le menu des paramètres.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_gameplay_difficulty">
+		<text>Difficulté de Gameplay</text>
+	</string>
+	<string id="encyclopedia_features_gameplay_difficulty_text">
+		<text>%c[pda_white]Difficulté de Gameplay %c[ui_gray_2]détermine le niveau de facilité ou de difficulté du jeu.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]La difficulté de gameplay influence les aspects liés au joueur, tels que la protection contre les sources de dégâts, la perte d'endurance et la capacité de port, en plus d'autres éléments comme la déshydratation et le manque de sommeil. Vous pouvez personnaliser tous les aspects de la Difficulté de Gameplay.\n \n
+		%c[pda_white]Voici une liste de toutes les options disponibles :\n
+		%c[pda_white]• Protection du Joueur : %c[ui_gray_2]Une liste de quatre choix déterminant la protection de base du joueur contre les sources de dégâts.\n
+		%c[pda_white]• Facteur de puissance des impacts de balle : %c[ui_gray_2]Multiplicateur de la quantité de dégâts infligés par les balles de toutes les armes. Des valeurs plus élevées signifient des dégâts accrus et des éliminations plus rapides.\n
+		%c[pda_white]• Facteur de perte d'endurance : %c[ui_gray_2]Multiplicateur de la quantité d'endurance perdue en fonction du mouvement et du poids transporté.\n
+		%c[pda_white]• Poids maximal transportable : %c[ui_gray_2]Détermine la quantité maximale de poids que vous pouvez porter.\n
+		%c[pda_white]• Activation de la Déshydratation : %c[ui_gray_2]Active la simulation de la soif, ce qui signifie que votre personnage doit boire régulièrement.\n
+		%c[pda_white]• Activation de la Fatigue : %c[ui_gray_2]Permet au temps écoulé et à l'utilisation de consommables d'épuiser progressivement votre personnage.\n
+		%c[pda_white]• Activer la Radiation Diurne : %c[ui_gray_2]Sortir en extérieur pendant la journée exposera votre personnage à des doses élevées et constantes de radiation. Une tenue et un casque adaptés peuvent vous offrir une protection suffisante contre les particules radioactives, à condition qu'ils soient correctement entretenus.\n
+		%c[pda_white]• Lecture des clics de radiation (Compteur Geiger uniquement) : %c[ui_gray_2]Lorsqu'elle est activée, les clics de radiation ne peuvent être entendus que si vous possédez un Compteur Geiger dans votre inventaire avec une batterie suffisamment chargée.\n
+		%c[pda_white]• Activer le Détecteur d'Anomalies : %c[ui_gray_2]Le son de bip par défaut qui se déclenche lorsque le joueur s'approche de champs anomaux.\n \n
+		%c[ui_red]ATTENTION\n
+		%c[pda_white]• %c[ui_gray_2]Les paramètres de difficulté de gameplay sont configurés pour la partie en cours.\n
+		%c[pda_white]• %c[ui_gray_2]Les facteurs de difficulté de gameplay ne sont accessibles que via les sauvegardes chargées. Vous pouvez les ajuster dans le menu des paramètres.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_disguise">
+		<text>Système de déguisement</text>
+	</string>
+	<string id="encyclopedia_features_disguise_text">
+		<text>Vous pouvez %c[pda_white]vous déguiser %c[ui_gray_2]en stalker d'une autre faction afin de dissimuler votre véritable identité pour diverses raisons.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]Pour vous déguiser en membre d'une faction spécifique, vous devez porter une tenue appropriée.\n \n
+		Lorsque vous êtes déguisé, vous pouvez évoluer parmi les membres d'une faction et agir comme l'un des leurs, même s'ils sont normalement hostiles. En leur présence, ils vous observeront ainsi que votre comportement. Une jauge de « suspicion » apparaîtra sur l'interface pour indiquer en temps réel votre niveau de suspicion.\n \n
+		De nombreux facteurs influencent l'efficacité de votre déguisement et affectent le niveau de suspicion à l'égard de votre personnage. Portez une attention particulière à l'équipement que vous portez et à son état. Adoptez un comportement normal et évitez tout mouvement surprenant pour ne pas attirer une attention indésirable.\n \n
+		%c[pda_blue]Options\n
+		%c[pda_white]• %c[ui_gray_2]Vous pouvez ajuster les facteurs de déguisement via diverses options disponibles dans le menu des paramètres.\n \n
+		%c[ui_red]ATTENTION\n
+		%c[pda_white]• %c[ui_gray_2]Il est impossible de se déguiser en membre du Monolithe, car ceux-ci s’identifient par des moyens inconnus.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_features_fast_travel">
+		<text>Voyage rapide</text>
+	</string>
+	<string id="encyclopedia_features_fast_travel_text">
+		<text>%c[pda_white]Le Voyage rapide et le Voyage via sac à dos %c[ui_gray_2]vous permettent de vous rendre dans des lieux précédemment découverts en utilisant la carte de votre PDA.\n \n
+		%c[pda_green]Informations\n
+		%c[ui_gray_2]De nombreux lieux sont découverts au fil de vos déplacements, ce qui permet d'y placer un repère sur la carte et d'y accéder par voyage rapide en cliquant dessus.\n \n
+		Le Voyage par Sac à Dos fonctionne de la même manière, mais dépend des cachettes que vous avez créées.\n \n
+		%c[pda_blue]Options\n
+		%c[pda_white]• %c[ui_gray_2]Vous pouvez contrôler le voyage rapide et le voyage avec sac à dos via diverses options dans le menu des paramètres.\n \n
+		%c[ui_red]ATTENTION\n
+		%c[pda_white]• %c[ui_gray_2]Le voyage rapide n'est pas possible si vous êtes en combat, surchargé, gravement blessé ou pendant les émissions.
+		</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_placeable_radio">
+		<text>Radio</text>
+	</string>
+	<string id="st_placeable_radio_descr">
+		<text>Une radio fonctionnelle. Bien qu'elle soit souvent perturbée par des parasites, elle peut capter les mêmes signaux que ceux reçus dans de nombreuses bases à travers la Zone. Les radios sont fréquemment utilisées à des fins récréatives pour passer le temps ou pour égayer l'ambiance autour d'un feu de camp chaleureux.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] À poser\n
+		</text>
+	</string>
+	
+</string_table>

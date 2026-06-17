@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="0_insider">
+		<text>J'ai entendu dire qu'on pouvait échanger des armures d'autres factions contre celles de notre faction, c'est bien ça ?</text>
+	</string>
+	<string id="1_insider">
+		<text>T'as bien entendu, stalker. Je te donnerai des armures à peu près du même genre que celle que t'as sur toi, mais seulement si elles viennent d'autres factions. Ça dépend de notre stock à nous, en fait. 
+		Souviens-toi que si ton armure est en mauvais état, je te donnerai pas une neuve, hein ? On est pas chez mémé, ici. 
+		Tu me files un tas de merde au hasard, je te refile une armure de récup', rouillée et qui pue, que des stalkers ont ramenée l'autre jour. 
+		D'un autre côté, si ton armure est en bon état, je te filerai une tenue toute neuve et reluisante, d'accord ? 
+		Au fait, ce service est pas gratuit. Tu peux vérifier les prix sur le panneau là-bas. Considère ça comme des frais pour faire tourner le service, vu qu'on répare certaines armures, et comme un don pour que notre faction prospère. 
+		Alors, quel type d'armure tu veux échanger ? Je vais vérifier si t'as une tenue qui correspond à ce que tu cherches.</text>
+	</string>
+	<string id="armor_exchange_light">
+		<text>Tenue légère (pour toute armure légère) [ 5 000 RU ]. </text>
+	</string>
+	<string id="armor_exchange_medium">
+		<text>Tenue moyenne (pour toute armure moyenne) [ 10 000 RU ]. </text>
+	</string>
+	<string id="armor_exchange_specops">
+		<text>Tenue specops (tenue moyenne blindée pour toute armure moyenne) [ 25 000 RU ]. </text>
+	</string>
+	<string id="armor_exchange_sci">
+		<text>Tenue scientifique (pour toute combinaison scientifique moyenne non blindée) [ 15 000 RU ]. </text>
+	</string>
+	<string id="armor_exchange_skat">
+		<text>Armure lourde Skat-9 (pour toute armure Skat-9) [ 25 000 RU ]. </text>
+	</string>
+	<string id="armor_exchange_exolight">
+		<text>Armure lourde exosuit (pour toute armure lourde exosuit) [ 30 000 RU ]. </text>
+	</string>
+	<string id="armor_exchange_exo">
+		<text>Armure motorisée par exosquelette (pour toute armure exo) [ 45 000 RU ]. </text>
+	</string>
+	<string id="armor_exchange_noso">
+		<text>Exosquelette classe Nosorog (pour toute armure Nosorog) [ 65 000 RU ]. </text>
+	</string>
+	<string id="armor_exchange_exit">
+		<text>En fait, laisse tomber.</text>
+	</string>
+</string_table>

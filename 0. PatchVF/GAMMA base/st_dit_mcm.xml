@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_menu_dit">
+		<text>Ajustements de désassemblage d'objets</text>
+	</string>
+    <string id="ui_mcm_dit_slide">
+        <text>Ajustements d'outils de désassemblage</text>
+	</string>
+	<string id="ui_mcm_dit_outfit_knife">
+		<text>Désassemblage tenue/casque nécessite au moins un couteau suisse</text>
+	</string>
+    <string id="ui_mcm_dit_outfit_knife_desc">
+        <text>Empêche l'utilisation de kits de toilettage pour désassembler des tenues ou des couvre-chefs</text>
+	</string>
+	<string id="ui_mcm_dit_consume_warning">
+		<text>Avertissement consommation d'objet</text>
+	</string>
+    <string id="ui_mcm_dit_consume_warning_desc">
+        <text>Empêche la consommation d'objets de désassemblage avec une invite de confirmation</text>
+	</string>
+	<string id="ui_mcm_dit_leatherman_limit">
+		<text>Avertissement état Leatherman</text>
+	</string>
+    <string id="ui_mcm_dit_leatherman_limit_desc">
+        <text>L'état à partir duquel vous devez recevoir un avertissement de consommation pour les outils Leatherman</text>
+	</string>
+	<string id="ui_mcm_dit_swiss_limit">
+		<text>Avertissement état couteau suisse</text>
+	</string>
+	<string id="ui_mcm_dit_swiss_limit_desc">
+		<text>L'état à partir duquel vous devez recevoir un avertissement de consommation pour les couteaux suisses</text>
+	</string>
+    <string id="ui_mcm_dit_grooming_limit">
+		<text>Avertissement état toilettage</text>
+	</string>
+    <string id="ui_mcm_dit_grooming_limit_desc">
+		<text>L'état à partir duquel vous devez recevoir un avertissement de consommation pour les kits de toilettage</text>
+	</string>
+    <string id="ui_mcm_dit_d_key">
+		<text>Modificateur désassemblage involontaire</text>
+	</string>
+    <string id="ui_mcm_dit_d_key_desc">
+		<text>Quel modificateur de touche doit être appuyé pour désassembler un objet</text>
+	</string>
+    <string id="ui_mcm_dit_b_key">
+		<text>Modificateur consommation involontaire</text>
+	</string>
+    <string id="ui_mcm_dit_b_key_desc">
+		<text>Quel modificateur de touche doit être appuyé pour consommer un objet</text>
+	</string>
+</string_table>
+
+

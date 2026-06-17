@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_obrez">
+		<text>Mosin Nagant Obrez</text>
+	</string>
+
+	<string id="st_wpn_obrez_descr">
+		<text>Le Mosin-Nagant Obrez est une version raccourcie du fusil à boulon Mosin-Nagant, dont le canon et la crosse ont été coupés pour créer une arme bien plus courte et facile à dissimuler. 
+		Cette modification était historiquement utilisée par les Stalkers ayant besoin d'une arme puissante sous une forme compacte, au détriment de la précision, du contrôle et de la sécurité.\n \n
+		%c[ui_gray_2]ACCESSOIRES : Lunette PU, silencieux KZRZP\n </text>
+	</string>
+	
+	<string id="st_wpn_shiv">
+		<text>Shiv</text>
+	</string>
+
+	<string id="st_wpn_shiv_descr">
+		<text>Version encore plus artisanale du Mosin Obrez, le « Shiv » a été baptisé ainsi par un Stalker inconnu, chasseur et survivaliste passionné. 
+		La rumeur raconte que cet homme errait dans les Darkscape, survivant avec ce que son environnement lui offrait, comme les peaux, la viande et les fourrures de mutants. 
+		Il semble avoir abandonné son fusil préféré dans le wagon de train déraillé situé dans Darkscape, où il résidait. Personne ne sait si le Shiv a été laissé intentionnellement, pour qu'il puisse revenir à son lieu de chasse favori. 
+		ou simplement abandonné lors d'un combat mortel. \n \n
+		%c[ui_gray_2]ACCESSOIRES : Lunette PU, silencieux KZRZP\n </text>
+	</string>
+
+	<string id="st_wpn_mosin_carbine">
+		<text>Mosin M38 Carabine</text>
+	</string>
+	<string id="st_wpn_mosin_carbine_descr">
+		<text>La carabine Mosin-Nagant M38 est une version plus courte et plus maniable du fusil classique, offrant une puissance d'arrêt solide tout en améliorant la mobilité. 
+		Dans la Zone, il est apprécié des stalkers expérimentés qui ont besoin d'une puissance de feu fiable et percutante, sans l'encombrement de son grand frère de taille standard. 
+		Idéal pour se déplacer dans des espaces restreints comme ceux des laboratoires souterrains, cette caractéristique peut offrir un léger avantage lorsqu'il compte.\n</text>
+	</string>
+	
+	<string id="st_wpn_mosin_k">
+		<text>Mosin Nagant</text>
+	</string>
+
+	<string id="st_wpn_mosin_k_descr">
+		<text>Le Mosin-Nagant est un fusil robuste à action boulon, connu pour sa précision à longue portée et sa puissante munition de 7.62x54mmR. 
+		Il a toujours été un relique fiable, prisée des tireurs d'élite, des chasseurs et des stalkers de la vieille école, qui privilégient la simplicité, la robustesse et la puissance d'arrêt brute aux gadgets modernes.\n \n
+		%c[ui_gray_2]ACCESSOIRES : Lunette PU, silencieux KZRZP\n </text>
+	</string>
+	
+</string_table>

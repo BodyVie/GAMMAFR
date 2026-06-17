@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="st_poxod_rukzak">
+		<text>Sac à dos anormal</text>
+	</string>
+	<string id="st_poxod_rukzak_descr">
+		<text>À première vue, ce sac à dos ne semble présenter aucune propriété remarquable. Cependant, les objets placés à l'intérieur deviennent plus légers avec le temps. La rumeur prétend qu'il s'agit du résultat d'une livraison militaire de sacs à dos accidentellement pris dans une anomalie. Les tentatives des scientifiques pour reproduire ses propriétés uniques ont toutefois échoué.\n \n
+		</text>
+	</string>
+
+	<string id="st_bolt">
+		<text>Boulon</text>
+	</string>
+	<string id="st_bolt_descr">
+		<text>Un boulon ordinaire, fréquemment utilisé pour naviguer en toute sécurité à travers les anomalies.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Activation et navigation dans les anomalies et champs anormaux\n
+		</text>
+	</string>
+	
+	<string id="st_bolty">
+		<text>Un Boulon attire les créatures comme le Scarabée Vert. Jette-le pour détourner leur attention.</text>
+	</string>
+	<string id="st_bolty_descr">
+		<text>Un boulon ordinaire, fréquemment utilisé pour naviguer en toute sécurité à travers les anomalies.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Activation et navigation dans les anomalies et champs anormaux\n
+		</text>
+	</string>
+	
+	<string id="st_bolt_bullet">
+		<text>Cartouche Vide</text>
+	</string>
+	<string id="st_bolt_bullet_descr">
+		<text>Une douille vide, souvent utilisée comme alternative aux boulons pour naviguer en toute sécurité dans les anomalies.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Activation et navigation dans les anomalies et champs anormaux\n
+		</text>
+	</string>
+	
+	<string id="st_energy">
+		<text>Aucun effet.</text>
+	</string>
+	<string id="st_energy_descr">
+		<text>L'énergie stockée est exprimée en ampères-heures (Ah).</text>
+	</string>
+	
+	<string id="sleep_itm_warning_blowout">
+		<text>Dormir ici, c'est pas prudent !</text>
+	</string>
+
+	<string id="st_itm_campfire">
+		<text>Feu de camp</text>
+	</string>
+	<string id="st_itm_campfire_descr">
+		<text>Vous ne devriez pas posséder cet objet !\n \n
+		</text>
+	</string>
+
+	<string id="green_bug_name">
+		<text>Scarabée Vert</text>
+	</string>
+	<string id="green_bug_description">
+		<text>Le Scarabée Vert est un compagnon inséparable de chaque stalker. Aucune personne dans la Zone ne l'a jamais croisé sur son chemin. Si vous ne l'apercevez qu'une ou deux fois au cours de votre vie, cela doit être considéré comme un coup de chance. Votre humeur se dégrade en proportion directe de chaque rencontre ultérieure avec le Scarabée Vert.\n
+		</text>
+	</string>
+
+<!-- UNUSED
+
+	<string id="st_identity_card">
+		<text>Carte d'identité USS personnelle</text>
+	</string>
+	<string id="st_identity_card_descr">
+		<text>Il s'agit de votre carte d'identité personnelle révélant votre véritable identité. En tant qu'Assaillant des USS, vous êtes spécialisé dans les fusils d'assaut et les armes lourdes. Vous maîtrisez également le contrôle du recul des armes. Votre vitesse de sprint est réduite.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[ui_gray_2] effets personnels\n
+		</text>
+	</string>
+	<string id="st_identity_card_assaulter_descr">
+		<text>En tant qu'Assaillant des USS, vous disposez de forces et de faiblesses uniques.\n \n
+		%c[d_cyan]ÉQUIPEMENT\n
+		%c[default]Agilité avec armure lourde : %c[d_red_1]A+\n
+		%c[d_blue] • %c[default]Agilité en respiration en milieu clos : %c[d_red_1]C\n
+		%c[d_blue] • %c[default]Maniement des Artefacts : %c[d_red_1]C\n \n
+		%c[d_cyan]ARMES\n
+		%c[d_blue] • %c[default]Combat au couteau : %c[d_red_1]A+\n
+		%c[d_blue] • %c[default]Spécialité de maniement : %c[d_red_1]forts reculs\n
+		%c[d_blue] • %c[default]Spécialité de maintenance : %c[d_red_1]armes lourdes\n \n
+		%c[d_cyan]MÉDECINE\n
+		%c[d_blue] • %c[default]Dextérité avec Bandages/medkits : %c[d_red_1]B\n
+		%c[d_blue] • %c[default]Compétences médicales : %c[d_red_1]C\n
+		%c[d_blue] • %c[default]Compétences en gestion des drogues : %c[d_red_1]C\n \n
+		%c[d_cyan]ATHLÉTISME\n
+		%c[d_blue] • %c[default]Endurance : %c[ui_gray_2]%c[d_red_1]très élevée\n
+		%c[d_blue] • %c[default]Vitesse de sprint : %c[d_red_1]lente\n
+		%c[d_blue] • %c[default]Hauteur de saut : %c[d_red_1]faible\n
+		%c[d_blue] • %c[default]Agilité en chute/saut : %c[d_red_1]faible\n
+		%c[d_blue] • %c[default]Endurance de base : %c[d_red_1]faible\n
+		%c[d_blue] • %c[default]Poids maximal transportable : %c[ui_gray_2]%c[d_red_1]élevé\n \n
+		%c[d_cyan]PROFIL DE SANTÉ\n
+		%c[d_blue] • %c[default]Taux de consommation alimentaire : %c[d_red_1]élevé\n
+		%c[d_blue] • %c[default]Besoins en sommeil : %c[d_red_1]élevés\n \n
+		%c[d_cyan]RÉSISTANCE DU SYSTÈME IMMUNITAIRE\n
+		%c[d_blue] • %c[default]Drogues/alcool : %c[d_red_1]A+\n
+		%c[d_blue] • %c[default]Aliments malsains : %c[d_red_1]B\n
+		%c[d_blue] • %c[default]Artefacts : %c[d_red_1]C\n
+		%c[d_blue] • %c[default]Résistance aux radiations : %c[ui_gray_2]%c[d_red_1]C\n
+		</text>
+	</string>
+	<string id="st_identity_card_recon_descr">
+		<text>En tant que membre des forces de reconnaissance de l'USS, vous possédez des forces et des faiblesses uniques.\n \n
+		%c[d_cyan]ÉQUIPEMENT\n
+		%c[default]Agilité avec armure lourde : %c[d_red_1]C\n
+		%c[d_blue] • %c[default]Agilité en respiration en milieu clos : %c[d_red_1]A+\n
+		%c[d_blue] • %c[default]Maniabilité des Artefacts : %c[d_red_1]A+\n \n
+		%c[d_cyan]ARMES\n
+		%c[d_blue] • %c[default]Combat au couteau : %c[d_red_1]A\n
+		%c[d_blue] • %c[default]Spécialité de maniement : %c[d_red_1]PM\n
+		%c[d_blue] • %c[default]Spécialité de maintenance : %c[d_red_1]PM\n \n
+		%c[d_cyan]MÉDECINE\n
+		%c[d_blue] • %c[default]Dextérité avec Bandages/medkits : %c[d_red_1]A+\n
+		%c[d_blue] • %c[default]Compétences médicales : %c[d_red_1]A\n
+		%c[d_blue] • %c[default]Compétences en gestion des drogues : %c[d_red_1]A\n \n
+		%c[d_cyan]ATHLÉTISME\n
+		%c[d_blue] • %c[default]Endurance : %c[ui_gray_2]%c[d_red_1]faible\n
+		%c[d_blue] • %c[default]Vitesse de sprint : %c[d_red_1]élevée\n
+		%c[d_blue] • %c[default]Hauteur de saut : %c[d_red_1]élevée\n
+		%c[d_blue] • %c[default]Agilité en chute/saut : %c[d_red_1]élevée\n
+		%c[d_blue] • %c[default]Endurance de base : %c[d_red_1]élevée\n
+		%c[d_blue] • %c[default]Poids maximal transportable : %c[ui_gray_2]%c[d_red_1]faible\n \n
+		%c[d_cyan]PROFIL DE SANTÉ\n
+		%c[d_blue] • %c[default]Taux de consommation alimentaire : %c[d_red_1]lent\n
+		%c[d_blue] • %c[default]Besoin de sommeil : %c[d_red_1]moyen\n \n
+		%c[d_cyan]RÉSISTANCE DU SYSTÈME IMMUNITAIRE\n
+		%c[d_blue] • %c[default]Drogues/alcool : %c[d_red_1]C\n
+		%c[d_blue] • %c[default]Aliments malsains : %c[d_red_1]C\n
+		%c[d_blue] • %c[default]Artefacts : %c[d_red_1]A\n
+		%c[d_blue] • %c[default]Résistance aux radiations : %c[ui_gray_2]%c[d_red_1]A\n
+		</text>
+	</string>
+	<string id="st_identity_card_sniper_descr">
+		<text>En tant que Sniper des USS, vos attributs sont extrêmement bien équilibrés.\n \n
+		%c[d_cyan]ÉQUIPEMENT\n
+		%c[default]Agilité avec armure lourde : %c[d_red_1]B\n
+		%c[d_blue] • %c[default]Agilité en respiration en milieu clos : %c[d_red_1]B\n
+		%c[d_blue] • %c[default]Maniement des Artefacts : %c[d_red_1]B\n \n
+		%c[d_cyan]ARMES\n
+		%c[d_blue] • %c[default]Combat au couteau : %c[d_red_1]B\n
+		%c[d_blue] • %c[default]Spécialité de maniement : %c[d_red_1]fusils de sniper\n
+		%c[d_blue] • %c[default]Spécialité de maintenance : %c[d_red_1]fusils de sniper \n \n
+		%c[d_cyan]MÉDECINE\n
+		%c[d_blue] • %c[default]Dextérité avec Bandages/medkits : %c[d_red_1]B\n
+		%c[d_blue] • %c[default]Compétences médicales : %c[d_red_1]B\n
+		%c[d_blue] • %c[default]Compétences en gestion des drogues : %c[d_red_1]B+\n \n
+		%c[d_cyan]ATHLÉTISME\n
+		%c[d_blue] • %c[default]Endurance : %c[ui_gray_2]%c[d_red_1]moyenne\n
+		%c[d_blue] • %c[default]Vitesse de sprint : %c[d_red_1]moyenne\n
+		%c[d_blue] • %c[default]Hauteur de saut : %c[d_red_1]moyenne\n
+		%c[d_blue] • %c[default]Agilité en chute/saut : %c[d_red_1]moyenne\n
+		%c[d_blue] • %c[default]Endurance en course : 
+		%c[d_red_1]élevé\n
+		%c[d_blue] • %c[default]Endurance en sprint : 
+		%c[d_red_1]moyen\n
+		%c[d_blue] • %c[default]Poids maximal transportable : %c[ui_gray_2]%c[d_red_1]moyen\n \n
+		%c[d_cyan]PROFIL DE SANTÉ\n
+		%c[d_blue] • %c[default]Taux de consommation de nourriture : %c[d_red_1]moyen\n
+		%c[d_blue] • %c[default]Besoins en sommeil : %c[d_red_1]faibles\n \n
+		%c[d_cyan]RÉSISTANCE DU SYSTÈME IMMUNITAIRE\n
+		%c[d_blue] • %c[default]Drogues/alcool : %c[d_red_1]B\n
+		%c[d_blue] • %c[default]Aliments malsains : %c[d_red_1]A+\n
+		%c[d_blue] • %c[default]Artefacts : %c[d_red_1]B\n
+		%c[d_blue] • %c[default]Résistance aux radiations : %c[ui_gray_2]%c[d_red_1]B\n
+		</text>
+	</string>
+
+-->
+	
+</string_table>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_menu_grok_dd">
+        <text>Despawner dynamique</text>
+    </string>
+	<string id="ui_mcm_grok_dd_title">
+        <text>Analyseur dynamique Despawner</text>
+    </string>
+    <string id="ui_mcm_grok_dd_npc_threshold">
+        <text>Nombre maximal de NPCs en ligne maintenus</text>
+    </string>
+    <string id="ui_mcm_grok_dd_enabled">
+        <text>Activer l'analyseur dynamique Despawner ?</text>
+    </string>
+    <string id="ui_mcm_grok_dd_check_tasks">
+        <text>Éviter la suppression des NPCs en mission ?</text>
+    </string>
+</string_table>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!-- 
+	MCM
+-->
+
+	<string id="ui_mcm_item_icon_info_title">
+		<text>Améliorations UI objets</text>
+	</string>
+	<string id="ui_mcm_menu_item_icon_info">
+		<text>Améliorations UI objets</text>
+	</string>
+
+	<string id="ui_mcm_menu_cond_text">
+		<text>Pourcentage état</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_cond_text_title">
+		<text>Nombre pourcentage état</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_cond_text_enable">
+		<text>Activé</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_cond_text_enable_equipped">
+		<text>Afficher sur équipement porté</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_cond_text_hide_bar">
+		<text>Masquer Bar état</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_cond_text_hide_bg">
+		<text>Sans fond pour nombre état</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_cond_text_alt_artefact_pos">
+		<text>Position état sur Artefacts</text>
+	</string>
+	<string id="ui_mcm_lst_alt_art_pos_lower_left">
+		<text>En bas à gauche</text>
+	</string>
+	<string id="ui_mcm_lst_alt_art_pos_lower_right">
+		<text>En bas à droite</text>
+	</string>
+	<string id="ui_mcm_lst_alt_art_pos_top_left">
+		<text>En haut à gauche</text>
+	</string>
+	<string id="ui_mcm_lst_alt_art_pos_top_right">
+		<text>En haut à droite</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_cond_text_padding">
+		<text>Marge de texte</text>
+	</string>
+
+	<string id="ui_mcm_menu_part_dots">
+		<text>Indicateurs pièces</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_part_dots_title">
+		<text>Indicateurs état des pièces</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_part_dots_enable">
+		<text>Activé</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_part_dots_show_on_equipped">
+		<text>Afficher sur équipement porté</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_part_dots_show_on_wpn">
+		<text>Afficher sur armes</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_part_dots_show_on_armor">
+		<text>Afficher sur armures/casques</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_part_dots_size_mult">
+		<text>Taille</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_part_dots_separator_width">
+		<text>Espacement entre indicateurs</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_part_dots_position">
+		<text>Position</text>
+	</string>
+	<string id="ui_mcm_lst_part_dot_top">
+		<text>Haut du Bar état</text>
+	</string>
+	<string id="ui_mcm_lst_part_dot_right">
+		<text>Droite du Bar état</text>
+	</string>
+	<string id="ui_mcm_lst_part_dot_top_pistol">
+		<text>Haut du Bar état (armes courtes uniquement)</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_part_dots_wpo_mode">
+		<text>Utiliser seuils de couleur</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_part_dots_wpo_green">
+		<text>Seuil état couleur verte</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_part_dots_wpo_yellow">
+		<text>Seuil état couleur jaune</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_part_dots_wpo_orange">
+		<text>Seuil état couleur orange</text>
+	</string>
+
+	<string id="ui_mcm_menu_ammo_name">
+		<text>Nom des munitions</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_ammo_name_title">
+		<text>Texte nom court munitions</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_ammo_name_enable">
+		<text>Activé</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_ammo_name_bad_color">
+		<text>Couleur texte selon qualité munitions (mauvaise/ancienne)</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_ammo_name_show_expl">
+		<text>Activé pour grenades M203/VOG et ogives</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_ammo_name_expl_bad_color">
+		<text>Couleur texte selon qualité munitions (explosives)</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_ammo_name_padding">
+		<text>Marge de texte</text>
+	</string>
+
+	<string id="ui_mcm_menu_recipe_text">
+		<text>Lu/Non lu</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_recipe_text_title">
+		<text>Recettes, notes et cartes : texte Lu/Non lu</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_recipe_text_enable">
+		<text>Activé</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_recipe_text_show_on_pda">
+		<text>Afficher infobulle sur PDA avec info cache</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_recipe_text_padding">
+		<text>Marge de texte</text>
+	</string>
+	
+	<string id="ui_mcm_menu_mag_info">
+		<text>Infos chargeur</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_mag_info_title">
+		<text>Nombre munitions chargeur et nom balle (Mags Redux uniquement)</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_mag_info_enable">
+		<text>Activé</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_mag_info_show_ammo_name">
+		<text>Afficher nom court munitions</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_mag_info_show_ammo_count">
+		<text>Afficher nombre munitions</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_mag_info_hide_bar">
+		<text>Masquer état chargeur Bar</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_mag_info_padding">
+		<text>Marge de texte</text>
+	</string>
+
+	<string id="ui_mcm_menu_money_text">
+		<text>Argent</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_money_text_title">
+		<text>Texte argent</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_money_text_enable">
+		<text>Activé</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_money_text_hide_bg">
+		<text>Sans fond</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_money_text_padding">
+		<text>Marge de texte</text>
+	</string>
+
+	<string id="ui_mcm_menu_armor_info">
+		<text>Infos armure</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_armor_info_title">
+		<text>Patch faction et type réparation armure</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_armor_info_show_patch">
+		<text>Afficher icône patch faction armure</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_armor_info_show_armor_type">
+		<text>Afficher type de réparation armure</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_armor_info_show_helmet_type">
+		<text>Afficher type casque</text>
+	</string>
+
+	<string id="ui_mcm_menu_wpn_info">
+		<text>Infos arme</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_wpn_info_title">
+		<text>Nom arme et type réparation</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_wpn_info_show_gun_repair_type">
+		<text>Afficher icône type réparation arme</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_wpn_info_show_wpn_name">
+		<text>Afficher nom arme</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_wpn_info_main_slots_only">
+		<text>Afficher nom uniquement sur arme principale/secondaire équipée</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_wpn_info_show_grenade_name">
+		<text>Afficher nom sur grenades</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_wpn_info_show_melee">
+		<text>Afficher nom sur armes de mêlée</text>
+	</string>
+
+	<string id="ui_mcm_menu_wpn_scaling">
+		<text>Échelle des armes</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_wpn_scaling_not_installed">
+		<text>Échelle des armes non installée</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_wpn_scaling_title">
+		<text>Échelle et alignement des armes</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_wpn_scaling_enable_equip_hor_scale">
+		<text>Échelle et alignement armes équipées (horizontal)</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_wpn_scaling_enable_equip_vert_scale">
+		<text>Échelle et alignement armes équipées (vertical)</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_wpn_scaling_equip_vert_padding">
+		<text>Marge sur armes verticales mises à l'échelle</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_wpn_scaling_equip_hor_padding">
+		<text>Marge sur armes horizontales mises à l'échelle</text>
+	</string>
+	<string id="ui_mcm_item_icon_info_wpn_scaling_enable_inv_scaling">
+		<text>Échelle et alignement icônes armes silencieuses dans sac</text>
+	</string>
+
+<!-- 
+	MODS
+-->
+	<string id="ui_utjan_recipe_read">
+		<text>Lu</text>
+	</string>
+	<string id="ui_utjan_recipe_unread">
+		<text>Non lu</text>
+	</string>
+	<string id="ui_utjan_ruble">
+		<text>RU</text>
+	</string>
+
+</string_table>

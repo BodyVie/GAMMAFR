@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="cxv_tooltip_dot">
+		<text>•</text>
+	</string>
+	<string id="cxv_rotting_timer_title">
+		<text>Heures en jeu avant pourriture</text>
+	</string>
+	<string id="cxv_rotting_hrs">
+		<text>heures</text>
+	</string>
+	
+	
+</string_table>

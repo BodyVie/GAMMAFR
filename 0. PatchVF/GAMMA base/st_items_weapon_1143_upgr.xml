@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="st_up_cal_1143_descr">
+		<text>Modification complexe et intégrée des pièces mécaniques et automatisées de l'arme, permettant de changer son calibre au détriment de la fiabilité.</text>
+	</string>
+	<string id="st_up_cal_1143_name">
+		<text>Changement de calibre en 9x19</text>
+	</string>
+</string_table>

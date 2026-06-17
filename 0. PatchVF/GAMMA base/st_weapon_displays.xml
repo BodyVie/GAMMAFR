@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+    <string id="st_placeable_weapon_rack">
+        <text>Support d'armes</text>
+    </string>
+    <string id="st_placeable_weapon_rack_descr">
+		<text>Un ancien râtelier d'armes pouvant être utilisé pour collectionner et exposer vos fusils et fusils de chasse préférés.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Affiche les fusils, pistolets-mitrailleurs et fusils de chasse\n \n
+		</text>
+	</string>
+	
+	<string id="st_placeable_pistol_shelf">
+        <text>Étagère à pistolets</text>
+    </string>
+    <string id="st_placeable_pistol_shelf_descr">
+		<text>Une vieille étagère pouvant être utilisée pour exposer vos pistolets préférés.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Rangement d'objets\n
+		%c[d_orange] • %c[pda_white] Posable\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Affiche les pistolets\n \n
+		</text>
+	</string>
+	
+</string_table>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+<string id="st_cigar3">
+	<text>Cigarettes Camel Jaune</text>
+</string>
+<string id="st_cigar3_descr">
+	<text>Arôme classique Camel à la finition douce. Un choix solide pour les stalkers qui aiment allier un peu de classe à leurs brûlures radioactives. Peu importé dans la Zone, d'où son prix relativement élevé.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Stimulant\n
+		%c[d_green] • %c[pda_white] Effet de dégrisement alcoolique\n
+	</text>
+</string>
+</string_table>

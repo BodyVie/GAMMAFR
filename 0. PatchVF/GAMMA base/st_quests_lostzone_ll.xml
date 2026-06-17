@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--===========================================================
+<
+< TEXT STRINGS FOR LOST TO THE ZONE: LIVING LEGEND TASKS
+<	Anomaly 1.5 - Lost to the Zone: Living Legend
+<
+<===========================================================-->
+
+<string_table>
+
+<!--
+	ITEMS
+-->
+
+	<string id="item_doc_x8_ll_name">
+		<text>Documents X-8</text>
+	</string>
+	<string id="item_doc_x8_ll_desc">
+		<text>Ces documents abordent brièvement les résultats d’expériences approfondies en recherche psychique menées par un groupe inconnu. Notamment, les résultats semblent confirmer l’existence d’un champ d’énergie psychique non contact enveloppant la Terre, ainsi qu’une brève description des machines sophistiquées pouvant potentiellement influencer ce champ.\n
+		Cependant, la majeure partie de ces documents consiste en une longue liste de sujets humains exposés à des émissions psychiques de fréquences et d’intensités variées. Beaucoup ont développé, semble-t-il, une endurance, une intelligence ou des capacités télépathiques surhumaines au cours des tests. Certains sont mentionnés comme étant décédés par la suite, d’autres ont été transférés, et beaucoup restent introuvables, comme s’ils avaient disparu ou s’étaient échappés.\n
+		Une note cryptique est griffonnée en marge : « Déjà, nous avons déformé la forme humaine au-delà de toute reconnaissance au nom de notre vision ! Combien de temps encore avant que notre hubris et notre péché ne nous rattrapent ? ».\n
+		Strelok sera sans aucun doute intéressé par ceci.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+	<string id="strelok_notes_name">
+		<text>Carnet de Strelok</text>
+	</string>
+	<string id="strelok_notes_desc">
+		<text>Ce carnet appartenait autrefois à Strelok. Une lecture rapide révèle de nombreuses notes décousues et cryptiques. Il semble que le stalker ait traversé une crise liée à une décision importante prise quelques années plus tôt, et qu’il souhaitait se réapprovisionner rapidement à Rostok avant de se diriger vers le nord pour vérifier ses choix.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+	<string id="st_strelok_pendrive_name">
+		<text>Disque Éclair de Strelok</text>
+	</string>
+	<string id="st_strelok_pendrive_descr">
+		<text>Une clé USB cryptée contenant une copie de sauvegarde des nombreuses découvertes de Strelok au fil des années. Il s'agit d'une pièce à conviction inestimable concernant les expériences top secrètes qui auraient créé Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Living Legend Task 1 -->
+	<string id="lttz_ll_find_doctor_task_title">
+		<text>Légende vivante : Vieux Connaissances</text>
+	</string>
+	<string id="lttz_ll_find_doctor_task_descr">
+		<text>Le docteur, ancien compagnon de Strelok, s'est retiré dans le coin nord-ouest de Grand marais. Trouvez un moyen de le rejoindre pour poursuivre vos recherches sur Strelok.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Living Legend Task 2 -->
+	<string id="lttz_ll_visit_agro_ug_name">
+		<text>Légende vivante : Planque souterraine</text>
+	</string>
+	<string id="lttz_ll_visit_agro_ug_text">
+		<text>Le Doc a suggéré d'aller fouiller le planque de Strelok dans les Souterrains d'Agroprom pour avoir des indices sur sa position.</text>
+	</string>
+	<string id="lttz_ll_visit_agro_ug_text_2">
+		<text>Une lecture approfondie des notes du Doc révèle que Strelok a une planque dans les Souterrains d'Agroprom. Va y faire un tour pour avoir des indices sur sa position.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Living Legend Task 3 -->
+	<string id="lttz_ll_visit_barkeep_task_title">
+		<text>Légende vivante : Sur les Traces</text>
+	</string>
+	<string id="lttz_ll_visit_barkeep_task_descr">
+		<text>Si Strelok souhaitait se réapprovisionner à Rostok, Barman en sait probablement quelque chose. Rendez-lui visite.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Living Legend Task 3 -->
+	<string id="lttz_ll_visit_aslan_task_title">
+		<text>Légende vivante : Sur les Traces</text>
+	</string>
+	<string id="lttz_ll_visit_aslan_task_descr">
+		<text>Aslan possède des connaissances sur le nord de Zone. Rendez-lui visite.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Living Legend Task 4 -->
+	<string id="lttz_ll_call_north_task_title">
+		<text>Légende vivante : L'Appel du Nord</text>
+	</string>
+	<string id="lttz_ll_call_north_task_descr">
+		<text>Obtenez un dispositif psychique fonctionnel pour vous protéger du Lobotomisateur.</text>
+	</string>
+	<string id="lttz_ll_call_north_task_descr2">
+		<text>Gardien est un vétéran qui défend la Barrière. Il est probablement la dernière personne à avoir vu le groupe de Strelok.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Living Legend Task 5 -->
+	<string id="lttz_ll_breakthrough_task_name">
+		<text>Légende vivante : Percée</text>
+	</string>		
+	<string id="lttz_ll_breakthrough_task_text">
+		<text>Le Monolithe envahit la Barrière. Vous devez les vaincre pour accéder au Radar.</text>
+	</string>
+	<string id="lttz_ll_talk_gatekeeper_task_descr">
+		<text>Vous avez repoussé l'assaut du Monolithe. Parlez à Gardien.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Living Legend Task 6 -->
+	<string id="lttz_ll_radar_deactivate_name">
+		<text>Légende vivante : Au-delà de l'arc-en-ciel</text>
+	</string>
+	<string id="lttz_ll_deactivate_text">
+		<text>Désactive le Lobotomisateur pour accéder au coeur de la Zone.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Living Legend Task 7 -->
+	<string id="lttz_ll_visit_beard_task_title">
+		<text>Légende vivante : L'Enclave</text>
+	</string>
+	<string id="lttz_ll_visit_beard_task_descr">
+		<text>Gardien transmet ses salutations à Barbu. Ce dernier pourrait savoir quelque chose au sujet de Strelok.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Living Legend Task 8 -->
+	<string id="lttz_ll_meet_rogue_task_title">
+		<text>Légende vivante : Rencontre avec un Renégat</text>
+	</string>
+	<string id="lttz_ll_meet_rogue_task_descr">
+		<text>L'un des membres du groupe de Strelok, Rogue, se trouve actuellement à Skadovsk. Parlez-lui pour en savoir plus.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Living Legend Task 9 -->
+	<string id="lttz_ll_fetch_gauss_task_title">
+		<text>Légende vivante : Arme Expérimentale</text>
+	</string>
+	<string id="lttz_ll_fetch_gauss_task_descr">
+		<text>Rogue souhaite que vous trouviez une arme expérimentale pour lui. Rendez-vous dans une installation militaire abandonnée.</text>
+	</string>
+	<string id="lttz_ll_fetch_gauss_task_descr2">
+		<text>Vous avez trouvé l'arme expérimentale. Retournez auprès de Rogue.</text>
+	</string>
+	
+	<string id="lttz_ll_wpn_gauss_quest_name">
+		<text>Objet ¹62</text>
+	</string>
+	<string id="lttz_ll_wpn_gauss_quest_descr">
+		<text>Une arme hautement expérimentale, d'une précision extrême, alimentée par un artefact et fabriquée dans Zone. Au lieu de poudre, le fusil à gauss utilise des forces électromagnétiques pour propulser des projectiles à des vitesses incroyables, similaires à celles d'un railgun. Proportionnellement à sa puissance de feu considérable, le recul est étonnamment maîtrisable. Parmi les armes de sa catégorie, sa précision et sa puissance de feu sont inégalées.\n \n
+		%c[pda_white]CARACTÉRISTIQUES :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Classifié\n
+		</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Living Legend Task 10 -->
+	<string id="lttz_ll_path_pripyat_task_title">
+		<text>Légende vivante : Chemin vers Pripyat</text>
+	</string>
+	<string id="lttz_ll_path_pripyat_task_descr">
+		<text>Traversez les Souterrains de Jupiter avec Rogue.</text>
+	</string>
+	<string id="lttz_ll_talk_rogue_underpass_task_descr">
+		<text>L'embuscade du Monolithe a été neutralisée. Consultez Rogue pour faire le point sur la situation.</text>
+	</string>
+	<string id="lttz_ll_reach_pripyat_task_descr">
+		<text>Rejoignez la planque de Strelok à Pripyat avec Rogue.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Living Legend Task 11 -->
+	<string id="lttz_ll_medical_supplies_name">
+		<text>Légende vivante : Fournitures médicales</text>
+	</string>
+	<string id="lttz_ll_medical_supplies_text">
+		<text>Stitch, le toubib de combat de Strelok, a besoin de %s.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Living Legend Task 12 -->
+	<string id="lttz_ll_attack_on_titan_name">
+		<text>Légende vivante : L'Attaque des Titans</text>
+	</string>
+	<string id="lttz_ll_attack_on_titan_text">
+		<text>Un Pseudogiant dangereux rôde à Pripyat. Butte-le avant pour éviter une distraction mortelle.</text>
+	</string>
+	<string id="lttz_ll_return_rogue_attack_on_titan_task_descr">
+		<text>Le Pseudogiant a été vaincu. Retournez auprès de Rogue.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Living Legend Task 13 -->
+	<string id="lttz_ll_find_documents_name">
+		<text>Légende vivante : Top Secret</text>
+	</string>
+	<string id="lttz_ll_find_documents_text">
+		<text>Le labo X-8 contient des infos top secrètes sur la Zone. Trouve les Documents X-8 et rapporte-les à Strelok.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Living Legend Task 14 -->
+	<string id="lttz_ll_eidolon_start_task_title">
+		<text>Légende vivante : Première Offensive</text>
+	</string>
+	<string id="lttz_ll_eidolon_start_task_descr">
+		<text>Formez l’équipe et partez vaincre l’Eidolon.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Living Legend Task 15 -->
+	<string id="lttz_ll_eidolon_task_title">
+		<text>Légende vivante : Champion du Monolithe</text>
+	</string>
+	<string id="lttz_ll_eidolon_task_descr">
+		<text>Effectuez un raid sur le Palais de la Culture pour attirer l'Eidolon et le vaincre.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Living Legend Task 16 -->
+	<string id="lttz_ll_strelok_objective_task_title">
+		<text>Légende vivante : Objectif Ambitionné</text>
+	</string>
+	<string id="lttz_ll_strelok_objective_task_descr">
+		<text>Vous avez vaincu l'Eidolon. Il est temps pour Strelok de révéler son objectif principal.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Living Legend Task 17 -->
+	<string id="lttz_ll_chernobyl_raid_task_title">
+		<text>Légende vivante : Raid sur la CNPP</text>
+	</string>
+	<string id="lttz_ll_chernobyl_raid_task_descr">
+		<text>Atteignez la CNPP et éliminez les forces du Monolithe qui la défendent.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Living Legend Task 18 -->
+	<string id="lttz_ll_crucible_task_title">
+		<text>Légende vivante : Épreuve</text>
+	</string>
+	<string id="lttz_ll_crucible_task_descr">
+		<text>Frayez-vous un chemin jusqu'au centre QG du Monolithe, éliminez la Garde Fantôme et trouvez l'Éclat du Monolithe.</text>
+	</string>
+	
+	<string id="item_monolith_shard_name">
+		<text>Éclat du Monolithe</text>
+	</string>
+	<string id="item_monolith_shard_desc">
+		<text>Selon la légende, cet objet aurait été détaché de l’Exauceur de Souhaits lui-même et présente des propriétés similaires à celles d’un artefact. Il crépite d’une énergie inquiétante et pourrait posséder des pouvoirs insidieux encore inconnus de l’humanité.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Living Legend Task 19 -->
+	<string id="lttz_ll_answers_task_title">
+		<text>Légende vivante : Réponses</text>
+	</string>
+	<string id="lttz_ll_answers_task_descr">
+		<text>Un éclat du Monolithe a été obtenu. Le moment des réponses est venu.</text>
+	</string>
+	
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Living Legend Task 20 -->
+	<string id="lttz_ll_finish_task_title">
+		<text>Légende vivante : Achèvement</text>
+	</string>
+	
+	<string id="lttz_ll_finish_csky_task_descr">
+		<text>Retournez auprès de Cold pour faire votre rapport.</text>
+	</string>
+	<string id="lttz_ll_finish_stalker_task_descr">
+		<text>Retournez auprès de Sidorovich pour faire votre rapport.</text>
+	</string>
+	<string id="lttz_ll_finish_killer_task_descr">
+		<text>Retournez auprès de Dushman pour faire votre rapport.</text>
+	</string>
+	<string id="lttz_ll_finish_freedom_task_descr">
+		<text>Retournez auprès de Lukash pour faire votre rapport.</text>
+	</string>
+	<string id="lttz_ll_finish_dolg_task_descr">
+		<text>Retournez auprès du général Voronin pour faire votre rapport sur votre succès.</text>
+	</string>
+	<string id="lttz_ll_finish_ecolog_task_descr">
+		<text>Retournez auprès du professeur Sakharov pour faire votre rapport sur votre succès.</text>
+	</string>
+	
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+	
+</string_table>

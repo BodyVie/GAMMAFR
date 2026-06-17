@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    
+<!--
+Pistols and MP's
+-->
+
+	<string id="st_mag_sks_7.62x39">
+		<text>Chargeur SKS 7,62x39 Standard</text>
+	</string>
+	<string id="st_mag_sks_7.62x39_descr">
+		<text>
+		Chargeur standard pour SKS d'une capacité de 20 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_toz106_20x70_fmj">
+		<text>Chargeur TOZ 106 20x70 Standard</text>
+	</string>
+	<string id="st_mag_toz106_20x70_descr">
+		<text>
+		Chargeur standard pour TOZ 106 d'une capacité de 2 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_etoz106_20x70_fmj">
+		<text>Chargeur TOZ 106 20x70 Étendu</text>
+	</string>
+	<string id="st_mag_etoz106_20x70_descr">
+		<text>
+		Chargeur étendu pour TOZ 106 d'une capacité de 4 cartouches.
+		</text>
+	</string>
+	
+	
+	
+	
+	
+	<string id="st_mag_toz106_20x70_zhekan_fmj">
+		<text>Chargeur TOZ 106 20x70 Standard</text>
+	</string>
+	<string id="st_mag_toz106_20x70_zhekan_descr">
+		<text>
+		Chargeur standard pour TOZ 106 d'une capacité de 2 cartouches de type Slug.
+		</text>
+	</string>
+	
+	<string id="st_mag_etoz106_20x70_zhekan_fmj">
+		<text>Chargeur TOZ 106 20x70 Étendu</text>
+	</string>
+	<string id="st_mag_etoz106_20x70_zhekan_descr">
+		<text>
+		Chargeur étendu pour TOZ 106 d'une capacité de 4 cartouches de type Slug.
+		</text>
+	</string>
+	
+	
+	
+	
+	
+	<string id="st_mag_dvl_7.62x51">
+		<text>Chargeur DVL10 7,62x51 Standard</text>
+	</string>
+	<string id="st_mag_dvl_7.62x51_descr">
+		<text>
+		Chargeur standard pour DVL10 d'une capacité de 10 cartouches.
+		</text>
+	</string>
+		
+	<string id="st_mag_basremington700_7.62x51_descr">
+		<text>Chargeur étendu pour Remington 700 en calibre 7,62x51.</text>
+	</string>
+	<string id="st_mag_basremington700_7.62x51">
+		<text>
+		Chargeur Remington 700 d'une capacité de 12 cartouches Étendu
+		</text>
+	</string>
+	
+	<string id="st_mag_remingtonarchangel_7.62x51">
+		<text>Chargeur Remington Archangel Kit 7,62x51 Étendu</text>
+	</string>
+	<string id="st_mag_remingtonarchangel_7.62x51_descr">
+		<text>
+		Chargeur étendu pour Remington Archangel Kit d'une capacité de 20 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_remingtonla_300_descr">
+		<text>Chargeur standard pour Remington 700 en calibre .300.</text>
+	</string>
+	<string id="st_mag_remingtonla_300">
+		<text>
+		Chargeur Remington 700 d'une capacité de 5 cartouches
+		</text>
+	</string>
+	
+	<string id="st_mag_k98_7.92x33">
+		<text>Chargeur Kar 98 7,92x33 Standard</text>
+	</string>
+	<string id="st_mag_k98_7.92x33_descr">
+		<text>
+		Chargeur standard pour Kar 98 d'une capacité de 5 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_valbas_9x39_pab9">
+		<text>Chargeur AS VAL 9x39 Étendu</text>
+	</string>
+	<string id="st_mag_valbas_9x39_pab9_descr">
+		<text>
+		Chargeur étendu pour AS VAL en calibre 9x39 d'une capacité de 30 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_basvintorez_9x39_pab9">
+		<text>Chargeur VSS 9x39 Étendu</text>
+	</string>
+	<string id="st_mag_basvintorez_9x39_pab9_descr">
+		<text>
+		Chargeur étendu pour VSS en calibre 9x39 d'une capacité de 20 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_basextvintorez_9x39_pab9">
+		<text>Chargeur VSS 9x39 Étendu</text>
+	</string>
+	<string id="st_mag_basextvintorez_9x39_pab9_descr">
+		<text>
+		Chargeur étendu pour VSS en calibre 9x39 d'une capacité de 30 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_svd_5.56">
+		<text>Chargeur SVD 5,56x45 Standard</text>
+	</string>
+	<string id="st_mag_svd_5.56_descr">
+		<text>
+		Chargeur standard pour SVD en calibre 5,56x45 d'une capacité de 10 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_svd_5.56_extended">
+		<text>Chargeur SVD 5,56x45 Étendu</text>
+	</string>
+	<string id="st_mag_svd_5.56_extended_descr">
+		<text>
+		Chargeur étendu pour SVD en calibre 5,56x45 d'une capacité de 20 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_sksext_7.62x39">
+		<text>Chargeur SKS 7,62x39 Étendu</text>
+	</string>
+	<string id="st_mag_sksext_7.62x39_descr">
+		<text>
+		Chargeur étendu pour SKS en calibre 7,62x39 d'une capacité de 30 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_sks_7.62x54ext">
+		<text>Chargeur SKS 7,62x54 Étendu</text>
+	</string>
+	<string id="st_mag_sks_7.62x54ext_descr">
+		<text>
+		Chargeur étendu pour SKS en calibre 7,62x54 d'une capacité de 30 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_sks_7.62x54">
+		<text>Chargeur SKS 7,62x54 Standard</text>
+	</string>
+	<string id="st_mag_sks_7.62x54_descr">
+		<text>
+		Chargeur standard pour SKS en calibre 7,62x54 d'une capacité de 20 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_dvl_338">
+		<text>Chargeur DVL10 .338 Federal Standard</text>
+	</string>
+	<string id="st_mag_dvl_338fed_descr">
+		<text>
+		Chargeur standard pour DVL10 en calibre .338 Federal d'une capacité de 10 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_akalfa_7.62x39_bas">
+		<text>Chargeur AK Alfa 7,62x39 Standard</text>
+	</string>
+	<string id="st_mag_akalfa_7.62x39_bas_descr">
+		<text>
+		Chargeur standard pour AK Alfa en calibre 7,62x39 d'une capacité de 30 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_akalfa_5.56x45_bas">
+		<text>Chargeur AK Alfa 5,56x45 Standard</text>
+	</string>
+	<string id="st_mag_akalfa_5.56x45_bas_descr">
+		<text>
+		Chargeur standard pour AK Alfa en calibre 5,56x45 d'une capacité de 30 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_sr2m_9x21_veresk">
+		<text>Chargeur SR-2M Veresk 9x21 Standard</text>
+	</string>
+	<string id="st_mag_sr2m_9x21_veresk_descr">
+		<text>
+		Chargeur standard pour SR-2M Veresk en calibre 9x21 d'une capacité de 30 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_sr2m_9x18_veresk">
+		<text>Chargeur SR-2M Veresk 9x18 Standard</text>
+	</string>
+	<string id="st_mag_sr2m_9x18_veresk_descr">
+		<text>
+		Chargeur standard pour SR-2M Veresk en calibre 9x18 d'une capacité de 30 cartouches.
+		</text>
+	</string>
+
+</string_table>

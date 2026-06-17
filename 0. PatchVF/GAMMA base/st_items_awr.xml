@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Advanced Weapon Repair Mod 0.3 by Faustle (2017)
+-->
+
+<string_table>
+	<!--
+		Interface
+	-->
+	<string id="st_current_condition">
+		<text>État actuel : </text>
+	</string>
+	<string id="st_detail_success">
+		<text>+++ La pièce [%s] a été installée avec succès</text>
+	</string>
+	<string id="st_detail_fail">
+		<text>--- La pièce [%s] a été endommagée pendant le remplacement</text>
+	</string>
+	<string id="st_quality_worn">
+		<text>++++ Une ou plusieurs pièces ont été remplacées par des pièces usées. La qualité de l'arme est passée à « usée ».</text>
+	</string>
+	<string id="st_quality_good">
+		<text>++++ Toutes les pièces ont été remplacées par des pièces en bon état. L'arme est maintenant comme neuve.</text>
+	</string>
+	<string id="st_quality_wgood">
+		<text>++++ Toutes les pièces ont été remplacées. La qualité de l'arme n'a pas changé.</text>
+	</string>
+	<string id="st_already_repair">
+		<text>--- La procédure de remplacement des pièces est terminée. Pour améliorer la qualité de l'arme, son état doit être à 100 %.</text>
+	</string>
+	<string id="st_no_barrel">
+		<text>--- Il n'est pas possible de remplacer des pièces avant d'avoir changé le canon</text>
+	</string>
+	<string id="st_bar_no_need_new">
+		<text>--- Le canon de cette arme ne nécessite aucun remplacement</text>
+	</string>
+	<string id="st_part_no_need_new">
+		<text>Les pièces de l'arme n'ont pas besoin d'être remplacées.</text>
+	</string>
+	<string id="st_bar_no_need_old">
+		<text>Le canon de cette arme n'a pas besoin d'être remplacé. Pour améliorer la qualité de l'arme, son état doit être à 100%.</text>
+	</string>
+	<string id="st_part_no_need_old">
+		<text>--- Les pièces de l'arme n'ont pas besoin d'être remplacées. Pour améliorer la qualité de l'arme, son état doit être à 100 %.</text>
+	</string>
+	<string id="st_no_barrel_to_kit">
+		<text>--- Il n'y a pas de canons compatibles de calibre [%s]</text>
+	</string>
+	<string id="st_no_details">
+		<text>--- Il n'y a pas de pièces disponibles pour [%s]</text>
+	</string>
+	<string id="st_selected_worn">
+		<text>--- Sélectionné%s : [%s] Chance de réparation réussie : %i%% Pour réparer, restaure la pièce</text>
+	</string>
+	<string id="st_selected_good">
+		<text>--- Sélectionné%s : [%s] Chance de réparation réussie : %i%%</text>
+	</string>
+	<string id="st_selected_r_kit">
+		<text>--- Sélection : [%s]</text>
+	</string>
+	<string id="st_sel_detail">
+		<text>--- Clique sur l'image de la pièce correspondante pour commencer le remplacement</text>
+	</string>
+	<string id="st_cond_grow">
+		<text>État : %i%%</text>
+	</string>
+	<string id="st_awr_back">
+		<text>Retour</text>
+	</string>
+	<string id="st_awr_exit">
+		<text>Quitter</text>
+	</string>
+	<string id="st_awr_ctrl">
+		<text>%sPour éviter le démontage accidentel des objets,\nla procédure ne peut être effectuée qu'en maintenant la touche ALT enfoncée%s</text>
+	</string>
+	<string id="st_unload">
+		<text>L'arme doit être déchargée et dépourvue de tout accessoire avant la maintenance</text>
+	</string>
+	<string id="st_no_weap">
+		<text>Il faut sortir une arme pour utiliser l'étau.</text>
+	</string>
+	<string id="st_handsfree">
+		<text>T’as les mains pleines.</text>
+	</string>
+	<string id="st_stolen_1">
+		<text>Le mécanisme de détente a été volé sur ton arme pendant ton absence. L'état s'est dégradé.</text>
+	</string>
+	<string id="st_stolen_2">
+		<text>La tête de culasse a été volée sur ton arme pendant ton absence. L'état s'est dégradé.</text>
+	</string>
+	<string id="st_stolen_3">
+		<text>La culasse a été volée sur ton arme pendant ton absence. L'état s'est dégradé.</text>
+	</string>
+	<string id="st_not_in_list">
+		<text>Tu ne possèdes pas les connaissances nécessaires pour réparer cette arme</text>
+	</string>
+	<string id="st_awr_timer_msg_on">
+		<text>%sIl te reste cinq minutes%s</text>
+	</string>
+	<string id="st_awr_timer_msg_off">
+		<text>%sTemps écoulé%s</text>
+	</string>
+	<string id="st_awr_dead_mechanic">
+		<text>%sLe mécanicien %s a été tué par %s.%s \nTu n'as plus besoin de sa permission pour utiliser son étau.</text>
+	</string>
+	<string id="st_by_unknown">
+		<text>inconnu</text>
+	</string>
+	<string id="st_mech_tiski">
+		<text>Étau de mécanicien\n</text>
+	</string>
+	<string id="st_mech_tiski_w">
+		<text>Étau de mécanicien avec %s</text>
+	</string>
+	<!-- ListBox status texts -->
+	<string id="st_ending_1">
+		<text>?</text>
+	</string>
+	<string id="st_ending_2">
+		<text>?</text>
+	</string>
+	<string id="st_ending_3">
+		<text>?</text>
+	</string>
+	<string id="st_text_status">
+		<text>[ÉTAT] : %s%s%%</text>
+	</string>
+	<string id="st_text_wpn">
+		<text>[ARME] : %s%s</text>
+	</string>
+	<string id="st_text_mode">
+		<text>[MODE] : %s%s</text>
+	</string>
+	<string id="st_text_mode_1">
+		<text>RESTAURATION</text>
+	</string>
+	<string id="st_text_mode_2">
+		<text>RÉPARER AVEC POSSIBILITÉ DE RESTAURATION</text>
+	</string>
+	<string id="st_text_mode_3">
+		<text>INDISPONIBLE</text>
+	</string>
+	<string id="st_text_warning_mode_1_4">
+		<text>%sAprès la mise à niveau, l'état de l'arme sera de %s%%, et la qualité sera neuve</text>
+	</string>
+	<string id="st_text_warning_mode_1_3">
+		<text>%sSeules les pièces en bon état peuvent être utilisées pour la mise à niveau</text>
+	</string>
+	<string id="st_text_warning_mode_1_1">
+		<text>[Attention] : Dans ce mode, seules les armes rouillées ou usées peuvent être améliorées.</text>
+	</string>
+	<string id="st_text_warning_mode_2_5">
+		<text>%sAprès la fin de la réparation avec mise à niveau : %i%% pour une pièce usée et %i%% pour une neuve</text>
+	</string>
+	<string id="st_text_warning_mode_2_4">
+		<text>%sAprès la réparation sans amélioration, l'état de l'arme sera de %i%%.</text>
+	</string>
+	<string id="st_text_warning_mode_2_3">
+		<text>%sLa qualité de l'arme correspondra, en même temps, à celle de la pièce remplacée de la plus basse qualité.</text>
+	</string>
+	<string id="st_text_warning_mode_2_1">
+		<text>[Attention] : Dans ce mode, il est possible de réparer et de mettre à niveau les armes</text>
+	</string>
+	<string id="st_text_warning_mode_3_3">
+		<text>%sLa mise à niveau n'est pas possible tant que l'état n'est pas remonté à 100%%</text>
+	</string>
+	<string id="st_text_warning_mode_3_2">
+		<text>[AVERTISSEMENT] : Impossible de réparer cette arme, son état est déjà au maximum.</text>
+	</string>
+	<string id="st_text_warning_mode_3_1">
+		<text>[AVERTISSEMENT] : La qualité de l'arme est déjà au maximum. Impossible de restaurer davantage.</text>
+	</string>
+	<string id="st_text_warning_mode_help">
+		<text>Pour de l'aide, appuie sur F1</text>
+	</string>
+	<!-- Disassembly -->
+	<string id="st_dis_news">
+		<text>[AWR]</text>
+	</string>
+	<string id="st_dis_count">
+		<text>??.</text>
+	</string>
+	<string id="st_dis_text_1">
+		<text>%s%s %s%s a été démonté</text>
+	</string>
+	<string id="st_dis_text_2">
+		<text>%sTu as tenté de démonter le %s %s, mais aucune pièce n'a été obtenue.</text>
+	</string>
+	<string id="st_dis_text_3">
+		<text>%sOutils requis manquants%s : %s %s</text>
+	</string>
+	<string id="st_dis_text_4">
+		<text>\nLes cartouches ont été retirées : %iPC de type %s\nObjets reçus : </text>
+	</string>
+	<string id="st_dis_text_5">
+		<text>%sTu as réussi à restaurer la pièce %s\n%s</text>
+	</string>
+	<string id="st_dis_text_6">
+		<text>%sTu n’as pas pu restaurer la pièce %s</text>
+	</string>
+	<string id="st_dis_text_7">
+		<text>%s%s %s %s%s</text> <!--text>%s %s %s %s has been disassembled</text-->
+	</string>
+	<string id="st_dis_text_8">
+		<text>%s%s %s %s%s a été découpé</text>
+	</string>
+	<string id="st_dis_text_9">
+		<text>\nPièces obtenues : </text>
+	</string>
+	<string id="st_dis_text_10">
+		<text>%sTu as démonté le %s%s, mais aucune pièce n'a été obtenue.</text>
+	</string>
+	<string id="st_dis_text_11">
+		<text>%s%s %s %s%s</text>
+	</string>
+	<!-- Dialogues -->
+	<string id="st_awr_dialog_1">
+		<text>Je peux utiliser ton étau ? J'ai un truc à réparer.</text>
+	</string>
+	<string id="st_awr_dialog_2">
+		<text>Bon... Je te le laisse pour mille roubles.</text>
+	</string>
+	<string id="st_awr_dialog_3">
+		<text>Ici.</text>
+	</string>
+	<string id="st_awr_dialog_4">
+		<text>Parfait. Je vais faire une pause pour l'instant. Mais magne-toi, j'ai encore du boulot qui m'attend aujourd'hui.</text>
+	</string>
+	<string id="st_awr_dialog_5">
+		<text>J’ai pas autant.</text>
+	</string>
+	<string id="st_awr_dialog_6">
+		<text>Reçu.</text>
+	</string>
+	<string id="st_awr_dialog_7">
+		<text>Après tout ce que t'as fait pour m'aider ? Bien sûr ! Mais essaie d'être rapide, j'ai encore du boulot qui m'attend aujourd'hui.</text>
+	</string>
+
+	<!-- Sell dialog -->
+	<string id="st_awr_sell_dialog_1">
+		<text>J'ai des pièces de rechange. Tu connais quelqu'un qui voudrait les acheter ?</text>
+	</string>
+	<string id="st_awr_sell_dialog_2">
+		<text>Les mécanos comme moi, on garde tout un tas de merdes que tu peux imaginer. Je pourrais racheter ce que t'as. Au bon prix, bien sûr.</text>
+	</string>
+	<string id="st_awr_sell_dialog_3">
+		<text>Et t’as quoi à proposer, toi ?</text>
+	</string>
+	<string id="st_awr_sell_dialog_4">
+		<text>Bon, pour les pièces fonctionnelles, je te file 300 RU par pièce neuve. Les usées, 150. Pour le reste des merdes, tu touches 250 pour les pièces neuves, et 125 pour les usées. Euh, 60, ça devrait le faire pour les pièces rouillées. C'est pas hyper utile, tu vois.</text>
+	</string>
+	<string id="st_awr_sell_dialog_5">
+		<text>Hmm... Bon, ton offre est pas terrible, mais j'en ai pas vraiment l'usage. Tiens, donne-moi le fric.</text>
+	</string>
+	<string id="st_awr_sell_dialog_6">
+		<text>C'est un peu trop cheap pour moi. Je vais y réfléchir.</text>
+	</string>
+	<string id="st_awr_sell_dialog_7">
+		<text>Ravi d'avoir fait affaire avec toi. Si t'as d'autres pièces en rab, tu sais où me trouver.</text>
+	</string>
+	<string id="st_awr_sell_dialog_8">
+		<text>Ouais, je vais m’en souvenir. Merci.</text>
+	</string>
+
+	<!-- Help -->
+	<string id="st_awr_help_0">
+		<text>Instructions</text>
+	</string>
+	<string id="st_awr_help_1">
+		<text>La procédure de réparation dépend de la qualité globale de l'arme (neuve, usée, rouillée) et de son état actuel. De plus, les seuils 0?65, 0?75 et 0?85 déterminent le statut de l'arme pour chaque type de qualité : 0?65% pour les armes rouillées, 0?75% pour les armes usées et 0?85% pour les armes neuves.</text>
+	</string>
+	<string id="st_awr_help_2">
+		<text>Procédure de réparation et de mise à niveau (armes avec état à partir de 0?65/0?75/0?85) :</text>
+	</string>
+	<string id="st_awr_help_3">
+		<text>1. Sélectionne un kit de réparation pour remplacer le canon de l'arme par un autre canon du même calibre avec l'état de l'arme à 0?20/0?25/0?30 ou en utilisant un kit d'amélioration d'arme dans un état de 20?65/25?75/30?85 en double-cliquant sur le nom de l'ensemble avec la liste.\n2. Sélectionne une pièce dans la liste avec un simple clic de souris. Le remplacement des pièces lors de la réparation d'armes en mauvais état suit un certain ordre :\n \nÀ l'état 0?20/0?25/0?30% : Remplacement du canon\nÀ l'état 20?35/25?45/30?55% : Remplacement de la détente (mécanisme de percussion)\nÀ l'état 35?45/45?60/55?70% : Remplacement de la tête de culasse\nÀ l'état 45?55/60?70/70?80% : Remplacement du tube à gaz\nÀ l'état 55?65/70?75/80?85% : Remplacement de la culasse\n \n3. Clique sur l'image de la pièce en cours de remplacement (la pièce sélectionnée pour le remplacement et disponible est indiquée par une lumière verte). Tenter de remplacer une pièce consomme une charge d'un kit de réparation.\n4. Si le remplacement est réussi, répète cette procédure pour toutes les pièces dans l'ordre spécifié.\n5. Si la pièce a été endommagée, réessaie si tu as un kit de réparation et d'autres pièces d'arme.\n6. Toutes les pièces remplacées sont conservées jusqu'à ce que l'état de l'arme baisse. Dans ce cas, pour améliorer la qualité, il faudra remplacer à nouveau les pièces.\n7. Lorsque les cinq pièces ont été remplacées, la qualité de l'arme sera modifiée en conséquence. À noter que si au moins une des pièces remplacées est usée, la qualité de l'arme passera à « usée », même si les autres pièces sont neuves.</text>
+	</string>
+	<string id="st_awr_help_4">
+		<text>L'ordre prédéterminé de remplacement des pièces d'arme est dû à la nécessité d'adapter les pièces à l'état de l'arme, puisque toutes les pièces remplacées pour chaque arme ayant déjà été partiellement réparées dans l'étau sont enregistrées dans la mémoire du jeu. Cela permet de reprendre les réparations au même endroit sans avoir à remplacer à nouveau les pièces, à condition que l'état de l'arme n'ait pas baissé après la réparation.</text>
+	</string>
+	<string id="st_awr_help_5">
+		<text>La procédure d'amélioration d'arme n'est disponible que pour les armes rouillées ou usées, avec un état entre 95 % et 100 % :</text>
+	</string>
+	<string id="st_awr_help_6">
+		<text>1. Sélectionne un kit de réparation pour le remplacement du canon ou un kit d'amélioration d'arme dans la liste en double-cliquant sur le nom de l'ensemble. L'ordre de remplacement n'est pas disponible pour les améliorations.\n2. Sélectionne une pièce correspondant au kit de réparation dans la liste avec un simple clic de souris. Pour les améliorations, seules les pièces fonctionnelles peuvent être utilisées.\n3. Clique sur l'image de la pièce en cours de remplacement.\n4. En cas de remplacement réussi, cette procédure reste la même pour toutes les autres pièces de l'arme.\n5. Si la pièce a été endommagée, réessaie si tu as un kit de réparation et d'autres pièces d'arme.\n6. Toutes les pièces remplacées sont conservées tant que l'état de l'arme ne baisse pas. Dans ce cas, pour améliorer la qualité, les pièces nécessiteront d'autres remplacements.\n7. Lorsque les cinq pièces ont été remplacées par des neuves, la qualité de l'arme passe à "neuve".</text>
+	</string>
+</string_table>

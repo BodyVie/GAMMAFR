@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+ <!-- 5.45 -->
+	<string id="st_mag_ak74_5.45x39">
+		<text>Chargeur standard 5,45x39 AK-74</text>
+	</string>
+	<string id="st_mag_ak74_5.45x39_descr">
+		<text>
+		Chargeur en Bakélite de 30 cartouches, dotation standard de l'armée ukrainienne. L'un des chargeurs les plus courants dans la Zone. Désignation « 6L20 ».
+		</text>
+	</string>
+	
+	<string id="st_mag_ak74_5.45x39_extended">
+		<text>Chargeur 60 cartouches 5,45x39 AK-74</text>
+	</string>
+	<string id="st_mag_ak74_5.45x39_extended_descr">
+		<text>
+		Chargeur à quadruple empilement de 60 cartouches pour la série AK-74. Extrêmement rare en Russie, car seules de petites séries ont été produites, mais il est rumoré que le SSU ukrainien a commencé à en produire pour répondre à ses besoins de contrôle de la Zone. Désignation « 6L31 ».
+		</text>
+	</string>
+
+	<string id="st_mag_ak74m_5.45x39">
+		<text>Chargeur standard 5,45x39 AK-74M</text>
+	</string>
+	<string id="st_mag_ak74m_5.45x39_descr">
+		<text>
+		Chargeur en polymère de 30 cartouches, standard dans l'armée russe, livré avec l'AK-74M. L'un des chargeurs les plus courants dans la Zone. Ce chargeur peut être ajusté pour accueillir différents calibres. Désignation « 6L23 ».
+		</text>
+	</string>
+
+	<string id="st_mag_ak74_fast_5.45x39">
+		<text>Chargeur à chargement rapide 5,45x39 AK-74M</text>
+	</string>
+	<string id="st_mag_ak74_fast_5.45x39_descr">
+		<text>
+		Chargeur AK moderne de type PMAG contenant 30 cartouches. La qualité de fabrication est très élevée et le chargement des munitions se fait sans effort. Ces chargeurs ne sont généralement trouvés que sur les unités des forces spéciales Spetsnaz, accompagnés de AK Alpha de pointe.
+		</text>
+	</string>
+	
+	<string id="st_mag_rpk74_5.45x39">
+		<text>Chargeur standard 5,45x39 RPK-74</text>
+	</string>
+	<string id="st_mag_rpk74_5.45x39_descr">
+		<text>
+			Chargeur en Bakélite de 45 cartouches fourni en standard avec la mitrailleuse légère RPK-74. Ce chargeur est également compatible avec les dérivés de l'AK-74. Désignation « 6L18 ».
+		</text>
+	</string>
+
+	<string id="st_mag_rpk74_5.56x45">
+		<text>Chargeur modifié 5,56x45 RPK-74</text>
+	</string>
+	<string id="st_mag_rpk74_5.56x45_descr">
+		<text>
+			Chargeur RPK modifié pour s'adapter aux cartouches 5,56 OTAN. Compatible également avec les AK-101 et AK-102 d'exportation.
+		</text>
+	</string>
+
+	<string id="st_mag_ak_7.62x39">
+		<text>Chargeur standard 7,62x39 AKM</text>
+	</string>
+	<string id="st_mag_ak_7.62x39_descr">
+		<text>
+		Chargeur en acier de 30 cartouches de calibre 7,62x39. Ces chargeurs, bien qu'anciens, restent relativement fonctionnels. 
+		</text>
+	</string>
+
+	<string id="st_mag_ak103_7.62x39">
+		<text>Chargeur standard 7,62x39 AK-103</text>
+	</string>
+	<string id="st_mag_ak103_7.62x39_descr">
+		<text>
+		Chargeur AK-103 de 30 cartouches en 7,62x39. Les matériaux et la construction modernes ont rendu ce chargeur bien plus léger que ses équivalents en acier. De plus, ce chargeur peut être modifié pour accueillir d'autres calibres.
+		</text>
+	</string>
+	
+	<string id="st_mag_ak103_fast_7.62x39">
+		<text>Chargeur à chargement rapide 7,62x39 AK-103</text>
+	</string>
+	<string id="st_mag_ak103_fast_7.62x39_descr">
+		<text>
+		Chargeur de type PMAG en polymère pour cartouches 7,62x39. La qualité de fabrication et la conception permettent un chargement rapide des munitions. Un tel équipement est une vue inhabituelle dans la Zone.
+		</text>
+	</string>
+
+	<string id="st_mag_rpd_7.62x39">
+		<text>Tambour standard 7,62x39 RPD</text>
+	</string>
+	<string id="st_mag_rpd_7.62x39_descr">
+		<text>
+			Chargeur à tambour avec bande pour la RPD. La boîte contient 100 cartouches en bande. Bien que la RPD ait finalement été supplantée par la RPK, plus précise et plus flexible, la capacité de tirer 100 cartouches reste impressionnante. 
+		</text>
+	</string>
+	
+	<string id="st_mag_rpk_7.62x39">
+		<text>Chargeur standard 7,62x39 RPK</text>
+	</string>
+	<string id="st_mag_rpk_7.62x39_descr">
+		<text>
+		Chargeur en acier de 40 cartouches pour le RPK. Compatible également avec l'AKM et d'autres fusils AK de calibre 7,62x39.
+		</text>
+	</string>
+	
+	<string id="st_mag_rpk_7.62x39_drum">
+		<text>Tambour 95 cartouches RPK</text>
+	</string>
+	<string id="st_mag_rpk_7.62x39_drum_descr">
+		<text>
+		Chargeur tambour de 95 cartouches pour le RPK.
+		</text>
+	</string>
+	
+	
+	<!-- 5.56 -->
+	
+	<string id="st_mag_ace21_5.56x45">
+		<text>Chargeur standard 5,56x45 Galil ACE-21</text>
+	</string>
+	<string id="st_mag_ace21_5.56x45_descr">
+		<text>
+		Chargeur propriétaire ACE-21 contenant 35 cartouches. Le modèle obsolète trouvé dans la Zone nécessite des chargeurs Galil spécifiques, ce qui fait de cette arme une curiosité plus qu'autre chose.
+		</text>
+	</string>
+
+	<string id="st_mag_ak101_5.56x45">
+		<text>Chargeur standard 5,56x45 AK-101</text>
+	</string>
+	<string id="st_mag_ak101_5.56x45_descr">
+		<text>
+		Chargeur de 30 cartouches pour les AK101 et AK102 d'exportation. Ce chargeur peut être ajusté pour s'adapter à différents calibres.
+		</text>
+	</string>
+	<string id="st_mag_aug_5.56x45">
+		<text>Chargeur standard 5,56x45 AUG</text>
+	</string>
+	<string id="st_mag_aug_5.56x45_descr">
+		<text>
+			Chargeur propriétaire de 30 cartouches pour la première génération de fusils AUG. Les variantes ultérieures disposent d'un puits de chargeur adapté pour utiliser le modèle standard STANAG.
+		</text>
+	</string>
+	
+	<string id="st_mag_g36_5.56x45">
+		<text>Chargeur standard 5,56x45 G36</text>
+	</string>
+	<string id="st_mag_g36_5.56x45_descr">
+		<text>
+		Chargeur G36 standard semi-translucide d'une capacité de 30 cartouches de calibre 5,56x45.
+		</text>
+	</string>
+	
+	<string id="st_mag_stanag">
+		<text>Chargeur STANAG standard 5,56x45</text>
+	</string>
+	<string id="st_mag_stanag_descr">
+		<text>
+		Chargeur HK STANAG de 30 cartouches utilisé par la majorité des fusils d'assaut de l'OTAN, y compris le carabine M4, le M16, le LR-300, le L85 et le FN F2000. Il est rumoré que la faction Liberté est approvisionnée clandestinement par l'OTAN ou une autre puissance occidentale, ce qui explique l'abondance étrange de ce chargeur dans la Zone.
+		</text>
+	</string>
+
+
+	<string id="st_mag_nato_5.45x39">
+		<text>Chargeur modifié 5,45x39 STANAG</text>
+	</string>
+	<string id="st_mag_nato_5.45x39_descr">
+		<text>
+			Chargeur STANAG de 30 cartouches modifié pour alimenter des munitions 5,45x39. Les raisons d'une telle modification restent inconnues.
+		</text>
+	</string>
+	<string id="st_mag_nato_5.56x45_fast">
+		<text>Chargeur STANAG à chargement rapide 5,56x45</text>
+	</string>
+	<string id="st_mag_nato_5.56x45_fast_descr">
+		<text>
+		Chargeur moderne de type PMAG contenant 30 cartouches. Considérablement plus léger que son équivalent en acier, sa conception ergonomique facilite le chargement rapide des munitions.
+		</text>
+	</string>
+	
+	<string id="st_mag_nato_5.56x45_extended">
+		<text>Chargeur étendu 5,56x45 STANAG</text>
+	</string>
+	<string id="st_mag_nato_5.56x45_extended_descr">
+		<text>
+			Chargeur polymère étendu de 40 cartouches compatible avec la plupart des fusils OTAN. 
+		</text>
+	</string>
+
+	<string id="st_mag_nato_5.56x45_casket">
+		<text>Chargeur 60 cartouches 5,56x45 STANAG</text>
+	</string>
+	<string id="st_mag_nato_5.56x45_casket_descr">
+		<text>
+			Chargeur à quadruple empilement de 60 cartouches compatible avec les fusils de l'OTAN. Offre une grande puissance de feu, mais est extrêmement lourd et la nature de son empilement rend le chargement rapide des munitions difficile.
+		</text>
+	</string>
+	
+	<string id="st_mag_sig550_5.56x45">
+		<text>Chargeur standard 5,56x45 SG550</text>
+	</string>
+	<string id="st_mag_sig550_5.56x45_descr">
+		<text>
+		Chargeur suisse SG550 contenant 30 cartouches. Compatible avec les SIG SG550, SG552 et SG550-1 Sniper.
+		</text>
+	</string>
+
+	<string id="st_mag_sig550_sniper_5.56x45">
+		<text>Chargeur 20 cartouches 5,56x45 SG550-1</text>
+	</string>
+	<string id="st_mag_sig550_sniper_5.56x45_descr">
+		<text>
+		Chargeur suisse SG550-1 contenant 20 cartouches. Utilisé dans la variante sniper SG550-1, mais compatible avec d'autres fusils de la même famille.
+		</text>
+	</string>
+	<string id="st_mag_m249_5.56x45">
+		<text>Chargeur boîte standard 5,56x45 M249</text>
+	</string>
+	<string id="st_mag_m249_5.56x45_descr">
+		<text>
+			Boîte contenant une bande d'une capacité de 100 cartouches de 5,56x45. Le M249 est une arme couramment observée dans les avant-postes de la faction Liberté, fournissant un volume élevé de tir de suppression contre les incursions des forces du Monolithe.
+		</text>
+	</string>
+	
+	<string id="st_mag_xm8_5.56x45">
+		<text>Chargeur standard XM8 5,56x45</text>
+	</string>
+	<string id="st_mag_xm8_5.56x45_descr">
+		<text>
+		Chargeur standard XM8 de calibre 5,56x45.
+		</text>
+	</string>
+
+	<string id="st_mag_type63_7.62x39">
+		<text>Chargeur standard 7,62x39 Type 63</text>
+	</string>
+	<string id="st_mag_type63_7.62x39_descr">
+		<text>
+		Chargeur de 20 cartouches pour le fusil Type 63, fabriqué en acier embouti. La plupart des Type 63 trouvés dans la Zone ont vu leur dispositif de maintien ouvert boulon retiré afin de pouvoir utiliser des chargeurs AKM plus courants. Ce chargeur peut également être utilisé dans les fusils de style AK.
+		</text>
+	</string>
+	
+	<string id="st_mag_type63_7.62x54">
+		<text>Chargeur modifié 7,62x54 Type 63</text>
+	</string>
+	<string id="st_mag_type63_7.62x54_descr">
+		<text>
+			Chargeur Type 63 modifié pour accueillir des cartouches de 7,62x54R de grande taille. Le Type 63 est un favori des clans de bandits ; la conversion pour cette munition de fusil est la spécialité du technicien bandit Limpid.
+		</text>
+	</string>
+	<!-- 9x39 -->
+	<string id="st_mag_val_9x39_pab9">
+		<text>Chargeur 20 cartouches 9x39 AS VAL</text>
+	</string>
+	<string id="st_mag_val_9x39_pab9_descr">
+		<text>
+			Chargeur standard AS VAL de 20 cartouches, également compatible avec les fusils SR-3M et VSS. Désignation « 6L25 ». 
+		</text>
+	</string>
+
+	<string id="st_mag_vihr_9x39_pab9">
+		<text>Chargeur 30 cartouches 9x39 SR-3M</text>
+	</string>
+	<string id="st_mag_vihr_9x39_pab9_descr">
+		<text>
+		Chargeur de 30 cartouches de 9x39 fourni en standard avec le fusil SR-3M « Vihr ». Compatible également avec les fusils VSS et AS VAL. Désignation « SR3M.130 ».
+		</text>
+	</string>
+	
+	<string id="st_mag_vintorez_9x39_pab9">
+		<text>Chargeur 10 cartouches 9x39 VSS</text>
+	</string>
+	<string id="st_mag_vintorez_9x39_pab9_descr">
+		<text>
+		Chargeur standard VSS de 10 cartouches, également compatible avec les fusils AS VAL et SR3M. Désignation « 6L24 ».
+		</text>
+	</string>
+	
+	<string id="st_mag_vsk94_9x39_pab9">
+		<text>Chargeur boîte standard 9x39</text>
+	</string>
+	<string id="st_mag_vsk94_9x39_pab9_descr">
+		<text>
+			Chargeur de 20 cartouches utilisé dans les fusils 9A-91 et VSK-94.
+		</text>
+	</string>
+	
+	<string id="st_mag_groza_9x39_pab9">
+		<text>Chargeur 20 cartouches 9x39 Groza</text>
+	</string>
+	<string id="st_mag_groza_9x39_pab9_descr">
+		<text>
+			Chargeur de 20 cartouches de 9x39 fourni en standard avec le fusil d'assaut OTs-14 Groza. Sa conception est similaire à celle des chargeurs de type AK.
+		</text>
+	</string>
+	
+
+<!--
+sniper rifles / full size rifles
+-->
+	
+		
+	<string id="st_mag_g43_7.92x33">
+		<text>Chargeur standard 7,92x57 G43</text>
+	</string>
+	<string id="st_mag_g43_7.92x33_descr">
+		<text>
+			Chargeur standard de 10 cartouches pour le Gewehr 43.
+		</text>
+	</string>
+
+	<string id="st_mag_galil_7.62x51">
+		<text>Chargeur standard 7,62x51 Galil</text>
+	</string>
+	<string id="st_mag_galil_7.62x51_descr">
+		<text>
+		Chargeur standard de 25 cartouches pour le fusil de combat israélien Galil.
+		</text>
+	</string>
+	
+	<string id="st_mag_stanag_7.62x51">
+		<text>Chargeur STANAG standard 7,62x51</text>
+	</string>
+	<string id="st_mag_stanag_7.62x51_descr">
+		<text>
+			Chargeur standard de type STANAG pour munitions 7,62x51 OTAN. Utilisé dans les HK417, SCAR et SR-25. Contient 20 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_stanag_7.62x51_ext">
+		<text>Chargeur étendu 7,62x51 STANAG</text>
+	</string>
+	<string id="st_mag_stanag_7.62x51_ext_descr">
+		<text>
+			Chargeur étendu de type STANAG pour munitions 7,62x51 OTAN. Utilisé dans les HK417, SCAR et SR-25. Contient 30 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_stanag_fast_7.62x51">
+		<text>Chargeur STANAG à chargement rapide 7,62x51</text>
+	</string>
+	<string id="st_mag_stanag_fast_7.62x51_descr">
+		<text>
+			Chargeur modernisé de type PMAG pour munitions 7,62x51 OTAN. Utilisé dans les HK417, SCAR et SR-25. Contient 20 cartouches.
+		</text>
+	</string>
+	<string id="st_mag_stanag_7.62x51_short">
+		<text>Chargeur 10 cartouches 7,62x51 STANAG</text>
+	</string>
+	<string id="st_mag_stanag_7.62x51_short_descr">
+		<text>
+			Chargeur compact de type STANAG de 10 cartouches pour munitions 7,62x51 OTAN. Fourni par défaut avec le KAC SR-25, mais peut également être utilisé dans les HK417 et SCAR Mk. 17.
+		</text>
+	</string>
+
+	<string id="st_mag_hinge_7.62x51">
+		<text>Chargeur standard 7,62x51</text>
+	</string>
+	<string id="st_mag_hinge_7.62x51_descr">
+		<text>
+		Chargeur standard de 20 cartouches en 7,62x51 utilisé dans les fusils de combat avec mécanismes de verrouillage de chargeur à charnière. Toutes les différences mineures de compatibilité entre les armes et les chargeurs de ce type ont été « résolues » par les techniciens de la Zone. Utilisé dans les fusils FN FAL, Mk. 14 EBR et G3.
+		</text>
+	</string>
+
+	<string id="st_mag_hinge_ext_7.62x51">
+		<text>Chargeur étendu 7,62x51</text>
+	</string>
+	<string id="st_mag_hinge_ext_7.62x51_descr">
+		<text>
+		Chargeur étendu de 30 cartouches de 7,62x51 utilisé dans les fusils de combat équipés de mécanismes de verrouillage de chargeur à charnière. Utilisé dans les FN FAL, Mk. 14 EBR et G3.
+		</text>
+	</string>
+	
+	<string id="st_mag_l96a1_7.62x51">
+		<text>Chargeur 10 cartouches 7,62x51 L96A1</text>
+	</string>
+	<string id="st_mag_l96a1_7.62x51_descr">
+		<text>
+		Chargeur standard de 10 cartouches pour le L96A1. Le L96 est un favori des mercenaires occidentaux et des forces du Monolithe. 
+		</text>
+	</string>
+
+	<string id="st_mag_remington700_7.62x51">
+		<text>Chargeur standard 7,62x51 Remington 700</text>
+	</string>
+	<string id="st_mag_remington700_7.62x51_descr">
+		<text>
+		Chargeur standard de 5 cartouches pour Remington 700. Le Remington 700 est un fusil de chasse populaire qui se comporte plutôt bien dans les conditions de la Zone.
+		</text>
+	</string>
+
+	<string id="st_mag_wa2000_7.62x51">
+		<text>Chargeur standard Walther WA 2000 7,62x51</text>
+	</string>
+	<string id="st_mag_wa2000_7.62x51_descr">
+		<text>
+		Chargeur standard Walther WA 2000 de calibre 7,62x51.
+		</text>
+	</string>
+
+
+	<string id="st_mag_pkm_pkm">
+		<text>Chargeur boîte 100 cartouches 7,62x54 PKM</text>
+	</string>
+	<string id="st_mag_pkm_pkm_descr">
+		<text>
+			Boîte lourde contenant 100 cartouches de 7,62x54R en bande, destinée à être utilisée avec la PKM. Il est conseillé d'en emporter plusieurs si vous prévoyez de chasser des Pseudogiants ou des Chimères.
+		</text>
+	</string>
+
+	<string id="st_mag_l96a1_pkm">
+		<text>Chargeur modifié 10 cartouches 7,62x54 L96A1</text>
+	</string>
+	<string id="st_mag_l96a1_pkm_descr">
+		<text>
+		Chargeur modifié L96A1 de calibre 7,62x54.
+		</text>
+	</string>
+	
+	<string id="st_mag_sv98_7.62x54">
+		<text>Chargeur standard 7,62x54 SV98</text>
+	</string>
+	<string id="st_mag_sv98_7.62x54_descr">
+		<text>
+			Chargeur standard en polymère de 10 cartouches pour le fusil de sniper SV-98. Le SV-98 est principalement utilisé par les forces de l'ordre russes ; un nombre limité a trouvé son chemin entre les mains de la faction Devoir par le biais de canaux secrets.
+		</text>
+	</string>
+	
+	<string id="st_mag_svd_7.62x54">
+		<text>Chargeur standard 7,62x54 SVD</text>
+	</string>
+	<string id="st_mag_svd_7.62x54_descr">
+		<text>
+			Chargeur standard de 10 cartouches pour les fusils de sniper SVD et SVU. Le SVD est prisé par les membres de toutes les factions, à condition qu'ils puissent se procurer une telle arme. 
+		</text>
+	</string>
+
+	<string id="st_mag_svd_7.62x54_extended">
+		<text>Chargeur 20 cartouches 7,62x54 SVD</text>
+	</string>
+	<string id="st_mag_svd_7.62x54_extended_descr">
+		<text>
+			Chargeur étendu de 20 cartouches pour les fusils de sniper SVD et SVU. Communément utilisé avec le fusil SVU-A pour lui permettre de jouer temporairement le rôle de mitrailleuse légère lors d'engagements en espaces confinés.
+		</text>
+	</string>
+	
+	<string id="st_mag_svt40_7.62x54">
+		<text>Chargeur standard 7,62x54 SVT-40</text>
+	</string>
+	<string id="st_mag_svt40_7.62x54_descr">
+		<text>
+			Chargeur standard de 10 cartouches utilisé avec le fusil SVT-40. Le SVT-40 est un fusil classique de la Grande Guerre, très apprécié de nombreux stalkers, en particulier les Solitaires.
+		</text>
+	</string>
+	
+	<string id="st_mag_svt40_pkm">
+		<text>Chargeur standard 7,62x54 SVT-40</text>
+	</string>
+	<string id="st_mag_svt40_pkm_descr">
+		<text>
+			Chargeur standard de 10 cartouches utilisé avec le fusil SVT-40. Le SVT-40 est un fusil classique de la Grande Guerre, populaire auprès de nombreux stalkers, en particulier les Solitaires. Cette variante a été légèrement modifiée pour permettre le chargement de cartouches de mitrailleuse 7,62x54.
+		</text>
+	</string>
+	
+	<string id="st_mag_svt40_7.62x39">
+		<text>Chargeur modifié 7,62x39 SVT-40</text>
+	</string>
+	<string id="st_mag_svt40_7.62x39_descr">
+		<text>
+			Chargeur SVT-40 modifié pour charger la cartouche intermédiaire 7,62x39.
+		</text>
+	</string>
+	
+	<string id="st_mag_trg_magnum_300">
+		<text>Chargeur standard .338 LM</text>
+	</string>
+	<string id="st_mag_trg_magnum_300_descr">
+		<text>
+			Chargeur de 5 cartouches pour le Sako TRG-42, le L96 AWM et le M24 SWS. Ce chargeur a été conçu à l'origine pour le Sako, mais a été légèrement « modifié » pour s'adapter à différents fusils. Fonctionne correctement dans la plupart des fusils, à condition de se souvenir de taper sur le chargeur de temps en temps.
+		</text>
+	</string>
+
+	<string id="st_mag_l96a1m_magnum_300">
+		<text>Chargeur 10 cartouches .338 LM L96A1</text>
+	</string>
+	<string id="st_mag_l96a1m_magnum_300_descr">
+		<text>
+			Chargeur standard de 10 cartouches pour le L96A1, conçu pour la munition légèrement plus grande et considérablement plus puissante .338 Lapua Magnum. Le L96 est un favori des mercenaires occidentaux et des forces du Monolithe.
+		</text>
+	</string>
+	
+	<string id="st_mag_m98b_magnum_300">
+		<text>Chargeur standard .338 LM M98B</text>
+	</string>
+	<string id="st_mag_m98b_magnum_300_descr">
+		<text>
+			Chargeur de 10 cartouches compatible avec le Barrett M98B.
+		</text>
+	</string>
+	
+	
+	<string id="st_mag_vssk_12.7x55">
+		<text>Chargeur standard 12,7x55 VSSK</text>
+	</string>
+	<string id="st_mag_vssk_12.7x55_descr">
+		<text>
+		Chargeur standard de 5 cartouches utilisé dans le fusil de sniper VSSK.
+		</text>
+	</string>
+
+	<string id="st_mag_ash12_12.7x55">
+		<text>Chargeur standard 12,7x55 ASh-12</text>
+	</string>
+	<string id="st_mag_ash12_12.7x55_descr">
+		<text>
+		Chargeur standard pour ASh-12 d'une capacité de 10 cartouches. Il est peu probable que plus de 10 cartouches soient nécessaires pour des cibles humaines.
+		</text>
+	</string>
+
+	<string id="st_mag_ash12_ext_12.7x55">
+		<text>Chargeur étendu 12,7x55 ASh-12</text>
+	</string>
+	<string id="st_mag_ash12_ext_12.7x55_descr">
+		<text>
+		Chargeur étendu ASh-12 d'une capacité de 20 cartouches. Conçu pour neutraliser des mutants de grande taille.
+		</text>
+	</string>
+
+	<string id="st_mag_m82_12.7x55">
+		<text>Chargeur 10 cartouches 12,7x55 M82</text>
+	</string>
+	<string id="st_mag_m82_12.7x55_descr">
+		<text>
+			Chargeur de 10 cartouches pour le fusil Barrett M82, modifié pour accueillir des munitions 12,7x55 STs. Le premier stalker à avoir apporté une telle arme monstrueuse l'a abandonnée après avoir épuisé ses munitions ; des techniciens ingénieux ont adapté cette arme pour tirer des munitions plus courantes sans avoir à remplacer le canon très lourd.
+		</text>
+	</string>
+	
+	
+	<string id="st_mag_saiga12s_12x70">
+		<text>Chargeur standard 12x70 Saiga-12S</text>
+	</string>
+	<string id="st_mag_saiga12s_12x70_descr">
+		<text>
+		Chargeur standard pour Saiga-12S d'une capacité de 8 cartouches. La Saiga est un fusil de chasse de bonne qualité, très prisé par les membres du Devoir.
+		</text>
+	</string>
+
+	<string id="st_mag_saiga12s_ext_12x70">
+		<text>Chargeur étendu 12x70 Saiga-12S</text>
+	</string>
+	<string id="st_mag_saiga12s_ext_12x70_descr">
+		<text>
+		Chargeur étendu pour Saiga-12S d'une capacité de 12 cartouches. Plus de munitions signifie plus de mutants que vous pouvez éliminer par chargeur.
+		</text>
+	</string>
+	
+	<string id="st_mag_usas12_12x70">
+		<text>Tambour standard 12x70 USAS-12</text>
+	</string>
+	<string id="st_mag_usas12_12x70_descr">
+		<text>
+		Tambour de 20 cartouches pour le fusil à pompe automatique USAS-12. La puissance de feu offerte par l'USAS-12 est inégalée à courte distance, bien que son poids et l'encombrement du chargeur le rendent peu pratique à transporter.
+		</text>
+	</string>
+
+	<string id="st_mag_vepr_12x70">
+		<text>Chargeur standard 12x70 Vepr-12</text>
+	</string>
+	<string id="st_mag_vepr_12x70_descr">
+		<text>
+			Chargeur standard de 10 cartouches pour le Vepr-12. Malgré leurs similitudes, le Vepr ne peut pas partager ses chargeurs avec la Saiga.
+		</text>
+	</string>
+
+	<string id="st_mag_vepr_compact_12x70">
+		<text>Chargeur compact 12x70 Vepr-12</text>
+	</string>
+	<string id="st_mag_vepr_compact_12x70_descr">
+		<text>
+			Petit chargeur pour le Vepr-12 d'une capacité de cinq cartouches seulement. Ne vous y trompez pas : ce chargeur tient dans une poche et se recharge extrêmement facilement.
+		</text>
+	</string>
+
+</string_table>

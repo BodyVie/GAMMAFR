@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!-- 
+	Anomaly Modconfiguration Menu strings
+	
+-->
+
+<string_table>
+
+
+	<string id="ui_mcm_title_new_item_highlight">
+		<text>Surlignage nouvel objet</text>
+	</string>
+
+	<string id="ui_mcm_menu_new_item_highlight">
+		<text>Surlignage nouvel objet</text>
+	</string>
+	<string id="ui_mcm_new_item_highlight_clear_type">
+		<text>Méthode d'effacement du surlignage</text>
+	</string>
+	<string id="ui_mcm_new_item_highlight_clear_type_desc">
+		<text>Le recentrage à l'aide d'une touche nécessite que la touche Maj gauche soit maintenue enfoncée avant de survoler l'objet avec la souris.</text>
+	</string>
+	<string id="ui_mcm_new_item_highlight_highlight_clr_a">
+		<text>Transparence du surlignage</text>
+	</string>
+	<string id="ui_mcm_new_item_highlight_highlight_clr_r">
+		<text>Surlignage rouge</text>
+	</string>
+	<string id="ui_mcm_new_item_highlight_highlight_clr_g">
+		<text>Surlignage vert</text>
+	</string>
+	<string id="ui_mcm_new_item_highlight_highlight_clr_b">
+		<text>Surlignage bleu</text>
+	</string>
+
+	<string id="ui_mcm_lst_rax_nih_focus">
+		<text>Effacer au focus</text>
+	</string>
+	<string id="ui_mcm_lst_rax_nih_key_focus">
+		<text>Effacer au focus avec touche</text>
+	</string>
+	<string id="ui_mcm_lst_rax_nih_inv_close">
+		<text>Effacer à la fermeture de l'inventaire</text>
+	</string>
+
+
+</string_table>

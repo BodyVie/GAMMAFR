@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!-- 
+	Strings for "Dead Air Knives"
+-->
+
+
+<string_table>
+	<string id="st_mag_overlylarge_95_545_drum">
+		<text>Chargeur tambour RPK-16 5.45x39 95 cartouches</text>
+	</string>
+	<string id="st_mag_overlylarge_95_545_drum_descr">
+		<text>Chargeur polymère Izhmash de 95 cartouches pour munitions 5,45x39.</text>
+	</string>
+	
+	<string id="st_mag_overlylarge_95_556_drum">
+		<text>Chargeur tambour RPK-16 5.56x45 95 cartouches</text>
+	</string>
+	<string id="st_mag_overlylarge_95_556_drum_descr">
+		<text>Chargeur polymère Izhmash de 95 cartouches, rechambré pour munitions 5,56x45.</text>
+	</string>
+	
+	<string id="st_mag_overlylarge_75_762x39_drum">
+		<text>Chargeur tambour AK 7.62x39 75 cartouches</text>
+	</string>
+	<string id="st_mag_overlylarge_75_762x39_drum_descr">
+		<text>Chargeur métallique de 75 cartouches pour munitions 7,62x39.</text>
+	</string>
+	
+	<string id="st_mag_overlylarge_50_762x51_drum">
+		<text>Chargeur tambour SA58 7.62x51 50 cartouches</text>
+	</string>
+	<string id="st_mag_overlylarge_50_762x51_drum_descr">
+		<text>Chargeur tambour de 50 cartouches en calibre 7,62x51.</text>
+	</string>
+	
+	<string id="st_mag_overlylarge_50_762x51_drum2">
+		<text>Chargeur tambour SA58 7.62x51 50 cartouches modifié</text>
+	</string>
+	<string id="st_mag_overlylarge_50_762x51_drum2_descr">
+		<text>Chargeur tambour de 50 cartouches en calibre 7,62x51, modifié pour s'adapter aux fusils SCAR.</text>
+	</string>
+		
+	<string id="st_mag_overlylarge_sks_75_762x39_drum">
+		<text>Chargeur tambour SKS 7.62x39 75 cartouches</text>
+	</string>
+	<string id="st_mag_overlylarge_sks_75_762x39_drum_descr">
+		<text>Chargeur en acier bleui de 75 cartouches, conçu pour être utilisé avec les carabines SKS acceptant les chargeurs externes.</text>
+	</string>
+		
+	<string id="st_mag_overlylarge_sks_75_762x39_drum2">
+		<text>Chargeur tambour SKS 7.62x54R 75 cartouches</text>
+	</string>
+	<string id="st_mag_overlylarge_sks_75_762x39_drum2_descr">
+		<text>Chargeur en acier bleui de 75 cartouches, rechambré et conçu pour être utilisé avec les carabines SKS acceptant les chargeurs externes.</text>
+	</string>
+	
+	<string id="st_mag_overlylarge_100_556x45_drum">
+		<text>Chargeur STANAG 5.56x45 100 cartouches</text>
+	</string>
+	<string id="st_mag_overlylarge_100_556x45_drum_descr">
+		<text>Chargeur métallique haute capacité de 100 cartouches pour munitions 5,56x45.</text>
+	</string>
+	
+	<string id="st_mag_overlylarge_100_556x45_drum2">
+		<text>Chargeur STANAG 5.56x45 100 cartouches modifié</text>
+	</string>
+	<string id="st_mag_overlylarge_100_556x45_drum2_descr">
+		<text>Chargeur métallique haute capacité de 100 cartouches pour munitions 5,56x45, modifié pour s'adapter aux systèmes AUG.</text>
+	</string>
+	
+	
+
+</string_table>

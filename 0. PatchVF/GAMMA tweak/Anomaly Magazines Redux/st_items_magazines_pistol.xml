@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    
+<!--
+Pistols and MP's
+-->
+
+	<string id="st_mag_aps_9x18_fmj">
+		<text>Chargeur 9x18 APS standard</text>
+	</string>
+	<string id="st_mag_aps_9x18_fmj_descr">
+		<text>
+		Chargeur standard APS en 9x18 d'une capacité de 20 cartouches. L'APS a connu une utilisation limitée comme arme de défense personnelle, supplanté par l'AKS-74U puis par l'OTs-33.
+		</text>
+	</string>
+
+	<string id="st_mag_aps_9x19_fmj">
+		<text>Chargeur 9x19 APS modifié</text>
+	</string>
+	<string id="st_mag_aps_9x19_fmj_descr">
+		<text>
+		Chargeur APS modifié par un technicien ingénieux pour contenir des cartouches 9x19 Parabellum.
+		</text>
+	</string>
+
+	<string id="st_mag_beretta_9x19_fmj">
+		<text>Chargeur Standard 9x19 Beretta 92F</text>
+	</string>
+	<string id="st_mag_beretta_9x19_fmj_descr">
+		<text>
+		Chargeur standard Beretta 92F contenant 15 cartouches. Le Beretta reste un choix intemporel parmi les gangsters et les stars des films d'action hongkongais.
+		</text>
+	</string>
+
+	<string id="st_mag_beretta_9x18_fmj">
+		<text>Chargeur 9x18 Beretta 92F modifié</text>
+	</string>
+	<string id="st_mag_beretta_9x18_fmj_descr">
+		<text>
+		Chargeur Beretta modifié pour s'adapter à la cartouche plus courante 9x18 Makarov.
+		</text>
+	</string>
+
+
+	<string id="st_mag_colt1911_11.43x23_fmj">
+		<text>Chargeur Standard .45 ACP Colt 1911 </text>
+	</string>
+	<string id="st_mag_colt1911_11.43x23_fmj_descr">
+		<text>
+		Chargeur standard Colt 1911 contenant 7 cartouches. Bien que la capacité plutôt faible du 1911 le rende obsolète par rapport à d'autres pistolets .45 plus modernes, il est moins coûteux et beaucoup plus facile à acquérir.
+		</text>
+	</string>
+
+	<string id="st_mag_colt_kimber_11.43x23_fmj">
+		<text>Chargeur Standard .45 ACP Colt Kimber</text>
+	</string>
+	<string id="st_mag_colt_kimber_11.43x23_fmj_descr">
+		<text>
+		Chargeur standard Colt Kimber contenant 7 cartouches. De qualité supérieure au chargeur standard du 1911, il souffre néanmoins de la même capacité de munitions limitée.
+		</text>
+	</string>
+
+	<string id="st_mag_cz52_7.62x25_p">
+		<text>Chargeur 7.62x25 CZ-52 Standard</text>
+	</string>
+	<string id="st_mag_cz52_7.62x25_p_descr">
+		<text>
+		Chargeur standard CZ-52 de 8 cartouches. La cartouche historique russe compte encore des adeptes.
+		</text>
+	</string>
+
+	<string id="st_mag_cz75_9x19_fmj">
+		<text>Chargeur 9x19 CZ-75 standard</text>
+	</string>
+	<string id="st_mag_cz75_9x19_fmj_descr">
+		<text>
+		Chargeur standard pour CZ-75, d'une capacité de 16 cartouches.
+		</text>
+	</string>
+
+	<string id="st_mag_cz75_9x18_fmj">
+		<text>Chargeur 9x18 CZ-75 modifié</text>
+	</string>
+	<string id="st_mag_cz75_9x18_fmj_descr">
+		<text>
+        Chargeur CZ-75 modifié après-vente pour alimenter des cartouches 9x18. Un accessoire courant dans la Zone, en raison de la large diffusion des munitions 9x18 Makarov.
+		</text>
+	</string>
+
+	<string id="st_mag_desert_eagle_357_hp">
+		<text>Chargeur Standard .357 Desert Eagle</text>
+	</string>
+	<string id="st_mag_desert_eagle_357_hp_descr">
+		<text>
+		Chargeur standard Desert Eagle en .357, contenant 9 cartouches. Même le chargeur est imposant.
+		</text>
+	</string>
+
+	<string id="st_mag_fn57_5.7x28_ss190">
+		<text>Chargeur Standard 5.7x28 Five-seveN</text>
+	</string>
+	<string id="st_mag_fn57_5.7x28_ss190_descr">
+		<text>
+		Chargeur standard Five-seveN contenant 20 cartouches. Chargeur extrêmement bien conçu pour une arme de poing très performante, bien que les munitions soient assez rares.
+		</text>
+	</string>
+
+	<string id="st_mag_fnp45_11.43x23_fmj">
+		<text>Chargeur .45 ACP FNP-45 Standard</text>
+	</string>
+	<string id="st_mag_fnp45_11.43x23_fmj_descr">
+		<text>
+		Chargeur standard FNP-45 contenant 15 cartouches. Équipement très répandu parmi les opérateurs occidentaux et les stalkers de Monolithe. Compatible également avec le pistolet FNX-45.
+		</text>
+	</string>
+
+	<string id="st_mag_fnx45_11.43x23_fmj">
+		<text>Chargeur .45 ACP FNX-45 Standard</text>
+	</string>
+	<string id="st_mag_fnx45_11.43x23_fmj_descr">
+		<text>
+            Chargeur standard FNX-45 contenant 15 cartouches. Les pistolets FNX plus récents sont plus courants chez les mercenaires, bien qu'ils constituent des trophées peu fréquents pris par les soldats de Monolithe. Compatible également avec le pistolet FNP-45.
+		</text>
+	</string>
+
+	<string id="st_mag_fort_9x18_fmj">
+		<text>Chargeur 9x18 Fort-17 Standard</text>
+	</string>
+	<string id="st_mag_fort_9x18_fmj_descr">
+		<text>
+		Chargeur standard de 12 cartouches pour le pistolet Fort-17. Couramment observé dans la Zone comme arme de poing des troupes militaires ukrainiennes en soutien ou des stalkers ayant un passé de policiers.
+		</text>
+	</string>
+
+	<string id="st_mag_fort_9x19_fmj">
+		<text>Chargeur 9x19 Fort-17 modifié</text>
+	</string>
+	<string id="st_mag_fort_9x19_fmj_descr">
+		<text>
+		Chargeur Fort-17 modifié pour accepter des munitions 9x19 Parabellum.
+		</text>
+	</string>
+
+	<string id="st_mag_glock_9x19_fmj">
+		<text>Chargeur 9x19 Glock standard</text>
+	</string>
+	<string id="st_mag_glock_9x19_fmj_descr">
+		<text>
+		Chargeur standard Glock contenant 17 cartouches. Un choix intemporel parmi les policiers et les gangsters américains.
+		</text>
+	</string>
+
+	<string id="st_mag_glock_9x18_fmj">
+		<text>Chargeur 9x18 Glock modifié</text>
+	</string>
+	<string id="st_mag_glock_9x18_fmj_descr">
+		<text>
+		Chargeur Glock modifié pour accepter la cartouche plus courante 9x18 Makarov.
+		</text>
+	</string>
+
+	<string id="st_mag_gsh18_9x19_fmj">
+		<text>Chargeur 9x19 Gsh-18 Standard</text>
+	</string>
+	<string id="st_mag_gsh18_9x19_fmj_descr">
+		<text>
+		Chargeur standard Gsh-18 de 18 cartouches. Le Gsh-18 est l'une des armes de poing modernes utilisées par les forces militaires et policières russes.
+		</text>
+	</string>
+
+	<string id="st_mag_hpsa_9x19_fmj">
+		<text>Chargeur Standard 9x19 Browning Hi-Power</text>
+	</string>
+	<string id="st_mag_hpsa_9x19_fmj_descr">
+		<text>
+		Chargeur standard Browning Hi-Power contenant 13 cartouches. Le Hi-Power est une arme de poing fiable et abordable, appréciée par de nombreux stalkers.
+		</text>
+	</string>
+
+	<string id="st_mag_hpsa_9x18_fmj">
+		<text>Chargeur Modifié 9x18 Browning Hi-Power</text>
+	</string>
+	<string id="st_mag_hpsa_9x18_fmj_descr">
+		<text>
+		Chargeur Browning Hi-Power modifié pour accepter la cartouche 9x18 Makarov.
+		</text>
+	</string>
+
+	<string id="st_mag_mp443_9x19_fmj">
+		<text>Chargeur 9x19 MP-443 Standard</text>
+	</string>
+	<string id="st_mag_mp443_9x19_fmj_descr">
+		<text>
+		Chargeur standard de 18 cartouches pour le MP-443 « Grach ». L'une des armes de poing principales des unités militaires et policières russes.
+		</text>
+	</string>
+
+	<string id="st_mag_mp443_9x18_fmj">
+		<text>Chargeur 9x18 MP-443 modifié</text>
+	</string>
+	<string id="st_mag_mp443_9x18_fmj_descr">
+		<text>
+		Chargeur MP-443 modifié pour accepter la cartouche 9x18 Makarov.
+		</text>
+	</string>
+
+	<string id="st_mag_oc33_9x18_fmj">
+		<text>Chargeur Standard 9x18 OTs-33 Pernach</text>
+	</string>
+	<string id="st_mag_oc33_9x18_fmj_descr">
+		<text>
+		Chargeur standard OTs-33 Pernach contenant 27 cartouches. Le Pernach a succédé à l'APS en tant que pistolet-mitrailleur automatique, le surpassant dans presque tous les domaines, à l'exception du style.
+		</text>
+	</string>
+
+	<string id="st_mag_oc33_9x19_fmj">
+		<text>Chargeur Modifié 9x19 OTs-33 Pernach</text>
+	</string>
+	<string id="st_mag_oc33_9x19_fmj_descr">
+		<text>
+			Chargeur OTs-33 Pernach modifié pour charger des munitions 9x19 Parabellum.
+		</text>
+	</string>
+
+
+	<string id="st_mag_pm_9x18_fmj">
+		<text>Chargeur 9x18 PM standard</text>
+	</string>
+	<string id="st_mag_pm_9x18_fmj_descr">
+		<text>
+		Chargeur standard PM contenant 8 cartouches. Le PM souffre d'un manque de puissance d'arrêt et de capacité, son seul atout étant sa grande disponibilité.
+		</text>
+	</string>
+
+	<string id="st_mag_pm_9x19_fmj">
+		<text>Chargeur 9x19 PM modifié</text>
+	</string>
+	<string id="st_mag_pm_9x19_fmj_descr">
+		<text>
+			Chargeur PM modifié pour accepter des cartouches 9x19 Parabellum. Le calibre supérieur offre une légère augmentation de puissance.
+		</text>
+	</string>
+
+	<string id="st_mag_pmm_9x18_fmj">
+		<text>Chargeur 9x18 PMM standard</text>
+	</string>
+	<string id="st_mag_pmm_9x18_fmj_descr">
+		<text>
+			Chargeur standard PMM contenant 12 cartouches. Une amélioration notable par rapport au PM.
+		</text>
+	</string>
+
+	<string id="st_mag_pmm_9x19_fmj">
+		<text>Chargeur 9x19 PMM modifié</text>
+	</string>
+	<string id="st_mag_pmm_9x19_fmj_descr">
+		<text>
+			Chargeur PMM modifié pour accepter des munitions 9x19 Parabellum.
+		</text>
+	</string>
+
+	<string id="st_mag_pp2000_9x19_fmj">
+		<text>Chargeur 9x19 PP-2000 Standard</text>
+	</string>
+	<string id="st_mag_pp2000_9x19_fmj_descr">
+		<text>
+		Chargeur standard pour PP-2000, d'une capacité de 30 cartouches.
+		</text>
+	</string>
+
+	<string id="st_mag_pp2000_9x18_fmj">
+		<text>Chargeur 9x18 PP-2000 modifié</text>
+	</string>
+	<string id="st_mag_pp2000_9x18_fmj_descr">
+		<text>
+			Chargeur PP-2000 modifié pour utiliser la cartouche 9x18 Makarov.
+		</text>
+	</string>
+
+	<string id="st_mag_sig220_11.43x23_fmj">
+		<text>Chargeur Standard .45 ACP SIG Sauer P220</text>
+	</string>
+	<string id="st_mag_sig220_11.43x23_fmj_descr">
+		<text>
+			Chargeur de 7 cartouches en .45 ACP pour le pistolet SIG P220. Le P220 est prisé des gardes du corps et des agents de sécurité, et s'avère efficace dans la Zone.
+		</text>
+	</string>
+
+	<string id="st_mag_tt33_7.62x25_p">
+		<text>Chargeur 7.62x25 TT-33 Standard</text>
+	</string>
+	<string id="st_mag_tt33_7.62x25_p_descr">
+		<text>
+		Chargeur TT-33 de 8 cartouches en 7,62x25. Ce classique de la Grande Guerre compte encore des admirateurs dans la Zone.
+		</text>
+	</string>
+
+
+	<string id="st_mag_usp_11.43x23_fmj">
+		<text>Chargeur .45 ACP USP Standard</text>
+	</string>
+	<string id="st_mag_usp_11.43x23_fmj_descr">
+		<text>
+			Chargeur standard de 12 cartouches pour la variante USP en .45 ACP.
+		</text>
+	</string>
+
+	<string id="st_mag_usp_9x19_fmj">
+		<text>Chargeur 9x19 USP standard</text>
+	</string>
+	<string id="st_mag_usp_9x19_fmj_descr">
+		<text>
+			Chargeur standard de 15 cartouches pour les variantes USP « Match » en 9 mm.
+		</text>
+	</string>
+
+
+	<string id="st_mag_walther_9x19_fmj">
+		<text>Chargeur Standard 9x19 Walther P99</text>
+	</string>
+	<string id="st_mag_walther_9x19_fmj_descr">
+		<text>
+		Chargeur standard Walther P99 de 16 cartouches pour le 9x19 Parabellum.
+		</text>
+	</string>
+
+	<!-- begin smgs -->
+
+	<string id="st_mag_bizon_9x18_fmj">
+		<text>Chargeur 9x18 PP-19 standard </text>
+	</string>
+	<string id="st_mag_bizon_9x18_fmj_descr">
+		<text>
+		Chargeur hélicoïdal standard de 64 cartouches pour le pistolet-mitrailleur PP-19 Bizon. Sa grande capacité est contrebalancée par une fiabilité limitée dans l'alimentation des munitions.
+		</text>
+	</string>
+
+	<string id="st_mag_bizon_9x19_fmj">
+		<text>Chargeur 9x19 PP-19 modifié</text>
+	</string>
+	<string id="st_mag_bizon_9x19_fmj_descr">
+		<text>
+		Chargeur PP-19 modifié pour accepter des cartouches 9x19 Tokarev. Clairement l'oeuvre d'un génie, compte tenu de la complexité du chargeur hélicoïdal du Bizon.
+		</text>
+	</string>
+
+	<string id="st_mag_bizon_7.62x25_p">
+		<text>Chargeur 7.62x25 PP-19 modifié</text>
+	</string>
+	<string id="st_mag_bizon_7.62x25_p_descr">
+		<text>
+		Chargeur PP-19 modifié pour accepter des cartouches 7,62x25 Tokarev. Clairement l'oeuvre d'un génie, compte tenu de la complexité du chargeur hélicoïdal du Bizon.
+		</text>
+	</string>
+
+	<string id="st_mag_kiparis_9x18_fmj">
+		<text>Chargeur 9x18 Kiparis Standard</text>
+	</string>
+	<string id="st_mag_kiparis_9x18_fmj_descr">
+		<text>
+		Chargeur standard Kiparis de 30 cartouches. Le Kiparis est un pistolet-mitrailleur bon marché qui compte des adeptes parmi les clans de bandits et de renégats.
+		</text>
+	</string>
+
+	<string id="st_mag_kiparis_9x19_fmj">
+		<text>Chargeur 9x19 Kiparis modifié</text>
+	</string>
+	<string id="st_mag_kiparis_9x19_fmj_descr">
+		<text>
+		Chargeur Kiparis modifié de 30 cartouches, adapté pour accepter la munition 9x19 Parabellum. Le Kiparis est un pistolet-mitrailleur bon marché qui compte des admirateurs parmi les clans de bandits et de renégats.
+		</text>
+	</string>
+
+	<string id="st_mag_vityaz_9x19_fmj">
+		<text>Chargeur 9x19 Vityaz-SN Standard</text>
+	</string>
+	<string id="st_mag_vityaz_9x19_fmj_descr">
+		<text>
+			Chargeur standard de 30 cartouches en 9x19 pour le Vityaz-SN. Arme peu répandue dans la Zone, l'armée ukrainienne n'en étant pas équipée.
+		</text>
+	</string>
+
+	<string id="st_mag_vityaz_9x18_fmj">
+		<text>Chargeur 9x18 Vityaz-SN modifié</text>
+	</string>
+	<string id="st_mag_vityaz_9x18_fmj_descr">
+		<text>
+		Chargeur Vityaz-SN modifié pour accepter des munitions 9x18 Makarov.
+		</text>
+	</string>
+
+	<string id="st_mag_vz61_9x19_fmj">
+		<text>Chargeur 9x19 vz.61 standard</text>
+	</string>
+	<string id="st_mag_vz61_9x19_fmj_descr">
+		<text>
+		Chargeur standard Vz.61 de 20 cartouches. Une arme fiable, extrêmement prisée par le milieu criminel.
+		</text>
+	</string>
+
+	<string id="st_mag_vz61_9x18_fmj">
+		<text>Chargeur 9x18 vz.61 modifié</text>
+	</string>
+	<string id="st_mag_vz61_9x18_fmj_descr">
+		<text>
+			Chargeur Vz.61 de 20 cartouches légèrement modifié pour alimenter des munitions 9x18 Makarov.
+		</text>
+	</string>
+	
+	<string id="st_mag_p90_5.7x28_ss190">
+		<text>Chargeur 5.7x28 P90 standard</text>
+	</string>
+	<string id="st_mag_p90_5.7x28_ss190_descr">
+		<text>
+			Chargeur hélicoïdal standard de 50 cartouches utilisé dans le P90. Très futuriste !
+		</text>
+	</string>
+	
+	<string id="st_mag_ppsh41_7.62x25_p">
+		<text>Tambour Standard PPSh41 calibre 7.62x25</text>
+	</string>
+	<string id="st_mag_ppsh41_7.62x25_p_descr">
+		<text>
+		Tambour standard pour PPSh41, calibre 7,62x25.
+		</text>
+	</string>
+
+	<string id="st_mag_mp5_9x19_fmj">
+		<text>Chargeur 9x19 MP5 standard</text>
+	</string>
+	<string id="st_mag_mp5_9x19_fmj_descr">
+		<text>
+            Chargeur de 30 cartouches pour le populaire et omniprésent MP5. Le MP5 est un favori des stalkers de tous horizons, offrant une puissance de feu suffisante pour repousser chiens et bandits.
+		</text>
+	</string>
+
+	<string id="st_mag_mp5_9x18_fmj">
+		<text>Chargeur 9x18 MP5 modifié</text>
+	</string>
+	<string id="st_mag_mp5_9x18_fmj_descr">
+		<text>
+            Chargeur MP5 modifié pour accepter des munitions 9x18 Makarov. Les conversions en 9x18 sont assez courantes pour le MP5, en raison de sa popularité et de la familiarité qu'en ont de nombreux techniciens de la Zone.
+		</text>
+	</string>
+
+	<string id="st_mag_mp7_9x19_fmj">
+		<text>Chargeur 9x19 MP7 modifié</text>
+	</string>
+	<string id="st_mag_mp7_9x19_fmj_descr">
+		<text>
+            Chargeur MP7 étendu de 40 cartouches, modifié pour accepter des munitions 9x19 Parabellum. En raison de la rareté relative des munitions 4.6x30, certains techniciens économes ont réussi à adapter le MP7 pour tirer des munitions de pistolet 9 mm plus courantes.
+		</text>
+	</string>
+
+	<string id="st_mag_mp7_9x18_fmj">
+		<text>Chargeur 9x18 MP7 modifié</text>
+	</string>
+	<string id="st_mag_mp7_9x18_fmj_descr">
+		<text>
+		Chargeur MP7 étendu de 40 cartouches, modifié une nouvelle fois pour accepter des munitions 9x18 Parabellum. Cette modification non standard, ajoutée à une première modification non standard, tend à poser des problèmes de fiabilité avec l'arme.
+		</text>
+	</string>
+
+	<string id="st_mag_mp5_11.43x23_fmj">
+		<text>Chargeur .45 ACP MP5 "Frasier"</text>
+	</string>
+	<string id="st_mag_mp5_11.43x23_fmj_descr">
+		<text>
+            Chargeur sur mesure pour le MP5 « Frasier ». Contient 30 cartouches de munition .45 ACP. Commande présumée pour un membre excentrique de Devoir.
+		</text>
+	</string>
+
+	<string id="st_mag_ump45_11.43x23_fmj">
+		<text>Chargeur .45 ACP UMP Standard</text>
+	</string>
+	<string id="st_mag_ump45_11.43x23_fmj_descr">
+		<text>
+			Chargeur standard UMP de 25 cartouches chambré en .45 ACP. L'UMP est une arme peu commune mais très recherchée dans la Zone en raison de sa maniabilité excellente et de son pouvoir d'arrêt élevé.
+		</text>
+	</string>
+	
+</string_table>

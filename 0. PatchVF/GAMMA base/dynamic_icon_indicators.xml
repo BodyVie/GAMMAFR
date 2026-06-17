@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id ="ui_mcm_dii_scale">
+		<text>Échelle</text>
+	</string>
+	<string id ="ui_mcm_dii_scale_desc">
+		<text>Échelle de l'ensemble des indicateurs.</text>
+	</string>
+	<string id ="ui_mcm_dii_show">
+		<text>Afficher</text>
+	</string>
+	<string id ="ui_mcm_dii_show_desc">
+		<text>Active ou désactive l'affichage de l'indicateur.</text>
+	</string>
+	<string id ="ui_mcm_dii_anchor_x">
+		<text>Orientation horizontale</text>
+	</string>
+	<string id ="ui_mcm_dii_anchor_x_desc">
+		<text>Méthode de positionnement horizontal de l'élément. (gauche\droite)</text>
+	</string>
+	<string id ="ui_mcm_dii_anchor_y">
+		<text>Orientation verticale</text>
+	</string>
+	<string id ="ui_mcm_dii_anchor_y_desc">
+		<text>Méthode de positionnement vertical de l'élément. (haut\bas)</text>
+	</string>
+	<string id ="ui_mcm_dii_offset_x">
+		<text>Décalage horizontal</text>
+	</string>
+	<string id ="ui_mcm_dii_offset_x_desc">
+		<text>Décalage par rapport au bord de l'icône, en pixels. Pratique si une autre extension ajoute des informations sur l'icône.</text>
+	</string>
+	<string id ="ui_mcm_dii_offset_y">
+		<text>Décalage vertical</text>
+	</string>
+	<string id ="ui_mcm_dii_offset_y_desc">
+		<text>Décalage par rapport au bord de l'icône, en pixels. Utile pour les objets dotés de barres d'état ou d'utilisation.</text>
+	</string>
+	<string id ="ui_mcm_dii_spacing_x">
+		<text>Espacement horizontal</text>
+	</string>
+	<string id ="ui_mcm_dii_spacing_x_desc">
+		<text>Nombre de pixels entre les colonnes d'icônes.</text>
+	</string>
+	<string id ="ui_mcm_dii_spacing_y">
+		<text>Espacement vertical</text>
+	</string>
+	<string id ="ui_mcm_dii_spacing_y_desc">
+		<text>Nombre de pixels entre les rangées d'icônes.</text>
+	</string>
+	<string id ="ui_mcm_dii_limit">
+		<text>Limiter les icônes affichées</text>
+	</string>
+	<string id ="ui_mcm_dii_limit_desc">
+		<text>Active la limitation du nombre d'icônes affichées en fonction du paramètre « Nombre maximal affiché ».</text>
+	</string>
+	<string id ="ui_mcm_dii_amount">
+		<text>Nombre max. affiché</text>
+	</string>
+	<string id ="ui_mcm_dii_amount_desc">
+		<text>Nombre maximal d'icônes affichées pour cette catégorie. Si un objet en comporte davantage, les icônes excédentaires ne seront pas affichées. Permet de réduire l'encombrement visuel pour les objets présentant de nombreuses statistiques.</text>
+	</string>
+	<string id ="ui_mcm_lst_dii_right">
+		<text>Droite</text>
+	</string>
+	<string id ="ui_mcm_lst_dii_left">
+		<text>Gauche</text>
+	</string>
+	<string id ="ui_mcm_lst_dii_top">
+		<text>Haut</text>
+	</string>
+	<string id ="ui_mcm_lst_dii_bottom">
+		<text>Bas</text>
+	</string>
+	<string id ="ui_mcm_desc_dii_prop_artefact">
+		<text>Artefact</text>
+	</string>
+	<string id ="ui_mcm_desc_dii_prop_consumable">
+		<text>Consommables</text>
+	</string>
+	<string id ="ui_mcm_desc_dii_prop_upgrade_kit">
+		<text>Kits de mise à niveau</text>
+	</string>
+
+	<string id ="ui_mcm_menu_dii">
+		<text>DII</text>
+	</string>
+	<string id ="ui_mcm_menu_dii_main_settings">
+		<text>Paramètres principaux</text>
+	</string>
+	<string id ="ui_mcm_menu_dii_properties">
+		<text>Propriétés</text>
+	</string>
+	<string id ="ui_mcm_menu_dii_custom_layers">
+		<text>Personnalisé</text>
+	</string>
+	<string id ="ui_mcm_menu_dii_custom_layers_main">
+		<text>Principal</text>
+	</string>
+</string_table>

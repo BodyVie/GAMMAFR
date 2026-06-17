@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_vityaznew">
+		<text>PP-19-01 Vityaz</text>
+	</string>
+	<string id="st_wpn_vityaznew_descr">
+		<text>Le « Knight » est un pistolet-mitrailleur russe moderne conçu pour les forces de l'ordre et les unités spéciales, offrant un taux de tir élevé et une excellente fiabilité en combat rapproché. Inspiré de la plateforme AK, il se distingue par un cadre léger et compact, équipé d'une crosse repliable pour une meilleure maniabilité. Sa compatibilité avec les silencieux et divers accessoires tactiques en fait un choix polyvalent pour les opérations urbaines.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Kalashnikov Concern\n
+		</text>
+	</string>
+
+</string_table>

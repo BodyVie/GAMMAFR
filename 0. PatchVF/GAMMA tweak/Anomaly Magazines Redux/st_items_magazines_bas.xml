@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    
+<!--
+Pistols and MP's
+-->
+
+	<string id="st_mag_sr1m_9x21">
+		<text>Chargeur Standard 9x21 SR1M</text>
+	</string>
+	<string id="st_mag_sr1m_9x21_descr">
+		<text>
+		Chargeur standard pour SR1M en calibre 9x21, d'une capacité de 18 cartouches. Le SR1M représente la dernière avancée technologique russe en matière d'armes de poing et utilise une munition exclusive de 9x21, également employée par le pistolet mitrailleur SR-2 Veresk.
+		</text>
+	</string>
+	
+	<string id="st_mag_sr1m_9x21ext">
+		<text>Chargeur Étendu 9x21 SR1M</text>
+	</string>
+	<string id="st_mag_sr1m_9x21ext_descr">
+		<text>
+		Chargeur prolongé pour SR1M en calibre 9x21, d'une capacité de 26 cartouches. Le SR1M représente la dernière avancée technologique russe en matière d'armes de poing et utilise une munition exclusive de 9x21, également employée par le pistolet mitrailleur SR-2 Veresk.
+		</text>
+	</string>
+	
+	<string id="st_mag_pl15_9x19_fmj">
+		<text>Chargeur Standard 9x19 PL15</text>
+	</string>
+	<string id="st_mag_pl15_9x19_fmj_descr">
+		<text>
+		Chargeur standard pour PL15 en calibre 9x19, d'une capacité de 16 cartouches.
+		</text>
+	</string>
+	
+		<string id="st_mag_pl15_9x19_fmjext">
+		<text>Chargeur Étendu 9x19 PL15</text>
+	</string>
+	<string id="st_mag_pl15_9x19_fmjext_descr">
+		<text>
+		Chargeur prolongé pour PL15 en calibre 9x19, d'une capacité de 24 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_sigp220_11.43x23_fmj">
+		<text>Chargeur Standard .45 SigP220</text>
+	</string>
+	<string id="st_mag_sigp220_11.43x23_fmj_descr">
+		<text>
+		Chargeur standard pour SigP220 en calibre .45, d'une capacité de 7 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_sigp220_11.43x23_fmjext">
+		<text>Chargeur Étendu .45 SigP220</text>
+	</string>
+	<string id="st_mag_sigp220_11.43x23_fmjext_descr">
+		<text>
+		Chargeur prolongé pour SigP220 en calibre .45, d'une capacité de 12 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_sig226_9x19_fmj">
+		<text>Chargeur Standard 9x19 SigP226</text>
+	</string>
+	<string id="st_mag_sig226_9x19_fmj_descr">
+		<text>
+		Chargeur standard pour SigP226 en calibre 9x19, d'une capacité de 15 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_sig226_9x19_fmjext">
+		<text>Chargeur Étendu 9x19 SigP226</text>
+	</string>
+	<string id="st_mag_sig226_9x19_fmjext_descr">
+		<text>
+		Chargeur prolongé pour SigP226 en calibre 9x19, d'une capacité de 20 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_usptac_9x19_fmj">
+		<text>Chargeur Standard 9x19 USP</text>
+	</string>
+	<string id="st_mag_usptac_9x19_fmj_descr">
+		<text>
+		Chargeur standard pour USP en calibre 9x19, d'une capacité de 22 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_usptac_9x19_fmjext">
+		<text>Chargeur Étendu 9x19 USP</text>
+	</string>
+	<string id="st_mag_usptac_9x19_fmjext_descr">
+		<text>
+		Chargeur prolongé pour USP en calibre 9x19, d'une capacité de 30 cartouches.
+		</text>
+	</string>
+
+	<string id="st_mag_wp99_9x19_fmj">
+		<text>Chargeur Standard 9x19 Walther P99</text>
+	</string>
+	<string id="st_mag_wp99_9x19_fmj_descr">
+		<text>
+		Chargeur standard pour Walther P99 en calibre 9x19, d'une capacité de 16 cartouches.
+		</text>
+	</string>
+	
+	<string id="st_mag_wp99_9x19_fmjext">
+		<text>Chargeur Étendu 9x19 Walther P99</text>
+	</string>
+	<string id="st_mag_wp99_9x19_fmjext_descr">
+		<text>
+		Chargeur prolongé pour Walther P99 en calibre 9x19, d'une capacité de 24 cartouches.
+		</text>
+	</string>
+
+	<string id="st_mag_p220_9x19_u2p2bas">
+		<text>Chargeur Standard 9x19 P220 Custom Nine</text>
+	</string>
+	<string id="st_mag_p220_9x19_u2p2bas_descr">
+		<text>
+		Chargeur standard pour P220 Custom Nine en calibre 9x19, d'une capacité de 19 cartouches.
+		</text>
+	</string>
+
+  
+	<string id="st_mag_baskiparis_9x18_20">
+		<text>Petit Chargeur 9x18 Kiparis</text>
+	</string>
+	<string id="st_mag_baskiparis_9x18_20_descr">
+		<text>
+		Petit chargeur pour Kiparis en calibre 9x18, d'une capacité de 20 cartouches.
+		</text>
+	</string>
+	<string id="st_mag_baskiparis_9x19_20">
+		<text>Petit Chargeur 9x19 Kiparis</text>
+	</string>
+	<string id="st_mag_baskiparis_9x19_20_descr">
+		<text>
+		Petit chargeur pour Kiparis en calibre 9x19, d'une capacité de 20 cartouches.
+		</text>
+	</string>
+
+	<string id="st_mag_baskiparis_9x18_40">
+		<text>Chargeur Standard 9x18 Kiparis</text>
+	</string>
+	<string id="st_mag_baskiparis_9x18_40_descr">
+		<text>
+		Chargeur standard pour Kiparis en calibre 9x18, d'une capacité de 40 cartouches.
+		</text>
+	</string>
+	<string id="st_mag_baskiparis_9x19_40">
+		<text>Chargeur Standard 9x19 Kiparis</text>
+	</string>
+	<string id="st_mag_baskiparis_9x19_40_descr">
+		<text>
+		Chargeur standard pour Kiparis en calibre 9x19, d'une capacité de 40 cartouches.
+		</text>
+	</string>
+
+	<string id="st_mag_baskiparis_9x18_81">
+		<text>Chargeur Étendu 9x18 Kiparis</text>
+	</string>
+	<string id="st_mag_baskiparis_9x18_81_descr">
+		<text>
+		Chargeur prolongé pour Kiparis en calibre 9x18, d'une capacité de 81 cartouches.
+		</text>
+	</string>
+	<string id="st_mag_baskiparis_9x19_81">
+		<text>Chargeur Étendu 9x19 Kiparis</text>
+	</string>
+	<string id="st_mag_baskiparis_9x19_81_descr">
+		<text>
+		Chargeur prolongé pour Kiparis en calibre 9x19, d'une capacité de 81 cartouches.
+		</text>
+	</string>
+
+
+	<string id="st_mag_basvz61_9x18_30">
+		<text>Chargeur Standard 9x18 VZ. 61</text>
+	</string>
+	<string id="st_mag_basvz61_9x18_30_descr">
+		<text>
+		Chargeur standard pour Kiparis en calibre 9x18, d'une capacité de 30 cartouches.
+		</text>
+	</string>
+	<string id="st_mag_basvz61_9x19_30">
+		<text>Chargeur Standard 9x19 VZ. 61</text>
+	</string>
+	<string id="st_mag_basvz61_9x19_30_descr">
+		<text>
+		Chargeur standard pour Kiparis en calibre 9x19, d'une capacité de 30 cartouches.
+		</text>
+	</string>
+
+	<string id="st_mag_basvz61_9x18_60">
+		<text>Chargeur Étendu 9x18 VZ. 61</text>
+	</string>
+	<string id="st_mag_basvz61_9x18_60_descr">
+		<text>
+		Chargeur prolongé pour Kiparis en calibre 9x18, d'une capacité de 60 cartouches.
+		</text>
+	</string>
+	<string id="st_mag_basvz61_9x19_60">
+		<text>Chargeur Étendu 9x19 VZ. 61</text>
+	</string>
+	<string id="st_mag_basvz61_9x19_60_descr">
+		<text>
+		Chargeur prolongé pour Kiparis en calibre 9x19, d'une capacité de 60 cartouches.
+		</text>
+	</string>
+
+</string_table>

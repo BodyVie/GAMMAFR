@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Weapons Attachments
+-->
+
+<string_table>
+
+	<string id="st_wpn_rpk16">
+		<text>RPK-16</text>
+	</string>
+	<string id="st_wpn_rpk16_descr">
+		<text>Le RPK-16 est une mitrailleuse légère développée dans le cadre du programme « Tokar-2 », où elle a concouru face à la proposition de Degtyaryov. En 2018, le ministère de la Défense de la Fédération de Russie a signé un contrat pour l'acquisition du RPK-16, qui est destiné à remplacer le RPK-74 au sein des Forces armées russes. Chambré en 5,45x39 mm, le RPK-16 reprend le système traditionnel Kalachnikov à piston à longue course actionné par gaz et intègre plusieurs innovations techniques et ergonomiques issues du programme AK-12. Parmi celles-ci figurent un rail Picatinny sur le dessus de la boîte de culasse pour le montage de diverses optiques, ainsi qu'un rail Picatinny sous le garde-main permettant d'installer un bipied amovible, remplaçant ainsi le bipied fixe du RPK-74. Il dispose également d'une poignée pistolet ergonomique, d'une crosse rabattable et de deux longueurs de canon principales : un canon long de 550 mm (21,7 po) pour le rôle de mitrailleuse légère, et un canon court de 370 mm (14,6 po) pour le rôle de fusil d'assaut. Sa conception permet un changement rapide de canon, ainsi que l'ajout aisé d'un silencieux amovible. Le RPK-16 présente un poids de combat de 6 kg (13,23 lb), une longueur totale de 1 076 mm (42,4 po), une cadence de tir cyclique de 700 coups par minute et une portée efficace de 800 m (870 yd). Il utilise principalement un chargeur tambour de 95 coups et reste compatible avec les chargeurs boîtes des AK-74, AK-12 et RPK-74.</text>
+	</string>
+	
+</string_table>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Weapons
+-->
+
+<string_table>
+
+
+	<string id="st_wpn_kiparis">
+		<text>OTs-02 Kiparis</text>
+	</string>
+	<string id="st_wpn_kiparis_descr">
+		<text>L'OTs-02 « Kiparis » (Cyprès) est un pistolet-mitrailleur développé en 1972 sur commande du ministère de la Défense de l'URSS par les concepteurs d'armes du TsKIB COO de Toula. Son architecture s'inspire du pistolet-mitrailleur tchécoslovaque Scorpion Vz.61 (variante de 1961). Le mécanisme automatique de l'OTs-02 « Kiparis » fonctionne par recul libre du boulon. Les tirs sont effectués à partir d'un boulon fermé, ce qui améliore la précision du tir. Pour accroître la stabilité de l'arme, une crosse pliable est utilisée, se rabattant sur le dessus de la carcasse en position compacte. Dans la Zone, cette arme n'est pas rare et est généralement utilisée par les bandits et les solitaires ne pouvant se permettre une arme de meilleure qualité.\n \n
+		%c[ui_gray_2]Caractéristiques : \n
+		%c[d_green] • %c[ui_gray_2] Silencieux « Rotor-43 ».\n
+</text>
+	</string>
+
+	<string id="st_wpn_kiparis_upgraded">
+		<text>OTs-02 Kiparis amélioré</text>
+	</string>
+	<string id="st_wpn_kiparis_upgraded_descr">
+		<text>L'OTs-02 « Kiparis » (Cyprès) est un pistolet-mitrailleur développé en 1972 sur commande du ministère de la Défense de l'URSS par les concepteurs d'armes du TsKIB COO de Toula. Son architecture s'inspire du pistolet-mitrailleur tchécoslovaque Scorpion Vz.61 (variante de 1961). Le mécanisme automatique de l'OTs-02 « Kiparis » fonctionne par recul libre du boulon. Les tirs sont effectués à partir d'un boulon fermé, ce qui améliore la précision du tir. Pour accroître la stabilité de l'arme, une crosse pliable est utilisée, se rabattant sur le dessus de la carcasse en position compacte. Dans la Zone, cette arme n'est pas rare et est généralement utilisée par les bandits et les solitaires ne pouvant se permettre une arme de meilleure qualité.\n
+		Cette version modifiée du pistolet-mitrailleur est équipée d'un kit tactique conçu par le technicien Devoir Gromov (alias Mangun). Elle utilise un canon allongé pour améliorer la précision de tir ainsi qu'un groupe de boulons et un mécanisme de détente allégés, ce qui a permis d'augmenter la cadence de tir.\n \n
+		%c[ui_gray_2]Caractéristiques : \n
+		%c[d_green] • %c[ui_gray_2] Silencieux « Rotor-43 ».\n
+		%c[d_green] • %c[ui_gray_2] Chargeur tambour de 50 cartouches en 9 mm.\n
+		%c[d_green] • %c[ui_gray_2] Nouveau viseur arrière équipé de mires au tritium.\n		
+		%c[d_green] • %c[ui_gray_2] Laser tactique rouge.\n \n</text>
+	</string>
+
+</string_table>

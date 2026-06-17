@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	SCOPES
+-->
+
+<string_table>
+
+	<string id="st_addon_scope_t12">
+		<text>Viseur reflex thermique T12W 30Hz</text>
+	</string>
+	<string id="st_addon_scope_t12_descr">
+		<text>Une optique thermique de pointe dotée d'une fréquence de rafraîchissement de 30 Hz, conçue pour détecter les signatures thermiques dans le darkness ou dans des environnements obscurcis. Idéale pour les applications tactiques, la chasse et la surveillance, elle permet l'acquisition de cibles quelles que soient les conditions d'éclairage.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Torrey Pines Logic\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n			
+		</text>
+	</string>	
+
+</string_table>

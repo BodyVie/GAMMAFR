@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_addon_scope_lazup_generic">
+		<text>Module de visée laser</text>
+	</string>
+	<string id="st_addon_scope_lazup_generic_descr">
+		<text>Accessoire tactique émettant un faisceau laser focalisé, améliorant la précision en tir à la hanche et permettant une acquisition plus rapide des cibles, notamment dans des environnements à faible luminosité. Prisé par ceux qui privilégient des tirs rapides et réactifs, il s’avère indispensable en combat rapproché où viser avec les organes de visée est trop lent. Dans la plupart des situations, le dispositif peut même être utilisé conjointement avec des lunettes de vision nocturne.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+	
+</string_table>	

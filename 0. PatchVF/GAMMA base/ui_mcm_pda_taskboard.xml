@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>	
+	<string id="ui_mcm_menu_pda_taskboard">
+		<text>Tableau des missions du PDA</text>
+	</string>
+	<string id="ui_mcm_pda_taskboard_banner">
+		<text>Tableau des tâches du PDA</text>
+	</string>
+	<string id="ui_mcm_pda_taskboard_scanning_range">
+		<text>Portée de balayage</text>
+	</string>
+	<string id="ui_mcm_pda_taskboard_taskboard_key">
+		<text>Raccourci PDA du tableau des missions</text>
+	</string>
+	<string id="ui_mcm_pda_taskboard_companions_give_tasks">
+		<text>Autoriser les compagnons à donner des missions</text>
+	</string>
+</string_table>

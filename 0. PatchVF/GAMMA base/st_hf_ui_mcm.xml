@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>	
+    <string id="ui_mcm_menu_aol_hf">
+        <text>Mobilier de planque</text>
+    </string>
+
+	<!-- Controls -->
+	<string id="ui_mcm_menu_controls">
+		<text>Contrôles</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_controls_bind_collision">
+		<text>Vérification des collisions</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_controls_bind_alignment">
+		<text>Basculer entre les modes d'alignement : Joueur et Surface</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_controls_bind_place_mode">
+		<text>Basculer entre les modes de placement : Normal, Avancé et Aperçu</text>
+	</string>
+
+	<!-- Gameplay -->
+	<string id="ui_mcm_menu_gameplay">
+		<text>Gameplay</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_gameplay_uniform_trade_profiles">
+		<text>Profils de commerce uniformes</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_gameplay_use_ingame_time">
+		<text>Afficher l'heure en jeu</text>
+	</string>
+
+	<!-- World Objects -->
+	<string id="ui_mcm_menu_world_obj">
+		<text>Objets du monde</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_world_obj_flag_record_on_place">
+		<text>Enregistrement des objets au placement</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_world_obj_flag_record_on_keypress">
+		<text>Enregistrement des objets par touche</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_world_obj_bind_record">
+		<text>Enregistrer l'objet</text>
+	</string>
+
+	<!-- Debug -->
+	<string id="ui_mcm_menu_debug">
+		<text>Débogage</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_debug_bind_creative_mode">
+		<text>Mode créatif</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_debug_location_offset">
+		<text>Décalage de position</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_update_mcm">
+		<text>Mettre à jour le MCM pour définir les raccourcis. Par défaut : TAB pour basculer les collisions, et VERR MAJ pour basculer l'alignement</text>
+	</string>
+</string_table>

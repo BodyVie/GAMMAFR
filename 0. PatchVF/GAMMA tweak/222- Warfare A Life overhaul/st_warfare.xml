@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!-- 
+	EXTRA WARFARE STRINGS
+-->
+
+<string_table>	
+	<string id="st_wrfr_request_squad_1">
+		<text>Base, je demande un groupe à %s, tu me reçois ?</text>
+	</string>
+	<string id="st_wrfr_request_squad_2">
+		<text>Base, on a besoin d'un groupe à %s, tu me reçois ?</text>
+	</string>
+	<string id="st_wrfr_request_squad_3">
+		<text>Base, je demande un groupe à %s, terminé.</text>
+	</string>
+	<string id="st_wrfr_request_squad_4">
+		<text>Base, tu me reçois ? J'ai besoin d'un groupe à %s, terminé.</text>
+	</string>
+	<string id="st_wrfr_request_squad_5">
+		<text>Base, on a besoin d'un groupe à %s, urgent, terminé.</text>
+	</string>
+
+	<string id="st_wrfr_respond_affirmative_1">
+		<text>Reçu, on t'envoie un groupe depuis %s vers ta position.</text>
+	</string>
+	<string id="st_wrfr_respond_affirmative_2">
+		<text>On t'entend, on t'envoie un groupe depuis %s vers ta position maintenant.</text>
+	</string>
+	<string id="st_wrfr_respond_affirmative_3">
+		<text>Reçu, on t'envoie un groupe depuis %s maintenant.</text>
+	</string>
+	<string id="st_wrfr_respond_affirmative_4">
+		<text>Affirmatif, une escouade est en route vers ta position depuis %s.</text>
+	</string>
+	<string id="st_wrfr_respond_affirmative_5">
+		<text>Reçu, une escouade de %s est en route vers ta position.</text>
+	</string>
+	
+	<string id="st_wrfr_respond_ontheway_1">
+		<text>Reste en place, on est déjà en route pour %s.</text>
+	</string>
+	<string id="st_wrfr_respond_ontheway_2">
+		<text>Hé, on est déjà en route pour %s, terminé.</text>
+	</string>
+	<string id="st_wrfr_respond_ontheway_3">
+		<text>La base nous a déjà envoyés à ta position à %s.</text>
+	</string>
+	<string id="st_wrfr_respond_ontheway_4">
+		<text>On est déjà en route pour %s, t'inquiète.</text>
+	</string>
+	<string id="st_wrfr_respond_ontheway_5">
+		<text>Prépare-toi, on est déjà en route pour %s.</text>
+	</string>
+	
+	<string id="st_wrfr_respond_negative_1">
+		<text>Négatif, y'a aucune base dans ton secteur pour te renforcer, terminé.</text>
+	</string>
+	<string id="st_wrfr_respond_negative_2">
+		<text>Impossible, y'a aucune base à portée de ta zone.</text>
+	</string>
+	<string id="st_wrfr_respond_negative_3">
+		<text>Négatif, y'a aucune base à portée de ta zone, terminé.</text>
+	</string>
+	<string id="st_wrfr_respond_negative_4">
+		<text>Pas possible, on a aucune base à portée de ta zone.</text>
+	</string>
+	<string id="st_wrfr_respond_negative_5">
+		<text>Impossible, on n'a aucune base dans ton secteur pour te renforcer.</text>
+	</string>
+
+
+
+
+	<string id="st_wrfr_invasion_attack">
+		<text>Une force d'assaut alliée en provenance de %s lance une offensive sur %s.</text>
+	</string>
+	<string id="st_wrfr_invasion_defense_incoming">
+		<text>Les forces ennemies approchent de %s.</text>
+	</string>
+	
+	<string id="st_wrfr_invasion_defense_clear_1">
+		<text>Base, les forces ennemies ciblant %s ont été neutralisées, terminé.</text>
+	</string>
+	<string id="st_wrfr_invasion_defense_clear_2">
+		<text>Bravo les gars, on les a tous butés ! Tout le monde à %s peut souffler maintenant.</text>
+	</string>
+	<string id="st_wrfr_invasion_defense_clear_3">
+		<text>Bien joué, les gars. On dirait qu'y a plus aucun hostile en route vers %s.</text>
+	</string>
+	<string id="st_wrfr_invasion_defense_clear_4">
+		<text>On dirait que c'est bon - %s est sécurisé.</text>
+	</string>
+	<string id="st_wrfr_invasion_defense_clear_5">
+		<text>Base, on a repoussé les forces qui attaquaient %s, terminé.</text>
+	</string>
+	
+	<string id="st_wrfr_invasion_defense_fullyreinforced">
+		<text>Des forces ennemies approchent de %s. Des renforts ont été envoyés.</text>
+	</string>
+	<string id="st_wrfr_invasion_defense_partlyreinforced">
+		<text>Des forces ennemies approchent de %s. Il nous faut plus de renforts, et vite !</text>
+	</string>
+	<string id="st_wrfr_invasion_defense_notreinforced">
+		<text>Les forces ennemies approchent de %s. On a besoin de renforts !</text>
+	</string>
+
+
+</string_table>

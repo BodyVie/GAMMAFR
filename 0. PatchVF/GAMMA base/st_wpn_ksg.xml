@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="st_wpn_ksg">
+		<text>KSG-23</text>
+	</string>
+	<string id="st_wpn_ksg_descr">
+		<text>Le KSG-23 est un fusil à pompe pouvant contenir 13 cartouches de munition 23x75. Léger et particulièrement efficace en combat rapproché.\n \n
+		%c[ui_gray_2]ACCESSOIRES : \n
+		%c[d_purple] • %c[ui_gray_2] Lunettes : Toutes les lunettes à point rouge pour montures Picatinny/Weaver. \n
+		%c[d_purple] • %c[ui_gray_2] Silencieux : Swine-23 \n</text>
+	</string>
+	
+	<string id="st_wpn_ksg_nimble">
+		<text>KSG-25</text>
+	</string>
+	<string id="st_wpn_ksg_nimble_descr">
+		<text>Variante agrandie du KSG-12, le KSG-25 est un fusil à pompe pouvant contenir 24 cartouches de calibre 12. Léger et particulièrement efficace en combat rapproché.\n \n
+		%c[ui_gray_2]ACCESSOIRES : \n
+		%c[d_purple] • %c[ui_gray_2] Lunettes : Toutes les lunettes à point rouge pour montures Picatinny/Weaver. \n
+		%c[d_purple] • %c[ui_gray_2] Silencieux : SilencerCo Salvo(r) 12 \n</text>
+	</string>
+</string_table>

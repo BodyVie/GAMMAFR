@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    <string id="ui_mcm_menu_safespawn">
+        <text>Apparition sécurisée</text>
+    </string>
+
+    <string id="ui_mcm_safespawn_show_messages">
+        <text>Activer les notifications PDA</text>
+    </string>
+    <string id="ui_mcm_safespawn_show_messages_desc">
+        <text>Affiche des alertes lorsque des ennemis sont mis en silo ou restaurés.</text>
+    </string>
+
+    <string id="ui_mcm_safespawn_radius">
+        <text>Rayon de détection (mètres)</text>
+    </string>
+    <string id="ui_mcm_safespawn_radius_desc">
+        <text>Distance autour de votre point d'apparition à vérifier pour détecter la présence d'humains hostiles - la valeur par défaut est de 6 mètres.</text>
+    </string>
+
+    <string id="ui_mcm_safespawn_random_duration">
+        <text>Activer la durée aléatoire</text>
+    </string>
+    <string id="ui_mcm_safespawn_random_duration_desc">
+        <text>Si cette option est activée, le script sélectionnera un temps d'arrivée aléatoire compris entre les valeurs Min et Max ci-dessous. Si elle est désactivée, il utilisera le curseur « Durée statique ».</text>
+    </string>
+
+    <string id="ui_mcm_safespawn_duration">
+        <text>Durée statique (secondes) - 30 par défaut</text>
+    </string>
+
+    <string id="ui_mcm_safespawn_duration_min">
+        <text>Durée aléatoire : Minimum</text>
+    </string>
+
+    <string id="ui_mcm_safespawn_duration_max">
+        <text>Durée aléatoire : Maximum</text>
+    </string>
+
+    <string id="ui_mcm_safespawn_debug">
+        <text>Activer le débogage</text>
+    </string>
+
+	<string id="ui_mcm_safespawn_debug_desc">
+        <text>Si cette option est activée, le mod affichera des messages d'activation à chaque transition de niveau, indépendamment de la présence d'ennemis - utile pour tester les points de transit modifiés.</text>
+    </string>
+</string_table>

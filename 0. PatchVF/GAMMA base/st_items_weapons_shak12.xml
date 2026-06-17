@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_shak12">
+		<text>ShAK-12</text>
+	</string>
+	<string id="st_wpn_shak12_descr">
+		<text>Le fusil de combat rapproché ShAK-12, récemment adopté et fabriqué par Izhmash. Développé en réponse à un besoin croissant exprimé par le FSB, le ShAK-12 a été conçu pour offrir une puissance d'arrêt considérable dans un format compact. Il utilise la cartouche 12,7x55 mm du fusil de sniper VSSK Vykhlop et est alimenté par des chargeurs de 20 cartouches. Doté d'un ensemble complet de rails Picatinny pour les accessoires, il dispose également d'une poignée de transport amovible permettant l'installation d'optiques plus grandes. Le système de recul court du canon fonctionne de manière similaire à celui du Barrett M82, le canon reculant avec le boulon pour améliorer la contrôlabilité et l'extraction des cartouches. Une arme de ce type figurera certainement sur la liste de souhaits de tout STALKER, mais peu sauront ce que cela fait d'en posséder une. Quoi qu'il en soit, aucune combinaison de protection dans la Zone ne peut résister à la puissance de cette arme. Assurez-vous simplement de bien viser, d'être à proximité et d'avoir une réserve d'argent conséquente, car les munitions sont tout sauf « bon marché et disponibles ».\n \n
+		%c[ui_gray_2]ACCESSOIRES : \n
+		%c[d_purple] • %c[ui_gray_2] Lunettes ACOG, Barska ES AC10632, C-more Railway Tactical, EOTech\n
+		%c[d_purple] • %c[ui_gray_2] Silencieux compatible avec les armes de calibre 12,7x55 mm\n</text>
+	</string>
+
+	<string id="st_addon_silencer_shak12">
+		<text>Silencieux tactique ShAK-12</text>
+	</string>
+	<string id="st_addon_silencer_shak12_descr">
+		<text>\n\n%c[ui_gray_2]COMPATIBILITÉ :\n\n%c[d_cyan] • %c[ui_gray_2] Armes de calibre 12,7x55 mm\n\n%c[ui_gray_1]Un silencieux relativement compact pour le ShAK-12, pas assez grand ni robuste pour éliminer complètement le bruit ou réduire suffisamment le flash de bouche pour n'en laisser que des volutes de fumée, mais suffisant pour l'atténuer efficacement et réduire davantage le flash.\n\n%c[d_purple] • %c[ui_gray_2] Atténuation sonore : %c[ui_gray_1]moyenne</text>
+	</string>
+
+</string_table>

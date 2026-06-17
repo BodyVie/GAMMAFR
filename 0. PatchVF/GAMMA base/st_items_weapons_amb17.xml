@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+
+<string_table>
+
+	<string id="st_wpn_amb17">
+		<text>AMB-17</text>
+	</string>
+	<string id="st_wpn_amb17_descr">
+		<text>Fusil d'assaut compact et intégralement silencieux, conçu pour les opérations furtives et le combat rapproché. Son système de suppression avancé minimise à la fois le bruit et le flash de bouche, le rendant particulièrement efficace pour les forces spéciales et les missions clandestines. Doté d'une carcasse en polymère léger et d'un système de rail modulaire, il permet une personnalisation aisée avec des optiques et des accessoires tactiques, tout en conservant une excellente maniabilité.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Kalashnikov Concern\n
+		</text>
+	</string>
+	
+</string_table>

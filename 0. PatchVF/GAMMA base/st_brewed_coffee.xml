@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_brewed_coffee">
+		<text>Café infusé</text>
+	</string>
+	<string id="st_brewed_coffee_descr">
+		<text>Un luxe dans la Zone, offrant un bref regain d'endurance et de vigilance. Son arôme riche et sa chaleur procurent un réconfort petit mais inestimable aux Stalkers supportant le froid et l'épuisement des terres désolées.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Boisson\n
+		%c[d_green] • %c[pda_white] Stimulant\n
+		%c[d_green] • %c[pda_white] Effet de dégrisement alcoolique\n
+		</text>
+	</string>
+	
+</string_table>

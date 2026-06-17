@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+  <string id="ui_mcm_dart_pda_title">
+    <text>Paramètres du PDA</text>
+  </string>
+
+  <string id="ui_mcm_menu_dart_pda">
+    <text>PDA</text>
+  </string>
+
+  <string id="ui_mcm_dart_pda_textScale">
+    <text>Échelle du texte 3D du PDA</text>
+  </string>
+
+  <string id="ui_mcm_dart_pda_textScale_desc">
+    <text>Agrandit le texte dans le PDA 3D selon le facteur sélectionné. Huit tailles de police spécifiques, comprises entre 16 px et 50 px, sont disponibles. Chaque incrément fait passer l'ensemble du texte à la taille supérieure disponible.</text>
+  </string>
+
+  <string id="ui_mcm_dart_pda_textCeiling">
+    <text>Taille maximale du texte 3D du PDA</text>
+  </string>
+
+  <string id="ui_mcm_dart_pda_textCeiling_desc">
+    <text>Le système DART ne dépassera pas cette valeur de taille de texte, quel que soit le facteur d'échelle sélectionné.</text>
+  </string>
+
+  <string id="ui_mcm_lst_22px">
+    <text>22 px</text>
+  </string>
+
+  <string id="ui_mcm_lst_25px">
+    <text>25 px</text>
+  </string>
+
+  <string id="ui_mcm_lst_32px">
+    <text>32 px</text>
+  </string>
+
+  <string id="ui_mcm_lst_50px">
+    <text>50 px</text>
+  </string>
+</string_table>

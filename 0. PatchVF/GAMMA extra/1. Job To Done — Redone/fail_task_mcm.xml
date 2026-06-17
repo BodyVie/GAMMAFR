@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    <string id="ui_mcm_menu_fail_task_mod">
+        <text>Réinitialiser la tâche accomplie</text>
+    </string>
+    <string id="mcm_fail_task_title">
+        <text>Paramètres de la touche d'annulation de quête</text>
+    </string>
+    <string id="ui_mcm_fail_task_mod_fail_task_mod_hotkey">
+        <text>Touche d'annulation (avec Maj).\nPar défaut : FIN. Pour annuler une quête, sélectionnez-la comme active dans votre PDA et appuyez sur la combinaison de touches.</text>
+    </string>
+</string_table>

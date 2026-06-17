@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_sig550_custom">
+		<text>SIG SG 550</text>
+	</string>
+	<string id="st_wpn_sig550">
+		<text>SIG SG 550</text>
+	</string>
+	<string id="st_wpn_sig550_camo">
+		<text>SIG SG 550</text>
+	</string>
+	<string id="st_wpn_sig550_descr">
+		<text>Conçue comme une « arme du soldat », une attention particulière a été portée à la fabrication d'un fusil fiable, léger et économique, adapté aux conditions du front. Réputée pour sa qualité de fabrication et ses performances exceptionnelles, la SG 550 est souvent considérée comme le meilleur fusil de calibre 5,56 mm jamais produit.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Suisse\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Swiss Arms AG\n
+		</text>
+	</string>
+
+	<string id="st_wpn_sig550_strelok">
+		<text>SIG SG 550-1 Arrow</text>
+	</string>
+	<string id="st_wpn_sig550_strelok_descr">
+		<text>Variante de tireur d'élite du populaire fusil SG 550, la 550-1 constitue un compromis parfait entre un fusil de sniper et un fusil d'assaut, tout en conservant les points forts des deux types d'armes. Bien qu'elle soit quelque peu inférieure en puissance d'arrêt et en précision par rapport à un fusil de sniper dédié, elle conserve la fiabilité et la qualité de fabrication de la SG 550.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Suisse\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Swiss Arms AG\n
+		</text>
+	</string>
+	
+	<string id="st_wpn_sig552">
+		<text>SIG SG 552 Commando</text>
+	</string>
+	<string id="st_wpn_sig552_descr">
+		<text>Membre le plus compact de la célèbre famille SG 550 de SIG, la SG 552 est spécifiquement conçue pour le combat urbain et les situations de combat rapproché (CQC). Comme la SG 550, elle est réputée pour sa qualité de fabrication et ses performances exceptionnelles, et est souvent encore considérée comme le meilleur fusil de calibre 5,56 mm jamais produit.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Suisse\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Swiss Arms AG\n
+		</text>
+	</string>
+
+<!-- UNUSED
+
+	<string id="st_wpn_sig552_worn">
+		<text>SIG SG 552 Commando</text>
+	</string>
+
+	<string id="st_wpn_sig550_worn">
+		<text>SIG SG 550</text>
+	</string>
+
+	<string id="st_wpn_sig550_rusty">
+		<text>SIG SG 550</text>
+	</string>
+	<string id="st_wpn_sig550_rusty_descr">
+		<text>Conçue comme une « arme du soldat », une attention particulière a été portée à la fabrication d'un fusil fiable, léger et économique, adapté aux conditions du front. Réputée pour sa qualité de fabrication et ses performances exceptionnelles, la SG 550 est souvent considérée comme le meilleur fusil de calibre 5,56 mm jamais produit.ZZZ\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Suisse\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Swiss Arms AG\n
+		</text>
+	</string>
+
+	<string id="st_wpn_sig550_sniper">
+		<text>SIG SG 550-1 Sniper</text>
+	</string>
+	<string id="st_wpn_sig550_sniper_descr">
+		<text>Variante de tireur d'élite du populaire fusil SG 550, la 550-1 constitue un compromis parfait entre un fusil de sniper et un fusil d'assaut, tout en conservant les points forts des deux types d'armes. Bien qu'elle soit quelque peu inférieure en puissance d'arrêt et en précision par rapport à un fusil de sniper dédié, elle conserve la fiabilité et la qualité de fabrication de la SG 550.B\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Suisse\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Swiss Arms AG\n
+		</text>
+	</string>
+
+-->
+
+</string_table>

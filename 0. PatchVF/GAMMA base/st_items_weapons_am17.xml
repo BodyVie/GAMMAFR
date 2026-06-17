@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+
+<string_table>
+
+	<string id="st_wpn_am17">
+		<text>AM-17</text>
+	</string>
+	<string id="st_wpn_am17_descr">
+		<text>Fusil d'assaut compact conçu pour le combat urbain et les engagements en milieu confiné, doté d'une structure en polymère léger pour une maniabilité accrue. Sa conception modulaire intègre un rail Picatinny sur toute la longueur, permettant le montage d'optiques et d'accessoires pour une adaptabilité optimale dans les scénarios tactiques. Alliant puissance de feu et portabilité, il convient parfaitement aux forces spéciales, aux unités de maintien de l'ordre et au personnel militaire opérant dans des environnements restreints.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Kalashnikov Concern\n
+		</text>
+	</string>
+	
+</string_table>

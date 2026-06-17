@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!-- 
+	MCM
+-->
+<string_table>
+	<string id="ui_mcm_reworked_rf_receiver_title">
+		<text>Récepteur RF retravaillé</text>
+	</string>
+	<string id="ui_mcm_menu_reworked_rf_receiver">
+		<text>Récepteur RF retravaillé</text>
+	</string>
+
+	<string id="ui_mcm_reworked_rf_receiver_custom_beep_volume">
+		<text>Volume du bip personnalisé</text>
+	</string>
+	<string id="ui_mcm_reworked_rf_receiver_custom_beep_volume_desc">
+		<text>Sélectionnez cette option si vous souhaitez pouvoir modifier le volume des bips.</text>
+	</string>
+	
+	<string id="ui_mcm_reworked_rf_receiver_beep_volume">
+		<text>Volume du bip</text>
+	</string>
+	
+	<string id="ui_mcm_reworked_rf_receiver_update_sources_on_frequency_change">
+		<text>Mettre à jour les sources RF à chaque changement de fréquence (LOURD)</text>
+	</string>
+	<string id="ui_mcm_reworked_rf_receiver_update_sources_on_frequency_change_desc">
+		<text>Provoque des micro-saccades.</text>
+	</string>
+	
+	<string id="ui_mcm_reworked_rf_receiver_only_equip_rf">
+		<text>Pas besoin de sortir le récepteur RF</text>
+	</string>
+	<string id="ui_mcm_reworked_rf_receiver_only_equip_rf_desc">
+		<text>Ne nécessite pas que le RF soit tenu en main pour fonctionner, mais uniquement équipé sur vous.</text>
+	</string>
+</string_table>

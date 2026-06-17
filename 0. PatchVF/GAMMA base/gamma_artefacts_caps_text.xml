@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="gamma_burn_cap">
+		<text>Bouchon Brûlure</text>
+	</string>
+	<string id="gamma_shock_cap">
+		<text>Bouchon Électrique</text>
+	</string>
+	<string id="gamma_telepatic_cap">
+		<text>Bouchon Psychique</text>
+	</string>
+	<string id="gamma_chemical_burn_cap">
+		<text>Bouchon Chimique</text>
+	</string>
+	<string id="gamma_wound_cap">
+		<text>Bouchon Rupture</text>
+	</string>
+	<string id="gamma_fire_wound_cap">
+		<text>Bouchon Balistique</text>
+	</string>
+	<string id="gamma_explosion_cap">
+		<text>Bouchon Explosion</text>
+	</string>
+	<string id="gamma_strike_cap">
+		<text>Bouchon Impact</text>
+	</string>
+</string_table>

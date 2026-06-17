@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_menu_toggle_scope">
+		<text>Activer/désactiver la lunette</text>
+	</string>
+	<string id="ui_mcm_toggle_scope_key_bind_toggle">
+		<text>Changer de lunette</text>
+	</string>
+	<string id="ui_mcm_toggle_scope_key_bind_toggle_desc">
+        <text>%c[d_green]•%c[DEFAULT] Appui simple : fixer/détacher la lunette actuelle. 
+            \n\n%c[d_green]•%c[DEFAULT] Appui double : passer à la lunette compatible suivante.
+        </text>
+	</string>
+</string_table>

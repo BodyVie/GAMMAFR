@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    <string id="st_dis_text_3">
+        <text>%sOutils requis manquants%s : %s%s</text>
+    </string>
+</string_table>

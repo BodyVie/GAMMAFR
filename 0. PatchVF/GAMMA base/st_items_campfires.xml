@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_itms_campfire_name">
+		<text>Bois de chauffage</text>
+	</string>
+	<string id="st_itms_campfire_descr">
+		<text>Bois de chauffage adapté pour un feu de camp. Permet de se réchauffer la nuit et offre la possibilité de cuire des aliments.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Fabrication de feux de camp\n
+		</text>
+	</string>
+
+	<string id="st_bad_surface">
+		<text>Surface insuffisante.</text>
+	</string>
+
+	<string id="st_gather_wood">
+		<text>Couper du bois</text>
+	</string>
+
+</string_table>

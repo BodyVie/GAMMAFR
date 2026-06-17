@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	SCOPES
+-->
+
+	<string id="st_addon_scope">
+		<text>PSO-1</text>
+	</string>
+	<string id="st_addon_scope_descr">
+		<text>Lunette soviétique à grossissement 4x conçue pour les fusils de tireur d'élite désignés, dotée d'un réticule de télémétrie illuminé et d'une compensation de chute de balle pour le tir de précision à longue distance. Elle est couramment montée sur les fusils SVD et reste un élément essentiel des optiques du bloc de l'Est.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Usine d'État NPZ Optics\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n
+		%c[d_cyan] • %c[pda_white]Commande d'allumage des LED\n \n			
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_1p29">
+		<text>1P29 Tulipe</text>
+	</string>
+	<string id="st_addon_scope_1p29_descr">
+		<text>Lunette robuste à grossissement 4x utilisée par les forces russes, connue pour sa conception prismatique et sa construction légère. Elle est dotée d'un réticule de télémétrie et d'un éclairage pour les conditions de faible luminosité.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_acog">
+		<text>ACOG 2.8x</text>
+	</string>
+	<string id="st_addon_scope_acog_descr">
+		<text>Optique Trijicon robuste offrant un grossissement 2,8x, conçue pour une acquisition rapide des cibles dans les engagements à moyenne distance. Elle est dotée d'un éclairage par fibre optique et tritium pour une visibilité dans toutes les conditions d'éclairage.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Trijicon\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]2,8x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_pso-1m2-01">
+		<text>PSO-1M2-1</text>
+	</string>
+	<string id="st_addon_scope_pso-1m2-01_descr">
+		<text>Variante avancée du PSO-1M avec des revêtements de lentilles améliorés et une meilleure résistance aux conditions environnementales. Elle conserve le design classique du réticule pour un tir précis à longue distance.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Usine d'État NPZ Optics\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n
+		%c[d_cyan] • %c[pda_white]Commande d'allumage des LED\n \n			
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_specterDR">
+		<text>ELCAN SpecterDR</text>
+	</string>
+	<string id="st_addon_scope_specterDR_descr">
+		<text>Optique de combat polyvalente capable de basculer entre un grossissement de 1x et 4x, offrant une grande adaptabilité pour les engagements à courte distance et à longue portée. Elle se distingue par des optiques de haute qualité et une conception robuste pour des applications militaires.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Raytheon ELCAN\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x ou 4,0x\n
+		%c[d_cyan] • %c[pda_white]Commande d'allumage des LED\n \n		
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_pso2">
+		<text>PSO-1Ì</text>
+	</string>
+	<string id="st_addon_scope_pso2_descr">
+		<text>Version modernisée de la célèbre lunette soviétique PSO-1, dotée d'optiques améliorées et d'un réticule plus raffiné pour le tir de précision. Elle conserve le compensateur de chute de balle emblématique pour des engagements efficaces à longue distance.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Usine d'État NPZ Optics\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n
+		%c[d_cyan] • %c[pda_white]Commande d'allumage des LED\n \n			
+		</text>
+	</string>
+		
+	<string id="st_addon_scope_1p59">
+		<text>1P59 Giperon</text>
+	</string>
+	<string id="st_addon_scope_1p59_descr">
+		<text>Viseur optique russe à fort grossissement conçu pour les tireurs d'élite désignés, offrant des capacités de télémétrie avancées. Il est doté d'un réticule illuminé et conçu pour une utilisation militaire robuste.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Divers fabricants\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]3,0x - 10,0x\n
+		%c[d_cyan] • %c[pda_white]Commande d'allumage des LED\n \n			
+		</text>
+	</string>	
+	
+	<string id="st_addon_scope_1pn93">
+		<text>1PN93-4</text>
+	</string>
+	<string id="st_addon_scope_1pn93_descr">
+		<text>Lunette de vision nocturne russe optimisée pour les scénarios de combat en faible luminosité et de nuit. Elle offre une visibilité améliorée dans les darkness grâce à un boîtier résistant de qualité militaire.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]NPZ Optics\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x - 3,7x\n
+		%c[d_cyan] • %c[pda_white]Commande de vision nocturne\n \n				
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_leupold">
+		<text>Leupold Mark 8</text>
+	</string>
+	<string id="st_addon_scope_leupold_descr">
+		<text>Lunette haut de gamme pour tir à longue distance, dotée d'un grossissement variable, d'optiques haute définition et d'un réticule en première plan focal. Conçue pour le tir de précision en environnements militaires et compétitifs.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Leupold\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x - 8,0x\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_pn23">
+		<text>PN-23</text>
+	</string>
+	<string id="st_addon_scope_pn23_descr">
+		<text>Lunette de vision nocturne russe optimisée pour les engagements en faible luminosité, offrant une visibilité améliorée dans les darkness. Conçue pour être utilisée sur diverses armes à feu et dotée d'une construction résistante aux intempéries.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]KULA\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]6x\n
+		%c[d_cyan] • %c[pda_white]Commande de vision nocturne\n \n			
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_marchf">
+		<text>March Tactical 3-24x42 FFP</text>
+	</string>
+	<string id="st_addon_scope_marchf_descr">
+		<text>Lunette à premier plan focal (FFP) haute performance avec grossissement variable, offrant une clarté et une précision exceptionnelles pour le tir à longue distance. Elle est privilégiée par les tireurs d'élite et les compétiteurs pour sa polyvalence.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Japon\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]DEON Optical Design\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]3,0x - 24,0x\n
+		%c[d_cyan] • %c[pda_white]Commande d'allumage des LED\n \n			
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_pgo7gs">
+		<text>PGO-7</text>
+	</string>
+	<string id="st_addon_scope_pgo7gs_descr">
+		<text>Viseur optique fixe à grossissement 2,7x conçu pour les lanceurs RPG-7, doté d'un réticule de télémétrie pour un ciblage précis. Robuste et optimisé pour les engagements antichars.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Union soviétique\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n
+		%c[d_cyan] • %c[pda_white]Commande d'allumage des LED\n \n			
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_susat">
+		<text>SUSAT</text>
+	</string>
+	<string id="st_addon_scope_susat_descr">
+		<text>Le Sight Unit Small Arms, Trilux (SUSAT) est un viseur optique à grossissement 4x utilisé par les forces britanniques, doté d'un réticule illuminé pour une performance améliorée en faible luminosité. Réputé pour sa durabilité et sa clarté d'image.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Royaume-Uni\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Avimo\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_gauss_sight">
+		<text>EOTS-62</text>
+	</string>
+	<string id="st_addon_scope_gauss_sight_descr">
+		<text>Viseur thermique haute performance conçu pour détecter les signatures thermiques dans des environnements à faible visibilité. Il offre des capacités améliorées de suivi et d'engagement des cibles pour des applications militaires et tactiques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Ukraine\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]REDACTED\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x - 10,0x\n
+		%c[d_cyan] • %c[pda_white] %c[ui_gray_2]Bascule thermique\n \n			
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_1p78gs">
+		<text>1P78 Kashtan</text>
+	</string>
+	<string id="st_addon_scope_1p78gs_descr">
+		<text>Viseur de combat russe prismatique à grossissement 2,8x conçu pour les fusils AK, offrant un large champ de vision et une compensation de la chute des balles. Très résistant, il est adapté aux conditions de combat difficiles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Usine NPZ\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]2,8x\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_1pn93n2_1gs">
+		<text>1PN93-1</text>
+	</string>
+	<string id="st_addon_scope_1pn93n2_1gs_descr">
+		<text>Lunette de vision nocturne russe conçue pour le combat en faible luminosité, offrant une compatibilité infrarouge et un boîtier résistant. Elle améliore la visibilité nocturne tout en maintenant la précision sur de longues distances.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n			
+		</text>
+	</string>
+
+	<string id="st_addon_scope_usp1">
+		<text>1P29 Tulpan</text>
+	</string>
+	<string id="st_addon_scope_usp1_descr">
+		<text>Lunette russe robuste à grossissement 4x, similaire au SUSAT, dotée d'un réticule de télémétrie illuminé. Conçue pour être utilisée sur les fusils AK et autres armes d'infanterie.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_susatov">
+		<text>SUSAT 4.0x</text>
+	</string>
+	<string id="st_addon_scope_susatov_descr">
+		<text>Le Sight Unit Small Arms, Trilux (SUSAT) est une lunette optique à grossissement fixe de 4x utilisée principalement par les forces britanniques. Elle dispose d'un réticule illuminé et d'une conception prismatique, offrant une image claire et une estimation efficace de la distance.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Royaume-Uni\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Royal Armament Research Development\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_march_f_shorty">
+		<text>March F Shorty 1x-8x24mm LPVO</text>
+	</string>
+	<string id="st_addon_scope_march_f_shorty_descr">
+		<text>Optique variable à faible grossissement (LPVO) compacte et de haute qualité, avec une plage de grossissement de 1 à 8x, conçue pour le tir de précision à courte distance et à longue portée. Elle se distingue par une clarté de verre supérieure et un réticule à premier plan focal pour des engagements dynamiques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Japon\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]DEON Optical Design\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x - 8,0x\n \n
+		</text>		
+	</string>	
+	
+	<string id="st_addon_scope_lco1">
+		<text>LCO Leupold</text>
+	</string>
+	<string id="st_addon_scope_lco1_descr">
+		<text>Viseur point rouge robuste développé par Leupold, offrant un large champ de vision et une acquisition rapide des cibles pour les carabines et fusils. Sa conception étanche et résistante le rend idéal pour le tir tactique et sportif.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Leupold\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_e0t2_mag">
+		<text>Eotech XPS3 avec agrandisseur G33 6x</text>
+	</string>
+	<string id="st_addon_scope_e0t2_mag_descr">
+		<text>Combinaison d'un viseur holographique compact et d'un grossisseur rabattable latéral de 6x, offrant une polyvalence pour le tir réflexe à courte distance et les engagements à plus longue portée. Le XPS3 est compatible avec la vision nocturne, ce qui en fait un choix populaire pour les forces militaires et policières.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]EOTech\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]6,0x\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_razor_mag">
+		<text>Vortex Optics Razor AMG UH-1 avec agrandisseur Eotech G33 6x</text>
+	</string>
+	<string id="st_addon_scope_razor_mag_descr">
+		<text> Configuration hybride associant le viseur holographique Razor AMG UH-1, durable et à acquisition rapide, au grossisseur Eotech G33 pour un engagement amélioré des cibles à différentes distances. Cette combinaison permet une transition fluide entre les combats à courte et moyenne portée.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]EOTech &amp; Vortex\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]6,0x\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_razor">
+		<text>Vortex Optics Razor AMG UH-1 Gen. II</text>
+	</string>
+	<string id="st_addon_scope_razor_descr">
+		<text>Viseur holographique avancé offrant une large fenêtre de visualisation claire, une acquisition rapide des cibles et une compatibilité avec la vision nocturne. Sa construction robuste et son réticule amélioré en font un choix privilégié pour les applications tactiques et défensives.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Vortex\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_exps3">
+		<text>Eotech EXPS3</text>
+	</string>
+	<string id="st_addon_scope_exps3_descr">
+		<text>Viseur holographique compact et haute performance conçu pour un usage militaire et policier, doté d'une compatibilité avec la vision nocturne et d'une interface de contrôle latérale. Il offre un large champ de vision et une acquisition rapide du réticule pour des engagements en situation dynamique.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]EOTech\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+  
+	<string id="st_addon_scope_he510">
+		<text>Holosun HE510C</text>
+	</string>
+	<string id="st_addon_scope_he510_descr">
+		<text>Viseur reflex ouvert durable alimenté par énergie solaire, doté de plusieurs options de réticule, conçu pour les fusils et carabines. Sa longue autonomie, sa technologie de réveil par mouvement et son boîtier robuste en font un excellent viseur polyvalent.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Holosun\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>
+  
+	<string id="st_addon_scope_bravo4">
+		<text>SIG Sauer BRAVO4</text>
+	</string>
+	<string id="st_addon_scope_bravo4_descr">
+		<text>Optique de combat prismatique offrant un grossissement de 4x, un large champ de vision et un réticule illuminé en forme de fer à cheval avec point central pour un engagement rapide des cibles. Conçue pour des applications tactiques, elle allie clarté exceptionnelle et durabilité.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Allemagne\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]SIG Sauer\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+  
+	<string id="st_addon_scope_hamr">
+		<text>Leupold Mark 4 HAMR</text>
+	</string>
+	<string id="st_addon_scope_hamr_descr">
+		<text>Lunette robuste à grossissement fixe de 4x, dotée d'un réticule gravé et d'un point rouge illuminé pour une acquisition rapide des cibles. Conçue pour la durabilité, elle est couramment utilisée par les forces militaires et les services de maintien de l'ordre pour sa fiabilité en conditions de combat.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Leupold\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+  
+	<string id="st_addon_scope_razorhd">
+		<text>Vortex Optics Razor HD Gen II</text>
+	</string>
+	<string id="st_addon_scope_razorhd_descr">
+		<text>Lunette de précision haut de gamme dotée d'une clarté de verre exceptionnelle, d'un réticule à premier plan focal et d'une construction robuste. Conçue pour le tir à longue distance, elle assure un suivi et une répétabilité supérieurs dans des conditions extrêmes.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Vortex\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x - 6,0x\n \n
+		</text>
+	</string>	
+
+	<string id="st_addon_scope_devo">
+		<text>Leupold D-EVO avec point rouge LCO</text>
+	</string>
+	<string id="st_addon_scope_devo_descr">
+		<text>Système optique déporté unique combinant une lunette à grossissement 6x avec un point rouge pour un passage instantané entre les engagements à courte et moyenne distance. Sa conception innovante permet une acquisition immédiate des cibles sans ajustement de la position de la tête.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Leupold\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x - 6,0x\n
+		%c[d_cyan] • %c[pda_white]Commande d'allumage des LED\n \n			
+		</text>
+	</string>	
+
+	<string id="st_addon_scope_side">
+		<text>Monture latérale Winchester</text>
+	</string>
+	<string id="st_addon_scope_side_descr">
+		<text>Optique classique conçue pour un montage latéral sur les fusils à levier et les armes plus anciennes, offrant une solution de visée traditionnelle mais efficace. Elle permet une utilisation aisée tout en conservant l'accès aux organes de visée métalliques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Winchester\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_romeo">
+		<text>Sig Sauer ROMEO4</text>
+	</string>
+	<string id="st_addon_scope_romeo_descr">
+		<text>Viseur point rouge haute performance doté d'un éclairage activé par mouvement, de plusieurs options de réticule et d'une conception étanche et robuste. Conçu pour une acquisition rapide des cibles et une fiabilité par tous les temps.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Allemagne\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]SIG Sauer\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+	</string>	
+
+	<string id="st_cortex_scope">
+		<text>Cortex LPVO</text>
+	</string>
+	<string id="st_cortex_scope_desc">
+		<text>Une optique à puissance variable conçue pour le tir de précision à courte distance et à longue portée, offrant une plage de zoom polyvalente et un verre de haute qualité pour une identification claire des cibles. Elle est adaptée aux usages tactiques, militaires et compétitifs.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Divers\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x - 12,0x\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_cmore">
+        <text>C-MORE Tactical</text>
+    </string>
+    <string id="st_addon_scope_cmore_descr">
+		<text>Viseur reflex compact réputé pour sa construction légère en polymère et son large champ de vision. Populaire pour le tir sportif et les applications tactiques nécessitant un engagement rapide des cibles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]C-More Systems\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n \n
+		</text>
+    </string>
+
+	<string id="st_addon_scope_zf4">
+		<text>ZF-4</text>
+	</string>
+	<string id="st_addon_scope_zf4_descr">
+		<text>Lunette allemande de la Seconde Guerre mondiale à grossissement 4x, conçue pour les fusils de sniper, dotée d'un réticule simple et d'une construction robuste. Elle était largement utilisée sur les fusils Kar98k pour les engagements à longue distance.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Allemagne\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Allemagne\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]4,0x\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_kp_sr2">
+		<text>KP-SR2</text>
+	</string>
+	<string id="st_addon_scope_kp_sr2_descr">
+		<text>Viseur reflex compact russe conçu pour l'acquisition rapide de cibles, souvent utilisé sur les pistolets-mitrailleurs et les carabines. Il présente une construction durable et un réticule illuminé pour améliorer la visée dans diverses conditions d'éclairage.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]1,0x\n
+		%c[pda_white]COMPATIBILITÉ :\n
+		%c[d_cyan] • %c[ui_gray_2] SR-2M Veresk\n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_gee36">
+		<text>Viseur intégré G36</text>
+	</string>
+	<string id="st_addon_scope_gee36_descr">
+		<text>Optique intégrée d'usine pour le fusil Heckler &amp; Koch G36, combinant une lunette à grossissement fixe avec un point rouge optionnel pour une polyvalence accrue. Elle offre une solution équilibrée pour le tir de précision et l'acquisition rapide de cibles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Allemagne\n\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]H&amp;K\n
+		%c[d_cyan] • %c[pda_white] Grossissement : %c[ui_gray_2]3,0x\n \n
+		</text>
+	</string>
+
+<!--
+	KITS
+-->
+
+	<string id="st_addon_scope_trijicon_rmr">
+		<text>Kit viseur point rouge Trijicon</text>
+	</string>
+	<string id="st_addon_scope_trijicon_rmr_descr">
+		<text>Système de fixation modulaire permettant de monter divers silencieux sur des armes compatibles, améliorant ainsi la polyvalence et les capacités de réduction du bruit.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Trijicon ACOG BAC 5.56 BDC\n
+		%c[d_cyan] • %c[ui_gray_2]Viseur à point rouge déporté\n \n
+		</text>
+	</string>	
+	
+	<string id="st_addon_scope_mark8_rmr">
+		<text>Kit viseur point rouge Mark 8</text>
+	</string>
+	<string id="st_addon_scope_mark8_rmr_descr">
+		<text>Système de fixation modulaire permettant de monter divers silencieux sur des armes compatibles, améliorant ainsi la polyvalence et les capacités de réduction du bruit.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Leupold Mark 8 CQBSS\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur à point rouge coudé\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_spec_alt">
+		<text>Kit viseur point rouge SpecterDR</text>
+	</string>
+	<string id="st_addon_scope_spec_alt_descr">
+		<text>Système de fixation modulaire permettant de monter divers silencieux sur des armes compatibles, améliorant ainsi la polyvalence et les capacités de réduction du bruit.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Elcan SpecterDR DFOV14-C2\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur à point rouge coudé\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_kashtan_rmr">
+		<text>Kit viseur point rouge Kashtan</text>
+	</string>
+	<string id="st_addon_scope_kashtan_rmr_descr">
+		<text>Système de fixation modulaire permettant de monter divers silencieux sur des armes compatibles, améliorant ainsi la polyvalence et les capacités de réduction du bruit.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur Tochpribor 1P78 Kashtan\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur à point rouge coudé\n \n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_psicho_rmr">
+		<text>Kit viseur point rouge PSO</text>
+	</string>
+	<string id="st_addon_scope_psicho_rmr_descr">
+		<text>Système de fixation modulaire permettant de monter divers silencieux sur des armes à feu compatibles, améliorant ainsi la polyvalence et les capacités de réduction du bruit.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2]Viseur BelOMO PSO-1Ì2-1\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur à point rouge coudé\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_march_f_shorty_alt">
+		<text>Kit viseur point rouge March F Shorty</text>
+	</string>
+	<string id="st_addon_scope_march_f_shorty_alt_descr">
+		<text>Système de fixation modulaire permettant de monter divers silencieux sur des armes à feu compatibles, améliorant ainsi la polyvalence et les capacités de réduction du bruit.\n \n
+		%c[pda_white]CONTENU DU KIT :\n
+		%c[d_cyan] • %c[ui_gray_2] March F Shorty 1x-8x24 mm LPVO\n
+		%c[d_cyan] • %c[ui_gray_2] Viseur à point rouge coudé\n \n
+		</text>		
+	</string>
+
+</string_table>

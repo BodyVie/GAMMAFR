@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_skill_system_exp_multiplier_strength">
+        <text>Multiplicateur d'expérience Force</text>
+    </string>
+    <string id="ui_mcm_skill_system_exp_multiplier_endurance">
+        <text>Multiplicateur d'expérience Endurance</text>
+    </string>
+    <string id="ui_mcm_skill_system_exp_multiplier_scavenging">
+        <text>Multiplicateur d'expérience Récupération</text>
+    </string>
+    <string id="ui_mcm_skill_system_exp_multiplier_survival">
+        <text>Multiplicateur d'expérience Survie</text>
+    </string>
+    <string id="ui_mcm_skill_system_title">
+        <text>Configuration du système de compétences</text>
+    </string>
+     <string id="ui_mcm_menu_skill_system">
+        <text>Compétences</text>
+    </string>
+    <string id="ui_mcm_skill_system_debug">
+        <text>Débogage</text>
+    </string>
+	<string id="ui_mcm_skill_system_ui_keybind">
+        <text>Touche du menu Compétences</text>
+    </string>
+	<string id="ui_mcm_skill_system_ui_keybind_desc">
+        <text>Ouvre le menu permettant de consulter votre progression dans les compétences.</text>
+    </string>
+	<string id="ui_mcm_skill_system_update_mcm">
+		<text>Mettez à jour MCM pour voir cette fonctionnalité. La touche par défaut est K</text>
+	</string>
+</string_table>

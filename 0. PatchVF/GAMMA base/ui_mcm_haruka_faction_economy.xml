@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_faction_economy_title">
+		<text>Économie basée sur les factions</text>
+	</string>
+	<string id="ui_mcm_menu_faction_economy">
+		<text>Économie des factions</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_faction_discounts">
+		<text>Multiplicateur de réduction par faction</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_faction_discounts_desc">
+		<text>Active un multiplicateur basé sur les relations entre les factions.</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_goodwill_mul">
+		<text>Multiplicateur de bienveillance</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_goodwill_mul_desc">
+		<text>Active un multiplicateur basé sur la bonne volonté. (Par défaut, s'applique uniquement à votre faction)</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_ignore_faction_goodwill">
+		<text>Ignorer la faction pour le multiplicateur de bienveillance</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_ignore_faction_goodwill_desc">
+		<text>Permet au multiplicateur de bonne volonté de s'appliquer à toutes les factions.</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_reputation_mul">
+		<text>Multiplicateur de réputation</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_reputation_mul_desc">
+		<text>Active un multiplicateur basé sur la réputation du personnage.</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_north_level_mul">
+		<text>Prix plus élevés au nord</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_north_level_mul_desc">
+		<text>Augmente les prix dans le Nord en raison d'un déficit.</text>
+	</string>
+	<string id="ui_mcm_faction_economy_chance_for_extra_item">
+		<text>Probabilité d'objet supplémentaire chez le marchand de la faction du joueur</text>
+	</string>
+	<string id="ui_mcm_faction_economy_required_supply_level">
+		<text>Niveau de bienveillance requis pour les autres factions</text>
+	</string>
+	<string id="ui_mcm_faction_economy_required_supply_level_desc">
+		<text>Niveau de bonne volonté à partir duquel les marchands des autres factions commencent à vendre l'équipement de faction.</text>
+	</string>
+	<string id="ui_mcm_faction_economy_goodwill_mul">
+		<text>Facteur multiplicateur de prix par bienveillance</text>
+	</string>
+	<string id="ui_mcm_faction_economy_rep_mul">
+		<text>Facteur multiplicateur de prix par réputation</text>
+	</string>
+	<string id="ui_mcm_faction_economy_ammo_amount_special">
+		<text>Quantité de munitions spéciales</text>
+	</string>
+	<string id="ui_mcm_faction_economy_ammo_amount">
+		<text>Quantité de munitions standards</text>
+	</string>
+	<string id="ui_mcm_faction_economy_ammo_amount_special_desc">
+		<text>Quantité de munitions spéciales (AP, HP, balles à ailettes, fléchettes, etc.) générées en stock en fonction des armes vendues par le marchand.</text>
+	</string>
+	<string id="ui_mcm_faction_economy_ammo_amount_desc">
+		<text>Quantité de munitions standard générées en stock en fonction des armes vendues par le marchand.</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_trade_GUI">
+		<text>Afficher informations supplémentaires dans le menu d'échange</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_special_ammo_spawns">
+		<text>Utilisation des apparitions de munitions spéciales</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_trade_GUI_desc">
+		<text>Affiche des informations supplémentaires à côté du portrait du marchand, indiquant le multiplicateur actuel et le niveau de ravitaillement.</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_special_ammo_spawns_desc">
+		<text>Active les règles de génération de munitions spéciales pour les marchands. Au lieu d'utiliser les fichiers du marchand, les munitions sont générées en fonction des armes vendues.</text>
+	</string>
+	<string id="st_haruka_sulpplies_level">
+		<text>Niveau d'approvisionnement</text>
+	</string>
+	<string id="st_haruka_multiplier">
+		<text>Multiplicateur</text>
+	</string>
+</string_table>

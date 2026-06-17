@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="st_wpn_pp2000_oper">
+		<text>PP-2000 « Operator »</text>
+	</string>
+	<string id="st_wpn_pp2000_oper_descr">
+		<text>Utilisé par les unités d'opérations spéciales et les forces de l'ordre, le PP-2000 est souvent considéré comme l'une des meilleures armes de défense personnelle de sa catégorie. Compact, léger et d'une conception simple pour une fiabilité accrue et une maintenance simplifiée, il est équipé d'une lunette Barska Electrosight, d'un désignateur laser et d'une lampe tactique. Peu d'armes de poing offrent un soutien aussi efficace que l'« Operator ».\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_1]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_1]KBP Instrument Design Bureau\n
+		</text>
+	</string>
+
+</string_table>

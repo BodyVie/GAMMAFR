@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="encyclopedia_options">
+		<text>Options</text>
+	</string>
+	
+	<string id="encyclopedia_options_ai_die_to_anomalies">
+		<text>Mort de l'IA dans les anomalies</text>
+	</string>
+	<string id="encyclopedia_options_ai_die_to_anomalies_text">
+		<text>Supprime les anomalies comme facteur dans le calcul de trajectoire de l'IA.\n \n
+		%c[pda_white]INFORMATIONS:\n
+		%c[ui_gray_2]Avec cette fonctionnalité activée, les mutants et les autres stalkers ne connaîtront plus l'emplacement exact des anomalies. Ainsi, ils seront désormais entièrement soumis aux dangers de l'environnement de la Zone, tout comme votre propre personnage.\n \n
+		%c[pda_white]ATTENTION :\n
+		%c[ui_gray_2]Cette fonctionnalité peut être activée ou désactivée depuis le menu des options de jeu et est désactivée par défaut.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_options_aoe_pickup_mode">
+		<text>Mode de ramassage à zone d'effet</text>
+	</string>
+	<string id="encyclopedia_options_aoe_pickup_mode_text">
+		<text>%c[pda_white]Permet de ramasser plusieurs objets en une seule pression de touche.\n \n
+		%c[pda_white]ATTENTION :\n
+		%c[ui_gray_2]Cette fonctionnalité peut être activée ou désactivée depuis le menu des options de jeu et est désactivée par défaut.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_options_artefact_degradation">
+		<text>Dégradation des Artefacts</text>
+	</string>
+	<string id="encyclopedia_options_artefact_degradation_text">
+		<text>%c[pda_white]Provoque la dégradation des capacités et bonus des artefacts lorsqu'ils sont activés.\n \n
+		%c[pda_white]INFORMATIONS:\n
+		%c[ui_gray_2]Avec cette fonctionnalité activée, posséder le meilleur artefacts ne sera plus une fin en soi pour les chasseurs d'artefacts, car ceux-ci deviendront plus faibles à mesure qu'ils sont utilisés, encourageant ainsi leur recherche et leur accumulation continue, plutôt que de n'en faire qu'une source rapide de revenus.\n \n
+		%c[pda_white]ATTENTION :\n
+		%c[ui_gray_2]Cette fonctionnalité peut être activée ou désactivée depuis le menu des options de jeu et est activée par défaut.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_options_delayed_repairs">
+		<text>Réparations différées</text>
+	</string>
+	<string id="encyclopedia_options_delayed_repairs_text">
+		<text>%c[pda_white]Permet aux techniciens de conserver votre équipement pendant qu'ils effectuent théoriquement les réparations.\n \n
+		%c[pda_white]INFORMATIONS:\n
+		%c[ui_gray_2]Avec cette fonctionnalité activée, les armes, tenues et autres objets endommagés confiés à un technicien resteront en sa possession jusqu'à ce qu'il ait terminé toutes les réparations. Après avoir remis vos objets, vous pourrez interroger le technicien pour savoir s'ils sont prêts à être récupérés, celui-ci vous les rendra ou vous indiquera le temps restant nécessaire. Cela ajoute une touche de réalisme au système de réparation traditionnel et convient si vous recherchez une expérience plus difficile, car les réparations ne seront plus instantanées.\n \n
+		%c[pda_white]ATTENTION :\n
+		%c[ui_gray_2]Cette fonctionnalité peut être activée ou désactivée depuis le menu des options de jeu et est désactivée par défaut.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_options_enhanced_recoil">
+		<text>Recul amélioré</text>
+	</string>
+	<string id="encyclopedia_options_enhanced_recoil_text">
+		<text>%c[pda_white]Ajoute une manipulation des armes beaucoup plus variée et réaliste.\n \n
+		%c[pda_white]INFORMATIONS:\n
+		%c[ui_gray_2]Avec cette fonctionnalité activée, un recul bien plus aléatoire et multidirectionnel est généré lors du tir avec votre arme. Cela restaure le défi de maîtriser votre arme et rend votre choix d'améliorations et de munitions bien plus influent.\n \n
+		%c[pda_white]ATTENTION :\n
+		%c[ui_gray_2]Il est fortement recommandé d'activer cette fonctionnalité uniquement si votre système peut maintenir au moins 30 images par seconde de manière stable, bien que 50 images par seconde ou plus soient préférables. Cette fonctionnalité peut être activée ou désactivée depuis le menu des options du jeu et est désactivée par défaut.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_options_hardcore_ai_aim">
+		<text>Visée réaliste de l'IA</text>
+	</string>
+	<string id="encyclopedia_options_hardcore_ai_aim_text">
+		<text>%c[pda_white]Augmente la prévisibilité de la visée de l'IA et diminue ses temps de réaction.\n \n
+		%c[pda_white]INFORMATIONS:\n
+		%c[ui_gray_2]Avec cette fonctionnalité activée, il devient plus difficile d'éviter les tirs tout en esquivant et en sprintant, rendant l'utilisation de couvertures essentielle pour une survie à long terme.\n \n
+		%c[pda_white]ATTENTION :\n
+		%c[pda_white] • %c[ui_gray_2]Cette fonctionnalité peut être activée ou désactivée depuis le menu des options du jeu et est désactivée par défaut.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_options_helicopter_patrols">
+		<text>Patrouilles héliportées</text>
+	</string>
+	<string id="encyclopedia_options_helicopter_patrols_text">
+		<text>%c[pda_white]Active l'utilisation de soutien aérien par les factions pour défendre les zones stratégiques.\n \n
+		%c[pda_white]INFORMATIONS:\n
+		%c[ui_gray_2]Les factions disposant d'aéronefs amis en patrouille dans la zone pourront les appeler en renfort pour attaquer ou se défendre contre des stalkers ennemis (vous y compris) et des mutants. Malgré leur apparence intimidante, ces appareils peuvent être facilement neutralisés après avoir subi des dégâts légers sur le rotor de queue.\n \n
+		%c[pda_white]LIEUX :\n
+		%c[pda_white] • %c[ui_gray_2] Agroprom\n
+		%c[pda_white] • %c[ui_gray_2] Le Cordon\n
+		%c[pda_white] • %c[ui_gray_2] Darkscape\n
+		%c[pda_white] • %c[ui_gray_2] Grand marais\n
+		%c[pda_white] • %c[ui_gray_2] Limansk\n \n
+		%c[pda_white]ATTENTION :\n
+		%c[pda_white] • %c[ui_gray_2]Ces fonctionnalités peuvent être activées ou désactivées depuis le menu des options du jeu et sont activées par défaut.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_options_localisation">
+		<text>Localisation</text>
+	</string>
+	<string id="encyclopedia_options_localisation_text">
+		<text>%c[pda_white]Permet de définir la langue du jeu.\n \n
+		%c[pda_white]INFORMATIONS:\n
+		%c[ui_gray_2]Lors du changement de localisation, la majorité des textes seront mis à jour automatiquement. Cependant, certains textes nécessiteront un redémarrage du jeu pour être modifiés.\n \n
+		%c[pda_white]LANGUES PRIS EN CHARGE:\n
+		%c[pda_white] • Anglais : %c[ui_gray_2] ENG\n
+		%c[pda_white] • Russe : %c[ui_gray_2] RUS\n \n
+		%c[pda_white]ATTENTION :\n
+		%c[pda_white] • %c[ui_gray_2]Cette fonctionnalité peut être ajustée depuis le menu des options du jeu et est réglée sur « ENG » par défaut.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_options_lootmoney">
+		<text>Argent sur les cadavres</text>
+	</string>
+	<string id="encyclopedia_options_lootmoney_text">
+		<text>%c[pda_white]Permet de trouver de l'argent dans les poches des personnes décédées.\n \n
+		%c[pda_white]INFORMATIONS:\n
+		%c[ui_gray_2]La quantité d'argent que vous trouvez dépend du grade du stalker mort. Plus le grade est élevé, plus la somme d'argent trouvée peut être importante.\n \n
+		%c[pda_white]ATTENTION :\n
+		%c[ui_gray_2]Cette fonctionnalité peut être activée ou désactivée depuis le menu des options de gameplay et est désactivée par défaut.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_options_online_exclusion">
+		<text>Exclusion en ligne</text>
+	</string>
+	<string id="encyclopedia_options_online_exclusion_text">
+		<text>%c[pda_white]Crée une zone sans apparition autour de votre personnage.\n \n
+		%c[pda_white]INFORMATIONS:\n
+		%c[ui_gray_2]En explorant près des limites des niveaux et de leurs points d'entrée/sortie, vous pourriez être attaqué par des ennemis arrivant d'autres lieux. Avec l'exclusion en ligne activée, ces apparitions sont retardées jusqu'à ce que vous soyez hors de danger.\n \n
+		%c[pda_white]ATTENTION :\n
+		%c[ui_gray_2]Il est important de noter que ce système repose entièrement sur votre présence ; tout ennemi déjà présent à un emplacement lors de votre changement de niveau ne sera pas déspawné à votre arrivée. Cette fonctionnalité peut être ajustée depuis le menu des options de jeu et est réglée par défaut sur 25.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_options_population_factors">
+		<text>Facteurs de population</text>
+	</string>
+	<string id="encyclopedia_options_population_factors_text">
+		<text>%c[pda_white]Modifie le nombre de stalkers et de mutants rencontrés dans la Zone.\n \n
+		%c[pda_white]INFORMATIONS:\n
+		%c[ui_gray_2]Les facteurs de population des Stalkers et des mutants peuvent être ajustés indépendamment les uns des autres, permettant de décider à quel point la Zone doit être sauvage ou peuplée sans avoir besoin de modifier les fichiers du jeu.\n \n
+		%c[pda_white]ATTENTION :\n
+		%c[ui_gray_2]Il est à noter que l'effet est maximal lors de la création d'un nouveau personnage. Si ces facteurs sont modifiés en cours de partie, ils ne prendront effet qu'à mesure que les stalkers et/ou les mutants meurent et réapparaissent en plus grand ou plus petit nombre. Ces fonctionnalités peuvent être ajustées depuis le menu des options de jeu et sont réglées par défaut sur 0,5.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_options_quicksave_count">
+		<text>Nombre de sauvegardes rapides</text>
+	</string>
+	<string id="encyclopedia_options_quicksave_count_text">
+		<text>%c[pda_white]Permet au jeu d'alterner entre plusieurs sauvegardes rapides.\n \n
+		%c[pda_white]INFORMATIONS:\n
+		%c[ui_gray_2]Lors de la création d'une sauvegarde rapide, le nom du fichier sera suivi d'un numéro. Ces numéros sont utilisés par le jeu pour faciliter le suivi de plusieurs sauvegardes rapides différentes.\n \n
+		%c[pda_white]ATTENTION :\n
+		%c[ui_gray_2]Cette fonctionnalité peut être ajustée depuis le menu des options de jeu et est réglée sur 5 par défaut.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_options_radio_music">
+		<text>Musique de la radio</text>
+	</string>
+	<string id="encyclopedia_options_radio_music_text">
+		<text>%c[pda_white]Permet de diffuser des morceaux de musique personnalisés à certains emplacements.\n \n
+		%c[pda_white]INFORMATIONS:\n
+		%c[ui_gray_2]Certaines zones de la Zone disposent de radios installées, chacune diffusant une sélection de morceaux musicaux pour divertir les stalkers.\n \n
+		%c[pda_white]LIEUX:\n
+		%c[pda_white] • Agroprom : %c[ui_gray_2] Base militaire\n
+		%c[pda_white] • Cordon : %c[ui_gray_2] Bunker de Sidorovich\n
+		%c[pda_white] • Grand marais : %c[ui_gray_2] Base de Firmament\n
+		%c[pda_white] • Vallée Obscure : %c[ui_gray_2] Base des Bandits\n
+		%c[pda_white] • Rostok : %c[ui_gray_2] 100 Rads au Bar\n
+		%c[pda_white] • Forêt Rouge : %c[ui_gray_2] Tour du Forestier\n \n
+		%c[pda_white]ATTENTION :\n
+		%c[ui_gray_2]Cette fonctionnalité peut être activée ou désactivée depuis le menu des options de jeu et est activée par défaut.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_options_sleep_deprivation">
+		<text>Simulation du sommeil</text>
+	</string>
+	<string id="encyclopedia_options_sleep_deprivation_text">
+		<text>%c[pda_white]Permet au temps et à l'utilisation de consommables d'entraîner la fatigue de votre personnage.\n \n
+		%c[pda_white]INFORMATIONS:\n
+		%c[ui_gray_2]Dans toute la Zone, vous trouverez de nombreux lits et sacs de couchage. Normalement, ceux-ci ne servent qu'à sauter du temps en dormant, mais avec cette fonctionnalité activée, ils deviennent un élément essentiel du gameplay. La fatigue peut être accélérée par la consommation d'objets tels que les trousses de premiers soins et la vodka, et atténuée par des boissons énergisantes riches en caféine.\n \n
+		%c[pda_white]ATTENTION :\n
+		%c[ui_gray_2]Cette fonctionnalité peut être activée ou désactivée depuis le menu des options de jeu et est désactivée par défaut.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_options_thirst">
+		<text>Simulation de la soif</text>
+	</string>
+	<string id="encyclopedia_options_thirst_text">
+		<text>%c[pda_white]Une option hardcore permettant de simuler la soif.\n \n
+		%c[pda_white]INFORMATIONS:\n
+		%c[ui_gray_2]Cette option incite le joueur à rechercher constamment des sources d'eau et ajoute une couche supplémentaire de difficulté. Un indicateur de soif s'affichera sur votre HUD pour déterminer votre niveau de soif.\n \n
+		%c[pda_white]ATTENTION :\n
+		%c[ui_gray_2]Cette fonctionnalité peut être activée ou désactivée depuis le menu des options de jeu et est activée par défaut.\n
+		</text>
+	</string>`
+	
+	<string id="encyclopedia_options_dynamic_news">
+		<text>Actualités dynamiques</text>
+	</string>
+	<string id="encyclopedia_options_dynamic_news_text">
+		<text>%c[pda_white]Permet aux stalkers de partager leurs expériences dans la Zone.\n \n
+		%c[pda_white]INFORMATIONS:\n
+		%c[ui_gray_2]Les Stalkers commenteront les événements qu'ils ont vus ou entendus près de leur position ou lors de leurs aventures en cours, en utilisant le réseau de communication des PDA. Ces événements et activités peuvent aller de quelque chose d'aussi banal que se plaindre du prix des marchandises vendues par un marchand, à demander de l'aide à des alliés de faction lorsqu'ils sont attaqués.\n \n
+		%c[pda_white]ATTENTION :\n
+		%c[ui_gray_2]Cette fonctionnalité peut être activée ou désactivée depuis le menu des options de l'interface/HUD et est activée par défaut.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_options_extended_hud">
+		<text>HUD étendu</text>
+	</string>
+	<string id="encyclopedia_options_extended_hud_text">
+		<text>%c[pda_white]Permet l'affichage d'informations supplémentaires à l'écran.\n \n
+		%c[pda_white]INFORMATIONS:\n
+		%c[ui_gray_2]Avec cette fonctionnalité activée, des informations succinctes sur les compagnons ainsi qu'une version miniaturisée de la ceinture de l'artefact sont affichées sur le viseur tête haute.\n \n
+		%c[pda_white]ATTENTION :\n
+		%c[ui_gray_2]Cette fonctionnalité peut être activée ou désactivée depuis le menu des options de l'interface/HUD et est désactivée par défaut.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_options_portrait_by_outfit">
+		<text>Portrait par tenue</text>
+	</string>
+	<string id="encyclopedia_options_portrait_by_outfit_text">
+		<text>%c[pda_white]Modifie votre portrait en fonction de votre tenue actuelle.\n \n
+		%c[pda_white]INFORMATIONS:\n
+		%c[ui_gray_2]Avec cette fonctionnalité activée, chaque fois que vous équipez ou retirez une tenue (à l'exclusion des couvre-chefs), le portrait de votre personnage sera mis à jour pour refléter ce changement, imitant ainsi la manière dont les portraits des IA correspondent à leur apparence.\n \n
+		%c[pda_white]ATTENTION :\n
+		%c[ui_gray_2]Cette fonctionnalité peut être activée ou désactivée depuis le menu des options Générales/Gameplay et est désactivée par défaut.\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_options_use_battery">
+		<text>Utilisation de la Battery</text>
+	</string>
+	<string id="encyclopedia_options_use_battery_text">
+		<text>%c[pda_white]Nécessite des piles pour maintenir le fonctionnement des appareils.\n \n
+		%c[pda_white]INFORMATIONS:\n
+		%c[ui_gray_2]Les appareils électriques tels que les détecteurs et les lampes torches nécessitent des piles pour fonctionner correctement. Il sera donc nécessaire de toujours s'assurer d'avoir des piles de rechange disponibles.\n \n
+		%c[pda_white]ATTENTION :\n
+		%c[ui_gray_2]Cette fonctionnalité peut être activée ou désactivée depuis le menu des options de jeu et est activée par défaut.\n
+		</text>
+	</string>
+	
+</string_table>

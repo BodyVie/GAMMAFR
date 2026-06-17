@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+  New Artefacts
+-->
+<string_table>
+  <string id="st_pba_af_cocoon_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]PEAU DE PIERRE\n 
+    %c[0,81,63,22] • %c[0,209,172,56]Protection passive +15 % contre les dégâts au corps à corps\n
+    %c[0,81,63,22] • %c[0,209,172,56]Recevoir des dégâts de mêlée octroie un stack de « Peau de pierre »\n
+    %c[0,81,63,22] • %c[0,209,172,56]+15% de protection contre les dégâts au corps-à-corps / -10% de vitesse de déplacement par cumul de 'Peau de Pierre'\n
+    %c[0,81,63,22] • %c[0,209,172,56]10 stacks maximum\n
+    %c[0,81,63,22] • %c[0,209,172,56]À 10 cumuls, +75% de réduction des dégâts au corps-à-corps mais immobilisation totale\n
+    %c[0,81,63,22] • %c[0,209,172,56]L'effet dure 10 secondes, après quoi tous les stacks sont retirés\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ? : %c[ui_green]OUI\n
+    %c[0,81,63,22] • %c[0,209,172,56]Rendements décroissants ? : %c[ui_red]OUI
+	</text>
+  </string>
+  <string id="st_pba_af_cell_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]DÉSINTÉGRATEUR\n
+    %c[0,81,63,22] • %c[0,209,172,56]-15% de dégâts de balle reçus\n
+    %c[0,81,63,22] • %c[0,209,172,56]Les dégâts réduits sont convertis en radiation\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ? : %c[ui_green]OUI\n
+    %c[0,81,63,22] • %c[0,209,172,56]Rendements décroissants ? : %c[ui_red]OUI
+	</text>
+  </string>
+  <string id="st_pba_af_fountain_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]L'HEURE DES LETYSHOPS\n
+    %c[0,81,63,22] • %c[0,209,172,56]4 % de cashback sur chaque achat\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ? : %c[ui_green]OUI\n
+    %c[0,81,63,22] • %c[0,209,172,56]Rendements décroissants ? : %c[ui_green]NON
+	</text>
+  </string>
+  <string id="st_pba_af_spaika_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]ASCENSION CRITIQUE\n
+    %c[0,81,63,22] • %c[0,209,172,56]Bonus passif de +10 % aux dégâts de coup critique\n
+    %c[0,81,63,22] • %c[0,209,172,56]Les coups consécutifs octroient des stacks de « Ascension critique »\n
+    %c[0,81,63,22] • %c[0,209,172,56]Chaque cumul de 'Critical Ascensi0n' accorde +5% de dégâts au prochain tir\n
+    %c[0,81,63,22] • %c[0,209,172,56]Rater un tir supprime toutes les charges et inflige des dégâts psy proportionnels au nombre de charges supprimées\n
+    %c[0,81,63,22] • %c[0,209,172,56]Le bonus peut être stacké à l'infini tant que tu ne rates pas ton coup\n
+    %c[0,81,63,22] • %c[0,209,172,56]Retirer tous les artefacts 'Spike' supprime les cumuls sans pénalité\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ?: %c[ui_green]OUI\n
+    %c[0,81,63,22] • %c[0,209,172,56]Rendements décroissants ? : %c[ui_green]NON
+	</text>
+  </string>
+  <string id="st_pba_af_signet_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]LUMIÈRE DE TRANQUILLITÉ\n
+    %c[0,81,63,22] • %c[0,209,172,56]Restaure la santé et la santé psy près des feux de camp\n
+    %c[0,81,63,22] • %c[0,209,172,56]Amplifie la récupération psy des artefacts près des feux de camp\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ?: %c[ui_green]OUI\n
+    %c[0,81,63,22] • %c[0,209,172,56]Rendements décroissants ? : %c[ui_green]NON
+	</text>
+  </string>
+  <string id="st_pba_af_repei_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]LACÉRATIONS MINEURES\n
+    %c[0,81,63,22] • %c[0,209,172,56]Ton arme perd 50% de dégâts mais gagne la capacité de provoquer des %c[ui_red]saignements %c[0,209,172,56]\n
+    %c[0,81,63,22] • %c[0,209,172,56]Les dégâts de saignement sont proportionnels aux dégâts de l'arme\n
+    %c[0,81,63,22] • %c[0,209,172,56]Augmente les chances que les ennemis se rendent\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ?: %c[ui_green]OUI\n
+    %c[0,81,63,22] • %c[0,209,172,56]Rendements décroissants ? : %c[ui_green]NON
+  </text>
+  </string>
+  <string id="st_pba_af_bat_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]ALCHIMIE DE LA ZONE\n
+    %c[0,81,63,22] • %c[0,209,172,56]Confère la capacité de transmuter les artefacts\n
+    %c[0,81,63,22] • %c[0,209,172,56]Un Artefacts peut être amélioré vers un niveau supérieur (Night Star -> Gravi -> Gold Fish), ou « muté » en un autre artefact du même niveau (Night Star -> Sang de Pierre -> Méduse)\n
+    %c[0,81,63,22] • %c[0,209,172,56]Aptitude/Artefact de haut niveau artefacts ne peut être muté\n
+    %c[0,81,63,22] • %c[0,209,172,56]Chaque transmutation consomme un artefact « Chauve-souris »\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilement de plusieurs Artefacts ?: %c[ui_red]NON
+	</text>
+  </string>
+  <string id="st_pba_af_sun_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]ÉNERGIE SOLAIRE\n
+    %c[0,81,63,22] • %c[0,209,172,56]Accorde des modificateurs de stats selon la météo actuelle :\n
+	%c[0,209,172,56]--- Nettoyé : boost de santé et d'endurance\n
+	%c[0,209,172,56]--- Partiellement nettoyé : petit boost d'endurance\n
+	%c[0,209,172,56]--- Autre : pénalité d'endurance\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ?: %c[ui_green]OUI\n
+    %c[0,81,63,22] • %c[0,209,172,56]Rendements décroissants ? : %c[ui_green]NON
+	</text>
+  </string>
+  <string id="st_pba_af_ear_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]ENVIE DE VIVRE\n
+	%c[0,81,63,22] • %c[0,209,172,56]+6% d'atténuation des dégâts de classe BR\n	
+    %c[0,81,63,22] • %c[0,209,172,56]Accorde une régénération de santé en dessous de 25 % de PV\n
+    %c[0,81,63,22] • %c[0,209,172,56]L'effet de régénération augmente plus tu es proche de la mort\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ?: %c[ui_green]OUI\n
+    %c[0,81,63,22] • %c[0,209,172,56]Rendements décroissants ?: %c[ui_green]NON
+	</text>
+  </string>
+  <string id="st_pba_af_chelust_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]POIDS DE LA DÉVOTION\n
+    %c[0,81,63,22] • %c[0,209,172,56]Régénération passive légère de santé et d’endurance\n
+    %c[0,81,63,22] • %c[0,209,172,56]Les membres du Péché bénéficient d'un effet triplé avec en plus une régénération de santé psy\n
+    %c[0,81,63,22] • %c[0,209,172,56]Les compagnons du Péché bénéficient d'une régénération de santé\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilement de plusieurs Artefacts ?: %c[ui_red]NON
+	</text>
+  </string>
+  <string id="st_pba_af_atom_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]BÉNÉDICTION D'ARSZI\n
+    %c[0,81,63,22] • %c[0,209,172,56]La maladie des radiations booste l'endurance et élimine légèrement la radioactivité\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ?: %c[ui_green]OUI\n
+    %c[0,81,63,22] • %c[0,209,172,56]Rendements décroissants ? : %c[ui_red]OUI
+	</text>
+  </string>
+  <string id="st_pba_af_lighthouse_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]LA VOIE PEU ORTHODOXE DU VOYAGE\n
+    %c[0,81,63,22] • %c[0,209,172,56]Tuer quelqu'un te téléporte à l'endroit de sa mort\n
+    %c[0,81,63,22] • %c[0,209,172,56]Dangereux si utilisé sur des cibles aériennes\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilement de plusieurs Artefacts ?: %c[ui_red]NON
+	</text>
+  </string>
+  <string id="st_pba_af_fire_loop_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]PACTE AVEC LE DIABLE\n
+    %c[0,81,63,22] • %c[0,209,172,56]Placer artefact à la ceinture scelle le 'Pacte avec la Zone'\n\n
+	%c[0,81,63,22] • %c[ui_red]Fortement conseillé de sauvegarder avant activation.
+	</text>
+  </string>
+  <string id="st_pba_af_zhelch_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]FOLIE\n
+    %c[0,81,63,22] • %c[0,209,172,56]Résistance passive forte aux effets psychiques\n
+    %c[0,81,63,22] • %c[0,209,172,56]Draine la santé psy pour restaurer la santé\n
+    %c[0,81,63,22] • %c[0,209,172,56]Quand la santé est pleine, restaure la santé psychique\n
+    %c[0,81,63,22] • %c[0,209,172,56]Il y a un risque que tu sois possédé et que tu effectues une action incontrôlable\n
+    %c[0,81,63,22] • %c[0,209,172,56]Plus ta santé psy est basse, plus le risque et la gravité de l'effet sont élevés\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilement de plusieurs Artefacts ?: %c[ui_red]NON
+	</text>
+  </string>
+  <string id="st_pba_af_sandstone_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]INFUSION DE LA ZONE\n
+    %c[0,81,63,22] • %c[0,209,172,56]Marcher dans des anomalies de différents types imprègne ton arme active pendant 3 minutes\n
+    %c[0,81,63,22] • %c[0,209,172,56]L'arme imprégnée perd 30% de dégâts mais gagne 50% de dégâts élémentaires selon l'anomalie\n
+    %c[0,81,63,22] • %c[0,209,172,56]Seules les anomalies électriques, thermiques et chimiques sont valides pour l'infusion\n
+    %c[0,81,63,22] • %c[0,209,172,56]Tu peux lâcher un artefact directement sur une arme pour détruire l'artefact et imprégner l'arme d'un effet aléatoire pendant 10 minutes.\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ? : %c[ui_red]NON
+	</text>
+  </string>
+  <string id="st_pba_af_kislushka_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]COAGULATION CALORIQUE\n
+    %c[0,81,63,22] • %c[0,209,172,56]Utilise la faim pour soigner les saignements\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ?: %c[ui_green]OUI\n
+    %c[0,81,63,22] • %c[0,209,172,56]Rendements décroissants ? : %c[ui_red]OUI
+	</text>
+  </string>
+  <string id="st_pba_af_black_angel_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]ESQUIVE-TOI\n
+    %c[0,81,63,22] • %c[0,209,172,56]20% de chance de renvoyer 35% des dégâts de balle subis à l'attaquant\n
+    %c[0,81,63,22] • %c[0,209,172,56]Les réflexions annulent les dégâts\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ?: %c[ui_green]OUI\n
+    %c[0,81,63,22] • %c[0,209,172,56]Rendements décroissants ? : %c[ui_red]OUI
+	</text>
+  </string>
+  <string id="st_pba_af_grapes_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]GLUTTONIE NÉCESSAIRE\n
+    %c[0,81,63,22] • %c[0,209,172,56]Accorde un bonus de santé lors de la consommation de nourriture en fonction des calories\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ?: %c[ui_green]OUI\n
+    %c[0,81,63,22] • %c[0,209,172,56]Rendements décroissants ?: %c[ui_green]NON
+	</text>
+  </string>
+  <string id="st_pba_af_skull_miser_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]CRACKER LE JACKPOT\n
+    %c[0,81,63,22] • %c[0,209,172,56]Un headshot mortel fait tomber un bonus d'argent\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ?: %c[ui_green]OUI\n
+    %c[0,81,63,22] • %c[0,209,172,56]Rendements décroissants ?: %c[ui_green]NON
+	</text>
+  </string>
+  <string id="st_pba_af_star_phantom_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]PACIFISTE FANTÔME\n
+    %c[0,81,63,22] • %c[0,209,172,56]Te rend complètement invisible\n
+    %c[0,81,63,22] • %c[0,209,172,56]Durée totale de 1,5 minute\n
+    %c[0,81,63,22] • %c[0,209,172,56]Pendant l'invisibilité, tu ne peux pas sortir ton arme, parler ou interagir\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ? : %c[ui_red]NON
+	</text>
+  </string>
+  <string id="st_pba_af_medallion_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]LE PORTE-BONHEUR MALCHANCEUX\n
+    %c[0,81,63,22] • %c[0,209,172,56]35% de chances que les dégâts de balle entrants soient entièrement redirigés vers ton compagnon\n
+    %c[0,81,63,22] • %c[0,209,172,56]Peut éveiller les soupçons de certains compagnons...\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ?: %c[ui_green]OUI\n
+    %c[0,81,63,22] • %c[0,209,172,56]Rendements décroissants ? : %c[ui_red]OUI
+	</text>
+  </string>
+  <string id="st_pba_af_peas_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]HIBOU NOCTURNE\n
+    %c[0,81,63,22] • %c[0,209,172,56]Récupération des saignements et vitesse de déplacement accrues du crépuscule à l'aube\n
+    %c[0,81,63,22] • %c[0,209,172,56]Réduit la somnolence la nuit mais l'augmente pendant la journée\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ?: %c[ui_green]OUI\n
+    %c[0,81,63,22] • %c[0,209,172,56]Rendements décroissants ?: %c[ui_green]NON
+	</text>
+  </string>
+  <string id="st_pba_af_generator_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]CHARGEUR\n
+    %c[0,81,63,22] • %c[0,209,172,56]Recharge les batteries en sprintant\n
+    %c[0,81,63,22] • %c[0,209,172,56]Ne restaure pas les batteries mortes ni les appareils sans batterie\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ?: %c[ui_green]OUI\n
+    %c[0,81,63,22] • %c[0,209,172,56]Rendements décroissants ? : %c[ui_red]OUI
+	</text>
+  </string>
+  <string id="st_pba_af_ball_perk">
+	<text>
+	%c[0,209,172,56]Aptitude : %c[d_orange]LE CASSE-NOISETTES\n
+	%c[0,81,63,22]  • %c[0,209,172,56]Amplifie la puissance du pied du joueur et lui permet de botter plus de mutants, entraînant une mort instantanée.\n
+	%c[0,81,63,22]  • %c[0,209,172,56]Chaque artefact à la ceinture permet de donner plus de coups de pied aux monstres.\n
+	%c[0,81,63,22]  • %c[0,209,172,56]Temps de recharge de 2 secondes avec 1 artefact, augmente avec plus d'artefacts sur la ceinture de 1 seconde par artefact supplémentaire.\n
+	%c[0,81,63,22] • %c[0,209,172,56]Appuie sur la touche UTILISER près d'un mutant et en ligne de mire pour donner un coup de pied\n \n 
+	%c[d_orange]Tiers des Mutants : \n
+		%c[0,192,71,221] -   1 artefact : %c[ui_gray_3]Chats, Chiens, Tushkanos, Rats, Zombies.\n
+		%c[0,192,71,221] -   2 artefacts : %c[ui_gray_3]Sangliers, Flesh, Pseudochiens, Snorks, Lurkers, Fractures.\n
+		%c[0,192,71,221] -   3 artefacts : %c[ui_gray_3]Karliks, Bloodsuckers, Psysuckers, Psy-chiens, Poltergeists.\n
+		%c[0,192,71,221] -   4 artefacts : %c[ui_gray_3]Burers, Controllers.\n
+		%c[0,192,71,221] -   5 artefacts : %c[ui_gray_3]Chimères, Pseudogiants.
+	</text>
+</string>
+  <string id="st_pba_af_fonar_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]KLEPTOMANIE\n
+    %c[0,81,63,22] • %c[0,209,172,56]Les caches et objets émettent une faible lumière\n
+    %c[0,81,63,22] • %c[0,209,172,56]Les caches émettent un signal vers le récepteur RF\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ? : %c[ui_red]NON
+	</text>
+  </string>
+  <string id="st_pba_af_tapeworm_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]ÉTOURDISSANT\n
+    %c[0,81,63,22] • %c[0,209,172,56]Chance d’étourdir un mutant à moins de 2 mètres\n
+    %c[0,81,63,22] • %c[0,209,172,56]Se faire toucher par une attaque au corps-à-corps étourdit l'attaquant pendant 3 secondes\n
+    %c[0,81,63,22] • %c[0,209,172,56]L’ennemi étourdi ne peut pas attaquer\n
+    %c[0,81,63,22] • %c[0,209,172,56]Les dégâts auto-infligés (chute, etc.) provoquent une décharge de artefact\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ?: %c[ui_green]OUI\n
+    %c[0,81,63,22] • %c[0,209,172,56]Rendements décroissants ?: %c[ui_green]NON
+	</text>
+  </string>
+  <string id="st_pba_af_moh_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]HYPERVERSITÉ CULINAIRE\n
+    %c[0,81,63,22] • %c[0,209,172,56]Convertit l'énergie de la viande crue de mutants en capacités spéciales\n
+    %c[0,81,63,22] • %c[0,209,172,56]Dure 1 minute. Manger de la viande de différents mutants remplace l'effet actuel et relance le chrono du buff\n\n
+    %c[d_orange]Tableau des effets :\n
+	%c[0,192,71,221] - Viande de Flesh : %c[ui_gray_3]régénération de santé de 1%/sec, pénalité de dégâts par balle de 33%\n
+	%c[0,192,71,221] - Viande de Sanglier : %c[ui_gray_3]réduction de 25 % des dégâts au corps à corps\n
+	%c[0,192,71,221] - Viande de Chien : %c[ui_gray_3]récupération légère de saignement, régénération psy de 1%/sec\n
+	%c[0,192,71,221] - Pseudochiens : %c[ui_gray_3]régénération psy de 2%/sec, réduction des dégâts psy de 25%\n
+	%c[0,192,71,221] - Bloodsucker : %c[ui_gray_3]devient invisible jusqu'à une action hostile, récupération modérée des saignements\n
+	%c[0,192,71,221] - Psysucker : %c[ui_gray_3]devient invisible jusqu'à une action hostile, régénération psy de 5%/sec\n
+	%c[0,192,71,221] - Snork : %c[ui_gray_3]réduction de 50% des dégâts de radiation, régénération de 5%/sec de stamina, guérison de 5 mSv/sec de radiation, forte diminution de la faim\n
+	%c[0,192,71,221] - Chimère : %c[ui_gray_3]régénération de 2%/sec de santé, 10%/sec de stamina, réduction de 33% des dégâts de radiation\n
+	%c[0,192,71,221] - Lurkers : %c[ui_gray_3]réduction des dégâts d'anomalies chimiques/feu/électricité de 33%\n
+	%c[0,192,71,221] - Tushkanos : %c[ui_gray_3]augmentation de vitesse de 20%, pénalité de dégâts de mêlée de 20%\n
+	%c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ? : %c[ui_red]NON
+	</text>
+  </string>
+  <string id="st_pba_af_serofim_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]PLUIE DE RÉSURRECTION\n
+    %c[0,81,63,22] • %c[0,209,172,56]Lors d'un coup fatal, l'artefact est détruit et le joueur est réanimé\n
+    %c[0,81,63,22] • %c[0,209,172,56]50% des points de vie sont restaurés, tous les debuffs sont supprimés et 5 secondes d'immunité aux dégâts sont accordées à la réanimation\n
+    %c[0,81,63,22] • %c[0,209,172,56]À la réanimation, l'arme en cours est lâchée et la vision est altérée\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ? : %c[ui_red]NON
+	</text>
+  </string>
+  <string id="st_pba_af_elektron_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]HAUTE TENSION\n
+    %c[0,81,63,22] • %c[0,209,172,56]Marcher sur une anomalie Electra recharge les batteries et les appareils actifs\n
+    %c[0,81,63,22] • %c[0,209,172,56]Marcher sur une anomalie Electra permet de sprinter à l'infini pendant un court instant\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ? : %c[ui_red]NON
+	</text>
+  </string>
+  <string id="st_pba_af_kogot_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]BERZERK\n
+	%c[0,81,63,22] • %c[0,209,172,56]+6% d'atténuation des dégâts de classe BR\n	
+    %c[0,81,63,22] • %c[0,209,172,56]Passif : +10 % de dégâts au corps à corps\n	
+    %c[0,81,63,22] • %c[0,209,172,56]Passif : +10 % de dégâts au corps à corps\n
+    %c[0,81,63,22] • %c[0,209,172,56]3,5 % des dégâts de mêlée sont convertis en santé\n
+    %c[0,81,63,22] • %c[0,209,172,56]En tuant certains mutants, il y a une chance que de la viande crue apparaisse aux alentours\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ?: %c[ui_green]OUI\n
+    %c[0,81,63,22] • %c[0,209,172,56]Rendements décroissants ?: %c[ui_green]NON
+	</text>
+  </string>
+  <string id="st_pba_af_dragon_eye_perk">
+    <text>
+    %c[0,209,172,56]Aptitude : %c[d_orange]ULTRA-VIOLENCE\n
+    %c[0,81,63,22] • %c[0,209,172,56]5 % de chances que les tirs soient explosifs\n
+    %c[0,81,63,22] • %c[0,209,172,56]Il y a une chance qu'un PNJ ou un mutant tué par un tir explosif explose violemment\n
+    %c[0,81,63,22] • %c[0,209,172,56]L'effet se cumule avec plusieurs artefacts (risque d'explosion)\n
+    %c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ?: %c[ui_green]OUI\n
+    %c[0,81,63,22] • %c[0,209,172,56]Rendements décroissants ?: %c[ui_green]NON
+	</text>
+  </string>
+</string_table>

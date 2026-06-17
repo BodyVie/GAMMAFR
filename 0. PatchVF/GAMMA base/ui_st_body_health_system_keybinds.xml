@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_body_health_system_hud_toggle_key_bind">
+		<text>Afficher l'interface</text>
+	</string>
+	<string id="ui_mcm_body_health_system_chance_damage_on_footstep">
+		<text>Risque de dégâts en sprint</text>
+	</string>
+	<string id="ui_mcm_body_health_system_chance_damage_on_footstep_desc">
+		<text>Endommage l'utilisateur lors d'un sprint avec des fractures aux jambes.</text>
+	</string>
+</string_table>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="yan_stalker_sakharov_task_5_name">
+		<text>Nettoyage du Champ de Recherche Lab X16 pour les Scientifiques</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_5_text">
+		<text>Le professeur Sakharov a besoin que le laboratoire X16 soit débarrassé des mutants afin que ses équipes puissent y mener des recherches.</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_5_about">
+		<text>Cher stalker, j’ai une mission pour vous si vous êtes prêt à relever le défi. Mes assistants et équipes de recherche doivent inspecter certaines anomalies dans le laboratoire X16, également appelé le Laboratoire du Cerveau ou la Machine à Miracles. Selon des recherches récentes, de tels laboratoires peuvent apparemment contenir des artefacts très rares. Le problème principal est que, depuis l’arrêt de la machine, le laboratoire est devenu le repaire de nombreux mutants. Cela entrave mes recherches et j’ai besoin que le laboratoire X16 soit purgé de la présence de ces mutants. Pourriez-vous m’aider ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_5_finish">
+		<text>Excellente nouvelle, j’envoie mes équipes de recherche et mes assistants dès que possible. Voici votre récompense. À la prochaine, stalker.</text>
+	</string>
+	
+	<string id="yan_stalker_sakharov_task_6_name">
+		<text>Nettoyage du Champ de Recherche des Souterrains d'Agroprom pour les Scientifiques</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_6_text">
+		<text>Le professeur Sakharov a besoin que le laboratoire des Souterrains d'Agroprom soit débarrassé des mutants afin que ses équipes puissent y effectuer des recherches.</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_6_about">
+		<text>Cher stalker, j’ai une mission pour vous si vous êtes prêt à relever le défi. Mes assistants et équipes de recherche doivent inspecter certaines anomalies dans les Souterrains d'Agroprom. Selon des recherches récentes, ce lieu renferme des artefacts rares. Cependant, cette installation est peuplée de mutants et est très peu sûre. Si mes équipes savent qu’un stalker expérimenté l’a récemment nettoyée, je pense qu’elles auront le courage d’y mener des recherches. Pourriez-vous m’aider ?</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_6_finish">
+		<text>Excellente nouvelle, j’envoie mes équipes de recherche et mes assistants dès que possible. Voici votre récompense. À la prochaine, stalker.</text>
+	</string>
+	
+	<string id="esc_2_12_stalker_fanat_task_3_name">
+		<text>Nettoyage de Mutants dans la Prairie</text>
+	</string>
+	<string id="esc_2_12_stalker_fanat_task_3_text">
+		<text>Les Fanatic souhaitent que la Prairie soit nettoyée des mutants afin que les Solitaires puissent y établir une base dans un avenir proche.</text>
+	</string>
+	<string id="esc_2_12_stalker_fanat_task_3_fetch_about">
+		<text>Écoutez-moi bien : de plus en plus de Solitaires arrivent dans le Cordon et nous souhaitons étendre la base vers la Prairie. C’est un endroit stratégique et accueillant, mais il est infesté de dangereux mutants. Nous avons besoin de quelqu’un pour nettoyer les différents nids de mutants de la Prairie. Êtes-vous partant ? Vous serez bien sûr récompensé, compte tenu du danger que représente cet endroit.</text>
+	</string>
+	<string id="esc_2_12_stalker_fanat_task_3_fetch_finish">
+		<text>Ah, vous avez débarrassé la Prairie des mutants ? C’est une nouvelle extrêmement positive, pour être honnête, je ne pensais pas que vous y parviendriez. Cela facilitera sans aucun doute les prochaines expéditions vers la Prairie. Qui sait, peut-être pourrons-nous commencer à y construire un avant-poste. Voici votre récompense.</text>
+	</string>
+
+	<string id="mechanic_explanation">
+		<text>Bratan, tu crois vraiment que j'ai que ça à foutre, réparer ton matos ? « Fais-le toi-même », tu connais pas ? J'ai entendu que c'était tendance sur les réseaux. Bref, tu peux utiliser l'établi juste là, c'est gratuit. Tu le repères grâce à la lampe allumée. Tout le monde l'utilise, et pourtant personne éteint. J'imagine que sauver la planète, c'est pas la priorité de la plupart des stalkers. \n\n
+		Bon, pas la peine de faire la gueule, je vais te filer deux-trois tuyaux.\n
+		D'abord, retiens bien que tu peux intervertir les pièces de flingue sans établi ni kit de réparation, sauf pour le canon. Les kits de réparation, par contre, te permettent de remplacer n'importe quelle pièce par une neuve. Pendant ce temps, les kits de nettoyage te permettent de nettoyer les pièces encrassées directement dans ton arme, canon inclus.\n
+		Maintenant, de retour à l'établi, tu peux réparer tes flingues et tes armures avec les kits de réparation adaptés, là-bas. Tu peux aussi améliorer ton matos et bricoler du nouveau matos. Pour te donner des idées sur comment fabriquer des trucs, j'ai des plans à vendre si ça t'intéresse. 
+		</text>
+	</string>
+
+
+
+</string_table>

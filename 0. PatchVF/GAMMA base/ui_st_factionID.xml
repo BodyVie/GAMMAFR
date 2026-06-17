@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="ui_mcm_menu_targetID">
+		<text>Identification de faction</text>
+	</string>
+
+	<string id="ui_mcm_targetID_deadID">
+		<text>Identifier les stalkers morts</text>
+	</string>
+
+	<string id="ui_mcm_targetID_nameID">
+		<text>Identifier les noms des stalkers</text>
+	</string>
+
+	<string id="ui_mcm_targetID_timeID">
+		<text>Retarder l'identification par la distance</text>
+	</string>
+	<string id="ui_mcm_targetID_timeID_desc">
+		<text>Si cette option est activée, l'identification nécessitera de fixer un stalker pendant une durée déterminée par la distance pour l'identifier.</text>
+	</string>
+
+	<string id="ui_mcm_targetID_rankID">
+		<text>Identifier le grade du stalker</text>
+	</string>
+
+	<string id="ui_mcm_targetID_talkName">
+		<text>Apprentissage du nom requis</text>
+	</string>
+	<string id="ui_mcm_targetID_talkName_desc">
+		<text>Si cette option est activée, le joueur doit parler à un stalker ou le fouiller pour connaître son nom et son grade.</text>
+	</string>
+
+	<string id="ui_mcm_targetID_speedID">
+		<text>Vitesse d'identification</text>
+	</string>
+	
+	<string id="ui_mcm_targetID_xo">
+		<text>Position X</text>
+	</string>
+	<string id="ui_mcm_targetID_yo">
+		<text>Position Y</text>
+	</string>
+	
+	<string id="ui_mcm_targetID_xp">
+		<text>Décalage X de l'écusson</text>
+	</string>
+	<string id="ui_mcm_targetID_yp">
+		<text>Décalage Y de l'écusson</text>
+	</string>
+	
+	<string id="ui_mcm_targetID_xn">
+		<text>Décalage X du nom</text>
+	</string>
+	<string id="ui_mcm_targetID_yn">
+		<text>Décalage Y du nom</text>
+	</string>
+	
+	<string id="ui_mcm_targetID_xr">
+		<text>Décalage X du grade</text>
+	</string>
+	<string id="ui_mcm_targetID_yr">
+		<text>Décalage Y du grade</text>
+	</string>
+	
+	<string id="ui_mcm_targetID_flipAlign">
+		<text>Inverser l'alignement du texte</text>
+	</string>
+	<string id="ui_mcm_targetID_flipAlign_desc">
+		<text>Le nom et le grade seront alignés à droite afin de permettre le placement de l'interface HUD sur le côté droit de l'écran.</text>
+	</string>
+	
+	<string id="ui_mcm_targetID_colorR">
+		<text>Couleur R du texte du nom</text>
+	</string>
+	<string id="ui_mcm_targetID_colorG">
+		<text>Couleur G du texte du nom</text>
+	</string>
+	<string id="ui_mcm_targetID_colorB">
+		<text>Couleur B du texte du nom</text>
+	</string>
+	
+	<string id="ui_mcm_targetID_RcolorR">
+		<text>Couleur R du texte du grade</text>
+	</string>
+	<string id="ui_mcm_targetID_RcolorG">
+		<text>Couleur G du texte du grade</text>
+	</string>
+	<string id="ui_mcm_targetID_RcolorB">
+		<text>Couleur B du texte du grade</text>
+	</string>
+	
+	<string id="ui_mcm_targetID_targL">
+		<text>Tolérance de ciblage</text>
+	</string>
+	<string id="ui_mcm_targetID_targL_desc">
+		<text>Distance maximale à laquelle la cible peut se trouver par rapport au centre de l'écran tout en étant identifiée. Une valeur plus élevée est moins tolérante, tandis que des valeurs plus basses facilitent le suivi d'une cible sans grossissement. Une valeur de 1,0 signifie qu'il faut viser directement la cible.</text>
+	</string>
+	
+	<string id="ui_mcm_targetID_unknown">
+		<text>Inconnu</text>
+	</string>
+	<string id="ui_mcm_targetID_scan">
+		<text>Identification...</text>
+	</string>
+	
+	
+</string_table>

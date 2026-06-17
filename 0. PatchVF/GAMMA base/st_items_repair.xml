@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	WEAPON PART MAINTENANCE
+-->
+
+	<string id="st_rasp_tool">
+		<text>Fichier</text>
+	</string>
+	<string id="st_rasp_tool_descr">
+		<text>Un outil simple mais essentiel utilisé pour lisser les bords rugueux, éliminer la rouille ou façonner des pièces métalliques lors de réparations improvisées sur le terrain.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Maintenance des parties d'arme\n
+		</text>
+	</string>
+
+	<string id="st_leatherman_tool">
+		<text>Multitool</text>
+	</string>
+	<string id="st_leatherman_tool_descr">
+		<text>Un outil compact et polyvalent équipé de pinces, de tournevis, de lames et d'autres éléments essentiels pour le démontage des armes et des armures, les réparations rapides et les tâches de survie.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Outil de démontage\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Maintenance des parties d'arme\n
+		</text>
+	</string>
+	
+	<string id="st_ramrod_tool">
+		<text>Tige de nettoyage</text>
+	</string>
+	<string id="st_ramrod_tool_descr">
+		<text>Une tige de nettoyage robuste utilisée pour éliminer les obstructions, nettoyer les canons et garantir le bon fonctionnement des armes à feu après une utilisation intensive dans l'environnement hostile de la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Maintenance des parties d'arme\n
+		</text>
+	</string>
+
+	<string id="st_cleaning_kit_u">
+		<text>Kit de nettoyage universel pour pièces d'arme</text>
+	</string>
+	<string id="st_cleaning_kit_u_descr">
+		<text>Un kit de nettoyage polyvalent conçu pour l'entretien d'une large gamme d'armes à feu couramment rencontrées dans la Zone, des fusils soviétiques usagés aux armes modernes de l'OTAN. Il comprend des brosses, des solvants, des chiffons et des outils pour éliminer la saleté, les résidus de carbone et l'humidité.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Maintenance des parties d'arme\n
+		%c[d_orange] • %c[pda_white] Compatibilité : %c[ui_gray_2] Toutes les armes\n
+		</text>
+	</string>
+
+<!--
+	OUTFIT PART MAINTENANCE
+-->
+
+	<string id="st_sewing_thread">
+		<text>Fil à coudre</text>
+	</string>
+	<string id="st_sewing_thread_descr">
+		<text>Un fil résistant et polyvalent, essentiel pour recoudre les déchirures dans les vêtements, les armures légères ou les sacs à dos sur le terrain. Bien que simple, il constitue un élément crucial de toute trousse de survie.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Maintenance des parties d'équipement\n
+		</text>
+	</string>
+
+	<string id="st_heavy_sewing_thread">
+		<text>Trousse d'outils pour armure de terrain</text>
+	</string>
+	<string id="st_heavy_sewing_thread_descr">
+		<text>Un kit compact mais complet conçu pour les réparations d'urgence d'armures sur le terrain. Il contient des outils de base, des rustines, des adhésifs et des matériaux de couture. Bien qu'il ne permette pas de restaurer l'équipement dans son état d'origine, il peut colmater des impacts de balles, renforcer les coutures et maintenir l'armure en état suffisamment longtemps pour survivre à un nouveau combat.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Maintenance des parties d'équipement\n
+		</text>
+	</string>
+
+<!--
+	WEAPON REPAIR
+-->
+
+	<string id="st_solvent">
+		<text>Solvant de nettoyage "Hoppe's No. 9"</text>
+	</string>
+	<string id="st_solvent_descr">
+		<text>Un solvant de nettoyage pour armes à feu d'origine occidentale, classique et largement reconnu, réputé pour sa capacité à dissoudre le carbone, le plomb et les résidus de poudre. Toutefois, il nécessite des outils adaptés pour être appliqué correctement et doit donc être considéré comme un complément plutôt qu'un produit d'entretien autonome.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Amélioration de l'état général de l'arme\n
+		%c[d_orange] • %c[pda_white] Compatibilité : %c[ui_gray_2] Toutes les armes\n
+		</text>
+	</string>
+
+	<string id="st_gun_oil">
+		<text>Lubrifiant en spray "Brunox Gun Care"</text>
+	</string>
+	<string id="st_gun_oil_descr">
+		<text>Un lubrifiant en aérosol polyvalent conçu pour protéger les armes à feu de la rouille, de la corrosion et de l'accumulation de saletés. Cependant, il nécessite des outils adaptés pour être appliqué correctement et doit donc être considéré comme un complément plutôt qu'un produit d'entretien autonome.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Amélioration de l'état général de l'arme\n
+		%c[d_orange] • %c[pda_white] Compatibilité : %c[ui_gray_2] Toutes les armes\n
+		</text>
+	</string>
+
+	<string id="st_gun_oil_ru_d">
+		<text>Solvant de nettoyage "Dvojka"</text>
+	</string>
+	<string id="st_gun_oil_ru_d_descr">
+		<text>Une solution de nettoyage pour armes d'époque soviétique, connue pour sa composition chimique agressive et son odeur forte, efficace pour éliminer même les saletés les plus tenaces. Cependant, elle nécessite des outils adaptés pour être appliquée correctement et doit donc être considérée comme un complément plutôt qu'un produit d'entretien autonome.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Amélioration de l'état général de l'arme\n
+		%c[d_orange] • %c[pda_white] Compatibilité : %c[ui_gray_2] Toutes les armes\n
+		</text>
+	</string>
+
+	<string id="st_gun_oil_ru">
+		<text>Huile pour armes "Rusak"</text>
+	</string>
+	<string id="st_gun_oil_ru_descr">
+		<text>Bouteille en plastique contenant une huile minérale russe économique destinée à la lubrification et à la protection des armes à feu. Cependant, elle nécessite des outils adaptés pour être appliquée correctement et doit donc être considérée comme un complément plutôt qu'un article d'entretien autonome.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Amélioration de l'état général de l'arme\n
+		%c[d_orange] • %c[pda_white] Compatibilité : %c[ui_gray_2] Toutes les armes\n
+		</text>
+	</string>
+
+<!--
+	OUTFIT REPAIR
+-->
+
+	<string id="st_sewing_kit_b">
+		<text>Kit de couture (basique)</text>
+	</string>
+	<string id="st_sewing_kit_b_descr">
+		<text>Une trousse de couture légère composée d'une bobine de fil, de plusieurs aiguilles en acier et d'une paire de ciseaux. Peut être utilisée pour recoudre des impacts de balles ou des déchirures dans les tissus souples.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Réparation de l'équipement\n
+		%c[d_orange] • %c[pda_white] Compatibilité : %c[ui_gray_2] Tous les équipements et ensembles de casques légers\n
+		</text>
+	</string>
+
+	<string id="st_sewing_kit_a">
+		<text>Kit de couture (avancé)</text>
+	</string>
+	<string id="st_sewing_kit_a_descr">
+		<text>Un kit de couture avancé contenant des accessoires de meilleure qualité que sa version basique. Des bobines doubles de fil nylon et une large sélection d'aiguilles de haute qualité le rendent adapté au travail sur des matériaux plus épais et plus résistants, y compris les peaux légères de mutants et les fibres artificielles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Réparation de l'équipement\n
+		%c[d_orange] • %c[pda_white] Compatibilité : %c[ui_gray_2] Tous les équipements et ensembles de couvre-chefs légers\n
+		</text>
+	</string>
+	
+	<string id="st_sewing_kit_h">
+		<text>Kit de couture (lourd)</text>
+	</string>
+	<string id="st_sewing_kit_h_descr">
+		<text>Cette trousse de couture militaire lourde est conçue pour réparer les fractures des plaques de protection des armures de combat modernes. Elle contient suffisamment de fil métallique pour assembler des tenues littéralement déchirées et peut recoudre même les peaux les plus résistantes des mutants.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Réparation de l'équipement\n
+		%c[d_orange] • %c[pda_white] Compatibilité : %c[ui_gray_2] Tous les équipements et ensembles de couvre-chefs légers\n
+		</text>
+	</string>
+
+	<string id="st_glue_e">
+		<text>Tube de colle "M17"</text>
+	</string>
+	<string id="st_glue_e_descr">
+		<text>La « M17 » est le résultat d'un projet de recherche militaire et industriel soviétique visant à concevoir un adhésif extrêmement puissant, composé d'un seul ingrédient, utilisable dans toutes les situations, quel que soit l'usage ou les matériaux concernés. Il n'existe pratiquement aucun dommage que cette colle ne puisse réparer.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Réparation de l'équipement\n
+		%c[d_orange] • %c[pda_white] Compatibilité : %c[ui_gray_2] Tous les équipements et ensembles de couvre-chefs légers\n
+		</text>
+	</string>
+
+	<string id="st_glue_a">
+		<text>Tube de colle "Tur"</text>
+	</string>
+	<string id="st_glue_a_descr">
+		<text>Colle modifiée à base d'époxy produite par l'industrie chimique ukrainienne, permettant de lier rapidement la plupart des matériaux solides, y compris les tissus textiles et les matériaux de protection légers comme le Kevlar. Malheureusement, elle s'avère inefficace pour lier les métaux.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Réparation de l'équipement\n
+		%c[d_orange] • %c[pda_white] Compatibilité : %c[ui_gray_2] Tous les équipements et ensembles de couvre-chefs légers\n
+		</text>
+	</string>
+
+	<string id="st_glue_b">
+		<text>Tube de colle "Zviezda"</text>
+	</string>
+	<string id="st_glue_b_descr">
+		<text>Le moins cher des adhésifs synthétiques disponibles dans la Zone, cette solution à base d'époxy peut être utilisée pour assembler des morceaux de tissu légèrement déchirés ou pour colmater de petits trous.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Réparation d'équipement\n
+		%c[d_orange] • %c[pda_white] Compatibilité : %c[ui_gray_2] Tous les équipements et ensembles de couvre-chefs légers\n
+		</text>
+	</string>
+
+	<string id="st_light_repair_kit">
+		<text>Kit de réparation pour armure (Armure légère)</text>
+	</string>
+	<string id="st_light_repair_kit_descr">
+		<text>Ce kit compact contient des outils de base, des patches adhésifs et des produits d'étanchéité conçus pour des réparations rapides sur le terrain des armures légères et des combinaisons. Idéal pour les stalkers qui privilégient la rapidité et la mobilité, il permet de colmater les petites déchirures et de renforcer les couches de protection en déplacement.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Réparation d'équipement\n
+		%c[d_orange] • %c[pda_white] Compatibilité : %c[ui_gray_2] Armures très légères et légères\n
+		</text>
+	</string>
+	
+	<string id="st_medium_repair_kit">
+		<text>Kit de réparation pour armure (Armure moyenne)</text>
+	</string>
+	<string id="st_medium_repair_kit_descr">
+		<text>Cet ensemble complexe et lourd comprend tout le nécessaire, des fils ultra-résistants et des aiguilles aux patches à base de polymère, pour effectuer des réparations complètes sur tout type d'armure high-tech. Il peut être utilisé quel que soit le matériau concerné, qu'il s'agisse de tissu épais ou de plaques de Kevlar de qualité militaire.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Réparation d'équipement\n
+		%c[d_orange] • %c[pda_white] Compatibilité : %c[ui_gray_2] Armures intermédiaires\n
+		</text>
+	</string>
+
+	<string id="st_exolight_repair_kit">
+		<text>Kit de réparation pour armure (Armure lourde)</text>
+	</string>
+	<string id="st_exolight_repair_kit_descr">
+		<text>Ensemble robuste d'outils et de matériaux conçu pour l'entretien et la restauration des combinaisons de protection lourdes et des armures épaisses. Il comprend des segments de plaques renforcées, des adhésifs de qualité industrielle et des outils spécialisés capables de traiter même les dommages de grade combat.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Réparation d'équipement\n
+		%c[d_orange] • %c[pda_white] Compatibilité : %c[ui_gray_2] Armures lourdes\n
+		</text>
+	</string>
+
+	<string id="st_exo_repair_kit">
+		<text>Kit de réparation pour armure (Exosquelette)</text>
+	</string>
+	<string id="st_exo_repair_kit_descr">
+		<text>Un ensemble de réparation spécialisé destiné à maintenir l'équilibre délicat entre les systèmes mécaniques et le blindage protecteur des exosquelettes. Il inclut du fluide hydraulique, des composants de servomoteurs, des joints d'étanchéité et des rustines de blindage lourd, essentiels pour garantir le bon fonctionnement de la combinaison.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Réparation d'équipement\n
+		%c[d_orange] • %c[pda_white] Compatibilité : %c[ui_gray_2] Exosquelettes\n
+		</text>
+	</string>
+
+	<string id="st_helmet_repair_kit">
+		<text>Kit de réparation (casque)</text>
+	</string>
+	<string id="st_helmet_repair_kit_descr">
+		<text>Ce kit ciblé est conçu spécifiquement pour la réparation des casques, masques à gaz et autres équipements de protection de la tête essentiels utilisés dans la Zone. Il contient du polish pour verres, des sangles de rechange, du mastic pour filtres à air et des rustines de blindage mineures afin d'assurer une protection optimale contre les dangers environnementaux.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Réparation d'équipement\n
+		%c[d_orange] • %c[pda_white] Compatibilité : %c[ui_gray_2] Ensembles de casques moyens et lourds\n
+		</text>
+	</string>
+
+	<string id="st_armor_repair_fa">
+		<text>Kit de réparation d'armure (Urgence)</text>
+	</string>
+	<string id="st_armor_repair_fa_descr">
+		<text>Un kit de réparation permettant des réparations d'urgence sur les équipements. Il comprend du ruban adhésif militaire et des feuilles de textile épais prêtes à l'emploi, de différentes formes et tailles, permettant de colmater rapidement tout dommage sur un équipement.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Réparation d'équipement\n
+		%c[d_orange] • %c[pda_white] Compatibilité : %c[ui_gray_2] Tous les équipements et ensembles de couvre-chefs légers\n
+		</text>
+	</string>
+
+<!--
+	MELEE REPAIR
+--> 
+
+	<string id="st_sharpening_stones">
+		<text>Jeu de pierres à aiguiser</text>
+	</string>
+	<string id="st_sharpening_stones_descr">
+		<text>Un ensemble de pierres à aiguiser de différents grains conditionnées dans un sachet en polyester. Utilisées pour entretenir et restaurer le tranchant des couteaux et autres outils tranchants, un aiguisage régulier garantit l'efficacité des armes et des outils.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2] Réparation des couteaux\n
+		%c[d_orange] • %c[pda_white] Compatibilité : %c[ui_gray_2] Tous les couteaux\n
+		</text>
+	</string>
+
+<!--
+	EMPTY BOXES
+-->
+
+	<string id="st_repair_kit_p_empty">
+		<text>Kit de réparation (Vide)</text>
+	</string>
+	<string id="st_repair_kit_p_empty_descr">
+		<text>Une boîte métallique vide ayant précédemment contenu des outils et des pièces détachées utilisables pour l'entretien des armes à feu.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_repair_kit_r7_empty">
+		<text>Kit de réparation (Vide)</text>
+	</string>
+	<string id="st_repair_kit_r7_empty_descr">
+		<text>Une boîte métallique vide ayant précédemment contenu des outils et des pièces détachées utilisables pour l'entretien des armes à feu.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+	
+	<string id="st_repair_kit_s_empty">
+		<text>Kit de réparation (Vide)</text>
+	</string>
+	<string id="st_repair_kit_s_empty_descr">
+		<text>Une boîte métallique vide ayant précédemment contenu des outils et des pièces détachées utilisables pour l'entretien des armes à feu.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+	
+	<string id="st_repair_kit_r5_empty">
+		<text>Kit de réparation (Vide)</text>
+	</string>
+	<string id="st_repair_kit_r5_empty_descr">
+		<text>Une boîte métallique vide ayant précédemment contenu des outils et des pièces détachées utilisables pour l'entretien des armes à feu.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+<!-- UNUSED
+
+	<string id="st_cleaning_kit_s">
+		<text>Kit de nettoyage calibre 12 "Aurora A108/12"</text>
+	</string>
+	<string id="st_cleaning_kit_s_descr">
+		<text>Un ensemble de brosses spécialisées pouvant être utilisées pour nettoyer le canon et d'autres parties d'une arme à feu de la saleté, du sable, de l'humidité, des résidus de lubrifiant et d'autres matériaux étrangers accumulés lors de son utilisation. De tels ensembles sont couramment utilisés dans la Zone afin de maintenir les armes en parfait état en permanence.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[ui_gray_2] Utilisable pour le nettoyage des pièces d'armes encrassées\n
+		%c[d_orange] • %c[ui_gray_2] Clic droit sur l'arme &gt; maintenance des pièces &gt; nettoyer la pièce\n \n
+		%c[pda_white]Compatibilité : 
+		%c[d_orange] • %c[ui_gray_2] 12ga\n
+		</text>
+	</string>
+
+	<string id="st_cleaning_kit_r7">
+		<text>Kit de nettoyage pour fusil de moyen et gros calibre</text>
+	</string>
+	<string id="st_cleaning_kit_r7_descr">
+		<text>Un ensemble de brosses spécialisées pouvant être utilisées pour nettoyer le canon et d'autres parties d'une arme à feu de la saleté, du sable, de l'humidité, des résidus de lubrifiant et d'autres matériaux étrangers accumulés lors de son utilisation. De tels ensembles sont couramment utilisés dans la Zone afin de maintenir les armes en parfait état en permanence.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[ui_gray_2] Utilisable pour le nettoyage des pièces d'armes encrassées\n
+		%c[d_orange] • %c[ui_gray_2] Clic droit sur l'arme &gt; maintenance des pièces &gt; nettoyer la pièce\n \n
+		%c[pda_white]Compatibilité : 
+		%c[d_orange] • %c[ui_gray_2] 7,62, 7,92, 9x39, .338\n
+		</text>
+	</string>
+	
+	<string id="st_cleaning_kit_p">
+		<text>Kit de nettoyage pour arme de poing "Progress"</text>
+	</string>
+	<string id="st_cleaning_kit_p_descr">
+		<text>Un ensemble de brosses spécialisées utilisées pour nettoyer le canon et d'autres parties d'une arme à feu de la saleté, du sable, de l'humidité, des résidus de lubrifiant et d'autres matériaux étrangers accumulés lors de son utilisation. De tels ensembles sont couramment utilisés dans la Zone afin de maintenir les armes en parfait état en permanence.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[ui_gray_2] Utilisable pour le nettoyage des pièces d'armes encrassées\n
+		%c[d_orange] • %c[ui_gray_2] Clic droit sur l'arme &gt; maintenance des pièces &gt; nettoyer la pièce\n \n
+		%c[pda_white]Compatibilité : 
+		%c[d_orange] • %c[ui_gray_2] 9 mm, .45, .357\n
+		</text>
+	</string>
+
+	<string id="st_cleaning_kit_r5">
+		<text>Kit de nettoyage pour carabine de petit calibre "ValuPro III"</text>
+	</string>
+	<string id="st_cleaning_kit_r5_descr">
+		<text>Un ensemble de brosses spécialisées pouvant être utilisées pour nettoyer le canon et d'autres parties d'une arme à feu de la saleté, du sable, de l'humidité, des résidus de lubrifiant et d'autres matériaux étrangers accumulés lors de son utilisation. De tels ensembles sont couramment utilisés dans la Zone afin de maintenir les armes en parfait état en permanence.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[ui_gray_2] Utilisable pour le nettoyage des pièces d'armes encrassées\n
+		%c[d_orange] • %c[ui_gray_2] Clic droit sur l'arme &gt; maintenance des pièces &gt; nettoyer la pièce\n \n
+		%c[pda_white]Compatibilité : 
+		%c[d_orange] • %c[ui_gray_2] 5.45, 5.56\n
+		</text>
+	</string>
+
+	<string id="st_repair_kit_p">
+		<text>Kit de réparation pour arme de poing</text>
+	</string>
+	<string id="st_repair_kit_p_descr">
+		<text>Ce kit contient des huiles, des solvants, du matériel de nettoyage de base et des outils spécialisés utilisés pour le démontage et l'entretien des mécanismes d'armes. Il comprend également un ensemble de pièces détachées élémentaires pour armes à feu. Plutôt lourd, mais indispensable lors des expéditions en profondeur dans la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[ui_gray_2] utilisable pour remplacer des pièces d'armes\n
+		%c[d_orange] • %c[ui_gray_2] Clic droit sur l'arme &gt; maintenance des pièces &gt; remplacer la pièce\n \n
+		%c[pda_white]Compatibilité : 
+		%c[d_orange] • %c[ui_gray_2] 9 mm, .45, .357\n
+		</text>
+	</string>
+
+	<string id="st_repair_kit_s">
+		<text>Kit de réparation pour fusil</text>
+	</string>
+	<string id="st_repair_kit_s_descr">
+		<text>Ce kit contient des huiles, des solvants, un équipement de nettoyage de base et des outils spécialisés utilisés pour le démontage et l'entretien des mécanismes d'armes. Il est également fourni avec un ensemble de pièces détachées élémentaires pour armes à feu. Assez lourd, mais indispensable pour s'aventurer profondément dans la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[ui_gray_2] utilisable pour remplacer des pièces d'armes\n
+		%c[d_orange] • %c[ui_gray_2] Clic droit sur l'arme &gt; maintenance des pièces &gt; remplacer la pièce\n \n
+		%c[pda_white]Compatibilité : 
+		%c[d_orange] • %c[ui_gray_2] 12ga\n
+		</text>
+	</string>
+	
+	<string id="st_repair_kit_r5">
+		<text>Kit de réparation pour carabine de petit calibre</text>
+	</string>
+	<string id="st_repair_kit_r5_descr">
+		<text>Ce kit contient des huiles, des solvants, du matériel de nettoyage de base et des outils spécialisés utilisés pour le démontage et l'entretien des mécanismes d'armes. Il comprend également un ensemble de pièces détachées élémentaires pour armes à feu. Plutôt lourd, mais indispensable lors des expéditions en profondeur dans la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[ui_gray_2] utilisable pour remplacer des pièces d'armes\n
+		%c[d_orange] • %c[ui_gray_2] Clic droit sur l'arme &gt; maintenance des pièces &gt; remplacer la pièce\n \n
+		%c[pda_white]Compatibilité : 
+		%c[d_orange] • %c[ui_gray_2] 5.45, 5.56\n
+		</text>
+	</string>
+
+	<string id="st_repair_kit">
+		<text>Kit de réparation pour combinaison lourde</text>
+	</string>
+	<string id="st_repair_kit_descr">
+		<text>Cet ensemble complexe et lourd comprend tout le nécessaire, des fils ultra-résistants et des aiguilles aux patches à base de polymère, pour effectuer des réparations complètes sur tout type d'armure high-tech. Il peut être utilisé quel que soit le matériau concerné, qu'il s'agisse de tissu épais ou de plaques de Kevlar de qualité militaire.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[ui_gray_2] utilisable pour réparer l'équipement\n \n
+		%c[pda_white]Compatibilité : 
+		%c[d_orange] • %c[ui_gray_2] tous les équipements et ensembles de couvre-chef\n
+		</text>
+	</string>
+
+-->
+
+</string_table>

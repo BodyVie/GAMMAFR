@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<!--COMMON-->
+	<string id="st_mag_weapon_jammed">
+		<text>Arme enrayée</text>
+	</string>
+	<string id="st_mag_eject_magazine">
+		<text>Éjecter le chargeur</text>
+	</string>
+	<string id="st_mag_unload_ammo">
+		<text>Décharger les munitions</text>
+	</string>
+	<string id="st_mag_loadout_remove">
+		<text>Retirer de l'équipement</text>
+	</string>
+	<string id="st_mag_loadout_add">
+		<text>Ajouter à l'équipement</text>
+	</string>
+
+	<string id="st_mag_retool">
+		<text>Réoutillage</text>
+	</string>
+	
+	<string id="st_mag_err_retool">
+		<text>Impossible de réoutiller un chargeur chargé ! Retirez toutes les cartouches avant le réoutillage.</text>
+	</string>
+	<!-- MCM -->
+	
+	<string id="ui_mcm_menu_magazines">
+		<text>Chargeurs</text>
+	</string>
+	<string id="ui_mcm_menu_mgmt">
+		<text>Gestion des chargeurs</text>
+	</string>
+	<string id="ui_mcm_menu_hud">
+		<text>Interface du chargeur</text>
+	</string>
+	<string id="ui_mcm_menu_gameplay">
+		<text>Options de gameplay</text>
+	</string>
+	<string id="ui_mcm_magazines_mgmtitle">
+		<text>Anomaly Magazines Redux</text>
+	</string>
+	<string id="ui_mcm_magazines_hudtitle">
+		<text>Options de l'interface</text>
+	</string>
+	<string id="ui_mcm_magazines_gametitle">
+		<text>Options de gameplay</text>
+	</string>
+	<string id="ui_mcm_magazines_mgmt_mag_loadtime_factor">
+		<text>Facteur de temps de chargement des cartouches</text>
+	</string>
+	<string id="ui_mcm_magazines_mgmt_mag_loadtime_factor_desc">
+		<text>Multiplicateur pour le temps de chargement des munitions.</text>
+	</string>
+	<string id="ui_mcm_magazines_mgmt_mag_unloadtime_factor">
+		<text>Facteur de temps de déchargement des cartouches</text>
+	</string>
+	<string id="ui_mcm_magazines_mgmt_mag_unloadtime_factor_desc">
+		<text>Multiplicateur pour les temps de déchargement des munitions.</text>
+	</string>
+	<string id="ui_mcm_magazines_mgmt_mag_tooltip">
+		<text>Informations de l'infobulle du chargeur</text>
+	</string>
+	<string id="ui_mcm_lst_topround">
+		<text>Seule la cartouche chambrée</text>
+	</string>
+	<string id="ui_mcm_lst_trcap">
+		<text>Cartouche chambrée + capacité exacte</text>
+	</string>
+	<string id="ui_mcm_lst_full">
+		<text>Informations complètes</text>
+	</string>
+	<string id="ui_mcm_magazines_mgmt_mag_tooltip_desc">
+		<text>Niveau de verbosité pour les données des chargeurs.</text>
+	</string>
+	<string id="ui_mcm_magazines_mgmt_debug">
+		<text>Activer les journaux de débogage</text>
+	</string>
+	<string id="ui_mcm_magazines_mgmt_debug_desc">
+		<text>Active les journaux de débogage dans la console.</text>
+	</string>
+	<string id="ui_mcm_magazines_mgmt_empty_mags_stack">
+		<text>Empiler les chargeurs vides dans l'inventaire</text>
+	</string>
+	<string id="ui_mcm_magazines_mgmt_empty_mags_stack_desc">
+		<text>Si activé, les chargeurs vides seront empilés ensemble dans l'inventaire au lieu d'être séparés.</text>
+	</string>
+	<string id="ui_mcm_magazines_mgmt_sort_inv">
+		<text>Trier l'inventaire lors de la mise à jour des chargeurs</text>
+	</string>
+	<string id="ui_mcm_magazines_mgmt_sort_inv_desc">
+		<text>Décochez cette option si vous n'aimez pas que les objets de votre inventaire se déplacent lorsque les chargeurs sont mis à jour.</text>
+	</string>
+	<string id="ui_mcm_magazines_mgmt_highlight_color">
+		<text>Couleur de surbrillance</text>
+	</string>
+	<string id="ui_mcm_magazines_mgmt_highlight_color_desc">
+		<text>Couleur de surbrillance pour les chargeurs faisant partie de votre équipement.</text>
+	</string>
+
+	<string id="ui_mcm_magazines_mgmt_highlight_clr_a">
+		<text>Opacité de la surbrillance</text>
+	</string>
+	<string id="ui_mcm_magazines_mgmt_highlight_clr_a_desc">
+		<text>Indique la proportion de l'arrière-plan de l'interface visible à travers la surbrillance. Des valeurs plus basses rendent la surbrillance plus discrète.</text>
+	</string>
+
+	<string id="ui_mcm_lst_ram_orange">
+		<text>Orange</text>
+	</string>
+	<string id="ui_mcm_lst_ram_pink">
+		<text>Rose</text>
+	</string>
+	<string id="ui_mcm_lst_ram_blond">
+		<text>Blond</text>
+	</string>
+	<string id="ui_mcm_lst_ram_white">
+		<text>Blanc</text>
+	</string>
+	<string id="ui_mcm_lst_ram_brown">
+		<text>Marron</text>
+	</string>
+	<string id="ui_mcm_lst_ram_blue">
+		<text>Bleu</text>
+	</string>
+
+	<string id="ui_mcm_magazines_hud_scale">
+		<text>Échelle de l'interface</text>
+	</string>
+
+	<string id="ui_mcm_magazines_hud_ammo_scale">
+		<text>Échelle de l'icône des munitions</text>
+	</string>
+	<string id="ui_mcm_magazines_hud_grp_by_bt">
+		<text>Grouper par arme</text>
+	</string>
+	<string id="ui_mcm_magazines_hud_grp_by_bt_desc">
+		<text>Si activé, les chargeurs compatibles avec la même arme seront regroupés. Si désactivé, seuls les chargeurs identiques seront regroupés.</text>
+	</string>
+	<string id="ui_mcm_magazines_hud_show_bgrd">
+		<text>Afficher l'arrière-plan</text>
+	</string>
+	<string id="ui_mcm_magazines_hud_bgrd">
+		<text>Texture de l'arrière-plan</text>
+	</string>
+	<string id="ui_mcm_magazines_hud_group_by_ammo">
+		<text>Grouper par munition</text>
+	</string>
+	<string id="ui_mcm_magazines_hud_group_by_ammo_desc">
+		<text>Si activé, les chargeurs seront regroupés en fonction de leur première munition.</text>
+	</string>
+	<string id="ui_mcm_magazines_hud_show_hud">
+		<text>Activer l'interface du chargeur</text>
+	</string>
+	<string id="ui_mcm_magazines_hud_show_hud_desc">
+		<text>Si activé, vous verrez les chargeurs actuellement équipés dans votre HUD, près du compteur de munitions.</text>
+	</string>
+	<string id="ui_mcm_magazines_hud_icon_text">
+		<text>Activer le texte des munitions sur l'interface du chargeur</text>
+	</string>
+	<string id="ui_mcm_magazines_hud_icon_text_desc">
+		<text>Si activé, vous verrez sur le HUD le texte indiquant la première munition d'un chargeur. Nécessite que l'option "Regrouper par munition" soit activée.</text>
+	</string>
+	<string id="ui_mcm_magazines_hud_ammo_icon">
+		<text>Activer les icônes des munitions sur l'interface du chargeur</text>
+	</string>
+	<string id="ui_mcm_magazines_hud_ammo_icon_desc">
+		<text>Si activé, vous verrez de petites icônes de munitions sur l'interface pour la première cartouche d'un chargeur. Nécessite que l'option "Grouper par munition" soit activée.</text>
+	</string>
+
+	<string id="ui_mcm_magazines_gameplay_retain_round">
+		<text>Activer « une cartouche chambrée »</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_retain_round_desc">
+		<text>Si activé, les armes conservent une cartouche dans la chambre lorsque les chargeurs sont éjectés.</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_loadstash_behavior">
+		<text>Comportement de chargement des chargeurs dans la planque</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_loadstash_behavior_desc">
+		<text>Sélectionnez le mode de comportement lorsque des cartouches sont chargées dans les chargeurs via la fenêtre d'inventaire. Notez que la sélection des options les plus rapides empêchera certaines fonctionnalités implicites, comme l'échelonnement des différents types de munitions.</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_tacload">
+		<text>Désactiver le chargement de chargeur interruptible</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_tacload_desc">
+		<text>Facilite le rechargement des armes en empêchant les mouvements ou les manipulations de l'inventaire d'annuler les rechargements. Rend le jeu plus accessible, mais peut entraîner des cas où les rechargements s'effectuent instantanément lorsque l'animation est interrompue.</text>
+	</string>
+
+	<string id="ui_mcm_magazines_gameplay_load_behavior">
+		<text>Comportement de chargement des chargeurs</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_load_behavior_desc">
+		<text>Sélectionnez le style de comportement lorsque des munitions sont chargées dans les chargeurs dans l'inventaire ou la fenêtre de loot. 
+			\n\nRemarques :
+			\n - Notez que la sélection des options les plus rapides empêchera certaines fonctionnalités implicites, comme l'échelonnement des différents types de munitions.
+			\n - Les boîtes de munitions représentent la quantité contenue dans un élément « munition », qui peut varier de 10 cartouches pour la chevrotine à 14-16 cartouches pour les armes de poing.</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_unload_behavior">
+		<text>Comportement de déchargement des chargeurs</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_unload_behavior_desc">
+		<text>Sélectionnez le mode de comportement lorsque des cartouches sont retirées des chargeurs. Notez que, pour des raisons pratiques, les chargeurs se déchargent toujours instantanément depuis l'inventaire.</text>
+	</string>
+
+	<string id="ui_mcm_lst_ind">
+		<text>Cartouche par cartouche</text>
+	</string>
+	<string id="ui_mcm_lst_box">
+		<text>Boîte par boîte</text>
+	</string>
+	<string id="ui_mcm_lst_full">
+		<text>Instantané</text>
+	</string>
+
+	<string id="ui_mcm_magazines_gameplay_ejection">
+		<text>Comportement de déchargement des chargeurs Vide</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_ejection_desc">
+		<text>Détermine l'emplacement des chargeurs vides.</text>
+	</string>
+
+	<string id="ui_mcm_lst_ruck">
+		<text>Placer dans le sac à dos</text>
+	</string>
+
+	<string id="ui_mcm_lst_loadout">
+		<text>Placer dans l'équipement</text>
+	</string>
+
+	<string id="ui_mcm_magazines_gameplay_mag_unequip_trs">
+		<text>Traiter comme vide à %</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_mag_unequip_trs_desc">
+		<text>Les chargeurs dont le pourcentage est inférieur à cette valeur seront considérés comme vides.</text>
+	</string>
+	<string id="ui_mcm_magazines_rant">
+	<text>Explication du fonctionnement du rechargement en combat (rechargement avec l'inventaire fermé) :
+
+	\n\nVotre équipement est un ensemble de poches/boucles sur votre gilet. Pour cet exemple, vous avez 4 poches et 4 chargeurs dans votre équipement, un dans chaque poche, et un cinquième chargeur dans l'arme.
+	\nVous allez recharger, votre arme est dans une main, vous attrapez le chargeur dans l'arme avec l'autre et le retirez. Vous avez maintenant une arme dans une main et un chargeur dans l'autre. Les quatre poches contiennent un chargeur chacune, donc vous ne pouvez pas mettre le chargeur que vous tenez dans une poche et vous ne pouvez pas en prendre un dans une poche car vos deux mains sont occupées. Que faites-vous ?
+	\nEnfoncez le chargeur dans votre poche de dépôt ou dans votre sac à dos, puisque nous ne simulons pas de poche de dépôt.
+	\nVous avez maintenant une main libre, vous prenez un chargeur dans une poche de l'équipement et le mettez dans l'arme, laissant une poche d'équipement vide. Rechargement terminé.
+	\nSi vous commencez le processus avec une poche libre dans votre équipement, le chargeur de l'arme est placé dans cette poche. Sauf s'il est vide, auquel cas, par défaut, il va dans votre sac. Cela peut être modifié pour que les chargeurs vides soient placés dans les emplacements de l'équipement ou jetés au sol.
+
+	\n\nSi l'inventaire est ouvert, ce n'est pas un rechargement en combat et une tentative supplémentaire de placer le chargeur dans votre équipement est effectuée, car il est supposé que vous pouvez poser l'arme ou le chargeur. De plus, le paramètre pour jeter les chargeurs au sol est ignoré lorsque l'inventaire est ouvert.
+	\nCependant, si vous pensez que RavenAscendant a tort et que lors d'un rechargement en combat, votre stalker dispose d'une troisième main magique pour tenir le chargeur sorti de l'arme jusqu'à ce qu'il puisse être placé dans l'emplacement d'équipement libéré, ou qu'il le tiendrait entre ses dents/genoux/aisselles/pouvoirs psychiques, alors une option ci-dessous permet d'activer ce comportement.\n\n</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_three_hands">
+			<text>Utiliser une troisième main pour replacer un chargeur éjecté dans l'équipement après un rechargement en combat.</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_three_hands_desc">
+			<text>Raven estime toujours que ceci est incorrect.</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_deathquality">
+		<text>Qualité des chargeurs des NPCS</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_deathquality_desc">
+		<text>Modificateur pour trouver de meilleurs chargeurs et munitions sur les cadavres.</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_deathmags">
+		<text>Lâcher de chargeurs des NPCS</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_deathmags_desc">
+		<text>Multiplicateur sur la quantité de chargeurs lâchés par les NPCs.</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_deathammo">
+		<text>Lâcher de munitions des NPCS</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_deathammo_desc">
+		<text>Multiplicateur sur la quantité de munitions chargées dans les chargeurs lâchés par les NPCs.</text>
+	</string>
+
+	<!--MAGAZINES-->
+
+	<string id="st_dot">
+		<text>•</text>
+	</string>
+	<string id="st_mag_bonus">
+		<text>(Outfit:%s + Extra:%s)<!--alt:> (%s + %s)<--></text>
+	</string>
+	<string id="st_mag_small">
+		<text>Chargeurs petits :</text>
+	</string>
+	<string id="st_mag_medium">
+		<text>Chargeurs moyens :</text>
+	</string>
+	<string id="st_mag_large">
+		<text>Chargeurs larges :</text>
+	</string>
+	<string id="st_mag_base">
+		<text>Chargeur de base</text>
+	</string>
+	<string id="st_mag_base_descr">
+		<text>Chargeur de base.</text>
+	</string>
+	
+	<string id="st_mag_size">
+		<text>Taille du chargeur :</text>
+	</string>
+	<string id="st_mag_size_small">
+		<text>Petit</text>
+	</string>
+	<string id="st_mag_size_medium">
+		<text>Moyen</text>
+	</string>
+	<string id="st_mag_size_large">
+		<text>Large</text>
+	</string>
+
+	<string id="st_mag_loaded">
+		<text>Chargeur chargé :</text>
+	</string>
+	<string id="st_mag_loaded_none">
+		<text>ATTENTION : Aucun chargeur chargé</text>
+	</string>
+	
+	<string id="st_mag_ammo_loaded_count">
+		<text>Munitions chargées :</text>
+	</string>
+	<string id="st_mag_capacity">
+		<text>Capacité du chargeur :</text>
+	</string>
+	<string id="st_mag_ammo_top_round">
+		<text>Cartouche chambrée :</text>
+	</string>
+
+	<string id="article_mags">
+		<text>Chargeurs Anomaly</text>
+	</string>
+	<string id="article_mags_text">
+		<text>
+			%c[pda_green]Mags Redux%c[ui_gray_1]\n \n
+			\nBienvenue dans Mags Redux. Ce guide couvre la plupart des fonctionnalités et changements auxquels tu peux t'attendre avec ce mod.
+			\nPour les utilisateurs de l'ancien mod Anomaly Magazines (de Wuut), tu peux t'attendre à peu de différences en termes de gameplay. La plupart des fonctionnalités restent identiques.\n \n
+			
+			%c[pda_green]I. Comment charger et tirer avec les armes%c[ui_gray_1]\n
+			\n• Les armes qui utilisent logiquement des chargeurs dans la réalité nécessitent l'usage de chargeurs.
+			\n   • Les armes qui n'en utilisent pas se comporteront comme dans la version vanilla (fusils à pompe, certains fusils à boulon, revolvers).
+			\n• Les munitions doivent être chargées manuellement dans les chargeurs. La description du chargeur indique quel type de munitions est compatible. Pour charger des munitions, fais glisser l'objet de munition sur le chargeur. Cela lancera la procédure de chargement, qui ajoutera les cartouches une par une.
+			\n   • Pour annuler cette procédure, cliquez n'importe où.
+			\n• Pour placer un chargeur dans l'équipement, fais un clic droit sur le chargeur. Il y aura une option « Placer dans l'équipement ». L'arrière-plan du chargeur changera de couleur et une icône sera ajoutée : cela signifie que le chargeur a été ajouté à ton équipement.
+			\n   • À partir de là, si tu tiens une arme compatible, recharger ton arme utilisera le chargeur présent dans ton équipement.
+			\n   • Le mod tentera de sélectionner automatiquement le chargeur qui a) la plus grande capacité et b) une cartouche chambrée correspondant à ton type de munition.
+			\n• Les chargeurs peuvent aussi être insérés et éjectés manuellement. Fais un clic droit sur une arme pour trouver l'option d'éjection du chargeur. 
+			\n• La roue des munitions peut être utilisée pour échanger les chargeurs. Les chargeurs sont classés selon la cartouche chambrée.\n \n
+			
+			%c[pda_green]II. Où trouver des chargeurs%c[ui_gray_1]\n
+			\n• Les marchands qui vendent des armes proposeront aussi des chargeurs. Les chargeurs peuvent également leur être vendus pour une misère.
+			\n• Les NPCs auront quelques chargeurs pour leur arme, avec un peu de munitions.
+			\n   • Les NPCs, en particulier les NPCs de haut rang, ont une petite chance de lâcher des chargeurs améliorés. Ces chargeurs se chargent plus vite, ont une plus grande capacité, ou les deux.\n\n
+
+			
+			%c[pda_green]III. Explication des options MCM.%c[ui_gray_1]\n
+			\n• Qualité du loot : affecte la quantité de chargeurs lâchés, le niveau de remplissage et la chance d'obtenir des chargeurs améliorés.
+			\n• Facteur de temps de chargement/déchargement : multiplicateur de la vitesse de chargement/déchargement des cartouches dans les chargeurs.
+			\n• Chargement rapide : active le chargement/déchargement instantané des chargeurs DANS LA PLANQUE UNIQUEMENT.
+			\n• Une cartouche chambrée : conserve une cartouche chambrée lors du changement de chargeur, comme dans la réalité. 
+		</text>
+	</string>
+
+
+</string_table>

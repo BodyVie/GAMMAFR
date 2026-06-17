@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="st_wpn_eft_rsh12">
+		<text>RSH-12</text>
+	</string>
+	<string id="st_wpn_eft_rsh12_descr">
+		<text>
+		Le puissant revolver RSh-12 (Revolver Shturmovoy 12 - « Revolver d'assaut 12 »), fabriqué par le Bureau d'études d'instruments KBP, est conçu pour être utilisé par les forces spéciales. Malgré son calibre puissant de 12,7x55 mm, le RSh-12 présente un recul moindre que de nombreux autres revolvers et pistolets de gros calibre, car le tir est effectué depuis la chambre inférieure du barillet. \n \n
+		</text>
+	</string>
+</string_table>

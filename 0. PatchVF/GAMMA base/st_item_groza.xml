@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_guns_groza">
+		<text>OC-14 Groza</text>
+	</string>
+	<string id="st_wpn_groza_guns_descr">
+		<text>Le fusil d'assaut modulaire Groza « Tonnerre » était destiné aux différentes forces spéciales de l'Armée russe et du ministère de l'Intérieur en tant qu'arme dédiée aux combats urbains. Il se caractérise par une conception bullpup et intègre un lance-grenades de 40 mm à la place du garde-main amovible.\n \n
+		%c[0,255,255,255] PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]TsKIB SOO\n
+		</text>
+	</string>
+	<string id="st_wpn_groza_guns_nimble">
+		<text>OTs-14 Groza « Storm »</text>
+	</string>
+	<string id="st_wpn_groza_guns_nimble_descr">
+		<text>Le fusil d'assaut modulaire Groza « Tonnerre » était destiné aux différentes forces spéciales de l'Armée russe et du ministère de l'Intérieur en tant qu'arme dédiée aux combats urbains. Il se caractérise par une conception bullpup et intègre un lance-grenades de 40 mm à la place du garde-main amovible. La version « Tempête » est une modification lourde du Groza-1 expérimental, dotée d'un chargeur prolongé. Il s'agit d'un rêve de longue date pour chaque vétéran du Devoir, réservé uniquement aux membres les plus méritants du groupe.\n \n
+		%c[0,255,255,255] PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]TsKIB SOO\n
+		</text>
+	</string>
+
+</string_table>

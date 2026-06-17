@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!-- ====================================================================
+    Interaction Dot Marks
+    Author: Catspaw
+    Updated: 20250715
+    Permission granted to freely translate this file into any language.
+===================================================================== -->
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+    <string id="st_player_skills_hint_scavenging">
+		<text>Augmente les loots des stalkers.\nSi activé dans le MCM DotMarks, augmente la portée de visibilité des marques d'interaction.\n\nLes niveaux s'obtiennent en fouillant les stalkers, plus le stalkers est haut niveau, plus tu gagnes d'XP. \n \n</text>
+	</string>
+
+    <string id="st_skills_stats_dotmark_bonus_range">
+        <text>\n%c[255,255,201,86]•%c[ui_6] Portée de la marque d'interaction bonus : %c[d_green]+$stat m</text>
+    </string>
+
+</string_table>

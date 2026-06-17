@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+    <string id="st_player_skill_stats">
+        <text>\nSTATS :\n</text>
+    </string>
+
+<!--
+	SCAVENGING
+-->
+    <string id="st_player_skills_hint_scavenging">
+		<text>Augmente les drops des stalkers.\n \n
+		Les niveaux s'obtiennent en fouillant les stalkers.\n
+		Un stalkers de rang supérieur rapporte plus d'XP.
+		</text>
+	</string>
+	<string id="st_skills_stats_scavenging_skill_positive">
+        <text>\n%c[d_purple] • %c[pda_white]Chance de loot supplémentaire : %c[d_green]$stat%\n</text>
+    </string>
+    <string id="st_skills_stats_scavenging_skill_negative">
+        <text>\n%c[d_purple] • %c[pda_white]Risque de perte de loot : %c[ui_red]$stat%\n</text>
+    </string>
+
+<!--
+	STRENGTH
+-->
+    <string id="st_player_skills_hint_strength">
+		<text>Augmente la capacité de port et les dégâts au corps à corps.\n \n
+		Les niveaux s'obtiennent en voyageant avec des charges lourdes et en combattant à l'arme blanche.\n
+		Plus le poids transporté est proche du max, plus tu gagnes d'XP.\n \n
+		</text>
+	</string>
+    <string id="st_skills_stats_weight_modifer_positive">
+        <text>\n%c[d_purple] • %c[pda_white]Modificateur de capacité de port : %c[d_green]x$stat\n</text>
+    </string>
+    <string id="st_skills_stats_weight_modifer_negative">
+        <text>\n%c[d_purple] • %c[pda_white]Modificateur de capacité de port : %c[ui_red]x$stat\n</text>
+    </string>
+
+    <string id="st_skills_stats_melee_damage_positive">
+        <text>\n%c[d_purple] • %c[pda_white]Modificateur de dégâts au corps à corps : %c[d_green]x$stat\n</text>
+    </string>
+    <string id="st_skills_stats_melee_damage_negative">
+        <text>\n%c[d_purple] • %c[pda_white]Modificateur de dégâts au corps à corps : %c[ui_red]x$stat\n</text>
+    </string>
+
+    <string id="st_skills_stats_base_weight">
+        <text>\n%c[d_purple] • %c[pda_white]Bonus de capacité de port : %c[d_green]+$stat kg\n</text>
+    </string>
+
+<!--
+	SURVIVAL
+-->
+    <string id="st_player_skills_hint_survival">
+		<text>Accorde une résistance accrue aux dégâts et une chance d'obtenir des pièces supplémentaires lors du dépeçage.\n
+		Les niveaux s'obtiennent en dépeçant des mutants et en subissant des dégâts (balles et mutants).\n
+		Les mutants les plus dangereux rapportent plus d'XP.\n \n</text>
+	</string>
+    <string id="st_skills_stats_resistance_positive">
+        <text>\n%c[d_purple] • %c[pda_white]Réduction accrue des dégâts : %c[d_green]x$stat\n</text>
+    </string>
+    <string id="st_skills_stats_resistance_negative">
+        <text>\n%c[d_purple] • %c[pda_white]Augmentation des dégâts subis : %c[ui_red]x$stat\n</text>
+    </string>
+
+    <string id="st_skills_stats_bleed_restore">
+        <text>\n%c[d_purple] • %c[pda_white]Réduction accrue des saignements : %c[d_green]$stat%%\n</text>
+    </string>
+
+     <string id="st_skills_stats_hunting_skill_positive">
+        <text>\n%c[d_purple] • %c[pda_white]Chance supplémentaire de partie de Mutant : %c[d_green]$stat%%\n</text>
+    </string>
+    <string id="st_skills_stats_hunting_skill_negative">
+        <text>\n%c[d_purple] • %c[pda_white]Risque de perte de partie de Mutant : %c[ui_red]$stat%%\n</text>
+    </string>
+
+<!--
+	ENDURANCE
+-->
+    <string id="st_player_skills_hint_endurance">
+		<text>Augmente l'endurance et la vitesse de déplacement.\n
+		Les niveaux s'obtiennent en voyageant avec des charges légères.\n
+		Plus le poids transporté est proche de 0, plus tu gagnes d'XP.\n \n</text>
+	</string>
+    <string id="st_skills_stats_power_loss_positive">
+        <text>\n%c[d_purple] • %c[pda_white]Modificateur de dépense d'endurance : %c[d_green]x$stat\n</text>
+    </string>
+    <string id="st_skills_stats_power_loss_negative">
+        <text>\n%c[d_purple] • %c[pda_white]Modificateur de dépense d'endurance : %c[ui_red]x$stat\n</text>
+    </string>
+
+    <string id="st_skills_stats_speed_modifier_positive">
+        <text>\n%c[d_purple] • %c[pda_white]Modificateur de vitesse : %c[d_green]x$stat\n</text>
+    </string>
+    <string id="st_skills_stats_speed_modifier_negative">
+        <text>\n%c[d_purple] • %c[pda_white]Modificateur de vitesse : %c[ui_red]x$stat\n</text>
+    </string>
+	
+</string_table>

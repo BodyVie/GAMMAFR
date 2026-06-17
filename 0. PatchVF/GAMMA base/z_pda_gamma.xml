@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="encyclopedia_gamma">
+		<text>Manuel G.A.M.M.A.</text>
+	</string>
+	<string id="encyclopedia_gamma_text">
+		<text>%c[pda_green]Manuel %c[pda_white]G.A.M.M.A.</text>
+	</string>
+
+	<string id="article_gamma_aaintro">
+		<text>--- Bienvenue dans G.A.M.M.A. ---</text>
+	</string>
+	<string id="article_gamma_aaintro_text">
+		<text>   %c[pda_white]Bienvenue dans %c[pda_green]G.A.M.M.A\n\n
+		%c[pda_green]G.A.M.M.A. %c[ui_gray_2]signifie Grok's Automated Modular Modpack for Anomaly. 
+		Ce modpack introduit un ensemble modulaire d'add-ons, incluant :\n
+		%c[pda_white]• %c[ui_gray_2] Une nouvelle interface.\n
+		%c[pda_white]• %c[ui_gray_2] Une expérience de survie rééquilibrée mettant l'accent sur la fabrication, les réparations et la cuisine.\n
+		%c[pda_white]• %c[ui_gray_2] Un sentiment de progression à travers des changements mineurs et globaux des systèmes et boucles de gameplay.\n
+		%c[pda_white]• %c[ui_gray_2] Un système de dégâts rééquilibré pour le joueur et les NPCs.\n
+		%c[pda_white]• %c[ui_gray_2] Système balistique et dégâts au corps à corps améliorés.\n
+		%c[pda_white]• %c[ui_gray_2] Effets de la radioactivité et zones dynamiques retravaillés.\n
+		%c[pda_white]• %c[ui_gray_2] Corrections pour les principaux add-ons, dont le pack d'armes Boomsticks and Sharpsticks.\n
+		%c[pda_white]• %c[ui_gray_2]Une nouvelle économie où les marchands vendent principalement des fournitures, et les munitions de qualité sont réservées aux stalkers de confiance.\n
+		%c[pda_white]• %c[ui_gray_2]Nouveaux équipements de départ avec pistolets, PM ou armes de la Seconde Guerre mondiale pour un début plus fluide avec des calibres accessibles. 
+		%c[pda_white]• %c[ui_gray_2] Tu recevras aussi des outils essentiels pour explorer la Zone - parfait pour les runs en mode Ironman.\n
+		%c[pda_white]• %c[ui_gray_2] Et bien plus encore !\n
+		</text>
+	</string>
+
+	<string id="article_gamma_progress">
+		<text>Progression</text>
+	</string>
+	<string id="article_gamma_progress_text">
+		<text>%c[pda_white]Comment progresser\n \n
+		%c[pda_white]Les bases de la progression G.A.M.M.A. sont les suivantes :\n
+		%c[pda_white]• %c[ui_gray_2]Accomplis des missions, chasse les mutants et récupère leurs morceaux. Conserve ces pièces pour les quêtes de collecte des stalkers.\n
+		%c[pda_white]• %c[ui_gray_2] Récupère les coordonnées des caches et rends-toi sur place (%c[pda_white]icônes blanches %c[ui_gray_2]ou %c[pda_green]vertes %c[ui_gray_2]sur la carte du PDA) pour trouver du loot de valeur et des trousses d'outils.\n
+		%c[pda_white]• %c[ui_gray_2]Utilise des kits d'outils pour fabriquer des kits de réparation d'armes et d'armures, améliorant ton équipement et augmentant tes chances de survie.\n
+		%c[pda_white]• %c[ui_gray_2]Accomplis des missions pour gagner la confiance des différentes factions et débloquer l'accès à de meilleurs équipements, dont des munitions de qualité pour tes armes améliorées.\n
+		</text>
+	</string>
+
+	<string id="article_gamma_healing">
+		<text>Soins et médecine</text>
+	</string>
+	<string id="article_gamma_healing_text">
+		<text>%c[pda_white]Soins et médecine\n \n
+		%c[pda_white]Les bases des soins G.A.M.M.A. sont les suivantes :\n
+		%c[pda_white]• %c[ui_gray_2] Utilise des objets de soin basiques comme les medkits ou les bandages pour soigner ta santé principale ; ça répare temporairement tes membres (%c[pda_yellow]PV jaunes %c[ui_gray_2]).\n
+		%c[pda_white]• %c[ui_gray_2] Pour convertir les PV temporaires (%c[pda_yellow]jaunes%c[ui_gray_2]) en PV permanents (%c[pda_white]blancs%c[ui_gray_2]) pour tes membres, utilise des objets post-soin comme l'Ibuprofène, le Fentanyl, l'Antidot ou Yadulin.\n
+		%c[pda_white]• %c[ui_gray_2] Tout médicament avec des points %c[pda_white]blancs %c[ui_gray_2]dans sa description soignera les PV temporaires de ce membre ou de cette zone. Ces objets de soin ont une icône de coeur %c[pda_white]blanche %c[ui_gray_2].\n
+		%c[pda_white]• %c[ui_gray_2] La post-guérison peut entraîner des effets secondaires comme une faim extrême ou des vertiges. Les vertiges peuvent être soignés avec des médicaments boostant l'endurance ou de l'eau.\n
+		%c[pda_white]• %c[ui_gray_2]N’oublie pas que les injecteurs de résistance aux dégâts fonctionnent (indiqué par une icône de bouclier).\n
+		%c[pda_white]• %c[ui_gray_2]Pas besoin de tous les objets médicaux pour soigner ton corps. Marque les plus importants comme favoris pour y accéder facilement.
+		</text>
+	</string>
+
+	<string id="article_gamma_crafting">
+		<text>Fabrication</text>
+	</string>
+	<string id="article_gamma_crafting_text">
+		<text>%c[pda_white]Fabrication\n \n
+		%c[pda_white]Les bases de la fabrication G.A.M.M.A. sont les suivantes :\n
+		%c[pda_white]• %c[ui_gray_2] La fabrication repose sur des trousses à outils que tu trouveras dans les caches marquées.\n
+		%c[pda_white]• %c[ui_gray_2]Fais un clic droit sur n'importe quel kit d'outils pour ouvrir un établi portable et commencer à fabriquer, réparer ou améliorer ton équipement.\n
+		%c[pda_white]• %c[ui_gray_2] Il existe 6 types de trousses à outils : Basique, Avancée, Expert, Médicale, Armurier et le Fondeur d'Artefacts.\n
+		%c[pda_white]• %c[ui_gray_2] Presque toutes les recettes sont disponibles dès le départ, y compris les recettes de cuisine.\n
+		%c[pda_white]• %c[ui_gray_2] Certaines recettes sont verrouillées. Il s'agit principalement des recettes avancées pour les PSU d'exos. Tu peux les obtenir auprès des marchands Mercenaires et Scientifiques de niveau 5.\n
+		%c[pda_white]• %c[ui_gray_2]Les objets « Camelote » nécessaires aux recettes de fabrication sont indiqués par une icône de marteau et de pince. Garde-les.\n
+		%c[pda_white]• %c[ui_gray_2]Démonter l'équipement que tu trouves te permettra de récupérer des pièces de fabrication. Certaines sont précieuses, alors garde-les si tu as besoin d'un peu de thune.
+		</text>
+	</string>
+
+	<string id="article_gamma_cooking">
+		<text>Cuisine</text>
+	</string>
+	<string id="article_gamma_cooking_text">
+		<text>%c[pda_white]Cuisine\n \n
+		%c[pda_white]Les bases de la cuisine G.A.M.M.A. sont les suivantes :\n
+		%c[pda_white]• %c[ui_gray_2] Toutes les recettes de cuisine sont disponibles dès le départ.\n
+		%c[pda_white]• %c[ui_gray_2]La cuisine, c'est essentiel : ça te donne de la bouffe hyper calorique pour trois fois rien.\n
+		%c[pda_white]• %c[ui_gray_2] Utiliser le kit de cuisine basique près des feux de camp te permet de cuisiner sans avoir besoin de charbon.\n
+		%c[pda_white]• %c[ui_gray_2] Le kit de cuisine avancé nécessite du carburant liquide pour fonctionner. En revanche, il permet de préparer des plats haut de gamme qui offrent des bonus utiles et durables.	
+		</text>
+	</string>
+
+	<string id="article_gamma_radiation">
+		<text>Radiation</text>
+	</string>
+	<string id="article_gamma_radiation_text">
+		<text>%c[pda_white]Radiation\n \n
+		%c[pda_white]• %c[ui_gray_2] GAMMA propose une radioactivité dynamique et un système de dégâts radioactifs repensé. Les bases de la radioactivité dans G.A.M.M.A. sont les suivantes :\n
+		%c[pda_white]• %c[ui_gray_2] De nouvelles zones de radiation aléatoires apparaissent au démarrage d'une nouvelle partie.\n
+		%c[pda_white]• %c[ui_gray_2]La radioactivité réduit lentement ta santé (beaucoup plus lentement que dans la version Vanilla) et diminue ton endurance maximale.\n
+		%c[pda_white]• %c[ui_gray_2]Plus tu es irradié, plus tes organes vitaux risquent d'être endommagés. Résultat : ton perso tousse et perd pas mal de vie.\n
+		%c[pda_white]• %c[ui_gray_2] Le compteur de radiation se trouve en bas à gauche de l'écran. S'il commence à se remplir, tu viens de tomber sur une zone radioactive. Essaie de revenir sur tes pas pour éviter de la traverser. Les radiations peuvent aussi provenir d'un artefacts qui n'est pas dans un conteneur.\n
+		%c[pda_white]• %c[ui_gray_2]Utilise des anti-rads, des clopes, du tabac, de l'eau ou de l'alcool pour éliminer la radioactivité. Les médicaments de protection ou de résistance aux radiations sont aussi un bon moyen de les éviter.\n
+		%c[pda_white]• %c[ui_gray_2] Plus tu vas vers le Nord, plus la radioactivité sera dangereuse. Assure-toi d'avoir un bon masque à gaz avant de t'aventurer dans les zones nordiques. Entrer dans les Entrepôts de l'armée ou dans les zones plus au Nord sans masque à gaz ou sans médicaments anti-radiations appropriés peut être fatal si tu tombes sur un mauvais patch radioactif. Garde à l'esprit que courir dans une zone à forte radiation te clouera probablement sur place, t'épuisera et scellera ton sort...
+		</text>
+	</string>
+
+	<string id="article_gamma_stashes">
+		<text>Caches</text>
+	</string>
+	<string id="article_gamma_stashes_text">
+		<text>%c[pda_white]Caches\n \n
+		%c[pda_white]Les bases des caches G.A.M.M.A. sont les suivantes :\n
+		%c[pda_white]• %c[ui_gray_2] Les caches sont la principale source de trousses à outils, les objets les plus critiques pour progresser.\n
+		%c[pda_white]• %c[ui_gray_2]Les caches non marquées sont presque toujours vides.\n
+		%c[pda_white]• %c[ui_gray_2] Les caches doivent être marquées pour contenir quoi que ce soit de valeur, surtout les trousses à outils.\n
+		%c[pda_white]• %c[ui_gray_2] Le contenu des caches est lié à la carte où elles apparaissent.\n
+		%c[pda_white]• %c[ui_gray_2] Plus une cache est au nord dans la Zone, meilleur sera le butin.\n
+		%c[pda_white]• %c[ui_gray_2]Les kits d'expert, tu les trouveras que dans la Forêt Rouge ou plus au nord.\n
+		%c[pda_white]• %c[ui_gray_2] Stocker des affaires dans les caches est sûr : les NPCs ne pourront pas les piller.\n
+		%c[pda_white]• %c[ui_gray_2]Même si une cache est marquée à un moment donné, son contenu réapparaîtra par-dessus ce que tu y as déjà stocké. 
+		</text>
+	</string>
+
+	<string id="article_gamma_disguise">
+		<text>Déguisement</text>
+	</string>
+	<string id="article_gamma_disguise_text">
+		<text>%c[pda_white]Déguisement\n \n
+		%c[pda_white]Les bases du système de déguisement G.A.M.M.A. sont les suivantes :\n
+		%c[pda_white]• %c[ui_gray_2]Tu peux porter l'armure d'une autre faction et être considéré comme un membre de cette faction si l'écusson de la faction est attaché.\n
+		%c[pda_white]• %c[ui_gray_2] Si tu arraches l'écusson, tu seras considéré comme un membre de la faction de ton personnage.\n
+		%c[pda_white]• %c[ui_gray_2] Pour poser le patch, faut être hors du champ de vision des autres stalkers, sinon ton déguisement sera grillé.\n
+		%c[pda_white]• %c[ui_gray_2]Cette fonctionnalité est particulièrement puissante avec les armures des Scientifiques, mais elles sont très difficiles à obtenir dans GAMMA.\n
+		%c[pda_white]• %c[ui_gray_2] L'état de l'armure influence la facilité avec laquelle on te repère.\n
+		%c[pda_white]• %c[ui_gray_2] Les stalkers de haut rang perceront tes combines plus facilement que ceux de rang inférieur.
+		</text>
+	</string>
+
+	<string id="article_gamma_inventory">
+		<text>Inventaire</text>
+	</string>
+	<string id="article_gamma_inventory_text">
+		<text>%c[pda_white]Inventaire\n \n
+		%c[pda_white]Voici les bases du système d'inventaire de G.A.M.M.A. :\n
+		%c[pda_white]• %c[ui_gray_2]La gestion de l'inventaire est simple : fais le ménage en rangeant les objets inutiles dans une cache de ton choix.\n
+		%c[pda_white]• %c[ui_gray_2] Maintenir %c[pda_white]Maj %c[ui_gray_2]en déplaçant ton curseur dans ton inventaire transfère toute la pile d'objets survolée. Appuyer sur %c[pda_white]« Maj + T »%c[ui_gray_2] effectue un « %c[pda_white]Tout prendre%c[ui_gray_2] ».\n
+		%c[pda_white]• %c[ui_gray_2] Les bouteilles d'eau sont plus légères que les gourdes pour étancher la soif. Garde les gourdes dans ta cache principale pour cuisiner.\n
+		%c[pda_white]• %c[ui_gray_2]Les morceaux et la viande de Mutant ne pèsent pas lourd. En garder dans ton inventaire te permettra d'accomplir des missions.\n
+		%c[pda_white]• %c[ui_gray_2]Les outils de fabrication ne pèsent pas lourd, et tu peux faire un %c[pda_white]clic droit %c[ui_gray_2]dessus pour « %c[pda_white]ouvrir l'établi%c[ui_gray_2] » et bricoler en déplacement.\n
+		%c[pda_white]• %c[ui_gray_2] Les munitions peuvent être assez lourdes, mais les composants de munitions désassemblés sont très légers. Garde ces pièces et fabrique des munitions avec ta trousse de gunsmith en déplacement. Pense à désassembler toutes les munitions inutiles.\n
+		%c[pda_white]• %c[ui_gray_2] Tu peux %c[pda_white]faire un clic droit %c[ui_gray_2]et marquer certains objets comme « %c[pda_white]Favoris%c[ui_gray_2] » et d'autres comme « %c[pda_white]Camelote%c[ui_gray_2] ». Ça te donnera un accès facile aux objets importants, qui seront toujours en haut de chaque conteneur d'inventaire. C'est l'inverse pour la camelote, qui sera toujours en bas.
+		</text>
+	</string>
+
+	<string id="article_gamma_lore">
+		<text>Lore</text>
+	</string>
+	<string id="article_gamma_lore_text">
+		<text>%c[pda_white]Lore\n \n
+		Après la chute du Monolithe, grâce à Strelok, la Zone est devenue un lieu de science et de découvertes. La Zone n'était plus un endroit secret et l'ONU a commencé à interdire la vente d'armes à feu dans la Zone pour la rendre plus pacifique, avec des SMP payés pour assurer la sécurité des scientifiques et limiter les affrontements entre factions. En effet, l'UE et l'ONU ont décidé de mettre un terme aux effusions de sang dans la Zone ainsi qu'au trafic d'armes depuis la Zone vers les pays voisins en limitant la circulation des armes. Aucune faction ne voulait donner plus de raisons à l'ONU et à l'UE de contracter davantage de sociétés militaires privées. Les SMP grouillaient déjà dans toute la Zone.\n \n
+		Pendant cette période de paix, de nouvelles découvertes ont été faites, comme la fusion, la fonte et l'amélioration des artefacts grâce aux travaux du Prof. Sakharov. Cet « Âge d'Or » de la science dans la Zone a cependant affaibli les factions existantes, car le Monolithe n'était plus une priorité. Au coeur de la Zone et de la CNPP, les Monolithes se renforçaient en secret, et un nouveau groupe de fanatiques commençait à émerger, encore plus cinglés que les Monolithes si l'on en croit les rumeurs.\n \n
+		Nous sommes en 2018, l'Âge d'Or de la Zone est terminé, et les Monolithes sont de retour et ont réactivé la machine miracle et le lobotomisateur. C'est reparti comme en 2012. Les factions affaiblies le sont encore plus ; elles ne sont plus les tueuses de Monolithes aguerries d'autrefois. Le seul espoir de la plupart des stalkers ? Trouver Strelok. Certains disent qu'il est toujours en vie, et Doc, un de ses vieux potes, aurait peut-être des infos sur sa localisation.\n \n
+		Tu arrives dans la Zone en plein milieu de ce merdier. Ta mission : retrouver Strelok et aider à nettoyer la Zone de la vermine Monolithe.
+		</text>
+	</string>
+
+	<string id="article_gamma_money">
+		<text>Argent</text>
+	</string>
+	<string id="article_gamma_money_text">
+		<text>%c[pda_white]Argent\n \n
+		%c[pda_white]Dans GAMMA, l'argent, c'est la clé, surtout au début. Voici les bases :\n
+		%c[pda_white]• %c[ui_gray_2] Y'a des moyens rapides de se faire du fric, notamment en accomplissant des tâches sans chercher la baston, comme vendre des artefacts ou refourguer des morceaux de mutants aux scientifiques.\n
+		%c[pda_white]• %c[ui_gray_2] Tu vas souvent dépenser ton argent en objets de soin, mais c'est voulu. Plus tu joues, meilleurs seront tes kits de réparation, et plus il te sera facile de réparer du bon matos et de fabriquer des objets. Ça te fera économiser de l'argent, et les combats seront plus faciles, ce qui t'aidera à en économiser encore plus.\n
+		%c[pda_white]• %c[ui_gray_2] En milieu de partie, tu vas forcément te retrouver avec un paquet d'argent. Ça peut servir à améliorer ton équipement ou à investir dans des munitions AP coûteuses.\n
+		%c[pda_white]• %c[ui_gray_2] Tu peux aussi acheter des détecteurs et des JVN chez les marchands ou les fabriquer pour économiser de l'argent. Entretenir une combinaison exosquelette sera aussi un gouffre financier, vu qu'il faut souvent acheter des batteries exo chères.\n
+		%c[pda_white]• %c[ui_gray_2]Les meilleurs objets de soin sont indispensables pour faciliter les combats, car les stimpaks t'aideront grandement dans les situations tendues.
+		</text>
+	</string>
+
+	<string id="article_gamma_plates">
+		<text>Plaques de protection</text>
+	</string>
+	<string id="article_gamma_plates_text">
+		<text>%c[pda_white]Plaques de protection\n \n
+		%c[pda_white]• %c[ui_gray_2] Les attaches de ceinture pour plaques de protection rivalisent avec la protection des artefacts, atteignant environ 15 % de résistance balistique et explosive, respectivement.\n
+		%c[pda_white]• %c[ui_gray_2]Les plaques de Kevlar basiques s'obtiennent via des quêtes (plaque de niveau 1 basique) ou en les fabriquant à partir de morceaux d'armure.\n \n
+		%c[pda_white]Les plaques de protection peuvent être améliorées via le système de fabrication :\n
+		%c[pda_white]• %c[ui_gray_2] Le niveau 1 peut être amélioré en niveau 2 avec beaucoup de pièces d'armure.\n
+		%c[pda_white]• %c[ui_gray_2] Le Kevlar tier 2 peut être amélioré en tier 3 avec plein de pièces d'armure.\n
+		%c[pda_white]• %c[ui_gray_2] Le tier 3 peut être amélioré en tier 4 avec plein de pièces d'armure.\n \n
+		Ce système devrait inciter le joueur à fouiller plus longtemps les pièces d'armure.\n
+		Les pièces d'armure utilisées dans ce système sont marquées d'une icône marteau et pince pour un tri et un lootage faciles. Cela devrait éviter aux joueurs qui ne veulent pas chasser les artefacts de mourir lamentablement face au Monolithe et au Péché dans le Nord, qui utilisent exclusivement des munitions AP.
+		</text>
+	</string>
+
+	<string id="article_gamma_arty">
+		<text>Réinvention d'artefacts</text>
+	</string>
+	<string id="article_gamma_arty_text">
+		<text>%c[pda_white]Réinvention d'artefacts\n \n
+		%c[pda_white]Les bases du système d'artefacts G.A.M.M.A. sont les suivantes :\n
+		%c[pda_white]• %c[ui_gray_2]Le nouveau détecteur Grizzly sert à repérer tous les artefacts, même avec des lunettes de vision nocturne, et se fabrique avec un kit d'outils avancé.\n
+		%c[pda_white]• Nouveau système d'apparition des Artefacts : %c[ui_gray_2]les Artefacts apparaissent aléatoirement dans les champs anormaux de la carte où tu te trouves. Fouille-les dès que tu peux !\n
+		%c[pda_white]• %c[ui_gray_2] Les artefacts rares réapparaissent aussi dans les labos après les émissions.\n
+		%c[pda_white]• Nouveau Système de Qualité des Artefacts : %c[ui_gray_2]les Artefacts apparaissent avec un état aléatoire faible (ou « qualité ») pour imiter le fait que chaque Artefact est différent. Avec le nouveau Artefacts Melter, tu peux combiner des Artefacts pour les rendre plus résistants et augmenter leur qualité.\n \n
+		%c[pda_yellow]Fondeur d'Artefacts :\n
+		%c[pda_white]• %c[ui_gray_2] Achetable chez Sakharov ou Herman pour environ 30k RU.\n
+		%c[pda_white]• %c[ui_gray_2]Tu peux fabriquer des artefacts plus puissants (%c[pda_white]clic droit &gt; fusionner des artefacts%c[ui_gray_2]) ou les renforcer (%c[pda_white]clic droit &gt; renforcer un artefacts%c[ui_gray_2]).\n
+		%c[pda_white]• %c[ui_gray_2]Chaque action avec le Artefact Fondeur consomme des charges.\n
+		%c[pda_white]• %c[ui_gray_2] Tu peux recharger le Fondoir à Artefact en maintenant %c[pda_white]Alt gauche %c[ui_gray_2]et en le glissant sur n'importe quel Artefact.\n
+		%c[pda_white]• %c[ui_gray_2] Garder un fondoir vide sur toi, c'est un bon moyen de le remplir en traversant la zone avec des artefacts indésirables.\n \n
+		%c[pda_yellow]Renforcement des Artefacts :\n
+		%c[pda_white]• %c[ui_gray_2] Combine deux artefacts exactement identiques pour additionner leur état/qualité.\n
+		%c[pda_white]• %c[ui_gray_2] Tu peux combiner n'importe quel artefact de pacotille avec un autre artefact de pacotille à tarif réduit.\n \n
+		%c[pda_yellow]Fabrication d'Artefacts :\n
+		%c[pda_white]• %c[ui_gray_2]Accède au menu de fabrication comme d’habitude. Il y aura une nouvelle sous-section de fabrication : Artefacts.\n 
+		%c[pda_white]• %c[ui_gray_2] Cela te permettra de convertir plusieurs artefacts d'un palier donné vers le palier supérieur :\n
+		%c[pda_white]• Ferraille &gt; Niveau 1 (7mS).\n
+		%c[pda_white]• Palier 1 &gt; Palier 2 (12mS).\n
+		%c[pda_white]• Niveau 2 &gt; Niveau 3 (23mS).\n
+		%c[pda_white]• Niveau 3 &gt; Spécial.
+		</text>
+	</string>
+
+	<string id="article_gamma_energy">
+		<text>Gestion de l'énergie</text>
+	</string>
+	<string id="article_gamma_energy_text">
+		<text>%c[pda_white]Gestion de l'énergie\n \n
+		%c[pda_white] L'énergie dans GAMMA est un équilibre entre les déplacements, la nourriture, les boissons, les médicaments et le sommeil. Les bases du système d'énergie de G.A.M.M.A. sont les suivantes :\n
+		%c[pda_white]• %c[ui_gray_2] Ton personnage sera crevé à la fin de la journée. Il faut dormir pour récupérer ton énergie. Tu ne peux dormir que si t'es assez fatigué. Utiliser des somnifères te permettra de forcer le sommeil.\n
+		%c[pda_white]• %c[ui_gray_2] Manger plusieurs repas et prendre des somnifères te fatiguera et te fera te reposer en fin de journée. En revanche, si tu manges léger et que tu utilises souvent des boissons énergisantes ou des comprimés de caféine, tu auras du mal à être assez fatigué pour dormir le soir et tu risques de te réveiller tôt.
+		</text>
+	</string>
+
+	<string id="article_gamma_traders">
+		<text>Progression des marchands</text>
+	</string>
+	<string id="article_gamma_traders_text">
+		<text>%c[pda_white]Progression des marchands\n \n
+		%c[pda_white]Voici les bases du système de progression des marchands de G.A.M.M.A. :\n
+		%c[pda_white]• %c[ui_gray_2] Les marchands vendent principalement des fournitures et quelques accessoires.\n
+		%c[pda_white]• %c[ui_gray_2] Tu ne pourras plus acheter ni vendre d'armes ou d'armures chez les marchands.\n
+		%c[pda_white]• %c[ui_gray_2] Tu peux augmenter le niveau de ravitaillement d'un marchand en accomplissant des missions pour sa faction. Les seuils de bonne volonté sont de 500, 1000, 1500 et 2000. C'est un moyen fiable pour assurer un revenu régulier de munitions de qualité.\n
+		%c[pda_white]• %c[ui_gray_2] Les marchands sont soit du type WP (Pacte de Varsovie), soit OTAN. Ça influence le type de fournitures qu'ils vendent (surtout des munitions et des accessoires).\n \n
+		%c[pda_white]• Factions OTAN : %c[ui_gray_2]Mercenaires, Firmament, Liberté et UNISG\n
+		%c[pda_white]• Factions du Pacte de Varsovie : %c[ui_gray_2]Militaires, Solitaires, Devoir, Bandits, Renégats et Monolithe.\n \n
+		%c[pda_white]• %c[ui_gray_2]Cette désignation influence aussi les équipements des NPCS. Exemple : les NPCs Monolithe ont environ 50 % de chances d'avoir une arme OTAN ou WP.\n
+		Certains marchands vendent des objets très spécifiques, comme le Prof. Sakharov et Hermann qui proposent le Artefacts Melter, une trousse d'outils spécifique à GAMMA qui te permet de booster et de fabriquer des Artefacts. Ils vendent aussi des recettes de PSU pour exosquelette au niveau de ravitaillement 5.
+		</text>
+	</string>
+
+	<string id="article_gamma_story">
+		<text>Quêtes et missions</text>
+	</string>
+	<string id="article_gamma_story_text">
+		<text>%c[pda_white]Quêtes et missions\n \n
+		%c[pda_white]Voici les informations sur les quêtes disponibles dans G.A.M.M.A. :\n \n
+		%c[pda_yellow]Perdus dans la Zone :\n
+		%c[pda_white]Disponible auprès du chef de ta faction dans ta base de départ pour ces factions :
+		%c[pda_white]• %c[ui_gray_2] Solitaires\n
+		%c[pda_white]• %c[ui_gray_2] Firmament\n
+		%c[pda_white]• %c[ui_gray_2] Devoir\n
+		%c[pda_white]• %c[ui_gray_2] Liberté\n
+		%c[pda_white]• %c[ui_gray_2] Mercenaires\n
+		%c[pda_white]• %c[ui_gray_2] Scientifique\n \n
+		%c[pda_yellow]Mission Afterglow :\n
+		%c[pda_white]Disponible au début de la campagne UNISG (tape « isg » lors de la création du personnage pour débloquer la faction).\n \n
+		%c[pda_yellow]Chasseurs d'Artefacts :\n
+		%c[pda_white]Pour lancer cette intrigue, parle à n'importe quel NPC parmi les « Chasseurs d'Artefacts », comme Kovalev dans l'église des Marais ou leur représentant, Sarik le Crépuscule, au village du Cordon.\n
+		Disponible pour les alliés Scientifiques :\n
+		%c[pda_white]• %c[ui_gray_2] Solitaires\n
+		%c[pda_white]• %c[ui_gray_2] Firmament\n
+		%c[pda_white]• %c[ui_gray_2] Devoir\n
+		%c[pda_white]• %c[ui_gray_2] Liberté\n
+		%c[pda_white]• %c[ui_gray_2] Militaires\n
+		%c[pda_white]• %c[ui_gray_2] Mercenaires\n
+		%c[pda_white]• %c[ui_gray_2] Scientifique\n \n
+		%c[pda_yellow]Last Dawn :\n
+		%c[pda_white]Parle à Spire dans la base de Firmament des Marais. Disponible pour les alliés de Firmament :\n
+		%c[pda_white]• %c[ui_gray_2] Solitaires\n
+		%c[pda_white]• %c[ui_gray_2] Firmament\n
+		%c[pda_white]• %c[ui_gray_2] Devoir\n
+		%c[pda_white]• %c[ui_gray_2] Liberté\n
+		%c[pda_white]• %c[ui_gray_2] Mercenaires\n
+		%c[pda_white]• %c[ui_gray_2] Scientifique\n \n
+		%c[pda_yellow]Opération Vengeance du Monolithe :\n
+		%c[pda_white]Disponible auprès du colonel Kuzentsov. Disponible pour les alliés militaires :\n
+		%c[pda_white]• %c[ui_gray_2] Militaires\n
+		%c[pda_white]• %c[ui_gray_2] Scientifique\n \n
+		%c[pda_yellow]Quête de Dr.X :\n
+		%c[pda_white]Disponible pour toutes les factions. Pas vraiment axé sur l'histoire.
+		</text>
+	</string>
+
+	<string id="article_gamma_repgun">
+		<text>Réparations : Armes</text>
+	</string>
+	<string id="article_gamma_repgun_text">
+		<text>%c[pda_white]Réparations : Armes\n \n 
+		%c[pda_white]Voici les bases du système de réparation d'armes de G.A.M.M.A. :\n
+		%c[pda_white]• %c[ui_gray_2] Il faut réparer les armes pour progresser, vu que tu peux pas les acheter chez les marchands dans GAMMA. Par contre, tu peux en looter sur les caches ou sur des stalkers morts. C'est comme ça que tu atteindras le Nord en un seul morceau.\n
+		%c[pda_white]• %c[ui_gray_2]La plupart des flingues seront détruits et devront être réparés, sinon ils s'enrayeront souvent. N'oublie pas que l'état d'une arme est indépendant de l'état de ses pièces.\n
+		%c[pda_white]• %c[ui_gray_2] L'état de l'arme représente sa propreté et influence la dégradation des pièces ainsi que les enrayages. Les enrayages dépendent de la qualité des pièces. Réparer l'état général de l'arme ne répare pas ses pièces. Chaque pièce doit être réparée individuellement, chacune affectant la fréquence des enrayages.\n
+		Le canon modifie la puissance de dégâts de l'arme et la capacité de pénétration des munitions. Une arme avec un canon en très mauvais état infligera presque aucun dégât.\n \n
+		%c[pda_white]Tu peux réparer les armes de deux façons :\n
+		%c[pda_white]• %c[ui_gray_2] Tu peux te procurer le kit de réparation adapté, %c[pda_white]faire un clic droit %c[ui_gray_2]sur l'arme et choisir « entretenir les pièces ». Ça te permettra de remplacer les pièces par d'autres en meilleur état, mais ça consommera une utilisation du kit. Ça peut même remplacer les canons. Ces kits peuvent être fabriqués ou achetés auprès des mécaniciens une fois que tu as l'outil adapté (basique, avancé ou expert). Remplacer les pièces de cette façon améliorera l'état de l'arme.\n
+		%c[pda_white]• %c[ui_gray_2] Tu peux quand même réparer des armes sans les kits de réparation appropriés. Récupère des pièces en état supérieur à 60 % et répare-les à 100 % avec l'outil adapté (baguette de nettoyage, multitool ou lime). Ensuite, fais simplement glisser-déposer les pièces réparées sur l'arme. Changer les pièces de cette façon rendra l'arme moins propre. Note que les canons ne peuvent pas être remplacés ainsi.\n
+		%c[pda_white]• %c[ui_gray_2] Si une arme a un canon en état supérieur à 60 %, tu peux acheter un kit de nettoyage chez les mécaniciens, %c[pda_white]faire un clic droit %c[ui_gray_2]sur l'arme et choisir « %c[pda_white]nettoyer le canon%c[ui_gray_2] ». C'est la même chose pour les autres pièces. C'est un bon moyen d'obtenir de bonnes armes tôt, puisque tu peux acheter des kits de nettoyage sans avoir besoin d'outils. Tu dois aussi nettoyer l'arme en utilisant du matériel de nettoyage ou payer un mécanicien pour le faire. Nettoyer une arme ne répare pas ses pièces, mais empêche leur dégradation lors des tirs.
+		</text>
+	</string>
+
+	<string id="article_gamma_reparm">
+		<text>Réparations : Armures</text>
+	</string>
+	<string id="article_gamma_reparm_text">
+		<text>%c[pda_white]Réparations : Armures\n \n
+		%c[pda_white]Voici les bases du système de réparation d'armures de G.A.M.M.A. :\n
+		%c[pda_white]• %c[ui_gray_2] La réparation des armures suit le même principe que pour les armes. Trouve des armures dans les caches ou sur des stalkers morts.\n
+		%c[pda_white]• %c[ui_gray_2]Pour remplacer des pièces d'armure, il te faut une armure à plus de 50 % d'état et le kit de réparation adapté dans ton inventaire. En dessous, tu devras changer les pièces.\n
+		%c[pda_white]• %c[ui_gray_2] Remplace les pièces d'armure en utilisant un établi ou en %c[pda_white]faisant un clic droit %c[ui_gray_2]sur n'importe quel kit de réparation pour ouvrir l'établi et accéder au menu de réparation. Remplacer des pièces ne consomme pas les utilisations des kits de réparation. À partir de 50 % d'état, l'armure peut être réparée directement avec des kits de réparation. Pense à entretenir souvent l'état de ton armure avec des objets de réparation.\n
+		%c[pda_white]• %c[ui_gray_2] Note qu'en GAMMA, les mécaniciens ne peuvent pas réparer les armures.
+		</text>
+	</string>
+
+	<string id="article_gamma_rfpacks">
+		<text>Colis</text>
+	</string>
+	<string id="article_gamma_rfpacks_text">
+		<text>%c[pda_white]Colis radioactifs cachés\n \n
+		%c[pda_white]Les bases du système de colis RF G.A.M.M.A. sont les suivantes :\n
+		%c[pda_white]• %c[ui_gray_2] Tu recevras des messages aléatoires te disant de trouver des colis sur certaines cartes. Pour les localiser, équipe ton Récepteur RF et appuie sur la « touche du détecteur ». Range ton arme et change la fréquence de ton Récepteur RF pour qu'elle corresponde à celle indiquée dans le message (%c[pda_white]consulte le keymap pour plus de détails%c[ui_gray_2]).\n
+		%c[pda_white]• %c[ui_gray_2]Suis les bips forts ; plus ils sont rapides, plus tu es près du colis.\n
+		%c[pda_white]• %c[ui_gray_2] Tu peux maintenir le bouton Utiliser (%c[pda_white]F%c[ui_gray_2]) pour afficher le texte du colis et le repérer plus facilement pour le ramasser. En fait, c'est un objet posé au sol ou caché dans des barils, etc. Ce n'est PAS une cache avec laquelle tu dois interagir.\n
+		%c[pda_white]• %c[ui_gray_2] Tu peux ensuite faire un %c[pda_white]clic droit %c[ui_gray_2]sur le colis dans ton inventaire et l'ouvrir pour récupérer son contenu. Les colis peuvent contenir des trucs aléatoires, des artefacts ou des trousses d'outils.
+		</text>
+	</string>
+
+	<string id="article_gamma_ballistics">
+		<text>Système balistique</text>
+	</string>
+	<string id="article_gamma_ballistics_text">
+		<text>%c[pda_white]Système balistique\n \n
+		%c[pda_white]GAMMA utilise le Système Balistique Équilibré de Grok. Voici les bases du système balistique de G.A.M.M.A. :\n
+		%c[pda_white]• %c[ui_gray_2] Notamment, il modifie la pénétration des balles et des armures de JOUEUR vers NPCs (et non l'inverse), en s'inspirant du système de munitions d'EFT. L'objectif est d'avoir un système balistique plus réaliste où tu dois prendre en compte l'armure de ton ennemi et le type de munitions que tu utilises.\n
+		%c[pda_white]• %c[ui_gray_2] La puissance de pénétration (AP) des munitions est comparée à l'armure du membre de l'adversaire. Si la puissance AP &gt; armure du membre, les dégâts sont appliqués. Si la puissance AP est inférieure à l'armure du membre, aucun dégât n'est infligé, et l'armure du membre est réduite en fonction de la puissance AP.\n
+		%c[pda_white]• %c[ui_gray_2] Les munitions à faible puissance AP doivent d'abord briser l'armure des membres de l'adversaire avant d'infliger des dégâts. Les munitions AP sont donc nécessaires pour éliminer les cibles lourdement blindées. Les munitions FMJ et HP fonctionnent toujours, mais l'armure de l'ennemi doit être détruite par de nombreux impacts avant que des dégâts ne soient infligés. L'armure des jambes et du visage est réduite.\n \n
+		%c[pda_yellow]Munitions AP (perforantes) :\n
+		%c[pda_white]• %c[ui_gray_2] Coûteux, mais vient à bout de n'importe quelle cible en armure lourde en fin de partie.\n
+		%c[pda_white]• %c[ui_gray_2] Ces munitions sont considérées comme des munitions de fin de partie. Les utiliser contre des cibles légèrement blindées n'est pas conseillé.\n \n
+		%c[pda_yellow]Munitions FMJ (blindées) :\n
+		%c[pda_white]• %c[ui_gray_2] Bon marché et à utiliser pour buter des cibles légèrement blindées ou comme alternative moins chère et moins efficace aux munitions AP contre les cibles blindées.\n \n
+		%c[pda_yellow]Munitions HP (Hollow-Point) :\n
+		%c[pda_white]• %c[ui_gray_2]Un peu plus cher que le FMJ. À utiliser pour buter les mutants, vu qu'il a encore moins de puissance perforante que les munitions FMJ.\n \n
+		%c[pda_yellow]Autres\n
+		%c[pda_white]• %c[ui_gray_2] Les munitions de sniper sont en fait très puissantes, mais aussi très chères. Le .338 Lapua bute la plupart des ennemis d'une balle dans le torse.\n
+		%c[pda_white]• %c[ui_gray_2] La chevrotine fait le taf en début de partie contre les stalkers. Oublie-la en milieu et fin de partie, par contre. Bonne contre les mutants, nulle contre les exos.\n
+		%c[pda_white]• %c[ui_gray_2] Les balles blindées sont efficaces contre les mutants et les stalkers. Les balles perforantes sont les meilleures contre les stalkers.\n
+		%c[pda_white]• %c[ui_gray_2] Certaines munitions sont bien plus efficaces contre les mutants, comme les HP, le .357 magnum, le .45 Hydra-Shok, la chevrotine, les balles slugs et le 7.62x25 Pst.\n \n
+		%c[pda_white]Les balles ont une valeur de pénétration d'armure indiquée dans leur description. Celle-ci est basée sur la classification %c[pda_white]BR russe %c[ui_gray_2]pour la pénétration des munitions :\n
+		%c[pda_white]• BR1 %c[ui_gray_2]- %c[pda_white]BR2 %c[ui_gray_2]= %c[pda_white]perce les armures légères\n
+		%c[pda_white]• BR3 %c[ui_gray_2]- %c[pda_white]BR4 %c[ui_gray_2]= %c[pda_white]perfore les armures de classe moyenne\n
+		%c[pda_white]• BR5 %c[ui_gray_2]= %c[pda_white]perfore les armures lourdes\n
+		%c[pda_white]• BR6 %c[ui_gray_2]= %c[pda_white]perfore les armures exo\n \n
+		%c[pda_white]Certaines factions ont des caractéristiques spécifiques :
+		%c[pda_white]• %c[ui_gray_2]Monolithe n'utilise que des munitions AP.\n
+		%c[pda_white]• %c[ui_gray_2] Péché n'utilise que des munitions perforantes, des mitrailleuses lourdes et est bien plus résistant qu'un humain normal.\n
+		%c[pda_white]• %c[ui_gray_2] Les membres de l'ISG ont un équipement de qualité, n'utilisent que des munitions perforantes et ont une meilleure résistance à la pénétration des balles.\n
+		%c[pda_white]• %c[ui_gray_2]La plupart des stalkers Maître et Légende utilisent des munitions AP.\n
+		%c[pda_white]• %c[ui_gray_2] Les factions utilisent des armes selon leur type de marchand (WP ou OTAN).
+		</text>
+	</string>
+
+</string_table>

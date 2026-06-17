@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+
+<!--
+    Ledge Grabbing
+    Generated with AnomalyModCreator
+-->
+
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!-- 
+	MCM
+-->
+<string_table>
+
+	<string id="ui_mcm_ledge_grabbing_title">
+		<text>Saisie de corniche</text>
+	</string>
+	<string id="ui_mcm_menu_demonized_ledge_grabbing">
+		<text>Saisie de corniche</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_enable">
+		<text>Activer</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_alternativeClimbDetection">
+		<text>Détection alternative d'escalade</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_alternativeClimbDetection_desc">
+		<text>La méthode alternative effectuera un lancer de rayon vers les corniches plus proches du réticule du joueur. La méthode standard effectuera un lancer de rayon depuis une hauteur fixe.</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_playerWidthCheck">
+		<text>Vérification des limites du joueur</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_playerWidthCheck_desc">
+		<text>Si activé, effectuera un lancer de rayon supplémentaire pour vérifier si le joueur tient sur la corniche. Cela pourrait limiter les corniches accessibles pour l'escalade.</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_unstuckCheck">
+		<text>Vérification d'immobilisation</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_unstuckCheck_desc">
+		<text>Si activé, tentera de dégager le joueur si la saisie de la corniche n'a pas été effectuée correctement.</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_hardcoreMode">
+		<text>Mode hardcore</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_hardcoreMode_desc">
+		<text>Lorsqu'activé, ajoute des restrictions supplémentaires pour l'escalade : \n1. Pas d'escalade lorsque le poids du joueur dépasse 90 kg\n2. Pas d'escalade lorsque la santé du joueur est inférieure à 60 %\n3. Augmente l'utilisation de l'endurance.</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_BHSMode">
+		<text>Intégration BHS</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_BHSMode_desc">
+		<text>Lorsqu'activé, si vous utilisez le système de santé corporelle et que l'un des bras du joueur est cassé, il ne sera pas possible de grimper.</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_throttleCheck">
+		<text>Délai de vérification d'escalade</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_throttleCheck_desc">
+		<text>Intervalle entre les vérifications en millisecondes. Augmentez cette valeur pour améliorer les performances au détriment de la précision.</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_climbTriggerDistance">
+		<text>Distance de déclenchement</text>
+	</string>
+	<string id="ui_mcm_demonized_ledge_grabbing_climbTriggerDistance_desc">
+		<text>Distance maximale pour initier la saisie d'une corniche.</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_raySteps">
+		<text>Précision de la saisie de corniche</text>
+	</string>
+	<string id="ui_mcm_demonized_ledge_grabbing_raySteps_desc">
+		<text>Un nombre plus élevé améliore la détection et la position de la saisie au prix d'une légère baisse de performance.</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_jumpTriggerTime">
+		<text>Durée de maintien de la touche</text>
+	</string>
+	<string id="ui_mcm_demonized_ledge_grabbing_jumpTriggerTime_desc">
+		<text>Si vous maintenez la touche plus longtemps que cette durée, la saisie de la corniche sera activée.</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_soundVolume">
+		<text>Volume sonore</text>
+	</string>
+	<string id="ui_mcm_demonized_ledge_grabbing_gruntVolume">
+		<text>Volume des grognements</text>
+	</string>
+	<string id="ui_mcm_demonized_ledge_grabbing_gruntProbability">
+		<text>Probabilité des grognements</text>
+	</string>
+	<string id="ui_mcm_demonized_ledge_grabbing_staminaDrain">
+		<text>Dépense d'endurance</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_inputMethod">
+		<text>Méthode de saisie</text>
+	</string>
+	<string id="ui_mcm_demonized_ledge_grabbing_keybind">
+		<text>Raccourci clavier</text>
+	</string>
+	<string id="ui_mcm_lst_demonized_ledge_grabbing_inputMethod_jumpHold">
+		<text>Maintenir la touche</text>
+	</string>
+	<string id="ui_mcm_lst_demonized_ledge_grabbing_inputMethod_buttonPress">
+		<text>Appui sur le bouton</text>
+	</string>
+	<string id="ui_mcm_lst_demonized_ledge_grabbing_inputMethod_both">
+		<text>Les deux</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_animationRandomization">
+		<text>Randomisation des animations</text>
+	</string>
+	<string id="ui_mcm_demonized_ledge_grabbing_animationRandomization_desc">
+		<text>Randomise les mouvements de la caméra.</text>
+	</string>
+
+</string_table>
+                        

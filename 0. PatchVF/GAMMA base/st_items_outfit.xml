@@ -1,0 +1,1622 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	MISCELLANEOUS GEAR
+-->
+
+	<string id="st_psy_helmet_name">
+		<text>Casque-psy (Calibré)</text>
+	</string>
+	<string id="st_psy_helmet_desc">
+		<text>Un casque-psy capable de résister aux fréquences psychiques inhabituelles émises par les différents émetteurs DUGA dans la Zone d'exclusion de Tchernobyl, développé sous la direction de Sakharov à la station de recherche près de Yantar. Lorsqu'il est activé, le casque projette un dôme invisible à proximité de l'utilisateur, agissant sur les particules énergisées libérées par l'Coquille artefact, grâce auxquelles la majeure partie des radiations est neutralisée, les résidus étant réfléchis par le système de protection intégré directement dans la structure du casque.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+	
+	<string id="st_bad_psy_helmet_name">
+		<text>Casque-Psy (Non calibré)</text>
+	</string>
+	<string id="st_bad_psy_helmet_desc">
+		<text>Un casque-psy non calibré capable de résister aux fréquences psychiques inhabituelles émises par les différents émetteurs DUGA dans la Zone d'exclusion de Tchernobyl, développé sous la direction de Sakharov à la station de recherche près de Yantar. Lorsqu'il est activé, le casque projette un dôme invisible à proximité de l'utilisateur, agissant sur les particules énergisées libérées par l'Coquille artefact, grâce auxquelles la majeure partie des radiations est neutralisée, les résidus étant réfléchis par le système de protection intégré directement dans la structure du casque.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+	
+<!--
+	HEADGEAR
+-->
+
+	<string id="st_helm_exo_name">
+		<text>ExoCasque</text>
+	</string>
+	<string id="st_helm_exo_descr">
+		<text>L'ExoHelmet est un casque épais en acier produit dans les mêmes usines ukrainiennes que les armures exosquelettiques. Le masque à gaz qui l'accompagne est un SF10 britannique, facilement trouvable sur les marchés de surplus après son remplacement par le General Service Respirator (GSR).\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_battle">
+		<text>Casque Sphere M12</text>
+	</string>
+	<string id="st_helm_battle_dolg">
+		<text>Casque Sphere M12 Devoir</text>
+	</string>
+	<string id="st_helm_battle_freedom">
+		<text>Casque Sphere M12 Liberté</text>
+	</string>
+	<string id="st_helm_battle_descr">
+		<text>Un casque en aluminium/titane avec une enveloppe extérieure en tissu pour le camouflage. Il est équipé de poches pouvant être remplies de pièces d'armure supplémentaires. Ce casque est couramment utilisé parmi les militaires de la Zone et les Spetsnaz, qui l'utilisent généralement en tandem avec des combinaisons de la série PSZ. Globalement, le casque M12 Sphere offre l'une des meilleures protections orientées combat dans la stalkers.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_hardhat">
+		<text>Casque en Acier de Surplus</text>
+	</string>
+	<string id="st_helm_hardhat_descr">
+		<text>Un casque militaire en acier obsolète, équipé d'une visière rétractable.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_protective">
+		<text>Casque Écran SSP-99</text>
+	</string>
+	<string id="st_helm_protective_descr">
+		<text>Un casque à rideau de haute qualité fabriqué par le même Institut de recherche en défense que les combinaisons SSP-99 et SEVA. Permet une isolation totale des conditions d'un environnement anormal. Un système de filtration d'air en circuit fermé fournit à l'utilisateur un air constamment frais et pur.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_respirator">
+		<text>Kit Masque à Gaz PBF Reconditionné</text>
+	</string>
+	<string id="st_helm_respirator_freedom">
+		<text>Kit Masque à Gaz PBF Liberté</text>
+	</string>
+	<string id="st_helm_respirator_dolg">
+		<text>Kit Masque à Gaz PBF Devoir</text>
+	</string>
+	<string id="st_helm_respirator_descr">
+		<text>Masque à gaz ShMB rééquipé avec des filtres externes de 40 mm pour une fonctionnalité accrue. En règle générale, les masques de ce type offrent une protection respectable dans les zones de radioactivité accrue, mais souffrent d'un taux de défaillance élevé dans les environnements toxiques.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_resp">
+		<text>Respirateur</text>
+	</string>
+	<string id="st_helm_resp_descr">
+		<text>Respirateur basique en plastique et caoutchouc, utilisé pour protéger le porteur contre l'inhalation de poussières, fumées, vapeurs ou gaz nocifs. Largement utilisé par les recrues en raison de son poids léger et de sa protection environnementale économique. Cependant, il offre une protection physique négligeable et est garanti de tomber en panne dans les zones plus fortement irradiées.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_respirator_gp5">
+		<text>Masque à gaz GP-5</text>
+	</string>
+	<string id="st_helm_respirator_gp5_descr">
+		<text>Conçu à l'origine pour protéger la population soviétique des retombées radioactives. Les filtres de ce GP-5 ont été restaurés avec le plus grand soin. Comparé aux kits de masque à gaz de prix et de disponibilité similaires, cet appareil respiratoire reconditionné offre une meilleure protection contre les radiations, mais présente un taux de défaillance encore plus élevé dans les environnements toxiques.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_bandana">
+		<text>Bandana</text>
+	</string>
+	<string id="st_helm_bandana_descr">
+		<text>Un bandana en tissu ordinaire porté par les conscrits, les unités de soutien et les troupes de l'arrière dans l'Armée. Les Stalkers l'enroulent souvent autour de la bouche et du nez pour éviter d'inhaler des particules toxiques ou radioactives, mais cette protection reste au mieux peu fiable.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_rp_bala">
+		<text>Cagoule</text>
+	</string>
+	<string id="st_helm_rp_bala_descr">
+		<text>Un passe-montagne classique en tissu noir. Les Stalkers l'enroulent souvent autour de leur bouche et de leur nez pour éviter d'inhaler des particules toxiques ou radioactives, mais cette protection reste très peu fiable.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_cloth_mask">
+		<text>Masque en tissu</text>
+	</string>
+	<string id="st_helm_cloth_mask_descr">
+		<text>Simple morceau de tissu plié en masque. Les Stalkers le drapent souvent autour de leur bouche et de leur nez pour éviter d'inhaler des particules toxiques ou radioactives, mais cette protection reste très peu fiable.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_m40">
+		<text>Masque à gaz M40</text>
+	</string>
+	<string id="st_helm_m40_descr">
+		<text>Offre une protection respectable contre les radiations et les produits chimiques pendant de longues périodes, même après avoir subi des dommages. Équipée d'un filtre respiratoire multicouche de 40 millimètres.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_metro">
+		<text>Casque « Apocalypse »</text>
+	</string>
+	<string id="st_helm_metro_descr">
+		<text>On pense qu'elle a été créée pour la première fois par une faction connue sous le nom de « Final Day ». Ce casque ressemble à un masque à gaz tchèque M10 avec des modifications de plaques de blindage lourd. Lorsque la faction a été dissoute, ces casques sont progressivement entrés en circulation.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_tactic">
+		<text>Casque Sphere-08</text>
+	</string>
+	<string id="st_helm_tactic_descr">
+		<text>Casque moderne et haut de gamme équipé d'un système de filtration d'air intégré, inspiré des modèles occidentaux. La conception repose sur plusieurs couches de Kevlar et de matériaux diélectriques composites. Principalement utilisé par les opérateurs Spetsnaz de la Zone, notamment en combinaison avec les séries d'armures corporelles PS5.\n \n
+		</text>
+	</string>
+
+	<string id="helm_spartan">
+		<text>Casque Cz-M10 Spartan</text>
+	</string>
+	<string id="helm_spartan_descr">
+		<text>Casque commandé par des stalkers extrêmement influents, inspiré du design du casque « Apocalypse » autrefois utilisé par la faction « Dernier Jour ». En comparaison, ce casque est plus léger et plus protecteur que son prédécesseur, se comparant avantageusement aux casques de combat modernes tels que la série « Sphere ».\n \n
+		</text>
+	</string>
+	
+	<string id="helm_dolg_battle">
+		<text>Sphere M12 Devoir</text>
+	</string>
+	<string id="helm_dolg_battle_descr">
+		<text>.\n \n
+		</text>
+	</string>
+	
+	<string id="helm_dolg_battle_redline">
+		<text>Casque Sphere M12 Devoir « Ligne Rouge »</text>
+	</string>
+	<string id="helm_dolg_battle_redline_descr">
+		<text>.\n \n
+		</text>
+	</string>
+	
+	<string id="helm_dolg_vintage">
+		<text>Casque de combat PSM-4</text>
+	</string>
+	<string id="helm_dolg_vintage_descr">
+		<text>.\n \n
+		</text>
+	</string>
+	
+	<string id="helm_ach7">
+		<text>Ensemble de tête ACH-7</text>
+	</string>
+	<string id="helm_ach7_descr">
+		<text>Le ACH-7 (Advanced Compound Headgear, 7 Parties) est une version plus moderne du casque en acier de surplus. Cependant, l'absence de dispositif respiratoire en fait un choix extrêmement médiocre pour les conditions de la Zone.\n \n
+		</text>
+	</string>
+	
+	<string id="helm_ach7ex">
+		<text>Ensemble de tête ACH-7EX</text>
+	</string>
+	<string id="helm_ach7ex_descr">
+		<text>L'ACH-7 (Advanced Compound Headgear, 7 pièces) est une version plus moderne du casque en acier de surplus. L'ACH-7EX inclut un système respiratoire, offrant une protection chimique et radiologique située entre celle d'un GP-5 et d'un kit PBF.\n \n
+		</text>
+	</string>
+	
+	<string id="helm_eo21">
+		<text>Masque à gaz EO-21 PBFM</text>
+	</string>
+	<string id="helm_eo21_descr">
+		<text>.\n \n
+		</text>
+	</string>
+	
+	<string id="helm_dolg_eo21_red">
+		<text>EO-21 PBFM Krasnyy</text>
+	</string>
+	<string id="helm_dolg_eo21_red_descr">
+		<text>.\n \n
+		</text>
+	</string>
+	
+	<string id="helm_eo21sawnoff">
+		<text>Masque à gaz EO-21 PBFL</text>
+	</string>
+	<string id="helm_eo21sawnoff_descr">
+		<text>.\n \n
+		</text>
+	</string>
+	
+	<string id="helm_dolg_eo21sawnoff">
+		<text>EO-21 PBFL Devoir</text>
+	</string>
+	<string id="helm_dolg_eo21sawnoff_descr">
+		<text>.\n \n
+		</text>
+	</string>
+	
+	<string id="helm_gp5">
+		<text>Masque à gaz GP-5</text>
+	</string>
+	<string id="helm_gp5_descr">
+		<text>.\n \n
+		</text>
+	</string>
+	
+	<string id="helm_ppm88">
+		<text>Masque à gaz PPM-88</text>
+	</string>
+	<string id="helm_ppm88_descr">
+		<text>Un masque à gaz russe bien adapté aux risques écologiques CBRN. Dans la Zone, il peut être considéré comme un successeur fonctionnel et spirituel du GP-5.\n \n
+		</text>
+	</string>
+	
+	<string id="helm_m50">
+		<text>Masque à gaz M50z</text>
+	</string>
+	<string id="helm_m50_descr">
+		<text>Un masque à gaz M50 modifié pour une meilleure fonctionnalité dans la Zone. Globalement, il est considéré comme une amélioration par rapport au M40.\n \n
+		</text>
+	</string>
+	
+	<string id="helm_ranger">
+		<text>Masque à Gaz GP-10z Ranger</text>
+	</string>
+	<string id="helm_ranger_descr">
+		<text>Inspiré du GP-10, ce masque à gaz a été conçu principalement pour protéger son porteur des Controllers et des Poltergeists.\n \n
+		</text>
+	</string>
+	
+	<string id="helm_dolg_tactic_red">
+		<text>Sphere 08 Krasnyy Devoir</text>
+	</string>
+	<string id="helm_dolg_tactic_red_descr">
+		<text>.\n \n
+		</text>
+	</string>
+
+
+<!--
+	NOVICE OUTFITS
+-->
+	<string id="novice_outfit_name">
+		<text>Veste en cuir</text>
+	</string>
+	<string id="novice_outfit_description">
+		<text>Anorak en cuir chaud porté par-dessus un pull à col roulé, rentré dans un jean et des bottes de randonnée. Tenue de prédilection des stalkers naïfs ou inexpérimentés. Un choix inadapté aux conditions rigoureuses de la Zone.\n \n
+		</text>
+	</string>
+
+	<string id="novice_outfit_camo_name">
+		<text>Veste de Passionné d'Armes à Feu</text>
+	</string>
+	<string id="novice_outfit_camo_description">
+		<text>Un anorak chaud en cuir porté par-dessus un pull à col roulé, rentré dans un jean et des chaussures de randonnée. Anciennement propriété d'un passionné d'armes à feu typique, il présente plusieurs avantages par rapport à une veste ordinaire, notamment un motif de camouflage, un matériau de meilleure qualité et davantage de poches pour ranger des affaires. Toutefois, il reste un choix inadéquat pour les conditions rigoureuses de la Zone.\n \n
+		</text>
+	</string>
+
+	<string id="novice_outfit_tourist_name">
+		<text>Veste de Touriste</text>
+	</string>
+	<string id="novice_outfit_tourist_description">
+		<text>Un anorak chaud en cuir avec un sac à dos intégré, porté par-dessus un pull à col roulé, rentré dans un jean et des chaussures de randonnée. Il semble que l'ancien propriétaire aimait beaucoup la randonnée. Le choix éclairé des matériaux et le système de gestion du poids en font un vêtement plus utile que la plupart des vestes en cuir. Toutefois, il reste un choix inadéquat pour les conditions rigoureuses de la Zone.\n \n
+		</text>
+	</string>
+
+	<string id="csky_novice_outfit_name">
+		<text>Veste en Cuir Firmament</text>
+	</string>
+	<string id="csky_novice_outfit_description">
+		<text>Un anorak en cuir souple bleu porté par-dessus un pull à col roulé, rentré dans un jean et des chaussures de randonnée. Ces combinaisons simples sont produites en grande quantité par les tailleurs de Firmament pour un usage interne à la faction. Un choix inadéquat face aux conditions difficiles de la Zone.\n \n
+		</text>
+	</string>
+
+	<string id="dolg_novice_outfit_name">
+		<text>Veste en cuir Devoir</text>
+	</string>
+	<string id="dolg_novice_outfit_description">
+		<text>Un anorak en cuir sombre porté par-dessus un pull à col roulé, rentré dans un jean et des bottes de combat. Autrefois utilisé uniquement comme tenue décontractée, ces combinaisons simples n'ont jamais été conçues pour un usage en service actif. Un choix inadéquat face aux conditions difficiles de la Zone.\n \n
+		</text>
+	</string>
+
+	<string id="bandit_novice_outfit_name">
+		<text>Veste en Cuir Noir</text>
+	</string>
+	<string id="bandit_novice_outfit_description">
+		<text>Veste en cuir noir couramment associée aux bandits et malfrats de la Zone. Principalement portée pour intimider les recrues des autres factions, elle offre très peu de protection. Un choix inadéquat pour les conditions difficiles de la Zone.\n \n
+		</text>
+	</string>
+
+	<string id="bandit_novice_alt_outfit_name">
+		<text>Veste en Cuir Blindée</text>
+	</string>
+	<string id="bandit_novice_alt_outfit_description">
+		<text>Les vestes de ce type ont commencé à circuler parmi les Bandits grâce à Quartermaster Morgan, un fournisseur corrompu anciennement membre de la faction Devoir. Offre une protection comparable à celle d'une tenue de service standard de l'Armée. Un choix inadéquat face aux conditions difficiles de la Zone.\n \n
+		</text>
+	</string>
+	
+	<string id="redline_novice_outfit_name">
+		<text>Veste en Cuir Redline</text>
+	</string>
+	<string id="redline_novice_outfit_description">
+		<text>Un anorak en cuir rouge vif élégant, porté par-dessus un pull à col roulé, rentré dans un jean et des chaussures de randonnée. Un choix inadapté aux conditions rudes de la Zone.\n \n
+		</text>
+	</string>
+
+	<string id="svoboda_novice_outfit_name">
+		<text>Veste en Cuir Liberté</text>
+	</string>
+	<string id="svoboda_novice_outfit_description">
+		<text>Anorak en cuir camouflé porté par-dessus un pull à col roulé, rentré dans un jean et des bottes de combat. Ce type de tenue est généralement porté uniquement par les membres de Liberté. Un choix inadapté aux conditions rigoureuses de la Zone.\n \n
+		</text>
+	</string>
+
+
+<!--
+	OVERCOATS
+-->
+	<string id="monolith_trenchcoat_outfit_name">
+		<text>Manteau Monolithe</text>
+	</string>
+	<string id="trenchcoat_freedom_brown_outfit_name">
+		<text>Manteau Lourd Liberté</text>
+	</string>
+	<string id="trenchcoat_dolg_brown_outfit_name">
+		<text>Manteau Lourd Devoir</text>
+	</string>
+	
+	<string id="trenchcoat_outfit_name">
+		<text>Manteau</text>
+	</string>
+	<string id="trenchcoat_outfit_description">
+		<text>Un long manteau épais.\n \n
+		</text>
+	</string>
+
+	<string id="trenchcoat_brown_outfit_name">
+		<text>Manteau Lourd Marron</text>
+	</string>
+	<string id="trenchcoat_brown_outfit_description">
+		<text>Long manteau épais porté par-dessus une combinaison de scientifique modifiée. Bien que le système en circuit fermé et plusieurs autres fonctionnalités aient été retirés, le résultat final reste comparable à de nombreuses combinaisons de base des stalkers.\n \n
+		</text>
+	</string>
+	
+	<string id="trenchcoat_green_outfit_name">
+		<text>Manteau Lourd Vert</text>
+	</string>
+	<string id="trenchcoat_green_outfit_description">
+		<text>Long manteau épais vert porté par-dessus une combinaison de scientifique modifiée. Bien que le système en circuit fermé et plusieurs autres fonctionnalités aient été retirés, le résultat final reste comparable à de nombreuses combinaisons de base des stalkers.\n \n
+		</text>
+	</string>
+	
+	<string id="greh_trenchcoat_outfit_name">
+		<text>Manteau Lourd Péché</text>
+	</string>
+	<string id="greh_trenchcoat_outfit_description">
+		<text>Long manteau épais taché de sang porté par-dessus une combinaison de scientifique modifiée. Bien que le système en circuit fermé et plusieurs autres fonctionnalités aient été retirés, le résultat final reste comparable à de nombreuses combinaisons de base des stalkers.\n \n
+		</text>
+	</string>
+	
+
+<!--
+	EXPLORATION
+-->
+	<string id="travel_outfit_name">
+		<text>Combinaison « Voyageur » Stalker</text>
+	</string>
+	<string id="travel_outfit_description">
+		<text>Combinaison assemblée dans la Zone, fabriquée à la main par des artisans locaux. Cette tenue en particulier est de haute qualité et destinée à des explorations prolongées au sein de la Zone. Combinaison de choix pour de nombreux chasseurs d'artefacts et de mutants.\n \n
+		</text>
+	</string>
+	
+	<string id="nomad_outfit_name">
+		<text>Combinaison « Nomade » Stalker</text>
+	</string>
+	<string id="nomad_outfit_description">
+		<text>Combinaison assemblée dans la Zone, fabriquée à la main par des artisans locaux. Cet équipement particulier est de haute qualité et offre une sensation de légèreté et de confort exceptionnels. Il est évident que celui qui a assemblé cette armure connaissait bien la nature de la Zone et y a apporté un grand soin et une grande fierté.\n \n
+		</text>
+	</string>
+	
+	<string id="antirad_outfit_name">
+		<text>Combinaison Anti-rad GP-5MvC</text>
+	</string>
+	<string id="antirad_outfit_description">
+		<text>Développée et conçue par les habitués des 100 Rads et de la Barman, qui ont soutenu financièrement le projet, cette combinaison s'inspire de la tenue Sunrise. Un masque à gaz GP-5, courant et ancien mais toujours fiable, est intégré à des bouteilles d'oxygène légères portées dans le dos.\n \n
+		</text>
+	</string>
+	
+	<string id="hybrid_outfit_name">
+		<text>Combinaison Blindée Hybride</text>
+	</string>
+	<string id="hybrid_outfit_description">
+		<text>Combinaison créée par l'un des instituts de recherche de défense de Kiev dans le but de protéger les chercheurs dans la Zone. Cependant, il est clair que cette combinaison a été conçue avec un budget limité. Ainsi, aucune de ces combinaisons n'a jamais été officiellement commandée par le gouvernement ukrainien, bien que quelques-unes aient réussi à se retrouver dans la Zone.\n \n
+		</text>
+	</string>
+	
+	<string id="wastelander_outfit_name">
+		<text>Combinaison « Déserté » Stalker</text>
+	</string>
+	<string id="wastelander_outfit_description">
+		<text>Une combinaison assemblée dans la Zone, fabriquée à la main par des artisans locaux. Ce modèle particulier est exceptionnellement léger par rapport aux combinaisons moyennes des stalkers, tout en possédant un gilet de classe IIIA spacieux et des inserts légers. Il s'agit essentiellement d'une version plus agile du Berill-5M, conçue par les stalkers.\n \n
+		</text>
+	</string>
+
+<!--
+	CS OUTFITS
+-->
+	<string id="csky_light_novice_outfit_name">
+		<text>CS-1</text>
+	</string>
+	<string id="csky_light_novice_outfit_description">
+		<text>Une combinaison légère portée par les jeunes chercheurs de Firmament. Elle offre une protection plus qu'adéquate contre les phénomènes anormaux rencontrés dans les Marais.\n \n
+		</text>
+	</string>
+	
+	<string id="csky_light_outfit_name">
+		<text>CS-2a</text>
+	</string>
+	<string id="csky_light_outfit_description">
+		<text>Une amélioration de la combinaison CS-1 destinée à la conduite d'opérations de recherche rapide dans des zones à faible risque.\n \n
+		</text>
+	</string>
+
+	<string id="csky_medium_outfit_name">
+		<text>CS-3a</text>
+	</string>
+	<string id="csky_medium_outfit_description">
+		<text>Une tenue plus lourde mais toujours confortable, portée par les membres de Firmament, offrant une protection plus qu'adéquate, en particulier au combat.\n \n
+		</text>
+	</string>
+
+	<string id="csky_heavy_outfit_name">
+		<text>CS-3b</text>
+	</string>
+	<string id="csky_heavy_outfit_description">
+		<text>Anciennement la tenue standard distribuée aux escouades d'assaut de Firmament, après l'échec retentissant de la faction face à la centrale nucléaire en 2011, cette armure sert de rappel qu'une excellente combinaison de protection ne peut garantir la sécurité du mauvais côté du périmètre.\n \n
+		</text>
+	</string>
+	
+
+<!--
+	NBC OUTFITS
+-->
+	<string id="nbc_outfit_name">
+		<text>Combinaison Tactique Stalker</text>
+	</string>
+	<string id="nbc_outfit_description">
+		<text>Une combinaison 'Sunrise' de stalker dont le gilet a été remplacé par une alternative porte-charge à poches spécialement conçue. Une combinaison solide pour un récupérateur soucieux de son budget.\n \n
+		</text>
+	</string>
+	
+	<string id="monolith_nbc_outfit_name">
+		<text>Combinaison Tactique Monolithe</text>
+	</string>
+	<string id="monolith_nbc_outfit_description">
+		<text>Une combinaison Monolithe dont le gilet a été remplacé par une alternative porte-charge modulable. Une tenue solide pour un pilleur soucieux de son budget.\n \n
+		</text>
+	</string>
+
+	<string id="cs_nbc_outfit_name">
+		<text>Combinaison CS-2t</text>
+	</string>
+	<string id="cs_nbc_outfit_description">
+		<text>Une combinaison CS-2b pour stalker dont le gilet a été remplacé par une alternative porte-charge modulable. Une tenue solide pour un pilleur soucieux de son budget.\n \n
+		</text>
+	</string>
+
+	<string id="nbc_merc_outfit_name">
+		<text>Combinaison Tactique Portante « Twilight »</text>
+	</string>
+	<string id="nbc_merc_outfit_description">
+		<text>Une combinaison 'Twilight' de Mercenaire dont le gilet a été remplacé par une alternative porte-charge à poches spécialement conçue. Une combinaison solide pour un récupérateur soucieux de son budget.\n \n
+		</text>
+	</string>
+
+	<string id="nbc_freedom_outfit_name">
+		<text>Gardien de la Liberté</text>
+	</string>
+	<string id="nbc_freedom_outfit_description">
+		<text>Une combinaison Sentinel de Liberté dont le gilet a été remplacé par une alternative porte-charge à poches spécialement conçue. Une combinaison solide pour un récupérateur soucieux de son budget.\n \n
+		</text>
+	</string>
+
+	<string id="nbc_dolg_outfit_name">
+		<text>Combinaison PS5-Mt</text>
+	</string>
+	<string id="nbc_dolg_outfit_description">
+		<text>Une combinaison PS5-M dont le gilet a été remplacé par une alternative porte-charge modulable. Une tenue solide pour un pilleur soucieux de son budget.\n \n
+		</text>
+	</string>
+
+	<string id="bandit_nbc_outfit_name">
+		<text>Combinaison Tactique Portante « Sunset »</text>
+	</string>
+	<string id="bandit_nbc_outfit_description">
+		<text>Une combinaison de bandit « Sunset » dont le gilet a été remplacé par une alternative porte-charge modulable. Une tenue solide pour un pilleur soucieux de son budget.\n \n
+		</text>
+	</string>
+	
+	
+<!--
+	ASSAULT VESTS
+-->
+	<string id="light_loner_outfit_name">
+		<text>Armure Corporelle Intercepteur</text>
+	</string>
+	<string id="light_loner_outfit_description">
+		<text>Une ancienne combinaison IBA importée de l'Ouest et modifiée pour les conditions de la Zone.\n \n
+		</text>
+	</string>
+	
+	<string id="light_freedom_outfit_name">
+		<text>Défenseur de la Liberté</text>
+	</string>
+	<string id="light_freedom_outfit_description">
+		<text>Selon les rumeurs, cette combinaison serait fournie directement à la faction Liberté par une source inconnue. Basée sur le système IBA quelque peu obsolète, elle a été modifiée pour un meilleur confort d'utilisation dans les conditions de la Zone.\n \n
+		</text>
+	</string>
+
+	<string id="light_voen_outfit_name">
+		<text>Combinaison IBAz Militaire Stalker</text>
+	</string>
+	<string id="light_voen_outfit_description">
+		<text>Système d'armure corporelle anormale Interceptor tombé entre les mains des Militaires. Comparé au modèle standard, cette combinaison est légèrement plus ergonomique et offre une meilleure protection contre les interférences psychiques.\n \n
+		</text>
+	</string>
+
+	<string id="light_monolit_outfit_name">
+		<text>Combinaison d'Assaut IBAz Monolithe</text>
+	</string>
+	<string id="light_monolit_outfit_description">
+		<text>Système d'armure corporelle anormale Interceptor tombé entre les mains de Monolithe. Comparé au modèle standard, cette combinaison est légèrement plus ergonomique et offre une meilleure protection contre les interférences psychiques.\n \n
+		</text>
+	</string>
+
+	<string id="light_dolg_outfit_name">
+		<text>IBAz Combinaison de Protection Universelle</text>
+	</string>
+	<string id="light_dolg_outfit_description">
+		<text>Ancienne combinaison IBA importée de l'Ouest et modifiée pour les conditions de la Zone. Particulièrement lourde et inconfortable, la variante Devoir semble avoir bénéficié d'améliorations significatives pour la protection contre les armes chimiques.\n \n
+		</text>
+	</string>
+
+	<string id="light_merc_outfit_name">
+		<text>Combinaison IBAz Mercenaire</text>
+	</string>
+	<string id="light_merc_outfit_description">
+		<text>Système d'armure corporelle anomale Interceptor, bien entretenu et vendu directement aux Mercenaires par diverses sources occidentales. Bien qu'un peu inconfortable, cette combinaison est globalement supérieure au modèle standard circulant dans la Zone.\n \n
+		</text>
+	</string>
+	
+	<string id="light_isg_outfit_name">
+		<text>Combinaison IBAz UNISG</text>
+	</string>
+	<string id="light_isg_outfit_description">
+		<text>Une combinaison de combat robuste mais quelque peu dépassée. Considérée comme le strict minimum à porter dans les situations où un conflit avec les forces armées de l'USS semble inévitable.\n \n
+		</text>
+	</string>
+
+
+<!--
+	SUNRISE SUITS
+-->
+	<string id="stalker_outfit_name">
+		<text>Combinaison « Aube » Stalker</text>
+	</string>
+	<string id="stalker_outfit_description">
+		<text>Combinaison assemblée dans la Zone, fabriquée à la main par des artisans locaux. Le Sunrise est l'une des plus anciennes combinaisons de stalker existantes. Il est également largement considéré comme le minimum de protection qu'un stalker devrait avoir pour des expéditions sérieuses dans la Zone.\n \n
+		</text>
+	</string>
+	
+	<string id="stalker_outfit_camo_name">
+		<text>Combinaison « Caméléon » Stalker</text>
+	</string>
+	<string id="stalker_outfit_camo_description">
+		<text>.\n \n
+		</text>
+	</string>
+
+	<string id="stalker_outfit_alt_name">
+		<text>Combinaison « Hipster » Stalker</text>
+	</string>
+	<string id="stalker_outfit_alt_description">
+		<text>.\n \n
+		</text>
+	</string>
+	
+	<string id="stalker_drought_outfit_name">
+		<text>Combinaison « Sécheresse » Stalker</text>
+	</string>
+	<string id="stalker_drought_outfit_description">
+		<text>Une combinaison assemblée dans la Zone, fabriquée à la main par des artisans locaux. Pour une combinaison de stalker, la « Drought » possède une protection balistique supérieure à la moyenne, mais elle est considérablement moins confortable à porter.\n \n
+		</text>
+	</string>
+	
+	<string id="stalker_predator_outfit_name">
+		<text>Combinaison « Prédateur » Stalker</text>
+	</string>
+	<string id="stalker_predator_outfit_description">
+		<text>Une combinaison assemblée dans la Zone, fabriquée à la main par des artisans locaux. Amélioration globale par rapport à la combinaison « Drought » et nettement plus confortable à porter. Le modèle « Predator » est populaire aussi bien auprès des novices que des experts, grâce à ses faibles coûts d'entretien et son grand potentiel de modification.\n \n
+		</text>
+	</string>
+	
+	<string id="stalker_autumn_outfit_name">
+		<text>Combinaison « Automne » Stalker</text>
+	</string>
+	<string id="stalker_autumn_outfit_description">
+		<text>Une combinaison assemblée dans la Zone, fabriquée à la main par des artisans locaux. Prisée parmi les nouveaux chasseurs d'artefacts et les tueurs à gages créatifs, l'« Autumn » permet une traversée plus aisée des champs anormaux chimiques.\n \n
+		</text>
+	</string>
+	
+	<string id="stalker_vineleaf_outfit_name">
+		<text>Combinaison « Feuille de Vigne » Stalker</text>
+	</string>
+	<string id="stalker_vineleaf_outfit_description">
+		<text>.\n \n
+		</text>
+	</string>
+	
+	<string id="stalker_bear_outfit_name">
+		<text>Combinaison « Ours » Stalker</text>
+	</string>
+	<string id="stalker_bear_outfit_description">
+		<text>Une combinaison assemblée dans la Zone, fabriquée à la main par des artisans locaux. La protection améliorée contre les projectiles de cette combinaison a été obtenue grâce à un composé anormal artisanal non identifié.\n \n
+		</text>
+	</string>
+	
+	<string id="stalker_salamander_outfit_name">
+		<text>Combinaison « Salamandre » Stalker</text>
+	</string>
+	<string id="stalker_salamander_outfit_description">
+		<text>Combinaison assemblée dans la Zone, fabriquée à la main par des artisans locaux. Choix économique offrant un grand potentiel d'amélioration. Ironiquement, bien que surnommée la "Salamandre", elle démontre une capacité médiocre à canaliser la chaleur en toute sécurité.\n \n
+		</text>
+	</string>
+	
+	<string id="stalker_graphite_outfit_name">
+		<text>Combinaison « Graphite » Stalker</text>
+	</string>
+	<string id="stalker_graphite_outfit_description">
+		<text>Une combinaison assemblée dans la Zone, fabriquée à la main par des artisans locaux. Elle a été conçue de manière indépendante par quelques stalkers optimistes qui espéraient mesurer les tempêtes psychiques en plein air. Naturellement, cette entreprise a échoué, mais leurs conceptions ont ensuite été récupérées et utilisées pour produire une combinaison de stalker capable de protéger le système nerveux du porteur.\n \n
+		</text>
+	</string>
+	
+	<string id="stalker_tigerstripe_outfit_name">
+		<text>Combinaison « Tigrée » Stalker</text>
+	</string>
+	<string id="stalker_tigerstripe_outfit_description">
+		<text>Combinaison assemblée dans la Zone, fabriquée à la main par des artisans locaux. L'une des combinaisons de stalkers les plus lourdes disponibles, cette tenue a été conçue pour ceux qui préfèrent gagner leur vie en tant que tueurs à gages ou combattants plutôt qu'en pillant des artefacts ou en dépeçant des mutants.\n \n
+		</text>
+	</string>
+
+	<string id="ecologist_guard_outfit_name">
+		<text>Combinaison de Garde ISRIT</text>
+	</string>
+	<string id="ecologist_guard_outfit_description">
+		<text>Combinaison de base initialement prévue comme équipement de rechange pour l'« Équipe de Recherche et d'Investigation Scientifique Iskra » du Professeur Hermann. Elle est depuis devenue une combinaison de protection relativement bon marché pour les gardes des Scientifiques travaillant dans toute la Zone.\n \n
+		</text>
+	</string>
+
+	<string id="cs_stalker_outfit_name">
+		<text>CS-2b</text>
+	</string>
+	<string id="cs_stalker_outfit_description">
+		<text>Contrairement aux autres combinaisons des séries CS-1, 2 et 3, cette armure corporelle n'a été créée qu'après les pertes massives subies par la faction à la Centrale nucléaire de Tchernobyl. Elle est largement considérée comme la première véritable successeur de la combinaison CS-1, car elle se concentre sur la protection du porteur contre les environnements anormaux plutôt que sur son blindage pour le combat.\n \n
+		</text>
+	</string>
+
+
+<!--
+	STS (SPECIAL TACTICAL SUITS)
+-->
+	<string id="svoboda_light_outfit_name">
+		<text>Vent de la Liberté</text>
+	</string>
+	<string id="svoboda_light_outfit_description">
+		<text>Une combinaison assemblée dans la Zone, fabriquée à la main par des artisans de Liberté. Cette combinaison moulante a été traitée avec une solution spéciale connue sous le nom de 'Horizon', afin d'augmenter la résistance aux anomalies chimiques.\n \n
+		</text>
+	</string>
+
+	<string id="monolith_outfit_name">
+		<text>Combinaison X-18 Monolithe</text>
+	</string>
+	<string id="monolith_outfit_description">
+		<text>Une combinaison mystérieuse associée à la faction Monolithe. D'origine auparavant inconnue, des dizaines de ces combinaisons ont été découvertes dans des conteneurs et casiers sous l'installation X18 dans la Vallée Obscure. Certains stalkers émettent l'hypothèse que ces combinaisons précèdent la création de la Zone.\n \n
+		</text>
+	</string>
+
+	<string id="bandit_sun_outfit_name">
+		<text>Combinaison Tactique « Crépuscule »</text>
+	</string>
+	<string id="bandit_sun_outfit_description">
+		<text>Une combinaison assemblée dans la Zone, fabriquée par des artisans locaux. Sa conception rappelle celle d'une combinaison Monolithe X-18, dont les caractéristiques NBC conventionnelles ont été supprimées au profit d'une meilleure isolation contre les menaces thermiques et électriques. Principalement utilisée par les Bandits dans la Vallée Obscure pour éliminer les poltergeists qui s'échappent occasionnellement du laboratoire local.\n \n
+		</text>
+	</string>
+
+	<string id="merc_sun_outfit_name">
+		<text>Combinaison Tactique « Crépuscule »</text>
+	</string>
+	<string id="merc_sun_outfit_description">
+		<text>Une combinaison assemblée dans la Zone, fabriquée par des artisans locaux. Sa conception présente des similitudes avec une combinaison Monolithe X-18, une tenue que les Mercenaires ont sans doute tenté de récupérer lors de leurs coûteux affrontements à Limansk.\n \n
+		</text>
+	</string>
+
+	<string id="merc_nighthunter_outfit_name">
+		<text>Armure Corporelle STS-N Mercenaire</text>
+	</string>
+	<string id="merc_nighthunter_outfit_description">
+		<text>Surnommée parfois la 'Night Hunter', cette tenue est une combinaison tactique spéciale légèrement lourde, utilisée par les Mercenaires dans les scénarios de combat nocturne et urbain.\n \n
+		</text>
+	</string>
+
+	<string id="merc_wolven_outfit_name">
+		<text>Armure Corporelle STS-W Mercenaire</text>
+	</string>
+	<string id="merc_wolven_outfit_description">
+		<text>Surnommée parfois la 'Wolven', cette tenue est une combinaison tactique spéciale confortable, utilisée par les Mercenaires lors d'expéditions exploratoires et d'opérations furtives.\n \n
+		</text>
+	</string>
+
+	<string id="isg_outfit_name">
+		<text>UNISG Mk1 Armure Tactique</text>
+	</string>
+	<string id="isg_outfit_description">
+		<text>Basée sur un modèle de combinaison standard utilisé par les forces spéciales occidentales, ce type de tenue est courant dans de nombreuses armées à travers le monde. Il s'agit du strict minimum qu'un opérateur de l'UNISG peut espérer recevoir.\n \n
+		</text>
+	</string>
+	
+	<string id="isg_merc_outfit_name">
+		<text>UNISG Mk2 Armure Tactique</text>
+	</string>
+	<string id="isg_merc_outfit_description">
+		<text>Amélioration par rapport au modèle original Mk-1, cette tenue est bien mieux adaptée aux conditions de la Zone. Ces améliorations ont été commandées par l'UNISG sur la base des données limitées qui ont pu être récupérées auprès de leurs prédécesseurs moins chanceux.\n \n
+		</text>
+	</string>
+	
+	
+<!--
+	LCS (LIGHT COMBAT SUIT)
+-->
+	<string id="merc_outfit_name">
+		<text>Combinaison LC Mercenaire</text>
+	</string>
+	<string id="merc_outfit_description">
+		<text>La combinaison « Light Combat » est l'une des tenues les plus couramment utilisées par les Mercenaires de la Zone. Son design s'inspire de celui des forces spéciales des armées occidentales. Adaptée aux opérations de base, mais sa qualité reste inférieure à celle de l'équipement standard des Spetsnaz.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_fighter_outfit_name">
+		<text>Combinaison LC-F Mercenaire</text>
+	</string>
+	<string id="merc_fighter_outfit_description">
+		<text>Appelée le 'Fighter' par les Mercenaires, cette combinaison est une variante de la tenue standard LC. Elle peut surprendre par ses performances dans les opérations où la furtivité et la rapidité sont impératives.\n \n
+		</text>
+	</string>
+
+	<string id="banditmerc_outfit_name">
+		<text>Combinaison LC Clôturée</text>
+	</string>
+	<string id="banditmerc_outfit_description">
+		<text>Combinaison de combat légère obtenue pour équiper les gangs de Bandits locaux. Son design s'inspire de celui utilisé par les forces spéciales des armées occidentales. Ironie dramatique, il semble que les fournisseurs de ces combinaisons aient escroqué leurs clients, la qualité de fabrication étant nettement inférieure.\n \n
+		</text>
+	</string>
+	
+	<string id="renegademerc_outfit_name">
+		<text>Combinaison LC Renégat</text>
+	</string>
+	<string id="renegademerc_outfit_description">
+		<text>Combinaison de combat légère obtenue par des moyens douteux pour équiper les groupes locaux de Renégats. Son design s'inspire de celui utilisé par les forces spéciales des armées occidentales. Étonnamment agréable à porter.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_sunset_outfit_name">
+		<text>Combinaison LCz Mercenaire</text>
+	</string>
+	<string id="merc_sunset_outfit_description">
+		<text>Une combinaison légère de combat de Mercenaire modifiée pour une utilisation dans la Zone. Cette combinaison constitue une véritable amélioration pour la plupart des nouveaux Mercenaires et n'est pas une mauvaise alternative aux combinaisons tactiques spéciales de la faction.\n \n
+		</text>
+	</string>
+
+	<string id="merc_scout_outfit_name">
+		<text>Combinaison LC-S Mercenaire</text>
+	</string>
+	<string id="merc_scout_outfit_description">
+		<text>Surnommée le « Scout », cette tenue est une combinaison LC-F modifiée pour occuper une niche plus spécialisée. Très confortable, ses modifications en font un bon choix pour les Mercenaires souhaitant explorer les anomalies de la Zone avec un budget limité.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_jackal_outfit_name">
+		<text>Combinaison LTS-J Mercenaire</text>
+	</string>
+	<string id="merc_jackal_outfit_description">
+		<text>Une combinaison tactique légère, surnommée « Chacal » en référence au défunt chef mercenaire chargé d'ouvrir le laboratoire X-8 il y a plus de six ans. Extrêmement confortable grâce à un système de répartition du poids assez sophistiqué, elle est très prisée des Mercenaires expérimentés.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_coyote_outfit_name">
+		<text>Combinaison MTS-C Mercenaire</text>
+	</string>
+	<string id="merc_coyote_outfit_description">
+		<text>Combinaison tactique moyenne, surnommée le « Coyote ». Largement considérée comme la successeur de la combinaison corporelle LTS-J. Naturellement, son prix est plus élevé que celui de son prédécesseur, mais cela n'empêchera pas la plupart des Mercenaires de l'acquérir lorsqu'ils en auront les moyens.\n \n
+		</text>
+	</string>
+
+	<string id="greh_armored_outfit_name">
+		<text>Irij Flak Armor</text>
+	</string>
+	<string id="greh_armored_outfit_description">
+		<text>Combinaison d'armement confortable et ergonomique utilisée pour équiper en masse les partisans de Péché. Elle se compose d'un gilet pare-balles superposé à une combinaison environnementale. Ces tenues renforcent efficacement la résistance déjà élevée des guerriers de Péché.\n \n
+		</text>
+	</string>
+	
+	<string id="greh_armored_camo_outfit_name">
+		<text>Vyriy</text>
+	</string>
+	<string id="greh_armored_camo_outfit_description">
+		<text>Variante plus avancée de l'armure anti-éclats standard de Péché, généralement offerte aux membres les plus loyaux et dévoués de la faction. Ces combinaisons renforcent efficacement la protection des guerriers déjà endurcis de Péché.\n \n
+		</text>
+	</string>
+
+	<string id="dolg_voin_outfit_name">
+		<text>PS6-V Warrior Suit</text>
+	</string>
+	<string id="dolg_voin_outfit_description">
+		<text>Une variante moderne et mise à jour de la combinaison de protection universelle PS5-M originale. Elle est plus qu'adéquate pour toutes les conditions de la Zone et se révèle également nettement plus confortable pour une combinaison Devoir. Initialement destinée à remplacer entièrement son prédécesseur, son coût de production plus élevé a mis cet objectif en suspens face aux nombreuses pertes récentes subies par Devoir.\n \n
+		</text>
+	</string>
+	
+	<string id="isg_lcs_outfit_name">
+		<text>Combinaison LC UNISG</text>
+	</string>
+	<string id="isg_lcs_outfit_description">
+		<text>Un modèle de « Combinaison Légère de Combat » adapté pour une utilisation par les troupes de l'UNISG. Sa conception s'inspire de celle utilisée par les forces spéciales des armées occidentales.\n \n
+		</text>
+	</string>
+	
+	<string id="isg_lcs_camo_outfit_name">
+		<text>Combinaison LC-C UNISG</text>
+	</string>
+	<string id="isg_lcs_camo_outfit_description">
+		<text>Un modèle de 'Combinaison Légère de Combat' adapté pour une utilisation dans la Zone par les troupes de l'UNISG. Sa conception est basée sur la combinaison utilisée par les forces spéciales des armées occidentales. Légère et confortable.\n \n
+		</text>
+	</string>
+	
+	<string id="isg_lcs_urban_outfit_name">
+		<text>Combinaison LC-UC UNISG</text>
+	</string>
+	<string id="isg_lcs_urban_outfit_description">
+		<text>Modèle de « Combinaison de Combat Légère » adapté pour une utilisation au combat par les troupes de l'UNISG. Son design s'inspire de celui utilisé par les forces spéciales des armées occidentales. Elle se compare favorablement en combat à de nombreuses autres tenues de sa catégorie, mais reste en deçà de ce qu'un opérateur Spetsnaz porterait.\n \n
+		</text>
+	</string>
+
+
+<!--
+	BERILL-5M ARMORED SUITS
+-->
+	<string id="army_outfit_name">
+		<text>Tenue de Service Militaire</text>
+	</string>
+	<string id="army_outfit_description">
+		<text>Équipement de protection de mauvaise qualité commandé par des bureaucrates gouvernementaux ayant externalisé la production au moins-disant. Généralement attribué aux pilotes d'hélicoptères, conducteurs de chars, personnels de l'arrière et soldats conscrits.\n \n
+		</text>
+	</string>
+
+	<string id="specops_outfit_name">
+		<text>Combinaison Blindée Berill-5M</text>
+	</string>
+	<string id="specops_outfit_description">
+		<text>Cette tenue comprend une armure corporelle militaire de la série PS5 avec pulvérisation de béryllium, modifiée pour une utilisation dans la Zone. Conçue pour des opérations d'assaut par insertion rapide et intense, cette tenue est l'équipement standard pour la plupart des opérateurs Spetsnaz dans la Zone.\n \n
+		</text>
+	</string>
+	
+	<string id="specops_dolg_outfit_name">
+		<text>PS5-B Battle Armor</text>
+	</string>
+	<string id="specops_dolg_outfit_description">
+		<text>Cette tenue comprend une armure corporelle militaire de la série PS5 avec un revêtement en béryllium modifié pour une utilisation dans la Zone. Comparée à une combinaison universelle de protection PS5-M standard, cette tenue est globalement plus ergonomique et protectrice.\n \n
+		</text>
+	</string>
+	
+	<string id="specops_merc_outfit_name">
+		<text>Combinaison Blindée B-5M Mercenaire</text>
+	</string>
+	<string id="specops_merc_outfit_description">
+		<text>Armure corporelle Spetsnaz acquise et reconvertie par les Mercenaires de la Zone. Offre une bonne protection physique tout en étant remarquablement confortable à porter. Souvent portée par les Mercenaires ayant précédemment servi au sein de l'USS.\n \n
+		</text>
+	</string>
+	
+	<string id="specops_bandit_outfit_name">
+		<text>Combinaison Blindée B-5M Déserteur</text>
+	</string>
+	<string id="specops_bandit_outfit_description">
+		<text>Ensemble d'armure corporelle de la série PS5 avec pulvérisation de béryllium, acquis par des moyens douteux par les Bandits de la Zone. Bien que la combinaison présente des signes visibles d'usure irréparable, elle reste un excellent choix pour le combat.\n \n
+		</text>
+	</string>
+
+	<string id="svoboda_heavy_outfit_name">
+		<text>Gardien de la Liberté</text>
+	</string>
+	<string id="svoboda_heavy_outfit_description">
+		<text>Ensemble d'armure corporelle Spetsnaz « libéré » pour une utilisation au sein de la faction Liberté. Cette combinaison a été traitée avec le « Souverain », un composé anormal inventé par la faction. Tout membre de Liberté devant participer à la défense de la Barrière fera de son mieux pour se procurer cette combinaison.\n \n
+		</text>
+	</string>
+
+	<string id="dolg_specops_red_outfit_name">
+		<text>PS5-B2 Combinaison de Combat Vétéran</text>
+	</string>
+	<string id="dolg_specops_red_outfit_description">
+		<text>Ensemble d'armure corporelle anciennement utilisé par les Spetsnaz, renforcé par une protection plus substantielle. Excellente combinaison de combat, bien qu'elle présente un taux d'échec notoire dans les zones d'activité anormale extrême. Malgré cela, les vétérans du Devoir affirment qu'il n'est pas nécessaire de se protéger des anomalies une fois que l'on sait les repérer.\n \n
+		</text>
+	</string>
+
+
+<!--
+	PS5-M UNIVERSAL PROTECTION SUIT
+-->
+	<string id="dolg_outfit_name">
+		<text>PS5-M Combinaison de Protection Universelle</text>
+	</string>
+	<string id="dolg_outfit_description">
+		<text>Une ancienne version de la combinaison de Devoir, mieux adaptée aux recrues qui pourraient préférer la familiarité des combinaisons de stalker à une armure de combat de première ligne.\n \n
+		</text>
+	</string>
+	
+	<string id="dolg_scout_outfit_name">
+		<text>Veste de reconnaissance PS5-R</text>
+	</string>
+	<string id="dolg_scout_outfit_description">
+		<text>Une ancienne combinaison de Devoir, développée parallèlement à la tenue de protection universelle PS5-M afin de protéger les éclaireurs de cette faction durant les premiers jours de l'existence de la Zone. Toutefois, les seules parties de la Zone encore à explorer sont bien trop dangereuses pour une combinaison légère de ce type. Ainsi, ces tenues sont principalement retirées du service et conservées en réserve uniquement pour équiper les recrues de Devoir dans des circonstances désespérées.\n \n
+		</text>
+	</string>
+
+	<string id="dolg_red_outfit_name">
+		<text>Combinaison de Chasseur PS5-M</text>
+	</string>
+	<string id="dolg_red_outfit_description">
+		<text>Variante légèrement plus lourde de la combinaison de protection universelle PS5-M, spécialement conçue pour le Devoir et destinée à la chasse aux mutants. Une petite partie de la protection balistique est sacrifiée au profit d'une bien meilleure protection contre les attaques courantes des mutants. Elle se compare avantageusement même aux combinaisons modernes du Devoir.\n \n
+		</text>
+	</string>
+
+	<string id="svoboda_heavy_outfit_2_name">
+		<text>Sentinelle de la Liberté</text>
+	</string>
+	<string id="svoboda_heavy_outfit_2_description">
+		<text>Une ancienne combinaison de la stalker, légèrement plus lourde, fabriquée il y a longtemps par les artisans de Liberté. Bien que la combinaison présente visiblement des signes d'usure par endroits, elle reste globalement comparable à la plupart des autres combinaisons basiques de la stalker, même aujourd'hui. Les jeunes membres de Liberté sont prêts à payer une fortune pour acquérir l'une de ces tenues, simplement en raison des histoires incroyables que ces vénérables combinaisons ont accumulées au fil des années.\n \n
+		</text>
+	</string>
+	
+	<string id="bandit_ps5_outfit_name">
+		<text>PS5-M Combinaison de Protection Universelle Clôturée</text>
+	</string>
+	<string id="bandit_ps5_outfit_description">
+		<text>Ce type d'armure a commencé à circuler parmi les Bandits grâce à l'Intendant Morgan, un fournisseur corrompu qui appartenait autrefois à la faction Devoir. Elle sacrifie une partie de sa protection physique pour offrir un meilleur confort et une défense accrue contre les anomalies. Ces combinaisons sont une source majeure de tension pour la faction Devoir, et les retirer des mains des anarchistes, criminels et meurtriers constitue une priorité non officielle.\n \n
+		</text>
+	</string>
+	
+	<string id="greh_ps5_outfit_name">
+		<text>Volos</text>
+	</string>
+	<string id="greh_ps5_outfit_description">
+		<text>La conception de cette tenue est basée sur la combinaison de protection universelle PS5-M, bien qu'il soit inconnu comment elle est entrée en possession de Péché. Quoi qu'il en soit, Devoir n'est pas ravi de savoir que ses modèles d'armure sont appropriés par des fanatiques adorateurs de la Zone, et la récupération de ces combinaisons constitue une priorité non officielle. La combinaison elle-même est de bonne qualité et plus qu'adéquate pour les conditions de la Zone.\n \n
+		</text>
+	</string>
+	
+	
+<!--
+	SKAT-9 MILITARY ARMORED SUITS
+-->
+	<string id="military_outfit_name">
+		<text>Combinaison Blindée Skat-9</text>
+	</string>
+	<string id="military_merc_outfit_name">
+		<text>Combinaison Blindée Skat-9 Mercenaire</text>
+	</string>
+	<string id="military_monolit_outfit_name">
+		<text>Combinaison Blindée Skat-9 Monolithe</text>
+	</string>
+	<string id="military_freedom_outfit_name">
+		<text>Combinaison Blindée Skat-9 Libérée</text>
+	</string>
+	<string id="military_sky_outfit_name">
+		<text>Combinaison Blindée CS-4b</text>
+	</string>
+	<string id="military_bandit_outfit_name">
+		<text>Combinaison Blindée Skat-9 Récupérée</text>
+	</string>
+	
+	<string id="military_outfit_description">
+		<text>Une excellente combinaison de protection pour la Zone. Cette armure lourde de grade militaire est conçue pour les opérations de combat majeures dans les zones anomales. Elle se compose d'une combinaison blindée militaire lourde PSZ-12p, d'une combinaison de compensation intégrée et d'une combinaison de protection contre les anomalies. Bien qu'initialement destinée à l'usage exclusif des stalkers militaires et des opérateurs Spetsnaz expérimentés, cette armure parvient occasionnellement à d'autres factions en dehors de l'armée par des moyens inconnus.\n \n
+		</text>
+	</string>
+	
+	<string id="dolg_heavy_outfit_name">
+		<text>PSZ-9d</text>
+	</string>
+	<string id="dolg_heavy_outfit_description">
+		<text>Développée par des instituts de recherche en défense à Kiev, la première version de cette combinaison de Devoir était à l'origine un simple ensemble d'armure corporelle Spetsnaz PSZ-9, modifié pour la Zone. Aujourd'hui, la dernière conception de cette armure est capable d'arrêter une balle de fusil et offre une excellente protection contre les innombrables horreurs de la Zone. Il est rare qu'une armure aussi prisée soit attribuée à un membre de Devoir qui ne s'est pas déjà distingué de manière significative.\n \n
+		</text>
+	</string>
+	
+	<string id="dolg_pantsir_outfit_name">
+		<text>PSZ-7p Coquille</text>
+	</string>
+	<string id="dolg_pantsir_outfit_description">
+		<text>Une combinaison « intermédiaire » offrant une protection supérieure à celle de la combinaison universelle de protection PS5 standard de Devoir, tout en étant moins coûteuse et plus facile à produire qu'un ensemble complet d'armure corporelle PSZ-9d. Idéale pour les escarmouches, sa relative facilité d'entretien et de réparation constitue un atout majeur pour les membres de Devoir opérant loin des territoires amis, tels que les enquêteurs qui s'aventurent à Yanov ou au-delà.\n \n
+		</text>
+	</string>
+	
+	<string id="dolg_heavy_redline_outfit_name">
+		<text>PSZ-9kl Armure de Commandement</text>
+	</string>
+	<string id="dolg_heavy_redline_outfit_description">
+		<text>Cette combinaison était la favorite du défunt lieutenant-colonel Shulga, qui sortait rarement de sa base opérationnelle à Yanov, mais craignait constamment un assassinat de la part de Liberté. Ainsi, une protection aussi lourde correspondait parfaitement à ses besoins. Comme le destin l'a voulu, il serait plus tard présumé mort après avoir mené une attaque massive dans Pripyat avec son contingent de troupes. Les membres vétérans de Devoir portent occasionnellement des combinaisons comme celle-ci en hommage à son combat.\n \n
+		</text>
+	</string>
+
+
+<!--
+	SCIENTIFIC OUTFITS
+-->
+	<string id="scientific_outfit_name">
+		<text>Combinaison SEVA</text>
+	</string>
+	<string id="scientific_outfit_description">
+		<text>Conçue et produite par l'un des instituts de recherche de défense de Kiev, cette combinaison représente une excellente alternative aux combinaisons artisanales de la stalker. Elle associe une combinaison CBRN à un gilet Kevlar de classe II spécialement traité. Grâce à la qualité des matériaux utilisés, cette combinaison offre une bonne durabilité dans les champs anormaux ambiants.\n \n
+		</text>
+	</string>
+
+	<string id="svoboda_scientific_outfit_name">
+		<text>Veilleur de la Liberté</text>
+	</string>
+	<string id="svoboda_scientific_outfit_description">
+		<text>Une combinaison d'armure corporelle « Sentinel » spécialement produite par les artisans de Liberté pour l'observation des phénomènes anormaux dans la Zone. Les matériaux spécialement traités assurent une bonne protection et une durabilité adaptée lors d'explorations prolongées des champs anormaux.\n \n
+		</text>
+	</string>
+
+	<string id="monolith_scientific_outfit_name">
+		<text>Combinaison Scientifique Monolithe</text>
+	</string>
+	<string id="monolith_scientific_outfit_description">
+		<text>La combinaison scientifique Monolithe comprend un gilet pare-balles d'origine inconnue et présente des modifications uniques pour une résistance accrue aux radiations, au prix d'une plus grande vulnérabilité aux champs psychiques. Curieusement, selon certaines légendes, ces combinaisons sont le plus souvent portées par les soldats qui défendent le Lobotomisateur dans les Radar, bien que personne en dehors de la faction Monolithe ne puisse aisément le confirmer.\n \n
+		</text>
+	</string>
+
+	<string id="cs_scientific_outfit_name">
+		<text>Combinaison SEVA CS-4a</text>
+	</string>
+	<string id="cs_scientific_outfit_description">
+		<text>Une version non officielle de la combinaison scientifique SEVA, récemment introduite par les circuits de contrebande. Typiquement utilisée par les groupes de la faction Firmament.\n \n
+		</text>
+	</string>
+
+	<string id="cs_scientific_outfit_good_name">
+		<text>Pathfinder CS-4a</text>
+	</string>
+	<string id="cs_scientific_outfit_good_description">
+		<text>Version non officielle de la combinaison scientifique SEVA, largement améliorée par Novikov, le technicien résident de Firmament. Extrêmement confortable pour se déplacer, ce qui en fait une combinaison très prisée parmi certaines factions.\n \n
+		</text>
+	</string>
+
+	<string id="bandit_scientific_outfit_name">
+		<text>Combinaison SEVA Récupérée</text>
+	</string>
+	<string id="bandit_scientific_outfit_description">
+		<text>Les Bandits ne se sont jamais particulièrement intéressés à la science et à la recherche sur les champs anomaux, mais ont néanmoins besoin de combinaisons protectrices comme celles-ci pour organiser des embuscades et des attaques dans la stalkers, au sein des champs anomaux et des poches de radiation.\n \n
+		</text>
+	</string>
+
+	<string id="isg_scientific_outfit_name">
+		<text>Combinaison SEVA UNISG</text>
+	</string>
+	<string id="isg_scientific_outfit_description">
+		<text>Initialement commandée par la première version de l'UNISG auprès de l'un des instituts de recherche en défense de Kiev pour des études dans la Zone. Les matériaux à traitement spécial offrent une protection renforcée et une durabilité accrue contre les radiations et les effets anormaux.\n \n
+		</text>
+	</string>
+
+	<string id="merc_scientific_outfit_name">
+		<text>Combinaison SEVA Mercenaire</text>
+	</string>
+	<string id="merc_scientific_outfit_description">
+		<text>Variante de la combinaison SEVA commandée par les Mercenaires. Utilisée par les vétérans mercs pour les contrats de chasse aux artefacts. Offre une bonne protection pour une combinaison SEVA, mais manque certaines des dernières mises à niveau de protection psychique disponibles sur les modèles SEVA plus récents.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_combat_scientific_outfit_name">
+		<text>Pathfinder Mercenaire</text>
+	</string>
+	<string id="merc_combat_scientific_outfit_description">
+		<text>En guise de bonne volonté et pour contribuer à couvrir leurs coûts de recherche, Firmament produit occasionnellement des combinaisons « Pathfinder » sur commande pour les Mercenaires de la Zone. Comparée à la combinaison SEVA standard, ce modèle est supérieur sur tous les plans. Elle inclut un gilet balistique intégré de classe IIIA.\n \n
+		</text>
+	</string>
+	
+	<string id="dolg_scientific_outfit_name">
+		<text>PS5-9Md Combinaison Scientifique Universelle</text>
+	</string>
+	<string id="dolg_scientific_outfit_description">
+		<text>Version de la combinaison SEVA standard utilisée par la faction Devoir. Comme la variante standard, elle se compose d'une combinaison CBRN résistante aux anomalies et durable, ainsi que d'un gilet en Kevlar de classe II spécialement traité. Une combinaison solide pour des plongées prolongées dans les champs d'anomalies.\n \n
+		</text>
+	</string>
+	
+	<string id="dolg_scientific_red_outfit_name">
+		<text>PS5-9Md Combinaison Scientifique Légère</text>
+	</string>
+	<string id="dolg_scientific_red_outfit_description">
+		<text>Variante allégée de la combinaison scientifique Devoir, ayant perdu près de la moitié de son poids au prix d'une protection légèrement réduite. Le blindage balistique a été remplacé par un gilet de classe IIA doté de nombreuses poches.\n \n
+		</text>
+	</string>
+	
+	<string id="dolg_scientific_wood_outfit_name">
+		<text>PS5-9Md Pathfinder Léger</text>
+	</string>
+	<string id="dolg_scientific_wood_outfit_description">
+		<text>En guise de geste de bonne volonté et pour aider à couvrir leurs coûts de recherche, Firmament fabrique occasionnellement des combinaisons « Pathfinder » très convoitées sur commande pour les membres de la faction Devoir. Modifiée selon les besoins de Devoir, son poids a été réduit de près de moitié au détriment de la protection. Malgré cela, il s'agit d'une tenue excellente et confortable pour les membres les plus curieux de Devoir.\n \n
+		</text>
+	</string>
+	
+	<string id="bandit_scientific_dark_outfit_name">
+		<text>Combinaison Anomalie Patchwork</text>
+	</string>
+	<string id="bandit_scientific_dark_outfit_description">
+		<text>Une combinaison de type SEVA fabriquée de toutes pièces par l'un des artisans talentueux des Bandits. Comparée aux SEVA pillées et restaurées, cette tenue bricolée offre une protection moyenne contre les anomalies tout en conservant un poids étonnamment faible. De plus, elle est plutôt élégante et confortable, ce qui en fait un succès parmi les criminels qui peuvent se l'offrir.\n \n
+		</text>
+	</string>
+	
+	<string id="renegade_scientific_outfit_name">
+		<text>Combinaison SEVA Renégat</text>
+	</string>
+	<string id="renegade_scientific_outfit_description">
+		<text>Cette combinaison confortable, initialement conçue pour la recherche dans la Zone, constitue une excellente alternative aux diverses autres combinaisons légères de combat ou artisanales facilement disponibles au sein de la Zone. Comparée à une combinaison SEVA standard, elle offre une protection améliorée contre les risques thermiques et les traumatismes contondants. Cependant, ses autres qualités protectrices sont inférieures à celles de la SEVA d'origine.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_scientific_armored_outfit_name">
+		<text>Armure Corporelle SEVA Mercenaire</text>
+	</string>
+	<string id="merc_scientific_armored_outfit_description">
+		<text>Variante de la combinaison SEVA commandée par les Mercenaires. Utilisée par les mercenaires vétérans chargés d'escorter des chercheurs et des chasseurs d'artefacts dans les zones les plus dangereuses de la Zone.\n \n
+		</text>
+	</string>
+
+	<string id="monolith_scientific_light_outfit_name">
+		<text>Combinaison Scientifique Patchwork Monolithe</text>
+	</string>
+	<string id="monolith_scientific_light_outfit_description">
+		<text>Combinaison similaire à la SEVA, fabriquée de toutes pièces par un artisan inconnu. On ignore quel rôle cette combinaison joue au sein de la faction Monolithe, bien qu'il ait été spéculé que son usage soit principalement cérémoniel.\n \n
+		</text>
+	</string>
+
+	<string id="ace_outfit_name">
+		<text>Combinaison Scientifique ACE Mercenaire</text>
+	</string>
+	<string id="ace_outfit_description">
+		<text>L'une des combinaisons les plus avancées technologiquement dans la Zone. Le système d'armure ACE intègre une combinaison CBRN de nouvelle génération et un gilet en Kevlar à poches avec inserts de plaques de classe III. Utilisant des matériaux de pointe tels que des revêtements à perméabilité sélective, cette combinaison allie une protection maximale contre les anomalies et un confort optimal pour le porteur. Elle n'est utilisée que par les Mercenaires les plus fortunés.\n \n
+		</text>
+	</string>
+
+
+<!--
+	SSP-99
+-->
+	<string id="st_ecologist_outfit_orange_name">
+		<text>Combinaison SSP-99</text>
+	</string>
+	<string id="st_ecologist_outfit_orange_description">
+		<text>Le SSP-99 est une combinaison CBRN de génération actuelle, spécialement conçue pour les conditions de la Zone et utilisée par les expéditions scientifiques pour des incursions prolongées dans les champs anomaux. Lorsqu'elle est associée au casque écran SSP-99, elle intègre un système de filtration et de climatisation de l'air. Sa conception est spécifiquement adaptée pour une durabilité maximale dans les champs thermiques, chimiques et électriques.\n \n
+		</text>
+	</string>
+
+	<string id="st_ecologist_outfit_grn_name">
+		<text>Combinaison SSP-99M</text>
+	</string>
+	<string id="st_ecologist_outfit_grn_description">
+		<text>Combinaison SSP-99 modifiée de haute qualité. Une sous-couche en Kevlar a été ajoutée pour réduire les risques de perforation par des mutants hostiles. Offre une protection améliorée contre les anomalies biologiques par rapport à la SSP-99.\n \n
+		</text>
+	</string>
+
+	<string id="st_ecologist_outfit_white_name">
+		<text>SSP-99 « Diamant »</text>
+	</string>
+	<string id="st_ecologist_outfit_white_description">
+		<text>Le SSP-99 est une combinaison CBRN de dernière génération spécialement conçue pour les conditions de la Zone. Il est utilisé par les expéditions scientifiques pour des incursions prolongées dans les champs anomaux. Lorsqu'il est associé au casque écran SSP-99, il intègre un système de filtration et de climatisation de l'air. Sa conception est spécifiquement adaptée pour une durabilité maximale dans les champs thermiques et chimiques. La variante « Diamond » offre également une protection supérieure contre l'électricité.\n \n
+		</text>
+	</string>
+
+	<string id="st_ecologist_outfit_blue_name">
+		<text>SSP-99M « Saphir »</text>
+	</string>
+	<string id="st_ecologist_outfit_blue_description">
+		<text>Combinaison SSP-99 modifiée de haute qualité. Une sous-couche en Kevlar a été ajoutée pour réduire le risque de perforation par des mutants hostiles. Le modèle « Sapphire » offre une excellente protection contre les émissions psi à courte portée.\n \n
+		</text>
+	</string>
+
+	<string id="st_ecologist_outfit_red_name">
+		<text>SSP-99Ì « Rubis »</text>
+	</string>
+	<string id="st_ecologist_outfit_red_description">
+		<text>Combinaison SSP-99 modifiée de haute qualité. Une sous-couche en Kevlar a été ajoutée pour réduire le risque de perforation par des mutants hostiles. Le modèle « Ruby » offre une protection améliorée contre les attaques au corps à corps et intègre un système de cicatrisation des blessures.\n \n
+		</text>
+	</string>
+
+	<string id="st_ecologist_outfit_yello_name">
+		<text>SSP-99 Topaze</text>
+	</string>
+	<string id="st_ecologist_outfit_yello_description">
+		<text>La SSP-99 est une combinaison CBRN de dernière génération spécialement conçue pour les conditions de la Zone et utilisée par les expéditions scientifiques pour des incursions prolongées dans les champs anomaux. Lorsqu'elle est combinée avec le casque écran SSP-99, elle intègre un système de filtration et de climatisation de l'air. La variante « Topaz » offre une protection accrue contre les radiations.\n \n
+		</text>
+	</string>
+
+
+<!--
+	HEAVY COMBAT SUITS
+-->
+	<string id="exolight_outfit_name">
+		<text>Exosuit</text>
+	</string>
+	<string id="exolight_outfit_description">
+		<text>Également connu sous le nom de « Combinaison Anti-Radiations », cet équipement est essentiellement un gilet balistique lourd contenant des plaques de classe IV renforcées d'acier, ainsi que de nombreux points d'attache nécessaires pour un exosquelette rigide. Cependant, sans exosquelette motorisé pour soulager la charge, cette armure s'avère encombrante à porter pendant de longues périodes.\n \n
+		</text>
+	</string>
+
+	<string id="dolg_exolight_outfit_name">
+		<text>PSZ-10d Combinaison de Combat Devoir</text>
+	</string>
+	<string id="dolg_exolight_outfit_description">
+		<text>Également connu sous le nom de « Radsuit », cet équipement est essentiellement un gilet pare-balles lourd contenant des plaques de Classe IV renforcées d'acier, ainsi que de nombreux points d'attache nécessaires pour un exosquelette rigide. Cependant, en l'absence d'exosquelette motorisé pour alléger la charge, cette armure s'avère encombrante à porter sur de longues périodes. Cette combinaison se trouve généralement entre les mains des guerriers d'élite de Devoir, en particulier ceux chargés de protéger des VIP ou de mener des raids extrêmement dangereux contre des stalkers ennemis.\n \n
+		</text>
+	</string>
+
+	<string id="svoboda_exolight_outfit_name">
+		<text>Guerrier de la Liberté</text>
+	</string>
+	<string id="svoboda_exolight_outfit_description">
+		<text>Également connue sous le nom de « Radsuit », cette tenue est essentiellement un gilet pare-balles lourd contenant des plaques de Classe IV renforcées d'acier, ainsi que de nombreux points d'attache nécessaires pour un exosquelette rigide. Cependant, sans exosquelette motorisé pour soulager la charge, cette armure s'avère encombrante à porter sur de longues périodes. Seuls les membres les plus respectés de Liberté sont susceptibles de porter une telle combinaison.\n \n
+		</text>
+	</string>
+
+	<string id="merc_exolight_outfit_name">
+		<text>Exosuit Mercenaire</text>
+	</string>
+	<string id="merc_exolight_outfit_description">
+		<text>Également connue sous le nom de « Radsuit », cette tenue est essentiellement un gilet pare-balles lourd contenant des plaques de Classe IV renforcées d'acier, ainsi que de nombreux points d'attache nécessaires pour un exosquelette rigide. Cependant, sans exosquelette motorisé pour soulager la charge, cette armure s'avère encombrante à porter sur de longues périodes. Une tenue de choix pour les capitaines et gardes du corps des compagnies de Mercenaires nécessitant une protection balistique haut de gamme.\n \n
+		</text>
+	</string>
+
+	<string id="bandit_exolight_outfit_name">
+		<text>Exosuit Récupéré</text>
+	</string>
+	<string id="bandit_exolight_outfit_description">
+		<text>Également connue sous le nom de « Radsuit », cette tenue est essentiellement un gilet pare-balles lourd contenant des plaques de Classe IV renforcées d'acier, ainsi que de nombreux points d'attache nécessaires pour un exosquelette rigide. Cependant, sans exosquelette motorisé pour soulager la charge, cette armure s'avère encombrante à porter sur de longues périodes. À la fois imposante et très intimidante d'apparence, cette tenue est un favori parmi les hors-la-loi les plus puissants de la Zone.\n \n
+		</text>
+	</string>
+
+	<string id="monolith_exolight_outfit_name">
+		<text>Exosuit Monolithe</text>
+	</string>
+	<string id="monolith_exolight_outfit_description">
+		<text>Également connu sous le nom de « Radsuit », cet équipement est essentiellement un gilet pare-balles lourd contenant des plaques de Classe IV renforcées d'acier, ainsi que de nombreux points d'attache nécessaires pour un exosquelette rigide. Cependant, en l'absence d'exosquelette motorisé pour alléger la charge, cette armure s'avère encombrante à porter sur de longues périodes. Un favori parmi les prédicateurs de combat et les maîtres tactiques de Monolithe, qui affirment que le confinement de la combinaison est aussi rassurant que le Sarcophage lui-même.\n \n
+		</text>
+	</string>
+
+	<string id="military_exolight_outfit_name">
+		<text>Exosuit Militaire Stalker</text>
+	</string>
+	<string id="military_exolight_outfit_description">
+		<text>Également connu sous le nom de « Radsuit », cet équipement est essentiellement un gilet pare-balles lourd contenant des plaques de Classe IV renforcées d'acier, ainsi que de nombreux points d'attache nécessaires pour un exosquelette rigide. Cependant, en l'absence d'exosquelette motorisé pour alléger la charge, cette armure s'avère encombrante à porter sur de longues périodes. Considérée comme trop encombrante par le gouvernement ukrainien, ces combinaisons ne sont jamais distribuées à une unité ou un individu. Ainsi, les soldats, les stalkers militaires et les vétérans occasionnels doivent toujours se les procurer et les payer par leurs propres moyens.\n \n
+		</text>
+	</string>
+
+	<string id="cs_exolight_outfit_name">
+		<text>Exosuit CS-5</text>
+	</string>
+	<string id="cs_exolight_outfit_description">
+		<text>Également connue sous le nom de « Radsuit », cette tenue est essentiellement un gilet pare-balles lourd contenant des plaques de Classe IV renforcées d'acier, ainsi que de nombreux points d'attache nécessaires pour un exosquelette rigide. Cependant, sans exosquelette motorisé pour soulager la charge, cette armure s'avère encombrante à porter sur de longues périodes. Ces tenues sont introduites en contrebande depuis des usines ukrainiennes situées près des frontières de la Zone.\n \n
+		</text>
+	</string>
+
+	<string id="isg_exolight_outfit_name">
+		<text>Exosuit UNISG</text>
+	</string>
+	<string id="isg_exolight_outfit_description">
+		<text>Également connue sous le nom de « Radsuit », cette tenue est essentiellement un gilet pare-balles lourd contenant des plaques de Classe IV renforcées d'acier, ainsi que de nombreux points d'attache nécessaires pour un exosquelette rigide. Cependant, sans exosquelette motorisé pour soulager la charge, cette armure s'avère encombrante à porter sur de longues périodes. Rare à observer, car la plupart des agents de l'ISG privilégient la mobilité à la puissance protectrice brute.\n \n
+		</text>
+	</string>
+	
+	<string id="exo_wood_outfit_name">
+		<text>Exosuit Woodland</text>
+	</string>
+	<string id="exo_wood_outfit_description">
+		<text>Également connue sous le nom de « Radsuit », cette tenue est essentiellement un gilet pare-balles lourd contenant des plaques de Classe IV renforcées d'acier, ainsi que de nombreux points d'attache nécessaires pour un exosquelette rigide. Cependant, sans exosquelette motorisé pour soulager la charge, cette armure s'avère encombrante à porter sur de longues périodes. Ce modèle inclut une combinaison CBRN de première génération doublée de Kevlar.\n \n
+		</text>
+	</string>
+	
+	<string id="bandit_exo_earth_outfit_name">
+		<text>Exosuit Clôturé</text>
+	</string>
+	<string id="bandit_exo_earth_outfit_description">
+		<text>.\n \n
+		</text>
+	</string>
+	
+	<string id="freedom_exo_vineleaf_outfit_name">
+		<text>Héros de la Liberté</text>
+	</string>
+	<string id="freedom_exo_vineleaf_outfit_description">
+		<text>Également connue sous le nom de « Radsuit », cette tenue est essentiellement un gilet pare-balles lourd contenant des plaques de Classe IV renforcées d'acier, ainsi que de nombreux points d'attache nécessaires pour un exosquelette rigide. Cependant, sans exosquelette motorisé pour soulager la charge, cette armure s'avère encombrante à porter sur de longues périodes. Cette variante inclut une ancienne combinaison CBRN doublée de Kevlar et un emplacement d'attache supplémentaire.\n \n
+		</text>
+	</string>
+	
+	<string id="exo_dolg_outfit_name">
+		<text>PSZ-10d Combinaison de Combat Devoir</text>
+	</string>
+	<string id="exo_dolg_outfit_description">
+		<text>Également connu sous le nom de « Radsuit », cet équipement est essentiellement un gilet pare-balles lourd contenant des plaques de Classe IV renforcées d'acier, ainsi que de nombreux points d'attache nécessaires pour un exosquelette rigide. Cependant, en l'absence d'exosquelette motorisé pour alléger la charge, cette armure s'avère encombrante à porter sur de longues périodes. Cette combinaison se trouve généralement entre les mains des guerriers d'élite de Devoir, en particulier ceux chargés de protéger des VIP ou de mener des raids extrêmement dangereux.\n \n
+		</text>
+	</string>
+	
+	<string id="exo_dolg_red_outfit_name">
+		<text>PSZ-10d Combinaison de Combat Venator</text>
+	</string>
+	<string id="exo_dolg_red_outfit_description">
+		<text>Également connu sous le nom de « Radsuit », cet équipement est essentiellement un gilet pare-balles lourd contenant des plaques de Classe IV renforcées d'acier, ainsi que de nombreux points d'attache nécessaires pour un exosquelette rigide. Cependant, en l'absence d'exosquelette motorisé pour alléger la charge, cette armure s'avère encombrante à porter sur de longues périodes. Cette variante particulière se trouve généralement entre les mains des chasseurs d'élite de Devoir, où sa défense accrue contre les mutants est mise à profit.\n \n
+		</text>
+	</string>
+	
+	<string id="exo_dolg_wood_outfit_name">
+		<text>PSZ-10l Combinaison de Combat Forêt</text>
+	</string>
+	<string id="exo_dolg_wood_outfit_description">
+		<text>Également connu sous le nom de « Radsuit », cet équipement est essentiellement un gilet pare-balles lourd contenant des plaques de Classe IV renforcées d'acier, ainsi que de nombreux points d'attache nécessaires pour un exosquelette rigide. Cependant, en l'absence d'exosquelette motorisé pour alléger la charge, cette armure s'avère encombrante à porter sur de longues périodes. Cette variante inclut une ancienne combinaison CBRN avec tissage en Kevlar et renforts en acier supplémentaires. Elle se trouve généralement entre les mains des membres d'élite de Devoir, en particulier ceux menant des opérations courtes dans les régions septentrionales de la Zone.\n \n
+		</text>
+	</string>
+	
+	<string id="exo_dolg_urban_outfit_name">
+		<text>PSZ-10g Combinaison de Combat Urbaine</text>
+	</string>
+	<string id="exo_dolg_urban_outfit_description">
+		<text>Également connu sous le nom de « Radsuit », cet équipement est essentiellement un gilet pare-balles lourd contenant des plaques de Classe IV renforcées d'acier, ainsi que de nombreux points d'attache nécessaires pour un exosquelette rigide. Cependant, en l'absence d'exosquelette motorisé pour alléger la charge, cette armure s'avère encombrante à porter sur de longues périodes. De plus, elle n'est utile que dans les combats rapprochés et à distance, car elle n'offre aucune protection contre les anomalies. Ancienne et extrêmement lourde, il est possible que des combinaisons comme celle-ci aient été utilisées par la faction Devoir pour mener des raids sur Pripyat et affronter Liberté en 2012.\n \n
+		</text>
+	</string>
+	
+	<string id="exo_merc_outfit_name">
+		<text>TB-1 Armure Lourde Mercenaire</text>
+	</string>
+	<string id="exo_merc_outfit_description">
+		<text>.\n \n
+		</text>
+	</string>
+	
+	<string id="exo_merc_urban_outfit_name">
+		<text>Exosuit Urbain Mercenaire</text>
+	</string>
+	<string id="exo_merc_urban_outfit_description">
+		<text>Également connu sous le nom de « Radsuit », cet équipement est essentiellement un gilet pare-balles lourd contenant des plaques de Classe IV renforcées d'acier, ainsi que de nombreux points d'attache nécessaires pour un exosquelette rigide. Cependant, en l'absence d'exosquelette motorisé pour alléger la charge, cette armure s'avère encombrante à porter sur de longues périodes. De plus, elle n'est utile que dans les combats rapprochés et à distance, car elle n'offre aucune protection contre les anomalies. Une tenue de choix pour les capitaines et gardes du corps des compagnies de Mercenaires opérant dans des zones comme Limansk ou Pripyat.\n \n
+		</text>
+	</string>
+	
+	<string id="exo_merc_wood_outfit_name">
+		<text>Exosuit Forêt Mercenaire</text>
+	</string>
+	<string id="exo_merc_wood_outfit_description">
+		<text>Également connue sous le nom de « Radsuit », cette tenue est essentiellement un gilet pare-balles lourd contenant des plaques de Classe IV renforcées d'acier, ainsi que de nombreux points d'attache nécessaires pour un exosquelette rigide. Cependant, sans exosquelette motorisé pour soulager la charge, cette armure s'avère encombrante à porter sur de longues périodes. Cette variante inclut une ancienne combinaison CBRN qui, malheureusement, n'a pas été modifiée pour la Zone.\n \n
+		</text>
+	</string>
+	
+	<string id="exo_merc_grass_outfit_name">
+		<text>Exosuit Plaine Mercenaire</text>
+	</string>
+	<string id="exo_merc_grass_outfit_description">
+		<text>Également connu sous le nom de « Radsuit », cet équipement est essentiellement un gilet pare-balles lourd contenant des plaques de classe IV renforcées d'acier, avec de nombreux points d'attache nécessaires pour un exosquelette rigide. Cependant, sans exosquelette motorisé pour soulager la charge, cette armure s'avère encombrante à porter sur de longues périodes. Cette variante inclut une combinaison en tissu d'amiante.\n \n
+		</text>
+	</string>
+
+
+<!--
+	PROPTOTYPE EXOSKELETON
+-->
+	<string id="stalker_proto_exo_outfit_name">
+		<text>Exosquelette « Aube »</text>
+	</string>
+	<string id="stalker_proto_exo_outfit_description">
+		<text>Combinaison pour stalker, spécialement conçue pour être équipée des servomoteurs et batteries d'un exosquelette, permettant au porteur de transporter un équipement significativement plus lourd que dans toute autre circonstance. Comparée à un exosquelette complet, elle offre une protection moindre mais est également considérablement plus légère.\n \n
+		</text>
+	</string>
+
+	<string id="svoboda_light_proto_exo_outfit_name">
+		<text>Exosquelette Vent de la Liberté</text>
+	</string>
+	<string id="svoboda_light_proto_exo_outfit_description">
+		<text>Combinaison Vent de Liberté, spécialement conçue pour être équipée des servomoteurs et batteries d'un exosquelette, permettant au porteur de transporter un équipement significativement plus lourd que dans toute autre circonstance. Comparée à un exosquelette complet, elle offre une protection moindre mais est également considérablement plus légère.\n \n
+		</text>
+	</string>
+
+	<string id="dolg_proto_exo_outfit_name">
+		<text>Exosquelette PS5-M</text>
+	</string>
+	<string id="dolg_proto_exo_outfit_description">
+		<text>Combinaison de protection universelle PS5-M, spécialement conçue pour être équipée des servomoteurs et batteries d'un exosquelette, permettant au porteur de transporter un équipement significativement plus lourd que dans toute autre circonstance. Comparée à un exosquelette complet, elle offre une protection moindre mais est également considérablement plus légère.\n \n
+		</text>
+	</string>
+	
+	<string id="dolg_heavy_proto_exo_outfit_name">
+		<text>Exosquelette PSZ-9d</text>
+	</string>
+	<string id="dolg_heavy_proto_exo_outfit_description">
+		<text>Une combinaison blindée PSZ-9d, spécialement conçue pour être équipée des servomoteurs et batteries d'un exosquelette, permettant au porteur de transporter un équipement significativement plus lourd que dans toute autre circonstance. Comparée à un exosquelette complet, elle sacrifie une partie de la protection balistique brute pour une meilleure fonctionnalité dans les champs anomaux.\n \n
+		</text>
+	</string>
+
+	<string id="military_proto_exo_outfit_name">
+		<text>Exosquelette Skat-9</text>
+	</string>
+	<string id="military_proto_exo_outfit_description">
+		<text>La toute première version de l'exosquelette militaire, modifiée pour s'adapter aux servomoteurs et batteries d'un exosquelette moderne. Comparé à un exosquelette de troisième génération, il sacrifie une partie de la protection balistique brute pour une plus grande fonctionnalité dans les champs anormaux.\n \n
+		</text>
+	</string>
+
+	<string id="monolith_proto_exo_outfit_name">
+		<text>Exosquelette X-18</text>
+	</string>
+	<string id="monolith_proto_exo_outfit_description">
+		<text>Une armure fabriquée soit par les Monolithiens, soit par un fabricant inconnu. Elle a été spécialement modifiée pour s'adapter aux servomoteurs et batteries d'un exosquelette, permettant au porteur de transporter un équipement significativement plus lourd que dans toute autre circonstance. Comparée à un exosquelette complet, elle offre une protection moindre mais est également considérablement plus légère.\n \n
+		</text>
+	</string>
+
+	<string id="cs_stalker_proto_exo_outfit_name">
+		<text>Exosquelette CS-2b</text>
+	</string>
+	<string id="cs_stalker_proto_exo_outfit_description">
+		<text>Ensemble d'armure corporelle CS-2b spécialement modifié pour s'adapter aux servomoteurs et batteries d'un exosquelette, permettant au porteur de transporter un équipement significativement plus lourd que dans toute autre circonstance. Comparée à un exosquelette complet, elle offre une protection moindre mais est également considérablement plus légère.\n \n
+		</text>
+	</string>
+	
+	<string id="ecolog_proto_exo_outfit_name">
+		<text>Exosquelette SSP-99M</text>
+	</string>
+	<string id="ecolog_proto_exo_outfit_description">
+		<text>Un système d'armure unique composé d'une combinaison SSP-99M motorisée par exosquelette, surmontée d'un gilet pare-balles en Kevlar de classe IIA résistant aux anomalies. Les cadres exosquelettiques robustes sont capables de fournir un soutien mécanique pour le transport de charges lourdes, même à travers les champs d'anomalies. Idéal pour assister les chercheurs lors d'incursions profondes dans la Zone.\n \n
+		</text>
+	</string>
+	
+	<string id="isg_proto_exo_outfit_name">
+		<text>Exosquelette Tactique UNISG</text>
+	</string>
+	<string id="isg_proto_exo_outfit_description">
+		<text>Une combinaison tactique spéciale estampillée ONU, spécialement conçue pour être équipée des servomoteurs et batteries d'un exosquelette, permettant au porteur de transporter un équipement significativement plus lourd que dans toute autre circonstance. Comparée à un exosquelette complet, elle offre une protection moindre mais est également considérablement plus légère.\n \n
+		</text>
+	</string>
+
+	
+<!--
+	EXOSKELETONS
+-->
+	<string id="exo_outfit_name">
+		<text>Exosquelette</text>
+	</string>
+	<string id="exo_outfit_description">
+		<text>Un exemplaire expérimental d'exosquelette militaire composé d'une combinaison en Kevlar renforcée d'acier et d'un gilet tactique avec inserts de classe IV, le tout soutenu par des membres motorisés et des servomoteurs. Jamais produit en masse en raison de son coût exorbitant et de certains défauts de conception, bien que de petites séries soient fabriquées dans des installations souterraines en dehors de l'Ukraine.\n \n
+		</text>
+	</string>
+
+	<string id="dolg_exo_outfit_name">
+		<text>Exosquelette PSZ-10d</text>
+	</string>
+	<string id="dolg_exo_outfit_description">
+		<text>Une excellente armure high-tech composée d'une combinaison en Kevlar renforcée d'acier et d'un gilet tactique avec inserts de Classe IV, le tout supporté par des membres motorisés et des servomoteurs. Développée localement par l'un des instituts de recherche, spécifiquement pour la faction Devoir. Elle est progressivement retirée du service au profit de combinaisons moins chères et plus pratiques, et les quelques Exosquelettes encore en service actif tendent à se trouver entre les mains des vétérans les plus anciens de Devoir.\n \n
+		</text>
+	</string>
+
+	<string id="svoboda_exo_outfit_name">
+		<text>Parangon de la Liberté</text>
+	</string>
+	<string id="svoboda_exo_outfit_description">
+		<text>Une excellente combinaison produite par les meilleurs artisans de Liberté, composée d'une combinaison en Kevlar renforcée d'acier et d'un gilet tactique avec inserts de classe IV, le tout soutenu par des membres motorisés et des servomoteurs. Bien qu'elle ne soit pas toujours la plus pratique à entretenir, elle est indéniablement puissante et, à ce titre, n'est confiée qu'aux meilleurs guerriers et gardes de Liberté.\n \n
+		</text>
+	</string>
+
+	<string id="merc_exo_outfit_name">
+		<text>Exosquelette Mercenaire</text>
+	</string>
+	<string id="merc_exo_outfit_description">
+		<text>Échantillon expérimental d'un exosquelette militaire de production occidentale, composé d'une combinaison en Kevlar renforcée d'acier et d'un gilet tactique avec inserts de Classe IV, le tout soutenu par des membres motorisés et des servomoteurs. Bien qu'il ne soit pas toujours le plus pratique à entretenir dans la Zone, il permet simultanément au porteur d'être lourdement armé et extrêmement bien protégé, avec une force suffisante pour transporter une semaine de provisions. Il est le plus souvent porté par les capitaines vétérans des Mercenaires, chargés de mener leurs hommes à travers des conditions infernales.\n \n
+		</text>
+	</string>
+
+	<string id="monolith_exo_outfit_name">
+		<text>Exosquelette Monolithe</text>
+	</string>
+	<string id="monolith_exo_outfit_description">
+		<text>Armure high-tech composée d'une combinaison en Kevlar renforcée d'acier et d'un gilet tactique avec inserts de Classe IV, le tout soutenu par des membres motorisés et des servomoteurs. Des échantillons d'étude ont révélé que ses servomoteurs sont fabriqués à partir d'alliages et de matériaux inconnus de toute science dans le reste du monde. Porter cette combinaison donne l'impression d'être enterré sous le béton du Sarcophage lui-même ; terrifiant et claustrophobe pour la plupart des stalkers, mais étrangement rassurant pour les véritables serviteurs de Monolithe.\n \n
+		</text>
+	</string>
+
+	<string id="bandit_exo_outfit_name">
+		<text>Exosquelette Volé</text>
+	</string>
+	<string id="bandit_exo_outfit_description">
+		<text>Exosquelette militaire volé et modifié par des hors-la-loi pour attaquer des installations bien gardées et piller des stalkers bien armés. Les aspirants Seigneurs Bandits à l'esprit martial tendent à privilégier cette armure, l'utilisant comme un symbole frappant et incontestable de leur force et de leur autorité sur les criminels de moindre envergure.\n \n
+		</text>
+	</string>
+
+	<string id="military_exo_outfit_name">
+		<text>Exosquelette Militaire Stalker</text>
+	</string>
+	<string id="military_exo_outfit_description">
+		<text>Exosquelette militaire officiel. Distribué en quantités limitées sur commande spéciale aux stalkers Militaires qui l'ont financé eux-mêmes. Conçu pour transporter des armes lourdes, ainsi que suffisamment de munitions, de nourriture et de médicaments pour approvisionner l'unité pendant de longues périodes. Occasionnellement déployé en remplacement de véhicules légers.\n \n
+		</text>
+	</string>
+
+	<string id="cs_exo_outfit_name">
+		<text>Exosquelette CS-5</text>
+	</string>
+	<string id="cs_exo_outfit_description">
+		<text>Une version expérimentale de l'exosquelette militaire introduite en contrebande dans la Zone depuis des usines ukrainiennes avant d'être remise à neuf par les techniciens de Firmament. En règle générale, des combinaisons comme celles-ci sont conservées en réserve pour n'être déployées qu'en cas de véritable crise. Cela dit, les camarades et associés particulièrement dignes de confiance de la faction peuvent éventuellement obtenir l'autorisation d'acquérir une telle combinaison pour un usage personnel, bien que cela ait un coût élevé.\n \n
+		</text>
+	</string>
+
+	<string id="ecolog_exo_outfit_name">
+		<text>Exosquelette Scientifique</text>
+	</string>
+	<string id="ecolog_exo_outfit_description">
+		<text>Version officielle de l'exosquelette militaire, destinée à être utilisée par les gardes des Scientifiques. La combinaison semble presque invulnérable aux armes légères, et ses servomoteurs avancés en font un excellent choix pour ceux occupant des positions défensives retranchées, car elle facilite grandement l'utilisation d'armements défensifs lourds. Sur le terrain, les porteurs de cette combinaison sont plus couramment utilisés pour transporter des quantités démesurées de batteries, de LLMCs, de AAMs et d'autres fournitures qu'un scientifique accompagnateur pourrait nécessiter lors de l'exploration de la Zone.\n \n
+		</text>
+	</string>
+
+	<string id="renegade_exo_outfit_name">
+		<text>Exosquelette Renégat</text>
+	</string>
+	<string id="renegade_exo_outfit_description">
+		<text>L'un des quelques exosquelettes assemblés par les Renégats en 2011 pour soutenir leur dernière offensive contre la base de Firmament. Malheureusement, ils ont été pratiquement anéantis avant de remporter leur victoire finale, en raison de l'intervention d'un Mercenaire vêtu d'un trench-coat et armé d'un fusil de précision. Les Renégats modernes qui portent cette armure partent toujours au combat comme des possédés, avides de venger leurs ennemis les plus haïs.\n \n
+		</text>
+	</string>
+
+	<string id="isg_exo_outfit_name">
+		<text>Exosquelette UNISG</text>
+	</string>
+	<string id="isg_exo_outfit_description">
+		<text>La version officielle de l'exosquelette UNISG, produite en quantités limitées sur commande spéciale des Nations Unies. Bien qu'il présente encore de nombreux défauts de conception communs aux autres exosquelettes, il est néanmoins considéré comme une excellente alternative aux véhicules légers de commandement et de reconnaissance.\n \n
+		</text>
+	</string>
+	
+	<string id="greh_exo_outfit_name">
+		<text>Vyraj</text>
+	</string>
+	<string id="greh_exo_outfit_description">
+		<text>Armure high-tech composée d'une combinaison en Kevlar renforcée d'acier et d'un gilet tactique avec inserts de Classe IV, le tout soutenu par des membres motorisés et des servomoteurs. Des échantillons d'étude ont révélé que ses servomoteurs sont fabriqués à partir d'alliages et de matériaux inconnus de toute science dans le reste du monde. Le port de cette combinaison procure une sensation de bien-être et de calme inhabituelle chez le porteur, bien qu'il reste à déterminer si ce sentiment de sécurité est réel ou non.\n \n
+		</text>
+	</string>
+
+
+<!--
+	NOSOROG EXOSKELETAL ARMOR
+-->
+	<string id="dolg_nosorog_outfit_name">
+		<text>Nosorog PSZ-10d</text>
+	</string>
+	<string id="merc_nosorog_outfit_name">
+		<text>Nosorog Mercenaire</text>
+	</string>
+	<string id="army_nosorog_outfit_name">
+		<text>Nosorog Militaire Stalker</text>
+	</string>
+	<string id="monolith_nosorog_outfit_name">
+		<text>Nosorog Monolithe</text>
+	</string>
+	<string id="isg_nosorog_outfit_name">
+		<text>Nosorog UNISG</text>
+	</string>
+	
+	<string id="nosorog_outfit_description">
+		<text>Un exosquelette de nouvelle génération, constitué d'un Exosquelette doublement renforcé. Selon les rumeurs, il serait l'oeuvre d'un stalkers aujourd'hui décédé, surnommé « Fang », dont les conceptions ont ensuite été revendiquées par toutes sortes de factions puissantes à travers la Zone. Si les exosquelettes classiques permettent aux stalkers de se sentir comme un véhicule léger, le Nosorog leur donne presque l'impression d'être un char de combat principal, capable de résister à des dommages incroyables tout en transportant un armement considérable.\n \n
+		</text>
+	</string>
+	
+	<string id="freedom_nosorog_outfit_name">
+		<text>Champion de la Liberté</text>
+	</string>
+	<string id="freedom_nosorog_outfit_desc">
+		<text>Un exosquelette de nouvelle génération, composé d'une combinaison Exosuit doublement renforcée. Selon les rumeurs, il serait l'oeuvre d'un stalker aujourd'hui décédé, nommé « Fang », dont les plans ont ensuite été repris par diverses factions puissantes à travers la Zone. Si les exosquelettes classiques permettent aux stalkers de se sentir comme un véhicule léger, le Nosorog leur donne presque l'impression d'être un char de combat principal, capable de résister à des dommages considérables tout en transportant un armement imposant.\n \n
+		</text>
+	</string>
+
+<!--
+	NO GROUP
+-->	
+	<string id="ghillie_outfit_name">
+		<text>Tenue Ghillie</text>
+	</string>
+	<string id="ghillie_outfit_description">
+		<text>Cette tenue est conçue pour simuler un « tas de feuillage ». Généralement, ce type de combinaison est porté par les snipers et les chasseurs afin de se fondre dans l'environnement et de se dissimuler aux yeux des ennemis. Les combinaisons Ghillie sont produites commercialement, mais le personnel militaire comme les civils les personnalisent et les améliorent généralement pour répondre à leurs besoins spécifiques.\n \n
+		</text>
+	</string>
+
+</string_table>

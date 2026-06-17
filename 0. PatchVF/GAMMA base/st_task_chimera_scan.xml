@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	ITEMS
+-->
+
+	<string id="chimera_scan_device_name">
+		<text>Brain Wave Scanner</text>
+	</string>
+	<string id="chimera_scan_device_desc">
+		<text>Appareil conçu pour enregistrer les ondes électromagnétiques à proximité. Celui-ci a été spécifiquement réglé pour isoler les oscillations neurales d'un spécimen de Chimère.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n
+		</text>
+	</string>
+
+<!--
+	QUEST
+-->
+
+	<string id="yan_stalker_sakharov_task_chimera_scan_name">
+		<text>Mind Mapping</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_chimera_scan_about">
+		<text>Avez-vous entendu parler du mutant appelé la Chimère ? Les scientifiques débattent pour savoir s'il s'agit simplement d'un animal extrêmement déformé ayant développé une tête humanoïde, ou du résultat d'expériences contraires à l'éthique. Pour en avoir le coeur net, nous avons besoin de plus de données.\n \n
+		Notre équipe a mis au point un appareil capable d'enregistrer les schémas d'ondes cérébrales - les détails techniques vous laisseraient probablement perplexe. Ce qui compte, c'est que nous avons besoin de quelqu'un pour s'approcher d'une Chimère spécifique et enregistrer son activité cérébrale alors qu'elle est encore en vie. C'est là que les choses se compliquent.\n \n
+		Une fois l'enregistrement effectué, le sort de la créature - la laisser en vie ou non - dépendra de vous.
+		</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_task_chimera_scan_stage_0">
+		<text>Restez à proximité de la Chimère désignée pour enregistrer ses ondes cérébrales.</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_chimera_scan_stage_1">
+		<text>Récupérez l'appareil.</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_chimera_scan_stage_2">
+		<text>Retournez voir Sakharov.</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_chimera_scan_start">
+		<text>INITIALISATION TERMINÉE : ANALYSE LANCÉE</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_chimera_scan_error">
+		<text>ERREUR : SIGNAL PERDU, ANALYSE INTERROMPUE</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_chimera_scan_complete">
+		<text>ANALYSE TERMINÉE</text>
+	</string>
+
+</string_table>

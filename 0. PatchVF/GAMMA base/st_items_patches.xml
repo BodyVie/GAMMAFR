@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="csky_patch">
+		<text>Patch (Firmament)</text>
+	</string>
+	<string id="csky_patch_description">
+		<text>Un insigne arraché à un uniforme de Firmament.</text>
+	</string>
+
+	<string id="st_clearsky_fp">
+		<text>Patch (Firmament)</text>
+	</string>
+	<string id="st_clearsky_fp_descr">
+		<text>Un insigne arraché à un uniforme de Firmament.\nCet écusson représente un lever de soleil sur un ciel bleu dégagé, encadré par des colombes. Le design vise à communiquer le désir de la faction de guérir la Zone, ainsi que son aversion pour les conflits.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Écusson de faction\n
+		</text>
+	</string>
+
+	<string id="freedom_patch">
+		<text>Patch (Liberté)</text>
+	</string>
+	<string id="freedom_patch_description">
+		<text>Un insigne arraché à un uniforme de Liberté.</text>
+	</string>
+
+	<string id="st_freedom_fp">
+		<text>Patch (Liberté)</text>
+	</string>
+	<string id="st_freedom_fp_descr">
+		<text>Un insigne arraché à un uniforme de Liberté.\nCet écusson représente un loup vert sur fond noir, accompagné du drapeau ukrainien. Le motif vise à transmettre la nature sociale et l'amour de la terre de Liberté, ainsi que leur détermination farouche et leur férocité collective et prédatrice au combat.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Écusson de faction\n
+		</text>
+	</string>
+
+	<string id="stalker_patch">
+		<text>Patch (Solitaires)</text>
+	</string>
+	<string id="stalker_patch_description">
+		<text>Un insigne arraché à un uniforme de Solitaire.</text>
+	</string>
+
+	<string id="st_stalker_fp">
+		<text>Patch (Solitaires)</text>
+	</string>
+	<string id="st_stalker_fp_descr">
+		<text>Insigne arraché à l'uniforme d'un Solitaire. Représentant un trèfle simple, ce patch est couramment porté par les stalkers n'étant affiliés à aucune faction spécifique.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Écusson de faction\n
+		</text>
+	</string>
+
+	<string id="ecolog_patch">
+		<text>Patch (Scientifiques)</text>
+	</string>
+	<string id="ecolog_patch_description">
+		<text>Un insigne arraché à un uniforme de Scientifique.</text>
+	</string>
+
+	<string id="st_ecolog_fp">
+		<text>Patch (Scientifiques)</text>
+	</string>
+	<string id="st_ecolog_fp_descr">
+		<text>Un insigne arraché à un uniforme de Scientifique.\nCet écusson représente une paire d'ailes dorées sur un fond blanc et cyan.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Écusson de faction\n
+		</text>
+	</string>
+
+	<string id="bandit_patch">
+		<text>Patch (Bandits)</text>
+	</string>
+	<string id="bandit_patch_description">
+		<text>Un insigne arraché à un uniforme de Bandit.</text>
+	</string>
+
+	<string id="st_bandit_fp">
+		<text>Patch (Bandits)</text>
+	</string>
+	<string id="st_bandit_fp_descr">
+		<text>Un insigne arraché à un uniforme de Bandit.\nCet écusson représente un crâne noir fissuré sur un bouclier blanc. Le design vise à communiquer la rétribution impitoyable qu'ils infligent à quiconque ose les défier.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Écusson de faction\n
+		</text>
+	</string>
+
+	<string id="duty_patch">
+		<text>Patch (Devoir)</text>
+	</string>
+	<string id="duty_patch_description">
+		<text>Un insigne arraché à un uniforme de Devoir.</text>
+	</string>
+
+	<string id="st_dolg_fp">
+		<text>Patch (Devoir)</text>
+	</string>
+	<string id="st_dolg_fp_descr">
+		<text>Un insigne arraché à un uniforme de Devoir.\nCet écusson représente un réticule doré sur un bouclier rouge et noir. Le motif est conçu pour évoquer les origines militaires de la faction, sans pour autant occulter son rôle principal de protecteurs stoïques de la Zone face au monde extérieur.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Écusson de faction\n
+		</text>
+	</string>
+
+	<string id="monolith_patch">
+		<text>Patch (Monolithe)</text>
+	</string>
+	<string id="monolith_patch_description">
+		<text>Un insigne arraché à un uniforme de Monolithe.</text>
+	</string>
+
+	<string id="st_monolith_fp">
+		<text>Patch (Monolithe)</text>
+	</string>
+	<string id="st_monolith_fp_descr">
+		<text>Un insigne arraché à un uniforme de Monolithe.\nCet écusson représente des ailes emplumées sur un soleil doré. Les écussons de Monolithe sont prisés parmi les autres groupes, car ils attestent de la capacité à les combattre et à survivre.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Écusson de faction\n
+		</text>
+	</string>
+
+	<string id="army_patch">
+		<text>Patch (Militaires)</text>
+	</string>
+	<string id="army_patch_description">
+		<text>Un insigne arraché à un uniforme de l'armée ukrainienne.</text>
+	</string>
+
+	<string id="st_army_fp">
+		<text>Patch (Militaires)</text>
+	</string>
+	<string id="st_army_fp_descr">
+		<text>Un insigne arraché à un uniforme de l'armée ukrainienne.\nCet écusson représente un blason militaire complet composé de trois écus en forme de bouclier, dont celui du centre arbore les couleurs du drapeau ukrainien. Les militaires se considèrent avant tout comme des protecteurs et des gardiens de la paix.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Écusson de faction\n
+		</text>
+	</string>
+
+	<string id="merc_patch">
+		<text>Patch (Mercenaires)</text>
+	</string>
+	<string id="merc_patch_description">
+		<text>Un insigne arraché à un uniforme de Mercenaire.</text>
+	</string>
+	
+	<string id="st_merc_fp">
+		<text>Patch (Mercenaires)</text>
+	</string>
+	<string id="st_merc_fp_descr">
+		<text>Un insigne arraché à un uniforme de Mercenaire.\nCet écusson représente un rapace azur sur fond noir. Le motif vise à illustrer le caractère des Mercenaires en tant que faction de soldats de fortune froids, précis et extrêmement mobiles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Écusson de faction\n
+		</text>
+	</string>
+	
+	<string id="st_isg_fp">
+		<text>Patch (UNISG)</text>
+	</string>
+	<string id="st_isg_fp_descr">
+		<text>Un insigne arraché à un uniforme de l'UNISG.\nCet écusson représente un microscope blanc ceint de lauriers stylisés et anguleux sur un fond marron. Une étiquette cousue au dos porte l'inscription : « United Nations International Scientific Group ».\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Écusson de faction\n
+		</text>
+	</string>
+	
+	<string id="st_greh_fp">
+		<text>Patch (Péché)</text>
+	</string>
+	<string id="st_greh_fp_descr">
+		<text>Un insigne arraché à un uniforme appartenant à Péché.\nCet écusson représente un serpent dans le coin supérieur gauche et une croix orthodoxe orientale dans le coin supérieur droit. Au centre du badge figure une éclipse stylisée.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Écusson de faction\n
+		</text>
+	</string>
+	
+	<string id="st_renegade_fp">
+		<text>Patch (Renégats)</text>
+	</string>
+	<string id="st_renegade_fp_descr">
+		<text>Un insigne arraché à un uniforme de Renégat.\nCet écusson représente un scorpion jaune sur un bouclier vert luxuriant. Son existence suggère une certaine forme d'organisation au sein de la faction, bien que personne aujourd'hui ne croirait qu'ils s'unissent pour une autre raison que le désespoir le plus absolu.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Écusson de faction\n
+		</text>
+	</string>
+
+</string_table>

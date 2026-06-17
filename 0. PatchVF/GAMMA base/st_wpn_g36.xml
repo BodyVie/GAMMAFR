@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="st_wpn_g36new">
+		<text>G36</text>
+	</string>
+	<string id="st_wpn_g36new_descr">
+		<text>Conçu pour remplacer le G3 vieillissant, le G36 continue de définir les standards dans le domaine des fusils d'assaut grâce à une fiabilité sans précédent. Léger, précis et simple d'entretien, il s'est imposé entre les mains de diverses forces de l'ordre à travers le monde.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Allemagne\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Heckler &amp; Koch\n
+		</text>
+	</string>
+	<string id="st_wpn_g36new_k">
+		<text>G36K</text>
+	</string>
+	<string id="st_wpn_g36new_k_descr">
+		<text>Conçu pour remplacer le G3 vieillissant, le G36 continue de définir les standards dans le domaine des fusils d'assaut grâce à une fiabilité sans précédent. Léger, précis et simple d'entretien, il s'est imposé entre les mains de diverses forces de l'ordre à travers le monde. Le modèle « K » se caractérise par un canon et un fût plus courts, ainsi que par l'intégration d'un suppresseur de flamme et d'un rail inférieur pour la fixation d'accessoires tactiques.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Allemagne\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Heckler &amp; Koch\n
+		</text>
+	</string>
+	<string id="st_wpn_g36new_c">
+		<text>G36C</text>
+	</string>
+	<string id="st_wpn_g36new_c_descr">
+		<text>Conçu pour remplacer le G3 vieillissant, le G36 continue de définir les standards dans le domaine des fusils d'assaut grâce à une fiabilité sans précédent. Léger, précis et simple d'entretien, il s'est imposé entre les mains de diverses forces de l'ordre à travers le monde. Le modèle « C » se distingue par un canon, un garde-main et une crosse plus courts, ainsi que par l'ajout d'un cache-flammes.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Allemagne\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Heckler &amp; Koch\n
+		</text>
+	</string>
+	<string id="st_wpn_g36new_nimble">
+		<text>G36 « FEAR »</text>
+	</string>
+	<string id="st_wpn_g36new_nimble_descr">
+		<text>Conçu pour remplacer le G3 vieillissant, le G36 continue de définir les standards dans le domaine des fusils d'assaut grâce à une fiabilité sans précédent. Léger, précis et simple d'entretien, il s'est imposé entre les mains de diverses forces de l'ordre à travers le monde. Ce modèle unique et atypique s'apparente au G36K, mais se distingue par un poids considérablement réduit sans compromis sur la précision ni augmentation du recul. Le boulon a également été modifié pour accroître la cadence de tir.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Origine : %c[ui_gray_2]Allemagne\n
+		%c[d_cyan] • %c[0,255,255,255] Fabricant : %c[ui_gray_2]Heckler &amp; Koch\n
+		</text>
+	</string>
+
+</string_table>

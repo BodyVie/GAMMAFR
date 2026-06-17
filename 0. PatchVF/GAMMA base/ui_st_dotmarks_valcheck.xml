@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!-- ====================================================================
+	Interaction Dot Marks
+    Author: Catspaw
+    Permission granted to freely translate this file into any language.
+===================================================================== -->
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_depcheck_failpart_1">
+		<text>%c[default]Le %c[255,255,215,0]</text>
+	</string>
+
+	<string id="st_depcheck_failpart_2">
+		<text>%c[default]L'addon a %c[255,255,215,0]COMPLÈTEMENT merdé au chargement%c[default]. Plusieurs raisons possibles. Voici la première erreur :\n
+		%c[255,255,0,0] \n</text>
+	</string>
+
+	<string id="st_depcheck_failpart_3">
+		<text>\n%c[255,220,220,220]
+		\nQuelques pistes :\n</text>
+	</string>
+
+	<string id="st_depcheck_listitem">
+		<text>\n
+			%c[255,255,255,255]• %c[default]</text>
+	</string>
+
+	<string id="st_depcheck_dotmarks_tip_1">
+		<text>Mettez à jour les autres modules complémentaires Catspaw (comme Fair Fast Travel, le Milspec PDA ou PAW).</text>
+	</string>
+
+
+	<string id="st_depcheck_basic_tip_1">
+		<text>Placez ce module complémentaire en bas de votre ordre de chargement dans MO2.</text>
+	</string>
+
+	<string id="st_depcheck_basic_tip_2">
+		<text>Téléchargez à nouveau le module complémentaire depuis Moddb et réinstallez-le.</text>
+	</string>
+
+	<string id="st_depcheck_basic_tip_3">
+		<text>Lancez Anomaly sans aucun autre mod et vérifiez si le problème persiste.</text>
+	</string>
+
+	<string id="st_depcheck_dotmarks_end">
+		<text>\n %c[default]
+		\nSi DotMarks continue de planter après ça, y'a probablement un truc %c[255,220,220,220]gravement chelou%c[default] dans ton installation d'Anomaly.
+		\nVa dans %c[255,255,215,0]MCM %c[default]&gt; %c[255,255,215,0]DotMarks %c[default]&gt; %c[255,255,215,0]Paramètres avancés%c[default] et fournis un log de debug comme indiqué.</text>
+	</string>
+
+	<string id="st_depcheck_fail_not_found">
+		<text>INTROUVABLE !\n</text>
+	</string>
+
+	<string id="st_depcheck_fail_outdated">
+		<text>OBSOLÈTE ! (requis : %s, trouvé : %s)\n</text>
+	</string>
+
+</string_table>

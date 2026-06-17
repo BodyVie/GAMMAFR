@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+
+<string_table>
+
+	<string id="st_wpn_mp155">
+		<text>MP-155</text>
+	</string>
+	<string id="st_wpn_mp155_descr">
+		<text>Fusil semi-automatique polyvalent, réputé pour sa fiabilité, son accessibilité financière et sa capacité à tirer une large gamme de munitions. Il est prisé des chasseurs et des tireurs sportifs. Sa conception légère, ses options de crosse ajustable et sa construction robuste le rendent adapté à divers environnements et styles de tir.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Russie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Baikal\n
+		</text>
+	</string>
+
+</string_table>

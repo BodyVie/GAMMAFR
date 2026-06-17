@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="Btn_Cancel">
+		<text>Annuler</text>
+	</string>
+	<string id="Btn_No">
+		<text>Non</text>
+	</string>
+	<string id="Btn_OK">
+		<text>OK</text>
+	</string>
+	<string id="Btn_Yes">
+		<text>Oui</text>
+	</string>
+	<string id="global_map">
+		<text>Carte de la Zone</text>
+	</string>
+	<string id="mm_mp_pda_hunt">
+		<text>Bonus PDA</text>
+	</string>
+	<string id="mp_only_one_voting">
+		<text>Une seule vote active autorisée.</text>
+	</string>
+	<string id="st_game">
+		<text>Jeu</text>
+	</string>
+	<string id="st_item_used">
+		<text>Utilisé</text>
+	</string>
+	<string id="st_level">
+		<text>Niveau</text>
+	</string>
+	<string id="st_loading_ai_objects">
+		<text>CHARGEMENT DES OBJETS IA</text>
+	</string>
+	<string id="st_loading_alife_simulator">
+		<text>SERVEUR : CHARGEMENT DU SIMULATEUR ALIFE</text>
+	</string>
+	<string id="st_loading_cform">
+		<text>CHARGEMENT CFORM</text>
+	</string>
+	<string id="st_loading_details">
+		<text>CHARGEMENT DÉTAILS</text>
+	</string>
+	<string id="st_loading_geometry">
+		<text>CHARGEMENT GÉOMÉTRIE</text>
+	</string>
+	<string id="st_loading_saved_game">
+		<text>CHARGEMENT DE LA SAUVEGARDE</text>
+	</string>
+	<string id="st_loading_sectors_portals">
+		<text>CHARGEMENT DES SECTEURS &amp; PORTAILS</text>
+	</string>
+	<string id="st_loading_shaders">
+		<text>CHARGEMENT SHADERS</text>
+	</string>
+	<string id="st_loading_spatial_db">
+		<text>CHARGEMENT SPATIAL-DB</text>
+	</string>
+	<string id="st_loading_textures">
+		<text>CHARGEMENT TEXTURES</text>
+	</string>
+	<string id="st_mp_direct_ip">
+		<text>IP directe</text>
+	</string>
+	<string id="st_no_active_task">
+		<text>aucune mission active</text>
+	</string>
+	<string id="st_not_enough_money">
+		<text>pas assez d'argent</text>
+	</string>
+	<string id="st_not_enough_money_npc">
+		<text>Le NPC n'a pas assez d'argent</text>
+	</string>
+	<string id="st_opening_stream">
+		<text>ouverture du flux</text>
+	</string>
+	<string id="st_prefetching_objects">
+		<text>Préchargement des objets</text>
+	</string>
+	<string id="st_rubles">
+		<text>roubles.</text>
+	</string>
+	<string id="st_server_connecting">
+		<text>SERVEUR : Connexion en cours</text>
+	</string>
+	<string id="st_server_starting">
+		<text>SERVEUR : Démarrage</text>
+	</string>
+	<string id="st_validating_cdkey">
+		<text>Validation du CD Key</text>
+	</string>
+	<string id="st_video">
+		<text>Vidéo</text>
+	</string>
+	<string id="ui_inv_repair">
+		<text>Réparation</text>
+	</string>
+	<string id="ui_st_cant_run_r2">
+		<text>Votre PC ne peut pas exécuter Render 2</text>
+	</string>
+	<string id="ui_st_conn_cdkey_disabled">
+		<text>Erreur de connexion : votre CD-Key est désactivé. Veuillez contacter le service client.</text>
+	</string>
+	<string id="ui_st_conn_cdkey_in_use">
+		<text>Erreur de connexion : CD-Key déjà utilisé.</text>
+	</string>
+	<string id="ui_st_conn_cdkey_invalid">
+		<text>Erreur de connexion : CD-Key invalide.</text>
+	</string>
+	<string id="ui_st_conn_invalid_host">
+		<text>Erreur de connexion : hôte invalide</text>
+	</string>
+	<string id="ui_st_conn_invalid_pass">
+		<text>Erreur de connexion : mot de passe invalide</text>
+	</string>
+	<string id="ui_st_conn_new_patch">
+		<text>Un nouveau correctif est disponible.\nVersion : %s\nEmplacement : %s\nSouhaitez-vous le télécharger maintenant ?</text>
+	</string>
+	<string id="ui_st_conn_no_new_patch">
+		<text>Aucun nouveau correctif disponible actuellement</text>
+	</string>
+	<string id="ui_st_conn_rejected_server">
+		<text>Erreur de connexion : connexion refusée par le serveur</text>
+	</string>
+	<string id="ui_st_conn_sess_full">
+		<text>Erreur de connexion : serveur complet</text>
+	</string>
+	<string id="ui_st_conn_version_differs">
+		<text>Erreur de connexion : version différente.</text>
+	</string>
+	<string id="ui_st_connecting_to_masterserver">
+		<text>Connexion au serveur maître en cours</text>
+	</string>
+	<string id="ui_st_days">
+		<text>Jours</text>
+	</string>
+	<string id="ui_st_error">
+		<text>Erreur</text>
+	</string>
+	<string id="ui_st_error_loading">
+		<text>Erreur de chargement</text>
+	</string>
+	<string id="ui_st_file_exist_owerwrite_q">
+		<text>Un fichier portant ce nom existe déjà. Souhaitez-vous l'écraser ?</text>
+	</string>
+	<string id="ui_st_file_name_is_empty">
+		<text>Le nom du fichier est vide</text>
+	</string>
+	<string id="ui_st_hours">
+		<text>Heures</text>
+	</string>
+	<string id="ui_st_kicked_by_battleye">
+		<text>Déconnexion par le système de protection BattleEye :</text>
+	</string>
+	<string id="ui_st_kicked_by_server">
+		<text>Déconnecté. Raison :</text>
+	</string>
+	<string id="ui_st_leave">
+		<text>Quitter</text>
+	</string>
+	<string id="ui_st_load_game_confirm">
+		<text>Charger cette partie entraînera la perte des données non sauvegardées. Continuer ?</text>
+	</string>
+	<string id="ui_st_mins">
+		<text>min</text>
+	</string>
+	<string id="ui_st_months">
+		<text>mois</text>
+	</string>
+	<string id="ui_st_opponent_items">
+		<text>Sac à dos</text>
+	</string>
+	<string id="ui_st_params">
+		<text>Paramètres</text>
+	</string>
+	<string id="ui_st_patch_download_error">
+		<text>Impossible de télécharger le correctif.</text>
+	</string>
+	<string id="ui_st_patch_download_success">
+		<text>Correctif téléchargé avec succès. Souhaitez-vous l'installer ?</text>
+	</string>
+	<string id="ui_st_price">
+		<text>Prix</text>
+	</string>
+	<string id="ui_st_secs">
+		<text>s</text>
+	</string>
+	<string id="mp_si_sec">
+		<text>s</text>
+	</string>
+	<string id="ui_st_select_one_map">
+		<text>Veuillez sélectionner au moins une carte</text>
+	</string>
+	<string id="ui_st_time_remains">
+		<text>Restant</text>
+	</string>
+	<string id="ui_st_voting_disabled">
+		<text>Échec du vote</text>
+	</string>
+	<string id="ui_st_want_to_leave_game_q">
+		<text>Souhaitez-vous vraiment quitter la partie ?</text>
+	</string>
+	<string id="st_key_notbinded">
+		<text>...</text>
+	</string>
+	<string id="st_save_uni_travel_generic">
+		<text>déplacement dans une zone</text>
+	</string>
+	<string id="st_travel_lost">
+		<text>J'connais pas encore le chemin.</text>
+	</string>
+	<string id="st_level_changer_descr">
+		<text>Déplacer %s?</text>
+	</string>
+	<string id="st_future_maps_descr">
+		<text>Vous ne pouvez pas vous rendre à cet endroit.</text>
+	</string>
+	<string id="st_save_uni_travel_zat_to_jup">
+		<text>départ de Zaton vers Yanov</text>
+	</string>
+	<string id="st_save_uni_travel_zat_to_pri">
+		<text>déplacement de Zaton à Pripyat</text>
+	</string>
+	<string id="st_save_uni_travel_jup_to_zat">
+		<text>départ de Yanov vers Zaton</text>
+	</string>
+	<string id="st_save_uni_travel_jup_to_pri">
+		<text>déplacement de Yanov à Pripyat</text>
+	</string>
+	<string id="st_save_uni_travel_pri_to_zat">
+		<text>départ de Pripyat vers Zaton</text>
+	</string>
+	<string id="st_save_uni_travel_pri_to_jup">
+		<text>départ de Pripyat vers Yanov</text>
+	</string>
+	<string id="st_save_uni_pri_to_labx8">
+		<text>départ de Pripyat vers X8</text>
+	</string>
+	<string id="st_save_uni_labx8_to_pri">
+		<text>départ de X8 vers Pripyat</text>
+	</string>
+	<string id="st_save_uni_surge_start">
+		<text>Émission</text>
+	</string>
+	<string id="st_save_zat_a1_game_start">
+		<text>début de la partie</text>
+	</string>
+	<string id="st_save_zat_a2_reached_skadovsk">
+		<text>arrivée au Skadovsk</text>
+	</string>
+	<string id="st_save_jup_b9_searched_heli_1">
+		<text>Stingray 1 examiné</text>
+	</string>
+	<string id="st_save_zat_b100_searched_heli_2">
+		<text>Stingray 2 examiné</text>
+	</string>
+	<string id="st_save_zat_b28_searched_heli_3">
+		<text>Stingray 3 examiné</text>
+	</string>
+	<string id="st_save_jup_b8_searched_heli_4">
+		<text>Stingray 4 examiné</text>
+	</string>
+	<string id="st_save_zat_b101_searched_heli_5">
+		<text>Stingray 5 examiné</text>
+	</string>
+	<string id="st_save_zat_b18_noah_showed_teleport">
+		<text>accès au plateau</text>
+	</string>
+	<string id="st_save_jup_b217_arrived_to_jup">
+		<text>arrivée à Yanov</text>
+	</string>
+	<string id="st_save_jup_a9_got_underpass_docs">
+		<text>route vers Pripyat découverte</text>
+	</string>
+	<string id="st_save_jup_b15_drunk_with_zulu">
+		<text>Zulu rejoint l'escouade</text>
+	</string>
+	<string id="st_save_jup_a10_gonna_return_debt">
+		<text>dette de Vano remboursée</text>
+	</string>
+	<string id="st_save_jup_b218_vano_in_squad">
+		<text>Vano rejoint l'escouade</text>
+	</string>
+	<string id="st_save_jup_b206_got_anomalous_plant">
+		<text>plante anormale collectée</text>
+	</string>
+	<string id="st_save_jup_b218_sokolov_in_squad">
+		<text>Sokolov rejoint l'escouade</text>
+	</string>
+	<string id="st_save_jup_b218_strider_in_squad">
+		<text>Strider rejoint l'escouade</text>
+	</string>
+	<string id="st_save_jup_b218_travel_jup_to_pas">
+		<text>escouade formée</text>
+	</string>
+	<string id="st_save_pas_b400_underpass_start">
+		<text>arrivée dans le passage souterrain</text>
+	</string>
+	<string id="st_save_uni_travel_pas_to_pri">
+		<text>arrivée à Pripyat</text>
+	</string>
+	<string id="st_save_pri_a16_arrived_to_pri">
+		<text>forces militaires localisées</text>
+	</string>
+	<string id="st_save_pri_a17_hospital_start">
+		<text>arme non identifiée capturée</text>
+	</string>
+	<string id="st_save_pri_a20_found_dead_recon">
+		<text>escouade de reconnaissance trouvée</text>
+	</string>
+	<string id="st_save_pri_a18_met_reinforcement">
+		<text>renforts arrivés</text>
+	</string>
+	<string id="st_save_pri_a18_searched_antenna">
+		<text>« antenne » examinée</text>
+	</string>
+	<string id="st_save_pri_a21_approached_mad_sentry">
+		<text>sentinelle disparue retrouvée</text>
+	</string>
+	<string id="st_save_pri_a21_killed_controller">
+		<text>controller près de la sentinelle tué</text>
+	</string>
+	<string id="st_save_zat_a23_entered_test_center">
+		<text>atelier de test accessible</text>
+	</string>
+	<string id="st_save_zat_a23_got_gauss_docs">
+		<text>documentation du fusil Gauss trouvée</text>
+	</string>
+	<string id="st_save_pri_a22_found_dead_squad">
+		<text>combattant mort trouvé</text>
+	</string>
+	<string id="st_save_pri_a25_gonna_place_explosive">
+		<text>entrée de la maternelle</text>
+	</string>
+	<string id="st_save_pri_a25_freed_medic">
+		<text>médecin militaire secouru</text>
+	</string>
+	<string id="st_save_pri_a28_talked_with_ssu">
+		<text>communications avec le QG établies</text>
+	</string>
+	<string id="st_save_pri_a28_evacutaion_start">
+		<text>évacuation de Pripyat lancée</text>
+	</string>
+	<string id="st_save_pri_a28_evacuation_end">
+		<text>hélicoptères d'évacuation arrivés</text>
+	</string>
+	<string id="st_save_uni_zone_to_reality">
+		<text>évacuation terminée</text>
+	</string>
+	<string id="st_save_jup_b209_placed_mutant_scanner">
+		<text>détecteur de mutants</text>
+	</string>
+	<string id="st_save_jup_a12_gave_artefact_for_hostage">
+		<text>rançon payée pour l'otage</text>
+	</string>
+	<string id="st_save_jup_a12_met_with_liberators">
+		<text>otage libéré</text>
+	</string>
+	<string id="st_save_jup_b6_arrived_to_ash_heap">
+		<text>mesures de l'anomalie Ash Heap</text>
+	</string>
+	<string id="st_save_jup_b6_arrived_to_fen">
+		<text>mesures de l'anomalie Plavni</text>
+	</string>
+	<string id="st_save_zat_b38_met_with_grouse">
+		<text>repaire du bloodsucker</text>
+	</string>
+	<string id="st_save_jup_b19_arrived_to_kopachy">
+		<text>envoyé à Kopachy</text>
+	</string>
+	<string id="st_save_zat_b40_warned_by_mercs">
+		<text>approche de la station de traitement des déchets</text>
+	</string>
+	<string id="st_save_zat_b7_met_with_robbers">
+		<text>stalker touché</text>
+	</string>
+	<string id="st_save_zat_b33_got_container">
+		<text>conteneur découvert dans une planque</text>
+	</string>
+	<string id="st_save_zat_b106_arrived_to_chimera_lair">
+		<text>chasse à la chimère</text>
+	</string>
+	<string id="st_save_jup_b16_passed_labyrinth">
+		<text>Oasis découverte</text>
+	</string>
+	<string id="st_save_pri_b35_ready_to_snipe">
+		<text>Opération One Shot lancée</text>
+	</string>
+	<string id="st_save_jup_b1_entered_railroad_tunnel">
+		<text>recherche de la source d'émission psy</text>
+	</string>
+	<string id="st_save_jup_b47_got_admin_docs">
+		<text>documents administratifs</text>
+	</string>
+	<string id="st_save_zat_b103_warned_by_mercs">
+		<text>approche de l'atelier de la sous-station</text>
+	</string>
+	<string id="st_save_zat_b5_met_with_others">
+		<text>accord près du poste des rangers</text>
+	</string>
+	<string id="st_save_jup_b207_arrived_to_duty_depot">
+		<text>entrepôt Devoir</text>
+	</string>
+	<string id="st_save_zat_b14_got_altered_wheel">
+		<text>source de lueur étrange découverte</text>
+	</string>
+	<string id="st_save_pri_b301_arrived_to_help_zulu">
+		<text>Zulu trouvé</text>
+	</string>
+	<string id="st_save_zat_b42_arrived_to_controler_lair">
+		<text>grotte dangereuse</text>
+	</string>
+	<string id="ui_st_upgrade">
+		<text>Réparation/modifications</text>
+	</string>
+	<string id="ui_st_trade">
+		<text>Échanger</text>
+	</string>
+	<string id="ui_st_exit_hint">
+		<text>Fermer la fenêtre ($$ACTION_USE$$)</text>
+	</string>
+	<string id="ui_st_trade_hint">
+		<text>Ouvrir la fenêtre d'échange ($$ACTION_SPRINT_TOGGLE$$)</text>
+	</string>
+	<string id="ui_st_upgrade_hint">
+		<text>Ouvrir la fenêtre de réparation et modifications ($$ACTION_SPRINT_TOGGLE$$)</text>
+	</string>
+	<string id="st_save_pri_a28_evacuation_heli">
+		<text>décollage de l'hélicoptère d'évacuation</text>
+	</string>
+	<string id="st_hold_then_release">
+		<text>Maintenir puis relâcher</text>
+	</string>
+	<string id="st_set_companion_to_stealth_state">
+		<text>Furtivité</text>
+	</string>
+	<string id="st_sleep">
+		<text>Dormir</text>
+	</string>
+	<string id="st_ui_save">
+		<text>Sauvegarder</text>
+	</string>
+	
+	
+	<!-- Miscellaneous -->
+	<string id="st_ui_selected">
+		<text>Sélectionné</text>
+	</string>
+	<string id="st_ui_arts">
+		<text>Artefact</text>
+	</string>
+	<string id="st_ui_remove_art">
+		<text>Récupérer l'artefact</text>
+	</string>
+	<string id="st_ui_place_art">
+		<text>Déposer l'artefact</text>
+	</string>
+	<string id="st_body_loot">
+		<text>Découper le corps</text>
+	</string>
+	<string id="st_body_kick">
+		<text>Exclure</text>
+	</string>
+	<string id="st_invalid_position">
+		<text>Position non répertoriée sur la carte IA</text>
+	</string>
+	<string id="st_cfm">
+		<text>Utilisation du kit de repas uniquement possible près d'un feu de camp allumé.</text>
+	</string>
+	<string id="st_full_charge">
+		<text>Battery entièrement chargée</text>
+	</string>
+	<string id="st_charging">
+		<text>Charge actuelle :</text>
+	</string>
+	<string id="st_rad_level">
+		<text>Niveau de radiation</text>
+	</string>
+	<string id="st_dont_has_knife">
+		<text>Prendre un couteau</text>
+	</string>
+
+	<string id="st_repair_mod_message_box_ask">
+		<text>T'es sûr de vouloir réparer %s ?\n\n%c[255,1,255,1]+%s</text>
+	</string>
+	<string id="st_repair_mod_message_box_condition_to_low">
+		<text>L'objet est irréparable avec ces outils.</text>
+	</string>
+	<string id="st_repair_mod_message_box_condition_to_high">
+		<text>Ces outils ne suffisent plus pour réparer cet objet.</text>
+	</string>
+	
+	<string id="st_trx_input_symbols">
+		<text>1234567890</text>
+	</string>
+	<!-- valid symbols only -->
+    <string id="st_trx_output_symbols">
+		<text>1234567890</text>
+	</string>
+	<string id="st_trx_input_symbols_full">
+		<text>1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-.</text>
+	</string>
+	<!-- valid symbols only -->
+    <string id="st_trx_output_symbols_full">
+		<text>1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-.</text>
+	</string>
+	
+	<!-- Unused -->
+	<string id="selfroll_making">
+		<text>Je roule les feuilles, ça prendra pas longtemps.</text>
+	</string>
+	<string id="sleepbag_making">
+		<text>Coudre ce sac de couchage va prendre un moment.</text>
+	</string>
+	<string id="backpack_making">
+		<text>Fabriquer ce sac à dos va prendre un moment.</text>
+	</string>
+	<string id="ammo12x70_making">
+		<text>Je fabrique les cartouches, ça peut prendre un peu de temps. </text>
+	</string>
+	<string id="selfroll_making_end">
+		<text>Le jet de dés est fait.</text>
+	</string>
+	<string id="sleepbag_making_end">
+		<text>Le sac de couchage est prêt.</text>
+	</string>
+	<string id="backpack_making_end">
+		<text>Le sac à dos est prêt.</text>
+	</string>
+	<string id="ammo12x70_making_end">
+		<text>Les cartouches sont prêtes.</text>
+	</string>
+	
+	<!-- New RC18 -->
+	<string id="st_fast_travel_discovered">
+		<text> découvert</text>
+	</string>
+
+</string_table>

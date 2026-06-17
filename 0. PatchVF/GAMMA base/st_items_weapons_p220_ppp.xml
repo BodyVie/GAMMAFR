@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!-- UNUSED
+
+	<string id="st_wpn_sig229">
+		<text>SIG P229 LEGION</text>
+	</string>
+	<string id="st_wpn_sig229_descr">
+		<text>Exceptionnel à tous points de vue, le SIG P229 Legion a été adopté par un plus grand nombre d'agences de maintien de l'ordre que tout autre modèle de pistolet. Cette arme de combat se caractérise par une construction robuste avec un cadre en alliage et une glissière à finition Nitron, un rail Picatinny intégré, un système de détente inégalé, des organes de visée nocturnes SIGLITE et une configuration de poignée s'adaptant parfaitement à la main comme un gant.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Allemagne, Suisse\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]SIG Sauer\n
+		</text>
+	</string>
+
+	<string id="st_wpn_sig320">
+		<text>SIG P320 RXP</text>
+	</string>
+	<string id="st_wpn_sig320_descr">
+		<text>Ergonomique et compact, le P320 est l'un des pistolets semi-automatiques à percuteur les plus innovants du marché. Il se distingue par son optique ROMEO1 PRO exclusive montée sur la glissière, garantissant une acquisition plus rapide de la cible.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Allemagne, Suisse\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]SIG Sauer\n
+		</text>
+	</string>
+	<string id="st_up_p320_c7_name">
+		<text>Rechambrer en .45 ACP</text>
+	</string>
+	<string id="st_up_p320_c7_descr">
+		<text>Rechambrer l'arme pour utiliser du .45 ACP.</text>
+	</string>
+
+-->
+
+</string_table>

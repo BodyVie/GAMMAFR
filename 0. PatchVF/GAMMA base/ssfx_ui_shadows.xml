@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+- @ Version: SCREEN SPACE SHADERS - UPDATE 19
+- @ Description: Shadows - MCM strings
+- @ Author: https://www.moddb.com/members/ascii1457
+- @ Mod: https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+	<!-- Button -->
+	<string id="ui_mcm_ssfx_module_shadows">
+		<text>Ombres et lumière</text>
+	</string>
+
+
+	<string id="ui_mcm_lst_shadows_128">
+		<text>128</text>
+	</string>
+	
+	<string id="ui_mcm_lst_shadows_256">
+		<text>256</text>
+	</string>
+	
+	<string id="ui_mcm_lst_shadows_512">
+		<text>512</text>
+	</string>
+
+	<string id="ui_mcm_lst_shadows_768">
+		<text>768</text>
+	</string>
+
+	<string id="ui_mcm_lst_shadows_768_V">
+		<text>768 (Vanille)</text>
+	</string>
+
+	<string id="ui_mcm_lst_shadows_1536">
+		<text>1536</text>
+	</string>
+
+	<string id="ui_mcm_lst_shadows_1536_V">
+		<text>1536 (Vanille)</text>
+	</string>
+
+	<string id="ui_mcm_lst_shadows_2048">
+		<text>2048</text>
+	</string>
+
+	<string id="ui_mcm_lst_shadows_2560">
+		<text>2560</text>
+	</string>
+
+	<string id="ui_mcm_lst_shadows_3072">
+		<text>3072</text>
+	</string>
+
+	<string id="ui_mcm_lst_shadows_4096">
+		<text>4096</text>
+	</string>
+
+	<!-- Shadow Cascades Settings -->
+	<string id="ui_mcm_ssfx_module_shadows_title">
+		<text>Paramètres ombres et lumière</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_shadows_lod_quality_mcm">
+		<text>Niveau de détail des ombres</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_shadows_lod_quality_mcm_desc">
+		<text>Qualité de base de la carte d'ombres. Plus la valeur est élevée, plus la résolution de base des ombres et leur résolution à distance sont élevées.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_shadows_lod_min_mcm">
+		<text>Résolution min. des ombres</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_shadows_lod_min_mcm_desc">
+		<text>Résolution minimale de la carte d'ombres. Lorsque les sources de lumière sont éloignées du joueur, la résolution des ombres diminue pour améliorer les performances (au détriment de la qualité d'image).</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_shadows_lod_max_mcm">
+		<text>Résolution max. des ombres</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_shadows_lod_max_mcm_desc">
+		<text>Résolution maximale de la carte d'ombres. Lorsque les sources de lumière sont proches, la résolution augmente pour améliorer la qualité des ombres (au détriment des performances).</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_shadows_volumetric_force_mcm">
+		<text>Forcer le volumétrique (rechargement de la carte requis)</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_shadows_volumetric_force_mcm_desc">
+		<text>Force l'effet volumétrique sur toutes les sources de lumière non directionnelles. Vous devez recharger la carte pour appliquer ce paramètre.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_shadows_volumetric_int_mcm">
+		<text>Intensité volumétrique</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_shadows_volumetric_resolution_mcm">
+		<text>Résolution volumétrique</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_shadows_volumetric_resolution_mcm_desc">
+		<text>Résolution du rendu volumétrique. Pourcentage de votre résolution actuelle. [ min : 14 % ~ max : 100 % ]</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_shadows_volumetric_int_mcm_desc">
+		<text>Règle l'intensité de l'effet volumétrique.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_shadows_volumetric_quality_mcm">
+		<text>Qualité volumétrique</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_shadows_volumetric_quality_mcm_desc">
+		<text>Définit la qualité de l'effet volumétrique au détriment des performances.</text>
+	</string>
+
+
+
+</string_table>

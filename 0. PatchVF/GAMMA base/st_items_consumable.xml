@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	ALCOHOL
+-->
+
+	<string id="st_vodka">
+		<text>Vodka (Nemiroff)</text>
+	</string>
+	<string id="st_vodka_descr">
+		<text>Nemiroff est un producteur ukrainien de boissons alcoolisées, basé dans la ville de Nemyriv, dans l'oblast de Vinnytska. Spécialisé dans les vodkas et autres spiritueux, il est considéré comme l'une des meilleures vodkas au monde et, par extension, dans la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Boisson\n
+		%c[d_cyan] • %c[pda_white] Alcool\n
+		</text>
+	</string>
+	
+	<string id="st_vodka2">
+		<text>Vodka (Putinka)</text>
+	</string>
+	<string id="st_vodka2_descr">
+		<text>Triple purification, une texture lisse et un goût unique. Suivant la tradition de nommer les marques de vodka d'après les dirigeants russes, Putinka a été produite pour la première fois après l'élection de Vladimir Poutine à la présidence. Fabriquée en Russie à partir des meilleures céréales et d'une eau cristalline issue des sources sibériennes.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Boisson\n
+		%c[d_cyan] • %c[pda_white] Alcool\n
+		</text>
+	</string>
+	
+	<string id="st_vodka_quality">
+		<text>Vodka (Stolichnaya)</text>
+	</string>
+	<string id="st_vodka_quality_descr">
+		<text>Une flasque métallique robuste remplie de vodka Stolichnaya, souvent appelée « Stoli » ; une marque de vodka d'origine russe, désormais produite en Lettonie. Elle possède une histoire riche et est connue pour son goût classique et sa large distribution internationale. Qu'elle soit utilisée pour calmer les nerfs, se détendre ou célébrer, cet esprit soviétique emblématique reste un compagnon fiable dans la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Boisson\n
+		%c[d_cyan] • %c[pda_white] Alcool\n
+		</text>
+	</string>
+	
+	<string id="st_beer">
+		<text>Bière</text>
+	</string>
+	<string id="st_beer_descr">
+		<text>La bière ukrainienne englobe une variété de brassins fabriqués en Ukraine, reflétant le riche patrimoine brassicole du pays. Ces bières vont des lagers légères aux ales robustes et constituent une boisson très populaire dans la Zone, aux côtés de la vodka.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Boisson\n
+		%c[d_cyan] • %c[pda_white] Alcool\n
+		</text>
+	</string>
+	
+	<string id="st_bottle_metal">
+		<text>Vodka</text>
+	</string>
+	<string id="st_bottle_metal_descr">
+		<text>Une flasque métallique contenant une portion de vodka produite dans la Zone. Bien que plus abordable, les vapeurs sont fortes et la qualité ainsi que le goût laissent à désirer, mais elle remplit son office.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Boisson\n
+		%c[d_cyan] • %c[pda_white] Alcool\n
+		</text>
+	</string>
+
+<!--
+	FOOD
+-->
+
+	<string id="st_mint">
+		<text>Pastilles Altoids</text>
+	</string>
+	<string id="st_mint_descr">
+		<text>Pastilles Altoids à la menthe, importées depuis l'extérieur de la Zone. Bien qu'elles ne constituent pas un repas, elles offrent une brève pause face à la monotonie des rations de survie. Très rafraîchissantes.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nourriture\n
+		</text>
+	</string>
+
+	<string id="st_beans">
+		<text>Haricots au four</text>
+	</string>
+	<string id="st_beans_descr">
+		<text>Haricots blancs en conserve cuisinés dans une sauce savoureuse, importés depuis l'extérieur de la Zone. Ce produit de base offre un goût réconfortant, rappelant la maison, et constitue une source de sustentation lors d'expéditions prolongées.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nourriture\n
+		</text>
+	</string>
+
+	<string id="st_tushonka">
+		<text>Tushonka de boeuf</text>
+	</string>
+	<string id="st_tushonka_descr">
+		<text>La tushonka est le nom commun donné à la viande en conserve et mijotée produite en Union soviétique et dans d'autres pays du Pacte de Varsovie. Elle est devenue un moyen principal de conservation de la viande à long terme, utilisée à la fois par la population civile et comme ration alimentaire standard de l'Armée rouge. La tushonka est reconnue pour sa haute valeur nutritionnelle et son goût relativement bon.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nourriture\n
+		</text>
+	</string>
+
+	<string id="st_bread">
+		<text>Miche de pain</text>
+	</string>
+	<string id="st_bread_descr">
+		<text>Une simple miche de pain, constituant un élément de base mais essentiel du régime alimentaire d'un Zone dans la Stalker. Sa polyvalence en fait un accompagnement courant pour d'autres denrées trouvées sur place.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nourriture\n
+		</text>
+	</string>
+
+	<string id="st_conserva">
+		<text>Thon en boîte</text>
+	</string>
+	<string id="st_conserva_descr">
+		<text>Une boîte de thon en conserve à l'huile, proposant un repas léger et riche en protéines. Sa taille compacte la rend pratique à transporter lors de longues expéditions.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nourriture\n
+		</text>
+	</string>
+
+	<string id="st_corn">
+		<text>Maïs en boîte
+		</text>
+	</string>
+	<string id="st_corn_descr">
+		<text>Maïs doux en conserve, importé depuis l'extérieur de la Zone. Il apporte une variété au régime alimentaire autrement monotone d'un Stalker, offrant des sucres naturels pour un regain d'énergie rapide en cas de besoin.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nourriture\n
+		</text>
+	</string>
+
+	<string id="st_tomato">
+		<text>Tomates en boîte</text>
+	</string>
+	<string id="st_tomato_descr">
+		<text>Tomates en conserve, coupées en dés et en tranches, souvent utilisées pour rehausser la saveur des repas de base. Elles apportent une touche de fraîcheur aux options culinaires autrement fades.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nourriture\n
+		</text>
+	</string>
+
+	<string id="st_chili">
+		<text>Haricots chili</text>
+	</string>
+	<string id="st_chili_descr">
+		<text>Haricots rouges en conserve cuisinés dans une sauce épicée au chili. Robuste et savoureux, ce plat propose une alternative relevée aux rations standards. La chaleur ajoutée peut remonter le moral dans les environnements froids et désolés.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nourriture\n
+		</text>
+	</string>
+
+	<string id="st_protein">
+		<text>Protéine du Bar</text>
+	</string>
+	<string id="st_protein_descr">
+		<text>Une barre compacte alliant le plaisir du chocolat aux avantages nutritionnels des protéines. Idéale pour une consommation rapide, elle offre une gourmandise sucrée tout en apportant des nutriments essentiels. Utile lors de longs déplacements lorsque vous êtes en mouvement et devez manger rapidement.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nourriture\n
+		</text>
+	</string>
+
+	<string id="st_kolbasa">
+		<text>Saucisse du docteur</text>
+	</string>
+	<string id="st_kolbasa_descr">
+		<text>Cette saucisse était à l'origine destinée à servir de complément alimentaire pour les personnes présentant des signes de famine prolongée. En raison de son goût doux, de son coût abordable et de sa relative qualité nutritionnelle, la saucisse du Docteur est devenue très populaire en URSS. Sa longue durée de conservation en fait un choix pratique pour la subsistance dans la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nourriture\n
+		</text>
+	</string>
+
+	<string id="st_nuts">
+		<text>Mélange de noix</text>
+	</string>
+	<string id="st_nuts_descr">
+		<text>Mélange d'arachides, noisettes, noix de cajou et amandes. Offre une source dense de calories et de graisses saines. Parfaites pour grignoter en déplacement, elles aident à maintenir le niveau d'énergie.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nourriture\n
+		</text>
+	</string>
+	
+	<string id="st_raisins">
+		<text>Raisins</text>
+	</string>
+	<string id="st_raisins_descr">
+		<text>Raisins secs servant de source naturelle et légère de sucres. Ils procurent un regain d'énergie rapide et une touche de douceur au régime alimentaire. Un en-cas idéal pour la route.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nourriture\n
+		</text>
+	</string>
+	
+	<string id="st_chocolate">
+		<text>Chocolat</text>
+	</string>
+	<string id="st_chocolate_descr">
+		<text>Une friandise sucrée offrant un bref moment de plaisir. Bien que de qualité non premium, elle satisfait les envies de sucré dans la morosité de la Zone. Elle rappelle de nombreux souvenirs d'enfance heureux, ce qui peut aider à apaiser la douleur de vivre dans les conditions difficiles et impitoyables de la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nourriture\n
+		</text>
+	</string>
+	
+    <string id="st_chocolate_p">
+		<text>Chocolat (à moitié mangé)</text>
+	</string>
+    <string id="st_chocolate_p_descr">
+		<text>La moitié d'une friandise sucrée offrant un bref moment de plaisir. Bien que de qualité non premium, elle satisfait les envies de sucré dans la morosité de la Zone. Elle rappelle de nombreux souvenirs d'enfance heureux, ce qui peut aider à apaiser la douleur de vivre dans les conditions difficiles et impitoyables de la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nourriture\n
+		</text>
+	</string>
+	
+	<string id="st_salmon">
+		<text>Saumon fumé
+		</text>
+	</string>
+	<string id="st_salmon_descr">
+		<text>Tranches de saumon ukrainien séché et fumé, offrant une saveur riche et savoureuse. Bien que considéré comme un luxe, ce produit apporte des nutriments précieux et un goût de normalité.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nourriture\n
+		</text>
+	</string>
+
+	<string id="st_sausage">
+		<text>Saucisse fumée</text>
+	</string>
+	<string id="st_sausage_descr">
+		<text>Saucisses de viande séchée et fumée, riches en saveur et en protéines. Leur méthode de conservation garantit une longue durée de vie, en faisant une source de nourriture fiable dans la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nourriture\n
+		</text>
+	</string>
+
+	<string id="st_breadold">
+		<text>Miche de pain (rassis)</text>
+	</string>
+	<string id="st_breadold_descr">
+		<text>Une miche de pain durcie avec le temps, ayant perdu sa fraîcheur initiale. Malgré sa texture, elle reste comestible et peut être ramollie avec des liquides ou utilisée en cuisine.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nourriture\n
+		</text>
+	</string>
+
+<!--
+	DRINK
+-->
+
+	<string id="st_tea">
+		<text>Thé du Barbu</text>
+	</string>
+	<string id="st_tea_descr">
+		<text>Le thé chaud populaire de Barbu, préparé à partir d'un mélange de sucre, de champignons séchés comestibles et d'eau bouillie réputée sans radiation. Les Stalkers qui peuvent se permettre d'acheter cette boisson l'emportent souvent lors de longs voyages dans la Zone. C'est un moyen sain et efficace de rester alerte lorsque vous êtes fatigué ou en exploration lors des nuits froides.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Boisson\n
+		%c[d_green] • %c[pda_white] Effet de dégrisement\n
+		</text>
+	</string>
+
+	<string id="st_energy_drink">
+		<text>Boisson énergisante</text>
+	</string>
+	<string id="st_energy_drink_descr">
+		<text>Une boisson en conserve dotée d'une formule enrichie composée de caféine, de taurine et de vitamines C, B5, B6 et B9. Elle est souvent utilisée par les Stalkers lors de longs voyages en raison de sa teneur en sucre et en caféine, ou pour aider à dessaouler après une consommation excessive d'alcool.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Boisson\n
+		%c[d_cyan] • %c[pda_white] Stimulant\n
+		%c[d_green] • %c[pda_white] Effet de dégrisement\n
+		</text>
+	</string>
+	
+	<string id="st_flask">
+		<text>Flacon (eau pure)</text>
+	</string>
+	<string id="st_flask_descr">
+		<text>Une gourde portable remplie d'eau potable, propre et sûre. Essentielle pour étancher la soif sans risque d'exposition aux radiations provenant de sources contaminées.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Boisson\n
+		</text>
+	</string>
+
+	<string id="st_mineral_water">
+		<text>Eau minérale</text>
+	</string>
+	<string id="st_mineral_water_descr">
+		<text>Une bouteille scellée contenant une eau minérale gazeuse enrichie en calcium, issue de sources ukrainiennes, riche en minéraux essentiels. Elle offre une saveur rafraîchissante et reconstitue les nutriments vitaux perdus lors d'activités intenses.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Boisson\n
+		%c[d_green] • %c[pda_white] Effet de dégrisement\n
+		</text>
+	</string>
+
+	<string id="st_water_drink">
+		<text>Eau pétillante</text>
+	</string>
+	<string id="st_water_drink_descr">
+		<text>Eau gazeuse conditionnée en bouteille, offrant une alternative pétillante à l'eau plate. Une denrée rare dans la Zone, procurant une évasion momentanée face à la morosité du quotidien.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Boisson\n
+		%c[d_green] • %c[pda_white] Effet de dégrisement\n
+		</text>
+	</string>
+	
+	<string id="st_drink_crow">
+		<text>Thé "Le Bec"</text>
+	</string>
+	<string id="st_drink_crow_descr">
+		<text>« Le Bec » est un mélange puissant de vodka distillée dans la Zone et de bec moulu d'un corbeau mâle noir ayant vécu dans la Zone pendant plus de 15 ans, censé contenir des protéines enrichies capables de purifier le corps des radiations. Malgré ses propriétés restauratrices supposées et la sensation éphémère d'euphorie qu'il procure, cette boisson est réputée pour son goût désagréable.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Boisson\n
+		%c[d_cyan] • %c[pda_white] Stimulant\n
+		%c[d_cyan] • %c[pda_white] Alcool\n
+		</text>
+	</string>
+
+<!--
+	COMBAT RATIONS
+-->
+
+	<string id="st_mre">
+		<text>Ration de combat</text>
+	</string>
+	<string id="st_mre_descr">
+		<text>Le « Repas prêt à manger » est une ration de campagne autonome et légère, initialement développée pour le personnel militaire, offrant un repas complet ne nécessitant aucune cuisson. Sa durabilité et sa commodité en font un choix privilégié parmi les stalkers naviguant dans les défis de la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nourriture\n
+		</text>
+	</string>
+
+	<string id="st_ration_ru">
+		<text>Ration de combat russe IRP-B</text>
+	</string>
+	<string id="st_ration_ru_descr">
+		<text>Connu sous le nom de « Ration alimentaire individuelle », ce paquet offre une journée complète de nourriture, incluant des viandes en conserve, des crackers et des mélanges pour boissons. Conçu pour les forces russes, son emballage compact et robuste garantit une résistance aux conditions difficiles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nourriture\n
+		</text>
+	</string>
+	
+	<string id="st_ration_ukr">
+		<text>Ration de combat ukrainienne</text>
+	</string>
+	<string id="st_ration_ukr_descr">
+		<text>Ce paquet de ration fournit aux troupes ukrainiennes une alimentation équilibrée, comprenant des éléments tels que de la bouillie de sarrasin au poulet, des biscuits et des confitures. Sa conception met l'accent sur la praticité et la subsistance, répondant aux exigences des missions prolongées dans la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Nourriture\n
+		</text>
+	</string>
+	
+<!--
+	SMOKE
+-->
+	
+	<string id="st_cigarettes_lucky">
+		<text>Cigarettes (Lucky Strike)</text>
+	</string>
+	<string id="st_cigarettes_lucky_descr">
+		<text>Un paquet de cigarettes Lucky Strike fabriquées aux États-Unis, réputées pour leur saveur riche et leur importance historique. Très prisées dans la Zone, elles offrent un goût nostalgique du monde extérieur.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Stimulant\n
+		%c[d_green] • %c[pda_white] Effet de dégrisement\n
+		</text>
+	</string>
+
+	<string id="st_cigarettes">
+		<text>Cigarettes (Marlboro)</text>
+	</string>
+	<string id="st_cigarettes_descr">
+		<text>Les cigarettes Marlboro, avec leur emballage distinctif rouge et blanc, symbolisent la culture occidentale du tabac. Leur mélange doux offre un répit familier à ceux qui traversent les épreuves de la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Stimulant\n
+		%c[d_cyan] • %c[pda_white] Effet de dégrisement\n
+		</text>
+	</string>
+
+	<string id="st_cigarettes_russian">
+		<text>Cigarettes (russes)</text>
+	</string>
+	<string id="st_cigarettes_russian_descr">
+		<text>Cigarettes russes produites localement, sans marque distinctive, largement disponibles et abordables. Bien qu'elles manquent du prestige des marques importées, elles fournissent la dose de nicotine nécessaire aux stalkers épuisés.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Stimulant\n
+		%c[d_green] • %c[pda_white] Effet de dégrisement\n
+		</text>
+	</string>
+	
+	<string id="st_cigar1">
+		<text>Cigarettes (soviétiques)</text>
+	</string>
+	<string id="st_cigar1_descr">
+		<text>Un paquet de cigarettes vieillies produites à l'époque soviétique, remarquablement préservées et conservant toujours leur saveur distincte et âpre, rappelant les années glorieuses de l'URSS. Malgré leur âge, le mélange unique de tabac de basse qualité et de filtres en papier maintient intact le goût soviétique caractéristique, évoquant un sentiment de nostalgie chez les habitants plus âgés de la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Stimulant\n
+		%c[d_green] • %c[pda_white] Effet de dégrisement\n
+		</text>
+	</string>
+	
+	<string id="st_cigar2">
+		<text>Cigarettes (soviétiques)</text>
+	</string>
+	<string id="st_cigar2_descr">
+		<text>Un paquet de cigarettes vieillies produites à l'époque soviétique, remarquablement préservées et conservant toujours leur saveur distincte et âpre, rappelant les années glorieuses de l'URSS. Malgré leur âge, le mélange unique de tabac de basse qualité et de filtres en papier maintient intact le goût soviétique caractéristique, évoquant un sentiment de nostalgie chez les habitants plus âgés de la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Stimulant\n
+		%c[d_green] • %c[pda_white] Effet de dégrisement\n
+		</text>
+	</string>
+	
+	<string id="st_cigar3">
+		<text>Cigarettes (soviétiques)</text>
+	</string>
+	<string id="st_cigar3_descr">
+		<text>Un paquet de cigarettes vieillies produites à l'époque soviétique, remarquablement préservées et conservant toujours leur saveur distincte et âpre, rappelant les années glorieuses de l'URSS. Malgré leur âge, le mélange unique de tabac de basse qualité et de filtres en papier maintient intact le goût soviétique caractéristique, évoquant un sentiment de nostalgie chez les habitants plus âgés de la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Stimulant\n
+		%c[d_green] • %c[pda_white] Effet de dégrisement\n
+		</text>
+	</string>
+
+	<string id="st_cuban_cigar">
+		<text>Cigare cubain</text>
+	</string>
+	<string id="st_cuban_cigar_descr">
+		<text> Un cigare cubain de luxe, réputé pour son savoir-faire exceptionnel et ses arômes riches et complexes. Dans la Zone, en posséder un est un signe de distinction, souvent réservé aux occasions spéciales ou aux échanges importants.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Stimulant\n
+		%c[d_green] • %c[pda_white] Effet de dégrisement\n
+		</text>
+	</string>
+	
+	<string id="st_hand_rolling_tobacco">
+		<text>Tabac à rouler</text>
+	</string>
+	<string id="st_hand_rolling_tobacco_descr">
+		<text>Tabac en vrac destiné à être roulé à la main, offrant une expérience de fumage personnalisable. Les Stalkers ingénieux apprécient sa polyvalence, leur permettant de rouler des cigarettes selon la taille et la force souhaitées.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Stimulant\n
+		%c[d_green] • %c[pda_white] Effet de dégrisement\n
+		</text>
+	</string>
+	
+	<string id="st_tobacco">
+		<text>Tabac russe</text>
+	</string>
+	<string id="st_tobacco_descr">
+		<text>Une boîte métallique contenant du tabac russe finement coupé, préservant sa fraîcheur dans les conditions difficiles de la Zone. Idéale pour ceux qui préfèrent rouler leurs propres cigarettes ou utiliser une pipe, elle offre une saveur robuste et authentique.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Stimulant\n
+		%c[d_green] • %c[pda_white] Effet de dégrisement à l'alcool\n
+		</text>
+	</string>
+	
+<!-- UNUSED
+
+	<string id="st_vodka_1_radiated">
+		<text>Vodka Putinka (irradiée)</text>
+	</string>
+	<string id="st_beer_large_1_radiated">
+		<text>Bière Zhigulevskoye (irradiée)</text>
+	</string>
+	<string id="st_beer_large_2_radiated">
+		<text>Bière Ochakovo (irradiée)</text>
+	</string>
+	<string id="st_beer_1_radiated">
+		<text>Bière Baltika n°3 (irradiée)</text>
+	</string>
+	<string id="st_beer_2_radiated">
+		<text>Bière Slavutich Premium (irradiée)</text>
+	</string>
+	<string id="st_beer_can_1_radiated">
+		<text>Bière de Pripyat (irradiée)</text>
+	</string>
+	<string id="st_beer_can_2_radiated">
+		<text>Bière Heineken (irradiée)</text>
+	</string>
+	<string id="st_water_large_1_radiated">
+		<text>Eau minérale Naroch (irradiée)</text>
+	</string>
+	<string id="st_water_large_2_radiated">
+		<text>Eau minérale Leningrad (irradiée)</text>
+	</string>
+	<string id="st_water_can_1_radiated">
+		<text>Eau purifiée (irradiée)</text>
+	</string>
+	<string id="st_water_can_2_radiated">
+		<text>Eau minérale (irradiée)</text>
+	</string>
+	<string id="st_cocacola_radiated">
+		<text>Coca-Cola (irradié)</text>
+	</string>
+	<string id="st_redbull_radiated">
+		<text>Boisson énergisante Redbull</text>
+	</string>
+	<string id="st_guru_radiated">
+		<text>Boisson énergisante GURU (irradiée)</text>
+	</string>
+	<string id="st_marlboro_radiated">
+		<text>Cigarettes Marlboro (irradiées)</text>
+	</string>
+	<string id="st_lucky_radiated">
+		<text>Cigarettes Lucky Strike (irradiées)</text>
+	</string>
+	<string id="st_cuban_radiated">
+		<text>Cigares cubains (irradiés)</text>
+	</string>
+	<string id="st_cigarettes_1_radiated">
+		<text>Cigares cubains (irradiés)</text>
+	</string>
+	<string id="st_wild_drink_radiated">
+		<text>Alcool produit en Zone (irradié)</text>
+	</string>
+	<string id="st_kolbasa_smoked_radiated">
+		<text>Saucisse fumée (irradiée)</text>
+	</string>
+	<string id="st_beanz_radiated">
+		<text>Haricots au four (irradiés)</text>
+	</string>
+	<string id="st_tomatoes_radiated">
+		<text>Tomates (irradiées)</text>
+	</string>
+	<string id="st_chocolatebar_radiated">
+		<text>Barre protéinée chocolat (irradiée)</text>
+	</string>
+	<string id="st_snickers_radiated">
+		<text>Snickers (irradié)</text>
+	</string>
+	<string id="st_mars_radiated">
+		<text>Mars (irradié)</text>
+	</string>
+	<string id="st_nuts_2_radiated">
+		<text>Mélange de fruits secs (irradié)</text>
+	</string>
+	<string id="st_beef_radiated">
+		<text>Tushonka (irradiée)</text>
+	</string>
+	<string id="st_bullheads_radiated">
+		<text>Pâtes aux boulettes de viande (irradiées)</text>
+	</string>
+	<string id="st_sardina_radiated">
+		<text>Sardines "Pirate" (irradiées)</text>
+	</string>
+	<string id="st_olivki_radiated">
+		<text>Olives (irradiées)</text>
+	</string>
+	<string id="st_cheese_radiated">
+		<text>Fromage fondu "Yantar" (irradié)</text>
+	</string>
+	<string id="st_galet_radiated">
+		<text>Biscuits (irradiés)</text>
+	</string>
+	<string id="st_shokolad_radiated">
+		<text>Chocolat "Aljinushka" (irradié)</text>
+	</string>
+	<string id="st_batonchik_radiated">
+		<text>Barre de chocolat (irradiée)</text>
+	</string>
+	<string id="st_jerky_radiated">
+		<text>Boeuf séché (irradié)</text>
+	</string>
+	<string id="st_chips_radiated">
+		<text>Chips de pomme de terre (irradiées)</text>
+	</string>
+	<string id="st_hash_radiated">
+		<text>Biscuits et hasch (irradiés)</text>
+	</string>
+	<string id="st_cpcb_radiated">
+		<text>Crackers salés (irradiés)</text>
+	</string>
+	<string id="st_juice_radiated">
+		<text>Jus d'orange (irradié)</text>
+	</string>
+	<string id="st_mre_1_3_radiated">
+		<text>Ration de combat (irradiée)</text>
+	</string>
+	<string id="st_mre_1_2_radiated">
+		<text>Ration de combat (irradiée)</text>
+	</string>
+	<string id="st_mre_1_1_radiated">
+		<text>Ration de combat (irradiée)</text>
+	</string>
+	<string id="st_bandage_israeli_radiated">
+		<text>Bandage irradié</text>
+	</string>
+	<string id="st_amphetamines_4_radiated">
+		<text>Amphétamine (irradiée)</text>
+	</string>
+	<string id="st_amphetamines_3_radiated">
+		<text>Amphétamine (irradiée)</text>
+	</string>
+	<string id="st_amphetamines_2_radiated">
+		<text>Amphétamine (irradiée)</text>
+	</string>
+	<string id="st_amphetamines_1_radiated">
+		<text>Amphétamine (irradiée)</text>
+	</string>
+	<string id="st_diazepam_radiated">
+		<text>Diazépam (irradié)</text>
+	</string>
+	<string id="st_psy_complex_radiated">
+		<text>Psychodeline (irradiée)</text>
+	</string>
+	<string id="st_bio_bandage_radiated">
+		<text>Bandage spécial (irradié)</text>
+	</string>
+	<string id="st_drug_engine_radiated">
+		<text>Anti-hallucinogène (irradié)</text>
+	</string>
+	<string id="st_drug_cat_eye_radiated">
+		<text>OEil de Chat (irradié)</text>
+	</string>
+	<string id="st_medo_radiated">
+		<text>Alcool de contrebande (irradié)</text>
+	</string>
+	<string id="st_mbk_radiated">
+		<text>Comprimés de caféine (irradiés)</text>
+	</string>
+	<string id="st_medkit_elite_radiated">
+		<text>Medkit d'élite (irradié)</text>
+	</string>
+	<string id="st_bag_medkit_1_radiated">
+		<text>Medkit basique (irradié)</text>
+	</string>
+	<string id="st_bag_medkit_2_radiated">
+		<text>Medkit militaire (irradié)</text>
+	</string>
+	<string id="st_bag_medkit_3_radiated">
+		<text>Medkit scientifique (irradié)</text>
+	</string>
+	<string id="st_bag_medkit_4_radiated">
+		<text>Medkit spécial (irradié)</text>
+	</string>
+
+-->
+
+</string_table>

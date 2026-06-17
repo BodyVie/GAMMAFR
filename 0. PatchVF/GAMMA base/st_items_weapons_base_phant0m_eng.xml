@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_akm_isg">
+		<text>RD 706 « ISG »</text>
+	</string>
+	<string id="st_wpn_akm_isg_descr">
+		<text>Un exemplaire personnalisé et fabriqué sur commande du RD 706 par l'entreprise américaine Rifle Dynamics. RD est reconnu pour sa spécialisation dans les fusils de type AK modernisés et de haute qualité, caractérisés par leur ingénierie de précision et leurs ergonomies améliorées. Basée aux États-Unis, l'entreprise se concentre sur l'amélioration de la fiabilité, de la précision et de la modularité des designs classiques, ce qui en fait un choix privilégié pour les passionnés, les forces de l'ordre et les opérateurs professionnels.\n
+		Fortement modifié avec un mélange d'accessoires occidentaux et orientaux, il n'est trouvé qu'au sein des escouades de l'ISG clandestin.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Rifle Dynamics\n
+		</text>
+	</string>
+	
+	<string id="st_wpn_ak74_isg">
+		<text>RD 5.45 Custom « ISG »</text>
+	</string>
+	<string id="st_wpn_ak74_isg_descr">
+		<text>Un fusil AK en calibre 5,45 entièrement personnalisé et fabriqué sur commande par Rifle Dynamics. RD est reconnu pour sa spécialisation dans les fusils de type AK modernisés et de haute qualité, caractérisés par leur ingénierie de précision et leurs ergonomies améliorées. Basée aux États-Unis, l'entreprise se concentre sur l'amélioration de la fiabilité, de la précision et de la modularité des designs classiques, ce qui en fait un choix privilégié pour les passionnés, les forces de l'ordre et les opérateurs professionnels.\n
+		Fortement modifié avec un mélange d'accessoires occidentaux et orientaux, il n'est trouvé qu'au sein des escouades de l'ISG clandestin.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Rifle Dynamics\n
+		</text>
+	</string>
+	
+	<string id="st_wpn_ak74u_isg">
+		<text>RD Quickhatch 5.45 « ISG »</text>
+	</string>
+	<string id="st_wpn_ak74u_isg_descr">
+		<text>Un exemplaire personnalisé et fabriqué sur commande du Quickhatch en calibre 5,45x39 par l'entreprise américaine Rifle Dynamics. RD est reconnu pour sa spécialisation dans les fusils de type AK modernisés et de haute qualité, caractérisés par leur ingénierie de précision et leurs ergonomies améliorées. Basée aux États-Unis, l'entreprise se concentre sur l'amélioration de la fiabilité, de la précision et de la modularité des designs classiques, ce qui en fait un choix privilégié pour les passionnés, les forces de l'ordre et les opérateurs professionnels.\n
+		Fortement modifié avec un mélange d'accessoires occidentaux et orientaux, il n'est trouvé qu'au sein des escouades de l'ISG clandestin.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Rifle Dynamics\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ak74u_m1_isg">
+		<text>RD Quickhatch 7.62 « ISG »</text>
+	</string>
+	<string id="st_wpn_ak74u_m1_isg_descr">
+		<text>Un exemplaire personnalisé et fabriqué sur commande du Quickhatch en calibre 7,62x39 par l'entreprise américaine Rifle Dynamics. RD est reconnu pour sa spécialisation dans les fusils de type AK modernisés et de haute qualité, caractérisés par leur ingénierie de précision et leurs ergonomies améliorées. Basée aux États-Unis, l'entreprise se concentre sur l'amélioration de la fiabilité, de la précision et de la modularité des designs classiques, ce qui en fait un choix privilégié pour les passionnés, les forces de l'ordre et les opérateurs professionnels.\n
+		Fortement modifié avec un mélange d'accessoires occidentaux et orientaux, il n'est trouvé qu'au sein des escouades de l'ISG clandestin.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Rifle Dynamics\n
+		</text>
+	</string>
+
+</string_table>

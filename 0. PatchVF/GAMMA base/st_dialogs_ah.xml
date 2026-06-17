@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+    <string id="test_dialog_0">
+        <text>J'ai besoin d'une mission test ?</text>
+    </string>
+    <string id="test_dialog_1">
+        <text>Voilà une mission test.</text>
+    </string>
+    <string id="test_dialog_2">
+        <text>Je vais le trouver.</text>
+    </string>
+    <string id="test_dialog_3">
+        <text>Pas la peine.</text>
+    </string>
+    <string id="test_dialog_4">
+        <text>D'accord \n</text>
+    </string>
+    <string id="test_dialog_end_0">
+        <text>J'ai terminé la quête.</text>
+    </string>
+    <string id="test_dialog_end_1">
+        <text>Excellent\n</text>
+    </string>
+    <string id="test_dialog_end_2">
+        <text>Où est ma récompense ?</text>
+    </string>
+    <string id="test_dialog_end_3">
+        <text>Le voilà</text>
+    </string>
+    <string id="test_dialog_end_4">
+        <text>Merci.</text>
+    </string>
+    <string id="test_dialog_end_4">
+        <text>Merci.</text>
+    </string>	
+	
+    <string id="sarik_dialog_0">
+        <text>T’es un de ces intellos, c’est ça ? Dis-moi, est-ce que quelqu’un dans le coin prend des commandes pour des artefacts ?</text>
+    </string>
+    <string id="sarik_dialog_1">
+        <text>Si les artefacts sont corrects, c'est soit les marchands, soit les gars du bunker. À moins... qu'il y ait un groupe dans le coin, aussi à fond sur les artefacts. Mais eux, ils cherchent pas n'importe quoi - ils veulent des artefacts bien précis. Sans propriétés, à peine de la valeur, alors personne s'embête avec. Tu gagneras pas grand-chose, mais tu te feras une bonne réputation auprès des Scientifiques.</text>
+    </string>
+    <string id="sarik_dialog_2">
+        <text>Intéressant. Comment je les trouve ?</text>
+    </string>
+    <string id="sarik_dialog_3">
+        <text>Oublie. J’vais pas me casser le cul pour des clopinettes...</text>
+    </string>
+    <string id="sarik_dialog_4">
+        <text>Ils sont éparpillés dans la Zone. La dernière fois que j'ai parlé à l'un d'eux, il avait monté un camp dans une église, du côté des Marais. Son nom de famille, c'était soit Kovalev, soit Kovalyov - un truc dans le genre. Bref, si tu te décides, commence par lui.</text>
+    </string>
+	
+<!-- Meeting the scientists -->	
+    <string id="meet_ah_ti_kto_takoy">
+        <text>Les recherches avancent ?</text>
+    </string>	
+    <string id="meet_ah_1">
+        <text>Quelle recherche... J'ai fini ma partie du boulot il y a un bail, et maintenant j'ai juste besoin que quelqu'un aille récupérer les échantillons dont j'ai besoin. Le problème, c'est que personne veut se taper le job quand ils entendent qu'y a pas un rond à la clé.</text>
+    </string>
+    <string id="meet_ah_2">
+        <text>Tu peux préciser ?</text>
+    </string>
+    <string id="meet_ah_no">
+        <text>Abandonne pas - tu finiras par trouver quelqu’un.</text>
+    </string>	
+    <string id="meet_ah_4">
+        <text>Pour l'expérience en cours, j'ai besoin que quelqu'un vérifie quelques anomalies et ramasse de la terre radioactive. Ce sont des artefacts presque formés, mais classés encore en dessous du niveau merdique, alors les stalkers ne se donnent même pas la peine de les ramasser. On les détecte de la même façon que les artefacts normaux - avec un détecteur.</text>
+    </string>
+    <string id="meet_ah_5">
+        <text>Ça a l'air simple. Voici le deal : je te ramène ta terre par pure bonté d'âme, et toi tu me files un petit quelque chose pour la peine. Je te demanderai pas grand-chose.</text>
+    </string>
+    <string id="meet_ah_6">
+        <text>Trouve-moi un détecteur et je suis partant.</text>
+    </string>
+    <string id="meet_ah_7">
+        <text>Merci infiniment... Je m'attendais pas à ce que quelqu'un accepte aussi facilement. Dans ce cas, je vais transférer toutes les coordonnées des champs anormaux dont j'ai besoin sur ton PDA.</text>
+    </string>
+    <string id="meet_ah_8">
+        <text>Merci infiniment... J'm'attendais pas à ce que quelqu'un débarque aussi facilement. Je te file un de mes détecteurs, alors. Il est un peu vieux, mais il réagira aux échantillons dont j'ai besoin. Du coup, je vais te balancer toutes les coordonnées des champs anormaux qui m'intéressent sur ton PDA.</text>
+    </string>
+
+    <string id="cancel_ah_0">
+        <text>Je suis là pour la mission.</text>
+    </string>	
+    <string id="cancel_ah_1">
+        <text>T’as trouvé les échantillons ?</text>
+    </string>
+    <string id="cancel_ah_2">
+        <text>Non, j'ai besoin de plus de temps.</text>
+    </string>	
+    <string id="cancel_ah_3">
+        <text>Non, désolé. Je voulais dire... je laisse tomber.</text>
+    </string>
+    <string id="cancel_ah_4">
+        <text>T’es sérieux ?! T’as donné ta parole !</text>
+    </string>
+    <string id="cancel_ah_5">
+        <text>Ça va pas le faire. Désolé.</text>
+    </string>	
+    <string id="cancel_ah_6">
+        <text>Bon... la parole d’un homme... D’accord, je continue à chercher.</text>
+    </string>		
+    <string id="cancel_ah_7">
+        <text>Putain de merde ! Autant me jeter moi-même dans ces anomalies ! Bon, je retourne au QG les mains vides...</text>
+    </string>
+ 
+
+    <string id="kovalev_1_quest_0">
+        <text>Puis-je obtenir le détecteur ?</text>
+    </string>
+    <string id="kovalev_1_quest_3">
+        <text>Oui, bien sûr ! Il s'active dès que vous ouvrez le couvercle - aucun bouton n'est nécessaire. S'il y a un artefact à proximité, il émettra un bip, vous saurez ainsi.</text>
+    </string>	
+    <string id="kovalev_1_quest_end_0">
+        <text>Voici votre terre.</text>
+    </string>
+    <string id="kovalev_1_quest_end_1">
+        <text>Oh, merci infiniment ! Sans vous, j'aurais déjà abandonné ! Je suis terriblement gêné de ne pouvoir vous rémunérer davantage - je suis désolé - mais notre budget pour toutes les opérations est strictement fixe. Je n'ai tout simplement rien de plus à vous offrir.</text>
+    </string>
+	
+    <string id="kovalev_2_quest_0">
+        <text>Avez-vous besoin d'une autre aide ?</text>
+    </string>
+    <string id="kovalev_2_quest_3">
+        <text>Je suis ravi que vous posiez la question. Voyez-vous, je réalisais auparavant des relevés d'anomalies à Agroprom et j'ai découvert certaines déviations étranges. Les artefacts qui se forment dans ces anomalies présentent des caractéristiques uniques de modulation noosphérique. Malheureusement, nous n'avons pas pu terminer l'expédition - des déséquilibrés ont ouvert le feu sur le complexe et ont même lancé une grenade par la fenêtre. Dans la confusion, je n'ai pas pu retourner chercher mon ordinateur portable, et tous mes résultats de scan d'anomalies s'y trouvent. Sans parler de mes autres travaux. Si vous le pouvez, veuillez retrouver mon ordinateur portable - vous pourrez y transférer directement les coordonnées des anomalies contenant les échantillons dont j'ai besoin.</text>
+    </string>  
+	
+    <string id="kovalev_2_quest_end_0">
+        <text>Vos combinaisons de protection environnementale sont impressionnantes si elles résistent aussi facilement à ce type de radiations psi dans le complexe. Pas étonnant que personne n'ait subtilisé l'ordinateur portable. Voici votre jouet, ainsi que les artefacts.</text>
+    </string>
+    <string id="kovalev_2_quest_end_1">
+        <text>Ah, que pensiez-vous donc ! Nos combinaisons sont conçues pour durer, contrairement à certaines protections corporelles que l'on trouve ici. Elles permettent de traverser des feux infernaux sans dommage. Le seul problème, c'est qu'elles sont inefficaces contre les ondes de choc, les griffes et les balles - ce qui explique pourquoi je redoute moi-même de participer à des expéditions. Quoi qu'il en soit, merci pour votre aide ! Comme la dernière fois, je partage avec vous ce que je possède.</text>
+    </string>	
+	
+	<string id="markov_1_quest_0">
+        <text>Intéressé par un travail ? J'ai quelque chose en rapport avec des artefacts.</text>
+    </string>
+	<string id="markov_1_quest_2">
+        <text>Pourquoi ne pas faire appel à vos collègues ?</text>
+    </string>
+    <string id="markov_1_quest_3">
+        <text>Cela ne relève pas de mon autorité. Je travaille indépendamment du groupe scientifique. Ces fainéants n'ont toujours pas étudié les anomalies les plus proches d'eux. Écoutez, trouvez ces artefacts et je vous paierai de ma poche. Plus vite vous aurez terminé, mieux ce sera.</text>
+    </string>  
+
+    <string id="markov_1_quest_end_0">
+        <text>J'ai trouvé vos petites pierres.</text>
+    </string>
+    <string id="markov_1_quest_end_1">
+        <text>Parfait. Remettez-les-moi. Je vois que vous êtes quelqu'un avec qui il est possible de travailler. Intéressé par d'autres missions du même type ?</text>
+    </string>		
+	
+	<string id="markov_2_quest_0">
+        <text>Qu'avez-vous pour moi ?</text>
+    </string>	
+    <string id="markov_2_quest_3">
+        <text>Lors de mes recherches sur le terrain, mes instruments ont détecté d'étranges fluctuations dans la noosphère. En plein Territoire sauvage. Il semble que ces fluctuations influencent d'une manière ou d'une autre la formation des artefacts. Une tâche simple - trouvez le même type de pierres que précédemment. Je vous donnerai les coordonnées des emplacements qui m'intéressent.</text>
+    </string>
+
+    <string id="markov_2_quest_end_0">
+        <text>J'ai encore mal à la tête à cause de toutes ces décharges électriques. Un avertissement aurait été le bienvenu ! Tenez, voici votre commande. Avez-vous des antidouleurs sur vous ?</text>
+    </string>
+    <string id="markov_2_quest_end_1">
+        <text>Désolé, mes réserves sont presque épuisées. J’espère que la rémunération compensera ce contretemps.</text>
+    </string>		
+	
+	<string id="markov_3_quest_0">
+        <text>Autre chose ?</text>
+    </string>
+	<string id="markov_3_quest_3">
+        <text>Hmm, laissez-moi réfléchir... Il me reste une étude de terrain que je n'ai pas encore pu mener. Nous avons récemment émis l'hypothèse que les émissions psi de l'installation pourraient avoir un effet sur la formation d'artefacts dans son voisinage immédiat. Mais la zone est dangereuse, et personne ne se presse pour organiser une expédition. Si vous passez par là et trouvez des artefacts inhabituels, vous nous rendriez un immense service.</text>
+    </string>
+	
+    <string id="markov_3_quest_end_0">
+        <text>Des échantillons suffisamment inhabituels pour vous ? Rien de plus intéressant dans les parages.</text>
+    </string>
+    <string id="markov_3_quest_end_1">
+        <text>Vraiment très bien ! Un immense merci à vous ! Je suis épuisé - je n'aspire qu'à retourner à mes travaux de laboratoire au lieu de, pardonnez-moi, patauger dans cette boue. La Zone, voyez-vous, c'est comme la pluie - on ne l'apprécie que lorsqu'on l'observe depuis un repaire douillet avec une tasse de café.</text>
+    </string>		
+	
+	<string id="pirogov_1_quest_0">
+        <text>Il semble que vous rencontriez quelques difficultés.</text>
+    </string>
+	<string id="pirogov_1_quest_1">
+        <text>Oui, ce trou maudit grouille de mutants et de vauriens de tout acabit, et ces idiots m'ont envoyé ici seul ! Croyaient-ils vraiment que je pourrais ignorer tout cela et me promener tranquillement pour mener mes recherches sans me soucier de rien ? C'est de la torture ! Une véritable torture ! Soit on meurt ici, soit... Oh, Seigneur Tout-Puissant...</text>
+    </string>
+    <string id="pirogov_1_quest_2">
+        <text>Prenez une inspiration. Je vais vous aider. Je ne vous demanderai qu'un paiement symbolique - votre prime couvrira largement cette somme. Marché conclu ?</text>
+    </string>  
+    <string id="pirogov_1_quest_5">
+        <text>Bien sûr, l'argent... comme si j'en gagnais autant ! Oh, et puis zut, je ne veux plus rien... Il y a quelques anomalies par ici. Les vauriens ne s'en approchent pas - apparemment, c'est en dessous de leur dignité. J'ai besoin d'échantillons spécifiques de proto-artefacts provenant de ces anomalies. Rapportez-les-moi et prenez ma prime - bon débarras.</text>
+    </string> 	
+
+    <string id="pirogov_1_quest_end_0">
+        <text>Voici. Retournez auprès des vôtres. Cet endroit est hostile.</text>
+    </string>
+    <string id="pirogov_1_quest_end_1">
+        <text>J’en serais ravi... Mais ils m’ont submergé de tâches. Impossible de revenir avant que tout ne soit terminé.</text>
+    </string>	
+    
+	<string id="pirogov_2_quest_0">
+        <text>Puis-je vous aider en quoi que ce soit ?</text>
+    </string>
+    <string id="pirogov_2_quest_3">
+        <text>Oui. Le commandement m'a également chargé d'inspecter le Cimetière des Véhicules. Vous voyez, ce territoire est peu étudié, et la plupart des gens l'évitent pour des raisons évidentes. Si vous êtes prêt à prendre le risque, allez-y - mêmes conditions que précédemment.</text>
+    </string>  
+
+    <string id="pirogov_2_quest_end_0">
+        <text>Le commandement semble vous en vouloir. Je n'y retournerais pour rien au monde - il y a toutes sortes de dangers là-bas. Quoi qu'il en soit, voici vos babioles.</text>
+    </string>
+    <string id="pirogov_2_quest_end_1">
+        <text>Vous êtes un sauveur, merci !</text>
+    </string>	
+	
+	<string id="pirogov_3_quest_0">
+        <text>Autre chose ?</text>
+    </string>
+    <string id="pirogov_3_quest_3">
+        <text>Si vous n'êtes pas trop fatigué... J'ai récemment envoyé mon assistant à la Décharge pour installer du matériel dans certains champs anomaux. Je reçois déjà des données de la plupart d'entre eux, mais rien ne provient des derniers champs. Je crains qu'il ne lui soit arrivé quelque chose. Pourriez-vous découvrir ce qui s'est passé ?</text>
+    </string>
+	<string id="pirogov_3_quest_4">
+        <text>Je vais le chercher. J'espère que c'est tout ?</text>
+    </string>
+	<string id="pirogov_3_quest_5">
+        <text>Croyez-vous que je n’espère pas la même chose ? Malheureusement, cela ne dépend pas de moi.</text>
+    </string>
+
+    <string id="pirogov_3_quest_end_0">
+        <text>J’ai retrouvé votre assistant. Il a malheureusement péri. J’ai récupéré son PDA et terminé le travail.</text>
+    </string>
+    <string id="pirogov_3_quest_end_1">
+        <text>Comment a-t-il... Ah, peu importe ! Merci beaucoup, en tout cas... Il me reste encore quelques détails à régler ici, puis je pourrai retourner au bunker. J'espère que tout cela sera bientôt terminé...</text>
+    </string>		
+	
+	<string id="chernov_1_quest_0">
+        <text>Bonjour - je suis là pour vous aider dans vos recherches.</text>
+    </string>
+	<string id="chernov_1_quest_1">
+        <text>Initiative louable. J’espère que vous ne convoitez pas ma thèse de doctorat ?</text>
+    </string>
+    <string id="chernov_1_quest_2">
+        <text>Pour l'instant, je ne m'intéresse qu'à l'argent.</text>
+    </string>  
+    <string id="chernov_1_quest_5">
+        <text>Très bien. Voyons ce dont vous êtes capable. Dans cette zone que les locaux appellent les Entrepôts de l'armée, il existe de nombreuses anomalies intéressantes que la plupart des stalkers évitent soigneusement. Rapportez-moi des échantillons de celles que j'ai marquées sur votre PDA, et nous pourrons poursuivre la discussion.</text>
+    </string> 	
+
+    <string id="chernov_1_quest_end_0">
+        <text>Voici - un tas de débris luminescents.</text>
+    </string>
+    <string id="chernov_1_quest_end_1">
+        <text>Excellent. Voici votre récompense. Avez-vous des questions ?</text>
+    </string>			
+
+
+	
+	<string id="chernov_3_quest_0">
+        <text>Je suis curieux - comment savez-vous où se trouveront les artefacts dont vous avez besoin ?</text>
+    </string>
+	<string id="chernov_3_quest_1">
+        <text>Notre groupe de recherche fait partie de l'ISTAZ - l'Institut pour l'Étude Scientifique de la Zone Anomale de Tchernobyl. Nous étudions en continu la Zone afin de trouver un moyen de la détruire ou, à défaut, de la contrôler. Nous avons beaucoup appris grâce aux informations fournies par les stalkers locaux et nos propres expéditions. Nous disposons même de cartes préliminaires des anomalies pour certaines zones. En combinant ces données avec les relevés de notre scanner, nous pouvons estimer la probabilité de formation d'artefacts.</text>
+    </string>		
+	<string id="chernov_3_quest_2">
+        <text>Intéressant. C'est donc comme cela que vous saviez exactement où m'envoyer.</text>
+    </string>
+	<string id="chernov_3_quest_3">
+        <text>Exactement. Cependant, votre prochaine mission exigera de la prudence. Je ne veux pas que vous perdiez la vie - après tout, vous semblez jusqu'à présent être un assistant compétent. J'avais chargé un stalker d'étudier les champs anomaux dans la Forêt Rouge. Malheureusement, il semble avoir disparu. Le dernier endroit d'où il m'a contacté était un tunnel effondré près du pont menant à Limansk. Retrouvez son PDA - qui contient les données de scan que je lui ai confiées - et récupérez les échantillons restants. Je dois cependant vous avertir : j'ai perdu de nombreux amis et collègues dans la Forêt Rouge, alors soyez très prudent.</text>
+    </string>
+	
+    <string id="chernov_3_quest_end_0">
+        <text>Quelle expédition... J'ai dû me battre pour en sortir. Néanmoins, j'ai trouvé tous les échantillons. J'espère qu'ils en valaient la peine !</text>
+    </string>
+    <string id="chernov_3_quest_end_1">
+        <text>Excellent - je commençais à m’inquiéter. J’espère que cette prime contribuera à couvrir vos frais médicaux.</text>
+    </string>	
+	
+	<string id="chernov_4_quest_0">
+        <text>Alors, avez-vous réussi à créer des artefacts en laboratoire ? Je veux dire, vous les étudiez depuis un bon moment - la nécessité de la Zone diminuerait fortement si les artefacts pouvaient être produits sans elle, non ?</text>
+    </string>
+	<string id="chernov_4_quest_1">
+        <text>Les travaux sur la création d'artefacts artificiels étaient déjà en cours avant la catastrophe nucléaire et l'apparition de la Zone. Mon directeur de recherche vivait et travaillait à Limansk. Nous séjournions souvent chez lui, discutant des origines possibles des artefacts. Nous avons même réussi à créer un proto-artefact en empruntant un cultivateur au laboratoire - le même type que ceux que vous m'avez rapportés.</text>
+    </string>		
+	<string id="chernov_4_quest_2">
+        <text>Intéressant. Que s'est-il passé avec votre ami ?</text>
+    </string>
+	<string id="chernov_4_quest_3">
+        <text>Je ne sais pas - il n'y a eu aucune évacuation de Limansk lors de la catastrophe. Où tous les habitants ont disparu reste un mystère pour moi. Cela m'a rappelé que je possédais encore son adresse personnelle. Pourriez-vous vous y rendre et vérifier si l'artefact a survécu ? Qui sait - il pourrait être la clé pour tout comprendre.</text>
+    </string>	
+
+    <string id="chernov_4_quest_end_0">
+        <text>Limansk est dans un état déplorable. Aucune trace de résidents - seulement toutes sortes de fanatiques dérangés - mais j'ai réussi à trouver l'artefact. Le voici.</text>
+    </string>
+    <string id="chernov_4_quest_end_1">
+        <text>Je m'y attendais. Et pourtant, je ne peux m'empêcher de pleurer mon vieil ami... Quoi qu'il en soit, honorons sa mémoire et tentons de comprendre comment éviter que tout cela ne se reproduise.</text>
+    </string>		
+	
+	<string id="chernov_5_quest_0">
+        <text>Comment progresse votre travail, Professeur ? Avez-vous des nouvelles sur les origines de la formation des artefacts ?</text>
+    </string>
+	<string id="chernov_5_quest_1">
+        <text>Oui, regardez ici. Vous voyez cela ? Cet artefact présente un schéma de radiation totalement unique. Mon ami, nous avons ici la preuve irréfutable que les artefacts peuvent être produits artificiellement.</text>
+    </string>		
+	<string id="chernov_5_quest_2">
+        <text>Incroyable ! Croyez-vous vraiment que des artefacts aient pu exister avant l’apparition de la Zone elle-même ?</text>
+    </string>
+	<string id="chernov_5_quest_3">
+        <text>Je pense pouvoir vous le dire, puisque vous l'apprendriez tôt ou tard de toute façon. Avez-vous déjà entendu parler d'une ferme à artefacts ? Les recherches dans ce domaine se poursuivent depuis longtemps, et de nombreux efforts ont été investis dans ce projet au sein du Laboratoire X-19, aujourd'hui abandonné. Ils y ont créé des capsules appelées « cultivateurs », dans lesquelles des artefacts pouvaient être formés dans des conditions contrôlées. La zone est actuellement occupée par des fanatiques qui se font appeler Monolithe, et c'est un endroit extrêmement dangereux. Cependant, si vous parvenez d'une manière ou d'une autre à y pénétrer et à trouver des artefacts ou des documents restants, je vous en serais redevable.</text>
+    </string>
+
+    <string id="chernov_5_quest_end_0">
+        <text>Bon sang, vous n'exagériez pas - l'endroit grouille de soldats du Monolithe, mais j'ai réussi à m'infiltrer dans le laboratoire. Incroyable, mais vous aviez raison. J'ai trouvé trois artefacts et des documents qui semblent importants. Tenez.</text>
+    </string>
+    <string id="chernov_5_quest_end_1">
+        <text>Magnifique. Ne me demandez pas comment je savais que tout serait là - vous n'aimeriez pas la réponse. Étant donné la nature de nos recherches, je dois vous demander la plus grande discrétion. En temps voulu, je révélerai au monde ce qui s'est passé ici. Mais avant cela, je dois achever ma théorie sur ces artefacts.</text>
+    </string>	
+	
+	<string id="chernov_6_quest_0">
+        <text>Je comprends. Comment puis-je vous être utile, Professeur ?</text>
+    </string>
+	<string id="chernov_6_quest_3">
+        <text>Après notre dernier balayage de la zone, nous avons découvert quelque chose d'intéressant. Un large groupe de mercenaires contrôle un district qu'ils appellent la Ville morte. Je reçois des relevés très stables de cette zone, ce qui pourrait servir de référence de contrôle. Si vous pouvez m'apporter des échantillons de ces emplacements, je pourrai établir des relevés de référence.</text>
+    </string>	
+
+    <string id="chernov_6_quest_end_0">
+        <text>Une petite ville charmante - et des habitants très accueillants, qui plus est. Elle ne me semble pas si morte que ça. Voici les échantillons, Professeur.</text>
+    </string>
+    <string id="chernov_6_quest_end_1">
+        <text>Excellent travail - voici votre prime. Étant donné l'aide que vous m'avez apportée, je pourrais vous mentionner dans l'avant-propos de ma thèse. Bien que je doute que cela vous intéresse beaucoup - pour l'instant. Si vous souhaitez davantage de travail, vous pourriez chercher certains de mes collègues ici, dans la Zone. Peut-être auront-ils quelque chose pour vous. Je vous indiquerai leur direction.</text>
+    </string>	
+			
+
+	<string id="juk_1_quest_0">
+        <text>Bonjour - on m'a dit que vous aviez peut-être du travail pour moi.</text>
+    </string>
+	<string id="juk_1_quest_3">
+        <text>En effet, oui. Plusieurs champs anomaux m'intéressent, mais je suis actuellement bloqué ici et ne peux quitter la zone. Je marquerai les anomalies qui m'intéressent sur votre PDA. J'espère que vous savez ce que vous faites - Sakharov sera furieux si je rentre bredouille.</text>
+    </string>
+
+    <string id="juk_1_quest_end_0">
+        <text>J’ai accompli votre mission. Voici les artefacts que j’ai pu trouver.</text>
+    </string>
+    <string id="juk_1_quest_end_1">
+        <text>Hmm - je ne m’attendais pas à ce que vous y parveniez. Bon travail. Voici votre récompense.</text>
+    </string>
+	
+	<string id="juk_2_quest_0">
+        <text>Puis-je vous aider en autre chose ?</text>
+    </string>
+	<string id="juk_2_quest_3">
+        <text>Oui - pendant que vous étiez sur le terrain, j'ai reçu un nouveau lot de données de scan. Comme vous le savez probablement, la Zone recèle encore de nombreux secrets, et de nombreuses zones anomales n'ont pas encore été cartographiées. Je vous transmets ces résultats préliminaires, car ils contiennent des emplacements approximatifs de certaines anomalies absentes des cartes actuelles. Veuillez vérifier l'exactitude de ces données et surveiller la présence éventuelle d'artefacts. Mais soyez prudent - il est probable que les coordonnées comportent des erreurs.</text>
+    </string>	
+	
+    <string id="juk_2_quest_end_0">
+        <text>Mes boulons commencent à manquer, mais vos données sont conformes, Professeur. J’ai également réussi à extraire quelques artefacts.</text>
+    </string>
+    <string id="juk_2_quest_end_1">
+        <text>Excellent - cela confirme que nos scanners fonctionnent correctement. Merci pour ce rapport. Votre paiement devrait être crédité sur votre compte d'un instant à l'autre.</text>
+    </string>
+	
+	<string id="juk_3_quest_0">
+        <text>Il semble que vous ayez autre chose en tête.</text>
+    </string>
+	<string id="juk_3_quest_3">
+        <text>Eh bien... oui. Voyez-vous, des schémas d'émissions extrêmement intéressants sont observés à Pripyat. Cependant, comme vous le savez peut-être, la ville est aussi dangereuse que fascinante, et je ne pense pas honnêtement pouvoir y aller et en revenir vivant. Si vous pouvez vous en charger, veuillez explorer ces lieux et me rapporter tous les artefacts que vous trouverez. Ne vous inquiétez pas - la récompense couvrira largement vos dépenses en munitions et en bandages.</text>
+    </string>		
+	
+    <string id="juk_3_quest_end_0">
+        <text>Je pense que ma combinaison a encore un trou causé par les balles de ces fanatiques, mais j'ai vérifié les anomalies. J'en ai aussi extrait quelques échantillons.</text>
+    </string>
+    <string id="juk_3_quest_end_1">
+        <text>Phénoménal ! Veuillez accepter ceci - vous l'avez mérité. C'est tout pour l'instant. Si vous souhaitez gagner un peu plus en collectant des artefacts, vous pourriez chercher mes collègues dans la Zone. Je les préviendrai de votre arrivée.</text>
+    </string>	
+	
+	<string id="vorobushkin_1_quest_0">
+        <text>Comment ça va, Professeur ? Besoin d'aide ?</text>
+    </string>
+	<string id="vorobushkin_1_quest_3">
+        <text>Peut-être. Cette zone est peu étudiée, je ne sais donc pas à quoi m'attendre. Cependant, mes calculs suggèrent que je devrais pouvoir y trouver les artefacts dont j'ai besoin. Hier, pour identifier précisément les champs anomaux à explorer, j'ai réparé du matériel au complexe d'antennes SIRCLE. Mais le scan a pris beaucoup de temps, et plus je restais, plus la situation devenait dangereuse - j'ai donc dû revenir ici en hâte. Vous devez entrer dans la station et récupérer le module mémoire que j'y ai laissé. Il devrait contenir toutes les données nécessaires. Il y a également quelques anomalies à proximité qui pourraient renfermer les échantillons que je recherche, mais je ne pourrai le confirmer qu'une fois les données de scan récupérées.</text>
+    </string>		
+
+    <string id="vorobushkin_1_quest_end_0">
+        <text>Promenade de santé. Votre équipement a tenu le coup - voici les données et les échantillons.</text>
+    </string>
+    <string id="vorobushkin_1_quest_end_1">
+        <text>Enfin une bonne nouvelle. Ces résultats d'analyse semblent prometteurs...</text>
+    </string>
+	
+	<string id="vorobushkin_2_quest_0">
+        <text>Que se passe-t-il, Professeur ?</text>
+    </string>
+	<string id="vorobushkin_2_quest_3">
+        <text>Hmm - certaines de ces lectures n'ont tout simplement aucun sens. Pourriez-vous les vérifier pour moi ? Si vous trouvez des artefacts et me les apportez, je pourrai vous rémunérer généreusement.</text>
+    </string>	
+	
+    <string id="vorobushkin_2_quest_end_0">
+        <text>J'ai vérifié ces zones et trouvé des échantillons. À vous de les analyser maintenant.</text>
+    </string>
+    <string id="vorobushkin_2_quest_end_1">
+        <text>Oui, stupéfiant ! Mon ami, ceci représente une avancée majeure. Voici votre récompense.</text>
+    </string>
+
+	
+    <string id="vorobushkin_redirect_dialog_0">
+        <text>Autre chose ?</text>
+    </string>
+    <string id="vorobushkin_redirect_dialog_1">
+        <text>C'est tout pour l'instant. Si tu veux continuer à nous aider, je t'envoie vers un collègue qui serait ravi de ton aide. Je lui transmettrai ta position et le préviendrai de ton arrivée. Bonne route, stalker !</text>
+    </string>	
+    <string id="vorobushkin_redirect_dialog_2">
+        <text>Merci pour ton aide précieuse. Il me reste encore quelques calculs à faire. Dirige-toi vers le nord, en direction de la centrale nucléaire de Tchernobyl - le chef de notre groupe, le professeur Skabinskiy, est déjà sur place. J'ai aucune idée de comment il a réussi à passer, mais magne-toi ! Il pourrait avoir besoin de ton aide.</text>
+    </string>	
+    <string id="vorobushkin_redirect_dialog_3">
+        <text>Nos calculs ont encore pas mal de trous à cause du manque de données, mais on a réussi à approximer la position d'une anomalie qu'on n'avait pas pu prévoir avant. Le chef de notre opération, le professeur Skabinskiy, est parti l'examiner. Il pourrait avoir besoin de ton aide, alors magne-toi pour le retrouver. L'endroit est dangereux, et il aurait pas dû y aller seul.</text>
+    </string>		
+
+    <string id="ah_start_dialog_0">
+        <text>Salut, stalker.</text>
+    </string>
+	<string id="ah_start_dialog_1">
+        <text>Salut.</text>
+    </string>    	
+    <string id="ah_start_dialog_2">
+        <text>Salut, frangin.</text>
+    </string>		
+
+	
+	<string id="skabinsky_1_quest_0">
+        <text>Mon Dieu, je vous ai enfin retrouvé, Professeur ! Comment avez-vous réussi à passer au travers de tous ces fanatiques ?</text>
+    </string>
+	<string id="skabinsky_1_quest_1">
+        <text>Ah, vous devez être ce stalker compétent dont Vorobushkin m'a parlé. Heureusement que vous m'avez trouvé à temps. Voici la situation : un groupe de mercenaires m'a escorté jusqu'ici, mais la plupart ont déjà été touchés par des balles, alors nous devons agir vite. Il y a une anomalie dangereuse à proximité - rien de comparable à ce que j'ai vu auparavant. Certaines de nos simulations prédisent qu'un artefact très rare et puissant devrait se former à ce moment précis. Vous avez plus d'expérience que nous dans le travail avec les champs anomaux, alors nous avons besoin de vous pour vérifier si nos prédictions sont exactes. Je dois cependant vous avertir : ce sera très dangereux. Êtes-vous prêt ?</text>
+    </string>		
+	<string id="skabinsky_1_quest_2">
+        <text>Eh bien, je ne suis pas venu jusqu'ici pour rien. Allons-y !</text>
+    </string>		
+	<string id="skabinsky_1_quest_3">
+        <text>Je ne suis pas prêt.</text>
+    </string>		
+	<string id="skabinsky_1_quest_4">
+        <text>Bien - j'apprécie votre attitude. Cependant, vous rendre sur place sera extrêmement difficile. J'espère que vous disposez d'un détecteur décent pour repérer les échantillons et les anomalies - cette zone est particulièrement dangereuse. Allez-y maintenant - nous n'avons pas beaucoup de temps !</text>
+    </string>		
+	<string id="skabinsky_1_quest_5">
+        <text>Je m'en occupe. À bientôt, Professeur.</text>
+    </string>		
+	<string id="skabinsky_1_quest_6">
+        <text>Attendez - entendez-vous cela ? La Zone nous appelle, je le sens... Allez, prenez ce qu'elle vous offre. Je vous attendrai à Zaton.</text>
+    </string>
+    <string id="skabinsky_1_quest_end_0">
+        <text>Professeur... Regardez ceci. Je n'ai jamais vu un artefact pareil. Rien que le tenir en main procure une sensation étrange.</text>
+    </string>	
+    <string id="skabinsky_1_quest_end_1">
+        <text>C'est donc vrai... Je pensais qu'il ne s'agissait que d'une erreur dans nos calculs. Merci, stalker. Notre équipe et la communauté scientifique dans son ensemble vous doivent une dette inestimable. Vite - donnez-moi l'artefact afin que je puisse l'emballer en toute sécurité. Ensuite, nous pourrons discuter de votre récompense.</text>
+    </string>
+	<string id="skabinsky_1_quest_end_2">
+        <text>Avec plaisir, Professeur. Je suis ravi de contribuer à percer les secrets de la Zone. Voici. J'espère que cela en valait la peine.</text>
+    </string>    	
+    <string id="skabinsky_1_quest_end_3">
+        <text>Hmm - en réalité, non. Un artefact de ce type pourrait aussi m’être utile.</text>
+    </string>	
+    <string id="skabinsky_1_quest_end_4">
+        <text>Vous dépassez les limites - nous avions un accord. Je ne tolérerai pas qu’il soit rompu !</text>
+    </string>
+	<string id="skabinsky_1_quest_end_5">
+        <text>Très bien, très bien - je plaisantais, détendez-vous. Voici votre artefact.</text>
+    </string>    	
+    <string id="skabinsky_1_quest_end_6">
+        <text>Ha - regardez-vous. Avec cet artefact, je suis pratiquement invincible. Vous ne pouvez plus rien contre moi ! Dégagez de mon chemin.</text>
+    </string>	
+    <string id="skabinsky_1_quest_end_7">
+        <text>Ceci représente l’oeuvre de toute ma vie ! Je ne vous laisserai pas repartir avec - plutôt mourir !</text>
+    </string>	
+    <string id="skabinsky_1_quest_end_8">
+        <text>Merci. Ma mission ici est terminée, et je dois retourner à la base pour évaluer tout ce que nous avons découvert. Bien que nos chemins se séparent ici, notre équipe se souviendra toujours de vous. Aucune somme d'argent ne peut compenser votre contribution à la science, mais c'est tout ce que j'ai sur moi pour l'instant. Veuillez l'accepter. Si nous avons à nouveau besoin d'aide pour nos recherches, nous n'hésiterons pas à vous contacter. J'espère que nos chemins se croiseront à nouveau, stalker. Merci encore - et adieu.</text>
+    </string>		
+	
+    <string id="skabinsky_fail_quest_0">
+        <text>Je vous ai trouvé. Comment se passe la recherche ?</text>
+    </string>	
+    <string id="skabinsky_fail_quest_1">
+        <text>Ah, bonjour. Vous êtes le stalker qui aidait notre groupe dans ses recherches, n'est-ce pas ? Il semble que nous ayons eu tort de compter sur votre aide - les calculs sont erronés, cet endroit maudit n'est pas le centre de la Zone. Tout cela était vain.</text>
+    </string>		
+    <string id="skabinsky_fail_quest_2">
+        <text>N'y a-t-il vraiment rien d'autre à faire ?</text>
+    </string>		
+    <string id="skabinsky_fail_quest_3">
+        <text>Vous avez déjà fait tout ce qui était en votre pouvoir. Quittez les lieux à présent. L'échec de notre opération vous incombe.</text>
+    </string>
+
+    <string id="est_work_kuznecov_0">
+        <text>Prêt pour le service - je suis chaud pour une mission ultra-dangereuse.</text>
+    </string>
+    <string id="est_work_kuznecov_1">
+        <text>Repos, soldat. Je respecte ton courage, mais j'attends de toi que tu connaisses tes limites. Garde ça en tête : ici, ta vie, c'est ta responsabilité. Si t'es sûr de toi, voici la liste des cibles prioritaires pour le QG du Commandement Unifié :</text>
+    </string>
+    <string id="est_work_kuznecov_2">
+        <text>Récupérer des documents dans les tunnels souterrains sous Agroprom ?</text>
+    </string>
+    <string id="est_work_kuznecov_22">
+        <text>Un contact local nous a rencardés sur une planque souterraine, ici. La plupart des docs importants ont été emportés depuis longtemps, mais on nous a signalé qu'un jeune ambitieux avait planqué certains papiers dans un coin discret. Ton objectif : trouver cette planque et saisir tous les documents que tu y dénicheras. Les ordres sont clairs ?</text>
+    </string>
+    <string id="est_work_kuznecov_221">
+        <text>Affirmatif.</text>
+    </string>
+    <string id="est_work_kuznecov_222">
+        <text>Je ne suis pas prêt.</text>
+    </string>
+    <string id="est_work_kuznecov_3">
+        <text>Récupérer les documents du complexe X-18 ?</text>
+    </string>
+    <string id="est_work_kuznecov_33">
+        <text>Le QG s'intéresse de près aux données sur l'« Émetteur Expérimental Kaimanov ». Ta mission : récupérer toute la documentation encore intacte sur ces recherches et la ramener ici en un seul morceau. Une récompense à la hauteur t'attendra à ton retour. Ordres clairs ?</text>
+    </string>
+    <string id="est_work_kuznecov_331">
+        <text>Affirmatif.</text>
+    </string>
+    <string id="est_work_kuznecov_332">
+        <text>Je ne suis pas prêt.</text>
+    </string>
+    <string id="est_work_kuznecov_4">
+        <text>Récupérer les documents au Laboratoire X-16 ?</text>
+    </string>
+    <string id="est_work_kuznecov_44">
+        <text>X-16, c'est là qu'étaient envoyés les blocs finis pour l'installation psi. Ça va pas être une partie de plaisir : il va falloir traverser les émissions pour atteindre le complexe souterrain du labo et localiser les documents encore intacts. Originaux, copies - peu importe. Pour la protection psi, vois avec Sakharov - il devrait pouvoir t'aider. Les ordres sont clairs ?</text>
+    </string>
+    <string id="est_work_kuznecov_441">
+        <text>Affirmatif.</text>
+    </string>
+    <string id="est_work_kuznecov_442">
+        <text>Je ne suis pas prêt.</text>
+    </string>
+    <string id="est_work_kuznecov_5">
+        <text>Récupérer les documents au Laboratoire X-10 ?</text>
+    </string>
+    <string id="est_work_kuznecov_55">
+        <text>Ça, c’est du lourd - limite impossible. Si ça dépendait de moi, je te le proposerais même pas, mais bon, le commandement sait ce qu’il fait, j’imagine... Après tous les renseignements qu’on a réunis, ils sont plus intéressés que jamais par les documents de l’émetteur du Radar. Ils veulent à la fois la documentation ET que l’installation soit neutralisée... Je te force pas - je comprends. C’est un boulot pour une armée entière, rien de moins. Mais si jamais tu ramènes ne serait-ce qu’un bout d’info de là-bas, une prime généreuse t’attendra. Alors - tu saisis l’objectif ?</text>
+    </string>
+    <string id="est_work_kuznecov_551">
+        <text>Le Radar... Ils ont complètement pété un câble au QG ou quoi ? L'objectif est clair, mais tu comprends, Colonel - je pourrais te promettre n'importe quoi... Sauf que là, c'est pas une mission, c'est une condamnation à mort. Je vais réfléchir à ce qu'on peut faire et je te tiens au jus.</text>
+    </string>
+    <string id="est_work_kuznecov_552">
+        <text>Quoi ?! Non, je comprends ! Mais avec tout le respect que je vous dois, mon Colonel, dites à vos supérieurs d'aller se faire voir. Prendre d'assaut le Radar - vous êtes sérieux... Qu'ils viennent déjà pointer leur nez sur le Cordon, et après on pourra parler de ce genre de conneries.</text>
+    </string>
+    <string id="est_work_kuznecov_6">
+        <text>Récupérer les documents au Laboratoire X-8 ?</text>
+    </string>
+    <string id="est_work_kuznecov_66">
+        <text>Je sais que ça sonne comme une mauvaise blague, mais prends pas ça comme ça - ces labos, ils me restent en travers de la gorge aussi. Cette fois, ta cible, c'est le complexe sous le Yubileiniy. Le secteur était tenu en dernier par les soldats du Monolithe, alors y entrer risque d'être coton. Ton objectif : trouver un moyen d'y accéder et ramener toutes les infos encore exploitables que tu pourras dénicher. Les ordres sont clairs ?</text>
+    </string>
+    <string id="est_work_kuznecov_661">
+        <text>Affirmatif.</text>
+    </string>
+    <string id="est_work_kuznecov_662">
+        <text>J'ai besoin de temps pour me préparer.</text>
+    </string>
+    <string id="est_work_kuznecov_7">
+        <text>Récupérer des documents dans les Souterrains de pripyat ?</text>
+    </string>
+    <string id="est_work_kuznecov_77">
+        <text>Installation secrète répondant au nom de "Pripyat Underpass-1". Le QG veut toutes les infos possibles : qui l'a construite, ce qui y était transporté, et comment ça a pu rester secret aussi longtemps. Les Stalkers ne s'intéressent pas trop à ce genre d'endroit - c'est pas vraiment leur truc - alors les chances que des papiers aient survécu là-dedans sont plutôt bonnes. Les ordres sont clairs ?</text>
+    </string>
+    <string id="est_work_kuznecov_771">
+        <text>Affirmatif.</text>
+    </string>
+    <string id="est_work_kuznecov_772">
+        <text>Faut que je me prépare.</text>
+    </string>
+    <string id="est_work_kuznecov_8">
+        <text>Le QG du Monolithe ? À ce stade, plus rien ne m’étonne... Quels sont mes ordres ?</text>
+    </string>
+    <string id="est_work_kuznecov_9">
+        <text>J'en ai ma claque. Je refuse.</text>
+    </string>
+    <string id="est_work_kuznecov_88">
+        <text>Le centre de contrôle reste une cible prioritaire. Ton objectif : t'infiltrer et ramener toutes les infos que tu peux trouver. Détruis le poste de commandement si possible - mais souviens-toi : les données passent avant tout. Comme d'hab, utilise tous les moyens à ta disposition - t'as mon autorisation. Les ordres sont clairs ?</text>
+    </string>
+    <string id="est_work_kuznecov_881">
+        <text>Affirmatif. Ces enfoirés du Monolithe me pourrissent la vie depuis trop longtemps - je vais trouver des volontaires pour nettoyer leur nid. Mais tu sais aussi bien que moi, Colonel - personne d'autre va organiser ce bordel, alors ma compensation doit être à la hauteur... Libre passage vers le continent quand je veux, un terrain décent, une pension de vétéran, et une amnistie totale. Ce sont mes conditions.</text>
+    </string>
+    <string id="est_work_kuznecov_882">
+        <text>J'en ai ma claque. Je refuse.</text>
+    </string>
+    <string id="work_vip_kuznecov_agr_undr_0">
+        <text>Mission accomplie - planque localisée, documents en main.</text>
+    </string>
+    <string id="work_vip_kuznecov_agr_undr_1">
+        <text>Exceptionnel, soldat. Vraiment exceptionnel. T’as mérité ton bonus.</text>
+    </string>
+    <string id="work_vip_kuznecov_x18_0">
+        <text>Voilà tout ce que j’ai trouvé sur X-18.</text>
+    </string>
+    <string id="work_vip_kuznecov_x18_1">
+        <text>Exceptionnel, soldat. Vraiment exceptionnel. T’as mérité ton bonus.</text>
+    </string>
+    <string id="work_vip_kuznecov_x16_0">
+        <text>L’installation psi ne sera plus un problème - tu peux envoyer tes forces en toute sécurité. Quant aux documents... les voilà.</text>
+    </string>
+    <string id="work_vip_kuznecov_x16_1">
+        <text>Excellent boulot ! C'est une vraie réussite ! Maintenant, on va pouvoir garantir des opérations sûres pour nos équipes scientifiques dans ce secteur. T'as fait tes preuves, et pas qu'un peu. Tu vas loin, toi !</text>
+    </string>
+    <string id="work_vip_kuznecov_x10_0">
+        <text>Opération réussie : le Lobotomisateur est hors service, et voici les documents que j’ai pu récupérer dans le X-10.</text>
+    </string>
+    <string id="work_vip_kuznecov_x10_1">
+        <text>T'as déjà fait du grabuge - ta réputation nous est même parvenue jusqu'ici. Un énorme merci de la part du Commandement ! Grâce à toi, on peut enfin étendre nos opérations plus profondément dans la Zone.</text>
+    </string>
+    <string id="work_vip_kuznecov_x8_0">
+        <text>De retour de Pripyat. J’ai les infos.</text>
+    </string>
+    <string id="work_vip_kuznecov_x8_1">
+        <text>Excellent boulot !</text>
+    </string>
+    <string id="work_vip_kuznecov_jupiter_ugr_0">
+        <text>Tâche terminée. Les papiers du Passage souterrain sont en ma possession.</text>
+    </string>
+    <string id="work_vip_kuznecov_jupiter_ugr_1">
+        <text>Bon boulot, soldat... Encore un peu. Juste un peu, putain, avant que ces bureaucrates soient satisfaits ! Et après, on se casse tous de ce trou à rats ! Toi, moi... Crois-moi - pour l'instant, je peux te filer que ce que ma position me permet, mais la vraie récompense nous attend là-bas, au-delà de la Zone.</text>
+    </string>
+    <string id="work_vip_kuznecov_control_bunker_0">
+        <text>Le poste de commandement est neutralisé ! Le Monolithe est fini ! Mission accomplie - ces enfoirés n’ont même pas su ce qui les a frappés !</text>
+    </string>
+    <string id="work_vip_kuznecov_control_bunker_1">
+        <text>T’as réussi ?! Putain, c’est mon gars ! Une vraie bête !!! Je préviens le Commandement immédiatement - le Monolithe vient de prendre un coup dévastateur et tous leurs renseignements classifiés sont entre nos mains ! Maintenant, c’est aux huiles de décider quand on lance la prochaine opération pour prendre le Centre, mais grâce à toi, on a une vraie chance de prendre le CONTRÔLE TOTAL de la Zone et de virer toute cette racaille de stalkers ! Incroyable boulot ! T’es un héros - sans déconner ! Je me souviens de notre accord - maintenant, faut juste attendre la décision du Commandement. Mais en attendant... accepte cette récompense de ma part.</text>
+    </string>
+    <string id="vasil_nevezuchi_1_0">
+        <text>Bonjour - je suis arrivé pour aider.</text>
+    </string>
+    <string id="vasil_nevezuchi_1_2">
+        <text>Content de voir une tête amie. J'espère que la bataille à la centrale s'est bien passée ? Moi, c'est le sergent Shchaslivenko - ravi de te rencontrer, mais appelle-moi Vasyl. Au fait : les gars du Monolithe se sont retranchés dans une base au sud-est de cette lueur au milieu de la forêt. Mines partout, snipers dans les miradors. Bref - on y va. Essaie de buter ces enfoirés avant qu'ils nous repèrent.</text>
+    </string>
+    <string id="vasil_nevezuchi_1_3">
+        <text>On y va, sergent - je te couvre.</text>
+    </string>
+    <string id="kvartet_1_0">
+        <text>Capitaine - je suis prêt à rejoindre l’assaut.</text>
+    </string>
+    <string id="kvartet_1_2">
+        <text>Bien. Ces enfoirés tiennent trois checkpoints : deux sur les accès au sarcophage, et un juste devant le quatrième bloc du réacteur. Deux de nos sections vont attaquer des deux côtés. Ta mission : fournir un appui-feu à nos gars et buter autant de ces putains de soldats du Monolithe que possible.</text>
+    </string>
+    <string id="kvartet_1_3">
+        <text>Affirmatif ! On y va.</text>
+    </string>
+    <string id="inform_ab_toolkits_0">
+        <text>Tu saurais pas où je peux choper des outils dans le coin, par hasard ?</text>
+    </string>
+    <string id="inform_ab_toolkits_1">
+        <text>Je sais peut-être un truc - balance-moi quelques billets d’abord. Disons... deux mille.</text>
+    </string>
+    <string id="inform_ab_toolkits_9">
+        <text>Tiens.</text>
+    </string>
+    <string id="inform_ab_toolkits_10">
+        <text>Je repasserai plus tard.</text>
+    </string>
+    <string id="inform_ab_toolkits_2">
+        <text>Je sais, et pour quatre mille, je te dis où.</text>
+    </string>
+    <string id="inform_ab_toolkits_11">
+        <text>Prends-le.</text>
+    </string>
+    <string id="inform_ab_toolkits_12">
+        <text>Merci, mais non merci.</text>
+    </string>
+    <string id="inform_ab_toolkits_3">
+        <text>Balance-moi un petit quelque chose - disons mille - et je te dis tout.</text>
+    </string>
+    <string id="inform_ab_toolkits_13">
+        <text>Voilà ton fric.</text>
+    </string>
+    <string id="inform_ab_toolkits_14">
+        <text>J’ai changé d’avis.</text>
+    </string>
+    <string id="inform_ab_toolkits_4">
+        <text>Deux mille cinq cents, pas un rouble de moins. Après, on cause.</text>
+    </string>
+    <string id="inform_ab_toolkits_15">
+        <text>Prends-le.</text>
+    </string>
+    <string id="inform_ab_toolkits_16">
+        <text>J'ai pas les moyens, là.</text>
+    </string>
+    <string id="inform_ab_toolkits_5">
+        <text>Écoute bien, l’ami :</text>
+    </string>
+    <string id="inform_ab_toolkits_24">
+        <text>[suite...]</text>
+    </string>
+    <string id="inform_ab_toolkits_6">
+        <text>Aucune idée.</text>
+    </string>
+    <string id="inform_ab_toolkits_7">
+        <text>Fouille les caches.</text>
+    </string>
+    <string id="inform_ab_toolkits_8">
+        <text>Dégage, je suis occupé.</text>
+    </string>
+    <string id="inform_ab_toolkits_17">
+        <text>Essaie la Vallée Obscure à la base des Bandits. Leur matos est plutôt merdique, alors t'arriveras peut-être à leur piquer un jeu de rechange. Pour l'emplacement exact, ils m'ont pas donné plus de détails.</text>
+    </string>
+    <string id="inform_ab_toolkits_18">
+        <text>Essaie la Décharge - les gars m’ont dit récemment qu’ils avaient une sorte de base dans le hangar local. Tu devrais y trouver les outils bruts.</text>
+    </string>
+    <string id="inform_ab_toolkits_19">
+        <text>Le Cordon, l'ATP. Des Bandits voulaient y monter une grosse base - ils ont même trimballé du matos et des machines - mais leur gars a disparu, et apparemment son équipement est resté sur place.</text>
+    </string>
+    <string id="inform_ab_toolkits_20">
+        <text>Du côté du Cordon, près du Checkpoint Sud. J'espère que tu sais lire une carte. C'est dangereux là-bas - personne s'en approche - alors y'a de bonnes chances que les outils de précision soient encore sur place. Et j'ai d'autres infos fiables qui confirment ça.</text>
+    </string>
+    <string id="inform_ab_toolkits_21">
+        <text>Agroprom - le complexe principal. Tu connais cette anomalie avec tous les électros et le psi ? Y'a moyen de fouiller dans le coin, autour du complexe. C'est un point stratégique ultra-disputé, alors personne ne s'arrête pour faire les poubelles, mais on a repéré du matos technique par là.</text>
+    </string>
+    <string id="inform_ab_toolkits_22">
+        <text>Cimetière de véhicules. Sors du bar tout de suite et cherche un véhicule avec la plaque "9941KIL" - il te mènera droit au but. J'ai eu l'info par un gars de Devoir qui était en reconnaissance. Ils nettoyaient la zone, mais sont tombés sur une meute de Snorks. Ils ont fait un "repli tactique", haha. L'un d'eux a repéré le véhicule en se barrant comme un dératé.</text>
+    </string>
+    <string id="inform_ab_toolkits_23">
+        <text>Rends-toi à Agroprom - la base militaire principale. Ça semble trop dur ? Ben, faut faire avec... Au moins, ils ont les moyens. Leur matos est top niveau, pas comme le nôtre. Si quelqu'un a des outils de calibration, c'est eux. T'imaginais vraiment que ce serait facile de mettre la main sur des outils de calibration ?</text>
+    </string>
+    <string id="inform_ab_toolkits_25">
+        <text>Merci pour le fric - maintenant dégage. J’sais pas où sont tes outils, MacGyver.</text>
+    </string>
+    <string id="inform_ab_toolkits_26">
+        <text>Ah, désolé, mec... J'ai déjà oublié où c'était. Fouille les caches, demande aux marchands.</text>
+    </string>
+    <string id="cs_task0_dialog_0">
+        <text>Des missions spéciales ?</text>
+    </string>
+    <string id="cs_task0_dialog_1">
+        <text>Aucune mission spéciale pour l'instant, mais y'a du boulot bizarre. J'ai besoin que quelqu'un récupère un scanner dans l'archanomalie au sud de la tour ouest - il devrait avoir fini de mesurer l'activité anormale. T'es partant ?</text>
+    </string>
+    <string id="cs_task0_dialog_3">
+        <text>Une autre fois, peut-être.</text>
+    </string>
+    <string id="cs_task0_dialog_2">
+        <text>Je suis partant.</text>
+    </string>
+    <string id="cs_task0_dialog1_0">
+        <text>Voilà l’appareil - prends-le.</text>
+    </string>
+    <string id="cs_task0_dialog1_2">
+        <text>Merci. Au fait, un éclaireur doit arriver ce soir, vers 20h-22h. Alors ne bouge pas. On ira l’accueillir ensemble.</text>
+    </string>
+    <string id="cs_task0_ambush_renegade_0">
+        <text>Y’a un truc que je peux faire pour aider Firmament ?</text>
+    </string>
+    <string id="cs_task0_ambush_renegade_1">
+        <text>Ouais. Tu sais, même si on a repris un peu le contrôle des Marais, nos effectifs laissent vraiment à désirer. L’activité anormale a chuté brutalement, alors toutes sortes de bandits, renégats et autres raclures ont débarqué... On perd position après position. On est carrément bloqués dans nos points de départ, les renégats nous laissent pas une seconde de répit - on m’a prévenu qu’une nouvelle attaque contre notre avant-poste à la Station de Pompage se prépare. Aide nos gars à le tenir.</text>
+    </string>
+    <string id="cs_task0_ambush_renegade_3">
+        <text>Une autre fois, peut-être.</text>
+    </string>
+    <string id="cs_task0_ambush_renegade_2">
+        <text>Je suis partant.</text>
+    </string>
+    <string id="cs_task0_ambush_renegade_vip_0">
+        <text>Les Renégats ont été éliminés...</text>
+    </string>
+    <string id="cs_task0_ambush_renegade_vip_2">
+        <text>Parfait ! J'ai préparé un groupe d'assaut pour prendre le Village Sud - on doit sécuriser la route vers le Cordon. Prends position et appuie notre unité. Tu peux avancer avec eux - les gars sont déjà en route depuis la base.</text>
+    </string>
+    <string id="cs_task0_ambush_renegade_vip2_0">
+        <text>La route vers le Cordon est sécurisée.</text>
+    </string>
+    <string id="cs_task0_ambush_renegade_vip2_2">
+        <text>Bon boulot - on a consolidé notre emprise sur les positions clés. Merci pour ton aide. Prends ta récompense. Mais y’a un autre problème. Les militaires. Avant, la présence des soldats faisait fuir les renégats et autres raclures - on se laissait tranquilles, eux et nous. Mais maintenant, ils envoient de plus en plus d’unités de stalkers militaires dans les Marais, et on subit des pertes. Je pense qu’il est temps d’en finir. Leur base est à l’Atelier des Mécaniciens - si on les vire, on aura l’avantage et on consolidera notre position ici pour de bon. Je peux pas attendre - j’envoie notre meilleure escouade d’assaut, ils sont déjà en route depuis la base. Rejoins-les et apporte-leur ton soutien dans le combat.</text>
+    </string>
+    <string id="cs_task0_ambush_renegade_vip3_0">
+        <text>Les militaires se sont fait virer du Chantier des Mécanos - ça a chauffé grave.</text>
+    </string>
+    <string id="cs_task0_ambush_renegade_vip3_2">
+        <text>Merci - avec ton aide, on a repris les points clés et on redevient une force à ne pas sous-estimer. Ah, si seulement Lebedev était encore là... Bon, assez de sentimentalisme - y'a encore du boulot. Prends ta récompense, et merci encore.</text>
+    </string>
+    <string id="cs_task2_dialog_0">
+        <text>L’éclaireur est mort. Voici son PDA.</text>
+    </string>
+    <string id="cs_task2_dialog_2">
+        <text>Dommage. C’était l’un des nôtres. Merci.</text>
+    </string>
+    <string id="cs_task3_cold_dialog_0">
+        <text>Je suis là pour le PDA décodé.</text>
+    </string>
+    <string id="cs_task3_cold_dialog_1">
+        <text>On a une bonne nouvelle - assieds-toi. Kostyl a réussi à déterminer que certains de nos camarades disparus en 2011 ont survécu ! D’après les infos sur le PDA, un mercenaire connu sous le nom de Scar - qui en 2011 a combattu avec nos escouades d’assaut à travers Limansk et l’Hôpital en direction de la centrale de Tchernobyl à la poursuite de Strelok - s’en est sorti vivant. On sait aussi qu’il était en contact avec plusieurs stalkers qui, d’après les descriptions, correspondent à des membres du groupe de Lebedev. Notre éclaireur confirme que l’info est solide. Stalker - renseigne-toi sur Scar auprès de ceux qui traitent avec les neutres, et trouve-le. On pourrait peut-être retrouver nos camarades perdus. Ton meilleur coup, c’est de commencer par Sidorovich.</text>
+    </string>
+    <string id="cs_task3_cold_dialog_2">
+        <text>Excellente nouvelle. Peut-être que Sidorovich connaît ce stalker. Je vais lui demander et retrouver les survivants.</text>
+    </string>
+    <string id="holod_end_cs_story_0">
+        <text>J’ai trouvé un survivant de Firmament.</text>
+    </string>
+    <string id="holod_end_cs_story_1">
+        <text>T’en as trouvé un, tu dis ? C’est qui ? Il est où ?</text>
+    </string>
+    <string id="holod_end_cs_story_2">
+        <text>C'est Gamajun - un des hommes de Lebedev. Il combat actuellement dans les rangs des Exclus du Monolithe. Malheureusement, il a refusé de revenir dans les Marais avec moi. Il dit qu'il abandonnera pas ses frères.</text>
+    </string>
+    <string id="holod_end_cs_story_3">
+        <text>Bon, c'est son choix. S'il a survécu, d'autres ont peut-être eu la même chance. Ton récit nous redonne espoir. Peut-être qu'on retrouvera nos camarades un jour. Je vais aussi donner l'ordre à nos unités de reconnaissance de coopérer avec les Exilés. Ah oui - je pense que t'as mérité une récompense.</text>
+    </string>
+    <string id="holod_end_cs_story_4">
+        <text>Merci.</text>
+    </string>
+    <string id="cs_task4_dragun_dialog_0">
+        <text>Salut - c'est toi qu'on appelle le Scar ? J'ai besoin d'infos.</text>
+    </string>
+    <string id="cs_task4_dragun_dialog_1">
+        <text>Le seul et l’unique. Et toi, t’es qui, bordel ? Pas maintenant - aide-moi à repousser cette meute de pseudochiens. Ils me collent aux basques depuis deux bornes.</text>
+    </string>
+    <string id="cs_task4_dragun_dialog_2">
+        <text>Deux d’entre nous, ça devrait suffire pour les retenir.</text>
+    </string>
+    <string id="cs_task5_dragun_dialog_0">
+        <text>Ouf - on les a tenus. Dis-moi ce que tu sais sur les survivants du groupe de Lebedev. J’ai des raisons de croire que t’es au courant de quelque chose.</text>
+    </string>
+    <string id="cs_task5_dragun_dialog_1">
+        <text>Oui, je sais quelque chose. Mais je peux pas te dire grand-chose - c’est surtout des rumeurs. T’as entendu parler du Rôdeur et de son groupe ? Ce sont tous d’anciens soldats du Monolithe qui ont tourné le dos aux maîtres de la Zone et mènent maintenant une guérilla contre le Monolithe. Paraît que des membres du Firmament font partie de ces Paria du Monolithe. Son escouade est basée dans la périphérie de Jupiter, à un vieux checkpoint militaire - le même endroit où le chef des bandits locaux, un certain Valet, traînait avant que quelqu’un lui mette une balle dans la tête.</text>
+    </string>
+    <string id="cs_task5_dragun_dialog_2">
+        <text>Merci beaucoup.</text>
+    </string>
+    <string id="brodyaga_cs_story_dialog2_0">
+        <text>J’ai retrouvé l’escouade de Gamajun, et il m’a demandé de te remettre cet appareil. L’escouade a rempli sa mission.</text>
+    </string>
+    <string id="brodyaga_cs_story_dialog2_1">
+        <text>Bien - cet appareil va faire pencher la balance en notre faveur. Content que t’aies retrouvé ton camarade. C’est dommage de perdre un soldat comme lui.</text>
+    </string>
+    <string id="brodyaga_cs_story_dialog2_2">
+        <text>Il a décidé de rester avec les Renégats.</text>
+    </string>
+    <string id="brodyaga_cs_story_dialog2_3">
+        <text>Compris. Je pense que t’as mérité une récompense pour avoir aidé notre groupe. On est pas vraiment riches, mais on a quelque chose. Prends-le.</text>
+    </string>
+    <string id="brodyaga_cs_story_dialog2_4">
+        <text>Merci.</text>
+    </string>
+    <string id="brodyaga_cs_story_dialog1_0">
+        <text>J’ai entendu dire que des anciens de Firmament traînent dans tes rangs. Je peux les rencontrer ? Je bosse pour Firmament et on cherche nos camarades disparus.</text>
+    </string>
+    <string id="brodyaga_cs_story_dialog1_1">
+        <text>Hmm... Y'a effectivement d'anciens membres de Firmament parmi nous. Comme nous tous, ils étaient des soldats du Monolithe - jusqu'à ce que la C-Conscience relâche son emprise. Maintenant, on combat le Monolithe ensemble.</text>
+    </string>
+    <string id="brodyaga_cs_story_dialog1_2">
+        <text>Alors, où est-ce que je peux les rencontrer ?</text>
+    </string>
+    <string id="brodyaga_cs_story_dialog1_3">
+        <text>J'ai bien peur que tu arrives trop tard. Leur escouade est partie en mission dans l'est de Pripyat. Malheureusement, on a plus eu de nouvelles depuis. Si tu te dépêches, t'arriveras peut-être à les rattraper. J'ai pas assez d'hommes pour envoyer quelqu'un à leur secours.</text>
+    </string>
+    <string id="brodyaga_cs_story_dialog1_4">
+        <text>Merci pour l’info. Je vais les trouver et les aider s’ils sont en danger.</text>
+    </string>
+    <string id="gamajun_cs_story_dialog1_0">
+        <text>On dirait que j’arrive pile à temps.</text>
+    </string>
+    <string id="gamajun_cs_story_dialog1_1">
+        <text>Ouais, on peut dire ça... Encore un peu et ces fanatiques nous auraient tous butés. C’est le Rôdeur qui t’envoie ?</text>
+    </string>
+    <string id="gamajun_cs_story_dialog1_2">
+        <text>En fait, c’est toi que je cherchais. T’es un membre du groupe de Lebedev ? Firmament te recherche.</text>
+    </string>
+    <string id="gamajun_cs_story_dialog1_3">
+        <text>Hmm... Je l’étais, oui. Mais maintenant, je suis un Paria du Monolithe. Je te raconte tout et on décide quoi faire - mais d’abord, aide-moi à finir ma mission, vu que t’es déjà là. Les soldats du Monolithe se sont révélés plus coriaces que prévu. J’ai envoyé une escouade au port fluvial pour capturer un appareil qui nous permet d’intercepter les communications des fanatiques, mais l’escouade a disparu. Ils se sont probablement fait choper. Fais une reconnaissance et aide-nous à récupérer cet appareil.</text>
+    </string>
+    <string id="gamajun_cs_story_dialog1_4">
+        <text>D'accord, je t'aide.</text>
+    </string>
+    <string id="gamajun_cs_story_dialog2_0">
+        <text>Voilà l’appareil.</text>
+    </string>
+    <string id="gamajun_cs_story_dialog2_1">
+        <text>Merci - mieux vaut le donner au Rôdeur. Moi, je reste ici et je tiens ce poste avec mes gars.</text>
+    </string>
+    <string id="gamajun_cs_story_dialog2_2">
+        <text>Alors tu viens pas avec moi dans les Marais ?</text>
+    </string>
+    <string id="gamajun_cs_story_dialog2_3">
+        <text>Non. Désolé - mais je suis un Paria maintenant. Je peux pas abandonner mes frères. Au fait, j’avais promis de te raconter mon histoire, alors écoute. En 2011, j’ai combattu avec Lebedev dans l’escouade d’assaut qui avançait à travers Limansk. Notre chef est parti vers le nord avec quelques hommes et un mercenaire, tandis que je tenais la position en ville. Puis cette émission a frappé - celle qui m’a effacé la mémoire. D’après le Rôdeur, j’ai servi le Monolithe comme les autres. Après les événements de 2012, je suis revenu à moi - je me suis réveillé quelque part dans la périphérie de Jupiter. J’ai survécu grâce au Rôdeur, et je suis devenu membre de son groupe.</text>
+    </string>
+    <string id="gamajun_cs_story_dialog2_4">
+        <text>Merci de m’avoir prévenu. Je vais remettre l’appareil au Rôdeur et transmettre tes salutations à Kholod.</text>
+    </string>
+    <string id="dolg_story_task_1_dialog_start_0">
+        <text>Avez-vous des missions spéciales disponibles ?</text>
+    </string>
+    <string id="dolg_story_task_1_dialog_start_1">
+        <text>En y réfléchissant, oui. Nous sommes en guerre contre Liberté et les Bandits, et les fanatiques de Monolithe progressent depuis le nord. Toutes nos forces sont engagées dans les combats, mais nous avons besoin de chasseurs pour accomplir notre mission principale : détruire la Zone. Je vous propose un poste de chasseur de monstres. C'est simple : je vous confie un contrat, vous le remplissez, et vous êtes payé. Qu'en dites-vous ?</text>
+    </string>
+    <string id="dolg_story_task_1_dialog_start_2">
+        <text>Cela semble correct. Si la rémunération est équitable, je suis partant. Quelle est ma première mission ?</text>
+    </string>
+    <string id="dolg_story_task_1_dialog_start_3">
+        <text>Ne vous inquiétez pas pour la rémunération - nous paierons en espèces et en équipement de qualité si vous faites vos preuves. Votre première mission : éliminer un nid de bloodsuckers qui a migré vers le sud. Cela nous cause de sérieux problèmes - les bloodsuckers ont réussi à passer tous nos postes et patrouilles. Exterminez-les et revenez pour votre récompense. Je vous suggère de commencer vos recherches par le Boucher - c'est le chef des chasseurs locaux.</text>
+    </string>
+    <string id="dolg_story_task_1_dialog_start_4">
+        <text>J'accepte le contrat. Considérez ces bloodsuckers comme déjà morts.</text>
+    </string>
+    <string id="dolg_story_task_1_dialog_end_0">
+        <text>Mission accomplie - bloodsuckers éliminé.</text>
+    </string>
+    <string id="dolg_story_task_1_dialog_end_1">
+        <text>Bon travail. Voici votre récompense.</text>
+    </string>
+    <string id="prinesi_military_docs_start_0">
+        <text>Alors, qu'est-ce que je dois faire pour obtenir les infos sur le Scar ?</text>
+    </string>
+    <string id="prinesi_military_docs_start_1">
+        <text>Écoute bien... Une caisse contenant un rapport d'une des expéditions parties vers le nord a été transférée au checkpoint depuis les profondeurs de la Zone. Pendant la journée, ils la gardent comme si elle était pleine de plutonium pur, mais bizarrement, la nuit, il n'y a plus que deux gardes dessus. Infiltre-toi dans le checkpoint et récupère cette caisse pour moi. Et je ne te ferai pas de cadeau... dans la limite du raisonnable. Marché conclu ou pas ?</text>
+    </string>
+    <string id="prinesi_military_docs_start_21">
+        <text>Je suis partant.</text>
+    </string>
+    <string id="prinesi_military_docs_start_22">
+        <text>Tu sais quoi, non. Je préfère rester en vie.</text>
+    </string>
+    <string id="prinesi_military_docs_start_31">
+        <text>Bon, j'aurai le fric de prêt - mais fais pas d'esclandre, d'accord ? Si les militaires s'énervent, on va tous se sentir à l'étroit sous ce putain de ciel...</text>
+    </string>
+    <string id="prinesi_military_docs_done_0">
+        <text>Je les ai trouvés, les voilà.</text>
+    </string>
+    <string id="prinesi_military_docs_done_1">
+        <text>prinesi_military_docs_done_1</text>
+    </string>
+    <string id="cs_task3_sidor_dialog_0">
+        <text>Je cherche un mercenaire qu'on appelle le Scar. Tu le connais ?</text>
+    </string>
+    <string id="cs_task3_sidor_dialog_1">
+        <text>Peut-être bien. Mais pourquoi il te le faut, lui ?</text>
+    </string>
+    <string id="cs_task3_sidor_dialog_3">
+        <text>Il détient des informations cruciales pour Firmament.</text>
+    </string>
+    <string id="cs_task3_sidor_dialog_2">
+        <text>Je peux te vendre des infos, mais ça te coûtera vingt mille, plus un petit service. Fais-moi une mission spéciale pour prouver ta confiance, et on verra ce que je sais sur les Scars.</text>
+    </string>
+    <string id="cs_task3_sidor_dialog_4">
+        <text>D'accord. Je fais une de tes corvées et j'achète l'info.</text>
+    </string>
+    <string id="cs_task3_sidor_dialog_5">
+        <text>J’ai pas le temps pour ces conneries.</text>
+    </string>
+    <string id="cs_task3_sidor_dialog_6">
+        <text>Alors arrête de me faire chier et casse-toi.</text>
+    </string>
+    <string id="cs_task3_sidor_dialog1_0">
+        <text>Je suis là pour les infos sur Scar.</text>
+    </string>
+    <string id="cs_task3_sidor_dialog1_1">
+        <text>T'as le fric ? J'ai fait le boulot ?</text>
+    </string>
+    <string id="cs_task3_sidor_dialog1_3">
+        <text>Pas encore.</text>
+    </string>
+    <string id="cs_task3_sidor_dialog1_2">
+        <text>Oui - voilà ton fric. Mission accomplie.</text>
+    </string>
+    <string id="cs_task3_sidor_dialog1_4">
+        <text>Bon, écoute bien - ou mieux, note ça, hein. Un mercenaire est passé me voir. Il avait besoin de matériel pour une descente en profondeur dans les territoires du nord. Un gars généreux - il a claqué un sacré paquet. D’après ce qu’il a dit, j’ai cru comprendre qu’il cherchait quelque chose sur le Zaton. À mon avis, il y est déjà. Il paraît aussi qu’il squatte les Ateliers de la Sous-station pour récupérer de la ferraille. C’est tout - bonne chance pour le trouver.</text>
+    </string>
+    <string id="cs_task3_sidor_dialog1_5">
+        <text>Ravi d’avoir fait affaire. Merci pour les infos.</text>
+    </string>
+
+</string_table>

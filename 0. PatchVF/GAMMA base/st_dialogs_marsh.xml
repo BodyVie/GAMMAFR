@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!-- Cold (Clear Sky Leader) -->
+	<string id="find_blackbox_mlr_reward_csky_0">
+		<text>J'ai trouvé un enregistreur de vol.</text>
+	</string>
+	<string id="find_blackbox_mlr_reward_csky_1">
+		<text>Ah, une super trouvaille ! Peut-être qu'on va enfin découvrir ce qui cause ces raids aériens dans les marais.</text>
+	</string>
+
+
+<!-- Librarian (Clear Sky Barman) -->
+	<string id="story_b_cs_0">
+		<text>Tu peux me parler de Cold ?</text>
+	</string>
+	<string id="story_b_cs_1">
+		<text>Qu'est-ce que je peux dire ? Il a gagné pas mal de respect en tant que leader actuel de notre organisation.</text>
+	</string>
+	<string id="story_b_cs_2">
+		<text>Comment il a gagné ce respect ?</text>
+	</string>
+	<string id="story_b_cs_3">
+		<text>Tu vois, y'a eu une controverse autour de Lebedev, notre ancien chef - que, soit dit en passant, j'ai jamais rencontré personnellement - et il semblait pas prendre en compte l'avis des membres de la faction pendant leur croisade vers la Centrale nucléaire de Tchernobyl. Ce mercenaire nous a bien aidés, c'est sûr, mais au final, ça en valait pas la peine. Ceux qui sont restés à la base ont pas pu résister à la résurgence des Renégats. La signification de notre lutte dans les marais a été réduite à néant... et les sacrifices sur le chemin de la Centrale nucléaire de Tchernobyl, ainsi que dans les marais, se sont révélés inutiles.</text>
+	</string>
+	<string id="story_b_cs_4">
+		<text>On dirait que le ressentiment de la faction envers leur leader de l'époque était justifié.</text>
+	</string>
+	<string id="story_b_cs_5">
+		<text>Y'a plus que ça... Après le retour de nos troupes, on a dû entamer une longue guerre pour tout reprendre. On aurait pas tenu le coup au quotidien sans Cold. Il a reçu de l'aide de stalkers indépendants et a pris contact avec des gens dans toute la Décharge et le Cordon. Des stalkers libres nous ont filé un coup de main, et avoir un leader charismatique, ça n'a pas gâché l'affaire. En plus, il a donné l'ordre à tous les combattants - sans exception - de pas quitter les lieux. On prend toute l'aide possible, mais on risque pas la vie de nos gars.</text>
+	</string>
+	<string id="story_b_cs_6">
+		<text>Peu importe qui était Lebedev et ce qu'il a fait, vous n'êtes plus la même faction qu'avant.</text>
+	</string>
+	<string id="story_b_cs_7">
+		<text>C'est ton avis. Il a quand même une certaine valeur. Pour l'instant, on a pas d'objectifs à grande échelle, à part peut-être... euh... Enfin, c'est probablement l'heure d'arrêter les histoires et de commencer à trader.</text>
+	</string>
+	<string id="story_b_cs_8">
+		<text>Marché conclu.</text>
+	</string>
+
+	<string id="story_dog_0">
+		<text>À qui est ce pseudochien ?</text>
+	</string>
+	<string id="story_dog_1">
+		<text>C'est Buddy, le chien du Doc. Le Doc a demandé à Cold de le garder en sécurité, vu qu'il commence à se faire vieux.</text>
+	</string>
+	<string id="story_dog_2">
+		<text>Bon, à première vue, on dirait pas qu'il en ait besoin.</text>
+	</string>
+	<string id="story_dog_3">
+		<text>Les apparences peuvent être trompeuses, parfois. Ce toutou est une vraie crème. Bon, je peux te raconter un truc intéressant sur cette race de chien ?</text>
+	</string>
+	<string id="story_dog_4">
+		<text>À toi.</text>
+	</string>
+	<string id="story_dog_5">
+		<text>Les Pseudochiens descendent pas du tout des chiens, même s'ils partagent un ancêtre commun. En fait, ils viennent des loups - le Devoir l'a découvert en les étudiant.</text>
+	</string>
+	<string id="story_dog_6">
+		<text>Et comment tu sais ça, toi ?</text>
+	</string>
+	<string id="story_dog_7">
+		<text>Par mon métier, je collectionne toutes sortes d'histoires. Au nord, y'a un endroit qui ressemble à nos marais, ça s'appelle Zaton. J'ai entendu dire qu'un vieux cinglé vit dans une vieille barge là-bas, et apparemment, il aurait même un pseudochien. Peut-être que tu peux vérifier si c'est vrai, si la distance te dérange pas.</text>
+	</string>
+	<string id="story_dog_8">
+		<text>C'est toute la longueur de la Zone. Peut-être que j'irai y faire un tour un de ces quatre.</text>
+	</string>
+	
+	<string id="about_dog_marsh_part_two_0">
+		<text>J'ai parlé à Noah - ce « vieux grincheux » dont tu m'as parlé tout à l'heure.</text>
+	</string>
+	<string id="about_dog_marsh_part_two_1">
+		<text>Oh, j'avais complètement zappé ça. Alors c'est vrai - il a aussi apprivoisé un pseudochien ?</text>
+	</string>
+	<string id="about_dog_marsh_part_two_2">
+		<text>Ouais. Il l'appelle Lassie. Elle a deux chiots, et ils ont jamais montré le moindre signe d'agressivité.</text>
+	</string>
+	<string id="about_dog_marsh_part_two_3">
+		<text>Des chiots ? Jamais cru en voir un jour dans la Zone. Bon, merci - maintenant je sais qu'il y a des pseudochiens plus sympas qui se reproduisent dans la Zone. Tiens, voici quelques provisions pour tes prochains voyages... Et si t'en as besoin, je peux te filer des infos sur un passage entre les Entrepôts de l'armée et la Forêt Rouge. Ça nous est resté comme un écho du passé.</text>
+	</string>
+
+	
+<!-- (Clear Sky guide) -->
+	<string id="meet_guid_marsh_csky_0">
+		<text>Hé, pourquoi tu restes planté là ?</text>
+	</string>
+	<string id="meet_guid_marsh_csky_1">
+		<text>Si je veux rester debout, c'est mon problème... Je déconne. Faut que je reste en vue en permanence, vu que je suis guide local. Et s'te plaît, mate pas mon équipement - ça m'arrangera. Je peux t'emmener à quelques endroits si tu veux, notamment le poste d'observation ici dans le marais, ainsi que la station de pompage, la vieille église et le chantier mécanique. Je propose aussi des voyages vers le village des recrues dans le Cordon, ainsi qu'à Agroprom et au Bar. Tout ça te coûtera.</text>
+	</string>
+
+	<string id="meet_guid_marsh_csky_list_0">
+		<text>Tu peux répéter tes itinéraires ?</text>
+	</string>
+	<string id="meet_guid_marsh_csky_list_1">
+		<text>Voici les trajets que je fais : le poste d'observation pour trois cents roubles, la station de pompage et la vieille église pour cinq cents chacune, le chantier pour huit cents, le village des recrues dans le Cordon pour mille cinq cents, Agroprom pour deux mille et le Bar pour quatre mille.</text>
+	</string>
+
+	<string id="travel_guid_marsh_csky_0">
+		<text>J'aimerais utiliser tes services.</text>
+	</string>
+	<string id="travel_guid_marsh_csky_1">
+		<text>D'accord, on va où ?</text>
+	</string>
+	<string id="travel_guid_marsh_csky_2">
+		<text>Le poste d'observation. %c[d_orange][300 RU]</text>
+	</string>
+	<string id="travel_guid_marsh_csky_3">
+		<text>La station de pompage. %c[d_orange][500 RU]</text>
+	</string>
+	<string id="travel_guid_marsh_csky_4">
+		<text>L'ancienne église. %c[d_orange][500 RU]</text>
+	</string>
+	<string id="travel_guid_marsh_csky_5">
+		<text>La cour des machines. %c[d_orange][800 RU]</text>
+	</string>
+	<string id="travel_guid_marsh_csky_6">
+		<text>Le village des Recrues dans le Cordon. %c[d_orange][1000 RU]</text>
+	</string>
+	<string id="travel_guid_marsh_csky_7">
+		<text>Yantar. %c[d_orange][1500 RU]</text>
+	</string>
+	<string id="travel_guid_marsh_csky_8">
+		<text>Jupiter, le bunker des scientifiques. %c[d_orange][8000 RU]</text>
+	</string>
+	<string id="travel_guid_marsh_csky_9">
+		<text>J'ai changé d'avis.</text>
+	</string>
+
+	<string id="mar_csky_guide_background_1">
+		<text>Moi ? Eh bien, je suis guide pour Firmament depuis plus de sept ans. Cela dit, pendant mes premières années, vers 2011, je restais surtout dans les marais, je faisais rarement sortir les stalkers plus loin. Mais c'était une autre époque, avant qu'on trouve ce putain de merc dans les roseaux, la gueule pleine d'eau croupie.
+		\nNos chefs lui faisaient pas confiance - ils me faisaient lui bander les yeux chaque fois qu'il voulait entrer ou sortir de notre base. Et puis, en seulement quelques semaines, il avait réussi à convaincre nos chefs et la plupart de nos hommes de charger la centrale électrique.
+		\nInutile de préciser que ni lui ni une bonne partie de notre faction sont revenus de cette folie. Tout ça à cause de ce putain de merc taré.</text>
+	</string>
+	<string id="mar_csky_guide_background_2">
+		<text>Tu parles du Scar ?</text>
+	</string>
+	<string id="mar_csky_guide_background_3">
+		<text>Une légende, oui. Mais plus que sa cicatrice, c'est ses yeux flippants que je me rappelle. Ce type me foutait grave les jetons. Le professeur Kalancha nous avait dit qu'il résistait aux émissions, d'une façon ou d'une autre. Pas que ça, il devenait plus fort à chaque fois qu'une l'atteignait. Le cerveau grillé, aussi. Enfin, il a pas survécu à la grosse émission de la fête au CNPP, apparemment. Tant mieux pour lui.</text>
+	</string>
+	<string id="mar_csky_guide_background_4">
+		<text>Bon, repose en morceaux, j'imagine.</text>
+	</string>
+	
+	
+<!-- (Clear Sky Mechanic) -->
+	<string id="marsh_stalker_tech_pragmatic_research_0">
+		<text>Firmament, ils kiffent grave la recherche, non ?</text>
+	</string>
+	<string id="marsh_stalker_tech_pragmatic_research_1">
+		<text>C'est sûr. Comme les Scientifiques, on essaie de mieux comprendre la Zone, mais nous, on se contente pas d'observer. On préfère utiliser les connaissances qu'on acquiert pour des applications pratiques. Par exemple, des éclats d'un artefact de Gravi intégrés dans une armure réduisent significativement son poids. Le coagulant du bloodsucker peut être utilisé dans un système de survie qui empêche la perte de sang pendant les combats. Et la capacité de résolution de l'oeil du Flesh nous a aidés à développer des systèmes de visée avancés. C'est juste quelques-unes des nombreuses idées qu'on a eues.</text>
+	</string>
+
+	
+	<string id="cit_doctor_hello_dialog_11">
+        <text>Oui ? Qu'est-ce que tu veux ?</text>
+    </string>
+    <string id="cit_doctor_hello_dialog_21">
+        <text>J't'ai tout dit, j'sais rien de plus.</text>
+    </string>
+	<string id="cit_doctor_main_dialog_0">
+		<text>J'ai entendu dire que t'avais des infos sur la Zone.</text>
+	</string>
+	<string id="cit_doctor_main_dialog_1">
+		<text>Oh... Tu cherches à percer les mystères de la Zone, hein ? J'ai peut-être les infos que tu cherches, mais je veux être sûr que tu comprends le poids que ça représente.</text>
+	</string>
+	<string id="cit_doctor_main_dialog_11">
+		<text>Vas-y.</text>
+	</string>
+	<string id="cit_doctor_main_dialog_2">
+	<text>Cette quête a mené beaucoup à leur perte, y compris des amis chers...\nStrelok avait un groupe de stalkers d'élite, dont il est certainement le seul encore en vie. Ils enquêtaient sur une sorte de mystère ou de complot dans la Zone. Il est revenu de cette aventure, et la dernière fois que je l'ai vu, mon pote avait clairement changé, quelque chose ou quelqu'un l'avait transformé... Oh oui...\nY'a des trucs là-bas qui veulent pas être trouvés - et la Zone elle-même semble tout faire pour les cacher. Tu piges ?</text>
+	</string>
+	<string id="cit_doctor_main_dialog_21">
+		<text>J'veux en savoir plus, vieux.</text>
+	</string>
+	<string id="cit_doctor_main_dialog_3">
+		<text>Admirable. Con, mais admirable...</text>
+	</string>
+	<string id="cit_doctor_main_dialog_31">
+		<text>Tu vas me le dire ?</text>
+	</string>
+	<string id="cit_doctor_main_dialog_4">
+		<text>Très bien, jeune homme. La dernière fois que Strelok est passé me voir, il m'a laissé une clé et les coordonnées d'une planque à Pripyat.\nIl parlait de Monolithe, j'ai pas tout compris et lui non plus, je crois pas. Tiens, prends-la. Une dernière chose... Il a passé beaucoup de temps à chercher des indices sur un complot dans les labos souterrains, une sorte de secret bien planqué, je pense. Peut-être que tu trouveras tes réponses là-bas.</text>
+	</string>
+	<string id="cit_doctor_main_dialog_41">
+		<text>D'accord. Merci, j'apprécie ton aide.</text>
+	</string>
+	<string id="cit_doctor_main_dialog_5">
+		<text>Bon, allez, laisse un vieux tranquille.</text>
+	</string>
+
+	<string id="mar_base_owl_stalker_trader_start_dialog_1">
+		<text>Besoin de fournitures ou d'équipement ? D'infos ?... Ou peut-être que tu veux vendre des infos ?</text>
+	</string>
+	    <string id="mar_smart_terrain_base_doctor_need_health_care_0">
+        <text>J'ai besoin d'une assistance médicale.</text>
+    </string>
+    <string id="mar_smart_terrain_base_doctor_need_health_care_1">
+        <text>Bon, laisse-moi te faire un soin de base.</text>
+    </string>
+    <string id="mar_smart_terrain_base_doctor_need_health_care_11">
+        <text>[continuer...]</text>
+    </string>
+    <string id="mar_smart_terrain_base_doctor_need_health_care_111">
+        <text>Voilà, j'ai fini. Tu devrais être bon.</text>
+    </string>
+    <string id="mar_smart_terrain_base_doctor_need_health_care_2">
+        <text>Laisse-moi voir... Pas de blessures. T'as aucun signe de maladie des radiations non plus. Je pense que tout est en ordre, tu peux y aller.</text>
+    </string>
+    <string id="mar_smart_terrain_base_doctor_start_1">
+        <text>Hm, oui ?</text>
+    </string>
+	<string id="marsh_stalker_barmen_start_dialog_1">
+		<text>Un nouveau visage ! Les gens par ici m'appellent Bibliothécaire. Je suis le barman du coin. Je serai ravi de répondre à tes questions. Parfois, je poste des offres de boulot ou j'entends des rumeurs intéressantes, alors repasse souvent.</text>
+	</string>
+	<string id="marsh_stalker_barmen_start_dialog_2">
+		<text>Hé, stalker. T'as besoin de quoi ?</text>
+	</string>
+	<string id="marsh_stalker_tech_start_1">
+		<text>Salut, stalker. Je peux t'aider ? Le bon matos se fait rare dans la Zone, mais je peux encore réparer ton équipement et faire quelques upgrades mineurs.</text>
+	</string>
+	<string id="marsh_stalker_medic_background_0">
+        <text>Parle-moi de toi.</text>
+    </string>
+    <string id="marsh_stalker_medic_background_1">
+        <text>Eh bien, je suis le professeur E.F. Kalancha. Avec Lebedev et Suslov, j'étais l'un des membres fondateurs de Firmament. Contrairement à eux, qu'ils reposent en paix, je suis resté à la Base Cachée pendant leur raid fatal sur la Centrale nucléaire de Tchernobyl. Je suis le chercheur en chef de la faction. La plupart du temps, je fais des expériences sur des artefacts, j'étudie des échantillons de tissus de mutants et j'observe les anomalies. Parfois, je collabore avec Novikov pour trouver des applications pratiques aux résultats de mes travaux. En plus, par nécessité, je suis aussi devenu le médecin local. Si tu reviens blessé d'une excursion ou, de préférence, avec un spécimen rare dans ton sac, eh bien, tu sais où me trouver.</text>
+    </string>
+
+    <string id="marsh_stalker_medic_about_people_0">
+        <text>T'en penses quoi, du stalkers ?</text>
+    </string>
+    <string id="marsh_stalker_medic_about_people_1">
+        <text>Beaucoup de gens croient comprendre ce qu'est vraiment la Zone. Malheureusement, ils se plantent tous. Certains pensent que c'est une manifestation du mal pur, d'autres appellent ça un miracle, et certains ne pensent qu'aux richesses qu'ils pourraient en tirer... Ils sont tous aveuglés par leurs préjugés humains. La Zone est un phénomène incompréhensible vu à travers le prisme de la perception humaine. C'est bien trop tôt pour même essayer. Les stalkers comme le gouvernement agissent de façon imprudente par ignorance. Nous aussi, d'ailleurs, on a cru un jour que notre savoir était supérieur à celui des autres, et on l'a payé cher.</text>
+    </string>
+
+    <string id="marsh_stalker_medic_about_zone_0">
+        <text>Qu'est-ce que tu sais sur la Zone ?</text>
+    </string>
+    <string id="marsh_stalker_medic_about_zone_1">
+        <text>Mon gars, ça fait plusieurs années qu'on étudie la Zone, et on est toujours aussi paumés. Je peux te dire une chose : la Zone, c'est pas un phénomène naturel, mais plutôt le résultat... d'une entreprise futile concoctée par des gens trop ambitieux. On peut pas inverser ses effets. La Zone peut pas être détruite, ni disparaître toute seule. En plus, l'expérience nous a appris que toute tentative pour la maîtriser ou la contenir aurait des conséquences catastrophiques. Aujourd'hui, nous, Firmament, on pense qu'y a qu'une seule façon de réconcilier l'homme avec la Zone : la coexistence.</text>
+    </string>
+    <string id="marsh_stalker_medic_about_zone_2">
+        <text>Ça serait plus simple sans les émissions qui ravagent la zone tous les deux ou trois jours. D'ailleurs, c'est quoi qui les provoque, au juste ?</text>
+    </string>
+    <string id="marsh_stalker_medic_about_zone_3">
+        <text>Comment t'expliquer au mieux ? Disons que tout système complexe dans la nature, et ça inclut la Zone, cherche automatiquement l'équilibre en l'absence de facteurs externes déstabilisants. C'était le cas ici il y a quelques années - la Zone était stable et y'avait pas de déviations significatives par rapport à la norme... et maintenant ? Comme tu l'as dit, des émissions dévastatrices balayent régulièrement la Zone. Le système est devenu instable, déformé... une sorte de bug. La Zone crache émission sur émission et se remplit d'énergie à chaque fois, à tel point que les relevés de mes capteurs oscillent à une vitesse incroyable ! Malheureusement, Lebedev et Suslov ont pas réussi à inverser cette tendance de façon permanente, malgré leur sacrifice tragique. La leçon la plus importante dans tout ça, c'est que ce "bug" est pas le fruit de causes naturelles. Tout ça, c'est l'oeuvre des humains.</text>
+    </string>
+	<string id="marsh_stalker_barman_background">
+		<text>Je suis le barman. Je sers à boire, à manger, et je fais tourner la radio. C'est pas un boulot excitant, mais c'est toujours mieux que d'être sur le terrain. Ça fait quelques années que je suis là ; j'étais coincé à l'intérieur des marais quand l'émission a frappé, alors j'étais plus ou moins bloqué ici. J'ai essayé de filer vers le sud comme la plupart des gens, mais j'ai été l'un des rares à pas me faire descendre par les bandits en route. J'ai trouvé cette base et j'ai rejoint Firmament. C'était ça ou crever dans une flaque quelque part. J'ai passé les premières semaines comme troufion à repousser les anarchistes de nos postes de guet, puis j'ai récupéré le job de barman quand Cold a été promu. Naturellement, j'ai accepté - je préfère tirer des verres que des balles. Mais assez parlé ! Et si tu prenais une bonne bière bien fraîche ?</text>
+	</string>
+	<string id="marsh_stalker_trader_background">
+		<text>Spore, c'est mon blaze. J'ai repris ce bizness il y a un an. Je suis venu dans la Zone pour chercher la richesse comme tout le monde et j'suis tombé sur un stalker appelé Nimble. On a découvert qu'on avait pas mal de talents en commun : tous les deux, on a plein de contacts à l'extérieur, on est bons pour faire entrer et sortir des marchandises de la Zone, et pour vendre des infos. Alors quand la résurgence de Monolithe a tout fait dégringoler vers le sud, on a suivi. J'ai réussi à me dégoter un bon job ici après que Nimble m'ait recommandé à Cold. C'était un membre de Firmament à l'époque, tu savais ? Bien sûr, Nimble est remonté vers le Zaton pour aider au Skadovsk, ce dingue, mais il m'a laissé une petite affaire bien rodée ici. Maintenant, j'ai accès à une route de contrebande sans militaires à travers les marais, et Firmament a la primeur de tout ce que je débusque. Va voir Nimble si jamais tu te retrouves au nord de la Barrière. Même maintenant, il doit encore refourguer que les armes et armures les plus rares à ses potes stalkers. Pour le bon prix, il t'équipera avec du matos de ouf dans la Zone.</text>
+	</string>
+	<string id="marsh_stalker_tech_background">
+		<text>Je m'appelle Novikov, mais certains m'appellent Grey. Je suis le technicien qui fait tourner la boutique, et le seul à qui un bon stalker va voir si son flingue s'enraye. J'ai bossé ici il y a longtemps, jusqu'à juste avant que Cold prenne les rênes. Quand tout est parti en couilles, j'ai cherché un endroit plus vert et j'ai été engagé par les scientifiques près de Jupiter. J'y suis resté quelques années, jusqu'au jour où j'ai entendu dire que ces gars-là avaient réussi à s'en sortir, et dès que mon contrat a été terminé, je suis revenu. Ils m'ont repris sans poser de questions ; mes compétences à l'établi et mes contacts chez les scientifiques étaient trop utiles. Je les ai mis en relation avec leurs gars pour qu'on puisse continuer nos anciennes recherches. Si t'es chaud pour le boulot, ils cherchent toujours des guides pour les anomalies locales. Parle à Spore si ça t'intéresse.</text>
+	</string>
+	<string id="marsh_stalker_leader_background">
+		<text>Par où commencer ? On m'appelle Cold par ici. Je suis le chef de Firmament. J'étais l'ancien distributeur de boissons ici, il y a longtemps, jusqu'à ce que je passe le relais à Bibliothécaire quand on a appris ce qui était arrivé à Lebedev, Suslov et le reste de nos commandants. Après de longues et intenses négociations avec la dernière cargaison de vodka de contrebande, les forces locales ont décidé que j'étais le mieux placé pour reprendre les rênes, et je les tiens depuis.</text>
+	</string>
+	<string id="marsh_csky_history_ask1">
+		<text>Parle-moi de Firmament.</text>
+	</string>
+	<string id="marsh_csky_history_ask2">
+		<text>Qu'est-ce que tu veux savoir ?</text>
+	</string>
+	<string id="marsh_csky_history_destroyed1">
+		<text>La faction n'a pas été détruite ?</text>
+	</string>
+	<string id="marsh_csky_history_destroyed2">
+		<text>Presque, mais on a réussi à s'en sortir. Alors que la plupart de nos gars se sont fait décimer à la centrale, y'en avait encore pas mal dans nos autres territoires, qui ont ensuite été coupés du reste de la Zone par les anomalies après l'émission. Quand ceux qui étaient dans les marais à ce moment-là ont réalisé qu'ils étaient presque coincés ici sans issue facile, tout est parti en couilles. Des stalkers honnêtes sont devenus bandits du jour au lendemain, tandis que les autres ont essayé de fuir vers notre base ou de vivre des mutants de la zone. On en a pris beaucoup, et nos réserves de nourriture ont assuré leur loyauté. Au bout d'un moment, il est devenu évident qu'on avait besoin d'un nouveau chef. J'ai pris le fardeau et j'ai demandé à notre Bibliothécaire de tenir le bar à ma place ; il s'était fait un sacré nom depuis peu. Après quelques mois de raids en représailles avec les bandits, on a réussi à en virer la plupart, mais ça a pas empêché l'armée de penser qu'elle devait finir le boulot. Même maintenant, ils ont toujours leur oiseau qui surveille les zones qu'ils ont prises.</text>
+	</string>
+	<string id="marsh_csky_history_goal1">
+		<text>C'est quoi ton objectif actuel ?</text>
+	</string>
+	<string id="marsh_csky_history_goal2">
+		<text>Le truc, c'est qu'on a pas un seul objectif. Le pauvre Lebedev était un homme ambitieux. Il pensait qu'on pouvait découvrir tous les sales petits secrets de la Zone et utiliser ces connaissances pour la dompter ou la contenir. Ça a pas vraiment marché, hein. Aujourd'hui, on fait à peu près les mêmes trucs qu'avant. On chasse les mutants, on collecte des artefacts et on fait des recherches dessus. On a même eu le soutien de l'ONU pour mener nos propres recherches pendant l'Âge d'Or de la Zone. On a eu des armes, du matériel de recherche et même des conseils de leurs scientifiques et des Écologistes locaux pour nous aider dans notre quête pour percer les secrets de la Zone. Grâce à ça, de temps en temps, on récupère des documents intéressants dans les vieux labos souterrains. Mais on s'engage pas dans des guerres de territoire avec les autres factions et on prévoit certainement pas une autre campagne audacieuse au coeur de la Zone dans un avenir proche. Contrairement à Devoir, on essaie pas de la détruire, et on veut pas non plus en faire un parc d'attractions comme les gars de Liberté. Pour l'instant, on coexiste. Mieux vaut rester discrets, comme au bon vieux temps avant le raid final, surtout en ces temps difficiles depuis que Monolithe est de retour... C'est plus l'Âge d'Or de la Zone, l'ONU se retire petit à petit et les SMP locales sont mises à mal par cette nouvelle menace. Y'a même des rumeurs sur un nouveau culte encore plus taré que Monolithe. Mais honnêtement, on est loin de tous ces problèmes. Mieux vaut rester discrets, comme je disais.</text>
+	</string>
+	<string id="marsh_csky_history_goal3">
+		<text>Alors, les membres de Firmament font à peu près ce qu'ils veulent maintenant ?</text>
+	</string>
+	<string id="marsh_csky_history_goal4">
+		<text>D'une certaine manière, oui. On est tous des gens qui partagent les mêmes idées et les mêmes centres d'intérêt, alors les gars s'occupent de leurs tâches sans que j'aie besoin de leur dire quoi faire tout le temps. Ça marche plutôt bien pour nous jusqu'à présent.</text>
+	</string>
+	
+	<string id="cit_doctor_health_care_0">
+		<text>Docteur, j'ai besoin de soins.</text>
+	</string>
+	<string id="cit_doctor_health_care_1">
+		<text>Je vois. Approche, je vais t'examiner.</text>
+	</string>
+	<string id="cit_doctor_health_care_11">
+		<text>C'est si grave que ça ?</text>
+	</string>
+	<string id="cit_doctor_health_care_111">
+		<text>On dirait que t'as besoin de soins. Je peux pas enlever la radioactivité, mais je vais m'occuper de tes blessures.</text>
+	</string>
+	<string id="cit_doctor_health_care_112">
+		<text>Aucune blessure ni radiation, on dirait. Tout va bien, gamin.</text>
+	</string>
+	<string id="cit_doctor_health_care_1111">
+		<text>D'accord, doc. Aide-moi, s'il te plaît.</text>
+	</string>
+	<string id="cit_doctor_health_care_1112">
+		<text>Merci pour l'aide.</text>
+	</string>
+	<string id="cit_doctor_health_care_11111">
+		<text>Un instant, s'il te plaît... Tout devrait être bon maintenant. Tu peux y aller.</text>
+	</string>
+	
+	
+	
+	<string id="st_psd_end_1">
+		<text>Enfin c'est fini, on va nettoyer ce bordel et après on se repose un peu. Merci pour ton aide, stalker.</text>
+	</string>
+	<string id="st_psd_end_2">
+		<text>Putain, le boss a clamsé, je prends le relais. Merci pour ton aide, stalker.</text>
+	</string>
+	<string id="st_psd_intro">
+		<text>Fais gaffe, y'a quelqu'un qui arrive par là ! ...Bon, c'est pas un bandit. Stalker, si t'as quelque chose à faire ici, magne-toi, ça va péter d'une minute à l'autre.</text>
+	</string>
+	<string id="st_psd_start">
+		<text>C'est parti ! Tout le monde en position, ils arrivent !</text>
+	</string>
+	<string id="st_psd_warning">
+		<text>Si tu vas trop loin, les stalkers de Firmament pourraient croire que tu te tires.</text>
+	</string>
+	<string id="st_psd_escape">
+		<text>T'as filé en laissant Firmament se démerder seul contre les bandits.</text>
+	</string>
+	
+	
+	<string id="st_psd_stage_0"><text>Atteins la station de pompage.</text></string>
+	<string id="st_psd_stage_1"><text>Parle au commandant des gardes.</text></string>
+	<string id="st_psd_stage_2"><text>Prends la position du sniper tombé.</text></string>
+	<string id="st_psd_stage_3"><text>Survis !</text></string>
+	<string id="st_psd_stage_5"><text>Fais ton rapport au commandant.</text></string>
+	<string id="st_psd_stage_6"><text>Retourne voir Cold pour la récompense.</text></string>
+	
+
+	<string id="st_psd_dialog_1"><text>Bouge-toi, stalker, ça va bientôt être le bordel ici.</text></string>
+	<string id="st_psd_dialog_2"><text>Cold m'a envoyé pour aider contre les bandits.</text></string>
+	<string id="st_psd_dialog_3"><text>Super, on a vraiment besoin de toute l'aide possible. Notre sniper s'est fait buter pendant la dernière attaque, on a besoin de quelqu'un là-haut pour faire sauter des têtes.</text></string>
+	<string id="st_psd_dialog_4"><text>Bon, je monte.</text></string>
+	<string id="st_psd_dialog_5"><text>Merci pour l'avertissement, je me casse.</text></string>
+	<string id="st_psd_dialog_6"><text>Alors ?</text></string>
+	<string id="st_psd_dialog_7"><text>J'arrive, je prépare juste mon matos.</text></string>
+	<string id="st_psd_dialog_8"><text>Voilà, c'est tout pour aujourd'hui, ton aide a été cruciale. À plus.</text></string>
+	<string id="st_psd_dialog_9"><text>Bon, salut.</text></string>
+	<string id="st_psd_dialog_10"><text>Je voulais devenir le commandant de l'équipe d'assaut, mais pas comme ça...</text></string>
+	<string id="st_psd_dialog_11"><text>Quelle poisse.</text></string>
+	
+</string_table>

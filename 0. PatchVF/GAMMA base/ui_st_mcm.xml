@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!-- 
+	Anomaly Mod Configuration Menu strings
+	
+-->
+
+<string_table>
+
+	<string id="ui_mcm_desc_mcm">
+		<text>Bienvenue dans Anomaly Mod Configuration Menu. En soi, le MCM ne fait rien. Il offre un espace permettant à d'autres mods ou addons d'afficher une interface de paramètres.
+		\nSur la gauche, vous trouverez une liste des mods/extensions utilisant MCM pour ce faire.</text>
+	</string>
+	<string id="ui_mcm_desc_mcm2">
+		<text>Les bugs liés au MCM ou les plantages mentionnant ui_mcm.script dans le journal sont très probablement causés par l'un des mods/modules complémentaires utilisant le MCM et doivent être signalés à l'auteur de ce mod/module. </text>
+	</string>
+	<string id="ui_mm_menu_mcm">
+		<text>Menu de configuration de Mod Configuration Menu</text>
+	</string>
+
+	<string id="ui_mcm_menu_mcm">
+		<text>MCM</text>
+	</string>
+	<string id="ui_mcm_menu_mcm_about">
+		<text>À propos</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_about_dxml">
+		<text>Noms en anglais forcés pour les modules</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_about_dxml_desc">
+		<text>Ce paramètre ne produit aucun effet lorsque la langue n'est pas définie sur le russe.</text>
+	</string>
+
+
+	<string id="ui_mcm_menu_mcm_log">
+		<text>Journalisation</text>
+	</string>
+	<string id="ui_mcm_mcm_desc_log">
+		<text>Il s'agit d'un utilitaire destiné aux créateurs d'extensions leur permettant de déplacer leurs journaux hors du fichier xray.log et de la console du jeu.
+		\nÉtant donné que je prends en compte vos préoccupations concernant le lag et les cycles d'écriture sur les SSD, j'ai mis à votre disposition des paramètres permettant d'ajuster le comportement des journaux.
+		\nLes journaux seront nommés d'après le script qui les crée et le numéro d'identification de la session MCM. Ils seront générés dans appdata/logs/mcm/.</text>
+	</string>
+
+	<string id="ui_mcm_mcm_mcm_log_enable">
+		<text>Activer l'utilitaire de journalisation MCM</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_enable_desc">
+		<text>Décocher cette option empêchera la création ou la mise à jour de nouveaux journaux. (Notez que les modifications peuvent ne prendre effet qu'après le chargement d'une nouvelle partie sauvegardée.)</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_numlogs">
+		<text>Nombre de sessions de journal à conserver</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_numlogs_desc">
+		<text>Lorsque le nombre de journaux créés par un script dépasse ce nombre, les journaux les plus anciens seront supprimés. (Notez que la suppression des journaux n'aura pas lieu en cas de plantage du jeu.)</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_continuous">
+		<text>Autoriser les écritures continues dans les fichiers</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_continuous_desc">
+		<text>Les fichiers journaux sont normalement mis à jour par lots. Cela peut entraîner la perte de certaines informations en cas de plantage du jeu. Un développeur de module complémentaire peut vous demander de cocher cette case afin de permettre la mise à jour immédiate de son journal.</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_savefreq">
+		<text>Intervalle entre les sauvegardes automatiques du journal (ms)</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_savefreq_desc">
+		<text>Quelle que soit la configuration définie ici, les journaux seront toujours enregistrés lors de l'accès à divers écrans d'interface utilisateur et lors de la sauvegarde/chargement de parties.</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_timestamp">
+		<text>Fréquence des horodatages dans le journal Xray</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_timestamp_desc">
+		<text>Le MCM ajoute un horodatage au journal xray afin de faciliter la coordination des événements entre les journaux MCM et le journal xray. Il s'agit de l'intervalle de temps minimal entre ces horodatages. Si rien d'autre n'est affiché dans la console, le MCM n'ajoutera pas non plus d'horodatage.</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_debug_logging2">
+		<text>Activer la journalisation de débogage</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_debug_logging2_desc">
+		<text>Cette option active le débogage intégré du MCM et doit être activée avant de signaler des bugs liés au MCM. D'autres modules complémentaires peuvent également utiliser ce paramètre pour activer leur propre journalisation.</text>
+	</string>
+
+
+	<string id="ui_mcm_menu_mcm_kb">
+		<text>Touches MCM</text>
+	</string>
+	<string id="ui_mcm_menu_mcm_kb_main">
+		<text>Principal</text>
+	</string>
+
+	<string id="ui_mcm_mcm_desc_kb">
+		<text>Les combinaisons de touches MCM fonctionnent « à la manière de Minecraft » : cliquez sur la case, puis appuyez sur une touche. Un clic ou la touche Échap annulera l'opération.
+		\nSi la touche affichée ne correspond pas à celle que vous avez pressée, ou si le MCM semble ignorer certaines touches, il est probable que vous deviez modifier le fichier mcm_key_localization.ltx pour refléter la disposition de votre clavier.
+		\nLes touches assignées à plus d'une combinaison de touches MCM ou à une combinaison de touches du moteur seront mises en évidence en rouge.</text>
+	</string>
+	<string id="ui_mcm_mcm_desc_kb2">
+		<text>Quelques notes concernant la coloration rouge des touches en conflit.
+		\n1. Cela peut ne pas avoir d'importance. Si les touches sont utilisées dans deux interfaces différentes ou si une combinaison de touches ne se déclenche qu'en maintenant également la touche Maj, le fait qu'une touche soit utilisée deux fois n'a pas d'incidence.
+		\n2. Le MCM ne sait pas comment un addon peut utiliser une touche. C'EST À VOUS de comprendre comment un addon utilise une touche pour déterminer si un conflit est pertinent.
+		\n3. Pour une modification en attente unique, la couleur se met à jour correctement. En revanche, pour plusieurs modifications en attente, cela peut ne pas être le cas. Appliquez vos modifications et rouvrez le MCM pour vérifier l'état correct des conflits.</text>
+	</string>
+
+	<string id="ui_mcm_mcm_mcm_kb_mcm_kb_main_presstime">
+		<text>Multiplicateur d'appui long</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_kb_mcm_kb_main_presstime_desc">
+		<text>Multiplicateur appliqué à la fenêtre de double appui pour déterminer la durée pendant laquelle une touche doit être maintenue enfoncée afin d'être considérée comme un appui long. S'applique uniquement aux modules complémentaires utilisant le MCM pour identifier les appuis longs.</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_kb_mcm_kb_main_dtaptime2">
+		<text>Fenêtre à double appui</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_kb_mcm_kb_main_dtaptime2_desc">
+		<text>Intervalle de temps nécessaire entre un premier et un second appui sur une touche pour que cela soit considéré comme un double appui. S'applique uniquement aux modules complémentaires utilisant le MCM pour identifier les doubles appuis. Ce délai peut affecter le temps de réponse de certaines actions à appui unique et doit donc être réglé aussi court que possible.</text>
+	</string>
+
+	<string id="ui_mcm_menu_mcm_all_kb">
+		<text>Toutes les touches</text>
+	</string>
+	<string id="ui_mcm_mcm_desc_kb_all">
+		<text>Ce panneau regroupe toutes les combinaisons de touches MCM en un seul endroit, dans le même ordre que les extensions qui les ajoutent apparaissent sur la gauche.
+		\nCependant, cette liste ne peut inclure les paramètres supplémentaires du panneau de l'extension qui pourraient affecter le comportement de cette touche.
+		\nVeuillez toujours consulter le panneau de l'extension d'où provient la combinaison de touches, ainsi que la documentation de cette extension. </text>
+	</string>
+	<string id="ui_mcm_mcm_desc_kb_all2">
+		<text>Les modifications en attente sur d'autres panneaux ne seront pas reflétées sur ce panneau, et inversement, les paramètres en attente sur ce panneau ne seront pas reflétés sur les autres.
+		\nAppliquez vos modifications avant et après l'utilisation de ce panneau. Ne pas le faire pourrait entraîner un comportement indésirable.
+		\n\nQuelques notes concernant la coloration rouge des touches en conflit.
+		\n1. Cela peut ne pas avoir d'importance. Si les touches sont utilisées dans deux interfaces différentes ou si une combinaison de touches ne se déclenche qu'en maintenant également la touche Maj, le fait qu'une touche soit utilisée deux fois n'a pas d'incidence.
+		\n2. Le MCM ne sait pas ce qu'un module complémentaire peut faire avec une touche. C'EST À VOUS de comprendre comment un module utilise une touche pour savoir si un conflit est pertinent.
+		\n3. Pour une modification en attente unique, la couleur se met à jour correctement. En revanche, pour plusieurs modifications en attente, cela peut ne pas être le cas. Appliquez vos modifications et rouvrez le MCM pour vérifier l'état correct des conflits.</text>
+	</string>
+	<string id="ui_mcm_menu_mcm_kb_conflicts">
+		<text>Conflits de touches</text>
+	</string>
+	<string id="ui_mcm_mcm_desc_kb_conflicts">
+		<text>Ce panneau regroupe toutes les combinaisons de touches MCM marquées comme étant en conflit en un seul endroit, triées par touche.
+		\nSi une touche n'apparaît qu'une seule fois dans cette liste, il est probable qu'elle soit en conflit avec une combinaison de touches du moteur. Celles-ci sont répertoriées dans les options normales d'Anomaly.
+		\nCependant, cette liste ne peut inclure les paramètres supplémentaires du panneau de l'extension qui pourraient affecter le comportement de cette touche.
+		\nVeuillez toujours consulter le panneau de l'extension d'où provient la combinaison de touches, ainsi que la documentation de cette extension. </text>
+	</string>
+
+	
+	
+	<string id="ui_mcm_mcm_kb_modifier">
+		<text>Avec touche modificatrice</text>
+	</string>
+	<string id="ui_mcm_mcm_kb_modifier_desc">
+		<text>La combinaison de touches ci-dessus ne s'activera que si cette touche est également maintenue enfoncée.</text>
+	</string>
+
+	<string id="ui_mcm_lst_mcm_kb_mod_none">
+		<text>Aucun modificateur</text>
+	</string>
+	<string id="ui_mcm_lst_mcm_kb_mod_ctrl">
+		<text>Touche Ctrl</text>
+	</string>
+	<string id="ui_mcm_lst_mcm_kb_mod_shift">
+		<text>Touche Maj</text>
+	</string>
+	<string id="ui_mcm_lst_mcm_kb_mod_alt">
+		<text>Touche Alt</text>
+	</string>
+
+
+
+	
+	<string id="ui_mcm_mcm_kb_mode">
+		<text>Mode saisie</text>
+	</string>
+	<string id="ui_mcm_mcm_kb_mode_desc">
+		<text>La combinaison de touches ci-dessus s'activera si la touche est saisie de cette manière.</text>
+	</string>
+	
+	<string id="ui_mcm_lst_mcm_kb_mode_press">
+		<text>Appui simple</text>
+	</string>
+	<string id="ui_mcm_lst_mcm_kb_mode_dtap">
+		<text>Double appui</text>
+	</string>
+	<string id="ui_mcm_lst_mcm_kb_mode_hold">
+		<text>Appui long</text>
+	</string>
+	
+	<string id="ui_mcm_menu_search">
+		<text>Rechercher...</text>
+	</string>
+
+	<string id="ui_mcm_menu_search_clear">
+		<text>Clic droit pour effacer</text>
+	</string>
+
+
+
+
+</string_table>
+
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+			<string id="st_wpn_winchester1873">
+		<text>Winchester Model 1873</text>
+	</string>
+	<string id="st_wpn_winchester1873_descr">
+		<text>Le fusil à levier Winchester 1873, souvent surnommé « L'arme qui a conquis l'Ouest », est une arme historique et emblématique introduite en 1873 par le Fabricant Winchester Repeating Arms Company. Réputé pour sa fiabilité et son innovation, ce fusil a joué un rôle significatif sur la frontière américaine et au-delà. Chambré dans divers calibres populaires de l'époque, tels que le .44-40 et le .38-40, il se distinguait par son mécanisme à levier caractéristique, permettant un rechargement rapide et efficace, ce qui en a fait un favori parmi les cow-boys, les représentants de la loi et les hors-la-loi. Son design élégant, son action fluide et sa durabilité remarquable ont contribué à son statut légendaire, en faisant aujourd'hui un objet de collection prisé. Le fusil à levier Winchester 1873 symbolise l'esprit de l'Ouest sauvage et reste un symbole durable de l'histoire des armes à feu américaines. Adapté pour utiliser à la fois des munitions de .357 et une lunette moderne afin d'en faciliter l'utilisation.
+		\n \n</text>
+	</string>
+</string_table>

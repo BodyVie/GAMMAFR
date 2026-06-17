@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Artefacts (active)
+-->
+
+<string_table>
+	<string id="st_af_itcher_name">
+		<text>Itcher</text>
+	</string>  
+	<string id="st_af_itcher_descr">
+		<text>
+		Formation d'origine thermique. Le Itcher se compose de deux couches distinctes. La surface est une roche métamorphique dure et dense, couverte de profondes cicatrices sur l'ensemble du corps. Complètement inactive et ne présentant aucune propriété notable. En revanche, le noyau mou et luminescent de couleur jaune est d'une nature organique inconnue. Il absorbe activement l'excès de chaleur et reste constamment froid.
+		\nCependant, il n'est pas recommandé de s'approcher des anomalies chimiques et acides en possession de cet artefact, car il amplifiera les effets néfastes des acides et des toxines dans le sang de l'utilisateur.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string> 
+
+	<string id="st_af_pin_name">
+		<text>Épingle</text>
+	</string>  
+	<string id="st_af_pin_descr">
+		<text>
+		Un petit artefact formé par des anomalies thermiques dans la Zone sous des températures extrêmes. L'apparence de cet artefact suggère qu'il s'agissait d'un organe d'une plante vasculaire. Des études ultérieures ont révélé que d'autres tissus organiques sont fusionnés en profondeur.
+		\nLa tige ne possède aucune propriété utile. Au contraire, les petits épingles réduisent la température du corps de l'utilisateur et refroidissent tous les objets dans leur voisinage.
+		\nCet artefact offre une légère protection psychique en entrant en résonance sous l'influence des ondes psychiques. En revanche, il n'est pas recommandé de s'approcher d'anomalies chimiques ou acides en possession de cet artefact, car il augmente les effets néfastes des acides et des toxines dans le sang de l'utilisateur.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>  
+	
+	<string id="st_af_cristall_name">
+		<text>Crystal</text>
+	</string>
+	<string id="st_af_cristall_descr">
+		<text>
+		Cet artefact se forme dans les zones anomales présentant une activité thermique intense. Il absorbe activement l'excès de chaleur et reste en permanence froid.
+		\nIl protège également l'utilisateur contre les courants électriques. En revanche, l'exposition à de tels environnements amène le artefact à augmenter la conductivité en raison d'un mécanisme encore inconnu. Pour cette raison, il est nécessaire de peser le pour et le contre du Crystals lorsqu'on se trouve à proximité de zones à haute conductivité.
+		\nCe artefact est également très prisé par les joailliers en dehors de la Zone, car son coeur interne n’est pas radioactif et est considéré comme d’une beauté exceptionnelle une fois poli et raffiné. Seuls les premiers 1 cm de sa couche externe émettent des radiations.
+		\nIl est cependant fortement recommandé de faire preuve de prudence lors de la mise sur le marché de cet artefact, car une exposition prolongée, même à des quantités minimales de matériaux radioactifs, peut entraîner la mort de l'utilisateur. Recouvert d'une couche très dure. Relativement lourd en raison de sa densité élevée.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>
+	
+	<string id="st_af_fireball_name">
+		<text>Boule de feu</text>
+	</string>
+	<string id="st_af_fireball_descr">
+		<text>
+		Il s'agit d'un artefact sphérique en cristal rouge, créé dans l'anomalie Brûleur.
+		\nIl possède une propriété unique : sa température reste constante à 75 degrés Fahrenheit (24 degrés Celsius), indépendamment de son environnement. Cela lui permet d'absorber la chaleur de son voisinage et de créer une petite poche autour de l'utilisateur, empêchant les flammes d'endommager le corps.
+		\nUn effet dangereux de cet artefact est qu'il augmente la conductivité électrique, ce qui accroît considérablement la probabilité d'électrocution lors de son port, en particulier pendant les orages et à proximité d'anomalies électriques. Il est par ailleurs assez lourd en raison de la haute densité du matériau cristallin qui le compose.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>
+	
+	<string id="st_af_blood_name">
+		<text>Sang de Pierre</text>
+	</string>
+	<string id="st_af_blood_descr">
+		<text>
+		Formation rougeâtre composée de plantes fossilisées compressées, de terre et de débris animaux. Elle peut neutraliser partiellement les poisons chimiques en les absorbant et en réduisant le niveau global de toxicité dans le sang de l'utilisateur. Assez répandue et peu efficace, car elle provoque la suppuration des brûlures chimiques. Elle s'enflamme au contact d'une flamme nue ou peut même s'enflammer spontanément. 
+		\nUn autre effet positif de cet artefact est qu'il accélère la coagulation lorsqu'il est porté près du corps. Toutefois, il n'est pas recommandé de conserver cet artefact en sa possession pendant de longues périodes, car les caillots sanguins peuvent présenter un danger pour la santé.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>
+	
+	<string id="st_af_mincer_meat_name">
+		<text>Morceau de Viande</text>
+	</string>
+	<string id="st_af_mincer_meat_descr">
+		<text>
+		Cet artefact présente une texture poreuse et souple, semblable à de la peau, et serait capable de se comprimer. Il ressemble et se comporte comme une éponge à cet égard, mais ne révèle ses caractéristiques spéciales qu'en présence de certaines conditions externes.
+		\nTout d'abord, pour prolonger la métaphore de l'éponge, les pores à sa surface sont connus pour absorber de faibles quantités de toxicité provenant de l'environnement.
+		\nEn second lieu, le artefact amplifie légèrement les effets dommageables des champs psy sur les organismes vivants en absorbant l’énergie psy et en l’émettant à un faible débit.
+		\nTroisièmement, le Morceau de Viande est également connu pour être un conducteur d'électricité, tout comme la peau d'une créature vivante.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>
+	
+	<string id="st_af_bracelet_name">
+		<text>Bracelet</text>
+	</string>  
+	<string id="st_af_bracelet_descr">
+		<text>
+		Le Bracelet se forme à partir d'espèces communes de bryophytes exposées à une forte irradiation radioactive et à des anomalies chimiques, ce qui explique sa nature organique.
+		\nIl assure une protection substantielle contre tous les types d'acides en augmentant progressivement leur pH jusqu'au niveau de l'eau (pH de 7).
+		\nLorsqu'il est porté, l'artefact est également connu pour atténuer légèrement les effets nocifs des anomalies psychiques ou des ondes psychiques émises par certains mutants.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>  
+	
+	<string id="st_af_baloon_name">
+		<text>Bulle</text>
+	</string>
+	<string id="st_af_baloon_descr">
+		<text>
+		Composé de plusieurs formations organiques creuses, cet artefact émet une substance gazeuse capable de neutraliser les particules chimiques ou toxiques à l'intérieur du corps sans lui causer de dommages. Il offre ainsi un niveau élevé de protection contre les toxines et les produits chimiques.
+		\nIl possède également une température constante, indépendamment de son environnement. Cela lui permet d'absorber la chaleur aux alentours et de créer une petite poche autour de l'utilisateur qui empêche les flammes d'endommager le corps. 
+		\nCependant, cette Bulle présente également de nombreuses propriétés négatives. Par exemple, elle amplifie considérablement les effets des ondes psychiques ainsi que les champs produits par les mutants et les anomalies. Cet inconvénient ne doit pas être pris à la légère : certains stalkers ont rapporté que l'influence psychique était si puissante en présence d'une Bulle qu'ils sentaient leur tête se fendre de l'intérieur, et la seule chose qu'ils pouvaient faire était de hurler de douleur et de courir aussi loin que possible. 
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>
+	
+	<string id="st_af_electra_sparkler_name">
+		<text>Étincelle</text>
+	</string>
+	<string id="st_af_electra_sparkler_descr">
+		<text>
+		Cet artefact présente l'apparence de toiles d'araignée translucides. Tout comme la soie d'araignée protéinée, il est collant et possède des propriétés adhésives.
+		\nOn le trouve le plus communément dans ou à proximité des anomalies électro, et il semble avoir absorbé certaines de leurs caractéristiques : il est capable d'atténuer les fluctuations de la densité du champ électrique et agit comme une résistance faible, protégeant le porteur de l'électricité et réduisant ses effets dommageables.
+		\nD'autre part, il faut noter que la présence de ce artefact augmente la corrosivité des acides, entraînant une détérioration accélérée de l'équipement et des dommages plus importants aux tissus de tout organisme vivant.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>
+	
+	<string id="st_af_sponge_name">
+		<text>Éponge</text>
+	</string>  
+	<string id="st_af_sponge_descr">
+		<text>
+		L'Éponge a toujours fait l'objet de débats parmi les Scientifiques. Certains suggèrent que cet artefact dérive d'une forme de base d'organismes, tandis que d'autres pensent qu'il s'agit d'une forme de vie avancée dotée d'une conscience héritée d'êtres vivants.
+		\nEn dépit des théories entourant le artefact, tous s’accordent sur un point : il bouge. L’éponge tente parfois de « saisir » un objet qu’elle touche. La mettre dans un récipient peut s’avérer une tâche difficile, comme si elle voulait s’échapper.
+		\nCet artefact agit comme une puissante résistance et absorbe même des doses mortelles d'électricité. En revanche, il s'enflammera au contact d'une flamme nue ou pourra même s'enflammer spontanément.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string> 
+	
+	<string id="st_af_ring_name">
+		<text>Anneau</text>
+	</string>  
+	<string id="st_af_ring_descr">
+		<text>
+		Un artefact de très petite taille et de nature électrique. Difficile à repérer. Il se compose de deux matériaux en forme d'anneau d'origine organique, d'où son nom.
+		Lorsque l'Anneau tourne, il ne s'arrête jamais, défiant la première loi de la thermodynamique. Les scientifiques suggèrent que cet artefact hérite des propriétés gravitationnelles des anomalies de Vortex.
+		\nL'anneau extérieur possède une conductivité élevée. Il absorbe le courant électrique provenant de sources relatives, puis le dirige vers l'anneau intérieur. Malgré cette fonction de base, le mécanisme derrière la disparition de l'énergie électrique à l'intérieur du second anneau reste inconnu.
+		\nDe l'autre côté, l'Anneau est inflammable. Une exposition prolongée peut accroître sa inflammabilité et provoquer son inflammation.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string> 
+	
+	<string id="st_af_electra_flash_name">
+		<text>Éclair</text>
+	</string>
+	<string id="st_af_electra_flash_descr">
+		<text>
+		Cet artefact ressemble fortement à Clair de lune et évoque une sphère à plasma ou une lampe à plasma.
+		\nPuissant résistance, il est réputé pour sa capacité à protéger son utilisateur des doses létales d'électricité.
+		\nPorté, il est connu pour atténuer légèrement les effets nocifs des anomalies psychiques ou des ondes psychiques émises par certains mutants. L'Éclair agit comme une puissante résistance et absorbe même des doses mortelles d'électricité.
+		\nCependant, il entrave également le processus de guérison, une prudence est donc recommandée, en particulier lorsque vous êtes blessé ou en train de saigner. Ce artefact est également extrêmement léger et très portable.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>
+	
+	<string id="st_af_cristall_flower_name">
+		<text>Fleur de Pierre</text>
+	</string>
+	<string id="st_af_cristall_flower_descr">
+		<text>
+		Cet artefact ressemble à du fromage fondu parsemé de pierres semblables à des saphirs. Seule la coquille externe jaune de l'artefact semble émettre des radiations. Grâce à un traitement minutieux, il est possible d'extraire les parties bleues non radioactives pour les utiliser en joaillerie et à d'autres fins industrielles. Cela s'explique par le fait qu'une fois nettoyées et polies correctement, ces pierres deviennent aussi dures et résistantes que ce magnifique gemme. Leur qualité et leur apparence en font des pierres précieuses idéales, et les joailliers du monde entier cherchent à en avoir en stock. 
+		\nL'utilité de cet artefact ne se limite cependant pas à ses applications industrielles. Des preuves scientifiques suggèrent que les pierres semblables au saphir protègent efficacement contre les ondes psychiques, tandis que la coquille externe augmente légèrement la résistance à la toxicité.
+		\nCependant, il peut provoquer l'échauffement des objets à proximité et, dans des cas extrêmes, leur inflammation ainsi que celle du artefact. Pour cette raison, il est sûr de conclure qu'il absorbe la chaleur et est capable de la transmettre à d'autres objets.
+		\nEn raison de sa densité, le poids de artefact a augmenté au-delà des normes habituelles, ce qui en fait l'une des créations anomales les plus lourdes du Zone.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>
+	
+	<string id="st_af_lobster_eyes_name">
+		<text>Yeux de Homard</text>
+	</string>  
+	<string id="st_af_lobster_eyes_descr">
+		<text>
+		Comme son nom l'indique, cet artefact a la forme de deux oeufs fusionnés. La surface externe est très épaisse, et la densité élevée de sa structure pourrait expliquer sa couleur profonde.
+		\nCet artefact offre une protection psychique légèrement supérieure à celle de sa cousine, la Fleur de Pierre. Il entre en résonance sous l'influence des ondes psychiques et absorbe partiellement leurs effets dangereux.
+		\nUne autre propriété positive est la capacité à absorber l'excès de chaleur tout en restant constamment frais.
+		\nEn raison de la densité de sa surface, le Yeux de Homard est assez lourd.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string> 
+	
+	<string id="st_af_electra_moonlight_name">
+		<text>Clair de lune</text>
+	</string>
+	<string id="st_af_electra_moonlight_descr">
+		<text>
+		Cet artefact électrostatique unique peut entrer en résonance sous l'influence des ondes psychiques. Les Stalkers ont appris à ajuster finement le artefact afin qu'il résonne en opposition de phase par rapport à la source principale d'émissions, neutralisant ainsi significativement leurs effets. Cette sphère d'une beauté remarquable augmente également la protection électrique en réduisant la conductivité corporelle lorsqu'elle est exposée à des niveaux élevés d'électricité.
+		\nIl est à noter que le Clair de lune s'enflamme au contact d'une flamme nue ou peut même s'enflammer spontanément. 
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>
+	
+	<string id="st_af_black_spray_name">
+		<text>Peinture Noire</text>
+	</string>  
+	<string id="st_af_black_spray_descr">
+		<text>
+		artefact rare, ses propriétés et origines restent peu connues. 
+		\nLa Peinture Noire partage une forme similaire à d'autres artefacts semblables au saphir. Cependant, la nature organique de la tige (qui présente des propriétés similaires à celles des Épingles artefacts) suggère qu'elle se forme à partir de plantes vasculaires exposées à des champs psychiques dangereux et à des ondes électromagnétiques.
+		\nUne autre propriété unique de cet artefact réside dans sa capacité à retarder la transmission de la lumière qui le pénètre. Ce mécanisme mystérieux s'applique également aux ondes psychiques environnant le artefact. Pour cette raison précise, la Peinture Noire neutralise significativement les interférences psychiques dans un large rayon.
+		\nCes propriétés bénéfiques ont cependant un prix. Cet artefact est extrêmement dangereux lorsqu'il est exposé à des environnements toxiques, car il amplifie leur effet et augmente leur puissance. Il est donc fortement recommandé de conserver le artefact dans votre sac à dos lors de l'exploration de zones toxiques.
+		\nEn raison de la belle aura bleue qu'il émet, il est très prisé par les joailliers du monde entier.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>  
+	
+	<string id="st_af_medusa_name">
+		<text>Méduse</text>
+	</string>
+	<string id="st_af_medusa_descr">
+		<text>
+		Très commun dans la Zone. Cet artefact gravitationnel est capable de protéger légèrement le corps et les objets contre les impacts physiques.
+		\nIl protège légèrement son utilisateur contre la chaleur extrême produite respectivement par les anomalies de feu.
+		\nCe artefact est assez lourd, car le champ gravitationnel semble augmenter la masse. Un autre inconvénient de ce artefact est qu'il accroît les effets négatifs des ondes psy et constitue un conducteur puissant.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>
+	
+	<string id="st_af_vyvert_name">
+		<text>Tordu</text>
+	</string>
+	<string id="st_af_vyvert_descr">
+		<text>
+		Ce artefact de forme étrange apparaît dans les zones où l'activité gravitationnelle est accrue.
+		\nBien qu'il paraisse presque organique, il ressemble en réalité davantage à du corail. En raison de sa nature gravitationnelle, il assure une protection contre les impacts physiques en réduisant considérablement les frottements causés par les objets se déplaçant à grande vitesse.
+		\nAgissant comme une sorte d'éponge qui absorbe également les éléments chimiques et toxiques, ce artefact assure une protection contre les agents toxiques externes ainsi que contre les particules chimiques ayant déjà pénétré dans l'organisme.
+		\nLe Tordu peut générer un champ gravitationnel localisé qui augmente sa masse. Pour cette raison, cet artefact est lourd.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>
+	
+	<string id="st_af_empty_name">
+		<text>Vide</text>
+	</string>  
+	<string id="st_af_empty_descr">
+		<text>
+		Deux disques de formation organique (généralement composés de lipides, de cellulose et de lignine) séparés uniquement par un espace vide. Cela est dû à un champ gravitationnel unique formé au centre, qui stabilise la distance entre les disques.
+		\nToute tentative de presser les disques l'un contre l'autre ou de les écarter échouera en raison de changements rapides positifs/négatifs dans le champ gravitationnel. Comme si le artefact réagissait à toute force physique qui rompt son équilibre.
+		\nEn raison de ce mécanisme, se déplacer avec un Vide est une tâche difficile. Le champ gravitationnel augmente la densité de l'air environnant et ralentit le corps.
+		\nL'utilité réelle de cet effet réside dans sa capacité à réduire les frottements, offrant ainsi une excellente protection contre les impacts physiques.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string> 
+ 	
+	<string id="st_af_full_empty_name">
+		<text>Vide Absolu</text>
+	</string>  
+	<string id="st_af_full_empty_descr">
+		<text>
+		Similaire au Vide, cet artefact se compose de deux disques de formation organique reliés par un champ gravitationnel unique entre eux. Cependant, ledit champ dans le Vide Absolu est extraordinaire : tous les atomes pénétrant en son centre, quelle que soit leur nature, deviennent interactifs sous les effets inconnus du champ, libérant ainsi des photons (émission de lumière).
+		\nLes scientifiques désignent généralement cet effet sous le nom d'« effet galaxie », qui confère à l'artefact une orbite lumineuse exceptionnelle.
+		\nL'augmentation de la densité de l'air environnant causée par le mouvement est plus élevée comparée à celle de Vide. De ce fait, le artefact entravera grandement les mouvements de son porteur.
+		\nÉtant un artefact supérieur au Vide, la protection contre les impacts physiques est remarquable. Certains affirment que le Vide Absolu est capable d'arrêter des balles de 9 mm tirées à bout portant.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string> 
+	
+	<string id="st_af_night_star_name">
+		<text>Étoile de nuit</text>
+	</string>
+	<string id="st_af_night_star_descr">
+		<text>
+		Cet artefact lumineux peut générer un champ de faible gravité localisé et dirigé. Il est largement utilisé par les stalkers en combinaison avec le Gravi, un artefact similaire, pour augmenter la charge maximale.
+		\nEn raison de son noyau interne d'une grande beauté, cet artefact est très prisé des joailliers du monde entier. Toutefois, il convient de procéder avec prudence, car un traitement inadéquat peut provoquer l'explosion de l'artefact avec une puissance suffisante pour raser un petit bâtiment. Il est donc fortement recommandé d'effectuer le polissage à l'aide de machines spécialisées, ce qui minimise la probabilité d'explosion. De plus, seule la couche externe de l'artefact émet des radiations.
+		\nL'Étoile de nuit absorbe également les agents toxiques et chimiques présents dans l'environnement, ce qui en fait un artefact précieux pour les chasseurs de artefacts, bien que la quantité de toxicité absorbée soit négligeable. Il reste cependant relativement abordable, et même les stalkers disposant de budgets serrés peuvent se l'offrir si l'occasion se présente. 
+		\nCela dit, la Étoile de nuit dégage une odeur de flesh brûlé lorsqu'elle se trouve à proximité immédiate d'une source de chaleur. Une exposition prolongée peut augmenter son inflammabilité et provoquer son embrasement.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+			%c[0,209,172,56]+4 % d'atténuation des dégâts de classe BR\n
+		</text>
+	</string>
+	
+	<string id="st_af_gravi_name">
+		<text>Gravi</text>
+	</string>
+	<string id="st_af_gravi_descr">
+		<text>
+		Le Gravi se forme à partir de substances métalliques exposées à une gravitation prolongée. Cela lui permet de maintenir un puissant champ antigravitationnel, lui conférant diverses propriétés, notamment la réduction du poids de tous les objets à proximité immédiate. Pendant longtemps, cet artefact est resté un mystère, et c'est le scientifique Sakharov à Yantar qui a découvert le premier que le Gravi génère un minuscule champ de singularité de nature antigravitationnelle, un phénomène qui se produit par intervalles de 30 minutes.
+		\nUn effet dangereux de cet artefact réside dans le fait qu'il augmente la conductivité électrique, ce qui accroît considérablement la probabilité d'électrocution lors du port de cet artefact, en particulier pendant les orages et à proximité d'anomalies électriques.
+		\nUn autre inconvénient est qu'il augmentera les effets négatifs des ondes psy et constitue un conducteur puissant.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		%c[0,209,172,56]+6 % d'atténuation des dégâts de classe BR\n
+		</text>
+	</string>
+	
+	<string id="st_af_gold_fish_name">
+		<text>Poisson doré</text>
+	</string>
+	<string id="st_af_gold_fish_descr">
+		<text>
+		Version directe et améliorée du Gravi artefact. Comme pour le Gravi, c'est le scientifique Sakharov à Yantar qui a découvert ses propriétés uniques après qu'une importante explosion/émission ait frappé la Zone.
+		\nGrâce à des recherches méticuleuses qui ont suivi, il a été établi que ce nouveau artefact est produit lorsque trois Gravis artefacts interagissent et sont aspirés dans les champs de singularité les uns des autres. Ce phénomène est extrêmement rare, ce qui confère à cet artefact une grande valeur.
+		\nIl se murmure dans les cercles des Spetsnaz ukrainiens que des agents du Ministère de la Défense de la Fédération de Russie seraient présents dans la Zone, leur unique objectif étant d'acquérir et de transporter des Poisson doré vers des laboratoires spécialisés situés en dehors de la Zone.
+		\nLe artefact crée un champ de singularité anti-gravitationnelle constant qui n'affecte que sa proximité immédiate. Cependant, certains stalkers ont été signalés comme disparaissant sans raison apparente, ne laissant derrière eux qu'un Poisson doré.
+		\nUn inconvénient majeur accompagne toutefois ce puissant champ anti-gravitationnel : la vitesse des objets en mouvement à l’intérieur de son rayon augmentera rapidement, provoquant des impacts dangereux sur les objets environnants, y compris le porteur.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+            %c[0,209,172,56]+8 % d'atténuation des dégâts de classe BR\n
+		</text>
+	</string>
+	
+	<string id="st_af_dummy_glassbeads_name">
+		<text>Perles de Maman</text>
+	</string>
+	<string id="st_af_dummy_glassbeads_descr">
+		<text>
+		En forme d'hélice d'ADN, les Perles de Maman sont créées dans l'anomalie Brûleur. L'une de leurs caractéristiques les plus marquantes est leur pulsation constante, générant des émissions bénéfiques pour le corps humain. Ces émissions augmentent le métabolisme de tout être vivant, accélérant la coagulation et la cicatrisation des blessures. Le mécanisme à l'origine des effets de cet artefact reste encore inconnu.
+		\nLes Perles de Maman possèdent également des qualités protectrices puissantes : elles sont capables de protéger le corps et les objets contre les chaleurs extrêmes.
+		\nIl convient toutefois de noter que la présence de cet artefact augmente la conductivité électrique, ce qui accroît considérablement la probabilité d'électrocution lors du port de cet artefact, en particulier pendant les orages et à proximité d'anomalies électriques.
+		\nLe poids est également assez élevé pour un artefact aussi petit, ce qui permet de conclure qu'il est de haute densité.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>
+	
+	<string id="st_af_eye_name">
+		<text>Oeil</text>
+	</string>
+	<string id="st_af_eye_descr">
+		<text>
+		Cet artefact, qui ressemble à un oeil humain, augmente considérablement le métabolisme du corps, aidant les blessures à cicatriser plus rapidement. Les stalkers expérimentés affirment que l'Oeil porte également chance. Indépendamment de la validité de cette affirmation, ses effets positifs sont en effet très puissants. 
+		\nCet artefact apaise la douleur et s'avère extrêmement utile pour soigner les blessures.
+		\nLorsqu'il est porté, il est reconnu pour atténuer légèrement les effets nocifs des anomalies psychiques ou des ondes psychiques émises par certains mutants.
+		\nCes qualités bénéfiques ont cependant un prix. Cet artefact est extrêmement dangereux lorsqu'il est exposé à des anomalies chimiques, car il amplifie leur toxicité et augmente leur puissance. Il est donc fortement recommandé de conserver cet artefact dans votre sac à dos, et jamais sur le corps, lors de l'exploration de zones toxiques, à moins que vous ne souhaitiez une mort certaine.
+		\nLe artefact est également connu familièrement sous le nom d'« oeil de cuivre », car il conduit l’électricité et amplifie ses effets dangereux de la même manière que le cuivre. 
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>
+	
+	<string id="st_af_fire_name">
+		<text>Flamme</text>
+	</string>
+	<string id="st_af_fire_descr">
+		<text>
+		Cet artefact se forme dans les zones d'activité thermique élevée. Il produit de puissantes émissions infrarouges qui intensifient les processus métaboliques, cicatrisant les blessures sous les yeux mêmes de son porteur.
+		\nSes capacités de guérison sont encore plus puissantes que dans le cas de l'Oeil, car les stalkers en possession de cet artefact auraient survécu à des blessures infligées par des chimères. Grâce à cela, il a acquis la réputation d'un artefact miraculeux.
+		\nDe nombreux stalkers lui doivent la vie, et la plupart des chasseurs de mutants vétérans l'emportent au cas où ils rencontreraient un danger. Cependant, il partage non seulement les propriétés positives, mais aussi les négatives de son cousin : pénétrer dans un champ psychique avec cet artefact à la ceinture équivaut à un suicide. Il absorbera l'énergie psychique et la réémettra à un taux considérable.
+		\nDe plus, il est fortement conseillé de procéder avec prudence lors de la planification de la mise sur le marché du artefact, car une exposition prolongée, même à des quantités minimales de matériaux radioactifs, peut entraîner la mort de l'utilisateur.
+		\nIl peut également être utilisé comme une sorte de medkit réutilisable, car il cicatrise les blessures très rapidement.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>
+	
+	<string id="st_af_dummy_battery_name">
+		<text>Battery</text>
+	</string>
+	<string id="st_af_dummy_battery_descr">
+		<text>
+		\nLe artefact est assez populaire dans la Zone et est apprécié tant par ses habitants que par ses visiteurs pour ses propriétés énergisantes, bien qu'il ait un effet néfaste sur l'organisme en cas d'utilisation prolongée.
+		\nIl convient toutefois de noter que cet artefact entrave la coagulation sanguine et augmente le saignement des plaies ouvertes. En revanche, en tant que puissant résistor, il est réputé pour sa capacité à protéger son utilisateur contre des doses mortelles d'électricité.
+		\nÉtant un artefact de nature électrique, il est bien connu pour sa capacité à protéger son utilisateur des doses mortelles d'électricité. À l'inverse, il faut noter que Battery absorbe la chaleur et est capable de la transmettre à d'autres objets.
+		\nCet artefact est également extrêmement léger et très facile à transporter. 
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>
+	
+	<string id="st_af_dummy_dummy_name">
+		<text>Coquille</text>
+	</string>
+	<string id="st_af_dummy_dummy_descr">
+		<text>
+		La Coquille se compose de deux disques de couleur bleutée reliés par un matériau semi-transparent de nature inconnue.
+		\nCet étrange artefact a longtemps été considéré comme dépourvu de toute propriété utile par de nombreux scientifiques. Ce n'est que récemment qu'il a été découvert qu'il est en réalité très bénéfique.
+		\nLorsqu'il entre en contact avec le corps, cet artefact procure une sensation de rajeunissement et accélère ainsi la récupération de l'endurance. Cet effet a cependant provoqué une hyperactivité chez certains stalkers. Un inconvénient de cet artefact est qu'il réduit le nombre de plaquettes dans le sang, augmentant ainsi le taux de saignement.
+		\nIl offre un niveau considérable de protection psychique et absorbe les interférences électromagnétiques, agissant comme un matériau de mise à la terre.
+		\nIl s'enflammera au contact d'une flamme nue ou même par combustion spontanée. Il faut faire preuve de prudence en approchant des sources de chaleur avec ce artefact.
+		\nLa coquille est extrêmement légère et très portable.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>
+	
+	<string id="st_af_ice_name">
+		<text>Flocon de neige</text>
+	</string>
+	<string id="st_af_ice_descr">
+		<text>
+		Également connu sous le nom vernaculaire de "Flocon de neige radioactif". À première vue, cet artefact ressemble à un Kolobok blanc.
+		\nGrâce à ses propriétés uniques, cet artefact peut augmenter significativement le tonus musculaire de son porteur, améliorant ainsi grandement la récupération de l'endurance. En raison de sa forte radioactivité, les stalkers qui en sont détenteurs sont parfois surnommés, à la plaisanterie, "Radioactif Flocon de neige".
+		\nLorsqu'il s'agit de décider s'il faut le porter à la ceinture pendant une mission, vous devez soigneusement peser le pour et le contre : est-il judicieux d'avoir une plus grande endurance et une protection élevée contre l'électricité au prix d'une exposition constante à sa radiation mortelle ? Même si vous êtes déterminé à l'emporter, il convient de noter qu'il ne doit pas être utilisé lors de longues excursions dans la Zone.
+		\nLe Flocon de Neige présente cependant un inconvénient majeur : il interagit avec les sources d'énergie environnantes en absorbant et en amplifiant leurs effets. Pour cette raison, s'approcher de sources de chaleur, de zones toxiques ou de champs psychiques en portant cet artefact relève du suicide.
+		\nIl est léger comme un flocon de neige et très facile à transporter.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>
+	
+	<string id="st_af_soul_name">
+		<text>Âme</text>
+	</string>
+	<string id="st_af_soul_descr">
+		<text>
+		L'Âme est un artefact organique unique aux propriétés tout aussi uniques : il sécrète une substance visqueuse qui accélère considérablement la cicatrisation des blessures. Grâce à son prix raisonnable et à son apparence attrayante, cet artefact est un objet de collection très prisé.
+		\nL'application de sa substance visqueuse sur les blessures apaise la douleur et accélère le processus de guérison. 
+		Il réduit également les effets des ondes psychiques ainsi que les dommages infligés au cerveau. Il convient toutefois de noter que l'Âme épuise l'énergie de son utilisateur. Le artefact, quant à lui, ne possède pas une densité élevée et n'est donc pas très lourd.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>
+	
+	<string id="st_af_fuzz_kolobok_name">
+		<text>Kolobok</text>
+	</string>
+	<string id="st_af_fuzz_kolobok_descr">
+		<text>
+		Un artefact relativement rare se formant dans les zones chimiques, le Kolobok est très prisé pour sa capacité à guérir la plupart des types de blessures et à stopper les saignements en quelques minutes.
+		\nPour des raisons inconnues, les scientifiques répandent des rumeurs parmi les stalkers selon lesquelles cet artefact modifierait le code génétique de son porteur, ce qui reste non prouvé et doit être considéré comme une tentative consciente de monopoliser l'approvisionnement en artefacts par la communauté scientifique. Cela ne signifie pas pour autant qu'il soit totalement inoffensif.
+		\nL'un des inconvénients de cet artefact réside dans son interaction avec les particules radioactives. Il est donc préférable d'éviter les zones de radiation lorsqu'on en est en possession, d'autant plus que ses effets négatifs ne sont pas compensés par des effets positifs. Il réduit également la récupération d'énergie, en raison de ses appendices acérés en forme d'aiguilles. Ces aiguilles provoquent de petites blessures qui guérissent rapidement, mais entraînent une douleur et des démangeaisons constantes, réduisant ainsi l'endurance.
+		\nCet artefact affaiblit également la protection contre la chaleur et les acides en raison de sa forte inflammabilité. 
+		\nLéger et peu encombrant à transporter.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+			%c[0,209,172,56]+3 % d'atténuation des dégâts de classe BR\n
+		</text>
+	</string>
+	
+	<string id="st_af_glass_name">
+		<text>Luciole</text>
+	</string>
+	<string id="st_af_glass_descr">
+		<text>
+		La Luciole interagit avec des champs inconnus de la science, accélérant considérablement la régénération des tissus et des organes chez les êtres vivants, tout en normalisant les processus métaboliques.
+		\nCet artefact peut littéralement remettre sur pied un stalker gravement blessé en quelques minutes. En revanche, la Luciole peut s'enflammer spontanément lorsqu'elle est exposée à des sources radioactives puissantes.
+		\nUn inconvénient majeur de ce artefact est qu'il affaiblit le corps et réduit le nombre de plaquettes dans le sang pendant le processus de guérison, augmentant ainsi le taux d'hémorragie.
+		\nIl semble également épuiser considérablement l'endurance et réduire fortement sa récupération. Certains de ceux qui ont utilisé la Luciole à des fins curatives ont rapporté ne plus pouvoir marcher pendant des heures par la suite.
+		\nMalheureusement, la Luciole est extrêmement rare.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+			%c[0,209,172,56]+5 % d'atténuation des dégâts de classe BR\n
+		</text>
+	</string>
+	
+	<string id="st_af_compass_name">
+		<text>Boussole</text>
+	</string>
+	<string id="st_af_compass_descr">
+		<text>
+		Un artefact très rare. Plusieurs années se sont écoulées depuis la dernière découverte.
+		\nIl peut localiser les brèches dans les champs d'anomalies. On pense qu'il peut aider à traverser les champs d'anomalies les plus complexes sans subir le moindre dommage. Cependant, très peu de personnes savent le manipuler correctement.
+		\nLe Boussole a montré peu de propriétés uniques lors des dernières expériences. Il peut interagir avec des objets en mouvement, provoquant la disparition complète de certains. Ou peut-être une téléportation ?
+		\nIl affaiblit également le corps en drainant l'endurance et en augmentant constamment le taux de saignement. Mais son plus grand inconvénient réside cependant dans le dangereux rayonnement que cet artefact émet par rapport à l'échelle de radiation des artefact.
+		\nTenir ce artefact près du corps provoque la mort en quelques minutes.
+		</text>
+	</string>
+	
+	<string id="st_af_oasis_heart_name">
+		<text>Coeur de l'Oasis</text>
+	</string>
+	<string id="st_af_oasis_heart_descr">
+		<text>
+		Cet artefact a été découvert au centre de l'Oasis légendaire. Il semble que le Coeur soit une plante cristallisée, ayant acquis les propriétés curatives de l'Oasis.
+		\nNon seulement cela augmente de façon spectaculaire le taux de récupération des blessures et le processus de guérison, mais cela fournit également au corps une source d'énergie puissante. C'est un vrai miracle.
+		\nCela dit, l'Oasis est très sensible aux sources d'énergie extérieures et à l'environnement environnant. Pour cette raison, interagir avec les champs d'anomalies entraînera la mort du porteur.
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+			%c[0,209,172,56]+8 % d'atténuation des dégâts de classe BR\n
+		</text>
+	</string>
+	
+	<string id="st_af_death_lamp_name">
+		<text>Lampe de la Mort</text>
+	</string>  
+	<string id="st_af_death_lamp_descr">
+		<text>
+		Gros, rouge et maudit.
+		\nC'est ainsi que les locaux préfèrent décrire la Lampe de la Mort, tandis que certains l'appellent la "Graine de Satan". De nombreux marchands croient aux rumeurs entourant cet artefact et refusent de l'acheter.
+		Peu d'informations sont connues sur son origine, et aucune découverte significative n'a été faite à ce jour.
+		\nLa Lampe de la Mort a été découverte pour la première fois il y a quelques années par un groupe de trois stalkers expérimentés. Peu après avoir livré l'artefact aux Scientifiques à Yantar, deux d'entre eux ont été retrouvés morts, avec une expression horrifiée sur le visage. On ne sait rien du sort du troisième stalker.
+		\nÀ la suite de l'accident, les membres de l'équipe scientifique ayant étudié le artefact ont rapporté souffrir de troubles de cauchemars dans les jours qui ont suivi.
+		\nOutre ses effets mystérieux, le artefact épuise la vitalité et la volonté de l'utilisateur, souvent à un point tel qu'il provoque des étourdissements et, dans les cas extrêmes, fait perdre connaissance. 
+		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+			%c[0,209,172,56]+12 % d'atténuation des dégâts de classe BR\n
+		</text>
+	</string> 
+	
+	<string id="st_af_monolith_name">
+		<text>Émeraude Volat</text>
+	</string>
+	<string id="st_af_monolith_descr">
+		<text>L'origine des artefacts de ce type reste un mystère, car ils sont rarement trouvés en dehors des parties les plus septentrionales de la Zone.
+		\nCet artefact unique projette un champ sans contact qui inhibe les phénomènes anormaux à proximité. Cela confère au porteur un niveau de protection notable contre la plupart des dangers environnementaux de la Zone. Il s'agit également de l'un des rares artefacts actifs pouvant être manipulés en toute sécurité sans conteneurs en plomb.
+		Cependant, lorsqu'on le tient, le flesh semble sec et squameux, les os durs et raides, les ligaments des articulations grinçants et fragiles. Une armure épaisse ou une vitalité surnaturelle serait nécessaire pour quiconque envisage de porter cet artefact au combat.</text>
+	</string>
+	
+	<string id="st_af_black_name">
+
+		   <text>Pierre Noire</text>
+    </string>
+    <string id="st_af_black_descr">
+
+		   <text>Vraiment, une chose étonnante. La Pierre Noire protège contre un large éventail d'adversités, mais tue lentement son propriétaire. Certains stalkers soupçonnent que cet artefact est un éclat du Monolithe.</text>
+    </string>
+	
+	<!-- MLR -->
+	<string id="st_af_misery_bread_name">
+		<text>Pain anomal</text>
+	</string>
+	<string id="st_af_misery_bread_descr">
+		<text>Un morceau de pain aussi sombre que l'âme de celui qui l'a abandonné.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[ui_white] • %c[ui_gray_2] artefact\n%c[d_cyan] • %c[ui_gray_2] attachable
+				\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
+		</text>
+	</string>
+</string_table>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+- @ Version: SCREEN SPACE SHADERS - UPDATE 15
+- @ Description: Shadow Cascades - MCM strings
+- @ Author: https://www.moddb.com/members/ascii1457
+- @ Mod: https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+	<!-- Button -->
+	<string id="ui_mcm_ssfx_module_shw_cascades">
+		<text>Cascades d'ombres</text>
+	</string>
+
+	<!-- Shadow Cascades Settings -->
+	<string id="ui_mcm_ssfx_module_shw_cascades_title">
+		<text>Paramètres cascades d'ombres</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_shw_cascades_size_1_mcm">
+		<text>Taille cascades proches</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_shw_cascades_size_1_mcm_desc">
+		<text>Essayez d'utiliser une valeur de taille inférieure pour améliorer la qualité de vos ombres portées par le soleil.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_shw_cascades_size_2_mcm">
+		<text>Taille cascades intermédiaires</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_shw_cascades_size_2_mcm_desc">
+		<text>Essayez d'utiliser une valeur de taille inférieure pour améliorer la qualité de vos ombres portées par le soleil.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_shw_cascades_size_3_mcm">
+		<text>Taille cascades lointaines</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_shw_cascades_size_3_mcm_desc">
+		<text>Cette cascade définit la distance finale de rendu de vos ombres portées par le soleil. Des valeurs plus basses amélioreront les performances, tandis que des valeurs plus élevées amélioreront la qualité des ombres à distance au détriment des performances.</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_shw_cascades_grass_shw_quality_mcm">
+		<text>Qualité ombres herbe</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_shw_cascades_grass_shw_quality_mcm_desc">
+		<text>[ BAS ] Les ombres des herbes ne sont rendues que dans la cascade PROCHE. Comportement par défaut d'ANOMALY. [ MOYEN ] Les herbes projettent des ombres dans les cascades PROCHE et MOYENNE. [ ÉLEVÉ ] Les ombres des herbes seront rendues dans toutes les cascades et les rayons volumétriques solaires. [ ULTRA ] Toutes les lumières projettent des ombres des herbes.</text>
+	</string>
+	
+	<string id="ui_mcm_lst_shw_cascades_low">
+		<text>Faible (par défaut ANOMALY)</text>
+	</string>
+	
+	<string id="ui_mcm_lst_shw_cascades_medium">
+		<text>Moyen</text>
+	</string>
+
+	<string id="ui_mcm_lst_shw_cascades_high">
+		<text>Élevé</text>
+	</string>
+	
+	<string id="ui_mcm_lst_shw_cascades_ultra">
+		<text>Ultra (impact performance important)</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_shw_cascades_grass_shw_distance_mcm">
+		<text>Distance ombres herbe (Soleil)</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_shw_cascades_grass_shw_distance_mcm_desc">
+		<text>Cette valeur ajuste la distance de rendu des ombres des herbes générées par le soleil. La valeur est exprimée en pourcentage de votre distance de rendu des herbes. Des valeurs plus basses amélioreront les performances.</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_shw_cascades_grass_shw_nondir_maxdistance_mcm">
+		<text>Distance max ombres herbe</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_shw_cascades_grass_shw_nondir_maxdistance_mcm_desc">
+		<text>[ UNIQUEMENT EN QUALITÉ ULTRA ] Cette valeur ajuste la distance de rendu des ombres des herbes pour les lumières non directionnelles. Des valeurs plus basses amélioreront les performances, mais vous pourriez remarquer lorsque les ombres cessent d'être rendues.</text>
+	</string>
+	
+</string_table>

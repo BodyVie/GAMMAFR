@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	USABLE
+-->
+
+	<string id="st_guitar_name">
+		<text>Guitare</text>
+	</string>
+	<string id="st_guitar_descr">
+		<text>Une guitare acoustique, souvent utilisée par les stalkers pour passer le temps et remonter le moral autour des feux de camp.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Récréatif\n
+		%c[d_orange] • %c[ui_gray_2] Jouable\n
+		</text>
+	</string>
+
+	<string id="st_harmonica_name">
+		<text>Harmonica</text>
+	</string>
+	<string id="st_harmonica_descr">
+		<text>Un instrument portable et simple, apprécié des stalkers pour sa facilité d'utilisation et ses mélodies mélancoliques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Récréatif\n
+		%c[d_orange] • %c[ui_gray_2] Jouable\n
+		</text>
+	</string>
+
+	<string id="st_survival_kit">
+		<text>Kit de survie</text>
+	</string>
+	<string id="st_survival_kit_descr">
+		<text>Trousse compacte polyvalente contenant du tissu, des aiguilles à coudre et quelques bandes de cuir, principalement utilisée pour stopper les saignements et traiter les lacérations.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_green] • %c[pda_white] Soins post-trauma : T(8)%c[pda_white]•••••••• %c[pda_white]A(3)%c[pda_white]••• %c[pda_white]L(3)%c[pda_white]••• \n
+		</text>
+	</string>
+
+	<string id="st_hand_watch">
+		<text>Montre-bracelet</text>
+	</string>
+	<string id="st_hand_watch_descr">
+		<text>Ancienne montre soviétique classique, fiable pour vérifier l'heure dans des situations où un PDA pourrait s'avérer peu fiable en raison d'ondes électromagnétiques puissantes émises par des émissions ou des champs anormaux à proximité.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Vérifier l'heure\n
+		</text>
+	</string>
+
+<!--
+	BASIC MATERIAL
+-->
+
+	<string id="st_ball_hammer">
+		<text>Marteau à panne ronde</text>
+	</string>
+	<string id="st_ball_hammer_descr">
+		<text>Type de marteau à emboutir principalement utilisé en métallurgie.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_duct_tape">
+		<text>Ruban adhésif</text>
+	</string>
+	<string id="st_duct_tape_descr">
+		<text>Communément utilisée dans les situations nécessitant un ruban solide et flexible ; souvent une solution simple, mais temporaire, pour les réparations rapides.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_e_syringe">
+		<text>Seringue</text>
+	</string>
+	<string id="st_e_syringe_descr">
+		<text>Une seringue médicale réutilisable. Avec le matériel et les connaissances appropriés, elle pourrait s'avérer utile pour la fabrication de divers types de drogues.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_cutlery">
+		<text>Couverts de campagne</text>
+	</string>
+	<string id="st_cutlery_descr">
+		<text>Ensemble compact d'ustensiles conçu pour les repas en campagne, réduisant la nécessité de recourir à des mains sales ou à des outils de fortune. Basique, mais tout stalker apprécie un repas propre.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_grease">
+		<text>Graisse industrielle</text>
+	</string>
+	<string id="st_grease_descr">
+		<text>Un lubrifiant semi-solide souvent appliqué pour l'entretien des équipements, des armes ou des machines exposés à la saleté ou à d'autres débris.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_jar">
+		<text>Bocal en plastique</text>
+	</string>
+	<string id="st_jar_descr">
+		<text>Récipient léger et étanche, idéal pour le stockage de liquides, de denrées ou de matériaux récupérés. Il permet de préserver son contenu de l'humidité ou d'autres contaminants aériens.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+	
+	<string id="st_rope">
+		<text>Corde</text>
+	</string>
+	<string id="st_rope_descr">
+		<text>Un morceau de corde solide. Ces cordes servent à de multiples usages, en particulier dans un endroit comme la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_radio2">
+		<text>Radio (cassée)</text>
+	</string>
+	<string id="st_radio2_descr">
+		<text>Un appareil de communication portable. La musique est un bon moyen de calmer les nerfs, mais cette radio est de peu d'utilité avec une antenne cassée.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_steel_wool">
+		<text>Laine d'acier</text>
+	</string>
+	<string id="st_steel_wool_descr">
+		<text>Un faisceau de filaments d'acier très fins, utilisés comme abrasif pour les travaux de finition et de réparation.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_mirror">
+		<text>Miroir télescopique</text>
+	</string>
+	<string id="st_mirror_descr">
+		<text>Petit miroir monté sur un tube télescopique en fer, souvent utilisé pour observer discrètement les angles.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_welding_goggles">
+		<text>Lunettes de soudure</text>
+	</string>
+	<string id="st_welding_goggles_descr">
+		<text>Lunettes de soudage équipées d'un bandeau en cuir ancien. Conçues pour protéger les yeux lors des opérations de soudage ou de découpe, leur état d'usure suggère qu'elles ne rempliraient plus cette fonction.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+<!--
+	BROKEN / OLD
+-->
+
+	<string id="st_batteries_empty">
+		<text>Vieille Batteries</text>
+	</string>
+	<string id="st_batteries_empty_descr">
+		<text>Ensemble de batteries usagées ayant autrefois alimenté des appareils, désormais déchargées et inutilisables. Bien que non fonctionnelles, elles pourraient encore être recyclées ou détournées.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_shovel_mili">
+		<text>Vieille pelle de campagne</text>
+	</string>
+	<string id="st_shovel_mili_descr">
+		<text>Pelle pliante compacte utilisée en milieu extérieur ou militaire, présentant des traces de rouille, de saleté et d'usure. Malgré son état, elle pourrait encore être fonctionnelle ou détournée de son usage initial.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Déchet\n
+		</text>
+	</string>
+
+	<string id="st_hammer">
+		<text>Vieux marteau</text>
+	</string>
+	<string id="st_hammer_descr">
+		<text>Un outil à main très utilisé, doté d'un manche en bois usé et d'une tête présentant des bosses. Bien qu'ancien, il peut encore être fonctionnel ou détourné de son usage initial.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+	
+	<string id="st_boots">
+		<text>Vieilles bottes en cuir</text>
+	</string>
+	<string id="st_boots_descr">
+		<text>Une paire de bottes robustes et très usées, fabriquées en cuir épais, avec des surfaces éraflées et des semelles usées par une utilisation prolongée.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_gloves">
+		<text>Vieux gants en cuir</text>
+	</string>
+	<string id="st_gloves_descr">
+		<text>Une paire de gants en cuir résistant, très usés, présentant des plis, des taches et des traces d'utilisation intensive.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_shovel_old">
+		<text>Vieille pelle en métal</text>
+	</string>
+	<string id="st_shovel_old_descr">
+		<text>Outil de creusement usagé doté d'une lame métallique robuste, présentant des signes d'utilisation prolongée. Malgré son âge, il pourrait encore être fonctionnel ou détourné de son usage initial.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Déchet\n
+		</text>
+	</string>
+
+	<string id="st_batteries_ccell_empty">
+		<text>Ancienne Battery militaire</text>
+	</string>
+	<string id="st_batteries_ccell_empty_descr">
+		<text> Dispositif de stockage d'énergie déclassé ou périmé, précédemment utilisé dans des équipements militaires. Bien que non fonctionnel, il pourrait encore présenter un intérêt pour la remise en état ou le recyclage.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_wpn_spareparts">
+		<text>Vieilles pièces d'arme de rechange</text>
+	</string>
+	<string id="st_wpn_spareparts_descr">
+		<text>Des pièces de rechange d'arme fortement exposées aux intempéries et usées. Dans cet état, elles sont à peine identifiables, et encore moins utilisables.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_underwear">
+		<text>Vieux slip</text>
+	</string>
+	<string id="st_underwear_descr">
+		<text>Une paire de sous-vêtements supplémentaire pourrait considérablement améliorer votre confort. Malheureusement, l'histoire de cette paire est inconnue.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_broken_detector">
+		<text>Détecteur cassé</text>
+	</string>
+	<string id="st_broken_detector_descr">
+		<text>Un Détecteur bear hors service. Bien qu'il ne soit plus opérationnel, il peut encore être utile pour ses pièces détachées et composants.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_flashlight_broken">
+		<text>Lampe torche cassée</text>
+	</string>
+	<string id="st_flashlight_broken_descr">
+		<text>Une lampe torche endommagée, non fonctionnelle, mais encore utile pour ses composants.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_headlamp">
+		<text>Lampe frontale cassée</text>
+	</string>
+	<string id="st_headlamp_descr">
+		<text>Une ancienne lampe frontale hors service.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Déchet\n
+		</text>
+	</string>
+
+	<string id="st_radio">
+		<text>Radio cassée</text>
+	</string>
+	<string id="st_radio_descr">
+		<text>Une petite radio en mauvais état. Sale et endommagée par l'humidité, l'intérieur semble être en très mauvais état.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_walkie">
+		<text>Talkie-walkie cassé</text>
+	</string>
+	<string id="st_walkie_descr">
+		<text>L'écran est hors service et un sifflement constant provient du haut-parleur, indiquant que cet appareil est inutilisable.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+<!--
+	PAPER
+-->
+
+	<string id="st_drugnotes">
+		<text>Notes de distribution de drogue</text>
+	</string>
+	<string id="st_drugnotes_descr">
+		<text>Documents consignant la distribution, la tarification et la logistique de substances illicites. Ces notes renferment des contacts et des historiques de transactions liés à des opérations de trafic.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_book2">
+		<text>Manuel d'ingénierie</text>
+	</string>
+	<string id="st_book2_descr">
+		<text>Guide de référence complet fournissant des détails techniques, des calculs et des méthodologies pour des applications d'ingénierie. Pour cette raison, il est plus souvent utilisé comme lecture récréative dans la Zone que comme un objet de valeur.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_maps_kit">
+		<text>Kit de cartographie</text>
+	</string>
+	<string id="st_maps_kit_descr">
+		<text>Ensemble d'outils et de matériaux destinés à la création de cartes détaillées et précises. Il comprend généralement des boussoles, des règles, du papier spécialisé et des instruments de dessin, le tout protégé par une housse imperméable et camouflée.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_book1">
+		<text>Manuel de mécanique</text>
+	</string>
+	<string id="st_book1_descr">
+		<text>Guide technique contenant des instructions pour l'entretien, la réparation et l'utilisation de machines ou de véhicules. Il inclut des schémas, des étapes de dépannage et des spécifications pour aider les utilisateurs à maintenir leur équipement en état de fonctionnement. Pour cette raison, il est plus souvent utilisé comme lecture récréative dans la Zone que comme un objet de valeur.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_meinkampf">
+		<text>Mein Kampf</text>
+	</string>
+	<string id="st_meinkampf_descr">
+		<text>Manifeste politique rédigé par Adolf Hitler, exposant son idéologie et ses projets pour l'avenir de l'Allemagne sous le régime nazi. Cet ouvrage a joué un rôle significatif dans la formation des politiques nazies et est largement considéré comme un document historique de l'extrémisme.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_mili_maps">
+		<text>Cartes militaires</text>
+	</string>
+	<string id="st_mili_maps_descr">
+		<text>Représentations géographiques détaillées utilisées pour la planification stratégique et les opérations en contexte militaire. Elles incluent des données topographiques, les positions ennemies, les routes d'approvisionnement et les objectifs tactiques.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+	
+	<string id="st_journal">
+		<text>Journal intime</text>
+	</string>
+	<string id="st_journal_descr">
+		<text>Carnet partiellement rempli contenant des écrits personnels, des réflexions ou des notes, avec des pages vierges ou peu utilisées restantes. Il peut avoir une valeur sentimentale tout en offrant un espace pratique pour de nouvelles pensées ou entrées.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_picture_woman">
+		<text>Photo d'un être cher</text>
+	</string>
+	<string id="st_picture_woman_descr">
+		<text>Une photographie précieuse capturant un moment significatif avec un ami proche ou un membre de la famille. On ignore qui est cette personne ou où elle se trouve désormais.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+<!-- OVERWRITTEN -->
+	<string id="st_porn">
+		<text>PLAYBOY russe</text>
+	</string>
+	<string id="st_porn_descr">
+		<text>Édition régionale du magazine Playboy, reconnu internationalement, proposant un mélange d'articles lifestyle, d'interviews et de photographies à thème adulte, adaptés au public russe. Il combine divertissement, mode et commentaires culturels avec son imagerie provocante caractéristique.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+<!-- OVERWRITTEN -->
+	<string id="st_porn2">
+		<text>MAXIM ukrainien</text>
+	</string>
+	<string id="st_porn2_descr">
+		<text>Édition ukrainienne de MAXIM, un magazine lifestyle masculin populaire connu pour son mélange d'interviews de célébrités, d'humour, de mode et de photographie. Il s'adresse aux lecteurs intéressés par le divertissement, la forme physique et les tendances modernes.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_survivalguide">
+		<text>Guide de survie des forces spéciales ukrainiennes</text>
+	</string>
+	<string id="st_survivalguide_descr">
+		<text>Manuel fortement usagé contenant des techniques de survie expertes, allant de la navigation aux soins médicaux de terrain. Ses pages offrent des connaissances vitales pour quiconque s'aventure dans la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+<!--
+	OTHER
+-->
+
+	<string id="st_beadspread">
+		<text>Couvre-lit</text>
+	</string>
+	<string id="st_beadspread_descr">
+		<text>Objet de luxe dans la Zone. Posséder un sac de couchage et une couverture peut s'avérer essentiel si vous ne souhaitez pas atteindre vos limites dans les circonstances les plus inopportunes.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_cards">
+		<text>Jeu de cartes</text>
+	</string>
+	<string id="st_cards_descr">
+		<text>Les cartes à jouer sont un passe-temps populaire. La couverture représente le fier design architectural du métro de Moscou.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Récréatif\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Passer le temps\n
+		</text>
+	</string>
+
+	<string id="st_jewelry_box">
+		<text>Coffret à bijoux décoré</text>
+	</string>
+	<string id="st_jewelry_box_descr">
+		<text>Coffret orné et finement travaillé, probablement pillé dans une habitation antérieure à la Zone, parfois utilisé pour conserver de petits objets de valeur ou des souvenirs. Sa valeur sentimentale dépasse souvent son utilité pratique.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Déchet\n
+		</text>
+	</string>
+
+	<string id="st_synthrope">
+		<text>Cordes synthétiques</text>
+	</string>
+	<string id="st_synthrope_descr">
+		<text>Une corde synthétique d'environ 5 mètres de longueur. Une bonne corde sert à de nombreux usages, en particulier dans un endroit comme la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+	<string id="st_tarpaulin">
+		<text>Bâche</text>
+	</string>
+	<string id="st_tarpaulin_descr">
+		<text>Grande bâche résistante, flexible, imperméable ou hydrofuge, dotée d'oeillets renforcés aux coins et sur les côtés pour permettre la fixation de cordes.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		</text>
+	</string>
+
+</string_table>

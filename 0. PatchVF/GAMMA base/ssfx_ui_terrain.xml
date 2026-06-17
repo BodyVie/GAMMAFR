@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+- @ Version: SCREEN SPACE SHADERS - UPDATE 22
+- @ Description: Terrain - MCM strings
+- @ Author: https://www.moddb.com/members/ascii1457
+- @ Mod: https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+	<!-- Button -->
+	<string id="ui_mcm_ssfx_module_terrain">
+		<text>Terrain</text>
+	</string>
+
+	<!-- Terrain Settings -->
+	<string id="ui_mcm_ssfx_module_terrain_title">
+		<text>Paramètres du terrain</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_distance_mcm">
+		<text>Qualité du rendu</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_distance_mcm_desc">
+		<text>Ajustez cette valeur pour augmenter ou réduire la distance maximale de rendu du terrain en haute qualité.</text>
+	</string>
+
+
+	<string id="ui_mcm_ssfx_module_terrain_pom_quality_mcm">
+		<text>Qualité de la parallaxe</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_pom_quality_mcm_desc">
+		<text>Définissez la qualité visuelle de l'effet. Des paramètres plus élevés augmentent le nombre d'échantillons utilisés pour lisser le résultat.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_pom_refine_mcm">
+		<text>Affinement de la parallaxe</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_pom_refine_mcm_desc">
+		<text>Ajoute une phase de raffinement pour améliorer l'effet de parallaxe. Activez ou désactivez cette option pour améliorer la qualité visuelle ou gagner en performance.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_pom_range_mcm">
+		<text>Distance de parallaxe</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_pom_range_mcm_desc">
+		<text>Option permettant de définir la distance maximale de rendu de l'effet de parallaxe.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_pom_height_mcm">
+		<text>Hauteur de parallaxe</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_pom_height_mcm_desc">
+		<text>Utilisez cette valeur pour ajuster la hauteur maximale de l'effet de parallaxe.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_pom_water_level_mcm">
+		<text>Niveau d'eau en parallaxe</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_pom_water_level_mcm_desc">
+		<text>Utilisez ce paramètre pour ajuster la profondeur maximale des flaques.</text>
+	</string>
+
+
+	<string id="ui_mcm_ssfx_module_terrain_grass_align_mcm">
+		<text>Alignement de l'herbe sur le terrain (rechargement de la carte requis)</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_grass_align_mcm_desc">
+		<text>Alignez l'herbe sur la pente du terrain.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_grass_slope_mcm">
+		<text>Limite de pente pour l'herbe (rechargement de la carte requis)</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_grass_slope_mcm_desc">
+		<text>Limitez la disposition de l'herbe si la pente du terrain dépasse l'angle sélectionné.</text>
+	</string>
+
+</string_table>

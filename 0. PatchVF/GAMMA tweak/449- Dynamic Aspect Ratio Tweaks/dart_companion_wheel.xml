@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+  <string id="ui_mcm_dart_companionWheel_title">
+    <text>Paramètres de la roue du compagnon</text>
+  </string>
+
+  <string id="ui_mcm_menu_dart_companionWheel">
+    <text>Roue du compagnon</text>
+  </string>
+</string_table>

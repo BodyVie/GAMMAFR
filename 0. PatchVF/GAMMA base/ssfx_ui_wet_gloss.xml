@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+- @ Version: SCREEN SPACE SHADERS - UPDATE 18
+- @ Description: Gloss - MCM strings
+- @ Author: https://www.moddb.com/members/ascii1457
+- @ Mod: https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+	<!-- Gloss Title -->
+	<string id="ui_mcm_ssfx_module_gloss_title">
+		<text>Paramètres de brillance</text>
+	</string>
+
+	<!-- Gloss Settings -->
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_min_gloss_mcm">
+		<text>Brillance minimale</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_min_gloss_mcm_desc">
+		<text>Valeur de base du gloss. Si l'option « Gloss automatique » est désactivée, cette valeur détermine le gloss.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_max_gloss_mcm">
+		<text>Brillance maximale</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_max_gloss_mcm_desc">
+		<text>Lorsque l'option « Gloss automatique » est activée, cette valeur représente la valeur maximale du gloss lorsque l'humidité atteint 100 %.</text>
+	</string>
+
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_auto_gloss_mcm">
+		<text>Brillance automatique</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_auto_gloss_mcm_desc">
+		<text>Activez ou désactivez l'ajustement automatique du gloss en fonction de l'humidité. Si vous souhaitez définir manuellement une valeur de gloss fixe, désactivez cette option et utilisez l'option « Gloss minimal » pour définir votre gloss.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_auto_gloss_max_mcm">
+		<text>Pourcentage de brillance automatique</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_auto_gloss_max_mcm_desc">
+		<text>Cette valeur permet de contrôler la valeur maximale du gloss lorsque l'humidité est à 100 %. (0 = 0 % | 1 = 100 %)</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_specular_int_mcm">
+		<text>Intensité spéculaire</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_specular_int_mcm_desc">
+		<text>Définissez l'intensité de l'éclairage spéculaire.</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_specular_color_mcm">
+		<text>Couleur spéculaire</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_specular_color_mcm_desc">
+		<text>Pourcentage de la couleur spéculaire. (0 = 0 % | 1 = 100 %)</text>
+	</string>
+
+
+</string_table>

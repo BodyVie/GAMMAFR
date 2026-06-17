@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<string id="st_wpn_steyr_scout">
+		<text>Steyr Scout 5.56</text>
+	</string>
+	<string id="st_wpn_steyr_scout_descr">
+		<text>Développée en collaboration avec la légende américaine, le lieutenant-colonel des Marines Jeff Cooper, la Scout est une combinaison de design futuriste et de solutions techniques innovantes. Polyvalente, légère et précise jusqu'à 800 mètres, elle incarne l'excellence de l'artisanat dans le domaine des fusils. Ce modèle est chambré en 5,56 x 45 mm.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Autriche\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Steyr Mannlicher\n
+		</text>
+	</string>
+
+<string id="st_wpn_steyr_scout_big">
+		<text>Steyr Scout 7.62</text>
+	</string>
+	<string id="st_wpn_steyr_scout_big_descr">
+		<text>Développée en collaboration avec la légende américaine, le lieutenant-colonel des Marines Jeff Cooper, la Scout est une combinaison de design futuriste et de solutions techniques innovantes. Polyvalente, légère et précise jusqu'à 800 mètres, elle incarne l'excellence de l'artisanat dans le domaine des fusils. Ce modèle est chambré en 7,62 x 51 mm.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Autriche\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Steyr Mannlicher\n
+		</text>
+	</string>
+
+<string id="st_mag_steyr_556">
+		<text>Chargeur Steyr Scout 5,56x45</text>
+	</string>
+	<string id="st_mag_steyr_556_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>	
+
+<string id="st_mag_steyr_762">
+		<text>Chargeur Steyr Scout 7,62x51</text>
+	</string>
+	<string id="st_mag_steyr_762_descr">
+		<text>%c[pda_white]PROPRIÉTÉS :</text>
+	</string>
+
+</string_table>

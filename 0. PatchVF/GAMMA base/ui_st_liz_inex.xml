@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+    <string id="ui_mcm_menu_liz_inex">
+        <text>Inertie étendue</text>
+    </string>
+
+    <string id="ui_mcm_menu_lean">
+        <text>Inclinaison</text>
+    </string>
+    
+    <string id="ui_mcm_menu_jumpland">
+        <text>Saut et atterrissage</text>
+    </string>
+
+    <string id="ui_mcm_menu_crouch_jitter">
+        <text>Oscillation accroupi</text>
+    </string>
+
+    <string id="ui_mcm_menu_noise">
+        <text>Bruit</text>
+    </string>
+
+    <string id="ui_mcm_menu_breathing">
+        <text>Respiration</text>
+    </string>
+
+    <string id="ui_mcm_menu_look_up">
+        <text>Décalage regard haut</text>
+    </string>
+
+    <string id="ui_mcm_menu_other">
+        <text>Autres</text>
+    </string>
+
+
+
+    <string id="ui_mcm_title_liz_inex_lean">
+        <text>Animations d'inclinaison</text>
+    </string>
+    
+    <string id="ui_mcm_title_liz_inex_jumpland">
+        <text>Animations saut et atterrissage</text>
+    </string>
+    
+    <string id="ui_mcm_title_liz_inex_crouch_jitter">
+        <text>Oscillation arme accroupi</text>
+    </string>
+    
+    <string id="ui_mcm_title_liz_inex_noise">
+        <text>Oscillation aléatoire</text>
+    </string>
+    
+    <string id="ui_mcm_title_liz_inex_breathing">
+        <text>Animation de respiration</text>
+    </string>
+    
+    <string id="ui_mcm_title_liz_inex_look_up">
+        <text>Décalage position arme regard haut</text>
+    </string>
+
+    <string id="ui_mcm_title_liz_inex_other">
+        <text>Autres options</text>
+    </string>
+
+
+
+    <string id="ui_mcm_liz_inex_lean_l_power">
+        <text>Intensité inclinaison gauche</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_lean_r_power">
+        <text>Intensité inclinaison droite</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_lean_crouch_power">
+        <text>Intensité accroupi</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_jumpland_jump_speed">
+        <text>Vitesse de saut</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_jumpland_jump_speed_desc">
+        <text>Vitesse de l'animation de saut.\nPlus la valeur est élevée, plus l'animation est rapide.</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_jumpland_jump_power">
+        <text>Amplitude de saut</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_jumpland_jump_power_desc">
+        <text>Détermine l'intensité de l'animation de saut.\nPlus la valeur est élevée, plus l'amplitude de l'animation est grande.\nUne valeur de 0 désactive l'animation de saut.</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_jumpland_land_speed">
+        <text>Vitesse d'atterrissage</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_jumpland_land_speed_desc">
+        <text>Vitesse de l'animation d'atterrissage après une chute.\nPlus la valeur est élevée, plus l'animation est rapide.</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_jumpland_land_power">
+        <text>Amplitude d'atterrissage</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_jumpland_land_power_desc">
+        <text>Détermine l'intensité de l'animation d'atterrissage.\nPlus la valeur est élevée, plus l'amplitude de l'animation est grande.\nUne valeur de 0 désactive l'animation d'atterrissage.</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_crouch_jitter_blocket_by_aim">
+        <text>Désactiver tremblement accroupi en visée</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_crouch_jitter_blocket_by_aim_desc">
+        <text>En position accroupie, l'arme oscille légèrement, ce qui peut perturber la visée.\nCette option permet de désactiver l'animation de tremblement en position accroupie pendant la visée.</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_crouch_jitter_speed">
+        <text>Vitesse de tremblement accroupi</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_crouch_jitter_speed_desc">
+        <text>Détermine la vitesse du tremblement de l'arme en position accroupie.\nPlus la valeur est élevée, plus l'animation est rapide.</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_crouch_jitter_power">
+        <text>Amplitude de tremblement accroupi</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_crouch_jitter_power_desc">
+        <text>Détermine l'intensité de l'animation de tremblement en position accroupie.\nPlus la valeur est élevée, plus l'amplitude de l'animation est grande.\nUne valeur de 0 désactive l'animation de tremblement en position accroupie.</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_noise_only_for_weapon">
+        <text>Animation oscillation aléatoire pour armes uniquement</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_noise_only_for_weapon_desc">
+        <text>L'animation aléatoire de balancement des bras peut être gênante lors de l'utilisation d'un PDA.\nCette option permet de ne jouer cette animation que pour les armes, afin de ne pas perturber l'utilisation d'un PDA ou d'autres appareils.</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_noise_speed">
+        <text>Vitesse d'oscillation aléatoire</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_noise_speed_desc">
+        <text>Une personne ne peut pas rester parfaitement immobile, et cette animation ajoute un léger balancement des bras du personnage.\nCette option détermine la vitesse de l'animation de balancement.\nPlus la valeur est élevée, plus l'animation est rapide.</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_noise_power">
+        <text>Amplitude d'oscillation aléatoire</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_noise_power_desc">
+        <text>Une personne ne peut pas rester parfaitement immobile, et cette animation ajoute un léger balancement des bras du personnage.\nCette option détermine l'intensité de l'animation de balancement.\nPlus la valeur est élevée, plus l'amplitude de l'animation est grande.\nUne valeur de 0 désactive l'animation d'atterrissage.</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_breathing_only_for_weapon">
+        <text>Animation respiration pour armes uniquement</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_breathing_only_for_weapon_desc">
+        <text>L'animation de balancement des bras lors de la respiration peut être gênante lors de l'utilisation d'un PDA.\nCette option permet de ne jouer cette animation que pour les armes, afin de ne pas perturber l'utilisation d'un PDA ou d'autres appareils.</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_breathing_speed_min">
+        <text>Fréquence respiration au repos</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_breathing_speed_min_desc">
+        <text>Vitesse de l'animation de respiration en état calme.\nPlus la valeur est élevée, plus l'animation est rapide.</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_breathing_speed_max">
+        <text>Fréquence respiration à faible endurance</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_breathing_speed_max_desc">
+        <text>Vitesse de l'animation de respiration lorsque l'endurance est faible.\nPlus la valeur est élevée, plus l'animation est rapide.</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_breathing_power_min">
+        <text>Amplitude respiration au repos</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_breathing_power_min_desc">
+        <text>Détermine l'intensité de l'animation de respiration en état calme.\nPlus la valeur est élevée, plus l'amplitude de l'animation est grande.\nUne valeur de 0 désactive l'animation de respiration lorsque le personnage a une endurance maximale.</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_breathing_power_max">
+        <text>Amplitude respiration à faible endurance</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_breathing_power_max_desc">
+        <text>Détermine l'intensité de l'animation de respiration lorsque l'endurance est faible.\nPlus la valeur est élevée, plus l'amplitude de l'animation est grande.\nUne valeur de 0 désactive l'animation de respiration lorsque le personnage a une endurance faible.</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_look_up_enabled">
+        <text>Descendre arme en regardant vers le haut</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_look_up_trigger_at">
+        <text>Angle déclenchant animation regard haut</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_look_up_trigger_at_desc">
+        <text>Cette option détermine la hauteur à laquelle vous devez lever la tête pour que le modèle de l'arme commence à descendre.\nPlus la valeur est élevée, plus vous devez regarder vers le haut pour déclencher l'animation.</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_look_up_power">
+        <text>Intensité animation regard haut</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_other_device_lean_enable">
+        <text>Détecteurs suivent arme en inclinaison</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_other_hit_anm_enable">
+        <text>Animation réaction aux dégâts</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_other_crawl_anm_enable">
+        <text>Activer animation rampement</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_other_crawl_can_shoot">
+        <text>Tirer en rampant</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_other_crawl_can_shoot_desc">
+        <text>Certaines armes possèdent une animation de pompage lors du tir (par exemple, certains fusils à pompe ou fusils de sniper). Tirer avec ces armes en position rampante peut sembler incorrect.\nPlusieurs options permettent de résoudre ce problème :\n- toutes les armes peuvent tirer en position rampante.\n- seules certaines armes à pompe, fusils à pompe et fusils de sniper ne peuvent pas tirer en position rampante.\n- aucune arme ne peut tirer lorsque le personnage est en position rampante.</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_crawl_shoot_handle_type_all">
+        <text>Toutes les armes peuvent tirer</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_crawl_shoot_handle_type_some">
+        <text>Certaines armes peuvent tirer</text>
+    </string>
+
+    <string id="ui_mcm_liz_inex_crawl_shoot_handle_type_none">
+        <text>Aucune arme ne peut tirer</text>
+    </string>
+
+
+</string_table>

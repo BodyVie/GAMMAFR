@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    	
+		<!--
+Aug x10 5,56
+-->
+
+	<string id="st_mag_aug_5.56x45_short">
+		<text>Chargeur 10 cartouches STEYR AUG</text>
+	</string>
+	<string id="st_mag_aug_5.56x45_short_descr">
+		<text>
+            Chargeur propriétaire de 10 cartouches (ou 9+1) pour fusils AUG. Fabriqué en polymère translucide. Origine : Autriche. \n
+			\nOn ignore qui a pu avoir l'idée d'importer des chargeurs « conformes à la législation californienne » dans la Zone, mais comme pour tout ce qui touche aux armes, ils trouveront sans doute une utilité ici. Avantage non négligeable : ils tiennent dans de petites poches.
+		</text>
+	</string>
+	
+		<!--
+Aug x42 5,56
+-->
+
+	<string id="st_mag_aug_5.56x45_ext">
+		<text>Chargeur étendu 5,56x45 AUG</text>
+	</string>
+	<string id="st_mag_aug_5.56x45_ext_descr">
+		<text>
+            Chargeurs propriétaires de 42 cartouches produits par le fabricant d'origine, destinés aux variantes de fusil-mitrailleur AUG. Toutefois, rien n'empêche leur utilisation dans toutes les autres variantes d'AUG compatibles avec les chargeurs propriétaires « waffle ». Fabriqués en polymère translucide. Origine : Autriche.
+		</text>
+	</string>	
+
+
+<!--
+MP5 x40 9mm
+-->
+
+	<string id="st_mag_mp5_9x19_fmjext">
+		<text>Chargeur étendu 9x19 MP5</text>
+	</string>
+	<string id="st_mag_mp5_9x19_fmjext_descr">
+		<text>
+            Chargeur léger, résistant aux chocs et hautement fiable, compatible avec toutes les versions du HK MP5 en calibre 9x19 mm (et ses clones) utilisant des chargeurs MP5 standards. Offre une capacité renforcée de 40 cartouches par rapport aux chargeurs HK standards de 30 cartouches. Fabriqué en polymère-résine/granulat avancé, doté de fenêtres transparentes des deux côtés permettant de visualiser les cartouches restantes. Origine : Bosnie.
+		</text>
+	</string>
+	
+<!--
+MP5 x50 9mm
+-->
+	<string id="st_mag_mp5_9x19_fmjext50">
+		<text>Tambour 9x19 MP5</text>
+	</string>
+	<string id="st_mag_mp5_9x19_fmjext50_descr">
+		<text>
+            Chargeur tambour léger, résistant aux chocs et hautement fiable, compatible avec toutes les versions du HK MP5 en calibre 9x19 mm (et ses clones) utilisant des chargeurs MP5 standards. Offre une capacité renforcée de 50 cartouches par rapport aux chargeurs HK standards de 30 cartouches. Fabriqué en polymère avancé, doté d'une fenêtre transparente sur la face arrière permettant de visualiser le nombre de cartouches restantes. Origine : États-Unis.
+		</text>
+	</string>
+	
+	
+<!--
+Glock x33 9mm
+-->
+
+	<string id="st_mag_glock_9x19_fmjext">
+		<text>Chargeur étendu 9x19 Glock</text>
+	</string>
+	<string id="st_mag_glock_9x19_fmjext_descr">
+		<text>
+            Chargeur Glock rallongé compatible avec toutes les variantes standard de Glock en 9x19 mm. Offre une capacité renforcée de 33 cartouches par rapport aux chargeurs Glock d'origine, initialement conçu pour les variantes de pistolet-mitrailleur Glock 18. Fabriqué en Autriche.
+		</text>
+	</string>
+		
+<!--
+Glock x50 9mm
+-->
+
+	<string id="st_mag_glock_9x19_fmjext50">
+		<text>Tambour 9x19 Glock</text>
+	</string>
+	<string id="st_mag_glock_9x19_fmjext50_descr">
+		<text>
+            Chargeur tambour léger, résistant aux chocs et hautement fiable, compatible avec toutes les variantes de Glock en calibre 9x19 mm. Offre une capacité renforcée de 50 cartouches par rapport aux chargeurs standards. Fabriqué en polymère avancé, doté d'une fenêtre transparente sur la face arrière permettant de visualiser le nombre de cartouches restantes. Origine : États-Unis.
+		</text>
+	</string>
+	
+<!--
+MP5 x40 9mm alt
+-->
+
+	<string id="st_mag_mp5_9x18_fmjext">
+		<text>Chargeur étendu modifié 9x18 MP5</text>
+	</string>
+	<string id="st_mag_mp5_9x18_fmjext_descr">
+		<text>
+            Chargeur léger, résistant aux chocs et hautement fiable, compatible avec toutes les versions du HK MP5 modifiées pour la Zone en calibre 9x18 mm (et ses clones) utilisant des chargeurs MP5 standards. Offre une capacité renforcée de 40 cartouches par rapport aux chargeurs HK standards de 30 cartouches. Fabriqué en polymère-résine/granulat avancé, doté de fenêtres transparentes des deux côtés permettant de visualiser les cartouches restantes. Origine : Bosnie.
+		</text>
+	</string>
+	
+<!--
+MP5 x50 9mm alt
+-->
+	<string id="st_mag_mp5_9x18_fmjext50">
+		<text>Tambour modifié 9x18 MP5</text>
+	</string>
+	<string id="st_mag_mp5_9x18_fmjext50_descr">
+		<text>
+            Chargeur tambour léger, résistant aux chocs et hautement fiable, compatible avec toutes les versions du HK MP5 modifiées pour la Zone en calibre 9x18 mm (et ses clones) utilisant des chargeurs MP5 standards. Offre une capacité renforcée de 50 cartouches par rapport aux chargeurs HK standards de 30 cartouches. Fabriqué en polymère avancé, doté d'une fenêtre transparente sur la face arrière permettant de visualiser le nombre de cartouches restantes. Origine : États-Unis.
+		</text>
+	</string>
+	
+	
+<!--
+Glock x33 9mm alt
+-->
+
+	<string id="st_mag_glock_9x18_fmjext">
+		<text>Chargeur étendu modifié 9x18 Glock</text>
+	</string>
+	<string id="st_mag_glock_9x18_fmjext_descr">
+		<text>
+            Chargeur Glock rallongé compatible avec toutes les variantes de Glock en 9x18 mm modifiées pour la Zone. Offre une capacité renforcée de 33 cartouches par rapport aux chargeurs Glock d'origine, initialement conçu pour les variantes de pistolet-mitrailleur Glock 18. Fabriqué en Autriche.
+		</text>
+	</string>
+		
+<!--
+Glock x50 9mm alt
+-->
+
+	<string id="st_mag_glock_9x18_fmjext50">
+		<text>Tambour modifié 9x18 Glock</text>
+	</string>
+	<string id="st_mag_glock_9x18_fmjext50_descr">
+		<text>
+            Chargeur tambour léger, résistant aux chocs et hautement fiable, compatible avec toutes les variantes de Glock modifiées pour la Zone en calibre 9x18 mm. Offre une capacité renforcée de 50 cartouches par rapport aux chargeurs standards. Fabriqué en polymère avancé, doté d'une fenêtre transparente sur la face arrière permettant de visualiser le nombre de cartouches restantes. Origine : États-Unis.
+		</text>
+	</string>
+		
+</string_table>

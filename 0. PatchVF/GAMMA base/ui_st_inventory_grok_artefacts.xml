@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<!-- Sorter -->
+	<string id="st_ui_craft_artefacts_container">
+		<text>Récupérer Artefacts (dans conteneurs)</text>
+	</string>
+    <string id="st_item_use_empower">
+		<text>Renforcer l’artefacts</text>
+	</string>
+	<string id="st_item_use_fuse">
+		<text>Fusionner l’artefacts</text>
+	</string>
+	<string id="st_item_use_craft">
+		<text>Ouvrir l'établi</text>
+	</string>	
+    <string id="st_ui_itm_repair_support_grok_artefacts">
+		<text>Fusion de l’Artefact</text>
+	</string>
+    <string id="st_ui_itm_repair_base_grok_artefacts">
+		<text>Renforcement de l’Artefact</text>
+	</string>
+    <string id="st_melter">
+		<text>Fondeur d’Artefacts</text>
+	</string>
+    <string id="st_melter_desc">
+		<text>Un appareil étrange et high-tech créé par le professeur Sakharov. Le Fondeur d'Artefacts (AM) permet la manipulation des matériaux des artefacts. Cet outil est alimenté par l'énergie contenue dans les Artefacts, qui peut être récupérée et stockée pour une utilisation ultérieure en les fondant. L'AM peut également renforcer des Artefacts de même type ou même fusionner des Artefacts de types différents pour en générer de nouveaux. Les processus chimiques et physiques en jeu ne sont pas encore entièrement compris, bien que des recherches récentes indiquent que l'outil exploite le pouvoir de la Noosphère. Ces découvertes ont rapidement incité la plupart des stalkers haut gradés à acquérir un tel outil afin de créer des Artefacts plus puissants et plus coûteux pour le marché noir ou leur usage personnel.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[0,255,255,255] Fonte des Artefacts :%c[ui_gray_2] Maintenez la touche de sécurité (ALT gauche) et passez le Fondeur d'Artefacts sur un Artefact pour le fondre et recharger le réservoir AM. Plus l'Artefact est rare, plus la quantité d'énergie stockée sera importante.\n
+		%c[d_cyan] • %c[0,255,255,255] Renforcement des Artefacts :%c[ui_gray_2] Sélectionnez « Renforcer les artefacts » dans le menu principal de l'AMOS pour combiner des artefacts de même type afin de les renforcer.\n
+		%c[d_cyan] • %c[0,255,255,255] Fusion des Artefacts :%c[ui_gray_2] Sélectionnez « Fusionner les artefacts » dans le menu principal de l'AMOS, puis ouvrez le sous-menu des recettes pour générer un nouvel Artefact à partir de deux artefacts ou plus. Le Artefact résultant aura un état moyen correspondant à celui de ses composants. L'AMOS contient déjà des combinaisons d'Artefacts connues et « sûres ».\n
+		%c[d_cyan] • %c[0,255,255,255] Remarque : %c[ui_gray_2]L'AMOS intègre des protocoles de sécurité pour éviter les dysfonctionnements. Si l'outil refuse de fonctionner, assurez-vous que le réservoir AM contient plus de 10 % (soit une utilisation) de sa capacité totale.\n \n
+		</text>
+	</string>
+	    <string id="st_grizzly">
+		<text>Détecteur Grizzly</text>
+	</string>
+    <string id="st_grizzly_desc">
+		<text>Ce détecteur d'activité anormale est une version améliorée du Détecteur bear et peut détecter toutes les signatures connues d'artefacts, tout comme le Svarog ou le Détecteurs veles. Ce Détecteur bear amélioré est particulièrement apprécié des stalkers chassant les artefacts de nuit, car son affichage simple est compatible avec les lunettes de vision nocturne.\n \n
+		%c[0,255,255,255]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[ui_gray_2] capable de localiser tous les artefacts connus de la science\n
+		</text>
+	</string>
+
+	<string id="ui_mcm_menu_grok_artefacts_bip">
+		<text>Détection passive Artefact</text>
+	</string>
+	
+	<string id="ui_mcm_menu_grok_artefacts_bip_title">
+		<text>Détection passive Artefacts</text>
+	</string>
+
+	<string id="ui_mcm_grok_artefacts_bip_title">
+		<text>Détection passive Artefacts</text>
+	</string>
+	
+	<string id="ui_mcm_grok_artefacts_bip_enabled">
+		<text>Icône indicatrice Artefacts</text>
+	</string>
+		
+</string_table>

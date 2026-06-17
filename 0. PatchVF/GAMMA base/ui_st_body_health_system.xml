@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!-- 
+	MCM
+-->
+<string_table>
+
+
+	<string id="ui_mcm_body_health_system_title">
+		<text>Système de santé corporelle</text>
+	</string>
+	<string id="ui_mcm_menu_body_health_system">
+		<text>Système de santé corporelle</text>
+	</string>
+
+	<string id="ui_mcm_body_health_system_TEXT_BASED_PATCH">
+		<text>Remplacement de l'affichage tête haute</text>
+	</string>
+	<string id="ui_mcm_body_health_system_TEXT_BASED_PATCH_desc">
+		<text>Version texte de l'affichage tête haute (HUD) indiquant qu'un rechargement est nécessaire.</text>
+	</string>
+
+	<string id="ui_mcm_body_health_system_NEW_LIMB_PENALTIES_FEATURE">
+		<text>Nouvelle fonction pénalités membres</text>
+	</string>
+	<string id="ui_mcm_body_health_system_NEW_LIMB_PENALTIES_FEATURE_desc">
+		<text>Un rechargement est nécessaire. L'activation de cette option active la nouvelle fonctionnalité de pénalités. La désactivation rétablit les pénalités de l'ancien système BHS.</text>
+	</string>
+	<string id="ui_mcm_body_health_system_new_voice_sounds">
+		<text>Nouvelle voix pour les pénalités</text>
+	</string>
+	<string id="ui_mcm_body_health_system_new_voice_sounds_desc">
+		<text>L'activation de cette option active une nouvelle voix lors des sprints avec des jambes endommagées. La désactivation rétablit la voix du mod original.</text>
+	</string>
+	<string id="ui_mcm_body_health_system_leg_penalty_minimum_hp">
+		<text>Seuil minimal PV jambes pour effet de tangage caméra</text>
+	</string>
+	<string id="ui_mcm_body_health_system_leg_penalty_minimum_hp_desc">
+		<text>Les points de vie d'au moins une jambe doivent être inférieurs à cette valeur pour déclencher les effets. Une valeur par défaut du curseur à 5 signifie que les effets se déclencheront à 4 points de vie ou moins. (La pénalité de vitesse de déplacement restera active, pour l'instant.)</text>
+	</string>
+	<string id="ui_mcm_body_health_system_leg_limping_damage_minimum_hp">
+		<text>Seuil minimal PV jambes pour dégâts en sprint</text>
+	</string>
+	<string id="ui_mcm_body_health_system_leg_limping_damage_minimum_hp_desc">
+		<text>Sprint avec une jambe endommagée a une chance d'infliger des dégâts. Ce curseur définit le nombre minimal de points de vie de la jambe nécessaire pour activer cet effet, c'est-à-dire que si le curseur est à 4 et que la jambe a 4 points de vie, l'effet sera actif. (Une valeur de -1 désactive cette fonctionnalité.)</text>
+	</string>
+	<string id="ui_mcm_body_health_system_leg_animation_power">
+		<text>Puissance des effets caméra jambes</text>
+	</string>
+	<string id="ui_mcm_body_health_system_leg_animation_power_desc">
+		<text>Multiplicateur de la pénalité sur les jambes pour l'effet de caméra. Valeur par défaut : 1,0.</text>
+	</string>
+	<string id="ui_mcm_body_health_system_arm_penalty_minimum_hp">
+		<text>Seuil minimal PV bras pour pénalités</text>
+	</string>
+	<string id="ui_mcm_body_health_system_arm_penalty_minimum_hp_desc">
+		<text>Les points de vie totaux des bras doivent être inférieurs à cette valeur pour déclencher les effets. Une valeur par défaut du curseur à 10 signifie que les effets se déclencheront si les deux bras ont 9 points de vie ou moins.</text>
+	</string>
+	<string id="ui_mcm_body_health_system_arm_animation_power">
+		<text>Puissance des effets bras</text>
+	</string>
+	<string id="ui_mcm_body_health_system_arm_animation_power_desc">
+		<text>Multiplicateur de la puissance de l'effet de pénalité sur les bras. Valeur par défaut : 1,0.</text>
+	</string>
+	<string id="ui_mcm_body_health_system_head_penalty_minimum_hp">
+		<text>Seuil minimal dégâts tête pour pénalités</text>
+	</string>
+	<string id="ui_mcm_body_health_system_head_penalty_minimum_hp_desc">
+		<text>Dégâts nécessaires pour déclencher les effets. Par exemple, une valeur par défaut du curseur à 2 signifie que chaque dégât infligé à la tête doit être de 2 points de vie ou plus.</text>
+	</string>
+	<string id="ui_mcm_body_health_system_head_animation_power">
+		<text>Puissance des effets tête</text>
+	</string>
+	<string id="ui_mcm_body_health_system_head_animation_power_desc">
+		<text>Multiplicateur de la puissance de l'effet de pénalité sur la tête. Valeur par défaut : 1,0.</text>
+	</string>
+
+
+</string_table>

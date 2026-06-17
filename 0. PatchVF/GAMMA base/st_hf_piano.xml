@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+    <string id="st_placeable_piano">
+		<text>Clavier portable</text>
+	</string>
+	<string id="st_placeable_piano_descr">
+		<text>Une installation de luxe rarement rencontrée dans la Zone. Bien qu'elle n'offre aucune protection contre les mutants ou les stalkers hostiles, elle peut procurer un bref répit face aux hostilités de la Zone.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n		
+		%c[d_orange] • %c[pda_white] Posable\n
+		%c[d_orange] • %c[pda_white] Jouable\n
+		</text>
+	</string>
+	
+</string_table>

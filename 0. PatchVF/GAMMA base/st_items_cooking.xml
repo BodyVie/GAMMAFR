@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_matches">
+		<text>Kit d'allumage</text>
+	</string>
+	<string id="st_matches_descr">
+		<text>Ensemble simple en bois de pin imprégné de résine. Ce kit d'allumage permet de créer un petit feu de camp stable. Facile à enflammer, même lorsqu'il est humide !\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Allumer un feu\n
+		</text>
+	</string>
+	
+	<string id="st_wood_stove">
+		<text>Poêle à bois hexagonal</text>
+	</string>
+	<string id="st_wood_stove_descr">
+		<text>Ce four pliable compact est destiné à la cuisson de repas individuels avec du bois sec. Le réchaud peut produire des températures suffisantes pour griller de la viande de mutants peu contaminée, mais la préparation de viande plus toxique nécessite l'utilisation d'un équipement plus avancé.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Carburant : %c[ui_gray_2]Charbon de bois\n
+		%c[d_orange] • %c[pda_white] Cuisson : %c[ui_gray_2]Uniquement les viandes de petits Mutants\n
+		</text>
+	</string>
+	
+	<string id="st_cooking">
+		<text>Kit de cuisine de terrain</text>
+	</string>
+	<string id="st_cooking_descr">
+		<text>Kit contenant des accessoires et ustensiles de cuisine pour le camping et les voyages. Encombrant en raison de son poids élevé, il reste très populaire parmi les groupes de stalkers. Le Kit de Cuisine peut produire des températures suffisantes pour griller de la viande de mutants peu contaminée, mais la préparation de viande plus toxique nécessite l'utilisation d'un équipement plus avancé.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Carburant : %c[ui_gray_2]Charbon de bois\n
+		%c[d_orange] • %c[pda_white] Cuisson : %c[ui_gray_2]Uniquement les viandes de petits Mutants\n
+		</text>
+	</string>
+	
+	<string id="st_army_bowler">
+		<text>Gamelle militaire</text>
+	</string>
+	<string id="st_army_bowler_descr">
+		<text>Bouilloire métallique robuste conçue pour un usage militaire, idéale pour faire bouillir de l'eau et préparer des repas simples sur une source de chaleur portable. Sa construction solide garantit sa fiabilité. Elle est livrée avec une cuillère à soupe insérée dans un trou spécial sur la poignée.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Carburant : %c[ui_gray_2]Charbon de bois\n
+		%c[d_orange] • %c[pda_white] Cuisson : %c[ui_gray_2]Uniquement les viandes de petits Mutants\n
+		</text>
+	</string>
+	
+	<string id="st_fieldcooker">
+		<text>Réchaud à gaz</text>
+	</string>
+	<string id="st_fieldcooker_descr">
+		<text>À utiliser exclusivement avec les combustibles couramment trouvés dans la Zone, ce réchaud peut cuire tout ce que vous y mettez. Malheureusement, ces combustibles sont généralement transportés dans des conteneurs métalliques lourds, ce qui rend ce réchaud plus adapté à une utilisation dans les bases plutôt qu'en déplacement.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Carburant : %c[ui_gray_2]Essence, Jerrycan, Kérosène\n
+		%c[d_orange] • %c[pda_white] Cuisson : %c[ui_gray_2]Toutes les viandes de Mutants\n
+		</text>
+	</string>
+	
+	<string id="st_box_matches">
+		<text>Boîte d'allumettes</text>
+	</string>
+	<string id="st_box_matches_descr">
+		<text>Petit contenant renfermant une collection d'allumettes, indispensable pour allumer des feux en l'absence de briquets modernes. Dans la Zone, une boîte d'allumettes fiable est une bouée de sauvetage pour se réchauffer et cuisiner.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Utilisation : %c[ui_gray_2]Allumer un feu, allumer des cigarettes\n
+		</text>
+	</string>
+	
+	<string id="st_kerosene">
+		<text>Kérosène</text>
+	</string>
+	<string id="st_kerosene_descr">
+		<text>Liquide inflammable couramment utilisé comme carburant pour les réchauds et lampes portables, fournissant une source de chaleur fiable pour la cuisson et le chauffage. Dans la Zone, les stalkers utilisent le kérosène avec des réchauds multi-carburants pour préparer des repas en toute sécurité, car il brûle plus proprement que les matériaux locaux contaminés.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Carburant de cuisson\n
+		</text>
+	</string>
+	
+	<string id="st_charcoal">
+		<text>Charbon de bois</text>
+	</string>
+	<string id="st_charcoal_descr">
+		<text>Matériau carboné compressé couramment utilisé comme source de combustible pour la cuisson et le chauffage. Dans la Zone, le charbon de bois est préféré au bois naturel contaminé, offrant une source de chaleur plus sûre et constante pour les stalkers.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Carburant de cuisson\n
+		</text>
+	</string>
+
+	<string id="st_fuel_tier_1">
+		<text>Tous les inflammables</text>
+	</string>
+	<string id="st_fuel_tier_1_desc">
+		<text>%c[d_blue] • %c[pda_white] Feu de camp\n
+		%c[d_blue] • %c[pda_white] Charbon de bois\n
+		%c[d_blue] • %c[pda_white] Ballon de gaz\n
+		%c[d_blue] • %c[pda_white] Jerrycan\n
+		%c[d_blue] • %c[pda_white] Kérosène\n
+		</text>
+	</string>
+	
+	<string id="st_fuel_tier_2">
+		<text>Carburant liquide uniquement</text>
+	</string>
+	<string id="st_fuel_tier_2_desc">
+		<text>%c[d_blue] • %c[pda_white] Kérosène\n
+		%c[d_blue] • %c[pda_white] Jerrycan\n
+		%c[d_blue] • %c[pda_white] Ballon de gaz\n
+		</text>
+	</string>
+
+</string_table>

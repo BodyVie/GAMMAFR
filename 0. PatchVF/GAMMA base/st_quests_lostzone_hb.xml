@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--===========================================================
+<
+< TEXT STRINGS FOR LOST TO THE ZONE: HOLLOW BOUNDARIES TASKS
+<	Anomaly 1.5 - Lost to the Zone: Hollow Boundaries
+<
+<===========================================================-->
+
+<string_table>
+
+<!--
+	ITEMS
+-->
+
+	<string id="st_hb_isg_dushman_intel_name">
+		<text>Renseignements de Dushman</text>
+	</string>
+	<string id="st_hb_isg_dushman_intel_desc">
+		<text>Si Dushman a tenu parole, cette mallette contient des cartes établies et des notes qui s'avéreront inestimables pour l'UNISG et devraient réduire considérablement les risques encourus par les futures missions de l'UNISG.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_orange] • %c[pda_white] Objet de quête\n		
+		</text>
+	</string>
+
+<!--
+	QUEST
+-->
+
+	<!-- Hollow Boundaries Arc 1 -->
+	<string id="lttz_hb_task_1_1_dushman_intel_name">
+		<text>Frontières creuses : Renseignements</text>
+	</string>
+	<string id="lttz_hb_task_1_1_dushman_intel_desc">
+		<text>Trouver un homme connu sous le nom de « Dushman » et récupérer les renseignements importants que l'ONU lui a payés.</text>
+	</string>
+	
+	<string id="lttz_hb_task_1_2_recruit_name">
+		<text>Frontières creuses : Rendez-vous</text>
+	</string>
+	<string id="lttz_hb_task_1_2_recruit_desc">
+		<text>Transporter les renseignements à l'emplacement désigné dans Jupiter.</text>
+	</string>
+
+	
+	<!-- Hollow Boundaries Arc 2 -->
+	<string id="lttz_hb_task_2_1_guarded_secrets_name_1">
+		<text>Frontières creuses : Explorer l'usine Jupiter</text>
+	</string>
+	<string id="lttz_hb_task_2_1_guarded_secrets_name_2">
+		<text>Frontières creuses : Retourner voir Hernandez</text>
+	</string>
+	<string id="lttz_hb_task_2_1_guarded_secrets_desc_1">
+		<text>Fouiller l'usine Jupiter pour récupérer la mallette et éliminer les témoins.</text>
+	</string>
+	<string id="lttz_hb_task_2_1_guarded_secrets_desc_2">
+		<text>Remettre la mallette au Major Hernandez.</text>
+	</string>
+
+	<string id="lttz_hb_task_2_2_breakthrough_name_1">
+		<text>Frontières creuses : Percée</text>
+	</string>
+	<string id="lttz_hb_task_2_2_breakthrough_name_2">
+		<text>Frontières creuses : Parler à Hernandez</text>
+	</string>
+	<string id="lttz_hb_task_2_2_breakthrough_desc_1">
+		<text>Surveiller tout document pouvant encore se trouver dans les Souterrains de Jupiter.</text>
+	</string>
+	<string id="lttz_hb_task_2_2_breakthrough_desc_2">
+		<text>Présenter les documents au Major Hernandez.</text>
+	</string>
+	
+	<!-- Hollow Boundaries Arc 3 -->
+	<string id="st_lttz_hb_task_3_1_search_agr_ug_name">
+		<text>Explorer Souterrains d'Agroprom</text>
+	</string>
+	<string id="st_lttz_hb_task_3_1_search_agr_ug_text">
+		<text>Explorer les Souterrains d'Agroprom et rechercher des preuves tangibles d'une conspiration.</text>
+	</string>
+	<string id="st_lttz_hb_task_3_2_search_labx18_name">
+		<text>Explorer Laboratoire X-18</text>
+	</string>
+	<string id="st_lttz_hb_task_3_2_search_labx18_text">
+		<text>Explorer Laboratoire X-18 et rechercher des preuves tangibles d'une conspiration.</text>
+	</string>
+	<string id="st_lttz_hb_task_3_3_search_labx16_name">
+		<text>Explorer Laboratoire X-16</text>
+	</string>
+	<string id="st_lttz_hb_task_3_3_search_labx16_text">
+		<text>Explorer Laboratoire X-16 et rechercher des preuves tangibles d'une conspiration.</text>
+	</string>
+	<string id="st_lttz_hb_task_3_4_search_labx10_name">
+		<text>Explorer Laboratoire X-19</text>
+	</string>
+	<string id="st_lttz_hb_task_3_4_search_labx10_text">
+		<text>Explorer Laboratoire X-19 et rechercher des preuves tangibles d'une conspiration.</text>
+	</string>
+	<string id="st_lttz_hb_task_3_5_search_labx8_name">
+		<text>Explorer le Laboratoire X-8</text>
+	</string>
+	<string id="st_lttz_hb_task_3_5_search_labx8_text">
+		<text>Explorer le Laboratoire X-8 et rechercher des preuves tangibles d'une conspiration.</text>
+	</string>
+	
+	<string id="lttz_hb_task_3_8_handle_docs_name">
+		<text>Mystère élucidé</text>
+	</string>
+	<string id="lttz_hb_task_3_8_handle_docs_text">
+		<text>Retournez voir le Major avec les preuves trouvées.</text>
+	</string>
+
+	<!-- Hollow Boundaries Arc 4 -->
+	<string id="lttz_hb_task_4_1_crossfire_1_name">
+		<text>Tirs croisés : Éliminer les forces militaires</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_2_name">
+		<text>Tirs croisés : Régler le sort de Strelok</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_3_name">
+		<text>Tirs croisés : Escorter Strelok</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_4_name">
+		<text>Tirs croisés : Parler à Strelok</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_5_name">
+		<text>Tirs croisés : Éliminer Strelok</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_6_name">
+		<text>Tirs croisés : Fouiller le cadavre de Strelok</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_7_name">
+		<text>Tirs croisés : Retourner voir le Major Hernandez</text>
+	</string>
+	
+	<string id="lttz_hb_task_4_1_crossfire_1_desc">
+		<text>Éliminer le détachement militaire qui poursuit Strelok en périphérie de Pripyat.</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_2_desc">
+		<text>Le détachement militaire a été éliminé. Extraire les informations de Strelok.</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_3_desc">
+		<text>Escorter Strelok jusqu'à la Forêt Rouge. En alternative, le capturer en l'attirant vers la base de l'UNISG, située dans les Souterrains de Jupiter.</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_4_desc">
+		<text>Parler avec Strelok.</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_5_desc">
+		<text>Éliminer Strelok.</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_6_desc">
+		<text>Strelok est mort. Fouiller son corps pour récupérer toute information utile.</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_7_desc">
+		<text>Remettre la clé USB au Major Hernandez.</text>
+	</string>
+
+	
+	<!-- Maus (ISG Mechanic) Find Level 1 Toolkit Task -->
+	<string id="jup_depo_isg_tech_task_1_name">
+		<text>Trouver %s pour Maus</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_1_text">
+		<text>Maus a besoin de %s pour installer des améliorations de base sur l'équipement.</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_1_about">
+		<text>J'ai une proposition à vous faire. Si vous pouvez me rapporter de nouveaux outils, je vous paierai. Cela vous intéresse-t-il ?</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_1_fetch_about">
+		<text>Oui. Je recherche partout un ensemble de %s. Il devrait contenir de l'huile et les outils nécessaires pour travailler sur les armes à feu. Je vous paierai si vous pouvez m'en rapporter un.</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_1_fetch_finish">
+		<text>Parfait ! C'est exactement ce que je cherchais. Merci !</text>
+	</string>
+
+	<!-- Maus (ISG Mechanic) Find Level 2 Toolkit Task -->
+	<string id="jup_depo_isg_tech_task_2_name">
+		<text>Trouver %s pour Maus</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_2_text">
+		<text>Maus a besoin de %s pour installer des améliorations avancées sur l'équipement.</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_2_about">
+		<text>J'ai une autre proposition. La trousse à outils que vous m'avez apportée fonctionne bien, mais elle ne contient pas tout ce dont j'ai besoin. Pensez-vous pouvoir m'en trouver une meilleure ?</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_2_fetch_about">
+		<text>J'ai besoin d'un %s. Je ne sais pas où vous pourriez vous en procurer, mais si vous en trouvez un, j'en ai besoin.</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_2_fetch_finish">
+		<text>Cela contient tout ce dont j'avais besoin. Je vous remercie.</text>
+	</string>
+
+	<!-- Maus (ISG Mechanic) Find Level 3 Toolkit Task -->
+	<string id="jup_depo_isg_tech_task_3_name">
+		<text>Trouver %s pour Maus</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_3_text">
+		<text>Maus a besoin de %s pour installer des améliorations expertes sur l'équipement.</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_3_about">
+		<text>J'ai une autre proposition. La trousse à outils que vous m'avez apportée fonctionne bien, mais elle ne contient pas tout ce dont j'ai besoin. Pensez-vous pouvoir m'en trouver une meilleure ?</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_3_fetch_about">
+		<text>J'ai besoin d'un %s. Je ne sais pas où vous pourriez vous en procurer, mais si vous en trouvez un, j'en ai besoin.</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_3_fetch_finish">
+		<text>Cela contient tout ce dont j'avais besoin. Je vous remercie.</text>
+	</string>
+	
+</string_table>

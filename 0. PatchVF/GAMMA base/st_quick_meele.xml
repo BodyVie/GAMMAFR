@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="kb_grp_mods">
+		<text>Raccourcis de mod</text>
+	</string>
+
+	<string id="kb_quickmeele">
+		<text>Mêlée rapide</text>
+	</string>
+
+	<string id="kb_tp_companion">
+		<text>Téléporter le compagnon</text>
+	</string>	
+</string_table>

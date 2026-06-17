@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+
+<string_table>
+
+		<string id="st_mag_grot">
+		<text>Chargeur Polymer MSBS Grot</text>
+	</string>
+	<string id="st_mag_grot_descr">
+		<text>Chargeur polymère de 30 cartouches en calibre 5,56x45 pour le MSBS Grot. Origine : Pologne. Fabricant : FB Radom. Conçu pour une intégration optimale avec le système d'arme modulaire Grot, ce chargeur allie légèreté et résistance grâce à son corps en polymère renforcé. Compatible avec les versions C16, C16A1 et C16A2 du fusil.</text>
+	</string>
+	
+</string_table>

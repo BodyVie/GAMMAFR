@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="MDR_black">
+		<text>Desert Tech MDR 7,62x51</text>
+	</string>
+	<string id="MDR_black_descr">
+		<text>Le Desert Tech MDR (Micro Dynamic Rifle) est un fusil d'assaut polyvalent en configuration bullpup, reconnu pour sa conception compacte et sa modularité exceptionnelle. Chambré dans différents calibres, il excelle aussi bien en combat rapproché qu'à longue distance. Ses commandes ambidextres, son cadre léger et sa grande précision en font un choix fiable pour ceux qui naviguent dans les dangers imprévisibles de la Zone. Cette version est chambrée en 7,62x51 avec un corps en polymère noir.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Desert Tech LLC\n
+		</text>
+	</string>
+
+	<string id="MDR">
+		<text>Desert Tech MDR 5,56x45</text>
+	</string>
+	<string id="MDR_descr">
+		<text>Le Desert Tech MDR (Micro Dynamic Rifle) est un fusil d'assaut polyvalent en configuration bullpup, reconnu pour sa conception compacte et sa modularité exceptionnelle. Chambré dans différents calibres, il excelle aussi bien en combat rapproché qu'à longue distance. Ses commandes ambidextres, son cadre léger et sa grande précision en font un choix fiable pour ceux qui naviguent dans les dangers imprévisibles de la Zone. Cette version est chambrée en 5,56x45 avec un corps en polymère couleur tan.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Desert Tech LLC\n
+		</text>
+	</string>
+
+	<string id="MDR_up_descr">
+		<text>Le Desert Tech MDR (Micro Dynamic Rifle) est un fusil d'assaut polyvalent en configuration bullpup, reconnu pour sa conception compacte et sa modularité exceptionnelle. Chambré dans différents calibres, il excelle aussi bien en combat rapproché qu'à longue distance. Ses commandes ambidextres, son cadre léger et sa grande précision en font un choix fiable pour ceux qui naviguent dans les dangers imprévisibles de la Zone. Cette version est chambrée en 5,56x45 avec un corps en polymère couleur tan et a été améliorée de manière permanente avec le Pack d'Amélioration Spécial.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Desert Tech LLC\n
+		</text>
+	</string>
+
+	<string id="MDR_black_up_descr">
+		<text>Le Desert Tech MDR (Micro Dynamic Rifle) est un fusil d'assaut polyvalent en configuration bullpup, reconnu pour sa conception compacte et sa modularité exceptionnelle. Chambré dans différents calibres, il excelle aussi bien en combat rapproché qu'à longue distance. Ses commandes ambidextres, son cadre léger et sa grande précision en font un choix fiable pour ceux qui naviguent dans les dangers imprévisibles de la Zone. Cette version est chambrée en 7,62x51 avec un corps en polymère noir et a été améliorée de manière permanente avec le Pack d'Amélioration Spécial.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]États-Unis\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Desert Tech LLC\n
+		</text>
+	</string>
+
+</string_table>

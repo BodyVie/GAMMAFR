@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="encyclopedia_anomalies">
+		<text>Anomalies</text>
+	</string>
+
+<!--
+	STORMS
+-->
+
+	<string id="encyclopedia_anomalies_emission">
+		<text>Emission</text>
+	</string>
+	<string id="encyclopedia_anomalies_emission_text">
+		<text>%c[pda_white]Les Emissions %c[ui_gray_2], également connues sous le nom de %c[pda_green]décharges brutales%c[ui_gray_2], sont des libérations soudaines de quantités massives de radiations.\n \n
+		%c[pda_green]Informations :\n
+		%c[ui_gray_2]Des vents violents, des nuages d'orage et un ciel d'un rouge écarlate apparaissent avec le début d'une émission, suivis de nombreuses décharges de tonnerre et d'un grondement profond. Ces événements commencent par une forte augmentation de l'activité radioactive et psychique et se terminent par la destruction de la plupart des formes de vie lorsque des vagues de radiation enveloppent la Zone.\n \n
+		Bien qu'extrêmement mortelle, une émission reste relativement facile à survivre en se mettant à couvert dans des bâtiments ou des tunnels souterrains jusqu'à ce que l'événement ait suivi son cours.\n \n
+		%c[pda_blue]Notes :\n
+		%c[pda_white] • %c[ui_gray_2] De manière similaire à une tempête psychique, la quantité massive d'énergie libérée par une émission semble « %c[pda_white]recharger%c[ui_gray_2] » de nombreuses anomalies, permettant aux stalkers de récolter de nouveaux artefacts à partir d'elles.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_anomalies_psistorm">
+		<text>Tempête psychique</text>
+	</string>
+	<string id="encyclopedia_anomalies_psistorm_text">
+		<text>%c[pda_white]Les Tempêtes psychiques %c[ui_gray_2]se composent de multiples vortex psychiques libérant des quantités mortelles d’énergie psychique.\n \n
+		%c[pda_green]Informations :\n
+		%c[ui_gray_2]Ces anomalies météorologiques inhabituelles sont une arrivée très récente dans Zone. Commençant par une brume violette/rose et de grandes formations de nuages d'orage, il faut très peu de temps pour qu'une tempête psychique se forme et commence à semer le chaos dans Zone.\n \n
+		%c[pda_blue]Notes :\n
+		%c[pda_white] • %c[ui_gray_2] À l'instar des émissions, la quantité massive d'énergie dispersée par une tempête psychique semble « %c[pda_white]recharger%c[ui_gray_2] » de nombreuses anomalies, permettant aux stalkers de récolter de nouveaux artefacts à partir d'elles.	
+		</text>
+	</string>
+
+<!--
+	OTHER
+-->
+
+	<string id="encyclopedia_anomalies_brain_scorcher">
+		<text>Le Lobotomisateur</text>
+	</string>
+	<string id="encyclopedia_anomalies_brain_scorcher_text">
+		<text>%c[ui_gray_2]Le %c[pda_green]Lobotomisateur %c[ui_gray_2]est une ancienne installation militaire qui a été saisie par le groupe et est devenue la première application majeure de la technologie de contrôle mental dans Zone.\n \n
+		%c[pda_green]Informations :\n
+		%c[ui_gray_2]Après la dissolution de l'Union soviétique, le Groupe a poursuivi les recherches entamées dans le Laboratoire X-8 et a adapté l'installation au Scorcher, ou plus important encore, le Laboratoire X-19 situé dans un ancien bunker sous l'installation.\n \n
+		Lors de la création de la Zone, le Lobotomisateur a été activé par la Conscience Collective afin d'obstruer l'accès au centre de la Zone. Les émissions psychiques générées par cette installation se sont avérées efficaces pour contrôler l'esprit des intrus et les soumettre à la volonté du collectif, transformant certains en stalkers zombifiés dépourvus de raison et d'autres en recrues brutes pour la faction Monolithe.\n \n
+		Bien que la majorité des stalkers ayant approché de trop près le Lobotomisateur soient devenus des zombies, un groupe de stalkers connu sous le nom de Groupe de Strelok a réussi à contourner le Lobotomisateur (très probablement avec l'aide d'un Guide) et à atteindre le centre de la Zone. Le chemin menant au Scorcher et à l'installation elle-même est lourdement gardé par les fanatiques de Monolithe.
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_phantom">
+		<text>Fantôme</text>
+	</string>
+	<string id="encyclopedia_anomalies_phantom_text">
+		<text>%c[pda_white]Les Fantômes %c[ui_gray_2]sont des êtres illusoires qui existent dans l’esprit plutôt que dans le monde physique.\n \n
+		%c[pda_green]Informations :\n
+		%c[ui_gray_2]Difficile à classer comme anomalie ou comme mutant, un fantôme est une projection mentale involontaire d'un mutant actuellement présent quelque part dans la Zone. Ces projections sont toujours accompagnées d'un bruit audible de "hurlement" et apparaissent lumineuses et transparentes, flottant progressivement vers la victime à travers les murs et l'air.\n \n
+		On ignore pourquoi ils ne prennent que la forme de mutants, y compris ceux qu'un stalker n'a jamais rencontrés, et pourquoi ils ne revêtent jamais l'apparence d'espèces aujourd'hui éteintes, comme le Tark. Une théorie dominante de ce phénomène suggère que les mutants vivants de la Zone sont d'une manière ou d'une autre fortement liés à la Noosphère, et que par ce biais, un champ psychique imprime involontairement leur apparence visuelle et leur nature hostile dans l'esprit de leurs victimes.
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_psi">
+		<text>Champ psychique</text>
+	</string>
+	<string id="encyclopedia_anomalies_psi_text">
+		<text>%c[ui_gray_2]De très vastes zones d’activité psychique s’élevant jusqu’aux nuages, souvent visibles uniquement par des colonnes de lumière déformée.\n \n
+		%c[pda_green]Informations :\n
+		%c[ui_gray_2]Ces champs ont des effets néfastes sur les tissus cérébraux et peuvent parfois être le signe visible d'une émission psychique, causant des dommages légers à graves. Cependant, la plupart du temps, ces colonnes abritent des concentrations d'anomalies ou, en leur absence, sont associées à des niveaux élevés de radiation.\n \n
+		%c[pda_blue]Notes :\n
+		%c[pda_white] • %c[ui_gray_2] Contrairement aux Emissions et aux Tempêtes psychiques, les Champs psychiques ne génèrent pas d’anomalies de « recharge » pour produire des artefacts.
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_radiation">
+		<text>Radiation</text>
+	</string>
+	<string id="encyclopedia_anomalies_radiation_text">
+		<text>%c[ui_gray_2]Une zone de radiation accrue, généralement supérieure à 50 milliRoentgen par heure (mR/h). Il est fortement déconseillé de rester dans une zone radioactive pendant de longues périodes, car cela peut provoquer des maladies dues aux radiations et éventuellement entraîner la mort.\n \n
+		%c[pda_green]Conseils\n
+		%c[pda_white] • %c[ui_gray_2] Le %c[pda_white]Compteur Geiger %c[ui_gray_2]est un outil essentiel pour détecter et mesurer les rayonnements ionisants. Plus les cliquetis sont rapides, plus le niveau de radiation détecté est élevé.\n
+		%c[pda_white] • %c[ui_gray_2] De nombreux stalkers meurent des suites d'un empoisonnement par radiation. Il est fortement recommandé de toujours avoir sur soi un paquet de %c[pda_white]Médicaments anti-radiation %c[ui_gray_2].\n
+		%c[pda_white] • %c[ui_gray_2] Assurez-vous que votre masque à gaz soit toujours en bon état.\n
+		%c[pda_white] • %c[pda_white] La vodka %c[ui_gray_2] et %c[pda_white] les cigarettes %c[ui_gray_2] sont largement utilisées parmi les stalkers comme alternative bon marché, mais non négligeable, aux Médicaments anti-radiation.
+		</text>
+	</string>
+	
+<!--
+	FLAME
+-->
+
+	<string id="encyclopedia_anomalies_burner">
+		<text>Brûleur</text>
+	</string>
+	<string id="encyclopedia_anomalies_burner_text"> 	
+		<text>%c[ui_gray_2]Le %c[pda_white]Brûleur %c[ui_gray_2]est une colonne de feu stationnaire activée par proximité.\n \n
+		%c[pda_green]Informations :\n	
+		%c[ui_gray_2]Un nuage d'air chaud à peine visible qui, lorsqu'il est perturbé, projette une colonne de flammes atteignant des températures proches de 1000°C. La nuit, il peut être détecté à l'aide d'appareils puissants ou en y lançant des objets, comme des boulons ou des douilles usagées.\n \n
+		%c[pda_blue]Notes :\n
+		%c[pda_white] • Type : %c[d_orange]À base de Flamme\n
+		%c[pda_white] • Évitement : %c[0,255,0,0]Difficile\n
+		%c[pda_white] • Danger : %c[0,255,0,0]Élevé
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_comet">
+		<text>Comet</text>
+	</string>
+	<string id="encyclopedia_anomalies_comet_text"> 	
+		<text>%c[ui_gray_2]Le %c[pda_white]Comet %c[ui_gray_2]est une anomalie de feu mobile dangereuse, atteignant des températures proches de celles de la zone autour du soleil.\n \n
+		%c[pda_green]Informations :\n
+		%c[ui_gray_2]L'anomalie Comet fonctionne de manière similaire à une anomalie Brûleur, atteignant des températures allant jusqu'à plus de 5000 °C, infligeant des dégâts de feu au contact rapproché. Cependant, contrairement au Brûleur, le Comet est mobile et se déplace rapidement dans une zone fixe.
+		L’anomalie Comet, contrairement au Brûleur, est extrêmement puissante : elle peut tuer même un stalker bien protégé s’il est touché directement.\n \n
+		%c[pda_blue]Notes :\n
+		%c[pda_white] • Type : %c[d_orange]À base de Flamme\n
+		%c[pda_white] • Évitement : %c[0,255,255,0]Modéré\n
+		%c[pda_white] • Danger : %c[0,255,0,0]Extrêmement élevé\n
+		%c[pda_white] • %c[ui_gray_2] Cette anomalie ne génère aucun type de artefact.
+		</text>
+	</string>
+
+<!--
+	CHEMICAL
+-->
+
+	<string id="encyclopedia_anomalies_fuzz">
+		<text>Fuzz brûlé</text>
+	</string>
+	<string id="encyclopedia_anomalies_fuzz_text"> 	
+		<text>L’anomalie Fuzz brûlé est une formation semblable à une liane capable de provoquer des brûlures sur les objets organiques qui la traversent rapidement.\n \n
+		%c[pda_green]Informations :\n
+		%c[ui_gray_2]Exemple de végétation mutée de la Zone, le "Fuzz brûlé" ressemble à de la mousse ou à des lianes pendantes formant des rideaux. L'anomalie ne semble réagir qu'à l'approche rapide d'organismes vivants en libérant un nuage de projectiles extrêmement petits, provoquant une irritation sévère ou des blessures au contact de la peau non protégée ou légèrement protégée.\n \n
+		%c[pda_blue]Notes :\n
+		%c[pda_white] • Type : %c[d_orange]Chimique\n
+		%c[pda_white] • Évitabilité : %c[0,0,255,0]Facile\n
+		%c[pda_white] • Danger : %c[0,0,255,0]Faible
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_fruit">
+		<text>Fruit Punch</text>
+	</string>
+	<string id="encyclopedia_anomalies_fruit_text"> 	
+		<text>%c[ui_gray_2]Le %c[pda_white]Fruit Punch %c[ui_gray_2]est une flaque de liquide vert luminescent extrêmement corrosif.\n \n
+		%c[pda_green]Informations :\n
+		%c[ui_gray_2]Une flaque de liquide facilement visible dans presque tous les environnements en raison de sa lueur vive et des bruits caractéristiques de sifflement et de bouillonnement. Au contact de la peau, elle provoque des lésions similaires à des brûlures chimiques causées par des acides forts.\n \n
+		%c[pda_blue]Notes :\n
+		%c[pda_white] • Type : %c[d_orange]Chimique\n
+		%c[pda_white] • Évitabilité : %c[0,0,255,0]Facile\n
+		%c[pda_white] • Danger : %c[0,0,255,0]Faible
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_gas">
+		<text>Gaz</text>
+	</string>
+	<string id="encyclopedia_anomalies_gas_text"> 	
+		<text>%c[ui_gray_2]L’anomalie %c[pda_white]Gaz %c[ui_gray_2]se reconnaît à ses nuages de gaz acide vert flottant au-dessus du sol.\n \n
+		%c[pda_green]Informations :\n
+		%c[ui_gray_2]Lorsqu'il entre en contact avec des parties métalliques ou des tissus organiques, ce gaz émet et projette des composés hautement acides dans son environnement immédiat. Il ne doit pas être confondu avec l'anomalie Fruit Punch, car il se comporte davantage comme un nuage ou un brouillard que comme une flaque de liquide.\n \n
+		%c[pda_blue]Notes :\n
+		%c[pda_white] • Type : %c[d_orange]Chimique\n
+		%c[pda_white] • Évitabilité : %c[0,0,255,0]Facile\n
+		%c[pda_white] • Danger : %c[0,0,255,0]Faible
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_gascloud">
+		<text>Nuage de gaz</text>
+	</string>
+	<string id="encyclopedia_anomalies_gascloud_text"> 	
+		<text>L'anomalie Nuage de gaz ressemble à une anomalie de Gaz, mais elle est mobile et plus puissante. À ce titre, elle constitue l'équivalent chimique des anomalies Comet et Tesla.\n \n
+		%c[pda_green]Informations :\n
+		%c[ui_gray_2]Même équipé d'une combinaison de protection haut de gamme et de certains artefacts de protection chimique, un contact prolongé avec cette anomalie peut causer des blessures graves, voire une mort instantanée. En l'absence d'autres options, traverser cette zone aussi rapidement que possible reste la meilleure solution.\n \n
+		%c[pda_blue]Notes :\n
+		%c[pda_white] • Type : %c[d_orange]Chimique\n
+		%c[pda_white] • Évitement : %c[0,255,255,0]Modéré\n
+		%c[pda_white] • Danger : %c[0,255,255,0]Modéré\n
+		%c[pda_white] • %c[ui_gray_2] Cette anomalie ne génère aucun type d’artefact.
+		</text>
+	</string>
+
+<!--
+	ELECTRIC
+-->
+
+	<string id="encyclopedia_anomalies_electro">
+		<text>Électro</text>
+	</string>
+	<string id="encyclopedia_anomalies_electro_text"> 	
+		<text>%c[ui_gray_2]L'anomalie %c[pda_white]Électro %c[ui_gray_2]ne fait aucune distinction quant à ce qui franchit son horizon des événements, qu'il s'agisse d'un humain, d'un mutants ou d'un objet inanimé.\n \n
+		%c[pda_green]Informations :\n
+		%c[ui_gray_2]Formation anomale d'environ 10 mètres de diamètre, accumulant de grandes quantités d'électricité statique. Lorsqu'elle est déclenchée, l'anomalie explose en dizaines de mini-explosions électriques, provoquant un choc électrique presque toujours mortel pour tous les organismes vivants. Reconnaissable au brouillard bleuté qui flotte au-dessus, elle peut être évitée en chronométrant soigneusement ses moments d'inactivité et en la traversant, ou révélée en y jetant des objets tels que des boulons ou des douilles usagées.\n \n
+		%c[pda_blue]Notes :\n
+		%c[pda_white] • Type : %c[d_orange]Électrique\n
+		%c[pda_white] • Évitement : %c[0,255,255,0]Modéré\n
+		%c[pda_white] • Danger : %c[0,255,0,0]Élevé
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_pulse">
+		<text>Impulsion</text>
+	</string>
+	<string id="encyclopedia_anomalies_pulse_text"> 	
+		<text>%c[ui_gray_2]Les scientifiques estiment que l'anomalie %c[pda_white]Impulsion %c[ui_gray_2]est une formation unique d'éclairs sous l'effet agressif des ondes psychiques à l'intérieur des frontières de Zone.\n \n
+		%c[pda_green]Informations :\n
+		%c[ui_gray_2]Commençant par une brume bleue, il faut très peu de temps pour qu'une Impulsion se forme et se décharge dans le sol, entraînant une mort instantanée pour tout ce qui se trouve suffisamment près du point d'impact. La fréquence de cette anomalie est directement liée aux conditions météorologiques, car elle a plus de chances de se former pendant la pluie et les orages. Bien que son rayon d'action mortel ne soit pas aussi étendu que celui d'une tempête psychique complète, l'Impulsion reste une menace crédible. Si une Impulsion commence à se former près de vous, fuyez aussi vite que possible.\n \n
+		%c[pda_blue]Notes :\n
+		%c[pda_white] • Type : %c[d_orange]Électrique\n
+		%c[pda_white] • Évitement : %c[0,255,255,0]Modéré\n
+		%c[pda_white]Danger : %c[0,255,0,0]Extrêmement élevé\n
+		%c[pda_white] • %c[ui_gray_2] Cette anomalie ne génère aucun type d’artefact.
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_tesla">
+		<text>Tesla</text>
+	</string>
+	<string id="encyclopedia_anomalies_tesla_text"> 	
+		<text>%c[ui_gray_2]La %c[pda_white]Tesla %c[ui_gray_2]est une boule mobile d’électricité de 5 milliards de joules, semblable à un éclair en mouvement.\n \n
+		%c[pda_green]Informations :\n
+		%c[ui_gray_2]Il est dit que l'anomalie Tesla est une forme évoluée ou supérieure d'une anomalie Électro. Il est possible qu'une Électro particulièrement grande ou intense soit restée intacte ou ait accumulé une charge massive pendant une période prolongée, devenant mobile pour décharger son énergie accumulée ou pour « chasser » des cibles ou des proies. Ceux frappés par cette boule d'énergie peuvent s'attendre à des blessures graves, voire à la mort.\n \n
+		%c[pda_blue]Notes :\n
+		%c[pda_white] • Type : %c[d_orange]Électrique\n
+		%c[pda_white] • Évitabilité : %c[0,255,0,0]Élevée\n
+		%c[pda_white] • Danger : %c[0,255,0,0]Élevé\n
+		%c[pda_white] • %c[ui_gray_2] Cette anomalie ne génère aucun type d’artefact.
+		</text>
+	</string>
+
+<!--
+	GRAVITY
+-->
+
+	<string id="encyclopedia_anomalies_springboard">
+		<text>Tremplin</text>
+	</string>
+	<string id="encyclopedia_anomalies_springboard_text"> 	
+		<text>%c[ui_gray_2]Le %c[pda_white]Tremplin %c[ui_gray_2]est un champ gravitationnel instable infligeant des dégâts importants à quiconque se trouve dans son rayon d'action.\n \n
+		%c[pda_green]Informations :\n
+		%c[ui_gray_2]Reste active en moyenne une semaine, la quantité de dégâts infligés variant au cours de sa durée de vie, allant de simples ecchymoses à des blessures graves, voire à une mort instantanée. Facile à repérer en plein jour, cette anomalie s'accompagne de fluctuations de l'air, de feuilles dansantes et de taches distinctives rouge cramoisi au sol. Le « Tremplin » peut également être révélé en y jetant des objets tels que des boulons ou des douilles usagées.\n \n
+		%c[pda_blue]Notes :\n
+		%c[pda_white] • Type : %c[d_orange]À gravité\n
+		%c[pda_white] • Évitabilité : %c[0,0,255,0]Facile\n
+		%c[pda_white] • Danger : %c[0,0,255,0]Faible %c[pda_white]à %c[0,255,0,0]élevé
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_vortex">
+		<text>Vortex</text>
+	</string>
+	<string id="encyclopedia_anomalies_vortex_text"> 	
+		<text>%c[ui_gray_2] Le %c[pda_white]Vortex %c[ui_gray_2] est une anomalie de nature gravitationnelle capable de comprimer la matière dans un espace incroyablement restreint avant d'exploser violemment.\n \n 
+		%c[pda_green]Informations :\n
+		%c[ui_gray_2]Anomalie de nature gravitationnelle, lorsqu'elle est déclenchée, la puissance colossale du Vortex attire tout ce qui se trouve dans un rayon de 10 à 15 mètres vers son centre. Les victimes aspirées dans le coeur n'ont aucune chance de survie, leurs corps étant souvent rapidement compressés en un bloc compact avant d'exploser dans une puissante décharge d'énergie. Facilement identifiable en plein jour par les fluctuations de l'air au-dessus, les feuilles dansantes, les fragments de corps démembrés éparpillés autour et une tache sombre distinctive en son centre. Très dangereuse la nuit, car elle ne peut être révélée qu'à l'aide d'un détecteur ou en y jetant des objets.\n \n
+		%c[pda_blue]Notes :\n
+		%c[pda_white] • Type : %c[d_orange]À gravité\n
+		%c[pda_white] • Évitement : %c[0,255,255,0]Modéré\n
+		%c[pda_white] • Danger : %c[0,255,255,0]Modéré %c[pda_white]à %c[0,255,0,0]Élevé
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_whirligig">
+		<text>Toupie</text>
+	</string>
+	<string id="encyclopedia_anomalies_whirligig_text"> 	
+		<text>%c[ui_gray_2]L’anomalie %c[pda_white]Toupie %c[ui_gray_2]attrape ses victimes pour les projeter en l’air et les faire tourner à une vitesse vertigineuse.\n \n
+		%c[pda_green]Informations :\n
+		%c[ui_gray_2]La nature exacte de la « Toupie » reste inconnue. L'anomalie peut être reconnue par un léger tourbillon de poussière au-dessus. Les victimes prises dans sa périphérie peuvent s'en échapper avec des blessures relativement mineures, mais celles capturées en son centre sont projetées en l'air et tournoyées à une vitesse vertigineuse. Après un court laps de temps, l'anomalie libère une décharge suffisamment puissante pour démembrer la victime par la seule force exercée, jusqu'à ce que l'anomalie finisse par se décharger.\n \n
+		%c[pda_blue]Notes :\n
+		%c[pda_white] • Type : %c[d_orange]À gravité\n
+		%c[pda_white] • Évitabilité : %c[0,0,255,0]Facile\n
+		%c[pda_white] • Danger : %c[0,0,255,0]Faible à %c[0,255,0,0]élevé
+		</text>
+	</string>
+
+<!--
+	REALITY
+-->
+
+	<string id="encyclopedia_anomalies_space">
+		<text>Espace</text>
+	</string>
+	<string id="encyclopedia_anomalies_space_text"> 	
+		<text>%c[ui_gray_2] L'anomalie %c[pda_white]Espace %c[ui_gray_2] est le résultat ultime de l'instabilité de la Zone, car elle altère la structure même de la réalité, déformant le temps et l'espace.\n \n
+		%c[pda_green]Informations :\n
+		%c[ui_gray_2]Mini-trous de ver qui téléportent tout ce qui y pénètre vers un autre endroit. Cette théorie de la téléportation semble confirmée après avoir discuté avec un stalker au Cordon près du pont ferroviaire. L'interroger sur le « trou noir » vous orientera vers l'anomalie Space présente à cet endroit, dans laquelle lui et ses amis ont apparemment jeté des déchets et se souviennent avoir retrouvé ces mêmes déchets plus tard dans un ancien tunnel.\n \n
+		%c[pda_blue]Notes :\n
+		%c[pda_white] • Type : %c[d_orange]Altération de la réalité\n
+		%c[pda_white] • Évitabilité : %c[pda_white]N.D.\n
+		%c[pda_white] • Danger : %c[pda_white]Inconnu\n
+		%c[pda_white] • %c[ui_gray_2] Cette anomalie ne génère aucun type d’artefact.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_anomalies_teleport">
+		<text>Téléportation</text>
+	</string>
+	<string id="encyclopedia_anomalies_teleport_text"> 	
+		<text>%c[ui_gray_2]La %c[pda_white]Téléportation %c[ui_gray_2]est une anomalie rare que l’on trouve dans quelques endroits de la Zone.\n \n
+		%c[pda_green]Informations :\n
+		%c[ui_gray_2]Naturellement inoffensive, tout objet entrant en contact avec l’anomalie de Téléportation est instantanément téléporté vers un autre endroit.\n \n
+		%c[pda_blue]Notes :\n
+		%c[pda_white] • Type : %c[d_orange]Altération de la réalité\n
+		%c[pda_white] • Évitabilité : %c[pda_white]N.D.\n
+		%c[pda_white] • Danger : %c[pda_white]Inconnu\n
+		%c[pda_white] • %c[ui_gray_2] Cette anomalie ne génère aucun type d’artefact.
+		</text>
+	</string>
+	
+</string_table>

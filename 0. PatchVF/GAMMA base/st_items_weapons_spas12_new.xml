@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!--
+	Overwrites 'spas-12', 'spas12_custom', 'spas_nimble'
+-->
+	<string id="st_wpn_spas12_new">
+		<text>SPAS-12</text>
+	</string>
+	<string id="st_wpn_spas12_descr_new">
+		<text>Fusil de combat doté de deux modes de tir, à pompe et semi-automatique, conçu pour les applications militaires, policières et tactiques. Son canon repliable caractéristique et sa construction robuste lui permettent de s'adapter aussi bien aux combats rapprochés qu'aux opérations de percement. Réputé pour son design agressif et sa polyvalence, il est devenu l'un des fusils les plus emblématiques de la culture populaire et de l'histoire militaire.\n \n
+		%c[pda_white]PROPRIÉTÉS :\n
+		%c[d_cyan] • %c[pda_white] Origine : %c[ui_gray_2]Italie\n
+		%c[d_cyan] • %c[pda_white] Fabricant : %c[ui_gray_2]Franchi\n
+		</text>
+	</string>
+
+</string_table>

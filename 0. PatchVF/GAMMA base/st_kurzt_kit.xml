@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_addon_kurtz_kit">
+		<text>Kit d'upgrade pour MP5K</text>
+	</string>
+	<string id="st_addon_kurtz_descr">
+		<text>Ce kit comprend toutes les pièces nécessaires pour convertir un MP5 en MP5k. Les éléments inclus sont une nouvelle boîte de culasse supérieure, un garde-main, un canon et un système à gaz. La cadence de tir a été améliorée et la taille compacte en fait une arme idéale pour le dissimuler et la porter comme arme de poing secondaire. En raison de la suppression de la crosse, le MP5k n'est plus en mesure d'utiliser efficacement les lunettes de visée.</text>
+	</string>
+</string_table>

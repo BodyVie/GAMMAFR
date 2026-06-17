@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="ui_mcm_menu_magnifier_switch">
+		<text>Commutateur de grossissement 3DSS</text>
+	</string>
+	
+	<string id="ui_mcm_magnifier_switch_title">
+		<text>Commutateur de grossissement</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_use_mousewheel">
+		<text>Utiliser la molette (désactive les raccourcis ci-dessous si activé !)</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_use_mousewheel_desc">
+		<text>Utilise l'entrée de la molette de la souris pour le changement de grossissement (respecte le paramètre 'mouse_wheel_invert_zoom' si celui-ci est activé).</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_mwheel_switch_ads_only">
+		<text>Échange à la molette uniquement en ADS</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_mwheel_switch_ads_only_desc">
+		<text>Désactive le changement de grossissement via la molette de la souris lorsque le viseur n'est pas activé.</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_mwheel_weapon_swap">
+		<text>Échanger d'arme avec la molette</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_mwheel_weapon_swap_desc">
+		<text>Raccourci pour la commande console 'mouse_wheel_change_weapon' et le paramètre issu de modded exes, ajouté pour plus de commodité.</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_switch_bind">
+		<text>Raccourci du commutateur de grossissement</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_switch_bind_desc">
+		<text>Modifie le comportement normal de la touche lorsque celle-ci est définie comme touche de bascule du mode de visée, permettant son utilisation lorsque le grossissement ne peut pas être changé ou lorsque la combinaison de touches et le mode d'entrée spécifiques pour le changement de grossissement ne sont pas exécutés.</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_keep_aim_toggle">
+		<text>Maintenir le basculement ADS</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_keep_aim_toggle_desc">
+		<text>Le passage d'un mode à l'autre tout en visant dans les organes de visée maintient le mode ADS (pour le mode de bascule ADS).</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_switch_sound">
+		<text>Jouer l'effet sonore</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_switch_sound_desc">
+		<text>Joue un effet sonore lors du changement de mode de grossissement.</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_debug">
+		<text>Journalisation de débogage (très détaillée)</text>
+	</string>
+
+</string_table>

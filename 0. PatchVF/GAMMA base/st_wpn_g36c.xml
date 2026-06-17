@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="st_wpn_g36c_spec">
+		<text>G36c Spec. Op</text>
+	</string>
+	<string id="st_wpn_g36c_spec_descr">
+		<text>Cette arme a été modifiée avec un nouveau boîtier supérieur, un garde-main, un canon et un système de gaz. Le boîtier inférieur a été adapté pour accepter les chargeurs au standard STANAG. La cadence de tir a été améliorée et sa taille compacte en fait un choix idéal pour les combats urbains. Les accessoires comprennent un désignateur laser, un kit Devo modifié pour la Zone permettant la vision thermique, ainsi qu'une visée holographique Holosun 510 à point rouge.</text>
+	</string>
+	
+	<string id="st_addon_cut_kit">
+		<text>Kit spécial G36c</text>
+	</string>
+	<string id="st_addon_cut_descr">
+		<text>Ce kit comprend toutes les pièces nécessaires pour convertir un G36 en G36c. Les éléments inclus sont un nouveau boîtier supérieur, un garde-main, un canon et un système de gaz. Le boîtier inférieur a été modifié pour accepter les chargeurs au standard STANAG. La cadence de tir a été améliorée et sa taille compacte en fait un choix idéal pour les combats urbains. Les accessoires comprennent un désignateur laser, un kit Devo modifié pour la Zone permettant la vision thermique, ainsi qu'une visée holographique Holosun 510 à point rouge.</text>
+	</string>
+</string_table>

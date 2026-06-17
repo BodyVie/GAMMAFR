@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!-- 
+	Strings for "Dead Air Knives"
+-->
+
+
+<string_table>
+
+	<string id="st_mag_overlylarge_95_545_drum">
+		<text>RPK-16 5,45x39 Chargeur Tambour 95 cartouches</text>
+	</string>
+	<string id="st_mag_overlylarge_95_545_drum_descr">
+		<text>Chargeur polymère Izhmash de 95 cartouches pour munitions 5,45x39 mm.</text>
+	</string>
+	
+	<string id="st_mag_overlylarge_95_556_drum">
+		<text>RPK-16 5,56x45 Chargeur Tambour 95 cartouches</text>
+	</string>
+	<string id="st_mag_overlylarge_95_556_drum_descr">
+		<text>Chargeur polymère Izhmash de 95 cartouches, rechambré pour munitions 5,56x45 mm.</text>
+	</string>
+	
+	<string id="st_mag_overlylarge_75_762x39_drum">
+		<text>AK 7,62x39 Chargeur Tambour 75 cartouches</text>
+	</string>
+	<string id="st_mag_overlylarge_75_762x39_drum_descr">
+		<text>Chargeur métallique de 75 cartouches pour munitions 7,62x39 mm.</text>
+	</string>
+	
+	<string id="st_mag_overlylarge_50_762x51_drum">
+		<text>SA58 7,62x51 Chargeur Tambour 50 cartouches</text>
+	</string>
+	<string id="st_mag_overlylarge_50_762x51_drum_descr">
+		<text>Tambour de 50 cartouches 7,62x51 mm pour fusils à charnière.</text>
+	</string>
+	
+	<string id="st_mag_overlylarge_50_762x51_drum2">
+		<text>STANAG 7,62x51 Chargeur Tambour 50 cartouches</text>
+	</string>
+	<string id="st_mag_overlylarge_50_762x51_drum2_descr">
+		<text>Tambour de 50 cartouches 7,62x51 mm, modifié pour s'adapter aux fusils compatibles STANAG.</text>
+	</string>
+		
+	<string id="st_mag_overlylarge_sks_75_762x39_drum">
+		<text>SKS 7,62x39 Chargeur Tambour 75 cartouches</text>
+	</string>
+	<string id="st_mag_overlylarge_sks_75_762x39_drum_descr">
+		<text>Chargeur en acier bleui de 75 cartouches, conçu pour être utilisé avec les carabines SKS acceptant les chargeurs externes.</text>
+	</string>
+		
+	<string id="st_mag_overlylarge_sks_75_762x39_drum2">
+		<text>SKS 7,62x54 Chargeur Tambour 75 cartouches</text>
+	</string>
+	<string id="st_mag_overlylarge_sks_75_762x39_drum2_descr">
+		<text>Chargeur en acier bleui de 75 cartouches, rechambré et conçu pour être utilisé avec les carabines SKS acceptant les chargeurs externes.</text>
+	</string>
+	
+	<string id="st_mag_overlylarge_100_556x45_drum">
+		<text>5,56x45 STANAG Chargeur 100 cartouches</text>
+	</string>
+	<string id="st_mag_overlylarge_100_556x45_drum_descr">
+		<text>Chargeur métallique haute capacité de 100 cartouches pour munitions 5,56x45 mm.</text>
+	</string>
+	
+	<string id="st_mag_overlylarge_100_556x45_drum2">
+		<text>5,56x45 STANAG Chargeur 100 cartouches Modifié</text>
+	</string>
+	<string id="st_mag_overlylarge_100_556x45_drum2_descr">
+		<text>Chargeur métallique haute capacité de 100 cartouches pour munitions 5,56x45 mm, modifié pour s'adapter aux systèmes AUG.</text>
+	</string>
+
+	<string id="st_mag_saiga12_drum">
+		<text>Saiga-12 Chargeur Tambour 20 cartouches</text>
+	</string>
+	<string id="st_mag_saiga12_drum_descr">
+		<text>Tambour haute capacité de 20 cartouches pour munitions de fusil de chasse 12x70.</text>
+	</string>
+	
+	<string id="st_mag_nato_5.56x45_drum">
+		<text>PMAG D-60 Étendu</text>
+	</string>
+	<string id="st_mag_nato_5.56x45_drum_descr">
+		<text> Le PMAG D-60 Étendu de MAGPUL est un tambour de 60 cartouches compatible avec tous les fusils acceptant les chargeurs STANAG.
+		</text>
+	</string>
+	
+	 <string id="st_mag_nato_5.56x45_drum_ext">
+		<text>KCI Chargeur Tambour 100 cartouches Gen 2</text>
+	</string>
+	
+	<string id="st_mag_nato_5.56x45_drum_ext_descr">
+		<text>Le KCI 100 Gen2 Drum Magazine est un tambour de 100 cartouches compatible avec tous les fusils acceptant les chargeurs STANAG.
+		</text>
+	</string>
+
+</string_table>

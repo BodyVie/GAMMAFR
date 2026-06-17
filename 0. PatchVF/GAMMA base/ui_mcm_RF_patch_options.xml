@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_RF_package_patch_title">
+		<text>Options de paquet récepteur RF</text>
+	</string>
+	
+	<string id="ui_mcm_menu_RF_package_patch">
+		<text>Options de paquet récepteur RF</text>
+	</string>
+	
+	<string id="ui_mcm_RF_package_patch_reminders">
+		<text>Rappel donné lors de :</text>
+	</string>
+	
+	<string id="ui_mcm_lst_switch_mode_transition">
+		<text>Chaque transition vers une zone extérieure</text>
+	</string>
+	
+	<string id="ui_mcm_lst_switch_mode_local">
+		<text>Transition vers la zone de paquet</text>
+	</string>
+	
+	<string id="ui_mcm_lst_switch_mode_never">
+		<text>Aucun rappel</text>
+	</string>
+	
+	<string id="ui_mcm_RF_package_patch_upgrades">
+		<text>Objets améliorés donnés</text>
+	</string>
+	
+	<string id="ui_mcm_lst_switch_mode_vanilla">
+		<text>Objets d'amélioration vanilla</text>
+	</string>
+	
+	<string id="ui_mcm_lst_switch_mode_streamlined">
+		<text>Objets d'amélioration optimisés d'Arti</text>
+	</string>
+	
+	<string id="ui_mcm_RF_package_patch_unpacking">
+		<text>Mode de déballage des paquets :</text>
+	</string>
+	
+	<string id="ui_mcm_lst_switch_mode_manual_unpack">
+		<text>Option de déballage manuel par clic droit</text>
+	</string>
+	
+	<string id="ui_mcm_lst_switch_mode_auto_unpack">
+		<text>Déballage automatique à la récupération</text>
+	</string>
+	
+</string_table>

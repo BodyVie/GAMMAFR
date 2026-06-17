@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    <string id="ui_mcm_menu_lower_weapon_sprint">
+        <text>Baisser l'arme en sprint</text>
+    </string>
+	<string id="ui_mcm_lower_weapon_sprint_keybind">
+        <text>Raccourci clavier </text>
+    </string>
+	<string id="ui_mcm_lower_weapon_sprint_apply_for_all_wpn_variations">
+        <text>Appliquer à toutes les variantes d'arme</text>
+    </string>
+	<string id="ui_mcm_lower_weapon_sprint_apply_for_all_wpn_variations_desc">
+        <text>Si cette option est cochée, toutes les variantes d'une arme (avec accessoires) seront considérées comme une seule et même arme.</text>
+    </string>
+	<string id="ui_mcm_lower_weapon_sprint_reverse_blacklist">
+        <text>Inverser la liste noire</text>
+    </string>
+	<string id="ui_mcm_lower_weapon_sprint_reverse_blacklist_desc">
+        <text>Seules les armes inscrites sur la liste noire sont affectées par ce mod, les autres ne le sont pas.</text>
+    </string>
+	<string id="ui_mcm_lower_weapon_sprint_clear_blacklist">
+        <text>Effacer la liste noire</text>
+    </string>
+	<string id="ui_lower_weapon_sprint_blacklist_add">
+        <text>L'arme actuelle a été ajoutée à la liste noire.</text>
+    </string>
+	<string id="ui_lower_weapon_sprint_blacklist_remove">
+        <text>L'arme actuelle a été retirée de la liste noire.</text>
+    </string>
+	<string id="ui_lower_weapon_sprint_blacklist_cleared">
+        <text>La liste noire a été effacée.</text>
+    </string>
+</string_table>
