@@ -100,7 +100,11 @@
       // filet de sécurité : un enregistrement automatique peut être en attente
       if (isAdmin() && hasUnsaved()) { e.preventDefault(); e.returnValue = ""; return ""; }
     });
-    document.addEventListener("visibilitychange", function () { if (document.visibilityState !== "hidden") presenceTick(); });
+    document.addEventListener("visibilitychange", function () {
+      // Seul un admin rafraîchit sa présence au retour d'onglet ; un visiteur
+      // public ne re-sollicite pas le Worker (il conserve son instantané).
+      if (isAdmin() && document.visibilityState !== "hidden") presenceTick();
+    });
     document.addEventListener("input", function (e) {
       if (!isAdmin() || !e.target || !e.target.closest) return;
       if (e.target.closest("#panel-admin, #logHost, #plannerHost, .modal")) markDirty();
@@ -137,7 +141,7 @@
         if (config.site_tagline) $("#brandTag").textContent = config.site_tagline;
       })
       .catch(function () { /* placeholders restent affichés */ })
-      .then(function () { startPresence(); }); // compteur d'admins (public) une fois worker_url connu
+      .then(function () { startPresence(); }); // instantané du compteur au chargement, puis heartbeat (admin) — cf. startPresence
   }
 
   /* ---- numéro de version (barre du haut) ---------------------------------
@@ -164,9 +168,10 @@
   }
 
   /* ---- présence : compteur d'admins en ligne + indicateur d'édition -------
-     Tout le monde lit le compteur (action "count", sans mot de passe) ; un admin
-     connecté envoie un heartbeat (ping) avec son état « édition en cours ». */
-  var PRESENCE_MS = 25000;
+     Le public lit le compteur (action "count", sans mot de passe) une seule fois
+     au chargement ; seul un admin connecté envoie ensuite un heartbeat (ping)
+     périodique avec son état « édition en cours ». Économise le quota KV. */
+  var PRESENCE_MS = 50000; // heartbeat espacé (< PRESENCE_TTL du Worker) → moins d'écritures KV
 
   function sessionId() {
     if (!presence.id) presence.id = "s_" + Math.random().toString(36).slice(2) + Date.now().toString(36);
@@ -202,8 +207,13 @@
 
   function startPresence() {
     if (presence.timer) clearInterval(presence.timer);
-    presenceTick();
+    presenceTick(); // un instantané au chargement (public) ou un ping (admin)
     presence.timer = setInterval(function () {
+      // Économie de quota KV : seuls les admins connectés rafraîchissent en
+      // continu (heartbeat). Un visiteur public ne poll pas en boucle — il garde
+      // l'instantané obtenu au chargement. On ne pingue pas non plus tant que
+      // l'onglet est masqué (la présence expirera d'elle-même côté Worker).
+      if (!isAdmin()) return;
       if (document.visibilityState !== "hidden") presenceTick();
     }, PRESENCE_MS);
   }

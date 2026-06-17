@@ -287,6 +287,15 @@ entre eux) nécessite en revanche un **binding KV** : `RATE_LIMIT` s'il existe, 
 sa propre session. Pour l'activer, lie un namespace KV `RATE_LIMIT` au Worker
 (voir § 4.4).
 
+> **Économie de quota KV (free tier).** Pour ne pas épuiser les quotas
+> journaliers gratuits (écritures / suppressions / **listes** : 1 000/jour
+> chacun), seuls les **admins connectés** rafraîchissent la présence en continu
+> (un *heartbeat* toutes les 50 s, mis en pause quand l'onglet est masqué). Un
+> visiteur public récupère le compteur **une seule fois au chargement**
+> (instantané), et cette réponse publique est **mise en cache au bord** (~30 s)
+> pour éviter de relire le KV à chaque visite. Le compteur reste donc visible de
+> tous, mais n'est « live » que pour les admins.
+
 ---
 
 ## 7. Sécurité — pourquoi le token ne fuit pas
