@@ -137,6 +137,22 @@ a:hover { text-decoration: underline; }
 }
 .brand__ver[hidden] { display: none; }
 
+/* Sur grand écran, on sort le numéro de version de la barre centrée pour le
+   loger dans le coin tout en haut à gauche (l'espace libre à gauche de la
+   marque). Sous ce seuil le gouttière disparaît : il reste alors près du titre
+   pour ne pas chevaucher la marque. */
+@media (min-width: 1400px) {
+  .brand__ver {
+    position: fixed;
+    top: 0;
+    left: 24px;
+    height: var(--nav-h);
+    display: flex;
+    align-items: center;
+    z-index: 51; /* au-dessus du fond de la barre de statut */
+  }
+}
+
 .nav { margin-left: auto; flex: none; display: flex; align-items: center; gap: 2px; }
 
 .nav__btn {
