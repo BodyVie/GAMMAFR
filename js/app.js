@@ -101,8 +101,8 @@
       if (isAdmin() && hasUnsaved()) { e.preventDefault(); e.returnValue = ""; return ""; }
     });
     document.addEventListener("visibilitychange", function () {
-      // Seul un admin rafraîchit sa présence au retour d'onglet ; un visiteur
-      // public ne re-sollicite pas le Worker (il conserve son instantané).
+      // Seul un admin rafraîchit sa présence au retour d'onglet ; le public ne
+      // fait aucune requête /presence.
       if (isAdmin() && document.visibilityState !== "hidden") presenceTick();
     });
     document.addEventListener("input", function (e) {
@@ -141,7 +141,7 @@
         if (config.site_tagline) $("#brandTag").textContent = config.site_tagline;
       })
       .catch(function () { /* placeholders restent affichés */ })
-      .then(function () { startPresence(); }); // instantané du compteur au chargement, puis heartbeat (admin) — cf. startPresence
+      .then(function () { startPresence(); }); // arme le heartbeat de présence (actif uniquement une fois un admin connecté)
   }
 
   /* ---- numéro de version (barre du haut) ---------------------------------
@@ -168,9 +168,9 @@
   }
 
   /* ---- présence : compteur d'admins en ligne + indicateur d'édition -------
-     Le public lit le compteur (action "count", sans mot de passe) une seule fois
-     au chargement ; seul un admin connecté envoie ensuite un heartbeat (ping)
-     périodique avec son état « édition en cours ». Économise le quota KV. */
+     Réservé aux admins : seul un admin connecté envoie un heartbeat (ping)
+     périodique (avec son état « édition en cours ») et voit le compteur. Un
+     visiteur public ne fait AUCUNE requête /presence — économie de quota KV. */
   var PRESENCE_MS = 50000; // heartbeat espacé (< PRESENCE_TTL du Worker) → moins d'écritures KV
 
   function sessionId() {
@@ -180,10 +180,9 @@
   function presenceUrl() { return config.worker_url.replace(/\/$/, "") + "/presence"; }
 
   function presenceTick() {
-    if (!workerReady()) return;
-    var payload = isAdmin()
-      ? { password: admin.pwd, id: sessionId(), action: "ping", editing: adminDirty }
-      : { action: "count" };
+    // Présence réservée aux admins : un visiteur public ne fait AUCUNE requête.
+    if (!workerReady() || !isAdmin()) return;
+    var payload = { password: admin.pwd, id: sessionId(), action: "ping", editing: adminDirty };
     fetch(presenceUrl(), { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) })
       .then(function (r) { return r.ok ? r.json() : null; })
       .then(function (d) { applyPresence(d); })
@@ -207,12 +206,11 @@
 
   function startPresence() {
     if (presence.timer) clearInterval(presence.timer);
-    presenceTick(); // un instantané au chargement (public) ou un ping (admin)
+    presenceTick(); // ping initial si déjà admin ; sinon no-op (le public ne sollicite jamais le Worker)
     presence.timer = setInterval(function () {
-      // Économie de quota KV : seuls les admins connectés rafraîchissent en
-      // continu (heartbeat). Un visiteur public ne poll pas en boucle — il garde
-      // l'instantané obtenu au chargement. On ne pingue pas non plus tant que
-      // l'onglet est masqué (la présence expirera d'elle-même côté Worker).
+      // Seuls les admins connectés rafraîchissent leur présence (heartbeat), et
+      // jamais quand l'onglet est masqué (la présence expire d'elle-même côté
+      // Worker). Un visiteur public ne déclenche aucune requête /presence.
       if (!isAdmin()) return;
       if (document.visibilityState !== "hidden") presenceTick();
     }, PRESENCE_MS);
@@ -2223,7 +2221,7 @@
     leavePresence();            // signale le départ tant que le mot de passe est en mémoire
     admin.unlocked = false; admin.pwd = ""; adminDirty = false;
     stopIdleWatch();
-    presenceTick();             // rafraîchit le compteur en mode public
+    setPresenceBadge(0, false); // déconnecté : on masque le compteur (le public ne le voit pas)
     adminLockReason = (idle === true) ? "Session verrouillée après 20 min d'inactivité. Reconnecte-toi." : "";
     renderAdmin();
   }
@@ -2494,7 +2492,7 @@
             "Conflit : un autre admin a modifié ce fichier. Recharge l'éditeur avant d'enregistrer.");
         } else if (res.status === 401) {
           setStatus(status, "err", "Session expirée. Reconnecte-toi dans l'onglet Admin.");
-          leavePresence(); admin.unlocked = false; admin.pwd = ""; adminDirty = false; stopIdleWatch(); presenceTick();
+          leavePresence(); admin.unlocked = false; admin.pwd = ""; adminDirty = false; stopIdleWatch(); setPresenceBadge(0, false);
         } else if (res.status === 429) {
           setStatus(status, "err", "Trop de tentatives. Réessaie dans quelques minutes.");
         } else {

@@ -277,9 +277,9 @@ Les éditeurs admin chargent chaque fichier via le Worker (`/load`) avec sa vers
 même fichier entre-temps, l'enregistrement est **refusé** (HTTP 409) avec un message
 invitant à recharger — aucune modification n'est écrasée par accident.
 
-Un **compteur d'admins en ligne** s'affiche à droite de l'onglet Admin (visible de
-tous), accompagné d'un indicateur **⚠ édition** lorsqu'un admin a une modification en
-cours. Un admin connecté se voit toujours lui-même (« 1 en ligne ») et voit
+Un **compteur d'admins en ligne** s'affiche à droite de l'onglet Admin (visible des
+admins connectés uniquement), accompagné d'un indicateur **⚠ édition** lorsqu'un admin
+a une modification en cours. Un admin connecté se voit toujours lui-même (« 1 en ligne ») et voit
 l'indicateur dès qu'il a une modification non enregistrée. Le **décompte partagé
 entre sessions** (visiteurs qui voient les admins en ligne, admins qui se voient
 entre eux) nécessite en revanche un **binding KV** : `RATE_LIMIT` s'il existe, sinon
@@ -289,12 +289,14 @@ sa propre session. Pour l'activer, lie un namespace KV `RATE_LIMIT` au Worker
 
 > **Économie de quota KV (free tier).** Pour ne pas épuiser les quotas
 > journaliers gratuits (écritures / suppressions / **listes** : 1 000/jour
-> chacun), seuls les **admins connectés** rafraîchissent la présence en continu
-> (un *heartbeat* toutes les 50 s, mis en pause quand l'onglet est masqué). Un
-> visiteur public récupère le compteur **une seule fois au chargement**
-> (instantané), et cette réponse publique est **mise en cache au bord** (~30 s)
-> pour éviter de relire le KV à chaque visite. Le compteur reste donc visible de
-> tous, mais n'est « live » que pour les admins.
+> chacun), la présence est **réservée aux admins** : seul un admin connecté émet
+> un *heartbeat* (toutes les 50 s, en pause quand l'onglet est masqué) et voit le
+> compteur. **Un visiteur public ne fait aucune requête `/presence`** — le site
+> sert avant tout à l'information et au téléchargement de l'archive, les visiteurs
+> n'ont pas besoin de savoir qu'un admin est connecté. Le Worker conserve malgré
+> tout une route `count` publique (réponse mise en cache ~30 s) : sans coût
+> notable, elle absorbe en douceur les anciens clients encore servis par le cache
+> CDN pendant la propagation d'une mise à jour.
 
 ---
 
