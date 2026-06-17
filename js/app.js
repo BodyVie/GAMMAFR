@@ -1019,17 +1019,119 @@
         if (it.date) meta.push(fmtDateOnly(it.date));
         var body = [el("div", { class: "list-item__title", text: name })];
         if (meta.length) body.push(el("div", { class: "list-item__desc", text: meta.join(" \u00b7 ") }));
-        if (it.url) body.push(el("a", { class: "list-item__link", href: it.url, target: "_blank", rel: "noopener noreferrer", text: it.url }));
-        listBox.appendChild(el("div", { class: "list-item" }, [
+        if (it.url) {
+          var link = el("a", { class: "list-item__link", href: it.url, target: "_blank", rel: "noopener noreferrer", text: it.url });
+          // en mode admin, le clic sur le lien ne doit pas ouvrir l'\u00e9diteur
+          link.addEventListener("click", function (e) { e.stopPropagation(); });
+          body.push(link);
+        }
+        var children = [
           el("div", { class: "list-item__num", text: pad(shown) }),
           el("div", { class: "list-item__body" }, body)
-        ]));
+        ];
+        // \u00e9dition r\u00e9serv\u00e9e aux admins : la ligne devient un bouton ouvrant la modale
+        var editable = isAdmin() && it.id;
+        if (editable) children.push(el("div", { class: "list-item__edit", text: "\u270e", "aria-hidden": "true" }));
+        var item = el("div", { class: "list-item" + (editable ? " list-item--editable" : "") }, children);
+        if (editable) {
+          item.setAttribute("role", "button");
+          item.setAttribute("tabindex", "0");
+          item.title = "\u00c9diter patch.json";
+          item.addEventListener("click", function () { openPatchEditor(it); });
+          item.addEventListener("keydown", function (e) {
+            if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openPatchEditor(it); }
+          });
+        }
+        listBox.appendChild(item);
       });
       if (!shown) listBox.appendChild(el("div", { class: "list-empty", text: entries.length ? "Aucune entrée ne correspond." : "Aucun patch GAMMA extra pour le moment." }));
       count.textContent = shown + " / " + entries.length + " entrée" + (entries.length > 1 ? "s" : "");
     }
     input.addEventListener("input", function () { paint(input.value); });
     paint("");
+  }
+
+  // Modale d'édition du patch.json d'un mod de la liste (admin uniquement).
+  // Même jeu de champs que le générateur de l'onglet Admin, mais enregistrement
+  // réel via le Worker (chargement autoritatif + SHA pour verrouillage optimiste).
+  function openPatchEditor(entry) {
+    if (!isAdmin() || !entry || !entry.id) return;
+    // l'onglet Liste n'affiche que les patchs « GAMMA extra »
+    var filename = "0. PatchVF/GAMMA extra/" + entry.id + "/patch.json";
+
+    var content = el("div", { class: "modal__inner" });
+    content.appendChild(el("div", { class: "modal__head" }, [
+      el("h3", { class: "modal__title", text: "Éditer patch.json" }),
+      el("button", { class: "btn btn--ghost btn--icon", title: "Fermer", text: "✕", onClick: closeModal })
+    ]));
+    var body = el("div", { class: "modal__body" });
+    content.appendChild(body);
+
+    body.appendChild(el("p", { class: "admin-note", text:
+      "Dossier : 0. PatchVF/GAMMA extra/" + entry.id + "/. Après enregistrement, la liste se met à jour lorsque GitHub régénère data/patches.json (court délai)." }));
+
+    var fName = el("input", { class: "input", type: "text", placeholder: "Dialogues crus" });
+    var fDesc = el("textarea", { class: "textarea", rows: "3", placeholder: "Registre familier et vulgaire pour les dialogues PNJ…" });
+    var fUrl  = el("input", { class: "input", type: "text", placeholder: "https://www.moddb.com/mods/…" });
+    var fPrio = el("input", { class: "input", type: "number", inputmode: "numeric", value: "50" });
+    var fDate = el("input", { class: "input", type: "date" });
+    var fVer  = el("input", { class: "input", type: "text", placeholder: "1.0.0" });
+
+    body.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Nom" }), fName]));
+    body.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label" }, ["Description ", el("span", { class: "field__opt", text: "facultatif" })]), fDesc]));
+    body.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label" }, ["URL ", el("span", { class: "field__opt", text: "facultatif" })]), fUrl]));
+    body.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label" }, ["Priorité ", el("span", { class: "field__opt", text: "le plus haut gagne" })]), fPrio]));
+    body.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Date" }), fDate]));
+    body.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Version" }), fVer]));
+
+    var inputs = [fName, fDesc, fUrl, fPrio, fDate, fVer];
+    function setEnabled(on) { inputs.forEach(function (i) { i.disabled = !on; }); }
+    setEnabled(false);
+
+    var status = el("span", { class: "editor__status" });
+    var saveBtn = el("button", { class: "btn btn--amber", text: "Enregistrer", disabled: true });
+
+    // pré-remplissage depuis le fichier (source autoritative) + SHA mémorisé pour
+    // le verrouillage optimiste lors de l'enregistrement
+    setStatus(status, "work", "Chargement…");
+    loadForEdit(filename).then(function (r) {
+      var o = r.obj || {};
+      fName.value = o.name != null ? o.name : (entry.name || "");
+      fDesc.value = o.description != null ? o.description : (entry.description || "");
+      fUrl.value  = o.url != null ? o.url : (entry.url || "");
+      fPrio.value = o.priority != null ? o.priority : (entry.priority != null ? entry.priority : 50);
+      fDate.value = o.date != null ? o.date : (entry.date || "");
+      fVer.value  = o.version != null ? o.version : (entry.version || "");
+      setEnabled(true);
+      saveBtn.disabled = false;
+      setStatus(status, "", "");
+      fName.focus();
+    }).catch(function (e) {
+      setStatus(status, "err", "Chargement impossible (" + e.message + ").");
+    });
+
+    saveBtn.addEventListener("click", function () {
+      var name = fName.value.trim();
+      if (!name) { setStatus(status, "err", "Renseigne au moins le nom du patch."); return; }
+      var prio = parseInt(fPrio.value, 10); if (isNaN(prio)) prio = 0;
+      var obj = {
+        name: name,
+        description: fDesc.value.trim(),
+        date: fDate.value.trim(),
+        version: fVer.value.trim(),
+        url: fUrl.value.trim(),
+        priority: prio
+      };
+      saveData(filename, obj, status, saveBtn, function () {
+        // reflète immédiatement la modification dans la liste affichée
+        entry.name = obj.name; entry.description = obj.description; entry.date = obj.date;
+        entry.version = obj.version; entry.url = obj.url; entry.priority = obj.priority;
+        renderListe();
+      });
+    });
+
+    content.appendChild(el("div", { class: "modal__foot" }, [saveBtn, status]));
+    openModal(content);
   }
 
   /* =======================================================================

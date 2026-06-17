@@ -61,3 +61,26 @@ test("validateSchema : fichier hors liste blanche n'est pas contraint (null)", a
   const { validateSchema } = await workerP;
   assert.equal(validateSchema("patches.json", { quoi: "que ce soit" }), null);
 });
+
+test("validateSchema : patch.json d'un mod = objet { name requis, champs typés }", async () => {
+  const { validateSchema } = await workerP;
+  const f = "0. PatchVF/GAMMA extra/dialogues-crus/patch.json";
+  assert.equal(validateSchema(f, { name: "Dialogues crus" }), null);
+  assert.equal(validateSchema(f, { name: "X", description: "d", date: "2026-06-17", version: "1.0.0", url: "http://a", priority: 50 }), null);
+  assert.ok(validateSchema(f, []), "tableau refusé");
+  assert.ok(validateSchema(f, { name: "" }), "name vide refusé");
+  assert.ok(validateSchema(f, { description: "sans nom" }), "name manquant refusé");
+  assert.ok(validateSchema(f, { name: "X", priority: "50" }), "priority non-nombre refusée");
+  assert.ok(validateSchema(f, { name: "X", url: 5 }), "url non-texte refusée");
+});
+
+test("isAllowedFile : data whitelistés + patch.json de mod, anti-traversée", async () => {
+  const { isAllowedFile } = await workerP;
+  assert.equal(isAllowedFile("config.json"), true);
+  assert.equal(isAllowedFile("0. PatchVF/GAMMA extra/mon-mod/patch.json"), true);
+  assert.equal(isAllowedFile("0. PatchVF/GAMMA tweak/mon-mod/patch.json"), true);
+  assert.equal(isAllowedFile("secrets.json"), false, "fichier arbitraire refusé");
+  assert.equal(isAllowedFile("0. PatchVF/GAMMA extra/mon-mod/autre.json"), false, "autre fichier refusé");
+  assert.equal(isAllowedFile("0. PatchVF/GAMMA extra/../patch.json"), false, "segment .. refusé");
+  assert.equal(isAllowedFile("0. PatchVF/GAMMA extra/a/b/patch.json"), false, "sous-dossier refusé");
+});

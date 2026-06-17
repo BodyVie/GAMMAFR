@@ -481,6 +481,11 @@ a:hover { text-decoration: underline; }
   word-break: break-all;
 }
 .list-item__link:hover { text-decoration: underline; }
+/* Ligne éditable (admin) : tout l'élément devient cliquable + icône crayon */
+.list-item--editable { cursor: pointer; align-items: center; border-radius: 6px; transition: background 0.12s ease; }
+.list-item--editable:hover,
+.list-item--editable:focus-visible { background: var(--line-soft); outline: none; }
+.list-item__edit { flex: none; margin-left: auto; padding: 0 6px; color: var(--amber); font-size: 15px; }
 .list-empty { color: var(--dim-2); font-style: italic; padding: 20px 4px; }
 
 /* Erreur de chargement (réseau / JSON) + bouton « Réessayer » */
