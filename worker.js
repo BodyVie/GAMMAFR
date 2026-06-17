@@ -34,6 +34,16 @@
 // Seuls ces fichiers peuvent être écrits (anti-traversée de chemin / écriture arbitraire).
 const ALLOWED_FILES = ["files.json", "changelog.json", "config.json", "planner.json", "admins.json", "board.json"];
 
+// patch.json d'un mod, éditable depuis l'onglet Liste (admin). Le segment <id>
+// (nom de dossier) ne peut contenir ni « / » ni être « . »/« .. » seuls : pas de
+// traversée de chemin ni d'écriture en dehors de ce gabarit précis.
+const PATCH_FILE_RE = /^0\. PatchVF\/GAMMA (?:extra|tweak)\/(?!\.{1,2}\/)[^/]+\/patch\.json$/;
+
+// Liste blanche d'écriture : fichiers de données OU patch.json d'un mod.
+function isAllowedFile(filename) {
+  return ALLOWED_FILES.indexOf(filename) !== -1 || PATCH_FILE_RE.test(filename);
+}
+
 const MAX_FAILS = 5;          // blocage après 5 échecs
 const FAIL_WINDOW = 15 * 60;  // fenêtre glissante, en secondes
 const MAX_BODY = 512 * 1024;  // garde-fou : 512 Ko max par payload
@@ -63,6 +73,17 @@ const memFails = new Map(); // ip -> { count, exp }
 function isObject(v) { return v !== null && typeof v === "object" && !Array.isArray(v); }
 
 function validateSchema(filename, data) {
+  if (PATCH_FILE_RE.test(filename)) {
+    if (!isObject(data)) return "patch.json doit être un objet.";
+    if (typeof data.name !== "string" || data.name.trim() === "") return "patch.json : champ « name » (texte non vide) requis.";
+    const strFields = ["description", "date", "version", "url"];
+    for (let i = 0; i < strFields.length; i++) {
+      const k = strFields[i];
+      if (data[k] !== undefined && typeof data[k] !== "string") return "patch.json : « " + k + " » doit être un texte.";
+    }
+    if (data.priority !== undefined && typeof data.priority !== "number") return "patch.json : « priority » doit être un nombre.";
+    return null;
+  }
   switch (filename) {
     case "changelog.json": {
       if (!Array.isArray(data)) return "changelog.json doit être un tableau.";
@@ -170,7 +191,7 @@ export default {
     const expectedSha = typeof body.sha === "string" ? body.sha : (body.sha === null ? null : undefined);
 
     // --- validation du nom de fichier (liste blanche stricte) ---
-    if (ALLOWED_FILES.indexOf(filename) === -1) {
+    if (!isAllowedFile(filename)) {
       return json({ error: "Fichier non autorisé." }, 400, origin);
     }
 
@@ -390,7 +411,7 @@ async function handleLoad(request, env, origin) {
   if (denied) return denied;
 
   const filename = typeof body.filename === "string" ? body.filename : "";
-  if (ALLOWED_FILES.indexOf(filename) === -1) return json({ error: "Fichier non autorisé." }, 400, origin);
+  if (!isAllowedFile(filename)) return json({ error: "Fichier non autorisé." }, 400, origin);
 
   try {
     const r = await readFromGitHub(env, filename);
@@ -458,8 +479,15 @@ function ghConf(env) {
   const owner = env.GITHUB_OWNER, repo = env.GITHUB_REPO, token = env.GITHUB_TOKEN;
   if (!owner || !repo || !token) throw new Error("Variables GitHub manquantes (OWNER / REPO / TOKEN).");
   const branch = env.GITHUB_BRANCH || "main";
+  return { owner, repo, token, branch };
+}
+
+// Chemin réel dans le dépôt : les fichiers de données vivent sous DATA_DIR ;
+// les patch.json d'un mod portent déjà leur chemin complet.
+function repoPathFor(env, filename) {
+  if (PATCH_FILE_RE.test(filename)) return filename;
   const dir = (env.DATA_DIR || "data").replace(/^\/+|\/+$/g, "");
-  return { owner, repo, token, branch, path: dir + "/" };
+  return dir + "/" + filename;
 }
 
 function ghHeaders(token) {
@@ -471,14 +499,15 @@ function ghHeaders(token) {
   };
 }
 
-function ghUrl(c, filename) {
-  return "https://api.github.com/repos/" + c.owner + "/" + c.repo + "/contents/" + encodeURI(c.path + filename);
+function ghUrl(c, repoPath) {
+  return "https://api.github.com/repos/" + c.owner + "/" + c.repo + "/contents/" + encodeURI(repoPath);
 }
 
 // Lit un fichier du dépôt : { content (texte décodé), sha }. sha=null si absent.
 async function readFromGitHub(env, filename) {
   const c = ghConf(env);
-  const res = await fetch(ghUrl(c, filename) + "?ref=" + encodeURIComponent(c.branch), { headers: ghHeaders(c.token) });
+  const repoPath = repoPathFor(env, filename);
+  const res = await fetch(ghUrl(c, repoPath) + "?ref=" + encodeURIComponent(c.branch), { headers: ghHeaders(c.token) });
   if (res.status === 404) return { content: "", sha: null };
   if (res.status !== 200) throw new Error("lecture (HTTP " + res.status + ")");
   const meta = await res.json();
@@ -494,7 +523,8 @@ async function readFromGitHub(env, filename) {
  */
 async function pushToGitHub(env, filename, content, expectedSha) {
   const c = ghConf(env);
-  const url = ghUrl(c, filename);
+  const repoPath = repoPathFor(env, filename);
+  const url = ghUrl(c, repoPath);
   const headers = ghHeaders(c.token);
   const encoded = toBase64(content);
 
@@ -506,7 +536,7 @@ async function pushToGitHub(env, filename, content, expectedSha) {
   }
   async function put(sha) {
     const payload = {
-      message: "MAJ " + c.path + filename + " via admin (" + new Date().toISOString() + ")",
+      message: "MAJ " + repoPath + " via admin (" + new Date().toISOString() + ")",
       content: encoded,
       branch: c.branch
     };
@@ -632,4 +662,4 @@ function json(obj, status, origin) {
 
 // Export nommé (ignoré par le runtime Cloudflare) : permet de tester la
 // validation de schéma hors navigateur via `import` (voir tests/).
-export { validateSchema };
+export { validateSchema, isAllowedFile };
