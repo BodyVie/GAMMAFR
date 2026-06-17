@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-17T16:34:43+00:00",
+  "generated": "2026-06-17T16:34:46+00:00",
   "labels": [
     {
       "id": "lbl_mqft6asnlhoe",
@@ -98,7 +98,7 @@
           "title": "Looting takes time REDUX",
           "description": "",
           "status": "done",
-          "due": "",
+          "due": "2026-06-18",
           "labels": [
             "lbl_mqft6asnlhoe",
             "lbl_mqiaj19mezpp"
