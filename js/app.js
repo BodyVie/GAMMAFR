@@ -385,6 +385,25 @@
     openModal(content);
   }
 
+  // Pop-up de confirmation générique : titre + message + bouton de validation.
+  // onConfirm() n'est appelé que si l'admin clique sur le bouton de validation.
+  function showConfirm(opts, onConfirm) {
+    opts = opts || {};
+    var content = el("div", { class: "modal__inner" });
+    content.appendChild(el("div", { class: "modal__head" }, [
+      el("h3", { class: "modal__title", text: opts.title || "Confirmation" }),
+      el("button", { class: "btn btn--ghost btn--icon", title: "Fermer", text: "✕", onClick: closeModal })
+    ]));
+    content.appendChild(el("div", { class: "modal__body" }, [
+      el("p", { text: opts.message || "Confirmer cette action ?" })
+    ]));
+    content.appendChild(el("div", { class: "modal__foot" }, [
+      el("button", { class: "btn btn--ghost", text: opts.cancelText || "Annuler", onClick: closeModal }),
+      el("button", { class: "btn btn--amber", text: opts.confirmText || "Confirmer", onClick: function () { closeModal(); if (typeof onConfirm === "function") onConfirm(); } })
+    ]));
+    openModal(content);
+  }
+
   function activateTab(name) {
     $all(".nav__btn").forEach(function (b) {
       var on = b.getAttribute("data-tab") === name;
@@ -2111,7 +2130,7 @@
 
     wrap.appendChild(el("div", { class: "admin-bar" }, [
       el("span", { class: "admin-bar__tag", text: "CONNECTÉ" }),
-      el("span", { text: "Enregistrement automatique. Tu peux aussi modifier le Panneau d'affichage et le Changelog dans leurs onglets." }),
+      el("span", { text: "Enregistrement automatique, sauf la configuration du site qui s'enregistre avec son bouton. Tu peux aussi modifier le Panneau d'affichage et le Changelog dans leurs onglets." }),
       el("button", { class: "btn btn--ghost btn--mini", text: "Verrouiller", onClick: lockAdmin })
     ]));
 
@@ -2137,17 +2156,29 @@
       if (r.obj && typeof r.obj === "object") fields.forEach(function (f) { if (r.obj[f.key] != null) inputs[f.key].value = r.obj[f.key]; });
     }).catch(function () {});
     var cfgStatus = el("span", { class: "editor__status" });
-    var cfgMgr = makeAutosave("config.json", function () {
+    function buildCfg() {
       var obj = {};
       fields.forEach(function (f) { obj[f.key] = inputs[f.key].value.trim(); });
       return obj;
-    }, cfgStatus, function (obj) {
+    }
+    function applyCfg(obj) {
       config = Object.assign(config, obj);
       if (config.site_title) { document.title = config.site_title; $("#brandTitle").textContent = config.site_title; }
       if (config.site_tagline) $("#brandTag").textContent = config.site_tagline;
+    }
+    // Enregistrement manuel : un bouton + une confirmation avant d'écrire.
+    var cfgBtn = el("button", { class: "btn btn--amber", text: "Enregistrer" });
+    cfgBtn.addEventListener("click", function () {
+      showConfirm({
+        title: "Modifier la configuration",
+        message: "Es-tu sûr de vouloir modifier la configuration du site ?",
+        confirmText: "Enregistrer"
+      }, function () {
+        var obj = buildCfg();
+        saveData("config.json", obj, cfgStatus, cfgBtn, function () { applyCfg(obj); });
+      });
     });
-    fields.forEach(function (f) { inputs[f.key].addEventListener("input", cfgMgr.queue); });
-    cfgCard.appendChild(autosaveFoot(cfgStatus));
+    cfgCard.appendChild(el("div", { class: "editor__foot" }, [cfgBtn, cfgStatus]));
     wrap.appendChild(cfgCard);
 
     // ---- administrateurs (pseudos du sélecteur d'auteur des commentaires planner) ----
