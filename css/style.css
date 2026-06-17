@@ -272,6 +272,98 @@ a:hover { text-decoration: underline; }
 .board-news__day { color: var(--dim); font-size: 13px; margin: 0 0 12px; letter-spacing: 0.04em; }
 .board-news__section + .board-news__section { margin-top: 22px; }
 
+/* ---- Bandeau de liens utiles (en tête de l'accueil) ------------------- */
+.linkbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+.linkbar__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  align-self: center;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--dim);
+}
+.linkbar__eyebrow::after {
+  content: "";
+  width: 14px; height: 2px;
+  margin-left: 12px;
+  background: var(--dim-2);
+}
+.linkbar__btn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 124px;
+  padding: 9px 16px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  color: var(--text);
+  text-decoration: none;
+  transition: background 0.12s ease, color 0.12s ease, border-color 0.12s ease;
+}
+.linkbar__btn:hover,
+.linkbar__btn:focus-visible {
+  background: var(--rad-soft);
+  border-color: var(--rad);
+  color: var(--text);
+  text-decoration: none;
+}
+.linkbar__name {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.linkbar__ext { color: var(--rad); font-size: 12px; line-height: 1; }
+.linkbar__url { font-size: 11px; letter-spacing: 0.04em; color: var(--dim); }
+
+/* Infobulle au survol / focus clavier : description de la ressource.
+   Purement visuelle (le lecteur d'écran lit l'aria-label du lien). */
+.linkbar__btn::after {
+  content: attr(data-tip);
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  z-index: 5;
+  width: max-content;
+  max-width: 260px;
+  padding: 8px 11px;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-left: 2px solid var(--rad);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-transform: none;
+  white-space: normal;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4px);
+  transition: opacity 0.14s ease, transform 0.14s ease, visibility 0.14s;
+  pointer-events: none;
+}
+.linkbar__btn:hover::after,
+.linkbar__btn:focus-visible::after {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
 /* Bandeau de dates en tête d'un ticket (création / dernière modification) */
 .tstamp {
   display: flex;
@@ -615,6 +707,11 @@ a:hover { text-decoration: underline; }
 
   .wrap { padding: 116px 14px 64px; }
   .card { padding: 16px; }
+
+  /* bandeau de liens : étiquette masquée, boutons étirés sur la rangée.
+     L'infobulle de survol n'a pas de sens au toucher ; l'URL reste visible. */
+  .linkbar__eyebrow { display: none; }
+  .linkbar__btn { flex: 1 1 auto; min-width: 0; }
   .steps { flex-wrap: wrap; gap: 10px; }
   .step-line { display: none; }
   .step-node__num { width: 26px; height: 26px; }

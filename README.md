@@ -260,7 +260,9 @@ demander une validation par email du compte.
 - `board.json` : panneau d'affichage de l'accueil — `{ title, body, updated }`
   (textes ; `\n` = saut de ligne dans `body`). Édité directement depuis l'onglet
   **Panneau d'affichage** quand un admin est connecté ; `updated` est renseigné
-  automatiquement à l'enregistrement.
+  automatiquement à l'enregistrement. En tête de l'onglet, un bandeau de liens
+  utiles (dépôt GitHub, Discord, ModDB) est défini en dur dans `index.html`
+  (classe `.linkbar`) avec une infobulle au survol via l'attribut `data-tip`.
 - `config.json` : `site_title`, `site_tagline`, `formspree_id`, `worker_url`.
 - `admins.json` : tableau de pseudos (`["Body", "Thundard"]`). Édité via la bulle
   « Administrateurs » de l'onglet Admin ; alimente la liste déroulante « Auteur »
