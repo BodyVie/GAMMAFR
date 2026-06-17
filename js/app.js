@@ -658,10 +658,19 @@
   function tagSection(section) {
     return function (p) { var c = Object.assign({}, p); c._section = section; return c; };
   }
+  // Tri « naturel » des patchs par libellé affiché (numéro de dossier compris) :
+  // 1, 2, … 9, 10, … 90, … 200 — et non l'ordre lexicographique (« 200 » avant
+  // « 90 »). Renvoie une copie triée, sans altérer le manifeste.
+  function sortPatchesByName(list) {
+    return (list || []).slice().sort(function (a, b) {
+      return GammaCore.cmpNatural(a.name || a.id, b.name || b.id);
+    });
+  }
   function availablePatches(level) {
     if (!manifest) return [];
-    if (level === "tweak") return manifest.tweak.map(tagSection("Tweak"));
-    if (level === "extra") return manifest.tweak.map(tagSection("Tweak")).concat(manifest.extra.map(tagSection("Extra")));
+    if (level === "tweak") return sortPatchesByName(manifest.tweak).map(tagSection("Tweak"));
+    if (level === "extra") return sortPatchesByName(manifest.tweak).map(tagSection("Tweak"))
+      .concat(sortPatchesByName(manifest.extra).map(tagSection("Extra")));
     return [];
   }
   function stepNames() {
@@ -977,7 +986,7 @@
     if (data.liste !== null) { renderListe(); return; }
     fetchJSON("data/patches.json")
       .then(function (manifest) {
-        data.liste = (manifest && Array.isArray(manifest.extra)) ? manifest.extra : [];
+        data.liste = (manifest && Array.isArray(manifest.extra)) ? sortPatchesByName(manifest.extra) : [];
         renderListe();
       })
       .catch(function (e) {

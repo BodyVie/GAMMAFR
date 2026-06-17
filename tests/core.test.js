@@ -15,6 +15,22 @@ test("cmpVersion compare segment par segment, numériquement", () => {
   assert.equal(core.cmpVersion("", ""), 0);
 });
 
+test("cmpNatural trie les nombres numériquement, pas lexicographiquement", () => {
+  assert.ok(core.cmpNatural("90", "200") < 0, "90 avant 200 (et non l'inverse lexicographique)");
+  assert.ok(core.cmpNatural("9", "10") < 0, "9 avant 10");
+  assert.ok(
+    core.cmpNatural("94- Tacticool scopes", "208- Ironman Roguelite") < 0,
+    "94- … avant 208- … (préfixe numérique comparé comme nombre)"
+  );
+  assert.equal(core.cmpNatural("", ""), 0);
+
+  const dossiers = ["208- X", "94- Y", "300- Z", "2. A", "10- B"];
+  assert.deepEqual(
+    dossiers.slice().sort(core.cmpNatural),
+    ["2. A", "10- B", "94- Y", "208- X", "300- Z"]
+  );
+});
+
 test("resolveFiles : la priorité la plus élevée gagne", () => {
   const r = core.resolveFiles([
     { label: "GAMMA base", priority: -Infinity, files: ["base/st_x.xml"] },

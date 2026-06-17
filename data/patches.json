@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-17T13:18:50+00:00",
+  "generated": "2026-06-17T13:41:15+00:00",
   "base": {
     "files": [
       "0. PatchVF/GAMMA base/.gitkeep",
@@ -481,6 +481,18 @@
   },
   "tweak": [
     {
+      "id": "94- Tacticool scopes",
+      "name": "94- Tacticool scopes",
+      "description": "",
+      "date": "2026-06-17",
+      "version": "0.9.5",
+      "url": "https://discord.com/invite/stalker-gamma",
+      "priority": 1,
+      "files": [
+        "0. PatchVF/GAMMA tweak/94- Tacticool scopes/ATS_illum_mcm.xml"
+      ]
+    },
+    {
       "id": "208- Ironman Roguelite",
       "name": "208- Ironman Roguelite",
       "description": "",
@@ -729,15 +741,23 @@
       ]
     },
     {
-      "id": "94- Tacticool scopes",
-      "name": "94- Tacticool scopes",
+      "id": "Anomaly Magazines Redux",
+      "name": "Anomaly Magazines Redux",
       "description": "",
       "date": "2026-06-17",
       "version": "0.9.5",
       "url": "https://discord.com/invite/stalker-gamma",
-      "priority": 1,
+      "priority": 2,
       "files": [
-        "0. PatchVF/GAMMA tweak/94- Tacticool scopes/ATS_illum_mcm.xml"
+        "0. PatchVF/GAMMA tweak/Anomaly Magazines Redux/st_items_magazines.xml",
+        "0. PatchVF/GAMMA tweak/Anomaly Magazines Redux/st_items_magazines_aug_9.xml",
+        "0. PatchVF/GAMMA tweak/Anomaly Magazines Redux/st_items_magazines_bas.xml",
+        "0. PatchVF/GAMMA tweak/Anomaly Magazines Redux/st_items_magazines_pistol.xml",
+        "0. PatchVF/GAMMA tweak/Anomaly Magazines Redux/st_items_magazines_rifles.xml",
+        "0. PatchVF/GAMMA tweak/Anomaly Magazines Redux/st_items_pp_pistols.xml",
+        "0. PatchVF/GAMMA tweak/Anomaly Magazines Redux/st_items_rifle_magazines_bas.xml",
+        "0. PatchVF/GAMMA tweak/Anomaly Magazines Redux/st_pda_category.xml",
+        "0. PatchVF/GAMMA tweak/Anomaly Magazines Redux/ui_st_ammocheck.xml"
       ]
     },
     {
@@ -760,26 +780,6 @@
         "0. PatchVF/GAMMA tweak/ATHI's Mags Redux Mod Madness/z_st_groza_mag.xml",
         "0. PatchVF/GAMMA tweak/ATHI's Mags Redux Mod Madness/z_st_items_magazines_athi.xml",
         "0. PatchVF/GAMMA tweak/ATHI's Mags Redux Mod Madness/z_st_mp9_magazine.xml"
-      ]
-    },
-    {
-      "id": "Anomaly Magazines Redux",
-      "name": "Anomaly Magazines Redux",
-      "description": "",
-      "date": "2026-06-17",
-      "version": "0.9.5",
-      "url": "https://discord.com/invite/stalker-gamma",
-      "priority": 2,
-      "files": [
-        "0. PatchVF/GAMMA tweak/Anomaly Magazines Redux/st_items_magazines.xml",
-        "0. PatchVF/GAMMA tweak/Anomaly Magazines Redux/st_items_magazines_aug_9.xml",
-        "0. PatchVF/GAMMA tweak/Anomaly Magazines Redux/st_items_magazines_bas.xml",
-        "0. PatchVF/GAMMA tweak/Anomaly Magazines Redux/st_items_magazines_pistol.xml",
-        "0. PatchVF/GAMMA tweak/Anomaly Magazines Redux/st_items_magazines_rifles.xml",
-        "0. PatchVF/GAMMA tweak/Anomaly Magazines Redux/st_items_pp_pistols.xml",
-        "0. PatchVF/GAMMA tweak/Anomaly Magazines Redux/st_items_rifle_magazines_bas.xml",
-        "0. PatchVF/GAMMA tweak/Anomaly Magazines Redux/st_pda_category.xml",
-        "0. PatchVF/GAMMA tweak/Anomaly Magazines Redux/ui_st_ammocheck.xml"
       ]
     },
     {

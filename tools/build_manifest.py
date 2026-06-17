@@ -20,6 +20,7 @@ import argparse
 import datetime
 import json
 import os
+import re
 import sys
 
 PATCH_BASE = "0. PatchVF"
@@ -31,6 +32,15 @@ META_NAME = "patch.json"
 def rel_posix(path, root):
     """Chemin relatif au dépôt, séparateurs POSIX."""
     return os.path.relpath(path, root).replace(os.sep, "/")
+
+
+def natural_key(name):
+    """Clé de tri « naturelle » : « 9 » < « 10 » < « 90 » < « 200 » (et non
+    l'ordre lexicographique où « 200 » précède « 90 »). Découpe la chaîne en
+    segments alternant texte / nombre ; les segments numériques sont comparés
+    comme des entiers. Le motif garantit que texte et nombre ne se retrouvent
+    jamais comparés au même rang (indices pairs = texte, impairs = nombre)."""
+    return [int(t) if t.isdigit() else t.lower() for t in re.split(r"(\d+)", name)]
 
 
 def list_files(folder, root, skip=()):
@@ -71,7 +81,7 @@ def build_patch_list(section_dir, root):
     patches = []
     if not os.path.isdir(section_dir):
         return patches
-    for name in sorted(os.listdir(section_dir)):
+    for name in sorted(os.listdir(section_dir), key=natural_key):
         folder = os.path.join(section_dir, name)
         if not os.path.isdir(folder):
             continue

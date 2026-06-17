@@ -28,6 +28,19 @@
     return 0;
   }
 
+  // Comparaison « naturelle » de chaînes : les segments numériques sont comparés
+  // comme des nombres et non caractère par caractère, de sorte que
+  // « 9 » < « 10 » < « 90 » < « 200 » (et non l'ordre lexicographique où « 200 »
+  // précède « 90 »). Sert à trier les dossiers de patchs préfixés d'un numéro
+  // (« 94- … » avant « 208- … »). Insensible à la casse et aux accents.
+  function cmpNatural(a, b) {
+    return String(a == null ? "" : a).localeCompare(
+      String(b == null ? "" : b),
+      "fr",
+      { numeric: true, sensitivity: "base" }
+    );
+  }
+
   /**
    * Résolution des conflits par priorité.
    * Entrée : sources = [{ label, priority, files: [chemins] }].
@@ -59,5 +72,5 @@
     return { files: files, warnings: warnings };
   }
 
-  return { baseName: baseName, cmpVersion: cmpVersion, resolveFiles: resolveFiles };
+  return { baseName: baseName, cmpVersion: cmpVersion, cmpNatural: cmpNatural, resolveFiles: resolveFiles };
 });
