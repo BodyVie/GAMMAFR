@@ -85,6 +85,7 @@
     setupTabs();
     setupContact();
     loadConfig();
+    loadVersionBadge();
     // onglet initial : déduit du #hash de l'URL (partage / rechargement), sinon l'accueil
     var initial = tabFromHash() || DEFAULT_TAB;
     if (!tabFromHash() && history.replaceState) history.replaceState(null, "", "#" + initial);
@@ -137,6 +138,29 @@
       })
       .catch(function () { /* placeholders restent affichés */ })
       .then(function () { startPresence(); }); // compteur d'admins (public) une fois worker_url connu
+  }
+
+  /* ---- numéro de version (barre du haut) ---------------------------------
+     Affiche, en orange, la version la plus récente du changelog
+     (data/changelog.json). Chargé à l'ouverture du site et réactualisé après
+     chaque édition admin du changelog : il suit donc toujours la dernière entrée. */
+  function latestVersion(entries) {
+    if (!Array.isArray(entries) || !entries.length) return "";
+    var top = entries.slice().sort(function (a, b) { return GammaCore.cmpVersion(b.version, a.version); })[0];
+    return top && top.version ? String(top.version).trim() : "";
+  }
+  function setVersionBadge(version) {
+    var node = $("#brandVer");
+    if (!node) return;
+    if (version) { node.textContent = "v" + version; node.hidden = false; }
+    else { node.textContent = ""; node.hidden = true; }
+  }
+  function loadVersionBadge() {
+    if (Array.isArray(data.changelog)) { setVersionBadge(latestVersion(data.changelog)); return; }
+    fetch("data/changelog.json", { cache: "no-store" })
+      .then(function (r) { return r.ok ? r.json() : []; })
+      .then(function (entries) { setVersionBadge(latestVersion(Array.isArray(entries) ? entries : [])); })
+      .catch(function () { /* badge masqué si le changelog est injoignable */ });
   }
 
   /* ---- présence : compteur d'admins en ligne + indicateur d'édition -------
@@ -1187,7 +1211,7 @@
     var host = $("#logHost");
     if (data.changelog !== null) { renderChangelog(); return; }
     fetchJSON("data/changelog.json")
-      .then(function (entries) { data.changelog = Array.isArray(entries) ? entries : []; renderChangelog(); })
+      .then(function (entries) { data.changelog = Array.isArray(entries) ? entries : []; setVersionBadge(latestVersion(data.changelog)); renderChangelog(); })
       .catch(function (e) {
         loadError(host, "Impossible de charger le changelog (" + e.message + ").", loadChangelog);
       });
@@ -1198,7 +1222,7 @@
     var host = $("#logHost");
     clear(host); host.appendChild(el("span", { class: "loading", text: "Chargement…" }));
     loadForEdit("changelog.json")
-      .then(function (r) { data.changelog = Array.isArray(r.obj) ? r.obj : []; renderChangelogEditor(); })
+      .then(function (r) { data.changelog = Array.isArray(r.obj) ? r.obj : []; setVersionBadge(latestVersion(data.changelog)); renderChangelogEditor(); })
       .catch(function (e) { loadError(host, "Impossible de charger le changelog pour édition (" + e.message + ").", renderChangelog); });
   }
 
@@ -1245,7 +1269,7 @@
             changes: e.changes.map(function (c) { return (c || "").trim(); }).filter(Boolean)
           };
         });
-    }, status, function (clean) { data.changelog = clean; });
+    }, status, function (clean) { data.changelog = clean; setVersionBadge(latestVersion(clean)); });
 
     var rows = el("div", { class: "editrows" });
     host.appendChild(rows);

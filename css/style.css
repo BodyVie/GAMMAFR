@@ -105,6 +105,7 @@ a:hover { text-decoration: underline; }
 }
 
 .brand__text { min-width: 0; }
+.brand__titlerow { display: flex; align-items: baseline; gap: 8px; min-width: 0; }
 .brand__title {
   font-size: 13px;
   font-weight: 700;
@@ -114,6 +115,7 @@ a:hover { text-decoration: underline; }
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  min-width: 0;
 }
 .brand__tag {
   font-size: 10px;
@@ -123,6 +125,17 @@ a:hover { text-decoration: underline; }
   overflow: hidden;
   text-overflow: ellipsis;
 }
+/* numéro de version : orange comme l'onglet actif, reflète le changelog */
+.brand__ver {
+  flex: none;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  color: var(--amber);
+  white-space: nowrap;
+}
+.brand__ver[hidden] { display: none; }
 
 .nav { margin-left: auto; flex: none; display: flex; align-items: center; gap: 2px; }
 
