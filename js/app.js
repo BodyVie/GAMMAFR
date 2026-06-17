@@ -790,7 +790,7 @@
     ]);
     var bodyChildren = [label, el("div", { class: "opt__meta", text: meta.join("  \u00b7  ") })];
     if (p.description) bodyChildren.push(el("div", { class: "opt__desc", text: p.description }));
-    if (p.url) bodyChildren.push(el("a", { class: "opt__link", href: p.url, target: "_blank", rel: "noopener noreferrer", text: "\u2197 page du mod" }));
+    if (p.url) bodyChildren.push(el("a", { class: "opt__link", href: p.url, target: "_blank", rel: "noopener noreferrer", text: "\u2197 " + p.url }));
 
     var row = el("div", {
       class: "opt" + (checked ? " is-checked" : ""), "data-type": "multi",
