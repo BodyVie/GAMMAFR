@@ -317,7 +317,7 @@ a:hover { text-decoration: underline; }
   content: attr(data-tip);
   position: absolute;
   top: calc(100% + 8px);
-  left: 0;
+  left: 50%;
   z-index: 5;
   width: max-content;
   max-width: 260px;
@@ -335,7 +335,7 @@ a:hover { text-decoration: underline; }
   white-space: normal;
   opacity: 0;
   visibility: hidden;
-  transform: translateY(-4px);
+  transform: translateX(-50%) translateY(-4px);
   transition: opacity 0.14s ease, transform 0.14s ease, visibility 0.14s;
   pointer-events: none;
 }
@@ -343,7 +343,7 @@ a:hover { text-decoration: underline; }
 .linkbar__btn:focus-visible::after {
   opacity: 1;
   visibility: visible;
-  transform: translateY(0);
+  transform: translateX(-50%) translateY(0);
 }
 
 /* Bandeau de dates en tête d'un ticket (création / dernière modification) */
