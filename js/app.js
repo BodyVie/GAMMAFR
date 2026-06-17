@@ -94,7 +94,11 @@
 
     // présence : signale le départ d'un admin, rafraîchit au retour d'onglet,
     // marque l'édition en cours dès qu'un champ admin est modifié.
-    window.addEventListener("beforeunload", function () { if (isAdmin()) leavePresence(); });
+    window.addEventListener("beforeunload", function (e) {
+      if (isAdmin()) leavePresence();
+      // filet de sécurité : un enregistrement automatique peut être en attente
+      if (isAdmin() && hasUnsaved()) { e.preventDefault(); e.returnValue = ""; return ""; }
+    });
     document.addEventListener("visibilitychange", function () { if (document.visibilityState !== "hidden") presenceTick(); });
     document.addEventListener("input", function (e) {
       if (!isAdmin() || !e.target || !e.target.closest) return;
@@ -210,6 +214,94 @@
     presenceTick();
   }
 
+  /* ---- enregistrement automatique (debounce + sérialisation) -------------
+     Plus de bouton « Enregistrer » : chaque éditeur admin enregistre tout seul
+     peu après la dernière frappe (ou dès qu'un champ est complété). Un seul
+     envoi à la fois — chaque enregistrement = un commit GitHub via le Worker —
+     et toute modification survenue pendant l'envoi en relance un à la fin. */
+  var AUTOSAVE_MS = 2000;
+  var autosavers = [];
+  function cancelAutosaves() { autosavers.forEach(function (a) { a.cancel(); }); autosavers = []; }
+  function resetAutosavers() { cancelAutosaves(); }   // re-render d'un éditeur : repart de zéro
+  function hasUnsaved() {
+    for (var i = 0; i < autosavers.length; i++) { if (autosavers[i].pending()) return true; }
+    return false;
+  }
+  function flushAutosaves() { autosavers.forEach(function (a) { a.flush(); }); }
+
+  // build() renvoie l'objet à écrire (ou null pour ne rien faire) ; onSuccess(obj)
+  // est appelé après un enregistrement réussi (sans recharger l'éditeur).
+  function makeAutosave(filename, build, status, onSuccess) {
+    var timer = null, saving = false, again = false;
+    function schedule(delay) {
+      if (timer) clearTimeout(timer);
+      timer = setTimeout(run, (delay == null) ? AUTOSAVE_MS : delay);
+    }
+    function run() {
+      timer = null;
+      if (!isAdmin()) return;
+      if (saving) { again = true; return; }
+      var obj = build();
+      if (obj == null) return;
+      saving = true;
+      saveData(filename, obj, status, null,
+        function () { if (typeof onSuccess === "function") onSuccess(obj); },
+        function () { saving = false; if (again) { again = false; schedule(0); } });
+    }
+    var mgr = {
+      queue: function () { setStatus(status, "work", "Modification…"); schedule(); },
+      flush: function () { if (timer) { clearTimeout(timer); run(); } else if (saving) { again = true; } },
+      cancel: function () { if (timer) { clearTimeout(timer); timer = null; } again = false; },
+      pending: function () { return timer !== null || saving || again; }
+    };
+    autosavers.push(mgr);
+    return mgr;
+  }
+
+  // Pied d'éditeur en mode automatique : libellé « Enregistrement automatique »
+  // + zone de statut (Modification… / Enregistrement… / Enregistré).
+  function autosaveFoot(status) {
+    return el("div", { class: "editor__foot editor__foot--auto" }, [
+      el("span", { class: "autosave-hint", text: "↻ Enregistrement automatique" }),
+      status
+    ]);
+  }
+
+  // Liste de champs texte avec « ligne fantôme » : une entrée vide en bas qui
+  // crée une nouvelle ligne dès qu'on y tape. Les entrées vides ne sont jamais
+  // conservées. arr (tableau de chaînes) est muté en place ; onChange() est
+  // appelé après toute modification (typiquement pour relancer l'autosave).
+  function renderGhostInputs(container, arr, opts) {
+    opts = opts || {};
+    var smCls = opts.sm ? " input--sm" : "";
+    clear(container);
+    arr.forEach(function (val, i) {
+      var inp = el("input", { class: "input" + smCls, type: "text", value: val, placeholder: opts.placeholder || "" });
+      inp.addEventListener("input", function () { arr[i] = inp.value; if (opts.onChange) opts.onChange(); });
+      var del = el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer", text: "✕",
+        onClick: function () { arr.splice(i, 1); if (opts.onChange) opts.onChange(); redraw(-1); } });
+      container.appendChild(el("div", { class: "editrow" }, [el("div", { class: "editrow__fields" }, [inp]), del]));
+    });
+    var ghost = el("input", { class: "input input--ghost" + smCls, type: "text", value: "",
+      placeholder: opts.ghostPlaceholder || opts.placeholder || "Ajouter…" });
+    ghost.addEventListener("input", function () {
+      if (ghost.value === "") return;
+      arr.push(ghost.value);
+      if (opts.onChange) opts.onChange();
+      redraw(arr.length - 1); // refocus la nouvelle ligne réelle, curseur en fin
+    });
+    container.appendChild(el("div", { class: "editrow editrow--ghost" }, [el("div", { class: "editrow__fields" }, [ghost])]));
+
+    function redraw(focusIdx) {
+      renderGhostInputs(container, arr, opts);
+      if (focusIdx >= 0) {
+        var inputs = container.querySelectorAll(".editrow input");
+        var t = inputs[focusIdx];
+        if (t) { t.focus(); var L = t.value.length; try { t.setSelectionRange(L, L); } catch (_) {} }
+      }
+    }
+  }
+
   // Charge un fichier via le Worker : contenu autoritatif + SHA (jeton de version
   // pour le verrouillage optimiste). Mémorise le SHA dans editSha[filename].
   function loadForEdit(filename) {
@@ -266,8 +358,31 @@
 
   // action utilisateur : passe par le #hash → l'historique permet Précédent/Suivant
   function navigateTab(name) {
-    if ((tabFromHash() || DEFAULT_TAB) === name) { activateTab(name); return; }
+    var current = tabFromHash() || DEFAULT_TAB;
+    if (current === name) { activateTab(name); return; }
+    // si une modification admin n'est pas encore enregistrée, proposer un pop-up
+    if (isAdmin() && hasUnsaved()) {
+      showLeaveGuard(function () { location.hash = name; });
+      return;
+    }
     location.hash = name; // déclenche hashchange → activateTab
+  }
+
+  // Pop-up « modifications en attente » : enregistrer maintenant, ou partir.
+  function showLeaveGuard(proceed) {
+    var content = el("div", { class: "modal__inner" });
+    content.appendChild(el("div", { class: "modal__head" }, [
+      el("h3", { class: "modal__title", text: "Modifications en attente" }),
+      el("button", { class: "btn btn--ghost btn--icon", title: "Fermer", text: "✕", onClick: closeModal })
+    ]));
+    content.appendChild(el("div", { class: "modal__body" }, [
+      el("p", { text: "Un enregistrement automatique n'est pas encore terminé. Que veux-tu faire ?" })
+    ]));
+    content.appendChild(el("div", { class: "modal__foot" }, [
+      el("button", { class: "btn btn--ghost", text: "Quitter sans enregistrer", onClick: function () { cancelAutosaves(); closeModal(); proceed(); } }),
+      el("button", { class: "btn btn--amber", text: "Enregistrer", onClick: function () { flushAutosaves(); closeModal(); proceed(); } })
+    ]));
+    openModal(content);
   }
 
   function activateTab(name) {
@@ -348,11 +463,12 @@
 
   function renderBoardEditor(host) {
     clear(host);
+    resetAutosavers();
     var b = data.board || normalizeBoard(null);
 
     host.appendChild(el("div", { class: "admin-bar" }, [
       el("span", { class: "admin-bar__tag", text: "ADMIN" }),
-      el("span", { text: "Édition du panneau d'affichage — n'oublie pas d'enregistrer." })
+      el("span", { text: "Édition du panneau d'affichage — enregistrement automatique." })
     ]));
 
     var card = el("div", { class: "card" });
@@ -363,17 +479,17 @@
     card.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Message" }), body]));
 
     var status = el("span", { class: "editor__status" });
-    var save = el("button", { class: "btn btn--amber", text: "Enregistrer le panneau" });
-    save.addEventListener("click", function () {
+    var mgr = makeAutosave("board.json", function () {
       var today = new Date();
-      var obj = {
+      return {
         title: title.value.trim(),
         body: body.value.trim(),
         updated: today.getFullYear() + "-" + pad(today.getMonth() + 1) + "-" + pad(today.getDate())
       };
-      saveData("board.json", obj, status, save, function () { data.board = normalizeBoard(obj); });
-    });
-    card.appendChild(el("div", { class: "editor__foot" }, [save, status]));
+    }, status, function (obj) { data.board = normalizeBoard(obj); });
+    title.addEventListener("input", mgr.queue);
+    body.addEventListener("input", mgr.queue);
+    card.appendChild(autosaveFoot(status));
     host.appendChild(card);
   }
 
@@ -960,14 +1076,28 @@
   function renderChangelogEditor() {
     var host = $("#logHost");
     clear(host);
+    resetAutosavers();
     var draft = (data.changelog || []).map(function (e) {
       return { version: e.version || "", date: e.date || "", changes: (e.changes || []).slice() };
     });
 
     host.appendChild(el("div", { class: "admin-bar" }, [
       el("span", { class: "admin-bar__tag", text: "ADMIN" }),
-      el("span", { text: "Édition du changelog — n'oublie pas d'enregistrer." })
+      el("span", { text: "Édition du changelog — enregistrement automatique." })
     ]));
+
+    var status = el("span", { class: "editor__status" });
+    var mgr = makeAutosave("changelog.json", function () {
+      return draft
+        .filter(function (e) { return (e.version || "").trim() !== ""; })
+        .map(function (e) {
+          return {
+            version: e.version.trim(),
+            date: (e.date || "").trim(),
+            changes: e.changes.map(function (c) { return (c || "").trim(); }).filter(Boolean)
+          };
+        });
+    }, status, function (clean) { data.changelog = clean; });
 
     var rows = el("div", { class: "editrows" });
     host.appendChild(rows);
@@ -976,28 +1106,18 @@
       clear(rows);
       draft.forEach(function (entry, i) {
         var ver = el("input", { class: "input input--sm", type: "text", value: entry.version, placeholder: "Version (1.2.0)" });
-        ver.addEventListener("input", function () { entry.version = ver.value; });
+        ver.addEventListener("input", function () { entry.version = ver.value; mgr.queue(); });
         var date = el("input", { class: "input input--sm", type: "text", value: entry.date, placeholder: "Date (2026-06-14)" });
-        date.addEventListener("input", function () { entry.date = date.value; });
+        date.addEventListener("input", function () { entry.date = date.value; mgr.queue(); });
         var delV = el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer la version", text: "\u2715",
-          onClick: function () { draft.splice(i, 1); drawRows(); } });
+          onClick: function () { draft.splice(i, 1); drawRows(); mgr.queue(); } });
 
         var lines = el("div", { class: "editlines" });
-        (function (entry) {
-          function drawLines() {
-            clear(lines);
-            entry.changes.forEach(function (c, j) {
-              var line = el("input", { class: "input", type: "text", value: c, placeholder: "Modification\u2026" });
-              line.addEventListener("input", function () { entry.changes[j] = line.value; });
-              var delC = el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer la ligne", text: "\u2715",
-                onClick: function () { entry.changes.splice(j, 1); drawLines(); } });
-              lines.appendChild(el("div", { class: "editline" }, [line, delC]));
-            });
-            lines.appendChild(el("button", { class: "btn btn--ghost btn--mini", text: "+ ligne",
-              onClick: function () { entry.changes.push(""); drawLines(); } }));
-          }
-          drawLines();
-        })(entry);
+        renderGhostInputs(lines, entry.changes, {
+          placeholder: "Modification\u2026",
+          ghostPlaceholder: "Ajouter une modification\u2026",
+          onChange: mgr.queue
+        });
 
         rows.appendChild(el("div", { class: "editcard" }, [
           el("div", { class: "editcard__head" }, [ver, date, delV]),
@@ -1009,22 +1129,12 @@
     drawRows();
 
     var add = el("button", { class: "btn btn--ghost", text: "+ Ajouter une version",
-      onClick: function () { draft.unshift({ version: "", date: "", changes: [""] }); drawRows(); } });
-    var save = el("button", { class: "btn btn--amber", text: "Enregistrer le changelog" });
-    var status = el("span", { class: "editor__status" });
-    save.addEventListener("click", function () {
-      var clean = draft
-        .filter(function (e) { return (e.version || "").trim() !== ""; })
-        .map(function (e) {
-          return {
-            version: e.version.trim(),
-            date: (e.date || "").trim(),
-            changes: e.changes.map(function (c) { return (c || "").trim(); }).filter(Boolean)
-          };
-        });
-      saveData("changelog.json", clean, status, save, function () { data.changelog = clean; });
-    });
-    host.appendChild(el("div", { class: "editor__foot" }, [add, save, status]));
+      onClick: function () { draft.unshift({ version: "", date: "", changes: [] }); drawRows(); } });
+    host.appendChild(el("div", { class: "editor__foot editor__foot--auto" }, [
+      add,
+      el("span", { class: "autosave-hint", text: "↻ Enregistrement automatique" }),
+      status
+    ]));
   }
 
   /* =======================================================================
@@ -1034,7 +1144,10 @@
      seul fichier data/planner.json via le Worker (comme Liste / Changelog).
      ======================================================================= */
   var plannerDraft = null;                       // copie de travail (mode admin)
+  var plannerMgr = null;                         // gestionnaire d'enregistrement automatique
   var dragState = null;                          // glisser-déposer : { fromCat, tk }
+  // relance l'enregistrement automatique du planner après une modification
+  function planChanged() { if (plannerMgr) plannerMgr.queue(); }
   var PLABELS = ["green", "amber", "rust", "ok", "cyan", "violet"];
   var PSTATUS = { todo: "À faire", doing: "En cours", done: "Terminé" };
 
@@ -1136,16 +1249,19 @@
   function renderPlannerAdmin() {
     var host = $("#plannerHost");
     clear(host);
+    resetAutosavers();
     host.appendChild(el("div", { class: "admin-bar" }, [
       el("span", { class: "admin-bar__tag", text: "ADMIN" }),
-      el("span", { text: "Édition du planner — pense à enregistrer." }),
+      el("span", { text: "Édition du planner — enregistrement automatique." }),
       el("button", { class: "btn btn--ghost btn--mini", text: "Gérer les étiquettes", onClick: openLabelManager })
     ]));
     host.appendChild(el("div", { id: "plannerBoardWrap" }));
     var status = el("span", { class: "editor__status" });
-    var save = el("button", { class: "btn btn--amber", text: "Enregistrer le planner" });
-    save.addEventListener("click", function () { savePlanner(status, save); });
-    host.appendChild(el("div", { class: "editor__foot" }, [save, status]));
+    // l'autosave ne remplace PAS plannerDraft (une modale peut être ouverte sur un
+    // ticket de ce brouillon) : il met seulement à jour la version lue côté public.
+    plannerMgr = makeAutosave("planner.json", buildPlannerClean, status,
+      function (clean) { data.planner = normalizePlanner(clean); });
+    host.appendChild(autosaveFoot(status));
     paintBoard();
   }
 
@@ -1163,7 +1279,7 @@
       board.appendChild(el("div", { class: "bucket bucket--add" }, [
         el("button", { class: "btn btn--ghost btn--wide", text: "+ Catégorie", onClick: function () {
           plannerDraft.categories.push({ id: plUid("cat"), name: "Nouvelle catégorie", tickets: [] });
-          paintBoard();
+          paintBoard(); planChanged();
         } })
       ]));
     }
@@ -1174,12 +1290,12 @@
     var head;
     if (editable) {
       var nameInp = el("input", { class: "bucket__edit", type: "text", value: cat.name, placeholder: "Catégorie…" });
-      nameInp.addEventListener("input", function () { cat.name = nameInp.value; });
+      nameInp.addEventListener("input", function () { cat.name = nameInp.value; planChanged(); });
       var del = el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer la catégorie", text: "✕", onClick: function () {
         if (cat.tickets.length && !window.confirm("Supprimer « " + (cat.name || "cette catégorie") + " » et ses " + cat.tickets.length + " ticket(s) ?")) return;
         var i = plannerDraft.categories.indexOf(cat);
         if (i !== -1) plannerDraft.categories.splice(i, 1);
-        paintBoard();
+        paintBoard(); planChanged();
       } });
       head = el("div", { class: "bucket__head" }, [nameInp, el("span", { class: "bucket__count", text: String(cat.tickets.length) }), del]);
     } else {
@@ -1242,7 +1358,7 @@
     }
     toCat.tickets.splice(idx, 0, tk);
     dragState = null;
-    paintBoard();
+    paintBoard(); planChanged();
   }
 
   function buildCard(p, cat, tk, editable) {
@@ -1441,7 +1557,7 @@
     var content = el("div", { class: "modal__inner" });
 
     var titleInp = el("input", { class: "input modal__titleinput", type: "text", value: tk.title, placeholder: "Titre du ticket" });
-    titleInp.addEventListener("input", function () { tk.title = titleInp.value; });
+    titleInp.addEventListener("input", function () { tk.title = titleInp.value; planChanged(); });
     content.appendChild(el("div", { class: "modal__head" }, [
       titleInp,
       el("button", { class: "btn btn--ghost btn--icon", title: "Fermer", text: "✕", onClick: closeModal })
@@ -1459,9 +1575,9 @@
       if (tk.status === k) o.selected = true;
       status.appendChild(o);
     });
-    status.addEventListener("change", function () { tk.status = status.value; });
+    status.addEventListener("change", function () { tk.status = status.value; planChanged(); });
     var due = el("input", { class: "input input--sm", type: "date", value: tk.due || "" });
-    due.addEventListener("input", function () { tk.due = due.value; });
+    due.addEventListener("input", function () { tk.due = due.value; planChanged(); });
     body.appendChild(el("div", { class: "frow" }, [
       el("label", { class: "field field--inline" }, [el("span", { class: "field__label", text: "État" }), status]),
       el("label", { class: "field field--inline" }, [el("span", { class: "field__label", text: "Date de réalisation" }), due])
@@ -1469,7 +1585,7 @@
 
     var desc = el("textarea", { class: "textarea", rows: "3", placeholder: "Description…" });
     desc.value = tk.description;
-    desc.addEventListener("input", function () { tk.description = desc.value; });
+    desc.addEventListener("input", function () { tk.description = desc.value; planChanged(); });
     body.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Description" }), desc]));
 
     body.appendChild(el("span", { class: "field__label", text: "Étiquettes" }));
@@ -1484,19 +1600,19 @@
     var comBox = el("div", { class: "pcomments" });
     body.appendChild(comBox);
     var authorPick = buildAuthorPicker();
-    var cText = el("input", { class: "input", type: "text", placeholder: "Ajouter un commentaire…" });
-    var cAdd = el("button", { class: "btn btn--ghost btn--mini", text: "Commenter" });
-    body.appendChild(el("div", { class: "commentadd" }, [authorPick.node, cText, cAdd]));
+    var cText = el("input", { class: "input", type: "text", placeholder: "Ajouter un commentaire (Entrée pour valider)…" });
+    body.appendChild(el("div", { class: "commentadd" }, [authorPick.node, cText]));
 
     content.appendChild(el("div", { class: "modal__foot" }, [
       el("button", { class: "btn btn--ghost btn--danger", text: "Supprimer le ticket", onClick: function () {
         if (!window.confirm("Supprimer ce ticket ?")) return;
         var i = cat.tickets.indexOf(tk);
         if (i !== -1) cat.tickets.splice(i, 1);
+        planChanged();
         closeModal();
       } }),
-      el("span", { class: "muted-note", text: "Pense à « Enregistrer le planner »." }),
-      el("button", { class: "btn btn--amber", text: "Fermer", onClick: closeModal })
+      el("span", { class: "muted-note", text: "Enregistrement automatique." }),
+      el("button", { class: "btn btn--ghost", text: "Fermer", onClick: closeModal })
     ]));
 
     function paintLabels() {
@@ -1508,22 +1624,41 @@
         chip.addEventListener("click", function () {
           var i = tk.labels.indexOf(l.id);
           if (i === -1) tk.labels.push(l.id); else tk.labels.splice(i, 1);
-          paintLabels();
+          paintLabels(); planChanged();
         });
         labWrap.appendChild(chip);
       });
     }
-    function paintActions() {
+    function paintActions(focusLast) {
       clear(actBox);
       tk.actions.forEach(function (a, i) {
         var toggle = el("button", { class: "pcheck__toggle" + (a.done ? " is-done" : ""), text: a.done ? "✓" : "", title: "Cocher" });
-        toggle.addEventListener("click", function () { a.done = !a.done; paintActions(); });
         var txt = el("input", { class: "input input--bare", type: "text", value: a.text, placeholder: "Action…" });
-        txt.addEventListener("input", function () { a.text = txt.value; });
-        var del = el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer", text: "✕", onClick: function () { tk.actions.splice(i, 1); paintActions(); } });
-        actBox.appendChild(el("div", { class: "pcheck pcheck--edit" + (a.done ? " is-done" : "") }, [toggle, txt, del]));
+        txt.addEventListener("input", function () { a.text = txt.value; planChanged(); });
+        var del = el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer", text: "✕", onClick: function () { tk.actions.splice(i, 1); paintActions(); planChanged(); } });
+        var row = el("div", { class: "pcheck pcheck--edit" + (a.done ? " is-done" : "") }, [toggle, txt, del]);
+        // cliquer n'importe où sur la ligne (sauf le champ texte) coche / décoche
+        row.addEventListener("click", function (e) {
+          if (e.target === txt || del === e.target || del.contains(e.target)) return;
+          a.done = !a.done; paintActions(); planChanged();
+        });
+        actBox.appendChild(row);
       });
-      actBox.appendChild(el("button", { class: "btn btn--ghost btn--mini", text: "+ action", onClick: function () { tk.actions.push({ id: plUid("ac"), text: "", done: false }); paintActions(); } }));
+      // ligne fantôme : taper dedans crée une action (les actions vides ne comptent pas)
+      var ghost = el("input", { class: "input input--bare input--ghost", type: "text", value: "", placeholder: "Ajouter une action…" });
+      ghost.addEventListener("input", function () {
+        if (ghost.value === "") return;
+        tk.actions.push({ id: plUid("ac"), text: ghost.value, done: false });
+        paintActions(true); planChanged();
+      });
+      actBox.appendChild(el("div", { class: "pcheck pcheck--edit pcheck--ghost" }, [
+        el("span", { class: "pcheck__toggle pcheck__toggle--ghost", "aria-hidden": "true" }), ghost
+      ]));
+      if (focusLast) {
+        var inputs = actBox.querySelectorAll(".pcheck input");
+        var t = inputs[tk.actions.length - 1];
+        if (t) { t.focus(); var L = t.value.length; try { t.setSelectionRange(L, L); } catch (_) {} }
+      }
     }
     function paintComments() {
       clear(comBox);
@@ -1531,24 +1666,30 @@
         comBox.appendChild(el("div", { class: "pcomment" }, [
           el("div", { class: "pcomment__meta" }, [
             el("span", { text: (c.author || "Admin") + " · " + fmtDate(c.date) }),
-            el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer", text: "✕", onClick: function () { tk.comments.splice(i, 1); paintComments(); } })
+            el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer", text: "✕", onClick: function () { tk.comments.splice(i, 1); paintComments(); planChanged(); } })
           ]),
           el("div", { class: "pcomment__text", text: c.text })
         ]));
       });
       if (!tk.comments.length) comBox.appendChild(el("p", { class: "list-empty", text: "Aucun commentaire." }));
     }
-    cAdd.addEventListener("click", function () {
+    function addComment() {
       var t = cText.value.trim(); if (!t) return;
       tk.comments.push({ id: plUid("cm"), author: authorPick.value(), date: new Date().toISOString(), text: t });
-      cText.value = ""; paintComments();
-    });
-    cText.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); cAdd.click(); } });
+      cText.value = ""; paintComments(); planChanged();
+    }
+    cText.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); addComment(); } });
 
     paintLabels(); paintActions(); paintComments();
     openModal(content, function () {
-      // marque la date de dernière modification si le contenu a réellement changé
-      if (ticketFingerprint(tk) !== snapshot) tk.modified = new Date().toISOString();
+      if ((tk.title || "").trim() === "") {
+        // ticket sans titre : non conservé (ni compté, ni enregistré) — on le retire
+        var i = cat.tickets.indexOf(tk);
+        if (i !== -1) { cat.tickets.splice(i, 1); planChanged(); }
+      } else if (ticketFingerprint(tk) !== snapshot) {
+        // marque la date de dernière modification si le contenu a réellement changé
+        tk.modified = new Date().toISOString(); planChanged();
+      }
       paintBoard();
     });
   }
@@ -1569,16 +1710,16 @@
       clear(listBox);
       p.labels.forEach(function (l, i) {
         var name = el("input", { class: "input input--sm", type: "text", value: l.name, placeholder: "Nom de l'étiquette" });
-        name.addEventListener("input", function () { l.name = name.value; });
+        name.addEventListener("input", function () { l.name = name.value; planChanged(); });
         var colors = el("div", { class: "colorpick" });
         PLABELS.forEach(function (col) {
           var sw = el("button", { class: "swatch plabel--" + col + (l.color === col ? " is-on" : ""), title: col, "aria-label": col });
-          sw.addEventListener("click", function () { l.color = col; paint(); });
+          sw.addEventListener("click", function () { l.color = col; paint(); planChanged(); });
           colors.appendChild(sw);
         });
         var del = el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer", text: "✕", onClick: function () {
           p.categories.forEach(function (c) { c.tickets.forEach(function (t) { var k = t.labels.indexOf(l.id); if (k !== -1) t.labels.splice(k, 1); }); });
-          p.labels.splice(i, 1); paint();
+          p.labels.splice(i, 1); paint(); planChanged();
         } });
         listBox.appendChild(el("div", { class: "labelrow" }, [name, colors, del]));
       });
@@ -1591,19 +1732,22 @@
     } }));
 
     content.appendChild(el("div", { class: "modal__foot" }, [
-      el("span", { class: "muted-note", text: "Pense à « Enregistrer le planner »." }),
-      el("button", { class: "btn btn--amber", text: "Fermer", onClick: closeModal })
+      el("span", { class: "muted-note", text: "Enregistrement automatique." }),
+      el("button", { class: "btn btn--ghost", text: "Fermer", onClick: closeModal })
     ]));
     openModal(content, paintBoard);
   }
 
-  function savePlanner(status, btn) {
+  // Normalise plannerDraft en objet propre prêt à écrire (sert à l'autosave) :
+  // étiquettes/tickets/actions vides écartés, horodatages préservés.
+  function buildPlannerClean() {
     var d = plannerDraft;
+    if (!d) return null;
     var labels = d.labels.filter(function (l) { return (l.name || "").trim() !== ""; })
       .map(function (l) { return { id: l.id, name: l.name.trim(), color: l.color }; });
     var kept = {};
     labels.forEach(function (l) { kept[l.id] = true; });
-    var clean = {
+    return {
       generated: new Date().toISOString().replace(/\.\d+Z$/, "+00:00"),
       labels: labels,
       categories: d.categories.map(function (c) {
@@ -1628,11 +1772,6 @@
         };
       })
     };
-    saveData("planner.json", clean, status, btn, function () {
-      data.planner = normalizePlanner(clean);
-      plannerDraft = plClone(data.planner);
-      paintBoard();
-    });
   }
 
   /* =======================================================================
@@ -1727,6 +1866,8 @@
   }
 
   function lockAdmin(idle) {
+    flushAutosaves();           // envoie les modifications encore en attente
+    resetAutosavers();
     leavePresence();            // signale le départ tant que le mot de passe est en mémoire
     admin.unlocked = false; admin.pwd = ""; adminDirty = false;
     stopIdleWatch();
@@ -1807,11 +1948,12 @@
   }
 
   function renderAdminUnlocked() {
+    resetAutosavers();
     var wrap = el("div", {});
 
     wrap.appendChild(el("div", { class: "admin-bar" }, [
       el("span", { class: "admin-bar__tag", text: "CONNECTÉ" }),
-      el("span", { text: "Tu peux aussi modifier le Panneau d'affichage, la Liste et le Changelog dans leurs onglets." }),
+      el("span", { text: "Enregistrement automatique. Tu peux aussi modifier le Panneau d'affichage et le Changelog dans leurs onglets." }),
       el("button", { class: "btn btn--ghost btn--mini", text: "Verrouiller", onClick: lockAdmin })
     ]));
 
@@ -1837,17 +1979,17 @@
       if (r.obj && typeof r.obj === "object") fields.forEach(function (f) { if (r.obj[f.key] != null) inputs[f.key].value = r.obj[f.key]; });
     }).catch(function () {});
     var cfgStatus = el("span", { class: "editor__status" });
-    var cfgSave = el("button", { class: "btn btn--amber", text: "Enregistrer la configuration" });
-    cfgSave.addEventListener("click", function () {
+    var cfgMgr = makeAutosave("config.json", function () {
       var obj = {};
       fields.forEach(function (f) { obj[f.key] = inputs[f.key].value.trim(); });
-      saveData("config.json", obj, cfgStatus, cfgSave, function () {
-        config = Object.assign(config, obj);
-        if (config.site_title) { document.title = config.site_title; $("#brandTitle").textContent = config.site_title; }
-        if (config.site_tagline) $("#brandTag").textContent = config.site_tagline;
-      });
+      return obj;
+    }, cfgStatus, function (obj) {
+      config = Object.assign(config, obj);
+      if (config.site_title) { document.title = config.site_title; $("#brandTitle").textContent = config.site_title; }
+      if (config.site_tagline) $("#brandTag").textContent = config.site_tagline;
     });
-    cfgCard.appendChild(el("div", { class: "editor__foot" }, [cfgSave, cfgStatus]));
+    fields.forEach(function (f) { inputs[f.key].addEventListener("input", cfgMgr.queue); });
+    cfgCard.appendChild(autosaveFoot(cfgStatus));
     wrap.appendChild(cfgCard);
 
     // ---- administrateurs (pseudos du sélecteur d'auteur des commentaires planner) ----
@@ -1858,26 +2000,18 @@
     var admRows = el("div", { class: "editrows" });
     admCard.appendChild(admRows);
     var admDraft = [];
-    function drawAdmRows() {
-      clear(admRows);
-      admDraft.forEach(function (name, i) {
-        var inp = el("input", { class: "input", type: "text", value: name, placeholder: "Pseudo" });
-        inp.addEventListener("input", function () { admDraft[i] = inp.value; });
-        var del = el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer", text: "✕",
-          onClick: function () { admDraft.splice(i, 1); drawAdmRows(); } });
-        admRows.appendChild(el("div", { class: "editrow" }, [el("div", { class: "editrow__fields" }, [inp]), del]));
-      });
-      if (!admDraft.length) admRows.appendChild(el("p", { class: "list-empty", text: "Aucun admin. Ajoute un pseudo." }));
-    }
     var admStatus = el("span", { class: "editor__status" });
-    var admAdd = el("button", { class: "btn btn--ghost", text: "+ Ajouter un pseudo",
-      onClick: function () { admDraft.push(""); drawAdmRows(); } });
-    var admSave = el("button", { class: "btn btn--amber", text: "Enregistrer les admins" });
-    admSave.addEventListener("click", function () {
-      var clean = admDraft.map(function (s) { return (s || "").trim(); }).filter(function (s) { return s !== ""; });
-      saveData("admins.json", clean, admStatus, admSave, function () { data.admins = clean; });
-    });
-    admCard.appendChild(el("div", { class: "editor__foot" }, [admAdd, admSave, admStatus]));
+    var admMgr = makeAutosave("admins.json", function () {
+      return admDraft.map(function (s) { return (s || "").trim(); }).filter(function (s) { return s !== ""; });
+    }, admStatus, function (clean) { data.admins = clean; });
+    function drawAdmRows() {
+      renderGhostInputs(admRows, admDraft, {
+        placeholder: "Pseudo",
+        ghostPlaceholder: "Ajouter un pseudo…",
+        onChange: function () { data.admins = admDraft.map(function (s) { return (s || "").trim(); }).filter(Boolean); admMgr.queue(); }
+      });
+    }
+    admCard.appendChild(autosaveFoot(admStatus));
     wrap.appendChild(admCard);
     loadForEdit("admins.json")
       .then(function (r) { admDraft = Array.isArray(r.obj) ? r.obj.slice() : []; data.admins = admDraft.slice(); drawAdmRows(); })
@@ -1939,10 +2073,13 @@
       .then(function (r) { rm.value = (r.obj && r.obj.readme) || ""; rm.disabled = false; })
       .catch(function () { rm.value = ""; rm.disabled = false; });
     var rmStatus = el("span", { class: "editor__status" });
-    var rmSave = el("button", { class: "btn btn--amber", text: "Enregistrer le lisez-moi" });
-    rmSave.addEventListener("click", function () { saveData("files.json", { readme: rm.value }, rmStatus, rmSave); });
+    var rmMgr = makeAutosave("files.json", function () {
+      if (rm.disabled) return null; // pas encore chargé : ne rien écrire
+      return { readme: rm.value };
+    }, rmStatus);
+    rm.addEventListener("input", rmMgr.queue);
     rmCard.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Contenu" }), rm]));
-    rmCard.appendChild(el("div", { class: "editor__foot" }, [rmSave, rmStatus]));
+    rmCard.appendChild(autosaveFoot(rmStatus));
     wrap.appendChild(rmCard);
 
     // ---- messages reçus (contact) ----
@@ -1959,10 +2096,10 @@
   }
 
   // ---- enregistrement générique vers le Worker ---------------------------
-  function saveData(filename, obj, status, btn, onSuccess) {
-    if (!isAdmin()) { setStatus(status, "err", "Session admin verrouillée."); return; }
+  function saveData(filename, obj, status, btn, onSuccess, onDone) {
+    if (!isAdmin()) { setStatus(status, "err", "Session admin verrouillée."); if (onDone) onDone(); return; }
     if (!config.worker_url || config.worker_url.indexOf("VOTRE-SOUS-DOMAINE") !== -1) {
-      setStatus(status, "err", "worker_url non configuré dans data/config.json."); return;
+      setStatus(status, "err", "worker_url non configuré dans data/config.json."); if (onDone) onDone(); return;
     }
     var content = JSON.stringify(obj, null, 2) + "\n";
     if (btn) btn.disabled = true;
@@ -2001,7 +2138,7 @@
         }
       })
       .catch(function () { setStatus(status, "err", "Worker injoignable. Vérifie l'URL et le déploiement."); })
-      .then(function () { if (btn) btn.disabled = false; });
+      .then(function () { if (btn) btn.disabled = false; if (typeof onDone === "function") onDone(); });
   }
 
   // ---- boîte de réception (messages de contact) --------------------------

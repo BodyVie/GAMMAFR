@@ -543,10 +543,21 @@ a:hover { text-decoration: underline; }
 .editor__name { font-size: 12px; letter-spacing: 0.08em; color: var(--text); font-weight: 700; }
 .editor__path { font-size: 10px; color: var(--dim-2); letter-spacing: 0.06em; }
 .editor__foot { display: flex; align-items: center; gap: 14px; margin-top: 10px; }
+.editor__foot--auto { flex-wrap: wrap; }
 .editor__status { font-size: 11px; letter-spacing: 0.06em; min-height: 16px; }
 .editor__status--ok { color: var(--ok); }
 .editor__status--err { color: var(--rust); }
 .editor__status--work { color: var(--amber); }
+.autosave-hint { font-size: 11px; letter-spacing: 0.06em; color: var(--dim); }
+
+/* champs « fantômes » : ligne vide à compléter (pas de bouton « + Ajouter ») */
+.input--ghost { border-style: dashed; opacity: 0.85; }
+.input--ghost:focus { border-style: solid; opacity: 1; }
+.editrow--ghost .btn { visibility: hidden; }
+.pcheck--ghost .pcheck__toggle--ghost {
+  flex: none; width: 24px; height: 24px;
+  border: 1px dashed var(--line); border-radius: var(--radius); background: transparent;
+}
 
 /* =========================================================================
    UTILITAIRES & RESPONSIVE

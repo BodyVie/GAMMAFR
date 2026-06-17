@@ -218,11 +218,21 @@ demander une validation par email du compte.
 2. Saisis le mot de passe (`ADMIN_PASSWORD`). Il n'est **jamais** mémorisé : il
    est renvoyé au Worker à chaque enregistrement, sans session, cookie ni
    `localStorage`.
-3. Chaque éditeur charge la version actuelle du fichier. Modifie le JSON.
-4. **Enregistrer** : le JSON est d'abord validé côté navigateur (erreur immédiate
-   si invalide), puis envoyé au Worker, qui le repousse dans le dépôt.
+3. Chaque éditeur charge la version actuelle du fichier. Modifie-le directement.
+4. **Enregistrement automatique** : il n'y a plus de bouton « Enregistrer ». Peu
+   après la dernière frappe (≈ 2 s), l'éditeur valide et envoie tout seul au
+   Worker, qui repousse dans le dépôt. Un statut indique
+   `Modification…` → `Envoi…` → `Enregistré`. Un seul envoi à la fois (un commit
+   par enregistrement) ; les modifications faites pendant l'envoi en relancent un.
+   Si tu changes d'onglet alors qu'un envoi n'est pas terminé, un **pop-up**
+   propose d'**enregistrer** ou de **quitter sans enregistrer**.
 5. GitHub Pages se reconstruit en ~1 min. Le cache du navigateur/CDN peut
    retarder un peu l'affichage public ; un rechargement forcé (Ctrl+Maj+R) aide.
+
+> Saisie sans friction : les listes (actions d'un ticket, lignes de changelog,
+> pseudos admin…) n'ont plus de bouton « + Ajouter ». Une **ligne vide** attend
+> en bas ; dès que tu y écris, une nouvelle ligne vide apparaît. Les lignes
+> restées vides ne sont ni comptées ni enregistrées.
 
 **Format des fichiers** (modèles déjà fournis dans `data/`) :
 
