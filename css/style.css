@@ -792,6 +792,14 @@ button.plabel.is-on::before { content: "✓\00A0"; }
 }
 .pcheck__toggle.is-done { color: var(--ok); border-color: var(--ok); }
 .input--bare { flex: 1; padding: 6px 8px; font-size: 13px; }
+.pcheck__grip {
+  flex: none; width: 16px; text-align: center; cursor: grab;
+  color: var(--dim-2); font-size: 13px; line-height: 1; user-select: none;
+}
+.pcheck__grip:active { cursor: grabbing; }
+.pcheck__grip--ghost { visibility: hidden; }
+.pcheck.is-dragging { opacity: 0.5; }
+.pcheck--edit { cursor: text; }
 
 /* commentaires */
 .pcomments { display: flex; flex-direction: column; gap: 8px; }

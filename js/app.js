@@ -1554,6 +1554,7 @@
   function openTicketEdit(cat, tk) {
     var p = plannerDraft;
     var snapshot = ticketFingerprint(tk); // pour dater « modified » si le contenu change
+    var actDragId = null;                 // glisser-déposer des actions : id en cours
     var content = el("div", { class: "modal__inner" });
 
     var titleInp = el("input", { class: "input modal__titleinput", type: "text", value: tk.title, placeholder: "Titre du ticket" });
@@ -1632,15 +1633,42 @@
     function paintActions(focusLast) {
       clear(actBox);
       tk.actions.forEach(function (a, i) {
-        var toggle = el("button", { class: "pcheck__toggle" + (a.done ? " is-done" : ""), text: a.done ? "✓" : "", title: "Cocher" });
+        var grip = el("span", { class: "pcheck__grip", title: "Glisser pour réordonner", text: "⠿", draggable: "true" });
+        var toggle = el("button", { class: "pcheck__toggle" + (a.done ? " is-done" : ""), text: a.done ? "✓" : "", title: a.done ? "Décocher" : "Cocher" });
+        toggle.addEventListener("click", function () { a.done = !a.done; paintActions(); planChanged(); });
         var txt = el("input", { class: "input input--bare", type: "text", value: a.text, placeholder: "Action…" });
         txt.addEventListener("input", function () { a.text = txt.value; planChanged(); });
         var del = el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer", text: "✕", onClick: function () { tk.actions.splice(i, 1); paintActions(); planChanged(); } });
-        var row = el("div", { class: "pcheck pcheck--edit" + (a.done ? " is-done" : "") }, [toggle, txt, del]);
-        // cliquer n'importe où sur la ligne (sauf le champ texte) coche / décoche
+        var row = el("div", { class: "pcheck pcheck--edit" + (a.done ? " is-done" : ""), "data-acid": a.id }, [grip, toggle, txt, del]);
+        // cliquer sur la ligne (hors case/poignée/supprimer) place le curseur dans le champ
         row.addEventListener("click", function (e) {
-          if (e.target === txt || del === e.target || del.contains(e.target)) return;
-          a.done = !a.done; paintActions(); planChanged();
+          if (e.target === txt || e.target === grip || e.target === toggle || toggle.contains(e.target) || e.target === del || del.contains(e.target)) return;
+          txt.focus();
+        });
+        // glisser-déposer pour réordonner les actions (via la poignée)
+        grip.addEventListener("dragstart", function (e) {
+          actDragId = a.id; row.classList.add("is-dragging");
+          if (e.dataTransfer) { e.dataTransfer.effectAllowed = "move"; try { e.dataTransfer.setData("text/plain", a.id); } catch (_) {} }
+        });
+        grip.addEventListener("dragend", function () { actDragId = null; row.classList.remove("is-dragging"); });
+        row.addEventListener("dragover", function (e) {
+          if (actDragId == null || actDragId === a.id) return;
+          e.preventDefault(); if (e.dataTransfer) e.dataTransfer.dropEffect = "move";
+        });
+        row.addEventListener("drop", function (e) {
+          if (actDragId == null || actDragId === a.id) return;
+          e.preventDefault();
+          var from = -1;
+          for (var k = 0; k < tk.actions.length; k++) { if (tk.actions[k].id === actDragId) { from = k; break; } }
+          if (from === -1) return;
+          var box = row.getBoundingClientRect();
+          var after = e.clientY > box.top + box.height / 2;
+          var moved = tk.actions.splice(from, 1)[0];
+          var to = 0;
+          for (var m = 0; m < tk.actions.length; m++) { if (tk.actions[m].id === a.id) { to = m; break; } }
+          tk.actions.splice(after ? to + 1 : to, 0, moved);
+          actDragId = null;
+          paintActions(); planChanged();
         });
         actBox.appendChild(row);
       });
@@ -1652,6 +1680,7 @@
         paintActions(true); planChanged();
       });
       actBox.appendChild(el("div", { class: "pcheck pcheck--edit pcheck--ghost" }, [
+        el("span", { class: "pcheck__grip pcheck__grip--ghost", "aria-hidden": "true" }),
         el("span", { class: "pcheck__toggle pcheck__toggle--ghost", "aria-hidden": "true" }), ghost
       ]));
       if (focusLast) {
