@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-17T16:35:10+00:00",
+  "generated": "2026-06-17T16:35:27+00:00",
   "labels": [
     {
       "id": "lbl_mqft6asnlhoe",
@@ -107,12 +107,12 @@
             {
               "id": "ac_mqiaker7kgb0",
               "text": "Traduction",
-              "done": false
+              "done": true
             },
             {
               "id": "ac_mqiakioh3vn6",
               "text": "Introduction dans le Pack",
-              "done": false
+              "done": true
             }
           ],
           "comments": [],
