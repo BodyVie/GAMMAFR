@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T14:21:43+00:00",
+  "generated": "2026-06-18T14:30:11+00:00",
   "base": {
     "files": [
       "0. PatchVF/GAMMA base/.gitkeep",
@@ -824,7 +824,6 @@
   ],
   "mainfile": {
     "files": [
-      "0. PatchVF/MainFile/.gitkeep",
       "0. PatchVF/MainFile/Fonts/1.Tactical1k (insecable)/fonts/fonts.ltx",
       "0. PatchVF/MainFile/Fonts/1.Tactical1k (insecable)/fonts/localization.ltx",
       "0. PatchVF/MainFile/Fonts/1.Tactical1k (insecable)/ui/guide/encyclopedia_features.dds",
