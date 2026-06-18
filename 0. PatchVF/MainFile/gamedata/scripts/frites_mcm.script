@@ -1,0 +1,83 @@
+local couleurs = {
+	titre = {255, 230, 185, 90},
+	texte = {255, 200, 200, 200},
+	lien = {255, 125, 175, 200},
+	avertissement = {255, 230, 130, 90},
+}
+
+local function image_guide(id, index)
+	return {
+		id = id,
+		type = "image",
+		link = "frites_mcm_reinstallation_" .. index .. ".dds",
+		size = {563, 130},
+		stretch = true,
+	}
+end
+
+local function a_propos()
+	return {
+		id = "about",
+		text = "ui_mcm_menu_frites_about",
+		sh = true,
+		gr = {
+			{id = "title", type = "title", text = "ui_mcm_frites_about_title", clr = couleurs.titre},
+			{id = "intro", type = "desc", text = "ui_mcm_frites_about_intro", clr = couleurs.texte},
+			{id = "version", type = "desc", text = "ui_mcm_frites_about_version", clr = couleurs.texte},
+			{id = "line_community", type = "line"},
+			{id = "community", type = "title", text = "ui_mcm_frites_about_community", clr = couleurs.titre},
+			{id = "community_link", type = "desc", text = "ui_mcm_frites_about_community_link", clr = couleurs.lien},
+		},
+	}
+end
+
+local function reinstallation()
+	return {
+		id = "reinstall",
+		text = "ui_mcm_menu_frites_reinstall",
+		sh = true,
+		gr = {
+			{id = "title", type = "title", text = "ui_mcm_frites_reinstall_title", clr = couleurs.titre},
+			{id = "intro", type = "desc", text = "ui_mcm_frites_reinstall_intro", clr = couleurs.texte},
+			{id = "warning", type = "desc", text = "ui_mcm_frites_reinstall_warning", clr = couleurs.avertissement},
+			{id = "line_1", type = "line"},
+			image_guide("image_1", 1),
+			{id = "step_1_title", type = "title", text = "ui_mcm_frites_reinstall_step_1_title", clr = couleurs.titre},
+			{id = "step_1_text", type = "desc", text = "ui_mcm_frites_reinstall_step_1_text", clr = couleurs.texte},
+			{id = "line_2", type = "line"},
+			image_guide("image_2", 2),
+			{id = "step_2_title", type = "title", text = "ui_mcm_frites_reinstall_step_2_title", clr = couleurs.titre},
+			{id = "step_2_text", type = "desc", text = "ui_mcm_frites_reinstall_step_2_text", clr = couleurs.texte},
+			{id = "line_3", type = "line"},
+			image_guide("image_3", 3),
+			{id = "step_3_title", type = "title", text = "ui_mcm_frites_reinstall_step_3_title", clr = couleurs.titre},
+			{id = "step_3_text", type = "desc", text = "ui_mcm_frites_reinstall_step_3_text", clr = couleurs.texte},
+			{id = "line_4", type = "line"},
+			image_guide("image_4", 4),
+			{id = "step_4_title", type = "title", text = "ui_mcm_frites_reinstall_step_4_title", clr = couleurs.titre},
+			{id = "step_4_text", type = "desc", text = "ui_mcm_frites_reinstall_step_4_text", clr = couleurs.texte},
+			{id = "choice", type = "desc", text = "ui_mcm_frites_reinstall_choice", clr = couleurs.lien},
+			{id = "line_5", type = "line"},
+			image_guide("image_5", 5),
+			{id = "step_5_title", type = "title", text = "ui_mcm_frites_reinstall_step_5_title", clr = couleurs.titre},
+			{id = "step_5_text", type = "desc", text = "ui_mcm_frites_reinstall_step_5_text", clr = couleurs.texte},
+			{id = "line_6", type = "line"},
+			image_guide("image_6", 6),
+			{id = "step_6_title", type = "title", text = "ui_mcm_frites_reinstall_step_6_title", clr = couleurs.titre},
+			{id = "step_6_text", type = "desc", text = "ui_mcm_frites_reinstall_step_6_text", clr = couleurs.texte},
+			{id = "line_end", type = "line"},
+			{id = "final", type = "desc", text = "ui_mcm_frites_reinstall_final", clr = couleurs.lien},
+		},
+	}
+end
+
+function on_mcm_load()
+	return {
+		id = "frites",
+		text = "ui_mcm_menu_frites",
+		gr = {
+			a_propos(),
+			reinstallation(),
+		},
+	}
+end
