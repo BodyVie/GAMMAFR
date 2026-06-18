@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T15:13:51+00:00",
+  "generated": "2026-06-18T15:41:57+00:00",
   "base": {
     "files": [
       "0. PatchVF/GAMMA base/9a91_vsk94.xml",
@@ -942,7 +942,15 @@
       "0. PatchVF/MainFile/Pict/4K.png",
       "0. PatchVF/MainFile/Pict/FRITES.jpg",
       "0. PatchVF/MainFile/fomod/ModuleConfig.xml",
-      "0. PatchVF/MainFile/fomod/info.xml"
+      "0. PatchVF/MainFile/fomod/info.xml",
+      "0. PatchVF/MainFile/gamedata/configs/text/fra/frites_mcm.xml",
+      "0. PatchVF/MainFile/gamedata/scripts/frites_mcm.script",
+      "0. PatchVF/MainFile/gamedata/textures/frites_mcm_reinstallation_1.dds",
+      "0. PatchVF/MainFile/gamedata/textures/frites_mcm_reinstallation_2.dds",
+      "0. PatchVF/MainFile/gamedata/textures/frites_mcm_reinstallation_3.dds",
+      "0. PatchVF/MainFile/gamedata/textures/frites_mcm_reinstallation_4.dds",
+      "0. PatchVF/MainFile/gamedata/textures/frites_mcm_reinstallation_5.dds",
+      "0. PatchVF/MainFile/gamedata/textures/frites_mcm_reinstallation_6.dds"
     ]
   }
 }
