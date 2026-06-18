@@ -13,8 +13,10 @@
  *   POST /update    { password, filename, content, sha? }→ { success, sha } | { error } (409 = conflit)
  *   POST /presence  { action:"count" } (public)          → { count, editing }
  *                   { password, id, action:"ping"|"leave", editing? } (admin) → { count, editing }
+ *   POST /scan-updates { password }                      → { success } | { error }   (admin)
  * (/verify = login ; /contact = dépôt public d'un message sans email, stocké en KV ;
- *  /load = lecture + SHA pour le verrouillage optimiste de /update ; /presence = compteur d'admins.)
+ *  /load = lecture + SHA pour le verrouillage optimiste de /update ; /presence = compteur d'admins ;
+ *  /scan-updates = déclenche le workflow « Vérification ModDB » via repository_dispatch.)
  *
  * Variables d'environnement (Cloudflare Secrets / Vars) :
  *   ADMIN_PASSWORD   (Secret)  mot de passe admin en clair (comparé en timing-safe)
@@ -183,8 +185,13 @@ export default {
       return handleLoad(request, env, origin);
     }
 
+    // --- route /scan-updates : déclenche le workflow de vérification ModDB (admin) ---
+    if (url.pathname === "/scan-updates") {
+      return handleScanUpdates(request, env, origin);
+    }
+
     if (url.pathname !== "/update") {
-      return json({ error: "Endpoint introuvable. Utilise POST /update, /verify, /load, /presence, /contact ou /messages." }, 404, origin);
+      return json({ error: "Endpoint introuvable. Utilise POST /update, /verify, /load, /presence, /scan-updates, /contact ou /messages." }, 404, origin);
     }
 
     // --- garde-fou taille ---
@@ -293,6 +300,43 @@ async function handleVerify(request, env, origin) {
   }
   if (fails > 0) await resetFails(env, ip);
   return json({ success: true }, 200, origin);
+}
+
+/* ==================== Scan ModDB (/scan-updates) ==================== */
+/**
+ * Déclenche manuellement le workflow GitHub « Vérification des mises à jour
+ * ModDB » via un événement repository_dispatch. Protégé par mot de passe (mêmes
+ * garde-fous que /update). N'exige que la permission Contents:write déjà
+ * détenue par le token (repository_dispatch, contrairement à workflow_dispatch,
+ * ne requiert PAS la permission Actions).
+ */
+async function handleScanUpdates(request, env, origin) {
+  const len = Number(request.headers.get("content-length") || "0");
+  if (len > MAX_BODY) return json({ error: "Payload trop volumineux." }, 413, origin);
+
+  let body;
+  try { body = await request.json(); } catch (_) { return json({ error: "Corps JSON invalide." }, 400, origin); }
+  const password = typeof body.password === "string" ? body.password : "";
+
+  const ip = request.headers.get("CF-Connecting-IP") || "0.0.0.0";
+  const fails = await getFails(env, ip);
+  if (fails >= MAX_FAILS) return json({ error: "Trop de tentatives. Réessaie plus tard." }, 429, origin);
+
+  const expected = env.ADMIN_PASSWORD || "";
+  const ok = expected.length > 0 && (await timingSafeEqual(password, expected));
+  if (!ok) {
+    const n = await bumpFails(env, ip);
+    const remaining = Math.max(0, MAX_FAILS - n);
+    return json({ error: "Mot de passe incorrect." + (remaining ? " Tentatives restantes : " + remaining + "." : "") }, 401, origin);
+  }
+  if (fails > 0) await resetFails(env, ip);
+
+  try {
+    await triggerRepositoryDispatch(env, "scan-mod-updates");
+    return json({ success: true }, 200, origin);
+  } catch (err) {
+    return json({ error: "Échec du déclenchement du scan : " + (err && err.message ? err.message : "inconnu") }, 502, origin);
+  }
 }
 
 /* ============================ Contact (/contact) ============================ */
@@ -541,6 +585,25 @@ function ghHeaders(token) {
 
 function ghUrl(c, repoPath) {
   return "https://api.github.com/repos/" + c.owner + "/" + c.repo + "/contents/" + encodeURI(repoPath);
+}
+
+/**
+ * Déclenche un événement repository_dispatch sur le dépôt. Un workflow qui
+ * écoute `on: repository_dispatch: types: [<eventType>]` démarre alors sur la
+ * branche par défaut. Ne requiert que la permission Contents:write du token.
+ */
+async function triggerRepositoryDispatch(env, eventType) {
+  const c = ghConf(env);
+  const url = "https://api.github.com/repos/" + c.owner + "/" + c.repo + "/dispatches";
+  const res = await fetch(url, {
+    method: "POST",
+    headers: ghHeaders(c.token),
+    body: JSON.stringify({ event_type: eventType })
+  });
+  if (res.status === 204) return true;
+  let detail = "";
+  try { const e = await res.json(); detail = e && e.message ? " — " + e.message : ""; } catch (_) {}
+  throw new Error("HTTP " + res.status + detail);
 }
 
 // Lit un fichier du dépôt : { content (texte décodé), sha }. sha=null si absent.

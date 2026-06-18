@@ -1181,6 +1181,16 @@ button.plabel.is-on::before { content: "✓\00A0"; }
 .nav__btn--updates { color: var(--amber); }
 .nav__btn--updates.is-active { color: var(--amber); border-bottom-color: var(--amber); }
 
+.updates__toolbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.updates__scan-btn { white-space: nowrap; }
+.updates__scan-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
 .update-card { border-left: 3px solid var(--amber); }
 .update-card--acked { border-left-color: var(--ok); opacity: 0.75; }
 

@@ -2756,6 +2756,9 @@
     var host = $("#updatesHost");
     host.innerHTML = "";
 
+    // Barre d'outils admin : déclenchement manuel d'un scan ModDB.
+    if (isAdmin()) host.appendChild(buildScanToolbar());
+
     var allUpdates = (updatesData && Array.isArray(updatesData.updates)) ? updatesData.updates : [];
     var now = Date.now();
 
@@ -2770,7 +2773,7 @@
     });
 
     if (visible.length === 0) {
-      var empty = el("p", { cls: "updates__empty", text: "Aucune mise à jour détectée pour le moment." });
+      var empty = el("p", { class: "updates__empty", text: "Aucune mise à jour détectée pour le moment." });
       host.appendChild(empty);
     } else {
       visible.forEach(function (u) {
@@ -2779,25 +2782,82 @@
     }
 
     if (updatesData && updatesData.generated) {
-      var footer = el("p", { cls: "updates__footer" });
+      var footer = el("p", { class: "updates__footer" });
       footer.textContent = "Dernière vérification : " + fmtDate(updatesData.generated);
       host.appendChild(footer);
     }
   }
 
-  function buildUpdateCard(u) {
-    var card = el("div", { cls: "card update-card" + (u.acknowledged_at ? " update-card--acked" : "") });
+  // Barre d'outils admin de l'onglet Updates : bouton de scan manuel + statut.
+  function buildScanToolbar() {
+    var bar = el("div", { class: "updates__toolbar" });
+    var statusEl = el("span", { class: "editor__status" });
+    var btn = el("button", {
+      class: "btn updates__scan-btn",
+      text: "Lancer un scan",
+      title: "Vérifie maintenant les versions des mods sur ModDB"
+    });
+    btn.addEventListener("click", function () { triggerUpdateScan(statusEl, btn); });
+    bar.appendChild(btn);
+    bar.appendChild(statusEl);
+    return bar;
+  }
 
-    var header = el("div", { cls: "update-card__header" });
+  // Déclenche le workflow GitHub de vérification ModDB via le Worker (/scan-updates).
+  // Le scan tourne côté GitHub Actions : le résultat (mod_updates.json) n'est
+  // disponible qu'après quelques minutes, d'où le message invitant à recharger.
+  function triggerUpdateScan(status, btn) {
+    if (!isAdmin()) { setStatus(status, "err", "Session admin verrouillée."); return; }
+    if (!config.worker_url || config.worker_url.indexOf("VOTRE-SOUS-DOMAINE") !== -1) {
+      setStatus(status, "err", "worker_url non configuré dans data/config.json."); return;
+    }
+    btn.disabled = true;
+    setStatus(status, "work", "Lancement du scan…");
+
+    var ok = false;
+    fetch(config.worker_url.replace(/\/$/, "") + "/scan-updates", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ password: admin.pwd })
+    })
+      .then(function (r) {
+        return r.json().catch(function () { return { error: "Réponse illisible (HTTP " + r.status + ")" }; })
+          .then(function (d) { return { ok: r.ok, status: r.status, data: d }; });
+      })
+      .then(function (res) {
+        if (res.ok && res.data && res.data.success) {
+          ok = true;
+          setStatus(status, "ok", "Scan lancé. Les résultats apparaîtront dans quelques minutes — recharge la page pour les voir.");
+        } else if (res.status === 401) {
+          setStatus(status, "err", "Session expirée. Reconnecte-toi dans l'onglet Admin.");
+        } else if (res.status === 429) {
+          setStatus(status, "err", "Trop de tentatives. Réessaie dans quelques minutes.");
+        } else {
+          setStatus(status, "err", (res.data && res.data.error) || ("Échec (HTTP " + res.status + ")"));
+        }
+      })
+      .catch(function () { setStatus(status, "err", "Worker injoignable. Vérifie l'URL et le déploiement."); })
+      .then(function () {
+        if (!btn) return;
+        // Anti-spam : on laisse le workflow démarrer avant de réautoriser un scan.
+        if (ok) setTimeout(function () { btn.disabled = false; }, 10000);
+        else btn.disabled = false;
+      });
+  }
+
+  function buildUpdateCard(u) {
+    var card = el("div", { class: "card update-card" + (u.acknowledged_at ? " update-card--acked" : "") });
+
+    var header = el("div", { class: "update-card__header" });
     var title = el("strong", { text: u.name });
     header.appendChild(title);
 
-    var badge = el("span", { cls: "update-badge" });
+    var badge = el("span", { class: "update-badge" });
     badge.textContent = (u.version_local || "?") + " → " + (u.version_remote || "?");
     header.appendChild(badge);
     card.appendChild(header);
 
-    var link = el("a", { cls: "update-card__link" });
+    var link = el("a", { class: "update-card__link" });
     link.href = u.url;
     link.target = "_blank";
     link.rel = "noopener noreferrer";
@@ -2805,11 +2865,11 @@
     card.appendChild(link);
 
     if (u.acknowledged_at) {
-      var ackNote = el("p", { cls: "update-card__acked", text: "Pris en compte le " + fmtDate(u.acknowledged_at) });
+      var ackNote = el("p", { class: "update-card__acked", text: "Pris en compte le " + fmtDate(u.acknowledged_at) });
       card.appendChild(ackNote);
     } else if (isAdmin()) {
-      var statusEl = el("span", { cls: "editor__status" });
-      var btn = el("button", { cls: "btn update-card__ack-btn", text: "Pris en compte" });
+      var statusEl = el("span", { class: "editor__status" });
+      var btn = el("button", { class: "btn update-card__ack-btn", text: "Pris en compte" });
       btn.addEventListener("click", function () {
         btn.disabled = true;
         acknowledgeUpdate(u, statusEl, btn);
