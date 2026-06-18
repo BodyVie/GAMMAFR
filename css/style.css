@@ -452,6 +452,14 @@ a:hover { text-decoration: underline; }
 .recap__item { display: flex; gap: 10px; color: var(--text); font-size: 14px; }
 .recap__item::before { content: "\25B8"; color: var(--rad); flex: none; }
 .recap__empty { color: var(--dim-2); font-style: italic; font-size: 13px; }
+/* séparateur de section dans « Patchs sélectionnés » (base / tweak / extra) */
+.recap__sep {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--dim); margin: 14px 0 8px;
+}
+.recap__h + .recap__sep { margin-top: 0; }
+.recap__sep::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 
 /* liens de téléchargement révélés */
 .dl { margin-top: 18px; display: flex; flex-direction: column; gap: 8px; }
@@ -984,36 +992,6 @@ button.plabel.is-on::before { content: "✓\00A0"; }
 }
 .opt__link:hover { border-bottom-color: var(--rad); }
 
-.recap__file {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 4px 12px;
-  padding: 4px 0;
-  border-bottom: 1px dashed var(--line-soft);
-}
-.recap__file:last-child { border-bottom: 0; }
-.recap__fname { font-family: var(--mono); color: var(--text); }
-.recap__src { font-size: 12px; color: var(--dim); }
-.recap__warn {
-  font-size: 11px;
-  letter-spacing: 0.06em;
-  color: var(--amber);
-  cursor: help;
-}
-.recap__file.is-conflict {
-  border-left: 2px solid var(--amber);
-  margin-left: -10px;
-  padding-left: 8px;
-  background: var(--amber-soft);
-}
-.recap__file--base .recap__fname {
-  font-family: inherit;
-  font-weight: 600;
-  color: var(--rad);
-}
-.recap__file--base .recap__src { font-style: italic; }
-
 .progress {
   height: 6px;
   width: 100%;
@@ -1180,6 +1158,16 @@ button.plabel.is-on::before { content: "✓\00A0"; }
 /* ---- Onglet Updates ------------------------------------------------------- */
 .nav__btn--updates { color: var(--amber); }
 .nav__btn--updates.is-active { color: var(--amber); border-bottom-color: var(--amber); }
+
+.updates__toolbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.updates__scan-btn { white-space: nowrap; }
+.updates__scan-btn:disabled { opacity: 0.6; cursor: not-allowed; }
 
 .update-card { border-left: 3px solid var(--amber); }
 .update-card--acked { border-left-color: var(--ok); opacity: 0.75; }

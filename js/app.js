@@ -927,50 +927,36 @@
       el("div", { class: "recap__item", text: lvLabel })
     ]));
 
+    // Patchs sélectionnés, regroupés par section avec des séparateurs :
+    // « G.A.M.M.A. base » (toujours incluse), « Patchs G.A.M.M.A. tweak » puis
+    // « Patchs G.A.M.M.A. extra ». Les sections tweak/extra ne s'affichent
+    // qu'aux niveaux qui les proposent.
     var pg = el("div", { class: "recap__group" }, [el("div", { class: "recap__h", text: "Patchs sélectionnés" })]);
-    if (r.patches.length) {
-      var ul = el("ul", { class: "recap__list" });
-      r.patches.forEach(function (p) { ul.appendChild(el("li", { class: "recap__item", text: (p.name || p.id) + (p.version ? " \u00b7 v" + p.version : "") })); });
-      pg.appendChild(ul);
-    } else { pg.appendChild(el("div", { class: "recap__empty", text: "Aucun (base seule)" })); }
+    function recapSection(title, items, emptyLabel) {
+      pg.appendChild(el("div", { class: "recap__sep", text: title }));
+      if (items.length) {
+        var ul = el("ul", { class: "recap__list" });
+        items.forEach(function (p) {
+          ul.appendChild(el("li", { class: "recap__item", text: (p.name || p.id) + (p.version ? " \u00b7 v" + p.version : "") }));
+        });
+        pg.appendChild(ul);
+      } else {
+        pg.appendChild(el("div", { class: "recap__empty", text: emptyLabel }));
+      }
+    }
+
+    pg.appendChild(el("div", { class: "recap__sep", text: "G.A.M.M.A. base" }));
+    pg.appendChild(el("ul", { class: "recap__list" }, [el("li", { class: "recap__item", text: "Toujours incluse" })]));
+    if (r.level === "tweak" || r.level === "extra") {
+      recapSection("Patchs G.A.M.M.A. tweak", r.patches.filter(function (p) { return p._section === "Tweak"; }), "Aucun");
+    }
+    if (r.level === "extra") {
+      recapSection("Patchs G.A.M.M.A. extra", r.patches.filter(function (p) { return p._section === "Extra"; }), "Aucun");
+    }
     recap.appendChild(pg);
 
-    var fg = el("div", { class: "recap__group" }, [el("div", { class: "recap__h", text: "Fichiers générés (" + r.files.length + ")" })]);
-    var fl = el("ul", { class: "recap__list" });
-    // G.A.M.M.A. base est incluse quel que soit le niveau : ses (nombreux)
-    // fichiers sont toujours présents et noieraient le récap. On les résume donc
-    // en une seule ligne « G.A.M.M.A. base » ; seuls les fichiers fournis ou
-    // écrasés par un patch sélectionné (priorité finie) sont détaillés.
-    var baseFiles = r.files.filter(function (f) { return f.winner.priority === -Infinity; });
-    var patchFiles = r.files.filter(function (f) { return f.winner.priority !== -Infinity; });
-    if (baseFiles.length) {
-      fl.appendChild(el("li", { class: "recap__file recap__file--base" }, [
-        el("span", { class: "recap__fname", text: "G.A.M.M.A. base" }),
-        el("span", { class: "recap__src", text: baseFiles.length + " fichier" + (baseFiles.length > 1 ? "s" : "") + " de base" })
-      ]));
-    }
-    patchFiles.forEach(function (f) {
-      var line = el("li", { class: "recap__file" + (f.conflict ? " is-conflict" : "") }, [
-        el("span", { class: "recap__fname", text: f.name }),
-        el("span", { class: "recap__src", text: "\u2190 " + f.winner.label })
-      ]);
-      if (f.conflict) {
-        var others = f.contenders.filter(function (c) { return c.priority === f.winner.priority; }).map(function (c) { return c.label; }).join(", ");
-        line.appendChild(el("span", { class: "recap__warn", title: "Priorité identique : " + others + ". Gagnant déterministe \u2014 fixe des priorités distinctes pour lever l'ambiguïté.", text: "\u26A0 conflit" }));
-      }
-      fl.appendChild(line);
-    });
-    fg.appendChild(fl);
-    recap.appendChild(fg);
-
-    if (r.mainfile.length) {
-      recap.appendChild(el("div", { class: "recap__group" }, [
-        el("div", { class: "recap__h", text: "Structure (MainFile)" }),
-        el("div", { class: "recap__item", text: r.mainfile.length + " fichier(s) inclus tels quels" })
-      ]));
-    }
     if (r.warnings.length) {
-      recap.appendChild(el("div", { class: "notice is-shown notice--err", text: r.warnings.length + " conflit(s) de priorité \u2014 voir \u26A0 ci-dessus." }));
+      recap.appendChild(el("div", { class: "notice is-shown notice--err", text: r.warnings.length + " conflit(s) de priorité (" + r.warnings.join(", ") + ") \u2014 fixe des priorités distinctes pour lever l'ambiguïté." }));
     }
 
     frag.appendChild(recap);
@@ -1095,6 +1081,33 @@
     return strBytesUtf16le(xml);
   }
 
+  /* ---- frites_mcm.xml (MCM « À propos ») ------------------------------------
+     Le MCM de F.R.I.T.E.S affiche la version installée dans son onglet « À propos »
+     (<string id="ui_mcm_frites_about_version">). On y injecte, à l'assemblage, la
+     même version que meta.ini / fomod/info.xml (dernière entrée du changelog), au
+     lieu d'un numéro figé. Le fichier est fourni en windows-1252 (sans BOM) : on
+     le manipule octet par octet (chaque octet ↔ un point de code 0–255) afin de
+     préserver à l'identique ses caractères accentués, le texte injecté étant pur ASCII. */
+  function bytesToBinStr(bytes) {
+    var s = "";
+    for (var i = 0; i < bytes.length; i++) s += String.fromCharCode(bytes[i]);
+    return s;
+  }
+  function binStrToBytes(str) {
+    var out = new Uint8Array(str.length);
+    for (var i = 0; i < str.length; i++) out[i] = str.charCodeAt(i) & 0xFF;
+    return out;
+  }
+  // Remplace le <text>…</text> de la balise « about_version » par « Version : <v> ».
+  // Laisse le fichier intact si la balise est absente.
+  function patchMcmVersion(bytes, version) {
+    var xml = bytesToBinStr(bytes);
+    var re = /(<string\s+id="ui_mcm_frites_about_version">[\s\S]*?<text>)[\s\S]*?(<\/text>)/;
+    if (!re.test(xml)) return bytes;
+    xml = xml.replace(re, function (m, open, close) { return open + xmlEscape("Version : " + version) + close; });
+    return binStrToBytes(xml);
+  }
+
   // ---- assemblage du ZIP --------------------------------------------------
   function assembleAndDownload() {
     var zone = $("#dlZone");
@@ -1128,20 +1141,48 @@
     var status = el("p", { class: "notice is-shown", text: "Téléchargement des fichiers\u2026 0 / " + total });
     zone.appendChild(status);
 
-    var entries = [], done = 0, failed = [];
-    function step(i) {
-      if (i >= total) return finish();
-      var target = list[i], src = targets[target];
+    // Téléchargement parallèle borné : plutôt qu'un fichier à la fois, un petit
+    // pool de requêtes concurrentes tire dans la même liste. Le navigateur garde
+    // ainsi plusieurs requêtes en vol (HTTP/2 multiplexe sur une seule connexion),
+    // ce qui réduit fortement le temps total — dominé par la latence réseau quand
+    // l'archive compte des centaines de fichiers. L'écriture par index préserve
+    // l'ordre des entrées dans le ZIP (identique à la version séquentielle).
+    var DL_CONCURRENCY = 8, DL_ATTEMPTS = 3, DL_BACKOFF_MS = 300;
+    var entries = new Array(total), done = 0, nextIdx = 0, failed = [];
+    function wait(ms) { return new Promise(function (res) { setTimeout(res, ms); }); }
+    // Récupère un fichier avec quelques tentatives : sur des centaines de fichiers,
+    // un aléa réseau ponctuel ne doit pas faire échouer toute l'archive. On ré-essaie
+    // avec un délai croissant (backoff exponentiel). Les erreurs définitives
+    // (404/403 : fichier réellement absent) ne sont pas ré-essayées — inutile.
+    function fetchBytes(src, attempt) {
       return fetch(encPath(src), { cache: "no-store" })
-        .then(function (resp) { if (!resp.ok) throw new Error("HTTP " + resp.status); return resp.arrayBuffer(); })
-        .then(function (ab) { entries.push({ name: target, data: new Uint8Array(ab) }); })
+        .then(function (resp) {
+          if (!resp.ok) { var e = new Error("HTTP " + resp.status); e.permanent = (resp.status === 404 || resp.status === 403); throw e; }
+          return resp.arrayBuffer();
+        })
+        .catch(function (e) {
+          if ((e && e.permanent) || attempt >= DL_ATTEMPTS) throw e;
+          return wait(DL_BACKOFF_MS * Math.pow(2, attempt - 1)).then(function () { return fetchBytes(src, attempt + 1); });
+        });
+    }
+    function pump() {
+      if (nextIdx >= total) return Promise.resolve();
+      var i = nextIdx++;
+      var target = list[i], src = targets[target];
+      return fetchBytes(src, 1)
+        .then(function (ab) { entries[i] = { name: target, data: new Uint8Array(ab) }; })
         .catch(function () { failed.push(src); })
         .then(function () {
           done++;
           bar.style.width = Math.round((done / total) * 100) + "%";
           status.textContent = "Téléchargement des fichiers\u2026 " + done + " / " + total;
-          return step(i + 1);
+          return pump();
         });
+    }
+    function downloadAll() {
+      var pool = [];
+      for (var k = 0; k < Math.min(DL_CONCURRENCY, total); k++) pool.push(pump());
+      return Promise.all(pool);
     }
 
     function finish() {
@@ -1169,6 +1210,14 @@
           website: config.site_url || ""
         });
       }
+      // gamedata/.../frites_mcm.xml : le MCM affiche la version dans \u00ab \u00c0 propos \u00bb.
+      // On y injecte la m\u00eame version (derni\u00e8re changelog) que meta.ini / info.xml.
+      if (metaVersion) {
+        var mcmEntry = entries.filter(function (e) {
+          return baseName(e.name).toLowerCase() === "frites_mcm.xml";
+        })[0];
+        if (mcmEntry) mcmEntry.data = patchMcmVersion(mcmEntry.data, metaVersion);
+      }
       status.textContent = "Compression\u2026";
       window.GammaZip.create(entries).then(function (blob) {
         var url = URL.createObjectURL(blob);
@@ -1188,7 +1237,7 @@
 
     // Résout d'abord la version de l'application (pour le meta.ini), puis lance
     // le téléchargement des fichiers.
-    currentVersion().then(function (v) { metaVersion = v || ""; step(0); });
+    currentVersion().then(function (v) { metaVersion = v || ""; downloadAll().then(finish); });
   }
 
   /* =======================================================================
@@ -2734,6 +2783,9 @@
     var host = $("#updatesHost");
     host.innerHTML = "";
 
+    // Barre d'outils admin : déclenchement manuel d'un scan ModDB.
+    if (isAdmin()) host.appendChild(buildScanToolbar());
+
     var allUpdates = (updatesData && Array.isArray(updatesData.updates)) ? updatesData.updates : [];
     var now = Date.now();
 
@@ -2748,7 +2800,7 @@
     });
 
     if (visible.length === 0) {
-      var empty = el("p", { cls: "updates__empty", text: "Aucune mise à jour détectée pour le moment." });
+      var empty = el("p", { class: "updates__empty", text: "Aucune mise à jour détectée pour le moment." });
       host.appendChild(empty);
     } else {
       visible.forEach(function (u) {
@@ -2757,25 +2809,82 @@
     }
 
     if (updatesData && updatesData.generated) {
-      var footer = el("p", { cls: "updates__footer" });
+      var footer = el("p", { class: "updates__footer" });
       footer.textContent = "Dernière vérification : " + fmtDate(updatesData.generated);
       host.appendChild(footer);
     }
   }
 
-  function buildUpdateCard(u) {
-    var card = el("div", { cls: "card update-card" + (u.acknowledged_at ? " update-card--acked" : "") });
+  // Barre d'outils admin de l'onglet Updates : bouton de scan manuel + statut.
+  function buildScanToolbar() {
+    var bar = el("div", { class: "updates__toolbar" });
+    var statusEl = el("span", { class: "editor__status" });
+    var btn = el("button", {
+      class: "btn updates__scan-btn",
+      text: "Lancer un scan",
+      title: "Vérifie maintenant les versions des mods sur ModDB"
+    });
+    btn.addEventListener("click", function () { triggerUpdateScan(statusEl, btn); });
+    bar.appendChild(btn);
+    bar.appendChild(statusEl);
+    return bar;
+  }
 
-    var header = el("div", { cls: "update-card__header" });
+  // Déclenche le workflow GitHub de vérification ModDB via le Worker (/scan-updates).
+  // Le scan tourne côté GitHub Actions : le résultat (mod_updates.json) n'est
+  // disponible qu'après quelques minutes, d'où le message invitant à recharger.
+  function triggerUpdateScan(status, btn) {
+    if (!isAdmin()) { setStatus(status, "err", "Session admin verrouillée."); return; }
+    if (!config.worker_url || config.worker_url.indexOf("VOTRE-SOUS-DOMAINE") !== -1) {
+      setStatus(status, "err", "worker_url non configuré dans data/config.json."); return;
+    }
+    btn.disabled = true;
+    setStatus(status, "work", "Lancement du scan…");
+
+    var ok = false;
+    fetch(config.worker_url.replace(/\/$/, "") + "/scan-updates", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ password: admin.pwd })
+    })
+      .then(function (r) {
+        return r.json().catch(function () { return { error: "Réponse illisible (HTTP " + r.status + ")" }; })
+          .then(function (d) { return { ok: r.ok, status: r.status, data: d }; });
+      })
+      .then(function (res) {
+        if (res.ok && res.data && res.data.success) {
+          ok = true;
+          setStatus(status, "ok", "Scan lancé. Les résultats apparaîtront dans quelques minutes — recharge la page pour les voir.");
+        } else if (res.status === 401) {
+          setStatus(status, "err", "Session expirée. Reconnecte-toi dans l'onglet Admin.");
+        } else if (res.status === 429) {
+          setStatus(status, "err", "Trop de tentatives. Réessaie dans quelques minutes.");
+        } else {
+          setStatus(status, "err", (res.data && res.data.error) || ("Échec (HTTP " + res.status + ")"));
+        }
+      })
+      .catch(function () { setStatus(status, "err", "Worker injoignable. Vérifie l'URL et le déploiement."); })
+      .then(function () {
+        if (!btn) return;
+        // Anti-spam : on laisse le workflow démarrer avant de réautoriser un scan.
+        if (ok) setTimeout(function () { btn.disabled = false; }, 10000);
+        else btn.disabled = false;
+      });
+  }
+
+  function buildUpdateCard(u) {
+    var card = el("div", { class: "card update-card" + (u.acknowledged_at ? " update-card--acked" : "") });
+
+    var header = el("div", { class: "update-card__header" });
     var title = el("strong", { text: u.name });
     header.appendChild(title);
 
-    var badge = el("span", { cls: "update-badge" });
+    var badge = el("span", { class: "update-badge" });
     badge.textContent = (u.version_local || "?") + " → " + (u.version_remote || "?");
     header.appendChild(badge);
     card.appendChild(header);
 
-    var link = el("a", { cls: "update-card__link" });
+    var link = el("a", { class: "update-card__link" });
     link.href = u.url;
     link.target = "_blank";
     link.rel = "noopener noreferrer";
@@ -2783,11 +2892,11 @@
     card.appendChild(link);
 
     if (u.acknowledged_at) {
-      var ackNote = el("p", { cls: "update-card__acked", text: "Pris en compte le " + fmtDate(u.acknowledged_at) });
+      var ackNote = el("p", { class: "update-card__acked", text: "Pris en compte le " + fmtDate(u.acknowledged_at) });
       card.appendChild(ackNote);
     } else if (isAdmin()) {
-      var statusEl = el("span", { cls: "editor__status" });
-      var btn = el("button", { cls: "btn update-card__ack-btn", text: "Pris en compte" });
+      var statusEl = el("span", { class: "editor__status" });
+      var btn = el("button", { class: "btn update-card__ack-btn", text: "Pris en compte" });
       btn.addEventListener("click", function () {
         btn.disabled = true;
         acknowledgeUpdate(u, statusEl, btn);

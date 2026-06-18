@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T15:13:51+00:00",
+  "generated": "2026-06-18T19:49:23+00:00",
   "base": {
     "files": [
       "0. PatchVF/GAMMA base/9a91_vsk94.xml",
@@ -13,7 +13,6 @@
       "0. PatchVF/GAMMA base/catsy_fftd_mcm.xml",
       "0. PatchVF/GAMMA base/catsy_milpda.xml",
       "0. PatchVF/GAMMA base/catsy_waypoints.xml",
-      "0. PatchVF/GAMMA base/desktop.ini",
       "0. PatchVF/GAMMA base/drop_item.xml",
       "0. PatchVF/GAMMA base/dynamic_icon_indicators.xml",
       "0. PatchVF/GAMMA base/free_zoom.xml",
@@ -437,7 +436,6 @@
       "0. PatchVF/GAMMA base/ui_st_smr_anomalies.xml",
       "0. PatchVF/GAMMA base/ui_st_smr_loot.xml",
       "0. PatchVF/GAMMA base/ui_st_smr_mutants.xml",
-      "0. PatchVF/GAMMA base/ui_st_smr_mutants.xml.bak",
       "0. PatchVF/GAMMA base/ui_st_smr_stalkers.xml",
       "0. PatchVF/GAMMA base/ui_st_smr_zintegration.xml",
       "0. PatchVF/GAMMA base/ui_st_smr_zombies.xml",
@@ -942,7 +940,16 @@
       "0. PatchVF/MainFile/Pict/4K.png",
       "0. PatchVF/MainFile/Pict/FRITES.jpg",
       "0. PatchVF/MainFile/fomod/ModuleConfig.xml",
-      "0. PatchVF/MainFile/fomod/info.xml"
+      "0. PatchVF/MainFile/fomod/info.xml",
+      "0. PatchVF/MainFile/gamedata/configs/text/fra/frites_mcm.xml",
+      "0. PatchVF/MainFile/gamedata/configs/text/fra/ui_st_smr_mutants.xml.bak",
+      "0. PatchVF/MainFile/gamedata/scripts/frites_mcm.script",
+      "0. PatchVF/MainFile/gamedata/textures/frites_mcm_reinstallation_1.dds",
+      "0. PatchVF/MainFile/gamedata/textures/frites_mcm_reinstallation_2.dds",
+      "0. PatchVF/MainFile/gamedata/textures/frites_mcm_reinstallation_3.dds",
+      "0. PatchVF/MainFile/gamedata/textures/frites_mcm_reinstallation_4.dds",
+      "0. PatchVF/MainFile/gamedata/textures/frites_mcm_reinstallation_5.dds",
+      "0. PatchVF/MainFile/gamedata/textures/frites_mcm_reinstallation_6.dds"
     ]
   }
 }

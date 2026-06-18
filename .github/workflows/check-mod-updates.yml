@@ -3,7 +3,9 @@ name: Vérification des mises à jour ModDB
 on:
   schedule:
     - cron: '0 8 */2 * *'  # Tous les 2 jours à 8h UTC
-  workflow_dispatch:       # Déclenchement manuel possible
+  workflow_dispatch:       # Déclenchement manuel depuis l'interface GitHub
+  repository_dispatch:     # Déclenchement manuel depuis le site (bouton admin via le Worker)
+    types: [scan-mod-updates]
 
 jobs:
   check-updates:

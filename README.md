@@ -47,9 +47,13 @@ gamma-fr/
 │   ├── GAMMA base/           # fichiers FR de base
 │   ├── GAMMA tweak/<patch>/   # XML + patch.json
 │   └── GAMMA extra/<patch>/   # XML + patch.json
-├── .github/workflows/
-│   ├── build-manifest.yml # régénère le manifeste à chaque push (option B)
-│   └── test.yml           # lance les tests unitaires (CI)
+├── .github/
+│   ├── scripts/
+│   │   └── check_updates.py   # scrape ModDB → data/mod_updates.json (onglet Updates)
+│   └── workflows/
+│       ├── build-manifest.yml     # régénère le manifeste à chaque push (option B)
+│       ├── check-mod-updates.yml  # vérif. ModDB (cron / manuel / repository_dispatch)
+│       └── test.yml               # lance les tests unitaires (CI)
 ├── sw.js                 # (neutralisé) désinscrit un ancien service worker
 ├── worker.js             # Cloudflare Worker (à déployer à part)
 ├── robots.txt            # SEO : autorise l'indexation, pointe vers le sitemap
@@ -63,8 +67,9 @@ Les onglets : **Panneau d'affichage** (accueil — annonce éditable par les adm
 planner), **Files**
 (lisez-moi + configurateur d'installation), **Liste** (liste des patchs « GAMMA
 extra », générée depuis `patches.json`),
-**Changelog**, **Planner** (planificateur, édition admin), **Contact**, **Admin**
-(éditeurs JSON protégés).
+**Changelog**, **Planner** (planificateur, édition admin), **Updates** (suivi des
+mises à jour ModDB des mods, avec scan manuel déclenchable par un admin),
+**Contact**, **Admin** (éditeurs JSON protégés).
 
 ---
 
@@ -321,9 +326,10 @@ sa propre session. Pour l'activer, lie un namespace KV `RATE_LIMIT` au Worker
   l'origine GitHub Pages déclarée (`ALLOWED_ORIGIN`). Une page tierce ne peut pas
   faire appeler le Worker par le navigateur d'un visiteur.
 - **Liste blanche d'écriture.** Seuls `files.json`, `changelog.json`,
-  `config.json`, `planner.json`, `admins.json` et `board.json` (dans `DATA_DIR`)
-  sont modifiables : pas de traversée de chemin ni d'écriture de fichier
-  arbitraire dans le dépôt.
+  `config.json`, `planner.json`, `admins.json`, `board.json` et
+  `mod_updates.json` (dans `DATA_DIR`), plus les `patch.json` d'un mod, sont
+  modifiables : pas de traversée de chemin ni d'écriture de fichier arbitraire
+  dans le dépôt.
 - **Anti-force brute.** Blocage par IP après 5 échecs sur une fenêtre de 15 min
   (KV si configuré, sinon compteur mémoire), avec garde-fou de taille sur le
   payload.
@@ -448,3 +454,46 @@ sélection dans l'archive. `patch_base` = dossier racine du contenu. `mod_author
 et `site_url` alimentent respectivement les champs `author`/`url` du `meta.ini` et
 `<Author>`/`<Website>` du `fomod/info.xml` (voir 8.1). `mod_author` est éditable
 dans l'onglet Admin → « Configuration du site » (champ « Nom des auteurs »).
+
+---
+
+## 9. Onglet Updates — vérification des mises à jour ModDB
+
+L'onglet **Updates** signale les mods « GAMMA extra » dont la version a changé sur
+ModDB. Il **lit** `data/mod_updates.json` ; ce fichier est **produit** par le
+workflow `.github/workflows/check-mod-updates.yml`, qui exécute
+`.github/scripts/check_updates.py` (lecture des `patch.json`, scraping de la page
+ModDB de chaque mod, comparaison `version` locale ↔ version distante).
+
+Le scan se déclenche de trois façons :
+
+1. **Automatique** — `cron` tous les 2 jours (8 h UTC).
+2. **Manuel depuis GitHub** — onglet *Actions* → *Run workflow* (`workflow_dispatch`).
+3. **Manuel depuis le site** — bouton **« Lancer un scan »** dans l'onglet Updates,
+   visible **uniquement par un admin connecté**. Le navigateur appelle le Worker
+   (`POST /scan-updates` avec le mot de passe) ; le Worker émet alors un événement
+   `repository_dispatch` (`event_type: scan-mod-updates`) sur le dépôt, ce qui
+   démarre le workflow.
+
+> **Pourquoi `repository_dispatch` et pas `workflow_dispatch` ?** L'endpoint
+> `repository_dispatch` ne requiert que la permission **Contents : write** — déjà
+> détenue par le token du Worker. Déclencher le scan **n'exige donc aucun
+> changement de permission du token GitHub**.
+
+Le résultat n'est pas immédiat : le workflow scrape ModDB puis committe
+`mod_updates.json` (quelques minutes), et GitHub Pages doit propager son cache. Le
+bouton invite donc à **recharger la page** pour voir les nouvelles cartes.
+
+**Deux prérequis pour que le bouton fonctionne :**
+
+- **Le Worker doit être redéployé** après mise à jour de `worker.js` (la route
+  `/scan-updates` est nouvelle).
+- **Le workflow doit être présent sur la branche par défaut (`main`).** Comme
+  `schedule` et `workflow_dispatch`, un déclencheur `repository_dispatch` n'est pris
+  en compte que s'il figure dans le workflow **de la branche par défaut** ; tant que
+  ce changement n'est pas fusionné dans `main`, l'API accepte l'événement mais aucun
+  run ne démarre.
+
+Chaque carte de mise à jour propose à l'admin un bouton **« Pris en compte »** qui
+crée un ticket dans le Planner et masque la carte (réaffichée si une nouvelle
+version réapparaît).
