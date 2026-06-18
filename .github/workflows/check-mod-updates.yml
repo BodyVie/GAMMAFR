@@ -2,7 +2,7 @@ name: Vérification des mises à jour ModDB
 
 on:
   schedule:
-    - cron: '0 8 * * 1'  # Chaque lundi à 8h UTC
+    - cron: '0 8 */2 * *'  # Tous les 2 jours à 8h UTC
   workflow_dispatch:       # Déclenchement manuel possible
 
 jobs:
