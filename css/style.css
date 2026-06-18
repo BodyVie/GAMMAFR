@@ -1007,6 +1007,12 @@ button.plabel.is-on::before { content: "✓\00A0"; }
   padding-left: 8px;
   background: var(--amber-soft);
 }
+.recap__file--base .recap__fname {
+  font-family: inherit;
+  font-weight: 600;
+  color: var(--rad);
+}
+.recap__file--base .recap__src { font-style: italic; }
 
 .progress {
   height: 6px;

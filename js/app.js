@@ -937,7 +937,19 @@
 
     var fg = el("div", { class: "recap__group" }, [el("div", { class: "recap__h", text: "Fichiers générés (" + r.files.length + ")" })]);
     var fl = el("ul", { class: "recap__list" });
-    r.files.forEach(function (f) {
+    // G.A.M.M.A. base est incluse quel que soit le niveau : ses (nombreux)
+    // fichiers sont toujours présents et noieraient le récap. On les résume donc
+    // en une seule ligne « G.A.M.M.A. base » ; seuls les fichiers fournis ou
+    // écrasés par un patch sélectionné (priorité finie) sont détaillés.
+    var baseFiles = r.files.filter(function (f) { return f.winner.priority === -Infinity; });
+    var patchFiles = r.files.filter(function (f) { return f.winner.priority !== -Infinity; });
+    if (baseFiles.length) {
+      fl.appendChild(el("li", { class: "recap__file recap__file--base" }, [
+        el("span", { class: "recap__fname", text: "G.A.M.M.A. base" }),
+        el("span", { class: "recap__src", text: baseFiles.length + " fichier" + (baseFiles.length > 1 ? "s" : "") + " de base" })
+      ]));
+    }
+    patchFiles.forEach(function (f) {
       var line = el("li", { class: "recap__file" + (f.conflict ? " is-conflict" : "") }, [
         el("span", { class: "recap__fname", text: f.name }),
         el("span", { class: "recap__src", text: "\u2190 " + f.winner.label })
