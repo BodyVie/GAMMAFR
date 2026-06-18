@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T17:03:29+00:00",
+  "generated": "2026-06-18T17:03:35+00:00",
   "labels": [
     {
       "id": "lbl_mqft6asnlhoe",
@@ -65,7 +65,7 @@
             {
               "id": "ac_mqh2gm6xjqp5",
               "text": "Test et validation - contrôle liste",
-              "done": false
+              "done": true
             },
             {
               "id": "ac_mqh2h4dfliy7",
