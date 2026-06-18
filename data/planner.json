@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T17:03:41+00:00",
+  "generated": "2026-06-18T17:03:51+00:00",
   "labels": [
     {
       "id": "lbl_mqft6asnlhoe",
@@ -87,6 +87,12 @@
     {
       "id": "cat_mqft6zkj1gdl",
       "name": "terminer",
+      "tickets": []
+    },
+    {
+      "id": "cat_archive",
+      "name": "ARCHIVE",
+      "archive": true,
       "tickets": [
         {
           "id": "tk_mqiajut3xyuj",
@@ -117,15 +123,10 @@
           ],
           "comments": [],
           "created": "2026-06-17T16:34:24.567Z",
-          "modified": "2026-06-17T16:38:02.706Z"
+          "modified": "2026-06-17T16:38:02.706Z",
+          "archived": "2026-06-18T17:03:49.609Z"
         }
       ]
-    },
-    {
-      "id": "cat_archive",
-      "name": "ARCHIVE",
-      "archive": true,
-      "tickets": []
     }
   ]
 }
