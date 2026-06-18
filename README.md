@@ -378,6 +378,13 @@ dernière entrée de `data/changelog.json`, c'est-à-dire le badge orange de la
 barre du haut : aucune saisie manuelle. Si `MainFile/` fournit déjà un
 `meta.ini`, il est conservé tel quel (non écrasé).
 
+Comme l'installeur **FOMOD** de Mod Organizer 2 recrée le `meta.ini` à partir
+de `MainFile/fomod/info.xml` (écrasant donc le `meta.ini` ci-dessus), l'outil
+injecte aussi les métadonnées dans cet `info.xml` au moment de l'assemblage :
+`<Name>` ← `mod_zip_name`, `<Author>` ← `mod_author`, `<Version>` ← version de
+l'application (idem `meta.ini`) et `<Website>` ← `site_url`. Le fichier reste en
+UTF-16LE ; sa `<Description>` et ses `<Groups>` ne sont pas touchés.
+
 ### 8.2. Le fichier `patch.json`
 
 Un par dossier de `GAMMA tweak/` et `GAMMA extra/` (UTF-8) :
@@ -438,5 +445,6 @@ pas dans l'onglet Admin, qui régénérerait au prochain build).
 
 `mod_zip_name` = nom du fichier `.zip` téléchargé. `fra_path` = destination de la
 sélection dans l'archive. `patch_base` = dossier racine du contenu. `mod_author`
-et `site_url` alimentent respectivement les champs `author` et `url` du `meta.ini`
-généré (voir 8.1).
+et `site_url` alimentent respectivement les champs `author`/`url` du `meta.ini` et
+`<Author>`/`<Website>` du `fomod/info.xml` (voir 8.1). `mod_author` est éditable
+dans l'onglet Admin → « Configuration du site » (champ « Nom des auteurs »).

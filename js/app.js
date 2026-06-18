@@ -1052,6 +1052,49 @@
     return lines.join("\r\n") + "\r\n";
   }
 
+  /* ---- info.xml du FOMOD ----------------------------------------------------
+     L'installeur FOMOD de Mod Organizer 2 recrée le meta.ini du mod À PARTIR de
+     ce fomod/info.xml : il écrase donc le meta.ini qu'on ajoute à la racine.
+     Pour que les métadonnées survivent, on les injecte aussi dans info.xml au
+     moment de l'assemblage (Name/Author/Version/Website). Le fichier est fourni
+     par MainFile en UTF-16LE (avec BOM) : on le relit, on remplace les champs,
+     puis on le réencode en UTF-16LE pour préserver son format d'origine. */
+  function utf16leToStr(bytes) {
+    var start = (bytes.length >= 2 && bytes[0] === 0xFF && bytes[1] === 0xFE) ? 2 : 0;
+    if (typeof TextDecoder !== "undefined") return new TextDecoder("utf-16le").decode(bytes.subarray(start));
+    var out = "";
+    for (var i = start; i + 1 < bytes.length; i += 2) out += String.fromCharCode(bytes[i] | (bytes[i + 1] << 8));
+    return out;
+  }
+  // Encode une chaîne en octets UTF-16LE précédés du BOM (TextEncoder ne sait
+  // faire que de l'UTF-8 ; on écrit donc chaque code unit, octet faible en tête).
+  function strBytesUtf16le(str) {
+    var out = new Uint8Array(2 + str.length * 2);
+    out[0] = 0xFF; out[1] = 0xFE;
+    for (var i = 0; i < str.length; i++) {
+      var c = str.charCodeAt(i);
+      out[2 + i * 2] = c & 0xFF;
+      out[2 + i * 2 + 1] = (c >> 8) & 0xFF;
+    }
+    return out;
+  }
+  function xmlEscape(s) {
+    return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+  // Remplace le contenu de <tag>…</tag> (laisse le fichier intact si le tag est absent).
+  function setXmlField(xml, tag, value) {
+    var re = new RegExp("(<" + tag + ">)[\\s\\S]*?(</" + tag + ">)");
+    return xml.replace(re, function (m, open, close) { return open + xmlEscape(value) + close; });
+  }
+  function patchInfoXml(bytes, meta) {
+    var xml = utf16leToStr(bytes);
+    xml = setXmlField(xml, "Name", meta.name);
+    xml = setXmlField(xml, "Author", meta.author);
+    xml = setXmlField(xml, "Version", meta.version);
+    xml = setXmlField(xml, "Website", meta.website);
+    return strBytesUtf16le(xml);
+  }
+
   // ---- assemblage du ZIP --------------------------------------------------
   function assembleAndDownload() {
     var zone = $("#dlZone");
@@ -1112,6 +1155,19 @@
       var hasMeta = entries.some(function (e) { return e.name.toLowerCase() === "meta.ini"; });
       if (!hasMeta) {
         entries.push({ name: "meta.ini", data: strBytes(buildMetaIni(metaVersion, zipName)) });
+      }
+      // fomod/info.xml : on injecte les m\u00e9tadonn\u00e9es lues par l'installeur FOMOD
+      // (qui recr\u00e9e le meta.ini \u00e0 partir de ce fichier, \u00e9crasant le n\u00f4tre).
+      var infoEntry = entries.filter(function (e) {
+        return e.name.toLowerCase().replace(/\\/g, "/") === "fomod/info.xml";
+      })[0];
+      if (infoEntry) {
+        infoEntry.data = patchInfoXml(infoEntry.data, {
+          name: config.mod_zip_name || "",
+          author: config.mod_author || "",
+          version: metaVersion || "",
+          website: config.site_url || ""
+        });
       }
       status.textContent = "Compression\u2026";
       window.GammaZip.create(entries).then(function (blob) {
@@ -2405,7 +2461,8 @@
       { key: "worker_url", label: "URL du Worker" },
       { key: "patch_base", label: "Dossier des patchs" },
       { key: "fra_path", label: "Chemin d'installation (fra)" },
-      { key: "mod_zip_name", label: "Nom de l'archive (.zip)" }
+      { key: "mod_zip_name", label: "Nom de l'archive (.zip)" },
+      { key: "mod_author", label: "Nom des auteurs" }
     ];
     var inputs = {};
     fields.forEach(function (f) {
