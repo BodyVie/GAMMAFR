@@ -1,8 +1,7 @@
 {
-  "generated": "2026-06-18T14:30:22+00:00",
+  "generated": "2026-06-18T14:30:52+00:00",
   "base": {
     "files": [
-      "0. PatchVF/GAMMA base/.gitkeep",
       "0. PatchVF/GAMMA base/9a91_vsk94.xml",
       "0. PatchVF/GAMMA base/EA_add_include.xml",
       "0. PatchVF/GAMMA base/EA_script_texts.xml",
