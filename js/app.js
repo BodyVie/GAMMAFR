@@ -792,7 +792,18 @@
     else card.appendChild(renderRecapStep());
     host.appendChild(card);
 
-    host.appendChild(renderActions(names));
+    // Étapes de sélection (longues listes de patchs) : on double la navigation
+    // dans un bloc flottant ancré à droite, pour qu'elle reste atteignable
+    // n'importe où dans la liste sans descendre tout en bas. Sur écran étroit,
+    // ce bloc est masqué (CSS) et la barre d'actions du bas prend le relais.
+    var actions = renderActions(names);
+    if (cur === "Patch Tweak" || cur === "Patch Extra") {
+      actions.classList.add("wizard-actions--has-side");
+      host.appendChild(actions);
+      host.appendChild(renderSideNav(names));
+    } else {
+      host.appendChild(actions);
+    }
   }
 
   function renderStepMarkers(names) {
@@ -977,20 +988,35 @@
   }
 
   // ---- actions / navigation ----------------------------------------------
-  function renderActions(names) {
-    var actions = el("div", { class: "wizard-actions" });
+  // Boutons de navigation, réutilisés par la barre du bas et le bloc flottant.
+  function navBackBtn() {
     var back = el("button", { class: "btn btn--ghost", text: "\u25C2 Retour",
       onClick: function () { if (conf.step > 0) { conf.step--; renderConfigurator(); } } });
     back.disabled = conf.step === 0;
-    actions.appendChild(back);
+    return back;
+  }
+  function navNextBtn(names) {
+    var next = el("button", { class: "btn", text: "Suivant \u25B8",
+      onClick: function () { conf.step++; renderConfigurator(); } });
+    if (names[conf.step] === "Niveau") next.disabled = !conf.level;
+    return next;
+  }
+  // Navigation flottante ancrée à droite (révélée par CSS sur grand écran) :
+  // reprend Retour + Suivant pour rester accessible n'importe où dans la liste.
+  function renderSideNav(names) {
+    var side = el("div", { class: "wizard-side", "aria-label": "Navigation du configurateur" });
+    side.appendChild(navBackBtn());
+    side.appendChild(navNextBtn(names));
+    return side;
+  }
+  function renderActions(names) {
+    var actions = el("div", { class: "wizard-actions" });
+    actions.appendChild(navBackBtn());
 
     if (names[conf.step] === "Récapitulatif") {
       actions.appendChild(el("button", { class: "btn", text: "Générer l'archive \u25BE", onClick: assembleAndDownload }));
     } else {
-      var next = el("button", { class: "btn", text: "Suivant \u25B8",
-        onClick: function () { conf.step++; renderConfigurator(); } });
-      if (names[conf.step] === "Niveau") next.disabled = !conf.level;
-      actions.appendChild(next);
+      actions.appendChild(navNextBtn(names));
     }
     return actions;
   }

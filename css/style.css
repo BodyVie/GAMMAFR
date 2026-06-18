@@ -482,6 +482,31 @@ a:hover { text-decoration: underline; }
   gap: 12px; margin-top: 24px;
 }
 
+/* Navigation flottante des étapes de sélection (longues listes de patchs).
+   Ancrée à droite de la colonne de contenu et fixée à l'écran, elle suit le
+   défilement pour rester atteignable n'importe où dans la liste. Masquée par
+   défaut : révélée seulement quand la marge droite a la place de l'accueillir
+   (sinon la barre d'actions du bas, toujours présente, prend le relais). */
+.wizard-side { display: none; }
+
+@media (min-width: 1560px) {
+  .wizard-side {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: fixed;
+    top: 50%;
+    left: calc(50% + var(--maxw) / 2 + 24px);
+    transform: translateY(-50%);
+    width: 132px;
+    z-index: 30;
+  }
+  .wizard-side .btn { width: 100%; }
+  /* évite un doublon de « Suivant » : quand le bloc flottant est visible (il
+     embarque déjà Retour + Suivant), la barre du bas de l'étape disparaît. */
+  .wizard-actions--has-side { display: none; }
+}
+
 /* =========================================================================
    BOUTONS & CHAMPS
    ========================================================================= */
