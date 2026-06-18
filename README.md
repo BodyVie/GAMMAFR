@@ -371,6 +371,13 @@ patchs Tweak) → `extra` (base + patchs Tweak et Extra). À la génération, la
 sélection est rangée dans `gamedata/configs/text/fra/`, puis fusionnée avec le
 contenu de `MainFile/` (la sélection l'emporte en cas de même chemin).
 
+À la racine de chaque archive générée, l'outil ajoute automatiquement un
+`meta.ini` (format Mod Organizer 2) renseignant les métadonnées du mod. Le
+champ `version` y reprend **le numéro de version de l'application** — la
+dernière entrée de `data/changelog.json`, c'est-à-dire le badge orange de la
+barre du haut : aucune saisie manuelle. Si `MainFile/` fournit déjà un
+`meta.ini`, il est conservé tel quel (non écrasé).
+
 ### 8.2. Le fichier `patch.json`
 
 Un par dossier de `GAMMA tweak/` et `GAMMA extra/` (UTF-8) :

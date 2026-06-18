@@ -16,6 +16,11 @@
   var loaded = { files: false, liste: false, changelog: false, admin: false };
   var DEFAULT_TAB = "board";   // onglet d'accueil à l'ouverture
 
+  // numéro de version courant de l'application (dernière entrée du changelog,
+  // identique au badge de la barre du haut). Sert aussi à dater le meta.ini de
+  // l'archive générée. Tenu à jour par setVersionBadge().
+  var appVersion = "";
+
   // configurateur d'installation (piloté par data/patches.json, généré)
   var manifest = null;
   var conf = { level: null, selected: {}, step: 0 };
@@ -154,10 +159,27 @@
     return top && top.version ? String(top.version).trim() : "";
   }
   function setVersionBadge(version) {
+    appVersion = version ? String(version).trim() : "";
     var node = $("#brandVer");
     if (!node) return;
     if (version) { node.textContent = "v" + version; node.hidden = false; }
     else { node.textContent = ""; node.hidden = true; }
+  }
+
+  // Résout le numéro de version de l'application (celui du badge). Utilise la
+  // valeur déjà connue, sinon le changelog en cache, sinon le récupère. Renvoie
+  // toujours une Promise<string> (chaîne vide si le changelog est injoignable).
+  function currentVersion() {
+    if (appVersion) return Promise.resolve(appVersion);
+    if (Array.isArray(data.changelog)) return Promise.resolve(latestVersion(data.changelog));
+    return fetch("data/changelog.json", { cache: "no-store" })
+      .then(function (r) { return r.ok ? r.json() : []; })
+      .then(function (entries) {
+        var v = latestVersion(Array.isArray(entries) ? entries : "");
+        if (v) appVersion = v;
+        return v;
+      })
+      .catch(function () { return ""; });
   }
   function loadVersionBadge() {
     if (Array.isArray(data.changelog)) { setVersionBadge(latestVersion(data.changelog)); return; }
@@ -972,6 +994,48 @@
     return actions;
   }
 
+  /* ---- meta.ini de l'archive ----------------------------------------------
+     Mod Organizer 2 lit ce fichier à la racine du mod pour afficher la version
+     (colonne « Version ») et les métadonnées. Le numéro de version est celui de
+     l'application (dernière entrée du changelog = badge de la barre du haut),
+     jamais saisi à la main. */
+  // Encode une chaîne en octets UTF-8 (meta.ini ; GammaZip n'expose pas son
+  // propre encodeur). Repli minimal si TextEncoder est absent.
+  function strBytes(str) {
+    if (typeof TextEncoder !== "undefined") return new TextEncoder().encode(str);
+    var bytes = [];
+    for (var i = 0; i < str.length; i++) {
+      var c = str.charCodeAt(i);
+      if (c < 0x80) bytes.push(c);
+      else if (c < 0x800) bytes.push(0xC0 | (c >> 6), 0x80 | (c & 0x3F));
+      else bytes.push(0xE0 | (c >> 12), 0x80 | ((c >> 6) & 0x3F), 0x80 | (c & 0x3F));
+    }
+    return new Uint8Array(bytes);
+  }
+
+  function buildMetaIni(version, fileName) {
+    var lines = [
+      "[General]",
+      "gameName=stalkeranomaly",
+      "modid=0",
+      "version=" + (version || ""),
+      "newestVersion=" + (version || ""),
+      "ignoredVersion=",
+      "category=0",
+      "nexusFileStatus=1",
+      "installationFile=" + (fileName || ""),
+      "repository=",
+      "comments=" + (config.site_title || "GAMMA.FR") + (config.site_tagline ? " — " + config.site_tagline : ""),
+      "notes=" + (config.site_tagline || ""),
+      "url=",
+      "hasCustomURL=true",
+      "converted=false",
+      "validated=false",
+      "tracked=0"
+    ];
+    return lines.join("\r\n") + "\r\n";
+  }
+
   // ---- assemblage du ZIP --------------------------------------------------
   function assembleAndDownload() {
     var zone = $("#dlZone");
@@ -984,6 +1048,8 @@
     }
 
     var r = resolveSelection();
+    var zipName = (config.mod_zip_name || "GAMMAFR-PatchVF") + ".zip";
+    var metaVersion = "";   // résolu avant la compression (version de l'app)
     var prefix = (config.patch_base || "0. PatchVF") + "/MainFile/";
     var targets = {}; // cible dans le zip -> chemin source
     r.mainfile.forEach(function (path) {
@@ -1025,25 +1091,32 @@
         status.textContent = failed.length + " fichier(s) introuvable(s). Vérifie que 0. PatchVF est publié sur le site. Premier échec : " + failed[0];
         return;
       }
+      // meta.ini ajout\u00e9 \u00e0 la racine de l'archive, sauf si MainFile en fournit
+      // d\u00e9j\u00e0 un (on n'\u00e9crase pas un fichier fourni \u00e0 la main).
+      var hasMeta = entries.some(function (e) { return e.name.toLowerCase() === "meta.ini"; });
+      if (!hasMeta) {
+        entries.push({ name: "meta.ini", data: strBytes(buildMetaIni(metaVersion, zipName)) });
+      }
       status.textContent = "Compression\u2026";
       window.GammaZip.create(entries).then(function (blob) {
         var url = URL.createObjectURL(blob);
-        var name = (config.mod_zip_name || "GAMMAFR-PatchVF") + ".zip";
-        var a = el("a", { href: url, download: name });
+        var a = el("a", { href: url, download: zipName });
         document.body.appendChild(a); a.click(); document.body.removeChild(a);
         setTimeout(function () { URL.revokeObjectURL(url); }, 8000);
         status.className = "notice is-shown notice--ok";
         clear(status);
         status.appendChild(document.createTextNode("Archive prête : "));
-        status.appendChild(el("a", { href: url, download: name, class: "dl__relink", text: name }));
-        status.appendChild(document.createTextNode("  (" + total + " fichiers)."));
+        status.appendChild(el("a", { href: url, download: zipName, class: "dl__relink", text: zipName }));
+        status.appendChild(document.createTextNode("  (" + total + " fichiers" + (metaVersion ? ", v" + metaVersion : "") + ")."));
       }).catch(function (e) {
         status.className = "notice is-shown notice--err";
         status.textContent = "Échec de la compression : " + e.message;
       });
     }
 
-    step(0);
+    // Résout d'abord la version de l'application (pour le meta.ini), puis lance
+    // le téléchargement des fichiers.
+    currentVersion().then(function (v) { metaVersion = v || ""; step(0); });
   }
 
   /* =======================================================================
