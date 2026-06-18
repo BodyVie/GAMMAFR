@@ -430,9 +430,13 @@ pas dans l'onglet Admin, qui régénérerait au prochain build).
 {
   "patch_base": "0. PatchVF",
   "fra_path": "gamedata/configs/text/fra",
-  "mod_zip_name": "GAMMAFR-PatchVF"
+  "mod_zip_name": "GAMMAFR-PatchVF",
+  "mod_author": "BODY",
+  "site_url": "https://bodyvie.github.io/GAMMAFR/"
 }
 ```
 
 `mod_zip_name` = nom du fichier `.zip` téléchargé. `fra_path` = destination de la
-sélection dans l'archive. `patch_base` = dossier racine du contenu.
+sélection dans l'archive. `patch_base` = dossier racine du contenu. `mod_author`
+et `site_url` alimentent respectivement les champs `author` et `url` du `meta.ini`
+généré (voir 8.1).

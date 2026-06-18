@@ -11,7 +11,9 @@
     worker_url: "", site_title: "GAMMAFR", site_tagline: "",
     patch_base: "0. PatchVF",
     fra_path: "gamedata/configs/text/fra",
-    mod_zip_name: "GAMMAFR-PatchVF"
+    mod_zip_name: "GAMMAFR-PatchVF",
+    mod_author: "BODY",
+    site_url: "https://bodyvie.github.io/GAMMAFR/"
   };
   var loaded = { files: false, liste: false, changelog: false, admin: false };
   var DEFAULT_TAB = "board";   // onglet d'accueil à l'ouverture
@@ -1025,9 +1027,10 @@
       "nexusFileStatus=1",
       "installationFile=" + (fileName || ""),
       "repository=",
+      "author=" + (config.mod_author || ""),
       "comments=" + (config.site_title || "GAMMA.FR") + (config.site_tagline ? " — " + config.site_tagline : ""),
       "notes=" + (config.site_tagline || ""),
-      "url=",
+      "url=" + (config.site_url || ""),
       "hasCustomURL=true",
       "converted=false",
       "validated=false",
