@@ -69,33 +69,44 @@
   // ---- construction ------------------------------------------------------
   function create(entries) {
     var dt = dosDateTime(new Date());
-    var prepared = [];
+    var prepared = new Array(entries.length);
 
-    // 1) préparer chaque entrée (crc + compression)
-    var chain = Promise.resolve();
-    entries.forEach(function (entry) {
-      chain = chain.then(function () {
-        var data = entry.data instanceof Uint8Array ? entry.data : new Uint8Array(entry.data);
-        var crc = crc32(data);
-        var nameBytes = utf8Bytes(entry.name);
-        return deflateRaw(data).then(function (deflated) {
-          var method, stored;
-          if (deflated && deflated.length < data.length) { method = 8; stored = deflated; }
-          else { method = 0; stored = data; }
-          prepared.push({
-            nameBytes: nameBytes,
-            crc: crc,
-            method: method,
-            comp: stored,
-            compSize: stored.length,
-            uncompSize: data.length
-          });
-        });
+    // 1) préparer chaque entrée (crc + compression) — en parallèle borné.
+    //    Plusieurs flux de compression travaillent de front au lieu d'être
+    //    enchaînés un à un, ce qui accélère nettement la phase de compression
+    //    sur de nombreux fichiers. L'écriture par index conserve l'ordre des
+    //    entrées dans l'archive finale (sortie identique à la version série).
+    function prepare(i) {
+      var entry = entries[i];
+      var data = entry.data instanceof Uint8Array ? entry.data : new Uint8Array(entry.data);
+      var crc = crc32(data);
+      var nameBytes = utf8Bytes(entry.name);
+      return deflateRaw(data).then(function (deflated) {
+        var method, stored;
+        if (deflated && deflated.length < data.length) { method = 8; stored = deflated; }
+        else { method = 0; stored = data; }
+        prepared[i] = {
+          nameBytes: nameBytes,
+          crc: crc,
+          method: method,
+          comp: stored,
+          compSize: stored.length,
+          uncompSize: data.length
+        };
       });
-    });
+    }
+
+    var CONCURRENCY = 8, next = 0;
+    function worker() {
+      if (next >= entries.length) return Promise.resolve();
+      var i = next++;
+      return prepare(i).then(worker);
+    }
+    var pool = [];
+    for (var w = 0; w < Math.min(CONCURRENCY, entries.length); w++) pool.push(worker());
 
     // 2) sérialiser local headers + central directory + EOCD
-    return chain.then(function () {
+    return Promise.all(pool).then(function () {
       var parts = [];      // Uint8Array chunks
       var offset = 0;      // offset courant
       var central = [];    // octets du central directory

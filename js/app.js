@@ -963,12 +963,6 @@
     fg.appendChild(fl);
     recap.appendChild(fg);
 
-    if (r.mainfile.length) {
-      recap.appendChild(el("div", { class: "recap__group" }, [
-        el("div", { class: "recap__h", text: "Structure (MainFile)" }),
-        el("div", { class: "recap__item", text: r.mainfile.length + " fichier(s) inclus tels quels" })
-      ]));
-    }
     if (r.warnings.length) {
       recap.appendChild(el("div", { class: "notice is-shown notice--err", text: r.warnings.length + " conflit(s) de priorité \u2014 voir \u26A0 ci-dessus." }));
     }
@@ -1128,20 +1122,33 @@
     var status = el("p", { class: "notice is-shown", text: "Téléchargement des fichiers\u2026 0 / " + total });
     zone.appendChild(status);
 
-    var entries = [], done = 0, failed = [];
-    function step(i) {
-      if (i >= total) return finish();
+    // Téléchargement parallèle borné : plutôt qu'un fichier à la fois, un petit
+    // pool de requêtes concurrentes tire dans la même liste. Le navigateur garde
+    // ainsi plusieurs requêtes en vol (HTTP/2 multiplexe sur une seule connexion),
+    // ce qui réduit fortement le temps total — dominé par la latence réseau quand
+    // l'archive compte des centaines de fichiers. L'écriture par index préserve
+    // l'ordre des entrées dans le ZIP (identique à la version séquentielle).
+    var DL_CONCURRENCY = 8;
+    var entries = new Array(total), done = 0, nextIdx = 0, failed = [];
+    function pump() {
+      if (nextIdx >= total) return Promise.resolve();
+      var i = nextIdx++;
       var target = list[i], src = targets[target];
       return fetch(encPath(src), { cache: "no-store" })
         .then(function (resp) { if (!resp.ok) throw new Error("HTTP " + resp.status); return resp.arrayBuffer(); })
-        .then(function (ab) { entries.push({ name: target, data: new Uint8Array(ab) }); })
+        .then(function (ab) { entries[i] = { name: target, data: new Uint8Array(ab) }; })
         .catch(function () { failed.push(src); })
         .then(function () {
           done++;
           bar.style.width = Math.round((done / total) * 100) + "%";
           status.textContent = "Téléchargement des fichiers\u2026 " + done + " / " + total;
-          return step(i + 1);
+          return pump();
         });
+    }
+    function downloadAll() {
+      var pool = [];
+      for (var k = 0; k < Math.min(DL_CONCURRENCY, total); k++) pool.push(pump());
+      return Promise.all(pool);
     }
 
     function finish() {
@@ -1188,7 +1195,7 @@
 
     // Résout d'abord la version de l'application (pour le meta.ini), puis lance
     // le téléchargement des fichiers.
-    currentVersion().then(function (v) { metaVersion = v || ""; step(0); });
+    currentVersion().then(function (v) { metaVersion = v || ""; downloadAll().then(finish); });
   }
 
   /* =======================================================================
