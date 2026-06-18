@@ -475,6 +475,7 @@
     if (name === "liste") loadListe();
     if (name === "changelog") loadChangelog();
     if (name === "planner") loadPlanner();
+    if (name === "updates") loadUpdates();
     if (name === "admin") loadAdmin();
   }
 
@@ -2646,5 +2647,128 @@
 
   // ---- divers ------------------------------------------------------------
   function pad(n) { n = Number(n) || 0; return (n < 10 ? "0" : "") + n; }
+
+  /* =======================================================================
+     ONGLET UPDATES — vérification automatique des mises à jour ModDB
+     ======================================================================= */
+  var updatesData = null;   // cache de mod_updates.json
+  var TWO_WEEKS_MS = 14 * 24 * 60 * 60 * 1000;
+
+  function loadUpdates() {
+    var host = $("#updatesHost");
+    fetchJSON("data/mod_updates.json", { cache: "no-store" })
+      .then(function (o) { updatesData = o; renderUpdates(); })
+      .catch(function (e) { loadError(host, "Impossible de charger les mises à jour (" + e.message + ").", loadUpdates); });
+  }
+
+  function renderUpdates() {
+    var host = $("#updatesHost");
+    host.innerHTML = "";
+
+    var allUpdates = (updatesData && Array.isArray(updatesData.updates)) ? updatesData.updates : [];
+    var now = Date.now();
+
+    // Filtrer : on affiche seulement ceux avec has_update=true et non ackés (ou ackés depuis moins de 2 semaines)
+    var visible = allUpdates.filter(function (u) {
+      if (!u.has_update) return false;
+      if (u.acknowledged_at) {
+        var ackTime = new Date(u.acknowledged_at).getTime();
+        if (!isNaN(ackTime) && (now - ackTime) > TWO_WEEKS_MS) return false;
+      }
+      return true;
+    });
+
+    if (visible.length === 0) {
+      var empty = el("p", { cls: "updates__empty", text: "Aucune mise à jour détectée pour le moment." });
+      host.appendChild(empty);
+    } else {
+      visible.forEach(function (u) {
+        host.appendChild(buildUpdateCard(u));
+      });
+    }
+
+    if (updatesData && updatesData.generated) {
+      var footer = el("p", { cls: "updates__footer" });
+      footer.textContent = "Dernière vérification : " + fmtDate(updatesData.generated);
+      host.appendChild(footer);
+    }
+  }
+
+  function buildUpdateCard(u) {
+    var card = el("div", { cls: "card update-card" + (u.acknowledged_at ? " update-card--acked" : "") });
+
+    var header = el("div", { cls: "update-card__header" });
+    var title = el("strong", { text: u.name });
+    header.appendChild(title);
+
+    var badge = el("span", { cls: "update-badge" });
+    badge.textContent = (u.version_local || "?") + " → " + (u.version_remote || "?");
+    header.appendChild(badge);
+    card.appendChild(header);
+
+    var link = el("a", { cls: "update-card__link" });
+    link.href = u.url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = "Voir sur ModDB";
+    card.appendChild(link);
+
+    if (u.acknowledged_at) {
+      var ackNote = el("p", { cls: "update-card__acked", text: "Pris en compte le " + fmtDate(u.acknowledged_at) });
+      card.appendChild(ackNote);
+    } else if (isAdmin()) {
+      var statusEl = el("span", { cls: "editor__status" });
+      var btn = el("button", { cls: "btn update-card__ack-btn", text: "Pris en compte" });
+      btn.addEventListener("click", function () {
+        btn.disabled = true;
+        acknowledgeUpdate(u, statusEl, btn);
+      });
+      card.appendChild(btn);
+      card.appendChild(statusEl);
+    }
+
+    return card;
+  }
+
+  function acknowledgeUpdate(u, statusEl, btn) {
+    // 1. Créer un ticket dans le planner (catégorie "prochainement" = cat_done)
+    if (data.planner) {
+      var plannerObj = plClone(data.planner);
+      var targetCat = null;
+      for (var i = 0; i < plannerObj.categories.length; i++) {
+        if (plannerObj.categories[i].id === "cat_done") { targetCat = plannerObj.categories[i]; break; }
+      }
+      if (!targetCat && plannerObj.categories.length > 0) targetCat = plannerObj.categories[0];
+      if (targetCat) {
+        var ticket = {
+          id: plUid("tk"),
+          title: u.name,
+          description: "Update disponible : v" + (u.version_local || "?") + " → v" + (u.version_remote || "?"),
+          status: "todo",
+          due: null,
+          labels: ["lbl_mqiajiyf4urc"],
+          actions: [],
+          comments: [],
+          created: new Date().toISOString(),
+          modified: new Date().toISOString()
+        };
+        targetCat.tickets.push(ticket);
+        data.planner = normalizePlanner(plannerObj);
+        saveData("planner.json", buildPlannerClean(), statusEl, null, null, null);
+      }
+    }
+
+    // 2. Mettre à jour acknowledged_at dans mod_updates.json
+    var ackTime = new Date().toISOString();
+    for (var j = 0; j < updatesData.updates.length; j++) {
+      if (updatesData.updates[j].id === u.id) {
+        updatesData.updates[j].acknowledged_at = ackTime;
+        break;
+      }
+    }
+    saveData("mod_updates.json", updatesData, statusEl, btn, function () {
+      renderUpdates();
+    }, null);
+  }
 
 })();

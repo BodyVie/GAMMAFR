@@ -1170,3 +1170,61 @@ button.plabel.is-on::before { content: "✓\00A0"; }
 .msg__motif--autre { color: var(--dim); border-color: var(--line); }
 .msg__meta { font-size: 11px; color: var(--dim); margin: 6px 0; }
 .msg__body { color: var(--text); font-size: 14px; line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; }
+
+/* ---- Onglet Updates ------------------------------------------------------- */
+.nav__btn--updates { color: var(--amber); }
+.nav__btn--updates.is-active { color: var(--amber); border-bottom-color: var(--amber); }
+
+.update-card { border-left: 3px solid var(--amber); }
+.update-card--acked { border-left-color: var(--ok); opacity: 0.75; }
+
+.update-card__header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.update-badge {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--amber-soft);
+  border: 1px solid var(--amber);
+  color: var(--amber);
+  white-space: nowrap;
+}
+
+.update-card__link {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--amber);
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.update-card__link:hover { text-decoration: underline; }
+
+.update-card__acked {
+  font-size: 12px;
+  color: var(--ok);
+  margin: 6px 0 0;
+}
+
+.update-card__ack-btn { margin-top: 8px; }
+
+.updates__empty {
+  color: var(--dim);
+  font-size: 14px;
+  padding: 24px 0;
+  text-align: center;
+}
+
+.updates__footer {
+  font-size: 11px;
+  color: var(--dim);
+  margin-top: 20px;
+  text-align: right;
+}

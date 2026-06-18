@@ -58,6 +58,7 @@
         <button class="nav__btn" id="tab-planner" data-tab="planner" role="tab" aria-selected="false" aria-controls="panel-planner" tabindex="-1">Planner</button>
         <button class="nav__btn" id="tab-contact" data-tab="contact" role="tab" aria-selected="false" aria-controls="panel-contact" tabindex="-1">Contact</button>
         <span class="nav__sep" aria-hidden="true"></span>
+        <button class="nav__btn nav__btn--updates" id="tab-updates" data-tab="updates" role="tab" aria-selected="false" aria-controls="panel-updates" tabindex="-1">Updates</button>
         <button class="nav__btn nav__btn--admin" id="tab-admin" data-tab="admin" role="tab" aria-selected="false" aria-controls="panel-admin" tabindex="-1">Admin</button>
         <span class="nav__presence" id="adminCount" role="status" aria-live="polite" hidden></span>
         <span class="nav__editing" id="adminEditing" title="Un administrateur est en train d'éditer" hidden>&#9888; édition</span>
@@ -127,6 +128,12 @@
     <section class="panel" id="panel-planner" role="tabpanel" aria-labelledby="tab-planner">
       <div class="stencil">Planificateur</div>
       <div id="plannerHost"><span class="loading">Chargement&#8230;</span></div>
+    </section>
+
+    <!-- ===================== UPDATES ===================== -->
+    <section class="panel" id="panel-updates" role="tabpanel" aria-labelledby="tab-updates">
+      <div class="stencil">Mises à jour des mods</div>
+      <div id="updatesHost"><span class="loading">Chargement&#8230;</span></div>
     </section>
 
     <!-- ===================== CONTACT ===================== -->

@@ -32,7 +32,7 @@
  */
 
 // Seuls ces fichiers peuvent être écrits (anti-traversée de chemin / écriture arbitraire).
-const ALLOWED_FILES = ["files.json", "changelog.json", "config.json", "planner.json", "admins.json", "board.json"];
+const ALLOWED_FILES = ["files.json", "changelog.json", "config.json", "planner.json", "admins.json", "board.json", "mod_updates.json"];
 
 // patch.json d'un mod, éditable depuis l'onglet Liste (admin). Le segment <id>
 // (nom de dossier) ne peut contenir ni « / » ni être « . »/« .. » seuls : pas de
@@ -124,6 +124,17 @@ function validateSchema(filename, data) {
       if (!Array.isArray(data)) return "admins.json doit être un tableau de pseudos.";
       for (let i = 0; i < data.length; i++) {
         if (typeof data[i] !== "string" || data[i].trim() === "") return "admins.json[" + i + "] : pseudo (texte non vide) attendu.";
+      }
+      return null;
+    }
+    case "mod_updates.json": {
+      if (!isObject(data)) return "mod_updates.json doit être un objet.";
+      if (!Array.isArray(data.updates)) return "mod_updates.json : « updates » doit être un tableau.";
+      for (let i = 0; i < data.updates.length; i++) {
+        const u = data.updates[i];
+        if (!isObject(u)) return "mod_updates.json.updates[" + i + "] doit être un objet.";
+        if (typeof u.id !== "string" || u.id.trim() === "") return "mod_updates.json.updates[" + i + "] : « id » (texte non vide) requis.";
+        if (u.acknowledged_at !== null && typeof u.acknowledged_at !== "string") return "mod_updates.json.updates[" + i + "] : « acknowledged_at » doit être null ou une date ISO.";
       }
       return null;
     }
