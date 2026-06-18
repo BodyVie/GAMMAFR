@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T19:58:40+00:00",
+  "generated": "2026-06-18T19:59:41+00:00",
   "base": {
     "files": [
       "0. PatchVF/GAMMA base/9a91_vsk94.xml",
@@ -941,7 +941,6 @@
       "0. PatchVF/MainFile/Pict/FRITES.jpg",
       "0. PatchVF/MainFile/fomod/ModuleConfig.xml",
       "0. PatchVF/MainFile/fomod/info.xml",
-      "0. PatchVF/MainFile/gamedata/configs/text/fra/desktop.ini",
       "0. PatchVF/MainFile/gamedata/configs/text/fra/frites_mcm.xml",
       "0. PatchVF/MainFile/gamedata/configs/text/fra/ui_st_smr_mutants.xml.bak",
       "0. PatchVF/MainFile/gamedata/scripts/frites_mcm.script",
