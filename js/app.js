@@ -1128,14 +1128,29 @@
     // ce qui réduit fortement le temps total — dominé par la latence réseau quand
     // l'archive compte des centaines de fichiers. L'écriture par index préserve
     // l'ordre des entrées dans le ZIP (identique à la version séquentielle).
-    var DL_CONCURRENCY = 8;
+    var DL_CONCURRENCY = 8, DL_ATTEMPTS = 3, DL_BACKOFF_MS = 300;
     var entries = new Array(total), done = 0, nextIdx = 0, failed = [];
+    function wait(ms) { return new Promise(function (res) { setTimeout(res, ms); }); }
+    // Récupère un fichier avec quelques tentatives : sur des centaines de fichiers,
+    // un aléa réseau ponctuel ne doit pas faire échouer toute l'archive. On ré-essaie
+    // avec un délai croissant (backoff exponentiel). Les erreurs définitives
+    // (404/403 : fichier réellement absent) ne sont pas ré-essayées — inutile.
+    function fetchBytes(src, attempt) {
+      return fetch(encPath(src), { cache: "no-store" })
+        .then(function (resp) {
+          if (!resp.ok) { var e = new Error("HTTP " + resp.status); e.permanent = (resp.status === 404 || resp.status === 403); throw e; }
+          return resp.arrayBuffer();
+        })
+        .catch(function (e) {
+          if ((e && e.permanent) || attempt >= DL_ATTEMPTS) throw e;
+          return wait(DL_BACKOFF_MS * Math.pow(2, attempt - 1)).then(function () { return fetchBytes(src, attempt + 1); });
+        });
+    }
     function pump() {
       if (nextIdx >= total) return Promise.resolve();
       var i = nextIdx++;
       var target = list[i], src = targets[target];
-      return fetch(encPath(src), { cache: "no-store" })
-        .then(function (resp) { if (!resp.ok) throw new Error("HTTP " + resp.status); return resp.arrayBuffer(); })
+      return fetchBytes(src, 1)
         .then(function (ab) { entries[i] = { name: target, data: new Uint8Array(ab) }; })
         .catch(function () { failed.push(src); })
         .then(function () {
