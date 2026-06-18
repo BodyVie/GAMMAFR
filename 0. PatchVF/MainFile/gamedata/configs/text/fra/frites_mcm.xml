@@ -7,11 +7,11 @@
 </string>
 
 <string id="ui_mcm_menu_frites_about">
-    <text>Ã€ propos</text>
+    <text>À propos</text>
 </string>
 
 <string id="ui_mcm_menu_frites_reinstall">
-    <text>Guide de rÃ©installation</text>
+    <text>Guide de réinstallation</text>
 </string>
 
 <string id="ui_mcm_frites_about_title">
@@ -19,7 +19,7 @@
 </string>
 
 <string id="ui_mcm_frites_about_intro">
-    <text>Localisation franÃ§aise retravaillÃ©e pour S.T.A.L.K.E.R. Anomaly, G.A.M.M.A et bien d'autre.</text>
+    <text>Localisation française retravaillée pour S.T.A.L.K.E.R. Anomaly, G.A.M.M.A et bien d'autre.</text>
 </string>
 
 <string id="ui_mcm_frites_about_version">
@@ -32,30 +32,30 @@
 
 <string id="ui_mcm_frites_about_community_link">
     <text>%c[d_orange]Hub communautaire permettant de :\n %c[ui_white]
-        â€¢ Ãªtre informÃ© des mises Ã  jour passÃ©es et Ã  venir ;\n
-        â€¢ configurer et tÃ©lÃ©charger son pack de patch VF sur mesure ;\n
-        â€¢ prendre contact pour Ã©mettre des suggestions et des retours, dans une dÃ©marche d'amÃ©lioration continue du pack.\n\n
+        • être informé des mises à jour passées et à venir ;\n
+        • configurer et télécharger son pack de patch VF sur mesure ;\n
+        • prendre contact pour émettre des suggestions et des retours, dans une démarche d'amélioration continue du pack.\n\n
         https://bodyvie.github.io/GAMMAFR/</text>
 </string>
 
 <string id="ui_mcm_frites_reinstall_title">
-    <text>Comment rÃ©installer un mod sur Mo2</text>
+    <text>Comment réinstaller un mod sur Mo2</text>
 </string>
 
 <string id="ui_mcm_frites_reinstall_intro">
-    <text>Ce guide sert Ã  relancer l'installation de F.R.I.T.E.S depuis MO2. Utilise-le pour changer la police, la taille du texte ou la variante sans mÃ©langer plusieurs installations.</text>
+    <text>Ce guide sert à relancer l'installation de F.R.I.T.E.S depuis MO2. Utilise-le pour changer la police, la taille du texte ou la variante sans mélanger plusieurs installations.</text>
 </string>
 
 <string id="ui_mcm_frites_reinstall_warning">
-    <text>Ne dÃ©place pas les fichiers Ã  la main dans gamedata. Relance l'installation depuis MO2, puis refais les choix dans le FOMOD.</text>
+    <text>Ne déplace pas les fichiers à la main dans gamedata. Relance l'installation depuis MO2, puis refais les choix dans le FOMOD.</text>
 </string>
 
 <string id="ui_mcm_frites_reinstall_step_1_title">
-    <text>1. RÃ©installer un mod sur Mo2</text>
+    <text>1. Réinstaller un mod sur Mo2</text>
 </string>
 
 <string id="ui_mcm_frites_reinstall_step_1_text">
-    <text>Ferme le jeu. Dans Mod Organizer 2, fais un clic droit sur F.R.I.T.E.S dans la liste de gauche, puis clique sur RÃ©installer.</text>
+    <text>Ferme le jeu. Dans Mod Organizer 2, fais un clic droit sur F.R.I.T.E.S dans la liste de gauche, puis clique sur Réinstaller.</text>
 </string>
 
 <string id="ui_mcm_frites_reinstall_step_2_title">
@@ -63,7 +63,7 @@
 </string>
 
 <string id="ui_mcm_frites_reinstall_step_2_text">
-    <text>Lorsque le FOMOD s'ouvre, avance dans l'installateur et refais les choix depuis le dÃ©but. C'est cette Ã©tape qui remet l'installation au propre.</text>
+    <text>Lorsque le FOMOD s'ouvre, avance dans l'installateur et refais les choix depuis le début. C'est cette étape qui remet l'installation au propre.</text>
 </string>
 
 <string id="ui_mcm_frites_reinstall_step_3_title">
@@ -71,7 +71,7 @@
 </string>
 
 <string id="ui_mcm_frites_reinstall_step_3_text">
-    <text>Choisis une seule taille. 1k est compact, 2k est recommandÃ© pour la plupart des Ã©crans, 4k est prÃ©vu pour les trÃƒÂ¨s hautes rÃ©solutions.</text>
+    <text>Choisis une seule taille. 1k est compact, 2k est recommandé pour la plupart des écrans, 4k est prévu pour les très hautes résolutions.</text>
 </string>
 
 <string id="ui_mcm_frites_reinstall_step_4_title">
@@ -79,11 +79,11 @@
 </string>
 
 <string id="ui_mcm_frites_reinstall_step_4_text">
-    <text>Choisis une seule variante. SÃ©cable rÃ©duit les dÃ©bordements de lignes. InsÃ©cable conserve davantage les blocs de texte d'origine.</text>
+    <text>Choisis une seule variante. Sécable réduit les débordements de lignes. Insécable conserve davantage les blocs de texte d'origine.</text>
 </string>
 
 <string id="ui_mcm_frites_reinstall_choice">
-    <text>RÃ©glage conseillÃ© en cas de doute : Tactical2k sÃ©cable.</text>
+    <text>Réglage conseillé en cas de doute : Tactical2k sécable.</text>
 </string>
 
 <string id="ui_mcm_frites_reinstall_step_5_title">
@@ -91,19 +91,19 @@
 </string>
 
 <string id="ui_mcm_frites_reinstall_step_5_text">
-    <text>Quand MO2 demande comment traiter le mod dÃ©jÃ  installÃ©, choisis Remplacer. N'utilise pas Fusionner, sinon d'anciens fichiers peuvent rester actifs.</text>
+    <text>Quand MO2 demande comment traiter le mod déjà installé, choisis Remplacer. N'utilise pas Fusionner, sinon d'anciens fichiers peuvent rester actifs.</text>
 </string>
 
 <string id="ui_mcm_frites_reinstall_step_6_title">
-    <text>6. VÃ©rifier la prioritÃ© du mod</text>
+    <text>6. Vérifier la priorité du mod</text>
 </string>
 
 <string id="ui_mcm_frites_reinstall_step_6_text">
-    <text>AprÃƒÂ¨s l'installation, vÃ©rifie la position de F.R.I.T.E.S dans la liste de gauche de MO2. Il doit rester aprÃƒÂ¨s les mods dont il remplace les textes.</text>
+    <text>Après l'installation, vérifie la position de F.R.I.T.E.S dans la liste de gauche de MO2. Il doit rester après les mods dont il remplace les textes.</text>
 </string>
 
 <string id="ui_mcm_frites_reinstall_final">
-    <text>Lance le jeu, ouvre MCM &gt; F.R.I.T.E.S &gt; Ã€ propos, puis vÃ©rifie que la version affichÃ©e est v1.2-fix.</text>
+    <text>Lance le jeu, ouvre MCM &gt; F.R.I.T.E.S &gt; À propos, puis vérifie que la version affichée est v1.2-fix.</text>
 </string>
 
 </string_table>
