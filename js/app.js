@@ -1081,6 +1081,33 @@
     return strBytesUtf16le(xml);
   }
 
+  /* ---- frites_mcm.xml (MCM « À propos ») ------------------------------------
+     Le MCM de F.R.I.T.E.S affiche la version installée dans son onglet « À propos »
+     (<string id="ui_mcm_frites_about_version">). On y injecte, à l'assemblage, la
+     même version que meta.ini / fomod/info.xml (dernière entrée du changelog), au
+     lieu d'un numéro figé. Le fichier est fourni en windows-1252 (sans BOM) : on
+     le manipule octet par octet (chaque octet ↔ un point de code 0–255) afin de
+     préserver à l'identique ses caractères accentués, le texte injecté étant pur ASCII. */
+  function bytesToBinStr(bytes) {
+    var s = "";
+    for (var i = 0; i < bytes.length; i++) s += String.fromCharCode(bytes[i]);
+    return s;
+  }
+  function binStrToBytes(str) {
+    var out = new Uint8Array(str.length);
+    for (var i = 0; i < str.length; i++) out[i] = str.charCodeAt(i) & 0xFF;
+    return out;
+  }
+  // Remplace le <text>…</text> de la balise « about_version » par « Version : <v> ».
+  // Laisse le fichier intact si la balise est absente.
+  function patchMcmVersion(bytes, version) {
+    var xml = bytesToBinStr(bytes);
+    var re = /(<string\s+id="ui_mcm_frites_about_version">[\s\S]*?<text>)[\s\S]*?(<\/text>)/;
+    if (!re.test(xml)) return bytes;
+    xml = xml.replace(re, function (m, open, close) { return open + xmlEscape("Version : " + version) + close; });
+    return binStrToBytes(xml);
+  }
+
   // ---- assemblage du ZIP --------------------------------------------------
   function assembleAndDownload() {
     var zone = $("#dlZone");
@@ -1182,6 +1209,14 @@
           version: metaVersion || "",
           website: config.site_url || ""
         });
+      }
+      // gamedata/.../frites_mcm.xml : le MCM affiche la version dans \u00ab \u00c0 propos \u00bb.
+      // On y injecte la m\u00eame version (derni\u00e8re changelog) que meta.ini / info.xml.
+      if (metaVersion) {
+        var mcmEntry = entries.filter(function (e) {
+          return baseName(e.name).toLowerCase() === "frites_mcm.xml";
+        })[0];
+        if (mcmEntry) mcmEntry.data = patchMcmVersion(mcmEntry.data, metaVersion);
       }
       status.textContent = "Compression\u2026";
       window.GammaZip.create(entries).then(function (blob) {
