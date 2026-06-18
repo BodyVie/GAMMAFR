@@ -1098,13 +1098,14 @@
     for (var i = 0; i < str.length; i++) out[i] = str.charCodeAt(i) & 0xFF;
     return out;
   }
-  // Remplace le <text>…</text> de la balise « about_version » par « Version : <v> ».
-  // Laisse le fichier intact si la balise est absente.
+  // Ajoute le numéro de version à la fin du <text>…</text> de la balise
+  // « about_version », en conservant son contenu tel quel (dont le code couleur
+  // %c[d_orange]). Laisse le fichier intact si la balise est absente.
   function patchMcmVersion(bytes, version) {
     var xml = bytesToBinStr(bytes);
-    var re = /(<string\s+id="ui_mcm_frites_about_version">[\s\S]*?<text>)[\s\S]*?(<\/text>)/;
+    var re = /(<string\s+id="ui_mcm_frites_about_version">[\s\S]*?<text>)([\s\S]*?)(<\/text>)/;
     if (!re.test(xml)) return bytes;
-    xml = xml.replace(re, function (m, open, close) { return open + xmlEscape("Version : " + version) + close; });
+    xml = xml.replace(re, function (m, open, inner, close) { return open + inner + xmlEscape(version) + close; });
     return binStrToBytes(xml);
   }
 

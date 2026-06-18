@@ -23,7 +23,7 @@
 </string>
 
 <string id="ui_mcm_frites_about_version">
-    <text>Version installée : v1.2-fix</text>
+    <text>Version :%c[d_orange] v. </text>
 </string>
 
 <string id="ui_mcm_frites_about_community">
