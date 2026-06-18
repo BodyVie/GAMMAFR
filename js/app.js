@@ -793,14 +793,16 @@
     host.appendChild(card);
 
     // Étapes de sélection (longues listes de patchs) : on double la navigation
-    // dans un bloc flottant ancré à droite, pour qu'elle reste atteignable
-    // n'importe où dans la liste sans descendre tout en bas. Sur écran étroit,
-    // ce bloc est masqué (CSS) et la barre d'actions du bas prend le relais.
+    // dans deux bulles flottantes — « Retour » à gauche, « Suivant » à droite —
+    // pour qu'elle reste atteignable n'importe où dans la liste sans descendre
+    // tout en bas. Sur écran étroit, ces bulles sont masquées (CSS) et la barre
+    // d'actions du bas prend le relais.
     var actions = renderActions(names);
     if (cur === "Patch Tweak" || cur === "Patch Extra") {
       actions.classList.add("wizard-actions--has-side");
       host.appendChild(actions);
-      host.appendChild(renderSideNav(names));
+      host.appendChild(renderSideNav(names, "left"));
+      host.appendChild(renderSideNav(names, "right"));
     } else {
       host.appendChild(actions);
     }
@@ -1001,13 +1003,13 @@
     if (names[conf.step] === "Niveau") next.disabled = !conf.level;
     return next;
   }
-  // Navigation flottante ancrée à droite (révélée par CSS sur grand écran) :
-  // reprend Retour + Suivant pour rester accessible n'importe où dans la liste.
-  function renderSideNav(names) {
-    var side = el("div", { class: "wizard-side", "aria-label": "Navigation du configurateur" });
-    side.appendChild(navBackBtn());
-    side.appendChild(navNextBtn(names));
-    return side;
+  // Bulle de navigation flottante (révélée par CSS sur grand écran) : « Retour »
+  // est ancré à gauche de la colonne, « Suivant » à droite, pour rester
+  // accessible n'importe où dans la liste sans descendre tout en bas.
+  function renderSideNav(names, pos) {
+    var bubble = el("div", { class: "wizard-side wizard-side--" + pos });
+    bubble.appendChild(pos === "left" ? navBackBtn() : navNextBtn(names));
+    return bubble;
   }
   function renderActions(names) {
     var actions = el("div", { class: "wizard-actions" });

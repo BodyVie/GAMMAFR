@@ -483,9 +483,10 @@ a:hover { text-decoration: underline; }
 }
 
 /* Navigation flottante des étapes de sélection (longues listes de patchs).
-   Ancrée à droite de la colonne de contenu et fixée à l'écran, elle suit le
-   défilement pour rester atteignable n'importe où dans la liste. Masquée par
-   défaut : révélée seulement quand la marge droite a la place de l'accueillir
+   Deux bulles ancrées de part et d'autre de la colonne de contenu et fixées à
+   l'écran — « Retour » à gauche, « Suivant » à droite — qui suivent le
+   défilement pour rester atteignables n'importe où dans la liste. Masquées par
+   défaut : révélées seulement quand les marges ont la place de les accueillir
    (sinon la barre d'actions du bas, toujours présente, prend le relais). */
 .wizard-side { display: none; }
 
@@ -496,14 +497,15 @@ a:hover { text-decoration: underline; }
     gap: 12px;
     position: fixed;
     top: 50%;
-    left: calc(50% + var(--maxw) / 2 + 24px);
     transform: translateY(-50%);
     width: 132px;
     z-index: 30;
   }
+  .wizard-side--right { left: calc(50% + var(--maxw) / 2 + 24px); }
+  .wizard-side--left  { right: calc(50% + var(--maxw) / 2 + 24px); }
   .wizard-side .btn { width: 100%; }
-  /* évite un doublon de « Suivant » : quand le bloc flottant est visible (il
-     embarque déjà Retour + Suivant), la barre du bas de l'étape disparaît. */
+  /* évite un doublon : quand les bulles flottantes sont visibles (elles
+     embarquent déjà Retour + Suivant), la barre du bas de l'étape disparaît. */
   .wizard-actions--has-side { display: none; }
 }
 
