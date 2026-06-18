@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T15:59:19+00:00",
+  "generated": "2026-06-18T16:00:27+00:00",
   "base": {
     "files": [
       "0. PatchVF/GAMMA base/9a91_vsk94.xml",
@@ -13,7 +13,6 @@
       "0. PatchVF/GAMMA base/catsy_fftd_mcm.xml",
       "0. PatchVF/GAMMA base/catsy_milpda.xml",
       "0. PatchVF/GAMMA base/catsy_waypoints.xml",
-      "0. PatchVF/GAMMA base/desktop.ini",
       "0. PatchVF/GAMMA base/drop_item.xml",
       "0. PatchVF/GAMMA base/dynamic_icon_indicators.xml",
       "0. PatchVF/GAMMA base/free_zoom.xml",
