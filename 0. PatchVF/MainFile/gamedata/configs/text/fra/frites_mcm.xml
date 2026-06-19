@@ -7,11 +7,11 @@
 </string>
 
 <string id="ui_mcm_menu_frites_about">
-    <text>À propos</text>
+    <text>� propos</text>
 </string>
 
-<string id="ui_mcm_menu_frites_reinstall">
-    <text>Guide de réinstallation</text>
+<string id="ui_mcm_menu_frites_guide">
+    <text>Guide</text>
 </string>
 
 <string id="ui_mcm_frites_about_title">
@@ -19,91 +19,59 @@
 </string>
 
 <string id="ui_mcm_frites_about_intro">
-    <text>Localisation française retravaillée pour S.T.A.L.K.E.R. Anomaly, G.A.M.M.A et bien d'autre.</text>
-</string>
-
-<string id="ui_mcm_frites_about_version">
-    <text>Version :%c[d_orange] v. </text>
+    <text>Pack VF pour Anomaly et G.A.M.M.A. Textes corrig�s, style harmonis�, interface plus lisible.</text>
 </string>
 
 <string id="ui_mcm_frites_about_community">
     <text>G.A.M.M.A.FR</text>
 </string>
 
+<string id="ui_mcm_frites_about_community_details">
+    <text>Hub communautaire :\n� configurer ton patch VF ;\n� suivre les mises � jour ;\n� consulter le changelog ;\n� signaler un probl�me.</text>
+</string>
+
 <string id="ui_mcm_frites_about_community_link">
-    <text>%c[d_cyan]Hub communautaire permettant de :\n %c[ui_white]
-        • être informé des mises à  jour passées et à  venir ;\n
-         • configurer et télécharger son pack de patch VF sur mesure ;\n
-         • prendre contact pour émettre des suggestions et des retours, dans une démarche d'amélioration continue du pack.\n
-        %c[d_cyan]https://bodyvie.github.io/GAMMAFR/</text>
+    <text>%c[d_cyan]https://bodyvie.github.io/GAMMAFR/#board</text>
 </string>
 
-<string id="ui_mcm_frites_reinstall_title">
-    <text>Comment réinstaller un mod sur Mo2</text>
+<string id="ui_mcm_frites_guide_title">
+    <text>Personnaliser F.R.I.T.E.S proprement</text>
 </string>
 
-<string id="ui_mcm_frites_reinstall_intro">
-    <text>Ce guide sert à  relancer l'installation de F.R.I.T.E.S depuis MO2. Utilise-le pour changer la police, la taille du texte ou la variante sans mélanger plusieurs installations.</text>
+<string id="ui_mcm_frites_guide_intro">
+    <text>Pour changer la police ou la variante, repasse par MO2. �vite la copie manuelle dans gamedata.</text>
 </string>
 
-<string id="ui_mcm_frites_reinstall_warning">
-    <text>Ne déplace pas les fichiers à  la main dans gamedata. Relance l'installation depuis MO2, puis refais les choix dans le FOMOD.</text>
+<string id="ui_mcm_frites_guide_step_1">
+    <text>1. Ferme le jeu, puis dans MO2 : clic droit sur F.R.I.T.E.S > R�installer.</text>
 </string>
 
-<string id="ui_mcm_frites_reinstall_step_1_title">
-    <text>1. Réinstaller un mod sur Mo2</text>
+<string id="ui_mcm_frites_guide_step_2">
+    <text>2. Laisse le FOMOD s'ouvrir et reprends les choix depuis le d�but.</text>
 </string>
 
-<string id="ui_mcm_frites_reinstall_step_1_text">
-    <text>Ferme le jeu. Dans Mod Organizer 2, fais un clic droit sur F.R.I.T.E.S dans la liste de gauche, puis clique sur Réinstaller.</text>
+<string id="ui_mcm_frites_guide_step_3">
+    <text>3. Police : 1k compact, 2k conseill�, 4k pour tr�s haute r�solution.</text>
 </string>
 
-<string id="ui_mcm_frites_reinstall_step_2_title">
-    <text>2. Installer le FOMOD</text>
+<string id="ui_mcm_frites_guide_step_4">
+    <text>4. Texte : s�cable limite les d�bordements ; ins�cable garde le style d'origine.</text>
 </string>
 
-<string id="ui_mcm_frites_reinstall_step_2_text">
-    <text>Lorsque le FOMOD s'ouvre, avance dans l'installateur et refais les choix depuis le début. C'est cette étape qui remet l'installation au propre.</text>
+<string id="ui_mcm_frites_guide_step_5">
+    <text>5. Si MO2 demande quoi faire, choisis Remplacer, pas Fusionner.</text>
 </string>
 
-<string id="ui_mcm_frites_reinstall_step_3_title">
-    <text>3. Choisir une taille de police</text>
+<string id="ui_mcm_frites_guide_step_6">
+    <text>6. Dans la liste de gauche, place F.R.I.T.E.S sous les mods qui modifient les textes.</text>
 </string>
 
-<string id="ui_mcm_frites_reinstall_step_3_text">
-    <text>Choisis une seule taille. 1k est compact, 2k est recommandé pour la plupart des écrans, 4k est prévu pour les trà¨s hautes résolutions.</text>
+<string id="ui_mcm_frites_guide_tip">
+    <text>Choix conseill� : Tactical2k s�cable.</text>
 </string>
 
-<string id="ui_mcm_frites_reinstall_step_4_title">
-    <text>4. Choisir une variante de texte</text>
-</string>
-
-<string id="ui_mcm_frites_reinstall_step_4_text">
-    <text>Choisis une seule variante. Sécable réduit les débordements de lignes. Insécable conserve davantage les blocs de texte d'origine.</text>
-</string>
-
-<string id="ui_mcm_frites_reinstall_choice">
-    <text>Réglage conseillé en cas de doute : Tactical2k sécable.</text>
-</string>
-
-<string id="ui_mcm_frites_reinstall_step_5_title">
-    <text>5. Remplacer l'ancienne installation</text>
-</string>
-
-<string id="ui_mcm_frites_reinstall_step_5_text">
-    <text>Quand MO2 demande comment traiter le mod déjà  installé, choisis Remplacer. N'utilise pas Fusionner, sinon d'anciens fichiers peuvent rester actifs.</text>
-</string>
-
-<string id="ui_mcm_frites_reinstall_step_6_title">
-    <text>6. Vérifier la priorité du mod</text>
-</string>
-
-<string id="ui_mcm_frites_reinstall_step_6_text">
-    <text>Aprà¨s l'installation, vérifie la position de F.R.I.T.E.S dans la liste de gauche de MO2. Il doit rester aprà¨s les mods dont il remplace les textes.</text>
-</string>
-
-<string id="ui_mcm_frites_reinstall_final">
-    <text>Lance le jeu, ouvre MCM &gt; F.R.I.T.E.S &gt; à propos, puis vérifie que la version affichée soit la dernière en date.</text>
+<string id="ui_mcm_frites_guide_warning">
+    <text>Lance le jeu, puis v�rifie la version dans � propos.</text>
 </string>
 
 </string_table>

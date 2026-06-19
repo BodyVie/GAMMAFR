@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<string_table>
+
+<string id="ui_mcm_frites_about_version">
+    <text>Version :%c[d_orange] v.</text>
+</string>
+
+</string_table>
