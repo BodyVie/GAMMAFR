@@ -20,6 +20,8 @@ Green			- %c[d_green]
 Yellow			- %c[0,250,250,0]	
 White 			- %c[0,255,255,255]	
 
+
+%c[pda_white]
 -->
 
 </string_table>
