@@ -107,7 +107,7 @@
     // marque l'édition en cours dès qu'un champ admin est modifié.
     window.addEventListener("beforeunload", function (e) {
       if (isAdmin()) leavePresence();
-      // filet de sécurité : un enregistrement automatique peut être en attente
+      // filet de sécurité : des modifications peuvent ne pas être encore enregistrées
       if (isAdmin() && hasUnsaved()) { e.preventDefault(); e.returnValue = ""; return ""; }
     });
     document.addEventListener("visibilitychange", function () {
@@ -443,7 +443,7 @@
       el("button", { class: "btn btn--ghost btn--icon", title: "Fermer", text: "✕", onClick: closeModal })
     ]));
     content.appendChild(el("div", { class: "modal__body" }, [
-      el("p", { text: "Un enregistrement automatique n'est pas encore terminé. Que veux-tu faire ?" })
+      el("p", { text: "Des modifications ne sont pas encore enregistrées. Que veux-tu faire ?" })
     ]));
     content.appendChild(el("div", { class: "modal__foot" }, [
       el("button", { class: "btn btn--ghost", text: "Quitter sans enregistrer", onClick: function () { cancelAutosaves(); closeModal(); proceed(); } }),
@@ -1539,17 +1539,23 @@
     var host = $("#logHost");
     clear(host);
     resetAutosavers();
+    // Brouillon : chaque version DÉJÀ enregistrée est verrouillée (non modifiable)
+    // par défaut ; un bouton « Modifier » la déverrouille. Les versions ajoutées
+    // pendant la session sont éditables d'emblée.
     var draft = (data.changelog || []).map(function (e) {
-      return { version: e.version || "", date: e.date || "", changes: (e.changes || []).slice() };
+      return { version: e.version || "", date: e.date || "", changes: (e.changes || []).slice(), locked: true };
     });
 
     host.appendChild(el("div", { class: "admin-bar" }, [
       el("span", { class: "admin-bar__tag", text: "ADMIN" }),
-      el("span", { text: "Édition du changelog — enregistrement automatique." })
+      el("span", { text: "Édition du changelog — modifie puis enregistre (plus d'enregistrement automatique)." })
     ]));
 
     var status = el("span", { class: "editor__status" });
-    var mgr = makeAutosave("changelog.json", function () {
+    var saveBtn = el("button", { class: "btn btn--amber", text: "Enregistrer", disabled: true });
+
+    // Journal nettoyé à partir du brouillon : on ignore les versions sans numéro.
+    function build() {
       return draft
         .filter(function (e) { return (e.version || "").trim() !== ""; })
         .map(function (e) {
@@ -1559,44 +1565,107 @@
             changes: e.changes.map(function (c) { return (c || "").trim(); }).filter(Boolean)
           };
         });
-    }, status, function (clean) { data.changelog = clean; setVersionBadge(latestVersion(clean)); });
+    }
+
+    // Suivi des modifications non enregistrées : active le bouton « Enregistrer »
+    // et alimente le filet de sécurité au changement d'onglet / fermeture (via le
+    // registre d'autosavers, partagé avec les éditeurs à enregistrement auto).
+    var dirty = false;
+    function setDirty() {
+      dirty = true;
+      saveBtn.disabled = false;
+      setStatus(status, "work", "Modifications non enregistrées.");
+      markDirty();
+    }
+    function persist(reRender) {
+      var obj = build();
+      saveData("changelog.json", obj, status, saveBtn, function () {
+        dirty = false;
+        data.changelog = obj;
+        setVersionBadge(latestVersion(obj));
+        if (reRender) renderChangelogEditor(); // tout est ré-affiché verrouillé
+      });
+    }
+    autosavers.push({
+      flush: function () { if (dirty) persist(false); },
+      cancel: function () { dirty = false; },
+      pending: function () { return dirty; }
+    });
+
+    // Bouton « Ajouter une version » EN HAUT, avant la liste des versions.
+    var add = el("button", { class: "btn btn--ghost", text: "+ Ajouter une version",
+      onClick: function () { draft.unshift({ version: "", date: "", changes: [], locked: false }); setDirty(); drawRows(); } });
+    host.appendChild(el("div", { class: "editor__head" }, [
+      el("span", { class: "editor__head-title", text: "Versions" }),
+      add
+    ]));
 
     var rows = el("div", { class: "editrows" });
     host.appendChild(rows);
 
+    // Carte verrouill\u00e9e : version, date et modifications en lecture seule, plus un
+    // bouton \u00ab Modifier \u00bb qui d\u00e9verrouille l'\u00e9dition de cette seule version.
+    function lockedCard(entry) {
+      var head = el("div", { class: "editcard__head" }, [
+        el("span", { class: "log-entry__ver", text: "v" + (entry.version || "?") }),
+        entry.date ? el("span", { class: "log-entry__date", text: entry.date }) : null,
+        el("button", { class: "btn btn--ghost btn--mini editcard__edit", title: "Activer l'\u00e9dition de cette version", text: "Modifier",
+          onClick: function () { entry.locked = false; drawRows(); } })
+      ]);
+      var body;
+      if ((entry.changes || []).length) {
+        body = el("ul", { class: "log-entry__changes" });
+        entry.changes.forEach(function (c) { body.appendChild(el("li", { text: c })); });
+      } else {
+        body = el("p", { class: "list-empty list-empty--tight", text: "Aucune modification." });
+      }
+      return el("div", { class: "editcard editcard--locked" }, [head, body]);
+    }
+
+    // Carte ouverte : champs \u00e9ditables + lignes de modifications + suppression.
+    function openCard(entry, i) {
+      var ver = el("input", { class: "input input--sm", type: "text", value: entry.version, placeholder: "Version (1.2.0)" });
+      ver.addEventListener("input", function () { entry.version = ver.value; setDirty(); });
+      var date = el("input", { class: "input input--sm", type: "text", value: entry.date, placeholder: "Date (2026-06-14)" });
+      date.addEventListener("input", function () { entry.date = date.value; setDirty(); });
+      var delV = el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer la version", text: "\u2715",
+        onClick: function () { draft.splice(i, 1); setDirty(); drawRows(); } });
+
+      var lines = el("div", { class: "editlines" });
+      renderGhostInputs(lines, entry.changes, {
+        placeholder: "Modification\u2026",
+        ghostPlaceholder: "Ajouter une modification\u2026",
+        onChange: setDirty
+      });
+
+      return el("div", { class: "editcard" }, [
+        el("div", { class: "editcard__head" }, [ver, date, delV]),
+        lines
+      ]);
+    }
+
     function drawRows() {
       clear(rows);
       draft.forEach(function (entry, i) {
-        var ver = el("input", { class: "input input--sm", type: "text", value: entry.version, placeholder: "Version (1.2.0)" });
-        ver.addEventListener("input", function () { entry.version = ver.value; mgr.queue(); });
-        var date = el("input", { class: "input input--sm", type: "text", value: entry.date, placeholder: "Date (2026-06-14)" });
-        date.addEventListener("input", function () { entry.date = date.value; mgr.queue(); });
-        var delV = el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer la version", text: "\u2715",
-          onClick: function () { draft.splice(i, 1); drawRows(); mgr.queue(); } });
-
-        var lines = el("div", { class: "editlines" });
-        renderGhostInputs(lines, entry.changes, {
-          placeholder: "Modification\u2026",
-          ghostPlaceholder: "Ajouter une modification\u2026",
-          onChange: mgr.queue
-        });
-
-        rows.appendChild(el("div", { class: "editcard" }, [
-          el("div", { class: "editcard__head" }, [ver, date, delV]),
-          lines
-        ]));
+        rows.appendChild(entry.locked ? lockedCard(entry) : openCard(entry, i));
       });
       if (!draft.length) rows.appendChild(el("p", { class: "list-empty", text: "Aucune version. Ajoutes-en une." }));
     }
     drawRows();
 
-    var add = el("button", { class: "btn btn--ghost", text: "+ Ajouter une version",
-      onClick: function () { draft.unshift({ version: "", date: "", changes: [] }); drawRows(); } });
-    host.appendChild(el("div", { class: "editor__foot editor__foot--auto" }, [
-      add,
-      el("span", { class: "autosave-hint", text: "↻ Enregistrement automatique" }),
-      status
-    ]));
+    saveBtn.addEventListener("click", function () {
+      // Validation avant enregistrement : une version renseignée (date ou
+      // modifications) mais sans numéro serait silencieusement perdue → on le
+      // signale plutôt que d'enregistrer un journal amputé.
+      var incomplete = draft.some(function (e) {
+        var hasContent = (e.date || "").trim() !== "" || e.changes.some(function (c) { return (c || "").trim() !== ""; });
+        return hasContent && (e.version || "").trim() === "";
+      });
+      if (incomplete) { setStatus(status, "err", "Renseigne le numéro de version avant d'enregistrer."); return; }
+      persist(true);
+    });
+
+    host.appendChild(el("div", { class: "editor__foot" }, [saveBtn, status]));
   }
 
   /* =======================================================================
@@ -2584,7 +2653,7 @@
 
     wrap.appendChild(el("div", { class: "admin-bar" }, [
       el("span", { class: "admin-bar__tag", text: "CONNECTÉ" }),
-      el("span", { text: "Enregistrement automatique, sauf la configuration du site qui s'enregistre avec son bouton. Tu peux aussi modifier le Panneau d'affichage et le Changelog dans leurs onglets." }),
+      el("span", { text: "Enregistrement automatique, sauf la configuration du site et le Changelog qui s'enregistrent avec leur bouton. Tu peux aussi modifier le Panneau d'affichage et le Changelog dans leurs onglets." }),
       el("button", { class: "btn btn--ghost btn--mini", text: "Verrouiller", onClick: lockAdmin })
     ]));
 

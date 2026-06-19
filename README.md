@@ -229,8 +229,11 @@ demander une validation par email du compte.
    Worker, qui repousse dans le dépôt. Un statut indique
    `Modification…` → `Envoi…` → `Enregistré`. Un seul envoi à la fois (un commit
    par enregistrement) ; les modifications faites pendant l'envoi en relancent un.
-   Si tu changes d'onglet alors qu'un envoi n'est pas terminé, un **pop-up**
-   propose d'**enregistrer** ou de **quitter sans enregistrer**.
+   Si tu changes d'onglet alors que des modifications ne sont pas encore
+   enregistrées, un **pop-up** propose d'**enregistrer** ou de **quitter sans
+   enregistrer**. Le **Changelog** et la **Configuration du site** font
+   exception : ils s'éditent puis s'enregistrent **en une fois** avec un bouton
+   **Enregistrer** (pas d'envoi automatique).
 5. GitHub Pages se reconstruit en ~1 min. Le cache du navigateur/CDN peut
    retarder un peu l'affichage public ; un rechargement forcé (Ctrl+Maj+R) aide.
 
@@ -247,6 +250,11 @@ demander une validation par email du compte.
   L'étape de récapitulatif est générée automatiquement.
 - `changelog.json` : tableau `{ version, date, changes[] }`, affiché par version
   décroissante. Alimente aussi les « Nouveautés » du Panneau d'affichage.
+  **Édition** : le bouton « + Ajouter une version » est en **haut** ; les
+  versions déjà enregistrées sont **verrouillées** (lecture seule) et un bouton
+  « Modifier » les déverrouille une par une ; on modifie puis on enregistre
+  **tout d'un coup** avec le bouton **Enregistrer** (plus d'enregistrement
+  automatique sur cet onglet).
 - `planner.json` : chaque ticket porte `created` et `modified` (horodatages ISO,
   renseignés automatiquement à la création et à chaque édition). Affichés en tête
   du ticket (« Créé le… » / « Dernière modification le… ») ; les tickets dont le
