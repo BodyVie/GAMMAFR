@@ -62,3 +62,45 @@ function on_mcm_load()
 		},
 	}
 end
+
+
+-- =====================================================================
+-- Forcer ce mod tout en haut de la liste MCM, AU-DESSUS de la page "MCM".
+-- N'edite PAS ui_mcm.script : compatible avec les MAJ de MCM et les autres addons.
+-- Principe : on laisse MCM construire + trier + remplir les raccourcis,
+-- PUIS on remonte notre entree (id "frites") en position 1.
+-- =====================================================================
+local FRITES_MCM_ID = "frites"   -- = l'id de premier niveau renvoye par on_mcm_load()
+local frites_top_installed = false
+
+local function frites_float_to_top()
+	local opts = ui_mcm and ui_mcm.options
+	if not opts then return end
+	for i = 1, #opts do
+		if opts[i].id == FRITES_MCM_ID then
+			if i > 1 then
+				table.insert(opts, 1, table.remove(opts, i))
+			end
+			return
+		end
+	end
+end
+
+local function frites_install_top()
+	if not (ui_mcm and ui_mcm.init_opt_base) then return end
+	if not frites_top_installed then
+		frites_top_installed = true
+		local original = ui_mcm.init_opt_base
+		ui_mcm.init_opt_base = function(...)
+			original(...)
+			frites_float_to_top()
+		end
+	end
+	-- Si la liste a deja ete construite avant ce patch, on la corrige tout de suite.
+	if ui_mcm.options and #ui_mcm.options > 0 then
+		frites_float_to_top()
+	end
+end
+
+frites_install_top()
+RegisterScriptCallback("main_menu_on_init", frites_install_top)
