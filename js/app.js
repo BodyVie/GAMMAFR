@@ -602,7 +602,12 @@
         var created = t.created || "";
         out.push({
           day: day, stamp: modified, title: t.title, category: (c.name || "").trim(),
-          isNew: !created || modified === created
+          isNew: !created || modified === created,
+          // actions de la tâche, état coché compris : reprises telles quelles dans
+          // les nouveautés (carré vide « à faire » / carré coché « fait »).
+          actions: (Array.isArray(t.actions) ? t.actions : [])
+            .filter(function (a) { return a && (a.text || "").trim(); })
+            .map(function (a) { return { text: String(a.text), done: !!a.done }; })
         });
       });
     });
@@ -684,13 +689,26 @@
   }
 
   function renderPlannerDay(box, items) {
-    var ul = el("ul", { class: "log-entry__changes" });
+    var ul = el("ul", { class: "log-entry__changes log-entry__changes--planner" });
     items
       .slice()
       .sort(function (a, b) { return a.stamp < b.stamp ? 1 : -1; })
       .forEach(function (n) {
         var label = (n.isNew ? "Nouvelle tâche : " : "Tâche mise à jour : ") + n.title + (n.category ? " — " + n.category : "");
-        ul.appendChild(el("li", { text: label }));
+        var item = el("div", { class: "board-news__task" }, [el("span", { class: "board-news__tasklabel", text: label })]);
+        // Reprend la checklist de la tâche avec le même visuel que sur le ticket :
+        // un carré vide pour les actions à faire, un carré coché pour celles cochées.
+        if (n.actions && n.actions.length) {
+          var acts = el("div", { class: "pchecks board-news__acts" });
+          n.actions.forEach(function (a) {
+            acts.appendChild(el("div", { class: "pcheck" + (a.done ? " is-done" : "") }, [
+              el("span", { class: "pcheck__box", text: a.done ? "✓" : "" }),
+              el("span", { class: "pcheck__text", text: a.text })
+            ]));
+          });
+          item.appendChild(acts);
+        }
+        ul.appendChild(el("li", {}, [item]));
       });
     box.appendChild(el("div", { class: "log-entry" }, [ul]));
   }
