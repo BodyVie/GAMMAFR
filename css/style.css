@@ -1249,3 +1249,83 @@ button.plabel.is-on::before { content: "✓\00A0"; }
   margin-top: 20px;
   text-align: right;
 }
+
+/* =========================================================================
+   MAINTENANCE — configurateur désactivé par un admin
+   Affiché à la place du wizard quand config.configurator_enabled === false.
+   ========================================================================= */
+.maintenance {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  padding: 18px 20px;
+  background: var(--amber-soft);
+  border: 1px solid var(--amber);
+  border-left: 3px solid var(--amber);
+  border-radius: var(--radius);
+}
+.maintenance__tag {
+  flex: 0 0 auto;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--bg);
+  background: var(--amber);
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+.maintenance__msg {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--amber);
+}
+
+/* ---- Interrupteur ON/OFF du configurateur (onglet Admin) -------------- */
+.switchrow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.switch {
+  appearance: none;
+  position: relative;
+  flex: 0 0 auto;
+  width: 64px;
+  height: 30px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface-2);
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+.switch__track { position: absolute; inset: 0; }
+.switch__thumb {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 22px;
+  height: 22px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: var(--dim);
+  transition: left 0.15s ease, background 0.15s ease;
+}
+.switch.is-on { border-color: var(--rad); background: var(--rad-soft); }
+.switch.is-on .switch__thumb { left: 38px; background: var(--rad); }
+.switch:disabled { opacity: 0.5; cursor: not-allowed; }
+.switch:focus-visible { outline: 2px solid var(--rad); outline-offset: 2px; }
+
+.switch__state {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--dim);
+}
+.switch__state--on { color: var(--rad); }
+.switch__state--off { color: var(--amber); }

@@ -445,7 +445,8 @@ pas dans l'onglet Admin, qui régénérerait au prochain build).
   "fra_path": "gamedata/configs/text/fra",
   "mod_zip_name": "GAMMAFR-PatchVF",
   "mod_author": "BODY",
-  "site_url": "https://bodyvie.github.io/GAMMAFR/"
+  "site_url": "https://bodyvie.github.io/GAMMAFR/",
+  "configurator_enabled": true
 }
 ```
 
@@ -454,6 +455,21 @@ sélection dans l'archive. `patch_base` = dossier racine du contenu. `mod_author
 et `site_url` alimentent respectivement les champs `author`/`url` du `meta.ini` et
 `<Author>`/`<Website>` du `fomod/info.xml` (voir 8.1). `mod_author` est éditable
 dans l'onglet Admin → « Configuration du site » (champ « Nom des auteurs »).
+
+### 8.6. Interrupteur de maintenance (ON/OFF)
+
+`configurator_enabled` (booléen, `true` par défaut) est un **coupe-circuit
+manuel** : à `false`, l'onglet **Files** remplace le configurateur par le bandeau
+« **MAINTENANCE : Configurateur désactivé** » et **aucun téléchargement** n'est
+possible. À utiliser si le process d'assemblage a un problème ou pendant le
+développement.
+
+L'état se pilote depuis l'onglet **Admin → « Configurateur (téléchargements) »**
+via un bouton **ON/OFF** : un clic recharge `config.json`, bascule le drapeau et
+l'enregistre via le Worker (mêmes garde-fous que les autres écritures admin).
+Seul un admin connecté peut l'actionner ; l'effet est immédiat pour tout nouveau
+visiteur (le drapeau est lu au chargement du site). Toute valeur autre que
+`false` (drapeau absent compris) laisse le configurateur **actif**.
 
 ---
 

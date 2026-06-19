@@ -13,7 +13,10 @@
     fra_path: "gamedata/configs/text/fra",
     mod_zip_name: "GAMMAFR-PatchVF",
     mod_author: "BODY",
-    site_url: "https://bodyvie.github.io/GAMMAFR/"
+    site_url: "https://bodyvie.github.io/GAMMAFR/",
+    // Interrupteur de maintenance : false = configurateur désactivé (plus aucun
+    // téléchargement). Piloté manuellement par un admin (onglet Admin).
+    configurator_enabled: true
   };
   var loaded = { files: false, liste: false, changelog: false, admin: false };
   var DEFAULT_TAB = "board";   // onglet d'accueil à l'ouverture
@@ -146,10 +149,18 @@
           $("#brandTitle").textContent = config.site_title;
         }
         if (config.site_tagline) $("#brandTag").textContent = config.site_tagline;
+        // Si l'onglet Files a déjà été rendu avant la fin du chargement de la
+        // config (ouverture directe sur #files), on réévalue l'état de
+        // maintenance maintenant que configurator_enabled est connu.
+        if (loaded.files && manifest) renderConfigurator();
       })
       .catch(function () { /* placeholders restent affichés */ })
       .then(function () { startPresence(); }); // arme le heartbeat de présence (actif uniquement une fois un admin connecté)
   }
+
+  // Configurateur actif ? false uniquement si un admin l'a explicitement coupé
+  // (interrupteur de maintenance). Toute autre valeur (absente, true) = actif.
+  function configuratorEnabled() { return config.configurator_enabled !== false; }
 
   /* ---- numéro de version (barre du haut) ---------------------------------
      Affiche, en orange, la version la plus récente du changelog
@@ -768,9 +779,25 @@
   function encPath(path) { return String(path).split("/").map(encodeURIComponent).join("/"); }
 
   // ---- rendu --------------------------------------------------------------
+  // Bandeau de maintenance affiché à la place du configurateur quand un admin
+  // l'a désactivé (plus aucun téléchargement possible).
+  function renderMaintenanceNotice() {
+    return el("div", { class: "maintenance", role: "status", "aria-live": "polite" }, [
+      el("span", { class: "maintenance__tag", text: "MAINTENANCE" }),
+      el("span", { class: "maintenance__msg", text: "Configurateur désactivé" })
+    ]);
+  }
+
   function renderConfigurator() {
     var host = $("#wizard");
     clear(host);
+
+    // Interrupteur de maintenance (admin) : configurateur coupé → message, pas
+    // de wizard ni de téléchargement.
+    if (!configuratorEnabled()) {
+      host.appendChild(renderMaintenanceNotice());
+      return;
+    }
 
     var names = stepNames();
     if (conf.step >= names.length) conf.step = names.length - 1;
@@ -1146,6 +1173,14 @@
     var zone = $("#dlZone");
     if (!zone || !manifest) return;
     clear(zone);
+
+    // Filet de sécurité : si la maintenance a été activée entre-temps, on refuse
+    // le téléchargement même si le bouton était encore affiché.
+    if (!configuratorEnabled()) {
+      zone.appendChild(el("p", { class: "notice is-shown notice--err", text: "MAINTENANCE : Configurateur désactivé" }));
+      renderConfigurator();
+      return;
+    }
 
     if (typeof window.GammaZip === "undefined") {
       zone.appendChild(el("p", { class: "notice is-shown notice--err", text: "Module ZIP non chargé (js/zip.js)." }));
@@ -2535,6 +2570,61 @@
       el("button", { class: "btn btn--ghost btn--mini", text: "Verrouiller", onClick: lockAdmin })
     ]));
 
+    // ---- interrupteur du configurateur (maintenance) ----
+    // Bouton ON/OFF purement mécanique : un admin coupe le configurateur (et donc
+    // tout téléchargement) si le process a un problème ou pendant le développement.
+    // L'état est stocké dans config.json (configurator_enabled) et lu par tous les
+    // visiteurs au chargement du site.
+    wrap.appendChild(el("div", { class: "stencil stencil--muted", text: "Configurateur (téléchargements)" }));
+    var swCard = el("div", { class: "card" });
+    swCard.appendChild(el("p", { class: "admin-note", text:
+      "Active ou désactive le configurateur d'installation. Une fois désactivé, l'onglet Files affiche « MAINTENANCE : Configurateur désactivé » et plus aucun téléchargement n'est possible — à utiliser si le process a un problème ou pendant le développement." }));
+
+    var swStatus = el("span", { class: "editor__status" });
+    var swState = el("span", { class: "switch__state" });
+    var swBtn = el("button", {
+      class: "switch", type: "button", role: "switch",
+      "aria-label": "Activer ou désactiver le configurateur"
+    }, [el("span", { class: "switch__track" }, [el("span", { class: "switch__thumb" })])]);
+
+    function paintSwitch() {
+      var on = configuratorEnabled();
+      swBtn.classList.toggle("is-on", on);
+      swBtn.setAttribute("aria-checked", on ? "true" : "false");
+      swState.textContent = on ? "ON · configurateur actif" : "OFF · maintenance";
+      swState.className = "switch__state " + (on ? "switch__state--on" : "switch__state--off");
+    }
+
+    function toggleConfigurator() {
+      if (swBtn.disabled) return;
+      var next = !configuratorEnabled();
+      swBtn.disabled = true;
+      setStatus(swStatus, "work", "Enregistrement…");
+      // Recharge la version actuelle du dépôt pour ne modifier QUE le drapeau,
+      // sans embarquer d'éventuelles saisies non enregistrées des autres champs.
+      loadForEdit("config.json")
+        .then(function (r) {
+          var obj = (r.obj && typeof r.obj === "object" && !Array.isArray(r.obj)) ? r.obj : {};
+          obj.configurator_enabled = next;
+          saveData("config.json", obj, swStatus, swBtn, function () {
+            config.configurator_enabled = next;
+            paintSwitch();
+            // rafraîchit l'onglet Files s'il a déjà été rendu dans cette session
+            if (loaded.files && manifest) renderConfigurator();
+          });
+        })
+        .catch(function (e) {
+          setStatus(swStatus, "err", "Échec : " + (e && e.message ? e.message : "Worker injoignable."));
+          swBtn.disabled = false;
+        });
+    }
+    swBtn.addEventListener("click", toggleConfigurator);
+    paintSwitch();
+
+    swCard.appendChild(el("div", { class: "switchrow" }, [swBtn, swState]));
+    swCard.appendChild(el("div", { class: "editor__foot" }, [swStatus]));
+    wrap.appendChild(swCard);
+
     // ---- configuration du site ----
     wrap.appendChild(el("div", { class: "stencil stencil--muted", text: "Configuration du site" }));
     var cfgCard = el("div", { class: "card" });
@@ -2555,12 +2645,19 @@
     });
     // capte le SHA pour le verrouillage et rafraîchit depuis la version du dépôt
     loadForEdit("config.json").then(function (r) {
-      if (r.obj && typeof r.obj === "object") fields.forEach(function (f) { if (r.obj[f.key] != null) inputs[f.key].value = r.obj[f.key]; });
+      if (r.obj && typeof r.obj === "object") {
+        fields.forEach(function (f) { if (r.obj[f.key] != null) inputs[f.key].value = r.obj[f.key]; });
+        // synchronise l'interrupteur sur l'état réel du dépôt (source autoritaire)
+        if (typeof r.obj.configurator_enabled === "boolean") { config.configurator_enabled = r.obj.configurator_enabled; paintSwitch(); }
+      }
     }).catch(function () {});
     var cfgStatus = el("span", { class: "editor__status" });
     function buildCfg() {
       var obj = {};
       fields.forEach(function (f) { obj[f.key] = inputs[f.key].value.trim(); });
+      // L'état du configurateur est piloté par son interrupteur dédié : on le
+      // préserve pour ne pas l'écraser en enregistrant la configuration du site.
+      obj.configurator_enabled = configuratorEnabled();
       return obj;
     }
     function applyCfg(obj) {
