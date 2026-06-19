@@ -175,7 +175,7 @@
     appVersion = version ? String(version).trim() : "";
     var node = $("#brandVer");
     if (!node) return;
-    if (version) { node.textContent = "v" + version; node.hidden = false; }
+    if (version) { node.textContent = "v." + version; node.hidden = false; }
     else { node.textContent = ""; node.hidden = true; }
   }
 
@@ -679,7 +679,7 @@
       .sort(function (a, b) { return GammaCore.cmpVersion(b.version, a.version); })
       .forEach(function (e) {
         var head = el("div", { class: "log-entry__head" }, [
-          el("span", { class: "log-entry__ver", text: "v" + (e.version || "?") }),
+          el("span", { class: "log-entry__ver", text: "v." + (e.version || "?") }),
           (e.date && dayOf(e.date) !== day) ? el("span", { class: "log-entry__date", text: e.date }) : null
         ]);
         var ul = el("ul", { class: "log-entry__changes" });
@@ -1525,7 +1525,7 @@
     var box = el("div", { class: "log" });
     entries.forEach(function (e) {
       var head = el("div", { class: "log-entry__head" }, [
-        el("span", { class: "log-entry__ver", text: "v" + (e.version || "?") }),
+        el("span", { class: "log-entry__ver", text: "v." + (e.version || "?") }),
         e.date ? el("span", { class: "log-entry__date", text: e.date }) : null
       ]);
       var ul = el("ul", { class: "log-entry__changes" });
@@ -1594,7 +1594,12 @@
 
     // Bouton « Ajouter une version » EN HAUT, avant la liste des versions.
     var add = el("button", { class: "btn btn--ghost", text: "+ Ajouter une version",
-      onClick: function () { draft.unshift({ version: "", date: "", changes: [], locked: false }); setDirty(); drawRows(); } });
+      onClick: function () {
+        // Préremplit le numéro avec la date du jour au format AA.MMJJ (ex. 26.0618).
+        var d = new Date();
+        var today = String(d.getFullYear()).slice(-2) + "." + pad(d.getMonth() + 1) + pad(d.getDate());
+        draft.unshift({ version: today, date: "", changes: [], locked: false }); setDirty(); drawRows();
+      } });
     host.appendChild(el("div", { class: "editor__head" }, [
       el("span", { class: "editor__head-title", text: "Versions" }),
       add
@@ -1607,7 +1612,7 @@
     // bouton \u00ab Modifier \u00bb qui d\u00e9verrouille l'\u00e9dition de cette seule version.
     function lockedCard(entry) {
       var head = el("div", { class: "editcard__head" }, [
-        el("span", { class: "log-entry__ver", text: "v" + (entry.version || "?") }),
+        el("span", { class: "log-entry__ver", text: "v." + (entry.version || "?") }),
         entry.date ? el("span", { class: "log-entry__date", text: entry.date }) : null,
         el("button", { class: "btn btn--ghost btn--mini editcard__edit", title: "Activer l'\u00e9dition de cette version", text: "Modifier",
           onClick: function () { entry.locked = false; drawRows(); } })
@@ -1624,7 +1629,7 @@
 
     // Carte ouverte : champs \u00e9ditables + lignes de modifications + suppression.
     function openCard(entry, i) {
-      var ver = el("input", { class: "input input--sm", type: "text", value: entry.version, placeholder: "Version (1.2.0)" });
+      var ver = el("input", { class: "input input--sm", type: "text", value: entry.version, placeholder: "Version (26.0618)" });
       ver.addEventListener("input", function () { entry.version = ver.value; setDirty(); });
       var date = el("input", { class: "input input--sm", type: "text", value: entry.date, placeholder: "Date (2026-06-14)" });
       date.addEventListener("input", function () { entry.date = date.value; setDirty(); });
