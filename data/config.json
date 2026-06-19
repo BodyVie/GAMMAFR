@@ -6,5 +6,5 @@
   "fra_path": "gamedata/configs/text/fra",
   "mod_zip_name": "F.R.I.T.E.S",
   "mod_author": "BODY",
-  "configurator_enabled": true
+  "configurator_enabled": false
 }
