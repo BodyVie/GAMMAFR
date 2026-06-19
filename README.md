@@ -255,8 +255,10 @@ demander une validation par email du compte.
   « Modifier » les déverrouille une par une ; on modifie puis on enregistre
   **tout d'un coup** avec le bouton **Enregistrer** (plus d'enregistrement
   automatique sur cet onglet). Le `version` suit le format **date `AA.MMJJ`**
-  (ex. `26.0618`) — préremplie avec le jour à l'ajout — et s'affiche partout
-  préfixée `v.` (badge du bandeau, journal, « Nouveautés »).
+  (ex. `26.0618`) — prérempli avec le jour à l'ajout — et s'affiche partout
+  préfixé `v.` (badge du bandeau, journal, « Nouveautés »). Le `date` se choisit
+  via un **calendrier** (`<input type="date">`, comme le Planner), est prérempli
+  avec le jour, stocké en **ISO `AAAA-MM-JJ`** et affiché en **`JJ/MM/AAAA`**.
 - `planner.json` : chaque ticket porte `created` et `modified` (horodatages ISO,
   renseignés automatiquement à la création et à chaque édition). Affichés en tête
   du ticket (« Créé le… » / « Dernière modification le… ») ; les tickets dont le
