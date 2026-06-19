@@ -1133,6 +1133,17 @@ button.plabel.is-on::before { content: "✓\00A0"; }
 .btn--icon:hover { color: var(--rust); border-color: var(--rust); }
 .btn--mini { padding: 4px 10px; font-size: 12px; }
 
+/* Éditeur changelog — en-tête (titre + bouton « Ajouter une version » en haut)
+   et cartes verrouillées : une version déjà enregistrée s'affiche en lecture
+   seule (atténuée) tant qu'on n'a pas cliqué sur « Modifier » pour l'éditer. */
+.editor__head-title {
+  font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--dim);
+}
+.editcard--locked { background: var(--surface-2); border-color: var(--line-soft); }
+.editcard__edit { margin-left: auto; flex: 0 0 auto; }
+.list-empty--tight { padding: 4px 2px; }
+
 /* Admin — message « Worker requis » */
 .admin-note { color: var(--text); font-size: 14px; line-height: 1.55; margin: 0 0 10px; }
 .admin-steps { color: var(--dim); font-size: 13px; line-height: 1.6; margin: 0; padding-left: 20px; }
