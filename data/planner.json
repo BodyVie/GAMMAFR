@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-19T18:36:44+00:00",
+  "generated": "2026-06-19T18:36:51+00:00",
   "labels": [
     {
       "id": "lbl_mqft6asnlhoe",
@@ -52,7 +52,7 @@
           "title": "Déploiment",
           "description": "Publication du Pack & Hub",
           "status": "doing",
-          "due": "2026-06-26",
+          "due": "2026-06-23",
           "labels": [
             "lbl_mqft6asnlhoe"
           ],
