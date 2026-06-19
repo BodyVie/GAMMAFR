@@ -644,7 +644,7 @@
         .map(function (e) { return dayOf(e.date); });
       if (clDays.length) {
         var clDay = mostRecentDay(clDays);
-        renderChangelogDay(newsSection(host, "Changelog — modifications du " + clDay),
+        renderChangelogDay(newsSection(host, "Changelog — modifications du " + fmtDateOnly(clDay)),
           entries.filter(function (e) { return dayOf(e.date) === clDay; }), clDay);
         any = true;
       } else if (entries.length) {
@@ -657,7 +657,7 @@
       // --- Planner : son propre dernier jour de modifications ---
       if (plNews.length) {
         var plDay = mostRecentDay(plNews.map(function (n) { return n.day; }));
-        renderPlannerDay(newsSection(host, "Planner — modifications du " + plDay),
+        renderPlannerDay(newsSection(host, "Planner — modifications du " + fmtDateOnly(plDay)),
           plNews.filter(function (n) { return n.day === plDay; }));
         any = true;
       }
@@ -680,7 +680,7 @@
       .forEach(function (e) {
         var head = el("div", { class: "log-entry__head" }, [
           el("span", { class: "log-entry__ver", text: "v." + (e.version || "?") }),
-          (e.date && dayOf(e.date) !== day) ? el("span", { class: "log-entry__date", text: e.date }) : null
+          (e.date && dayOf(e.date) !== day) ? el("span", { class: "log-entry__date", text: fmtDateOnly(e.date) }) : null
         ]);
         var ul = el("ul", { class: "log-entry__changes" });
         (e.changes || []).forEach(function (c) { ul.appendChild(el("li", { text: c })); });
@@ -1353,6 +1353,16 @@
     return m ? m[3] + "/" + m[2] + "/" + m[1] : String(iso);
   }
 
+  // Normalise une date vers l'ISO YYYY-MM-DD (format des <input type="date">) :
+  // l'ISO est conservé, le format français JJ/MM/AAAA est converti, tout autre
+  // format reste tel quel (aucune perte de données).
+  function toISODate(s) {
+    s = String(s || "").trim();
+    var m = /^(\d{2})\/(\d{2})\/(\d{4})$/.exec(s);
+    if (m) return m[3] + "-" + m[2] + "-" + m[1];
+    return /^\d{4}-\d{2}-\d{2}/.test(s) ? s.slice(0, 10) : s;
+  }
+
   function renderListe() {
     var host = $("#listeHost");
     clear(host);
@@ -1526,7 +1536,7 @@
     entries.forEach(function (e) {
       var head = el("div", { class: "log-entry__head" }, [
         el("span", { class: "log-entry__ver", text: "v." + (e.version || "?") }),
-        e.date ? el("span", { class: "log-entry__date", text: e.date }) : null
+        e.date ? el("span", { class: "log-entry__date", text: fmtDateOnly(e.date) }) : null
       ]);
       var ul = el("ul", { class: "log-entry__changes" });
       (e.changes || []).forEach(function (c) { ul.appendChild(el("li", { text: c })); });
@@ -1543,7 +1553,7 @@
     // par défaut ; un bouton « Modifier » la déverrouille. Les versions ajoutées
     // pendant la session sont éditables d'emblée.
     var draft = (data.changelog || []).map(function (e) {
-      return { version: e.version || "", date: e.date || "", changes: (e.changes || []).slice(), locked: true };
+      return { version: e.version || "", date: toISODate(e.date || ""), changes: (e.changes || []).slice(), locked: true };
     });
 
     host.appendChild(el("div", { class: "admin-bar" }, [
@@ -1595,10 +1605,15 @@
     // Bouton « Ajouter une version » EN HAUT, avant la liste des versions.
     var add = el("button", { class: "btn btn--ghost", text: "+ Ajouter une version",
       onClick: function () {
-        // Préremplit le numéro avec la date du jour au format AA.MMJJ (ex. 26.0618).
-        var d = new Date();
-        var today = String(d.getFullYear()).slice(-2) + "." + pad(d.getMonth() + 1) + pad(d.getDate());
-        draft.unshift({ version: today, date: "", changes: [], locked: false }); setDirty(); drawRows();
+        // Préremplit le numéro avec le jour au format AA.MMJJ (ex. 26.0618) et la
+        // date avec le jour au format ISO YYYY-MM-DD (calendrier <input type=date>).
+        var d = new Date(), mm = pad(d.getMonth() + 1), dd = pad(d.getDate());
+        draft.unshift({
+          version: String(d.getFullYear()).slice(-2) + "." + mm + dd,
+          date: d.getFullYear() + "-" + mm + "-" + dd,
+          changes: [], locked: false
+        });
+        setDirty(); drawRows();
       } });
     host.appendChild(el("div", { class: "editor__head" }, [
       el("span", { class: "editor__head-title", text: "Versions" }),
@@ -1613,7 +1628,7 @@
     function lockedCard(entry) {
       var head = el("div", { class: "editcard__head" }, [
         el("span", { class: "log-entry__ver", text: "v." + (entry.version || "?") }),
-        entry.date ? el("span", { class: "log-entry__date", text: entry.date }) : null,
+        entry.date ? el("span", { class: "log-entry__date", text: fmtDateOnly(entry.date) }) : null,
         el("button", { class: "btn btn--ghost btn--mini editcard__edit", title: "Activer l'\u00e9dition de cette version", text: "Modifier",
           onClick: function () { entry.locked = false; drawRows(); } })
       ]);
@@ -1631,7 +1646,7 @@
     function openCard(entry, i) {
       var ver = el("input", { class: "input input--sm", type: "text", value: entry.version, placeholder: "Version (26.0618)" });
       ver.addEventListener("input", function () { entry.version = ver.value; setDirty(); });
-      var date = el("input", { class: "input input--sm", type: "text", value: entry.date, placeholder: "Date (2026-06-14)" });
+      var date = el("input", { class: "input input--sm", type: "date", value: toISODate(entry.date), title: "Date de la version" });
       date.addEventListener("input", function () { entry.date = date.value; setDirty(); });
       var delV = el("button", { class: "btn btn--ghost btn--icon", title: "Supprimer la version", text: "\u2715",
         onClick: function () { draft.splice(i, 1); setDirty(); drawRows(); } });
