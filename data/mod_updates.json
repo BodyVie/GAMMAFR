@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T19:04:41.711919+00:00",
+  "generated": "2026-06-19T11:59:03.539412+00:00",
   "updates": [
     {
       "id": "1. Job To Done — Redone",
@@ -8,7 +8,7 @@
       "version_local": "1.8.9",
       "version_remote": null,
       "has_update": false,
-      "last_checked": "2026-06-18T19:04:41.711919+00:00",
+      "last_checked": "2026-06-19T11:59:03.539412+00:00",
       "acknowledged_at": null
     },
     {
@@ -18,7 +18,7 @@
       "version_local": "7",
       "version_remote": null,
       "has_update": false,
-      "last_checked": "2026-06-18T19:04:41.711919+00:00",
+      "last_checked": "2026-06-19T11:59:03.539412+00:00",
       "acknowledged_at": null
     }
   ]
