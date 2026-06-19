@@ -27,7 +27,7 @@
 </string>
 
 <string id="ui_mcm_frites_about_community_details">
-    <text>%c[d_cyan]Hub communautaire%c[0,255,255,255] :\n• configurer ton patch VF \n• suivre les mises à jour \n• consulter le changelog \n• signaler un problème\n• Soumettre des suggestions</text>
+    <text>%c[d_cyan]Hub communautaire :%c[0,255,255,255] \n• configurer ton patch VF \n• suivre les mises à jour \n• consulter le changelog \n• signaler un problème\n• Soumettre des suggestions</text>
 </string>
 
 <string id="ui_mcm_frites_about_community_link">
