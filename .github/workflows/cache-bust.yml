@@ -1,0 +1,49 @@
+name: Cache-bust assets
+
+# Réécrit le suffixe ?v=… des références CSS/JS dans index.html à chaque
+# modification du code, avec le SHA court du commit. Force ainsi le navigateur
+# de TOUS les visiteurs à retélécharger les fichiers modifiés (le HTML, lui, est
+# rafraîchi sous ~10 min par le cache GitHub Pages).
+#
+# Le commit du bot porte « [skip ci] » et index.html n'est pas dans les filtres
+# de déclenchement : pas de boucle de déploiement (même garde-fou que
+# build-manifest.yml).
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'css/**'
+      - 'js/**'
+      - '.github/workflows/cache-bust.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  bust:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Tamponner ?v=<sha> sur les CSS/JS de index.html
+        run: |
+          VER="$(git rev-parse --short HEAD)"
+          sed -E -i \
+            "s/(href|src)=\"([^\"]+\.(css|js))\?v=[^\"]*\"/\1=\"\2?v=${VER}\"/g" \
+            index.html
+          echo "Jeton de cache appliqué : v=${VER}"
+
+      - name: Commit si index.html modifié
+        run: |
+          if git diff --quiet -- index.html; then
+            echo "Jeton inchangé, rien à committer."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "chore: cache-bust des assets (index.html) [skip ci]"
+          git push

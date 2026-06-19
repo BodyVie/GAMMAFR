@@ -32,7 +32,10 @@
   <meta name="twitter:description" content="Hub de la traduction française du modpack S.T.A.L.K.E.R. G.A.M.M.A. : configurateur d'installation, changelog et planificateur.">
   <meta name="twitter:image" content="https://bodyvie.github.io/GAMMAFR/assets/og-image.png">
 
-  <link rel="stylesheet" href="css/style.css">
+  <!-- Le suffixe ?v=… (cache-busting) est régénéré automatiquement à chaque
+       déploiement par .github/workflows/cache-bust.yml : il force le navigateur
+       à retélécharger CSS/JS dès qu'ils changent. Ne pas l'éditer à la main. -->
+  <link rel="stylesheet" href="css/style.css?v=1c2a329">
 </head>
 <body>
 
@@ -179,8 +182,8 @@
 
   </main>
 
-  <script src="js/core.js"></script>
-  <script src="js/zip.js"></script>
-  <script src="js/app.js"></script>
+  <script src="js/core.js?v=1c2a329"></script>
+  <script src="js/zip.js?v=1c2a329"></script>
+  <script src="js/app.js?v=1c2a329"></script>
 </body>
 </html>
