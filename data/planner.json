@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T17:03:51+00:00",
+  "generated": "2026-06-19T18:35:44+00:00",
   "labels": [
     {
       "id": "lbl_mqft6asnlhoe",
@@ -75,6 +75,11 @@
             {
               "id": "ac_mqh2hdjk65iq",
               "text": "Alimentation ChangeLog et Panneau affichage",
+              "done": false
+            },
+            {
+              "id": "ac_mql9rgkvvcrm",
+              "text": "Mode opératoire",
               "done": false
             }
           ],
