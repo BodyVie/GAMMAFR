@@ -1109,13 +1109,17 @@
     return strBytesUtf16le(xml);
   }
 
-  /* ---- frites_mcm.xml (MCM « À propos ») ------------------------------------
+  /* ---- frites_version.xml (version du MCM « À propos ») ----------------------
      Le MCM de F.R.I.T.E.S affiche la version installée dans son onglet « À propos »
-     (<string id="ui_mcm_frites_about_version">). On y injecte, à l'assemblage, la
-     même version que meta.ini / fomod/info.xml (dernière entrée du changelog), au
-     lieu d'un numéro figé. Le fichier est fourni en windows-1252 (sans BOM) : on
-     le manipule octet par octet (chaque octet ↔ un point de code 0–255) afin de
-     préserver à l'identique ses caractères accentués, le texte injecté étant pur ASCII. */
+     (<string id="ui_mcm_frites_about_version">). Cette balise est isolée dans son
+     propre fichier frites_version.xml — dissociée de frites_mcm.xml — afin que
+     l'assemblage ne réécrive QUE ce fichier (pur ASCII) et ne touche jamais à
+     frites_mcm.xml, qui conserve ainsi à l'identique ses caractères accentués
+     windows-1252 (plus aucun risque de réencodage). On y injecte, à l'assemblage,
+     la même version que meta.ini / fomod/info.xml (dernière entrée du changelog),
+     au lieu d'un numéro figé. Le fichier est fourni en windows-1252 (sans BOM) : on
+     le manipule octet par octet (chaque octet ↔ un point de code 0–255), le texte
+     injecté étant pur ASCII. */
   function bytesToBinStr(bytes) {
     var s = "";
     for (var i = 0; i < bytes.length; i++) s += String.fromCharCode(bytes[i]);
@@ -1129,7 +1133,7 @@
   // Ajoute le numéro de version à la fin du <text>…</text> de la balise
   // « about_version », en conservant son contenu tel quel (dont le code couleur
   // %c[d_orange]). Laisse le fichier intact si la balise est absente.
-  function patchMcmVersion(bytes, version) {
+  function patchVersionFile(bytes, version) {
     var xml = bytesToBinStr(bytes);
     var re = /(<string\s+id="ui_mcm_frites_about_version">[\s\S]*?<text>)([\s\S]*?)(<\/text>)/;
     if (!re.test(xml)) return bytes;
@@ -1239,13 +1243,14 @@
           website: config.site_url || ""
         });
       }
-      // gamedata/.../frites_mcm.xml : le MCM affiche la version dans \u00ab \u00c0 propos \u00bb.
+      // gamedata/.../frites_version.xml : le MCM affiche la version dans \u00ab \u00c0 propos \u00bb.
       // On y injecte la m\u00eame version (derni\u00e8re changelog) que meta.ini / info.xml.
+      // frites_mcm.xml (textes accentu\u00e9s) n'est jamais touch\u00e9 par l'assemblage.
       if (metaVersion) {
-        var mcmEntry = entries.filter(function (e) {
-          return baseName(e.name).toLowerCase() === "frites_mcm.xml";
+        var versionEntry = entries.filter(function (e) {
+          return baseName(e.name).toLowerCase() === "frites_version.xml";
         })[0];
-        if (mcmEntry) mcmEntry.data = patchMcmVersion(mcmEntry.data, metaVersion);
+        if (versionEntry) versionEntry.data = patchVersionFile(versionEntry.data, metaVersion);
       }
       status.textContent = "Compression\u2026";
       window.GammaZip.create(entries).then(function (blob) {
