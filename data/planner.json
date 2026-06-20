@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T00:32:58+00:00",
+  "generated": "2026-06-20T14:03:24+00:00",
   "labels": [
     {
       "id": "lbl_mqft6asnlhoe",
@@ -9,6 +9,11 @@
     {
       "id": "lbl_mqft6gjica9j",
       "name": "THUNDARD",
+      "color": "green"
+    },
+    {
+      "id": "lbl_mqmfgputi0hm",
+      "name": "HOPETIMUS",
       "color": "green"
     },
     {
