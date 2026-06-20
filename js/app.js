@@ -159,12 +159,18 @@
       });
   }
 
-  // Agrège les compteurs pour l'admin : total, mois en cours, et les 7 derniers
-  // jours (dernier = aujourd'hui), en une seule volée de requêtes.
-  function loadDownloadStats() {
-    var today = dlcountDateKeys();
+  // Fenêtre des 7 derniers jours (clés AAAA-MM-JJ au fuseau de Paris ; dernier = aujourd'hui).
+  function dlcountWindow() {
     var days = [];
     for (var i = 6; i >= 0; i--) days.push(dlcountDateKeys(new Date(Date.now() - i * 86400000)).day);
+    return days;
+  }
+
+  // Stats EN DIRECT depuis Abacus : total, mois en cours, 7 derniers jours, en une
+  // seule volée. Rejette si le compteur est injoignable (→ repli sur l'instantané).
+  function loadLiveStats() {
+    var today = dlcountDateKeys();
+    var days = dlcountWindow();
     return Promise.all(
       [dlcountGet("total"), dlcountGet("m-" + today.month)]
         .concat(days.map(function (dk) { return dlcountGet("d-" + dk); }))
@@ -175,6 +181,38 @@
         history: days.map(function (dk, i) { return { key: dk, label: dk.slice(8), n: dayVals[i] }; })
       };
     });
+  }
+
+  // REPLI : si Abacus est injoignable, on reconstruit l'affichage depuis le dernier
+  // instantané conservé dans le dépôt (data/dl-stats.json, alimenté chaque jour par
+  // la GitHub Action). Marqué « stale » pour le signaler clairement en admin.
+  function loadSnapshotStats() {
+    return fetchJSON("data/dl-stats.json", { cache: "no-store" }).then(function (s) {
+      s = (s && typeof s === "object") ? s : {};
+      var months = s.months || {}, days = s.days || {};
+      var today = dlcountDateKeys();
+      return {
+        total: s.total || 0,
+        month: months[today.month] || 0,
+        today: days[today.day] || 0,
+        history: dlcountWindow().map(function (dk) { return { key: dk, label: dk.slice(8), n: days[dk] || 0 }; }),
+        stale: true,
+        updated: s.updated || null
+      };
+    });
+  }
+
+  // Stats pour l'admin : en direct si possible, sinon repli sur l'instantané du dépôt.
+  function loadDownloadStats() {
+    return loadLiveStats().catch(function () { return loadSnapshotStats(); });
+  }
+
+  // Date d'un instantané (ISO) → libellé court à la française.
+  function formatSnapDate(iso) {
+    var t = Date.parse(iso);
+    if (isNaN(t)) return String(iso || "");
+    try { return new Date(t).toLocaleString("fr-FR", { dateStyle: "medium", timeStyle: "short" }); }
+    catch (_) { return new Date(t).toISOString(); }
   }
 
   // Entier formaté à la française (séparateur de milliers).
@@ -2729,6 +2767,11 @@
     }
     function paint(d) {
       clear(body);
+      if (d.stale) {
+        body.appendChild(el("p", { class: "dlstats__stale", text:
+          "⚠ Compteur en direct injoignable (Abacus). Affichage du dernier instantané enregistré"
+          + (d.updated ? " le " + formatSnapDate(d.updated) : "") + " — les chiffres du jour peuvent manquer." }));
+      }
       body.appendChild(el("div", { class: "dlstats__grid" }, [
         statCell("Aujourd'hui", d.today),
         statCell("Ce mois-ci", d.month),
@@ -2756,7 +2799,10 @@
       refresh.disabled = true;
       setStatus(status, "work", "Lecture…");
       loadDownloadStats()
-        .then(function (d) { paint(d); setStatus(status, "ok", "À jour"); })
+        .then(function (d) {
+          paint(d);
+          setStatus(status, d.stale ? "err" : "ok", d.stale ? "Abacus injoignable — instantané" : "À jour");
+        })
         .catch(function () { paintError(); setStatus(status, "err", "Indisponible"); })
         .then(function () { refresh.disabled = false; });
     }

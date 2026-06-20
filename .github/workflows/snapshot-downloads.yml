@@ -1,0 +1,47 @@
+name: Instantané des téléchargements
+
+# Enregistre chaque jour les compteurs de téléchargement (Abacus) dans
+# data/dl-stats.json : un historique daté, conservé dans le dépôt, qui survit
+# même si le service de comptage public disparaît.
+#
+# Déclenché uniquement par planification ou manuellement (jamais sur push) : le
+# commit du bot ne peut donc pas relancer le workflow (aucune boucle).
+#
+# Si la lecture du compteur échoue (Abacus HS), le script sort en erreur et le
+# run passe au ROUGE — signal direct dans l'onglet Actions (et par e-mail si les
+# notifications GitHub sont actives) — sans écraser le dernier bon instantané.
+
+on:
+  schedule:
+    - cron: '20 2 * * *'   # tous les jours à 02h20 UTC (≈ 03h/04h à Paris)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Lire les compteurs et écrire data/dl-stats.json
+        run: python3 .github/scripts/snapshot_downloads.py
+
+      - name: Commit si modifié
+        run: |
+          if git diff --quiet -- data/dl-stats.json; then
+            echo "Instantané inchangé, rien à committer."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/dl-stats.json
+          git commit -m "chore: instantané des téléchargements (data/dl-stats.json) [skip ci]"
+          git push

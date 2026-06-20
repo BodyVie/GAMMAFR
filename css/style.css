@@ -1354,6 +1354,16 @@ button.plabel.is-on::before { content: "✓\00A0"; }
 
 /* ---- Statistiques de téléchargement (admin) -------------------------- */
 .dlstats { margin-top: 4px; }
+.dlstats__stale {
+  margin: 0 0 14px;
+  padding: 10px 12px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--amber);
+  background: var(--amber-soft);
+  border: 1px solid var(--amber);
+  border-radius: var(--radius);
+}
 .dlstats__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

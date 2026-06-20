@@ -341,6 +341,26 @@ admins connectés.
 - **Réglages** dans `js/app.js` : constantes `DLCOUNT_BASE` (service) et
   `DLCOUNT_NS` (namespace). Changer `DLCOUNT_NS` = repartir de **compteurs neufs**.
 
+**Conservation des données (filet anti-perte).** Comme Abacus est un service
+gratuit sans compte, on ne « possède » pas les chiffres et ils pourraient
+disparaître si le service ferme. Une **GitHub Action planifiée**
+(`.github/workflows/snapshot-downloads.yml`, 1×/jour) lit donc les compteurs et
+enregistre un **instantané daté dans `data/dl-stats.json`** — un historique
+conservé dans le dépôt, qui survit même si Abacus disparaît (et qui permettrait de
+redémarrer un autre service à partir du dernier total connu). Le script
+(`.github/scripts/snapshot_downloads.py`, sans dépendance) lit la base et le
+namespace **directement dans `js/app.js`** : aucune désynchronisation possible.
+`data/dl-stats.json` est **maintenu automatiquement — ne pas l'éditer à la main.**
+
+**Si Abacus est injoignable (HS).** Deux signaux directs, aucun comptage
+silencieusement perdu côté affichage :
+1. L'onglet Admin bascule automatiquement sur le **dernier instantané** de
+   `data/dl-stats.json` et l'affiche avec un **bandeau d'avertissement**
+   (« Abacus injoignable — instantané du … ») plutôt que des zéros trompeurs.
+2. Le job quotidien **échoue (run rouge)** dans l'onglet *Actions* (et t'envoie un
+   e-mail si tes notifications GitHub sont actives), sans écraser le dernier bon
+   instantané.
+
 ---
 
 ## 7. Sécurité — pourquoi le token ne fuit pas
