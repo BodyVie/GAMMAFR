@@ -1862,9 +1862,19 @@
   // champ « modified ».
   function ticketFingerprint(t) {
     return JSON.stringify({
-      title: t.title, description: t.description, status: t.status,
+      title: t.title, description: t.description, url: t.url, status: t.status,
       due: t.due, labels: t.labels, actions: t.actions, comments: t.comments
     });
+  }
+
+  // Construit un href sûr depuis une URL saisie par l'admin : impose le schéma
+  // http(s) (préfixe https:// si absent) afin d'écarter tout javascript:/data:.
+  function plUrlHref(raw) {
+    var u = String(raw || "").trim();
+    if (!u) return "";
+    if (/^https?:\/\//i.test(u)) return u;             // déjà http(s)
+    if (/^\/\//.test(u)) return "https:" + u;          // protocole-relatif //exemple.com
+    return "https://" + u.replace(/^[a-z][\w+.\-]*:\/*/i, ""); // sinon force https (retire tout schéma exotique)
   }
 
   function normalizeTicket(t) {
@@ -1873,6 +1883,7 @@
       id: t.id || plUid("tk"),
       title: String(t.title || ""),
       description: String(t.description || ""),
+      url: String(t.url || ""),
       status: PSTATUS[t.status] ? t.status : "todo",
       due: String(t.due || ""),
       labels: Array.isArray(t.labels) ? t.labels.slice() : [],
@@ -2181,6 +2192,14 @@
     // description en façade dès qu'elle est renseignée
     if (tk.description) children.push(el("div", { class: "tcard__desc", text: tk.description }));
 
+    // URL facultative : lien cliquable sous la description (visiteurs comme admin)
+    if (tk.url) {
+      var urlLink = el("a", { class: "tcard__link", href: plUrlHref(tk.url), target: "_blank", rel: "noopener noreferrer", text: "↗ " + tk.url });
+      // le clic sur le lien ne doit pas ouvrir/déplier le ticket
+      urlLink.addEventListener("click", function (e) { e.stopPropagation(); });
+      children.push(urlLink);
+    }
+
     // liste des actions en façade (y compris celles déjà cochées)
     if (tk.actions.length) {
       var acts = el("div", { class: "tcard__acts" });
@@ -2317,6 +2336,8 @@
       body.appendChild(lab);
     }
     if (tk.description) body.appendChild(el("p", { class: "tdesc", text: tk.description }));
+    // URL facultative : lien cliquable sous la description
+    if (tk.url) body.appendChild(el("a", { class: "turl", href: plUrlHref(tk.url), target: "_blank", rel: "noopener noreferrer", text: "↗ " + tk.url }));
 
     if (tk.actions.length) {
       body.appendChild(el("div", { class: "tsub", text: "Actions" }));
@@ -2402,6 +2423,21 @@
     desc.value = tk.description;
     desc.addEventListener("input", function () { tk.description = desc.value; planChanged(); });
     body.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Description" }), desc]));
+
+    // URL facultative : champ modifiable + lien « Ouvrir » qui suit la saisie
+    var urlInp = el("input", { class: "input input--sm", type: "url", value: tk.url || "", placeholder: "https://exemple.com (facultatif)" });
+    var urlOpen = el("a", { class: "field__open", target: "_blank", rel: "noopener noreferrer", text: "Ouvrir ↗" });
+    function syncUrlOpen() {
+      var href = plUrlHref(urlInp.value);
+      if (href) { urlOpen.href = href; urlOpen.hidden = false; }
+      else { urlOpen.removeAttribute("href"); urlOpen.hidden = true; }
+    }
+    urlInp.addEventListener("input", function () { tk.url = urlInp.value; syncUrlOpen(); planChanged(); });
+    syncUrlOpen();
+    body.appendChild(el("label", { class: "field" }, [
+      el("span", { class: "field__label field__label--row" }, [el("span", { text: "URL (facultatif)" }), urlOpen]),
+      urlInp
+    ]));
 
     body.appendChild(el("span", { class: "field__label", text: "Étiquettes" }));
     var labWrap = el("div", { class: "labelpick" });
@@ -2658,6 +2694,8 @@
             modified: t.modified || t.created || ""
           };
           if (isArchiveCat(c) && t.archived) tk.archived = t.archived;
+          var u = (t.url || "").trim();
+          if (u) tk.url = u;                 // URL facultative : écrite seulement si renseignée
           return tk;
         });
         return out;

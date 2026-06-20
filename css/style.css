@@ -562,6 +562,14 @@ a:hover { text-decoration: underline; }
   font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;
   color: var(--dim); margin-bottom: 6px;
 }
+/* en-tête de champ avec lien d'action aligné à droite (ex. URL → « Ouvrir ») */
+.field__label--row { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+.field__open {
+  text-transform: none; letter-spacing: 0; font-weight: 600;
+  color: var(--rad); text-decoration: none; white-space: nowrap;
+}
+.field__open:hover { text-decoration: underline; }
+.field__open[hidden] { display: none; }
 .input, .textarea {
   width: 100%;
   font-family: var(--mono);
@@ -879,6 +887,13 @@ body.modal-open { overflow: hidden; }
 .tcard__acts { display: flex; flex-direction: column; gap: 4px; }
 .tcard__acts .pcheck { font-size: 12px; }
 .tcard__acts .pcheck__box { width: 15px; height: 15px; font-size: 10px; }
+/* URL facultative en façade du ticket : lien cliquable discret */
+.tcard__link {
+  display: inline-block; max-width: 100%;
+  font-size: 12px; color: var(--rad); text-decoration: none;
+  word-break: break-all; overflow-wrap: anywhere;
+}
+.tcard__link:hover { text-decoration: underline; }
 
 .pbadge {
   font-size: 10px; color: var(--dim); background: var(--surface);
@@ -930,6 +945,12 @@ button.plabel.is-on::before { content: "✓\00A0"; }
 
 .tmeta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
 .tdesc { margin: 0; color: var(--text); white-space: pre-wrap; font-size: 14px; }
+.turl {
+  display: inline-block; max-width: 100%;
+  font-size: 14px; color: var(--rad); text-decoration: none;
+  word-break: break-all; overflow-wrap: anywhere;
+}
+.turl:hover { text-decoration: underline; }
 .tsub {
   font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--dim);
   border-bottom: 1px solid var(--line-soft); padding-bottom: 4px; margin-top: 4px;
