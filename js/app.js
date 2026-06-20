@@ -1009,13 +1009,13 @@
       // (N = patchs extra uniquement) plutôt que d'additionner les deux en un
       // seul nombre, qui laisserait croire que « extra » possède ses propres
       // patchs tweak.
-      var sub = lv.desc;
+      var countText = "";
       if (lv.id === "tweak") {
         var nTweak = manifest.tweak.length;
-        sub += " (" + nTweak + " patch" + (nTweak > 1 ? "s" : "") + " dispo)";
+        countText = " (" + nTweak + " patch" + (nTweak > 1 ? "s" : "") + " dispo)";
       } else if (lv.id === "extra") {
         var nExtra = manifest.extra.length;
-        sub += " (G.A.M.M.A. tweak + " + nExtra + " patch" + (nExtra > 1 ? "s" : "") + " dispo)";
+        countText = " (G.A.M.M.A. tweak + " + nExtra + " patch" + (nExtra > 1 ? "s" : "") + " dispo)";
       }
       var row = el("div", {
         class: "opt" + (checked ? " is-checked" : ""), "data-type": "single",
@@ -1024,7 +1024,13 @@
         el("span", { class: "opt__mark" }),
         el("div", { class: "opt__body" }, [
           el("div", { class: "opt__label", text: lv.label }),
-          el("div", { class: "opt__desc", text: sub })
+          // Texte descriptif du niveau en blanc (couleur du titre) ; le compteur
+          // garde sa teinte atténuée via .opt__count. Le modifieur --level cible
+          // ces seules descriptions (les patchs réutilisent .opt__desc atténué).
+          el("div", { class: "opt__desc opt__desc--level" }, [
+            lv.desc,
+            countText ? el("span", { class: "opt__count", text: countText }) : null
+          ])
         ])
       ]);
       var pick = function () {

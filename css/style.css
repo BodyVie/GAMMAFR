@@ -448,6 +448,10 @@ a:hover { text-decoration: underline; }
 .opt__body { min-width: 0; }
 .opt__label { font-weight: 700; color: var(--text); letter-spacing: 0.02em; }
 .opt__desc { margin-top: 4px; font-size: 13px; color: var(--dim); line-height: 1.55; }
+/* Descriptions des niveaux G.A.M.M.A. : texte en blanc (couleur du titre) ; le
+   compteur de patchs (.opt__count) conserve la teinte atténuée. */
+.opt__desc--level { color: var(--text); }
+.opt__desc--level .opt__count { color: var(--dim); }
 
 /* récapitulatif */
 .recap { display: flex; flex-direction: column; gap: 18px; }
