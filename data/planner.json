@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T00:27:46+00:00",
+  "generated": "2026-06-20T00:27:56+00:00",
   "labels": [
     {
       "id": "lbl_mqft6asnlhoe",
@@ -43,7 +43,10 @@
           "description": "",
           "status": "todo",
           "due": "",
-          "labels": [],
+          "labels": [
+            "lbl_mqft6asnlhoe",
+            "lbl_mqiajiyf4urc"
+          ],
           "actions": [],
           "comments": [],
           "created": "2026-06-20T00:27:30.618Z",
