@@ -21,6 +21,8 @@
   --rust:      #cf6a3c;  /* erreur */
   --rust-soft: rgba(207, 106, 60, 0.12);
   --ok:        #7fb069;
+  --green:     #2f6b34;  /* vert foncé — bouton « Enregistrer » (bordure + texte) */
+  --green-soft:#cdeccb;  /* vert clair — fond du bouton « Enregistrer » */
 
   --mono: ui-monospace, "JetBrains Mono", "Cascadia Code", "Source Code Pro",
           "DejaVu Sans Mono", Menlo, Consolas, monospace;
@@ -542,6 +544,11 @@ a:hover { text-decoration: underline; }
 
 .btn--amber { border-color: var(--amber); color: var(--amber); }
 .btn--amber:hover { background: var(--amber-soft); }
+
+/* bouton « Enregistrer » : bordure + texte vert foncé, fond vert clair */
+.btn--green { border-color: var(--green); color: var(--green); background: var(--green-soft); }
+.btn--green:hover { background: #bce3b9; }
+.btn--green:disabled:hover { background: var(--green-soft); }
 
 .btn--wide { width: 100%; }
 

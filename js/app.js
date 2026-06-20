@@ -302,7 +302,7 @@
   // uniquement tant qu'il reste des modifications non enregistrées.
   function makeSaver(filename, build, status, onSuccess) {
     var dirty = false, saving = false;
-    var btn = el("button", { class: "btn btn--amber", text: "Enregistrer", disabled: true });
+    var btn = el("button", { class: "btn btn--green", text: "Enregistrer", disabled: true });
     function save() {
       if (saving || !dirty) return;
       var obj = build();
@@ -445,7 +445,7 @@
     ]));
     content.appendChild(el("div", { class: "modal__foot" }, [
       el("button", { class: "btn btn--ghost", text: "Quitter sans enregistrer", onClick: function () { cancelAutosaves(); closeModal(); proceed(); } }),
-      el("button", { class: "btn btn--amber", text: "Enregistrer", onClick: function () { flushAutosaves(); closeModal(); proceed(); } })
+      el("button", { class: "btn btn--green", text: "Enregistrer", onClick: function () { flushAutosaves(); closeModal(); proceed(); } })
     ]));
     openModal(content);
   }
@@ -1457,7 +1457,7 @@
     setEnabled(false);
 
     var status = el("span", { class: "editor__status" });
-    var saveBtn = el("button", { class: "btn btn--amber", text: "Enregistrer", disabled: true });
+    var saveBtn = el("button", { class: "btn btn--green", text: "Enregistrer", disabled: true });
 
     // pré-remplissage depuis le fichier (source autoritative) + SHA mémorisé pour
     // le verrouillage optimiste lors de l'enregistrement
@@ -1560,7 +1560,7 @@
     ]));
 
     var status = el("span", { class: "editor__status" });
-    var saveBtn = el("button", { class: "btn btn--amber", text: "Enregistrer", disabled: true });
+    var saveBtn = el("button", { class: "btn btn--green", text: "Enregistrer", disabled: true });
 
     // Journal nettoyé à partir du brouillon : on ignore les versions sans numéro.
     function build() {
@@ -2772,7 +2772,7 @@
       if (config.site_tagline) $("#brandTag").textContent = config.site_tagline;
     }
     // Enregistrement manuel : un bouton + une confirmation avant d'écrire.
-    var cfgBtn = el("button", { class: "btn btn--amber", text: "Enregistrer" });
+    var cfgBtn = el("button", { class: "btn btn--green", text: "Enregistrer" });
     cfgBtn.addEventListener("click", function () {
       showConfirm({
         title: "Modifier la configuration",
