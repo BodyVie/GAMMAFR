@@ -89,6 +89,100 @@
     ]));
   }
 
+  /* =======================================================================
+     COMPTEUR DE TÉLÉCHARGEMENTS (archives d'installation générées)
+     -----------------------------------------------------------------------
+     Stats jour / mois / total, visibles uniquement dans l'onglet Admin.
+     INDÉPENDANT du Cloudflare Worker : aucune requête ne part vers lui, son
+     quota n'est donc jamais entamé. On s'appuie sur Abacus, un compteur
+     public, gratuit et sans inscription (https://abacus.jasoncameron.dev) :
+     « /hit/<ns>/<clé> » incrémente et renvoie { value }, « /get/<ns>/<clé> »
+     lit sans incrémenter. Son domaine est neutre (ce n'est pas un service
+     d'analytics répertorié), donc les bloqueurs de pub — qui ciblent les
+     domaines de tracking connus — ne le filtrent pas. Comptage anonyme :
+     aucun cookie, aucune donnée personnelle.
+
+     Trois compteurs sont incrémentés à chaque archive remise :
+       total          cumul de tous les téléchargements
+       m-AAAA-MM      total du mois en cours
+       d-AAAA-MM-JJ   total du jour
+     Les clés de date sont TOUJOURS calculées au fuseau Europe/Paris, pour que
+     la frontière jour/mois soit la même quel que soit le fuseau du visiteur.
+
+     Limite assumée : un compteur public côté client est, par nature, gonflable
+     par quiconque lit ce code (pas de secret possible sans backend). Le
+     namespace peu devinable ci-dessous limite seulement le risque.
+     Pour repartir de zéro ou changer de service : modifier DLCOUNT_BASE /
+     DLCOUNT_NS (un nouveau namespace = compteurs neufs). Rien d'autre n'en dépend.
+     ======================================================================= */
+  var DLCOUNT_BASE = "https://abacus.jasoncameron.dev";
+  var DLCOUNT_NS = "gammafr-dl-bodyvie-7k2p9x";
+
+  // Clés de date au fuseau Europe/Paris → { day:"AAAA-MM-JJ", month:"AAAA-MM" }.
+  function dlcountDateKeys(d) {
+    var o = {};
+    new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Europe/Paris", year: "numeric", month: "2-digit", day: "2-digit"
+    }).formatToParts(d || new Date()).forEach(function (p) {
+      if (p.type !== "literal") o[p.type] = p.value;
+    });
+    return { day: o.year + "-" + o.month + "-" + o.day, month: o.year + "-" + o.month };
+  }
+
+  // Incrémente un compteur (créé au premier appel). Best-effort : jamais d'attente
+  // ni d'erreur propagée — le comptage ne doit jamais gêner le téléchargement.
+  function dlcountHit(key) {
+    try {
+      // keepalive : la requête aboutit même si l'onglet se ferme juste après.
+      fetch(DLCOUNT_BASE + "/hit/" + DLCOUNT_NS + "/" + encodeURIComponent(key),
+        { cache: "no-store", keepalive: true }).catch(function () {});
+    } catch (_) {}
+  }
+
+  // Appelé à l'instant où l'archive est effectivement remise au visiteur.
+  function countArchiveDownload() {
+    var k = dlcountDateKeys();
+    dlcountHit("total");
+    dlcountHit("m-" + k.month);
+    dlcountHit("d-" + k.day);
+  }
+
+  // Lecture seule d'un compteur → Promise<number>. 404 = compteur pas encore créé
+  // (0). Un échec réseau (requête filtrée, hors ligne) REJETTE : l'admin peut ainsi
+  // distinguer « 0 téléchargement » de « compteur injoignable ».
+  function dlcountGet(key) {
+    return fetch(DLCOUNT_BASE + "/get/" + DLCOUNT_NS + "/" + encodeURIComponent(key), { cache: "no-store" })
+      .then(function (r) {
+        if (r.status === 404) return 0;
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json().then(function (d) { return d && typeof d.value === "number" ? d.value : 0; });
+      });
+  }
+
+  // Agrège les compteurs pour l'admin : total, mois en cours, et les 7 derniers
+  // jours (dernier = aujourd'hui), en une seule volée de requêtes.
+  function loadDownloadStats() {
+    var today = dlcountDateKeys();
+    var days = [];
+    for (var i = 6; i >= 0; i--) days.push(dlcountDateKeys(new Date(Date.now() - i * 86400000)).day);
+    return Promise.all(
+      [dlcountGet("total"), dlcountGet("m-" + today.month)]
+        .concat(days.map(function (dk) { return dlcountGet("d-" + dk); }))
+    ).then(function (v) {
+      var dayVals = v.slice(2);
+      return {
+        total: v[0], month: v[1], today: dayVals[dayVals.length - 1],
+        history: days.map(function (dk, i) { return { key: dk, label: dk.slice(8), n: dayVals[i] }; })
+      };
+    });
+  }
+
+  // Entier formaté à la française (séparateur de milliers).
+  function formatInt(n) {
+    try { return Number(n || 0).toLocaleString("fr-FR"); }
+    catch (_) { return String(n || 0); }
+  }
+
   // ---- amorçage ----------------------------------------------------------
   document.addEventListener("DOMContentLoaded", function () {
     syncShareMeta();
@@ -1308,6 +1402,7 @@
         var url = URL.createObjectURL(blob);
         var a = el("a", { href: url, download: zipName });
         document.body.appendChild(a); a.click(); document.body.removeChild(a);
+        countArchiveDownload(); // stats jour/mois/total (onglet Admin), best-effort
         setTimeout(function () { URL.revokeObjectURL(url); }, 8000);
         status.className = "notice is-shown notice--ok";
         clear(status);
@@ -2614,6 +2709,65 @@
     else host.appendChild(renderAdminLock());
   }
 
+  // Carte « Statistiques de téléchargement » : compteur jour / mois / total des
+  // archives générées + mini-tendance sur 7 jours. Chargement asynchrone, avec
+  // dégradation propre si le compteur est injoignable (bloqueur de pub, réseau).
+  function renderDownloadStats() {
+    var card = el("div", { class: "card" });
+    card.appendChild(el("p", { class: "admin-note", text:
+      "Nombre d'archives d'installation générées par les visiteurs. Comptage anonyme via un compteur public gratuit, indépendant du Worker (aucun cookie, aucune donnée personnelle)." }));
+
+    var body = el("div", { class: "dlstats" }, [el("span", { class: "loading", text: "Lecture du compteur…" })]);
+    var status = el("span", { class: "editor__status" });
+    var refresh = el("button", { class: "btn btn--ghost btn--mini", text: "↻ Rafraîchir" });
+
+    function statCell(label, n) {
+      return el("div", { class: "dlstats__cell" }, [
+        el("span", { class: "dlstats__num", text: formatInt(n) }),
+        el("span", { class: "dlstats__lbl", text: label })
+      ]);
+    }
+    function paint(d) {
+      clear(body);
+      body.appendChild(el("div", { class: "dlstats__grid" }, [
+        statCell("Aujourd'hui", d.today),
+        statCell("Ce mois-ci", d.month),
+        statCell("Total", d.total)
+      ]));
+      var max = 1;
+      d.history.forEach(function (h) { if (h.n > max) max = h.n; });
+      body.appendChild(el("div", { class: "dlstats__hist" }, d.history.map(function (h) {
+        return el("div", { class: "dlstats__col", title: h.key + " — " + formatInt(h.n) + " téléchargement(s)" }, [
+          el("span", { class: "dlstats__count", text: formatInt(h.n) }),
+          el("span", { class: "dlstats__bar" }, [
+            el("span", { class: "dlstats__fill", style: "height:" + Math.round((h.n / max) * 100) + "%" })
+          ]),
+          el("span", { class: "dlstats__day", text: h.label })
+        ]);
+      })));
+      body.appendChild(el("p", { class: "dlstats__cap", text: "7 derniers jours · fuseau de Paris" }));
+    }
+    function paintError() {
+      clear(body);
+      body.appendChild(el("p", { class: "admin-note", style: "margin:0", text:
+        "Compteur injoignable. Un bloqueur de pub très strict peut filtrer la requête : réessaie en le désactivant sur ce site, ou vérifie ta connexion." }));
+    }
+    function load() {
+      refresh.disabled = true;
+      setStatus(status, "work", "Lecture…");
+      loadDownloadStats()
+        .then(function (d) { paint(d); setStatus(status, "ok", "À jour"); })
+        .catch(function () { paintError(); setStatus(status, "err", "Indisponible"); })
+        .then(function () { refresh.disabled = false; });
+    }
+    refresh.addEventListener("click", load);
+
+    card.appendChild(body);
+    card.appendChild(el("div", { class: "editor__foot" }, [refresh, status]));
+    load();
+    return card;
+  }
+
   function renderAdminNoWorker() {
     var card = el("div", { class: "card" });
     card.appendChild(el("p", { class: "admin-note", text:
@@ -2675,6 +2829,10 @@
       el("span", { text: "Chaque éditeur s'enregistre avec son bouton « Enregistrer ». Tu peux aussi modifier le Panneau d'affichage et le Changelog dans leurs onglets." }),
       el("button", { class: "btn btn--ghost btn--mini", text: "Verrouiller", onClick: lockAdmin })
     ]));
+
+    // ---- statistiques de téléchargement (compteur jour / mois / total) ----
+    wrap.appendChild(el("div", { class: "stencil stencil--muted", text: "Statistiques de téléchargement" }));
+    wrap.appendChild(renderDownloadStats());
 
     // ---- interrupteur du configurateur (maintenance) ----
     // Bouton ON/OFF purement mécanique : un admin coupe le configurateur (et donc

@@ -1351,3 +1351,90 @@ button.plabel.is-on::before { content: "✓\00A0"; }
 }
 .switch__state--on { color: var(--rad); }
 .switch__state--off { color: var(--amber); }
+
+/* ---- Statistiques de téléchargement (admin) -------------------------- */
+.dlstats { margin-top: 4px; }
+.dlstats__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+.dlstats__cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 16px 10px;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.dlstats__num {
+  font-family: var(--mono);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--rad);
+}
+.dlstats__lbl {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--dim);
+  text-align: center;
+}
+.dlstats__hist {
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+  height: 120px;
+  margin-top: 18px;
+}
+.dlstats__col {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4px;
+}
+.dlstats__count {
+  height: 14px;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--dim);
+}
+.dlstats__bar {
+  width: 100%;
+  max-width: 26px;
+  height: 88px;
+  display: flex;
+  align-items: flex-end;
+  background: var(--line-soft);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.dlstats__fill {
+  width: 100%;
+  min-height: 2px;
+  background: var(--amber);
+  border-radius: 2px 2px 0 0;
+}
+.dlstats__day {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--dim);
+}
+.dlstats__cap {
+  margin: 12px 0 0;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--dim);
+  text-align: right;
+}
+@media (max-width: 520px) {
+  .dlstats__num { font-size: 22px; }
+  .dlstats__count { display: none; }
+  .dlstats__bar { height: 96px; }
+}

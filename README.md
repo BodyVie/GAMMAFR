@@ -315,6 +315,32 @@ sa propre session. Pour l'activer, lie un namespace KV `RATE_LIMIT` au Worker
 > notable, elle absorbe en douceur les anciens clients encore servis par le cache
 > CDN pendant la propagation d'une mise à jour.
 
+### Compteur de téléchargements (stats jour / mois / total)
+
+L'onglet Admin affiche en tête un bloc **« Statistiques de téléchargement »** :
+nombre d'archives d'installation générées **aujourd'hui**, **ce mois-ci** et au
+**total**, plus une mini-tendance sur les 7 derniers jours. Visible des seuls
+admins connectés.
+
+- **Indépendant du Worker.** Le comptage n'emprunte **pas** le Cloudflare Worker —
+  son quota n'est jamais entamé. Il s'appuie sur [Abacus](https://abacus.jasoncameron.dev),
+  un compteur public gratuit et sans inscription : `…/hit/<ns>/<clé>` incrémente,
+  `…/get/<ns>/<clé>` lit (`{ value }`).
+- **Résistant aux bloqueurs de pub.** Le domaine est neutre (ce n'est pas un service
+  d'analytics répertorié), donc les listes de filtrage ne le bloquent pas — au
+  contraire d'un Google Analytics / Plausible. Même bloquée, une requête `/hit`
+  (GET simple) part quand même : l'incrément a lieu côté serveur. Si la **lecture**
+  admin échoue (filtrage strict, hors ligne), le bloc affiche « Indisponible »
+  plutôt que des zéros trompeurs.
+- **Trois compteurs par téléchargement** : `total`, `m-AAAA-MM`, `d-AAAA-MM-JJ`,
+  datés au **fuseau Europe/Paris** (frontière jour/mois identique pour tous les
+  visiteurs). Comptage **anonyme** : aucun cookie, aucune donnée personnelle.
+- **Limite assumée.** Un compteur public côté client est gonflable par quiconque
+  lit le code (impossible de cacher un secret sans backend) ; le namespace peu
+  devinable limite seulement le risque.
+- **Réglages** dans `js/app.js` : constantes `DLCOUNT_BASE` (service) et
+  `DLCOUNT_NS` (namespace). Changer `DLCOUNT_NS` = repartir de **compteurs neufs**.
+
 ---
 
 ## 7. Sécurité — pourquoi le token ne fuit pas
