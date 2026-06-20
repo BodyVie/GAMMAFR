@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T14:05:16+00:00",
+  "generated": "2026-06-20T16:23:27+00:00",
   "labels": [
     {
       "id": "lbl_mqft6asnlhoe",
@@ -73,7 +73,7 @@
         {
           "id": "tk_mqmfhzy4u0is",
           "title": "UI Rework G.A.M.M.A. Style by Sota",
-          "description": "https://www.moddb.com/mods/stalker-anomaly/addons/ui-rework-gamma-style-by-sota",
+          "description": "",
           "status": "todo",
           "due": "",
           "labels": [
@@ -89,7 +89,8 @@
           ],
           "comments": [],
           "created": "2026-06-20T14:04:00.700Z",
-          "modified": "2026-06-20T14:05:14.397Z"
+          "modified": "2026-06-20T16:23:12.996Z",
+          "url": "https://www.moddb.com/mods/stalker-anomaly/addons/ui-rework-gamma-style-by-sota"
         }
       ]
     },
