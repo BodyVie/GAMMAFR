@@ -1911,10 +1911,6 @@
     };
   }
 
-  function findLabel(p, id) {
-    for (var i = 0; i < p.labels.length; i++) if (p.labels[i].id === id) return p.labels[i];
-    return null;
-  }
   function isOverdue(due) {
     if (!due) return false;
     var d = new Date(due + "T23:59:59");
@@ -2177,7 +2173,7 @@
     var children = [];
     if (tk.labels.length) {
       var lab = el("div", { class: "tcard__labels" });
-      tk.labels.forEach(function (lid) { var l = findLabel(p, lid); if (l) lab.appendChild(el("span", { class: "plabel plabel--" + l.color, text: l.name })); });
+      p.labels.forEach(function (l) { if (tk.labels.indexOf(l.id) !== -1) lab.appendChild(el("span", { class: "plabel plabel--" + l.color, text: l.name })); });
       children.push(lab);
     }
     children.push(el("div", { class: "tcard__title", text: tk.title || "(sans titre)" }));
@@ -2317,7 +2313,7 @@
 
     if (tk.labels.length) {
       var lab = el("div", { class: "tcard__labels" });
-      tk.labels.forEach(function (lid) { var l = findLabel(p, lid); if (l) lab.appendChild(el("span", { class: "plabel plabel--" + l.color, text: l.name })); });
+      p.labels.forEach(function (l) { if (tk.labels.indexOf(l.id) !== -1) lab.appendChild(el("span", { class: "plabel plabel--" + l.color, text: l.name })); });
       body.appendChild(lab);
     }
     if (tk.description) body.appendChild(el("p", { class: "tdesc", text: tk.description }));
@@ -2571,10 +2567,12 @@
     content.appendChild(body);
     var listBox = el("div", { class: "labellist" });
     body.appendChild(listBox);
+    var labDragId = null;                 // glisser-déposer des étiquettes : id en cours
 
     function paint() {
       clear(listBox);
       p.labels.forEach(function (l, i) {
+        var grip = el("span", { class: "pcheck__grip", title: "Glisser pour réordonner", text: "⠿", draggable: "true" });
         var name = el("input", { class: "input input--sm", type: "text", value: l.name, placeholder: "Nom de l'étiquette" });
         name.addEventListener("input", function () { l.name = name.value; planChanged(); });
         var colors = el("div", { class: "colorpick" });
@@ -2587,7 +2585,33 @@
           p.categories.forEach(function (c) { c.tickets.forEach(function (t) { var k = t.labels.indexOf(l.id); if (k !== -1) t.labels.splice(k, 1); }); });
           p.labels.splice(i, 1); paint(); planChanged();
         } });
-        listBox.appendChild(el("div", { class: "labelrow" }, [name, colors, del]));
+        var row = el("div", { class: "labelrow", "data-lblid": l.id }, [grip, name, colors, del]);
+        // glisser-déposer pour réordonner les étiquettes (via la poignée) — pilote l'ordre d'affichage sur les tickets
+        grip.addEventListener("dragstart", function (e) {
+          labDragId = l.id; row.classList.add("is-dragging");
+          if (e.dataTransfer) { e.dataTransfer.effectAllowed = "move"; try { e.dataTransfer.setData("text/plain", l.id); } catch (_) {} }
+        });
+        grip.addEventListener("dragend", function () { labDragId = null; row.classList.remove("is-dragging"); });
+        row.addEventListener("dragover", function (e) {
+          if (labDragId == null || labDragId === l.id) return;
+          e.preventDefault(); if (e.dataTransfer) e.dataTransfer.dropEffect = "move";
+        });
+        row.addEventListener("drop", function (e) {
+          if (labDragId == null || labDragId === l.id) return;
+          e.preventDefault();
+          var from = -1;
+          for (var k = 0; k < p.labels.length; k++) { if (p.labels[k].id === labDragId) { from = k; break; } }
+          if (from === -1) return;
+          var box = row.getBoundingClientRect();
+          var after = e.clientY > box.top + box.height / 2;
+          var moved = p.labels.splice(from, 1)[0];
+          var to = 0;
+          for (var m = 0; m < p.labels.length; m++) { if (p.labels[m].id === l.id) { to = m; break; } }
+          p.labels.splice(after ? to + 1 : to, 0, moved);
+          labDragId = null;
+          paint(); planChanged();
+        });
+        listBox.appendChild(row);
       });
       if (!p.labels.length) listBox.appendChild(el("p", { class: "list-empty", text: "Aucune étiquette." }));
     }

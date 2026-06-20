@@ -981,6 +981,7 @@ button.plabel.is-on::before { content: "✓\00A0"; }
 /* gestion des étiquettes */
 .labellist { display: flex; flex-direction: column; gap: 8px; }
 .labelrow { display: flex; align-items: center; gap: 8px; }
+.labelrow.is-dragging { opacity: 0.5; }
 .labelrow .input--sm { flex: 1; }
 .labelpick { display: flex; flex-wrap: wrap; gap: 6px; }
 .colorpick { display: flex; gap: 4px; flex: none; }
