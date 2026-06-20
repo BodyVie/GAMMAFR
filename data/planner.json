@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T00:28:22+00:00",
+  "generated": "2026-06-20T00:28:31+00:00",
   "labels": [
     {
       "id": "lbl_mqft6asnlhoe",
@@ -40,7 +40,7 @@
         {
           "id": "tk_mqlmbyyjp94c",
           "title": "Ergonomie GAMMA.FR",
-          "description": "Ajouter un système de pré sélection",
+          "description": "Ajouter un système de pré sélection de ses",
           "status": "todo",
           "due": "",
           "labels": [
