@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T00:29:38+00:00",
+  "generated": "2026-06-20T00:32:24+00:00",
   "labels": [
     {
       "id": "lbl_mqft6asnlhoe",
@@ -54,7 +54,14 @@
               "done": false
             }
           ],
-          "comments": [],
+          "comments": [
+            {
+              "id": "cm_mqlmi7yabzqu",
+              "author": "Body",
+              "date": "2026-06-20T00:32:22.210Z",
+              "text": "Génération d'un .json lors d'une compilation A à récupérer, drag and drop dans le configurateur pour récupérer la liste telle quelle."
+            }
+          ],
           "created": "2026-06-20T00:27:30.618Z",
           "modified": "2026-06-20T00:27:30.618Z"
         }
