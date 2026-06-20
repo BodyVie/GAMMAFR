@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T14:03:24+00:00",
+  "generated": "2026-06-20T14:05:16+00:00",
   "labels": [
     {
       "id": "lbl_mqft6asnlhoe",
@@ -69,6 +69,27 @@
           ],
           "created": "2026-06-20T00:27:30.618Z",
           "modified": "2026-06-20T00:32:56.082Z"
+        },
+        {
+          "id": "tk_mqmfhzy4u0is",
+          "title": "UI Rework G.A.M.M.A. Style by Sota",
+          "description": "https://www.moddb.com/mods/stalker-anomaly/addons/ui-rework-gamma-style-by-sota",
+          "status": "todo",
+          "due": "",
+          "labels": [
+            "lbl_mqmfgputi0hm",
+            "lbl_mqiaj19mezpp"
+          ],
+          "actions": [
+            {
+              "id": "ac_mqmfj9qxuo3z",
+              "text": "Plannification",
+              "done": false
+            }
+          ],
+          "comments": [],
+          "created": "2026-06-20T14:04:00.700Z",
+          "modified": "2026-06-20T14:05:14.397Z"
         }
       ]
     },
