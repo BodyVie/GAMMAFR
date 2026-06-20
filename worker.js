@@ -254,7 +254,7 @@ export default {
     // succès d'authentification → on remet le compteur à zéro. Uniquement s'il y
     // a réellement un compteur (fails > 0) : sinon le kv.delete est inutile et
     // grignote pour rien le quota « delete » (1 000/j) à chaque appel — ping de
-    // présence ET enregistrement automatique passant par /update inclus.
+    // présence ET enregistrement (bouton « Enregistrer ») passant par /update inclus.
     if (fails > 0) await resetFails(env, ip);
 
     // --- push GitHub ---

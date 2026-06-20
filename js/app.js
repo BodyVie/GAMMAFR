@@ -281,14 +281,14 @@
     presenceTick();
   }
 
-  /* ---- enregistrement automatique (debounce + sérialisation) -------------
-     Plus de bouton « Enregistrer » : chaque éditeur admin enregistre tout seul
-     peu après la dernière frappe (ou dès qu'un champ est complété). Un seul
-     envoi à la fois — chaque enregistrement = un commit GitHub via le Worker —
-     et toute modification survenue pendant l'envoi en relance un à la fin. */
-  var AUTOSAVE_MS = 2000;
+  /* ---- enregistrement manuel (bouton + filet de sécurité) ----------------
+     Chaque éditeur admin possède un bouton « Enregistrer » : rien n'est envoyé
+     au Worker tant qu'il n'est pas cliqué (un enregistrement = un commit GitHub).
+     Une modification marque l'éditeur « non enregistré » (bouton actif + statut),
+     ce qui alimente le filet de sécurité au changement d'onglet / fermeture de
+     page (pop-up « modifications en attente »). Plus aucun envoi automatique. */
   var autosavers = [];
-  function cancelAutosaves() { autosavers.forEach(function (a) { a.cancel(); }); autosavers = []; }
+  function cancelAutosaves() { autosavers = []; }     // jette les éditeurs (et leurs modifs en attente)
   function resetAutosavers() { cancelAutosaves(); }   // re-render d'un éditeur : repart de zéro
   function hasUnsaved() {
     for (var i = 0; i < autosavers.length; i++) { if (autosavers[i].pending()) return true; }
@@ -297,41 +297,39 @@
   function flushAutosaves() { autosavers.forEach(function (a) { a.flush(); }); }
 
   // build() renvoie l'objet à écrire (ou null pour ne rien faire) ; onSuccess(obj)
-  // est appelé après un enregistrement réussi (sans recharger l'éditeur).
-  function makeAutosave(filename, build, status, onSuccess) {
-    var timer = null, saving = false, again = false;
-    function schedule(delay) {
-      if (timer) clearTimeout(timer);
-      timer = setTimeout(run, (delay == null) ? AUTOSAVE_MS : delay);
-    }
-    function run() {
-      timer = null;
-      if (!isAdmin()) return;
-      if (saving) { again = true; return; }
+  // est appelé après un enregistrement réussi (sans recharger l'éditeur). Le
+  // gestionnaire fournit son propre bouton « Enregistrer » (mgr.button), actif
+  // uniquement tant qu'il reste des modifications non enregistrées.
+  function makeSaver(filename, build, status, onSuccess) {
+    var dirty = false, saving = false;
+    var btn = el("button", { class: "btn btn--amber", text: "Enregistrer", disabled: true });
+    function save() {
+      if (saving || !dirty) return;
       var obj = build();
       if (obj == null) return;
       saving = true;
-      saveData(filename, obj, status, null,
-        function () { if (typeof onSuccess === "function") onSuccess(obj); },
-        function () { saving = false; if (again) { again = false; schedule(0); } });
+      saveData(filename, obj, status, btn,
+        function () { dirty = false; if (typeof onSuccess === "function") onSuccess(obj); },
+        // saveData réactive le bouton ; on rétablit l'état réel (désactivé si plus
+        // rien à enregistrer, réactivé en cas d'échec ou de nouvelle saisie).
+        function () { saving = false; btn.disabled = !dirty; });
     }
+    btn.addEventListener("click", save);
     var mgr = {
-      queue: function () { setStatus(status, "work", "Modification…"); schedule(); },
-      flush: function () { if (timer) { clearTimeout(timer); run(); } else if (saving) { again = true; } },
-      cancel: function () { if (timer) { clearTimeout(timer); timer = null; } again = false; },
-      pending: function () { return timer !== null || saving || again; }
+      button: btn,
+      queue: function () { dirty = true; btn.disabled = false; setStatus(status, "work", "Modifications non enregistrées."); markDirty(); },
+      flush: function () { if (dirty) save(); },
+      cancel: function () { dirty = false; btn.disabled = true; },
+      pending: function () { return dirty || saving; }
     };
     autosavers.push(mgr);
     return mgr;
   }
 
-  // Pied d'éditeur en mode automatique : libellé « Enregistrement automatique »
-  // + zone de statut (Modification… / Enregistrement… / Enregistré).
-  function autosaveFoot(status) {
-    return el("div", { class: "editor__foot editor__foot--auto" }, [
-      el("span", { class: "autosave-hint", text: "↻ Enregistrement automatique" }),
-      status
-    ]);
+  // Pied d'éditeur en mode manuel : bouton « Enregistrer » (porté par le
+  // gestionnaire) + zone de statut (Modifications non enregistrées… / Enregistré).
+  function saveFoot(mgr, status) {
+    return el("div", { class: "editor__foot" }, [mgr.button, status]);
   }
 
   // Liste de champs texte avec « ligne fantôme » : une entrée vide en bas qui
@@ -555,7 +553,7 @@
 
     host.appendChild(el("div", { class: "admin-bar" }, [
       el("span", { class: "admin-bar__tag", text: "ADMIN" }),
-      el("span", { text: "Édition du panneau d'affichage — enregistrement automatique." })
+      el("span", { text: "Édition du panneau d'affichage — modifie puis enregistre." })
     ]));
 
     var card = el("div", { class: "card" });
@@ -566,7 +564,7 @@
     card.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Message" }), body]));
 
     var status = el("span", { class: "editor__status" });
-    var mgr = makeAutosave("board.json", function () {
+    var mgr = makeSaver("board.json", function () {
       var today = new Date();
       return {
         title: title.value.trim(),
@@ -576,7 +574,7 @@
     }, status, function (obj) { data.board = normalizeBoard(obj); });
     title.addEventListener("input", mgr.queue);
     body.addEventListener("input", mgr.queue);
-    card.appendChild(autosaveFoot(status));
+    card.appendChild(saveFoot(mgr, status));
     host.appendChild(card);
   }
 
@@ -1695,10 +1693,10 @@
      seul fichier data/planner.json via le Worker (comme Liste / Changelog).
      ======================================================================= */
   var plannerDraft = null;                       // copie de travail (mode admin)
-  var plannerMgr = null;                         // gestionnaire d'enregistrement automatique
+  var plannerMgr = null;                         // gestionnaire d'enregistrement (bouton)
   var dragState = null;                          // glisser-déposer d'un ticket : { fromCat, tk }
   var catDragState = null;                       // glisser-déposer d'une catégorie : la catégorie tirée
-  // relance l'enregistrement automatique du planner après une modification
+  // marque le planner « non enregistré » après une modification (bouton actif)
   function planChanged() { if (plannerMgr) plannerMgr.queue(); }
   var PLABELS = ["green", "amber", "rust", "ok", "cyan", "violet"];
   var PSTATUS = { todo: "À faire", doing: "En cours", done: "Terminé" };
@@ -1860,16 +1858,16 @@
     resetAutosavers();
     host.appendChild(el("div", { class: "admin-bar" }, [
       el("span", { class: "admin-bar__tag", text: "ADMIN" }),
-      el("span", { text: "Édition du planner — enregistrement automatique." }),
+      el("span", { text: "Édition du planner — modifie puis enregistre." }),
       el("button", { class: "btn btn--ghost btn--mini", text: "Gérer les étiquettes", onClick: openLabelManager })
     ]));
     host.appendChild(el("div", { id: "plannerBoardWrap" }));
     var status = el("span", { class: "editor__status" });
-    // l'autosave ne remplace PAS plannerDraft (une modale peut être ouverte sur un
-    // ticket de ce brouillon) : il met seulement à jour la version lue côté public.
-    plannerMgr = makeAutosave("planner.json", buildPlannerClean, status,
+    // l'enregistrement ne remplace PAS plannerDraft (une modale peut être ouverte
+    // sur un ticket de ce brouillon) : il met seulement à jour la version publique.
+    plannerMgr = makeSaver("planner.json", buildPlannerClean, status,
       function (clean) { data.planner = normalizePlanner(clean); });
-    host.appendChild(autosaveFoot(status));
+    host.appendChild(saveFoot(plannerMgr, status));
     paintBoard();
   }
 
@@ -2302,7 +2300,7 @@
     } else if (archiveCat) {
       footKids.push(el("button", { class: "btn btn--ghost", text: "Archiver", title: "Déplacer ce ticket vers l'archive (suppression auto après 2 semaines)", onClick: function () { relocateTicket(archiveCat); } }));
     }
-    footKids.push(el("span", { class: "muted-note", text: "Enregistrement automatique." }));
+    footKids.push(el("span", { class: "muted-note", text: "À enregistrer depuis le planner." }));
     footKids.push(el("button", { class: "btn btn--ghost", text: "Fermer", onClick: closeModal }));
     content.appendChild(el("div", { class: "modal__foot" }, footKids));
 
@@ -2451,7 +2449,7 @@
     } }));
 
     content.appendChild(el("div", { class: "modal__foot" }, [
-      el("span", { class: "muted-note", text: "Enregistrement automatique." }),
+      el("span", { class: "muted-note", text: "À enregistrer depuis le planner." }),
       el("button", { class: "btn btn--ghost", text: "Fermer", onClick: closeModal })
     ]));
     openModal(content, paintBoard);
@@ -2586,7 +2584,8 @@
   }
 
   function lockAdmin(idle) {
-    flushAutosaves();           // envoie les modifications encore en attente
+    // verrouillage = on jette les modifications non enregistrées (aucun envoi
+    // automatique au Worker, y compris sur expiration d'inactivité)
     resetAutosavers();
     leavePresence();            // signale le départ tant que le mot de passe est en mémoire
     admin.unlocked = false; admin.pwd = ""; adminDirty = false;
@@ -2673,7 +2672,7 @@
 
     wrap.appendChild(el("div", { class: "admin-bar" }, [
       el("span", { class: "admin-bar__tag", text: "CONNECTÉ" }),
-      el("span", { text: "Enregistrement automatique, sauf la configuration du site et le Changelog qui s'enregistrent avec leur bouton. Tu peux aussi modifier le Panneau d'affichage et le Changelog dans leurs onglets." }),
+      el("span", { text: "Chaque éditeur s'enregistre avec son bouton « Enregistrer ». Tu peux aussi modifier le Panneau d'affichage et le Changelog dans leurs onglets." }),
       el("button", { class: "btn btn--ghost btn--mini", text: "Verrouiller", onClick: lockAdmin })
     ]));
 
@@ -2796,7 +2795,7 @@
     admCard.appendChild(admRows);
     var admDraft = [];
     var admStatus = el("span", { class: "editor__status" });
-    var admMgr = makeAutosave("admins.json", function () {
+    var admMgr = makeSaver("admins.json", function () {
       return admDraft.map(function (s) { return (s || "").trim(); }).filter(function (s) { return s !== ""; });
     }, admStatus, function (clean) { data.admins = clean; });
     function drawAdmRows() {
@@ -2806,7 +2805,7 @@
         onChange: function () { data.admins = admDraft.map(function (s) { return (s || "").trim(); }).filter(Boolean); admMgr.queue(); }
       });
     }
-    admCard.appendChild(autosaveFoot(admStatus));
+    admCard.appendChild(saveFoot(admMgr, admStatus));
     wrap.appendChild(admCard);
     loadForEdit("admins.json")
       .then(function (r) { admDraft = Array.isArray(r.obj) ? r.obj.slice() : []; data.admins = admDraft.slice(); drawAdmRows(); })
@@ -2868,13 +2867,13 @@
       .then(function (r) { rm.value = (r.obj && r.obj.readme) || ""; rm.disabled = false; })
       .catch(function () { rm.value = ""; rm.disabled = false; });
     var rmStatus = el("span", { class: "editor__status" });
-    var rmMgr = makeAutosave("files.json", function () {
+    var rmMgr = makeSaver("files.json", function () {
       if (rm.disabled) return null; // pas encore chargé : ne rien écrire
       return { readme: rm.value };
     }, rmStatus);
     rm.addEventListener("input", rmMgr.queue);
     rmCard.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Contenu" }), rm]));
-    rmCard.appendChild(autosaveFoot(rmStatus));
+    rmCard.appendChild(saveFoot(rmMgr, rmStatus));
     wrap.appendChild(rmCard);
 
     // ---- messages reçus (contact) ----

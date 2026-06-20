@@ -224,16 +224,15 @@ demander une validation par email du compte.
    est renvoyé au Worker à chaque enregistrement, sans session, cookie ni
    `localStorage`.
 3. Chaque éditeur charge la version actuelle du fichier. Modifie-le directement.
-4. **Enregistrement automatique** : il n'y a plus de bouton « Enregistrer ». Peu
-   après la dernière frappe (≈ 2 s), l'éditeur valide et envoie tout seul au
-   Worker, qui repousse dans le dépôt. Un statut indique
-   `Modification…` → `Envoi…` → `Enregistré`. Un seul envoi à la fois (un commit
-   par enregistrement) ; les modifications faites pendant l'envoi en relancent un.
-   Si tu changes d'onglet alors que des modifications ne sont pas encore
+4. **Enregistrement manuel** : chaque éditeur a un bouton **Enregistrer** (un
+   commit GitHub via le Worker à chaque clic). Rien n'est envoyé tant que tu ne
+   cliques pas : dès que tu modifies un champ, le bouton s'active et le statut
+   passe à `Modifications non enregistrées.`, puis `Envoi…` → `Enregistré` au
+   clic. Cela évite les écritures répétées vers le Worker. Si tu changes d'onglet
+   (ou fermes la page) alors que des modifications ne sont pas encore
    enregistrées, un **pop-up** propose d'**enregistrer** ou de **quitter sans
-   enregistrer**. Le **Changelog** et la **Configuration du site** font
-   exception : ils s'éditent puis s'enregistrent **en une fois** avec un bouton
-   **Enregistrer** (pas d'envoi automatique).
+   enregistrer**. Le **verrouillage** de la session (manuel ou après inactivité)
+   abandonne les modifications non enregistrées — pense à enregistrer avant.
 5. GitHub Pages se reconstruit en ~1 min. Le cache du navigateur/CDN peut
    retarder un peu l'affichage public ; un rechargement forcé (Ctrl+Maj+R) aide.
 
@@ -253,8 +252,7 @@ demander une validation par email du compte.
   **Édition** : le bouton « + Ajouter une version » est en **haut** ; les
   versions déjà enregistrées sont **verrouillées** (lecture seule) et un bouton
   « Modifier » les déverrouille une par une ; on modifie puis on enregistre
-  **tout d'un coup** avec le bouton **Enregistrer** (plus d'enregistrement
-  automatique sur cet onglet). Le `version` suit le format **date `AA.MMJJ`**
+  **tout d'un coup** avec le bouton **Enregistrer**. Le `version` suit le format **date `AA.MMJJ`**
   (ex. `26.0618`) — prérempli avec le jour à l'ajout — et s'affiche partout
   préfixé `v.` (badge du bandeau, journal, « Nouveautés »). Le `date` se choisit
   via un **calendrier** (`<input type="date">`, comme le Planner), est prérempli

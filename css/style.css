@@ -675,13 +675,11 @@ a:hover { text-decoration: underline; }
 .editor__head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px; }
 .editor__name { font-size: 12px; letter-spacing: 0.08em; color: var(--text); font-weight: 700; }
 .editor__path { font-size: 10px; color: var(--dim-2); letter-spacing: 0.06em; }
-.editor__foot { display: flex; align-items: center; gap: 14px; margin-top: 10px; }
-.editor__foot--auto { flex-wrap: wrap; }
+.editor__foot { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; margin-top: 10px; }
 .editor__status { font-size: 11px; letter-spacing: 0.06em; min-height: 16px; }
 .editor__status--ok { color: var(--ok); }
 .editor__status--err { color: var(--rust); }
 .editor__status--work { color: var(--amber); }
-.autosave-hint { font-size: 11px; letter-spacing: 0.06em; color: var(--dim); }
 
 /* champs « fantômes » : ligne vide à compléter (pas de bouton « + Ajouter ») */
 .input--ghost { border-style: dashed; opacity: 0.85; }
