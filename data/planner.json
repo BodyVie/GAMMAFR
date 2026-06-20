@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T00:29:05+00:00",
+  "generated": "2026-06-20T00:29:18+00:00",
   "labels": [
     {
       "id": "lbl_mqft6asnlhoe",
@@ -40,7 +40,7 @@
         {
           "id": "tk_mqlmbyyjp94c",
           "title": "Ergonomie GAMMA.FR",
-          "description": "Ajouter un système de pré sélection de ses patchs en fonction d'une liste établie par une précédentes compilation",
+          "description": "Ajouter un système de présélection de ses patchs en fonction d'une liste établie par une précédente compilation",
           "status": "todo",
           "due": "",
           "labels": [
