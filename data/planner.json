@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T00:29:29+00:00",
+  "generated": "2026-06-20T00:29:38+00:00",
   "labels": [
     {
       "id": "lbl_mqft6asnlhoe",
@@ -47,7 +47,13 @@
             "lbl_mqft6asnlhoe",
             "lbl_mqiajiyf4urc"
           ],
-          "actions": [],
+          "actions": [
+            {
+              "id": "ac_mqlmeg2izxnu",
+              "text": "Faisabilité avec github ?",
+              "done": false
+            }
+          ],
           "comments": [],
           "created": "2026-06-20T00:27:30.618Z",
           "modified": "2026-06-20T00:27:30.618Z"
