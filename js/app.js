@@ -1004,9 +1004,19 @@
     var box = el("div", { class: "options" });
     LEVELS.forEach(function (lv) {
       var checked = conf.level === lv.id;
-      var count = lv.id === "tweak" ? manifest.tweak.length
-                : lv.id === "extra" ? (manifest.tweak.length + manifest.extra.length) : 0;
-      var sub = lv.desc + (lv.id !== "base" ? " (" + count + " patch" + (count > 1 ? "s" : "") + " dispo)" : "");
+      // Compteur de patchs disponibles affiché sous chaque niveau. « extra »
+      // inclut tout le contenu « tweak » : on l'exprime « G.A.M.M.A. tweak + N »
+      // (N = patchs extra uniquement) plutôt que d'additionner les deux en un
+      // seul nombre, qui laisserait croire que « extra » possède ses propres
+      // patchs tweak.
+      var sub = lv.desc;
+      if (lv.id === "tweak") {
+        var nTweak = manifest.tweak.length;
+        sub += " (" + nTweak + " patch" + (nTweak > 1 ? "s" : "") + " dispo)";
+      } else if (lv.id === "extra") {
+        var nExtra = manifest.extra.length;
+        sub += " (G.A.M.M.A. tweak + " + nExtra + " patch" + (nExtra > 1 ? "s" : "") + " dispo)";
+      }
       var row = el("div", {
         class: "opt" + (checked ? " is-checked" : ""), "data-type": "single",
         role: "radio", "aria-checked": checked ? "true" : "false", tabindex: "0"
