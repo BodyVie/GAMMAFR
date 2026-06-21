@@ -2,5 +2,5 @@
 <!-- GAMMA_Translator 15 05 2026 - Body -->
 <string_table>
 
-#include "text\eng\EA_script_texts.xml"
+#include "text\fra\EA_script_texts.xml"
 </string_table>

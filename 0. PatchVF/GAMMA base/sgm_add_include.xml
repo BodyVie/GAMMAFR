@@ -2,5 +2,5 @@
 <!-- GAMMA_Translator 15 05 2026 - Body -->
 <string_table>
 <!-- Загрузка "SGM" текстов  -->
-#include "text\eng\SGM_script_texts.xml"
+#include "text\fra\SGM_script_texts.xml"
 </string_table>
