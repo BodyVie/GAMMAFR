@@ -302,14 +302,17 @@ a:hover { text-decoration: underline; }
   padding-bottom: 8px;
   border-bottom: 1px solid var(--line);
 }
-/* sous-titres en gras non coloré dans le document */
-.guide__sub {
+/* intro « en une phrase » — titre + phrase mis en avant en vert radiation */
+.guide__lead {
   margin: 26px 0 10px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
-  letter-spacing: 0.05em;
-  color: var(--text);
+  letter-spacing: 0.04em;
+  color: var(--rad);
 }
+.guide__lead-p { color: var(--rad); }
+/* noms d'onglets / de niveaux mis en avant en vert dans les listes */
+.guide__kw { color: var(--rad); }
 /* tâches numérotées du mode opératoire (orange dans le document) */
 .guide__task {
   margin: 26px 0 12px;
