@@ -620,6 +620,72 @@
     if (name === "admin") loadAdmin();
   }
 
+  // ---- sous-onglets de l'admin ------------------------------------------
+  // Range les sections de l'admin dans des panneaux montrés/masqués par une
+  // barre de sous-onglets. Purement présentation : tous les panneaux sont déjà
+  // construits et peuplés par l'appelant (les chargements async et les
+  // autosaveurs sont donc armés quel que soit l'onglet affiché). On reprend le
+  // motif ARIA des onglets principaux (rôles tab/tabpanel, flèches clavier).
+  // sections : [{ id, label, panel }]. Renvoie { nav, host } à insérer dans le DOM.
+  function buildAdminSubtabs(sections) {
+    var nav = el("div", { class: "subnav", role: "tablist", "aria-label": "Sections de l'administration" });
+    var host = el("div", { class: "subpanels" });
+    var btns = [];
+
+    sections.forEach(function (s, i) {
+      var first = i === 0;
+      s.panel.classList.add("subpanel");
+      if (first) s.panel.classList.add("is-active");
+      s.panel.id = "adm-panel-" + s.id;
+      s.panel.setAttribute("role", "tabpanel");
+      s.panel.setAttribute("aria-labelledby", "adm-tab-" + s.id);
+      if (!first) s.panel.setAttribute("hidden", "");
+      host.appendChild(s.panel);
+
+      var btn = el("button", {
+        class: "subnav__btn" + (first ? " is-active" : ""),
+        type: "button", role: "tab", id: "adm-tab-" + s.id,
+        "aria-controls": "adm-panel-" + s.id,
+        "aria-selected": first ? "true" : "false",
+        tabindex: first ? "0" : "-1",
+        text: s.label
+      });
+      btns.push(btn);
+      nav.appendChild(btn);
+    });
+
+    function activate(idx) {
+      btns.forEach(function (b, j) {
+        var on = j === idx;
+        b.classList.toggle("is-active", on);
+        b.setAttribute("aria-selected", on ? "true" : "false");
+        b.tabIndex = on ? 0 : -1;
+      });
+      sections.forEach(function (s, j) {
+        var on = j === idx;
+        s.panel.classList.toggle("is-active", on);
+        if (on) s.panel.removeAttribute("hidden"); else s.panel.setAttribute("hidden", "");
+      });
+    }
+
+    btns.forEach(function (btn, i) {
+      btn.addEventListener("click", function () { activate(i); });
+      btn.addEventListener("keydown", function (ev) {
+        var idx = -1;
+        if (ev.key === "ArrowRight" || ev.key === "ArrowDown") idx = (i + 1) % btns.length;
+        else if (ev.key === "ArrowLeft" || ev.key === "ArrowUp") idx = (i - 1 + btns.length) % btns.length;
+        else if (ev.key === "Home") idx = 0;
+        else if (ev.key === "End") idx = btns.length - 1;
+        else return;
+        ev.preventDefault();
+        btns[idx].focus();
+        activate(idx);
+      });
+    });
+
+    return { nav: nav, host: host };
+  }
+
   /* =======================================================================
      ONGLET PANNEAU D'AFFICHAGE — accueil
      En tête : un panneau d'annonce éditable par les admins (data/board.json).
@@ -2954,16 +3020,27 @@
       el("button", { class: "btn btn--ghost btn--mini", text: "Verrouiller", onClick: lockAdmin })
     ]));
 
+    // Sous-onglets de l'admin : chaque section ci-dessous est rangée dans l'un
+    // des quatre panneaux (Tableau de bord / Configuration / Outils / Messages).
+    // Tout est construit d'emblée — les chargements asynchrones et les autosaveurs
+    // s'arment exactement comme avant ; les sous-onglets ne font que montrer ou
+    // masquer le panneau actif. « target » désigne le panneau en cours de remplissage.
+    var pDash   = el("div", {});  // Tableau de bord
+    var pConfig = el("div", {});  // Configuration
+    var pTools  = el("div", {});  // Outils
+    var pMsg    = el("div", {});  // Messages
+    var target = pDash;
+
     // ---- statistiques de téléchargement (compteur jour / mois / total) ----
-    wrap.appendChild(el("div", { class: "stencil stencil--muted", text: "Statistiques de téléchargement" }));
-    wrap.appendChild(renderDownloadStats());
+    target.appendChild(el("div", { class: "stencil stencil--muted", text: "Statistiques de téléchargement" }));
+    target.appendChild(renderDownloadStats());
 
     // ---- interrupteur du configurateur (maintenance) ----
     // Bouton ON/OFF purement mécanique : un admin coupe le configurateur (et donc
     // tout téléchargement) si le process a un problème ou pendant le développement.
     // L'état est stocké dans config.json (configurator_enabled) et lu par tous les
     // visiteurs au chargement du site.
-    wrap.appendChild(el("div", { class: "stencil stencil--muted", text: "Configurateur (téléchargements)" }));
+    target.appendChild(el("div", { class: "stencil stencil--muted", text: "Configurateur (téléchargements)" }));
     var swCard = el("div", { class: "card" });
     swCard.appendChild(el("p", { class: "admin-note", text:
       "Active ou désactive le configurateur d'installation. Une fois désactivé, l'onglet Files affiche « MAINTENANCE : Configurateur désactivé » et plus aucun téléchargement n'est possible — à utiliser si le process a un problème ou pendant le développement." }));
@@ -3011,10 +3088,11 @@
 
     swCard.appendChild(el("div", { class: "switchrow" }, [swBtn, swState]));
     swCard.appendChild(el("div", { class: "editor__foot" }, [swStatus]));
-    wrap.appendChild(swCard);
+    target.appendChild(swCard);
 
     // ---- configuration du site ----
-    wrap.appendChild(el("div", { class: "stencil stencil--muted", text: "Configuration du site" }));
+    target = pConfig;
+    target.appendChild(el("div", { class: "stencil stencil--muted", text: "Configuration du site" }));
     var cfgCard = el("div", { class: "card" });
     var fields = [
       { key: "site_title", label: "Titre du site" },
@@ -3066,10 +3144,10 @@
       });
     });
     cfgCard.appendChild(el("div", { class: "editor__foot" }, [cfgBtn, cfgStatus]));
-    wrap.appendChild(cfgCard);
+    target.appendChild(cfgCard);
 
     // ---- administrateurs (pseudos du sélecteur d'auteur des commentaires planner) ----
-    wrap.appendChild(el("div", { class: "stencil stencil--muted", style: "margin-top:24px", text: "Administrateurs" }));
+    target.appendChild(el("div", { class: "stencil stencil--muted", style: "margin-top:24px", text: "Administrateurs" }));
     var admCard = el("div", { class: "card" });
     admCard.appendChild(el("p", { class: "admin-note", text:
       "Pseudos proposés dans la liste déroulante « Auteur » lors de l'ajout d'un commentaire dans le Planner." }));
@@ -3088,13 +3166,14 @@
       });
     }
     admCard.appendChild(saveFoot(admMgr, admStatus));
-    wrap.appendChild(admCard);
+    target.appendChild(admCard);
     loadForEdit("admins.json")
       .then(function (r) { admDraft = Array.isArray(r.obj) ? r.obj.slice() : []; data.admins = admDraft.slice(); drawAdmRows(); })
       .catch(function () { drawAdmRows(); });
 
     // ---- générateur de patch.json (téléchargement local, sans Worker) ----
-    wrap.appendChild(el("div", { class: "stencil stencil--muted", style: "margin-top:24px", text: "Générateur de patch.json" }));
+    target = pTools;
+    target.appendChild(el("div", { class: "stencil stencil--muted", text: "Générateur de patch.json" }));
     var pgCard = el("div", { class: "card" });
     pgCard.appendChild(el("p", { class: "admin-note", text:
       "Génère le patch.json à déposer dans 0. PatchVF/GAMMA tweak/<id>/ ou 0. PatchVF/GAMMA extra/<id>/, à côté du ou des XML (le nom du dossier <id> sert d'identifiant). data/patches.json est ensuite régénéré automatiquement par GitHub." }));
@@ -3138,10 +3217,11 @@
       setStatus(pgStatus, "ok", "patch.json téléchargé.");
     });
     pgCard.appendChild(el("div", { class: "editor__foot" }, [pgBtn, pgStatus]));
-    wrap.appendChild(pgCard);
+    target.appendChild(pgCard);
 
     // ---- texte du lisez-moi (onglet Files) ----
-    wrap.appendChild(el("div", { class: "stencil stencil--muted", style: "margin-top:24px", text: "Texte du lisez-moi (onglet Files)" }));
+    target = pConfig;
+    target.appendChild(el("div", { class: "stencil stencil--muted", style: "margin-top:24px", text: "Texte du lisez-moi (onglet Files)" }));
     var rmCard = el("div", { class: "card" });
     var rm = el("textarea", { class: "textarea", rows: "8", placeholder: "Texte affiché en haut de l'onglet Files\u2026" });
     rm.value = "Chargement\u2026"; rm.disabled = true;
@@ -3156,17 +3236,28 @@
     rm.addEventListener("input", rmMgr.queue);
     rmCard.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Contenu" }), rm]));
     rmCard.appendChild(saveFoot(rmMgr, rmStatus));
-    wrap.appendChild(rmCard);
+    target.appendChild(rmCard);
 
     // ---- messages reçus (contact) ----
-    wrap.appendChild(el("div", { class: "stencil stencil--muted", style: "margin-top:24px", text: "Messages reçus" }));
+    target = pMsg;
+    target.appendChild(el("div", { class: "stencil stencil--muted", text: "Messages reçus" }));
     var inboxCard = el("div", { class: "card" });
     inboxCard.appendChild(el("div", { class: "inbox__head" }, [
       el("span", { class: "inbox__title", text: "Boîte de réception" }),
       el("button", { class: "btn btn--ghost btn--mini", text: "Rafraîchir", onClick: loadMessages })
     ]));
     inboxCard.appendChild(el("div", { id: "adminInbox" }, [el("span", { class: "loading", text: "Chargement\u2026" })]));
-    wrap.appendChild(inboxCard);
+    target.appendChild(inboxCard);
+
+    // barre de sous-onglets + panneaux, insérés sous la barre admin
+    var sub = buildAdminSubtabs([
+      { id: "dash",   label: "Tableau de bord", panel: pDash },
+      { id: "config", label: "Configuration",   panel: pConfig },
+      { id: "tools",  label: "Outils",          panel: pTools },
+      { id: "msg",    label: "Messages",        panel: pMsg }
+    ]);
+    wrap.appendChild(sub.nav);
+    wrap.appendChild(sub.host);
 
     return wrap;
   }
