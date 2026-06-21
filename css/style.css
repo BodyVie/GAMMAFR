@@ -146,7 +146,7 @@ a:hover { text-decoration: underline; }
   background: none;
   border: 0;
   border-bottom: 2px solid transparent;
-  color: var(--dim);
+  color: #fff;
   font-family: var(--mono);
   font-size: 11px;
   font-weight: 600;
@@ -156,7 +156,7 @@ a:hover { text-decoration: underline; }
   cursor: pointer;
   transition: color 0.12s ease, border-color 0.12s ease;
 }
-.nav__btn:hover { color: var(--text); border-bottom-color: var(--line); }
+.nav__btn:hover { color: var(--amber); border-bottom-color: var(--line); }
 .nav__btn.is-active { color: var(--amber); border-bottom-color: var(--amber); }
 
 /* onglet admin volontairement discret */
