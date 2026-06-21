@@ -1,5 +1,12 @@
 [
   {
+    "version": "26.0621",
+    "date": "2026-06-21",
+    "changes": [
+      "Fix 0. Patactical (fonts 640*480)"
+    ]
+  },
+  {
     "version": "26.0619",
     "date": "2026-06-19",
     "changes": [
