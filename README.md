@@ -69,7 +69,9 @@ planner), **Files**
 extra », générée depuis `patches.json`),
 **Changelog**, **Planner** (planificateur, édition admin), **Updates** (suivi des
 mises à jour ModDB des mods, avec scan manuel déclenchable par un admin),
-**Contact**, **Admin** (éditeurs JSON protégés).
+**Contact**, **Admin** (éditeurs JSON protégés) et **Guide** (mode opératoire en
+**lecture seule** — onglet vert à droite de l'Admin, contenu statique dans
+`index.html`, non éditable depuis le site).
 
 ---
 

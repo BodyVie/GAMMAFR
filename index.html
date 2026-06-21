@@ -65,6 +65,7 @@
         <button class="nav__btn nav__btn--admin" id="tab-admin" data-tab="admin" role="tab" aria-selected="false" aria-controls="panel-admin" tabindex="-1">Admin</button>
         <span class="nav__presence" id="adminCount" role="status" aria-live="polite" hidden></span>
         <span class="nav__editing" id="adminEditing" title="Un administrateur est en train d'éditer" hidden>&#9888; édition</span>
+        <button class="nav__btn nav__btn--guide" id="tab-guide" data-tab="guide" role="tab" aria-selected="false" aria-controls="panel-guide" tabindex="-1">Guide</button>
       </nav>
     </div>
     <div class="hazard" aria-hidden="true"></div>
@@ -178,6 +179,104 @@
     <section class="panel" id="panel-admin" role="tabpanel" aria-labelledby="tab-admin">
       <div class="stencil stencil--muted">Accès restreint</div>
       <div id="adminRoot"><span class="loading">Chargement&#8230;</span></div>
+    </section>
+
+    <!-- ===================== GUIDE =====================
+         Contenu statique en lecture seule (mode opératoire). Aucun éditeur,
+         aucun fichier de données, aucune route Worker : il n'est éditable par
+         personne depuis le site, admin compris. Pour le modifier, éditer ce
+         bloc directement dans index.html. -->
+    <section class="panel" id="panel-guide" role="tabpanel" aria-labelledby="tab-guide">
+      <div class="stencil">Guide</div>
+      <article class="guide">
+
+        <!-- GAMMA.FR, en une phrase -->
+        <h3 class="guide__sub">GAMMA.FR, en une phrase</h3>
+        <p>GAMMA.FR est le site qui permet aux joueurs francophones de télécharger la traduction française du modpack S.T.A.L.K.E.R. G.A.M.M.A., et de suivre son évolution.</p>
+
+        <!-- Vue d'ensemble -->
+        <h3 class="guide__sub">Vue d'ensemble</h3>
+        <p>Le site tient sur quelques onglets :</p>
+        <ul class="guide__list">
+          <li><strong>Files</strong> — le configurateur d'installation. Vous choisissez ce que vous voulez en français, le site fabrique une archive .zip prête à installer. C'est le cœur du site.</li>
+          <li><strong>Liste</strong> — la liste de tous les mods traduits, avec une recherche pour vérifier si votre mod est couvert.</li>
+          <li><strong>Changelog</strong> — l'historique des versions de la traduction.</li>
+          <li><strong>Panneau d'affichage</strong> (accueil) — les annonces et nouveautés du moment, plus des liens utiles (ModDB, GitHub, Discord de G.A.M.M.A.).</li>
+          <li><strong>Contact</strong> — pour signaler une erreur de traduction ou suggérer un mod à traduire.</li>
+        </ul>
+        <p>Deux onglets se consultent simplement en lecture : <strong>Planner</strong> (la feuille de route) et <strong>Updates</strong> (les mods récemment mis à jour sur ModDB).</p>
+
+        <!-- Notions clés -->
+        <h2 class="guide__h">Notions clés</h2>
+        <p>Seulement le vocabulaire propre au site :</p>
+        <ul class="guide__list">
+          <li><strong>Les 3 niveaux de traduction</strong> (choisis à la génération) :
+            <ul class="guide__list">
+              <li><strong>base</strong> — uniquement G.A.M.M.A. de base.</li>
+              <li><strong>tweak</strong> — base + les mods désactivés par défaut dans G.A.M.M.A.</li>
+              <li><strong>extra</strong> — tout ça + des mods externes à G.A.M.M.A.</li>
+              <li>Chaque niveau supérieur inclut automatiquement le précédent.</li>
+            </ul>
+          </li>
+          <li><strong>Patch</strong> — un module de traduction pour un mod précis. Aux niveaux tweak/extra, vous cochez ceux que vous voulez.</li>
+          <li><strong>Archive .zip</strong> — le fichier produit par le site, à installer dans Mod Organizer 2 (MO2) comme n'importe quel mod.</li>
+        </ul>
+
+        <!-- MODE OPÉRATOIRE -->
+        <h2 class="guide__h guide__h--mop">Mode opératoire</h2>
+
+        <!-- Tâche 1 -->
+        <h3 class="guide__task">1 — Télécharger la traduction française</h3>
+        <p>La tâche principale.</p>
+        <p class="guide__note guide__note--req"><strong>Pré-requis :</strong> aucun pour télécharger. Pour l'installer ensuite, avoir G.A.M.M.A. installé via Mod Organizer 2.</p>
+        <ol class="guide__steps">
+          <li>Ouvrez l'onglet <strong>Files</strong>.</li>
+          <li>Lisez le Lisez-moi en haut (rappel important : les fichiers sont modulables et peuvent entrer en conflit).</li>
+          <li>À l'étape <strong>Niveau</strong> du configurateur, sélectionnez <strong>base</strong>, <strong>tweak</strong> ou <strong>extra</strong>.</li>
+          <li>Cliquez sur <strong>Suivant ▸</strong>.</li>
+          <li>(niveaux tweak et extra) À l'étape <strong>Patchs Tweak</strong>, cochez les patchs à inclure, puis cliquez sur <strong>Suivant ▸</strong>.</li>
+          <li>(niveau extra) À l'étape <strong>Patchs Extra</strong>, cochez les mods externes à traduire, puis cliquez sur <strong>Suivant ▸</strong>.</li>
+          <li>À l'étape <strong>Récapitulatif</strong>, vérifiez votre sélection.</li>
+          <li>Cliquez sur <strong>Générer l'archive ▾</strong>.</li>
+          <li>Patientez pendant le message « Téléchargement des fichiers… X / Y ».</li>
+        </ol>
+        <p class="guide__note guide__note--result"><strong>Résultat attendu :</strong> une archive .zip (actuellement F.R.I.T.E.S.zip) se télécharge sur votre ordinateur.</p>
+        <p class="guide__note guide__note--tip"><strong>Astuce :</strong> dans les étapes de patchs, utilisez le champ « Filtrer les patchs… » pour retrouver un mod vite. Le bouton ◂ Retour revient en arrière sans perdre votre sélection.</p>
+        <p class="guide__note guide__note--warn"><strong>Vigilance :</strong> le niveau extra remplace davantage de fichiers. Si deux patchs cochés se chevauchent, le récapitulatif affiche un ⚠ — fiez-vous-y avant de générer.</p>
+
+        <h4 class="guide__h4">Et ensuite ? (installation, hors site)</h4>
+        <ol class="guide__steps">
+          <li>Dans Mod Organizer 2, installez l'archive comme un mod (« Install Mod » ou glisser le .zip).</li>
+          <li>Activez-la, puis placez-la tout en bas de votre liste (afin d'avoir la plus forte priorité).</li>
+          <li>Désactiver : 308- Tactical Fonts for Anomaly 1k – CryoManne</li>
+        </ol>
+        <p class="guide__warn"><strong>N'activer pas</strong> 307- French Rework Improved Translation &amp; Enhanced Style - Thundard</p>
+
+        <!-- Tâche 2 -->
+        <h3 class="guide__task">2 — Vérifier si un mod est déjà traduit</h3>
+        <p class="guide__note guide__note--req"><strong>Pré-requis :</strong> connaître le nom du mod.</p>
+        <ol class="guide__steps">
+          <li>Ouvrez l'onglet <strong>Liste</strong>.</li>
+          <li>Saisissez le nom du mod dans le champ « Filtrer par nom… ».</li>
+          <li>Lisez les résultats.</li>
+        </ol>
+        <p class="guide__note guide__note--result"><strong>Résultat attendu :</strong> si le mod apparaît, il est couvert (niveau extra). S'il n'apparaît pas, il n'est pas encore traduit.</p>
+        <p class="guide__note guide__note--tip"><strong>Astuce :</strong> s'il manque, suggérez-le via l'onglet Contact (voir tâche 3).</p>
+
+        <!-- Tâche 3 -->
+        <h3 class="guide__task">3 — Signaler une erreur ou suggérer un mod</h3>
+        <p class="guide__note guide__note--req"><strong>Pré-requis :</strong> aucun.</p>
+        <ol class="guide__steps">
+          <li>Ouvrez l'onglet <strong>Contact</strong>.</li>
+          <li>(facultatif) Saisissez votre <strong>Pseudo</strong>.</li>
+          <li>Dans <strong>Motif</strong>, choisissez Suggestion, Correction ou Autre.</li>
+          <li>Saisissez un <strong>Objet</strong> (un résumé court).</li>
+          <li>Rédigez votre <strong>Message</strong>.</li>
+          <li>Cliquez sur <strong>Envoyer</strong>.</li>
+        </ol>
+        <p class="guide__note guide__note--result"><strong>Résultat attendu :</strong> un message de confirmation s'affiche sous le formulaire.</p>
+
+      </article>
     </section>
 
   </main>

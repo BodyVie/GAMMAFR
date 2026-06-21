@@ -165,6 +165,11 @@ a:hover { text-decoration: underline; }
 .nav__btn--admin:hover { color: var(--dim); }
 .nav__btn--admin.is-active { color: var(--rad); border-bottom-color: var(--rad); }
 
+/* onglet GUIDE — accent vert radiation, à droite de l'admin (lecture seule) */
+.nav__btn--guide { color: var(--rad); }
+.nav__btn--guide:hover { color: var(--rad); border-bottom-color: var(--rad); }
+.nav__btn--guide.is-active { color: var(--rad); border-bottom-color: var(--rad); }
+
 /* compteur d'admins en ligne + indicateur d'édition (à droite de l'onglet Admin) */
 .nav__presence {
   display: inline-flex; align-items: center; gap: 5px;
@@ -260,6 +265,102 @@ a:hover { text-decoration: underline; }
   color: var(--text);
   font-size: 14px;
 }
+
+/* ---- Guide (mode opératoire, lecture seule) --------------------------- */
+.guide {
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--rad);
+  border-radius: var(--radius);
+  padding: 22px 26px;
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.65;
+  max-width: 920px;
+}
+.guide > :first-child { margin-top: 0; }
+.guide > :last-child { margin-bottom: 0; }
+.guide p { margin: 0 0 12px; }
+.guide strong { font-weight: 700; }
+
+/* titres de section orange dans le document source → ambre PDA */
+.guide__h {
+  margin: 32px 0 12px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--amber);
+}
+.guide__h--mop {
+  font-size: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+/* sous-titres en gras non coloré dans le document */
+.guide__sub {
+  margin: 26px 0 10px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--text);
+}
+/* tâches numérotées du mode opératoire (orange dans le document) */
+.guide__task {
+  margin: 26px 0 12px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--amber);
+}
+.guide__h4 {
+  margin: 22px 0 10px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--text);
+}
+
+/* listes : puces pour la vue d'ensemble / notions, numéros pour les étapes */
+.guide__list,
+.guide__steps { margin: 0 0 14px; padding-left: 22px; }
+.guide__list { list-style: disc; }
+.guide__list .guide__list { list-style: circle; margin: 8px 0 4px; }
+.guide__steps { list-style: decimal; }
+.guide__list li,
+.guide__steps li { margin: 5px 0; }
+.guide__list li::marker,
+.guide__steps li::marker { color: var(--rad); }
+
+/* encarts : pré-requis / résultat attendu / astuce / vigilance */
+.guide__note {
+  margin: 12px 0;
+  padding: 9px 14px;
+  background: var(--surface);
+  border-left: 3px solid var(--line);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 13.5px;
+}
+.guide__note--req { border-left-color: var(--dim); }
+.guide__note--req strong { color: var(--dim); }
+.guide__note--result { border-left-color: var(--ok); }
+.guide__note--result strong { color: var(--ok); }
+.guide__note--tip { border-left-color: var(--rad); }
+.guide__note--tip strong { color: var(--rad); }
+.guide__note--warn { border-left-color: var(--amber); }
+.guide__note--warn strong { color: var(--amber); }
+
+/* avertissement critique (rouge dans le document) */
+.guide__warn {
+  margin: 14px 0;
+  padding: 10px 14px;
+  background: var(--rust-soft);
+  border: 1px solid var(--rust);
+  border-radius: var(--radius);
+  color: var(--rust);
+  font-weight: 600;
+}
+.guide__warn strong { color: var(--rust); }
 
 /* ---- Panneau d'affichage (accueil) ----------------------------------- */
 .board-announce { display: flex; flex-direction: column; gap: 10px; }
@@ -747,6 +848,7 @@ a:hover { text-decoration: underline; }
 
   .wrap { padding: 116px 14px 64px; }
   .card { padding: 16px; }
+  .guide { padding: 16px 18px; }
 
   /* bandeau de liens : boutons étirés sur la rangée.
      L'infobulle de survol n'a pas de sens au toucher ; l'URL reste visible. */
