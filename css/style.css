@@ -1370,10 +1370,7 @@ button.plabel.is-on::before { content: "✓\00A0"; }
 .msg__meta { font-size: 11px; color: var(--dim); margin: 6px 0; }
 .msg__body { color: var(--text); font-size: 14px; line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; }
 
-/* ---- Onglet Updates ------------------------------------------------------- */
-.nav__btn--updates { color: var(--amber); }
-.nav__btn--updates.is-active { color: var(--amber); border-bottom-color: var(--amber); }
-
+/* ---- Mises à jour ModDB (sous-onglet Admin « Updates ») ------------------- */
 .updates__toolbar {
   display: flex;
   align-items: center;

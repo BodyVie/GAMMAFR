@@ -49,7 +49,7 @@ gamma-fr/
 │   └── GAMMA extra/<patch>/   # XML + patch.json
 ├── .github/
 │   ├── scripts/
-│   │   └── check_updates.py   # scrape ModDB → data/mod_updates.json (onglet Updates)
+│   │   └── check_updates.py   # scrape ModDB → data/mod_updates.json (sous-onglet Admin « Updates »)
 │   └── workflows/
 │       ├── build-manifest.yml     # régénère le manifeste à chaque push (option B)
 │       ├── check-mod-updates.yml  # vérif. ModDB (cron / manuel / repository_dispatch)
@@ -67,11 +67,13 @@ Les onglets : **Panneau d'affichage** (accueil — annonce éditable par les adm
 planner), **Files**
 (lisez-moi + configurateur d'installation), **Liste** (liste des patchs « GAMMA
 extra », générée depuis `patches.json`),
-**Changelog**, **Planner** (planificateur, édition admin), **Updates** (suivi des
-mises à jour ModDB des mods, avec scan manuel déclenchable par un admin),
+**Changelog**, **Planner** (planificateur, édition admin),
 **Contact**, **Guide** (mode opératoire en **lecture seule** — onglet vert à
 gauche de l'Admin, contenu statique dans `index.html`, non éditable depuis le
-site) et **Admin** (éditeurs JSON protégés, tout à droite de la nav).
+site) et **Admin** (éditeurs JSON protégés, tout à droite de la nav). L'**Admin**
+est organisé en sous-onglets : *Tableau de bord*, *Updates* (suivi des mises à
+jour ModDB, scan manuel inclus — anciennement un onglet public), *Configuration*,
+*Outils* et *Messages*.
 
 ---
 
@@ -531,9 +533,10 @@ visiteur (le drapeau est lu au chargement du site). Toute valeur autre que
 
 ---
 
-## 9. Onglet Updates — vérification des mises à jour ModDB
+## 9. Sous-onglet Admin « Updates » — vérification des mises à jour ModDB
 
-L'onglet **Updates** signale les mods « GAMMA extra » dont la version a changé sur
+Le sous-onglet **Updates** de l'onglet **Admin** (donc visible **uniquement par un
+admin connecté**) signale les mods « GAMMA extra » dont la version a changé sur
 ModDB. Il **lit** `data/mod_updates.json` ; ce fichier est **produit** par le
 workflow `.github/workflows/check-mod-updates.yml`, qui exécute
 `.github/scripts/check_updates.py` (lecture des `patch.json`, scraping de la page
@@ -543,8 +546,9 @@ Le scan se déclenche de trois façons :
 
 1. **Automatique** — `cron` tous les 2 jours (8 h UTC).
 2. **Manuel depuis GitHub** — onglet *Actions* → *Run workflow* (`workflow_dispatch`).
-3. **Manuel depuis le site** — bouton **« Lancer un scan »** dans l'onglet Updates,
-   visible **uniquement par un admin connecté**. Le navigateur appelle le Worker
+3. **Manuel depuis le site** — bouton **« Lancer un scan »** dans le sous-onglet
+   **Updates** de l'Admin (visible **uniquement par un admin connecté**). Le
+   navigateur appelle le Worker
    (`POST /scan-updates` avec le mot de passe) ; le Worker émet alors un événement
    `repository_dispatch` (`event_type: scan-mod-updates`) sur le dépôt, ce qui
    démarre le workflow.

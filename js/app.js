@@ -616,7 +616,6 @@
     if (name === "liste") loadListe();
     if (name === "changelog") loadChangelog();
     if (name === "planner") loadPlanner();
-    if (name === "updates") loadUpdates();
     if (name === "admin") loadAdmin();
   }
 
@@ -2887,7 +2886,7 @@
     ]));
 
     if (!workerReady()) { host.appendChild(renderAdminNoWorker()); return; }
-    if (isAdmin()) { host.appendChild(renderAdminUnlocked()); loadMessages(); }
+    if (isAdmin()) { host.appendChild(renderAdminUnlocked()); loadMessages(); loadUpdates(); }
     else host.appendChild(renderAdminLock());
   }
 
@@ -3025,10 +3024,11 @@
     // Tout est construit d'emblée — les chargements asynchrones et les autosaveurs
     // s'arment exactement comme avant ; les sous-onglets ne font que montrer ou
     // masquer le panneau actif. « target » désigne le panneau en cours de remplissage.
-    var pDash   = el("div", {});  // Tableau de bord
-    var pConfig = el("div", {});  // Configuration
-    var pTools  = el("div", {});  // Outils
-    var pMsg    = el("div", {});  // Messages
+    var pDash    = el("div", {});  // Tableau de bord
+    var pUpdates = el("div", {});  // Updates (mises à jour ModDB)
+    var pConfig  = el("div", {});  // Configuration
+    var pTools   = el("div", {});  // Outils
+    var pMsg     = el("div", {});  // Messages
     var target = pDash;
 
     // ---- statistiques de téléchargement (compteur jour / mois / total) ----
@@ -3089,6 +3089,15 @@
     swCard.appendChild(el("div", { class: "switchrow" }, [swBtn, swState]));
     swCard.appendChild(el("div", { class: "editor__foot" }, [swStatus]));
     target.appendChild(swCard);
+
+    // ---- mises à jour ModDB (déplacé depuis l'ancien onglet « Updates ») ----
+    // Le contenu (liste + barre de scan + acquittement) est rendu par
+    // loadUpdates() → renderUpdates(), appelé depuis renderAdmin() une fois le
+    // panneau inséré dans le DOM. Réservé aux admins : le panneau n'existe que
+    // lorsqu'on est connecté.
+    target = pUpdates;
+    target.appendChild(el("div", { class: "stencil stencil--muted", text: "Mises à jour des mods (ModDB)" }));
+    target.appendChild(el("div", { id: "updatesHost" }, [el("span", { class: "loading", text: "Chargement…" })]));
 
     // ---- configuration du site ----
     target = pConfig;
@@ -3251,10 +3260,11 @@
 
     // barre de sous-onglets + panneaux, insérés sous la barre admin
     var sub = buildAdminSubtabs([
-      { id: "dash",   label: "Tableau de bord", panel: pDash },
-      { id: "config", label: "Configuration",   panel: pConfig },
-      { id: "tools",  label: "Outils",          panel: pTools },
-      { id: "msg",    label: "Messages",        panel: pMsg }
+      { id: "dash",    label: "Tableau de bord", panel: pDash },
+      { id: "updates", label: "Updates",         panel: pUpdates },
+      { id: "config",  label: "Configuration",   panel: pConfig },
+      { id: "tools",   label: "Outils",          panel: pTools },
+      { id: "msg",     label: "Messages",        panel: pMsg }
     ]);
     wrap.appendChild(sub.nav);
     wrap.appendChild(sub.host);
