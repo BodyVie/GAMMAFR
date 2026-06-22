@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-21T01:29:59+00:00",
+  "generated": "2026-06-22T01:00:37+00:00",
   "labels": [
     {
       "id": "lbl_mqft6asnlhoe",
@@ -129,6 +129,16 @@
               "done": true
             },
             {
+              "id": "ac_mqoidbbpapo9",
+              "text": "Fix casse XML",
+              "done": true
+            },
+            {
+              "id": "ac_mqoidlro93zu",
+              "text": "Ajouter les XML Manquants de Anomaly Vanilla",
+              "done": false
+            },
+            {
               "id": "ac_mqn3znqx5yhq",
               "text": "retour des premiers tests",
               "done": false
@@ -153,7 +163,7 @@
             }
           ],
           "created": "2026-06-16T19:59:32.403Z",
-          "modified": "2026-06-21T01:29:52.302Z"
+          "modified": "2026-06-22T01:00:30.121Z"
         }
       ]
     },
