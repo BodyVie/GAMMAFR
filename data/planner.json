@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-22T01:00:37+00:00",
+  "generated": "2026-06-22T07:47:27+00:00",
   "labels": [
     {
       "id": "lbl_mqft6asnlhoe",
@@ -97,7 +97,29 @@
     {
       "id": "cat_mqfskik3f8vw",
       "name": "En attente",
-      "tickets": []
+      "tickets": [
+        {
+          "id": "tk_mqowvymkupfl",
+          "title": "MàJ GAMMA -> Glossaire",
+          "description": "Alimentation d'encore plus de therme dans le Glossaire pour une meilleur traduction.",
+          "status": "todo",
+          "due": "2026-07-10",
+          "labels": [
+            "lbl_mqft6asnlhoe",
+            "lbl_mqiajiyf4urc"
+          ],
+          "actions": [
+            {
+              "id": "ac_mqowxbzf4vkm",
+              "text": "Plannification",
+              "done": false
+            }
+          ],
+          "comments": [],
+          "created": "2026-06-22T07:46:17.995Z",
+          "modified": "2026-06-22T07:47:25.947Z"
+        }
+      ]
     },
     {
       "id": "cat_mqfskpcza7r3",
