@@ -36,10 +36,10 @@
 		<text>Bon, pour les mois d'hiver, y'a plein de commandes qui arrivent de la Grande Terre pour des fourrures de pseudochiens. Alors si tu veux gâter une dame et garder une douce devushka au chaud cet hiver, vends-moi les peaux plutôt qu'à un scientifique.</text>
 	</string>
 	<string id="st_esc_m_trader_life_2">
-		<text>Je devrais pas dire ça, mais y'a des abrutis par ici qui paieraient pour n'importe quoi. J'ai eu plusieurs demandes pour des 'dents de Bloodsuckers' - oui, oui, je sais - de la part de gens qui croient qu'en posséder une leur porterait chance. Ouais, c'est ça. J'ai presque pitié de leur soutirer leur fric. Presque.</text>
+		<text>Je devrais pas dire ça, mais y'a des abrutis par ici qui paieraient pour n'importe quoi. J'ai eu plusieurs demandes pour des 'dents de Sangsues' - oui, oui, je sais - de la part de gens qui croient qu'en posséder une leur porterait chance. Ouais, c'est ça. J'ai presque pitié de leur soutirer leur fric. Presque.</text>
 	</string>
 	<string id="st_esc_m_trader_life_3">
-		<text>Tu sais, des fois, je reçois des commandes de artefacts de la part des gens les plus inattendus. L'autre jour, des bijoutiers sont venus chercher une Fleur de Pierre. Bon, j'espère qu'ils ont rendu une dame heureuse et que, s'ils connaissent leur métier, elle a pas chopé une... euh... lueur fatale, depuis.</text>
+		<text>Tu sais, des fois, je reçois des commandes de artefacts de la part des gens les plus inattendus. L'autre jour, des bijoutiers sont venus chercher une Fleur protectrice. Bon, j'espère qu'ils ont rendu une dame heureuse et que, s'ils connaissent leur métier, elle a pas chopé une... euh... lueur fatale, depuis.</text>
 	</string>
 	<string id="st_esc_m_trader_life_4">
 		<text>Des arnaqueurs. Même dans la Zone, j’en ai plein les bottes. Tiens, prends ce taré que j’ai dû gérer : il se baladait chez les autres stalkers en se faisant passer pour mon représentant commercial. Il utilisait ma réputation pour obtenir de meilleurs prix, et après, il refilait de la camelote ! Des flingues avec des canons tordus, des armures qui tiennent même pas face à un coup de vent, des boîtes de conserve périmées...\n\nSa condamnation à mort a été signée dès que ses conneries me sont revenues aux oreilles. Quand mes clients ont commencé à se plaindre à moi en pensant que j’y étais pour quelque chose, j’avais plus le choix. Il a morflé. </text>
@@ -70,10 +70,10 @@
 	</string>
 	
 	<string id="wolf_st_1">
-		<text>Je suis le boss local. Beaucoup de petits malins débarquent ici avec des paniers en osier et des couvertures, pensant être Redrick Schuhart ou un truc du genre, et bien sûr, la Zone les avale tout rond. Des putains de hippies et de geeks. Mon boulot, c’est de m’assurer qu’ils finissent pas en casse-croûte pour les mutants dès leur premier jour dans ce coin de paradis. C’est pas facile, tu sais ? Même avec l’aide des Fanatic pour former les rookies... J’ai passé une bonne partie de ma vie dans la Zone. J’ai travaillé avec le légendaire Marqué, ou plutôt Strelok, y’a un bail. J’ai bourlingué, j’ai même essayé de me barrer quelques fois, mais y’a toujours un truc qui me retenait - un raid militaire, une émission, un boulot juteux... Alors me voilà, toujours en train de materner des rookies.</text>
+		<text>Je suis le boss local. Beaucoup de petits malins débarquent ici avec des paniers en osier et des couvertures, pensant être Redrick Schuhart ou un truc du genre, et bien sûr, la Zone les avale tout rond. Des putains de hippies et de geeks. Mon boulot, c’est de m’assurer qu’ils finissent pas en casse-croûte pour les mutants dès leur premier jour dans ce coin de paradis. C’est pas facile, tu sais ? Même avec l’aide des Fanatique pour former les rookies... J’ai passé une bonne partie de ma vie dans la Zone. J’ai travaillé avec le légendaire Marqué, ou plutôt Strelok, y’a un bail. J’ai bourlingué, j’ai même essayé de me barrer quelques fois, mais y’a toujours un truc qui me retenait - un raid militaire, une émission, un boulot juteux... Alors me voilà, toujours en train de materner des rookies.</text>
 	</string>
 	
-<!-- Fanatic -->
+<!-- Fanatique -->
 	<string id="esc_2_12_stalker_fanat_start_dialog_1">
 		<text>Salut, stalker. Ça va aujourd’hui ?</text>
 	</string>
@@ -88,11 +88,11 @@
 	</string>
 	
 	<string id="fanatic_st_1">
-		<text>Fanatic, c’est mon nom, c’est comme ça qu’on m’appelle. Je suis en gros le bras droit de Wolf ici. Je passe mon temps à former les rookies, pour la plupart. Tu sais, c’est pas de la tarte. Leur apprendre à tirer avec leurs flingues pourris, leur dire où ils peuvent aller et où ils peuvent pas, buter des mutants, tenir les militaires et les bandits à distance... Y’a du boulot, même près de la frontière de la Zone. Mais c’est gratifiant, tu vois, surtout quand ils reviennent te voir avec leur premier artefact et cette lueur dans les yeux. Je râle pas. Je me souviens encore de ce que c’était, d’être une recrue.</text>
+		<text>Fanatique, c’est mon nom, c’est comme ça qu’on m’appelle. Je suis en gros le bras droit du Loup ici. Je passe mon temps à former les rookies, pour la plupart. Tu sais, c’est pas de la tarte. Leur apprendre à tirer avec leurs flingues pourris, leur dire où ils peuvent aller et où ils peuvent pas, buter des mutants, tenir les militaires et les bandits à distance... Y’a du boulot, même près de la frontière de la Zone. Mais c’est gratifiant, tu vois, surtout quand ils reviennent te voir avec leur premier artefact et cette lueur dans les yeux. Je râle pas. Je me souviens encore de ce que c’était, d’être une recrue.</text>
 	</string>
 	
 	<string id="fanat_training_start_0">
-		<text>Hé... J'crois pas t'avoir déjà vu dans le coin. T'as l'air plutôt nouveau, toi aussi. Moi, je suis le chef adjoint de ce village, avec Wolf. Si tu veux, je peux t'apprendre deux-trois trucs pour survivre dans la Zone, histoire que tu crèves pas au premier mutant ou à la première anomalie que tu croises.</text>
+		<text>Hé... J'crois pas t'avoir déjà vu dans le coin. T'as l'air plutôt nouveau, toi aussi. Moi, je suis le chef adjoint de ce village, avec Le Loup. Si tu veux, je peux t'apprendre deux-trois trucs pour survivre dans la Zone, histoire que tu crèves pas au premier mutant ou à la première anomalie que tu croises.</text>
 	</string>
 	<string id="fanat_training_start_1">
 		<text>Écoute, j’aurais bien besoin d’un coup de main, là. Je suis prêt à apprendre.</text>
@@ -390,7 +390,7 @@
 		<text>T'es pas un client très fiable, alors le pistolet te coûtera 4 200. Et j'exigerai un paiement d'avance de 1 400.</text>
 	</string>
 	<string id="esc_2_12_stalker_nimble_place_order_113">
-		<text>Désolé, les meilleurs pistolets sont déjà partis. Si tu veux du basique, Owl est ton homme.</text>
+		<text>Désolé, les meilleurs pistolets sont déjà partis. Si tu veux du basique, Le Hibou est ton homme.</text>
 	</string>
 	<string id="esc_2_12_stalker_nimble_place_order_12">
 		<text>Une arme de corps à corps.</text>
@@ -650,19 +650,19 @@
 		<text>Y'en a qui refusent carrément d'entendre un non.</text>
 	</string>
 	<string id="devushka_2_dialog_9">
-		<text>Certains devraient garder leur persévérance pour des causes plus nobles. Heureusement, y’a aussi des gens bien dans le coin. Wolf m’a traité comme n’importe quelle recrue, et c’était super. Avec le temps, j’ai appris à bien m’entendre avec les autres stalkers. Enfin, ceux qui sont pas défoncés jusqu’à la moelle. Malheureusement, à part lui et Fanatic, la vie ici est courte pour la plupart. J’aurais bien besoin de quelques nouveaux potes.</text>
+		<text>Certains devraient garder leur persévérance pour des causes plus nobles. Heureusement, y’a aussi des gens bien dans le coin. Le Loup m’a traité comme n’importe quelle recrue, et c’était super. Avec le temps, j’ai appris à bien m’entendre avec les autres stalkers. Enfin, ceux qui sont pas défoncés jusqu’à la moelle. Malheureusement, à part lui et Fanatique, la vie ici est courte pour la plupart. J’aurais bien besoin de quelques nouveaux potes.</text>
 	</string>	
 	<string id="devushka_2_dialog_10">
 		<text>Tu dis ça à tous ceux qui te ramènent des doigts de snorks ?</text>
 	</string>
 	<string id="devushka_2_dialog_11">
-		<text>Oh, pitié. Tu sais à quel point c'est galère de surveiller les Bloodsuckers quand t'es tout seul ? C'est bien plus dur que ça en a l'air, je te jure.</text>
+		<text>Oh, pitié. Tu sais à quel point c'est galère de surveiller les Sangsues quand t'es tout seul ? C'est bien plus dur que ça en a l'air, je te jure.</text>
 	</string>
 	<string id="devushka_2_dialog_16">
 		<text>Tu comptes aller quelque part après ?</text>
 	</string>
 	<string id="devushka_2_dialog_17">
-		<text>Ouais. J'ai quelques runs de routine à faire pour des artefacts. J'ai aussi une commande spéciale à honorer - tu peux venir avec si ça te dit. Faut quelqu'un pour surveiller les Bloodsuckers, après tout. Tu toucheras un bon pourcentage. Cinquante pour cent, c'est plus que correct.</text>
+		<text>Ouais. J'ai quelques runs de routine à faire pour des artefacts. J'ai aussi une commande spéciale à honorer - tu peux venir avec si ça te dit. Faut quelqu'un pour surveiller les Sangsues, après tout. Tu toucheras un bon pourcentage. Cinquante pour cent, c'est plus que correct.</text>
 	</string>
 	<string id="devushka_2_dialog_12">
 		<text>D'accord, je marche.</text>
@@ -714,7 +714,7 @@
 		<text>Sidorovich voulait que je te dise un truc. Il t'a décroché un boulot de livraison avec Barman... le problème, c'est qu'il faut passer la Barrière.</text>
 	</string>
 	<string id="devushka_4_dialog_1">
-		<text>Merci de m’avoir prévenu. Un vieux pote vient de m’envoyer un message sur mon PDA, il dit à peu près la même chose. Écoute, reviens ici ce soir, d’accord ? J’ai besoin d’un peu de temps pour me préparer mentalement au voyage. Et j’aurai encore besoin que tu surveilles les Bloodsuckers pour ce boulot, alors ne traîne pas trop pour revenir.</text>
+		<text>Merci de m’avoir prévenu. Un vieux pote vient de m’envoyer un message sur mon PDA, il dit à peu près la même chose. Écoute, reviens ici ce soir, d’accord ? J’ai besoin d’un peu de temps pour me préparer mentalement au voyage. Et j’aurai encore besoin que tu surveilles les Sangsues pour ce boulot, alors ne traîne pas trop pour revenir.</text>
 	</string>
 
 	<string id="devushka_4_quest_0">
@@ -740,7 +740,7 @@
 		<text>T’as une idée d’où on pourrait dégoter l’artefacts que Sidorovich cherche ?</text>
 	</string>
 	<string id="devushka_about_artefact_1">
-		<text>Bien sûr. On trouve Clair de lune dans les anomalies Électro, Gravi dans les anomalies Vortex et Yeux de Homard dans les anomalies Brûleur.</text>
+		<text>Bien sûr. On trouve Clair de lune dans les anomalies Électro, Gravi dans les anomalies Vortex et Yeux de Homard dans les anomalies Colonne de feu.</text>
 	</string>
 	<string id="devushka_about_artefact_2">
 		<text>OK. Et je suppose que je fais le guet pendant que tu plonges dedans ?</text>
@@ -818,7 +818,7 @@
 		<text>J'ai déjà décidé. J'ai fait mon choix. J'espérais juste que t'aurais été un peu plus derrière moi, c'est tout.</text>
 	</string>
 	<string id="devushka_give_present_11">
-		<text>Bon, alors reste dans le coin. Ça fera du bien d'avoir quelqu'un pour surveiller les arrières des bloodsuckers.</text>
+		<text>Bon, alors reste dans le coin. Ça fera du bien d'avoir quelqu'un pour surveiller les arrières des Sangsues.</text>
 	</string>
 	<string id="devushka_give_present_13">
 		<text>Hah ! J'me disais aussi ! Tiens, prends ça en remerciement. T'as assuré pour moi plus de fois qu'on pourrait compter. </text>

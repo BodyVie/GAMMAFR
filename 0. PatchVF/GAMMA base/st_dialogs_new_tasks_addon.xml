@@ -6,7 +6,7 @@
 		<text>L'Indic m'a dit de te retrouver. T'as des infos qui pourraient éclairer le stalker « enflammé » dont tout le monde parle, c'est ça ?</text>
 	</string>
 	<string id="baraholka_trader_the_living_fire_1_1">
-		<text>Ah, ouais... J'ai un truc, mais te fais pas trop d'illusions. Il y a un moment, on a observé des éclairs bizarres la nuit derrière le gros tas d'ordures au sud, suivis par des hurlements terrifiants de mutants. Quelques Solitaires ont été curieux de savoir c'qui s'était passé et ont visité l'endroit en journée. Ils ont trouvé des flesh morts là-bas qui étaient... bon... légèrement grillés. Au début, on a pensé que ces flesh étaient tombés dans une anomalie à peine visible qui avait disparu le lendemain ou qu'ils avaient croisé un poltergeist cracheur de feu, mais y'avait un truc bizarre avec l'un d'eux. Il avait comme une marque dans le dos - en forme de main humaine. Ça pouvait être un simple accident... ou pas ? Qui sait...\n\nTu peux jeter un oeil dans l'coin la nuit si tu veux en savoir plus. Si ce type existe vraiment, son affinité avec le feu pourrait t'indiquer où le chercher.</text>
+		<text>Ah, ouais... J'ai un truc, mais te fais pas trop d'illusions. Il y a un moment, on a observé des éclairs bizarres la nuit derrière le gros tas d'ordures au sud, suivis par des hurlements terrifiants de mutants. Quelques Solitaires ont été curieux de savoir c'qui s'était passé et ont visité l'endroit en journée. Ils ont trouvé des Croquemort morts là-bas qui étaient... bon... légèrement grillés. Au début, on a pensé que ces Croquemort étaient tombés dans une anomalie à peine visible qui avait disparu le lendemain ou qu'ils avaient croisé un poltergeist cracheur de feu, mais y'avait un truc bizarre avec l'un d'eux. Il avait comme une marque dans le dos - en forme de main humaine. Ça pouvait être un simple accident... ou pas ? Qui sait...\n\nTu peux jeter un oeil dans l'coin la nuit si tu veux en savoir plus. Si ce type existe vraiment, son affinité avec le feu pourrait t'indiquer où le chercher.</text>
 	</string>
 	<string id="baraholka_trader_the_living_fire_1_2">
 		<text>Hmm... ça sent encore l'histoire de vétéran pour faire flipper les recrues. Quoi qu'il en soit, je vais essayer d'en savoir plus. Merci.</text>
@@ -28,7 +28,7 @@
 		<text>T'as vu... quoi ? T'es sérieux, là ? Attends... t'es un peu pâle... T'es sérieux ?! Ça a un rapport avec cette grosse explosion qu'on a entendue ?</text>
 	</string>
 	<string id="baraholka_trader_the_living_fire_2_4">
-		<text>Ouais. Il faisait une sorte de... rituel... près de l'anomalie Feu Grec. Y'avait du feu partout autour. Un flesh égaré s'est approché et s'est... évaporé ?</text>
+		<text>Ouais. Il faisait une sorte de... rituel... près de l'anomalie Feu Grec. Y'avait du feu partout autour. Un Croquemort égaré s'est approché et s'est... évaporé ?</text>
 	</string>
 	<string id="baraholka_trader_the_living_fire_2_5">
 		<text>Mais comment t'as fait pour survivre, putain ? T'as parlé avec lui ?</text>
@@ -90,7 +90,7 @@
 		<text>Putain... comme tu veux. Nos scanners montrent des lectures anormales depuis quelques jours - des pics soudains dans l’énergie émise par cette anomalie. Comme si elle s’étendait et revenait à son état de base. On a déjà vu des fluctuations comme ça dans d’autres anomalies, mais pas avec cette fréquence. On a décidé de les ignorer. Il y a pas longtemps, nos lectures ont explosé la nuit pendant un court moment avant de revenir à la normale. C’est très inquiétant. On pourrait avoir de gros problèmes si les anomalies commencent à s’étendre sans contrôle.\n\nAlors, dis-moi - qu’est-ce que t’as vu là-bas ? Je suppose que t’as vu pas mal d’anomalies dans ta vie, alors ça devait être quelque chose d’extraordinaire.</text>
 	</string>
 	<string id="yan_stalker_sakharov_the_living_fire_1_8">
-		<text>Ouais - c’était ça. Comme t’as dit, l’anomalie était vraiment active à ce moment-là. Elle crachait des flammes de partout. Le plus intéressant, c’est qu’il y avait un mec au milieu de ces flammes. Il faisait une sorte de rituel. Ce que j’ai découvert plus tard, c’est qu’il pouvait contrôler le feu. Il a littéralement désintégré un flesh sous mes yeux. Peu après, il a pris feu et a disparu. C’est aussi à ce moment-là que les flammes se sont calmées.</text>
+		<text>Ouais - c’était ça. Comme t’as dit, l’anomalie était vraiment active à ce moment-là. Elle crachait des flammes de partout. Le plus intéressant, c’est qu’il y avait un mec au milieu de ces flammes. Il faisait une sorte de rituel. Ce que j’ai découvert plus tard, c’est qu’il pouvait contrôler le feu. Il a littéralement désintégré un Croquemort sous mes yeux. Peu après, il a pris feu et a disparu. C’est aussi à ce moment-là que les flammes se sont calmées.</text>
 	</string>
 	<string id="yan_stalker_sakharov_the_living_fire_1_9">
 		<text>Fascinant ! Donc c'est lui qui a boosté l'anomalie. T'as eu l'occasion de lui parler ?</text>
@@ -189,7 +189,7 @@
 		<text>Pourquoi ça le serait ? Si j'avais voulu te buter, on serait pas en train de discuter, là.</text>
 	</string>
 	<string id="the_living_fire_prometheus_the_living_fire_1_2">
-		<text>Pourquoi t'as pas fait ça, alors ? J'ai vu ta puissance... ce flesh sur la Décharge a pris feu.</text>
+		<text>Pourquoi t'as pas fait ça, alors ? J'ai vu ta puissance... ce Croquemort sur la Décharge a pris feu.</text>
 	</string>
 	<string id="the_living_fire_prometheus_the_living_fire_1_3">
 		<text>Je te connais, stalker. Je sais que t'as vu le Exauceur de Souhaits et que t'as pas fait un voeu égoïste, comme beaucoup d'autres l'auraient fait. T'as le coeur pur. Maintenant - je crois que t'as plein de questions.</text>
@@ -216,7 +216,7 @@
 		<text>Sidor est un putain d'avare, mais là, c'est extrême même pour lui... T'as fait quoi après ?</text>
 	</string>
 	<string id="the_living_fire_prometheus_the_living_fire_1_11">
-		<text>J'pouvais pas refuser... Y'a pas d'anomalies thermiques autour du Cordon, alors j'ai dû aller ailleurs. Darkscape et Grand marais, c'est super dangereux, surtout quand t'as qu'un PM. J'ai décidé de traîner autour de l'anomalie Greek Fire. J'ai passé deux jours à glander près du Marché aux Puces, à bouffer des restes, à éviter les bastons et à visiter l'anomalie de temps en temps. Les marchands m'ont vu dans la misère et m'ont filé un quignon de pain une fois.\n\nAu troisième jour, la chance a enfin souri... ou du moins, c'est c'que j'croyais. Le bon artefact est apparu et j'ai essayé de l'attraper sans finir en grillade. Il a dérivé vers moi et je l'ai chopé. Puis, d'un coup, un flesh a jailli des buissons et m'a poussé direct dans l'anomalie. J'ai senti une douleur atroce dans tout l'corps et j'ai perdu connaissance peu après. J'me suis dit que c'était la fin... dévoré par les flammes.</text>
+		<text>J'pouvais pas refuser... Y'a pas d'anomalies thermiques autour du Cordon, alors j'ai dû aller ailleurs. Darkscape et Grand marais, c'est super dangereux, surtout quand t'as qu'un PM. J'ai décidé de traîner autour de l'anomalie Greek Fire. J'ai passé deux jours à glander près du Marché aux Puces, à bouffer des restes, à éviter les bastons et à visiter l'anomalie de temps en temps. Les marchands m'ont vu dans la misère et m'ont filé un quignon de pain une fois.\n\nAu troisième jour, la chance a enfin souri... ou du moins, c'est c'que j'croyais. Le bon artefact est apparu et j'ai essayé de l'attraper sans finir en grillade. Il a dérivé vers moi et je l'ai chopé. Puis, d'un coup, un Croquemort a jailli des buissons et m'a poussé direct dans l'anomalie. J'ai senti une douleur atroce dans tout l'corps et j'ai perdu connaissance peu après. J'me suis dit que c'était la fin... dévoré par les flammes.</text>
 	</string>
 	<string id="the_living_fire_prometheus_the_living_fire_1_12">
 		<text>Comment t'as fait pour être encore en vie, toi ?</text>
@@ -608,7 +608,7 @@
 	</string>
 
 	<string id="hunter_gar_trader_mystery_of_the_swamps_1_0">
-		<text>Salut, Boucher ! Faut qu'on parle.</text>
+		<text>Salut, Le Boucher ! Faut qu'on parle.</text>
 	</string>
 	<string id="hunter_gar_trader_mystery_of_the_swamps_1_1">
 		<text>Quoi de neuf ? T'as besoin de viande fraîche ? Ou alors un conseil de chasse ?</text>

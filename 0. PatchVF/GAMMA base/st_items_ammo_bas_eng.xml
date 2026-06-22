@@ -12,7 +12,7 @@
 	<string id="ammo_23x75_shrapnel_descr">
 		<text>Cartouche à charge de chevrotine. Portée d'application jusqu'à 25 mètres. Utilisée pour le tir à partir de la carabine KS-23. Grâce aux rayures du canon de la KS-23, la chevrotine se disperse sur une large zone, permettant un tir à main levée, pratiquement sans visée.\n
 		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance de pénétration de blindage : %c[ui_gray_1]BR3 (6 x 6)
-		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance de dégâts contre le Flesh : %c[ui_gray_1]285 (47,5 x 6)</text>
+		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance de dégâts contre la chaire : %c[ui_gray_1]285 (47,5 x 6)</text>
 	</string>
 	
 	<string id="ammo_23x75_barrikada">
@@ -21,7 +21,7 @@
 	<string id="ammo_23x75_barrikada_descr">
 		<text>Cartouche équipée d'une balle perforante en acier. Elle est utilisée pour immobiliser des véhicules en les endommageant. Portée d'application jusqu'à 100 mètres. Conçue pour le tir à partir de la carabine KS-23.\n
 		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance de pénétration de blindage : %c[ui_gray_1]BR5 (51)
-		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance de dégâts contre le Flesh : %c[ui_gray_1]133</text>
+		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance de dégâts contre la chaire : %c[ui_gray_1]133</text>
 	</string>
 
 		<string id="ammo_9x21_sp10">
@@ -30,7 +30,7 @@
 	<string id="ammo_9x21_sp10_descr">
 		<text>Cartouche pour pistolet à balle à pénétration accrue. Conçue pour neutraliser des cibles protégées par un équipement de protection individuelle. La partie avant du noyau en acier trempé dépasse de l'enveloppe, ce qui confère à la balle un effet de pénétration élevé.\n
 		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance de pénétration de blindage : %c[ui_gray_1]BR3 (32)
-		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance de dégâts contre le Flesh : %c[ui_gray_1]27</text>
+		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance de dégâts contre la chaire : %c[ui_gray_1]27</text>
 	</string>
 
 	<string id="ammo_20x70_buck">
@@ -39,7 +39,7 @@
 	<string id="ammo_20x70_buck_descr">
 		<text>Cartouche standard de calibre 20 chargée de chevrotine de 6 mm. Très létale à courte distance. Uniquement compatible avec les armes à canon lisse.\n\n%c[d_purple] • %c[ui_gray_2] Classe de blindage maximale percée : %c[ui_gray_1]aucune\n%c[d_purple] • %c[ui_gray_2] Indice de dégâts tissulaires : %c[ui_gray_1]moyen - élevé\n\n%c[ui_gray_1]SPÉCIAL :\n\n%c[d_purple] • %c[ui_gray_2] nuage de projectiles en expansion, portée efficace courte
 		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance de pénétration de blindage : %c[ui_gray_1]Aucune (3 x 9)
-		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance de dégâts contre le Flesh : %c[ui_gray_1]143 (16 x 9)</text>
+		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance de dégâts contre la chaire : %c[ui_gray_1]143 (16 x 9)</text>
 	</string>
 	<string id="ammo_20x70_buck_s">
 		<text>20x70 chevrotine</text>

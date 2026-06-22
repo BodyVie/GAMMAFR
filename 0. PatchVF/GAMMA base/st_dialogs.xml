@@ -260,7 +260,7 @@
 		<text>Hmm... Bras et jambes intacts... la tête est en place... Ouais, t'es bon.</text>
 	</string>
 	<string id="st_dm_medic_general_text_10_3">
-		<text>Mec, t'es en meilleure forme qu'un bloodsucker.</text>
+		<text>Mec, t'es en meilleure forme qu'un sangsue.</text>
 	</string>
 	<string id="st_dm_medic_general_text_10_4">
 		<text>Arrête tes conneries. T'es bon.</text>
@@ -945,7 +945,7 @@
 		<text>T'as des couilles de montrer cet artefact par ici. Respect. Écoute : le gars à voir pour ce genre de truc, c'est Barbu, à Skadovsk. On sait pas encore comment il fait sortir les artefacts de la Zone, alors tu devrais pouvoir fourguer le tien sans problème.</text>
 	</string>
 	<string id="about_quests_dialog_bandit_9">
-		<text>J'ai trouvé un vrai nid de bloodsuckers dans le coin. On fait quoi ?</text>
+		<text>J'ai trouvé un vrai nid de sangsues dans le coin. On fait quoi ?</text>
 	</string>
 	<string id="about_quests_dialog_bandit_91">
 		<text>Euh... qu'est-ce qu'y a à faire ? Dégager en vitesse, c'est tout !</text>
@@ -1157,7 +1157,7 @@
 		<text>Tu devrais montrer ce machin à un stalkers - c'est des experts en ce genre de trucs. Encore mieux, montre-le à celui à qui ils revendent leurs artefacts.</text>
 	</string>
 	<string id="about_quests_dialog_dolg_9">
-		<text>J'ai trouvé un vrai nid de bloodsuckers dans le coin. On fait quoi ?</text>
+		<text>J'ai trouvé un vrai nid de sangsues dans le coin. On fait quoi ?</text>
 	</string>
 	<string id="about_quests_dialog_dolg_91">
 		<text>Les escouades de Devoir mènent pas d'opérations de purge dans ce secteur pour l'instant, alors le repaire devra attendre.</text>
@@ -1369,7 +1369,7 @@
 		<text>Tu connais Barbu, le barman du camp des stalkers libres ? Il rachète des artefacts et il te fait pas trop les poches, en plus. Un bon gars, quoi qu'on en dise. Dommage qu'il bosse pas pour nous, franchement.</text>
 	</string>
 	<string id="about_quests_dialog_freedom_9">
-		<text>J'ai trouvé un vrai nid de bloodsuckers dans le coin. On fait quoi ?</text>
+		<text>J'ai trouvé un vrai nid de sangsues dans le coin. On fait quoi ?</text>
 	</string>
 	<string id="about_quests_dialog_freedom_91">
 		<text>Écoute, faut prévenir les stalkers libres - ils ont leur camp principal dans le coin, après tout. La faune de la Zone a de la valeur, c'est sûr, mais moi, c'est les gens ici qui m'inquiètent.</text>
@@ -1503,7 +1503,7 @@
 		<text>Qui est intéressé par des infos sur le fondateur du Devoir ?</text>
 	</string>
 	<string id="about_quests_dialog_stalkers_201">
-		<text>J'irais discuter avec Owl, le marchand d'infos à Skadovsk. Tu peux être sûr qu'il sera chaud pour des infos crédibles sur une légende comme ça.</text>
+		<text>J'irais discuter avec Le Hibou, le marchand d'infos à Skadovsk. Tu peux être sûr qu'il sera chaud pour des infos crédibles sur une légende comme ça.</text>
 	</string>
 	<string id="about_quests_dialog_stalkers_21">
 		<text>J'en ai vu un moi-même... Il avait pas l'air d'avoir crashé, mais il volait bizarrement. Il tanguait de gauche à droite jusqu'à ce qu'il se pose sur un plateau au sud de Zaton... Ça serait intéressant de savoir si y'a des survivants... Si seulement on connaissait un moyen d'y monter. En fait, j'ai entendu dire que Noah, celui de la barge du taré, pourrait savoir...</text>
@@ -1539,7 +1539,7 @@
 		<text>J'en ai pas vu moi-même, mais j'ai entendu une histoire sur des soldats qui descendaient du plateau sud du côté des égouts. Apparemment, ils ont d'abord essayé de descendre proprement, avec des cordes et tout. Mais ils ont abandonné et ont fini par glisser sur le cul, haha ! Luge humaine dans la Zone - faut aimer !</text>
 	</string>
 	<string id="about_quests_dialog_stalkers_32">
-		<text>J'ai entendu une conversation à Skadovsk à propos de cinq marines environ qui ont été repérés en sortant d'un tunnel de drainage près du marais. Ils ont dit que les soldats étaient couverts de crasse, et l'un d'eux, on aurait même pas pu le distinguer d'un bloodsucker des marais, tellement il était couvert de boue de la tête aux pieds.</text>
+		<text>J'ai entendu une conversation à Skadovsk à propos de cinq marines environ qui ont été repérés en sortant d'un tunnel de drainage près du marais. Ils ont dit que les soldats étaient couverts de crasse, et l'un d'eux, on aurait même pas pu le distinguer d'un sangsue des marais, tellement il était couvert de boue de la tête aux pieds.</text>
 	</string>
 	<string id="about_quests_dialog_stalkers_33">
 		<text>Pas personnellement, mais un pote à moi a vu une unité militaire engager un groupe de mercs près de la station de traitement. Mais quand il a trouvé un bon spot pour mater le spectacle, c'était déjà fini parce que les marines avaient battu en retraite. Aucun mort des deux côtés non plus... typique, hein ?</text>
@@ -1641,7 +1641,7 @@
 		<text>Moi, à ta place, je le montrerais à Barbu, le barman à Skadovsk. Paraît qu'il bosse avec des collectionneurs de l'extérieur, et ces chats kiffent grave les trucs bizarres.</text>
 	</string>
 	<string id="about_quests_dialog_stalkers_9">
-		<text>J'ai trouvé un vrai nid de bloodsuckers dans le coin. On fait quoi ?</text>
+		<text>J'ai trouvé un vrai nid de sangsues dans le coin. On fait quoi ?</text>
 	</string>
 	<string id="about_quests_dialog_stalkers_91">
 		<text>Wow, faut que tu racontes ça au Barbu à Skadovsk... Parce que soit on les affronte, soit ils vont nous défoncer.</text>

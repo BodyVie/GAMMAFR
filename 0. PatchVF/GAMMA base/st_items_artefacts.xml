@@ -6,11 +6,11 @@
 
 <string_table>
 	<string id="st_af_itcher_name">
-		<text>Itcher</text>
+		<text>Gratteur</text>
 	</string>  
 	<string id="st_af_itcher_descr">
 		<text>
-		Formation d'origine thermique. Le Itcher se compose de deux couches distinctes. La surface est une roche métamorphique dure et dense, couverte de profondes cicatrices sur l'ensemble du corps. Complètement inactive et ne présentant aucune propriété notable. En revanche, le noyau mou et luminescent de couleur jaune est d'une nature organique inconnue. Il absorbe activement l'excès de chaleur et reste constamment froid.
+		Formation d'origine thermique. Le Gratteur se compose de deux couches distinctes. La surface est une roche métamorphique dure et dense, couverte de profondes cicatrices sur l'ensemble du corps. Complètement inactive et ne présentant aucune propriété notable. En revanche, le noyau mou et luminescent de couleur jaune est d'une nature organique inconnue. Il absorbe activement l'excès de chaleur et reste constamment froid.
 		\nCependant, il n'est pas recommandé de s'approcher des anomalies chimiques et acides en possession de cet artefact, car il amplifiera les effets néfastes des acides et des toxines dans le sang de l'utilisateur.
 		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
 		</text>
@@ -42,11 +42,11 @@
 	</string>
 	
 	<string id="st_af_fireball_name">
-		<text>Boule de feu</text>
+		<text>Bolide</text>
 	</string>
 	<string id="st_af_fireball_descr">
 		<text>
-		Il s'agit d'un artefact sphérique en cristal rouge, créé dans l'anomalie Brûleur.
+		Il s'agit d'un artefact sphérique en cristal rouge, créé dans l'anomalie Colonne de feu.
 		\nIl possède une propriété unique : sa température reste constante à 75 degrés Fahrenheit (24 degrés Celsius), indépendamment de son environnement. Cela lui permet d'absorber la chaleur de son voisinage et de créer une petite poche autour de l'utilisateur, empêchant les flammes d'endommager le corps.
 		\nUn effet dangereux de cet artefact est qu'il augmente la conductivité électrique, ce qui accroît considérablement la probabilité d'électrocution lors de son port, en particulier pendant les orages et à proximité d'anomalies électriques. Il est par ailleurs assez lourd en raison de la haute densité du matériau cristallin qui le compose.
 		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
@@ -54,7 +54,7 @@
 	</string>
 	
 	<string id="st_af_blood_name">
-		<text>Sang de Pierre</text>
+		<text>Pierre Sanguine</text>
 	</string>
 	<string id="st_af_blood_descr">
 		<text>
@@ -152,7 +152,7 @@
 	</string>
 	
 	<string id="st_af_cristall_flower_name">
-		<text>Fleur de Pierre</text>
+		<text>Fleur protectrice</text>
 	</string>
 	<string id="st_af_cristall_flower_descr">
 		<text>
@@ -170,7 +170,7 @@
 	<string id="st_af_lobster_eyes_descr">
 		<text>
 		Comme son nom l'indique, cet artefact a la forme de deux oeufs fusionnés. La surface externe est très épaisse, et la densité élevée de sa structure pourrait expliquer sa couleur profonde.
-		\nCet artefact offre une protection psychique légèrement supérieure à celle de sa cousine, la Fleur de Pierre. Il entre en résonance sous l'influence des ondes psychiques et absorbe partiellement leurs effets dangereux.
+		\nCet artefact offre une protection psychique légèrement supérieure à celle de sa cousine, la Fleur protectrice. Il entre en résonance sous l'influence des ondes psychiques et absorbe partiellement leurs effets dangereux.
 		\nUne autre propriété positive est la capacité à absorber l'excès de chaleur tout en restant constamment frais.
 		\nEn raison de la densité de sa surface, le Yeux de Homard est assez lourd.
 		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
@@ -189,13 +189,13 @@
 	</string>
 	
 	<string id="st_af_black_spray_name">
-		<text>Peinture Noire</text>
+		<text>Brume noire</text>
 	</string>  
 	<string id="st_af_black_spray_descr">
 		<text>
 		artefact rare, ses propriétés et origines restent peu connues. 
-		\nLa Peinture Noire partage une forme similaire à d'autres artefacts semblables au saphir. Cependant, la nature organique de la tige (qui présente des propriétés similaires à celles des Épingles artefacts) suggère qu'elle se forme à partir de plantes vasculaires exposées à des champs psychiques dangereux et à des ondes électromagnétiques.
-		\nUne autre propriété unique de cet artefact réside dans sa capacité à retarder la transmission de la lumière qui le pénètre. Ce mécanisme mystérieux s'applique également aux ondes psychiques environnant le artefact. Pour cette raison précise, la Peinture Noire neutralise significativement les interférences psychiques dans un large rayon.
+		\nLa Brume noire partage une forme similaire à d'autres artefacts semblables au saphir. Cependant, la nature organique de la tige (qui présente des propriétés similaires à celles des Épingles artefacts) suggère qu'elle se forme à partir de plantes vasculaires exposées à des champs psychiques dangereux et à des ondes électromagnétiques.
+		\nUne autre propriété unique de cet artefact réside dans sa capacité à retarder la transmission de la lumière qui le pénètre. Ce mécanisme mystérieux s'applique également aux ondes psychiques environnant le artefact. Pour cette raison précise, la Brume noire neutralise significativement les interférences psychiques dans un large rayon.
 		\nCes propriétés bénéfiques ont cependant un prix. Cet artefact est extrêmement dangereux lorsqu'il est exposé à des environnements toxiques, car il amplifie leur effet et augmente leur puissance. Il est donc fortement recommandé de conserver le artefact dans votre sac à dos lors de l'exploration de zones toxiques.
 		\nEn raison de la belle aura bleue qu'il émet, il est très prisé par les joailliers du monde entier.
 		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
@@ -215,14 +215,14 @@
 	</string>
 	
 	<string id="st_af_vyvert_name">
-		<text>Tordu</text>
+		<text>Tortillon</text>
 	</string>
 	<string id="st_af_vyvert_descr">
 		<text>
 		Ce artefact de forme étrange apparaît dans les zones où l'activité gravitationnelle est accrue.
 		\nBien qu'il paraisse presque organique, il ressemble en réalité davantage à du corail. En raison de sa nature gravitationnelle, il assure une protection contre les impacts physiques en réduisant considérablement les frottements causés par les objets se déplaçant à grande vitesse.
 		\nAgissant comme une sorte d'éponge qui absorbe également les éléments chimiques et toxiques, ce artefact assure une protection contre les agents toxiques externes ainsi que contre les particules chimiques ayant déjà pénétré dans l'organisme.
-		\nLe Tordu peut générer un champ gravitationnel localisé qui augmente sa masse. Pour cette raison, cet artefact est lourd.
+		\nLe Tortillon peut générer un champ gravitationnel localisé qui augmente sa masse. Pour cette raison, cet artefact est lourd.
 		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
 		</text>
 	</string>
@@ -241,27 +241,27 @@
 	</string> 
  	
 	<string id="st_af_full_empty_name">
-		<text>Vide Absolu</text>
+		<text>Plein-Vide</text>
 	</string>  
 	<string id="st_af_full_empty_descr">
 		<text>
-		Similaire au Vide, cet artefact se compose de deux disques de formation organique reliés par un champ gravitationnel unique entre eux. Cependant, ledit champ dans le Vide Absolu est extraordinaire : tous les atomes pénétrant en son centre, quelle que soit leur nature, deviennent interactifs sous les effets inconnus du champ, libérant ainsi des photons (émission de lumière).
+		Similaire au Vide, cet artefact se compose de deux disques de formation organique reliés par un champ gravitationnel unique entre eux. Cependant, ledit champ dans le Plein-Vide est extraordinaire : tous les atomes pénétrant en son centre, quelle que soit leur nature, deviennent interactifs sous les effets inconnus du champ, libérant ainsi des photons (émission de lumière).
 		\nLes scientifiques désignent généralement cet effet sous le nom d'« effet galaxie », qui confère à l'artefact une orbite lumineuse exceptionnelle.
 		\nL'augmentation de la densité de l'air environnant causée par le mouvement est plus élevée comparée à celle de Vide. De ce fait, le artefact entravera grandement les mouvements de son porteur.
-		\nÉtant un artefact supérieur au Vide, la protection contre les impacts physiques est remarquable. Certains affirment que le Vide Absolu est capable d'arrêter des balles de 9 mm tirées à bout portant.
+		\nÉtant un artefact supérieur au Vide, la protection contre les impacts physiques est remarquable. Certains affirment que le Plein-Vide est capable d'arrêter des balles de 9 mm tirées à bout portant.
 		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
 		</text>
 	</string> 
 	
 	<string id="st_af_night_star_name">
-		<text>Étoile de nuit</text>
+		<text>Etoile phosphorescente</text>
 	</string>
 	<string id="st_af_night_star_descr">
 		<text>
 		Cet artefact lumineux peut générer un champ de faible gravité localisé et dirigé. Il est largement utilisé par les stalkers en combinaison avec le Gravi, un artefact similaire, pour augmenter la charge maximale.
 		\nEn raison de son noyau interne d'une grande beauté, cet artefact est très prisé des joailliers du monde entier. Toutefois, il convient de procéder avec prudence, car un traitement inadéquat peut provoquer l'explosion de l'artefact avec une puissance suffisante pour raser un petit bâtiment. Il est donc fortement recommandé d'effectuer le polissage à l'aide de machines spécialisées, ce qui minimise la probabilité d'explosion. De plus, seule la couche externe de l'artefact émet des radiations.
-		\nL'Étoile de nuit absorbe également les agents toxiques et chimiques présents dans l'environnement, ce qui en fait un artefact précieux pour les chasseurs de artefacts, bien que la quantité de toxicité absorbée soit négligeable. Il reste cependant relativement abordable, et même les stalkers disposant de budgets serrés peuvent se l'offrir si l'occasion se présente. 
-		\nCela dit, la Étoile de nuit dégage une odeur de flesh brûlé lorsqu'elle se trouve à proximité immédiate d'une source de chaleur. Une exposition prolongée peut augmenter son inflammabilité et provoquer son embrasement.
+		\nL'Etoile phosphorescente absorbe également les agents toxiques et chimiques présents dans l'environnement, ce qui en fait un artefact précieux pour les chasseurs de artefacts, bien que la quantité de toxicité absorbée soit négligeable. Il reste cependant relativement abordable, et même les stalkers disposant de budgets serrés peuvent se l'offrir si l'occasion se présente. 
+		\nCela dit, la Etoile phosphorescente dégage une odeur de Croquemort brûlé lorsqu'elle se trouve à proximité immédiate d'une source de chaleur. Une exposition prolongée peut augmenter son inflammabilité et provoquer son embrasement.
 		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
 			%c[0,209,172,56]+4 % d'atténuation des dégâts de classe BR\n
 		</text>
@@ -281,14 +281,14 @@
 	</string>
 	
 	<string id="st_af_gold_fish_name">
-		<text>Poisson doré</text>
+		<text>Cyprin</text>
 	</string>
 	<string id="st_af_gold_fish_descr">
 		<text>
 		Version directe et améliorée du Gravi artefact. Comme pour le Gravi, c'est le scientifique Sakharov à Yantar qui a découvert ses propriétés uniques après qu'une importante explosion/émission ait frappé la Zone.
 		\nGrâce à des recherches méticuleuses qui ont suivi, il a été établi que ce nouveau artefact est produit lorsque trois Gravis artefacts interagissent et sont aspirés dans les champs de singularité les uns des autres. Ce phénomène est extrêmement rare, ce qui confère à cet artefact une grande valeur.
-		\nIl se murmure dans les cercles des Spetsnaz ukrainiens que des agents du Ministère de la Défense de la Fédération de Russie seraient présents dans la Zone, leur unique objectif étant d'acquérir et de transporter des Poisson doré vers des laboratoires spécialisés situés en dehors de la Zone.
-		\nLe artefact crée un champ de singularité anti-gravitationnelle constant qui n'affecte que sa proximité immédiate. Cependant, certains stalkers ont été signalés comme disparaissant sans raison apparente, ne laissant derrière eux qu'un Poisson doré.
+		\nIl se murmure dans les cercles des Spetsnaz ukrainiens que des agents du Ministère de la Défense de la Fédération de Russie seraient présents dans la Zone, leur unique objectif étant d'acquérir et de transporter des Cyprin vers des laboratoires spécialisés situés en dehors de la Zone.
+		\nLe artefact crée un champ de singularité anti-gravitationnelle constant qui n'affecte que sa proximité immédiate. Cependant, certains stalkers ont été signalés comme disparaissant sans raison apparente, ne laissant derrière eux qu'un Cyprin.
 		\nUn inconvénient majeur accompagne toutefois ce puissant champ anti-gravitationnel : la vitesse des objets en mouvement à l’intérieur de son rayon augmentera rapidement, provoquant des impacts dangereux sur les objets environnants, y compris le porteur.
 		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
             %c[0,209,172,56]+8 % d'atténuation des dégâts de classe BR\n
@@ -296,12 +296,12 @@
 	</string>
 	
 	<string id="st_af_dummy_glassbeads_name">
-		<text>Perles de Maman</text>
+		<text>Gouttelettes nourricières</text>
 	</string>
 	<string id="st_af_dummy_glassbeads_descr">
 		<text>
-		En forme d'hélice d'ADN, les Perles de Maman sont créées dans l'anomalie Brûleur. L'une de leurs caractéristiques les plus marquantes est leur pulsation constante, générant des émissions bénéfiques pour le corps humain. Ces émissions augmentent le métabolisme de tout être vivant, accélérant la coagulation et la cicatrisation des blessures. Le mécanisme à l'origine des effets de cet artefact reste encore inconnu.
-		\nLes Perles de Maman possèdent également des qualités protectrices puissantes : elles sont capables de protéger le corps et les objets contre les chaleurs extrêmes.
+		En forme d'hélice d'ADN, les Gouttelettes nourricières sont créées dans l'anomalie Colonne de feu. L'une de leurs caractéristiques les plus marquantes est leur pulsation constante, générant des émissions bénéfiques pour le corps humain. Ces émissions augmentent le métabolisme de tout être vivant, accélérant la coagulation et la cicatrisation des blessures. Le mécanisme à l'origine des effets de cet artefact reste encore inconnu.
+		\nLes Gouttelettes nourricières possèdent également des qualités protectrices puissantes : elles sont capables de protéger le corps et les objets contre les chaleurs extrêmes.
 		\nIl convient toutefois de noter que la présence de cet artefact augmente la conductivité électrique, ce qui accroît considérablement la probabilité d'électrocution lors du port de cet artefact, en particulier pendant les orages et à proximité d'anomalies électriques.
 		\nLe poids est également assez élevé pour un artefact aussi petit, ce qui permet de conclure qu'il est de haute densité.
 		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
@@ -323,7 +323,7 @@
 	</string>
 	
 	<string id="st_af_fire_name">
-		<text>Flamme</text>
+		<text>Flammèche</text>
 	</string>
 	<string id="st_af_fire_descr">
 		<text>
@@ -379,13 +379,13 @@
 	</string>
 	
 	<string id="st_af_soul_name">
-		<text>Âme</text>
+		<text>Coeur</text>
 	</string>
 	<string id="st_af_soul_descr">
 		<text>
-		L'Âme est un artefact organique unique aux propriétés tout aussi uniques : il sécrète une substance visqueuse qui accélère considérablement la cicatrisation des blessures. Grâce à son prix raisonnable et à son apparence attrayante, cet artefact est un objet de collection très prisé.
+		Le Coeur est un artefact organique unique aux propriétés tout aussi uniques : il sécrète une substance visqueuse qui accélère considérablement la cicatrisation des blessures. Grâce à son prix raisonnable et à son apparence attrayante, cet artefact est un objet de collection très prisé.
 		\nL'application de sa substance visqueuse sur les blessures apaise la douleur et accélère le processus de guérison. 
-		Il réduit également les effets des ondes psychiques ainsi que les dommages infligés au cerveau. Il convient toutefois de noter que l'Âme épuise l'énergie de son utilisateur. Le artefact, quant à lui, ne possède pas une densité élevée et n'est donc pas très lourd.
+		Il réduit également les effets des ondes psychiques ainsi que les dommages infligés au cerveau. Il convient toutefois de noter que le Coeur épuise l'énergie de son utilisateur. Le artefact, quant à lui, ne possède pas une densité élevée et n'est donc pas très lourd.
 		\n\n%c[0,209,172,56] Ne se dégrade PAS avec le temps.\n
 		</text>
 	</string>
@@ -468,7 +468,7 @@
 	<string id="st_af_monolith_descr">
 		<text>L'origine des artefacts de ce type reste un mystère, car ils sont rarement trouvés en dehors des parties les plus septentrionales de la Zone.
 		\nCet artefact unique projette un champ sans contact qui inhibe les phénomènes anormaux à proximité. Cela confère au porteur un niveau de protection notable contre la plupart des dangers environnementaux de la Zone. Il s'agit également de l'un des rares artefacts actifs pouvant être manipulés en toute sécurité sans conteneurs en plomb.
-		Cependant, lorsqu'on le tient, le flesh semble sec et squameux, les os durs et raides, les ligaments des articulations grinçants et fragiles. Une armure épaisse ou une vitalité surnaturelle serait nécessaire pour quiconque envisage de porter cet artefact au combat.</text>
+		Cependant, lorsqu'on le tient, le Croquemort semble sec et squameux, les os durs et raides, les ligaments des articulations grinçants et fragiles. Une armure épaisse ou une vitalité surnaturelle serait nécessaire pour quiconque envisage de porter cet artefact au combat.</text>
 	</string>
 	
 	<string id="st_af_black_name">

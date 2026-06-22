@@ -16,7 +16,7 @@
 		<text>Un dispositif conçu pour extraire des ressources à partir de divers artefacts. Les artefacts perdent de leur état au cours de la génération de ressources. \n \n
 			%c[ui_white]PROPRIÉTÉS :\n
 			%c[d_orange] • %c[ui_white] Posable\n
-			%c[d_orange] • %c[ui_white] Artefacts compatibles : Anomalous Bread, Bulle, Crystal, Lampe de la Mort, Boule de feu, Flamme, Gravi, Morceau de Viande, Épingle, Flocon de neige, Éponge\n
+			%c[d_orange] • %c[ui_white] Artefacts compatibles : Anomalous Bread, Bulle, Crystal, Lampe de la Mort, Bolide, Flammèche, Gravi, Morceau de Viande, Épingle, Flocon de neige, Éponge\n
 			</text>
 	</string>
 	<string id="st_pegboard">

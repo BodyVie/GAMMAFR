@@ -5,7 +5,7 @@
 <!--UNUSED -->
 
 	<string id="st_af_itcher_af_aac_name">
-		<text>AAC avec Itcher</text>
+		<text>AAC avec Gratteur</text>
 	</string>  
 	<string id="st_af_itcher_af_aac_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -26,14 +26,14 @@
 	</string>
 	
 	<string id="st_af_fireball_af_aac_name">
-		<text>AAC avec Boule de feu</text>
+		<text>AAC avec Bolide</text>
 	</string>
 	<string id="st_af_fireball_af_aac_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
 	</string>
 	
 	<string id="st_af_blood_af_aac_name">
-		<text>AAC avec Sang de Pierre</text>
+		<text>AAC avec Pierre Sanguine</text>
 	</string>
 	<string id="st_af_blood_af_aac_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -89,7 +89,7 @@
 	</string>
 	
 	<string id="st_af_cristall_flower_af_aac_name">
-		<text>AAC avec Fleur de Pierre</text>
+		<text>AAC avec Fleur protectrice</text>
 	</string>
 	<string id="st_af_cristall_flower_af_aac_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -110,7 +110,7 @@
 	</string>
 	
 	<string id="st_af_black_spray_af_aac_name">
-		<text>AAC avec Peinture Noire</text>
+		<text>AAC avec Brume noire</text>
 	</string>  
 	<string id="st_af_black_spray_af_aac_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -124,7 +124,7 @@
 	</string>
 	
 	<string id="st_af_vyvert_af_aac_name">
-		<text>AAC avec Tordu</text>
+		<text>AAC avec Tortillon</text>
 	</string>
 	<string id="st_af_vyvert_af_aac_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -138,14 +138,14 @@
 	</string> 
  	
 	<string id="st_af_full_empty_af_aac_name">
-		<text>AAC avec Vide Absolu</text>
+		<text>AAC avec Plein-Vide</text>
 	</string>  
 	<string id="st_af_full_empty_af_aac_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
 	</string> 
 	
 	<string id="st_af_night_star_af_aac_name">
-		<text>AAC avec Étoile de nuit</text>
+		<text>AAC avec Etoile phosphorescente</text>
 	</string>
 	<string id="st_af_night_star_af_aac_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -159,14 +159,14 @@
 	</string>
 	
 	<string id="st_af_gold_fish_af_aac_name">
-		<text>AAC avec Poisson doré</text>
+		<text>AAC avec Cyprin</text>
 	</string>
 	<string id="st_af_gold_fish_af_aac_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
 	</string>
 	
 	<string id="st_af_dummy_glassbeads_af_aac_name">
-		<text>AAC avec Perles de Maman</text>
+		<text>AAC avec Gouttelettes nourricières</text>
 	</string>
 	<string id="st_af_dummy_glassbeads_af_aac_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -180,7 +180,7 @@
 	</string>
 	
 	<string id="st_af_fire_af_aac_name">
-		<text>AAC avec Flamme</text>
+		<text>AAC avec Flammèche</text>
 	</string>
 	<string id="st_af_fire_af_aac_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -208,7 +208,7 @@
 	</string>
 	
 	<string id="st_af_soul_af_aac_name">
-		<text>AAC avec Âme</text>
+		<text>AAC avec Coeur</text>
 	</string>
 	<string id="st_af_soul_af_aac_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>

@@ -186,7 +186,7 @@
 		<text>Moss</text>
 	</string>
 	<string id="st_af_moh_descr">
-		<text>Parfois ressemblant à un artefact de type « Itcher », et parfois se décomposant en une forme plus nébuleuse, cet artefact électrique dégage une petite charge perceptible, similaire à celle ressentie en touchant les deux bornes d'une pile avec la langue. Lorsqu'il est équipé, l'utilisateur acquiert certaines forces après avoir consommé de la viande crue.\n \n
+		<text>Parfois ressemblant à un artefact de type « Gratteur », et parfois se décomposant en une forme plus nébuleuse, cet artefact électrique dégage une petite charge perceptible, similaire à celle ressentie en touchant les deux bornes d'une pile avec la langue. Lorsqu'il est équipé, l'utilisateur acquiert certaines forces après avoir consommé de la viande crue.\n \n
 		%c[pda_white]PROPRIÉTÉS :\n
 		%c[d_cyan] • %c[pda_white] Aptitude Artefact\n \n
 		</text>
@@ -305,7 +305,7 @@
 	</string>
 
 	<string id="st_af_gimlet_name">
-		<text>Gimlet</text>
+		<text>Vignette</text>
 	</string>
 	<string id="st_af_gimlet_descr">
 		<text>Les pétales en forme de coupe de cet artefact libèrent un puissant stimulant gazeux entraînant une modification positive des hormones humaines. Si vous avez trouvé ceci, quelque chose a terriblement mal tourné.\n \n
@@ -323,7 +323,7 @@
 	</string>
 
 	<string id="st_af_fire_loop_name">
-		<text>Knot</text>
+		<text>Noeud</text>
 	</string>
 	<string id="st_af_fire_loop_descr">
 		<text>Créé au sein d'une anomalie thermique, il présente une apparence tétraédrique étrange. Seules des rumeurs de disparitions, de trahisons et de mort entourent cet artefact infernal.\n \n

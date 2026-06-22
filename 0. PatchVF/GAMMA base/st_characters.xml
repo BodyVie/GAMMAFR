@@ -225,7 +225,7 @@
 		<text>Greben</text>
 	</string>
 	<string id="st_zat_b30_owl_stalker_trader_name">
-		<text>Owl</text>
+		<text>Le Hibou</text>
 	</string>
 	<string id="st_zat_b38_stalker_cop_name">
 		<text>Gluhar</text>
@@ -282,7 +282,7 @@
 		<text>Noah</text>
 	</string>
 	<string id="zat_b215_stalker_guide_name">
-		<text>Navigateur</text>
+		<text>Navigator</text>
 	</string>
 	<string id="zat_b22_stalker_medic_name">
 		<text>Axel</text>
@@ -351,13 +351,13 @@
 		<text>Garde du corps de Nimble. Un vieux stalker qui rêve de faire fortune.</text>
 	</string>
 	<string id="esc_wolf_name">
-		<text>Wolf</text>
+		<text>Le Loup</text>
 	</string>
 	<string id="esc_fanat_bio">
-		<text>A pris la tête du camp des recrues après Wolf. Il a une autorité bien méritée sur les nouveaux.</text>
+		<text>A pris la tête du camp des recrues après Le Loup. Il a une autorité bien méritée sur les nouveaux.</text>
 	</string>
 	<string id="esc_fanat_name">
-		<text>Fanatic</text>
+		<text>Fanatique</text>
 	</string>
 	<string id="bar_barmen_name">
 		<text>Barman</text>
@@ -423,7 +423,7 @@
 		<text>Spore</text>
 	</string>
 	<string id="mar_base_stalker_barmen_name">
-		<text>Bibliothécaire</text>
+		<text>Le Bibliothécaire</text>
 	</string>
 	<string id="mil_Svoboda_engineer_name">
 		<text>Screw</text>
@@ -438,7 +438,7 @@
 		<text>Général Voronin</text>
 	</string>
 	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_name">
-		<text>Limpid</text>
+		<text>Limpide</text>
 	</string>
 	<string id="val_smart_terrain_7_4_bandit_trader_stalker_name">
 		<text>Olivius</text>
@@ -459,7 +459,7 @@
 		<text>Dushman</text>
 	</string>
 	<string id="cit_killers_merc_medic_stalker_name">
-		<text>Surgeon</text>
+		<text>Le Chirurgien</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_name">
 		<text>Lieutenant-chef Kirilov</text>
@@ -525,7 +525,7 @@
 		<text>Zheka 'Doublet'</text>
 	</string>
 	<string id="sar2_fanat_name">
-		<text>'Fanatic'</text>
+		<text>'Fanatique'</text>
 	</string>
 	<string id="sar2_fox_name">
 		<text>'Fox'</text>
@@ -612,7 +612,7 @@
 		<text>Général Voronin</text>
 	</string>
 	<string id="sar2_wolf_name">
-		<text>Wolf</text>
+		<text>Le Loup</text>
 	</string>
 	<string id="dar_kalugin_name">
 		<text>Piotr Kalugin</text>
@@ -696,7 +696,7 @@
 		<text>Loris</text>
 	</string>
 	<string id="guid_bar_stalker_navigator_name">
-		<text>Navigateur</text>
+		<text>Navigator</text>
 	</string>
 	<string id="guid_dv_mal_mlr_name">
 		<text>Pug</text>
@@ -714,7 +714,7 @@
 		<text>Pilot</text>
 	</string>
 	<string id="hunter_gar_trader_name">
-		<text>Boucher</text>
+		<text>Le Boucher</text>
 	</string>
 	<string id="lider_monolith_haron_name">
 		<text>Charon</text>
@@ -802,7 +802,7 @@
 		<text>Psoglav</text>
 	</string>
 	<string id="kat_greh_sabaoth_name">
-		<text>Chernobog</text>
+		<text>Tchernobog</text>
 	</string>
 	<string id="monolith_eidolon_name">
 		<text>Eidolon</text>

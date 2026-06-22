@@ -1446,7 +1446,7 @@
 	</string>
 	
 	<string id="st_wpn_raptr_descr">
-		<text>%c[d_green] • %c[ui_gray_2]BlackMarket : %c[d_blue]OTAN  •••\n \n%c[ui_gray_2]Le RAPTR est un fusil à pompe automatique alimenté par chargeur, né dans la Zone et adapté aux besoins spécifiques de cette partie dangereuse du monde. Le RAPTR est souvent surnommé « Tueur de Bloodsuckers » par les stalkers. En effet, son taux de tir élevé, son grand chargeur et son ergonomie inégalée en font l'arme parfaite pour éliminer les cibles rapides et invisibles que sont les bloodsuckers. Considéré principalement comme une arme de passionné ces dernières années, la popularité du RAPTR parmi les stalkers a commencé à croître lors de la récente prolifération des nids de bloodsuckers. Il est désormais considéré comme l'une des meilleures armes en 12x70 de la Zone.\n \n
+		<text>%c[d_green] • %c[ui_gray_2]BlackMarket : %c[d_blue]OTAN  •••\n \n%c[ui_gray_2]Le RAPTR est un fusil à pompe automatique alimenté par chargeur, né dans la Zone et adapté aux besoins spécifiques de cette partie dangereuse du monde. Le RAPTR est souvent surnommé « Tueur de Sangsues » par les stalkers. En effet, son taux de tir élevé, son grand chargeur et son ergonomie inégalée en font l'arme parfaite pour éliminer les cibles rapides et invisibles que sont les Sangsues. Considéré principalement comme une arme de passionné ces dernières années, la popularité du RAPTR parmi les stalkers a commencé à croître lors de la récente prolifération des nids de sangsues. Il est désormais considéré comme l'une des meilleures armes en 12x70 de la Zone.\n \n
 		%c[d_green]  • %c[ui_gray_2] ACCESSOIRES :\n
 		%c[d_purple] • %c[ui_gray_2] Différentes lunettes et viseurs compatibles avec les rails Picatinny/Weaver (consultez les détails).\n
 		%c[d_purple] • %c[ui_gray_2] Hausse arrière au tritium et module de visée laser tactique.\n
@@ -2755,7 +2755,7 @@
 	</string>
 	
 	<string id="st_wpn_svu_nimble_descr">
-		<text>%c[d_green] • %c[ui_gray_2]Origine : %c[d_red]Varsovie •••\n \n%c[ui_gray_2]Le SVU-A est une variante du fusil SVU capable de tir automatique, conçue à la demande du ministère russe de l'Intérieur. Bien que cette arme ne soit généralement pas adaptée aux situations de combat rapproché, le tir automatique s'est révélé être une solution d'urgence fiable pour les tireurs exposés. Ce modèle particulier de SVU-A appartenait autrefois à Max, le légendaire gardien de Liberté.\n \n
+		<text>%c[d_green] • %c[ui_gray_2]Origine : %c[d_red]Varsovie •••\n \n%c[ui_gray_2]Le SVU-A est une variante du fusil SVU capable de tir automatique, conçue à la demande du ministère russe de l'Intérieur. Bien que cette arme ne soit généralement pas adaptée aux situations de combat rapproché, le tir automatique s'est révélé être une solution d'urgence fiable pour les tireurs exposés. Ce modèle particulier de SVU-A appartenait autrefois à Max, le légendaire Gardien de Liberté.\n \n
 		%c[d_green]  • %c[ui_gray_2] ACCESSOIRES :\n
 		%c[d_purple] • %c[ui_gray_2] Lunettes de visée PSO-1M, 1P29 « Tulipe », EKP 1S-03 Kobra.\n
 		%c[d_purple] • %c[ui_gray_2] Silencieux compatible SVU (intégré).</text>

@@ -5,7 +5,7 @@
 <!--UNUSED -->
 
 	<string id="st_af_itcher_lead_box_name">
-		<text>LLMC avec Itcher</text>
+		<text>LLMC avec Gratteur</text>
 	</string>  
 	<string id="st_af_itcher_lead_box_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -26,11 +26,11 @@
 	</string>
 	
 	<string id="st_af_fireball_lead_box_name">
-		<text>LLMC avec Boule de feu</text>
+		<text>LLMC avec Bolide</text>
 	</string>
 	<string id="st_af_fireball_lead_box_descr">
 		<text>
-		Il s’agit d’un artefact sphérique constitué de cristal de couleur rouge, formé dans l’anomalie Brûleur.
+		Il s’agit d’un artefact sphérique constitué de cristal de couleur rouge, formé dans l’anomalie Colonne de Feu.
 		\nIl possède une propriété unique : sa température reste constante à 75 degrés Fahrenheit (24 degrés Celsius), indépendamment de son environnement. Cela lui permet d’absorber la chaleur environnante et de créer une poche d’air autour de l’utilisateur, empêchant les flammes d’endommager le corps.
 		\nUn effet dangereux de cet artefact réside dans le fait qu’il augmente la conductivité électrique, ce qui accroît considérablement le risque d’électrocution lors du port de cet artefact, en particulier pendant les orages et à proximité d’anomalies électriques. Il est relativement lourd en raison de la densité élevée du matériau cristallin.
 		\n\nLe niveau de radiation émis est élevé sur l’échelle de radiation des artefacts.\n \n
@@ -47,7 +47,7 @@
 	</string>
 	
 	<string id="st_af_blood_lead_box_name">
-		<text>LLMC avec Sang de Pierre</text>
+		<text>LLMC avec Pierre Sanguine</text>
 	</string>
 	<string id="st_af_blood_lead_box_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -103,7 +103,7 @@
 	</string>
 	
 	<string id="st_af_cristall_flower_lead_box_name">
-		<text>LLMC avec Fleur de Pierre</text>
+		<text>LLMC avec Fleur protectrice</text>
 	</string>
 	<string id="st_af_cristall_flower_lead_box_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -124,7 +124,7 @@
 	</string>
 	
 	<string id="st_af_black_spray_lead_box_name">
-		<text>LLMC avec Peinture Noire</text>
+		<text>LLMC avec Brume noire</text>
 	</string>  
 	<string id="st_af_black_spray_lead_box_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -138,7 +138,7 @@
 	</string>
 	
 	<string id="st_af_vyvert_lead_box_name">
-		<text>LLMC avec Tordu</text>
+		<text>LLMC avec Tortillon</text>
 	</string>
 	<string id="st_af_vyvert_lead_box_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -152,14 +152,14 @@
 	</string> 
  	
 	<string id="st_af_full_empty_lead_box_name">
-		<text>LLMC avec Vide Absolu</text>
+		<text>LLMC avec Plein-Vide</text>
 	</string>  
 	<string id="st_af_full_empty_lead_box_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
 	</string> 
 	
 	<string id="st_af_night_star_lead_box_name">
-		<text>LLMC avec Étoile de nuit</text>
+		<text>LLMC avec Etoile phosphorescente</text>
 	</string>
 	<string id="st_af_night_star_lead_box_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -173,14 +173,14 @@
 	</string>
 	
 	<string id="st_af_gold_fish_lead_box_name">
-		<text>LLMC avec Poisson doré</text>
+		<text>LLMC avec Cyprin</text>
 	</string>
 	<string id="st_af_gold_fish_lead_box_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
 	</string>
 	
 	<string id="st_af_dummy_glassbeads_lead_box_name">
-		<text>LLMC avec Perles de Maman</text>
+		<text>LLMC avec Gouttelettes nourricières</text>
 	</string>
 	<string id="st_af_dummy_glassbeads_lead_box_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -194,7 +194,7 @@
 	</string>
 	
 	<string id="st_af_fire_lead_box_name">
-		<text>LLMC avec Flamme</text>
+		<text>LLMC avec Flammèche</text>
 	</string>
 	<string id="st_af_fire_lead_box_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -222,7 +222,7 @@
 	</string>
 	
 	<string id="st_af_soul_lead_box_name">
-		<text>LLMC avec Âme</text>
+		<text>LLMC avec Coeur</text>
 	</string>
 	<string id="st_af_soul_lead_box_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>

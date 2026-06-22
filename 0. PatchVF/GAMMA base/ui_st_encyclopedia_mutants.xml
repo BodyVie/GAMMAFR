@@ -22,12 +22,12 @@
 	</string>
 	
 	<string id="encyclopedia_mutants_bloodsucker">
-		<text>Le Bloodsucker</text>
+		<text>Le Sangsue</text>
 	</string>
 	<string id="encyclopedia_mutants_bloodsucker_text">
-		<text>%c[pda_white]Le Bloodsuckers %c[ui_gray_2], comme son nom l'indique, est un monstre hématophage.\n \n
+		<text>%c[pda_white]Le Sangsues %c[ui_gray_2], comme son nom l'indique, est un monstre hématophage.\n \n
 		%c[pda_green]Informations\n
-		%c[ui_gray_2]Les stalkers expérimentés décrivent cette créature semi-légendaire comme un humanoïde grand et voûté, doté d'une masse de tentacules à la place de la bouche. Selon ceux qui l'ont vue et ont survécu pour en parler, la bête utilise ses tentacules pour s'agripper à la gorge de sa victime, la paralyser et la vider de son sang, ne laissant qu'une enveloppe momifiée de ce qui était autrefois un être humain. Cependant, la caractéristique la plus stupéfiante du Bloodsucker est sa capacité à devenir invisible. On raconte que d'innombrables stalkers morts ou disparus ont péri dans l'étreinte impitoyable d'un Bloodsucker. Les rares survivants d'une telle rencontre racontent des histoires glaçantes sur les marais et les zones souterraines hantés par la version Zone du Comte Dracula.\n \n
+		%c[ui_gray_2]Les stalkers expérimentés décrivent cette créature semi-légendaire comme un humanoïde grand et voûté, doté d'une masse de tentacules à la place de la bouche. Selon ceux qui l'ont vue et ont survécu pour en parler, la bête utilise ses tentacules pour s'agripper à la gorge de sa victime, la paralyser et la vider de son sang, ne laissant qu'une enveloppe momifiée de ce qui était autrefois un être humain. Cependant, la caractéristique la plus stupéfiante d'une Sangsue est sa capacité à devenir invisible. On raconte que d'innombrables stalkers morts ou disparus ont péri dans l'étreinte impitoyable d'une Sangsue. Les rares survivants d'une telle rencontre racontent des histoires glaçantes sur les marais et les zones souterraines hantés par la version Zone du Comte Dracula.\n \n
 		%c[pda_blue]Statistiques\n
 		%c[pda_white]• Attaques :%c[ui_gray_2] Corps à corps\n
 		%c[pda_white]• Santé :%c[ui_gray_2] Moyenne\n
@@ -54,21 +54,21 @@
 	</string>
 	
 	<string id="encyclopedia_mutants_burer">
-		<text>Le Burer</text>
+		<text>Le Domovoï</text>
 	</string>
 	<string id="encyclopedia_mutants_burer_text">
-		<text>%c[pda_white]Le Burers %c[ui_gray_2]est un monstre trapu, presque nain, qui évolue généralement dans les zones souterraines.\n \n
+		<text>%c[pda_white]Le Domovoï %c[ui_gray_2]est un monstre trapu, presque nain, qui évolue généralement dans les zones souterraines.\n \n
 		%c[pda_green]Informations\n
-		%c[ui_gray_2]Ces petits êtres difformes et jaunâtres sont un autre mutant d'origine possiblement humaine et un exemple de la capacité de la Zone à altérer l'ADN de tous les organismes vivants, les déformant en créations cauchemardesques. Ces mutants habitent les tunnels souterrains et les catacombes, leurs yeux sensibles ne supportant pas la lumière du jour. Ils sont connus pour tendre des embuscades élaborées visant tout stalkers ou équipe scientifique s'aventurant dans leur repaire. Leur tactique habituelle consiste à attendre que leur proie pénètre dans leur zone, puis à bloquer silencieusement toutes les issues avec de gros débris, des morceaux de béton et des déchets grâce à leurs capacités télékinétiques. Les victimes tuées sont déchiquetées par les mains puissantes de ces nains, puis dévorées. Les interactions avec d'autres mutants sont généralement pacifiques, bien que les chiens aveugles les attaquent sans pitié. Les Burers possèdent une véritable intelligence, et leur caractère vil et leur méchanceté nerveuse les poussent parfois à commettre des actes inattendus et sauvages. Ils semblent percevoir télépathiquement les formes de vie à proximité et sont capables d'en déterminer les intentions sans contact visuel. Pour cette raison, il est impossible de s'approcher d'un Burer sans qu'il n'ait déjà détecté votre présence. Leur télékinésie leur permet de manipuler à distance de gros objets, les projetant à haute vitesse sur leurs adversaires. Ils peuvent également infliger des coups télékinétiques puissants directement sur la victime et sont même capables de créer des boucliers télékinétiques pour arrêter les balles ou arracher l'arme des mains d'un stalker. Les Burers comptent parmi les mutants les plus dangereux dans les zones obscures de la Zone.\n \n
+		%c[ui_gray_2]Ces petits êtres difformes et jaunâtres sont un autre mutant d'origine possiblement humaine et un exemple de la capacité de la Zone à altérer l'ADN de tous les organismes vivants, les déformant en créations cauchemardesques. Ces mutants habitent les tunnels souterrains et les catacombes, leurs yeux sensibles ne supportant pas la lumière du jour. Ils sont connus pour tendre des embuscades élaborées visant tout stalkers ou équipe scientifique s'aventurant dans leur repaire. Leur tactique habituelle consiste à attendre que leur proie pénètre dans leur zone, puis à bloquer silencieusement toutes les issues avec de gros débris, des morceaux de béton et des déchets grâce à leurs capacités télékinétiques. Les victimes tuées sont déchiquetées par les mains puissantes de ces nains, puis dévorées. Les interactions avec d'autres mutants sont généralement pacifiques, bien que les chiens aveugles les attaquent sans pitié. Les Domovoï possèdent une véritable intelligence, et leur caractère vil et leur méchanceté nerveuse les poussent parfois à commettre des actes inattendus et sauvages. Ils semblent percevoir télépathiquement les formes de vie à proximité et sont capables d'en déterminer les intentions sans contact visuel. Pour cette raison, il est impossible de s'approcher d'un Domovoï sans qu'il n'ait déjà détecté votre présence. Leur télékinésie leur permet de manipuler à distance de gros objets, les projetant à haute vitesse sur leurs adversaires. Ils peuvent également infliger des coups télékinétiques puissants directement sur la victime et sont même capables de créer des boucliers télékinétiques pour arrêter les balles ou arracher l'arme des mains d'un stalker. Les Domovoï comptent parmi les mutants les plus dangereux dans les zones obscures de la Zone.\n \n
 		%c[pda_blue]Statistiques\n
 		%c[pda_white]• Attaques :%c[ui_gray_2] Mêlée, Psychiques\n
 		%c[pda_white]• Santé :%c[ui_gray_2] Moyenne\n
 		%c[pda_white]• Vitesse :%c[ui_gray_2] Lente\n
 		%c[pda_white]• Particularités uniques :%c[ui_gray_2] Pouvoirs psychiques, Télékinésie\n \n
 		%c[pda_yellow]Anecdotes\n
-		%c[pda_white]• %c[ui_gray_2]Certains Burers sont d'excellents imitateurs, capables de reproduire des sons tels que des cris d'oiseaux, des aboiements de chiens, des rires humains ou même les pleurs d'un nourrisson.\n
-		%c[pda_white]• %c[ui_gray_2]Les Burers ont souvent pour stratégie de vaincre leurs adversaires en les épuisant. Les stalkers lourdement armés et blindés sont ceux qui souffrent le plus lors des combats contre eux.\n
-		%c[pda_white]• %c[ui_gray_2]L'alimentation d'un Burer se compose généralement de kimchi et de flesh humains.
+		%c[pda_white]• %c[ui_gray_2]Certains Domovoï sont d'excellents imitateurs, capables de reproduire des sons tels que des cris d'oiseaux, des aboiements de chiens, des rires humains ou même les pleurs d'un nourrisson.\n
+		%c[pda_white]• %c[ui_gray_2]Les Domovoï ont souvent pour stratégie de vaincre leurs adversaires en les épuisant. Les stalkers lourdement armés et blindés sont ceux qui souffrent le plus lors des combats contre eux.\n
+		%c[pda_white]• %c[ui_gray_2]L'alimentation d'un Domovoï se compose généralement de kimchi et de Croquemort humains.
 		</text>
 	</string>
 	
@@ -139,12 +139,12 @@
 	</string>
 	
 	<string id="encyclopedia_mutants_flesh">
-		<text>Le Flesh</text>
+		<text>Le Croquemort</text>
 	</string>
 	<string id="encyclopedia_mutants_flesh_text">
-		<text>%c[pda_white]Le Flesh %c[ui_gray_2]est un porc fortement muté.\n \n
+		<text>%c[pda_white]Le Croquemort %c[ui_gray_2]est un porc fortement muté.\n \n
 		%c[pda_green]Informations\n
-		%c[ui_gray_2]Comme la plupart des autres créatures vivantes de la Zone, le porc domestique a également subi de sérieuses modifications biologiques depuis le jour de la catastrophe. Il semble que les gènes responsables du métabolisme aient été particulièrement affectés dans ce cas. Les porcs Mutants, simplement appelés « Flesh » par les stalkers, sont l'un des exemples les plus frappants de la perversion désastreuse de la nature par la Zone. Les porcs Mutants ont développé une couche protectrice d'écailles et de plaques exosquelettiques. Leur potentiel de régénération a augmenté plusieurs fois, tout comme la complexité de leur système nerveux. Comme un porc normal, un Flesh est omnivore et peut attaquer un stalker s'il a faim.\n \n
+		%c[ui_gray_2]Comme la plupart des autres créatures vivantes de la Zone, le porc domestique a également subi de sérieuses modifications biologiques depuis le jour de la catastrophe. Il semble que les gènes responsables du métabolisme aient été particulièrement affectés dans ce cas. Les porcs Mutants, simplement appelés « Croquemort » par les stalkers, sont l'un des exemples les plus frappants de la perversion désastreuse de la nature par la Zone. Les porcs Mutants ont développé une couche protectrice d'écailles et de plaques exosquelettiques. Leur potentiel de régénération a augmenté plusieurs fois, tout comme la complexité de leur système nerveux. Comme un porc normal, un Croquemort est omnivore et peut attaquer un stalker s'il a faim.\n \n
 		%c[pda_blue]Statistiques\n
 		%c[pda_white]• Attaques :%c[ui_gray_2] Corps à corps\n
 		%c[pda_white]• Santé :%c[ui_gray_2] Moyenne\n
@@ -159,7 +159,7 @@
 	<string id="encyclopedia_mutants_fracture_text">
 		<text>%c[pda_white]La Fractures %c[ui_gray_2]est un ancien humain, apparemment dégénéré, doté d'un esprit animal.\n \n
 		%c[pda_green]Informations\n
-		%c[ui_gray_2]Soit le résultat de mutations inconnues lors d'une expérience artificielle, soit la conséquence de l'influence de la Zone sur des survivants humains. Forte hypertrophie des extrémités marquée. Présente de légères capacités psi. Son apparence humanoïde et sa manière de se voûter en cachant ses mains sous une cape lui donnent l'allure d'un vagabond. La créature est habile pour attirer les stalkers en engageant la conversation ou en posant une question. Lorsque la victime tourne le dos, le mutants se redresse et attaque avec son extrémité puissante. Il a été observé se nourrissant de rats, de chiens aveugles et de flesh. Dans de rares cas, ils poursuivent des stalkers solitaires, les attaquant la nuit.\n \n
+		%c[ui_gray_2]Soit le résultat de mutations inconnues lors d'une expérience artificielle, soit la conséquence de l'influence de la Zone sur des survivants humains. Forte hypertrophie des extrémités marquée. Présente de légères capacités psi. Son apparence humanoïde et sa manière de se voûter en cachant ses mains sous une cape lui donnent l'allure d'un vagabond. La créature est habile pour attirer les stalkers en engageant la conversation ou en posant une question. Lorsque la victime tourne le dos, le mutants se redresse et attaque avec son extrémité puissante. Il a été observé se nourrissant de rats, de chiens aveugles et de Croquemort. Dans de rares cas, ils poursuivent des stalkers solitaires, les attaquant la nuit.\n \n
 		%c[pda_blue]Statistiques\n
 		%c[pda_white]• Attaques :%c[ui_gray_2] Corps à corps\n
 		%c[pda_white]• Santé :%c[ui_gray_2] Moyenne\n
@@ -176,25 +176,25 @@
 	<string id="encyclopedia_mutants_karlik_text">
 		<text>%c[pda_white]Le Karliks %c[ui_gray_2]est un mutants très rare, de taille naine, qui se cache dans des lieux isolés.\n \n
 		%c[pda_green]Informations\n
-		%c[ui_gray_2]Il n'est pas établi s'ils sont apparentés aux Burers, mais ils partagent de nombreuses similitudes psychiques, rendant difficile de considérer cela comme une simple coïncidence. Lors des rares observations effectuées, les Karliks semblent captivés par certains lieux ou artefacts, comme s'ils s'étaient attribué la responsabilité de les protéger, attaquant tout ce qui s'en approche de trop près. On sait très peu de choses sur eux, car la plupart de ceux qui ont rencontré ces créatures sont souvent retrouvés morts ou fous, sans blessures physiques discernables.\n \n
+		%c[ui_gray_2]Il n'est pas établi s'ils sont apparentés aux Domovoï, mais ils partagent de nombreuses similitudes psychiques, rendant difficile de considérer cela comme une simple coïncidence. Lors des rares observations effectuées, les Karliks semblent captivés par certains lieux ou artefacts, comme s'ils s'étaient attribué la responsabilité de les protéger, attaquant tout ce qui s'en approche de trop près. On sait très peu de choses sur eux, car la plupart de ceux qui ont rencontré ces créatures sont souvent retrouvés morts ou fous, sans blessures physiques discernables.\n \n
 		%c[pda_blue]Statistiques\n
 		%c[pda_white]• Attaques :%c[ui_gray_2] Mêlée, Psychiques\n
 		%c[pda_white]• Santé :%c[ui_gray_2] Moyenne\n
 		%c[pda_white]• Vitesse :%c[ui_gray_2] Lente\n
 		%c[pda_white]• Particularités uniques :%c[ui_gray_2] Dégâts passifs, Projection fantôme, Pouvoirs psychiques, Télékinésie\n \n
 		%c[pda_yellow]Anecdotes\n
-		%c[pda_white]• %c[ui_gray_2]Bien que souvent comparé au Burer, le Karlik se concentre davantage sur les illusions et la télépathie que sur la télékinésie.\n
-		%c[pda_white]• %c[ui_gray_2]Si l'on admet que le Karliks et le Burers sont des créations de laboratoire, le premier était probablement une version antérieure du second.
+		%c[pda_white]• %c[ui_gray_2]Bien que souvent comparé au Domovoï, le Karlik se concentre davantage sur les illusions et la télépathie que sur la télékinésie.\n
+		%c[pda_white]• %c[ui_gray_2]Si l'on admet que le Karliks et le Domovoï sont des créations de laboratoire, le premier était probablement une version antérieure du second.
 		</text>
 	</string>
 
 	<string id="encyclopedia_mutants_lurker">
-		<text>Le Lurker</text>
+		<text>Le Rôdeur</text>
 	</string>
 	<string id="encyclopedia_mutants_lurker_text">
-		<text>Le %c[pda_white]Lurker %c[ui_gray_2]est un mutant hybride doté d'une grande puissance physique.\n \n
+		<text>Le %c[pda_white]Rôdeur %c[ui_gray_2]est un mutant hybride doté d'une grande puissance physique.\n \n
 		%c[pda_green]Informations\n
-		%c[ui_gray_2]Des rumeurs affirment que les Lurkers faisaient partie d'une expérience menée dans l'un des laboratoires secrets aux abords de la Zone avant la seconde catastrophe. Pourtant, la première vague de Lurkers a été observée en 2013, près des limites de Pripyat. Leur peau multicouche résistante, leur endurance musculaire anormale et leur ouïe développée ont permis aux Lurkers de survivre dans les pires conditions environnementales. Leurs pattes arrière leur permettent de sauter sur de grandes distances et de frapper leurs victimes. Les chasseurs locaux sont connus pour collecter les yeux de ces créatures en raison de leur lueur jaune unique.\n \n
+		%c[ui_gray_2]Des rumeurs affirment que les Rôdeurs faisaient partie d'une expérience menée dans l'un des laboratoires secrets aux abords de la Zone avant la seconde catastrophe. Pourtant, la première vague de Rôdeurs a été observée en 2013, près des limites de Pripyat. Leur peau multicouche résistante, leur endurance musculaire anormale et leur ouïe développée ont permis aux Rôdeurs de survivre dans les pires conditions environnementales. Leurs pattes arrière leur permettent de sauter sur de grandes distances et de frapper leurs victimes. Les chasseurs locaux sont connus pour collecter les yeux de ces créatures en raison de leur lueur jaune unique.\n \n
 		%c[pda_blue]Statistiques\n
 		%c[pda_white]• Attaques :%c[ui_gray_2] Corps à corps\n
 		%c[pda_white]• Santé :%c[ui_gray_2] Moyenne\n
@@ -236,10 +236,10 @@
 	</string>
 	
 	<string id="encyclopedia_mutants_pseudogeist">
-		<text>Pseudogéist</text>
+		<text>Pseudogeist</text>
 	</string>
 	<string id="encyclopedia_mutants_pseudogeist_text">
-		<text>Les %c[pda_white]Pseudogéists %c[ui_gray_2]sont une sous-espèce rare de Poltergeists, semblable à un nuage.\n \n
+		<text>Les %c[pda_white]Pseudogeists %c[ui_gray_2]sont une sous-espèce rare de Poltergeists, semblable à un nuage.\n \n
 		%c[pda_green]Informations\n
 		%c[ui_gray_2]Très peu d'informations sont disponibles sur ces créatures, leur apparition au sein de la Zone étant un phénomène récent. Se présentant sous la forme d'une série de nuages pulsants de couleur bordeaux, elles tentent de tuer tout ce qui s'aventure malheureusement à leur contact. Elles ne se trouvent dans aucun lieu spécifique, ayant tendance à apparaître dans les endroits les plus inattendus.\n \n
 		À leur mort, ils explosent en plusieurs formations nuageuses avant de se dissiper.\n \n
@@ -284,12 +284,12 @@
 	</string>
 
 	<string id="encyclopedia_mutants_psysucker">
-		<text>Le Psysucker</text>
+		<text>Le Sangsue-psy</text>
 	</string>
 	<string id="encyclopedia_mutants_psysucker_text">
-		<text>%c[pda_white]Le Psysuckers %c[ui_gray_2]est une espèce apparentée au Bloodsuckers, dotée de capacités psychiques uniques.\n \n
+		<text>%c[pda_white]Le Sangsues-psy %c[ui_gray_2]est une espèce apparentée au Sangsues, dotée de capacités psychiques uniques.\n \n
 		%c[pda_green]Informations\n
-		%c[ui_gray_2]D'origine inconnue, le Psysuckers est l'une des créatures les plus mystérieuses de la Zone. Les résultats d'autopsies révèlent de nombreuses similitudes avec le Bloodsuckers, notamment en ce qui concerne le camouflage optique qui leur permet de devenir temporairement presque invisibles à l'oeil nu. En revanche, des études plus approfondies ont montré que le Psysuckers possède un système nerveux développé, contrairement à ses congénères, ce qui explique leur capacité unique à influencer l'esprit d'autrui, en créant des images apparemment vivantes d'eux-mêmes. Une différence notable est que le Psysuckers ne possède pas les tentacules qui dépassent du visage d'un Bloodsucker.\n \n
+		%c[ui_gray_2]D'origine inconnue, le Sangsues-psy est l'une des créatures les plus mystérieuses de la Zone. Les résultats d'autopsies révèlent de nombreuses similitudes avec le Sangsues, notamment en ce qui concerne le camouflage optique qui leur permet de devenir temporairement presque invisibles à l'oeil nu. En revanche, des études plus approfondies ont montré que le Sangsues-psy possède un système nerveux développé, contrairement à ses congénères, ce qui explique leur capacité unique à influencer l'esprit d'autrui, en créant des images apparemment vivantes d'eux-mêmes. Une différence notable est que le Sangsues-psy ne possède pas les tentacules qui dépassent du visage d'une Sangsue.\n \n
 		%c[pda_blue]Statistiques\n
 		%c[pda_white]• Attaques :%c[ui_gray_2] Mêlée, Psychiques\n
 		%c[pda_white]• Santé :%c[ui_gray_2] Faible\n
@@ -304,7 +304,7 @@
 	<string id="encyclopedia_mutants_pyrogeist_text">
 		<text>Les %c[pda_white]Pyrogeists %c[ui_gray_2]sont une sous-espèce rare et pyrokinétique de Poltergeists.\n \n
 		%c[pda_green]Informations\n
-		%c[ui_gray_2]Apparaissant sous la forme d'une brume de chaleur flottante entourée d'une lueur ardente, ils se distinguent aisément des Poltergeists classiques. À leur mort, ils explosent dans un mélange de sang et de feu. Leur unique attaque consiste à faire surgir des piliers de flammes, similaires aux anomalies de type brûleur, qu'ils utilisent pour tenter de réduire leurs ennemis en cendres, faute de posséder des capacités télékinétiques.\n \n
+		%c[ui_gray_2]Apparaissant sous la forme d'une brume de chaleur flottante entourée d'une lueur ardente, ils se distinguent aisément des Poltergeists classiques. À leur mort, ils explosent dans un mélange de sang et de feu. Leur unique attaque consiste à faire surgir des piliers de flammes, similaires aux anomalies de type Colonne de Feu, qu'ils utilisent pour tenter de réduire leurs ennemis en cendres, faute de posséder des capacités télékinétiques.\n \n
 		%c[pda_blue]Statistiques\n
 		%c[pda_white]• Attaques :%c[ui_gray_2] Psychique (thermique)\n
 		%c[pda_white]• Santé :%c[ui_gray_2] Moyenne\n

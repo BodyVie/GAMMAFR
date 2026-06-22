@@ -887,13 +887,13 @@
         <text>Cela semble correct. Si la rémunération est équitable, je suis partant. Quelle est ma première mission ?</text>
     </string>
     <string id="dolg_story_task_1_dialog_start_3">
-        <text>Ne vous inquiétez pas pour la rémunération - nous paierons en espèces et en équipement de qualité si vous faites vos preuves. Votre première mission : éliminer un nid de bloodsuckers qui a migré vers le sud. Cela nous cause de sérieux problèmes - les bloodsuckers ont réussi à passer tous nos postes et patrouilles. Exterminez-les et revenez pour votre récompense. Je vous suggère de commencer vos recherches par le Boucher - c'est le chef des chasseurs locaux.</text>
+        <text>Ne vous inquiétez pas pour la rémunération - nous paierons en espèces et en équipement de qualité si vous faites vos preuves. Votre première mission : éliminer un nid de sangsues qui a migré vers le sud. Cela nous cause de sérieux problèmes - les Sangsues ont réussi à passer tous nos postes et patrouilles. Exterminez-les et revenez pour votre récompense. Je vous suggère de commencer vos recherches par Le Boucher - c'est le chef des chasseurs locaux.</text>
     </string>
     <string id="dolg_story_task_1_dialog_start_4">
-        <text>J'accepte le contrat. Considérez ces bloodsuckers comme déjà morts.</text>
+        <text>J'accepte le contrat. Considérez ces sangsues comme déjà morts.</text>
     </string>
     <string id="dolg_story_task_1_dialog_end_0">
-        <text>Mission accomplie - bloodsuckers éliminé.</text>
+        <text>Mission accomplie - sangsues éliminé.</text>
     </string>
     <string id="dolg_story_task_1_dialog_end_1">
         <text>Bon travail. Voici votre récompense.</text>

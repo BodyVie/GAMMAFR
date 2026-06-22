@@ -19,10 +19,10 @@
 	</string>
 
 	<string id="mutant_krovosos_meat">
-		<text>Viande de Bloodsucker</text>
+		<text>Viande de Sangsue</text>
 	</string>
 	<string id="mutant_krovosos_meat_description">
-		<text>Morceau de Flesh prélevé sur un Bloodsucker abattu, dont la texture caoutchouteuse et filandreuse le rend peu appétissant et donc impropre à la consommation. Notez que la consommation de viande de mutant crue comporte toujours un risque de contamination ou d'exposition aux radiations.\n \n
+		<text>Morceau de Croquemort prélevé sur une Sangsue abattu, dont la texture caoutchouteuse et filandreuse le rend peu appétissant et donc impropre à la consommation. Notez que la consommation de viande de mutant crue comporte toujours un risque de contamination ou d'exposition aux radiations.\n \n
 		%c[ui_red]AVERTISSEMENT : Viande crue\n \n
 		%c[d_cyan] • %c[pda_white] Viande de Mutant de qualité supérieure\n
 		%c[d_cyan] • %c[pda_white] Cuisson possible\n
@@ -54,10 +54,10 @@
 	</string>
 
 	<string id="mutant_flesh_meat">
-		<text>Viande de Flesh</text>
+		<text>Viande de Croquemort</text>
 	</string>
 	<string id="mutant_flesh_meat_description">
-		<text>Source courante de protéines mutants provenant des créatures Flesh à déplacement lent, étonnamment savoureuse lorsqu'elle est correctement cuisinée. Notez que la consommation de viande de mutant crue comporte toujours un risque de contamination ou d'exposition aux radiations.\n \n
+		<text>Source courante de protéines mutants provenant des créatures Croquemort à déplacement lent, étonnamment savoureuse lorsqu'elle est correctement cuisinée. Notez que la consommation de viande de mutant crue comporte toujours un risque de contamination ou d'exposition aux radiations.\n \n
 		%c[ui_red]AVERTISSEMENT : Viande crue\n \n
 		%c[pda_white]PROPRIÉTÉS :\n
 		%c[d_cyan] • %c[pda_white] Viande de Mutant de qualité inférieure\n
@@ -66,10 +66,10 @@
 	</string>
 
 	<string id="mutant_lurker_meat">
-		<text>Viande de Lurker</text>
+		<text>Viande de Rôdeur</text>
 	</string>
 	<string id="mutant_lurker_meat_description">
-		<text>Viande coriace et fibreuse découpée sur un Lurker, particulièrement adaptée aux ragoûts en raison de sa consistance caoutchouteuse. Notez que la consommation de viande de mutant crue comporte toujours un risque de contamination ou d'exposition aux radiations.\n \n
+		<text>Viande coriace et fibreuse découpée sur un Rôdeur, particulièrement adaptée aux ragoûts en raison de sa consistance caoutchouteuse. Notez que la consommation de viande de mutant crue comporte toujours un risque de contamination ou d'exposition aux radiations.\n \n
 		%c[ui_red]AVERTISSEMENT : Viande crue\n \n
 		%c[pda_white]PROPRIÉTÉS :\n
 		%c[d_cyan] • %c[pda_white] Viande de Mutant de qualité supérieure\n
@@ -90,10 +90,10 @@
 	</string>
 	
 	<string id="mutant_psysucker_meat">
-		<text>Viande de Psysucker</text>
+		<text>Viande de Sangsue-psy</text>
 	</string>
 	<string id="mutant_psysucker_meat_description">
-		<text>Similaire à celle du Bloodsuckers, la viande du Psysucker présente une texture caoutchouteuse et filandreuse, la rendant impropre à la consommation. Notez que la consommation de viande de mutant crue comporte toujours un risque de contamination ou d'exposition aux radiations.\n \n
+		<text>Similaire à celle du Sangsues, la viande d'une Sangsue-psy présente une texture caoutchouteuse et filandreuse, la rendant impropre à la consommation. Notez que la consommation de viande de mutant crue comporte toujours un risque de contamination ou d'exposition aux radiations.\n \n
 		%c[ui_red]AVERTISSEMENT : Viande crue\n \n
 		%c[d_cyan] • %c[pda_white] Viande de Mutant de qualité supérieure\n
 		%c[d_cyan] • %c[pda_white] Cuisson possible\n
@@ -129,10 +129,10 @@
 -->	
 
 	<string id="st_meat_bloodsucker">
-		<text>Goulash de Bloodsucker</text>
+		<text>Goulash de Sangsue</text>
 	</string>
 	<string id="st_meat_bloodsucker_descr">
-		<text>Un petit ragoût dense et riche en fer, préparé à partir des tendons de flesh d'un Bloodsucker, relevé avec diverses herbes et champignons.\n \n
+		<text>Un petit ragoût dense et riche en fer, préparé à partir des tendons de Croquemort d'une Sangsue, relevé avec diverses herbes et champignons.\n \n
 		%c[pda_white]NOTE : %c[ui_gray_2]La qualité et la salubrité d'un repas dépendent de sa préparation.\n
 		%c[d_orange] • %c[pda_white] Les repas produits dans la Zone%c[ui_gray_2], bien que moins contaminés, restent néanmoins malsains.\n
 		%c[pda_yellow] • %c[pda_white] Les repas mijotés %c[ui_gray_2]nécessitent l'ajout d'eau propre et sont nettement moins contaminés.\n
@@ -160,7 +160,7 @@
 		<text>Côtes de Chiens</text>
 	</string>
 	<string id="st_meat_dog_descr">
-		<text>Morceaux maigres et fibreux issus des flesh des chiens sauvages de la Zone. Leur saveur forte et sauvage est rehaussée par diverses herbes. Une alternative bon marché à la viande plus prisée de sanglier.\n \n
+		<text>Morceaux maigres et fibreux issus des Croquemort des chiens sauvages de la Zone. Leur saveur forte et sauvage est rehaussée par diverses herbes. Une alternative bon marché à la viande plus prisée de sanglier.\n \n
 		%c[pda_white]NOTE : %c[ui_gray_2]La qualité et la salubrité d'un repas dépendent de sa préparation.\n
 		%c[d_orange] • %c[pda_white] Les repas produits dans la Zone%c[ui_gray_2], bien que moins contaminés, restent néanmoins malsains.\n
 		%c[pda_yellow] • %c[pda_white] Les repas mijotés %c[ui_gray_2]nécessitent l'ajout d'eau propre et sont nettement moins contaminés.\n
@@ -171,10 +171,10 @@
 	</string>
 
 	<string id="st_meat_flesh">
-		<text>Bacon de Flesh</text>
+		<text>Bacon de Croquemort</text>
 	</string>
 	<string id="st_meat_flesh_descr">
-		<text>Lanières de viande grasse de Flesh, cuites jusqu'à devenir croustillantes et étonnamment savoureuses. C'est l'un des repas à base de mutants les plus appréciables.\n \n
+		<text>Lanières de viande grasse de Croquemort, cuites jusqu'à devenir croustillantes et étonnamment savoureuses. C'est l'un des repas à base de mutants les plus appréciables.\n \n
 		%c[pda_white]NOTE : %c[ui_gray_2]La qualité et la salubrité d'un repas dépendent de sa préparation.\n
 		%c[d_orange] • %c[pda_white] Les repas produits dans la Zone%c[ui_gray_2], bien que moins contaminés, restent néanmoins malsains.\n
 		%c[pda_yellow] • %c[pda_white] Les repas mijotés %c[ui_gray_2]nécessitent l'ajout d'eau propre et sont nettement moins contaminés.\n
@@ -199,10 +199,10 @@
 	</string>
 	
 	<string id="st_meat_lurker">
-		<text>Côtes de Lurkers</text>
+		<text>Côtes de Rôdeurs</text>
 	</string>
 	<string id="st_meat_lurker_descr">
-		<text>Morceaux coriaces de viande de mutant Lurker, cuits lentement pour attendrir la dense chair de flesh, et assaisonnés de sel et de diverses herbes. Avec la bonne marinade, elle est étonnamment savoureuse, bien que la plupart des stalkers la considèrent comme un goût acquis.\n \n
+		<text>Morceaux coriaces de viande de mutant Rôdeur, cuits lentement pour attendrir la dense chair de Croquemort, et assaisonnés de sel et de diverses herbes. Avec la bonne marinade, elle est étonnamment savoureuse, bien que la plupart des stalkers la considèrent comme un goût acquis.\n \n
 		%c[pda_white]NOTE : %c[ui_gray_2]La qualité et la salubrité d'un repas dépendent de sa préparation.\n
 		%c[d_orange] • %c[pda_white] Les repas produits dans la Zone%c[ui_gray_2], bien que moins contaminés, restent néanmoins malsains.\n
 		%c[pda_yellow] • %c[pda_white] Les repas mijotés %c[ui_gray_2]nécessitent l'ajout d'eau propre et sont nettement moins contaminés.\n
@@ -241,10 +241,10 @@
 	</string>
 
 	<string id="st_meat_psysucker">
-		<text>Goulash de Psysucker</text>
+		<text>Goulash de Sangsue-psy</text>
 	</string>
 	<string id="st_meat_psysucker_descr">
-		<text>Ragoût fortement bouilli à base de viande de Psysucker, chargé d'herbes pour contrer ses origines troublantes. Bien qu'il soit considéré comme sûr à consommer, certains stalkers rapportent des rêves vifs et intrusifs après en avoir mangé, mais cela reste une spéculation.\n \n
+		<text>Ragoût fortement bouilli à base de viande de Sangsue-psy, chargé d'herbes pour contrer ses origines troublantes. Bien qu'il soit considéré comme sûr à consommer, certains stalkers rapportent des rêves vifs et intrusifs après en avoir mangé, mais cela reste une spéculation.\n \n
 		%c[pda_white]NOTE : %c[ui_gray_2]La qualité et la salubrité d'un repas dépendent de sa préparation.\n
 		%c[d_orange] • %c[pda_white] Les repas produits dans la Zone%c[ui_gray_2], bien que moins contaminés, restent néanmoins malsains.\n
 		%c[pda_yellow] • %c[pda_white] Les repas en conserve %c[ui_gray_2]nécessitent l'ajout d'eau propre et sont significativement moins contaminés.\n
@@ -283,20 +283,20 @@
 	</string>
 
 	<string id="mutant_heart_bloodsucker">
-		<text>Coeur de Bloodsucker</text>
+		<text>Coeur de Sangsue</text>
 	</string>
 	<string id="mutant_heart_bloodsucker_description">
-		<text>Le coeur du Bloodsucker sécrète une enzyme rare qui empêche la coagulation du sang, permettant à la créature de se nourrir plus efficacement de ses proies. Les scientifiques étudiant cette enzyme pensent qu'elle pourrait être adaptée en médicaments anticoagulants puissants ou utilisée pour stopper le processus de coagulation causé par des groupes sanguins incompatibles, résolvant ainsi les problèmes de dons de sang pour les patients ayant des groupes sanguins rares.\n \n
+		<text>Le coeur d'une Sangsue sécrète une enzyme rare qui empêche la coagulation du sang, permettant à la créature de se nourrir plus efficacement de ses proies. Les scientifiques étudiant cette enzyme pensent qu'elle pourrait être adaptée en médicaments anticoagulants puissants ou utilisée pour stopper le processus de coagulation causé par des groupes sanguins incompatibles, résolvant ainsi les problèmes de dons de sang pour les patients ayant des groupes sanguins rares.\n \n
 		%c[pda_white]PROPRIÉTÉS :\n
 		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
 		</text>
 	</string>
 
 	<string id="mutant_krovosos_jaw">
-		<text>Mâchoire de Bloodsucker</text>
+		<text>Mâchoire de Sangsue</text>
 	</string>
 	<string id="mutant_krovosos_jaw_description">
-		<text>À l'instar du coeur du Bloodsucker, ses tentacules sécrètent une enzyme rare qui empêche la coagulation du sang, permettant à la créature de se nourrir plus efficacement de ses proies. Les scientifiques étudiant cette enzyme pensent qu'elle pourrait être adaptée en médicaments anticoagulants puissants ou utilisée pour stopper le processus de coagulation causé par des groupes sanguins incompatibles, résolvant ainsi les problèmes de dons de sang pour les patients ayant des groupes sanguins rares. Certains stalkers utilisent également leurs dents pour fabriquer des colliers et des talismans.\n \n
+		<text>À l'instar du coeur d'une Sangsue, ses tentacules sécrètent une enzyme rare qui empêche la coagulation du sang, permettant à la créature de se nourrir plus efficacement de ses proies. Les scientifiques étudiant cette enzyme pensent qu'elle pourrait être adaptée en médicaments anticoagulants puissants ou utilisée pour stopper le processus de coagulation causé par des groupes sanguins incompatibles, résolvant ainsi les problèmes de dons de sang pour les patients ayant des groupes sanguins rares. Certains stalkers utilisent également leurs dents pour fabriquer des colliers et des talismans.\n \n
 		%c[pda_white]PROPRIÉTÉS :\n
 		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
 		</text>
@@ -313,20 +313,20 @@
 	</string>
 
 	<string id="mutant_brain_burer">
-		<text>Cerveau de Burer</text>
+		<text>Cerveau de Domovoï</text>
 	</string>
 	<string id="mutant_brain_burer_description">
-		<text>Les Burers possèdent des capacités télépathiques encore incomprises par la communauté scientifique, leur masse cérébrale étant en moyenne 1,5 à 2,5 fois supérieure à celle d'un cerveau humain. Sa structure présente également des mutations significatives, suggérant l'influence de la Zone sur la cognition. Ces échantillons sont donc très recherchés par les scientifiques.\n \n
+		<text>Les Domovoï possèdent des capacités télépathiques encore incomprises par la communauté scientifique, leur masse cérébrale étant en moyenne 1,5 à 2,5 fois supérieure à celle d'un cerveau humain. Sa structure présente également des mutations significatives, suggérant l'influence de la Zone sur la cognition. Ces échantillons sont donc très recherchés par les scientifiques.\n \n
 		%c[pda_white]PROPRIÉTÉS :\n
 		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
 		</text>
 	</string>
 
 	<string id="mutant_burer_hand">
-		<text>Main de Burer</text>
+		<text>Main de Domovoï</text>
 	</string>
 	<string id="mutant_burer_hand_description">
-		<text>Une main desséchée et griffue prélevée sur un Burer, considérée comme essentielle à ses capacités télékinétiques. Les scientifiques étudient sa musculature unique et ses amas nerveux, tandis que certains stalkers la collectionnent à des fins occultes.\n \n
+		<text>Une main desséchée et griffue prélevée sur un Domovoï, considérée comme essentielle à ses capacités télékinétiques. Les scientifiques étudient sa musculature unique et ses amas nerveux, tandis que certains stalkers la collectionnent à des fins occultes.\n \n
 		%c[pda_white]PROPRIÉTÉS :\n
 		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
 		</text>
@@ -366,7 +366,7 @@
 		<text>Griffe de Chimère</text>
 	</string>
 	<string id="mutant_chimera_claw_description">
-		<text>Griffe d'une Chimère. Sa composition moléculaire exacte reste inconnue, mais elle est aussi résistante et tranchante qu'un diamant. Prisée tant pour les études scientifiques que pour les collections de trophées, sa structure osseuse est inhabituellement dense, adaptée pour transpercer les armures et le flesh.\n \n
+		<text>Griffe d'une Chimère. Sa composition moléculaire exacte reste inconnue, mais elle est aussi résistante et tranchante qu'un diamant. Prisée tant pour les études scientifiques que pour les collections de trophées, sa structure osseuse est inhabituellement dense, adaptée pour transpercer les armures et le Croquemort.\n \n
 		%c[pda_white]PROPRIÉTÉS :\n
 		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
 		</text>
@@ -443,10 +443,10 @@
 	</string>
 
 	<string id="mutant_flesh_eye">
-		<text>Flesh Oeil</text>
+		<text>Croquemort Oeil</text>
 	</string>
 	<string id="mutant_flesh_eye_description">
-		<text>Un grand oeil d'apparence troublante et humaine, prélevé sur le Flesh mutant, souvent conservé pour étude en raison de ses remarquables capacités régénératives. La découverte de ce mécanisme révolutionnerait très certainement la médecine moderne.\n \n
+		<text>Un grand oeil d'apparence troublante et humaine, prélevé sur le Croquemort mutant, souvent conservé pour étude en raison de ses remarquables capacités régénératives. La découverte de ce mécanisme révolutionnerait très certainement la médecine moderne.\n \n
 		%c[pda_white]PROPRIÉTÉS :\n
 		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
 		</text>
@@ -463,20 +463,20 @@
 	</string>
 
 	<string id="mutant_lurker_eye">
-		<text>Lurker Oeil</text>
+		<text>Rôdeur Oeil</text>
 	</string>
 	<string id="mutant_lurker_eye_description">
-		<text>Petit oeil prédateur très sensible, prélevé sur un Lurker, conférant à la créature un avantage lors des embuscades. Utile pour étudier la vision des mutants, la lueur entourant la pupille suscite l'intérêt des chasseurs locaux et des scientifiques.\n \n
+		<text>Petit oeil prédateur très sensible, prélevé sur un Rôdeur, conférant à la créature un avantage lors des embuscades. Utile pour étudier la vision des mutants, la lueur entourant la pupille suscite l'intérêt des chasseurs locaux et des scientifiques.\n \n
 		%c[pda_white]PROPRIÉTÉS :\n
 		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
 		</text>
 	</string>
 	
 	<string id="mutant_lurker_tail">
-		<text>Queue de Lurker</text>
+		<text>Queue de Rôdeur</text>
 	</string>
 	<string id="mutant_lurker_tail_description">
-		<text>Une queue en forme de fouet, dotée de muscles flexibles et de crêtes osseuses acérées, utilisée pour l'équilibre et le combat. Les études scientifiques suggèrent que les caractéristiques de la queue d'un Lurker prouvent qu'ils appartiennent à une espèce de mutants Tushkanos.\n \n
+		<text>Une queue en forme de fouet, dotée de muscles flexibles et de crêtes osseuses acérées, utilisée pour l'équilibre et le combat. Les études scientifiques suggèrent que les caractéristiques de la queue d'un Rôdeur prouvent qu'ils appartiennent à une espèce de mutants Tushkanos.\n \n
 		%c[pda_white]PROPRIÉTÉS :\n
 		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
 		</text>
@@ -533,10 +533,10 @@
 	</string>
 
 	<string id="mutant_psysucker_hand">
-		<text>Main de Psysucker</text>
+		<text>Main de Sangsue-psy</text>
 	</string>
 	<string id="mutant_psysucker_hand_description">
-		<text>Un appendice tordu et griffu provenant d'un Psysucker, émettant encore faiblement de l'énergie psi. Les scientifiques espèrent que son étude pourrait révéler comment les émissions psi interagissent avec les tissus biologiques.\n \n
+		<text>Un appendice tordu et griffu provenant d'une Sangsue-psy, émettant encore faiblement de l'énergie psi. Les scientifiques espèrent que son étude pourrait révéler comment les émissions psi interagissent avec les tissus biologiques.\n \n
 		%c[pda_white]PROPRIÉTÉS :\n
 		%c[d_purple] • %c[pda_white] Spécimen scientifique\n
 		</text>

@@ -432,7 +432,7 @@
 		<text>9x18 mm pointe creuse</text>
 	</string>
 	<string id="ammo-9x18-pmm_descr">
-		<text>Cette munition contient une balle à pointe creuse offrant un pouvoir d'arrêt accru. Inefficace contre les gilets pare-balles, mais inflige des dégâts élevés contre le flesh.\n
+		<text>Cette munition contient une balle à pointe creuse offrant un pouvoir d'arrêt accru. Inefficace contre les gilets pare-balles, mais inflige des dégâts élevés contre la chaire.\n
 		\n%c[ui_gray_2] - %c[ui_gray_2] Pouvoir de pénétration (AP) : %c[ui_gray_1]aucun (8)
 		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance d'arrêt nominale (DMG) : %c[ui_gray_1]42</text>
 	</string>
@@ -468,7 +468,7 @@
 		<text>9x19 mm pointe creuse</text>
 	</string>
 	<string id="ammo-9x19-pbp_descr">
-		<text>Cette balle de calibre 9x19 à pointe creuse chemisée, dotée d'une cavité d'expansion, possède un pouvoir d'arrêt élevé et une faible propension au ricochet. Utilisée par les forces de police et pour l'autodéfense. Inefficace contre les blindages en raison de son faible potentiel de pénétration, mais inflige des dégâts importants aux flesh. L'une des munitions les moins chères pour éliminer efficacement les mutants dans la Zone.\n
+		<text>Cette balle de calibre 9x19 à pointe creuse chemisée, dotée d'une cavité d'expansion, possède un pouvoir d'arrêt élevé et une faible propension au ricochet. Utilisée par les forces de police et pour l'autodéfense. Inefficace contre les blindages en raison de son faible potentiel de pénétration, mais inflige des dégâts importants aux chaires. L'une des munitions les moins chères pour éliminer efficacement les mutants dans la Zone.\n
 		\n%c[ui_gray_2] - %c[ui_gray_2] Pouvoir de pénétration (AP) : %c[ui_gray_1]aucun (10)
 		\n%c[ui_gray_2] - %c[ui_gray_2] Puissance d'arrêt nominale (DMG) : %c[ui_gray_1]40</text>
 	</string>

@@ -170,7 +170,7 @@ Vous pouvez ajuster ce coefficient pour refléter le niveau de perte d'état des o
         <text>Autoriser embuscade de Sangliers</text>
     </string>
     <string id="ui_mcm_soulslike_ambush_allow_flesh_ambush">
-        <text>Autoriser embuscade de Flesh</text>
+        <text>Autoriser embuscade de Croquemort</text>
     </string>
     <string id="ui_mcm_soulslike_ambush_allow_dogs_ambush">
         <text>Autoriser embuscade de Chien</text>
@@ -182,10 +182,10 @@ Vous pouvez ajuster ce coefficient pour refléter le niveau de perte d'état des o
         <text>Autoriser embuscade de Snorks</text>
     </string>
     <string id="ui_mcm_soulslike_ambush_allow_bloodsucker_ambush">
-        <text>Autoriser embuscade de Bloodsuckers</text>
+        <text>Autoriser embuscade de Sangsues</text>
     </string>
     <string id="ui_mcm_soulslike_ambush_allow_burer_ambush">
-        <text>Autoriser embuscade de Burers</text>
+        <text>Autoriser embuscade de Domovoï</text>
     </string>
     <string id="ui_mcm_soulslike_ambush_allow_chimera_ambush">
         <text>Autoriser embuscade de Chimères</text>

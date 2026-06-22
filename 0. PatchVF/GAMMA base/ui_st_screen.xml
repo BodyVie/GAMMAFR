@@ -398,10 +398,10 @@
 		<text>Le combat a commencé !</text>
 	</string>
 	<string id="bar_arena_fight_bloodsucker">
-		<text>Attention ! Attention ! Un nouveau combat va commencer dans l'Arène ! Dans le coin gauche, le cauchemar le plus redouté de la Zone, le Bloodsucker toujours affamé ! Et dans le coin droit... Un humain ? Oui, un humain ! Applaudissez, s'il vous plaît, pour le stalker !</text>
+		<text>Attention ! Attention ! Un nouveau combat va commencer dans l'Arène ! Dans le coin gauche, le cauchemar le plus redouté de la Zone, la Sangsue toujours affamé ! Et dans le coin droit... Un humain ? Oui, un humain ! Applaudissez, s'il vous plaît, pour le stalker !</text>
 	</string>
 	<string id="bar_arena_fight_burer">
-		<text>Attention ! Attention ! Un nouveau combat va commencer dans l'Arène ! Dans le coin gauche, le maître en kung-fu qui tord les cuillères en personne, le Burer ! Et dans le coin droit... un stalker ! Applaudissements, s'il vous plaît !</text>
+		<text>Attention ! Attention ! Un nouveau combat va commencer dans l'Arène ! Dans le coin gauche, le maître en kung-fu qui tord les cuillères en personne, le Domovoï ! Et dans le coin droit... un stalker ! Applaudissements, s'il vous plaît !</text>
 	</string>
 	<string id="bar_arena_fight_dead">
 		<text>Alors, le challenger s'est fait buter ! Ça, c'est la surprise du jour !</text>

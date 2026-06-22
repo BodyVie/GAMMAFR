@@ -207,10 +207,10 @@
 	<!-- Meet Librarian (Clear Sky) Task 1 -->
 
 	<string id="drx_sl_mar_base_stalker_barmen_meet_task_1_name">
-		<text>Rencontrer Bibliothécaire</text>
+		<text>Rencontrer Le Bibliothécaire</text>
 	</string>
 	<string id="drx_sl_mar_base_stalker_barmen_meet_task_1_text">
-		<text>Rencontrer Bibliothécaire dans le Grand marais.</text>
+		<text>Rencontrer Le Bibliothécaire dans le Grand marais.</text>
 	</string>
 
 	<!-- Meet Sakharov (Ecologist) Task 1 -->

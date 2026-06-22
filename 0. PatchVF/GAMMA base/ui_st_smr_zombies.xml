@@ -51,9 +51,9 @@
 		<text>Snorks</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_zombies_bloodsuckerp">
-		<text>Bloodsuckers</text>
+		<text>Sangsues</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_zombies_psysuckerp">
-		<text>Psysuckers</text>
+		<text>Sangsues-psy</text>
 	</string>
 </string_table>

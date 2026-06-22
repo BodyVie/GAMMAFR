@@ -149,7 +149,7 @@
 		<text>Firmament, ils kiffent grave la recherche, non ?</text>
 	</string>
 	<string id="marsh_stalker_tech_pragmatic_research_1">
-		<text>C'est sûr. Comme les Scientifiques, on essaie de mieux comprendre la Zone, mais nous, on se contente pas d'observer. On préfère utiliser les connaissances qu'on acquiert pour des applications pratiques. Par exemple, des éclats d'un artefact de Gravi intégrés dans une armure réduisent significativement son poids. Le coagulant du bloodsucker peut être utilisé dans un système de survie qui empêche la perte de sang pendant les combats. Et la capacité de résolution de l'oeil du Flesh nous a aidés à développer des systèmes de visée avancés. C'est juste quelques-unes des nombreuses idées qu'on a eues.</text>
+		<text>C'est sûr. Comme les Scientifiques, on essaie de mieux comprendre la Zone, mais nous, on se contente pas d'observer. On préfère utiliser les connaissances qu'on acquiert pour des applications pratiques. Par exemple, des éclats d'un artefact de Gravi intégrés dans une armure réduisent significativement son poids. Le coagulant du sangsue peut être utilisé dans un système de survie qui empêche la perte de sang pendant les combats. Et la capacité de résolution de l'oeil du Croquemort nous a aidés à développer des systèmes de visée avancés. C'est juste quelques-unes des nombreuses idées qu'on a eues.</text>
 	</string>
 
 	
@@ -212,7 +212,7 @@
         <text>Hm, oui ?</text>
     </string>
 	<string id="marsh_stalker_barmen_start_dialog_1">
-		<text>Un nouveau visage ! Les gens par ici m'appellent Bibliothécaire. Je suis le barman du coin. Je serai ravi de répondre à tes questions. Parfois, je poste des offres de boulot ou j'entends des rumeurs intéressantes, alors repasse souvent.</text>
+		<text>Un nouveau visage ! Les gens par ici m'appellent Le Bibliothécaire. Je suis le barman du coin. Je serai ravi de répondre à tes questions. Parfois, je poste des offres de boulot ou j'entends des rumeurs intéressantes, alors repasse souvent.</text>
 	</string>
 	<string id="marsh_stalker_barmen_start_dialog_2">
 		<text>Hé, stalker. T'as besoin de quoi ?</text>
@@ -256,7 +256,7 @@
 		<text>Je m'appelle Novikov, mais certains m'appellent Grey. Je suis le technicien qui fait tourner la boutique, et le seul à qui un bon stalker va voir si son flingue s'enraye. J'ai bossé ici il y a longtemps, jusqu'à juste avant que Cold prenne les rênes. Quand tout est parti en couilles, j'ai cherché un endroit plus vert et j'ai été engagé par les scientifiques près de Jupiter. J'y suis resté quelques années, jusqu'au jour où j'ai entendu dire que ces gars-là avaient réussi à s'en sortir, et dès que mon contrat a été terminé, je suis revenu. Ils m'ont repris sans poser de questions ; mes compétences à l'établi et mes contacts chez les scientifiques étaient trop utiles. Je les ai mis en relation avec leurs gars pour qu'on puisse continuer nos anciennes recherches. Si t'es chaud pour le boulot, ils cherchent toujours des guides pour les anomalies locales. Parle à Spore si ça t'intéresse.</text>
 	</string>
 	<string id="marsh_stalker_leader_background">
-		<text>Par où commencer ? On m'appelle Cold par ici. Je suis le chef de Firmament. J'étais l'ancien distributeur de boissons ici, il y a longtemps, jusqu'à ce que je passe le relais à Bibliothécaire quand on a appris ce qui était arrivé à Lebedev, Suslov et le reste de nos commandants. Après de longues et intenses négociations avec la dernière cargaison de vodka de contrebande, les forces locales ont décidé que j'étais le mieux placé pour reprendre les rênes, et je les tiens depuis.</text>
+		<text>Par où commencer ? On m'appelle Cold par ici. Je suis le chef de Firmament. J'étais l'ancien distributeur de boissons ici, il y a longtemps, jusqu'à ce que je passe le relais au Bibliothécaire quand on a appris ce qui était arrivé à Lebedev, Suslov et le reste de nos commandants. Après de longues et intenses négociations avec la dernière cargaison de vodka de contrebande, les forces locales ont décidé que j'étais le mieux placé pour reprendre les rênes, et je les tiens depuis.</text>
 	</string>
 	<string id="marsh_csky_history_ask1">
 		<text>Parle-moi de Firmament.</text>

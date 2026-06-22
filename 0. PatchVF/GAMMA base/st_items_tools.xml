@@ -55,7 +55,7 @@
 		<text>Kit de fabrication de drogues</text>
 	</string>
 	<string id="st_itm_drugkit_descr">
-		<text>Laboratoire chimique compact contenant des outils de mesure, des brûleur, des fioles et des agents de mélange pour la synthèse de médicaments et de stimulants sur le terrain. Essentiel pour ceux qui fabriquent leurs propres stimulants, médicaments ou améliorants.\n \n
+		<text>Laboratoire chimique compact contenant des outils de mesure, des brûleurs, des fioles et des agents de mélange pour la synthèse de médicaments et de stimulants sur le terrain. Essentiel pour ceux qui fabriquent leurs propres stimulants, médicaments ou améliorants.\n \n
 		%c[pda_white]PROPRIÉTÉS :\n
 		%c[d_cyan] • %c[pda_white] Nécessite des matériaux adaptés\n
 		%c[d_orange] • %c[pda_white] Utilisable à l'atelier du mécanicien\n

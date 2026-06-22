@@ -877,7 +877,7 @@
 		<text>Dommages aux objets lors du piétinement par les Pseudogiants (pseudogiant_can_damage_objects_on_stomp)</text>
 	</string>
 	<string id="ui_mm_modded_exes_gameplay_monsters_telekinetic_objects_include_corpses">
-		<text>Lancer les cadavres par les Poltergeists et les Burers (telekinetic_objects_include_corpses)</text>
+		<text>Lancer les cadavres par les Poltergeists et les Domovoï (telekinetic_objects_include_corpses)</text>
 	</string>
 	<string id="ui_mm_modded_exes_gameplay_monsters_monster_stuck_fix">
 		<text>Correction des monstres bloqués (MAUVAIS POUR LES FPS) (monster_stuck_fix)</text>

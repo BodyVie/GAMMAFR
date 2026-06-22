@@ -212,10 +212,10 @@
 	
 <!-- ====================== Mutant Hide ====================== -->
 	<string id="st_hide_flesh_name">
-		<text>Peau de Flesh</text>
+		<text>Peau de Croquemort</text>
 	</string>
 	<string id="st_hide_flesh_descr">
-		<text>Peau prélevée sur une race de porcs mutants communément appelés flesh. Son poids élevé (son principal inconvénient) résulte d'une épaisse couche de graisse sous une peau relativement molle et peu profonde. Elle offre une faible protection physique, mais réduit considérablement les effets nocifs des anomalies chimiques, thermiques et électriques. Ne peut être utilisée que pour des réparations mineures, car la couche de graisse est inutile pour l'entretien de l'armure et doit être découpée, ne laissant qu'une petite partie de tissu cutané superficiel.\n \n
+		<text>Peau prélevée sur une race de porcs mutants communément appelés Croquemort. Son poids élevé (son principal inconvénient) résulte d'une épaisse couche de graisse sous une peau relativement molle et peu profonde. Elle offre une faible protection physique, mais réduit considérablement les effets nocifs des anomalies chimiques, thermiques et électriques. Ne peut être utilisée que pour des réparations mineures, car la couche de graisse est inutile pour l'entretien de l'armure et doit être découpée, ne laissant qu'une petite partie de tissu cutané superficiel.\n \n
 		%c[0,255,255,255]PROPRIÉTÉS :\n
 		%c[d_orange] • %c[d_orange] Une seule peau peut être équipée\n
 		</text>
@@ -234,37 +234,37 @@
 	</string>
 	
 	<string id="st_hide_bloodsucker_name">
-		<text>Peau de Bloodsucker</text>
+		<text>Peau de Sangsue</text>
 	</string>
 	<string id="st_hide_bloodsucker_descr">
-		<text>Le Bloodsuckers, en tant qu'espèce, a évolué à partir des humains, et cette affinité se retrouve encore dans la texture de sa peau. Ce qui est le plus caractéristique, c'est que la peau est très douce et agréable au toucher, presque comme celle d'un enfant. Cela ne s'applique cependant qu'à la couche externe - en dessous, le Bloodsuckers possède des muscles bien développés qui peuvent être utilisés pour former une sorte de manteau offrant un potentiel de réduction des dommages considérable, en particulier contre les attaques au corps à corps. Cela fait de la peau de bloodsucker un choix populaire parmi les chasseurs expérimentés, qui la portent également comme signe de leur compétence. La propriété la plus unique, et en même temps le principal inconvénient de cette peau, est sa réaction très intense aux changements de température - bien que le tissu lui-même ne brûle qu'à des températures très élevées, il peut devenir très chaud, ce qui le rend de plus en plus dangereux pour le porteur et l'équipement situé en dessous.\n \n
+		<text>La Sangsues, en tant qu'espèce, a évolué à partir des humains, et cette affinité se retrouve encore dans la texture de sa peau. Ce qui est le plus caractéristique, c'est que la peau est très douce et agréable au toucher, presque comme celle d'un enfant. Cela ne s'applique cependant qu'à la couche externe - en dessous, le Sangsues possède des muscles bien développés qui peuvent être utilisés pour former une sorte de manteau offrant un potentiel de réduction des dommages considérable, en particulier contre les attaques au corps à corps. Cela fait de la peau de sangsue un choix populaire parmi les chasseurs expérimentés, qui la portent également comme signe de leur compétence. La propriété la plus unique, et en même temps le principal inconvénient de cette peau, est sa réaction très intense aux changements de température - bien que le tissu lui-même ne brûle qu'à des températures très élevées, il peut devenir très chaud, ce qui le rend de plus en plus dangereux pour le porteur et l'équipement situé en dessous.\n \n
 		%c[0,255,255,255]PROPRIÉTÉS :\n
 		%c[d_orange] • %c[d_orange] Une seule peau peut être équipée\n
 		</text>
 	</string>
 	
 	<string id="st_hide_psysucker_name">
-		<text>Peau de Psysucker</text>
+		<text>Peau de Sangsue-psy</text>
 	</string>
 	<string id="st_hide_psysucker_descr">
-		<text>Le Psysuckers, en tant qu'espèce, a évolué à partir du bloodsuckers, et cette affinité se voit encore dans la texture de leur peau. Ce qui est le plus caractéristique, c'est que la peau est très douce et agréable au toucher, presque comme celle d'un enfant. Cela ne s'applique cependant qu'à la couche externe - en dessous, les Psysuckers possèdent des muscles bien développés qui peuvent être utilisés pour former une sorte de manteau offrant un potentiel de réduction des dégâts considérable, en particulier contre les attaques au corps à corps. Cela fait de la peau de psysucker un choix populaire parmi les chasseurs expérimentés, qui la portent également comme signe de leur compétence. La propriété la plus unique, et en même temps le principal inconvénient de la peau, est sa réaction très intense aux changements de température - bien que le tissu lui-même ne brûle qu'à des températures très élevées, il peut devenir très chaud, causant des dommages croissants au porteur et à l'équipement situé en dessous. Les rapports indiquent que, bien que la peau offre une protection physique relativement faible, elle peut être utilisée pour absorber et disperser des quantités significatives d'ondes psy entrantes lorsqu'elle est portée sur la tête.\n \n
+		<text>Le Sangsues-psy, en tant qu'espèce, a évolué à partir d'une sangsues, et cette affinité se voit encore dans la texture de leur peau. Ce qui est le plus caractéristique, c'est que la peau est très douce et agréable au toucher, presque comme celle d'un enfant. Cela ne s'applique cependant qu'à la couche externe - en dessous, les Sangsues-psy possèdent des muscles bien développés qui peuvent être utilisés pour former une sorte de manteau offrant un potentiel de réduction des dégâts considérable, en particulier contre les attaques au corps à corps. Cela fait de la peau de psysucker un choix populaire parmi les chasseurs expérimentés, qui la portent également comme signe de leur compétence. La propriété la plus unique, et en même temps le principal inconvénient de la peau, est sa réaction très intense aux changements de température - bien que le tissu lui-même ne brûle qu'à des températures très élevées, il peut devenir très chaud, causant des dommages croissants au porteur et à l'équipement situé en dessous. Les rapports indiquent que, bien que la peau offre une protection physique relativement faible, elle peut être utilisée pour absorber et disperser des quantités significatives d'ondes psy entrantes lorsqu'elle est portée sur la tête.\n \n
 		%c[0,255,255,255]PROPRIÉTÉS :\n
 		%c[d_orange] • %c[d_orange] Une seule peau peut être équipée\n
 		</text>
 	</string>
 	
 	<string id="st_hide_lurker_name">
-		<text>Peau de Lurker</text>
+		<text>Peau de Rôdeur</text>
 	</string>
 	<string id="st_hide_lurker_descr">
-		<text>Une peau épaisse presque entièrement recouverte d'une couche de fourrure, prélevée sur un lurker. Les mutants eux-mêmes sont assez résistants aux dommages et peuvent encaisser des chocs considérables, et la raison en est simple : une masse musculaire importante et des os presque incassables. La peau du lurker est connue pour être épaisse et durable, ce qui en fait un bon choix pour l'amélioration des armures. La fourrure, quant à elle, fait de cette peau un isolant thermique relativement efficace. Peut également être utilisée pour des réparations légères.\n \n
+		<text>Une peau épaisse presque entièrement recouverte d'une couche de fourrure, prélevée sur un Rôdeur. Les mutants eux-mêmes sont assez résistants aux dommages et peuvent encaisser des chocs considérables, et la raison en est simple : une masse musculaire importante et des os presque incassables. La peau du Rôdeur est connue pour être épaisse et durable, ce qui en fait un bon choix pour l'amélioration des armures. La fourrure, quant à elle, fait de cette peau un isolant thermique relativement efficace. Peut également être utilisée pour des réparations légères.\n \n
 		%c[0,255,255,255]PROPRIÉTÉS :\n
 		%c[d_orange] • %c[d_orange] Une seule peau peut être équipée\n
 		</text>
 	</string>
 	
 	<string id="st_hide_burer_name">
-		<text>Peau de Burer</text>
+		<text>Peau de Domovoï</text>
 	</string>
 	<string id="st_hide_burer_descr">
 		<text>Dépouiller un burer ressemble beaucoup à dépouiller un nain difforme. Ajoutez à cela une puanteur presque insupportable d'oeufs pourris, et vous comprendrez pourquoi les stalkers considèrent cela comme un véritable exploit. Les rapports indiquent que, bien que cette peau offre une protection physique relativement faible, elle peut être utilisée pour absorber et disperser des quantités importantes d'ondes psychiques entrantes lorsqu'elle est portée sur la tête. La peau du burer présente une faible résistance électrique, ce qui rend le porteur plus vulnérable aux dommages électriques. De plus, en raison du fait que les burers sont relativement rares dans la Zone, cette peau présente un potentiel de recherche significatif, ce qui en fait une marchandise de valeur pour les scientifiques.\n \n

@@ -5,7 +5,7 @@
 <!--UNUSED -->
 
 	<string id="st_af_itcher_af_aam_name">
-		<text>AAM avec Itcher</text>
+		<text>AAM avec Gratteur</text>
 	</string>  
 	<string id="st_af_itcher_af_aam_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -26,14 +26,14 @@
 	</string>
 	
 	<string id="st_af_fireball_af_aam_name">
-		<text>AAM avec Boule de feu</text>
+		<text>AAM avec Bolide</text>
 	</string>
 	<string id="st_af_fireball_af_aam_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
 	</string>
 	
 	<string id="st_af_blood_af_aam_name">
-		<text>AAM avec Sang de Pierre</text>
+		<text>AAM avec Pierre Sanguine</text>
 	</string>
 	<string id="st_af_blood_af_aam_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -89,7 +89,7 @@
 	</string>
 	
 	<string id="st_af_cristall_flower_af_aam_name">
-		<text>AAM avec Fleur de Pierre</text>
+		<text>AAM avec Fleur protectrice</text>
 	</string>
 	<string id="st_af_cristall_flower_af_aam_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -110,7 +110,7 @@
 	</string>
 	
 	<string id="st_af_black_spray_af_aam_name">
-		<text>AAM avec Peinture Noire</text>
+		<text>AAM avec Brume noire</text>
 	</string>  
 	<string id="st_af_black_spray_af_aam_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -124,7 +124,7 @@
 	</string>
 	
 	<string id="st_af_vyvert_af_aam_name">
-		<text>AAM avec Tordu</text>
+		<text>AAM avec Tortillon</text>
 	</string>
 	<string id="st_af_vyvert_af_aam_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -138,14 +138,14 @@
 	</string> 
  	
 	<string id="st_af_full_empty_af_aam_name">
-		<text>AAM avec Vide Absolu</text>
+		<text>AAM avec Plein-Vide</text>
 	</string>  
 	<string id="st_af_full_empty_af_aam_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
 	</string> 
 	
 	<string id="st_af_night_star_af_aam_name">
-		<text>AAM avec Étoile de nuit</text>
+		<text>AAM avec Etoile phosphorescente</text>
 	</string>
 	<string id="st_af_night_star_af_aam_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -159,14 +159,14 @@
 	</string>
 	
 	<string id="st_af_gold_fish_af_aam_name">
-		<text>AAM avec Poisson doré</text>
+		<text>AAM avec Cyprin</text>
 	</string>
 	<string id="st_af_gold_fish_af_aam_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
 	</string>
 	
 	<string id="st_af_dummy_glassbeads_af_aam_name">
-		<text>AAM avec Perles de Maman</text>
+		<text>AAM avec Gouttelettes nourricières</text>
 	</string>
 	<string id="st_af_dummy_glassbeads_af_aam_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -180,7 +180,7 @@
 	</string>
 	
 	<string id="st_af_fire_af_aam_name">
-		<text>AAM avec Flamme</text>
+		<text>AAM avec Flammèche</text>
 	</string>
 	<string id="st_af_fire_af_aam_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>
@@ -208,7 +208,7 @@
 	</string>
 	
 	<string id="st_af_soul_af_aam_name">
-		<text>AAM avec Âme</text>
+		<text>AAM avec Coeur</text>
 	</string>
 	<string id="st_af_soul_af_aam_descr">
 		<text> INUTILISÉ, INUTILISÉ, INUTILISÉ</text>

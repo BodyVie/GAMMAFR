@@ -45,7 +45,7 @@
 	<string id="encyclopedia_locations_army_warehouses_text">
 		<text>Une base militaire abandonnée située à proximité d'un hameau délabré et d'un petit marais.\n \n
 		%c[pda_green]Informations\n
-		%c[ui_gray_2]Le hameau, autrefois infesté par une légion de bloodsuckers, a acquis une réputation sinistre qui éloigne la plupart des stalkers. Pendant ce temps, la base militaire est utilisée comme quartier général principal de Liberté depuis des années. C'est depuis cette base qu'ils défendent la Barrière au nord contre le Monolithe, et d'où de nombreux stalkers courageux et téméraires tentent de s'enfoncer plus profondément dans la Zone.\n \n
+		%c[ui_gray_2]Le hameau, autrefois infesté par une légion de sangsues, a acquis une réputation sinistre qui éloigne la plupart des stalkers. Pendant ce temps, la base militaire est utilisée comme quartier général principal de Liberté depuis des années. C'est depuis cette base qu'ils défendent la Barrière au nord contre le Monolithe, et d'où de nombreux stalkers courageux et téméraires tentent de s'enfoncer plus profondément dans la Zone.\n \n
 		%c[pda_blue]Zones connectées\n
 		%c[pda_white]• %c[ui_gray_2]Rostok\n
 		%c[pda_white]• %c[ui_gray_2]La Ville morte\n
@@ -90,7 +90,7 @@
 		%c[pda_white]• %c[ui_gray_2]Darkscape\n \n
 		%c[pda_yellow]Anecdote\n
 		%c[pda_white]• %c[ui_gray_2]Les militaires disposaient autrefois d'une présence plus étendue dans Cordon, avec de solides garnisons près du pont ferroviaire désormais négligé et du checkpoint nord.\n
-		%c[pda_white]• %c[ui_gray_2]Les mercenaires ont tenté de prendre d'assaut le village des recrues en 2012, mais ont été repoussés par Strelok et les Fanatic.\n
+		%c[pda_white]• %c[ui_gray_2]Les mercenaires ont tenté de prendre d'assaut le village des recrues en 2012, mais ont été repoussés par Strelok et les Fanatique.\n
 		%c[pda_white]• %c[ui_gray_2]Une grande partie de la contrebande de la Zone transite par cette zone.
 		</text>
 	</string>

@@ -10,13 +10,13 @@
   </string>
 
   <!-- ==== #subject_species# / #other_species# plurals (lowercase). id matches xcreature.get_mutant_species return prefixed by "st_ap_macros_species_". ==== -->
-  <string id="st_ap_macros_species_bloodsucker"><text>le bloodsuckers</text></string>
+  <string id="st_ap_macros_species_bloodsucker"><text>la sangsues</text></string>
   <string id="st_ap_macros_species_boar"><text>le sangliers</text></string>
   <string id="st_ap_macros_species_burer"><text>le burers</text></string>
   <string id="st_ap_macros_species_chimera"><text>la chimères</text></string>
   <string id="st_ap_macros_species_controller"><text>le controllers</text></string>
   <string id="st_ap_macros_species_dog"><text>chiens sauvage</text></string>
-  <string id="st_ap_macros_species_flesh"><text>flesh mutants</text></string>
+  <string id="st_ap_macros_species_flesh"><text>Croquemort mutants</text></string>
   <string id="st_ap_macros_species_gigant"><text>des géants</text></string>
   <string id="st_ap_macros_species_psy_dog"><text>psy-chiens</text></string>
   <string id="st_ap_macros_species_pseudodog"><text>le pseudochiens</text></string>
@@ -29,5 +29,5 @@
   <string id="st_ap_macros_species_rat"><text>le rats</text></string>
   <string id="st_ap_macros_species_karlik"><text>le karliks</text></string>
   <string id="st_ap_macros_species_psysucker"><text>des psysuceurs</text></string>
-  <string id="st_ap_macros_species_lurker"><text>le lurkers</text></string>
+  <string id="st_ap_macros_species_lurker"><text>le Rôdeurs</text></string>
 </string_table>

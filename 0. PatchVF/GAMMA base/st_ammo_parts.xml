@@ -126,7 +126,7 @@
 		<text>Balle perforante petit calibre</text>
 	</string>
 	<string id="st_rifle5_ap_rounds_desc">
-		<text>Projectiles de petit calibre de différentes tailles, équipés de pénétrateurs en alliage, utilisés dans les fusils d'assaut. Ces munitions à usage spécial sont conçues pour percer les blindages à des distances d'engagement standard, au détriment de leur efficacité contre les flesh.\n \n
+		<text>Projectiles de petit calibre de différentes tailles, équipés de pénétrateurs en alliage, utilisés dans les fusils d'assaut. Ces munitions à usage spécial sont conçues pour percer les blindages à des distances d'engagement standard, au détriment de leur efficacité contre les Croquemort.\n \n
 		%c[pda_white]PROPRIÉTÉS :\n		
 		%c[d_cyan] • %c[pda_white] Élément de munition\n
 		</text>

@@ -61,12 +61,12 @@
 	</string>
 	
 	<string id="encyclopedia_historic_rat_wolf">
-		<text>Rats Wolf</text>
+		<text>Rats Loup</text>
 	</string>
 	<string id="encyclopedia_historic_rat_wolf_text">
-		<text>Le %c[pda_white]Rat Wolf %c[ui_gray_2]était une sous-espèce rare de rats muté.\n \n
+		<text>Le %c[pda_white]Rat Loup %c[ui_gray_2]était une sous-espèce rare de rats muté.\n \n
 		%c[pda_green]Informations\n
-		%c[ui_gray_2]Bien plus dangereux que leurs cousins actuels présents dans la Zone, le rat Wolf était une machine à tuer indiscriminée. Menant souvent des meutes de rats ordinaires, ces créatures étaient faciles à repérer, car elles atteignaient fréquemment une taille deux à trois fois supérieure.\n \n
+		%c[ui_gray_2]Bien plus dangereux que leurs cousins actuels présents dans la Zone, le rat Loup était une machine à tuer indiscriminée. Menant souvent des meutes de rats ordinaires, ces créatures étaient faciles à repérer, car elles atteignaient fréquemment une taille deux à trois fois supérieure.\n \n
 		En dehors de cela, seules quelques différences apparaissaient dans leur apparence, comme des globes oculaires entièrement noirs et plus grands, ainsi qu'un corps supérieur gonflé et gras. La sélection naturelle a finalement joué son rôle, car en raison de leur taille anormale, ils se démarquaient et devenaient des proies faciles pour les Zone's chats et autres mutants similaires.\n \n
 		%c[pda_blue]Statistiques\n
 		%c[pda_white]• Attaques : %c[ui_gray_2]Corps à corps\n
@@ -86,7 +86,7 @@
 		<text>Le %c[pda_white]Tark %c[ui_gray_2]était une créature disparue semblable à un cheval, probablement issue d'une mutation du cheval de Przewalski.\n \n
 		%c[pda_green]Informations\n
 		%c[ui_gray_2]Cette créature ne ressemblait guère à ses ancêtres en raison d'une exposition massive aux radiations lors de la création de la Zone. Ses pattes arrière étaient atrophiées, tandis que celles de l'avant étaient visiblement exagérées, et sa queue ainsi qu'une grande partie de sa gueule avaient presque entièrement disparu ou s'étaient décomposées.\n \n
-		Similaire à un Flesh à certains égards, le corps du Tark était considérablement gonflé et boursouflé. On les observait également souvent chasser en grands groupes, bien que cela relève probablement davantage d'un réflexe instinctif que d'une forme naturelle de meute.\n \n
+		Similaire à un Croquemort à certains égards, le corps du Tark était considérablement gonflé et boursouflé. On les observait également souvent chasser en grands groupes, bien que cela relève probablement davantage d'un réflexe instinctif que d'une forme naturelle de meute.\n \n
 		Contrairement aux autres mutants de la Zone, il s'agissait d'animaux incroyablement sauvages, dont la folie surpassait souvent leur perception de la peur et a probablement contribué à leur disparition finale.\n \n
 		%c[pda_blue]Statistiques\n
 		%c[pda_white]• Attaques : %c[ui_gray_2]Corps à corps\n

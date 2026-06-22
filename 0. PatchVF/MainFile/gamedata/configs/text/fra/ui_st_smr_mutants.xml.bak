@@ -55,7 +55,7 @@
 		<text>Chat</text>
 	</string>
     <string id="ui_mcm_SMR_smr_mutants_fleshp">
-		<text>Flesh</text>
+		<text>Croquemort</text>
 	</string>
     <string id="ui_mcm_SMR_smr_mutants_boarp">
 		<text>Sanglier</text>
@@ -64,19 +64,19 @@
 		<text>Snork</text>
 	</string>
     <string id="ui_mcm_SMR_smr_mutants_psysuckerp">
-		<text>Psysucker</text>
+		<text>Sangsue-psy</text>
 	</string>
     <string id="ui_mcm_SMR_smr_mutants_bloodsuckerp">
-		<text>Bloodsucker</text>
+		<text>Sangsue</text>
 	</string>
     <string id="ui_mcm_SMR_smr_mutants_lurkerp">
-		<text>Lurker</text>
+		<text>Rôdeur</text>
 	</string>
     <string id="ui_mcm_SMR_smr_mutants_karlikp">
 		<text>Karlik</text>
 	</string>
     <string id="ui_mcm_SMR_smr_mutants_burerp">
-		<text>Burer</text>
+		<text>Domovoï </text>
 	</string>
     <string id="ui_mcm_SMR_smr_mutants_poltergeistp">
 		<text>Poltergeist</text>

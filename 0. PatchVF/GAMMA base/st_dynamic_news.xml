@@ -6,47 +6,47 @@
 
 	<!-- Mutants -->
 	<string id="st_dyn_news_lurker_1">
-		<text>un Lurker</text>
+		<text>un Rôdeur</text>
 	</string>
 	<string id="st_dyn_news_lurker_2">
-		<text>Un Lurker nous a attaqués.</text>
+		<text>Un Rôdeur nous a attaqués.</text>
 	</string>
 	<string id="st_dyn_news_lurker_3">
-		<text>Un Lurker nous a sauté dessus</text>
+		<text>Un Rôdeur nous a sauté dessus</text>
 	</string>
 	<string id="st_dyn_news_lurker_4">
-		<text>On s'est fait attaquer par des Lurkers</text>
+		<text>On s'est fait attaquer par des Rôdeurs</text>
 	</string>
 	<string id="st_dyn_news_lurker_5">
-		<text>On s'est fait tendre une embuscade par des Lurkers</text>
+		<text>On s'est fait tendre une embuscade par des Rôdeurs</text>
 	</string>
 	<string id="st_dyn_news_lurker_6">
-		<text>une meute de Lurkers</text>
+		<text>une meute de Rôdeurs</text>
 	</string>
 	<string id="st_dyn_news_lurker_7">
-		<text>un Lurkers</text>
+		<text>un Rôdeurs</text>
 	</string>
 
 	<string id="st_dyn_news_psysucker_1">
-		<text>un Psysucker</text>
+		<text>une Sangsue-psy</text>
 	</string>
 	<string id="st_dyn_news_psysucker_2">
-		<text>On s’est fait surprendre par un Psysucker.</text>
+		<text>On s’est fait surprendre par une Sangsue-psy.</text>
 	</string>
 	<string id="st_dyn_news_psysucker_3">
-		<text>Un Psysucker nous a tendu une embuscade.</text>
+		<text>Une Sangsue-psy nous a tendu une embuscade.</text>
 	</string>
 	<string id="st_dyn_news_psysucker_4">
-		<text>On s'est fait attaquer par un Psysuckers</text>
+		<text>On s'est fait attaquer par un Sangsues-psy</text>
 	</string>
 	<string id="st_dyn_news_psysucker_5">
-		<text>On s'est fait attaquer par une bande de Psysuckers</text>
+		<text>On s'est fait attaquer par une bande de Sangsues-psy</text>
 	</string>
 	<string id="st_dyn_news_psysucker_6">
-		<text>une meute de Psysuckers</text>
+		<text>une meute de Sangsues-psy</text>
 	</string>
 	<string id="st_dyn_news_psysucker_7">
-		<text>un Psysuckers</text>
+		<text>un Sangsues-psy</text>
 	</string>
 
 	<string id="st_dyn_news_boar_1">
@@ -94,25 +94,25 @@
 	</string>
 
 	<string id="st_dyn_news_flesh_1">
-		<text>un Flesh</text>
+		<text>un Croquemort</text>
 	</string>
 	<string id="st_dyn_news_flesh_2">
-		<text>On s'est fait attaquer par un Flesh</text>
+		<text>On s'est fait attaquer par un Croquemort</text>
 	</string>
 	<string id="st_dyn_news_flesh_3">
-		<text>On est tombés sur un Flesh</text>
+		<text>On est tombés sur un Croquemort</text>
 	</string>
 	<string id="st_dyn_news_flesh_4">
-		<text>On s'est fait charger par une meute de Flesh</text>
+		<text>On s'est fait charger par une meute de Croquemort</text>
 	</string>
 	<string id="st_dyn_news_flesh_5">
-		<text>On s'est fait attaquer par un Flesh.</text>
+		<text>On s'est fait attaquer par un Croquemort.</text>
 	</string>
 	<string id="st_dyn_news_flesh_6">
-		<text>un demi-kilo de Flesh</text>
+		<text>un demi-kilo de Croquemort</text>
 	</string>
 	<string id="st_dyn_news_flesh_7">
-		<text>un Flesh</text>
+		<text>un Croquemort</text>
 	</string>
 
 	<string id="st_dyn_news_pseudodog_1">
@@ -160,47 +160,47 @@
 	</string>
 
 	<string id="st_dyn_news_bloodsucker_1">
-		<text>un Bloodsucker</text>
+		<text>une Sangsue</text>
 	</string>
 	<string id="st_dyn_news_bloodsucker_2">
-		<text>On s'est fait surprendre par un Bloodsucker</text>
+		<text>On s'est fait surprendre par une Sangsue</text>
 	</string>
 	<string id="st_dyn_news_bloodsucker_3">
-		<text>Un Bloodsucker nous a tendu une embuscade.</text>
+		<text>Une Sangsue nous a tendu une embuscade.</text>
 	</string>
 	<string id="st_dyn_news_bloodsucker_4">
-		<text>On s'est fait attaquer par des Bloodsuckers.</text>
+		<text>On s'est fait attaquer par des Sangsues.</text>
 	</string>
 	<string id="st_dyn_news_bloodsucker_5">
-		<text>On s'est fait tendre une embuscade par une meute de Bloodsuckers.</text>
+		<text>On s'est fait tendre une embuscade par une meute de Sangsues.</text>
 	</string>
 	<string id="st_dyn_news_bloodsucker_6">
-		<text>une meute de Bloodsuckers</text>
+		<text>une meute de Sangsues</text>
 	</string>
 	<string id="st_dyn_news_bloodsucker_7">
-		<text>un Bloodsuckers</text>
+		<text>une Sangsues</text>
 	</string>
 
 	<string id="st_dyn_news_burer_1">
-		<text>un Burer</text>
+		<text>un Domovoï</text>
 	</string>
 	<string id="st_dyn_news_burer_2">
-		<text>On s'est fait attaquer par un Burer</text>
+		<text>On s'est fait attaquer par un Domovoï</text>
 	</string>
 	<string id="st_dyn_news_burer_3">
-		<text>On est tombés sur un Burer</text>
+		<text>On est tombés sur un Domovoï</text>
 	</string>
 	<string id="st_dyn_news_burer_4">
-		<text>On s'est fait attaquer par des Burers</text>
+		<text>On s'est fait attaquer par des Domovoï</text>
 	</string>
 	<string id="st_dyn_news_burer_5">
-		<text>On est tombés sur des Burers</text>
+		<text>On est tombés sur des Domovoï</text>
 	</string>
 	<string id="st_dyn_news_burer_6">
-		<text>une bande de Burers</text>
+		<text>une bande de Domovoï</text>
 	</string>
 	<string id="st_dyn_news_burer_7">
-		<text>un Burer</text>
+		<text>un Domovoï</text>
 	</string>
 
 	<string id="st_dyn_news_chimera_1">
@@ -3451,7 +3451,7 @@
 		<text>Les gars, j'suis vénère contre ces merdes...</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_mutant_28">
-		<text>Les gars, retenez bien ça : seul un pruneau dans la tête arrête un Bloodsucker.</text>
+		<text>Les gars, retenez bien ça : seul un pruneau dans la tête arrête une Sangsue.</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_mutant_29">
 		<text>MP moi ! On va défoncer des mutants.</text>
@@ -5342,7 +5342,7 @@
 		<text>Tu regrettes le bon vieux temps ? Ouais, c’était pourrave aussi, alors arrête de te voiler la face. Mais au moins, les nazes avaient pas des flingues aussi mortels qu’aujourd’hui.</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_bandit_27">
-		<text>Y'a assez de matière grise dans ce trou pourri pour avoir un signal sécurisé de Vallée Obscure à Jupiter ? Putain, mais c'est quoi ce bordel ? Je croyais que Limpid avait réglé le problème.</text>
+		<text>Y'a assez de matière grise dans ce trou pourri pour avoir un signal sécurisé de Vallée Obscure à Jupiter ? Putain, mais c'est quoi ce bordel ? Je croyais que Limpide avait réglé le problème.</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_bandit_28">
 		<text>Pensez à ces pauvres mecs dans le Cimetière de Véhicules. Désolé, les gars !</text>
@@ -5394,7 +5394,7 @@
 		<text>Les gars ! Novikov a besoin d'aide urgente, il lui faut des pièces de rechange pour les upgrades et les réparations. Trouvez tout ce qu'il demande. Si on l'aide pas maintenant, on va bientôt tirer avec nos doigts !</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_4">
-		<text>On cherche des échantillons de Fruit Punch, rapportez-les au Professeur Kalancha dès que vous en avez assez.</text>
+		<text>On cherche des échantillons de Champignon Visqueux, rapportez-les au Professeur Kalancha dès que vous en avez assez.</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_5">
 		<text>Beaucoup de stalkers font la même connerie. L’eau dans le Marais est ultra-radioactive, alors garde tes distances. Aie toujours des cachets anti-rad sous la main, on sait jamais quand t’en auras besoin.</text>
@@ -5406,7 +5406,7 @@
 		<text>On vient de recevoir un nouveau stock de détecteurs Veles. C'est limité, alors magne-toi de t'inscrire.</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_8">
-		<text>Ici Bibliothécaire. Allez-y mollo sur les rations, les stocks sont limités et le prochain arrivage, c’est pas pour tout de suite.</text>
+		<text>Ici Le Bibliothécaire. Allez-y mollo sur les rations, les stocks sont limités et le prochain arrivage, c’est pas pour tout de suite.</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_9">
 		<text>Hé Nimble, tu reviens pas ? Tu te souviens plus des bons vieux jours ?</text>
@@ -5434,7 +5434,7 @@
 		<text>À tous les chercheurs en mission : des rapports signalent une Electro anomalie inhabituelle dans le secteur U4. À investiguer avec prudence.</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_17">
-		<text>Ici Bibliothécaire à nouveau : je lance un appel à tous les stalkers qui ont la moindre notion de cuisine. Rations et fournitures en rab pour les volontaires.</text>
+		<text>Ici Le Bibliothécaire à nouveau : je lance un appel à tous les stalkers qui ont la moindre notion de cuisine. Rations et fournitures en rab pour les volontaires.</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_18">
 		<text>S'il vous plaît, évitez les communications privées sur le canal. La triangulation radio, c'est pas une blague.</text>
@@ -5488,7 +5488,7 @@
 		<text>Firmament est prêt à partager ses résultats de recherche en échange de munitions. Y'a un processus de sélection.</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_35">
-		<text>Tu peux sonner la fin de l'alerte : apparemment, ce gamin confondait le cri d'un Flesh avec celui d'une Chimère.</text>
+		<text>Tu peux sonner la fin de l'alerte : apparemment, ce gamin confondait le cri d'un Croquemort avec celui d'une Chimère.</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_36">
 		<text>Quelqu'un ferait mieux de réparer ce putain de toit avant que la flotte rentre dans le matos. Je sais qu'on vit dans un marais, mais quand même !</text>
@@ -5585,7 +5585,7 @@
 		<text>Ça fait deux jours qu’on galère avec le matos. La connexion à la base de données et aux escouades déconne grave.</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_dolg_27">
-		<text>Capitaine Simonov à l’appareil. Je signale un type de mutants bizarre. Il y a une heure, en b15, mon escouade et moi on a observé un Bloodsucker chelou. Il a attaqué un Controller et l’a buté en deux trois coups sous nos yeux. La bestiole nous a pas repérés. J’attends les ordres.</text>
+		<text>Capitaine Simonov à l’appareil. Je signale un type de mutants bizarre. Il y a une heure, en b15, mon escouade et moi on a observé une Sangsue chelou. Il a attaqué un Controller et l’a buté en deux trois coups sous nos yeux. La bestiole nous a pas repérés. J’attends les ordres.</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_dolg_28">
 		<text>Ici Petrenko. Kolya, confirme l'info sur le 10e escouade qui n'est pas rentrée du raid d'hier. Je crois que j'ai trouvé ce qu'il en reste...</text>
@@ -5663,7 +5663,7 @@
 	</string>
 	
 	<string id="st_dyn_news_spam_faction_ecolog_12">
-		<text>On a besoin d’une extraction médicale URGENTE ! Un de nos chercheurs a plongé dans du Fruit Punch et il a pas l’air en forme. Envoyez quelqu’un en y7_1 MAINTENANT !</text>
+		<text>On a besoin d’une extraction médicale URGENTE ! Un de nos chercheurs a plongé dans du Champignon Visqueux et il a pas l’air en forme. Envoyez quelqu’un en y7_1 MAINTENANT !</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_ecolog_13">
 		<text>Personnel de terrain : restez attentifs aux signes d'une tempête psy qui approche. Avoir vérifié le planning des Emission ne veut pas dire qu'on peut se permettre d'être négligent.</text>
@@ -5845,7 +5845,7 @@
 	</string>
 	
 	<string id="st_dyn_news_spam_faction_freedom_32">
-		<text>Bon, faut se réveiller, putain - pointer, c’est cool à la base, mais pas quand des gens comptent sur toi pour défendre la Barrière. Je vais envoyer Gardien faire le tour pour botter le cul de tous les glandeurs.</text>
+		<text>Bon, faut se réveiller, putain - pointer, c’est cool à la base, mais pas quand des gens comptent sur toi pour défendre la Barrière. Je vais envoyer Le Gardien faire le tour pour botter le cul de tous les glandeurs.</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_freedom_33">
 		<text>Les potes, y'a un truc chelou qui traîne dans le coin - ça me fout les jetons. Et je parle pas de Solid, hein...</text>
@@ -6159,7 +6159,7 @@
 		<text>Comment ça se passe au Radar ? Y'a un truc chelou ?</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_monolith_15">
-		<text>Notre commandant s'inquiète encore. Y'a plus rien à bouffer à la station. Où est-ce qu'on trouve des provisions ? Mes gars vont bientôt passer à la Flesh humaine.</text>
+		<text>Notre commandant s'inquiète encore. Y'a plus rien à bouffer à la station. Où est-ce qu'on trouve des provisions ? Mes gars vont bientôt passer à la Croquemort humaine.</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_monolith_16">
 		<text>Stalker, regardez ce que l'activité scientifique a fait à ce monde. Elle a ébranlé ses fondations, et on a BESOIN DE VOUS pour aider à rendre ce monde meilleur. Avec la réalité qui vous est donnée, VOUS devez comprendre qu'avec l'aide de la Fraternité, tout devient possible. Un paradis sur Terre ? En un claquement de doigts. Tendez-nous la main pour soutenir l'existence de ce miracle. Tous les futurs compagnons doivent se rendre à l'un de nos postes avec armes et armures.</text>
@@ -6687,7 +6687,7 @@
 		<text>$trader à l'appareil. On a reçu un nouveau stock de masques à gaz.\nT'inquiète, y'en a pour tout le monde.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_none_6">
-		<text>$trader à l'appareil. J'ai besoin d'échantillons de Fruit Punch, file vers les champs d'anomalies à côté et rapporte-m'en un max.</text>
+		<text>$trader à l'appareil. J'ai besoin d'échantillons de Champignon Visqueux, file vers les champs d'anomalies à côté et rapporte-m'en un max.</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_none_7">
 		<text>J’me souviens pas avoir vu autant d’anomalies à Gaz la dernière fois que j’suis passé ici, dans $map... L’activité anormale est chelou. Faut prendre nos précautions, ça pourrait annoncer un truc. $speaker, terminé.</text>
@@ -6993,7 +6993,7 @@
 		<text>$clr_1Anonyme\n$clr_2 Combien de clébards vont encore traîner à Rostok ? Quand est-ce que Devoir va s'en occuper, bordel ? Putain, j'en ai marre. Je vais trouver quelqu'un qui tient ses promesses.</text>
 	</string>
 	<string id="st_dyn_news_spam_59">
-		<text>$clr_1Anonyme\n$clr_2 Je file un exosquelette gratuit ! Et maintenant que j’ai votre attention - je vends un artefact Tordu, prix à débattre.</text>
+		<text>$clr_1Anonyme\n$clr_2 Je file un exosquelette gratuit ! Et maintenant que j’ai votre attention - je vends un artefact Tortillon, prix à débattre.</text>
 	</string>
 	<string id="st_dyn_news_spam_60">
 		<text>$clr_1Anonyme\n$clr_2 C'est safe de traverser la Décharge ?!</text>
@@ -7107,7 +7107,7 @@
 		<text>$clr_1Voronin\n$clr_2 Si j’apprends que vous prenez des pots-de-vin de la part des stalkers qui passent par le Bar, je vais imprimer et signer des condamnations à mort pour chacun des responsables avant de les glisser dans leur cercueil.</text>
 	</string>
 	<string id="st_dyn_news_spam_97">
-		<text>$clr_1Hawaiian\n$clr_2 Hé, ese ! J'ai du taf pour ceux qui traînent vers Jupiter - passez à la gare de Yanov !</text>
+		<text>$clr_1L'hawaïen\n$clr_2 Hé, ese ! J'ai du taf pour ceux qui traînent vers Jupiter - passez à la gare de Yanov !</text>
 	</string>
 	<string id="st_dyn_news_spam_98">
 		<text>$clr_1Hermann\n$clr_2 Rappel à tous les stalkers : il faut s’abonner à la newsletter sur les émissions dans la Zone. Les infos sont toujours fiables et à jour.</text>
@@ -7179,7 +7179,7 @@
 		<text>$clr_1Lukash\n$clr_2 Stalker libre ! Nos gars aux Entrepôts de l'armée t'accueillent à bras ouverts. Ici, tu trouveras de vrais potes, une bonne ambiance, et bien plus encore ! La Zone, c'est chez nous : réfléchis un peu si t'as envie de rester en dehors et aide-nous à régler son compte à Devoir une bonne fois pour toutes.</text>
 	</string>
 	<string id="st_dyn_news_spam_121">
-		<text>$clr_1Boucher\n$clr_2 J'ai toujours du boulot pour un bon chasseur. Passe à la brocante.</text>
+		<text>$clr_1Le Boucher\n$clr_2 J'ai toujours du boulot pour un bon chasseur. Passe à la brocante.</text>
 	</string>
 	<string id="st_dyn_news_spam_122">
 		<text>$clr_1Père Peter\n$clr_2 Prions, mes frères, pour le repos de l'âme de Yuri Semetsky ! Amen !</text>
@@ -7215,7 +7215,7 @@
 		<text>$clr_1Gatekeeper\n$clr_2 Encore une fois pour les « doués » : évitez le pont dans la DL, nos snipers vont vous calmer direct. Limansk est sous le contrôle du Syndicat.</text>
 	</string>
 	<string id="st_dyn_news_spam_133">
-		<text>$clr_1Limpid\n$clr_2 Les gars, si vous trouvez une trousse à outils, ramenez-la-moi ! J'ai plus rien du tout.</text>
+		<text>$clr_1Limpide\n$clr_2 Les gars, si vous trouvez une trousse à outils, ramenez-la-moi ! J'ai plus rien du tout.</text>
 	</string>
 	<string id="st_dyn_news_spam_134">
 		<text>$clr_1Limpide\n$clr_2 Tous ceux qui chassent dehors... vous me ramassez un PDA, on fait affaire.</text>
@@ -7284,7 +7284,7 @@
 		<text>$clr_1Fanatique\n$clr_2 À tous ceux qui sont pas encore passés au village - ne ratez pas l’occasion unique d’apprendre les compétences de survie indispensables avec moi.</text>
 	</string>
 	<string id="st_dyn_news_spam_156">
-		<text>$clr_1Fanatique\n$clr_2 Les gars, quelqu'un a vu Wolf ?</text>
+		<text>$clr_1Fanatique\n$clr_2 Les gars, quelqu'un a vu Le Loup ?</text>
 	</string>
 	<string id="st_dyn_news_spam_157">
 		<text>$clr_1Fanatique\n$clr_2 Besoin d'aide pour nettoyer les repaires de mutants, contactez-moi.</text>
@@ -7375,7 +7375,7 @@
 		<text>$clr_1Anonyme\n$clr_2 Pas un seul putain de artefact... J’ai traîné mon cul sur un kilomètre de ferraille et de bestioles dans cette boîte à sueur puante, j’ai suivi TOUTES les étapes, et j’ai rien eu pour ma peine. Allez vous faire foutre !</text>
 	</string>
 	<string id="st_dyn_news_spam_186">
-		<text>$clr_1Anonyme\n$clr_2 Je troque un Sang de Pierre contre une livre de vrai thé. Sans déconner.</text>
+		<text>$clr_1Anonyme\n$clr_2 Je troque un Pierre Sanguine contre une livre de vrai thé. Sans déconner.</text>
 	</string>
 	<string id="st_dyn_news_spam_187">
 		<text>$clr_1Vincent\n$clr_2 Il peut pas aller loin. Pas avec tout ce sang qu'il perd...</text>
@@ -7447,7 +7447,7 @@
 		<text>$clr_1Wallace\n$clr_2 Écoutez-moi bien, les morveux : si vous restez en dehors du périmètre, vous allez chopper une méga dose de saturnisme aigu. Compris ?</text>
 	</string>
 	<string id="st_dyn_news_spam_210">
-		<text>$clr_1Anonyme\n$clr_2 C'est qui le génie qui a eu l'idée des cartouches maison ? Se faire enrayer en plein face-à-face avec un Bloodsucker, c'est pas le moment, putain !</text>
+		<text>$clr_1Anonyme\n$clr_2 C'est qui le génie qui a eu l'idée des cartouches maison ? Se faire enrayer en plein face-à-face avec une Sangsue, c'est pas le moment, putain !</text>
 	</string>
 	<string id="st_dyn_news_spam_211">
 		<text>$clr_1Écho 1\n$clr_2 Beau tir ! J'ai vu la trace : droit dans l'abdomen. Putain de coup de feu.</text>
@@ -7632,7 +7632,7 @@
 
 	<!-- Corpse findings-->
 	<string id="st_dyn_news_death_reason_1">
-		<text>un Burer</text>
+		<text>un Domovoï</text>
 	</string>
 	<string id="st_dyn_news_death_reason_2">
 		<text>chat</text>
@@ -7644,7 +7644,7 @@
 		<text>un Poltergeist</text>
 	</string>
 	<string id="st_dyn_news_death_reason_5">
-		<text>un Bloodsucker</text>
+		<text>une Sangsue</text>
 	</string>
 	<string id="st_dyn_news_death_reason_6">
 		<text>un Controller</text>
@@ -7659,19 +7659,19 @@
 		<text>un Pseudochien</text>
 	</string>
 	<string id="st_dyn_news_death_reason_10">
-		<text>un Flesh</text>
+		<text>un Croquemort</text>
 	</string>
 	<string id="st_dyn_news_death_reason_11">
 		<text>un sangliers</text>
 	</string>
 	<string id="st_dyn_news_death_reason_12">
-		<text>Brûleur</text>
+		<text>Colonne de feu</text>
 	</string>
 	<string id="st_dyn_news_death_reason_13">
 		<text>Vortex</text>
 	</string>
 	<string id="st_dyn_news_death_reason_14">
-		<text>Fruit Punch</text>
+		<text>Champignon Visqueux</text>
 	</string>
 	<string id="st_dyn_news_death_reason_15">
 		<text>Poils Brûlés</text>
@@ -7816,7 +7816,7 @@
 		<text>y'a aucun signe de violence sur le corps... à part que la tête a disparu</text>
 	</string>
 	<string id="st_dyn_news_death_reason_62">
-		<text>blanc comme un linge, un Bloodsucker l'a eu.</text>
+		<text>blanc comme un linge, une Sangsue l'a eu.</text>
 	</string>
 	<string id="st_dyn_news_death_reason_63">
 		<text>hémorragie interne, à vue de nez.</text>
@@ -7849,7 +7849,7 @@
 		<text>une sorte d'émission psy l'a buté dans son sommeil. J'pense pas qu'il ait souffert</text>
 	</string>
 	<string id="st_dyn_news_death_reason_73">
-		<text>PDA retrouvé dans l'estomac d'un Flesh</text>
+		<text>PDA retrouvé dans l'estomac d'un Croquemort</text>
 	</string>
 	<string id="st_dyn_news_death_reason_74">
 		<text>noyé dans une flaque ? Y'a autre chose qui s'est passé ici.</text>
@@ -7892,7 +7892,7 @@
 		<text>Belle nuit...</text>
 	</string>
 	<string id="st_dyn_news_time_night_6">
-		<text>Ouais, allez-y, traquez un Bloodsuckers en pleine nuit comme une bande de débiles.</text>
+		<text>Ouais, allez-y, traquez une Sangsues en pleine nuit comme une bande de débiles.</text>
 	</string>
 	<string id="st_dyn_news_time_night_7">
 		<text>La lune va pas tarder à se pointer. Putain, j'ai l'impression que quelque chose rôde pas loin...</text>
@@ -7919,7 +7919,7 @@
 		<text>Ce soir, l'activité des mutants est à fond, et partout ailleurs aussi, alors tout le monde, restez dans vos camps !</text>
 	</string>
 	<string id="st_dyn_news_time_night_15">
-		<text>J'ai entendu dire que les Burers remontent à la surface la nuit... Mieux vaut pioncer au camp.</text>
+		<text>J'ai entendu dire que les Domovoï remontent à la surface la nuit... Mieux vaut pioncer au camp.</text>
 	</string>
 	<string id="st_dyn_news_time_night_16">
 		<text>Ces routes ne sont plus sûres.</text>
@@ -7964,7 +7964,7 @@
 		<text>Toute la nuit, des mecs ont balancé des parpaings sur le camp. Une nuit de merde !</text>
 	</string>
 	<string id="st_dyn_news_time_morning_4">
-		<text>Putain de Burers qui ont fait un boucan de malade hier. Ou alors... c’était des fractures ?</text>
+		<text>Putain de Domovoï qui ont fait un boucan de malade hier. Ou alors... c’était des fractures ?</text>
 	</string>
 	<string id="st_dyn_news_time_morning_5">
 		<text>Quelqu'un m'entend ? Un groupe des nôtres a disparu cette nuit. Ils auraient dû être de retour ce matin. Toujours rien. On part à leur recherche bientôt. Rejoignez-nous.</text>
@@ -8074,7 +8074,7 @@
 		<text>J'aurais pas dû veiller toute la nuit, je suis crevé.</text>
 	</string>
 	<string id="st_dyn_news_time_noon_10">
-		<text>Les Sangliers et les Flesh deviennent dingues à cette période, joue pas au héros et pars pas chasser tout seul.</text>
+		<text>Les Sangliers et les Croquemorts deviennent dingues à cette période, joue pas au héros et pars pas chasser tout seul.</text>
 	</string>
 	
 	<string id="st_dyn_news_time_noon_11">
@@ -8084,7 +8084,7 @@
 		<text>Putain, il est passé où ? Il devait être là au lever du jour.</text>
 	</string>
 	<string id="st_dyn_news_time_noon_13">
-		<text>Peut-être qu'il est temps de nettoyer ces meutes de Flesh, non ? C'est l'heure où ils sont le plus actifs.</text>
+		<text>Peut-être qu'il est temps de nettoyer ces meutes de Croquemort, non ? C'est l'heure où ils sont le plus actifs.</text>
 	</string>
 	<string id="st_dyn_news_time_noon_14">
 		<text>On attend une nouvelle livraison avant la nuit, alors gardez l’oeil ouvert.</text>
@@ -9098,7 +9098,7 @@
 		<text>C'est quoi le plan, $name ?</text>
 	</string>
 	<string id="st_dyn_news_companion_life_all_5">
-		<text>Les Burers me foutent les jetons. Certains disent que c'est le résultat d'expériences secrètes sur des criminels, c'est comme ça qu'ils ont chopé leurs pouvoirs de télékinésie.</text>
+		<text>Les Domovoï me foutent les jetons. Certains disent que c'est le résultat d'expériences secrètes sur des criminels, c'est comme ça qu'ils ont chopé leurs pouvoirs de télékinésie.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_all_6">
 		<text>Un pote m’a raconté un jour que les Pseudogiants, c’était le résultat d’expériences foirées dans un de ces labos souterrains flippants, et qu’ils avaient utilisé des membres de vrais mecs dans le processus...</text>
@@ -9557,7 +9557,7 @@
 		<text>J'déteste ces meutes de chiens plus que tout. Faut toujours surveiller ses arrières, là-bas.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_csky_23">
-		<text>J’ai entendu dire qu’on a mis au point une combinaison capable de tenir une minute entière dans une anomalie Brûleur. Enfin, sans moi dedans, hein.</text>
+		<text>J’ai entendu dire qu’on a mis au point une combinaison capable de tenir une minute entière dans une anomalie Colonne de feu. Enfin, sans moi dedans, hein.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_csky_24">
 		<text>Les mecs de Monolithe ont l'air d'avoir plusieurs fusils Gauss. Ça fait flipper...</text>
@@ -9569,10 +9569,10 @@
 		<text>Économise pas sur la protection contre les anomalies - on sait jamais quand ça peut servir.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_csky_27">
-		<text>Faut pas lui répéter, mais Bibliothécaire, il sait vraiment pas cuisiner, ce con.</text>
+		<text>Faut pas lui répéter, mais Le Bibliothécaire, il sait vraiment pas cuisiner, ce con.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_csky_28">
-		<text>Je dis qu’on devrait essayer de militariser les Nuages de Gaz et le Fruit Punch. On a vraiment besoin d’un avantage, ces temps-ci.</text>
+		<text>Je dis qu’on devrait essayer de militariser les Nuages de Gaz et le Champignon Visqueux. On a vraiment besoin d’un avantage, ces temps-ci.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_csky_29">
 		<text>Moi, j’aime bien les marais. Enfin... pas la nuit, hein.</text>
@@ -9642,7 +9642,7 @@
 		<text>On a reçu des renforts et du matos de l'Armée ukrainienne il y a quelques jours, les tenues étaient pas mal du tout.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_dolg_11">
-		<text>S'amuser avec des Bloodsuckers, ça doit être assez marrant pour nos potes de Liberté qui s'ennuient.</text>
+		<text>S'amuser avec des Sangsues, ça doit être assez marrant pour nos potes de Liberté qui s'ennuient.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_dolg_12">
 		<text>J'ai ordre de buter les espions de Liberté à vue. Si t'en repères un, fais-moi signe.</text>
@@ -9673,7 +9673,7 @@
 		<text>Rostok, c'est un peu chiant, tu vois. Moi, je préfère être sur le terrain.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_dolg_21">
-		<text>Être en forme, c’est bien, mais je pense que savoir tirer, c’est mieux. Peu de mecs ont l’occasion de défoncer un Bloodsucker à mains nues.</text>
+		<text>Être en forme, c’est bien, mais je pense que savoir tirer, c’est mieux. Peu de mecs ont l’occasion de défoncer une Sangsue à mains nues.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_dolg_22">
 		<text>Putain, ces anarchistes ont buté un pote à moi la semaine dernière.</text>
@@ -9712,7 +9712,7 @@
 		<text>Les Sangliers sont des cibles faciles par derrière, mais ils peuvent te foncer dessus avant que t'aies le temps de bien viser.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_dolg_34">
-		<text>Quand il s'agit d'un Bloodsuckers, y'a rien de tel qu'un fusil à pompe semi-auto.</text>
+		<text>Quand il s'agit d'une Sangsues, y'a rien de tel qu'un fusil à pompe semi-auto.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_dolg_35">
 		<text>Un esprit sobre est un esprit en alerte.</text>
@@ -9764,7 +9764,7 @@
 		<text>J'ai entendu dire que le légendaire Coeur de l'Oasis artefact pouvait même nourrir son porteur. Un vrai miracle pour la science et la médecine.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_ecolog_11">
-		<text>Les anomalies à gaz sont rares, mais elles partagent des propriétés similaires à celles du Fruit Punch.</text>
+		<text>Les anomalies à gaz sont rares, mais elles partagent des propriétés similaires à celles du Champignon Visqueux.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_ecolog_12">
 		<text>Le Flammèche Brûlé est le type d'anomalie le moins dangereux. Pourtant, des stalkers crèvent à cause de lui parce qu'ils s'attendent pas à une anomalie au-dessus de leur tête.</text>
@@ -9774,7 +9774,7 @@
 	</string>
 	
 	<string id="st_dyn_news_companion_life_ecolog_14">
-		<text>Les organes mutent de façon tellement bizarre : les yeux du Flesh avec des récepteurs olfactifs, la force des tendons des Snorks, des propriétés régénératrices dans le coeur des Bloodsuckers... même les corbeaux montrent des changements incroyables.</text>
+		<text>Les organes mutent de façon tellement bizarre : les yeux du Croquemort avec des récepteurs olfactifs, la force des tendons des Snorks, des propriétés régénératrices dans le coeur des Sangsues... même les corbeaux montrent des changements incroyables.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_ecolog_15">
 		<text>Les artefacts de Kolobok sont ultra précieux pour la recherche médicale hors de la Zone. Ils sont connus pour soigner efficacement la dystrophie musculaire chronique.</text>
@@ -9807,7 +9807,7 @@
 		<text>Avant, je croyais que c'était que des histoires de feu de camp : les anomalies, les mutants, Monolithe... Maintenant, je sais que c'est bien réel.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_ecolog_25">
-		<text>J'ai entendu parler d'une anomalie « Faille » : apparemment, c'est une sorte de Brûleur géologique qui perce la surface de la Terre.</text>
+		<text>J'ai entendu parler d'une anomalie « Faille » : apparemment, c'est une sorte de Colonne de feu géologique qui perce la surface de la Terre.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_ecolog_26">
 		<text>Toute cette merde avec la Zone, c'est une honte : ça devrait être un site en quarantaine pour des tests scientifiques, pas un bordel sans loi.</text>
@@ -9944,7 +9944,7 @@
 		<text>Liberté de faire ce qu'on veut, c'est ça ? Alors pourquoi je me fais toujours donner des ordres ?</text>
 	</string>
 	<string id="st_dyn_news_companion_life_freedom_30">
-		<text>Ça fait une éternité que j'ai pas vu Hawaiian. Ce mec est vraiment cool.</text>
+		<text>Ça fait une éternité que j'ai pas vu L'hawaïen. Ce mec est vraiment cool.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_freedom_31">
 		<text>Quatre gars de plus perdus à la Barrière la semaine dernière... Ça va finir un jour, ce bordel ?</text>
@@ -10193,7 +10193,7 @@
 		<text>Je me demande ce qui se passe dans ma ville natale. Jamais cru que ça me manquerait.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_stalker_31">
-		<text>Tu préfères quoi ? Du lard bien gras ou des côtelettes de Sanglier ? Avant, je trouvais que Flesh avait un goût rance dégueu, mais ça commence à me plaire. Le Sanglier, c’est trop maigre - pas de gras.</text>
+		<text>Tu préfères quoi ? Du lard bien gras ou des côtelettes de Sanglier ? Avant, je trouvais que Croquemort avait un goût rance dégueu, mais ça commence à me plaire. Le Sanglier, c’est trop maigre - pas de gras.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_stalker_32">
 		<text>Y'en a qui disent que la vodka, ça chasse la radio... Moi je dis que t'es juste trop bourré pour t'en soucier.</text>
@@ -10365,7 +10365,7 @@
 		<text>Comment va ce vieux gros lard ces temps-ci... Toujours en train d'arnaquer le monde, j'imagine.</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l01_escape_5">
-		<text>Un Stalkers a repéré des Bloodsuckers près des tunnels, une fois. C'est pas safe, même ici.</text>
+		<text>Un Stalkers a repéré des Sangsues près des tunnels, une fois. C'est pas safe, même ici.</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l01_escape_6">
 		<text>Un jour tu vois les bandits squatter le Parking, le lendemain c'est au tour des Solitaires.</text>
@@ -10424,7 +10424,7 @@
 		<text>Devoir et les Bandits traînent dans le coin, mais personne s'aventure trop profond.</text>
 	</string>
 	<string id="st_dyn_news_companion_level_k02_trucks_cemetery_4">
-		<text>Éloigne-toi de la zone centrale, j'ai pas envie de finir en casse-croûte pour un Bloodsucker aujourd'hui.</text>
+		<text>Éloigne-toi de la zone centrale, j'ai pas envie de finir en casse-croûte pour une Sangsue aujourd'hui.</text>
 	</string>
 	<string id="st_dyn_news_companion_level_k02_trucks_cemetery_5">
 		<text>Ces chars et ces véhicules qui traînent sont sacrément radioactifs, mieux vaut avoir un bon masque à gaz.</text>
@@ -10682,7 +10682,7 @@
 		<text>C'est super tendu dans l'coin</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l10_limansk_15">
-		<text>J'ai entendu dire que des Bloodsuckers vivaient dans ces bâtiments.</text>
+		<text>J'ai entendu dire que des Sangsues vivaient dans ces bâtiments.</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l10_limansk_16">
 		<text>D'après ce que j'ai entendu, les fanatiques tiennent une série de points stratégiques. Crois-moi, cet endroit, c'est une forteresse.</text>
@@ -10808,7 +10808,7 @@
 
 
 	<string id="st_dyn_news_companion_level_l07_military_1">
-		<text>Je me demande s'il y a vraiment des Bloodsuckers dans ce village abandonné... Enfin, bon, oublie ce que j'ai dit.</text>
+		<text>Je me demande s'il y a vraiment des Sangsues dans ce village abandonné... Enfin, bon, oublie ce que j'ai dit.</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l07_military_2">
 		<text>Ces anarchos traînent dans le secteur, j'ai entendu dire qu'ils ont eu du mal à défendre la Barrière contre les forces de Monolithe, haha.</text>
@@ -10885,7 +10885,7 @@
 		<text>Certains des pires mutants traînent dans la zone centrale, j'ai entendu des histoires de ouf sur des stalkers qui crèvent ici...</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l06_rostok_6">
-		<text>Le tunnel qui mène à Yantar est truffé d'anomalies Brûleur et Comet, une vraie putain de fournaise !</text>
+		<text>Le tunnel qui mène à Yantar est truffé d'anomalies Colonne de feu et Comet, une vraie putain de fournaise !</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l06_rostok_7">
 		<text>Ouvre l'oeil sur les bagnoles autour, les Snorks se planquent souvent entre.</text>
@@ -11376,7 +11376,7 @@
 		<text>Tu crois aux histoires sur l'Oasis, toi ?</text>
 	</string>
 	<string id="st_dyn_news_companion_level_jupiter_9">
-		<text>Les tunnels ferroviaires sont connus pour être infestés de mutants flippants, surtout des groupes de Burers. Franchement, j'éviterais d'y mettre les pieds.</text>
+		<text>Les tunnels ferroviaires sont connus pour être infestés de mutants flippants, surtout des groupes de Domovoï. Franchement, j'éviterais d'y mettre les pieds.</text>
 	</string>
 	<string id="st_dyn_news_companion_level_jupiter_10">
 		<text>La tour de refroidissement offre une vue de malade. Paraît que t'entends des transmissions radio déformées et flippantes quand tu passes à côté.</text>
@@ -11385,7 +11385,7 @@
 		<text>Le village de Kopachy près de la tour de refroidissement grouille de zombies, sans parler du taux de radioactivité qui déconne grave.</text>
 	</string>
 	<string id="st_dyn_news_companion_level_jupiter_12">
-		<text>Un stalkers a trouvé une Âme artefacts dans l'Anomalie du Bain de Béton près de l'usine, je devrais aller vérifier aussi.</text>
+		<text>Un stalkers a trouvé un artefacts Coeur dans l'Anomalie du Bain de Béton près de l'usine, je devrais aller vérifier aussi.</text>
 	</string>
 	<string id="st_dyn_news_companion_level_jupiter_13">
 		<text>Tu vois les ateliers de la sous-station là-bas ? L'anomalie "Carrière" est en plein milieu, dans le marais. Tu finis en squelette en quelques secondes si tu tombes dedans.</text>

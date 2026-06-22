@@ -65,7 +65,7 @@
 
 	<!-- SIDOROVICH STORYLINE START GAME 1 END GAME 1 TEXT: -->
 	<string id="drx_sl_esc_m_trader_start_game_1_endgame_1">
-		<text>T'as fait un sacré nom par ici, stalker. Wolf dit que même les recrues chuchotent tes exploits autour du feu de camp - haha ! Merci pour ton aide, et essaie de pas crever bêtement, hein.</text>
+		<text>T'as fait un sacré nom par ici, stalker. Le Loup dit que même les recrues chuchotent tes exploits autour du feu de camp - haha ! Merci pour ton aide, et essaie de pas crever bêtement, hein.</text>
 	</string>
 
 
@@ -494,7 +494,7 @@
 		<text>J'ai pas envie de te raconter quoi que ce soit.</text>
 	</string>
 	<string id="dm_anomalies_1">
-		<text>T'as déjà vu un Brûleur ? Même en plein jour, c'est à peine une brume. Mais si t'y mets un pied, t'es grillé avant d'avoir fini de dire « j'aurais dû balancer un boulon ».</text>
+		<text>T'as déjà vu un Colonne de feu ? Même en plein jour, c'est à peine une brume. Mais si t'y mets un pied, t'es grillé avant d'avoir fini de dire « j'aurais dû balancer un boulon ».</text>
 	</string>
 	<string id="dm_anomalies_2">
 		<text>Les Comet sont pas toujours dans le ciel la nuit. L'autre jour, j'ai vu une putain de boule de feu géante qui cramait au-dessus d'une anomalie thermique - comme si les thermiques étaient pas déjà assez chiantes.</text>
@@ -509,7 +509,7 @@
 		<text>De la poussière et des feuilles qui tourbillonnent ? Peut-être pas le vent. Les Toupie, ce sont des anomalies gravitationnelles vicieuses, et si t'es pris dedans, ça va te faire tourner en rond... jusqu'à ce que la force te déchire.</text>
 	</string>
 	<string id="dm_anomalies_6">
-		<text>L'anomalie « Fruit Punch » est pas aussi bonne qu'elle en a l'air. Ça te crame la gueule si t'approches sans protection chimique, putain.</text>
+		<text>L'anomalie « Champignon Visqueux » est pas aussi bonne qu'elle en a l'air. Ça te crame la gueule si t'approches sans protection chimique, putain.</text>
 	</string>
 	<string id="dm_anomalies_7">
 		<text>Méfie-toi de la mousse et des lianes par ici, stalker. Les locaux appellent ça la "Toison Brûlée", et c'est pas pour rien - touche pas, sinon tu vas te faire perforer par des spores microscopiques.</text>
@@ -518,7 +518,7 @@
 		<text>Fais gaffe aux anomalies de Gaz vert qui flottent et traînent au sol. C'est acide, et si tu te balades dedans, ça va te bouffer les jambes.</text>
 	</string>
 	<string id="dm_anomalies_9">
-		<text>Ouvre l'oeil pour les anomalies de Nuage de Gaz. Si tu vois une boule d'acide volante qui zigzague, contourne-la ou passe en dessous, sinon tu finiras avec une gueule de flesh.</text>
+		<text>Ouvre l'oeil pour les anomalies de Nuage de Gaz. Si tu vois une boule d'acide volante qui zigzague, contourne-la ou passe en dessous, sinon tu finiras avec une gueule de Croquemort.</text>
 	</string>
 	<string id="dm_anomalies_10">
 		<text>Les Scientifiques disent que les anomalies électriques mettent du temps à se recharger après avoir pété. Si tu calcules bien ton coup, ça veut dire que tu peux traverser en toute sécurité après les avoir déclenchées avec ton boulon.</text>
@@ -536,7 +536,7 @@
 		<text>T'as les couilles pour la Forêt Rouge ? J'ai entendu dire que le champ d'anomalies "Symbionte" dans ce trou à rats est une vraie mine d'or pour les artefacts. Tu peux le repérer aux rochers déchiquetés et aux arbres tordus autour.</text> 
 	</string>
 	<string id="dm_anomalies_15">
-		<text>Tu sais, on a pas vraiment de tremblements de terre dans cette région. Et puis tu tombes sur les séquelles d’une anomalie « Faille »... une fissure géante dans le sol, remplie de Brûleur ou de champs de gravité bizarres. Flippant.</text>
+		<text>Tu sais, on a pas vraiment de tremblements de terre dans cette région. Et puis tu tombes sur les séquelles d’une anomalie « Faille »... une fissure géante dans le sol, remplie de Colonne de feu ou de champs de gravité bizarres. Flippant.</text>
 	</string>
 	<string id="dm_anomalies_16">
 		<text>J'ai pitié des abrutis qui se vantent des artefacts qu'ils trouvent sur le Réseau. Ils ont de la chance qu'un opportuniste vicieux ne les ait pas encore traqués pour leur butin.</text>
@@ -868,7 +868,7 @@
 		<text>Tu cherches des infos ? Ça fait trois ans que j'suis ici et j'sais même plus ce que je cherche. Tous mes potes sont sous une croix ou une autre, tout ça pour une putain d'aventure à la con. J'vais peut-être les rejoindre, tiens.</text>
 	</string>
 	<string id="dm_information_64">
-		<text>J’ai entendu dire que le Village des Bloodsuckers aux Entrepôts de l'armée est vide ces temps-ci. Bien sûr, avec les bloodsuckers dans le coin, impossible d’en être sûr avant qu’il ne soit trop tard... et j’ai tendance à pas croire tout ce qu’on me raconte.</text>
+		<text>J’ai entendu dire que le Village des Sangsues aux Entrepôts de l'armée est vide ces temps-ci. Bien sûr, avec les Sangsues dans le coin, impossible d’en être sûr avant qu’il ne soit trop tard... et j’ai tendance à pas croire tout ce qu’on me raconte.</text>
 	</string>
 	<string id="dm_information_65">
 		<text>Tout le monde est là pour une raison, mon pote. Prends-moi, par exemple : je suis là parce que mon grand-père n'a jamais été évacué après l'accident de 86. J'espère le retrouver un jour, ou au moins enterrer ses restes.</text>
@@ -944,7 +944,7 @@
 		<text>La Zone représente une menace unique pour l'Humanité, comme le monde n'en a jamais connu. On ne peut qu'espérer que plus de stalkers reconnaîtront la vérité et nous rejoindront avant qu'il ne soit trop tard. On ne peut qu'espérer...</text>
 	</string>
 	<string id="dm_information_89">
-		<text>J'en ai marre que les mecs de Liberté refilent de la came aux stalkers. Ils prennent des gars motivés, dévoués, et les transforment en feignasses qui trouvent que les bloodsuckers, c'est marrant.</text>
+		<text>J'en ai marre que les mecs de Liberté refilent de la came aux stalkers. Ils prennent des gars motivés, dévoués, et les transforment en feignasses qui trouvent que les Sangsues, c'est marrant.</text>
 	</string>
 	<string id="dm_information_90">
 		<text>Il est impératif de rappeler aux Stalkers de Liberté : même les Scientifiques comprennent pas encore totalement les artefacts, et les répandre sans enregistrement ni régulation, c’est comme semer des mines dormantes à travers le monde.</text>
@@ -1160,7 +1160,7 @@
 		<text>J'avais vraiment pas envie de venir ici. J'ai une femme, des gosses, une maison... Mais il s'avère que le gouvernement ukrainien n'a aucune utilité pour les physiciens théoriciens, à part les jeter dans la broyeuse. Bon, on verra bien ce que demain nous réserve.</text>
 	</string>
 	<string id="dm_information_156">
-		<text>Les scientifiques de l'extérieur sont prêts à tout pour obtenir ne serait-ce que les plus petits échantillons de la Zone. Ceux qui parviennent à être collectés, sécurisés et expédiés d'ici valent leur poids en or pour la communauté scientifique. Si tu savais combien se vend un misérable échantillon de flesh ces temps-ci...</text>
+		<text>Les scientifiques de l'extérieur sont prêts à tout pour obtenir ne serait-ce que les plus petits échantillons de la Zone. Ceux qui parviennent à être collectés, sécurisés et expédiés d'ici valent leur poids en or pour la communauté scientifique. Si tu savais combien se vend un misérable échantillon de Croquemort ces temps-ci...</text>
 	</string>
 	<string id="dm_information_157">
 		<text>Nos supérieurs à l'extérieur nous harcèlent sans arrêt sur la nature des Emissions - ils disent que certaines Zone s'étendent bien au-delà des limites de la Emissions et font des ravages chez les gardes-frontières. Certains d'entre nous pensent qu'une « super-surtension » comme celle de 2006 pourrait doubler la taille de la Emissions.</text>
@@ -1193,7 +1193,7 @@
 		<text>J'ai entendu dire que Monolithe prend de l'ampleur. Même si c'est pas notre problème direct, j'arrive pas à comprendre d'où ces fanatiques tirent toute leur force. Enfin, bon, c'est aux autres citoyens de la Zone de gérer ça.</text>
 	</string>
 	<string id="dm_information_167">
-		<text>Je commence à comprendre le point de vue de Devoir sur la Zone. J'ai vu tellement de souffrance et de malveillance que je n'arrive plus à y voir un simple écosystème un peu bizarre. Tu le sens, toi aussi. Va voir ce qui arrive quand un de tes potes plonge tête la première dans du Fruit Punch, et après viens me parler des merveilles de la Zone.</text>
+		<text>Je commence à comprendre le point de vue de Devoir sur la Zone. J'ai vu tellement de souffrance et de malveillance que je n'arrive plus à y voir un simple écosystème un peu bizarre. Tu le sens, toi aussi. Va voir ce qui arrive quand un de tes potes plonge tête la première dans du Champignon Visqueux, et après viens me parler des merveilles de la Zone.</text>
 	</string>
 	<string id="dm_information_168">
 		<text>On a remarqué les Chimères quand on est entrés dans la Zone pour la première fois, mais leur population a explosé après 2012. Ce sont des créatures remarquables, et sans doute que les instituts militaires sont très intéressés par l'étude de leur structure musculaire et de la composition de leur peau. Moi, personnellement, je préfère garder mes distances.</text>
@@ -1256,7 +1256,7 @@
 		<text>Mon enthousiasme pour les merveilles de la Zone a bien diminué depuis que je suis ici. Ce n'est pas à cause de la violence ou même de la nature profanée de cet endroit - non, je comprends que parfois, il faut arracher le bien des pires endroits. Ce qui me met en garde, c'est ça : chaque pouvoir que l'homme acquiert est un pouvoir qu'il exerce sur lui-même. Quand mes collègues paradent triomphalement avec une nouvelle source d'énergie ou une application technique, je ne peux m'empêcher d'imaginer les armes terrifiantes qu'on pourrait fabriquer avec ces trucs. Comment il suffit d'un seul homme pour lancer une bombe à neutrons alimentée par un artefact. Aucun artefact de la Zone, aucune merveille de la nature ne peut effacer la tendance de l'homme au mal.</text>
 	</string>
 	<string id="dm_information_188">
-		<text>J'étudie le comportement de la faune de la Zone, en particulier leurs capacités intellectuelles. Comme toujours ici, les résultats sont très inhabituels. Beaucoup des formes de vie ici semblent acquérir rapidement des capacités de compréhension et de résolution de problèmes. D'après mes observations préliminaires, le psy-chien semble être des magnitudes plus intelligent que n'importe quel autre canidé, voire n'importe quel autre mammifère à part nous. Une grande partie de mes recherches est plutôt compliquée par... l'origine obscure de beaucoup de mes sujets. Prends le bloodsucker, par exemple ; c'est difficile de déterminer s'il faut le considérer comme un animal intelligent ou un humain dégénéré.</text>
+		<text>J'étudie le comportement de la faune de la Zone, en particulier leurs capacités intellectuelles. Comme toujours ici, les résultats sont très inhabituels. Beaucoup des formes de vie ici semblent acquérir rapidement des capacités de compréhension et de résolution de problèmes. D'après mes observations préliminaires, le psy-chien semble être des magnitudes plus intelligent que n'importe quel autre canidé, voire n'importe quel autre mammifère à part nous. Une grande partie de mes recherches est plutôt compliquée par... l'origine obscure de beaucoup de mes sujets. Prends la Sangsue, par exemple ; c'est difficile de déterminer s'il faut le considérer comme un animal intelligent ou un humain dégénéré.</text>
 	</string>
 	<string id="dm_information_189">
 		<text>Depuis que l'armée s'est retirée, l'institut exige que tous les Scientifiques qui entrent dans la Zone sachent se servir d'une arme à feu. Oh, le pauvre Professeur Artemyev ! Il arrive pas à surmonter sa phobie des coups de feu, il a échoué à l'examen une demi-douzaine de fois. Il voulait tellement entrer dans la Zone... Je pense pas qu'il aurait survécu ici.</text>
@@ -1271,7 +1271,7 @@
 		<text>Liberté, c'est une bande de dégénérés débiles ; ils ont raison de voir de la valeur dans la Zone, mais ils valent pas mieux que des mômes qui sniffent de la peinture dans un coin. Leurs artefacts seraient bien plus sûrs et utiles avec nous.</text>
 	</string>
 	<string id="dm_information_193">
-		<text>Ces Solitaires, c'est un sacré mélange : certains sont super serviables quand on veut mener des expériences dangereuses, mais la plupart ne pensent qu'à eux. Pourtant, un Solitaire m'a sauvé d'une fin misérable en butant un bloodsucker qui m'avait pris par surprise, et ça, je l'oublierai jamais.</text>
+		<text>Ces Solitaires, c'est un sacré mélange : certains sont super serviables quand on veut mener des expériences dangereuses, mais la plupart ne pensent qu'à eux. Pourtant, un Solitaire m'a sauvé d'une fin misérable en butant un sangsue qui m'avait pris par surprise, et ça, je l'oublierai jamais.</text>
 	</string>
 	<string id="dm_information_194">
 		<text>Ces mecs de l'armée ont complètement merdé. Ils enchaînent les bourdes depuis qu'ils sont arrivés. Ils étaient censés nous protéger, mais ça fait un bail qu'ils le font plus de façon régulière.</text>
@@ -1444,7 +1444,7 @@
 		<text>C’est vrai que Sakharov utilise des cobayes humains pour tester les effets des artefacts ? J’imagine que c’est des conneries, mais j’aimerais bien savoir. En fait, y’a plein de rumeurs qui circulent sur lui chez Devoir.</text>
 	</string>
 	<string id="dm_information_250">
-		<text>Putain, y'a pas moyen de tous les buter - plus on en tue, plus ces tarés de mutants sortent de leurs trous. T'es un scientifique, toi, comment ils se reproduisent ? Bon, j'veux pas de schéma ou quoi, mais est-ce qu'ils continuent à venir des zones souterraines ? Je vois comment les flesh et les sangliers se reproduisent, mais les bloodsuckers ? Franchement, j'suis pas sûr de vouloir savoir.</text>
+		<text>Putain, y'a pas moyen de tous les buter - plus on en tue, plus ces tarés de mutants sortent de leurs trous. T'es un scientifique, toi, comment ils se reproduisent ? Bon, j'veux pas de schéma ou quoi, mais est-ce qu'ils continuent à venir des zones souterraines ? Je vois comment les Croquemort et les sangliers se reproduisent, mais les Sangsues ? Franchement, j'suis pas sûr de vouloir savoir.</text>
 	</string>
 	<string id="dm_information_251">
 		<text>Qu'est-ce que tu fous ici ? T'as pas intérêt à foutre la merde, hein ?</text>
@@ -1473,7 +1473,7 @@
 		<text>Tu sais, si on avait été plus réactifs quand la Zone a commencé à se former, on en serait pas là aujourd'hui. Si on avait verrouillé les frontières, tout ce qu'on ferait maintenant, ce serait de surveiller une clôture et de superviser des scientifiques du gouvernement. Au lieu de ça, on est comme une armée d'invasion en territoire hostile. On est dans la merde, mais ces stalkers, eux, semblent de plus en plus à l'aise ici.</text>
 	</string>
 	<string id="dm_information_259">
-		<text>Mon père était soldat en Afghanistan, et il y est mort - tué dans une embuscade de véhicule. Je pensais qu'il en avait bavé. Mais l'Afghanistan, c'est de la rigolade à côté de ce qui se passe ici. Toute une escouade dans la Vallée Obscure s'est fait décimer par des bloodsuckers, un par un, en pleine nuit. J'pense pas que mon père aurait pu imaginer un truc pareil.</text>
+		<text>Mon père était soldat en Afghanistan, et il y est mort - tué dans une embuscade de véhicule. Je pensais qu'il en avait bavé. Mais l'Afghanistan, c'est de la rigolade à côté de ce qui se passe ici. Toute une escouade dans la Vallée Obscure s'est fait décimer par des Sangsues, un par un, en pleine nuit. J'pense pas que mon père aurait pu imaginer un truc pareil.</text>
 	</string>
 	<string id="dm_information_260">
 		<text>L'une des seules choses qui rendent la vie ici supportable, c'est de voir nos hélicos en action. Mon escouade a repéré une grosse horde de ces pantins sans cervelle l'autre jour, et on a décidé de les signaler. En quelques minutes, le bruit des rotors a retenti à l'horizon, des roquettes ont fendu l'air et le canon a tiré - c'était magnifique ! Ça a nettoyé les zombies en un rien de temps.</text>
@@ -1515,7 +1515,7 @@
 		<text>J'étais dans une escouade avec un caporal y'a quelques années ; ce gars était un vrai fils de pute, plus pourri que n'importe quel bandit que j'ai pu croiser. Je me souviens qu'on était en patrouille dans la Vallée Obscure quand soudain, on s'est fait tirer dessus par un mec, de façon vraiment erratique et inefficace. On l'a chopé, et c'était juste une petite recrue, fraîchement débarquée du Cordon avec quelques babioles sans valeur dans son sac ; il nous avait repérés et avait paniqué, tirant avec son pistolet en essayant de se barrer. Bref, ce caporal s'était pris une balle, ça l'avait à peine éraflé. Et voilà ce qu'il a fait : quand on est rentrés à la base près de X-18, le capitaine voulait voir le prisonnier qu'on avait capturé, mais on l'a pas trouvé, on a juste supposé qu'il avait vu une occasion et qu'il s'était tiré. Quelques jours plus tard, quelqu'un a demandé au caporal ce qui s'était passé et il a répondu, très calmement, qu'il avait balancé la recrue dans le labo et verrouillé la porte. On a retrouvé son cadavre, accroché à la poignée avec une expression de terreur absolue sur le visage...</text>
 	</string>
 	<string id="dm_information_273">
-		<text>Faut quelqu'un pour surveiller tes arrières là-bas. T'as dû voir les cadavres : étalés par terre, la peau toute pâle et grise, des marques dégueulasses dans la nuque. C'est comme ça que j'ai retrouvé mon pote après notre arrivée dans Zone : j'ai rien vu dans le noir, juste entendu ce bruit de bave, puis deux yeux qui m'ont regardé. bloodsuckers. On sait jamais quand ils sont dans le coin.</text>
+		<text>Faut quelqu'un pour surveiller tes arrières là-bas. T'as dû voir les cadavres : étalés par terre, la peau toute pâle et grise, des marques dégueulasses dans la nuque. C'est comme ça que j'ai retrouvé mon pote après notre arrivée dans Zone : j'ai rien vu dans le noir, juste entendu ce bruit de bave, puis deux yeux qui m'ont regardé. sangsues. On sait jamais quand ils sont dans le coin.</text>
 	</string>
 	<string id="dm_information_274">
 		<text>Pripyat : la ville du silence, la ville des cimetières. Chaque fois qu'on y va, la Zone nous recrache. J'espère juste qu'on a retenu la leçon : on n'est pas censés être là.</text>
@@ -1655,7 +1655,7 @@
 		<text>J'avais des potes qui sont partis avec ce Mercenaire à la centrale. Moi, j'aurais vraiment voulu y aller, mais je me remettais d'une morsure infectée, alors ils m'ont fait rester. Ensuite, ils sont tous morts. Je suis resté un moment à Skadovsk jusqu'à ce que Nimble me dise que Firmament était pas mort. On va plus faire confiance à des faiseurs de miracles comme Scar.</text>
 	</string>
 	<string id="dm_information_319">
-		<text>Je sais que l'un des tests du Professeur Kalancha a déterminé que l'ADN de flesh est un mélange de plusieurs espèces différentes. Avant que tu demandes, oui : y'a un peu d'humain là-dedans, d'une manière ou d'une autre. Ils m'ont toujours filé les jetons, ces trucs.</text>
+		<text>Je sais que l'un des tests du Professeur Kalancha a déterminé que l'ADN de Croquemort est un mélange de plusieurs espèces différentes. Avant que tu demandes, oui : y'a un peu d'humain là-dedans, d'une manière ou d'une autre. Ils m'ont toujours filé les jetons, ces trucs.</text>
 	</string>
 	<string id="dm_information_320">
 		<text>T'entends toutes sortes de trucs flippants à la radio. Déjà, je sais qu'y'a quelqu'un dans Zone qui utilise une station à chiffres - probablement l'armée. En plus de ça, j'ai déjà entendu les radios civiles de Pripyat pendant la catastrophe nucléaire ! C'est comme si quelque chose dans Zone stockait ces signaux et les faisait rebondir de temps en temps. Tu devrais parler à Novikov, il en a entendu plus que moi.</text>
@@ -1667,7 +1667,7 @@
 		<text>Je pense que notre plus grand atout, c'est pas nos armes ou nos bastions, mais la base de données qu'on a construite pendant plus de dix ans. Je doute pas que le secret pour contenir Zone, les blowouts, le Monolithe - tout ça - se trouve dans les recherches qu'on a accumulées. Même si la faction disparaît, j'espère que quelqu'un de sage mettra la main sur notre travail.</text>
 	</string>
 	<string id="dm_information_323">
-		<text>Le camouflage optique des bloodsuckers reste une énigme et un objectif sacrément tentant pour nos bio-ingénieurs. Mais pour l'instant, j'vois pas des stalkers invisibles semer la pagaille dans la Zone. Récupérer des échantillons biologiques, c'est déjà assez galère ; en général, quand un vrai vampire nous tombe dessus, on pense pas vraiment à les préserver.</text>
+		<text>Le camouflage optique des Sangsues reste une énigme et un objectif sacrément tentant pour nos bio-ingénieurs. Mais pour l'instant, j'vois pas des stalkers invisibles semer la pagaille dans la Zone. Récupérer des échantillons biologiques, c'est déjà assez galère ; en général, quand un vrai vampire nous tombe dessus, on pense pas vraiment à les préserver.</text>
 	</string>
 	<string id="dm_information_324">
 		<text>La vie avec Firmament, c'est comme dans Néhémie : une pelle dans une main et une épée dans l'autre. Enfin, ici, ce serait... un détecteur dans une main et un flingue dans l'autre.</text>
@@ -1765,10 +1765,10 @@
 		<text>Le meilleur avec Liberté, c'est qu'on est tous frères ici. Pas de pâle imitation des brutes de l'armée : pas de « Oui chef, non chef » à la con. Non, on se protège mutuellement parce qu'on en a quelque chose à faire, pas parce qu'un connard prétentieux nous l'ordonne.</text>
 	</string>
 	<string id="dm_information_355">
-		<text>Ouais, je connais toutes les vannes, mais fais pas le malin avec les bloodsuckers. Plus d'un ou deux rookies trop sûrs d'eux ont disparu dans le village abandonné et on les a jamais revus. Enfin, jamais revus en un seul morceau.</text>
+		<text>Ouais, je connais toutes les vannes, mais fais pas le malin avec les Sangsues. Plus d'un ou deux rookies trop sûrs d'eux ont disparu dans le village abandonné et on les a jamais revus. Enfin, jamais revus en un seul morceau.</text>
 	</string>
 	<string id="dm_information_356">
-		<text>J'aime bien voir les Entrepôts comme le petit coeur joyeux de la Zone. Devoir monte depuis Rostok, les Mercs débarquent de Ville morte, les cinglés descendent de Radar, les bloodsuckers rôdent à l'ouest, les visiteurs viennent de Forêt Rouge au nord, et nous, on est au sud. Le centre, tu peux imaginer, c'est un sacré bordel.</text>
+		<text>J'aime bien voir les Entrepôts comme le petit coeur joyeux de la Zone. Devoir monte depuis Rostok, les Mercs débarquent de Ville morte, les cinglés descendent de Radar, les Sangsues rôdent à l'ouest, les visiteurs viennent de Forêt Rouge au nord, et nous, on est au sud. Le centre, tu peux imaginer, c'est un sacré bordel.</text>
 	</string>
 	<string id="dm_information_357">
 		<text>Les fascistes sont peut-être sur la défensive, mais ne les sous-estime pas encore. Ils ont encore assez de rage frustrée pour emmerder tout le monde.</text>
@@ -1819,7 +1819,7 @@
 		<text>Je pense qu’une hiérarchie stricte étouffe le potentiel créatif d’une personne. Non seulement il devient un rouage humiliant dans une machine, mais en plus, je crois qu’il perd aussi cette capacité. La calcification mène à une faible efficacité. Enfin, c’est un peu ce que Loki m’a expliqué. C’est un homme perspicace.</text>
 	</string>
 	<string id="dm_information_373">
-		<text>Mais d'où ils sortent, ces lurkers ? Un jour, tout le monde en parle comme s'ils avaient toujours été là. Ça montre juste que les coins pourris de la Zone nous réservent toujours des surprises. Je tiens aussi à préciser que les Entrepôts ont vraiment pas besoin de nouveaux invités, surtout pas ceux qui s'en prennent aux flesh humains.</text>
+		<text>Mais d'où ils sortent, ces Rôdeurs ? Un jour, tout le monde en parle comme s'ils avaient toujours été là. Ça montre juste que les coins pourris de la Zone nous réservent toujours des surprises. Je tiens aussi à préciser que les Entrepôts ont vraiment pas besoin de nouveaux invités, surtout pas ceux qui s'en prennent aux Croquemort humains.</text>
 	</string>
 	<string id="dm_information_374">
 		<text>J'doute pas qu'il existe des endroits plus flippants, mais je pense que le plus angoissant, c'est la Barrière. T'es là, à attendre, à scruter par-dessus les crânes empalés et les épaves en feu, à te demander ce qui va débarquer sur cette route, à te demander si quelque chose va apparaître. Un de ces jours, quelque chose d'inarrêtable va être vomi par ce col, et ce sera la fin pour nous.</text>
@@ -1840,7 +1840,7 @@
 		<text>Mec, ça fait des semaines que j'ai une espèce d'éruption cutanée qui brûle. J'évite un peu Solid parce que... bon, y a pas de médecins légistes dans la Zone. Peut-être que c'est une bénédiction, après tout.</text>
 	</string>
 	<string id="dm_information_380">
-		<text>Y'avait un vrai taré chez Liberté qui est parti y'a quelques mois, tu le connaissais ? Bon, j'me souviens plus de son nom, mais c'était quelque chose de bizarre, même pour la Zone. Ce mec croyait dur comme fer qu'il était la réincarnation de Lénine et il parlait comme ça. C'était pas juste un marxiste excité, ce gars avait des problèmes. Il voulait une réforme économique dans la Zone, tout ça, c'était bien beau chez Liberté, mais... il considérait les mutants comme la classe opprimée et tous les stalkers comme des exploiteurs. Ouais. Pourtant, je l'ai vu buter un bloodsucker de mes propres yeux et je crois qu'il appelait ça un "traître de classe" pendant qu'il le faisait. Ouais, ce gars était complètement cinglé. Mais bon, on l'aimait bien ici, c'était un peu le fou du village. Un jour, il est sorti de la base et il est jamais revenu. Liberté est un peu plus triste depuis.</text>
+		<text>Y'avait un vrai taré chez Liberté qui est parti y'a quelques mois, tu le connaissais ? Bon, j'me souviens plus de son nom, mais c'était quelque chose de bizarre, même pour la Zone. Ce mec croyait dur comme fer qu'il était la réincarnation de Lénine et il parlait comme ça. C'était pas juste un marxiste excité, ce gars avait des problèmes. Il voulait une réforme économique dans la Zone, tout ça, c'était bien beau chez Liberté, mais... il considérait les mutants comme la classe opprimée et tous les stalkers comme des exploiteurs. Ouais. Pourtant, je l'ai vu buter un sangsue de mes propres yeux et je crois qu'il appelait ça un "traître de classe" pendant qu'il le faisait. Ouais, ce gars était complètement cinglé. Mais bon, on l'aimait bien ici, c'était un peu le fou du village. Un jour, il est sorti de la base et il est jamais revenu. Liberté est un peu plus triste depuis.</text>
 	</string>
 	<string id="dm_information_381">
 		<text>C'est un peu ironique, non ? Nous, qui on parle toujours d'une Zone ouverte, on est chargés de garder la Barrière. Bon, moi je râle pas, mais l'ironie, elle est sacrément forte dans la Zone.</text>
@@ -1873,7 +1873,7 @@
 		<text>Hé, mon gars ! Passe nous voir aux Entrepôts ou sur Jupiter. On va bien s'éclater !</text>
 	</string>
 	<string id="dm_information_391">
-		<text>Hé frangin, tu connais Hawaiian ? Il m'a dit de demander aux Stalkers libres si tu savais quelque chose sur un certain Degtyarev. Ouais, j'y pige que dalle. Je lui ai dit que je lui rendrais service.</text>
+		<text>Hé frangin, tu connais L'hawaïen ? Il m'a dit de demander aux Stalkers libres si tu savais quelque chose sur un certain Degtyarev. Ouais, j'y pige que dalle. Je lui ai dit que je lui rendrais service.</text>
 	</string>
 	<string id="dm_information_392">
 		<text>Mais qu'est-ce que vous trouvez tous au Cimetière de véhicules, les gars ? Un bon spot pour observer les oiseaux ? Les seuls volatiles que je vois, c'est des corbeaux de merde et l'hélico de l'armée de temps en temps.</text>
@@ -1923,13 +1923,13 @@
 		<text>Y'a une sorte de no man's land à Limansk où on peut regarder de l'autre côté du terrain ravagé vers le territoire de l'ennemi, le Monolithe. C'est toujours un peu flippant là-bas, et silencieux ; enfin, silencieux jusqu'à ce que ça chauffe. Je peux te dire pourquoi on les appelle le Monolithe : c'est parce qu'ils agissent comme un seul être, toujours. C'est le « mono » de la partie. Ils s'arrêteront pas de venir jusqu'à ce que tu mettes fin à leurs vies, ils s'en foutent - tant qu'ils ont une fonction motrice, ils essaieront de te mettre une balle dans le crâne. C'est le « lithe » de la partie. Ils ignorent tout - la douleur, le froid, l'obscurité, le nombre - ils continuent comme une machine infaillible, immuable comme un rocher.</text> 
 	</string>
 	<string id="dm_information_407">
-		<text>Le nord de la Zone a faim. Pripyat, la centrale, le Radar - ils réclament tous leur pitance. Leur plat préféré, c'est la flesh des expéditions militaires bien financées, mais ils ne font pas les difficiles. Les Solitaires en quête de merveilles inconnues, les sous-humains bandits qui veulent les détrousser, les différentes factions avec leurs petits objectifs minables - tout ça, c'est de la viande pour le ventre affamé de la Zone. T'as dû remarquer que peu de stalkers qui montent là-haut en reviennent. À toi de voir, t'es assez désespéré ?</text>
+		<text>Le nord de la Zone a faim. Pripyat, la centrale, le Radar - ils réclament tous leur pitance. Leur plat préféré, c'est la Croquemort des expéditions militaires bien financées, mais ils ne font pas les difficiles. Les Solitaires en quête de merveilles inconnues, les sous-humains bandits qui veulent les détrousser, les différentes factions avec leurs petits objectifs minables - tout ça, c'est de la viande pour le ventre affamé de la Zone. T'as dû remarquer que peu de stalkers qui montent là-haut en reviennent. À toi de voir, t'es assez désespéré ?</text>
 	</string>
 	<string id="dm_information_408">
-		<text>Les Entrepôts de l'armée, c'est un bon plan si t'aimes les zones de guerre. C'est aussi notre arrière-cour, alors on doit avoir une garde frontalière pour empêcher les racailles d'entrer ; heureusement, on est surtout bloqués par le village des Bloodsuckers et la plupart des stalkers chient dans leur froc rien qu'à en parler. Parfois, on a l'impression d'être les seuls adultes dans la cour de récré.</text>
+		<text>Les Entrepôts de l'armée, c'est un bon plan si t'aimes les zones de guerre. C'est aussi notre arrière-cour, alors on doit avoir une garde frontalière pour empêcher les racailles d'entrer ; heureusement, on est surtout bloqués par le village des Sangsues et la plupart des stalkers chient dans leur froc rien qu'à en parler. Parfois, on a l'impression d'être les seuls adultes dans la cour de récré.</text>
 	</string>
 	<string id="dm_information_409">
-		<text>J'en sais rien. On dirait que quelqu'un a laissé une porte ouverte dans un de ces labos souterrains, parce que des tarés déferlent dans la Zone comme jamais. J'en ai vu un de ces trucs qu'ils appellent Burers, du côté de Jupiter. Des petites saloperies vicieuses et dangereuses, et ils ont des tours dans leur sac, alors prends-les pas à la légère. Ils utilisent ta propre force contre toi, et quand t'es à terre avec ton matos en miettes - là, ils se rapprochent pour t'arracher la gorge avec leurs dents.</text>
+		<text>J'en sais rien. On dirait que quelqu'un a laissé une porte ouverte dans un de ces labos souterrains, parce que des tarés déferlent dans la Zone comme jamais. J'en ai vu un de ces trucs qu'ils appellent Domovoï, du côté de Jupiter. Des petites saloperies vicieuses et dangereuses, et ils ont des tours dans leur sac, alors prends-les pas à la légère. Ils utilisent ta propre force contre toi, et quand t'es à terre avec ton matos en miettes - là, ils se rapprochent pour t'arracher la gorge avec leurs dents.</text>
 	</string>
 	<string id="dm_information_410">
 		<text>Une fois, on a eu un boulot, sous-traité par quelques cerveaux de Yantar, tout simple : il fallait juste descendre dans les Souterrains d'agroprom et choper des documents dans un coffre. Rien de compliqué : les tunnels étaient calmes, on avait couvert nos arrières sous tous les angles, et le coffre était même déjà ouvert. On a laissé ce Biélorusse, Voron, dans la pièce extérieure pendant qu'on allait dans la pièce intérieure où se trouvaient les documents. En cinq minutes, on avait trouvé ce qu'il nous fallait et on est revenus pour découvrir que Voron avait disparu ; aucune trace, aucun indice, rien. Il était à trois mètres de nous de l'autre côté d'un mur, et on n'a rien entendu ni vu. Il s'est volatilisé - ou, à mon avis, il s'est fait embarquer. Quand la Zone est silencieuse, c'est là qu'il faut commencer à flipper.</text>
@@ -2114,7 +2114,7 @@
 		<text>Les Marais, c'est l'enfer, mec. Tu sais combien de mecs y entrent et n'en ressortent jamais ? Sans parler de la guerre qui dure depuis des années et des années. C'est comme une baston au couteau dans les égouts.</text>
 	</string>
 	<string id="dm_information_470">
-		<text>Olivius était le meilleur chien de la Vallée Obscure, mais quand Sultan a débarqué et lui a botté le cul hors de Zaton, on a cru qu'il allait y avoir une baston. Heureusement, Limpid est intervenu et a négocié un deal. Mais, entre nous, c'est clair pour tout le monde que Sultan fait à peu près ce qu'il veut maintenant. Olivius est pas franchement ravi.</text>
+		<text>Olivius était le meilleur chien de la Vallée Obscure, mais quand Sultan a débarqué et lui a botté le cul hors de Zaton, on a cru qu'il allait y avoir une baston. Heureusement, Limpide est intervenu et a négocié un deal. Mais, entre nous, c'est clair pour tout le monde que Sultan fait à peu près ce qu'il veut maintenant. Olivius est pas franchement ravi.</text>
 	</string>
 	<string id="dm_information_471">
 		<text>Quoi, tu crois que je te dois quelque chose parce qu'on porte le même écusson ? Tu crois qu'on est potes ? Je t'échangerais contre une issue de secours en deux secondes. Quand les balles commencent à siffler, c'est chacun pour sa gueule, alors oublie les cadeaux.</text>
@@ -2185,7 +2185,7 @@
 		<text>Y'a rien de plus beau qu'un explosif bien placé qui pète juste sous le nez d'un porc militaire. La colonne de feu qui monte vers le ciel... c'est comme un coucher de soleil. Puis vient le silence. Parfois, c'est le silence que je préfère. Un connard de moins dans la Zone.</text>
 	</string>	
 	<string id="dm_information_493">
-		<text>Avant, je croyais qu'on était les plus durs de la Zone. Mais y'a ce bloodsucker... Il est pas comme les autres. Il laisse pas juste des cadavres vidés de leur sang, non, il les découpe en motifs. Comme s'il écrivait dans une autre langue : « Il est en Enfer, et toi, t'es le prochain. » Moi, à ta place, je dormirais pas. Reste éveillé.</text>
+		<text>Avant, je croyais qu'on était les plus durs de la Zone. Mais y'a ce sangsue... Il est pas comme les autres. Il laisse pas juste des cadavres vidés de leur sang, non, il les découpe en motifs. Comme s'il écrivait dans une autre langue : « Il est en Enfer, et toi, t'es le prochain. » Moi, à ta place, je dormirais pas. Reste éveillé.</text>
 	</string>	
 	<string id="dm_information_494">
 		<text>Un jour, le nom de Monolithe ne fera plus trembler et courber l'échine les gens. Un jour, ce sera nous. On sera ceux dont les autres auront peur, on sera ceux qui fondront sur vous et prendront vos vies. Attends un peu, on va buter tout ce putain d'endroit. Ça deviendra un cimetière encore plus grand qu'aujourd'hui, et on sera les rois.</text>
@@ -2211,7 +2211,7 @@
 		<text>La première génération des grands stalkers est morte et enterrée, même si j'entends encore des trucs sur Strelok de temps en temps. C'est toujours la même histoire avec ces nouveaux gamins : plus de matos qui brille et moins de jugeote. Tu sais, Guide a réussi à atteindre le centre de la Zone avec rien d'autre que son propre talent. Pas le genre de truc qu'on voit de nos jours.</text>
 	</string>
 	<string id="dm_information_501">
-		<text>Ah, c'est facile de planifier ses expéditions dans sa tête, où tu vas et ce que tu vas y trouver. Mais quand t'es sur place, c'est la Zone qui commande, alors faut être prêt à danser sur son air. Peut-être que ton chemin est bloqué par une énorme horde de flesh, ou peut-être que la porte sur laquelle tu comptais est complètement bouchée maintenant. Le pire qui me soit arrivé, c'est une sorte d'anomalie de chaleur qui s'est matérialisée juste au-dessus de ma tête ! J'étais là, la gueule dans la terre, avec le dos qui pelait. J'ai réussi à rouler en bas de la colline et à me traîner jusqu'à un groupe qui passait. Ça a failli mal tourner.</text>
+		<text>Ah, c'est facile de planifier ses expéditions dans sa tête, où tu vas et ce que tu vas y trouver. Mais quand t'es sur place, c'est la Zone qui commande, alors faut être prêt à danser sur son air. Peut-être que ton chemin est bloqué par une énorme horde de Croquemort, ou peut-être que la porte sur laquelle tu comptais est complètement bouchée maintenant. Le pire qui me soit arrivé, c'est une sorte d'anomalie de chaleur qui s'est matérialisée juste au-dessus de ma tête ! J'étais là, la gueule dans la terre, avec le dos qui pelait. J'ai réussi à rouler en bas de la colline et à me traîner jusqu'à un groupe qui passait. Ça a failli mal tourner.</text>
 	</string>
 	<string id="dm_information_502">
 		<text>Tu crois avoir tout vu de la Zone, mais t'as rien vu tant que t'es pas tombé sur les trous les plus sombres et les plus profonds où une abomination inhumaine peut se faufiler. Moi, j'ai vécu un truc une fois. Très profond dans la Zone, je passais près d'une plaque d'égout quand j'crois entendre une voix, alors je me dis que peut-être quelqu'un est coincé en dessous. Je pousse la plaque et je regarde dans le noir total, et j'entends cette voix qui essaie de me faire descendre. D'abord, elle fait semblant d'avoir besoin d'aide, puis elle commence à me promettre des richesses. Là, je suis convaincu que c'est même pas humain, ça parle pas comme les gens. J'ai une envie à moitié folle de faire ce qu'elle dit, mais je me tire à la place et je me casse de là en courant. J'aurais dû balancer une grenade là-dedans, mais j'arrivais plus à penser à autre chose qu'à me barrer.</text>
@@ -2388,7 +2388,7 @@
 		<text>Les gens veulent rien avoir à faire avec toi, sauf s'ils pensent pouvoir en tirer quelque chose. Un outil pratique, point. Tu vois, j'ai plus rien à dire là-dessus.</text>
 	</string>
 	<string id="dm_information_560">
-		<text>La Zone est un monde à part, y'a toutes sortes de gens ici. Je traînais avec un gros groupe dans le tunnel de train à Agroprom quand on s'est fait attaquer par des bloodsuckers pendant la nuit. On a balancé une tonne de plomb dans le tunnel et ils ont abandonné, mais un de nos gars, juste un gamin en fait, saignait par terre, une énorme entaille en travers du torse - il allait pas s'en sortir. Tout à coup, un autre stalker qui se battait à mes côtés s'est approché du gamin par terre et a commencé à lui donner les derniers sacrements - c'était un prêtre ! Ce gamin aurait jamais dû être dans la Zone, mais d'une certaine façon, ce geste a rendu toute la situation plus supportable, plus humaine.</text>
+		<text>La Zone est un monde à part, y'a toutes sortes de gens ici. Je traînais avec un gros groupe dans le tunnel de train à Agroprom quand on s'est fait attaquer par des Sangsues pendant la nuit. On a balancé une tonne de plomb dans le tunnel et ils ont abandonné, mais un de nos gars, juste un gamin en fait, saignait par terre, une énorme entaille en travers du torse - il allait pas s'en sortir. Tout à coup, un autre stalker qui se battait à mes côtés s'est approché du gamin par terre et a commencé à lui donner les derniers sacrements - c'était un prêtre ! Ce gamin aurait jamais dû être dans la Zone, mais d'une certaine façon, ce geste a rendu toute la situation plus supportable, plus humaine.</text>
 	</string>
 	<string id="dm_information_561">
 		<text>Un gars m'a raconté un jour qu'un artefact lui avait parlé. Après avoir bien rigolé, il m'a dit que l'artefact avait commencé à le manipuler pour qu'il fasse des trucs ; il voulait pas être vendu, il voulait rester. Il a fini par le balancer dans un trou, il pensait que ça bouffait sa force vitale ou un truc du genre. Je lui ai dit d'arrêter l'acide.</text>
@@ -2436,13 +2436,13 @@
 		<text>Le Skadovsk est l'un des rares endroits dans la Zone où je peux me détendre. Barbu nous surveille et nous donne du boulot rentable. Par contre, je regrette le bon vieux temps où le Monolithe restait bien planqué dans Pripyat - Zaton, c'est devenu un quartier dangereux maintenant.</text>
 	</string>
 	<string id="dm_information_576">
-		<text>Sans Wolf et Fanatic, le Village des Recrues aurait disparu depuis longtemps. Ces gars-là, ce sont les vrais héros de la Zone : ils donnent une chance aux nouveaux. Ils sont pas obligés, tu sais. Ce que je me demande, c'est comment ils supportent les conneries de Sidorovich.</text>
+		<text>Sans Le Loup et Fanatique, le Village des Recrues aurait disparu depuis longtemps. Ces gars-là, ce sont les vrais héros de la Zone : ils donnent une chance aux nouveaux. Ils sont pas obligés, tu sais. Ce que je me demande, c'est comment ils supportent les conneries de Sidorovich.</text>
 	</string>
 	<string id="dm_information_577">
 		<text>La ferme nord du Cordon sert un peu d'avant-poste pour le Village des Recrues, mais y'a des tensions entre Sidorovich et Loris. Évidemment, Sidorovich supporte mal la concurrence sur son territoire, mais il trouve aussi utile d'avoir un partenaire commercial au nord du pont. Loris, de son côté, est essentiel pour les stalkers de Firmament qui traversent vers le nord.</text>
 	</string>
 	<string id="dm_information_578">
-		<text>Après Trapper, le Boucher de la Gare est le meilleur chasseur de mutants de la Zone. J'ai entendu dire que la Décharge était complètement envahie par les mutants avant qu'il débarque et les bute tous seul.</text>
+		<text>Après Trapper, Le Boucher de la Gare est le meilleur chasseur de mutants de la Zone. J'ai entendu dire que la Décharge était complètement envahie par les mutants avant qu'il débarque et les bute tous seul.</text>
 	</string>
 	<string id="dm_information_579">
 		<text>Ces stalkers du Marché aux Puces forment presque une petite faction à eux seuls - ils ont toujours été secrets et indépendants. Apparemment, ils ont un avant-poste là-bas depuis des années, à vendre des merdes de la Décharge pour gagner leur croûte. Moi, je leur fais pas confiance.</text>
@@ -2472,7 +2472,7 @@
 		<text>Les guides, c'est une race à part. Des génies discrets, des artistes qui te font traverser tout ce que la Zone a à offrir sans te faire repérer ni attaquer. Mais tu ferais mieux de faire exactement ce qu'ils disent quand t'es en pleine nature ; ils te laisseront crever si t'es assez con pour ignorer leurs ordres.</text>
 	</string>
 	<string id="dm_information_588">
-		<text>Owl, c'est le marchand de matos à Skadovsk, mais beaucoup de stalkers sont mal à l'aise avec lui. Certains disent qu'il travaillait en secret pour les Bandits, qu'il attendait juste qu'ils prennent le dessus à Zaton pour se montrer au grand jour. Mais ça n'est jamais arrivé. Il a l'air d'être devenu, à contrecoeur, un vrai Stalker de Liberté, mais certains disent qu'il se fournit encore chez les Bandits à Yanov.</text>
+		<text>Le Hibou, c'est le marchand de matos à Skadovsk, mais beaucoup de stalkers sont mal à l'aise avec lui. Certains disent qu'il travaillait en secret pour les Bandits, qu'il attendait juste qu'ils prennent le dessus à Zaton pour se montrer au grand jour. Mais ça n'est jamais arrivé. Il a l'air d'être devenu, à contrecoeur, un vrai Stalker de Liberté, mais certains disent qu'il se fournit encore chez les Bandits à Yanov.</text>
 	</string>
 	<string id="dm_information_589">
 		<text>Le Trapper en connaît plus sur les mutants que quiconque. Il a chassé et tué toutes sortes de gibier qu'on peut trouver dans la Zone, à part la centrale elle-même. Il a un don incroyable pour savoir où être et quoi faire ; seul un homme avec une intuition surhumaine aurait pu survivre aussi longtemps. Malheureusement, il a raccroché - il a vu trop de bons amis mourir de manière atroce. Maintenant, il se contente de conseiller les stalkers de la station Yanov sur la chasse aux mutants.</text>
@@ -2558,7 +2558,7 @@
 		<text>Avoir un sixième sens, ça aide dans Zone, des fois c'est la seule aide que t'as. Un jour, je marchais tranquillement quand j'ai senti que quelque chose clochait. J'ai suivi mon instinct et je me suis perché sur une branche - juste à temps ! Une meute de chiens aveugles a déboulé juste après - y'en avait bien une trentaine ! Deux leçons : fais confiance à ton instinct et mets un truc haut entre toi et ces clébards.</text>
 	</string>
 	<string id="dm_information_616">
-		<text>Plus on apprend à contrôler la Zone, plus elle apprend à se libérer. Les Bloodsuckers, c'est déjà l'enfer, mais ces nouvelles monstruosités ? J'ai entendu parler de psysuckers, mais la plupart préfèrent carrément éviter d'en parler. Même au milieu du camp, t'as pas l'impression d'être en sécurité.</text>
+		<text>Plus on apprend à contrôler la Zone, plus elle apprend à se libérer. Les Sangsues, c'est déjà l'enfer, mais ces nouvelles monstruosités ? J'ai entendu parler de psysuckers, mais la plupart préfèrent carrément éviter d'en parler. Même au milieu du camp, t'as pas l'impression d'être en sécurité.</text>
 	</string>
 	<string id="dm_information_617">
 		<text>Si tu vois une énorme masse qui rampe au loin, casse-toi avant qu'elle te repère. Ceux qui sous-estiment les pseudogiants disparaissent à jamais. Tu te dis que tu peux les semer, pas vrai ? Puis tu réalises qu'ils peuvent ramper sans fin et qu'ils lâcheront pas une fois qu'ils t'ont repéré. Ils t'épuiseront et te déchireront en morceaux.</text>
@@ -2567,10 +2567,10 @@
 		<text>Mais d'où ils sortent, ces cadavres ambulants ? Je parle pas de nos pauvres potes stalkers, on sait d'où ils viennent. Non, je parle de ceux que les vieux scientifiques ont amenés ici pour leurs expériences. Ça te fait vraiment réfléchir à l'ampleur des tests menés dans les labos.</text>
 	</string>
 	<string id="dm_information_619">
-		<text>Le flesh est un exemple extrême de ce que la Zone peut infliger à la vie biologique. Pourtant, je pense qu'ils pourraient bien représenter l'étape suivante de l'échelle évolutive. Regarde à quelle vitesse ils ont développé des adaptations efficaces à leur environnement. Tu te rends compte que la combinaison des organes sensoriels, des qualités protectrices et du comportement de résolution de problèmes du flesh est inégalée dans le monde naturel ? Peut-être que je devrais arrêter d'y réfléchir.</text>
+		<text>Le Croquemort est un exemple extrême de ce que la Zone peut infliger à la vie biologique. Pourtant, je pense qu'ils pourraient bien représenter l'étape suivante de l'échelle évolutive. Regarde à quelle vitesse ils ont développé des adaptations efficaces à leur environnement. Tu te rends compte que la combinaison des organes sensoriels, des qualités protectrices et du comportement de résolution de problèmes du Croquemort est inégalée dans le monde naturel ? Peut-être que je devrais arrêter d'y réfléchir.</text>
 	</string>
 	<string id="dm_information_620">
-		<text>Les Flesh, c'est les déchets génétiques immondes de la Zone, de la merde biologique. Ils sont juste trop bousillés et pathétiques. Le mieux, c'est de les achever quand tu les vois.</text>
+		<text>Les Croquemort, c'est les déchets génétiques immondes de la Zone, de la merde biologique. Ils sont juste trop bousillés et pathétiques. Le mieux, c'est de les achever quand tu les vois.</text>
 	</string>
 	<string id="dm_information_621">
 		<text>T'as déjà vu une de ces petites saloperies de gobelins ? Un Karliks ? J'en ai trouvé un caché dans Yantar et je l'ai rempli de plomb. J'aurais préféré ne jamais poser les yeux dessus. Le truc, c'est qu'il continue à se venger. Il s'est introduit dans ma tête d'une manière ou d'une autre. Je ne peux aller nulle part seul sans voir des petits crânes grimaçants du coin de l'oeil, je sens qu'il me surveille tout le temps. Le pire dans la Zone, ce sont ces tarés qui altèrent l'esprit... Je n'arrive même plus à dormir.</text>
@@ -2582,12 +2582,12 @@
 		<text>Tu veux une histoire qui fait flipper ? Un pote à moi buvait avec son groupe autour du feu de camp quand il s'est endormi pour la nuit. Il s'est réveillé en pleine obscurité, traîné par terre par le pied. Il regarde en bas et un énorme chat dégueu est en train de le tirer ! Heureusement, il avait son pistolet sur lui.</text>
 	</string>
 	<string id="dm_information_624">
-		<text>Ces lurkers deviennent de plus en plus un problème. Avant, c'était juste des histoires de feu de camp racontées par des stalkers revenant de Pripyat. Maintenant, même des stalkers expérimentés disparaissent, pour réapparaître plus tard déchiquetés et en lambeaux. Ces monstres tuent même pas pour bouffer, ils le font par pur plaisir.</text>
+		<text>Ces Rôdeurs deviennent de plus en plus un problème. Avant, c'était juste des histoires de feu de camp racontées par des stalkers revenant de Pripyat. Maintenant, même des stalkers expérimentés disparaissent, pour réapparaître plus tard déchiquetés et en lambeaux. Ces monstres tuent même pas pour bouffer, ils le font par pur plaisir.</text>
 	</string>
 	
 	<!-- SIN -->
 	<string id="dm_information_625">
-		<text>Chernobog, que Mokosh l'honore, n'est pas mort, mais il vit à travers les émanations de la Zone. Il a simplement été déifié par Charenza en une unité plus grande avec l'Éternel. Plus la Zone s'étend sur terre, plus il grandit aussi.</text>
+		<text>Tchernobog, que Mokosh l'honore, n'est pas mort, mais il vit à travers les émanations de la Zone. Il a simplement été déifié par Charenza en une unité plus grande avec l'Éternel. Plus la Zone s'étend sur terre, plus il grandit aussi.</text>
 	</string>
 	<string id="dm_information_626">
 		<text>Les secrets des Maîtres sont la voie vers la réunification avec le néant universel. Lisez-les ! Il y a Maître Triglav de la Nucléophysique Moléculaire Supérieure, Maître Dazhbog des Champs Énergétiques Discrets, Maître Perun de l'Enzymologie Émergente et bien d'autres. Seuls ceux qui plongent dans les secrets peuvent se dissoudre dans le Vyraj.</text>
@@ -2611,7 +2611,7 @@
 		<text>À mesure que la Zone s'étend, l'illusion de la réalité se dissoudra dans le néant. D'abord, nous renverserons les chrétiens, puis le dieu musulman tombera, et enfin le dieu hébreu sera jeté bas et oublié. Le monde cessera d'exister. Il n'y aura plus rien, seulement le vide aveuglant avant la vision éternelle de tout.</text>
 	</string>
 	<string id="dm_information_633">
-		<text>Les initiés peuvent se contenter de tuer les ennemis de Zone, mais les volkhvs qui en sont dignes désirent une dissolution plus intime dans Zone. Je les ai vus partir dans la tempête Psy, ils ont accueilli la vitalité morte de Zone et son pouvoir de dissolution. Ils ont acquis des pouvoirs qui en ont fait une terreur pour nos ennemis. On dit que le grand Chernobog a aussi accueilli les nobles Emissions.</text>
+		<text>Les initiés peuvent se contenter de tuer les ennemis de Zone, mais les volkhvs qui en sont dignes désirent une dissolution plus intime dans Zone. Je les ai vus partir dans la tempête Psy, ils ont accueilli la vitalité morte de Zone et son pouvoir de dissolution. Ils ont acquis des pouvoirs qui en ont fait une terreur pour nos ennemis. On dit que le grand Tchernobog a aussi accueilli les nobles Emissions.</text>
 	</string>
 	<string id="dm_information_634">
 		<text>En restant avec nous, tu vas réaliser à quel point la Zone est féconde, comment elle nous prend et nous donne ce qu'on n'attend pas. Surtout, tu vas perdre tes illusions et cette certitude de toi-même ; ça peut faire mal au début, mais toutes les illusions font mal jusqu'à ce qu'on s'en libère. Ce que tu vas gagner est difficile à accepter. Tu as vu nos grands maîtres traverser les balles et les bombes comme si c'était de l'eau, et ils n'ont presque plus besoin de dormir. Ce que tu vas devenir ne sera évident qu'une fois que tu auras atteint les grades supérieurs.</text>
@@ -2620,7 +2620,7 @@
 		<text>Dans les temps anciens, ces Croyants nous donnaient des noms, païens ou hérétiques, ils nous appelaient. Ils avaient raison. L'hérésie, comme ils l'appelaient, n'était en réalité qu'un nom pour la voie des choses. Ces putains de simples d'esprit étaient assez aveugles pour croire en une seule réalité, immuable et éternelle - esclaves de l'illusion ! La seule réalité réside dans le changement chaotique de ce qu'on appelle naïvement la « vérité ». Ne te méprends pas, Vyraj n'est en aucun cas une sorte de « paradis », mais plutôt la mort du paradis. Là-bas, nous trouverons l'élimination du péché, certes, mais aussi l'oblitération totale de toute chose. Si y'a pas de sens, alors le péché peut pas exister.</text>
 	</string>
 	<string id="dm_information_636">
-		<text>Peut-être que t'as combattu pour la cause de la Zone ? Beaucoup des initiés trouvent la douleur difficile, mais ça doit pas être le cas. Bien sûr, la souffrance est une illusion, un jeu d'ombres de ce monde maléfique. Accepter ça est nécessaire pour l'initiation à un grade supérieur. Un de nos chers frères, Bezlaya, a été gravement handicapé par certains négateurs de la Zone. Son bras, si on peut appeler ça comme ça, pendait par un lambeau de flesh et il avait des éclats partout dans l'abdomen. Il a ressenti aucune douleur, y'avait pas de douleur pour lui parce qu'il avait échappé à l'illusion. Mais c'était un puissant volkhv, profondément versé dans la sagesse de Zlebog.</text>
+		<text>Peut-être que t'as combattu pour la cause de la Zone ? Beaucoup des initiés trouvent la douleur difficile, mais ça doit pas être le cas. Bien sûr, la souffrance est une illusion, un jeu d'ombres de ce monde maléfique. Accepter ça est nécessaire pour l'initiation à un grade supérieur. Un de nos chers frères, Bezlaya, a été gravement handicapé par certains négateurs de la Zone. Son bras, si on peut appeler ça comme ça, pendait par un lambeau de Croquemort et il avait des éclats partout dans l'abdomen. Il a ressenti aucune douleur, y'avait pas de douleur pour lui parce qu'il avait échappé à l'illusion. Mais c'était un puissant volkhv, profondément versé dans la sagesse de Zlebog.</text>
 	</string>
 	<string id="dm_information_637">
 		<text>Le travail des Maîtres se poursuit à travers nous. Le grand paradoxe de leur vie, c'est qu'ils croyaient avoir échoué. Ils pensaient que la rencontre entre la Zone et cette réalité impure était une erreur. Pourtant, certains ont fini par comprendre qu'ils avaient obtenu exactement ce qu'ils voulaient. Ils voulaient éliminer les péchés du monde, mais sans réaliser comment cela devait se faire. Comme on le sait, c'est l'effacement du monde par l'avènement de Vyraj. À mesure que la Zone grandit, le plan des Maîtres s'accomplira.</text>
@@ -2635,7 +2635,7 @@
 		<text>Ces nouveaux initiés étaient des captifs, non ? Ils ont besoin d'un Éveil en bonne et due forme, sinon on va encore avoir des problèmes. Moi je dis, donnez-leur une double dose de cette putain d'élixir. Plus d'erreurs.</text>
 	</string>
 	<string id="dm_information_641">
-		<text>Voici ce que j'ai appris des Znagomil effacés : il existait autrefois une secte de négateurs de la Zone plus directe que les autres, même plus que la secte actuelle appelée « Dolg ». Ce groupe s'était formé pour s'opposer à la Zone, voire pour la détruire. C'est pourquoi ils avaient pris le nom de « Dernier Jour », mais ce ne fut pas notre dernier jour, mais le leur. Juste avant que le puissant Chernobog ne les détruise, un homme inconnu a tué leur chef maudit et a disparu. C'est alors que le noble Chernobog a appris à laisser les ennemis de la Zone à venir s'entretuer.</text>
+		<text>Voici ce que j'ai appris des Znagomil effacés : il existait autrefois une secte de négateurs de la Zone plus directe que les autres, même plus que la secte actuelle appelée « Dolg ». Ce groupe s'était formé pour s'opposer à la Zone, voire pour la détruire. C'est pourquoi ils avaient pris le nom de « Dernier Jour », mais ce ne fut pas notre dernier jour, mais le leur. Juste avant que le puissant Tchernobog ne les détruise, un homme inconnu a tué leur chef maudit et a disparu. C'est alors que le noble Tchernobog a appris à laisser les ennemis de la Zone à venir s'entretuer.</text>
 	</string>
 	<string id="dm_information_642">
 		<text>Ah, je crois que j'ai besoin d'une illumination plus aiguë. Parfois, je vois mon ancien moi et je me souviens de mes anciens camarades - non, arrête ! C'était pas réel, c'était une putain d'illusion, un mensonge de merde. Ils sont pas plus réels que moi. Vyraj, je t'en prie, viens effacer mon existence !</text>
@@ -2731,7 +2731,7 @@
 		<text>La dernière Emission, elle a pas donné l'impression d'avoir repoussé les limites de la Zone ? Moi, je trouve que oui, même si c'est que d'un mètre. Chaque pas que la Zone avale, c'est un pas qu'on peut plus rendre.</text>
 	</string>
 	<string id="dm_information_673">
-		<text>Mentor m'a dit de ramasser les doigts des ennemis morts. Quand je les regarde, je me souviens de la victoire imminente de la Zone et de l'inutilité de notre propre flesh. T'as de la chance, mon pote, t'as pas autant de pensées pour troubler ton calme.</text>
+		<text>Mentor m'a dit de ramasser les doigts des ennemis morts. Quand je les regarde, je me souviens de la victoire imminente de la Zone et de l'inutilité de notre propre Croquemort. T'as de la chance, mon pote, t'as pas autant de pensées pour troubler ton calme.</text>
 	</string>
 	<string id="dm_information_674">
 		<text>Hier encore, Stribog me parlait de la grande victoire du Monolithe éternel sur la secte minable de Firmament. C'est alors que les ennemis de la Zone se sont dressés contre nous en force, avec l'intention de rejeter la Zone dans les darkness extérieurs. Quand tout semblait perdu, la Zone a triomphé ! Et ce sera toujours ainsi à l'avenir.</text>
@@ -2882,7 +2882,7 @@
 		<text>Sidorovich a toujours un truc à faire. Il paie bien, en général, mais je te conseille pas de prendre ses jobs si t'es pas prêt à te salir les mains... vraiment, vraiment salement.</text>
 	</string>
 	<string id="dm_job_4">
-		<text>Wolf cherche de l'aide. Il paie des stalkers pour traquer les mutants dans le coin et assurer la sécurité du village.</text>
+		<text>Le Loup cherche de l'aide. Il paie des stalkers pour traquer les mutants dans le coin et assurer la sécurité du village.</text>
 	</string>
 	<string id="dm_job_5">
 		<text>Hibou, qui traîne au Skadovsk, cherche toujours à acheter ou vendre des infos. Va lui demander.</text>
@@ -2923,7 +2923,7 @@
 		<text>Balance une ou deux grenades pour faire bouger un gars. Il restera pas planqué longtemps s'il voit une ananas rouler à côté de lui.</text>
 	</string>
 	<string id="dm_tips_3">
-		<text>Si t'as le doigt assez rapide, tu peux tirer avec les deux canons d'un fusil à pompe en même temps. Garde ça en tête si tu tombes sur un bloodsucker.</text>
+		<text>Si t'as le doigt assez rapide, tu peux tirer avec les deux canons d'un fusil à pompe en même temps. Garde ça en tête si tu tombes sur un sangsue.</text>
 	</string>
 	<string id="dm_tips_4">
 		<text>Ne sous-estime pas les pistolets, stalker. Ils sont sacrément pratiques quand t'as plus beaucoup de munitions pour ton flingue principal, et ils défoncent tout ce qui a une armure légère.</text>
@@ -3344,7 +3344,7 @@
 		<text>On dirait un jeu de ouf sur celui-là.</text>
 	</string>
 	<string id="st_broker_npc_about_pda_junk_12">
-		<text>Observations détaillées concernant flesh.</text>
+		<text>Observations détaillées concernant Croquemort.</text>
 	</string>
 	<string id="st_broker_npc_about_pda_junk_13">
 		<text>Observations détaillées concernant le sangliers.</text>
@@ -3353,7 +3353,7 @@
 		<text>Observations détaillées sur les anomalies Toupie.</text>
 	</string>
 	<string id="st_broker_npc_about_pda_junk_15">
-		<text>Des photos d'un gars de Liberté en train d'essayer de baiser un bloodsucker...</text>
+		<text>Des photos d'un gars de Liberté en train d'essayer de baiser un sangsue...</text>
 	</string>
 	<string id="st_broker_npc_about_pda_junk_16">
 		<text>Des entrées de journal complètement barrées sur celui-là.</text>
@@ -3537,7 +3537,7 @@
 		<text>On dirait un jeu de ouf sur celui-là.</text>
 	</string>
 	<string id="st_broker_npc_about_pda_common_18">
-		<text>Observations détaillées concernant flesh.</text>
+		<text>Observations détaillées concernant Croquemort.</text>
 	</string>
 	<string id="st_broker_npc_about_pda_common_19">
 		<text>Observations détaillées concernant les sangliers.</text>
@@ -3550,7 +3550,7 @@
 		<text>Je connais des gens qui seront intéressés par celui-là.</text>
 	</string>
 	<string id="st_broker_npc_about_pda_uncommon_2">
-		<text>Des photos d'un gars de Liberté en train d'essayer de baiser un bloodsucker...</text>
+		<text>Des photos d'un gars de Liberté en train d'essayer de baiser un sangsue...</text>
 	</string>
 	<string id="st_broker_npc_about_pda_uncommon_3">
 		<text>Un contact pour un dealer de came.</text>

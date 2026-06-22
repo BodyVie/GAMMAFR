@@ -36,20 +36,20 @@
 	</string>
 	
     <string id="st_placeable_trophie5">
-		<text>Trophée de tête de Bloodsucker</text>
+		<text>Trophée de tête de Sangsue</text>
 	</string>
 	<string id="st_placeable_trophie5_descr">
-		<text>Une tête montée du redouté Bloodsucker.\n \n
+		<text>Une tête montée du redouté Sangsue.\n \n
 		%c[pda_white]PROPRIÉTÉS :\n
 		%c[d_orange] • %c[pda_white] Posable\n
 		</text>
 	</string>
 	
     <string id="st_placeable_trophie6">
-		<text>Trophée de Bloodsucker</text>
+		<text>Trophée de Sangsue</text>
 	</string>
 	<string id="st_placeable_trophie6_descr">
-		<text>Un trophée de Bloodsucker ; une bête semi-légendaire redoutée dans toute la Zone.\n \n
+		<text>Un trophée de Sangsue ; une bête semi-légendaire redoutée dans toute la Zone.\n \n
 		%c[pda_white]PROPRIÉTÉS :\n
 		%c[d_orange] • %c[pda_white] Posable\n
 		</text>
@@ -75,10 +75,10 @@
 	</string>
 	
     <string id="st_placeable_trophie8">
-		<text>Trophée de Flesh</text>
+		<text>Trophée de Croquemort</text>
 	</string>
 	<string id="st_placeable_trophie8_descr">
-		<text>Un trophée de Flesh ; un porc fortement muté.\n \n
+		<text>Un trophée de Croquemort ; un porc fortement muté.\n \n
 		%c[pda_white]PROPRIÉTÉS :\n
 		%c[d_orange] • %c[pda_white] Posable\n
 		</text>

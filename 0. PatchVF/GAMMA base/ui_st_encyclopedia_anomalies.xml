@@ -92,14 +92,14 @@
 -->
 
 	<string id="encyclopedia_anomalies_burner">
-		<text>Brûleur</text>
+		<text>Colonne de feu</text>
 	</string>
 	<string id="encyclopedia_anomalies_burner_text"> 	
-		<text>%c[ui_gray_2]Le %c[pda_white]Brûleur %c[ui_gray_2]est une colonne de feu stationnaire activée par proximité.\n \n
+		<text>%c[ui_gray_2]Le %c[pda_white]Colonne de feu %c[ui_gray_2]est une colonne de feu stationnaire activée par proximité.\n \n
 		%c[pda_green]Informations :\n	
 		%c[ui_gray_2]Un nuage d'air chaud à peine visible qui, lorsqu'il est perturbé, projette une colonne de flammes atteignant des températures proches de 1000°C. La nuit, il peut être détecté à l'aide d'appareils puissants ou en y lançant des objets, comme des boulons ou des douilles usagées.\n \n
 		%c[pda_blue]Notes :\n
-		%c[pda_white] • Type : %c[d_orange]À base de Flamme\n
+		%c[pda_white] • Type : %c[d_orange]À base de flamme\n
 		%c[pda_white] • Évitement : %c[0,255,0,0]Difficile\n
 		%c[pda_white] • Danger : %c[0,255,0,0]Élevé
 		</text>
@@ -111,10 +111,10 @@
 	<string id="encyclopedia_anomalies_comet_text"> 	
 		<text>%c[ui_gray_2]Le %c[pda_white]Comet %c[ui_gray_2]est une anomalie de feu mobile dangereuse, atteignant des températures proches de celles de la zone autour du soleil.\n \n
 		%c[pda_green]Informations :\n
-		%c[ui_gray_2]L'anomalie Comet fonctionne de manière similaire à une anomalie Brûleur, atteignant des températures allant jusqu'à plus de 5000 °C, infligeant des dégâts de feu au contact rapproché. Cependant, contrairement au Brûleur, le Comet est mobile et se déplace rapidement dans une zone fixe.
-		L’anomalie Comet, contrairement au Brûleur, est extrêmement puissante : elle peut tuer même un stalker bien protégé s’il est touché directement.\n \n
+		%c[ui_gray_2]L'anomalie Comet fonctionne de manière similaire à une anomalie Colonne de feu, atteignant des températures allant jusqu'à plus de 5000 °C, infligeant des dégâts de feu au contact rapproché. Cependant, contrairement au Colonne de feu, le Comet est mobile et se déplace rapidement dans une zone fixe.
+		L’anomalie Comet, contrairement au Colonne de feu, est extrêmement puissante : elle peut tuer même un stalker bien protégé s’il est touché directement.\n \n
 		%c[pda_blue]Notes :\n
-		%c[pda_white] • Type : %c[d_orange]À base de Flamme\n
+		%c[pda_white] • Type : %c[d_orange]À base de flamme\n
 		%c[pda_white] • Évitement : %c[0,255,255,0]Modéré\n
 		%c[pda_white] • Danger : %c[0,255,0,0]Extrêmement élevé\n
 		%c[pda_white] • %c[ui_gray_2] Cette anomalie ne génère aucun type de artefact.
@@ -126,12 +126,12 @@
 -->
 
 	<string id="encyclopedia_anomalies_fuzz">
-		<text>Fuzz brûlé</text>
+		<text>Flore ardente</text>
 	</string>
 	<string id="encyclopedia_anomalies_fuzz_text"> 	
-		<text>L’anomalie Fuzz brûlé est une formation semblable à une liane capable de provoquer des brûlures sur les objets organiques qui la traversent rapidement.\n \n
+		<text>L’anomalie Flore ardente est une formation semblable à une liane capable de provoquer des brûlures sur les objets organiques qui la traversent rapidement.\n \n
 		%c[pda_green]Informations :\n
-		%c[ui_gray_2]Exemple de végétation mutée de la Zone, le "Fuzz brûlé" ressemble à de la mousse ou à des lianes pendantes formant des rideaux. L'anomalie ne semble réagir qu'à l'approche rapide d'organismes vivants en libérant un nuage de projectiles extrêmement petits, provoquant une irritation sévère ou des blessures au contact de la peau non protégée ou légèrement protégée.\n \n
+		%c[ui_gray_2]Exemple de végétation mutée de la Zone, la Flore ardente ressemble à de la mousse ou à des lianes pendantes formant des rideaux. L'anomalie ne semble réagir qu'à l'approche rapide d'organismes vivants en libérant un nuage de projectiles extrêmement petits, provoquant une irritation sévère ou des blessures au contact de la peau non protégée ou légèrement protégée.\n \n
 		%c[pda_blue]Notes :\n
 		%c[pda_white] • Type : %c[d_orange]Chimique\n
 		%c[pda_white] • Évitabilité : %c[0,0,255,0]Facile\n
@@ -140,10 +140,10 @@
 	</string>
 
 	<string id="encyclopedia_anomalies_fruit">
-		<text>Fruit Punch</text>
+		<text>Champignon Visqueux</text>
 	</string>
 	<string id="encyclopedia_anomalies_fruit_text"> 	
-		<text>%c[ui_gray_2]Le %c[pda_white]Fruit Punch %c[ui_gray_2]est une flaque de liquide vert luminescent extrêmement corrosif.\n \n
+		<text>%c[ui_gray_2]Le %c[pda_white]Champignon Visqueux %c[ui_gray_2]est une flaque de liquide vert luminescent extrêmement corrosif.\n \n
 		%c[pda_green]Informations :\n
 		%c[ui_gray_2]Une flaque de liquide facilement visible dans presque tous les environnements en raison de sa lueur vive et des bruits caractéristiques de sifflement et de bouillonnement. Au contact de la peau, elle provoque des lésions similaires à des brûlures chimiques causées par des acides forts.\n \n
 		%c[pda_blue]Notes :\n
@@ -159,7 +159,7 @@
 	<string id="encyclopedia_anomalies_gas_text"> 	
 		<text>%c[ui_gray_2]L’anomalie %c[pda_white]Gaz %c[ui_gray_2]se reconnaît à ses nuages de gaz acide vert flottant au-dessus du sol.\n \n
 		%c[pda_green]Informations :\n
-		%c[ui_gray_2]Lorsqu'il entre en contact avec des parties métalliques ou des tissus organiques, ce gaz émet et projette des composés hautement acides dans son environnement immédiat. Il ne doit pas être confondu avec l'anomalie Fruit Punch, car il se comporte davantage comme un nuage ou un brouillard que comme une flaque de liquide.\n \n
+		%c[ui_gray_2]Lorsqu'il entre en contact avec des parties métalliques ou des tissus organiques, ce gaz émet et projette des composés hautement acides dans son environnement immédiat. Il ne doit pas être confondu avec l'anomalie Champignon Visqueux, car il se comporte davantage comme un nuage ou un brouillard que comme une flaque de liquide.\n \n
 		%c[pda_blue]Notes :\n
 		%c[pda_white] • Type : %c[d_orange]Chimique\n
 		%c[pda_white] • Évitabilité : %c[0,0,255,0]Facile\n

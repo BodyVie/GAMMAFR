@@ -41,7 +41,7 @@
 	</string>
 
 	<string id="encyclopedia_characters_aspirin">
-		<text>Sostradov « Aspirine »</text>
+		<text>"Aspirine" Sostradov</text>
 	</string>
 	<string id="encyclopedia_characters_aspirin_text">
 		<text>%c[pda_white]Le lieutenant Sostradov%c[ui_gray_2], plus connu sous le nom de %c[pda_green]Aspirine%c[ui_gray_2] parmi les stalkers libres, est un jeune officier du Devoir ainsi que le médecin résident de Rostok.\n \n
@@ -86,12 +86,12 @@
 	</string>
 
 	<string id="encyclopedia_characters_butcher">
-		<text>Boucher</text>
+		<text>Le Boucher</text>
 	</string>
 	<string id="encyclopedia_characters_butcher_text">
-		<text>%c[pda_white]Boucher%c[ui_gray_2] est l'un des chasseurs de mutants les plus expérimentés de la Zone.\n \n
+		<text>%c[pda_white]Le Boucher%c[ui_gray_2] est l'un des chasseurs de mutants les plus expérimentés de la Zone.\n \n
 		%c[pda_green]Informations\n
-		%c[ui_gray_2]Contrairement à la majorité des stalkers, le Boucher est totalement indifférent à la artefacts. Lui et son groupe n'ont vu dans la Zone qu'une nouvelle opportunité de poursuivre leur passion pour la chasse.
+		%c[ui_gray_2]Contrairement à la majorité des stalkers, Le Boucher est totalement indifférent à la artefacts. Lui et son groupe n'ont vu dans la Zone qu'une nouvelle opportunité de poursuivre leur passion pour la chasse.
 		Grâce à sa réputation dans l'élimination des mutants, les recrues se rassemblent parfois dans sa boutique pour recevoir des conseils ou écouter ses histoires. Certains affirment qu'il a tué au moins un spécimen de chaque type de mutant présent dans la Zone.\n \n
 		Bien qu'il soit désormais un marchand installé à la Décharge, sa passion pour la chasse transparaît encore : il vend du matériel de chasse de qualité à des prix bien inférieurs à ceux de la plupart des autres marchands, et récompense les stalkers qui lui rapportent de la viande et des trophées provenant des diverses horreurs de la Zone.
 		</text>
@@ -110,7 +110,7 @@
 	</string>
 
 	<string id="encyclopedia_characters_chernobog">
-		<text>Chernobog</text>
+		<text>Tchernobog</text>
 	</string>
 	<string id="encyclopedia_characters_chernobog_text">
 		<text>%c[pda_white]Tchernobog%c[ui_gray_2] est le Grand Maître de Péché.\n \n
@@ -193,21 +193,21 @@
 	</string>
 	
 	<string id="encyclopedia_characters_fanatic">
-		<text>Fanatic</text>
+		<text>Fanatique</text>
 	</string>
 	<string id="encyclopedia_characters_fanatic_text">
-		<text>%c[pda_white]Le Fanatic%c[ui_gray_2] tire son nom de son engagement et de son agressivité en tant que stalker.\n \n
+		<text>%c[pda_white]Le Fanatique%c[ui_gray_2] tire son nom de son engagement et de son agressivité en tant que stalker.\n \n
 		%c[pda_green]Informations\n
-		%c[ui_gray_2]Après le départ temporaire de Wolf pour la Entrepôts de l'armée, Fanatic a pris en charge le village des recrues, s'occupant seul des nouveaux arrivants jusqu'au retour de son ami.\n \n
+		%c[ui_gray_2]Après le départ temporaire du Loup pour la Entrepôts de l'armée, Fanatique a pris en charge le village des recrues, s'occupant seul des nouveaux arrivants jusqu'au retour de son ami.\n \n
 		Bien qu'il ne soit plus le seul responsable, il est toujours considéré comme une autorité, même s'il préfère de loin être en première ligne pour combattre les Bandits et les mutants plutôt que de rester inactif.
 		</text>
 	</string>
 
 	<string id="encyclopedia_characters_gatekeeper">
-		<text>Gardien</text>
+		<text>Le Gardien</text>
 	</string>
 	<string id="encyclopedia_characters_gatekeeper_text">
-		<text>%c[pda_white]Gardien%c[ui_gray_2] est un Solitaire expérimenté qui défend la Barrière contre les Monolithes.\n \n
+		<text>%c[pda_white]Le Gardien%c[ui_gray_2] est un Solitaire expérimenté qui défend la Barrière contre les Monolithes.\n \n
 		%c[pda_green]Informations\n
 		%c[ui_gray_2]Suite à la désactivation du Lobotomisateur en 2012, le stalker désormais connu sous le nom de Gardien fut l'un des nombreux à se précipiter pour explorer le coeur de la Zone.\n \n
 		Des années plus tard, il est retourné aux Entrepôts de l'armée, déterminé à tenir la Barrière et à protéger les régions du sud des horreurs dont il avait été témoin, ainsi qu'à empêcher le Monolithe renaissant de s'étendre.
@@ -238,10 +238,10 @@
 	</string>
 
 	<string id="encyclopedia_characters_hawaiian">
-		<text>Hawaïen</text>
+		<text>L'hawaïen</text>
 	</string>
 	<string id="encyclopedia_characters_hawaiian_text">
-		<text>%c[pda_white]Hawaïen%c[ui_gray_2] est le gardien décontracté de la Gare de Yanov et en était autrefois le seul commerçant.\n \n
+		<text>%c[pda_white]L'hawaïen%c[ui_gray_2] est le gardien décontracté de la Gare de Yanov et en était autrefois le seul commerçant.\n \n
 		%c[pda_green]Informations\n
 		%c[ui_gray_2]Contrairement à ce que son nom pourrait laisser penser, il n'est pas réellement originaire d'Hawaï, mais est surnommé ainsi pour son habitude d'exclamer "Aloha !" en saluant les clients.\n \n
 		Il consacre presque tout son temps à tenir le bar de la salle à manger, anciennement un guichet de billetterie et une salle d'attente.\n \n
@@ -341,12 +341,12 @@
 	</string>
 
 	<string id="encyclopedia_characters_librarian">
-		<text>Bibliothécaire</text>
+		<text>Le Bibliothécaire</text>
 	</string>
 	<string id="encyclopedia_characters_librarian_text">
 		<text>%c[pda_white]Le Bibliothécaire%c[ui_gray_2], malgré son nom, est en réalité le barman de Firmament.\n \n
 		%c[pda_green]Informations\n
-		%c[ui_gray_2]Après l'émission qui a coupé les Marais du reste de la Zone, Bibliothécaire s'est retrouvé piégé sans issue facile.\n \n
+		%c[ui_gray_2]Après l'émission qui a coupé les Marais du reste de la Zone, Le Bibliothécaire s'est retrouvé piégé sans issue facile.\n \n
 		Face à la mort aux mains de bandits ou pire, il s'est dirigé vers les confins sud et a rejoint Firmament, où il remplacerait plus tard Cold en tant que barman après la promotion de ce dernier au poste de chef.
 		</text>
 	</string>
@@ -386,7 +386,7 @@
 	</string>
 
 	<string id="encyclopedia_characters_mangun">
-		<text>Potryko « Mangun »</text>
+		<text>"Mangun" Potryko</text>
 	</string>
 	<string id="encyclopedia_characters_mangun_text">
 		<text>%c[pda_white]Le sergent-chef Potryko%c[ui_gray_2], connu informellement sous le nom de %c[pda_green]Mangun%c[ui_gray_2], est un soldat vétéran du Devoir qui passe ses journées à bricoler armes et armures.\n \n
@@ -412,12 +412,12 @@
 	</string>
 
 	<string id="encyclopedia_characters_navigator">
-		<text>Navigateur</text>
+		<text>Navigator</text>
 	</string>
 	<string id="encyclopedia_characters_navigator_text">
-		<text>%c[pda_white]Navigateur%c[ui_gray_2] est un stalker expérimenté travaillant comme guide.\n \n
+		<text>%c[pda_white]Navigator%c[ui_gray_2] est un stalker expérimenté travaillant comme guide.\n \n
 		%c[pda_green]Informations\n
-		%c[ui_gray_2]Avec l'assouplissement des conditions d'entrée pour visiter Rostok par Devoir, Navigateur s'est rapidement imposé comme un guide capable de conduire les stalkers presque n'importe où depuis l'enceinte sécurisée du Bar 100 Rads.
+		%c[ui_gray_2]Avec l'assouplissement des conditions d'entrée pour visiter Rostok par Devoir, Navigator s'est rapidement imposé comme un guide capable de conduire les stalkers presque n'importe où depuis l'enceinte sécurisée du Bar 100 Rads.
 		</text>
 	</string>
 
@@ -457,10 +457,10 @@
 	</string>
 	
 	<string id="encyclopedia_characters_owl">
-		<text>Owl</text>
+		<text>Le Hibou</text>
 	</string>
 	<string id="encyclopedia_characters_owl_text">
-		<text>%c[pda_white]Owl%c[ui_gray_2] est un marchand du marché noir aux loyautés douteuses.\n \n
+		<text>%c[pda_white]Le Hibou%c[ui_gray_2] est un marchand du marché noir aux loyautés douteuses.\n \n
 		%c[pda_green]Informations\n
 		%c[ui_gray_2]Personne inconfortable et grossière, parmi tous les habitants à bord du Skadovsk, il se distingue comme un mauvais caractère au tempérament grincheux.\n \n
 		Il possède un large assortiment d'armes et de munitions, et apprécie grandement toute information que les stalkers sont prêts à lui vendre.\n \n
@@ -654,12 +654,12 @@
 	</string>
 
 	<string id="encyclopedia_characters_surgeon">
-		<text>Chirurgien</text>
+		<text>Le Chirurgien</text>
 	</string>
 	<string id="encyclopedia_characters_surgeon_text">
-		<text>Comme son nom l'indique, %c[pda_white]Chirurgien%c[ui_gray_2] exerce en tant que médecin mercenaire dans la Ville morte.\n \n
+		<text>Comme son nom l'indique, %c[pda_white]Le Chirurgien%c[ui_gray_2] exerce en tant que médecin mercenaire dans la Ville morte.\n \n
 		%c[pda_green]Informations\n
-		%c[ui_gray_2]Homme discret, il faisait autrefois partie de l'équipe de mercenaires de Black. Bien qu'un agent militaire infiltré ait presque entièrement décimé son ancienne escouade, le Chirurgien a réussi à s'échapper discrètement et a ainsi survécu.\n \n
+		%c[ui_gray_2]Homme discret, il faisait autrefois partie de l'équipe de mercenaires de Black. Bien qu'un agent militaire infiltré ait presque entièrement décimé son ancienne escouade, Le Chirurgien a réussi à s'échapper discrètement et a ainsi survécu.\n \n
 		Après avoir passé quelques années en tant que pilleur solitaire, il a finalement restauré sa réputation en sauvant un groupe de mercenaires d'une embuscade du Monolithe dans Limansk, les maintenant médicalement stables et hors de la ligne de tir ennemie jusqu'à l'arrivée des renforts. Cet acte lui a valu une recommandation pour travailler avec les Dushman, et il vit depuis comme le médecin résident de l'unité.  
 		</text>
 	</string>
@@ -709,15 +709,15 @@
 	</string>
 	
 	<string id="encyclopedia_characters_wolf">
-		<text>Wolf</text>
+		<text>Le Loup</text>
 	</string>
 	<string id="encyclopedia_characters_wolf_text">
-		<text>%c[pda_white]Wolf%c[ui_gray_2] dirige la défense du village des recrues.\n \n
+		<text>%c[pda_white]Le Loup%c[ui_gray_2] dirige la défense du village des recrues.\n \n
 		%c[pda_green]Informations\n
-		%c[ui_gray_2]S'étant donné pour mission de protéger le village et les Cordons qui y vivent des menaces extérieures, Wolf utilise un réseau de éclaireurs et d'espions pour surveiller les mouvements hostiles au sein du stalkers.\n \n
+		%c[ui_gray_2]S'étant donné pour mission de protéger le village et les Cordons qui y vivent des menaces extérieures, Le Loup utilise un réseau de éclaireurs et d'espions pour surveiller les mouvements hostiles au sein du stalkers.\n \n
 		Partageant les informations qu'il recueille avec Sidorovich, ils envoient fréquemment des groupes de raid et des opportunistes pour éliminer les bandits, les mutants et autres menaces pesant sur leur intérêt mutuel dans la sécurité du village.\n \n
 		%c[pda_yellow]Anecdotes\n
-		%c[pda_white]• %c[ui_gray_2]Malgré la similitude de nom, Wolf n'a aucun lien avec le mercenaire impitoyable connu sous le nom de Wolfhound.
+		%c[pda_white]• %c[ui_gray_2]Malgré la similitude de nom, Le Loup n'a aucun lien avec le mercenaire impitoyable connu sous le nom de Wolfhound.
 		</text>
 	</string>
 	

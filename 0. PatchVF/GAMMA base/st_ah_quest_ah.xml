@@ -545,24 +545,24 @@
     </string>
 
     <string id="cs_story_task0_name">
-        <text>Last Dawn : Rendre le détecteur à Spore</text>
+        <text>Dernière Aube : Rendre le détecteur à Spore</text>
     </string>
     <string id="cs_story_task0_name1">
-        <text>Last Dawn : Récupérer le détecteur dans l'anomalie au sud-ouest des marais</text>
+        <text>Dernière Aube : Récupérer le détecteur dans l'anomalie au sud-ouest des marais</text>
     </string>
 
     <string id="cs_task0_ambush_renegade_story_name">
-        <text>Last Dawn : Retourner voir Cold</text>
+        <text>Dernière Aube : Retourner voir Cold</text>
     </string>
     <string id="cs_task0_ambush_renegade_story_name1">
-        <text>Last Dawn : Repousser l'attaque des Renégats</text>
+        <text>Dernière Aube : Repousser l'attaque des Renégats</text>
     </string>
 
     <string id="cs_task0_ambush_renegade_story_name3">
-        <text>Last Dawn : Retourner voir Cold</text>
+        <text>Dernière Aube : Retourner voir Cold</text>
     </string>
     <string id="cs_task0_ambush_renegade_story_name4">
-        <text>Last Dawn : Nettoyer la ferme du sud-est des Renégats</text>
+        <text>Dernière Aube : Nettoyer la ferme du sud-est des Renégats</text>
     </string>
 
     <string id="cs_task0_ambush_renegade_story_descr">
@@ -577,82 +577,82 @@
         <text>Le scanner se trouve dans une archi-anomalie, au sud de la tour ouest et directement au nord-ouest de la base de Firmament.</text>
     </string>
     <string id="cs_story_task2_name">
-        <text>Last Dawn : Apporter le PDA à Spore</text>
+        <text>Dernière Aube : Apporter le PDA à Spore</text>
     </string>
     <string id="cs_story_task2_descr">
-        <text>Crutch est mort lors d'un affrontement avec un bloodsuckers, mais j'ai réussi à récupérer son PDA.</text>
+        <text>Crutch est mort lors d'un affrontement avec un sangsues, mais j'ai réussi à récupérer son PDA.</text>
     </string>
     <string id="cs_story_task1_name">
-        <text>Last Dawn : À la recherche de l'éclaireur</text>
+        <text>Dernière Aube : À la recherche de l'éclaireur</text>
     </string>
     <string id="cs_story_task1_descr">
         <text>Je dois retrouver l'éclaireur de Firmament nommé Crutch avant qu'une créature ne l'entraîne dans son repaire. Spore a signalé que le dernier signal provenait du nord des Marais, près de la route.</text>
     </string>
     <string id="cs_story_task3_start_name">
-        <text>Last Dawn : Rencontrer Cold</text>
+        <text>Dernière Aube : Rencontrer Cold</text>
     </string>
     <string id="cs_story_task3_start_descr">
         <text>Cold a signalé que le PDA du éclaireur a été décrypté et qu'il attend de me rencontrer.</text>
     </string>
     <string id="cs_task4_storytask_name">
-        <text>Last Dawn : Rencontre avec le mercenaire Scar</text>
+        <text>Dernière Aube : Rencontre avec le mercenaire Scar</text>
     </string>
     <string id="cs_task4_storytask_descr">
         <text>J'ai réussi à découvrir où se trouve Scar. Ma mission consiste désormais à apprendre ce qu'il sait au sujet des membres disparus de Firmament.</text>
     </string>
     <string id="cs_task5_storytask_name">
-        <text>Last Dawn : Repousser les Mutants</text>
+        <text>Dernière Aube : Repousser les Mutants</text>
     </string>
     <string id="cs_task5_storytask_name1">
-        <text>Last Dawn : Parler à Scar</text>
+        <text>Dernière Aube : Parler à Scar</text>
     </string>
     <string id="cs_task5_storytask_descr">
         <text>Une meute de pseudochiens a repéré notre odeur, il faudra donc les combattre pour les repousser.</text>
     </string>
     <string id="cs_task3_storytask_name">
-        <text>Last Dawn : Renseignements sur Scar</text>
+        <text>Dernière Aube : Renseignements sur Scar</text>
     </string>
     <string id="cs_task3_storytask_descr">
         <text>Je dois interroger Sidorovich au sujet du mercenaire nommé Scar.</text>
     </string>
     <string id="cs_task9_storytask_name">
-        <text>Last Dawn : Parler à Strider</text>
+        <text>Dernière Aube : Parler à Strider</text>
     </string>
     <string id="cs_task9_storytask_descr">
         <text>Je dois apporter le décrypteur à Strider. Son escouade se trouve aux abords de Jupiter, au poste de contrôle situé au sud de la gare de Yanov.</text>
     </string>
     <string id="cs_task11_storytask_name">
-        <text>Last Dawn : Parler à Strider</text>
+        <text>Dernière Aube : Parler à Strider</text>
     </string>
     <string id="cs_task11_storytask_descr">
         <text>Scar a signalé que les membres survivants de Firmament pourraient se trouver parmi les rangs des Renégats du Monolithe. Leur escouade est située aux abords de Jupiter, au poste de contrôle. Je dois trouver le chef d'escouade, Strider, et recueillir toutes les informations concernant les disparus.</text>
     </string>
     <string id="cs_task10_storytask_name">
-        <text>Last Dawn : Parler à Cold</text>
+        <text>Dernière Aube : Parler à Cold</text>
     </string>
     <string id="cs_task10_storytask_descr">
         <text>J'ai accompli ma mission. Je dois faire mon rapport à Cold et l'informer que ses hommes sont toujours en vie.</text>
     </string>
     <string id="cs_task8_storytask_name">
-        <text>Last Dawn : Repousser la contre-attaque</text>
+        <text>Dernière Aube : Repousser la contre-attaque</text>
     </string>
     <string id="cs_task8_storytask_name1">
-        <text>Last Dawn : Parler à Strider</text>
+        <text>Dernière Aube : Parler à Strider</text>
     </string>
     <string id="cs_task8_storytask_descr">
         <text>Selon les Renégats, les fanatiques du port fluvial, situé au nord-est de Pripyat, possèdent un dispositif permettant de décoder les conversations chiffrées. Je dois le récupérer.</text>
     </string>
     <string id="cs_task7_storytask_name">
-        <text>Last Dawn : S'emparer de l'appareil</text>
+        <text>Dernière Aube : S'emparer de l'appareil</text>
     </string>
     <string id="cs_task7_storytask_descr">
         <text>Selon les Renégats, les fanatiques du port fluvial possèdent un dispositif permettant de décoder les conversations chiffrées.</text>
     </string>
     <string id="cs_task6_storytask_name1">
-        <text>Last Dawn : Parler à Gamayun</text>
+        <text>Dernière Aube : Parler à Gamayun</text>
     </string>
     <string id="cs_task6_storytask_name">
-        <text>Last Dawn : Sauver l'unité d'éclaireurs renégats</text>
+        <text>Dernière Aube : Sauver l'unité d'éclaireurs renégats</text>
     </string>
     <string id="cs_task6_storytask_descr">
         <text>Une escouade de Renégats du Monolithe est piégée dans l'est de Pripyat, près du dortoir. Parmi eux se trouve l'un des membres survivants de Firmament, je dois les secourir ou ma mission aura été vaine.</text>
@@ -748,7 +748,7 @@
     </string>
 
     <string id="cs_task0_ambush_renegade_story_name6">
-        <text>Last Dawn : Détruire les Militaires et prendre la Cour des Machines</text>
+        <text>Dernière Aube : Détruire les Militaires et prendre la Cour des Machines</text>
     </string>
 
 
@@ -771,7 +771,7 @@
         <text>Le commandant de l'unité militaire de l'Institut de Recherche « Agroprom » m'a ordonné de me rendre au laboratoire X-16, situé sur le territoire de l'ancien lac « Yantar », afin de récupérer la documentation secrète et de désactiver simultanément l'installation psi. Il m'a également conseillé de me munir d'une bonne protection psi au préalable. Selon lui, les scientifiques du bunker mobile venaient de mettre au point un moyen de protection contre les radiations psi.</text>
     </string>
     <string id="kuznecov_find_document_4">
-        <text>Trouve les documents dans le labo X-10 et désactive le Brain Brûleur.</text>
+        <text>Trouve les documents dans le labo X-10 et désactive le Brain Colonne de feu.</text>
     </string>
     <string id="kuznecov_find_document_4_descr">
         <text>Je suis prêt à percer vers le Nord. Je dispose d'une protection contre les expositions psi, il ne reste plus qu'à franchir le Radar, à m'infiltrer dans le laboratoire, à récupérer les documents et à désactiver l'installation psi principale dans la Zone.</text>

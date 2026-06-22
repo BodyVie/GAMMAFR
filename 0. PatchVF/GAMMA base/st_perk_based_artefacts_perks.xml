@@ -70,7 +70,7 @@
     <text>
     %c[0,209,172,56]Aptitude : %c[d_orange]ALCHIMIE DE LA ZONE\n
     %c[0,81,63,22] • %c[0,209,172,56]Confère la capacité de transmuter les artefacts\n
-    %c[0,81,63,22] • %c[0,209,172,56]Un Artefacts peut être amélioré vers un niveau supérieur (Night Star -> Gravi -> Gold Fish), ou « muté » en un autre artefact du même niveau (Night Star -> Sang de Pierre -> Méduse)\n
+    %c[0,81,63,22] • %c[0,209,172,56]Un Artefacts peut être amélioré vers un niveau supérieur (Etoile phosphorescente -> Gravi -> Gold Fish), ou « muté » en un autre artefact du même niveau (Night Star -> Pierre Sanguine -> Méduse)\n
     %c[0,81,63,22] • %c[0,209,172,56]Aptitude/Artefact de haut niveau artefacts ne peut être muté\n
     %c[0,81,63,22] • %c[0,209,172,56]Chaque transmutation consomme un artefact « Chauve-souris »\n
     %c[0,81,63,22] • %c[0,209,172,56]Empilement de plusieurs Artefacts ?: %c[ui_red]NON
@@ -228,9 +228,9 @@
 	%c[0,81,63,22] • %c[0,209,172,56]Appuie sur la touche UTILISER près d'un mutant et en ligne de mire pour donner un coup de pied\n \n 
 	%c[d_orange]Tiers des Mutants : \n
 		%c[0,192,71,221] -   1 artefact : %c[ui_gray_3]Chats, Chiens, Tushkanos, Rats, Zombies.\n
-		%c[0,192,71,221] -   2 artefacts : %c[ui_gray_3]Sangliers, Flesh, Pseudochiens, Snorks, Lurkers, Fractures.\n
-		%c[0,192,71,221] -   3 artefacts : %c[ui_gray_3]Karliks, Bloodsuckers, Psysuckers, Psy-chiens, Poltergeists.\n
-		%c[0,192,71,221] -   4 artefacts : %c[ui_gray_3]Burers, Controllers.\n
+		%c[0,192,71,221] -   2 artefacts : %c[ui_gray_3]Sangliers, Croquemort, Pseudochiens, Snorks, Rôdeurs, Fractures.\n
+		%c[0,192,71,221] -   3 artefacts : %c[ui_gray_3]Karliks, Sangsues, Sangsues-psy, Psy-chiens, Poltergeists.\n
+		%c[0,192,71,221] -   4 artefacts : %c[ui_gray_3]Domovoï, Controllers.\n
 		%c[0,192,71,221] -   5 artefacts : %c[ui_gray_3]Chimères, Pseudogiants.
 	</text>
 </string>
@@ -259,15 +259,15 @@
     %c[0,81,63,22] • %c[0,209,172,56]Convertit l'énergie de la viande crue de mutants en capacités spéciales\n
     %c[0,81,63,22] • %c[0,209,172,56]Dure 1 minute. Manger de la viande de différents mutants remplace l'effet actuel et relance le chrono du buff\n\n
     %c[d_orange]Tableau des effets :\n
-	%c[0,192,71,221] - Viande de Flesh : %c[ui_gray_3]régénération de santé de 1%/sec, pénalité de dégâts par balle de 33%\n
+	%c[0,192,71,221] - Viande de Croquemort : %c[ui_gray_3]régénération de santé de 1%/sec, pénalité de dégâts par balle de 33%\n
 	%c[0,192,71,221] - Viande de Sanglier : %c[ui_gray_3]réduction de 25 % des dégâts au corps à corps\n
 	%c[0,192,71,221] - Viande de Chien : %c[ui_gray_3]récupération légère de saignement, régénération psy de 1%/sec\n
 	%c[0,192,71,221] - Pseudochiens : %c[ui_gray_3]régénération psy de 2%/sec, réduction des dégâts psy de 25%\n
-	%c[0,192,71,221] - Bloodsucker : %c[ui_gray_3]devient invisible jusqu'à une action hostile, récupération modérée des saignements\n
-	%c[0,192,71,221] - Psysucker : %c[ui_gray_3]devient invisible jusqu'à une action hostile, régénération psy de 5%/sec\n
+	%c[0,192,71,221] - Sangsue : %c[ui_gray_3]devient invisible jusqu'à une action hostile, récupération modérée des saignements\n
+	%c[0,192,71,221] - Sangsue-psy : %c[ui_gray_3]devient invisible jusqu'à une action hostile, régénération psy de 5%/sec\n
 	%c[0,192,71,221] - Snork : %c[ui_gray_3]réduction de 50% des dégâts de radiation, régénération de 5%/sec de stamina, guérison de 5 mSv/sec de radiation, forte diminution de la faim\n
 	%c[0,192,71,221] - Chimère : %c[ui_gray_3]régénération de 2%/sec de santé, 10%/sec de stamina, réduction de 33% des dégâts de radiation\n
-	%c[0,192,71,221] - Lurkers : %c[ui_gray_3]réduction des dégâts d'anomalies chimiques/feu/électricité de 33%\n
+	%c[0,192,71,221] - Rôdeurs : %c[ui_gray_3]réduction des dégâts d'anomalies chimiques/feu/électricité de 33%\n
 	%c[0,192,71,221] - Tushkanos : %c[ui_gray_3]augmentation de vitesse de 20%, pénalité de dégâts de mêlée de 20%\n
 	%c[0,81,63,22] • %c[0,209,172,56]Empilage multiple d’Artefacts ? : %c[ui_red]NON
 	</text>
