@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
 	<string id="ui_mcm_menu_EA_settings">
 		<text>Paramètres FDDA</text>
 	</string>
@@ -13,7 +14,7 @@
 	</string>
 
 	<string id="ui_mcm_EA_settings_enable_crouch_toggle_backpack_addon">
-		<text>Activer l'animation de accroupissement pour le sac à dos</text>
+		<text>Activer l'animation "accroupissement" avec le sac à dos</text>
 	</string>
 
 	<string id="ui_mcm_EA_settings_mutant_loot">
@@ -61,6 +62,6 @@
 	<string id="st_EA_game_ver_error_button_cancel">
       <text>Ok, je m'en fous</text>
     </string>
-	
+</string_table>
 	
 

@@ -89,10 +89,10 @@
 		<text>Les mercenaires m’ont chargé de me procurer un %s.</text>
 	</string>
 	<string id="killer_bridge_trader_mlr_task_1_about">
-		<text>Nos soldats ont besoin de matériel. Pourriez-vous nous le procurer?</text>
+		<text>Nos soldats ont besoin de matériel. Pourriez-vous nous le procurer ?</text>
 	</string>
 	<string id="killer_bridge_trader_mlr_task_1_fetch_about">
-		<text>Nos soldats ont besoin d’un %s. Pourriez-vous le récupérer pour nous?</text>
+		<text>Nos soldats ont besoin d’un %s. Pourriez-vous le récupérer pour nous ?</text>
 	</string>
 	<string id="killer_bridge_trader_mlr_task_1_fetch_finish">
 		<text>Je vous remercie. Voici votre récompense.</text>
@@ -105,10 +105,10 @@
 		<text>Un mercenaire a besoin d’un %s.</text>
 	</string>
 	<string id="killer_bridge_trader_mlr_task_2_about">
-		<text>Nos soldats auraient besoin de quelques artefacts. Il sera difficile de traverser Limansk sans eux. Pourriez-vous nous aider à en trouver un?</text>
+		<text>Nos soldats auraient besoin de quelques artefacts. Il sera difficile de traverser Limansk sans eux. Pourriez-vous nous aider à en trouver un ?</text>
 	</string>
 	<string id="killer_bridge_trader_mlr_task_2_fetch_about">
-		<text>Nos soldats auraient besoin de quelques artefacts. Il sera difficile de traverser Limansk sans eux. Pourriez-vous nous aider à trouver un %s?</text>
+		<text>Nos soldats auraient besoin de quelques artefacts. Il sera difficile de traverser Limansk sans eux. Pourriez-vous nous aider à trouver un %s ?</text>
 	</string>
 	<string id="killer_bridge_trader_mlr_task_2_fetch_finish">
 		<text>Merci beaucoup. Tenez, voici votre récompense.</text>

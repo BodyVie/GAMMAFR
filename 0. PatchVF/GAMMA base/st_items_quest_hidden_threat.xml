@@ -72,7 +72,7 @@
 		</text>
 	</string>
 
-	<!------------------- Items Tips ------------------------->
+	<!-- ===================== Items Tips ===================== -->
 	<string id="st_sl_hidden_threat_locked_door_tips">
 	    <text>Trouve un autre moyen d'entrer.</text>
 	</string>

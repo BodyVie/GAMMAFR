@@ -12,7 +12,6 @@
 	1013, 1017, 1021-1023, 1447, 1455-1458, 1462-1464, 1536, 1552, 1564, 1596, 1600-1601, 1755
 -->
 
-<?xml version="1.0" encoding="windows-1251"?>
 <string_table>
 	<string id="st_paw_waypoint_set">
 		<text>Placer un point de passage</text>
@@ -1758,11 +1757,10 @@
 		<text>$clr_tgrNe plus afficher ce message d'introduction</text>
 	</string>
 
-</string_table>
 
-<!-- Added in 2.3 -->
 
-<string_table>
+	<!-- Added in 2.3 -->
+
 	<string id="encyclopedia_addons">
 		<text>Accessoires</text>
 	</string>

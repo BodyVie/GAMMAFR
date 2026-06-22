@@ -39,7 +39,7 @@
             \nDepuis le menu principal :
             %s\n
             \n%s\n
-            \nPour personnaliser vos paramètres :
+            \nPour personnaliser vos paramètres :
             %s\n
             \n%s</text>
     </string>
@@ -123,7 +123,7 @@
     </string>
 
     <string id="ui_fft_tutorial_card_03_title">
-        <text>Avant de voyager, prenez note des éléments suivants :</text>
+        <text>Avant de voyager, prenez note des éléments suivants :</text>
     </string>
 
     <string id="ui_fft_tut_ftunlocked_03_content">
@@ -183,11 +183,11 @@
     </string>
 
     <string id="ui_fft_tut_ftunlocked_ft_playyourway">
-        <text>Et encore une fois, vous pouvez modifier ces fonctionnalités à votre guise dans le MCM :</text>
+        <text>Et encore une fois, vous pouvez modifier ces fonctionnalités à votre guise dans le MCM :</text>
     </string>
 
     <string id="ui_fft_tut_ftunlocked_ft_goodhunting">
-        <text>$clr_gldBonne chasse, stalker!</text>
+        <text>$clr_gldBonne chasse, stalker !</text>
     </string>
 
     <string id="ui_mcm_npe_module_fft_tutorial_fft_tut_travel_psyblocked">

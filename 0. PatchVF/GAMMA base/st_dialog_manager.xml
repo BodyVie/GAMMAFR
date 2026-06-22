@@ -3674,19 +3674,19 @@
 
 	<!-- Tasks -->
 	<string id="st_ordered_task_query">
-		<text>Avez-vous une mission à me confier?</text>
+		<text>Avez-vous une mission à me confier ?</text>
 	</string>
 	<string id="st_ordered_task_query_finished">
 		<text>La mission est accomplie.</text>
 	</string>
 	<string id="st_ordered_task_not_given_task">
-		<text>Comment? Je ne crois pas que vous ayez terminé ce que je vous ai demandé.</text>
+		<text>Comment ? Je ne crois pas que vous ayez terminé ce que je vous ai demandé.</text>
 	</string>
 	<string id="st_ordered_task_accept">
 		<text>Je m'en occupe.</text>
 	</string>
 	<string id="st_ordered_task_next">
-		<text>Avez-vous autre chose pour moi?</text>
+		<text>Avez-vous autre chose pour moi ?</text>
 	</string>
 	<string id="st_ordered_task_already">
 		<text>Terminez d'abord la tâche que je vous ai confiée avant d'en discuter.</text>
@@ -3695,7 +3695,7 @@
 		<text>Très bien.</text>
 	</string>
 	<string id="st_accepted_task_1">
-		<text>Parfait! Revenez me voir une fois la tâche terminée.</text>
+		<text>Parfait ! Revenez me voir une fois la tâche terminée.</text>
 	</string>
 	<string id="st_accepted_task_2">
 		<text>Réussissez pour moi, et je réussirai pour vous. Revenez me voir.</text>
@@ -3716,7 +3716,7 @@
 		<text>Désolé, j'ai rien.</text>
 	</string>
 	<string id="st_about_fetch_task_default">
-		<text>Je ne me souviens plus de ce que j'allais dire... Allez le chercher! Vous savez ce que je veux!</text>
+		<text>Je ne me souviens plus de ce que j'allais dire... Allez le chercher ! Vous savez ce que je veux !</text>
 	</string>
 	<string id="st_return_for_reward">
 		<text>Reviens chercher ta récompense.</text>
@@ -3733,7 +3733,7 @@
 		<text>Je n'ai pas pu accomplir la mission.</text>
 	</string>
 	<string id="st_task_none_active">
-		<text>De quelle mission s'agit-il?</text>
+		<text>De quelle mission s'agit-il ?</text>
 	</string>
 	<string id="st_ordered_task_query_cancel_next_job">
 		<text>Non, je travaille encore sur celle-ci.</text>
@@ -3745,7 +3745,7 @@
 		<text>Je suis déçu de vous, stalker.</text>
 	</string>
 	<string id="st_default_task_cancel_2">
-		<text>Quoi? Je pensais mieux de vous, stalker.</text>
+		<text>Quoi ? Je pensais mieux de vous, stalker.</text>
 	</string>
 	<string id="st_default_task_cancel_3">
 		<text>Je suppose que c'est ce à quoi je devais m'attendre d'une recrue.</text>

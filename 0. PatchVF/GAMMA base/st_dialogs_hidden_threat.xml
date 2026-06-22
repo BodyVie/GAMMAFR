@@ -7,7 +7,7 @@
 	Last Edit: 01/11/2021
 -->
 <string_table>
-    <!------------- Ïîëêîâíèê Êóçíåöîâ(Àãðîïðîì) ----------------->
+    <!--=========== Ïîëêîâíèê Êóçíåöîâ(Àãðîïðîì) ===============-->
 	<!-- D1 -->
     <string id="st_sl_hidden_threat_dialog_kuznetsov_d1_first_1">
         <text>Salut, camarade Colonel ! Le milstalker %s est arrivé à votre commandement !</text>
@@ -165,7 +165,7 @@
 	<string id="st_sl_hidden_threat_dialog_kuznetsov_d7_2_1">
 	    <text>J'ai capté. Je connais ce major, il m'a sauvé la peau à l'hôpital de Pripyat.</text>
 	</string>
-	<!--------------- Âûaeèâøèé ñòàëêåð(Êîðäîí) ------------------->
+	<!--============= Âûaeèâøèé ñòàëêåð(Êîðäîí) =================-->
 	<string id="st_sl_hidden_threat_dialog_survived_first_1">
 	    <text>Euh... comment ça... Qu'est-ce que je dois faire maintenant... </text>
 	</string>
@@ -190,7 +190,7 @@
 	<string id="st_sl_hidden_threat_dialog_survived_5_1">
 	    <text>Ouais, pas grand-chose. Bon, merci quand même. À plus, stalker.</text>
 	</string>
-	<!--------------- Ñåðaeàíò Ëîaeêèí(Àãðîïðîì) ------------------->
+	<!--============= Ñåðaeàíò Ëîaeêèí(Àãðîïðîì) =================-->
 	<!-- D1 -->
     <string id="st_sl_hidden_threat_dialog_spooner_d1_first_1">
 	    <text>Écoute, j'ai entendu dire que tu allais vers Cordon. J'ai un service à te demander. Emporte les rapports comptables au major Zhurov au barrage sud, si t'y passes. Qu'est-ce t'en dis, le major te devra une faveur ?</text>
@@ -285,7 +285,7 @@
 	<string id="st_sl_hidden_threat_dialog_spooner_d4_13_1">
 	    <text>J'ai changé d'avis.</text>
 	</string>
-	<!----------------- Ìàéîð AEóðîâ(Êîðäîí) ---------------------->
+	<!--=============== Ìàéîð AEóðîâ(Êîðäîí) ====================-->
 	<string id="st_sl_hidden_threat_dialog_jurov_first_1">
 	    <text>Camarade major ! J'ai apporté les documents de Agroprom.</text>
 	</string>
@@ -307,7 +307,7 @@
 	<string id="st_sl_hidden_threat_dialog_jurov_5_1">
 	    <text>Merci, camarade major.</text>
 	</string>
-	<!----------- Ñò.ëåéòåíàíò Êèðèëëîâ(Àãðîïðîì) ---------------->
+	<!--========= Ñò.ëåéòåíàíò Êèðèëëîâ(Àãðîïðîì) ==============-->
 	<!-- D1 -->
 	<string id="st_sl_hidden_threat_dialog_kirillov_d1_first_1">
 	    <text>Soldat, j'ai un service perso à te demander. Une des radios de notre unité qui garde l'installation dans la Vallée Obscure est en panne. Ils m'ont demandé d'en envoyer une nouvelle. J'ai besoin d'un coursier. T'es partant ?</text>
@@ -335,7 +335,7 @@
 	<string id="st_sl_hidden_threat_dialog_kirillov_d3_2_1">
 	    <text>Des cartes marquées, hein ? J'emmerde le PDA, t'inquiète pas pour ça. Je vais voir le colonel. Au revoir et merci.</text>
 	</string>
-	<!-------- Ðàíäîìíûé êîìàíäèð îòðÿäà(Òåìíàÿ äîëèíà) ---------->
+	<!--====== Ðàíäîìíûé êîìàíäèð îòðÿäà(Òåìíàÿ äîëèíà) ========-->
 	<string id="st_sl_hidden_threat_dialog_val_leader_squad_first_1">
 	    <text>Salut militaire-stalker, t'es venu pour quoi ici ?</text>
 	</string>
@@ -348,14 +348,14 @@
 	<string id="st_sl_hidden_threat_dialog_val_leader_squad_3_1">
 	    <text>Pas la peine de me remercier.</text>
 	</string>
-	<!---------- Ñåðaeàíò Ãîðîáåö(Îêðàèíû Ïðèïÿòè) ---------------->
+	<!--======== Ñåðaeàíò Ãîðîáåö(Îêðàèíû Ïðèïÿòè) ==============-->
 	<string id="st_sl_hidden_threat_dialog_gorobez_first_1">
 	    <text>J'espérais que t'arriverais pas... Désolé...</text>
 	</string>
 	<string id="st_sl_hidden_threat_dialog_gorobez_1_1">
 	    <text>De quoi tu parles, là ?</text>
 	</string>
-	<!----------- Ìàéîð Ýðíàíäåñ(Îêðàèíû Ïðèïÿòè) ---------------->
+	<!--========= Ìàéîð Ýðíàíäåñ(Îêðàèíû Ïðèïÿòè) ==============-->
 	<!-- D1 -->
 	<string id="st_sl_hidden_threat_dialog_isg_leader_d1_first_1">
 	    <text>T'as saboté deux de nos opérations, t'as l'air d'être un rapide, on a besoin de gars comme toi. Tu bosses pour nous, on te garde en sécurité. Évacuation de la Zone, une belle somme sur un compte dans n'importe quel pays du monde. T'as pas vraiment le choix, y'a que deux options.</text>
@@ -382,14 +382,14 @@
 	<string id="st_sl_hidden_threat_dialog_isg_leader_d2_5_1">
 	    <text>(silence...)</text>
 	</string>
-	<!----------- Ëåéòåíàíò Ãîäóíîâ(Îêðàèíû Ïðèïÿòè) ------------->
+	<!--========= Ëåéòåíàíò Ãîäóíîâ(Îêðàèíû Ïðèïÿòè) ===========-->
 	<string id="st_sl_hidden_threat_dialog_isg_agent_d1_first_1">
 	    <text>Écoute bien ! Je suis un major des SSU. Un autre jour, j'aurais pas levé le petit doigt pour sauver ta peau et risquer ma couverture avec l'ISG. Mais on dirait que c'est ton jour de chance. Toute notre opération est dans la merde. L'ISG a eu vent d'un stalker dont ils devaient pas connaître l'existence. Et aussi de la rencontre entre Degtyarev et ce stalker. Ils ont envoyé un groupe spécial pour éliminer Degtyarev et capturer un stalker. La rencontre aura lieu à l'auberge. Le groupe spécial prévoit d'entrer par l'entrée arrière et de pousser Degtyarev et ses rivaux au combat, vers une position ouverte pour le sniper dans la cour. Le sniper sera en planque dans la maison d'en face.\nT'as une dette envers moi ! Ta récompense, c'est de prévenir le colonel du piège. Retiens la phrase : « La mort n'attend pas, la vie non plus. » Sans le code, Degtyarev pourrait te loger une balle dans le front, au cas où. Et aussi, j'ai des infos d'une importance capitale, la trahison par communication est impossible, l'ISG capte toutes les fréquences. J'ai planqué la mallette dans un grand magasin et j'ai attendu le bon moment, et toi, t'es mon bon moment. Tu donneras à Degtyarev les infos sur la mallette dans le grand magasin. T'as compris ?</text>
 	</string>
 	<string id="st_sl_hidden_threat_dialog_isg_agent_d1_1_1">
 	    <text>Oui, je vais tout faire. Euh... Merci.</text>
 	</string>
-	<!---------- Ïîëêîâíèê Äåãòÿð¸â(Îêðàèíû Ïðèïÿòè) ------------->
+	<!--======== Ïîëêîâíèê Äåãòÿð¸â(Îêðàèíû Ïðèïÿòè) ===========-->
 	<!-- D1 -->
 	<string id="st_sl_hidden_threat_dialog_degtyarev_d1_first_1">
 	    <text>Faut que tu me dises un truc qui explique pourquoi t'es là. T'es allé où t'aurais pas dû ?</text>
@@ -409,7 +409,7 @@
 	<string id="st_sl_hidden_threat_dialog_degtyarev_d1_5_1">
 	    <text>Oui, camarade colonel !</text>
 	</string>
-	<!-------------- Ïîëêîâíèê Äåãòÿð¸â(Àãðîïðîì) ---------------->
+	<!--============ Ïîëêîâíèê Äåãòÿð¸â(Àãðîïðîì) ==============-->
 	<!-- D2 -->
 	<string id="st_sl_hidden_threat_dialog_degtyarev_d2_first_1">
 	    <text>T'as récupéré la mallette ?</text>
@@ -493,7 +493,7 @@
 	<string id="st_sl_hidden_threat_dialog_degtyarev_d6_2_1">
 	    <text>Fais-leur voir de quel bois tu te chauffes, commandant.</text>
 	</string>
-	<!--------------- Ìàéîð Âåðåùàãèí(Àãðîïðîì) ------------------>
+	<!--============= Ìàéîð Âåðåùàãèí(Àãðîïðîì) ================-->
 	<!-- D1 -->
 	<string id="st_sl_hidden_threat_dialog_vereshagin_d1_first_1">
 	    <text>Je vais te résumer la situation. Vous avez un peu flippé, alors j'ai dû intervenir. Pendant que vous vous occupiez du groupe de la CNPP, qui servait aussi de couverture, l'escouade principale, avec leurs grosses têtes, a pénétré dans le X-8 et a apparemment trouvé quelque chose qu'ils devaient pas trouver. Du coup, Hernandez, le chef de la mission de combat de l'ISG dans la Zone, a ordonné de plier bagage et de se préparer à évacuer. Tu sens ça, soldat ?! Moi, je sens quelque chose de pas net. Le chef des SSU, en communication opérationnelle, a donné le feu vert pour liquider le QG de l'ISG et ne pas laisser sortir les infos qu'ils ont déterrées pendant tout ce temps. L'Ukraine va en subir les conséquences diplomatiques, mais c'est bien moins important que les infos que l'ISG pourrait avoir, et si ça sort à l'ONU.\nL'ISG a choisi pour leur base un super endroit pour se planquer, mais dégueulasse en termes de stratégie. On les a coincés du côté de Pripyat et du côté de Jupiter, c'était pas difficile. La souris, elle passera pas. Maintenant, le plus dur, ce que tu dois faire. Mène une équipe d'assaut de combattants expérimentés et nettoie ce nid de rats. Tu rentres, et quiconque te tire dessus doit être éliminé. Ou je mets quelqu'un d'autre à ta place, et toi, tu veux ta maman ?</text>
@@ -517,7 +517,7 @@
 	<string id="st_sl_hidden_threat_dialog_vereshagin_d2_2_1">
 	    <text>Merci, camarade major.</text>
 	</string>
-	<!------------ Ðàíäîìíûé êîìàíäèð îòðÿäà(CNPP) --------------->
+	<!--========== Ðàíäîìíûé êîìàíäèð îòðÿäà(CNPP) =============-->
 	<string id="st_sl_hidden_threat_dialog_aes_leader_squad_first_1">
 	    <text>Rapport ! On a fait de la reconnaissance, les observateurs signalent que les monochromes tiennent l'entrée principale, les mercs les serrent de près. Le combat est indécis, mais le Monolithe regroupe ses forces et bientôt, les mercs vont se faire défoncer.</text>
 	</string>
@@ -536,7 +536,7 @@
 	<string id="st_sl_hidden_threat_dialog_aes_leader_squad_5_1">
 	    <text>On a pas beaucoup de temps, pas le temps de vérifier, alors on va tenter le coup et y aller à l'aveugle. De toute façon, on a plus rien à faire ici, alors autant laisser les mesures distraire les monochromes. Réveille les gars, on se casse !</text>
 	</string>
-	<!-------------- Ðàíäîìíûé àãåíò SSU(Þïèòåð) ----------------->
+	<!--============ Ðàíäîìíûé àãåíò SSU(Þïèòåð) ===============-->
 	<string id="st_sl_hidden_threat_dialog_jup_agent_d1_first_1">
 	    <text>Équipe d'assaut en alerte. On lance l'assaut ?</text>
 	</string>
@@ -546,7 +546,7 @@
 	<string id="st_sl_hidden_threat_dialog_jup_agent_d1_2_1">
 	    <text>Pas encore.</text>
 	</string>
-	<!--------------- Ñóùíîñòü(Òåìíàÿ ëîùèíà) -------------------->
+	<!--============= Ñóùíîñòü(Òåìíàÿ ëîùèíà) ==================-->
 	<string id="st_sl_hidden_threat_dialog_spirit_d1_first_1">
 	    <text>On a quoi ? Des traces de sang dehors. Pas de douilles, ça veut dire que la sentinelle s'est fait surprendre et a pas riposté. Voyons voir la suite...</text>
 	</string>
@@ -556,7 +556,7 @@
 	<string id="st_sl_hidden_threat_dialog_spirit_d2_first_1">
 	    <text>Un Stalkers à l'intérieur du bâtiment n'a pas réalisé tout de suite ce qui se passait et s'est fait attaquer par deux entrées, presque sans résistance. Des douilles de 5,56x45 OTAN... ça ressemble à des mercenaires. Hmm... l'attaque remonte à deux jours, et les braises du feu sont encore chaudes. Les assaillants ont campé ici et je les ai ratés de peu. Qui que ce soit, ils ne sont plus là, alors il est temps de retourner voir Kuznetsov.</text>
 	</string>
-	<!------------------- Îáùèå äèàëîãè -------------------------->
+	<!--================= Îáùèå äèàëîãè ========================-->
 	<string id="st_sl_hidden_threat_dialog_all_1_1">
 	    <text>Reçu, commandant.</text>
 	</string>
@@ -581,7 +581,7 @@
 	<string id="st_sl_hidden_threat_dialog_all_3_1">
 	    <text>J'ai changé d'avis.</text>
 	</string>
-	<!----------------------- Notes ------------------------------>
+	<!--===================== Notes ============================-->
 	<string id="encyclopedia__notes_note_from_spooner">
 		<text>Une note du sergent Lozhkin.</text>
 	</string>

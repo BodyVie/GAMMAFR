@@ -4,7 +4,7 @@
 
 <!-- Trading / Repair dialog -->
 	<string id="st_stalker_trade_dialog_init">
-		<text>T'as quelque chose à vendre? %c[d_orange][Échanger]</text>
+		<text>T'as quelque chose à vendre ? %c[d_orange][Échanger]</text>
 	</string>
 	<string id="st_stalker_trade_dialog_reply_1">
 		<text>Attends rien de fancy. Voici ce que j'ai.</text>
@@ -62,10 +62,10 @@
 	</string>
 	
 	<string id="st_bartender_dialog_init">
-		<text>T'as quoi à vendre? %c[d_orange][Échanger]</text>
+		<text>T'as quoi à vendre ? %c[d_orange][Échanger]</text>
 	</string>
 	<string id="st_bartender_dialog_reply_1">
-		<text>Bouffe, boissons, clopes... T'en veux quoi?</text>
+		<text>Bouffe, boissons, clopes... T'en veux quoi ?</text>
 	</string>
 	<string id="st_bartender_dialog_reply_2">
 		<text>T'as la dalle ? J'ai exactement ce qu'il te faut...</text>
@@ -897,7 +897,7 @@
 		<text>Tu sais comment aller à Pripyat ?</text>
 	</string>
 	<string id="about_quests_dialog_bandit_40">
-		<text>Qui je pourrais engager pour protéger les scientifiques?</text>
+		<text>Qui je pourrais engager pour protéger les scientifiques ?</text>
 	</string>
 	<string id="about_quests_dialog_bandit_403">
 		<text>Hah, moi et les gars, on va s'en occuper ! On va leur filer une protection comme ils en ont jamais vue ! Les Stalkers et les mutants vont avoir la trouille de s'approcher de ce putain d'endroit, crois-moi ! Balance le fric chaque semaine, et on est à toi. Et n'oublie pas la prime de Noël !</text>
@@ -1094,7 +1094,7 @@
 		<text>Tu sais comment aller à Pripyat ?</text>
 	</string>
 	<string id="about_quests_dialog_dolg_40">
-		<text>Qui je pourrais engager pour protéger les scientifiques?</text>
+		<text>Qui je pourrais engager pour protéger les scientifiques ?</text>
 	</string>
 	<string id="about_quests_dialog_dolg_401">
 		<text>Ils trouveront pas mieux comme protection que celle de Devoir. Va voir le lieutenant-colonel Shulga à Yanov - je suis sûr que vous allez vous entendre.</text>
@@ -1306,7 +1306,7 @@
 		<text>Tu sais comment aller à Pripyat ?</text>
 	</string>
 	<string id="about_quests_dialog_freedom_40">
-		<text>Qui je pourrais engager pour protéger les scientifiques?</text>
+		<text>Qui je pourrais engager pour protéger les scientifiques ?</text>
 	</string>
 	<string id="about_quests_dialog_freedom_401">
 		<text>Liberté, nous autres, quoi. On bosse avec les scientifiques tout le temps, alors les garder, ce serait du gâteau pour nous. Parle à notre boss Loki à Yanov - il sera d'accord, c'est sûr.</text>
@@ -1563,7 +1563,7 @@
 		<text>Tu sais comment aller à Pripyat ?</text>
 	</string>
 	<string id="about_quests_dialog_stalkers_40">
-		<text>Qui je pourrais engager pour protéger les scientifiques?</text>
+		<text>Qui je pourrais engager pour protéger les scientifiques ?</text>
 	</string>
 	<string id="about_quests_dialog_stalkers_401">
 		<text>Tu connais Spartacus et son escouade ? Tu vois, les stalkers à Zaton ? C'est des bons gars et des combattants solides - ils ont vu du pays et en ont ramené des souvenirs. J'ai dans l'idée qu'ils seraient partants pour garder les scientifiques.</text>
@@ -1835,7 +1835,7 @@
 		<text>D'accord. Merci quand même...</text>
 	</string>
 	<string id="dm_dialog_companion_final_words_bad_alone_2">
-		<text>Putain, mec! C'est quoi ton problème?</text>
+		<text>Putain, mec ! C'est quoi ton problème ?</text>
 	</string>
 	<string id="dm_dialog_companion_final_words_good_1">
 		<text>Super à entendre ! Allez, les gars !</text>
@@ -1964,7 +1964,7 @@
 		<text>Ouais, ça a l'air top ! Montre le chemin.</text>
 	</string>
 	<string id="axr_phrase_friend_companion_ask_join_hostage">
-		<text>Tu viens avec moi sauver ton pote?</text>
+		<text>Tu viens avec moi sauver ton pote ?</text>
 	</string>
 	<string id="axr_phrase_friend_companion_answer_join_hostage">
 		<text>Ouais, il a besoin de notre aide ! Montre-nous le chemin.</text>
