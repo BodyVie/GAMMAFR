@@ -74,3 +74,80 @@ test("resolveFiles : entrée vide ne casse pas", () => {
   assert.deepEqual(core.resolveFiles([]), { files: [], warnings: [] });
   assert.deepEqual(core.resolveFiles(), { files: [], warnings: [] });
 });
+
+test("buildConfigText : en-tête, niveau et sections lisibles", () => {
+  const txt = core.buildConfigText(
+    "extra",
+    [
+      { title: "Patchs G.A.M.M.A. tweak", items: ["94- A", "208- B"] },
+      { title: "Patchs G.A.M.M.A. extra", items: ["1. C"] }
+    ],
+    { app: "1.2.3", savedAt: "2026-06-23T00:00:00Z" }
+  );
+  assert.ok(txt.includes("ModListeConfigurateur"), "contient le marqueur");
+  assert.ok(/^#/.test(txt), "commence par un commentaire d'en-tête");
+  assert.ok(txt.includes("Niveau = extra"));
+  assert.ok(txt.includes("# Version du site : 1.2.3"));
+  assert.ok(txt.includes("94- A") && txt.includes("208- B") && txt.includes("1. C"));
+});
+
+test("buildConfigText : sections vides omises", () => {
+  const txt = core.buildConfigText("tweak", [
+    { title: "Patchs G.A.M.M.A. tweak", items: ["94- A"] },
+    { title: "Patchs G.A.M.M.A. extra", items: [] }
+  ], {});
+  assert.ok(txt.includes("# Patchs G.A.M.M.A. tweak"));
+  assert.ok(!txt.includes("# Patchs G.A.M.M.A. extra"), "section vide non écrite");
+});
+
+test("parseConfigText : restaure la sélection, sépare les introuvables", () => {
+  const txt = core.buildConfigText("tweak", [
+    { title: "Patchs G.A.M.M.A. tweak", items: ["A", "B", "Z"] }
+  ], {});
+  const res = core.parseConfigText(txt, (level) => {
+    assert.equal(level, "tweak");
+    return ["A", "B", "C"];
+  });
+  assert.equal(res.level, "tweak");
+  assert.deepEqual(res.selected, { A: true, B: true });
+  assert.deepEqual(res.matched, ["A", "B"]);
+  assert.deepEqual(res.missing, ["Z"]); // n'existe plus dans le pack courant
+});
+
+test("parseConfigText : tolère le BOM UTF-8, les commentaires et « Niveau: »", () => {
+  const txt = "﻿# ModListeConfigurateur\r\nNiveau: EXTRA\r\n# section\r\nA\r\n";
+  const res = core.parseConfigText(txt, ["A", "B"]);
+  assert.equal(res.level, "extra");
+  assert.deepEqual(res.matched, ["A"]);
+});
+
+test("parseConfigText : niveau base ignore les patchs", () => {
+  const txt = "# ModListeConfigurateur\nNiveau = base\nX\n";
+  const res = core.parseConfigText(txt, ["X"]);
+  assert.deepEqual(res.selected, {});
+  assert.deepEqual(res.missing, []);
+});
+
+test("parseConfigText : rejette un fichier non compatible (sans marqueur)", () => {
+  assert.throws(() => core.parseConfigText("Niveau = extra\nA\n", ["A"]), /non compatible/i);
+  assert.throws(() => core.parseConfigText(42, []), /illisible/i);
+});
+
+test("parseConfigText : rejette un niveau manquant ou inconnu", () => {
+  assert.throws(() => core.parseConfigText("# ModListeConfigurateur\nA\n", ["A"]), /niveau/i);
+  assert.throws(
+    () => core.parseConfigText("# ModListeConfigurateur\nNiveau = ultra\n", []),
+    /niveau/i
+  );
+});
+
+test("buildConfigText → parseConfigText : aller-retour conserve la sélection", () => {
+  const txt = core.buildConfigText("extra", [
+    { title: "Patchs G.A.M.M.A. tweak", items: ["A"] },
+    { title: "Patchs G.A.M.M.A. extra", items: ["C"] }
+  ], { savedAt: "x" });
+  const res = core.parseConfigText(txt, ["A", "B", "C"]);
+  assert.equal(res.level, "extra");
+  assert.deepEqual(res.selected, { A: true, C: true });
+  assert.deepEqual(res.missing, []);
+});

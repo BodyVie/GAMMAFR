@@ -524,6 +524,64 @@ a:hover { text-decoration: underline; }
 
 .options { display: flex; flex-direction: column; gap: 10px; }
 
+/* ---- Reprise d'une sélection (ModListeConfigurateur.txt) --------------------
+   Panneau sous la sélection du niveau : titre, zone de glisser-déposer
+   (également cliquable) puis texte explicatif éditable (IMPORT_HELP_TEXT). */
+.import {
+  margin-top: 26px;
+  padding-top: 22px;
+  border-top: 1px dashed var(--line);
+}
+.import__head { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+.import__glyph { color: var(--rad); font-size: 16px; line-height: 1; }
+.import__title {
+  font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--text);
+}
+.import__file { display: none; }
+.import__help {
+  margin-top: 12px;
+  color: var(--dim);
+  font-size: 13px;
+  line-height: 1.6;
+  white-space: pre-wrap; /* conserve les sauts de ligne de IMPORT_HELP_TEXT */
+}
+
+/* zone de dépôt */
+.dropzone {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 6px;
+  min-height: 120px;
+  padding: 22px;
+  text-align: center;
+  border: 2px dashed var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--dim);
+  cursor: pointer;
+  transition: border-color 0.12s ease, background 0.12s ease, color 0.12s ease;
+}
+.dropzone > * { pointer-events: none; } /* seuls les évènements de .dropzone comptent */
+.dropzone:hover { border-color: var(--dim-2); color: var(--text); }
+.dropzone:focus-visible { outline: 2px solid var(--rad); outline-offset: 2px; }
+.dropzone.is-dropping {
+  border-color: var(--rad);
+  background: var(--rad-soft);
+  color: var(--rad);
+}
+.dropzone__glyph { font-size: 26px; line-height: 1; color: var(--rad); }
+.dropzone__title { font-size: 13px; font-weight: 700; letter-spacing: 0.04em; color: var(--text); }
+.dropzone__hint { font-size: 12px; color: var(--dim); }
+
+/* bandeau de retour après dépôt (réutilise .notice) */
+.import-notice { display: flex; align-items: flex-start; gap: 12px; }
+.import-notice__text { flex: 1; }
+.import-notice__x {
+  appearance: none; flex: none; border: none; background: transparent; cursor: pointer;
+  color: var(--dim); font-family: var(--mono); font-size: 18px; line-height: 1; padding: 0 2px;
+}
+.import-notice__x:hover { color: var(--text); }
+
 .opt {
   display: flex;
   gap: 14px;
@@ -785,6 +843,7 @@ a:hover { text-decoration: underline; }
 }
 .notice.is-shown { display: block; }
 .notice--ok { border: 1px solid var(--ok); background: rgba(127,176,105,0.10); color: var(--text); }
+.notice--warn { border: 1px solid var(--amber); background: var(--amber-soft); color: var(--text); }
 .notice--err { border: 1px solid var(--rust); background: var(--rust-soft); color: var(--text); }
 
 /* =========================================================================

@@ -29,6 +29,20 @@
   // configurateur d'installation (piloté par data/patches.json, généré)
   var manifest = null;
   var conf = { level: null, selected: {}, step: 0 };
+  // Bandeau de retour après dépôt d'un ModListeConfigurateur.txt : { kind, text }
+  // avec kind = "ok" | "warn" | "err". Affiché sous le fil d'étapes.
+  var importMsg = null;
+
+  // ════════════════════════════════════════════════════════════════════════
+  //  TEXTE EXPLICATIF DU GLISSER-DÉPOSER (mode opératoire)
+  //  → À ÉDITER LIBREMENT : il s'affiche sous la zone de dépôt, à l'étape
+  //    « Niveau » du configurateur. Les sauts de ligne (\n) sont conservés.
+  //    Mettre "" pour n'afficher aucun texte.
+  // ════════════════════════════════════════════════════════════════════════
+  var IMPORT_HELP_TEXT =
+    "À écrire : explique ici à quoi sert le ModListeConfigurateur.txt et comment "
+    + "récupérer sa sélection (ce texte est un exemple, remplace-le).";
+  // ════════════════════════════════════════════════════════════════════════
 
   // session admin (en mémoire uniquement) + cache des données éditables
   var admin = { pwd: "", unlocked: false };
@@ -1016,6 +1030,7 @@
     if (conf.step >= names.length) conf.step = names.length - 1;
 
     host.appendChild(renderStepMarkers(names));
+    if (importMsg) host.appendChild(renderImportNotice());
 
     var card = el("div", { class: "card" });
     var cur = names[conf.step];
@@ -1099,6 +1114,9 @@
         ])
       ]);
       var pick = function () {
+        // Choix manuel d'un niveau = nouveau départ : on retire le bandeau de
+        // restauration éventuel pour ne pas laisser une info devenue trompeuse.
+        importMsg = null;
         conf.level = lv.id;
         if (lv.id === "base") conf.selected = {};
         renderConfigurator();
@@ -1108,7 +1126,141 @@
       box.appendChild(row);
     });
     frag.appendChild(box);
+    frag.appendChild(renderImportPanel());
     return frag;
+  }
+
+  /* ---- reprise d'une sélection (ModListeConfigurateur.txt) -----------------
+     Sous la sélection du niveau : une zone de glisser-déposer (aussi cliquable
+     pour ouvrir le sélecteur de fichier), puis le texte explicatif éditable
+     (IMPORT_HELP_TEXT). Seul ModListeConfigurateur*.txt est accepté ; tout autre
+     fichier déclenche un message « non compatible » (cf. handleConfigFile). */
+  function renderImportPanel() {
+    var input = el("input", {
+      type: "file", accept: ".txt,text/plain", class: "import__file",
+      "aria-label": "Fichier " + GammaCore.CONFIG_FILE_NAME
+    });
+    input.addEventListener("change", function () {
+      if (input.files && input.files[0]) handleConfigFile(input.files[0]);
+      input.value = ""; // permet de re-déposer le même fichier ensuite
+    });
+
+    var zone = el("div", {
+      class: "dropzone", role: "button", tabindex: "0",
+      "aria-label": "Glisser-déposer ou choisir le fichier " + GammaCore.CONFIG_FILE_NAME
+    }, [
+      el("span", { class: "dropzone__glyph", "aria-hidden": "true", text: "↧" }),
+      el("span", { class: "dropzone__title", text: "Glissez ici votre " + GammaCore.CONFIG_FILE_NAME }),
+      el("span", { class: "dropzone__hint", text: "ou cliquez pour le sélectionner" })
+    ]);
+    function openPicker() { input.click(); }
+    zone.addEventListener("click", openPicker);
+    zone.addEventListener("keydown", function (ev) {
+      if (ev.key === " " || ev.key === "Enter") { ev.preventDefault(); openPicker(); }
+    });
+    // Les enfants de .dropzone ont pointer-events:none (CSS) : seuls les
+    // évènements de la zone elle-même comptent, d'où une surbrillance sans
+    // clignotement, sans compteur d'entrées/sorties.
+    function hasFiles(e) {
+      var dt = e.dataTransfer;
+      if (!dt) return false;
+      if (!dt.types) return true;
+      for (var i = 0; i < dt.types.length; i++) if (dt.types[i] === "Files") return true;
+      return false;
+    }
+    zone.addEventListener("dragenter", function (e) { if (!hasFiles(e)) return; e.preventDefault(); zone.classList.add("is-dropping"); });
+    zone.addEventListener("dragover", function (e) { if (!hasFiles(e)) return; e.preventDefault(); if (e.dataTransfer) e.dataTransfer.dropEffect = "copy"; });
+    zone.addEventListener("dragleave", function () { zone.classList.remove("is-dropping"); });
+    zone.addEventListener("drop", function (e) {
+      if (!hasFiles(e)) return;
+      e.preventDefault(); zone.classList.remove("is-dropping");
+      var f = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0];
+      if (f) handleConfigFile(f);
+    });
+
+    var panel = el("div", { class: "import" }, [
+      el("div", { class: "import__head" }, [
+        el("span", { class: "import__glyph", "aria-hidden": "true", text: "↻" }),
+        el("span", { class: "import__title", text: "Reprendre une sélection sauvegardée" })
+      ]),
+      zone,
+      input
+    ]);
+    // Texte explicatif éditable, SOUS la zone de dépôt (cf. IMPORT_HELP_TEXT).
+    if (IMPORT_HELP_TEXT && IMPORT_HELP_TEXT.trim()) {
+      panel.appendChild(el("div", { class: "import__help", text: IMPORT_HELP_TEXT }));
+    }
+    return panel;
+  }
+
+  // Bandeau de retour après un dépôt (succès / avertissement / erreur), affiché
+  // sous le fil d'étapes. Bouton « × » pour le masquer.
+  function renderImportNotice() {
+    var tone = importMsg.kind === "ok" ? "notice--ok"
+      : (importMsg.kind === "warn" ? "notice--warn" : "notice--err");
+    return el("div", { class: "notice is-shown import-notice " + tone, role: "status", "aria-live": "polite" }, [
+      el("span", { class: "import-notice__text", text: importMsg.text }),
+      el("button", {
+        class: "import-notice__x", type: "button", "aria-label": "Masquer ce message", text: "×",
+        onClick: function () { importMsg = null; renderConfigurator(); }
+      })
+    ]);
+  }
+
+  // Reçoit un fichier (déposé ou choisi), n'accepte que ModListeConfigurateur*.txt,
+  // restaure la sélection et saute au récapitulatif. Tout retour passe par importMsg.
+  function handleConfigFile(file) {
+    if (!file) return;
+    if (!configuratorEnabled()) {
+      importMsg = { kind: "err", text: "MAINTENANCE : configurateur désactivé." };
+      renderConfigurator();
+      return;
+    }
+    var name = String(file.name || "");
+    // Seul notre fichier est admis (tolère un suffixe « (1) » ajouté au
+    // re-téléchargement par le navigateur).
+    if (!/^ModListeConfigurateur.*\.txt$/i.test(name)) {
+      importMsg = { kind: "err", text: "Fichier non compatible : seul « " + GammaCore.CONFIG_FILE_NAME + " » est accepté (reçu : « " + (name || "sans nom") + " »)." };
+      renderConfigurator();
+      return;
+    }
+    var reader = new FileReader();
+    reader.onerror = function () {
+      importMsg = { kind: "err", text: "Lecture du fichier impossible." };
+      renderConfigurator();
+    };
+    reader.onload = function () {
+      var res;
+      try {
+        res = GammaCore.parseConfigText(String(reader.result), function (level) {
+          return availablePatches(level).map(function (p) { return p.id; });
+        });
+      } catch (e) {
+        importMsg = { kind: "err", text: e.message || "Fichier non compatible." };
+        renderConfigurator();
+        return;
+      }
+      conf.level = res.level;
+      conf.selected = res.selected;
+      conf.step = stepNames().length - 1; // saute au Récapitulatif
+      importMsg = buildImportMsg(res);
+      renderConfigurator();
+    };
+    reader.readAsText(file);
+  }
+
+  // Compose le texte du bandeau de restauration à partir du résultat de parseConfigText.
+  function buildImportMsg(res) {
+    var lvLabel = (LEVELS.filter(function (l) { return l.id === res.level; })[0] || {}).label || res.level;
+    var nOk = res.matched.length, nKo = res.missing.length;
+    function plur(n) { return n > 1 ? "s" : ""; }
+    if (res.level === "base") {
+      return { kind: "ok", text: "Sélection restaurée (" + lvLabel + ") : niveau de base, aucun patch à cocher." };
+    }
+    if (nKo) {
+      return { kind: "warn", text: "Sélection restaurée (" + lvLabel + ") : " + nOk + " patch" + plur(nOk) + " recoché" + plur(nOk) + ". " + nKo + " introuvable" + plur(nKo) + " (ignoré" + plur(nKo) + "), sans doute renommé" + plur(nKo) + " ou retiré" + plur(nKo) + " du pack depuis la sauvegarde : " + res.missing.join(", ") };
+    }
+    return { kind: "ok", text: "Sélection restaurée (" + lvLabel + ") : " + nOk + " patch" + plur(nOk) + " recoché" + plur(nOk) + "." };
   }
 
   function renderPatchStep(patches, opts) {
@@ -1493,6 +1645,19 @@
       var hasMeta = entries.some(function (e) { return e.name.toLowerCase() === "meta.ini"; });
       if (!hasMeta) {
         entries.push({ name: "meta.ini", data: strBytes(buildMetaIni(metaVersion, zipName)) });
+      }
+      // ModListeConfigurateur.txt : sauvegarde lisible de la s\u00e9lection, ajout\u00e9e
+      // automatiquement \u00e0 la racine de l'archive. Re-d\u00e9pos\u00e9e dans le configurateur
+      // (\u00e9tape \u00ab Niveau \u00bb), elle recoche toute la s\u00e9lection en un clic. BOM UTF-8
+      // en t\u00eate pour un affichage correct des accents sous Windows (Bloc-notes).
+      var cfgName = GammaCore.CONFIG_FILE_NAME;
+      var hasCfg = entries.some(function (e) { return baseName(e.name).toLowerCase() === cfgName.toLowerCase(); });
+      if (!hasCfg) {
+        var cfgText = GammaCore.buildConfigText(r.level, [
+          { title: "Patchs G.A.M.M.A. tweak", items: r.patches.filter(function (p) { return p._section === "Tweak"; }).map(function (p) { return p.id; }) },
+          { title: "Patchs G.A.M.M.A. extra", items: r.patches.filter(function (p) { return p._section === "Extra"; }).map(function (p) { return p.id; }) }
+        ], { app: metaVersion, savedAt: new Date().toISOString() });
+        entries.push({ name: cfgName, data: strBytes("\ufeff" + cfgText) });
       }
       // fomod/info.xml : on injecte les m\u00e9tadonn\u00e9es lues par l'installeur FOMOD
       // (qui recr\u00e9e le meta.ini \u00e0 partir de ce fichier, \u00e9crasant le n\u00f4tre).
