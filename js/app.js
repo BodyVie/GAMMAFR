@@ -1212,7 +1212,9 @@
   }
 
   // Reçoit un fichier (déposé ou choisi), n'accepte que ModListeConfigurateur*.txt,
-  // restaure la sélection et saute au récapitulatif. Tout retour passe par importMsg.
+  // restaure la sélection et reste sur l'étape « Niveau » : l'utilisateur peut
+  // avancer (« Suivant ») et ajuster sa liste avant le récapitulatif. Tout retour
+  // passe par importMsg.
   function handleConfigFile(file) {
     if (!file) return;
     if (!configuratorEnabled()) {
@@ -1246,7 +1248,7 @@
       }
       conf.level = res.level;
       conf.selected = res.selected;
-      conf.step = stepNames().length - 1; // saute au Récapitulatif
+      conf.step = 0; // reste sur l'étape « Niveau » : l'utilisateur peut avancer et ajuster sa liste
       importMsg = buildImportMsg(res);
       renderConfigurator();
     };
