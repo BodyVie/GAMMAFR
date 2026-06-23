@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!-- Sergeant Spooner (Military Trader) -->
+	<string id="guid_agr_mlr_military_0">
+		<text>Tu peux organiser un voyage ? Faut que j'aille quelque part.</text>
+	</string>
+	<string id="guid_agr_mlr_military_1">
+		<text>Ouais, je peux t'emmener au Cordon et à Yantar... Attends, t'es qui, d'abord ? Je fais du transport, mais pas pour un simple soldat comme toi. Dégage.</text>
+	</string>
+
+	<string id="guid_agr_mlr_military_list_0">
+		<text>Tu voles vers où, déjà ?</text>
+	</string>
+	<string id="guid_agr_mlr_military_list_1">
+		<text>Vers notre checkpoint dans le Cordon pour cinq mille roubles, ainsi que la base à Yantar pour sept mille.</text>
+	</string>
+
+	<string id="guid_agr_mlr_military_vert_0">
+		<text>J'ai besoin d'un pilote.</text>
+	</string>
+	<string id="guid_agr_mlr_military_vert_1">
+		<text>Bon, notre prochain vol décolle bientôt. Destination ?</text>
+	</string>
+	<string id="guid_agr_mlr_military_vert_2">
+		<text>Vers le checkpoint dans le Cordon. %c[d_orange][5000 RU]</text>
+	</string>
+	<string id="guid_agr_mlr_military_vert_3">
+		<text>Vers la base à Yantar. %c[d_orange][7000 RU]</text>
+	</string>
+	<string id="guid_agr_mlr_military_vert_4">
+		<text>J'ai changé d'avis.</text>
+	</string>
+	
+	<string id="find_blackbox_mlr_reward_army_0">
+		<text>J'ai trouvé un enregistreur de vol dans l'épave d'un hélico.</text>
+	</string>
+	<string id="find_blackbox_mlr_reward_army_1">
+		<text>Belle trouvaille ! Bien joué, soldat.</text>
+	</string>
+
+	
+<!-- Military - Medic -->
+	<string id="rogovets_about_himself_1_6_army_mlr_0">
+		<text>Parle-moi de toi.</text>
+	</string>
+	<string id="rogovets_about_himself_1_6_army_mlr_1">
+		<text>Je suis le médecin attaché à cette base. J'suis arrivé dans la Zone sous contrat il y a des années. Après quelques préparatifs, j'ai réussi à me faire affecter au prestigieux Groupe Fairway. Malheureusement, l'Opération Fairway elle-même a été un échec. On a eu peu de choix que de se terrer à Pripyat - enfin, ceux d'entre nous qui étaient encore en vie, au moins - jusqu'à ce qu'un enquêteur du SSU débarque et nous aide à évacuer.\n\nJe suis content d'être débarrassé de cet endroit. Il s'y passe des trucs bizarres tout le temps dans cette ville maudite, et une de mes expériences les plus cheloues, c'était de me réveiller dans un frigo verrouillé. À ce jour, j'ai aucune idée de comment j'ai atterri là, ni de ce que je foutais avant. Les autres me charriaient avec ça, mais je me souviens de la sueur, du manque d'air, du voile devant mes yeux. Quand les soldats ont commencé à croiser le fameux Controllers « mythique », bon, disons que les moqueries ont cessé.</text>
+	</string>
+	<string id="rogovets_about_himself_1_6_army_mlr_2">
+		<text>Et ensuite, qu'est-ce qui s'est passé ? Pourquoi t'as pas lâché l'affaire ?</text>
+	</string>
+	<string id="rogovets_about_himself_1_6_army_mlr_3">
+		<text>Oh, j'ai « lâché » un moment, en fait. Ou plutôt, je suis passé en réserve. Après que mon commandant a été viré à cause de l'échec de l'Opération Fairway, j'ai eu comme un goût amer dans la bouche. Alors, j'ai quitté le service actif dès que j'ai pu pour avancer dans ma carrière médicale. Pourtant, y'a quelque chose de spécial à soigner des soldats, et j'avais l'impression de les abandonner si je revenais pas. C'est pas la faute des troufions si certains de l'état-major sont - euh, hem, ahem.\n\nComme je disais, le style de commandement du colonel Kuznetsov est pas vraiment celui de mon ancien chef, l'ex-colonel Kovalsky. Mais je suis content de garder les gars en vie, quand même. Je serais encore plus content si cet enquêteur du SSU - le colonel Degtyarev - prenait un rôle plus actif dans le coin, mais je suppose que c'est déjà bien de savoir qu'il est encore dans le secteur, à traîner quelque part dans la Zone. Il m'a sauvé la peau plus de fois que j'ose l'avouer.  </text>
+	</string>
+	<string id="rogovets_about_himself_1_6_army_mlr_4">
+		<text>Compris. Merci pour le partage, mais faut que je retourne bosser.</text>
+	</string>
+	
+	<string id="rogovets_hello_1_6_army_mlr_0">
+		<text>Hein ? Ah, c'est toi...</text>
+	</string>
+
+	
+<!-- Commander, barman in Agroprom -->
+	<string id="barmen_about_himself_1_6_army_mlr_0">
+		<text>C'est qui, toi ?</text>
+	</string>
+	<string id="barmen_about_himself_1_6_army_mlr_1">
+		<text>Ben, je suis le barman local - ou le gestionnaire des provisions, comme tu préfères. Les gars d'ici m'appellent Commandant. Mon premier passage dans la Zone, c'était comme liquidateur, à nettoyer autour de la centrale après l'accident de 86. Je suis pas vraiment d'ici, mais après la chute de l'Union soviétique, j'ai décidé de rester dans la Zone sous contrat. J'ai un peu d'expérience, haha. </text>
+	</string>
+	<string id="barmen_about_himself_1_6_army_mlr_2">
+		<text>C'était comment, le nettoyage après le premier accident ?</text>
+	</string>
+	<string id="barmen_about_himself_1_6_army_mlr_3">
+		<text>Ben, j'étais bien plus jeune à l'époque - juste un appelé de l'armée, tu vois ? Pas le demi-centenaire que tu vois aujourd'hui. J'ai eu de la chance. J'ai jamais fait que rincer la poussière des villages vides et retourner la terre après. Les officiers mesuraient la radioactivité, et moi, j'étais envoyé nettoyer. Mais les liquidateurs près de la centrale, eux, c'était une autre paire de manches. Là-bas, même notre matos claquait à cause des retombées, sans parler des gens. Imagine un peu.\n\nAlors, ils nettoyaient les toits du graphite avec des putains de pelles. Mais fallait le faire, pour le bien de l'État - peu importe ce que ça veut dire maintenant. Avant, je trouvais la radioactivité bizarre - comment elle maudit certains et épargne d'autres, comme Dyatlov, qui a survécu pour finir en prison. Mais comparé à ce qui se passe depuis 2006, je sais plus. Y'a des trucs bien plus étranges que la radioactivité, ces temps-ci.</text>
+	</string>
+</string_table>

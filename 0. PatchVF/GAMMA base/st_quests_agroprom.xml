@@ -10,12 +10,12 @@
 
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- STORYLINE TASK TEXT  STRINGS
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< STORYLINE TASK TEXT  STRINGS
+	<
+	< ========================================================================================= -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Kuznetsov (Military Honcho) Default Storyline Task -->
 
 	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_default_task_name">
@@ -31,7 +31,7 @@
 		<text>Bonne chance, stalker.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Kuznetsov (Military Honcho) Sniper Storyline Task -->
 
 	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_1_name">
@@ -47,7 +47,7 @@
 		<text>Excellente précision. Bien joué.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Kuznetsov (Military Honcho) Assault Enemy Camp Storyline Task -->
 
 	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_2_name">
@@ -63,7 +63,7 @@
 		<text>Excellent travail. Vous êtes un fin guerrier.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Kuznetsov (Military Honcho) Defend Military Base Storyline Task -->
 
 	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_3_name">
@@ -79,7 +79,7 @@
 		<text>Excellent travail. Vous vous êtes bien acquitté de votre tâche.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Kuznetsov (Military Honcho) Save the Military Agent Storyline Task -->
 
 	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_4_name">
@@ -101,7 +101,7 @@
 		<text>C’est ici que nos chemins se séparent. Au revoir !</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Kirilov (Military Mechanic) Default Storyline Task -->
 
 	<string id="drx_sl_agr_smart_terrain_1_6_army_mechanic_stalker_default_task_name">
@@ -117,7 +117,7 @@
 		<text>Bonne chance là-bas, recrue.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Kirilov (Military Mechanic) Battle Plans Storyline Task -->
 
 	<string id="drx_sl_agr_smart_terrain_1_6_army_mechanic_stalker_task_1_name">
@@ -133,7 +133,7 @@
 		<text>Bien joué ! Vous avez sauvé de nombreuses vies grâce à cela.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Kirilov (Military Mechanic) Patrol Local Area Storyline Task -->
 
 	<string id="drx_sl_agr_smart_terrain_1_6_army_mechanic_stalker_task_2_name">
@@ -150,12 +150,12 @@
 	</string>
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- CHANGE FACTIONS TASK TEXT  STRINGS
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< CHANGE FACTIONS TASK TEXT  STRINGS
+	<
+	< ========================================================================================= -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Kuznetsov (Military Honcho) Payoff Change Factions Task -->
 
 	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_cf_task_1_name">
@@ -173,12 +173,12 @@
 	</string>
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- DYNAMIC TASK TEXT  STRINGS
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< DYNAMIC TASK TEXT  STRINGS
+	<
+	< ========================================================================================= -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Kuznetsov (Military Honcho) Stop Unauthorized Incursions Task -->
 
 	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_1_name">
@@ -194,7 +194,7 @@
 		<text>Excellent travail. Continuez ainsi, et vous serez en lice pour une distinction.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Kuznetsov (Military Honcho) Capture Territory Task -->
 
 	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_2_name">
@@ -210,7 +210,7 @@
 		<text>La mission est accomplie ? Bien joué. Peut-être réfléchiront-ils à deux fois avant de s’immiscer dans les affaires de nos civils.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Kuznetsov (Military Honcho) Capture Enemy Combatant Task -->
 
 	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_3_name">
@@ -226,7 +226,7 @@
 		<text>Excellent travail ! Les ministres des Affaires intérieures seront satisfaits.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Kuznetsov (Military Honcho) Tight Security Task -->
 	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_4_name">
 		<text>Sécurité renforcée</text>
@@ -258,12 +258,12 @@
 	</string>
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- MECHANIC TASK TEXT  STRINGS
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< MECHANIC TASK TEXT  STRINGS
+	<
+	< ========================================================================================= -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Kirilov (Military Mechanic) Find Level 1 Toolkit Task -->
 
 	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_1_name">

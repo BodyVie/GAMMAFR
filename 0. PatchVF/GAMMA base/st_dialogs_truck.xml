@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!-- (Bandit Mechanic) -->
+	<string id="trucks_cemetery_bandit_mechanic_start_0">
+		<text>Félicitations ! T’as déniché le seul escroc avec une manivelle dans ce dépotoir radioactif de merde. File-moi des roubles et j’te répare tes trucs.</text>
+	</string>
+	
+</string_table>

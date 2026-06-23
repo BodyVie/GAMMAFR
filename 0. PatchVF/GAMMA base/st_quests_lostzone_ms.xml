@@ -65,7 +65,7 @@
 
 	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Task 1 -->
 	<string id="lttz_ms_start_title">
 		<text>Péché mortel : Émissaire mystérieux</text>
@@ -131,7 +131,7 @@
 		<text>Vous avez obtenu des informations utiles et éliminé l'émissaire mystérieux. Faites votre rapport au professeur Sakharov.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Task 2 -->
 	<string id="lttz_ms_red_forester_title">
 		<text>Péché mortel : Forestier rouge</text>
@@ -140,7 +140,7 @@
 		<text>Parlez à Forester au sujet d'une éventuelle activité du Péché dans Forêt Rouge.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Task 3 -->
 	<string id="lttz_ms_red_forest_attackers_title">
 		<text>Péché mortel : Les spectres de la Forêt Rouge</text>
@@ -152,7 +152,7 @@
 		<text>Fouillez les corps à la recherche d'informations utiles.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Task 4 -->
 	<string id="lttz_ms_runaway_title">
 		<text>Péché mortel : Fugitif</text>
@@ -161,7 +161,7 @@
 		<text>Les Pécheurs poursuivaient quelqu'un. Ils devaient ensuite inspecter les mines à l'ouest. Allez enquêter à leur place.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Task 5 -->
 	<string id="lttz_ms_needle_haystack_title">
 		<text>Péché mortel : Aiguille dans une botte de foin</text>
@@ -181,7 +181,7 @@
 		Il devrait être compatible avec des pièces de technologie tout aussi obsolètes disséminées dans la Zone.\n \n</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Task 6 -->
 	<string id="lttz_ms_report_title">
 		<text>Péché mortel : Rapport de situation</text>
@@ -205,7 +205,7 @@
 		<text>Selon Stitch, Péché prépare une campagne à grande échelle. Faites un rapport de vos découvertes au professeur Sakharov.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Task 7 -->
 	<string id="lttz_ms_ambush_title">
 		<text>Péché mortel : Embuscade</text>
@@ -247,7 +247,7 @@
 		<text>Vous avez repoussé l'assaut ennemi. Faites votre rapport au professeur Sakharov.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Task -->
 	<string id="lttz_ms_dark_crusade_title">
 		<text>Péché mortel : Croisade noire</text>
@@ -259,7 +259,7 @@
 		<text>Chernobog projette d'étendre la Zone pour qu'elle couvre le monde entier. Il doit être arrêté.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Task 8 -->
 	<string id="lttz_ms_preemptive_strike_title">
 		<text>Péché mortel : Frappe préventive</text>
@@ -278,7 +278,7 @@
 		<text>Péché tente de réactiver le Lobotomisateur. Rendez-vous au Radar et éliminez toutes les forces hostiles pour les en empêcher.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Task 9 -->
 	<string id="lttz_ms_to_war_title">
 		<text>Péché mortel : À la guerre</text>
@@ -287,7 +287,7 @@
 		<text>Après leur échec à réactiver les installations psychiques, Péché a déclaré une guerre ouverte. Rendez-vous à Limansk pour contacter Rogue et former un front uni.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Task 10 -->
 	<string id="lttz_ms_urban_warfare_title">
 		<text>Péché mortel : Guerre urbaine</text>
@@ -299,7 +299,7 @@
 		<text>Vous avez vaincu les Castigateurs du Péché. Faites votre rapport à Rogue.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Task 11 -->
 	<string id="lttz_ms_war_prisoner_title">
 		<text>Péché mortel : Prisonnier de guerre</text>
@@ -308,7 +308,7 @@
 		<text>Un membre de Péché a été capturé par un Renégat. Interrogez-le afin d'obtenir des renseignements utiles.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Task 12 -->
 	<string id="lttz_ms_contact_lost_title">
 		<text>Péché mortel : Contact perdu</text>
@@ -320,7 +320,7 @@
 		<text>Vous avez réussi à obtenir des renseignements de l'équipe. Retournez voir Rogue.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Task 13 -->
 	<string id="lttz_ms_destruction_site_title">
 		<text>Péché mortel : Site de destruction</text>
@@ -329,7 +329,7 @@
 		<text>Les forces de Péché se sont retranchées dans une position fortifiée sur un ancien chantier de construction. Éliminez-les pour sécuriser Limansk et accéder au chemin vers le nord.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Task 14 -->
 	<string id="lttz_ms_hospital_assault_title">
 		<text>Péché mortel : Hospitalité nordique</text>
@@ -344,7 +344,7 @@
 		<text>Une voix télépathique vous a appelé vers l'emplacement d'un stalker mystérieux. Enquêtez.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Task 15 -->
 	<string id="lttz_ms_heart_zone_title">
 		<text>Péché mortel : Coeur de la Zone</text>
@@ -359,7 +359,7 @@
 		<text>Un stalker non identifié vous a contacté via votre PDA. Espérons qu'il s'agisse d'un allié.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Task 16 -->
 	<string id="lttz_ms_decisive_blow_title">
 		<text>Péché mortel : Coup décisif</text>
@@ -368,7 +368,7 @@
 		<text>Les dernières forces de Péché se rassemblent près de l'entrée principale du Laboratoire de Guerre. Attaquez-les pour détourner leur attention de la mission de sabotage de Strelok.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Task 17 -->
 	<string id="lttz_ms_confrontation_title">
 		<text>Péché mortel : Affrontement</text>
@@ -377,7 +377,7 @@
 		<text>Le Péché a échoué de manière critique dans sa mission. Affrontez Chernobog.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Task 18 -->
 	<string id="lttz_ms_endgame_title">
 		<text>Péché mortel : Fin de partie</text>
@@ -386,7 +386,7 @@
 		<text>Poursuivez Chernobog et empêchez-le d'exaucer son souhait avec la plus grande fermeté.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Task 19 -->
 	<string id="lttz_ms_choice_title">
 		<text>Péché mortel : Choix</text>
@@ -398,7 +398,7 @@
 		<text>Parlez à l'Exauceur de Souhaits.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Task 20 -->
 	<string id="lttz_ms_zone_hero_title">
 		<text>Péché mortel : Héros de la Zone</text>
@@ -424,7 +424,7 @@
 	
 	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Mortal Sin Unquenchable Flame Tasks -->
 	<string id="unquenchable_flame_task_name">
 		<text>Flamme inextinguible</text>

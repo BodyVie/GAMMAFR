@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Upgrading Parts
+-->
+
+<string_table>
+
+<!-- Outfits -->
+	<string id="st_upgr_o_health">
+		<text>Prototype de système de survie</text>
+	</string>
+	<string id="st_upgr_o_health_desc">
+		<text>Ce paquet contient un système intégré surveillant l'état de santé du porteur et fournissant vitamines, adrénaline ou substances anabolisantes selon les besoins.\n \n
+		</text>
+	</string>
+	
+	<string id="st_upgr_o_bleed">
+		<text>Prototype de système de cicatrisation</text>
+	</string>
+	<string id="st_upgr_o_bleed_desc">
+		<text>Ce paquet contient un dispositif médical conçu pour l'administration continue de médicaments sur le terrain.\n \n
+		</text>
+	</string>
+	
+	<string id="st_upgr_o_armor">
+		<text>Inserts balistiques renforcés</text>
+	</string>
+	<string id="st_upgr_o_armor_desc">
+		<text>Ce paquet contient différents types de plaques et matrices en kevlar, titane, béryllium, aluminium et fibre de carbone. Caractérisées par une haute viscosité et une excellente capacité d'arrêt.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_o_damage">
+		<text>Couches d'armure compensatrices</text>
+	</string>
+	<string id="st_upgr_o_damage_desc">
+		<text>Ce paquet contient des plaques blindées spécialement conçues dans différents matériaux, augmentant légèrement la résistance aux projectiles.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_o_durability">
+		<text>Plaques et tissus résistants</text>
+	</string>
+	<string id="st_upgr_o_durability_desc">
+		<text>Ce paquet contient des plaques de blindage durables en alliage de titane et d'aluminium pour équipements lourds, ainsi que des inserts polymériques pour tenues plus légères.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_o_power">
+		<text>Pièces en plastique et synthétiques</text>
+	</string>
+	<string id="st_upgr_o_power_desc">
+		<text>Ce paquet contient des pièces synthétiques et plastiques issues de diverses combinaisons blindées, destinées à réduire le poids de l'armure et à améliorer la mobilité et l'endurance.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_o_chem">
+		<text>Retardateurs de flamme chimiques et inserts</text>
+	</string>
+	<string id="st_upgr_o_chem_desc">
+		<text>Ce paquet contient un ensemble de tissus et matériaux dangereux améliorant les performances protectrices des combinaisons contre les effets chimiques. Ils peuvent interrompre la réaction chimique en phase gazeuse de combustion, tandis que certains contiennent des produits chimiques provoquant un gonflement derrière la couche protectrice, offrant ainsi une isolation supplémentaire.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_o_burn">
+		<text>Tissus et inserts ignifugés Flammèche</text>
+	</string>
+	<string id="st_upgr_o_burn_desc">
+		<text>Ce paquet contient un ensemble de tissus et matériaux protecteurs aux propriétés uniques, ralentissant ou stoppant la propagation du feu ou réduisant son intensité. Certains sont des matériaux ignifuges contenant des éléments en magnésium de différentes longueurs, largeurs, épaisseurs et formes.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_o_shock">
+		<text>Textiles et inserts électro-isolants</text>
+	</string>
+	<string id="st_upgr_o_shock_desc">
+		<text>Ce paquet contient un ensemble d'inserts protecteurs en constantan, magnésium et silicone, conçus pour réduire l'impact des charges électriques sur le blindage.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_o_psi">
+		<text>Couches de tissus à revêtement protecteur</text>
+	</string>
+	<string id="st_upgr_o_psi_desc">
+		<text>Ce paquet contient un ensemble d'inserts de blindage et de couches aluminisées pour casques et combinaisons blindées, dotés de caoutchouc anti-ondes radio afin de réduire légèrement les effets des influences psychiques.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_o_rad">
+		<text>Filtres actifs et matériaux de blindage anti-radiations</text>
+	</string>
+	<string id="st_upgr_o_rad_desc">
+		<text>Un ensemble de filtres protecteurs empêchant l'inhalation de divers poisons et produits chimiques par les voies respiratoires. Comprend également des matériaux à haute densité pour réduire l'intensité des particules alpha et gamma.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_o_carry">
+		<text>Système de fixation pour répartition de charge</text>
+	</string>
+	<string id="st_upgr_o_carry_desc">
+		<text>Ce paquet contient un ensemble de divers éléments de fixation destinés à la répartition des charges.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_o_arty">
+		<text>Fixations pour accessoires</text>
+	</string>
+	<string id="st_upgr_o_arty_desc">
+		<text>Ce paquet contient un système d'attache pour ceinture de combinaison, permettant d'augmenter le nombre de modules et de conteneurs d'artefacts utilisables simultanément.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_o_run">
+		<text>Système d'amplification par servomoteur hydraulique</text>
+	</string>
+	<string id="st_upgr_o_run_desc">
+		<text>Ce paquet contient des servomoteurs prototypes améliorés pour exosquelettes de première et deuxième génération, permettant à l'utilisateur de sprinter.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_o_weight">
+		<text>Matériaux légers</text>
+	</string>
+	<string id="st_upgr_o_weight_desc">
+		<text>Ce paquet contient un ensemble de matériaux polymériques légers de différentes longueurs, largeurs, épaisseurs et formes, ainsi que de diverses propriétés.\n \n</text>
+	</string>
+
+<!-- Weapons -->
+	<string id="st_upgr_w_weight">
+		<text>Composants de contrepoids mobiles</text>
+	</string>
+	<string id="st_upgr_w_weight_desc">
+		<text>Ce paquet contient un ensemble de composants légers en polymère pour différents types d'armes. La tendance des composants en polymère ne s'est pas seulement révélée efficace, mais est également devenue une mise à niveau très prisée.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_w_muffle">
+		<text>Composants de filetage externe de canon</text>
+	</string>
+	<string id="st_upgr_w_muffle_desc">
+		<text>Ce paquet contient un ensemble de composants de filetage externe pour différents types d'armes. Le filetage externe permet l'installation d'un silencieux.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_w_grenade_mount">
+		<text>Supports de lance-grenades sous canon</text>
+	</string>
+	<string id="st_upgr_w_grenade_mount_desc">
+		<text>Ce paquet contient un ensemble de supports externes pour lance-grenades sous canon, compatibles avec différents types d'armes.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_w_reliability">
+		<text>Régulateurs de gaz automatiques</text>
+	</string>
+	<string id="st_upgr_w_reliability_desc">
+		<text>Ce paquet contient un ensemble de mécanismes régulateurs spéciaux pour différents types d'armes. Il protège l'arme contre les saletés.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_w_speed">
+		<text>Canaux filetés supplémentaires pour canon</text>
+	</string>
+	<string id="st_upgr_w_speed_desc">
+		<text>Ce paquet contient un ensemble de canons filetés supplémentaires pour différents types d'armes. L'installation d'un canon doté de canaux filetés supplémentaires améliore la vitesse des projectiles et la précision de l'arme, au prix d'une augmentation considérable du recul.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_w_recoil">
+		<text>Pistons à gaz supplémentaires</text>
+	</string>
+	<string id="st_upgr_w_recoil_desc">
+		<text>Ce paquet contient un ensemble de pistons à gaz supplémentaires pour différents types d'armes. Un second piston déplace le contrepoids, compensant l'impulsion de mouvement du mécanisme de boulon.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_w_magazine">
+		<text>Ensemble de chargeurs grande capacité</text>
+	</string>
+	<string id="st_upgr_w_magazine_desc">
+		<text>Ce paquet contient un ensemble de chargeurs pour différents types d'armes, offrant une capacité accrue pour divers calibres.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_w_scope">
+		<text>Monture optique</text>
+	</string>
+	<string id="st_upgr_w_scope_desc">
+		<text>Ce paquet contient un ensemble de lunettes optiques pour différents types d'armes. Le montage inclut des lunettes adaptées au combat rapproché, à moyenne et longue distance.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_w_dispersion">
+		<text>Éléments d'équilibrage</text>
+	</string>
+	<string id="st_upgr_w_dispersion_desc">
+		<text>Ce paquet contient un ensemble d'éléments d'équilibrage pour différents types d'armes. Des éléments synthétiques installés sur des tiges garantissent un mouvement strictement conforme aux spécifications, améliorant ainsi la précision.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_w_calibre">
+		<text>Ensemble de composants de calibre</text>
+	</string>
+	<string id="st_upgr_w_calibre_desc">
+		<text>Ce paquet contient un ensemble de composants de calibre pour différents types d'armes. Une modification complexe et intégrée des parties mécaniques et automatisées de l'arme, permettant de changer son calibre au détriment de la fiabilité.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_w_inertion">
+		<text>Culasses ergonomiques de formes variées</text>
+	</string>
+	<string id="st_upgr_w_inertion_desc">
+		<text>Ce paquet contient un ensemble de boîtiers ergonomiques pour différents types d'armes. Cette modification est exclusivement conçue pour les canons équipés de boîtiers bullpup solides, facilitant l'entretien de l'arme.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_w_rpm">
+		<text>Tiges de mécanisme de retour en titane</text>
+	</string>
+	<string id="st_upgr_w_rpm_desc">
+		<text>Ce paquet contient un ensemble de tiges en titane pour différents types d'armes. Les tiges en titane peuvent supporter un rythme de tir bien plus élevé que les tiges classiques.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_w_scope_mount">
+		<text>Monture optique</text>
+	</string>
+	<string id="st_upgr_w_scope_mount_desc">
+		<text>Ce paquet contient un ensemble de supports optiques pour différents types d'armes. Permettant l'installation d'un montage pour la fixation d'une lunette optique.\n \n</text>
+	</string>
+	
+	<string id="st_upgr_w_firemode">
+		<text>Mécanisme de détente</text>
+	</string>
+	<string id="st_upgr_w_firemode_desc">
+		<text>Ce paquet contient un ensemble de mécanismes de détente pour différents types d'armes. Amélioration des parties automatiques de l'arme, adaptée à différents modes de tir en rafale et automatique.\n \n</text>
+	</string>
+
+</string_table>

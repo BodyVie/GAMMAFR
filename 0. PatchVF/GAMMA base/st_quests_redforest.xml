@@ -47,7 +47,7 @@
 		<text>Un homme qui croit en notre cause nous a contactés. Il souhaite se libérer de ce monde, mais ignore comment abandonner sa vie passée. Vous le reconnaîtrez au SVD qu'il porte. Tuez ceux qui l'accompagnent. Sauvez le croyant. Toutefois, attendez-vous à ce qu'il riposte tant qu'il est sous surveillance, car il ne doit pas éveiller les soupçons. Bientôt, il sera éclairé.</text>
 	</string>
 	<string id="drx_sl_red_greh_trader_task_2_finish">
-		<text>Vos efforts nous rendent plus forts. Bien joué!</text>
+		<text>Vos efforts nous rendent plus forts. Bien joué !</text> 
 	</string>
 	<string id="drx_sl_red_greh_trader_task_2_msg_join">
 		<text>Merci, frère. Je vous suis sincèrement reconnaissant... Montrez-moi le chemin. Il est temps de laisser ce vieux monde derrière nous.</text>
@@ -131,7 +131,7 @@
 		<text>En tant que véritables gardiens de la Zone, nous devons agir rapidement et préserver ses secrets des regards de ce monde pécheur. L'un de ces secrets se trouve dans le laboratoire connu sous le nom de « X-18 ». Apportez-les-moi, frère. Nous les mettrons en sécurité.</text>
 	</string>
 	<string id="drx_sl_red_greh_tech_task_1_finish">
-		<text>Excellent travail!</text>
+		<text>Excellent travail !</text>
 	</string>
 	
 

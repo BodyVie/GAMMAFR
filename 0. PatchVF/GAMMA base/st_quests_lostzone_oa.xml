@@ -55,7 +55,7 @@
 
 	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Operation Afterglow Task 1 -->
 	<string id="lttz_oa_encrypted_transmission_name">
 		<text>Transmission cryptée</text>
@@ -68,7 +68,7 @@
 		<text>Tu as localisé la source des transmissions radio. Va enquêter.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Operation Afterglow Task 2 -->
 	<string id="lttz_oa_rally_point_name">
 		<text>Point de rassemblement de l'Opération Afterglow :</text>
@@ -100,7 +100,7 @@
 		<text>Ce PDA chiffré appartenait autrefois au chef d'escouade d'une équipe de reconnaissance spéciale de l'UNISG. Il contient probablement des informations tactiques ou stratégiques importantes.\n \n</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Operation Afterglow Task 3 -->
 	<string id="lttz_oa_report_name">
 		<text>Rapport</text>
@@ -110,7 +110,7 @@
 		<text>Faire un rapport à ton chef sur ce qui s'est passé à Zaton.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Operation Afterglow Task 4 -->
 	<string id="lttz_oa_special_delivery_name">
 		<text>Livraison spéciale de l'Opération Afterglow :</text>
@@ -129,7 +129,7 @@
 		<text>T'as pas livré la caisse à temps, on dirait. Va voir Degtyarev pour lui dire que t'as pas pu finir le boulot.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Operation Afterglow Task 5 -->
 	<string id="lttz_oa_undercover_agent_name">
 		<text>Agent infiltré de l'Opération Afterglow :</text>
@@ -145,7 +145,7 @@
 		<text>T'as réussi à chopper les infos, mais t'as aussi grillé ta couverture auprès des forces UNISG. Retourne faire ton rapport à Degtyarev.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Operation Afterglow Task 6 -->
 	<string id="lttz_oa_search_unit_name">
 		<text>Secrets gardés de l'Opération Afterglow :</text>
@@ -167,7 +167,7 @@
 		<text>Tu es arrivé trop tard, et les forces UNISG sont parties avec les documents. Parler avec Degtyarev.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Operation Afterglow Task 7 -->
 	<string id="lttz_oa_strelok_name">
 		<text>Tireur d'élite</text>
@@ -186,7 +186,7 @@
 		<text>Parler avec Strelok.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Operation Afterglow Task 8 -->
 	<string id="lttz_oa_rogue_name">
 		<text>Guerre intestine</text>
@@ -208,7 +208,7 @@
 		<text>Rogue a succombé aux effets de l'anomalie. Informer Strelok de son sort.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Operation Afterglow Task 9 -->
 	<string id="lttz_oa_stitch_name">
 		<text>Morts-vivants</text>
@@ -227,7 +227,7 @@
 		<text>Stitch n'a pas pu s'en sortir. Informe Strelok de son sort.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Operation Afterglow Task 10 -->
 	<string id="lttz_oa_loose_ends_name">
 		<text>Derniers détails de l'Opération Afterglow :</text>

@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+<!--
+    messages are constructed based on scenarios -> parts -> variants
+    1. scenario is a message template, used to represent some sort of topic
+    2. parts are what construct the message
+    3. variants are a set of many strings for a single part, the script will use one of them to represent the part
+    
+    for message title <string id="st_msg_stash_title_scenario_variant">
+    for message itself <string id="st_msg_stash_scenario_part_variant">
+
+    You can have as many scenarios, parts and variants you want. Make sure to follow the numeric values without a break (1 followed by 3 will make the script ignore the 3)
+-->
+
+<!-- stash - found a stash by accident -->
+    <string id="st_msg_stash_title_1_1">
+        <text>J'ai trouvé une planque.</text>
+    </string>
+    <string id="st_msg_stash_title_1_2">
+        <text>Planque !</text>
+    </string>
+    <string id="st_msg_stash_title_1_3">
+        <text>J'ai trouvé un truc !</text>
+    </string>
+    <string id="st_msg_stash_title_1_4">
+        <text>Qu'est-ce qu'il peut bien y avoir là-dedans ?</text>
+    </string>
+    <string id="st_msg_stash_title_1_5">
+        <text>Butin caché !</text>
+    </string>
+    <string id="st_msg_stash_title_1_6">
+        <text>Ça pourrait être une vraie mine d'or</text>
+    </string>
+
+    <string id="st_msg_stash_1_1_1">
+        <text>Petit rappel perso, parce que j'oublie toujours :</text>
+    </string>
+    <string id="st_msg_stash_1_1_2">
+        <text>Hé $c1_fname, devine quoi !</text>
+    </string>
+    <string id="st_msg_stash_1_1_3">
+        <text>Aujourd'hui, c'était une journée de merde. Rien d'inhabituel, à part un truc.</text>
+    </string>
+    <string id="st_msg_stash_1_1_4">
+        <text>Tiens, ça pourrait t'intéresser.</text>
+    </string>
+    <string id="st_msg_stash_1_1_5">
+        <text>Juste un petit avertissement.</text>
+    </string>
+    <string id="st_msg_stash_1_1_6">
+        <text>J'ai un truc intéressant pour toi.</text>
+    </string>
+
+    <string id="st_msg_stash_1_2_1">
+        <text>J'ai trouvé cette planque pendant mes déplacements, mais c'était trop risqué de l'ouvrir.</text>
+    </string>
+    <string id="st_msg_stash_1_2_2">
+        <text>J'ai repéré un sac à dos qui traînait. Pas sûr que quelqu'un l'ait mis là exprès, mais il était clairement planqué.</text>
+    </string>
+    <string id="st_msg_stash_1_2_3">
+        <text>J'ai peut-être trouvé une vieille planque. Je l'ai repérée en essayant de semer une meute de chiens affamés. Elle a l'air intacte.</text>
+    </string>
+    <string id="st_msg_stash_1_2_4">
+        <text>J'ai repéré une planque plus tôt dans la journée, mais j'ai pas eu le temps de m'arrêter pour vérifier. Heureusement, elle est bien cachée.</text>
+    </string>
+    <string id="st_msg_stash_1_2_5">
+        <text>Y'a une planque planquée du côté de $map. J'ai pas encore eu le temps d'aller voir. </text>
+    </string>
+
+    <string id="st_msg_stash_1_3_1">
+        <text>Je vérifierai encore une fois dès que j'aurai l'occasion. J'ai comme un pressentiment que cette fois, ça va le faire.</text>
+    </string>
+    <string id="st_msg_stash_1_3_2">
+        <text>Peut-être que quelqu'un voulait planquer ses petits trésors ?</text>
+    </string>
+    <string id="st_msg_stash_1_3_3">
+        <text>Faut que j'aille vérifier quand j'aurai un peu de temps. J'espère vraiment que personne ne tombera dessus avant moi.</text>
+    </string>
+    <string id="st_msg_stash_1_3_4">
+        <text>Je me demande ce qu'il y a là-dedans...</text>
+    </string>
+    <string id="st_msg_stash_1_3_5">
+        <text>Avec un peu de chance, c'est pas de la daube.</text>
+    </string>
+    <string id="st_msg_stash_1_3_6">
+        <text>Y'a clairement un truc là-dedans. On attend que ça se calme d'abord.</text>
+    </string>
+    <string id="st_msg_stash_1_3_7">
+        <text>J'espère que c'est bourré de matos de ouf ou d'artefacts.</text>
+    </string>
+	
+	
+<!-- Death of a friend - buried stash or just mournful message -->
+	<string id="st_msg_death_title_1_1">
+		<text>Désolé...</text>
+	</string>
+	<string id="st_msg_death_title_1_2">
+		<text>Encore un perdu pour la Zone.</text>
+	</string>
+	<string id="st_msg_death_title_1_3">
+		<text>J'ai enterré notre pote</text>
+	</string>
+	<string id="st_msg_death_title_1_4">
+		<text>C'était un bon Stalker</text>
+	</string>
+	<string id="st_msg_death_title_1_5">
+		<text>Encore un qui mord la poussière...</text>
+	</string>
+	<string id="st_msg_death_title_1_6">
+		<text>Mauvaises nouvelles</text>
+	</string>
+	<string id="st_msg_death_title_1_7">
+		<text>$fname est mort</text>
+	</string>
+	<string id="st_msg_death_title_1_8">
+		<text>La Zone a pris $fname</text>
+	</string>
+
+	<string id="st_msg_death_1_1_1">
+        <text>Désolé de te l'annoncer, mais $fname vient de clamser.</text>
+    </string>
+	<string id="st_msg_death_1_1_2">
+        <text>$fname est retourné à la boue.</text>
+    </string>
+	<string id="st_msg_death_1_1_3">
+        <text>On vient de perdre $fname.</text>
+    </string>
+	<string id="st_msg_death_1_1_4">
+        <text>$fname $lname n’a pas réussi.</text>
+    </string>
+	<string id="st_msg_death_1_1_5">
+        <text>$fname $lname est mort aujourd'hui.</text>
+    </string>
+
+	<string id="st_msg_death_1_2_1">
+        <text>On venait de finir la chasse quand un sanglier est sorti de nulle part et l'a encorné.</text>
+    </string>
+	<string id="st_msg_death_1_2_2">
+        <text>C'était le chemin habituel pour rentrer au camp, on l'a pris mille fois... mais il a marché dans une Toupie. Elle l'a aspiré direct en l'air.</text>
+    </string>
+	<string id="st_msg_death_1_2_3">
+        <text>Il s'est pris une balle pendant qu'on était en patrouille. Ça nous a tous surpris.</text>
+    </string>
+	<string id="st_msg_death_1_2_4">
+        <text>On se planquait d'une émission et on s'est fait submerger par des Tushkanos. Y'avait pas assez de place pour se barrer, et $fname s'est fait déborder. Ces petites saloperies lui ont bouffé sa combinaison direct.</text>
+    </string>
+	<string id="st_msg_death_1_2_5">
+        <text>Il se faisait courser par une meute de chiens et ils l'ont chopé juste avant qu'on puisse les faire dégager.</text>
+    </string>
+	<string id="st_msg_death_1_2_6">
+        <text>J'sais pas trop ce qui s'est passé, mais quand on l'a trouvé... bon, bref...</text>
+    </string>
+
+	<string id="st_msg_death_1_3_1">
+        <text>On a fait tout ce qu'on pouvait, mais il a saigné à mort pendant qu'on essayait d'arrêter l'hémorragie.</text>
+    </string>
+	<string id="st_msg_death_1_3_2">
+        <text>Ses blessures étaient trop graves.</text>
+    </string>
+	<string id="st_msg_death_1_3_3">
+        <text>Son corps n'a tout simplement pas tenu le coup.</text>
+    </string>
+	<string id="st_msg_death_1_3_4">
+        <text>Y'avait trop de trauma, trop de sang.</text>
+    </string>
+	<string id="st_msg_death_1_3_5">
+        <text>On avait pas assez de médocs...</text>
+    </string>
+
+	<string id="st_msg_death_1_4_1">
+        <text>Il a juste eu la poisse.</text>
+    </string>
+	<string id="st_msg_death_1_4_2">
+        <text>On pouvait rien faire.</text>
+    </string>
+	<string id="st_msg_death_1_4_3">
+        <text>Désolé...</text>
+    </string>
+	<string id="st_msg_death_1_4_4">
+        <text>Il a pas souffert longtemps.</text>
+    </string>
+	<string id="st_msg_death_1_4_5">
+        <text>C'était un bon Stalker.</text>
+    </string>
+	<string id="st_msg_death_1_4_6">
+        <text>Ce soir, on ouvre une bouteille de vodka en sa mémoire.</text>
+    </string>
+
+<!-- map route - got info from someone on route-->
+    <string id="st_msg_map_title_1_1">
+        <text>Ça pourrait servir...</text>
+    </string>
+    <string id="st_msg_map_title_1_2">
+        <text>Ça a l'air d'un bon passage.</text>
+    </string>
+    <string id="st_msg_map_title_1_3">
+        <text>Jette un oeil à ce chemin.</text>
+    </string>
+    <string id="st_msg_map_title_1_4">
+        <text>J'ai trouvé un nouveau chemin</text>
+    </string>
+    <string id="st_msg_map_title_1_5">
+        <text>Chemin secret</text>
+    </string>
+    <string id="st_msg_map_1_1_1">
+        <text>Yo $fname, tu veux entendre un truc intéressant ?</text>
+    </string>
+    <string id="st_msg_map_1_1_2">
+        <text>Salut $fname, ça roule ces temps-ci ?</text>
+    </string>
+    <string id="st_msg_map_1_1_3">
+        <text>Hé $fname, c'est $c1_fname. J'ai un truc pour toi.</text>
+    </string>
+	<string id="st_msg_map_1_1_4">
+		<text>Regarde qui fait le chef, maintenant !</text>
+	</string>
+	<string id="st_msg_map_1_1_7">
+		<text>Je suis le meilleur pote que t'auras jamais eu.</text>
+	</string>
+	<string id="st_msg_map_1_1_5">
+		<text>Hé $fname, c'est $c1_fname. J'ai un truc pour toi.</text>
+	</string>
+	<string id="st_msg_map_1_1_6">
+        <text>Eh ben, salut $fname.</text>
+    </string>
+
+    <string id="st_msg_map_1_2_1">
+        <text>J'ai mis la main sur des vieux documents chez $trader. Ils donnent des détails sur quelques endroits autour de la Zone. On dirait que c'est des chercheurs qui ont écrit ça.</text>
+    </string>
+    <string id="st_msg_map_1_2_2">
+        <text>J'ai croisé $c2_lname aujourd'hui et il est au courant de la situation. Il m'a montré un passage facile pour circuler en sécurité entre certaines zones autour de la Zone.</text>
+    </string>
+    <string id="st_msg_map_1_2_3">
+        <text>Du coup, j'ai acheté des infos à $trader. L'enfoiré en a demandé un paquet.</text>
+    </string>
+    <string id="st_msg_map_1_2_4">
+        <text>J'ai eu un coup de main d'un vieux pote l'autre jour. À l'époque, c'était un guide, mais maintenant, il prend la vie du bon côté.</text>
+    </string>
+    <string id="st_msg_map_1_2_5">
+        <text>Un des vétérans m'a montré sa carte ce matin. J'ai réussi à prendre quelques notes.</text>
+    </string>
+    <string id="st_msg_map_1_2_6">
+        <text>J'ai trouvé un Stalker qui s'est fait choper par un blowout tout à l'heure. Il a essayé de se planquer, mais ça a pas suffi. Bref, en fouillant son PDA, j'ai dégoté des infos utiles.</text>
+    </string>
+	<string id="st_msg_map_1_2_7">
+        <text>Je viens de fouiller un cadavre et j'ai trouvé un PDA avec des entrées super intéressantes.</text>
+    </string>
+    <string id="st_msg_map_1_3_1">
+        <text>Jette un oeil à ces trajets entre $map_route_1 et $map_route_2. Un jour, ça pourrait te servir.</text>
+    </string>
+    <string id="st_msg_map_1_3_2">
+        <text>Tu te souviens quand on a passé la nuit à parler de comment rejoindre $map_route_1 depuis $map_route_2 ? Ça va te montrer quelques bons itinéraires. De rien !</text>
+    </string>
+	<string id="st_msg_map_1_3_3">
+        <text>J'ai trouvé un chemin plus sûr après qu'on ait essayé cette route l'autre jour.</text>
+    </string>
+	<string id="st_msg_map_1_3_4">
+        <text>Voilà un chemin entre $map_route_1 et $map_route_2. Avant, il était bloqué par des anomalies, mais maintenant, il devrait être dégagé.</text>
+    </string>
+    <string id="st_msg_map_1_4_1">
+        <text>Bon, j'te promets pas que c'est la route la plus sûre, mais c'est tout ce que j'ai pour l'instant. Je vais demander autour de moi, voir si quelqu'un peut me filer de meilleures infos.</text>
+    </string>
+    <string id="st_msg_map_1_4_2">
+        <text>Tout baigne ? Fais-moi signe si t'as besoin d'autre chose. À plus.</text>
+    </string>
+    <string id="st_msg_map_1_4_3">
+        <text>Si tu prévois de visiter l'endroit un jour, fais-moi signe. Prends soin de toi.</text>
+    </string>
+    <string id="st_msg_map_1_4_4">
+        <text>Fais gaffe si tu y vas sans moi. T'as toujours une tournée à me payer depuis la dernière fois.</text>
+    </string>
+    <string id="st_msg_map_1_4_5">
+        <text>Bonne chance dehors ! Fais-moi signe si tu trouves de nouvelles routes toi-même.</text>
+    </string>
+	
+<!-- RF source - caught a signal by accident -->
+    <string id="st_msg_rf_title_1_1">
+        <text>Signaux radio !</text>
+    </string>
+    <string id="st_msg_rf_title_1_2">
+        <text>T'as une idée, toi ?</text>
+    </string>
+    <string id="st_msg_rf_title_1_3">
+        <text>J'ai intercepté un signal radio intéressant.</text>
+    </string>
+    <string id="st_msg_rf_title_1_4">
+        <text>Y’a quelque chose qui émet des signaux !</text>
+    </string>
+    <string id="st_msg_rf_title_1_5">
+        <text>Bruit à la radio</text>
+    </string>
+    <string id="st_msg_rf_1_1_1">
+        <text>Hé mec, c'est encore $c1_fname. Une autre journée chiante. On a reçu une nouvelle mission de $leader, donc on doit rester à $rf_map encore une journée.</text>
+    </string>
+    <string id="st_msg_rf_1_1_2">
+        <text>Hé $fname, c'est $c1_fname. $trader veut qu'on fasse un autre boulot dans $rf_map. Du coup, je reste dans le coin pour l'instant.</text>
+    </string>
+    <string id="st_msg_rf_1_1_3">
+        <text>Ici $c1_fname. Je suis à $rf_map en ce moment. Mon pote $c2_fname m'a dit qu'il y avait pas mal de artefacts ici, alors nous voilà...</text>
+    </string>
+    <string id="st_msg_rf_1_2_1">
+        <text>Tu te souviens de ce récepteur RF à la con que tu m'as filé ? J'sais pas pourquoi t'utilises un truc pareil alors que t'as un PDA dans ta poche. Mais bon, en bidouillant, l'engin s'est mis à biper et à faire un raffut de malade !</text>
+    </string>
+    <string id="st_msg_rf_1_2_2">
+        <text>Putain, quelle journée de merde... J'ai commencé à bidouiller le récepteur RF que j'étais censé utiliser qu'en cas d'urgence. Et au bout d'un moment, j'ai commencé à entendre un truc...</text>
+    </string>
+    <string id="st_msg_rf_1_2_3">
+        <text>J'ai oublié d'éteindre le récepteur RF que je traîne toujours. La batterie était presque à plat, mais en approchant de ma destination, l'engin s'est mis à faire un boucan d'enfer...</text>
+    </string>
+    <string id="st_msg_rf_1_2_4">
+        <text>Et comme j'ai une putain de veine, mon récepteur RF et mon PDA ont failli griller en traversant un champ Électro. J'arrive pas à croire que j'en suis sorti vivant ! Et en plus, mon matos marche encore, c'est cool. Et justement, le récepteur a détecté un truc...</text>
+    </string>
+    <string id="st_msg_rf_1_2_5">
+        <text>En plus, le récepteur RF captait des bruits flippants tout à l'heure... Vraiment perturbant.</text>
+    </string>
+    <string id="st_msg_rf_1_2_6">
+        <text>Au fait, j'ai encore entendu ces bruits sur le récepteur RF. C'était comme la dernière fois.</text>
+    </string>
+    <string id="st_msg_rf_1_2_7">
+        <text>Le récepteur RF capte des bruits chelous ces derniers temps.</text>
+    </string>
+    
+    <string id="st_msg_rf_1_3_1">
+        <text>Ça a capté un signal sur la fréquence $rf_freq GHz, je pense que ça vient des alentours.</text>
+    </string>
+    <string id="st_msg_rf_1_3_2">
+        <text>Y'a un truc dans $rf_map qui émet sur $rf_freq GHz, et j'ai l'impression que c'est tout près.</text>
+    </string>
+    <string id="st_msg_rf_1_3_3">
+        <text>Sur la fréquence de $rf_freq GHz, le son devient assez clair.</text>
+    </string>
+    <string id="st_msg_rf_1_3_5">
+        <text>On dirait qu'une créature mutante essaie de communiquer par radio. Tu peux parfois l'entendre si tu règles le récepteur sur $rf_freq GHz.</text>
+    </string>
+    <string id="st_msg_rf_1_3_4">
+        <text>Si tu règles ton récepteur sur $rf_freq GHz, tu vas entendre ce que je veux dire. Celui ou ceux qui font ces bruits... ça n'a pas l'air sain ni agréable.</text>
+    </string>
+    <string id="st_msg_rf_1_4_1">
+        <text>Je vais jeter un oeil autour et suivre ce signal.</text>
+    </string>
+    <string id="st_msg_rf_1_4_2">
+        <text>T'en penses quoi ? J'veux voir de quoi il retourne, fais-moi signe si tu veux venir avec moi.</text>
+    </string>
+    <string id="st_msg_rf_1_4_3">
+        <text>Faut que je voie ce que c'est que ce bordel. Souhaite-moi bonne chance.</text>
+    </string>
+    <string id="st_msg_rf_1_4_4">
+        <text>On a décidé d'aller voir d'où viennent ces bruits. Avec un peu de chance, c'est juste des sons bizarres et rien de plus.</text>
+    </string>
+    <string id="st_msg_rf_1_4_5">
+        <text>On va patrouiller dans le coin pour voir si on trouve l'origine de ces bruits. À plus tard.</text>
+    </string>
+
+<!-- Chitchat - you took stuff from me -->
+    <string id="st_msg_chitchat_title_1_1">
+        <text>Où sont mes affaires ?</text>
+    </string>
+    <string id="st_msg_chitchat_title_1_2">
+        <text>Je savais que c'était toi.</text>
+    </string>
+    <string id="st_msg_chitchat_title_1_3">
+        <text>À la prochaine.</text>
+    </string>
+    <string id="st_msg_chitchat_title_1_4">
+        <text>Tu trouves ça drôle ?</text>
+    </string>
+    
+    <string id="st_msg_chitchat_1_1_1">
+        <text>Yo $fname, $c1_fname est là.</text>
+    </string>
+    <string id="st_msg_chitchat_1_1_2">
+        <text>$fname, petite merde...</text>
+    </string>
+    <string id="st_msg_chitchat_1_1_3">
+        <text>Hé</text>
+    </string>
+    <string id="st_msg_chitchat_1_1_4">
+        <text>$fname, je le savais !</text>
+    </string>
+    
+    <string id="st_msg_chitchat_1_2_1">
+        <text>T'as piqué des saucisses light que je gardais, hein ?</text>
+    </string>
+    <string id="st_msg_chitchat_1_2_2">
+        <text>Où sont passés tous mes energy drinks dans mon sac ?! Je sais que c'est toi, ordure !</text>
+    </string>
+    <string id="st_msg_chitchat_1_2_3">
+        <text>T'es parti sans rien dire. Ça aurait pu passer, sauf que t'as piqué 3 bouteilles de vodka chez moi hier soir !</text>
+    </string>
+    
+    <string id="st_msg_chitchat_1_3_1">
+        <text>La prochaine fois que tu pointes ton cul ici, t'as intérêt à avoir un truc bon pour moi.</text>
+    </string>
+    <string id="st_msg_chitchat_1_3_2">
+        <text>Faudrait me ramener un truc en échange. Garde ça en tête la prochaine fois que tu comptes montrer ta gueule par ici.</text>
+    </string>
+    <string id="st_msg_chitchat_1_3_3">
+        <text>Je vais pas laisser passer ça, moi.</text>
+    </string>
+    <string id="st_msg_chitchat_1_3_4">
+        <text>J'en ai ma claque de tes conneries, mec ! Allez, bouge !</text>
+    </string>
+    <string id="st_msg_chitchat_1_3_5">
+        <text>T’es vraiment un pote, toi...</text>
+    </string>
+    
+    <string id="st_msg_chitchat_1_4_1">
+        <text>Au fait, $trader veut te voir, alors passe vérifier ce qu'il veut.</text>
+    </string>
+    <string id="st_msg_chitchat_1_4_2">
+        <text>$leader m'a parlé de toi. T'as visiblement un truc important à faire, fais-lui un rapport quand tu rentreras.</text>
+    </string>
+    <string id="st_msg_chitchat_1_4_3">
+        <text>Même $c2_fname en a marre de tes conneries. $mechanic, par contre, veut te voir pour quelque chose d'important, va vérifier ça.</text>
+    </string>
+    <string id="st_msg_chitchat_1_4_4">
+        <text>Lequel de vous, bande de connards, a pissé dans mon sac de couchage ?!</text>
+    </string>
+    <string id="st_msg_chitchat_1_4_5">
+        <text>T'as une bouteille de vodka et un paquet de clopes qui m'attendent. T'es qu'un abruti.</text>
+    </string>
+    
+<!-- Chitchat - trolling -->
+    <string id="st_msg_joke_title_1_1">
+        <text>Quelqu'un a mis une prime sur ta tête !</text>
+    </string>
+    <string id="st_msg_joke_title_1_2">
+        <text>T'es dans le collimateur !</text>
+    </string>
+    <string id="st_msg_joke_title_1_3">
+        <text>Ton pote est mort y'a pas longtemps.</text>
+    </string>
+	<string id="st_msg_joke_title_1_4">
+        <text>Ils te courent après !</text>
+    </string>
+    
+    <string id="st_msg_joke_1_1_1">
+        <text>Je voulais juste attirer ton attention.</text>
+    </string>
+    <string id="st_msg_joke_1_1_2">
+        <text>Je déconnais, te fâche pas, ok ?</text>
+    </string>
+    <string id="st_msg_joke_1_1_3">
+        <text>Appât posé !</text>
+    </string>
+	<string id="st_msg_joke_1_1_4">
+        <text>Tombé dans le panneau ! Haha !</text>
+    </string>
+	<string id="st_msg_joke_1_1_5">
+        <text>Ahhhahahah ! J'aurais trop aimé voir ta gueule là, maintenant !</text>
+  </string>
+    
+    <string id="st_msg_joke_1_2_1">
+        <text>Tu peux nous ramener, à $c2_fname et moi, une bouteille de putinka en revenant ?</text>
+    </string>
+    <string id="st_msg_joke_1_2_2">
+        <text>$c2_fname dit qu'il veut un paquet de Lucky Strike. Moi, c'est des Marlboro... T'inquiète, je te rembourserai.</text>
+    </string>
+    <string id="st_msg_joke_1_2_3">
+        <text>Bon, j'ai la dalle. Ça vous dit, des saucisses light ?</text>
+    </string>
+	<string id="st_msg_joke_1_2_4">
+        <text>$c2_fname est revenu vivant ! Il nous a rejoints tout à l'heure, alors on va fêter ça ce soir ! Prends de la vodka et à bouffer, on va faire la teuf comme en 1986 !</text>
+    </string>
+	<string id="st_msg_joke_1_2_5">
+        <text>Bon, tu peux me ramener à bouffer ? Mais rien de cette merde cuite de la Zone, sauf si c'est des côtelettes de sanglier.</text>
+    </string>
+    
+    <string id="st_msg_joke_1_3_1">
+        <text>On a presque fini notre tour de garde, à dans une heure.</text>
+    </string>
+    <string id="st_msg_joke_1_3_2">
+        <text>Je t'attends. En attendant, fais gaffe à pas te faire buter.</text>
+    </string>
+	<string id="st_msg_joke_1_3_3">
+        <text>Reviens pas les mains vides ou t'es mort pour moi. Encore une fois.</text>
+    </string>
+	<string id="st_msg_joke_1_3_4">
+        <text>À plus au camp, Stalker !</text>
+    </string>
+    
+<!-- Mission - target -->
+    <string id="st_msg_mission_target_title_1_1">
+        <text>Rapport</text>
+    </string>
+    <string id="st_msg_mission_target_title_1_2">
+        <text>La cible est proche</text>
+    </string>
+    <string id="st_msg_mission_target_title_1_3">
+        <text>Concernant la cible</text>
+    </string>
+    <string id="st_msg_mission_target_title_1_4">
+        <text>Je suis en position</text>
+    </string>
+	<string id="st_msg_mission_target_title_1_5">
+        <text>Prêt et en attente</text>
+    </string>
+    
+    <string id="st_msg_mission_target_1_1_1">
+        <text>$leader, ici $fname $lname. J'ai un rapport concernant la mission.</text>
+    </string>
+    <string id="st_msg_mission_target_1_1_2">
+        <text>$fname $lname à l'appareil. J'ai des infos pour $leader.</text>
+    </string>
+    <string id="st_msg_mission_target_1_1_3">
+        <text>Je m'appelle $fname $lname. J'ai reçu des ordres de $leader concernant une cible importante.</text>
+    </string>
+    <string id="st_msg_mission_target_1_1_4">
+        <text>$fname $lname est là.</text>
+    </string>
+    
+    <string id="st_msg_mission_target_1_2_1">
+        <text>J'suis arrivé à $map et j'suis en position $directional $pointer. J'ai une vue dégagée sur la cible.</text>
+    </string>
+    <string id="st_msg_mission_target_1_2_2">
+        <text>La situation est calme à $map pour l'instant. La cible se déplace $directional $pointer. Je vais suivre ses traces dans quelques minutes.</text>
+    </string>
+    
+    <string id="st_msg_mission_target_1_3_1">
+        <text>La zone est encerclée par des $enemy. Ils n'ont pas bougé de leurs positions depuis un bon moment. On dirait qu'ils préparent un coup ici.</text>
+    </string>
+    <string id="st_msg_mission_target_1_3_2">
+        <text>Je devrais aussi signaler que j'ai repéré $enemy pas loin d'ici, mais ça ne devrait pas poser de problème. Aucune idée s'ils ont un lien pour l'instant.</text>
+    </string>
+	<string id="st_msg_mission_target_1_3_3">
+        <text>J'ai repéré $enemy dans le secteur. Préviens les autres de faire gaffe s'ils viennent par ici.</text>
+    </string>
+	<string id="st_msg_mission_target_1_3_4">
+        <text>On a repéré des $enemy dans le coin. Ils sont plutôt actifs dans le secteur.</text>
+    </string>
+    
+    <string id="st_msg_mission_target_1_4_1">
+        <text>Des ordres ?</text>
+    </string>
+    <string id="st_msg_mission_target_1_4_2">
+        <text>Des ordres ?</text>
+    </string>
+    <string id="st_msg_mission_target_1_4_3">
+        <text>Je continue la mission et je te fais un rapport si je repère des mouvements chelous.</text>
+    </string>
+    <string id="st_msg_mission_target_1_4_4">
+        <text>C'est tout pour l'instant.</text>
+    </string>
+    <string id="st_msg_mission_target_1_4_5">
+        <text>Y'a eu un changement de plan ou quoi ?</text>
+    </string>
+    
+<!-- Mission - guard -->
+    <string id="st_msg_mission_guard_title_1_1">
+        <text>Tout est normal</text>
+    </string>
+    <string id="st_msg_mission_guard_title_1_2">
+        <text>Journée calme</text>
+    </string>
+    <string id="st_msg_mission_guard_title_1_3">
+        <text>Je garde cet endroit</text>
+    </string>
+    <string id="st_msg_mission_guard_title_1_4">
+        <text>Envoie-les par ici</text>
+    </string>
+	<string id="st_msg_mission_guard_title_1_5">
+        <text>Je tiens cette position</text>
+    </string>    
+	<string id="st_msg_mission_guard_title_1_6">
+        <text>Pour l'instant, ça roule</text>
+    </string>
+
+    <string id="st_msg_mission_guard_1_1_1">
+        <text>$leader, la situation à $map est comme d'hab. À part quelques chiens et tushkanos affamés et aveugles, aucune menace majeure. On a eu du bol.</text>
+    </string>
+    <string id="st_msg_mission_guard_1_1_2">
+        <text>On a repéré $enemy $directional $pointer il y a quelques heures, mais ils se sont barrés. Depuis, tout a l'air normal.</text>
+    </string>
+    <string id="st_msg_mission_guard_1_1_3">
+        <text>Ici $fname. Rien de neuf dans $map pour l'instant. Ça dure depuis un moment.</text>
+    </string>
+    <string id="st_msg_mission_guard_1_1_4">
+        <text>$fname en position. $map est calme... enfin, à peu près.</text>
+    </string>
+
+    <string id="st_msg_mission_guard_1_2_1">
+        <text>Tu peux envoyer le groupe de $c1_fname par ici, on les attendra.</text>
+    </string>
+    <string id="st_msg_mission_guard_1_2_2">
+        <text>C'est safe si le groupe de $c1_fname veut passer par ici, on surveillera tout ce qui pourrait arriver.</text>
+    </string>
+    <string id="st_msg_mission_guard_1_2_3">
+        <text>J'attends que le groupe de $c1_fname prenne la relève.</text>
+    </string>
+    <string id="st_msg_mission_guard_1_2_4">
+        <text>On est prêts pour que le prochain groupe nous relève.</text>
+    </string>
+    
+    <string id="st_msg_mission_guard_1_3_1">
+        <text>$fname est parti.</text>
+    </string>
+    <string id="st_msg_mission_guard_1_3_2">
+        <text>D’ici là, on monte la garde.</text>
+    </string>
+    <string id="st_msg_mission_guard_1_3_3">
+        <text>Ils feraient mieux de se magner avant qu'il fasse trop nuit.</text>
+    </string>
+    <string id="st_msg_mission_guard_1_3_4">
+        <text>Dis-leur de se magner.</text>
+    </string>
+
+<!-- Mission - mutant hunt -->
+    <string id="st_msg_mission_hunt_title_1_1">
+        <text>Viande gratuite</text>
+    </string>
+    <string id="st_msg_mission_hunt_title_1_2">
+        <text>Je pars à la chasse</text>
+    </string>
+    <string id="st_msg_mission_hunt_title_1_3">
+        <text>Partie de chasse</text>
+    </string>
+    <string id="st_msg_mission_hunt_title_1_4">
+        <text>Tu nous suis ?</text>
+    </string>
+    
+    <string id="st_msg_mission_hunt_1_1_1">
+        <text>Hé $fname, t'es toujours dans le coin à $map ?</text>
+    </string>
+    <string id="st_msg_mission_hunt_1_1_2">
+        <text>$fname, faut que tu viennes voir ça !</text>
+    </string>
+    <string id="st_msg_mission_hunt_1_1_3">
+        <text>On va partir à la chasse. T'es en train de rater le coche, $fname.</text>
+    </string>
+    <string id="st_msg_mission_hunt_1_1_4">
+        <text>On repart à la chasse, tu nous suis ?</text>
+    </string>
+
+    <string id="st_msg_mission_hunt_1_2_1">
+        <text>$c2_fname a repéré un groupe de Croquemorts $directional $pointer. Ils ont l'air en bonne santé, bien charnus. Ils ne nous ont pas encore repérés...</text>
+    </string>
+    <string id="st_msg_mission_hunt_1_2_2">
+        <text>Moi et $c2_fname, on a vu deux gros sangliers sauvages $directional $pointer. Plus gros que la normale !</text>
+    </string>
+    <string id="st_msg_mission_hunt_1_2_3">
+        <text>Des Croquemorts, plein de Croquemorts, $directional $pointer. Ils dorment pour l'instant.</text>
+    </string>
+	<string id="st_msg_mission_hunt_1_2_4">
+        <text>On a vu une meute de sangliers s'installer pour pioncer tout à l'heure.</text>
+    </string>
+
+    <string id="st_msg_mission_hunt_1_3_1">
+        <text>$c2_fname veut les buter. Viande gratuite, si tu veux mon avis.</text>
+    </string>
+    <string id="st_msg_mission_hunt_1_3_2">
+        <text>Bouge ton cul et ramène-toi ici. On peut plus attendre sinon ils vont se barrer et se planquer ailleurs.</text>
+    </string>
+    <string id="st_msg_mission_hunt_1_3_3">
+        <text>J'ai préparé mon couteau de chasse, et $c2_fname les surveille de près.</text>
+    </string>
+    
+    <string id="st_msg_mission_hunt_1_4_1">
+        <text>On va attendre dix minutes, alors fais-moi signe si tu te rapproches et on fait ça ensemble.</text>
+    </string>
+    <string id="st_msg_mission_hunt_1_4_2">
+        <text>Alors, tu viens ou quoi ?</text>
+    </string>
+    <string id="st_msg_mission_hunt_1_4_3">
+        <text>Préviens le reste du groupe qu'on sera en retard, ok ?</text>
+    </string>
+    
+<!-- Mission - raid -->
+    <string id="st_msg_mission_raid_title_1_1">
+        <text>On se prépare pour un raid</text>
+    </string>
+    <string id="st_msg_mission_raid_title_1_2">
+        <text>Cadeaux</text>
+    </string>
+    <string id="st_msg_mission_raid_title_1_3">
+        <text>On y va</text>
+    </string>
+    <string id="st_msg_mission_raid_title_1_4">
+        <text>Préparation d'une embuscade</text>
+    </string>
+	<string id="st_msg_mission_raid_title_1_5">
+        <text>On lance le raid</text>
+    </string>
+	<string id="st_msg_mission_raid_title_1_6">
+        <text>On fait la fête</text>
+    </string>
+    
+    <string id="st_msg_mission_raid_1_1_1">
+        <text>$fname, ça gaze ? On a un truc pour aujourd'hui !</text>
+    </string>
+    <string id="st_msg_mission_raid_1_1_2">
+        <text>$c1_fname est là, ça roule $fname ?</text>
+    </string>
+	<string id="st_msg_mission_raid_1_1_3">
+        <text> J'ai entendu dire que tu cherchais un boulot, $fname ?</text>
+    </string>
+	<string id="st_msg_mission_raid_1_1_4">
+        <text>J’ai un boulot pour toi, $fname.</text>
+    </string>
+    
+    <string id="st_msg_mission_raid_1_2_1">
+        <text>On a repéré des recrues qui erraient $directional $pointer. On dirait qu'ils sont perdus.</text>
+    </string>
+    <string id="st_msg_mission_raid_1_2_2">
+        <text>Y'a quelques cadeaux qui traînent du côté de $map. Là, ils squattent $directional $pointer.</text>
+    </string>
+    <string id="st_msg_mission_raid_1_2_3">
+        <text>On a vu un groupe $directional $pointer qui a morflé grave.</text>
+    </string>
+    
+    <string id="st_msg_mission_raid_1_3_1">
+        <text>J'te parie mon cul que ces enfoirés ont les poches pleines. Faut attendre le bon moment pour agir.</text>
+    </string>
+    <string id="st_msg_mission_raid_1_3_2">
+        <text>J'ai comme l'impression qu'on va se faire un paquet de thune ce soir...</text>
+    </string>
+    <string id="st_msg_mission_raid_1_3_3">
+        <text>Leurs sacs ont l'air pleins et lourds. On pourrait avoir du bol cette fois.</text>
+    </string>
+    <string id="st_msg_mission_raid_1_3_4">
+        <text>Ils ont du bon matos et ils ont visité des coins intéressants.</text>
+    </string>
+    
+    <string id="st_msg_mission_raid_1_4_1">
+        <text>Alors, tu marches ou pas ?</text>
+    </string>
+    <string id="st_msg_mission_raid_1_4_2">
+        <text>On va frapper bientôt. Tu nous suis ?</text>
+    </string>
+    <string id="st_msg_mission_raid_1_4_3">
+        <text>Dis à $c2_fname qu'on sera en retard, qu'il nous attende pas.</text>
+    </string>
+	<string id="st_msg_mission_raid_1_4_4">
+        <text>J'aurais besoin d'un gars fiable comme toi. T'en dis quoi ?</text>
+    </string>
+    
+<!-- Mission - bounty -->
+    <string id="st_msg_mission_bounty_title_1_1">
+        <text>Prime</text>
+    </string>
+    <string id="st_msg_mission_bounty_title_1_2">
+        <text>J'ai quelque chose.</text>
+    </string>
+    <string id="st_msg_mission_bounty_title_1_3">
+        <text>Nouveau boulot.</text>
+    </string>
+    <string id="st_msg_mission_bounty_title_1_4">
+        <text>Prime disponible</text>
+    </string>
+    
+    <string id="st_msg_mission_bounty_1_1_1">
+        <text>Hé $c1_fname, on a un truc à faire.</text>
+    </string>
+    <string id="st_msg_mission_bounty_1_1_2">
+        <text>$fname, j’ai un truc pour toi.</text>
+    </string>
+    <string id="st_msg_mission_bounty_1_1_3">
+        <text>Réveille-toi $fname, prépare ton flingue. On a un boulot.</text>
+    </string>
+    <string id="st_msg_mission_bounty_1_1_4">
+        <text>Hé $fname. Prends de la bouffe et des munitions.</text>
+    </string>
+
+    <string id="st_msg_mission_bounty_1_2_1">
+        <text>J'ai croisé $trader il y a quelques minutes, et il veut buter quelqu'un. Le fric est bon cette fois.</text>
+    </string>
+    <string id="st_msg_mission_bounty_1_2_2">
+        <text>$trader a mis une prime sur la tête de quelqu'un. 10 000 RU de récompense. Ça a l'air bon, ça.</text>
+    </string>
+    <string id="st_msg_mission_bounty_1_2_3">
+        <text>$leader était furieux. Il a dit que quelqu'un avait buté deux de nos gars et qu'il voulait qu'on le descende. La récompense est énorme, ça doit être sérieux.</text>
+    </string>
+    <string id="st_msg_mission_bounty_1_2_4">
+        <text>Alors, je faisais le plein de munitions chez $trader et je lui ai demandé s'il avait un boulot pour moi. Il m'a dit que quelqu'un lui pourrissait le business et qu'il voulait le buter pour de bon. Le meilleur ? Il propose une Méduse en récompense.</text>
+    </string>
+    
+    <string id="st_msg_mission_bounty_1_3_1">
+        <text>Je m'appelle $c2_fname $c2_lname. Ils ont été vus en train de traîner du côté de $map, $directional $pointer.</text>
+    </string>
+    <string id="st_msg_mission_bounty_1_3_2">
+        <text>J'ai demandé à deux-trois gars, et ils m'ont dit que notre cible avait été repérée du côté de $map. Plus précisément, $directional $pointer. Il s'appelle $c2_fname $c2_lname. Et une de nos sources a mentionné qu'il se déplace avec $enemy, alors ça risque de chauffer.</text>
+    </string>
+	<string id="st_msg_mission_bounty_1_3_3">
+        <text>$c2_fname $c2_lname est la cible. Il a énervé pas mal de monde dernièrement, donc ça devrait pas être trop dur de glaner des infos.</text>
+    </string>
+    
+    <string id="st_msg_mission_bounty_1_4_1">
+        <text>On se retrouve là-bas et on fouille la zone. Préviens-moi si tu trouves plus d'infos sur lui.</text>
+    </string>
+    <string id="st_msg_mission_bounty_1_4_2">
+        <text>Je dis qu'on tente le coup avant que quelqu'un d'autre ne rafle la récompense. T'es partant ?</text>
+    </string>
+    <string id="st_msg_mission_bounty_1_4_3">
+        <text>Si tu veux mon avis, la récompense en vaut la peine. On se retrouve près de l'endroit et on décide quoi faire après ?</text>
+    </string>
+	<string id="st_msg_mission_bounty_1_4_4">
+        <text>Prépare ton matos et on va traquer ce fils de pute !</text>
+    </string>
+	<string id="st_msg_mission_bounty_1_4_5">
+        <text>Faut qu'on se magne.</text>
+    </string>   
+
+<!-- Mission - artefact -->
+    <string id="st_msg_mission_artefact_title_1_1">
+        <text>C'est possible ?</text>
+    </string>
+	<string id="st_msg_mission_artefact_title_1_2">
+        <text>J'ai mis la main sur un artefact.</text>
+    </string>
+	<string id="st_msg_mission_artefact_title_1_3">
+        <text>J’ai trouvé un truc intéressant.</text>
+    </string>
+	<string id="st_msg_mission_artefact_title_1_4">
+        <text>J'ai trouvé un artefact !</text>
+    </string>
+    <string id="st_msg_mission_artefact_title_1_5">
+        <text>J'ai chopé un artefact !</text>
+    </string>
+    <string id="st_msg_mission_artefact_title_1_6">
+        <text>Paye !</text>
+    </string>
+ 
+	<string id="st_msg_mission_artefact_1_1_1">
+        <text>Putain, j'ai trouvé un Clair de lune dans $map. J'ai une putain de veine !</text>
+    </string>
+    <string id="st_msg_mission_artefact_1_1_2">
+        <text>Wouah ! Je viens de trouver une Bulle !</text>
+    </string>
+    <string id="st_msg_mission_artefact_1_2_1">
+        <text>J'ai failli me faire buter par tous ces Electros autour, mais ça en valait la peine.</text>
+    </string>
+    <string id="st_msg_mission_artefact_1_2_2">
+        <text>J'ai pris une sacrée dose de radiations en essayant de choper ce bébé. Il rebondissait partout par terre.</text>
+    </string>
+    <string id="st_msg_mission_artefact_1_3_1">
+        <text>Tu crois que $trader serait intéressé par ça ?</text>
+    </string>
+    
+<!-- Mission - anomaly study -->
+    <string id="st_msg_mission_anomaly_title_1_1">
+        <text>J’ai atteint le champ d’anomalies.</text>
+    </string>
+    <string id="st_msg_mission_anomaly_title_1_2">
+        <text>Anomalie anormale !</text>
+    </string>
+    <string id="st_msg_mission_anomaly_title_1_3">
+        <text>C'est chelou...</text>
+    </string>
+    <string id="st_msg_mission_anomaly_title_1_4">
+        <text>Activité anormale inhabituelle.</text>
+    </string>
+    
+    <string id="st_msg_mission_anomaly_1_1_1">
+        <text>Hé $c1_fname. Je suis dans $map en ce moment, $directional $pointer.</text>
+    </string>
+    <string id="st_msg_mission_anomaly_1_1_2">
+        <text>$c1_fname, ici $fname. L'équipe de recherche est arrivée à $map, $directional $pointer.</text>
+    </string>
+    <string id="st_msg_mission_anomaly_1_1_3">
+        <text>Ok $c1_fname, je suis arrivé à $map il y a 15 minutes. Selon le détecteur, l'activité anormale $directional $pointer est puissante.</text>
+    </string>
+    
+    <string id="st_msg_mission_anomaly_1_2_1">
+        <text>Comme prévu, la dernière émission a eu un sacré impact sur les champs anormaux de la zone. Mon dosimètre s'affole grave, le niveau de radiation est dans le rouge ici.</text>
+    </string>
+    <string id="st_msg_mission_anomaly_1_2_2">
+        <text>La zone a changé. Y'a trois nouveaux Vortex côte à côte. La dernière tempête psi était vraiment violente.</text>
+    </string>
+    <string id="st_msg_mission_anomaly_1_2_3">
+        <text>Les anomalies ont bougé et les relevés empirent.</text>
+    </string>
+	<string id="st_msg_mission_anomaly_1_2_4">
+        <text>Les Mutants semblent éviter cette zone, alors qu'on est à découvert et vulnérables. C'est un comportement vraiment intéressant...</text>
+    </string>
+
+    <string id="st_msg_mission_anomaly_1_3_1">
+        <text>Je suis près d'un Vortex ici, et celui-là, il est chelou comparé à ceux qu'on a vus avant. Le champ gravitationnel est super fort, mais le plus bizarre, c'est qu'il est pas fixe ! Il bouge aléatoirement, et son rayon s'étend avec le temps. Mais apparemment, le champ perd un peu de sa puissance à cause de ce comportement.</text>
+    </string>
+    <string id="st_msg_mission_anomaly_1_3_2">
+        <text>Le plus intéressant, c'est cette Toupie. Le champ gravitationnel est super fort à côté.</text>
+    </string>
+    <string id="st_msg_mission_anomaly_1_3_3">
+        <text>Mais ce qui m'a le plus surpris, c'est ce Tremplin. Contrairement aux autres, son rayon fait dans les 5 mètres. C'est énorme !</text>
+    </string>
+    
+    <string id="st_msg_mission_anomaly_1_4_1">
+        <text>Tu veux que je prenne les mesures ?</text>
+    </string>
+    <string id="st_msg_mission_anomaly_1_4_2">
+        <text>Et si j'installais quelques capteurs autour du champ pour que tu puisses voir les relevés toi-même ?</text>
+    </string>
+    <string id="st_msg_mission_anomaly_1_4_3">
+        <text>Je vais essayer de faire plus de relevés et d'observations. Je t'envoie les données quand j'ai fini.</text>
+	</string>
+</string_table>
+
+

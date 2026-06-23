@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	Upgrading Parts
+-->
+
+<string_table>
+
+	<string id="st_broneplastina_seva">
+		<text>Plaques blindées SEVA (upgrade)</text>
+	</string>
+	<string id="st_broneplastina_seva_descr">
+		<text>Plaque blindée destinée à améliorer les propriétés d'une combinaison SEVA.\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_01_name">
+		<text>Plaques d'acier</text>
+	</string>
+	<string id="upgr_1_01_description">
+		<text>Ensemble de plaques d'acier de différentes longueurs, largeurs, épaisseurs et formes. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] élément en acier\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures légères\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_01_name">
+		<text>Cadres épaissis</text>
+	</string>
+	<string id="upgr_2_01_description">
+		<text>Ensemble de cadres et dispositifs variés visant à améliorer les propriétés des combinaisons protectrices. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Éléments métalliques et en plastique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures légères\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_01_name">
+		<text>Cotte de mailles</text>
+	</string>
+	<string id="upgr_3_01_description">
+		<text>Cotte de mailles artisanale, composée de petits anneaux en acier. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] élément en acier\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures légères\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_02_name">
+		<text>Insert caoutchouté</text>
+	</string>
+	<string id="upgr_1_02_description">
+		<text>Rouleau résistant de tissu industriel caoutchouté. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet en caoutchouc\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures légères\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_02_name">
+		<text>Bâche</text>
+	</string>
+	<string id="upgr_2_02_description">
+		<text>Grande pièce de toile industrielle résistante. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] tissu\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures légères\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_03_name">
+		<text>Tissu ignifugé</text>
+	</string>
+	<string id="upgr_2_03_description">
+		<text>Rouleau de tissu ignifugé, capable de résister à des températures élevées pendant une courte durée. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] tissu\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures légères\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_03_name">
+		<text>Gilet distributif</text>
+	</string>
+	<string id="upgr_1_03_description">
+		<text>Gilet doté d'une doublure supplémentaire et équipé de plusieurs poches spacieuses. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] tissu\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures légères\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_04_name">
+		<text>Plaques en polycarbonate</text>
+	</string>
+	<string id="upgr_1_04_description">
+		<text>Ensemble de plaques en polycarbonate de longueurs, largeurs, épaisseurs et formes variées. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Polycarbonate\n
+		%c[d_blue] • %c[ui_gray_2] utilisé pour améliorer les propriétés des armures légères et moyennes\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_04_name">
+		<text>Couche d'armure en polycarbonate</text>
+	</string>
+	<string id="upgr_2_04_description">
+		<text>Couche d'armure spécialement doublée avec des éléments protecteurs supplémentaires, destinée à être utilisée avec les combinaisons blindées. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Polycarbonate\n
+		%c[d_blue] • %c[ui_gray_2] utilisé pour améliorer les propriétés des armures légères et moyennes\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_02_name">
+		<text>Plaques en céramique</text>
+	</string>
+	<string id="upgr_3_02_description">
+		<text>Un ensemble de plaques en céramique de longueur, largeur, épaisseur et forme variables. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] céramique\n
+		%c[d_blue] • %c[ui_gray_2] utilisé pour améliorer les propriétés des armures légères et moyennes\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_05_name">
+		<text>Matériaux polymériques légers</text>
+	</string>
+	<string id="upgr_1_05_description">
+		<text>Ensemble de matériaux polymériques légers de différentes longueurs, largeurs, épaisseurs et formes, ainsi que de diverses propriétés. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Polymères et articles associés\n
+		%c[d_blue] • %c[ui_gray_2] utilisé pour améliorer les propriétés des armures légères et moyennes\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_05_name">
+		<text>Inserts en magnésium</text>
+	</string>
+	<string id="upgr_2_05_description">
+		<text>Ensemble de matériaux ignifugés contenant des éléments en magnésium de différentes longueurs, largeurs, épaisseurs et formes. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] contient du magnésium\n
+		%c[d_blue] • %c[ui_gray_2] utilisé pour améliorer les propriétés des armures légères et moyennes\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_06_name">
+		<text>Inserts en plastique</text>
+	</string>
+	<string id="upgr_2_06_description">
+		<text>Un ensemble d'éléments en plastique de longueur, largeur, épaisseur et forme variables. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objets en plastique\n
+		%c[d_blue] • %c[ui_gray_2] utilisé pour améliorer les propriétés des armures légères et moyennes\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_03_name">
+		<text>Matériaux pour traitement du tissu</text>
+	</string>
+	<string id="upgr_3_03_description">
+		<text>Composé chimique destiné au traitement des produits textiles, améliorant les performances protectrices des combinaisons blindées contre les effets chimiques. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] produits chimiques\n
+		%c[d_blue] • %c[ui_gray_2] utilisé pour améliorer les propriétés des armures légères et moyennes\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_04_name">
+		<text>Tissu caoutchouté</text>
+	</string>
+	<string id="upgr_3_04_description">
+		<text>Rouleau de tissu caoutchouté résistant. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] tissu\n
+		%c[d_blue] • %c[ui_gray_2] utilisé pour améliorer les propriétés des armures légères et moyennes\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_06_name">
+		<text>Bouteille de gaz</text>
+	</string>
+	<string id="upgr_1_06_description">
+		<text>Ballon de gaz rempli d'oxygène, destiné à la respiration dans des environnements chimiquement toxiques, ainsi que dans des lieux où l'air est fortement raréfié, comme en montagne.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet spécial\n
+		%c[d_blue] • %c[ui_gray_2] utilisé pour améliorer les propriétés des armures légères et moyennes\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_07_name">
+		<text>Système intégré de soins humains</text>
+	</string>
+	<string id="upgr_2_07_description">
+		<text>Dispositif médical complexe conçu pour l'administration automatique de médicaments dans le corps humain.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Produit médical complexe\n
+		%c[d_blue] • %c[ui_gray_2] utilisé pour améliorer les propriétés des armures légères et moyennes\n
+		%c[d_blue] • %c[ui_gray_2] précieux\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_08_name">
+		<text>Système de fixation pour répartition de la charge</text>
+	</string>
+	<string id="upgr_2_08_description">
+		<text>Ensemble de divers systèmes de fixation pour la répartition des charges. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet technique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_05_name">
+		<text>Fixation pour accessoires (renforcée)</text>
+	</string>
+	<string id="upgr_3_05_description">
+		<text>Accessoire de ceinture pour combinaison, permettant d'augmenter le nombre de modules et de conteneurs d'artefacts utilisables simultanément.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet technique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_07_name">
+		<text>Servomoteurs renforcés (prototype, v1)</text>
+	</string>
+	<string id="upgr_1_07_description">
+		<text>Servomoteurs prototypes améliorés pour exosquelettes de première et deuxième génération, permettant à l'utilisateur de sprinter.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet technique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes\n
+		%c[d_blue] • %c[ui_gray_2] précieux\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_06_name">
+		<text>Composé Sovereign</text>
+	</string>
+	<string id="upgr_3_06_description">
+		<text>Renfort spécial pour tissu, conçu pour augmenter la résistance et la durabilité.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet chimique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes\n
+		%c[d_blue] • %c[ui_gray_2] précieux\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_09_name">
+		<text>Fixation pour accessoires (standard)</text>
+	</string>
+	<string id="upgr_2_09_description">
+		<text>Accessoire de ceinture pour combinaison, permettant d'augmenter le nombre de modules et de conteneurs d'artefacts utilisables simultanément.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet technique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_08_name">
+		<text>Plaques en Kevlar</text>
+	</string>
+	<string id="upgr_1_08_description">
+		<text>Un ensemble de plaques en Kevlar de longueur, largeur, épaisseur et forme variables. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] kevlar\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures légères et moyennes\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_10_name">
+		<text>Deuxième couche d'armure</text>
+	</string>
+	<string id="upgr_2_10_description">
+		<text>Couche d'armure spécialement doublée avec des éléments protecteurs supplémentaires, destinée à être utilisée avec les combinaisons blindées. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] plaques blindées\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures légères et moyennes\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_09_name">
+		<text>Inserts amortisseurs</text>
+	</string>
+	<string id="upgr_1_09_description">
+		<text>Inserts en caoutchouc spécialement doublés pour gilets pare-balles. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet en caoutchouc\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures légères et moyennes\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_11_name">
+		<text>Combinaison en caoutchouc</text>
+	</string>
+	<string id="upgr_2_11_description">
+		<text>Revêtement interne spécial en caoutchouc résistant aux produits chimiques et aux ondes radio, conçu pour être installé dans les combinaisons blindées afin d'améliorer leurs propriétés protectrices. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet en caoutchouc\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures légères et moyennes\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_07_name">
+		<text>Cadre protecteur</text>
+	</string>
+	<string id="upgr_3_07_description">
+		<text>Cadre épousant les contours d'un gilet blindé, conçu pour améliorer les propriétés protectrices des combinaisons blindées.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Matériaux polymériques\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes\n
+		%c[d_blue] • %c[ui_gray_2] précieux\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_08_name">
+		<text>Système de survie Varyag</text>
+	</string>
+	<string id="upgr_3_08_description">
+		<text>Dispositif médical complexe conçu pour l'administration automatique de médicaments dans le corps humain.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Matériaux polymériques\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes\n
+		%c[d_blue] • %c[ui_gray_2] précieux\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_09_name">
+		<text>Inserts en polymère et bismuth</text>
+	</string>
+	<string id="upgr_3_09_description">
+		<text>Matériaux protecteurs polymériques créés avec du bismuth, offrant une résistance accrue aux effets chimiques et thermiques.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Matériaux polymériques\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_10_name">
+		<text>Maille de plomb</text>
+	</string>
+	<string id="upgr_3_10_description">
+		<text>Treillis en plomb standard à mailles peu profondes.   \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] plomb\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_10_name">
+		<text>Couche d'armure compensatrice</text>
+	</string>
+	<string id="upgr_1_10_description">
+		<text>Plaques blindées spécialement conçues, augmentant légèrement la résistance aux projectiles.   \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet métallique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_12_name">
+		<text>Cadre en aluminium</text>
+	</string>
+	<string id="upgr_2_12_description">
+		<text>Cadre universel en aluminium conçu pour être inséré dans les armures moyennes. Remplace tout cadre similaire en acier ou en titane, réduisant ainsi le poids de l'armure. Toutefois, le cadre en aluminium présente une résistance moindre.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet en aluminium\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures intermédiaires\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_11_name">
+		<text>Matrices en titane et béryl</text>
+	</string>
+	<string id="upgr_3_11_description">
+		<text>Ensemble de matrices en titane et béryl reliées à une plaque blindée solide et de haute qualité. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Plaque d'armure renforcée\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_11_name">
+		<text>Inserts en polymère</text>
+	</string>
+	<string id="upgr_1_11_description">
+		<text>Inserts polymériques spéciaux conçus pour être intégrés dans les combinaisons blindées légères et moyennes en remplacement du tissu. Augmentent l'endurance et la durée de vie d'une combinaison blindée.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Matériaux polymériques\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_13_name">
+		<text>Isolation thermique en constantan</text>
+	</string>
+	<string id="upgr_2_13_description">
+		<text>Couche spéciale d'isolation thermique en constantan. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] constantan\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures intermédiaires\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_12_name">
+		<text>Combinaison protectrice SBK</text>
+	</string>
+	<string id="upgr_3_12_description">
+		<text>Combinaison de soutien spécialisée offrant une protection contre les effets chimiques et radioactifs. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet en caoutchouc\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_12_name">
+		<text>Système de cicatrisation Doctor</text>
+	</string>
+	<string id="upgr_1_12_description">
+		<text>Dispositif médical conçu pour l'administration continue de médicaments sur le terrain.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Dispositif médical\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes\n
+		%c[d_blue] • %c[ui_gray_2] précieux\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_13_name">
+		<text>Fibre de carbone</text>
+	</string>
+	<string id="upgr_3_13_description">
+		<text>Plaques d'armure légère en fibre de carbone, caractérisées par une haute viscosité et une excellente capacité d'arrêt. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Matériaux polymériques\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_14_name">
+		<text>Plexiglas</text>
+	</string>
+	<string id="upgr_2_14_description">
+		<text>Ensemble de plaques en plexiglas de différentes longueurs, largeurs, épaisseurs et formes. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Matériaux polymériques\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_15_name">
+		<text>Inserts en plastique souple</text>
+	</string>
+	<string id="upgr_2_15_description">
+		<text>Ensemble d'éléments en plastique élastique de longueur, largeur, épaisseur et forme variables. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Matériaux polymériques\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_14_name">
+		<text>Inserts en nickel réfractaire</text>
+	</string>
+	<string id="upgr_3_14_description">
+		<text>Inserts légers résistants aux flammes, fabriqués en nickel. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] nickel\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_13_name">
+		<text>Marathoner Complex</text>
+	</string>
+	<string id="upgr_1_13_description">
+		<text>Dispositif médical conçu pour l'administration continue de médicaments sur le terrain.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Dispositif médical\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		%c[d_blue] • %c[ui_gray_2] précieux\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_16_name">
+		<text>Système de protection anti-électrique Skat</text>
+	</string>
+	<string id="upgr_2_16_description">
+		<text>Dispositif spécial analysant les courants électriques et augmentant la protection contre les chocs électriques. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet scientifique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_14_name">
+		<text>Hémostimulateur</text>
+	</string>
+	<string id="upgr_1_14_description">
+		<text>Dispositif médical conçu pour l'administration continue de médicaments sur le terrain.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Dispositif médical\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		%c[d_blue] • %c[ui_gray_2] précieux\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_17_name">
+		<text>Biostimulateur solaire</text>
+	</string>
+	<string id="upgr_2_17_description">
+		<text>Dispositif médical équipé d'une alimentation électrique autonome pour l'administration continue de médicaments sur le terrain.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Dispositif médical\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		%c[d_blue] • %c[ui_gray_2] précieux\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_15_name">
+		<text>Émetteur neurowave</text>
+	</string>
+	<string id="upgr_3_15_description">
+		<text>Appareil de recherche portable étudiant l'effet des ondes psychiques sur les organismes vivants. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet scientifique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		%c[d_blue] • %c[ui_gray_2] précieux\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_15_name">
+		<text>Alliage aluminium-titane</text>
+	</string>
+	<string id="upgr_1_15_description">
+		<text>Plaques d'armure résistantes en alliage de titane et d'aluminium.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Alliage métallique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_16_name">
+		<text>Localisateur d'Artefacts</text>
+	</string>
+	<string id="upgr_1_16_description">
+		<text>Appareil scientifique portable mesurant la position tridimensionnelle des artefacts. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet scientifique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		%c[d_blue] • %c[ui_gray_2] précieux\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_16_name">
+		<text>Inserts en magnésium isolant</text>
+	</string>
+	<string id="upgr_3_16_description">
+		<text>Ensemble d'inserts en magnésium protecteurs, conçu pour réduire l'impact des charges électriques sur l'armure. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] produit en magnésium\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_17_name">
+		<text>Inserts polymériques</text>
+	</string>
+	<string id="upgr_1_17_description">
+		<text>Inserts légers spéciaux fabriqués en polymère organique. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Matériaux polymériques\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_18_name">
+		<text>Protection segmentée</text>
+	</string>
+	<string id="upgr_2_18_description">
+		<text>Ensemble de plaques blindées protectrices capables de s'assembler entre elles pour former des plaques blindées de plus grande taille.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Matériaux polymériques\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_19_name">
+		<text>Plaques en titane et aluminium</text>
+	</string>
+	<string id="upgr_2_19_description">
+		<text>Un ensemble de plaques blindées protectrices, fabriquées en titane et en aluminium.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet métallique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_17_name">
+		<text>Cristaux de saphir</text>
+	</string>
+	<string id="upgr_3_17_description">
+		<text>Cristaux synthétiques en saphir. Très résistants. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] produit en magnésium\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_20_name">
+		<text>Isolation en constantan</text>
+	</string>
+	<string id="upgr_2_20_description">
+		<text>Ensemble de plaques en constantan renforçant la protection contre les effets électriques. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Matériaux polymériques\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_21_name">
+		<text>Isolation thermique en fibre de verre</text>
+	</string>
+	<string id="upgr_2_21_description">
+		<text>Ensemble de plaques en fibre de verre renforçant la protection contre les effets thermiques. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Matériaux polymériques\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_22_name">
+		<text>Système de filtration des poisons</text>
+	</string>
+	<string id="upgr_2_22_description">
+		<text>Appareil médical portable permettant de filtrer les poisons du corps humain sur le terrain. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Dispositif médical\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		%c[d_blue] • %c[ui_gray_2] précieux\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_18_name">
+		<text>Injecteur de Rage</text>
+	</string>
+	<string id="upgr_1_18_description">
+		<text>Appareil médical portable conçu pour les injections intraveineuses sur le terrain. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Dispositif médical\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		%c[d_blue] • %c[ui_gray_2] objet de valeur\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_23_name">
+		<text>Injecteur de Rage</text>
+	</string>
+	<string id="upgr_2_23_description">
+		<text>Appareil médical portable conçu pour les injections intraveineuses sur le terrain. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Dispositif médical\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		%c[d_blue] • %c[ui_gray_2] objet de valeur\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_18_name">
+		<text>Système de récupération Phoenix</text>
+	</string>
+	<string id="upgr_3_18_description">
+		<text>Appareil médical portable conçu pour les injections intraveineuses sur le terrain. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Dispositif médical\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		%c[d_blue] • %c[ui_gray_2] objet de valeur\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_24_name">
+		<text>Inserts en plomb</text>
+	</string>
+	<string id="upgr_2_24_description">
+		<text>Plaques de plomb très lourdes. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] élément en plomb\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_25_name">
+		<text>Gilet Second Skin</text>
+	</string>
+	<string id="upgr_2_25_description">
+		<text>Doublure blindée pour gilets, offrant une protection supplémentaire contre les projectiles. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] doublure\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_26_name">
+		<text>Couche d'armure de rechange</text>
+	</string>
+	<string id="upgr_2_26_description">
+		<text>Plaques d'armure en Kevlar, installées comme blindage supplémentaire ou de rechange pour les combinaisons blindées moyennes et lourdes. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Plaques d'armure\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_19_name">
+		<text>Plaques en céramique renforcée</text>
+	</string>
+	<string id="upgr_3_19_description">
+		<text>Plaques en céramique épaissies et renforcées, destinées à être insérées dans les combinaisons blindées. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet en céramique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_20_name">
+		<text>Pièces en plastique et synthétique</text>
+	</string>
+	<string id="upgr_3_20_description">
+		<text>Pièces synthétiques et en plastique issues de diverses combinaisons blindées, conçues pour réduire le poids de l'armure et améliorer la mobilité et l'endurance. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Matériaux polymériques\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_19_name">
+		<text>Couche synthétique (tissu)</text>
+	</string>
+	<string id="upgr_1_19_description">
+		<text>Tissu synthétique résistant destiné à être cousu dans les tenues et combinaisons d'armure. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Matériaux polymériques\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_27_name">
+		<text>Dispositif de répartition du poids de la carcasse</text>
+	</string>
+	<string id="upgr_2_27_description">
+		<text>Dispositif destiné à être inséré dans les combinaisons blindées, augmentant la capacité de port. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet technique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_20_name">
+		<text>Système de protection contre la poussière</text>
+	</string>
+	<string id="upgr_1_20_description">
+		<text>Système de protection contre la poussière intégré, avec filtres remplaçables. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet technique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_28_name">
+		<text>Psy-stimulateur Oracle</text>
+	</string>
+	<string id="upgr_2_28_description">
+		<text>Objet scientifique réduisant légèrement l'exposition aux effets psychiques. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet scientifique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		%c[d_blue] • %c[ui_gray_2] objet de valeur\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_21_name">
+		<text>Système de survie léger</text>
+	</string>
+	<string id="upgr_3_21_description">
+		<text>Système portable de maintien des fonctions vitales pour stabiliser les états critiques. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Dispositif médical\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		%c[d_blue] • %c[ui_gray_2] objet de valeur\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_21_name">
+		<text>Filtres actifs</text>
+	</string>
+	<string id="upgr_1_21_description">
+		<text>Système de filtre actif intégré. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet technique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_29_name">
+		<text>Revêtement protecteur</text>
+	</string>
+	<string id="upgr_2_29_description">
+		<text>Couvre-écran pour casques et combinaisons blindées, réduisant légèrement les effets des influences psychiques. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet spécial\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		%c[d_blue] • %c[ui_gray_2] objet de valeur\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_30_name">
+		<text>Lunettes de vision nocturne analogiques 1PN93-1</text>
+	</string>
+	<string id="upgr_2_30_description">
+		<text>Dispositif militaire de vision nocturne destiné à l'exécution de missions dans darkness. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet militaire\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		%c[d_blue] • %c[ui_gray_2] objet de valeur\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_22_name">
+		<text>Dôme protecteur</text>
+	</string>
+	<string id="upgr_3_22_description">
+		<text>Doublure spéciale pour casques, réduisant les effets des influences psychiques.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet scientifique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		%c[d_blue] • %c[ui_gray_2] objet de valeur\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_23_name">
+		<text>Système de refroidissement Ion Wind</text>
+	</string>
+	<string id="upgr_3_23_description">
+		<text>Système de refroidissement destiné aux combinaisons d'armure moyennes et lourdes, augmentant l'endurance. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Équipement scientifique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		%c[d_blue] • %c[ui_gray_2] objet de valeur\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_31_name">
+		<text>Lunettes de vision nocturne PN21KL</text>
+	</string>
+	<string id="upgr_2_31_description">
+		<text>Vision nocturne militaire numérique conçue pour les missions en environnement de darkness. Elle produit une image en niveaux de gris. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet militaire\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		%c[d_blue] • %c[ui_gray_2] objet de valeur\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_32_name">
+		<text>Lunettes de vision nocturne numériques PN2KL</text>
+	</string>
+	<string id="upgr_2_32_description">
+		<text>Vision nocturne militaire numérique conçue pour les missions en environnement de darkness. Elle produit une image en couleur violette. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet militaire\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		%c[d_blue] • %c[ui_gray_2] objet de valeur\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_22_name">
+		<text>Système de nettoyage du masque respiratoire</text>
+	</string>
+	<string id="upgr_1_22_description">
+		<text>Système de nettoyage intégré pour masques à gaz et casques. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet technique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des couvre-chefs.\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_33_name">
+		<text>Filtre à charbon</text>
+	</string>
+	<string id="upgr_2_33_description">
+		<text>Filtre à charbon remplaçable supplémentaire. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet technique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des couvre-chefs.\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_24_name">
+		<text>Antenne protectrice</text>
+	</string>
+	<string id="upgr_3_24_description">
+		<text>Antenne protectrice conçue pour être installée sur les masques à gaz et les casques. Offre une légère protection contre les influences psychiques.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Équipement scientifique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures moyennes et lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_23_name">
+		<text>Respirateur pour deux filtres</text>
+	</string>
+	<string id="upgr_1_23_description">
+		<text>Un respirateur à deux filtres, remplaçant les autres respirateurs à filtre unique. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet technique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des couvre-chefs.\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_24_name">
+		<text>Filtre à particules nocives</text>
+	</string>
+	<string id="upgr_1_24_description">
+		<text>Filtre protecteur empêchant la pénétration de particules nocives dans l'organisme par les voies respiratoires. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet technique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des couvre-chefs.\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_34_name">
+		<text>Filtre à poison</text>
+	</string>
+	<string id="upgr_2_34_description">
+		<text>Filtre protecteur empêchant la pénétration de divers poisons et produits chimiques dans l'organisme par les voies respiratoires. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet technique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des couvre-chefs.\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_35_name">
+		<text>Masque en constantan</text>
+	</string>
+	<string id="upgr_2_35_description">
+		<text>Masque protecteur en constantan augmentant la résistance aux effets chimiques et thermiques. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet en constantan\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des couvre-chefs.\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_25_name">
+		<text>Filtre à poison amélioré</text>
+	</string>
+	<string id="upgr_1_25_description">
+		<text>Filtre doté d'un revêtement protecteur supplémentaire, empêchant la pénétration de divers poisons et produits chimiques dans l'organisme via les systèmes respiratoires. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet technique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des couvre-chefs.\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_36_name">
+		<text>Appareil SPB-VPZ.m.IV</text>
+	</string>
+	<string id="upgr_2_36_description">
+		<text>Système de protection moderne augmentant la résistance aux influences psychiques. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Équipement scientifique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des couvre-chefs.\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_26_name">
+		<text>Pièces en titane renforcé</text>
+	</string>
+	<string id="upgr_1_26_description">
+		<text>Pièces d'exosquelette renforcées, fabriquées en titane et ses alliages. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet en titane\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_37_name">
+		<text>Plaques mobiles</text>
+	</string>
+	<string id="upgr_2_37_description">
+		<text>Plaques d'acier protectrices supplémentaires conçues pour être insérées dans les exosquelettes et les combinaisons blindées lourdes. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] élément en acier\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_38_name">
+		<text>Protection segmentée</text>
+	</string>
+	<string id="upgr_2_38_description">
+		<text>Ensemble de plaques de blindage fines de différentes longueurs, largeurs et formes, destinées à être insérées dans les exosquelettes et les combinaisons blindées lourdes. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] élément en acier\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_25_name">
+		<text>Armure en titane</text>
+	</string>
+	<string id="upgr_3_25_description">
+		<text>Plaques de blindage en titane renforcé de différentes longueurs, largeurs et formes, destinées à être insérées dans les exosquelettes et les combinaisons blindées lourdes.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet en titane\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_26_name">
+		<text>Protection multicouche</text>
+	</string>
+	<string id="upgr_3_26_description">
+		<text>Plaques de blindage multicouches en polymère-céramique de différentes longueurs, largeurs et formes, destinées à être insérées dans les exosquelettes et les combinaisons blindées lourdes.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet en céramique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures lourdes.\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_27_name">
+		<text>Amortisseurs en silicone</text>
+	</string>
+	<string id="upgr_1_27_description">
+		<text>	Amortisseurs en silicone renforcé, conçus pour remplacer des modèles similaires en caoutchouc. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Matériaux polymériques\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les armures lourdes\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_27_name">
+		<text>Combinaison en polymère avec inserts en bismuth</text>
+	</string>
+	<string id="upgr_3_27_description">
+		<text>Doublure protectrice de combinaison fabriquée en matériaux polymères, intégrant des volumes de bismuth.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Matériaux polymériques\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures lourdes\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_28_name">
+		<text>Inserts en aluminium</text>
+	</string>
+	<string id="upgr_3_28_description">
+		<text>Version en aluminium de certaines pièces en plastique, destinée aux exosquelettes et combinaisons blindées lourdes.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet en aluminium\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures lourdes\n
+		</text>
+	</string>
+	
+	<string id="upgr_1_28_name">
+		<text>Système intégré de régulation thermique</text>
+	</string>
+	<string id="upgr_1_28_description">
+		<text>Système de régulation thermique intégré conçu pour être installé dans les systèmes de survie des exosquelettes et des combinaisons blindées lourdes. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Dispositif médical\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures lourdes\n
+		</text>
+	</string>
+	
+	<string id="upgr_2_39_name">
+		<text>Système de protection moteur</text>
+	</string>
+	<string id="upgr_2_39_description">
+		<text>Ensemble de plaques de blindage protectrices de différentes longueurs, largeurs et formes, destinées à être insérées dans les éléments mobiles des exosquelettes et des combinaisons blindées lourdes. \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] élément en acier\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures lourdes\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_29_name">
+		<text>Système moteur Walker</text>
+	</string>
+	<string id="upgr_3_29_description">
+		<text>Système équipé de ressorts supplémentaires et de pièces mobiles pour exosquelettes et combinaisons blindées lourdes.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] Objet en acier\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures lourdes\n
+		</text>
+	</string>
+	
+	<string id="upgr_3_30_name">
+		<text>Système d'amplification des servomoteurs hydrauliques</text>
+	</string>
+	<string id="upgr_3_30_description">
+		<text>
+		Système d'amplification hydraulique pour servomoteurs destiné aux exosquelettes et combinaisons blindées lourdes.  \n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] objet technique\n
+		%c[d_blue] • %c[ui_gray_2] Utilisé pour améliorer les propriétés des armures lourdes\n
+		%c[d_blue] • %c[ui_gray_2] objet de valeur\n
+		</text>
+	</string>
+	
+</string_table>

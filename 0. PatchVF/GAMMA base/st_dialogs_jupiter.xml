@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!-- (Monolith Mechanic - Jupiter factory) -->
+	<string id="mechanic_monolith_jup_depo_start_0">
+		<text>Salut, frère. Mon devoir, c'est d'assurer le support technique pour nos frères dans le coin.</text>
+	</string>
+
+	
+<!-- (Monolith Trader - Jupiter factory) -->
+	<string id="meet_guid_jupdepo_mon_0">
+		<text>Où est-ce que je peux aller, frangin ?</text>
+	</string>
+	<string id="meet_guid_jupdepo_mon_1">
+		<text>Il y en a plusieurs - on a des routes qui mènent à la Forêt Rouge, la Périphérie et Pripyat. Je ne peux pas t'y emmener moi-même, mais tu peux y aller avec tes frères - contre une petite somme. Je pense pas que ça posera problème, ceci dit.</text>
+	</string>
+	
+	<string id="meet_guid_jupdepo_mon_list_0">
+		<text>Où est-ce que les guides peuvent m’emmener ?</text>
+	</string>
+	<string id="meet_guid_jupdepo_mon_list_1">
+		<text>Vers la Forêt Rouge pour six mille roubles, la Périphérie pour deux mille et Pripyat pour mille.</text>
+	</string>
+
+	<string id="travel_guid_jupdepo_mon_mon_0">
+		<text>J'aimerais aller quelque part, frangin.</text>
+	</string>
+	<string id="travel_guid_jupdepo_mon_mon_1">
+		<text>Bien sûr. Où veux-tu aller ?</text>
+	</string>
+	<string id="travel_guid_jupdepo_mon_mon_2">
+		<text>Vers la Forêt Rouge. %c[d_orange][6000 RU]</text>
+	</string>
+	<string id="travel_guid_jupdepo_mon_mon_3">
+		<text>Vers la Périphérie. %c[d_orange][2000 RU]</text>
+	</string>
+	<string id="travel_guid_jupdepo_mon_mon_4">
+		<text>À Pripyat. %c[d_orange][1000 RU]</text>
+	</string>
+	<string id="travel_guid_jupdepo_mon_mon_5">
+		<text>J'ai changé d'avis.</text>
+	</string>
+
+	
+<!-- Garry (Guide) -->
+	<string id="meet_guid_jup_0">
+		<text>T'es qui, toi ?</text>
+	</string>
+	<string id="meet_guid_jup_1">
+		<text>Ravi de te rencontrer, frangin. Moi c'est Garry, et je suis guide - je traîne généralement dans le centre de la Zone. Je peux t'emmener au Bar, à Pripyat, dans la Forêt Rouge, à Zaton et dans les Souterrains de Jupiter.</text>
+	</string>
+
+	<string id="meet_guid_jup_list_0">
+		<text>J’ai oublié. Où est-ce que tu peux me conduire ?</text>
+	</string>
+	<string id="meet_guid_jup_list_1">
+		<text>Je propose des trajets vers le Bar pour six mille roubles, Pripyat pour trois mille, la Forêt Rouge pour deux mille cinq cents, le Skadovsk à Zaton pour deux mille et les Souterrains de Jupiter pour mille cinq cents.</text>
+	</string>
+
+	<string id="travel_guid_jup_0">
+		<text>Emmène-moi quelque part.</text>
+	</string>
+	<string id="travel_guid_jup_1">
+		<text>OK, on va où ?</text>
+	</string>
+	<string id="travel_guid_jup_2">
+		<text>Au Bar. %c[d_orange][6000 RU]</text>
+	</string>
+	<string id="travel_guid_jup_3">
+		<text>À Pripyat. %c[d_orange][3000 RU]</text>
+	</string>
+	<string id="travel_guid_jup_4">
+		<text>Vers la Forêt Rouge. %c[d_orange][2500 RU]</text>
+	</string>
+	<string id="travel_guid_jup_5">
+		<text>Vers les Souterrains de Jupiter. %c[d_orange][1500 RU]</text>
+	</string>
+	<string id="travel_guid_jup_6">
+		<text>À Zaton. %c[d_orange][2000 RU]</text>
+	</string>
+	<string id="travel_guid_jup_7">
+		<text>J'ai changé d'avis.</text>
+	</string>
+
+<!-- Loki (Freedom Leader) in Yanov -->
+	<string id="loki_st_0">
+		<text>C'est toi le chef ici ?</text>
+	</string>
+	<string id="loki_st_1">
+		<text>C'est bien moi. Je m'appelle Loki, le bras droit de Lukash à cette station.</text>
+	</string>
+	<string id="loki_st_2">
+		<text>Loki ? Un nom intéressant... comme la divinité scandinave.</text>
+	</string>
+	<string id="loki_st_3">
+		<text>C'est ça. C'est comme ça qu'on m'appelait à l'époque, juste quand le Lobotomisateur est apparu. C'était des périodes de dingue.</text>
+	</string>
+	<string id="loki_st_4">
+		<text>Tu pourrais m'en dire plus sur ce qui s'est passé après le Scorcher ?</text>
+	</string>
+	<string id="loki_st_5">
+		<text>OK. Quand le Scorcher a été coupé pour la première fois en 2012, mon escouade a lancé une opération vers le nord. On a avancé un moment, en traversant différents endroits... Quand la centrale de Tchernobyl est apparue à l'horizon, on a décidé de chercher un endroit pour camper et on a trouvé cette station, vide à l'époque. Devoir est arrivé peu après. On se tapait dessus quand une émission nous est tombée dessus. Faut que tu comprennes : se faire zombifier, c'est une putain de merde comme façon de crever, peu importe qui tu es. Alors, au risque de ma peau... j'ai laissé Devoir entrer avant que la tempête ne devienne trop violente. On a déclaré une trêve dans tout le bâtiment, en convenant de garder les armes dans leurs étuis et les couteaux dans leurs fourreaux à l'intérieur. Bien sûr, on continuait à se chercher des noises dehors.</text>
+	</string>
+	<string id="loki_st_6">
+		<text>Et les gars du Devoir qui étaient stationnés ici ? Ils sont où maintenant ?</text>
+	</string>
+	<string id="loki_st_7">
+		<text>C'est pas une question facile. Pas longtemps avant, un stalker du nom d'Alexander est apparu et a sacrément aidé les gens ici - le gars a fait plein de bonnes choses. Grâce à lui, tout le monde maintenait un équilibre prudent dans cette gare. Les tensions entre factions dans le bâtiment commençaient même à se calmer. Jusqu'à ce que Monolithe pointe à nouveau ses sales gueules au-dessus du sol et commence à nous regarder de travers.</text>
+	</string>
+	<string id="loki_st_8">
+		<text>Et après, qu'est-ce qui s'est passé ?</text>
+	</string>
+	<string id="loki_st_9">
+		<text>Ben, le colonel Shulga - le chef des Devoir ici - a décidé qu'il en avait marre de voir les cultistes se balader librement dans la Zone. Il a pris autant d'hommes qu'il pouvait, a dit « T'inquiète, on sera de retour pour l'apéro » et il a marché droit sur Pripyat. Le Lobotomisateur s'est réactivé peu après et... on les a plus jamais revus depuis.</text>
+	</string>
+	<string id="loki_st_10">
+		<text>Son sacrifice en valait la chandelle ?</text>
+	</string>
+	<string id="loki_st_11">
+		<text>...Non. Penser aux risques que j'ai pris quand j'ai laissé ses hommes entrer ici, il y a toutes ces années... Aujourd'hui, ils boivent probablement un coup avec les lavés de cerveau et les morts-vivants...</text>
+	</string>
+	<string id="loki_st_12">
+		<text>Putain.</text>
+	</string>
+
+	<string id="devushka_loki_help_0">
+		<text>Hé, Loki ! Livraison de la part de Lukash !</text>
+	</string>
+	<string id="devushka_loki_help_1">
+		<text>Ouais, ça va t'aider. Un service en vaut un autre, comme dit le vieux cliché. Tiens, prends cette combinaison. Son ancien proprio en a plus besoin, de toute façon.</text>
+	</string>
+	
+	
+
+	<string id="jup_a6_freedom_trader_ashot_start_dialog_0">
+		<text>Qu'est-ce que je peux te vendre aujourd'hui ?</text>
+	</string>
+	<string id="jup_b19_freedom_yar_start_dialog_0">
+		<text>Salut, stalker. T’as besoin de quoi ?</text>
+	</string>
+
+	<!-- Trapper (Loner) in Yanov -->
+	<string id="jup_b220_trapper_start_11">
+		<text>Moi, c'est Trapper... Pas besoin de te présenter.</text>
+	</string>
+	<string id="jup_b220_trapper_start_12">
+		<text>Qu'est-ce qui t'amène ici ?</text>
+	</string>
+	
+		<string id="jup_trapper_about_himself_0">
+		<text>Tu fais quoi dans la vie ?</text>
+	</string>
+	<string id="jup_trapper_about_himself_1">
+		<text>Alors, moi c'est Trapper et avant, je chassais les mutants qui représentaient un danger pour les stalkers... Maintenant, je prends des commandes et je les refile à des chasseurs plus jeunes. Je les forme et je leur apprends les tactiques de chasse.</text>
+	</string>
+	
+	<string id="jup_trapper_about_retire_0">
+		<text>Pourquoi t’as arrêté de chasser ?</text>
+	</string>
+	<string id="jup_trapper_about_retire_1">
+		<text>Je vieillis, mec. C'est pour ça que Fox est mort... C'était mon partenaire, et l'un de mes meilleurs potes. On a chassé pas mal de bestioles ensemble, côte à côte... Puis on est tombés sur ces deux chimères près de Zaton, des bêtes qu'on avait pas vues dans la Zone depuis dix-huit mois... L'une a plaqué Fox au sol avant que j'aie même pu sortir mon fusil. Quand j'ai blessé l'autre, elles se sont barrées... J'espère qu'elles crèveront en enfer pour l'éternité !</text>
+	</string>
+	
+	<string id="st_jup_b220_trapper_life_ask">
+		<text>Parle-moi de la chasse aux mutants...</text>
+	</string>
+	<string id="st_jup_b220_trapper_life_1">
+		<text>Les Chimères sont des prédateurs nocturnes très dangereux. Elles essaient de te contourner sous le couvert de darkness et de te sauter dessus. Si tu sais qu'il y a une chimère dans le coin, vérifie constamment tes arrières et couvre les miches de tes potes...</text>
+	</string>
+	<string id="st_jup_b220_trapper_life_2">
+		<text>Les Domovoï utilisent des attaques gravitationnelles... En rapproché, ils te balancent, et de loin, ils essaient de te lancer un truc dessus... Le mieux, c'est de les garder à distance moyenne et de bouger sans arrêt, sauf si t'aimes te prendre des objets lourds dans la gueule... Mais fais gaffe à garder tes forces ! Un Domovoï peut envoyer une impulsion gravitationnelle ciblée pour t'arracher ton arme des mains, et si t'es crevé, ça peut marcher.</text>
+	</string>
+	<string id="st_jup_b220_trapper_life_3">
+		<text>Y'a deux types de poltergeists. Le premier balance des objets sur l'ennemi avec la gravité, tandis que le second, c'est le poltergeist de feu qui crame ses victimes. Les chasseurs inexpérimentés essaient de tourner autour pour esquiver leurs attaques... Le truc, c'est de savoir que les poltergeists voient et entendent pas comme nous. Ils détectent les objets qui bougent dans leur champ gravitationnel... Alors un chasseur aguerri se fige dès qu'il repère un poltergeist, tire, puis se fige à nouveau, et ainsi de suite.</text>
+	</string>
+	<string id="st_jup_b220_trapper_life_4">
+		<text>Le plus dur quand tu chasses un pseudogiants, c'est de le buter. Ils encaissent une putain de raclée sans même sourciller... Tout ce que je peux te dire, c'est que t'as intérêt à essayer un fusil à pompe en rapproché. Juste, rappelle-toi qu'un pseudogiant peut arracher tout ce qui n'est pas fixé au béton. Attaque-le par le haut... et assure-toi que ce sur quoi tu te tiens peut encaisser quelques dégâts.</text>
+	</string>
+	<string id="st_jup_b220_trapper_life_5">
+		<text>Les Controllers utilisent ton propre esprit contre toi. Quand tu en chasses un, il faut te mettre à couvert, parce qu'il doit te voir pour agir sur ton esprit... En plus, ils sont plutôt lents, alors si ta vie est en jeu, balance des grenades.</text>
+	</string>
+	<string id="st_jup_b220_trapper_life_end">
+		<text>Sors et mets en pratique ce que j't'ai dit. On pourra papoter des mutants plus tard.</text>
+	</string>
+
+
+	<!-- -->
+	<string id="jup_a6_stalker_medik_start_dialog_0">
+		<text>Tu cherches des fournitures médicales, ou t'es juste venu papoter ?</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_0">
+		<text>J'ai besoin d'aide médicale.</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_1">
+		<text>Jetons un oeil...</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_2">
+		<text>Voyons voir... Bon, ton foie est plus gros que ce à quoi je m'attendais, mais c'est un risque du métier, hein ? À part ça, t'es en forme comme un domovoï.</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_111">
+		<text>Évidemment que t'as besoin d'être soigné, mais je vais pas le faire gratis. Mon tarif, c'est 1850 RU pour une récup' complète, peu importe la gravité de tes blessures. Par contre, enlever la radioactivité de ton système, c'est un service à part, encore 1480 RU en plus.</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_11">
+		<text>Qu'est-ce que tu racontes ? J'suis déjà mort, ou quoi ?</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_1111">
+		<text>Bon, j'te paierai. Au final, ça sert à rien d'emmener son fric dans la tombe.</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_1112">
+		<text>Merde, c’est trop cher pour moi !</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_1115">
+		<text>J'vais pas payer ça, merci bien ! J'préfère crever !</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_1114">
+		<text>J'ai pas autant de thune. Traite juste les radiations, s'te plaît.</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_1113">
+		<text>J'ai une trousse de premiers secours, alors traite-moi juste pour les radiations.</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_11111">
+		<text>Attends une minute... te voilà comme neuf. Garantie : deux ans si tu quittes pas la station.</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_11112">
+		<text>J'fais pas crédit, cherche ailleurs.</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_11113">
+		<text>Alors... À une bonne mort, frangin.</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_11114">
+		<text>Bon, viens là. J'ai plus besoin d'antirad.</text>
+	</string>
+
+	<!-- -->
+	<string id="jup_a6_freedom_leader_start_dialog_11">
+		<text>Alors, t’as quelque chose à dire ?</text>
+	</string>
+	<string id="jup_a6_freedom_leader_start_dialog_12">
+		<text>Qu'est-ce que tu fous ici ?</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_0">
+		<text>Parle-moi de ta place chez Liberté.</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_1">
+		<text>C'est une longue histoire. Tu veux savoir quoi ?</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_1111">
+		<text>Qu’est-ce que tu fous ici, au juste ?</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_11111">
+		<text>On s'assure que les différents officiels cachent rien au peuple. Tu sais comment c'est : dès qu'ils trouvent un nouveau labo ou des documents qui éclairent les secrets de la Zone, ils organisent direct une opération militaire et nettoient tout mieux qu'un putain d'aspirateur. La seule façon de découvrir des trucs, c'est d'arriver avant eux.</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_1112">
+		<text>Qu'est-ce qui t'a amené au coeur de la Zone ?</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_11121">
+		<text>Ben, les gars avaient envie de se balader dans un nouvel endroit... Je déconne. C'est l'occasion de trouver des trucs que le monde a jamais vus. Cet endroit est plutôt vierge, pour ce qui est de la Zone, alors y'a du nouveau à chaque coin de rue.</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_111211">
+		<text>T'as trouvé quelque chose ?</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_1112111">
+		<text>Surtout des portes verrouillées et des nouveaux artefacts bizarres.</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_1113">
+		<text>Comment t’as atterri chez Liberté ?</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_11131">
+		<text>Ben, j'étais pote avec les chefs de Liberté à l'époque où la Zone existait pas. Remarque, à l'époque, c'étaient pas encore des chefs : juste des hippies normaux. Alors quand je me suis pointé dans la Zone à la recherche de artefacts et que j'ai croisé des têtes connues, j'me suis dit que j'allais continuer avec ce que je connaissais.</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_1114">
+		<text>T’en penses quoi, du Devoir ?</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_11141">
+		<text>C'est des abrutis, voilà ce que j'en pense. Si Voronin avait pas la tête dans le cul, il aurait envoyé des renforts ici, comme Liberté l'a fait quand Monolithe est revenu. Si Shulga était pas un tel crétin, il aurait pas disparu en essayant de sauver cette station ! Si leurs troufions avaient plus de deux neurones, ils passeraient plus de temps à chercher leurs potes perdus et moins à nous tirer dessus comme des cons. Si l'un d'eux avait un peu de jugeote, il profiterait de la vie au max. Pas la gâcher en essayant d'éradiquer la plus incroyable merveille scientifique que le monde ait jamais vue.</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_1115">
+		<text>OK. Laisse tomber.</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_11151">
+		<text>Comme tu veux.</text>
+	</string>
+
+    <!-- Hawaiian (Bartender at Yanov Station) -->
+	<string id="jup_a6_stalker_barmen_start_dialog_11">
+		<text>Bienvenue dans mon humble demeure de plaisir et de joie. Tu cherches du plaisir, de la joie, ou les deux à parts égales ?</text>
+	</string>
+	<string id="jup_a6_stalker_barmen_start_dialog_12">
+		<text>T'es venu te détendre ? Les boissons sont rien de spécial, mais ici, c'est un endroit accueillant et sympa !</text>
+	</string>
+	<string id="jup_a6_stalker_barmen_start_dialog_13">
+		<text>J'ai tout le matos dont t'auras jamais besoin. Tu cherches quoi ? Un peu de bouffe, un coup à boire, ou l'envie de tirer quelques cartouches ?</text>
+	</string>
+	
+	<string id="hawaiian_yanov_0">
+		<text>Parle-moi de cet endroit.</text>
+	</string>
+	<string id="hawaiian_yanov_1">
+		<text>Bienvenue à la gare de Yanov, frère stalker ! Plein de gens sympas ici ! Oui... plein ! Des amis et des compagnons avec qui discuter, boire et jouer entre deux expéditions dans la Zone. Tu veux acheter quelque chose pour t'aider ? Entre Ashot et moi, on a tout ce qu'il te faut, mon pote. Mieux vaut prévenir que guérir !</text>
+	</string>
+
+	<!-- Hermann (Ecologist)-->
+	<string id="jup_b6_scientist_nuclear_physicist_start_11">
+		<text>Qu’est-ce que tu veux me dire ?</text>
+	</string>
+	
+	<string id="hermann_lab_0">
+		<text>Parle-moi de cet endroit.</text>
+	</string>
+	<string id="hermann_lab_1">
+		<text>Eh ben, y'a pas grand-chose à dire. Après pas mal de négociations, j'ai réussi à convaincre le ministère ukrainien de l'Éducation d'installer un nouveau labo dans la Zone une fois que le Lobotomisateur a été neutralisé. Sauf qu'on nous a offert aucune protection, parce que l'opération militaire qui devait nous accompagner a complètement foiré. Avec du matos dernier cri mais zéro main-d'oeuvre, on est obligés de faire appel à des stalkers mercenaires la plupart du temps. Inutile de préciser que nos capacités et nos conditions de travail laissent à désirer. Comment on est censés avancer sans aucun soutien extérieur ?</text>
+	</string>
+	
+	<string id="jup_b16_biochemist_oasis_start_11">
+		<text>Qu'est-ce qui t'amène ici ?</text>
+	</string>
+	
+	<string id="ozersky_oasis_0">
+		<text>Tu sais quelque chose sur l'Oasis, toi ?</text>
+	</string>
+	<string id="ozersky_oasis_1">
+		<text>Bien sûr. On a même étudié un artefact de cet endroit, même si depuis, il a été réclamé pour être utilisé dans le monde extérieur. Le stalker qui nous l'a donné - un certain Alexander Degtyarev - n'a jamais révélé où se trouve l'Oasis, cela dit. Si tu la trouves, on paiera cher pour un autre artefact de l'Oasis.</text>
+	</string>
+
+	<string id="jup_b6_scientist_medic_start_11">
+		<text>Qu'est-ce qui t'amène ici ?</text>
+	</string>
+
+	<!-- Ashot and Yar -->
+	<string id="st_jup_yar_reply_1">
+		<text>Va dire à %s de ramener son gros cul ici.</text>
+	</string>
+	<string id="st_jup_yar_reply_2">
+		<text>Il sait pas que j'suis occupé ? Dis-lui de rappliquer ici.</text>
+	</string>
+	<string id="st_jup_yar_reply_3">
+		<text>J'suis pas payé pour me balader. Dis-lui de venir me voir.</text>
+	</string>
+	<string id="st_jup_yar_reply_4">
+		<text>Quoi ? Il veut un fauteuil roulant ? Va me chercher %s.</text>
+	</string>
+	<string id="st_jup_yar_reply_5">
+		<text>Où il est, %s ? J'peux pas réparer tant qu'il l'amène pas ici.</text>
+	</string>
+
+	<string id="st_jup_ashot_reply_1">
+		<text>Si %s le veut, dis-lui de venir ici et de le prendre lui-même.</text>
+	</string>
+	<string id="st_jup_ashot_reply_2">
+		<text>Répète un peu ? S'il le veut, qu'il vienne le chercher. Pigé ?</text>
+	</string>
+	<string id="st_jup_ashot_reply_3">
+		<text>Dis à ce vieux chauve de se traîner jusqu'ici.</text>
+	</string>
+	<string id="st_jup_ashot_reply_4">
+		<text>J'peux pas laisser ma boutique sans surveillance. Qu'il vienne jusqu'à moi, hein ?</text>
+	</string>
+	<string id="st_jup_ashot_reply_5">
+		<text>J'ai pas l'air d'un larbin, moi. Dis à %s d'venir le chercher lui-même.</text>
+	</string>
+</string_table>

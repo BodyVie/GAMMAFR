@@ -10,12 +10,12 @@
 <string_table>
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- STORYLINE TASK TEXT STRINGS
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< STORYLINE TASK TEXT STRINGS
+	<
+	< ========================================================================================= -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Rabbit (Monolith Trader) Default Storyline Task -->
 
 	<string id="drx_sl_pri_monolith_monolith_trader_stalker_default_task_name">
@@ -31,7 +31,7 @@
 		<text>Bonne chance.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Rabbit (Monolith Trader) Destroy the Non-Believers Storyline Task -->
 
 	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_1_name">
@@ -47,7 +47,7 @@
 		<text>Excellent travail. Vous êtes un fin guerrier.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Rabbit (Monolith Trader) Collect Supplies Storyline Task -->
 
 	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_2_name">
@@ -66,7 +66,7 @@
 		<text>Vous avez bien agi.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Rabbit (Monolith Trader) Venture into the Zone Storyline Task -->
 
 	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_3_name">
@@ -82,7 +82,7 @@
 		<text>Vous avez bien agi, mon fils.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Cleric (Monolith Mechanic) Default Storyline Task -->
 
 	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_default_task_name">
@@ -98,7 +98,7 @@
 		<text>Bonne chance.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Cleric (Monolith Mechanic) Recover Stolen Equipment Storyline Task -->
 
 	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_1_name">
@@ -114,7 +114,7 @@
 		<text>Vous avez bien agi.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Cleric (Monolith Mechanic) Hunt for Food Storyline Task -->
 
 	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_2_name">
@@ -130,7 +130,7 @@
 		<text>Vous avez tous bien servi le Monolithe. La viande que vous avez apportée sera servie lors du festin de ce soir. En récompense, nous vous réservons les globes oculaires.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Cleric (Monolith Mechanic) Monolith Weapon Arsenal Storyline Task -->
 
 	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_3_name">
@@ -149,7 +149,7 @@
 		<text>Vous avez bien agi, mon fils.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Olivar (Monolith Trader) Default Storyline Task -->
 
 	<string id="drx_sl_trader_monolith_kbo_default_task_name">
@@ -211,7 +211,7 @@
 		<text>Cette information sera utile. Merci, frère.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Griffith (Mercenary Operator) Default Storyline Task -->
 
 	<string id="drx_sl_merc_pri_grifon_mlr_default_task_name">
@@ -258,12 +258,12 @@
 	</string>
 	
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- CHANGE FACTIONS TASK TEXT STRINGS
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< CHANGE FACTIONS TASK TEXT STRINGS
+	<
+	< ========================================================================================= -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Rabbit (Monolith Trader) Payoff Change Factions Task -->
 
 	<string id="drx_sl_pri_monolith_monolith_trader_stalker_cf_task_1_name">
@@ -280,12 +280,12 @@
 	</string>
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- DYNAMIC TASK TEXT STRINGS
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< DYNAMIC TASK TEXT STRINGS
+	<
+	< ========================================================================================= -->
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Eidolon (Elite Monolith Soldier) Purge the Infidels Task -->
 	<string id="monolith_eidolon_task_1_name">
 		<text>Purger les infidèles</text>
@@ -303,7 +303,7 @@
 		<text>Une telle dévotion. À notre glorieuse cause. La dévotion sera récompensée.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Eidolon (Elite Monolith Soldier) Hunt the Mutants Task -->
 	
 	<string id="monolith_eidolon_task_2_name">
@@ -322,7 +322,7 @@
 		<text>Magnifique trophée. Le Monolithe est fier. Moi aussi. Voici une récompense pour vous.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Eidolon (Elite Monolith Soldier) Harvest the Fruit Task -->
 
 	<string id="monolith_eidolon_task_3_name">
@@ -341,7 +341,7 @@
 		<text>Excellent. Merveilleux. Un spectacle à contempler. Je vous suis reconnaissant, frère loyal.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Eidolon (Elite Monolith Soldier) Keeper of Secrets Task -->
 	<string id="monolith_eidolon_task_4_name">
 		<text>Gardien des secrets</text>
@@ -356,7 +356,7 @@
 		<text>La Zone est sûre. Grâce à vous.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Rabbit (Monolith Trader) Assault Territory Task -->
 	<string id="pri_monolith_monolith_trader_stalker_task_1_name">
 		<text>Soumettre l'ennemi</text>
@@ -454,12 +454,12 @@
 	</string>
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- MECHANIC TASK TEXT  STRINGS
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< MECHANIC TASK TEXT  STRINGS
+	<
+	< ========================================================================================= -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Cleric (Monolith Mechanic) Find Level 1 Toolkit Task -->
 
 	<string id="pri_monolith_monolith_mechanic_stalker_task_1_name">

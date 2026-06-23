@@ -7,7 +7,7 @@
 <===========================================================-->
 <string_table>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Cold (Clear Sky Honcho) Default Storyline Task -->
 
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_default_task_name">
@@ -23,7 +23,7 @@
 		<text>Bonne chance, stalker.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Cold (Clear Sky Honcho) Covert Agent Storyline Task -->
 
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_1_name">
@@ -39,7 +39,7 @@
 		<text>Vous n'avez pas été suivi, n'est-ce pas ? Bien joué.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Cold (Clear Sky Honcho) Protect Clear Sky Base Storyline Task -->
 
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_2_name">
@@ -55,7 +55,7 @@
 		<text>Vous avez bien agi. Merci, stalker.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Cold (Clear Sky Honcho) Find Artefact Storyline Task -->
 
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_3_name">
@@ -74,7 +74,7 @@
 		<text>Ah, parfait, vous en avez trouvé un. Vous avez bien travaillé.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Cold (Clear Sky Honcho) Search Agroprom Underground Storyline Task -->
 
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_4_name">
@@ -90,7 +90,7 @@
 		<text>Excellent travail. Vous avez bien agi.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Cold (Clear Sky Honcho) Blood Red Sky Storyline Task -->
 
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_5_name">
@@ -106,7 +106,7 @@
 		<text>Ah, quel soulagement ! Vous êtes un stalker courageux. Je vous remercie.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Librarian (Clear Sky Trader) Default Storyline Task -->
 
 	<string id="drx_sl_mar_base_stalker_barmen_default_task_name">
@@ -122,7 +122,7 @@
 		<text>Bonne chance, stalker.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Librarian (Clear Sky Trader) Clear Out Mutant Lair Storyline Task -->
 
 	<string id="drx_sl_mar_base_stalker_barmen_task_1_name">
@@ -138,7 +138,7 @@
 		<text>Bien joué. Voici quelque chose pour votre peine.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Librarian (Clear Sky Trader) Procure Supplies Storyline Task -->
 
 	<string id="drx_sl_mar_base_stalker_barmen_task_2_name">
@@ -158,12 +158,12 @@
 	</string>
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- CHANGE FACTIONS TASK TEXT  STRINGS
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< CHANGE FACTIONS TASK TEXT  STRINGS
+	<
+	< ========================================================================================= -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Cold (Clear Sky Honcho) Payoff Change Factions Task -->
 
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_cf_task_1_name">
@@ -180,12 +180,12 @@
 	</string>
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- DYNAMIC TASK TEXT  STRINGS
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< DYNAMIC TASK TEXT  STRINGS
+	<
+	< ========================================================================================= -->
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Cold (Clear Sky Honcho) Decimate the Enemy Task -->
 	
 	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_1_name">
@@ -204,7 +204,7 @@
 		<text>Voici, notre tueur professionnel. Je suppose que ces salauds réfléchiront à deux fois avant de revenir visiter notre marais. Je l'espère. Voici votre récompense.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Cold (Clear Sky Honcho) Night Terror Task -->
 	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_2_name">
 		<text>Terreur nocturne</text>
@@ -219,7 +219,7 @@
 		<text>Bravo ! J’espère que cette récompense sera à la hauteur. Et les histoires que l’on racontera à votre sujet.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Cold (Clear Sky Honcho) Defend the pump station Task -->
 
 	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_4_title">
@@ -229,7 +229,7 @@
 		<text>Une de nos patrouilles a capturé plusieurs bandits aux abords de la station de pompage. Après un interrogatoire musclé, ils ont avoué préparer une attaque. Nous ignorons le moment où ils passeront à l'action, et j'ai déjà envoyé quelques hommes sur place, mais toute aide est la bienvenue. Votre devoir sera naturellement récompensé.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Kalancha (Clear Sky Medic) Lost to the Zone Tasks -->
 	
 	<string id="mar_smart_terrain_base_doctor_task_1_name">
@@ -296,7 +296,7 @@
 		<text>Excellent travail ! Je vous suis grandement redevable.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Spore (Clear Sky Trader) Deliver PDA Task -->
 
 	<string id="mar_base_owl_stalker_trader_task_1_name">

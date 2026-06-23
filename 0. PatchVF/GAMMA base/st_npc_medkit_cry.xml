@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>                                                                                                                              
+	<string id="st_eat_medkit_cry_1"><text>Haah... medkit... ça y est. Pas mort encore, pas mort encore...</text></string>
+	<string id="st_eat_medkit_cry_2"><text>PUTAIN ! Je vais bientôt avoir besoin d'un autre garrot !</text></string>
+	<string id="st_eat_medkit_cry_3"><text>T'es pas le seul à trimballer des médocs, pauvre naze.</text></string>
+	<string id="st_eat_medkit_cry_4"><text>Uugh. Tellement de sang. Bandages, Bandages, Bandages... ouf.</text></string>
+	<string id="st_eat_medkit_cry_5"><text>Ghnaaa ! Putain, c'est à moi. C'est mon sang. Non. Nononononono. Medkit, Medkit-Medkit ! Aaah. Beaucoup mieux.</text></string>
+	<string id="st_eat_medkit_cry_6"><text>J'meurs pas si facilement, connard !</text></string>
+	<string id="st_eat_medkit_cry_7"><text>T'as fait gâcher mon dernier medkit... Je vais kiffer dépouiller ton cadavre.</text></string>
+	<string id="st_eat_medkit_cry_8"><text>Allez, ALLEZ ! Je vais avoir besoin d'une autre piqûre de morphine !</text></string>
+	<string id="st_eat_medkit_cry_9"><text>Ah, merde. Mon kevlar est presque en lambeaux !</text></string>
+	<string id="st_eat_medkit_cry_10"><text>Ngghhh. Si je m'en sors, je vais embrasser mon toubib.</text></string>
+	<string id="st_eat_medkit_cry_11"><text>J'ai besoin de plus de bandages par ici !</text></string>
+	<string id="st_eat_medkit_cry_12"><text>GAH ! Finalement, ces médocs de loot servaient à quelque chose...</text></string>
+	<string id="st_eat_medkit_cry_13"><text>Mmmffffp ! L'assurance va pas couvrir ça...</text></string>
+	<string id="st_eat_medkit_cry_14"><text>Juste une autre piqûre, juste une autre piqûre, juste une autre piqûre...</text></string>
+	<string id="st_eat_medkit_cry_15"><text>Finalement, c'était pas mon dernier medkit. Je suis toujours dans la course, connard !</text></string>
+	<string id="st_eat_medkit_cry_16"><text>Unnff. Bandage. Ça m'aurait tué si t'avais su viser, enfoiré !</text></string>
+	<string id="st_eat_medkit_cry_17"><text>Inghh ! Passez-moi un autre medkit ! Celui-là est fini !</text></string>
+	<string id="st_eat_medkit_cry_18"><text>A-aaaah-AAAAAAH ! Mmmph. Merci mon Dieu pour la morphine...</text></string>
+	<string id="st_eat_medkit_cry_19"><text>Ça va prendre plus que ça pour me descendre, petit con !</text></string>
+	<string id="st_eat_medkit_cry_20"><text>AAARGH ! Putain de saig- EERRGHN ! Medkit, Medkit, Medkit. Ouf...</text></string>
+	<string id="st_eat_medkit_cry_21"><text>Tu crois que tu vas me saigner à blanc ? Réfléchis encore.</text></string>
+	<string id="st_eat_medkit_cry_22"><text>L'armure tient encore, l'armure tient encore, l'armure tient encore...</text></string>
+</string_table>

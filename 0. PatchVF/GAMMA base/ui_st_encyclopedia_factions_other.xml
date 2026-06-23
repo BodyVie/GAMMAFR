@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="encyclopedia_factions_other">
+		<text>Factions (Autres)</text>
+	</string>
+	
+	<string id="encyclopedia_factions_other_zombified">
+		<text>Zombifiés</text>
+	</string>
+	<string id="encyclopedia_factions_other_zombified_text">
+		<text>
+			%c[pda_white]Zombifiés%c[ui_gray_1] Les stalkers zombifiés sont ceux qui sont tombés sous l'effet d'un puissant champ psychique.\n
+			\n%c[pda_green]Informations%c[ui_gray_1]
+			\nCes créatures sont dépourvues des fonctions supérieures du cerveau et agissent uniquement sur la base de réflexes résiduels et de compétences, incapables d'activité consciente et présentant un seuil de douleur élevé.\n
+			\nLa santé mentale et physique d'un stalker zombifié se détériore progressivement avec le temps, finissant par perdre les derniers vestiges de son humanité et se transformant en le mutant connu sous le nom de Zombie.\n
+			\nContrairement aux mutants, cependant, les stalkers zombifiés sont capables d'utiliser des armes et des outils, et sont fréquemment observés travaillant en groupe ou avec des soldats du Monolithe.\n
+			\n%c[pda_green]Statistiques%c[ui_gray_1]\n
+			\n• Dirigeants : Inconnus\n• Quartier général : Inconnu\n• Couleurs : Diverses\n
+		</text>
+	</string>
+	
+</string_table>

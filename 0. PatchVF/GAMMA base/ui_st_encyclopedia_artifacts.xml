@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="encyclopedia_artefacts">
+		<text>L'Artefacts</text>
+	</string>
+		<string id="encyclopedia_artifacts">
+		<text>L'Artefacts</text>
+	</string>
+	
+	<string id="pda_encyclopedia_name">
+		<text>Nom</text>
+	</string>
+	<string id="pda_encyclopedia_weight">
+		<text>Poids</text>
+	</string>
+	<string id="pda_encyclopedia_tier">
+		<text>Niveau</text>
+	</string>
+	<string id="pda_encyclopedia_tier_0">
+		<text>-</text>
+	</string>
+	<string id="pda_encyclopedia_tier_1">
+		<text>Faible</text>
+	</string>
+	<string id="pda_encyclopedia_tier_2">
+		<text>Moyenne</text>
+	</string>
+	<string id="pda_encyclopedia_tier_3">
+		<text>Élevé</text>
+	</string>
+	
+	<string id="pda_encyclopedia_origin">
+		<text>Origine</text>
+	</string>
+	
+	<string id="encyclopedia_artefacts__about">
+		<text>À propos</text>
+	</string>
+	<string id="encyclopedia_artefacts__about_text">
+		<text>
+		%c[pda_white]Les Artefacts%c[ui_gray_1] sont des objets modifiés par les conditions de la Zone.\n
+		
+		\n%c[pda_green]Information%c[ui_gray_1]
+		\nLa plupart des artefacts possèdent des caractéristiques étranges et utiles. Par exemple, lorsqu'ils sont portés près du corps, certains artefacts créent un champ protecteur qui augmente la résilience de leur utilisateur face aux dommages. D'autres peuvent améliorer l'endurance de l'utilisateur ou le protéger contre le feu, etc. Les artefacts constituent également un matériel d'étude scientifique précieux, et les corporations extérieures seraient prêtes à payer un prix élevé pour en obtenir un en provenance de la Zone.
+		
+		\n\n%c[pda_blue]Naissance d'un artefact%c[ui_gray_1]
+		\nLes artefacts se forment à partir d'anomalies exposées à certains objets ou conditions : la combinaison d'un objet ordinaire (ou d'objets ordinaires) et d'une anomalie, la dégénérescence et la mort d'une anomalie, ou encore l'exposition de l'anomalie à certaines conditions spécifiques.
+		\nUn exemple en est le Crystal, qui résulte de la combinaison de substances métalliques et de l'anomalie Colonne de feu. Les Emissions sont connues pour être le catalyseur dans la création effective d'un artefact, bien que les scientifiques de la Zone ne parviennent toujours pas à expliquer ce processus.
+		
+		\n\n%c[pda_yellow]Utilisations financières des Artefacts%c[ui_gray_1]
+		\nLes artefacts sont très précieux et les stalkers les vendent couramment aux marchands, qui les revendent à leur tour à des acheteurs de haut niveau, allant des militaires, scientifiques ou grandes entreprises jusqu'aux collectionneurs.
+		\nLes scientifiques, notamment le professeur Sakharov, accordent une grande valeur aux artefacts, car ils constituent d'excellents matériaux de recherche et pourraient être la clé pour résoudre les problèmes mondiaux ainsi que pour plusieurs avancées technologiques.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_baloon_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]Composé de plusieurs formations organiques creuses, cet artefact émet une substance gazeuse capable de neutraliser les particules chimiques ou toxiques à l'intérieur du corps sans lui causer de dommages. La Bulle, cependant, présente de nombreuses propriétés négatives. Par exemple, elle amplifie considérablement les effets des ondes psi ainsi que les champs produits par les mutants et les anomalies. Cet inconvénient n'est pas à prendre à la légère : certains stalkers ont signalé que l'influence psi était si puissante en possession d'une Bulle qu'ils sentaient leur tête se fissurer de l'intérieur, et la seule chose qu'ils pouvaient faire était de hurler de douleur et de courir aussi loin que possible. Le même mécanisme semble être à l'oeuvre dans le cas des anomalies Electro : le artefact conduit l'électricité et augmente l'intensité du courant. De plus, de nombreux rapports de stalkers indiquent que la Bulle nécessite une source d'énergie pour fonctionner. Cette source d'énergie est le corps lui-même : le artefact draine la vitalité et la volonté de l'utilisateur, souvent à un point tel qu'il provoque des étourdissements et, dans les cas extrêmes, fait perdre connaissance. Le seul autre aspect positif de cet artefact est qu'il accélère le processus de guérison et referme les blessures, bien qu'il soit si puissant à cet égard que son prix élevé sur le marché et la demande qu'il suscite sont parfaitement justifiés. Le niveau de radiation émis est le plus élevé sur l'échelle de radiation des artefacts. AVERTISSEMENT : En raison de sa nature organique et de son instabilité, cet artefact est connu pour s'enflammer spontanément plus fréquemment que tout autre artefact organique, et il est donc conseillé de s'abstenir de le porter à proximité d'un feu ou d'une anomalie acide.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_baloon">
+		<text>La Bulle</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_blood_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]Formation rougeâtre composée de plantes fossilisées compressées, de terre et de débris animaux. Elle peut neutraliser partiellement les poisons chimiques en les absorbant et en réduisant le niveau global de toxicité dans le sang de l'utilisateur. Assez répandue mais peu efficace, car elle provoque la suppuration des brûlures chimiques. Elle s'enflamme au contact d'une flamme nue ou peut même s'enflammer spontanément. Un autre inconvénient de cet artefact est qu'il amplifie les effets négatifs des ondes psi et est un puissant conducteur. Il épuise également l'énergie du corps de l'utilisateur. Cependant, la Pierre sanguine accélère la cicatrisation des blessures grâce à sa nature organique. Le niveau de radiation émis par cet artefact est le plus faible sur l'échelle de radiation des artefacts.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_blood">
+		<text>La Pierre sanguine</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_cristall_flower_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]Cet artefact ressemble à du fromage fondu parsemé de pierres semblables à des saphirs. Seule la coque externe jaune de cet artefact semble émettre des radiations et, par un traitement minutieux, il est possible d'extraire les parties bleues non radioactives pour les utiliser en bijouterie et à d'autres fins industrielles. Cela est dû au fait que, si elles sont correctement nettoyées et polies, la comparaison avec les saphirs devient beaucoup plus explicite : les pierres sont aussi dures et résistantes que cette belle gemme. Cette qualité, ainsi que leur apparence, en fait des pierres précieuses parfaites, et les bijoutiers du monde entier s'efforcent de les avoir en stock. L'utilité de cet artefact, cependant, ne se limite pas à ses applications industrielles. Il existe des preuves scientifiques suggérant que les pierres semblables à des saphirs protègent efficacement contre la toxicité, tandis que la coque externe augmente légèrement la résistance à la chaleur. En raison de sa densité, le poids de cet artefact dépasse les normes habituelles, ce qui en fait l'une des créations anomales les plus lourdes de la Zone. Le niveau de radiation émis par cet artefact est le plus faible sur l'échelle de radiation des artefacts.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_cristall_flower">
+		<text>La Fleur protectrice</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_cristall_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]Cet artefact se forme dans les zones anomales présentant une activité thermique intense. Il absorbe activement l'excès de chaleur tout en restant constamment froid. Il protège également l'utilisateur contre les acides présents dans les anomalies toxiques et chimiques. Cependant, l'exposition à de tels environnements augmente la corrosivité des acides en raison d'un mécanisme encore inconnu. Pour cette raison, il est nécessaire de peser le pour et le contre de l'utilisation du Crystal à proximité de zones à forte toxicité. Il agit également comme conducteur d'électricité. Un autre effet positif de cet artefact est qu'il accélère la coagulation sanguine lorsqu'il est porté près du corps. (Note : il n'est pas recommandé de conserver cet artefact en sa possession pendant de longues périodes, car les caillots sanguins peuvent présenter un risque pour la santé.) Cet artefact est également très prisé par les joailliers en dehors de la Zone, car son noyau interne n'est pas radioactif et est considéré d'une beauté exceptionnelle une fois poli et raffiné. Seule la première couche externe de 1 cm émet des radiations. Il est toutefois fortement conseillé de faire preuve de prudence lors de la mise sur le marché de cet artefact, car une exposition prolongée, même à des quantités minimales de matériaux radioactifs, peut entraîner la mort de l'utilisateur. Recouvert d'une couche très dure. Relativement lourd en raison d'une densité élevée. Le niveau de radiation est le plus faible sur l'échelle de radiation des artefacts.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_cristall">
+		<text>Crystal</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_dummy_battery_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]Cet artefact offre une protection psi légèrement supérieure à celle de son cousin, le Clair de lune. Il est composé d'éléments électrostatiques, mais les scientifiques n'ont pas encore déterminé les conditions physiques exactes nécessaires à sa formation. Cet artefact est très populaire dans la Zone et est apprécié tant par ses résidents que par ses visiteurs pour ses propriétés énergisantes, bien qu'il ait un effet néfaste sur le corps en cas d'utilisation prolongée. Il convient toutefois de noter que cet artefact entrave la coagulation sanguine et augmente le taux de saignement des plaies ouvertes. En revanche, en tant que puissant résistor, il est bien connu pour sa capacité à protéger son utilisateur contre des doses létales d'électricité. Cet artefact est également extrêmement léger et très portable. Le niveau de radiation émis par cet artefact est faible sur l'échelle de radiation des artefacts.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_dummy_battery">
+		<text>Battery</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_dummy_dummy_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]La Coquille est composée de deux disques de couleur bleutée reliés par un matériau semi-transparent de nature inconnue. Cet étrange artefact a longtemps été considéré comme dépourvu de propriétés utiles par de nombreux scientifiques. Ce n'est que récemment qu'il a été découvert qu'il est en réalité très bénéfique. Il offre un haut niveau de protection psionique et absorbe les interférences électromagnétiques, agissant comme un matériau de mise à la terre. Lorsqu'il entre en contact avec le corps, il procure une sensation de rajeunissement et améliore ainsi la récupération de l'endurance. Cet effet a, dans certains cas, provoqué une hyperactivité chez certains stalkers. Un inconvénient de ce artefact, cependant, est qu'il réduit le nombre de plaquettes dans le sang, augmentant ainsi le taux de saignement. La Coquille est extrêmement légère et très portable. Le niveau de radiation émis par cet artefact est très élevé sur l'échelle de radiation des artefacts.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_dummy_dummy">
+		<text>La Coquille</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_dummy_glassbeads_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]En forme d'hélice d'ADN, les Gouttelettes nourricières sont créées dans l'anomalie Colonne de feu. L'une de leurs caractéristiques les plus marquantes est qu'elles pulsent constamment, générant des émissions bénéfiques pour le corps humain. Ces émissions augmentent le métabolisme de tout être vivant, accélérant la coagulation et la cicatrisation des blessures. Le mécanisme derrière les effets de cet artefact reste inconnu. Les Gouttelettes nourricières possèdent également des qualités protectrices puissantes : elles peuvent protéger le corps et les objets contre la chaleur extrême et les acides. En revanche, il convient de noter que la présence de cet artefact augmente la corrosivité des acides, entraînant une détérioration accélérée de l'équipement et des dommages accrus aux tissus de tout organisme vivant. Il est donc fortement recommandé de faire preuve de prudence dans les environnements acides et toxiques en possession de Gouttelettes nourricières. Un autre effet dangereux de cet artefact est qu'il augmente la conductivité électrique, ce qui accroît considérablement la probabilité d'électrocution, surtout pendant les orages et à proximité des anomalies électriques. Le poids est également assez élevé pour un artefact aussi petit, ce qui conduit à la conclusion qu'il est d'une densité extrêmement élevée. Le niveau de radiation émis par cet artefact est faible sur l'échelle de radiation des artefacts.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_dummy_glassbeads">
+		<text>Les Gouttelettes nourricières</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_electra_flash_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]Cet artefact ressemble beaucoup au Clair de lune et évoque une sphère ou une lampe à plasma. Lorsqu'il est porté, il est connu pour atténuer légèrement les effets nocifs des anomalies psi ou des ondes psi émises par certains mutants. L'Éclair agit comme un puissant résistor et peut absorber même des doses létales d'électricité. Il est toutefois extrêmement important de noter que chaque fois qu'il entre en contact avec de l'électricité, il libère une accumulation statique qui, bien que non mortelle, peut produire un effet similaire à un choc de pistolet à impulsion électrique. Cet artefact possède de faibles propriétés régénératrices et son contact direct a un effet similaire à celui d'une sphère à plasma, procurant une sensation d'énergie. Cependant, il entrave également le processus de guérison, il est donc conseillé de faire preuve de prudence, surtout en cas de blessure ou de saignement. Cet artefact est également extrêmement léger et très portable. Le niveau de radiation émis par cet artefact est le plus faible sur l'échelle de radiation des artefacts.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_electra_flash">
+		<text>L'Éclair</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_electra_moonlight_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]Cet artefact électrostatique unique peut entrer en résonance sous l'influence des ondes psi. Les Stalkers ont appris à ajuster finement cet artefact afin qu'il résonne en opposition à la source principale des émissions, neutralisant ainsi significativement leurs effets. Cette sphère d'une beauté considérable augmente également la protection électrique en réduisant la conductivité du corps lorsqu'il est exposé à des niveaux élevés d'électricité. Elle améliore aussi la récupération d'énergie et d'endurance, permettant à son utilisateur de se sentir énergique et revigoré. Un effet secondaire indésirable est qu'elle diminue le taux de cicatrisation et la coagulation. Cet artefact est également extrêmement léger et très portable. Le niveau de radiation émis par cet artefact est faible sur l'échelle de radiation des artefacts.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_electra_moonlight">
+		<text>Le Clair de lune</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_electra_sparkler_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]Cet artefact a l'apparence de toiles d'araignée translucides. Tout comme la soie d'araignée protéinée, il est collant et possède les propriétés d'une colle. On le trouve le plus souvent dans ou près des anomalies électro et il semble avoir absorbé certaines de leurs caractéristiques : il est capable d'atténuer les fluctuations de densité d'un champ électrique et agit comme un faible résistor, protégeant le porteur de l'électricité et réduisant ses effets dommageables. Lorsqu'il est porté, cet artefact est également connu pour atténuer légèrement les effets nocifs des anomalies psi ou des ondes psi émises par certains mutants. En raison de sa nature électrique, il fournit au corps une source d'énergie supplémentaire, bien que faible. Il ne possède aucune propriété curative bénéfique, car le fluide gluant produit par cet artefact est nocif pour les tissus vivants et empêche la coagulation du sang. Il est extrêmement léger. Le niveau de radiation émis par cet artefact est le plus faible sur l'échelle de radiation des artefacts.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_electra_sparkler">
+		<text>L'Étincelle</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_eye_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]Cet artefact, qui ressemble à un oeil humain, augmente considérablement le métabolisme du corps, aidant les blessures à cicatriser plus rapidement. Les stalkers expérimentés affirment que le Oeil porte également chance. Indépendamment de la validité de cette affirmation, ses effets positifs sont en effet très puissants. Tout d'abord, il réduit la température du corps de l'utilisateur et refroidit tous les objets à proximité. Ensuite, il offre une protection substantielle contre tous les types d'acides en augmentant progressivement leur pH jusqu'au niveau de l'eau (pH de 7). Troisièmement, cet artefact soulage la douleur et est extrêmement utile dans le traitement des blessures. Ces qualités bénéfiques, cependant, ont un prix. Cet artefact est extrêmement dangereux lorsqu'il est exposé à des anomalies chimiques, car il amplifie leur toxicité et augmente leur puissance. Il est donc fortement recommandé de garder cet artefact dans votre sac à dos, jamais sur le corps, lorsque vous explorez des zones toxiques, à moins que vous ne souhaitiez mourir. Cet artefact est également connu sous le nom de "Oeil de cuivre" car il conduit l'électricité et amplifie ses effets dangereux de la même manière que le cuivre. Le niveau de radiation émis par cet artefact est très élevé sur l'échelle de radiation des artefacts.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_eye">
+		<text>L'Oeil</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_fire_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]Cet artefact se forme dans les zones à forte activité thermique. Il produit de puissantes émissions infrarouges qui intensifient les processus métaboliques, cicatrisant les blessures sous les yeux de son porteur. Comme cet artefact est très rare, il est extrêmement précieux. En ce qui concerne ses effets, il est similaire au Oeil en ce qu'il réduit la température du corps de l'utilisateur, ce qui est particulièrement utile lorsqu'il est exposé à des sources de chaleur puissantes. Il agit également comme un puissant résistor et neutralise les effets des acides. De plus, ses capacités de guérison sont encore plus fortes que celles du Oeil, car les stalkers en possession de cet artefact auraient survécu à des blessures infligées par des Chimères. Grâce à cela, il a acquis la réputation d'être un artefact miraculeux. De nombreux stalkers lui doivent la vie, et la plupart des chasseurs de mutants vétérans l'emportent au cas où ils rencontreraient un danger. Cependant, il partage non seulement les propriétés positives mais aussi les négatives de son cousin : entrer dans une anomalie toxique ou chimique avec cet artefact à la ceinture est un suicide. Il augmentera la corrosivité des particules chimiques et amplifiera l'effet néfaste des toxines dans le sang de l'utilisateur. Il peut également être utilisé comme une sorte de medkit réutilisable, car il cicatrise les blessures très rapidement. Le niveau de radiation émis par cet artefact est le plus élevé sur l'échelle de radiation des artefacts.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_fire">
+		<text>La Flammèche</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_fireball_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]Il s'agit d'un artefact sphérique composé de cristaux de couleur rouge, créé dans l'anomalie Colonne de feu. Il possède une propriété unique : il maintient une température constante de 75 degrés Fahrenheit / 24 degrés Celsius, indépendamment de son environnement. Cela lui permet d'absorber la chaleur de son voisinage et de créer une petite poche autour de l'utilisateur qui empêche les flammes d'endommager le corps. La stabilité de sa température est également à l'origine d'un autre de ses effets positifs : elle accélère le taux de cicatrisation et arrête les saignements. Il protège également l'utilisateur contre les brûlures chimiques. Cependant, il est déconseillé de s'approcher des anomalies chimiques et acides en possession de cet artefact, car il amplifie les effets néfastes des acides et des toxines dans le sang de l'utilisateur. Il rend également l'utilisateur vulnérable aux courants électriques. Il est assez lourd en raison de la haute densité de son matériau cristallin. Le niveau de radiation émis par cet artefact est le plus faible sur l'échelle de radiation des artefacts.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_fireball">
+		<text>La Bolide</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_fuzz_kolobok_text">
+		<text>%c[d_green]Informations\n%c[ui_gray_2]Kolobok est un artefact relativement rare qui se forme dans les zones chimiques et est très prisé pour sa capacité à guérir la plupart des types de blessures et à stopper les saignements en quelques minutes. Pour des raisons inconnues, les scientifiques répandent des rumeurs parmi les stalkers selon lesquelles ce artefact modifierait le code génétique de son porteur, une affirmation non prouvée qui doit être considérée comme une tentative consciente de monopoliser l'approvisionnement en artefacts par la communauté scientifique. Cela ne signifie cependant pas qu'il est totalement inoffensif. L'un des inconvénients de ce artefact réside dans le fait qu'il augmente la conductivité électrique. Il est donc préférable d'éviter les anomalies Electro lorsque l'on possède ce artefact, d'autant plus que ses effets négatifs ne sont pas compensés par des effets positifs. Il réduit également la récupération d'énergie en raison de ses appendices acérés en forme d'aiguilles. Ces aiguilles provoquent de petites blessures qui guérissent rapidement, mais causent une douleur et des démangeaisons constantes, réduisant ainsi l'endurance. Ce artefact affaiblit également la protection contre les émissions psi produites par les anomalies ou les mutants, ainsi que contre la chaleur et les acides en raison de sa forte inflammabilité. Compte tenu de son origine chimique, il est également reconnu pour sa capacité à augmenter la protection de l'utilisateur contre la toxicité. Léger et peu encombrant à transporter. Le niveau de radiation émis par ce artefact est très élevé sur l'échelle de radiation des artefacts.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] fixable</text>
+	</string>
+	<string id="encyclopedia_artifacts_fuzz_kolobok">
+		<text>Kolobok</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_gold_fish_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]Version directe et supérieure du Gravi artefact. Comme pour le Gravi, c'est le professeur Sakharov à Yantar qui a découvert ses propriétés uniques après qu'une puissante explosion/émission ait frappé la Zone. Grâce aux recherches méticuleuses qui ont suivi, il a été établi que ce nouvel artefact se forme lorsque trois Gravis artefacts interagissent et sont aspirés dans le champ de singularité d'un autre. Ce phénomène est extrêmement rare, ce qui confère à cet artefact une grande valeur. Des rumeurs circulent dans les cercles des forces spéciales ukrainiennes selon lesquelles des agents du ministère de la Défense de la Fédération de Russie seraient présents dans la Zone, leur unique objectif étant d'acquérir et de transporter des Cyprin vers des laboratoires spécialisés situés en dehors de la Zone. L'artefact génère un champ de singularité gravitationnelle constant qui n'affecte que son voisinage immédiat. Cependant, certains stalkers ont disparu sans raison apparente, ne laissant derrière eux qu'un Cyprin. Le artefact offre une protection thermique et contre les acides exceptionnelle. De plus, il forme autour de son utilisateur un film protecteur et presque gras, doté de propriétés de fort retardateur de flamme et protégeant également contre les acides en décomposant les éléments acides en substances plus simples. Il est extrêmement lourd et son utilisation n'est pas recommandée lors de longues excursions dans la Zone, en particulier pour des périodes prolongées. Le niveau de radiation est le plus élevé sur l'échelle de radiation des artefacts.\n\n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n\n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] fixable</text>
+	</string>
+	<string id="encyclopedia_artifacts_gold_fish">
+		<text>Le Cyprin</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_gravi_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]Le Gravi se forme à partir de substances métalliques exposées à une gravitation prolongée. Cela lui permet de maintenir un champ gravitationnel, ce qui lui confère diverses propriétés, notamment l'augmentation du poids de tous les objets à proximité immédiate. Pendant longtemps, l'artefact est resté un mystère, et c'est le professeur Sakharov à Yantar qui a découvert le premier que le Gravi crée un minuscule champ de singularité de nature gravitationnelle, un phénomène qui se produit par intervalles de 30 minutes. Cet artefact pourrait offrir des résultats bénéfiques en médecine ou en warfare si le mécanisme de son fonctionnement était exploité à des fins scientifiques. Il suffit de dire que ses propriétés positives surpassent largement ses aspects négatifs. Notamment, il augmente le poids des objets en raison de son champ gravitationnel et émet des doses létales de radiation. En revanche, il protège l'utilisateur des effets nocifs des anomalies de feu présentes dans toute la Zone ainsi que des acides des anomalies chimiques/toxiques. Cependant, au lieu d'absorber les produits chimiques et toxines mortels, le Gravi décompose les composés chimiques en substances plus simples grâce à son champ de singularité. Comme mentionné précédemment, il est extrêmement lourd et son utilisation n'est pas recommandée lors de longues excursions dans la Zone, surtout pour des périodes prolongées. Le niveau de radiation émis est très élevé sur l'échelle de radiation des artefacts.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_gravi">
+		<text>Le Gravi</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_ice_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]Également connu sous le nom de "Flocon de neige radioactif". À première vue, cet artefact ressemble à un Kolobok blanc. Certains affirment qu'il s'agit en réalité d'une forme de Kolobok, car il augmente considérablement la résistance aux courants électriques en créant son propre champ électrique et en absorbant l'électricité qui traverse le corps de l'utilisateur. Grâce à ses propriétés uniques, cet artefact peut augmenter significativement le tonus musculaire de son porteur, améliorant ainsi grandement la récupération de l'endurance. En raison de sa forte radioactivité, les stalkers en possession de cet artefact sont parfois appelés en plaisantant "Flocon de neige radioactifs". Lorsqu'il s'agit de décider de le porter à la ceinture lors d'une mission, il faut soigneusement peser le pour et le contre : vaut-il la peine d'avoir une plus grande endurance et une protection élevée contre l'électricité au prix d'une exposition constante à sa radiation mortelle ? Même si vous êtes déterminé à l'emporter, il convient de noter qu'il ne doit pas être utilisé lors de longues excursions dans la Zone. Son utilité au combat est également discutable, car il augmente le taux de saignement et empêche les blessures de se refermer en raison de ses appendices très tranchants qui piquent l'utilisateur et irritent la peau. Il est cependant aussi léger qu'un flocon de neige et très facile à transporter. Le niveau de radiation émis par cet artefact est le plus élevé sur l'échelle de radiation des artefacts.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_ice">
+		<text>Le Flocon de neige</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_medusa_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]Cet artefact gravitationnel attire et absorbe les particules toxiques et chimiques, réduisant ainsi les effets de l'empoisonnement toxique sur le corps. Très répandu dans la Zone, il est utilisé officieusement en dehors de celle-ci pour traiter les personnes exposées à des agents chimiques et toxiques dangereux ou mortels. Cet artefact est assez lourd, car son champ gravitationnel semble augmenter sa masse. Il protège légèrement son utilisateur contre la chaleur extrême et les acides produits respectivement par les anomalies de feu et chimiques. Le niveau de radiation émis par cet artefact est le plus faible sur l'échelle de radiation des artefacts.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_medusa">
+		<text>La Méduse</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_mincer_meat_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]Cet artefact présente une texture douce, poreuse et semblable à de la peau, et il est réputé pour pouvoir se comprimer. Il ressemble et se comporte comme une éponge à cet égard, mais révèle ses caractéristiques spéciales uniquement lorsqu'il est exposé à certaines conditions externes. Premièrement, lorsqu'il se trouve à proximité immédiate d'une source de chaleur, il dégage une odeur de croquemort brûlé. Une exposition prolongée peut augmenter son inflammabilité et provoquer son embrasement. Bien que ce phénomène ne cause aucun dommage à l'artefact, il peut entraîner un échauffement des objets environnants et, dans des cas extrêmes, leur inflammation simultanée. Pour cette raison, il est possible de conclure qu'il absorbe la chaleur et peut la transmettre à d'autres objets. Deuxièmement, pour poursuivre la métaphore de l'éponge, les pores à sa surface sont connus pour absorber de petites quantités de toxicité provenant de l'environnement. Troisièmement, l'artefact amplifie légèrement les effets dommageables des champs psi sur les organismes vivants en absorbant l'énergie psi et en la réémettant à faible débit. Quatrièmement, le Morceau de Viande est également connu pour être un conducteur d'électricité, tout comme la peau d'un être vivant. Certaines sources au sein de la communauté des stalkers indiquent par ailleurs qu'il provoque une sensation d'épuisement physique lorsqu'il est utilisé, même pour de courtes périodes. Cinquièmement, probablement la caractéristique la plus bénéfique de cet artefact est sa capacité à refermer lentement les blessures et à guérir les tissus endommagés. Le niveau de radiation émis par cet artefact est le plus faible de l'échelle de radiation des artefacts.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] fixable</text>
+	</string>
+	<string id="encyclopedia_artifacts_mincer_meat">
+		<text>Le Morceau de Viande</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_night_star_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]Cet artefact lumineux peut générer un champ de gravité localement dirigé qui augmente sa masse. Pour cette raison, l'Étoile de nuit est extrêmement lourd. Il offre une protection contre les acides ainsi que contre la chaleur. En raison de son noyau interne magnifique, il est très recherché par les bijoutiers du monde entier. Cependant, il est préférable de procéder avec prudence, car un traitement inadéquat peut provoquer l'explosion de cet artefact avec une puissance suffisante pour raser un petit bâtiment. Il est donc fortement recommandé d'effectuer le polissage à l'aide de machines spécialisées, ce qui minimise la probabilité d'explosion. De plus, seul le noyau externe de cet artefact émet des radiations. L'Étoile de nuit absorbe également les agents toxiques et chimiques de l'environnement, ce qui en fait un artefact précieux pour les chasseurs d'artefacts, bien que la quantité de toxicité absorbée soit négligeable. Il est cependant relativement bon marché et même les stalkers avec des budgets serrés peuvent se l'offrir si l'occasion se présente. Le niveau de radiation émis par cet artefact est faible sur l'échelle de radiation des artefacts.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_night_star">
+		<text>L'Étoile phosphorescente</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_soul_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]Le Coeur est un artefact organique unique aux propriétés tout aussi uniques : il sécrète une substance visqueuse qui augmente considérablement le taux de cicatrisation des blessures. Grâce à son prix raisonnable et à son apparence attrayante, cet artefact est un objet de collection prisé. En raison de sa nature organique, le Coeur est hautement inflammable et ne doit pas être transporté près d'un feu de camp ou de la plupart des sources de chaleur. Il est connu pour s'enflammer spontanément lorsqu'il est exposé à des températures dépassant 60°C. Cet artefact offre un haut niveau de protection contre les agents toxiques et chimiques en les absorbant. Il les utilise ensuite comme base pour produire sa substance visqueuse qui, appliquée sur les blessures, soulage la douleur et accélère le processus de guérison. En revanche, le Coeur amplifie les effets des ondes psi et augmente les dommages causés par l'électricité au corps. Il est également connu pour épuiser l'énergie de son utilisateur. Cet artefact n'a pas une densité élevée et n'est donc pas très lourd. Le niveau de radiation émis par cet artefact est faible sur l'échelle de radiation des artefacts.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_soul">
+		<text>Le Coeur</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_vyvert_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]Cet artefact de forme bizarre apparaît dans les zones à activité gravitationnelle accrue. Agissant comme une sorte d'éponge qui absorbe les éléments chimiques et toxiques, cet artefact offre une protection contre les agents toxiques externes ainsi que contre les particules chimiques déjà entrées dans le corps. Bien qu'il semble presque organique, il est en réalité plus proche du corail. En raison de sa nature non organique, il est ininflammable. Il protège contre les acides ainsi que contre la chaleur. Aucune faction ne s'y intéresse particulièrement, il est donc principalement vendu à des scientifiques qui l'étudient et expérimentent sur cet artefact afin de déterminer son utilité. Il possède une densité élevée et est donc extrêmement lourd. Le niveau de radiation émis par cet artefact est faible sur l'échelle de radiation des artefacts.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_vyvert">
+		<text>Le Tortillon</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_compass_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]Un artefact rare - plusieurs années se sont écoulées depuis la dernière découverte. Cet artefact peut localiser les brèches dans les champs d'anomalies. On pense qu'il permet de traverser les champs d'anomalies les plus complexes sans subir de dommages. Cependant, très peu de personnes savent comment le manipuler correctement.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_compass">
+		<text>La Boussole</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_oasis_heart_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]Cet artefact a été découvert au centre de l'Oasis légendaire. Il semble que le Coeur soit une plante cristallisée, ayant acquis les propriétés curatives de l'Oasis.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_oasis_heart">
+		<text>Le Coeur de l'Oasis</text>
+	</string>
+	
+	<string id="encyclopedia_artifacts_glass_text">
+		<text>%c[d_green]Information\n%c[ui_gray_2]La Luciole interagit avec des champs inconnus de la science, accélérant considérablement la régénération des tissus et des organes chez les êtres vivants, tout en normalisant les processus métaboliques. Cet artefact peut littéralement remettre sur pied un stalker gravement blessé en quelques minutes. En revanche, la Luciole peut s'enflammer spontanément lorsqu'elle est exposée à des sources de chaleur puissantes. Elle amplifie également les effets nocifs des champs psi et des anomalies électro, et semble épuiser l'endurance et réduire la récupération de celle-ci. Cependant, elle absorbe tous les produits chimiques mortels présents dans le corps. De plus, elle protège admirablement contre la toxicité et semble injecter des agents chimiques neutralisants dans le sang de l'utilisateur, annulant ainsi les effets des toxines et des dommages nerveux. Pour cette raison, elle est très demandée dans les milieux militaires, car elle peut rendre les attaques terroristes avec des armes chimiques ou biologiques plus faciles à gérer. Malheureusement, la Luciole est extrêmement rare. Le niveau de radiation émis par cet artefact est très élevé sur l'échelle de radiation des artefacts.\n \n%c[0,200,200,200]PROPRIÉTÉS :%c[ui_gray_2]\n \n%c[0,225,225,225] • %c[ui_gray_2] artefact\n%c[0,100,100,255] • %c[ui_gray_2] attachable</text>
+	</string>
+	<string id="encyclopedia_artifacts_glass">
+		<text>La Luciole</text>
+	</string>
+		
+</string_table>

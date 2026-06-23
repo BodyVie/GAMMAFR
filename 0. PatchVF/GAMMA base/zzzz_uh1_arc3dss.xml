@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
 <string id="st_addon_scope_razor">
 		<text>AMG UH-1 Gen. II</text>
 	</string>
@@ -12,3 +13,4 @@
 		%c[d_cyan] • %c[0,255,255,255] Changement de réticule : %c[ui_gray_2]appuyez sur la touche de changement de marqueur (par défaut =)\n \n
 		</text>
 	</string>
+	</string_table>

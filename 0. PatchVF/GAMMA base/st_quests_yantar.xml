@@ -14,16 +14,16 @@
 
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- STORYLINE TASK TEXT  STRINGS
-	<!--
-	<!--	Modified by DoctorX
-	<!--	for DoctorX Questlines 1.6
-	<!--	October 07, 2016
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< STORYLINE TASK TEXT  STRINGS
+	<
+	<	Modified by DoctorX
+	<	for DoctorX Questlines 1.6
+	<	October 07, 2016
+	<
+	< ========================================================================================= -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Sakharov (Ecologist) Default Storyline Task -->
 
 	<string id="drx_sl_yan_stalker_sakharov_default_task_name">
@@ -39,7 +39,7 @@
 		<text>Bonne chance, stalker.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Sakharov (Ecologist) Research Documents Storyline Task -->
 
 	<string id="drx_sl_yan_stalker_sakharov_task_1_name">
@@ -55,7 +55,7 @@
 		<text>Merci, stalker ! Voici votre paiement, je vous en prie.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Sakharov (Ecologist) Abnormal Measurement Storyline Task -->
 
 	<string id="drx_sl_yan_stalker_sakharov_task_2_name">
@@ -80,7 +80,7 @@
 		<text>Oui, parfait ! Mes recherches peuvent enfin commencer ! Merci, stalker. Vous avez bien agi.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Sakharov (Ecologist) Search Lab X-18 (Dark Valley) Storyline Task -->
 
 	<string id="drx_sl_yan_stalker_sakharov_task_3_name">
@@ -96,7 +96,7 @@
 		<text>Excellent ! Merci, stalker !</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Sakharov (Ecologist) Plant Anomaly Scanner (Red Forest) Storyline Task -->
 
 	<string id="drx_sl_yan_stalker_sakharov_task_4_name">
@@ -132,16 +132,16 @@
 
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- CHANGE FACTIONS TASK TEXT  STRINGS
-	<!--
-	<!--	Modified by DoctorX
-	<!--	for DoctorX Questlines 1.6
-	<!--	October 07, 2016
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< CHANGE FACTIONS TASK TEXT  STRINGS
+	<
+	<	Modified by DoctorX
+	<	for DoctorX Questlines 1.6
+	<	October 07, 2016
+	<
+	< ========================================================================================= -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Sakharov (Ecologist Trader) Payoff Change Factions Task -->
 
 	<string id="drx_sl_yan_stalker_sakharov_cf_task_1_name">
@@ -161,16 +161,16 @@
 
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- DYNAMIC TASK TEXT  STRINGS
-	<!--
-	<!--	Modified by DoctorX
-	<!--	for DoctorX Questlines 1.6
-	<!--	October 07, 2016
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< DYNAMIC TASK TEXT  STRINGS
+	<
+	<	Modified by DoctorX
+	<	for DoctorX Questlines 1.6
+	<	October 07, 2016
+	<
+	< ========================================================================================= -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Semenov (Ecog Honcho) Research Hunt Task -->
 
 	<string id="yan_ecolog_semenov_task_1_name">
@@ -186,7 +186,7 @@
 		<text>Merci pour votre aide, mon ami. J'ai désormais tous les échantillons de tissu dont j'ai besoin. Voici votre paiement. Revenez me voir à l'occasion.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Sakharov (Ecog Trader) -->
 	<string id="yan_stalker_sakharov_task_1_name">
 		<text>Procurer %s pour le bunker Yantar</text>
@@ -250,7 +250,7 @@
 		<text>La Machine à Miracle / Labo Cerveau semble émettre des ondes psy ciblant la zone du Radar. Les émissions psy autour de la Machine à Miracle bloquent aussi les recherches des scientifiques à Yantar. </text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Peregrine (Military Mechanic) Find Level 1 Toolkit Task -->
 
 	<string id="mechanic_army_yan_mlr_task_1_name">

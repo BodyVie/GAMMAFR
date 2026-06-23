@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!-- Barkeep -->
+	<string id="bar_visitors_barman_stalker_trader_start_dialog_11">
+		<text>Oh, salut. Quoi de neuf, mec ?</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_start_dialog_12">
+		<text>T'as besoin de quoi, stalker ?</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_start_dialog_13">
+		<text>Hé, stalker. Un coup à boire ? Ça te déridera peut-être, t'as une tête de six pieds de long.</text>
+	</string>
+	
+	<string id="barkeep_100rads_0">
+		<text>Parle-moi de cet endroit.</text>
+	</string>
+	<string id="barkeep_100rads_1">
+		<text>Bienvenue au bar des 100 Rads, mon petit coin de paradis dans ce bout d'enfer. Ce quartier est parmi les plus sûrs de la Zone, grâce à Devoir. Tu seras en sécurité tant que tu gardes ton calme. Des Stalkers de partout viennent ici pour bouffer, se reposer, discuter, trouver des infos ou chercher du boulot. Alors, tu cherches quoi ? Qu'est-ce que le vieux Barman peut faire pour toi aujourd'hui ?</text>
+	</string>
+	
+	<string id="information_about_stash_barmen_0">
+		<text>T'as des infos sur des caches à vendre ?</text>
+	</string>
+	<string id="information_about_stash_barmen_1">
+		<text>Héhé, ouais... Parfois, quand les stalkers du coin picolent un coup, ils lâchent des infos sur leurs planques en étant bourrés. J'sais pas ce qu'ils y planquent, mais ce que je sais, c'est la valeur. Sept mille et c'est à toi.</text>
+	</string>
+
+	<string id="information_about_stash_barmen1_0">
+		<text>Bien sûr. Tiens. %c[d_orange][7000 RU]</text>
+	</string>
+	<string id="information_about_stash_barmen1_1">
+		<text>Merci bien.</text>
+	</string>
+	
+	<string id="devushka_4_help_0">
+		<text>Salut Barman. J'ai amené quelqu'un que tu voudrais peut-être voir.</text>
+	</string>
+	<string id="devushka_4_help_1">
+		<text>Ouais, ouais. Ah, Hip. Tiens, mon pote, un verre à l'oeil pendant que je cause en privé avec elle.</text>
+	</string>
+	
+	<string id="devushka_help_0">
+		<text>Merci. Je vais attendre...</text>
+	</string>
+	<string id="devushka_help_1">
+		<text>...D'accord. Hip sait ce qu'elle doit faire et m'a demandé de te le dire pendant qu'elle se prépare. Elle va passer la Barrière pour aller à Zaton déposer des conteneurs d'artefacts pour Barbu. Les Artefacts, c'est le sang de Skadovsk, comme tu l'as peut-être entendu. Oh, et apparemment, Hip refuse de faire cette livraison sans toi. Alors, t'es prêt ?</text>
+	</string>
+	<string id="devushka_help_2">
+		<text>Ouais, je suis prêt. On prend les conteneurs maintenant.</text>
+	</string>
+	<string id="devushka_help_3">
+		<text>Presque, j'ai juste besoin de quelques minutes pour tout rassembler.</text>
+	</string>
+	
+	
+<!-- GARIK -->
+	<string id="request_go_to_nimble_0">
+		<text>Faut que je passe.</text>
+	</string>
+	
+	
+<!-- Voronin (Duty Leader) -->
+	<string id="story_dolg_0">
+		<text>Quelle est la situation actuelle, chef ?</text>
+	</string>
+	<string id="story_dolg_1">
+		<text>Actuellement, on a quatre ennemis opérationnels : la Liberté, le Monolithe, les mercenaires et les bandits. Parmi eux, les deux qui nous inquiètent le plus, c’est le Monolithe et les bandits - ces derniers deviennent de plus en plus organisés chaque jour. Ça pourrait poser un sérieux problème, vu leur nombre et leur manque total d’humanité.\n\nQuant au Monolithe, ils sont revenus avec une rapidité surprenante. Leur résurgence plus tôt cette année a mis à mal notre présence à Yanov, et on a dû faire des sacrifices graves pour assurer la sécurité globale de Rostok.\n\nMaintenant, en ce qui concerne la Liberté et les Scientifiques, la situation est confortable. Ne te méprends pas - ce sont des adversaires respectables, et nos espions doivent les surveiller de près. Cependant, ils ne bougent pas pour s’opposer directement à nous ou à nos alliés pour l’instant, ce qui nous laisse un peu de répit. </text>
+	</string>
+	<string id="story_dolg_2">
+		<text>Comment ça va, Devoir, chef ?</text>
+	</string>
+	<string id="story_dolg_3">
+		<text>Tu parles des dernières recrues du Devoir ? Je leur mettrais un trois sur cinq solide - pas génial, mais pas catastrophique non plus. Grâce à Petrenko, on a un afflux sain de nouveaux combattants, même si je dois avouer que leur manque de bon sens me déçoit un peu pour l’instant.\n\nLa discipline pourrait être meilleure, et on manque cruellement d’officiers capables de leur sortir cette mentalité de bidasse tête brûlée. Avec le temps, je m’attends à ce que le Devoir se remette complètement... mais ça prendra du temps.</text>
+	</string>
+	<string id="story_dolg_4">
+		<text>Je peux demander comment on a perdu Yanov, chef ?</text>
+	</string>
+	<string id="story_dolg_5">
+		<text>... Je suppose qu’y a plus besoin de le cacher. On avait un maillon faible. Un traître. Un officier stupide du nom de Morgan. On l’a chopé en train de vendre des armes aux bandits qu’on essaie justement d’exterminer. Et comme si ça suffisait pas, c’est un groupe de neutres qui l’a coincé en flagrant délit, pas nos officiers du Devoir. Résultat, il a fallu des années pour regagner la confiance qu’on avait perdue. Tout ça à cause d’un seul homme.\n\nÇa nous a mis dans une position merdique pour contrer le retour récent du Monolithe. Le brave officier que j’avais nommé à Yanov, le lieutenant-colonel Shulga, a dû faire une série de sacrifices sinistres qui lui ont finalement coûté la vie. Sur tout le contingent qu’il dirigeait, seul Gavrilenko a réussi à revenir à Rostok en un seul morceau.\n\nEt encore, le pauvre gars pouvait à peine parler quand il est arrivé, et ce qu’il a fini par raconter était... dérangeant. Si tu le croises, je te conseille de le laisser tranquille.</text>
+	</string>
+	<string id="story_dolg_6">
+		<text>Très bien. Je comprends.</text>
+	</string>
+	
+	<string id="st_bar_dolg_leader_life_ask">
+		<text>J'aimerais en savoir plus sur le Devoir. T'as quoi à me raconter sur eux ?</text>
+	</string>
+	<string id="st_bar_dolg_leader_life_1">
+		<text>Voyons voir, qu’est-ce que je peux te dire ? Eh bien, tout le monde qui bosse pour nous porte pas l’uniforme ou le badge. Le Devoir engage souvent des stalkers neutres comme auxiliaires ou informateurs. Même si nos objectifs sont ambitieux, on est pas assez nombreux pour être partout à la fois - ce serait de l’arrogance de le croire. Peu importe leur bord, tous les stalkers ont besoin de bouffer. Si travailler avec nous pour protéger l’avenir de l’humanité, c’est comme ça qu’ils veulent gagner leur croûte, alors tant mieux.\n\nSi tu connais quelqu’un qui cherche du boulot, envoie-le vers le colonel Petrenko. Il sera ravi de l’aider à gagner sa vie honnêtement.</text>
+	</string>
+	<string id="st_bar_dolg_leader_life_2">
+		<text>Même si ça peut sembler contre-intuitif vu notre haine pour la Zone, le Devoir entretient une relation spéciale avec les Scientifiques. On combat un ennemi comme aucun autre ; un ennemi qui n’existe pas comme une armée, mais comme une force de la nature abominable. On peut pas gagner une guerre sans connaissance, encore moins une guerre comme celle-ci, et qui connaît mieux notre ennemi que les Scientifiques eux-mêmes ? Pour l’instant, ils cherchent naïvement à utiliser la Zone pour le bien de l’humanité, mais ils sont pas aussi délirants que la Liberté : un jour, ils comprendront que la détruire est la seule vraie option. Leur immense savoir, soutenu par le courage et les compétences du Devoir, sera certainement la fin de la Zone ce jour-là.\n\nEn attendant, c’est dans l’intérêt de l’humanité de fournir aux scientifiques tout ce dont ils pourraient avoir besoin, que ce soit des caisses d’artefacts donnés pour étude ou des gardes armés pour les protéger des criminels. Pour l’instant, c’est calme, mais à l’époque, la Liberté et les mercs tiraient sur les scientifiques du gouvernement dès qu’ils en avaient l’occasion. C’est seulement la menace de représailles du Devoir qui maintient la paix entre ces trois groupes aujourd’hui.</text>
+	</string>
+	<string id="st_bar_dolg_leader_life_3">
+		<text>Hmm, je suppose que tu te demandes pourquoi nos uniformes, pas vrai ?\n\nTu te demandes pourquoi un soldat sain d’esprit irait au combat en noir et rouge. Je voudrais que tu prennes un moment pour réfléchir à qui sont nos vrais ennemis. Les mercenaires ? Non. Les bandits ? Une nuisance constante, mais non. La Liberté ? Ce sont des fous dangereux, mais toujours pas ça. Même le Monolithe n’est pas notre véritable ennemi. Le véritable ennemi, c’est la Zone elle-même.\n\nDis-moi, tu crois que le camouflage va tromper une Sangsue, qui peut sentir les battements de ton coeur dans l’air ? Et les chiens, qui utilisent l’odorat et l’écholocation ? Ou les Controllers, qui n’ont qu’à lire tes pensées ?\n\nContre nos vrais ennemis, le camouflage sert à rien. Dans ces cas-là, je préfère habiller les hommes avec des couleurs vives qui les aident à voir leurs camarades... le noir et le rouge surtout, ça les fait se battre plus courageusement, plus férocement. Comparé aux mutants, tout le reste, c’est une promenade de santé.\n\nAlors, quand on combat des ennemis humains, certains pourraient penser que le camouflage est utile parce qu’on peut pas tuer ce qu’on voit pas. Après l’enfer qu’on a traversé, le Devoir croit que ce que les criminels voient, ils apprendront bientôt à le craindre.</text>
+	</string>
+	<string id="st_bar_dolg_leader_life_4">
+		<text>Laisse-moi te raconter une petite histoire, pour t'apprendre la différence entre Liberté et Devoir.\n \nEn 2006, Rostok était un endroit sauvage. Ça faisait passer le Territoire sauvage d'aujourd'hui pour un parc d'attractions. Pourtant, c'est là que Devoir a choisi de s'installer, parce qu'on savait que Rostok avait été une usine, et on était déterminés à la remettre en état.\nQuand on est arrivés, on a trouvé un stalker, qui traînait une patte en fuyant une meute de chiens, accroché à la vie comme un naufragé. On l'a sauvé, on l'a rafistolé, et je lui ai demandé : « Mon gars, qu'est-ce qu'un jeune comme toi fout dans un coin pareil ? »\n Et il me répond : « Ben, chef, avant j'étais barman, mais les racketteurs m'ont viré. Alors je suis venu ici pour leur échapper, pour essayer de survivre. »\n \nJe regarde ce gamin, je vois ses mains qui tremblent trop pour tenir un flingue, et je lui dis : « T'es au bon endroit. »\n Ce gamin est devenu Barman, et ensemble, on a redonné à Rostok l'allure qu'elle a aujourd'hui. On bosse avec les stalkers, on exploite leurs meilleurs talents pour récupérer ce qui reste de bon dans la Zone.\n \nAh, mais tu te demandes où Liberté intervient dans tout ça. Eh bien, en 2011, Liberté avait déjà réduit leur ancienne base en miettes, alors ils ont décidé d'aller en voler une nouvelle.\nIls ont attendu que les anomalies isolent Rostok du reste de la Zone, et ils en ont profité pour attaquer les Entrepôts de l'armée - un territoire gouvernemental souverain - et l'arracher aux mains de ses légitimes propriétaires. Et qu'est-ce qu'il est advenu des Entrepôts depuis ? Depuis que Liberté en a pris le contrôle, cette forteresse fière est devenue rien de plus qu'un champ de tir et d'anarchie, et les véhicules d'exploration qui osaient braver l'inconnu ont fini par rouiller depuis longtemps.\n \nLiberté promet la liberté, mais à la longue, ils n'apportent que la ruine. C'est qu'une question de temps avant qu'ils crament à leur tour.</text>
+	</string>
+	<string id="st_bar_dolg_leader_life_5">
+		<text>Je peux te donner un aperçu du serment du Devoir. C'est vraiment très simple.\n\n« Moi, un stalker connu sous le nom de Voronin,\nje jure de défendre les objectifs et les idéaux du Devoir.\nDe protéger la Terre des dangers de la Zone, de traquer et détruire tout ce qu'elle engendre en son sein et au-delà de ses frontières.\nDe combattre tous les non-conformistes, qu'ils soient des stalkers isolés ou des groupes.\nEt de donner ma vie au nom de la justice et de l'ordre sur Terre ! »\n\nVoilà les mots que j'ai prononcés, avec Petrenko, quand je me suis engagé il y a toutes ces années. C'est pour ça qu'on ne cherche pas les artefacts pour notre profit, mais qu'on les refile au Barman ou aux Scientifiques, les seuls en qui on a confiance pour gérer le commerce des artefacts de manière responsable. C'est pour ça qu'on se bat contre les Bandits, les Mercenaires et Liberté, qui cherchent tous à exploiter les innocents ou à répandre naïvement les « cadeaux » de la Zone sans précaution ni réflexion. Même si on n'exempte pas les stalkers lambda de ces crimes, dans leur cas, on part du principe qu'ils sont innocents jusqu'à preuve du contraire, contrairement aux chiens de Kuznetsov, toujours prêts à tirer.\n\nMais lutter contre les égarés n'est que secondaire par rapport à notre vrai but : contenir la Zone et la repousser. Ça veut dire buter les mutants qu'elle crée, détruire ses artefacts les plus dangereux et dissiper ses anomalies quand on peut.\n\nPour les générations futures, on aide les marchands volontaires à maintenir des standards pour encadrer la manipulation des artefacts et réduire les risques... des standards que les Mercenaires ignorent pour grappiller du fric.\n\nLa dernière partie de notre code insiste sur la place de l'individu au sein de l'humanité : on oeuvre tous pour une cause plus grande au sein du Devoir, et c'est un honneur de donner sa vie pour défendre l'humanité.\n\nLe lieutenant-colonel Shulga comprenait cette dernière partie mieux que personne.</text>
+	</string>
+	<string id="st_bar_dolg_leader_life_6">
+		<text>Contrairement aux anarchistes au nord de chez nous, le Devoir comprend la valeur de l’autodiscipline, et tous les membres qui espèrent une promotion sont imprégnés d’une croyance ferme en la discipline et l’intégrité interne.\n\nÀ nos yeux, un mauvais acte n’efface pas les bons... ni un bon les mauvais. Ils coexistent, et on doit juger chacun pour ce qu’il est.\n\nAlors, quand on trébuche et qu’on échoue à se surveiller, comme avec ce cas honteux à Zaton il y a des années, on fait amende honorable et on se tient responsables du mieux qu’on peut.\n\nDans certains cas, même envers nos ennemis. Il y a des années, une escouade talentueuse du Devoir a capturé un groupe de jeunes de la Liberté et les a ramenés dans la Rostok pour interrogatoire. Les gars du Devoir impliqués devaient être félicités pour leur ruse... jusqu’à ce que les enquêteurs de notre faction découvrent des actes de grave inconduite au sein de l’escouade. Oui, le Devoir et la Liberté sont en guerre, mais ce que cette escouade a fait à leurs prisonniers... ce que ces pourritures ont fait était inexcusable.\n\nChaque membre du Devoir impliqué a été renvoyé avec déshonneur, on a fait de notre mieux pour effacer les saletés mensongères qu’ils avaient enregistrées de leurs prisonniers sur le réseau PDA, et la justice a été rendue. Le Devoir occupe une position de confiance, et c’est une position qu’on mérite par notre volonté de faire ce qui est juste, même si ça signifie parfois sacrifier l’opportunisme stratégique. La Zone est le reflet des maux qui sont en nous tous. On peut pas la combattre si on choisit aussi de la nourrir.</text>
+	</string>
+	<string id="st_bar_dolg_leader_life_7">
+		<text>De temps en temps, j’entends des cyniques murmurer, se demander pourquoi le Devoir a encore besoin de combattants... pourquoi on est encore nécessaires dans ce monde. Chaque fois que j’entends cette question, je donne toujours la même réponse...\n\nAvant, les mutants les plus dangereux ne rôdaient que sous terre ; c’était que des légendes. Maintenant, j’ai des rapports de Snorks dans la Vallée Obscure, de Controllers qui marchent à la surface, même l’occasionnel Sangsue dans le Cordon. La Zone grandit, et si on freine pas son expansion, ses horreurs se répandront sur le globe comme une maladie.\n\nL’armée a juré de s’assurer que rien ne dépasse des frontières actuelles de la Zone, pourtant la plupart des soldats perdent leur temps à harceler des stalkers inoffensifs au lieu de combattre la vraie menace. Avec une armée nationale de plus en plus mal guidée et corrompue, le fardeau de protéger le monde de la Zone nous est tombé dessus. Si c’est pas nous, alors qui d’autre ?</text>
+	</string>
+	<string id="st_bar_dolg_leader_life_end">
+		<text>J'ai rien de plus à te révéler pour l'instant.</text>
+	</string>
+
+	
+<!-- Mangun (Duty Mechanic) -->
+	<string id="story_dolg_m_0">
+		<text>Parle-moi de toi.</text>
+	</string>
+	<string id="story_dolg_m_1">
+		<text>Hmm, ouais, d'accord. Pourquoi pas ?\n\nJ'étais en poste à l'Institut de Recherche Agroprom, avant d'être promu. Avant ça, avant que la Zone existe, j'étais mécanicien auto. Devoir a remarqué mes talents de bricoleur après que j'ai traîné un moment, alors ils ont fini par me nommer technicien ici. Je préfère bidouiller les armes lourdes et les fusils d'assaut... Je déteste travailler sur les snipers, surtout ceux de OTAN.</text>
+	</string>
+	<string id="story_dolg_m_2">
+		<text>Et c'est quoi cette odeur ? J'pensais pas que le Devoir autorisait la biture à ce point.</text>
+	</string>
+	<string id="story_dolg_m_3">
+		<text>Putain, c'est dur de se démerder sans un coup à boire. Ou deux. J'aurais aimé pouvoir aider à Yanov quand Monolithe a frappé... mais bon, je serais probablement mort si on ne m'avait pas ordonné de rester ici. Tant de bons gars ont été perdus en défendant cet endroit... Bref, on a dévié du sujet. Allez, montre-moi tes joujoux si t'as besoin que je les répare.</text>
+	</string>
+	<string id="story_dolg_m_4">
+		<text>Je vais voir si j'ai quelque chose.</text>
+	</string>
+
+	
+<!-- Snitch (Informer) at the Bar -->
+	<string id="talk_to_inf_trader_0">
+		<text>T'es qui, toi ?</text>
+	</string>
+	<string id="talk_to_inf_trader_1">
+		<text>Je suis un informateur local, et je peux te proposer toutes sortes de services. Pour l'instant, j'ai différents types d'infos et des cartes avec des itinéraires vers divers endroits. Mes sources sont parmi les plus fiables de la Zone, mais elles tueraient pour garder leurs secrets, alors ne me demande pas où j'apprends tout ça - la réponse n'est pas jojo.</text>
+    </string>
+	
+	<string id="talk_to_maps_0">
+		<text>T'as des infos gratuites à partager sur les alentours ?</text>
+	</string>
+	<string id="talk_to_maps_1">
+		<text>D'habitude, c'est avec les infos que je me fais des thunes, mais comme tout est calme, je peux te filer un petit tuyau. Gratos.</text>
+	</string>
+	<string id="talk_to_maps_2">
+		<text>Je t'écoute.</text>
+	</string>
+	<string id="talk_to_maps_3">
+		<text>Bon, t’es probablement déjà familier avec tout ce qui se trouve au sud d’ici. Là, t’es à Rostok. C’est complètement safe si t’es en bons termes avec le Devoir. À l’est, y’a le Cimetière de véhicules - comme la Décharge, mais en bien plus grand, bien plus radioactif et bien, bien plus dangereux. À l’ouest, c’est le Territoire sauvage - les parties de Rostok que le Devoir peut pas patrouiller régulièrement. Cet endroit est un vrai cauchemar, et la plupart des stalkers conseillent de l’éviter sauf si t’as besoin d’aller à Yantar. Au nord, y’a les Entrepôts de l'armée, propriété du « meilleur pote » du Devoir, la Liberté. Plus au nord que ça, ça devient vite le territoire du Monolithe, défendu par des fanatiques sans pitié et des champs d’anomalies qui te grillent le cerveau.</text>
+	</string>
+	<string id="talk_to_maps_4">
+		<text>Qu'est-ce que tu peux me raconter sur Monolithe ?</text>
+	</string>
+	<string id="talk_to_maps_5">
+		<text>Apparemment, ce seraient les gardiens d’un cristal alien ancien connu sous le nom de « Exauceur de Souhaits ». Les Monolithes croient que ce cristal a créé la Zone et qu’il exaucera les voeux de ceux qu’il jugera dignes. Pour ça, ils le défendront farouchement contre quiconque ose s’aventurer au-delà de la Barrière nord aux Entrepôts de l'armée. Bien sûr, y’a des légendes de gens jugés dignes par le Exauceur de Souhaits, mais c’est que des conneries. Y’a des moyens plus simples de devenir riche, et on pourrait penser que quelqu’un aurait déjà souhaité que les mutants disparaissent d’ici, ou la fin des maladies, voire la paix dans le monde - ha ! Mais... j’imagine qu’une fois arrivé au Exauceur de Souhaits, t’en as plus rien à foutre des autres.  </text>
+	</string>
+	<string id="talk_to_maps_6">
+		<text>Merci pour l'info.</text>
+	</string>
+
+	<string id="buy_information_from_trader_0">
+		<text>T'as des infos fraîches ?</text>
+	</string>
+	<string id="buy_information_from_trader_1">
+		<text>J'ai des infos sur le toubib des marais. Tu sais, ce vieux cinglé aux pouvoirs de guérison légendaires ? Enfin, c'est ce qu'on raconte. Je peux te dire la vérité, pour sept mille.</text>
+	</string>
+		<string id="buy_information_from_trader_6">
+			<text>Je t'écoute.</text>
+		</string>
+		<string id="buy_information_from_trader_11">
+			<text>Comme tu le sais peut-être, il vit dans le Grand marais. Ce que tu sais peut-être pas, c'est pourquoi il y est. Il attend son vieux pote, Strelok. Avec le retour supposé de Strelok, beaucoup de gens veulent rencontrer le Doc, mais peu le trouvent. Pourtant, c'est assez simple - cherche une brèche dans la clôture au nord-ouest du marais, et fais gaffe aux rads et aux anomalies en chemin. </text>
+		</string>
+		<string id="buy_information_from_trader_2">
+			<text>J'ai des infos sur un stalker qui a récemment fait un raid à la CNPP, pour dix mille balles.</text>
+		</string>
+		<string id="buy_information_from_trader_7">
+			<text>Je t'écoute.</text>
+		</string>
+		<string id="buy_information_from_trader_12">
+			<text>Alors, avant que Monolithe ne pète un câble et se réveille pour de bon, ce stalker explorait le Sarcophage pour du loot et - écoute ça - il tombe sur un artefact complètement unique ! Apparemment, ce serait un éclat de l'Exauceur de Souhaits lui-même ! Monolithe a pas aimé, et il a été forcé de l'abandonner pour semer ses poursuivants. On peut juste se demander ce que ça vaut...</text>
+		</string>
+		<string id="buy_information_from_trader_3">
+			<text>J'ai des infos qui éclairent le groupe de Strelok, mais ça te coûtera quinze mille balles.</text>
+		</string>
+		<string id="buy_information_from_trader_8">
+			<text>File-moi ça.</text>
+		</string>
+		<string id="buy_information_from_trader_13">
+			<text>Tout le monde sait que Strelok a réussi à monter une nouvelle équipe récemment, mais personne ne sait qui ils sont. C'est une bande de mecs aux compétences uniques : Stitch, Pathfinder, Rogue et Scope. Un médecin de combat, un guide doué, un déserteur militaire et un sniper d'élite, respectivement. On peut juste se demander où ils sont maintenant, ou ce qu'ils mijotent.</text>
+		</string>
+		<string id="buy_information_from_trader_4">
+			<text>Je peux te révéler des infos sur les aventures d'un stalker mystérieux qui a exploré les Générateurs pour vingt-quatre mille balles.</text>
+		</string>
+		<string id="buy_information_from_trader_9">
+			<text>Passe.</text>
+		</string>
+		<string id="buy_information_from_trader_14">
+			<text>T’as entendu parler des Générateurs ? Jusqu’à récemment, c’était qu’un mythe... mais après la deuxième campagne de Strelok vers le centre de la Zone, plus de doute, ils existent. Y’a eu des disputes sans fin sur ce que c’est, mais les vieilles images satellites suggèrent une sorte d’infrastructure bizarre, en l’honneur de laquelle toute la zone a été nommée. Apparemment, c’est là que les Monolithes exécutent leurs ordres et tous les processus importants sur le territoire de la Zone. Alors, le stalker y est déjà allé et je pense qu’il est sérieux - son intervention pourrait avoir un impact majeur sur la Zone. Les chefs de quelques groupes ont déjà exprimé leur mécontentement face à cette info.</text>
+		</string>
+	<string id="buy_information_from_trader_5">
+		<text>Pas pour l'instant.</text>
+	</string>
+	<string id="buy_information_from_trader_10">
+		<text>Ça m'intéresse pas.</text>
+	</string>
+
+	<string id="st_top_10_task_about_dialog_0">
+		<text>Alors, que faites-vous ici pour vous distraire?</text>
+	</string>
+	<string id="st_top_10_task_about_dialog_1">
+		<text>S'amuser? Cet endroit peut devenir ennuyeux rapidement. De nos jours, les clients ne cherchent plus rien d'intéressant. Juste une bande d'amateurs qui veulent mettre la main sur des artefacts et autres, vous voyez ce que je veux dire?</text>
+	</string>
+	<string id="st_top_10_task_about_dialog_2">
+		<text>C'est ainsi, n'est-ce pas?</text>
+	</string>
+	<string id="st_top_10_task_about_dialog_3">
+		<text>Oui, mais aucun d'entre eux ne rêve-t-il de faire quelque chose d'épique, de légendaire? Comme vous, par exemple - vous semblez expérimenté. Ne souhaitez-vous pas accomplir quelque chose dont les gens se souviendront à jamais? </text>
+	</string>
+	<string id="st_top_10_task_about_dialog_4">
+		<text>Continuez...</text>
+	</string>
+	<string id="st_top_10_task_about_dialog_5">
+		<text>J'ai un contact très spécial qui offre une énorme récompense pour éliminer dix stalkers. Cinquante mille, plus quelques bonus. Cela semble être une somme considérable pour une simple liste de primes, n'est-ce pas? Voici le plus intéressant: vos cibles sont justement les dix stalkers les plus influents de toute la Zone. Cela signifie que vous pourriez traquer des habitués, des membres du Devoir, des mercenaires, voire même ces foutus Monolithes! Vous pouvez consulter la liste sur votre PDA si vous le souhaitez. Ce type les veut morts, peu importe comment.</text>
+	</string>
+	<string id="st_top_10_task_about_dialog_61">
+		<text>Quoi? C'est insensé! Pourquoi quelqu'un voudrait-il cela?</text>
+	</string>
+	<string id="st_top_10_task_about_dialog_62">
+		<text>Je suis partant.</text>
+	</string>
+	<string id="st_top_10_task_about_dialog_63">
+		<text>Non merci, je ne participe pas.</text>
+	</string>
+	<string id="st_top_10_task_about_dialog_7">
+		<text>J'ai posé une question similaire à mon contact. Eh bien, il a dit qu'il en avait assez de voir ces dreadnoughts ratisser tout le butin avec leurs fusils sophistiqués et leurs combinaisons coûteuses. Il veut donner plus de chances à l'homme ordinaire. Quoi qu'il en soit, la rémunération sera incroyable, alors peu importe, non?</text>
+	</string>
+	<string id="st_top_10_task_about_dialog_8">
+		<text>Fantastique! Je vais télécharger l'emplacement de votre première cible sur votre PDA. Chaque fois que vous en éliminerez une, vous obtiendrez la localisation du suivant. Amusez-vous bien.</text>
+	</string>
+	<string id="st_top_10_task_about_dialog_9">
+		<text>Comme vous voudrez. L'offre reste valable si vous changez d'avis.</text>
+	</string>
+	
+	<string id="st_top_10_task_finish_dialog_0">
+		<text>D'accord, Snitch. C'est fait. Ces dix cibles sont aussi bonnes que mortes.</text>
+	</string>
+	<string id="st_top_10_task_finish_dialog_1">
+		<text>Excellent travail, mon ami! Notre client est très satisfait de vos résultats. Comme promis, voici votre récompense. Content que vous ayez été à la hauteur, après tout - même maintenant, j'entends les gens parler de vos exploits. Le tueur de légendes! Cela va faire bouger les choses, hé hé...</text>
+	</string>
+	
+<!-- modified by Tronex -->
+	<string id="inf_trader_buy_transitions_0">
+		<text>Je veux acheter des infos sur quelques itinéraires.</text>
+	</string>
+	<string id="inf_trader_buy_transitions_1">
+		<text>Bien sûr. Voici ce que j'ai.</text>
+	</string>
+	<string id="inf_trader_buy_transitions_2">
+		<text>Des Entrepôts de l'armée au Radar %c[d_orange][7000 RU]</text>
+	</string>
+		<string id="inf_trader_buy_transitions_9">
+			<text>Alors, t'as le fric pour ça ?</text>
+		</string>
+		<string id="inf_trader_buy_transitions_11">
+			<text>Oui, t'es là.</text>
+		</string>
+	<string id="inf_trader_buy_transitions_3">
+		<text>Du Radar au bunker en dessous. %c[d_orange][11 000 RU]</text>
+	</string>
+		<string id="inf_trader_buy_transitions_12">
+			<text>T'as le fric ?</text>
+		</string>
+		<string id="inf_trader_buy_transitions_13">
+			<text>Bien sûr. Tiens.</text>
+		</string>
+	<string id="inf_trader_buy_transitions_4">
+		<text>Du Radar à Pripyat. %c[d_orange][9000 RU]</text>
+	</string>
+		<string id="inf_trader_buy_transitions_14">
+			<text>T'as le pognon ?</text>
+		</string>
+		<string id="inf_trader_buy_transitions_15">
+			<text>Tiens, voilà.</text>
+		</string>
+	<string id="inf_trader_buy_transitions_5">
+		<text>Du centre de Pripyat à la Périphérie. %c[d_orange][9000 RU]</text>
+	</string>
+		<string id="inf_trader_buy_transitions_16">
+			<text>Il me faut le papier d'abord.</text>
+		</string>
+		<string id="inf_trader_buy_transitions_17">
+			<text>Ouais, le voilà.</text>
+		</string>
+	<string id="inf_trader_buy_transitions_6">
+		<text>De Pripyat à la Centrale nucléaire de Tchernobyl. %c[d_orange][30 000 RU]</text>
+	</string>
+		<string id="inf_trader_buy_transitions_18">
+			<text>T'as du fric sur toi ?</text>
+		</string>
+		<string id="inf_trader_buy_transitions_19">
+			<text>Oui, tiens.</text>
+		</string>
+	<string id="inf_trader_buy_transitions_7">
+		<text>Entre les parties sud et nord de la Centrale nucléaire de Tchernobyl. %c[d_orange][35 000 RU]</text>
+	</string>
+		<string id="inf_trader_buy_transitions_20">
+			<text>L'oseille d'abord.</text>
+		</string>
+		<string id="inf_trader_buy_transitions_21">
+			<text>T'es là.</text>
+		</string>
+	<string id="inf_trader_buy_transitions_10">
+		<text>J'ai pas le fric.</text>
+	</string>
+	<string id="inf_trader_buy_transitions_8">
+		<text>J'ai changé d'avis.</text>
+	</string>
+
+
+<!-- Guide -->
+	<string id="meet_guid_bar_0">
+		<text>T'es guide ?</text>
+	</string>
+	<string id="meet_guid_bar_1">
+		<text>Ouais, Navigator, c'est mon nom. Je peux t'emmener à quelques endroits pour une modeste somme. La plupart du temps, c'est des recrues mes clients, mais je peux guider n'importe quel stalker expérimenté - y'a pas de honte à ça. Je t'explique : tu paies, je t'emmène où tu veux et je reviens ici. Je peux t'emmener à Yantar, au Grand marais, aux Entrepôts de l'armée, à la Décharge, au Cordon et à Jupiter.</text>
+	</string>
+
+	<string id="meet_guid_bar_list_0">
+		<text>Désolé, tu peux m'escorter où, au juste ?</text>
+	</string>
+	<string id="meet_guid_bar_list_1">
+		<text>À la Décharge pour sept cents, aux Entrepôts de l'armée pour mille, au Village des Recrues dans le Cordon pour trois mille, à Yantar pour trois mille cinq cents, à la gare de Yanov dans Jupiter pour six mille et au Grand marais, aussi pour six mille.</text>
+	</string>
+
+	<string id="travel_guid_bar_0">
+		<text>Faut que tu m'emmènes quelque part.</text>
+	</string>
+	<string id="travel_guid_bar_1">
+		<text>Ouais, où ça ?</text>
+	</string>
+	<string id="travel_guid_bar_2">
+		<text>Vers le Cordon. %c[d_orange][3000 RU]</text>
+	</string>
+	<string id="travel_guid_bar_3">
+		<text>Vers la Décharge. %c[d_orange][700 RU]</text>
+	</string>
+	<string id="travel_guid_bar_4">
+		<text>Vers les Entrepôts de l'armée. %c[d_orange][1000 RU]</text>
+	</string>
+	<string id="travel_guid_bar_5">
+		<text>Vers Yantar. %c[d_orange][3500 RU]</text>
+	</string>
+	<string id="travel_guid_bar_6">
+		<text>Vers Jupiter. %c[d_orange][6000 RU]</text>
+	</string>
+	<string id="travel_guid_bar_7">
+		<text>Vers le Grand marais. %c[d_orange][6000 RU]</text>
+	</string>
+	<string id="travel_guid_bar_8">
+		<text>J'ai changé d'avis.</text>
+	</string>
+
+<!-- Medic -->
+	<string id="bar_dolg_medic_talking_0">
+		<text>T'es qui, toi ?</text>
+	</string>
+	<string id="bar_dolg_medic_talking_1">
+		<text>Je suis le toubib du coin, même si avant j'étais juste secouriste. Lieutenant Sostradov, c'est mon nom, mais les stalkers d'ici m'appellent Aspirine. Ouais, vraiment. J'ai fini par devenir plutôt bon pour soigner toutes sortes de maladies et de blessures au fil des années. Je fais aussi office de pharmacien - après tout, t'as besoin de médocs sur le terrain si tu veux revenir vivant pour un vrai traitement. </text>
+	</string>
+	<string id="bar_dolg_medic_talking_2">
+		<text>Comment t'es devenu médecin pour Devoir ?</text>
+	</string>
+	<string id="bar_dolg_medic_talking_3">
+		<text>Comment on en arrive à rejoindre le Devoir ? La Zone te prend quelque chose. Et puis elle te prend encore, et encore. Jusqu’à ce qu’il te reste plus rien d’autre que la Zone elle-même. Médecin ou pas, c’est comme ça qu’un stalker finit par rejoindre le Devoir.\n\nOn est ceux qui ont tout perdu à cause de cet enfer, mais qui sont restés pour empêcher les autres de subir le même sort. Bien sûr, la plupart des gars du Devoir choisissent de protéger les gens en essayant de buter la Zone. Pas moi.\n\nMoi, je suis là pour réparer toutes les blessures qu’elle laisse sur les gens. Pour m’assurer que les stalkers de cette ville puissent vivre un jour de plus quand leurs potes les ramènent en sang après une expédition de merde.\n\nTant que tu te ramènes ici vivant, je te remettrai sur pied. Et je te ferai même pas payer trop cher, contrairement à certains autres marchands du coin.</text>
+	</string>
+	<string id="bar_dolg_medic_talking_4">
+		<text>Merci, Aspirine.</text>
+	</string>
+	
+<!-- ARENA -->
+	<string id="bar_arena_man_job_0">
+		<text>T'as qui pour moi à défoncer ?</text>
+	</string>
+	<string id="bar_arena_man_job_11">
+		<text>Alors, ton premier combat ? Ton adversaire, c'est un morceau de viande comme toi. Il est là à cause de ses dettes et il n'a que deux options : sortir et se battre, ou finir dans l'anomalie la plus proche. Il va se battre comme un animal acculé. L'équipement pour aujourd'hui... Laisse-moi réfléchir... Et si vous aviez tous les deux des pistolets basiques, deux boîtes de munitions devraient suffire. Soit tu lui défonces la gueule, soit on te donne à bouffer aux chiens - pas vraiment le choix. Allez, vas-y !</text>
+	</string>
+	<string id="bar_arena_man_job_111">
+		<text>Je suis prêt.</text>
+	</string>
+	<string id="bar_arena_man_job_112">
+		<text>Je suis pas prêt.</text>
+	</string>
+	<string id="bar_arena_man_job_12">
+		<text>Ton dernier combat valait que dalle, t’es toujours le même morceau de viande qu’avant et aucun gars digne de ce nom miserait une seule balle sur toi. Si tu veux te faire un vrai paquet de fric, va falloir faire quelques apparitions de plus dans l’arène. Ton nouvel adversaire a aussi passé le premier round, et son combat était bien plus dur que le tien. Franchement, il me plaît pas - il tue trop vite et la foule aime pas ça. Alors, vas-y et montre-nous ce que t’as dans le ventre ! Les enjeux vont monter après ce combat - t’as juste à rester en vie. Bouge-toi !</text>
+	</string>
+	<string id="bar_arena_man_job_121">
+		<text>Je suis prêt.</text>
+	</string>
+	<string id="bar_arena_man_job_122">
+		<text>Je suis pas prêt.</text>
+	</string>
+	<string id="bar_arena_man_job_13">
+		<text>Eh ben... T’es pas aussi trouillard que t’en avais l’air au début. Maintenant, c’est l’heure de te tester dans un vrai combat. T’affrontes deux mecs. Le premier s’appelle Swede et j’ai oublié le nom du deuxième. Ils ont été appairés exprès parce qu’ils peuvent pas se blairer, alors t’inquiète pas pour une éventuelle équipe - ils sont plus près à se tirer dessus qu’autre chose. Aujourd’hui, c’est jour fusil, alors laisse-les pas trop approcher ou on va devoir te ramasser à la petite cuillère. Les cotes sont à 10 contre 1, donc si tu gagnes, tu te fais un joli paquet. Allez, vas-y !</text>
+	</string>
+	<string id="bar_arena_man_job_131">
+		<text>Je suis prêt.</text>
+	</string>
+	<string id="bar_arena_man_job_132">
+		<text>Je suis pas prêt.</text>
+	</string>
+	<string id="bar_arena_man_job_14">
+		<text>Bon, maintenant je peux dire sans risque que t’es un combattant, un vrai. Place au combat d’équipe. T’as deux bleus avec toi - deux frères. Ils ont pas encore combattu, mais comme c’est des frères, j’ai dû les mettre en équipe. Franchement, j’attends pas grand-chose d’eux. T’affrontes une équipe expérimentée, des prétendants à la finale cette saison. Une bande dangereuse. Ils utilisent des armes différentes, mais l’un d’eux a un fusil à pompe automatique - fais gaffe à lui. Bonne chance, mon pote... T’en auras besoin.</text>
+	</string>
+	<string id="bar_arena_man_job_141">
+		<text>Je suis prêt.</text>
+	</string>
+	<string id="bar_arena_man_job_142">
+		<text>Je suis pas prêt.</text>
+	</string>
+	<string id="bar_arena_man_job_15">
+		<text>T’as un combat spécial aujourd’hui. Même l’armée a entendu parler de toi ! T’étonne pas, ils se battent ici aussi - y’a même un général dans le public. Ces mecs viennent des Spetsnaz ou de l’OMON. Ils sont bien armés et leur armure est à la hauteur. Mais t’inquiète, je vais pas te laisser dans la merde. T’auras un gilet utilisé par la Liberté - il est léger, ça te ralentira pas. Allez, montre-leur que les stalkers sont pas des souffre-douleur. Bonne chance !</text>
+	</string>
+	<string id="bar_arena_man_job_151">
+		<text>Je suis prêt.</text>
+	</string>
+	<string id="bar_arena_man_job_152">
+		<text>Je suis pas prêt.</text>
+	</string>
+	<string id="bar_arena_man_job_16">
+		<text>C'est l'heure de montrer ce que tu vaux. Devoir a chopé un groupe de bandits qui emmerdaient les stalkers près de Rostok. Devoir les a attrapés de nuit, alors la plupart ont été pris vivants. Ils devaient tous être exécutés de toute façon, alors j'ai convaincu Devoir de leur donner une chance. Si l'un d'eux survit, il ira en taule à l'extérieur de la Zone, ce qui vaut mieux que de crever ici. Ils ont du bon matos, et ils sont six, alors fais gaffe. Allez, vas-y !</text>
+	</string>
+	<string id="bar_arena_man_job_161">
+		<text>Je suis prêt.</text>
+	</string>
+	<string id="bar_arena_man_job_162">
+		<text>Je suis pas prêt.</text>
+	</string>
+	<string id="bar_arena_man_job_17">
+		<text>Bon, t'es presque en finale. Maintenant, tu vas affronter un vrai stalker. Il est seul, mais il a un fusil d'assaut et une combinaison de protection. Prends une rafale et t'es mort. Il y aura aussi une surprise que je peux pas te révéler... Mon conseil : prépare-toi, ça va être chaud. Le vainqueur passe en finale. Combat à mort, vas-y !</text>
+	</string>
+	<string id="bar_arena_man_job_171">
+		<text>Je suis prêt.</text>
+	</string>
+	<string id="bar_arena_man_job_172">
+		<text>Je suis pas prêt.</text>
+	</string>
+	<string id="bar_arena_man_job_18">
+		<text>Félicitations, t'es en finale ! Encore un combat et celui-là, c'est à mort, chacun pour sa peau. Il y aura 4 autres stalkers dans l'arène : tous des pros en exosquelette, mais c'est équitable cette fois - t'auras exactement le même matos qu'eux. Le seul truc, c'est que t'auras pas de medkits ni de bandages dans un combat à mort. Prêt ? Prouve que t'es le meilleur, GO !</text>
+	</string>
+	<string id="bar_arena_man_job_181">
+		<text>Je suis prêt.</text>
+	</string>
+	<string id="bar_arena_man_job_182">
+		<text>Je suis pas prêt.</text>
+	</string>
+	<string id="bar_arena_man_start_111112">
+		<text>Hé ! T'as payé pour un combat et t'es juste parti comme ça !</text>
+	</string>
+	<string id="bar_arena_man_start_11">
+		<text>Yo ! J'ai un nouveau combat pour toi.</text>
+	</string>
+	<string id="bar_arena_man_start_21">
+		<text>Va boire un coup ou un truc du genre. L'Arène est pas encore prête.</text>
+	</string>
+	<string id="bar_arena_man_start_31">
+		<text>T'es déjà un pro !!!</text>
+	</string>
+	<string id="bar_arena_man_start_41">
+		<text>T'as gagné ! Voici ta récompense.</text>
+	</string>
+	<string id="bar_arena_man_start_51">
+		<text>T'es pas assez expérimenté pour ce combat.</text>
+	</string>
+	<string id="bar_arena_manager_game_0">
+		<text>T'as quel défi pour moi ?</text>
+	</string>
+	<string id="bar_arena_manager_game_1">
+		<text>Y'a rien à buter pour l'instant, reviens plus tard quand on aura chopé d'autres mutants.</text>
+	</string>
+	<string id="bar_arena_manager_game_100">
+		<text>Y'a une taxe de participation. 1000 RU.</text>
+	</string>
+	<string id="bar_arena_manager_game_101">
+		<text>Tiens, voilà ton fric.</text>
+	</string>
+	<string id="bar_arena_manager_game_105">
+		<text>J'ai pas assez de thune.</text>
+	</string>
+	<string id="bar_arena_manager_game_1051">
+		<text>Alors dégage d'ici, stalker.</text>
+	</string>
+	<string id="bar_arena_manager_game_110">
+		<text>Tu me dois 2000 RU pour ta participation.</text>
+	</string>
+	<string id="bar_arena_manager_game_111">
+		<text>Tiens, voilà ton fric.</text>
+	</string>
+	<string id="bar_arena_manager_game_11111112">
+		<text>Je t'ai déjà payé, bordel !</text>
+	</string>
+	<string id="bar_arena_manager_game_115">
+		<text>J'ai pas assez de thune.</text>
+	</string>
+	<string id="bar_arena_manager_game_1151">
+		<text>Alors arrête de poser autant de questions.</text>
+	</string>
+	<string id="bar_arena_manager_game_120">
+		<text>Paye 3 000 RU pour participer et le sangsue est à toi.</text>
+	</string>
+	<string id="bar_arena_manager_game_121">
+		<text>Bon, voilà ton fric.</text>
+	</string>
+	<string id="bar_arena_manager_game_125">
+		<text>J'en ai pas assez.</text>
+	</string>
+	<string id="bar_arena_manager_game_1251">
+		<text>Fais pas perdre mon temps, stalker.</text>
+	</string>
+	<string id="bar_arena_manager_game_130">
+		<text>Pas si vite. La participation coûte 5 000 RU.</text>
+	</string>
+	<string id="bar_arena_manager_game_131">
+		<text>Bon, voilà le fric.</text>
+	</string>
+	<string id="bar_arena_manager_game_135">
+		<text>J'ai pas assez de thune.</text>
+	</string>
+	<string id="bar_arena_manager_game_1351">
+		<text>Arrête ton cinéma de mendiant.</text>
+	</string>
+	<string id="bar_arena_manager_game_140">
+		<text>La participation coûte 5000 RU.</text>
+	</string>
+	<string id="bar_arena_manager_game_141">
+		<text>Bon, voilà ton fric.</text>
+	</string>
+	<string id="bar_arena_manager_game_145">
+		<text>J'ai pas assez de thune.</text>
+	</string>
+	<string id="bar_arena_manager_game_1451">
+		<text>Laisse-moi deviner. Quelqu'un t'a piqué tes roubles ?</text>
+	</string>
+	<string id="bar_arena_manager_game_2">
+		<text>Y'a un pseudochien. Un gros spécimen, mais sacrément amoché. Par contre, c'est une vraie teigne, comme ma belle-doche.</text>
+	</string>
+	<string id="bar_arena_manager_game_200">
+		<text>Marché conclu. Avant de combattre, tu dois miser sur le temps qu'il te faudra pour faire le kill. Si tu y arrives, tu te feras un petit bonus de thune.</text>
+	</string>
+	<string id="bar_arena_manager_game_201">
+		<text>30 secondes, triple gain.</text>
+	</string>
+	<string id="bar_arena_manager_game_202">
+		<text>Une minute trente, double victoire.</text>
+	</string>
+	<string id="bar_arena_manager_game_203">
+		<text>Sans limite de temps. Victoire à moitié mise.</text>
+	</string>
+	<string id="bar_arena_manager_game_204">
+		<text>J'ai changé d'avis.</text>
+	</string>
+	<string id="bar_arena_manager_game_2041">
+		<text>Tant pis pour ta gueule. T'as déjà payé.</text>
+	</string>
+	<string id="bar_arena_manager_game_21">
+		<text>Je peux faire ça. Je défonce ton chien.</text>
+	</string>
+	<string id="bar_arena_manager_game_22">
+		<text>Un chien ? C'est tout ce que t'as ?</text>
+	</string>
+	<string id="bar_arena_manager_game_221">
+		<text>Oh, notre nana a peur d'un petit clébard ? Fais pas la tête.</text>
+	</string>
+	<string id="bar_arena_manager_game_3">
+		<text>Y'a un taré avec un masque à gaz, on appelle ça un snork. Maigre et chétif, mais sacrément vif.</text>
+	</string>
+	<string id="bar_arena_manager_game_300">
+		<text>Super, on va tout préparer. Entre dans l'arène.</text>
+	</string>
+	<string id="bar_arena_manager_game_31">
+		<text>Balance. Je défonce ton snork.</text>
+	</string>
+	<string id="bar_arena_manager_game_32">
+		<text>Ça me retourne l'estomac. Putain non.</text>
+	</string>
+	<string id="bar_arena_manager_game_321">
+		<text>T'as flippé à cause d'un taré en masque à gaz à moitié pourri ?</text>
+	</string>
+	<string id="bar_arena_manager_game_4">
+		<text>Cette fois, on a eu un vrai coup de bol. On a chopé une jeune sangsue. Encore conne, mais déjà malpolie.</text>
+	</string>
+	<string id="bar_arena_manager_game_41">
+		<text>Allez, prépare la sangsue.</text>
+	</string>
+	<string id="bar_arena_manager_game_42">
+		<text>Une sangsue ? Putain, non !</text>
+	</string>
+	<string id="bar_arena_manager_game_421">
+		<text>Quoi ? T'es amoureux des sangsues maintenant ? T'as rejoint Liberté quand ?</text>
+	</string>
+	<string id="bar_arena_manager_game_5">
+		<text>Cette fois, on a un petit gros en robe noire - les locaux appellent ça un domovoï.</text>
+	</string>
+	<string id="bar_arena_manager_game_51">
+		<text>Gros et court ? Facile. Je m'en charge.</text>
+	</string>
+	<string id="bar_arena_manager_game_52">
+		<text>J'ai déjà tout entendu sur ces trucs. Je passe.</text>
+	</string>
+	<string id="bar_arena_manager_game_521">
+		<text>Il t'arrive même pas à la taille et il te fait flipper ?</text>
+	</string>
+	<string id="bar_arena_manager_game_6">
+		<text>Aujourd'hui, c'est un jour spécial. J'sais pas où ils l'ont déniché... Lui... Mais c'est une vraie bête.</text>
+	</string>
+	<string id="bar_arena_manager_game_61">
+		<text>Marché conclu. Je vais l'achever.</text>
+	</string>
+	<string id="bar_arena_manager_game_62">
+		<text>J'ai pas envie de crever, trouve quelqu'un d'autre.</text>
+	</string>
+	<string id="bar_arena_manager_game_621">
+		<text>Franchement, même moi, la bête me fout les jetons. Mais bon, c'est pas moi qui vais me battre dans l'arène, alors on s'en fout.</text>
+	</string>
+	<string id="bar_arena_manager_info_0">
+		<text>J'ai deux-trois questions.</text>
+	</string>
+	<string id="bar_arena_manager_info_1">
+		<text>Tire.</text>
+	</string>
+	<string id="bar_arena_manager_info_10">
+		<text>Laisse tomber.</text>
+	</string>
+	<string id="bar_arena_manager_info_11">
+		<text>C'est quoi, ce troquet ?</text>
+	</string>
+	<string id="bar_arena_manager_info_111">
+		<text>Voilà l'arène, mon petit business. Un endroit où les stalkers peuvent tester leur courage et se faire un nom en combattant les horreurs de la Zone.</text>
+	</string>
+	<string id="bar_arena_manager_info_12">
+		<text>Comment tu fais pour amener le mutants ici ?</text>
+	</string>
+	<string id="bar_arena_manager_info_121">
+		<text>On a passé un deal avec Devoir : au lieu de buter tous les mutants qu'ils chopent, ils amènent les plus faibles ici contre du cash. Devoir se fait payer, les mutants se font buter, et moi je touche ma part. Tout le monde y gagne.</text>
+	</string>
+	<string id="bar_arena_manager_info_13">
+		<text>T'es d'où, toi ?</text>
+	</string>
+	<string id="bar_arena_manager_info_131">
+		<text>Je viens de partout. J'ai entendu parler de ce trou paumé et j'ai compris que je pouvais me faire un petit billet ici. Alors me voilà.</text>
+	</string>
+	<string id="bar_arena_manager_rules_0">
+		<text>C'est quoi les règles ?</text>
+	</string>
+	<string id="bar_arena_manager_rules_1">
+		<text>Oh, les règles sont simples. Je les ai inventées moi-même. Pour les défis, y’a une cage, et on lâche un mutant dedans. Tu paies et tu me dis le temps qu’il te faut pour buter la bestiole. Si t’y arrives, tu gagnes. Sinon, c’est moi qui gagne.\nMais pour le plat de résistance, ce sont les bandits et les autres dégénérés de la Zone capturés par le Devoir qui se battent dans l’arène pour leurs crimes. Certains sont juste des stalkers qui ont envie de se battre, pas vraiment des criminels, mais celui qui sort de l’arène avec le moins de morceaux en moins empoche une belle récompense. S’ils continuent à gagner, plus de stalkers viendront regarder, et les combattants gagneront des récompenses encore plus grosses.</text>
+	</string>
+	<string id="bar_arena_manager_start_11">
+		<text>Ravi de te voir, stalker, bienvenue dans l'arène.</text>
+	</string>
+	<string id="bar_arena_manager_start_21">
+		<text>Alors, tu attends quoi ? Monte dans la cage.</text>
+	</string>
+	<string id="bar_arena_manager_start_31">
+		<text>Désolé, y'a rien à combattre pour l'instant. Attends un jour ou deux qu'on chope un nouveau mutant.</text>
+	</string>
+	<string id="bar_arena_manager_start_41">
+		<text>Te voilà ! Bien joué ! Tiens, ta victoire. Si t'as envie d'un autre combat pour le fric, passe quand tu veux.</text>
+	</string>
+	<string id="bar_arena_manager_start_51">
+		<text>Désolé, mec, mais t'as perdu. Reviens la prochaine si t'en as envie.</text>
+	</string>
+
+	<!-- bar_visitors_stalker_mechanic -->
+	<string id="bar_visitors_stalker_mechanic_start_dialog_1">
+		<text>Encore un stalker, venu voir le vieux Mangun ? Bon, d'accord. Montre-moi ce qui est bousillé, je vais réparer. J'espère juste que t'as de quoi payer les pièces. </text>
+	</string>
+</string_table>

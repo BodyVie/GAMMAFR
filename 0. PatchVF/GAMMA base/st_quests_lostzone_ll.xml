@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <!-- GAMMA_Translator 15 05 2026 - Body -->
-<!--===========================================================
+<!-- ===========================================================
 <
 < TEXT STRINGS FOR LOST TO THE ZONE: LIVING LEGEND TASKS
 <	Anomaly 1.5 - Lost to the Zone: Living Legend
 <
-<===========================================================-->
+<=========================================================== -->
 
 <string_table>
 
@@ -48,7 +48,7 @@
 
 	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Living Legend Task 1 -->
 	<string id="lttz_ll_find_doctor_task_title">
 		<text>Légende vivante : Vieux Connaissances</text>
@@ -57,7 +57,7 @@
 		<text>Le docteur, ancien compagnon de Strelok, s'est retiré dans le coin nord-ouest de Grand marais. Trouvez un moyen de le rejoindre pour poursuivre vos recherches sur Strelok.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Living Legend Task 2 -->
 	<string id="lttz_ll_visit_agro_ug_name">
 		<text>Légende vivante : Planque souterraine</text>
@@ -69,7 +69,7 @@
 		<text>Une lecture approfondie des notes du Doc révèle que Strelok a une planque dans les Souterrains d'Agroprom. Va y faire un tour pour avoir des indices sur sa position.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Living Legend Task 3 -->
 	<string id="lttz_ll_visit_barkeep_task_title">
 		<text>Légende vivante : Sur les Traces</text>
@@ -78,7 +78,7 @@
 		<text>Si Strelok souhaitait se réapprovisionner à Rostok, Barman en sait probablement quelque chose. Rendez-lui visite.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Living Legend Task 3 -->
 	<string id="lttz_ll_visit_aslan_task_title">
 		<text>Légende vivante : Sur les Traces</text>
@@ -87,7 +87,7 @@
 		<text>Aslan possède des connaissances sur le nord de Zone. Rendez-lui visite.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Living Legend Task 4 -->
 	<string id="lttz_ll_call_north_task_title">
 		<text>Légende vivante : L'Appel du Nord</text>
@@ -99,7 +99,7 @@
 		<text>Gardien est un vétéran qui défend la Barrière. Il est probablement la dernière personne à avoir vu le groupe de Strelok.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Living Legend Task 5 -->
 	<string id="lttz_ll_breakthrough_task_name">
 		<text>Légende vivante : Percée</text>
@@ -111,7 +111,7 @@
 		<text>Vous avez repoussé l'assaut du Monolithe. Parlez à Gardien.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Living Legend Task 6 -->
 	<string id="lttz_ll_radar_deactivate_name">
 		<text>Légende vivante : Au-delà de l'arc-en-ciel</text>
@@ -120,7 +120,7 @@
 		<text>Désactive le Lobotomisateur pour accéder au coeur de la Zone.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Living Legend Task 7 -->
 	<string id="lttz_ll_visit_beard_task_title">
 		<text>Légende vivante : L'Enclave</text>
@@ -129,7 +129,7 @@
 		<text>Gardien transmet ses salutations à Barbu. Ce dernier pourrait savoir quelque chose au sujet de Strelok.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Living Legend Task 8 -->
 	<string id="lttz_ll_meet_rogue_task_title">
 		<text>Légende vivante : Rencontre avec un Renégat</text>
@@ -138,7 +138,7 @@
 		<text>L'un des membres du groupe de Strelok, Rogue, se trouve actuellement à Skadovsk. Parlez-lui pour en savoir plus.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Living Legend Task 9 -->
 	<string id="lttz_ll_fetch_gauss_task_title">
 		<text>Légende vivante : Arme Expérimentale</text>
@@ -161,7 +161,7 @@
 		</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Living Legend Task 10 -->
 	<string id="lttz_ll_path_pripyat_task_title">
 		<text>Légende vivante : Chemin vers Pripyat</text>
@@ -176,7 +176,7 @@
 		<text>Rejoignez la planque de Strelok à Pripyat avec Rogue.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Living Legend Task 11 -->
 	<string id="lttz_ll_medical_supplies_name">
 		<text>Légende vivante : Fournitures médicales</text>
@@ -185,7 +185,7 @@
 		<text>Stitch, le toubib de combat de Strelok, a besoin de %s.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Living Legend Task 12 -->
 	<string id="lttz_ll_attack_on_titan_name">
 		<text>Légende vivante : L'Attaque des Titans</text>
@@ -197,7 +197,7 @@
 		<text>Le Pseudogiant a été vaincu. Retournez auprès de Rogue.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Living Legend Task 13 -->
 	<string id="lttz_ll_find_documents_name">
 		<text>Légende vivante : Top Secret</text>
@@ -206,7 +206,7 @@
 		<text>Le labo X-8 contient des infos top secrètes sur la Zone. Trouve les Documents X-8 et rapporte-les à Strelok.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Living Legend Task 14 -->
 	<string id="lttz_ll_eidolon_start_task_title">
 		<text>Légende vivante : Première Offensive</text>
@@ -215,7 +215,7 @@
 		<text>Formez l’équipe et partez vaincre l’Eidolon.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Living Legend Task 15 -->
 	<string id="lttz_ll_eidolon_task_title">
 		<text>Légende vivante : Champion du Monolithe</text>
@@ -224,7 +224,7 @@
 		<text>Effectuez un raid sur le Palais de la Culture pour attirer l'Eidolon et le vaincre.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Living Legend Task 16 -->
 	<string id="lttz_ll_strelok_objective_task_title">
 		<text>Légende vivante : Objectif Ambitionné</text>
@@ -233,7 +233,7 @@
 		<text>Vous avez vaincu l'Eidolon. Il est temps pour Strelok de révéler son objectif principal.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Living Legend Task 17 -->
 	<string id="lttz_ll_chernobyl_raid_task_title">
 		<text>Légende vivante : Raid sur la CNPP</text>
@@ -242,7 +242,7 @@
 		<text>Atteignez la CNPP et éliminez les forces du Monolithe qui la défendent.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Living Legend Task 18 -->
 	<string id="lttz_ll_crucible_task_title">
 		<text>Légende vivante : Épreuve</text>
@@ -258,7 +258,7 @@
 		<text>Selon la légende, cet objet aurait été détaché de l’Exauceur de Souhaits lui-même et présente des propriétés similaires à celles d’un artefact. Il crépite d’une énergie inquiétante et pourrait posséder des pouvoirs insidieux encore inconnus de l’humanité.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Living Legend Task 19 -->
 	<string id="lttz_ll_answers_task_title">
 		<text>Légende vivante : Réponses</text>
@@ -267,7 +267,7 @@
 		<text>Un éclat du Monolithe a été obtenu. Le moment des réponses est venu.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Living Legend Task 20 -->
 	<string id="lttz_ll_finish_task_title">
 		<text>Légende vivante : Achèvement</text>

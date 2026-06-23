@@ -810,7 +810,7 @@
 		<text>augmentation de la capacité de port</text>
 	</string>
 	<string id="st_itm_desc_outfit_run">
-		<text>%c[0,255,255,255]Course à pied?:</text>
+		<text>%c[0,255,255,255]Course à pied :</text>
 	</string>
 	<string id="st_itm_desc_outfit_patch_torn">
 		<text>%s arraché</text>

@@ -2,7 +2,7 @@
 <!-- GAMMA_Translator 15 05 2026 - Body -->
 <string_table>
     
-	<!---------------------- Task 1 ------------------------------------------->
+	<!--==================== Task 1 =========================================-->
 	<string id="st_sl_hidden_threat_task_1_stage_0_title">
 	    <text>Menace Cachée : Le commencement</text>
 	</string>
@@ -40,7 +40,7 @@
 	<string id="st_sl_hidden_threat_task_1_stage_5_descr">
 	    <text>Retourner auprès du commandant avec un rapport.</text>
 	</string>
-	<!---------------------- Task 2 ------------------------------------------->
+	<!--==================== Task 2 =========================================-->
 	<string id="st_sl_hidden_threat_task_2_stage_0_title">
 	    <text>Menace Cachée : Désactiver le Lobotomisateur</text>
 	</string>
@@ -53,7 +53,7 @@
 	<string id="st_sl_hidden_threat_task_2_stage_1_descr">
 	    <text>Le « Lobotomisateur » est désactivé. Je dois en informer le colonel.</text>
 	</string>
-	<!---------------------- Task 3 ------------------------------------------->
+	<!--==================== Task 3 =========================================-->
 	<string id="st_sl_hidden_threat_task_3_stage_0_title">
 	    <text>Menace Cachée : Se rendre à l'usine Jupiter</text>
 	</string>
@@ -79,7 +79,7 @@
 	<string id="st_sl_hidden_threat_task_3_stage_3_descr">
 	    <text>Interrogez le Colonel Kuznetsov au sujet des écussons portant des symboles inconnus.</text>
 	</string>
-	<!---------------------- Task 4 ------------------------------------------->
+	<!--==================== Task 4 =========================================-->
 	<string id="st_sl_hidden_threat_task_4_stage_0_title">
 	    <text>Menace Cachée : Parler au lieutenant Kirillov</text>
 	</string>
@@ -128,7 +128,7 @@
 	<string id="st_sl_hidden_threat_task_4_stage_7_descr">
 	    <text>Une carte marquée de l'usine Jupiter au-dessus de X-18 ainsi que des cibles de l'ISG ont été trouvées sur le PDA. Faites-en rapport à Kuznetsov.</text>
 	</string>
-	<!---------------------- Task 5 ------------------------------------------->
+	<!--==================== Task 5 =========================================-->
 	<string id="st_sl_hidden_threat_task_5_stage_0_title">
 	    <text>Menace Cachée : Rencontrer le sergent Gorobetz</text>
 	</string>
@@ -171,7 +171,7 @@
 	<string id="st_sl_hidden_threat_task_5_stage_6_descr">
 	    <text>Remettez la mallette à Degtyarev à la base militaire de Agroprom.</text>
 	</string>
-	<!---------------------- Task 6 ------------------------------------------->
+	<!--==================== Task 6 =========================================-->
 	<string id="st_sl_hidden_threat_task_6_stage_0_title">
 	    <text>Menace Cachée : Parler au colonel Degtyarev</text>
 	</string>
@@ -226,7 +226,7 @@
 	<string id="st_sl_hidden_threat_task_6_stage_8_descr">
 	    <text>Faire un rapport au colonel Degtyarev.</text>
 	</string>
-	<!---------------------- Task 7 ------------------------------------------->
+	<!--==================== Task 7 =========================================-->
 	<string id="st_sl_hidden_threat_task_7_stage_0_title">
 	    <text>Menace Cachée : Faire un rapport au colonel Kuznetsov</text>
 	</string>
@@ -263,14 +263,14 @@
 	<string id="st_sl_hidden_threat_task_7_stage_5_descr">
 	    <text>Signaler la réussite au major Vereshchagin.</text>
 	</string>
-	<!---------------------- Second Task 1 ------------------------------------>
+	<!--==================== Second Task 1 ==================================-->
 	<string id="st_sl_hidden_threat_second_task_1_stage_0_title">
 	    <text>[HT]Poste de contrôle sud : Remettre les documents</text>
 	</string>
 	<string id="st_sl_hidden_threat_second_task_1_stage_0_descr">
 	    <text>Remettez les rapports comptables au Major Zhurov, au barrage routier sud dans le Cordon.</text>
 	</string>
-	<!---------------------- Second Task 2 ------------------------------------>
+	<!--==================== Second Task 2 ==================================-->
 	<string id="st_sl_hidden_threat_second_task_2_stage_0_title">
 	    <text>[HT]Agroprom : Trouver le coursier</text>
 	</string>
@@ -283,7 +283,7 @@
 	<string id="st_sl_hidden_threat_second_task_2_stage_1_descr">
 	    <text>Trouvez le coursier perdu quelque part sur la route menant à la base depuis la décharge.</text>
 	</string>
-	<!---------- Tips message äëÿ "Hidden Threat" ---------------------------->
+	<!--======== Tips message äëÿ "Hidden Threat" ==========================-->
 	<string id="st_sl_hidden_threat_msg_start">
 	    <text>%s, on a besoin de toi à la base. Y'a une mission urgente.</text>
 	</string>
@@ -335,7 +335,7 @@
 	<string id="st_sl_hidden_threat_darkvalley_msg_text">
 	    <text>J'vois l'ennemi ! Au combat !</text>
 	</string>
-    <!------------------------------------------------------------------------->
+    <!--=====================================================================-->
     <string id="st_sl_hidden_threat_map_spot_cf">
 	    <text>Point d'intérêt</text>
 	</string>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="encyclopedia_factions_historic">
+		<text>Factions (Historiques)</text>
+	</string>
+	
+	<string id="encyclopedia_factions_historic_final_day">
+		<text>Jour Final</text>
+	</string>
+	<string id="encyclopedia_factions_historic_final_day_text">
+		<text>
+			Les %c[guide_blue]Final Day%c[ui_gray] étaient une faction de scientifiques, également connus sous le nom de %c[guide_blue]Last Day%c[ui_gray], ou de « %c[guide_blue]stalkers sauvages%c[ui_gray] ».\n
+			\n%c[guide_green]Information%c[ui_gray]\n
+			\nIls croyaient que la Zone finirait par provoquer la fin du monde, s'étendant et revendiquant toujours plus de terres à chaque émission.\n
+			\nOutre leur fascination pour la chasse aux stalkers zombifiés à des fins de recherche, et le fait que leur chef, aujourd'hui oublié, a été assassiné par un stalker nommé Ghost, on sait peu de choses sur eux.\n
+			\nLeur activité ayant eu lieu peu après l'émission qui a décimé une grande partie de Firmament, il est possible qu'ils aient été un petit groupe dissident - des survivants devenus instables après ce qu'ils avaient vu.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_factions_historic_isg">
+		<text>ISG</text>
+	</string>
+	<string id="encyclopedia_factions_historic_isg_text">
+		<text>
+			Le %c[guide_blue]Groupe Scientifique International%c[ui_gray] a été fondé pour étudier la Zone.\n
+			\n%c[guide_green]Information%c[ui_gray]\n
+			\nSuite à l'apparition soudaine de la Zone, les Nations Unies ont créé un nouvel organisme de recherche, dont le seul objectif était d'étudier et d'expliquer ce phénomène étrange.\n
+			\nUne zone située loin au nord, entourant six grands générateurs, a été jugée scientifiquement la plus intéressante et a donc été choisie comme site pour leur expédition.\n
+			\nNe durant que quelques mois, leurs travaux ont été entravés par des problèmes qu'ils n'auraient jamais pu anticiper.\n
+			\nLes chercheurs étaient dévorés par des anomalies invisibles ou déchiquetés par une faune mutée de manière horrifique. D'autres disparaissaient inexplicablement, pour revenir quelques jours plus tard dans un état de transe zombifiée, tentant de tuer leurs collègues.\n
+			\nL'expédition a finalement été interrompue après avoir accompli très peu de choses, et au prix d'un nombre inacceptable de victimes.\n
+			\nIndifférents à cet échec, un institut a été créé par le gouvernement ukrainien pour poursuivre leurs travaux - désormais communément appelé les Écologistes.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_factions_historic_renegade">
+		<text>Renégats</text>
+	</string>
+	<string id="encyclopedia_factions_historic_renegade_text">
+		<text>
+			Les %c[guide_blue]Renégats%c[ui_gray] comptaient parmi les stalkers les plus méprisables de la Zone.\n
+			\n%c[guide_green]Information%c[ui_gray]\n
+			\nSans limites ni morale, ils étaient principalement composés de stalkers ayant commis des crimes si odieux que leurs factions d'origine les avaient bannis.\n
+			\nLa seule loi qu'ils respectaient était celle de la force, s'attaquant aux faibles aux abords de la Zone, souvent ceux qui étaient trop jeunes et inexpérimentés pour avoir la moindre chance contre eux.\n
+			\nPoussés dans les marais par leurs nombreux ennemis, ce n'est que face à Firmament que leur instinct de survie a forcé ces chacals à s'unir en une faction à part entière.
+		</text>
+	</string>
+	
+</string_table>

@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<!--
+	UNUSED!
+	Fieldcraft Crafting Overhaul
+
+
+<string_table>
+	<string id="fieldcraft_survivalguide_name">
+		<text>Guide de survie des Forces spéciales ukrainiennes (n°76)</text>
+	</string>
+	<string id="fieldcraft_survivalguide_descr">
+		<text>Vous avez étudié de nombreux guides de survie comme celui-ci au cours de vos voyages. Néanmoins, il conserve une certaine valeur éducative et pourrait s'avérer utile lorsque vous êtes contraint de fabriquer du matériel de fortune sur le terrain. Il fournit des instructions compactes pour la fabrication de plusieurs objets utiles :\n • Medkit\n • Stimulant improvisé\n • Sac à dos\n • Sac de couchage\n • Engin explosif improvisé chimique\n • Engin explosif improvisé RPG\n • Mine de proximité\n • Plaque de protection improvisée\n • Gamelle militaire\n • Kit de réparation pour arme de poing\n • Kit de réparation pour fusil à pompe\n • Kit de réparation pour fusil de petit calibre\n • Kit de réparation pour fusils de moyen et gros calibre\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] guide de craft\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] nettoyage et lubrification des armes (+3%)</text> 
+	</string>
+	
+	<string id="fieldcraft_pkg_medkit_0_name">
+		<text>Kit de craft : Medkit</text>
+	</string>
+	<string id="fieldcraft_pkg_medkit_0_descr">
+		<text>Kit organisé pour le craft d'un medkit. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 1x Kit de couture \n - 1x Bandage \n - Alcool fort \n - 1x Feuille textile \n \nAjoutez ces éléments dans l'ordre. Ajoutez un kit de couture ensuite.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_medkit_1_name">
+		<text>Kit de craft : Medkit</text>
+	</string>
+	<string id="fieldcraft_pkg_medkit_1_descr">
+		<text>Kit organisé pour le craft d'un medkit. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 1x Kit de couture \n - 1x Bandage \n - Alcool fort \n - 1x Feuille textile \n \nAjoutez ces éléments dans l'ordre. Ajoutez un Bandage ensuite.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_medkit_2_name">
+		<text>Kit de craft : Medkit</text>
+	</string>
+	<string id="fieldcraft_pkg_medkit_2_descr">
+		<text>Kit organisé pour le craft d'un medkit. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 1x Kit de couture \n - 1x Bandage \n - Alcool fort \n - 1x Feuille textile \n \nAjoutez ces éléments dans l'ordre. Ajoutez de l'alcool fort ensuite.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_medkit_3_name">
+		<text>Kit de craft : Medkit</text>
+	</string>
+	<string id="fieldcraft_pkg_medkit_3_descr">
+		<text>Kit organisé pour la fabrication d'un medkit. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 1x Trousse de couture\n - 1x Bandage\n - Alcool fort\n - 1x Feuille textile\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite une feuille textile.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_medkit_4_name">
+		<text>Kit de craft : Medkit (prêt)</text>
+	</string>
+	<string id="fieldcraft_pkg_medkit_4_descr">
+		<text>Kit organisé pour la fabrication d'un medkit. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 1x Kit de couture\n - 1x Bandage\n - Alcool fort\n - 1x Feuille textile\n\nPrêt à être fabriqué.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	
+	<string id="fieldcraft_pkg_stimpack_0_name">
+		<text>Kit de craft : Stimulant improvisé</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_0_descr">
+		<text>Kit organisé pour le craft d'un stimpack. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 1x Seringue Vide\n - 1x Alcool\n - Kit de fabrication de médicaments\n - 1x Vinca (coagulant sanguin)\n - 1x Chlortétracycline (antibiotique)\n - OUTIL : Coutellerie de terrain (réutilisable)\n\nAjoutez ces éléments dans l'ordre. Ajoutez une seringue vide ensuite.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] crafting package</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_1_name">
+		<text>Kit de craft : Stimulant improvisé</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_1_descr">
+		<text>Kit organisé pour le craft d'un stimpack. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 1x Seringue Vide\n - 1x Alcool\n - Kit de fabrication de médicaments\n - 1x Vinca (coagulant sanguin)\n - 1x Chlortétracycline (antibiotique)\n - OUTIL : Coutellerie de terrain (réutilisable)\n\nAjoutez ces éléments dans l'ordre. Ajoutez de l'alcool ensuite.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] crafting package</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_2_name">
+		<text>Kit de craft : Stimulant improvisé</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_2_descr">
+		<text>Kit organisé pour le craft d'un stimpack. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 1x Seringue Vide\n - 1x Alcool\n - Kit de fabrication de médicaments\n - 1x Vinca (coagulant sanguin)\n - 1x Chlortétracycline (antibiotique)\n - OUTIL : Coutellerie de terrain (réutilisable)\n\nAjoutez ces éléments dans l'ordre. Ajoutez le kit de fabrication de médicaments ensuite.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] crafting package</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_3_name">
+		<text>Kit de craft : Stimulant improvisé</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_3_descr">
+		<text>Kit organisé pour le craft d'un stimpack. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 1x Seringue Vide\n - 1x Alcool\n - Kit de fabrication de médicaments\n - 1x Vinca (coagulant sanguin)\n - 1x Chlortétracycline (antibiotique)\n - OUTIL : Coutellerie de terrain (réutilisable)\n\nAjoutez ces éléments dans l'ordre. Ajoutez Vinca ensuite.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] crafting package</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_4_name">
+		<text>Kit de craft : Stimulant improvisé</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_4_descr">
+		<text>Kit organisé pour le craft d'un stimpack. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 1x Seringue Vide\n - 1x Alcool\n - Kit de fabrication de médicaments\n - 1x Vinca (coagulant sanguin)\n - 1x Chlortétracycline (antibiotique)\n - OUTIL : Coutellerie de terrain (réutilisable)\n\nAjoutez ces éléments dans l'ordre. Ajoutez la chlortétracycline ensuite.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] crafting package</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_5_name">
+		<text>Kit de craft : Stimulant improvisé</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_5_descr">
+		<text>Kit organisé pour le craft d'un stimpack. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 1x Seringue Vide\n - 1x Alcool\n - Kit de fabrication de médicaments\n - 1x Vinca (coagulant sanguin)\n - 1x Chlortétracycline (antibiotique)\n - OUTIL : Coutellerie de terrain (réutilisable)\n\nAjoutez ces éléments dans l'ordre. Ajoutez la coutellerie de terrain ensuite.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] crafting package</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_6_name">
+		<text>Kit de craft : Stimulant improvisé (prêt)</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_6_descr">
+		<text>Kit organisé pour le craft d'un stimpack. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 1x Seringue Vide\n - 1x Alcool\n - Kit de fabrication de drogues\n - 1x Vinca (coagulant sanguin)\n - 1x Chlortétracycline (antibiotique)\n - OUTIL : Coutellerie de terrain (réutilisable)\n \nPrêt à être crafté.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	
+	<string id="fieldcraft_pkg_backpack_0_name">
+		<text>Kit de craft : Sac à dos</text>
+	</string>
+	<string id="fieldcraft_pkg_backpack_0_descr">
+		<text>Kit organisé pour le craft d'un sac à dos. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Sac de compression \n - Harnais synthétique \n - Kit de couture \n \nAjoutez ces éléments dans l'ordre. Ajoutez un sac de compression ensuite.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_backpack_1_name">
+		<text>Kit de craft : Sac à dos</text>
+	</string>
+	<string id="fieldcraft_pkg_backpack_1_descr">
+		<text>Kit organisé pour le craft d'un sac à dos. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Sac de compression \n - Harnais synthétique \n - Kit de couture \n \nAjoutez ces éléments dans l'ordre. Ajoutez un harnais synthétique ensuite.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_backpack_2_name">
+		<text>Kit de craft : Sac à dos</text>
+	</string>
+	<string id="fieldcraft_pkg_backpack_2_descr">
+		<text>Kit organisé pour la fabrication d'un sac à dos. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Sac de compression\n - Harnais synthétique\n - Kit de couture\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite un kit de couture.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_backpack_3_name">
+		<text>Kit de craft : Sac à dos (prêt)</text>
+	</string>
+	<string id="fieldcraft_pkg_backpack_3_descr">
+		<text>Kit organisé pour la fabrication d'un sac à dos. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Sac de compression\n - Harnais synthétique\n - Kit de couture\n\nPrêt à être fabriqué.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	
+	<string id="fieldcraft_pkg_sleepbag_0_name">
+		<text>Kit de craft : Sac de couchage</text>
+	</string>
+	<string id="fieldcraft_pkg_sleepbag_0_descr">
+		<text>Kit organisé pour le craft d'un sac de couchage. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Bâche camouflée \n - Couverture de lit \n - Kit de couture \n \nAjoutez ces éléments dans l'ordre. Ajoutez une bâche camouflée ensuite.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_sleepbag_1_name">
+		<text>Kit de craft : Sac de couchage</text>
+	</string>
+	<string id="fieldcraft_pkg_sleepbag_1_descr">
+		<text>Kit organisé pour le craft d'un sac de couchage. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Bâche camouflée \n - Couverture de lit \n - Kit de couture \n \nAjoutez ces éléments dans l'ordre. Ajoutez une couverture de lit ensuite.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_sleepbag_2_name">
+		<text>Kit de craft : Sac de couchage</text>
+	</string>
+	<string id="fieldcraft_pkg_sleepbag_2_descr">
+		<text>Kit organisé pour le craft d'un sac de couchage. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Bâche camouflée \n - Couverture de lit \n - Kit de couture \n \nAjoutez ces éléments dans l'ordre. Ajoutez un kit de couture ensuite.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_sleepbag_3_name">
+		<text>Kit de craft : Sac de couchage (prêt)</text>
+	</string>
+	<string id="fieldcraft_pkg_sleepbag_3_descr">
+		<text>Kit organisé pour la fabrication d'un sac de couchage. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Bâche camouflée\n - Couverture\n - Kit de couture\n\nPrêt à être fabriqué.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	
+	<string id="fieldcraft_pkg_ied_0_name">
+		<text>Kit de craft : IED chimique</text>
+	</string>
+	<string id="fieldcraft_pkg_ied_0_descr">
+		<text>Kit organisé pour la fabrication d'un IED chimique. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Essence (jerrycan)\n - Grenade à thermite\n - Fil de cuivre\n - Déclencheur de proximité\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite de l'essence.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_ied_1_name">
+		<text>Kit de craft : IED chimique</text>
+	</string>
+	<string id="fieldcraft_pkg_ied_1_descr">
+		<text>Kit organisé pour la fabrication d'un IED chimique. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Essence (jerrycan)\n - Grenade à thermite\n - Fil de cuivre\n - Déclencheur de proximité\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite une grenade à thermite.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_ied_2_name">
+		<text>Kit de craft : IED chimique</text>
+	</string>
+	<string id="fieldcraft_pkg_ied_2_descr">
+		<text>Kit organisé pour la fabrication d'un IED chimique. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Essence (jerrycan)\n - Grenade à thermite\n - Fil de cuivre\n - Déclencheur de proximité\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite du fil de cuivre.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_ied_3_name">
+		<text>Kit de craft : IED chimique</text>
+	</string>
+	<string id="fieldcraft_pkg_ied_3_descr">
+		<text>Kit organisé pour la fabrication d'un IED chimique. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Essence (jerrycan)\n - Grenade à thermite\n - Fil de cuivre\n - Déclencheur de proximité\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite un déclencheur de proximité.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_ied_4_name">
+		<text>Kit de craft : IED chimique (prêt)</text>
+	</string>
+	<string id="fieldcraft_pkg_ied_4_descr">
+		<text>Kit organisé pour le craft d'un IED chimique. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Essence (jerrycan) \n - Grenade à thermite \n - Fil de cuivre \n - Déclencheur de proximité \n \nPrêt à être crafté.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	
+	<string id="fieldcraft_pkg_iedrpg_0_name">
+		<text>Kit de craft : IED à charge RPG</text>
+	</string>
+	<string id="fieldcraft_pkg_iedrpg_0_descr">
+		<text>Kit organisé pour le craft d'une charge IED à partir d'une ogive RPG. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 1x Munition RPG \n - Fil de cuivre \n - Déclencheur de proximité \n \nAjoutez ces éléments dans l'ordre. Ajoutez la munition RPG ensuite.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_iedrpg_1_name">
+		<text>Kit de craft : IED à charge RPG</text>
+	</string>
+	<string id="fieldcraft_pkg_iedrpg_1_descr">
+		<text>Kit organisé pour le craft d'une charge IED à partir d'une ogive RPG. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 1x Munition RPG \n - Fil de cuivre \n - Déclencheur de proximité \n \nAjoutez ces éléments dans l'ordre. Ajoutez le fil de cuivre ensuite.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_iedrpg_2_name">
+		<text>Kit de craft : IED à charge RPG</text>
+	</string>
+	<string id="fieldcraft_pkg_iedrpg_2_descr">
+		<text>Kit organisé pour le craft d'une charge IED à partir d'une ogive RPG. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 1x Munition RPG \n - Fil de cuivre \n - Déclencheur de proximité \n \nAjoutez ces éléments dans l'ordre. Ajoutez un déclencheur de proximité ensuite.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_iedrpg_3_name">
+		<text>Kit de craft : IED ogive RPG (prête)</text>
+	</string>
+	<string id="fieldcraft_pkg_iedrpg_3_descr">
+		<text>Kit organisé pour la fabrication d'un engin explosif improvisé à partir d'une ogive de RPG. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 1x Munition de RPG\n - Fil de cuivre\n - Déclencheur de proximité\n\nPrêt à être fabriqué.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	
+	<string id="fieldcraft_pkg_mine_0_name">
+		<text>Kit de craft : Mine</text>
+	</string>
+	<string id="fieldcraft_pkg_mine_0_descr">
+		<text>Kit organisé pour la fabrication d'une mine de proximité. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 1x Grenade explosive / munition pour lance-grenades\n - Fil de cuivre\n - Morceaux de plastique\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite une grenade.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_mine_1_name">
+		<text>Kit de craft : Mine</text>
+	</string>
+	<string id="fieldcraft_pkg_mine_1_descr">
+		<text>Kit organisé pour la fabrication d'une mine de proximité. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 1x Grenade explosive / munition pour lance-grenades\n - Fil de cuivre\n - Morceaux de plastique\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite du fil de cuivre.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_mine_2_name">
+		<text>Kit de craft : Mine</text>
+	</string>
+	<string id="fieldcraft_pkg_mine_2_descr">
+		<text>Kit organisé pour la fabrication d'une mine de proximité. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 1x Grenade explosive / munition pour lance-grenades\n - Fil de cuivre\n - Morceaux de plastique\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite des morceaux de plastique.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_mine_3_name">
+		<text>Kit de craft : Mine (prête)</text>
+	</string>
+	<string id="fieldcraft_pkg_mine_3_descr">
+		<text>Kit organisé pour le craft d'une mine de proximité. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 1x Grenade explosive / munition pour lance-grenade \n - Fil de cuivre \n - Pièces en plastique \n \nPrêt à être crafté.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+
+	<string id="fieldcraft_pkg_plate_attch_0_name">
+		<text>Kit de craft : Plaque de protection improvisée</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_0_descr">
+		<text>Kit organisé pour le craft d'une plaque de protection improvisée. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 2x Plaque de métal\n - Quelques vis, boulons (débris métalliques)\n - Harnais synthétique\n - OUTIL : Marteau (réutilisable)\n \nAjoutez ces éléments dans l'ordre. Ajoutez ensuite une plaque de métal.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_1_name">
+		<text>Kit de craft : Plaque de protection improvisée</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_1_descr">
+		<text>Kit organisé pour le craft d'une plaque de protection improvisée. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 2x Plaque de métal\n - Quelques vis, boulons (débris métalliques)\n - Harnais synthétique\n - OUTIL : Marteau (réutilisable)\n \nAjoutez ces éléments dans l'ordre. Ajoutez ensuite une plaque de métal.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_2_name">
+		<text>Kit de craft : Plaque de protection improvisée</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_2_descr">
+		<text>Kit organisé pour le craft d'une plaque de protection improvisée. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 2x Plaque de métal\n - Quelques vis, boulons (débris métalliques)\n - Harnais synthétique\n - OUTIL : Marteau (réutilisable)\n \nAjoutez ces éléments dans l'ordre. Ajoutez ensuite des débris métalliques.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_3_name">
+		<text>Kit de craft : Plaque de protection improvisée</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_3_descr">
+		<text>Kit organisé pour le craft d'une plaque de protection improvisée. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 2x Plaque de métal\n - Quelques vis, boulons (débris métalliques)\n - Harnais synthétique\n - OUTIL : Marteau (réutilisable)\n \nAjoutez ces éléments dans l'ordre. Ajoutez ensuite un harnais synthétique.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_4_name">
+		<text>Kit de craft : Plaque de protection improvisée</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_4_descr">
+		<text>Kit organisé pour la fabrication d'une plaque de protection improvisée. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 2x Plaque de métal\n - Quelques vis, boulons (débris métalliques)\n - Harnais synthétique\n - OUTIL : Marteau (réutilisable)\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite un marteau.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_5_name">
+		<text>Kit de craft : Plaque de protection improvisée (prêt)</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_5_descr">
+		<text>Kit organisé pour la fabrication d'une plaque de protection improvisée. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - 2x Plaque de métal\n - Quelques vis, boulons (débris métalliques)\n - Harnais synthétique\n - OUTIL : Marteau (réutilisable)\n\nPrêt à être fabriqué.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	
+	<string id="fieldcraft_pkg_army_bowler_0_name">
+		<text>Kit de craft : Gamelle militaire</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_0_descr">
+		<text>Kit organisé pour le craft d'une gamelle militaire. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Une casserole provenant d'un autre équipement de cuisine\n - Plaque de métal\n - Quelques boulons, poignées (débris métalliques)\n - Fil de cuivre\n - OUTIL : Marteau (réutilisable)\n \nAjoutez ces éléments dans l'ordre. Ajoutez ensuite un équipement de cuisine.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_1_name">
+		<text>Kit de craft : Gamelle militaire</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_1_descr">
+		<text>Kit organisé pour le craft d'une gamelle militaire. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Une casserole provenant d'un autre équipement de cuisine\n - Plaque de métal\n - Quelques boulons, poignées (débris métalliques)\n - Fil de cuivre\n - OUTIL : Marteau (réutilisable)\n \nAjoutez ces éléments dans l'ordre. Ajoutez ensuite une plaque de métal.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_2_name">
+		<text>Kit de craft : Gamelle militaire</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_2_descr">
+		<text>Kit organisé pour le craft d'une gamelle militaire. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Une casserole provenant d'un autre équipement de cuisine\n - Plaque de métal\n - Quelques boulons, poignées (débris métalliques)\n - Fil de cuivre\n - OUTIL : Marteau (réutilisable)\n \nAjoutez ces éléments dans l'ordre. Ajoutez ensuite des débris métalliques.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_3_name">
+		<text>Kit de craft : Gamelle militaire</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_3_descr">
+		<text>Kit organisé pour le craft d'une gamelle militaire. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Une casserole provenant d'un autre équipement de cuisine\n - Plaque de métal\n - Quelques boulons, poignées (débris métalliques)\n - Fil de cuivre\n - OUTIL : Marteau (réutilisable)\n \nAjoutez ces éléments dans l'ordre. Ajoutez ensuite du fil de cuivre.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_4_name">
+		<text>Kit de craft : Gamelle militaire</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_4_descr">
+		<text>Kit organisé pour le craft d'une gamelle militaire. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Une casserole provenant d'un autre équipement de cuisine\n - Plaque de métal\n - Quelques boulons, poignées (débris métalliques)\n - Fil de cuivre\n - OUTIL : Marteau (réutilisable)\n \nAjoutez ces éléments dans l'ordre. Ajoutez ensuite un marteau.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_5_name">
+		<text>Kit de craft : Gamelle militaire (prête)</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_5_descr">
+		<text>Kit organisé pour la fabrication d'une gamelle militaire. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Une casserole provenant d'un autre équipement de cuisine\n - Plaque de métal\n - Quelques boulons, poignées (débris métalliques)\n - Fil de cuivre\n - OUTIL : Marteau (réutilisable)\n\nPrêt à être fabriqué.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	
+	
+	<string id="fieldcraft_pkg_toolkit_p_0_name">
+		<text>Kit de craft : Kit de réparation pistolet</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_0_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation d'arme de poing. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Poignée de pistolet\n - Couteau suisse\n \nAjoutez ces éléments dans l'ordre. Ajoutez ensuite de l'huile pour arme / solvant.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_1_name">
+		<text>Kit de craft : Kit de réparation pistolet</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_1_descr">
+		<text>Kit organisé pour la fabrication d'un kit de réparation pour pistolet. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Poignée de pistolet\n - Couteau suisse\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite un ressort.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_2_name">
+		<text>Kit de craft : Kit de réparation pistolet</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_2_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation d'arme de poing. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Poignée de pistolet\n - Couteau suisse\n \nAjoutez ces éléments dans l'ordre. Ajoutez ensuite un mécanisme de détente.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_3_name">
+		<text>Kit de craft : Kit de réparation pistolet</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_3_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation d'arme de poing. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Poignée de pistolet\n - Couteau suisse\n \nAjoutez ces éléments dans l'ordre. Ajoutez ensuite un kit de nettoyage adapté.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_4_name">
+		<text>Kit de craft : Kit de réparation pistolet</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_4_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation d'arme de poing. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Poignée de pistolet\n - Couteau suisse\n \nAjoutez ces éléments dans l'ordre. Ajoutez ensuite une poignée de pistolet.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_5_name">
+		<text>Kit de craft : Kit de réparation pistolet</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_5_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation d'arme de poing. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Poignée de pistolet\n - Couteau suisse\n \nAjoutez ces éléments dans l'ordre. Ajoutez ensuite un couteau suisse.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_6_name">
+		<text>Kit de craft : Kit de réparation pistolet (prêt)</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_6_descr">
+		<text>Kit organisé pour la fabrication d'un kit de réparation pour pistolet. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Poignée de pistolet\n - Couteau suisse\n\nPrêt à être fabriqué.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	
+	
+	<string id="fieldcraft_pkg_toolkit_s_0_name">
+		<text>Kit de craft : Kit de réparation fusil à pompe</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_0_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation de fusil à pompe. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Crosse de fusil\n - Pied-de-biche\n - 2x Canon lisse\n \nAjoutez ces éléments dans l'ordre. Ajoutez ensuite de l'huile pour arme / solvant.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_1_name">
+		<text>Kit de craft : Kit de réparation fusil à pompe</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_1_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation de fusil à pompe. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Crosse de fusil\n - Pied-de-biche\n - 2x Canon lisse\n \nAjoutez ces éléments dans l'ordre. Ajoutez ensuite un ressort.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_2_name">
+		<text>Kit de craft : Kit de réparation fusil à pompe</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_2_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation de fusil à canon lisse. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Crosse de fusil\n - Pied-de-biche\n - 2x Canon lisse\n\nAjoutez ces éléments dans l'ordre. Ajoutez un mécanisme de détente ensuite.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] crafting package</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_3_name">
+		<text>Kit de craft : Kit de réparation fusil à pompe</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_3_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation de fusil à canon lisse. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Crosse de fusil\n - Pied-de-biche\n - 2x Canon lisse\n\nAjoutez ces éléments dans l'ordre. Ajoutez un kit de nettoyage adapté ensuite.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] crafting package</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_4_name">
+		<text>Kit de craft : Kit de réparation fusil à pompe</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_4_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation de fusil à pompe. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Crosse de fusil\n - Pied-de-biche\n - 2x Canon lisse\n \nAjoutez ces éléments dans l'ordre. Ajoutez ensuite une crosse de fusil.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_5_name">
+		<text>Kit de craft : Kit de réparation fusil à pompe</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_5_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation de fusil à pompe. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Crosse de fusil\n - Pied-de-biche\n - 2x Canon lisse\n \nAjoutez ces éléments dans l'ordre. Ajoutez ensuite un pied-de-biche.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_6_name">
+		<text>Kit de craft : Kit de réparation fusil à pompe</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_6_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation de fusil à canon lisse. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Crosse de fusil\n - Pied-de-biche\n - 2x Canon lisse\n\nAjoutez ces éléments dans l'ordre. Ajoutez un canon lisse ensuite.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] crafting package</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_7_name">
+		<text>Kit de craft : Kit de réparation fusil à pompe</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_7_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation de fusil à canon lisse. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Crosse de fusil\n - Pied-de-biche\n - 2x Canon lisse\n\nAjoutez ces éléments dans l'ordre. Ajoutez un canon lisse ensuite.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] crafting package</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_8_name">
+		<text>Kit de craft : Kit de réparation fusil à pompe (prêt)</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_8_descr">
+		<text>Kit organisé pour la fabrication d'un kit de réparation pour fusil de chasse. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Crosse de fusil\n - Pied-de-biche\n - 2x Canon lisse\n\nPrêt à être fabriqué.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	
+	
+	<string id="fieldcraft_pkg_toolkit_r5_0_name">
+		<text>Kit de craft : Kit de réparation carabine petit calibre</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_0_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation de fusil de petit calibre. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Porte-Boulon\n - Crosse de fusil\n - Pied-de-biche\n - Canon 5,45\n - Canon 5,56\n\nAjoutez ces éléments dans l'ordre. Ajoutez de l'huile pour arme / solvant ensuite.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] crafting package</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_1_name">
+		<text>Kit de craft : Kit de réparation carabine petit calibre</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_1_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation de fusil de petit calibre. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Porte-Boulon\n - Crosse de fusil\n - Pied-de-biche\n - Canon 5,45\n - Canon 5,56\n\nAjoutez ces éléments dans l'ordre. Ajoutez un ressort ensuite.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] crafting package</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_2_name">
+		<text>Kit de craft : Kit de réparation carabine petit calibre</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_2_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation de fusil de petit calibre. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Porte-Boulon\n - Crosse de fusil\n - Pied-de-biche\n - Canon 5,45\n - Canon 5,56\n\nAjoutez ces éléments dans l'ordre. Ajoutez un mécanisme de détente ensuite.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] crafting package</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_3_name">
+		<text>Kit de craft : Kit de réparation carabine petit calibre</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_3_descr">
+		<text>Kit organisé pour la fabrication d'un kit de réparation pour fusil de petit calibre. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Support de Boulon\n - Crosse de fusil\n - Pied-de-biche\n - Canon de 5,45 mm\n - Canon de 5,56 mm\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite un kit de nettoyage adapté.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_4_name">
+		<text>Kit de craft : Kit de réparation carabine petit calibre</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_4_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation de fusil de petit calibre. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Porte-Boulon\n - Crosse de fusil\n - Pied-de-biche\n - Canon 5,45\n - Canon 5,56\n\nAjoutez ces éléments dans l'ordre. Ajoutez un porte-Boulon ensuite.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] crafting package</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_5_name">
+		<text>Kit de craft : Kit de réparation carabine petit calibre</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_5_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation de fusil de petit calibre. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Porte-Boulon\n - Crosse de fusil\n - Pied-de-biche\n - Canon 5,45\n - Canon 5,56\n\nAjoutez ces éléments dans l'ordre. Ajoutez une crosse de fusil ensuite.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] crafting package</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_6_name">
+		<text>Kit de craft : Kit de réparation carabine petit calibre</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_6_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation de fusil de petit calibre. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Porte-Boulon\n - Crosse de fusil\n - Pied-de-biche\n - Canon 5,45\n - Canon 5,56\n\nAjoutez ces éléments dans l'ordre. Ajoutez un pied-de-biche ensuite.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] crafting package</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_7_name">
+		<text>Kit de craft : Kit de réparation carabine petit calibre</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_7_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation de fusil de petit calibre. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Porte-Boulon\n - Crosse de fusil\n - Pied-de-biche\n - Canon 5,45\n - Canon 5,56\n\nAjoutez ces éléments dans l'ordre. Ajoutez un canon 5,45 ensuite.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] crafting package</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_8_name">
+		<text>Kit de craft : Kit de réparation carabine petit calibre</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_8_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation de fusil de petit calibre. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Porte-Boulon\n - Crosse de fusil\n - Pied-de-biche\n - Canon 5,45\n - Canon 5,56\n\nAjoutez ces éléments dans l'ordre. Ajoutez un canon 5,56 ensuite.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] crafting package</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_9_name">
+		<text>Kit de craft : Kit de réparation carabine petit calibre (prêt)</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_9_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation de fusil de petit calibre. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Porte-Boulon\n - Crosse de fusil\n - Pied-de-biche\n - Canon 5,45\n - Canon 5,56\n \nPrêt à être crafté.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	
+	
+	<string id="fieldcraft_pkg_toolkit_r7_0_name">
+		<text>Kit de craft : Kit de réparation carabine moyen et gros calibre</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_0_descr">
+		<text>Kit organisé pour la fabrication d'un kit de réparation pour fusils de moyen et gros calibre. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Support de Boulon\n - Crosse de fusil\n - Pied-de-biche\n - Canon de 7,62 mm\n - Canon de 7,92 mm\n - Canon de 9 mm\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite de l'huile pour arme / solvant.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_1_name">
+		<text>Kit de réparation : Fusil calibre moyen et gros</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_1_descr">
+		<text>Kit organisé pour la fabrication d'un kit de réparation pour fusils de moyen et gros calibre. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Support de Boulon\n - Crosse de fusil\n - Pied-de-biche\n - Canon de 7,62 mm\n - Canon de 7,92 mm\n - Canon de 9 mm\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite un ressort.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_2_name">
+		<text>Kit de réparation : Fusil calibre moyen et gros</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_2_descr">
+		<text>Kit organisé pour la fabrication d'un kit de réparation pour fusils de moyen et gros calibre. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Support de Boulon\n - Crosse de fusil\n - Pied-de-biche\n - Canon de 7,62 mm\n - Canon de 7,92 mm\n - Canon de 9 mm\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite un mécanisme de détente.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_3_name">
+		<text>Kit de réparation : Fusil calibre moyen et gros</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_3_descr">
+		<text>Kit organisé pour la fabrication d'un kit de réparation pour fusils de moyen et gros calibre. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Support de Boulon\n - Crosse de fusil\n - Pied-de-biche\n - Canon de 7,62 mm\n - Canon de 7,92 mm\n - Canon de 9 mm\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite un kit de nettoyage adapté.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_4_name">
+		<text>Kit de réparation : Fusil calibre moyen et gros</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_4_descr">
+		<text>Kit organisé pour la fabrication d'un kit de réparation pour fusils de moyen et gros calibre. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Support de Boulon\n - Crosse de fusil\n - Pied-de-biche\n - Canon de 7,62 mm\n - Canon de 7,92 mm\n - Canon de 9 mm\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite un support de Boulon.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_5_name">
+		<text>Kit de réparation : Fusil calibre moyen et gros</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_5_descr">
+		<text>Kit organisé pour la fabrication d'un kit de réparation pour fusils de moyen et gros calibre. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Support de Boulon\n - Crosse de fusil\n - Pied-de-biche\n - Canon de 7,62 mm\n - Canon de 7,92 mm\n - Canon de 9 mm\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite une crosse de fusil.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_6_name">
+		<text>Kit de réparation : Fusil calibre moyen et gros</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_6_descr">
+		<text>Kit organisé pour la fabrication d'un kit de réparation pour fusils de moyen et gros calibre. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Support de Boulon\n - Crosse de fusil\n - Pied-de-biche\n - Canon de 7,62 mm\n - Canon de 7,92 mm\n - Canon de 9 mm\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite un pied-de-biche.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_7_name">
+		<text>Kit de réparation : Fusil calibre moyen et gros</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_7_descr">
+		<text>Kit organisé pour la fabrication d'un kit de réparation pour fusils de moyen et gros calibre. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Support de Boulon\n - Crosse de fusil\n - Pied-de-biche\n - Canon de 7,62 mm\n - Canon de 7,92 mm\n - Canon de 9 mm\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite un canon de 7,62 mm.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_8_name">
+		<text>Kit de réparation : Fusil calibre moyen et gros</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_8_descr">
+		<text>Kit organisé pour la fabrication d'un kit de réparation pour fusils de moyen et gros calibre. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Support de Boulon\n - Crosse de fusil\n - Pied-de-biche\n - Canon de 7,62 mm\n - Canon de 7,92 mm\n - Canon de 9 mm\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite un canon de 7,92 mm.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_9_name">
+		<text>Kit de réparation : Fusil calibre moyen et gros</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_9_descr">
+		<text>Kit organisé pour la fabrication d'un kit de réparation pour fusils de moyen et gros calibre. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Support de Boulon\n - Crosse de fusil\n - Pied-de-biche\n - Canon de 7,62 mm\n - Canon de 7,92 mm\n - Canon de 9 mm\n\nAjoutez ces éléments dans l'ordre. Ajoutez ensuite un canon de 9 mm.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] kit de craft</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_10_name">
+		<text>Kit de réparation : Fusil calibre moyen et gros (prêt)</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_10_descr">
+		<text>Kit organisé pour le craft d'un kit de réparation de fusil de moyen et gros calibre. Selon le guide de survie, vous devez rassembler les éléments suivants :\n - Huile pour arme / solvant\n - Ressort\n - Mécanisme de détente\n - Kit de nettoyage adapté\n - Porte-Boulon\n - Crosse de fusil\n - Pied-de-biche\n - Canon 7,62\n - Canon 7,92\n - Canon 9 mm\n\nPrêt à être crafté.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] crafting package</text>
+	</string>
+	
+	<string id="fieldcraft_plate_attch_name">
+		<text>Plaque de protection improvisée</text>
+	</string>
+	<string id="fieldcraft_plate_attch_descr">
+		<text>Plaque de protection improvisée constituée de deux feuilles de plaque de métal prélevées sur un gilet pare-balles. Elle remplit diverses fonctions, dont la plus importante est d'absorber l'impact des projectiles d'armes à feu. Grâce au harnais synthétique intégré, elle peut être fixée sur l'avant ou l'arrière du torse. Ses capacités de protection sont limitées : elle constitue une alternative bon marché mais moins résistante aux plaques en Kevlar ou en acier. De plus, tout type de blindage contribue à maintenir les combinaisons en bon état, en prévenant leur dégradation due à l'usure.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] équipement militaire improvisé\n%c[d_cyan] • %c[ui_gray_2] l'efficacité de plusieurs unités est cumulable\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] réparation de tenue (+9%)</text>
+	</string>
+	<string id="syringe_empty_name">
+		<text>Seringue Vide</text>
+	</string>
+	<string id="syringe_empty_descr">
+		<text>Les seringues sont fréquemment utilisées en médecine clinique pour administrer des injections, perfuser des traitements intraveineux dans la circulation sanguine, appliquer des composés tels que de la colle ou un lubrifiant, et prélever/mesurer des liquides. Cette seringue a déjà été utilisée et il reste quelques gouttes de liquide résiduel visibles à l'intérieur du cylindre. Elle doit être désinfectée avant toute nouvelle utilisation.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet médical\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] crafting (stimulant)</text>
+	</string>
+	<string id="dis_metalplate_name">
+		<text>Plaque de métal</text>
+	</string>
+	<string id="dis_metalplate_descr">
+		<text>Feuille de métal solide usée, arrachée à la couche protectrice d'une tenue blindée. Pourrait encore servir à réparer ou fabriquer un autre équipement.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet du quotidien\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] réparations de tenue (+5%)</text>
+	</string>
+	<string id="dis_scrap_name">
+		<text>Débris métalliques divers</text>
+	</string>
+	<string id="dis_scrap_descr">
+		<text>Poignée de boulons métalliques, vis, morceaux et pièces d'équipement. Peut être utilisée pour faciliter la réparation d'équipements sur le terrain, ou même pour du craft.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet du quotidien\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] réparation d'équipement, entretien des armes (+3%)</text>
+	</string>
+	<string id="st_copper_wire_name">
+		<text>Fil de cuivre</text>
+	</string>
+	<string id="st_copper_wire_descr">
+		<text>Fil de cuivre massif non revêtu, grossièrement extrait d'une tenue ou d'un dispositif électrique. Pourrait encore servir à d'autres usages.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet technologique\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] réparations de tenue (+4%)</text>
+	</string>
+	<string id="st_synth_harness_name">
+		<text>Harnais synthétique</text>
+	</string>
+	<string id="st_synth_harness_descr">
+		<text>Dispositif improvisé composé de sangles synthétiques entrelacées, conçu pour fixer un autre objet en place.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet technologique</text>
+	</string>
+	<string id="st_proxim_device_name">
+		<text>Déclencheur de proximité</text>
+	</string>
+	<string id="st_proxim_device_descr">
+		<text>Capteur de proximité fonctionnel prélevé sur un détecteur d'artefact. Peut être utilisé pour la mise en place de divers explosifs.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet technologique</text>
+	</string>
+	<string id="st_cloth_strip">
+		<text>Bande de tissu</text>
+	</string>
+	<string id="st_cloth_strip_descr">
+		<text>Morceau de tissu découpé dans une chemise, un drap ou autre. Peut être utilisé pour aider au nettoyage de l'équipement. Suffisamment grand pour servir de bandage, mais il devrait probablement être désinfecté au préalable.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet du quotidien\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] réparations d'équipement, entretien des armes (+1%)</text>
+	</string>
+	<string id="st_shotgunbarrelw">
+		<text>Canon lisse (usé)</text>
+	</string>
+	<string id="st_shotgunbarrelw_descr">
+		<text>Canon lisse usagé provenant d'un fusil de chasse calibre 12. Il pourrait servir à remplacer le canon d'un autre fusil de chasse, mais il est préférable de le nettoyer au préalable.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] entretien des armes (+10%)</text>
+	</string>
+	<string id="st_shotgunbarrelr">
+		<text>Canon lisse (rouillé)</text>
+	</string>
+	<string id="st_shotgunbarrelr_descr">
+		<text>Canon lisse rouillé issu d'un fusil de chasse de calibre 12. Inutilisable dans son état actuel, mais pourrait être nettoyé pour être réemployé.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange]</text>
+	</string>
+	<string id="st_762_barrel">
+		<text>Canon 7,62 mm</text>
+	</string>
+	<string id="st_762_barrel_descr">
+		<text>Canon provenant d'une arme soviétique utilisant des cartouches de 7,62 mm de diamètre. Toujours en assez bon état, il pourrait servir à remplacer le canon d'une arme similaire.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] entretien des armes (+20%)</text>
+	</string>
+	<string id="st_762_barrelw">
+		<text>Canon 7,62 mm (usé)</text>
+	</string>
+	<string id="st_762_barrelw_descr">
+		<text>Canon usagé provenant d'une arme soviétique utilisant des cartouches de 7,62 mm de diamètre. Il pourrait servir à remplacer le canon d'un autre fusil, mais il est préférable de le nettoyer au préalable.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] entretien des armes (+10%)</text>
+	</string>
+	<string id="st_762_barrelr">
+		<text>Canon 7,62 mm (rouillé)</text>
+	</string>
+	<string id="st_762_barrelr_descr">
+		<text>Canon rouillé issu d'un fusil de calibre 7,62. Inutilisable dans son état actuel, mais pourrait être nettoyé pour être réemployé.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange]</text>
+	</string>
+	<string id="st_545_barrel">
+	<text>Canon 5,45 mm</text>
+	</string>
+	<string id="st_545_barrel_descr">
+		<text>Canon provenant d'une arme utilisant des cartouches de 5,45 mm de diamètre. Toujours en assez bon état, il pourrait servir à remplacer le canon d'une arme similaire.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] entretien des armes (+20%)</text>
+	</string>
+	<string id="st_545_barrelw">
+		<text>Canon 5,45 mm (usé)</text>
+	</string>
+	<string id="st_545_barrelw_descr">
+		<text>Canon usagé provenant d'une arme utilisant des cartouches de 5,45 mm de diamètre. Il pourrait servir à remplacer le canon d'un autre fusil, mais il est préférable de le nettoyer au préalable.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] entretien des armes (+10%)</text>
+	</string>
+	<string id="st_545_barrelr">
+		<text>Canon 5,45 mm (rouillé)</text>
+	</string>
+	<string id="st_545_barrelr_descr">
+		<text>Canon rouillé issu d'un fusil de calibre 5,45. Inutilisable dans son état actuel, mais pourrait être nettoyé pour être réemployé.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange]</text>
+	</string>
+		<string id="st_556_barrel">
+		<text>Canon 5,56 mm</text>
+	</string>
+	<string id="st_556_barrel_descr">
+		<text>Canon provenant d'une arme utilisant des cartouches de 5,56 mm de diamètre. Toujours en assez bon état, il pourrait servir à remplacer le canon d'une arme similaire.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] entretien des armes (+20%)</text>
+	</string>
+	<string id="st_556_barrelw">
+		<text>Canon 5,56 mm (usé)</text>
+	</string>
+	<string id="st_556_barrelw_descr">
+		<text>Canon usagé provenant d'une arme utilisant des cartouches de 5,56 mm de diamètre. Il pourrait servir à remplacer le canon d'un autre fusil, mais il est préférable de le nettoyer au préalable.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] entretien des armes (+10%)</text>
+	</string>
+	<string id="st_556_barrelr">
+		<text>Canon 5,56 mm (rouillé)</text>
+	</string>
+	<string id="st_556_barrelr_descr">
+		<text>Canon rouillé issu d'un fusil de calibre 5,56. Inutilisable dans son état actuel, mais pourrait être nettoyé pour être réemployé.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange]</text>
+	</string>
+	<string id="st_9x_barrel">
+		<text>Canon 9 mm</text>
+	</string>
+	<string id="st_9x_barrel_descr">
+		<text>Canon issu d'une arme utilisant une cartouche de diamètre 9 mm. Toujours en assez bon état, il pourrait servir à remplacer le canon d'une arme similaire.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] entretien d'arme (+20%)</text>
+	</string>
+	<string id="st_9x_barrelw">
+		<text>Canon 9 mm (usé)</text>
+	</string>
+	<string id="st_9x_barrelw_descr">
+		<text>Canon usagé provenant d'une arme utilisant des cartouches de 9 mm de diamètre. Il pourrait servir à remplacer le canon d'un autre fusil, mais il est préférable de le nettoyer au préalable.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] entretien des armes (+10%)</text>
+	</string>
+	<string id="st_792_barrel">
+		<text>Canon 7,92 mm</text>
+	</string>
+	<string id="st_792_barrel_descr">
+		<text>Canon issu d'une arme utilisant une cartouche de diamètre 7,92 mm. Toujours en assez bon état, il pourrait servir à remplacer le canon d'une arme similaire.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] entretien d'arme (+20%)</text>
+	</string>
+	<string id="st_792_barrelw">
+		<text>Canon 7,92 mm (usé)</text>
+	</string>
+	<string id="st_792_barrelw_descr">
+		<text>Canon usagé provenant d'une arme utilisant des cartouches de 7,92 mm de diamètre. Il pourrait servir à remplacer le canon d'un autre fusil, mais il est préférable de le nettoyer au préalable.\n \n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] entretien des armes (+10%)</text>
+	</string>
+	<string id="st_stock">
+		<text>Crosse de fusil</text>
+	</string>
+	<string id="st_stock_descr">
+		<text>Crosse et monture issues d'un fusil ou d'un fusil de chasse. Peut être utilisée pour remettre une arme en état.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] entretien d'arme (+6%)</text>
+	</string>
+	<string id="st_shotgunbarrel">
+		<text>Canon lisse</text>
+	</string>
+	<string id="st_shotgunbarrel_descr">
+		<text>Canon lisse issu d'un fusil de chasse de calibre 12. Toujours en assez bon état, il pourrait servir à remplacer le canon d'un autre fusil de chasse.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] entretien d'arme (+20%)</text>
+	</string>
+	<string id="st_trigger">
+		<text>Mécanisme de détente</text>
+	</string>
+	<string id="st_trigger_descr">
+		<text>Mécanisme de détente et assemblage provenant d'une arme à feu inconnue. La plupart des détentes sont très similaires, et il n'y a aucune raison pour que celle-ci ne puisse pas être ajustée afin de s'adapter à presque n'importe quelle arme.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] entretien des armes (+5%)</text>
+	</string>
+	<string id="st_triggerrusty">
+		<text>Mécanisme de détente (rouillé)</text>
+	</string>
+	<string id="st_triggerrusty_descr">
+		<text>Mécanisme de détente et ensemble rouillés issus d'une arme à feu inconnue. Inutilisable dans son état actuel, mais pourrait être remis en état de fonctionnement avec l'application de solvants ou d'huiles.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange]</text>
+	</string>
+	<string id="st_spspring">
+		<text>Ressort</text>
+	</string>
+	<string id="st_spspring_descr">
+		<text>Petit ressort issu soit du mécanisme de détente, soit des composants internes d'une arme à feu inconnue. Pourrait probablement être adapté pour remplacer presque n'importe quel petit ressort.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] entretien d'arme (+2%)</text>
+	</string>
+	<string id="st_pistolgrip">
+		<text>Poignée de pistolet</text>
+	</string>
+	<string id="st_pistolgrip_descr">
+		<text>Poignées de pistolet issues d'une arme inconnue. Cette poignée caoutchoutée pourrait probablement être façonnée ou moulée pour s'adapter à presque n'importe quelle arme à feu.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] entretien d'arme (+6%)</text>
+	</string>
+	<string id="st_boltcarrier">
+		<text>Porte-Boulons</text>
+	</string>
+	<string id="st_boltcarrier_descr">
+		<text>Le porte-boulon et l'épingle de percussion d'un fusil inconnu. Trop grand pour s'adapter à une arme utilisant des munitions de calibre pistolet, mais peut servir à remplacer une épingle de percussion ou un boulon endommagé dans presque tous les types de fusils. Si limé, il pourrait même s'adapter à certains pistolets-mitrailleurs.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] entretien des armes (+8%)</text>
+	</string>
+	<string id="st_boltcarrierrusty">
+		<text>Porte-Boulons (rouillé)</text>
+	</string>
+	<string id="st_boltcarrierrusty_descr">
+		<text>Support de boulon rouillé et épingle de percussion provenant d'un fusil inconnu. Trop grand pour s'adapter à une arme utilisant des munitions de calibre pistolet, mais pourrait servir à remplacer une épingle ou un boulon endommagé dans presque tout type de fusil après nettoyage. Si limé, il pourrait même s'adapter à certains pistolets-mitrailleurs.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] objet militaire</text>
+	</string>
+	<string id="st_barrelkit_762">
+		<text>Kit de changement de canon (7,62 mm)</text>
+	</string>
+	<string id="st_barrelkit_762_descr">
+		<text>Ce kit spécialisé permet de remplacer les canons de divers fusils sur le terrain. Il comprend des clés Allen de différentes tailles ainsi que quelques outils de calibrage de base. Ce kit particulier peut être utilisé pour les armes dotées d'un canon de 7,62 mm de diamètre.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] équipement militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] réparation d'armes\n%c[d_orange] • %c[ui_gray_2] inutilisable en dessous d'un niveau d'état %c[ui_gray_1] 45%</text>
+	</string>
+	<string id="st_barrelkit_545">
+		<text>Kit de changement de canon (5,45 mm)</text>
+	</string>
+	<string id="st_barrelkit_545_descr">
+		<text>Ce kit spécialisé permet de remplacer les canons de divers fusils sur le terrain. Il comprend des clés Allen de différentes tailles ainsi que quelques outils de calibrage de base. Ce kit particulier peut être utilisé pour les armes dotées d'un canon de 5,45 mm de diamètre.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] équipement militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] réparation d'armes\n%c[d_orange] • %c[ui_gray_2] inutilisable en dessous d'un niveau d'état %c[ui_gray_1] 45%</text>
+	</string>
+		<string id="st_barrelkit_556">
+		<text>Kit de changement de canon (5,56 mm)</text>
+	</string>
+	<string id="st_barrelkit_556_descr">
+		<text>Ce kit spécialisé permet de remplacer les canons de divers fusils sur le terrain. Il comprend des clés Allen de différentes tailles ainsi que quelques outils de calibrage de base. Ce kit particulier peut être utilisé pour les armes dotées d'un canon de 5,56 mm de diamètre.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] équipement militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] réparation d'armes\n%c[d_orange] • %c[ui_gray_2] inutilisable en dessous d'un niveau d'état %c[ui_gray_1] 45%</text>
+	</string>
+		<string id="st_barrelkit_9x">
+		<text>Kit de changement de canon (9 mm)</text>
+	</string>
+	<string id="st_barrelkit_9x_descr">
+		<text>Ce kit spécialisé permet de remplacer les canons de divers fusils sur le terrain. Il comprend des clés Allen de différentes tailles ainsi que quelques outils de calibrage de base. Ce kit particulier est conçu pour les rares fusils utilisant des canons de 9 mm de diamètre.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] équipement militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] réparation d'armes\n%c[d_orange] • %c[ui_gray_2] inutilisable en dessous d'un niveau d'état %c[ui_gray_1] 45%</text>
+	</string>
+		<string id="st_barrelkit_792">
+		<text>Kit de changement de canon (7,92 mm)</text>
+	</string>
+	<string id="st_barrelkit_792_descr">
+		<text>Ce kit spécialisé permet de remplacer les canons de divers fusils sur le terrain. Il comprend des clés Allen de différentes tailles ainsi que quelques outils de calibrage de base. Ce kit particulier peut être utilisé pour les armes dotées d'un canon de 7,92 mm de diamètre.\n\n%c[ui_gray_2]PROPRIÉTÉS :\n%c[d_cyan] • %c[ui_gray_2] équipement militaire\n%c[d_orange] • %c[ui_gray_2] utilisable pour :%c[ui_gray_1] réparation d'armes\n%c[d_orange] • %c[ui_gray_2] inutilisable en dessous d'un niveau d'état %c[ui_gray_1] 45%</text>
+	</string>
+</string_table>
+
+-->
+<string_table></string_table>

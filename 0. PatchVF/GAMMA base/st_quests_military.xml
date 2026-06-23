@@ -14,16 +14,16 @@
 
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- STORYLINE TASK TEXT  STRINGS
-	<!--
-	<!--	Modified by DoctorX
-	<!--	for DoctorX Questlines 1.6
-	<!--	October 07, 2016
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< STORYLINE TASK TEXT  STRINGS
+	<
+	<	Modified by DoctorX
+	<	for DoctorX Questlines 1.6
+	<	October 07, 2016
+	<
+	< ========================================================================================= -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Lukash (Freedom Honcho) Default Storyline Task -->
 
 	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_default_task_name">
@@ -39,7 +39,7 @@
 		<text>Bonne chance, Stalker.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Lukash (Freedom Honcho) Assassination Storyline Task- -->
 
 	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_1_name">
@@ -55,7 +55,7 @@
 		<text>Formidable, mon frère ! Merci.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Lukash (Freedom Honcho) Freedom Assault on Monolith Storyline Task -->
 
 	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_2_name">
@@ -71,7 +71,7 @@
 		<text>Mon ami, vous avez du cran. Excellent travail.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Lukash (Freedom Honcho) Search Lab X-8 (Outskirts) Storyline Task -->
 
 	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_3_name">
@@ -91,14 +91,14 @@
 
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- CHANGE FACTIONS TASK TEXT  STRINGS
-	<!--
-	<!--	Modified by DoctorX
-	<!--	for DoctorX Questlines 1.6
-	<!--	December 08, 2016
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< CHANGE FACTIONS TASK TEXT  STRINGS
+	<
+	<	Modified by DoctorX
+	<	for DoctorX Questlines 1.6
+	<	December 08, 2016
+	<
+	< ========================================================================================= -->
 	<!-- Ïðîïóùåííûé äèàëîã Ëóêàøà -->
 
 	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_name">
@@ -113,7 +113,7 @@
 	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_finish">
 		<text>Bon travail. Vous êtes enfin libre. Un avertissement, cependant : quiconque perturbe la liberté de mes hommes finit généralement par dormir au Village des Bloodsuckers. Souvenez-vous d'être respectueux envers les autres ici.</text>
 	</string>
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Lukash (Freedom Honcho) Payoff Change Factions Task -->
 
 	<string id="drx_sl_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_name">
@@ -133,16 +133,16 @@
 
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- DYNAMIC TASK TEXT  STRINGS
-	<!--
-	<!--	Modified by DoctorX
-	<!--	for DoctorX Questlines 1.6
-	<!--	October 07, 2016
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< DYNAMIC TASK TEXT  STRINGS
+	<
+	<	Modified by DoctorX
+	<	for DoctorX Questlines 1.6
+	<	October 07, 2016
+	<
+	< ========================================================================================= -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Lukash (Freedom Honcho) Stop Enemy Assault Task -->
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_1_name">
 		<text>Détruis le détachement ennemi</text>
@@ -272,7 +272,7 @@
 		<text>Avez-vous des explosifs ? Si oui, j’ai un gros travail pour vous. En ce moment, l’armée fait entrer des véhicules blindés dans la Cordon pour renforcer ses troupes. Je vous le demande : est-ce juste ? Regardez les épaves rouillées et dysfonctionnelles qui pourrissent dans nos entrepôts ! Si nous ne pouvons pas avoir de chars opérationnels dans la Zone, alors le gouvernement non plus ! Mes espions m’informent que ces véhicules arrivent en ce moment même pour être stationnés au checkpoint de Cordon. Ne vous inquiétez pas, ils veilleront à ce que les véhicules soient sans équipage lorsque vous rendrez visite, afin que vous puissiez les détruire sans finir en passoire. Vous êtes partant ? Alors prenez vos ananas et mettez-vous en route !</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Skinflint (Freedom Mechanic) -->
 	
 	<!-- FIND MUTANT MEAT FOR FREEDOM TASK -->
@@ -292,7 +292,7 @@
 		<text>Ah, cela fera un excellent repas une fois que le chef s'en sera occupé. Voici votre paiement. Pourquoi ne pas acheter de la vodka et fêter cela ?</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Skinflint (Freedom Mechanic) Deliver Equipment Dynamic Task -->
 
 	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_2_name">
@@ -308,7 +308,7 @@
 		<text>Voyons voir... ah oui. Exactement ce dont nous avions besoin. Merci stalker, voici votre part.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Skinflint (Freedom Trader) Night Terror Task -->
 	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_3_name">
 		<text>Fantômes dans l'obscurité</text>
@@ -323,7 +323,7 @@
 		<text>Wow, vous l'avez vraiment fait ! Quel fou. J'informerai le camp de la bonne nouvelle. Heureux de compter un chasseur comme vous parmi nous.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Skinflint (Freedom Trader) Scarce Supplies Task -->
 	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_4_name">
 		<text>Ressources rares</text>
@@ -353,16 +353,16 @@
 
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- MECHANIC TASK TEXT  STRINGS
-	<!--
-	<!--	Modified by DoctorX
-	<!--	for DoctorX Questlines 1.6
-	<!--	October 07, 2016
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< MECHANIC TASK TEXT  STRINGS
+	<
+	<	Modified by DoctorX
+	<	for DoctorX Questlines 1.6
+	<	October 07, 2016
+	<
+	< ========================================================================================= -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Screw (Freedom Mechanic) Find Level 1 Toolkit Task -->
 
 	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_1_name">
@@ -417,9 +417,9 @@
 	</string>
 	
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Defend the barrier -->
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<string id="barrier_defense_monolith_announce">
 		<text>À tous les Stalkers amis qui lisent ce message, un gros groupe de soldats du Monolithe approche de la Barrière. Toute aide sera appréciée et récompensée.</text>
 	</string>

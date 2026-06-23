@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+  <string id="st_anabiotic_combat">
+      <text>Ce serait risqué de prendre des anabiotiques avec des ennemis dans les parages.</text>
+  </string>
+
+   <string id="st_psy_death_scene">
+      <text>T'as échappé à un sort pire que la mort...</text>
+  </string>
+
+  <string id="st_psy_zombification_scene">
+      <text>La Zone t'a offert une seconde chance...</text>
+  </string>
+</string_table>

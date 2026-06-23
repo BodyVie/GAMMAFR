@@ -9,12 +9,12 @@
 <string_table>
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- STORYLINE TASK TEXT  STRINGS
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< STORYLINE TASK TEXT  STRINGS
+	<
+	< ========================================================================================= -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Tukarev  (Ecologist Mechanic) Default Storyline Task -->
 
 	<string id="drx_sl_jup_b6_scientist_tech_default_task_name">
@@ -30,7 +30,7 @@
 		<text>Bonne chance, stalker.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Tukarev  (Ecologist Mechanic) Mutant Tissue Experiment Storyline Task -->
 
 	<string id="drx_sl_jup_b6_scientist_tech_task_1_name">
@@ -49,7 +49,7 @@
 		<text>Vous avez bien agi. C'est exactement ce dont j'avais besoin. Prenez ceci en récompense.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Tukarev  (Ecologist Mechanic) Find Missing Scientist Storyline Task -->
 
 	<string id="drx_sl_jup_b6_scientist_tech_task_2_name">
@@ -65,7 +65,7 @@
 		<text>Merci, stalker.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Tukarev  (Ecologist Mechanic) Recover Stolen PDA Storyline Task -->
 
 	<string id="drx_sl_jup_b6_scientist_tech_task_3_name">
@@ -81,7 +81,7 @@
 		<text>Excellent ! Vous avez bien travaillé.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Tukarev  (Ecologist Mechanic) Search Jupiter Underground Storyline Task -->
 
 	<string id="drx_sl_jup_b6_scientist_tech_task_4_name">
@@ -97,7 +97,7 @@
 		<text>Excellent travail. Vous avez bien oeuvré.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Loki  (Freedom Honcho) Default Storyline Task -->
 
 	<string id="drx_sl_jup_a6_freedom_leader_default_task_name">
@@ -113,7 +113,7 @@
 		<text>Bonne chance, stalker.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Loki  (Freedom Honcho) Arms Dealer Storyline Task -->
 
 	<string id="drx_sl_jup_a6_freedom_leader_task_1_name">
@@ -132,7 +132,7 @@
 		<text>Vous avez bien agi. Plus j'ai de fusils, mieux je dors. Prenez ceci en paiement.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Loki  (Freedom Honcho) Clear Monolith Beachhead Storyline Task -->
 
 	<string id="drx_sl_jup_a6_freedom_leader_task_2_name">
@@ -145,10 +145,10 @@
 		<text>Nous préparons une invasion du territoire de Monolithe. Je souhaite que vous dégagiez une zone pour permettre à notre force d'assaut principale de progresser.</text>
 	</string>
 	<string id="drx_sl_jup_a6_freedom_leader_task_2_finish">
-		<text>Bien joué! Maintenant, nous pouvons commencer notre invasion! Enfin, pas tout de suite, mais plus tard dans la journée... ou peut-être demain. Quoi qu'il en soit, merci.</text>
+		<text>Bien joué ! Maintenant, nous pouvons commencer notre invasion ! Enfin, pas tout de suite, mais plus tard dans la journée... ou peut-être demain. Quoi qu'il en soit, merci.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Loki  (Freedom Honcho) Hunt Artefact Storyline Task -->
 
 	<string id="drx_sl_jup_a6_freedom_leader_task_3_name">
@@ -167,7 +167,7 @@
 		<text>Ah, parfait. Bon travail.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Loki  (Freedom Honcho) Search Monolith Control Center (Chernobyl) Storyline Task -->
 
 	<string id="drx_sl_jup_a6_freedom_leader_task_4_name">
@@ -250,13 +250,13 @@
 	</string>
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- DYNAMIC TASK TEXT  STRINGS
-	<!--
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< DYNAMIC TASK TEXT  STRINGS
+	<
+	<
+	< ========================================================================================= -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Tukarev (Ecog Mechanic) Escort Jupiter Scientists Task -->
 
 	<string id="jup_b6_scientist_tech_task_1_name">
@@ -288,7 +288,7 @@
 		<text>Parfait ! Vous avez trouvé exactement ce que nous recherchions. Prenez cette combinaison ; elle offre une excellente protection contre la Zone, et je suis certain que vous pourrez en tirer un bon prix.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Tukarev (Ecog Mechanic) Brains vs Brawn Dynamic Task -->
 
 	<string id="jup_b6_scientist_tech_task_3_name">
@@ -304,7 +304,7 @@
 		<text>Excellent travail. Merci.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Trapper (Loner Honcho) Lead Mutant Hunt Task -->
 
 	<string id="jup_b220_trapper_task_1_name">
@@ -367,7 +367,7 @@
 		<text>Ah, une nouvelle menace éliminée et une nouvelle décoration pour le camp. Bien joué, stalker.</text>
 	</string>
 
-	<!--- Call of Chernobyl -->
+	<!--= Call of Chernobyl -->
 
 	<string id="jup_b217_stalker_tech_task_1_name">
 		<text>Trouver %s</text>
@@ -376,7 +376,7 @@
 		<text>Nitro a besoin de %s pour installer des améliorations d'équipement de base.</text>
 	</string>
 	<string id="jup_b217_stalker_tech_task_1_about">
-		<text>J'ai besoin de nouveaux outils, stalker. Seriez-vous intéressé pour m'aider? Je peux vous indiquer ce dont j'ai besoin.</text>
+		<text>J'ai besoin de nouveaux outils, stalker. Seriez-vous intéressé pour m'aider ? Je peux vous indiquer ce dont j'ai besoin.</text>
 	</string>
 	<string id="jup_b217_stalker_tech_task_1_fetch_about">
 		<text>J'ai besoin d'un ensemble d'outils de base. Il devrait contenir tout ce dont j'ai besoin pour le moment. Si vous pouvez m'en rapporter, je vous en serais reconnaissant. Je pourrais même vous accorder une réduction à l'avenir.</text>
@@ -413,7 +413,7 @@
 		<text>J'ai besoin d'un %s. Je ne sais pas où vous pourriez vous en procurer un, mais si vous en trouvez un, j'en ai besoin.</text>
 	</string>
 	<string id="jup_b217_stalker_tech_task_3_fetch_finish">
-		<text>Oh! Vous avez trouvé un bel ensemble d'outils pour moi. Tenez, je vous avais promis une rétribution en échange.</text>
+		<text>Oh ! Vous avez trouvé un bel ensemble d'outils pour moi. Tenez, je vous avais promis une rétribution en échange.</text>
 	</string>
 
 	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->

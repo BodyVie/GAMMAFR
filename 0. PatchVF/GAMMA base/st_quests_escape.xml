@@ -14,16 +14,16 @@
 
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- STORYLINE TASK TEXT  STRINGS
-	<!--
-	<!--	Modified by DoctorX
-	<!--	for DoctorX Questlines 1.6
-	<!--	October 07, 2016
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< STORYLINE TASK TEXT  STRINGS
+	<
+	<	Modified by DoctorX
+	<	for DoctorX Questlines 1.6
+	<	October 07, 2016
+	<
+	< ========================================================================================= -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Sidorovich (Loner Trader) Default Storyline Task -->
 
 	<string id="drx_sl_esc_m_trader_default_task_name">
@@ -39,7 +39,7 @@
 		<text>Bonne chance, stalker.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Sidorovich (Loner Trader) Mutant Safari Storyline Task -->
 
 	<string id="drx_sl_esc_m_trader_task_1_name">
@@ -55,7 +55,7 @@
 		<text>De retour de la chasse ? Bien. Voici votre paiement.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Sidorovich (Loner Trader) Rookie Initiation Storyline Task- -->
 
 	<string id="drx_sl_esc_m_trader_task_2_name">
@@ -71,7 +71,7 @@
 		<text>Ah, mes clients sont toujours en vie. Et ils ont besoin d'acheter davantage de munitions. Merci, stalker. Prenez ceci pour votre peine.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Xenotech (Loner Mechanic) Default Storyline Task -->
 
 	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_default_task_name">
@@ -87,7 +87,7 @@
 		<text>Bonne chance, stalker.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Xenotech (Loner Mechanic) Rescue Missing Stalker Storyline Task -->
 
 	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_task_1_name">
@@ -103,7 +103,7 @@
 		<text>Vous l'avez sauvé ! Excellent travail, stalker. Acceptez ceci en signe de ma gratitude.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Xenotech (Loner Mechanic) Track Wounded Attacker Storyline Task -->
 
 	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_task_2_name">
@@ -123,16 +123,16 @@
 
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- CHANGE FACTIONS TASK TEXT  STRINGS
-	<!--
-	<!--	Modified by DoctorX
-	<!--	for DoctorX Questlines 1.6
-	<!--	October 07, 2016
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< CHANGE FACTIONS TASK TEXT  STRINGS
+	<
+	<	Modified by DoctorX
+	<	for DoctorX Questlines 1.6
+	<	October 07, 2016
+	<
+	< ========================================================================================= -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Sidorovich (Loner Trader) Payoff Change Factions Task -->
 
 	<string id="drx_sl_esc_m_trader_cf_task_1_name">
@@ -152,16 +152,16 @@
 
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- DYNAMIC TASK TEXT  STRINGS
-	<!--
-	<!--	Modified by DoctorX
-	<!--	for DoctorX Questlines 1.6
-	<!--	October 07, 2016
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< DYNAMIC TASK TEXT  STRINGS
+	<
+	<	Modified by DoctorX
+	<	for DoctorX Questlines 1.6
+	<	October 07, 2016
+	<
+	< ========================================================================================= -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Sidorovich (Loner Trader) Eliminate Car Park Bandits Task -->
 
 	<string id="esc_m_trader_task_1_name">
@@ -190,7 +190,7 @@
 		<text>Vous vous êtes débarrassé de ce sale taré ? Bon débarras ! Voici ce que je vous avais promis, et que l'on ne dise jamais que l'oncle Sidorovich ne récompense pas le bon travail.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Sidorovich (Loner Trader) Decimate the Enemy Task -->
 
 	<string id="esc_m_trader_task_3_name">
@@ -209,7 +209,7 @@
 		<text>Enfin, vous êtes de retour. Vous avez les insignes ? Très bien, voici votre récompense. Je m’occupe du reste.</text>
 	</string>
 	
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Wolf (Loner Honcho) -->
 	
 	<string id="esc_2_12_stalker_wolf_task_1_name">
@@ -225,7 +225,7 @@
 		<text>Merci, stalker. Peut-être que les recrues des alentours en profiteront pour apprendre deux ou trois choses avant de finir en pâtée pour cochons. Ah, c'est vrai. Je vous devais quelque chose. Voici votre paiement.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Wolf (Loner Honcho) Stalker Search and Rescue Dynamic Task -->
 
 	<string id="esc_2_12_stalker_wolf_task_2_name">
@@ -241,7 +241,7 @@
 		<text>Bon travail, stalker. Les bandits ne nous importuneront plus. Votre mission est accomplie. Voici votre récompense. </text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Wolf (Loner Honcho) Stalker Guide Dynamic Task -->
 
 	<string id="esc_2_12_stalker_wolf_task_3_name">
@@ -257,7 +257,7 @@
 		<text>D’accord, on dirait que les touristes ont obtenu ce qu’ils voulaient. Sidorovich sera ravi. Quant à vous, voici votre part.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Nimble (Loner Trader) Find Weapon Task -->
 
 	<string id="esc_2_12_stalker_nimble_task_1_name">
@@ -276,7 +276,7 @@
 		<text>Voici une arme de qualité. Je pense que mon client sera satisfait lorsque je la lui remettrai. Voici ce que je vous dois.</text>
 	</string>
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Nimble (Loner Trader) Retrieve PDA Dynamic Task -->
 
 	<string id="esc_2_12_stalker_nimble_task_2_name">
@@ -296,16 +296,16 @@
 
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- MECHANIC TASK TEXT  STRINGS
-	<!--
-	<!--	Modified by DoctorX
-	<!--	for DoctorX Questlines 1.6
-	<!--	October 07, 2016
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<
+	< MECHANIC TASK TEXT  STRINGS
+	<
+	<	Modified by DoctorX
+	<	for DoctorX Questlines 1.6
+	<	October 07, 2016
+	<
+	< ========================================================================================= -->
 
-	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- ========================================================================================= -->
 	<!-- Xenotech (Loner Mechanic) Find Level 1 Toolkit Task -->
 
 	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_1_name">

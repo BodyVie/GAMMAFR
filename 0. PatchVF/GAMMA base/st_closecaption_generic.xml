@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<!-- Bandits -->
+	<string id="cc_generic-bandit-meet_hello_1">
+		<text>Alors, crache le morceau, vieux.</text>
+	</string>
+	<string id="cc_generic-bandit-meet_hello_2">
+		<text>J't'écoute, vieux.</text>
+	</string>
+	<string id="cc_generic-bandit-meet_hello_3">
+		<text>Eh ben, salut !</text>
+	</string>
+
+	<string id="cc_generic-bandit-meet_hide_weapon_1">
+		<text>Arrête de brandir ce truc comme un débile !</text>
+	</string>
+	<string id="cc_generic-bandit-meet_hide_weapon_2">
+		<text>Dégage-moi ça de ma gueule !</text>
+	</string>
+	<string id="cc_generic-bandit-meet_hide_weapon_3">
+		<text>Tu te crois dur ou quoi ? Range ce flingue !</text>
+	</string>
+	<string id="cc_generic-bandit-meet_hide_weapon_4">
+		<text>Si tu veux ressortir entier, range-moi ce flingue !</text>
+	</string>
+	<string id="cc_generic-bandit-meet_hide_weapon_5">
+		<text>Regarde ! Moi aussi je vais sortir la mienne !</text>
+	</string>
+	<string id="cc_generic-bandit-meet_hide_weapon_6">
+		<text>Arrête de nous menacer avec ce calibre ! On a déjà assez des nôtres !</text>
+	</string>
+
+	<string id="cc_generic-bandit-meet_use_no_default_1">
+		<text>Allez, va emmerder quelqu'un d'autre, vieux.</text>
+	</string>
+	<string id="cc_generic-bandit-meet_use_no_default_2">
+		<text>J'ai pas la tête à discuter, là.</text>
+	</string>
+	<string id="cc_generic-bandit-meet_use_no_default_3">
+		<text>Casse-toi !</text>
+	</string>
+
+	<string id="cc_generic-bandit-meet_use_no_fight_1">
+		<text>Putain, mais t'as quoi dans l'crâne ?</text>
+	</string>
+	<string id="cc_generic-bandit-meet_use_no_fight_2">
+		<text>Moins de blabla, plus de baston !</text>
+	</string>
+	<string id="cc_generic-bandit-meet_use_no_fight_3">
+		<text>T'as choisi ton moment pour discuter...</text>
+	</string>
+
+	<string id="cc_generic-bandit-meet_use_no_talk_leader_1">
+		<text>Parle au grand patron, le vrai.</text>
+	</string>
+	<string id="cc_generic-bandit-meet_use_no_talk_leader_2">
+		<text>J'suis pas payé pour écouter tes conneries. Le chef, si.</text>
+	</string>
+	<string id="cc_generic-bandit-meet_use_no_talk_leader_3">
+		<text>Si t'as besoin de quelque chose, le chef est par là.</text>
+	</string>
+
+	<string id="cc_generic-bandit-meet_use_no_weapon_1">
+		<text>J'te cause pas quand t'as ce truc sous mon nez !</text>
+	</string>
+	<string id="cc_generic-bandit-meet_use_no_weapon_2">
+		<text>Range ton flingue, après on cause.</text>
+	</string>
+	<string id="cc_generic-bandit-meet_use_no_weapon_3">
+		<text>Range ce flingue ou casse-toi !</text>
+	</string>
+
+	<!-- Clear Sky -->
+	<string id="cc_generic-csky-meet_hello_1">
+		<text>T'as besoin de quoi, stalker ?</text>
+	</string>
+	<string id="cc_generic-csky-meet_hello_2">
+		<text>Stalker, tu veux quoi ?</text>
+	</string>
+	<string id="cc_generic-csky-meet_hello_3">
+		<text>T'as besoin de quoi ?</text>
+	</string>
+
+	<string id="cc_generic-csky-meet_hide_weapon_1">
+		<text>Range ton arme, vieux.</text>
+	</string>
+	<string id="cc_generic-csky-meet_hide_weapon_2">
+		<text>Arrête tes conneries ! Range ton arme !</text>
+	</string>
+	<string id="cc_generic-csky-meet_hide_weapon_3">
+		<text>Allez, vieux, range-moi ce flingue !</text>
+	</string>
+
+	<string id="cc_generic-csky-meet_use_no_talk_leader_1">
+		<text>Parle au chef si t'as besoin de quelque chose...</text>
+	</string>
+	<string id="cc_generic-csky-meet_use_no_talk_leader_2">
+		<text>Parle au boss.</text>
+	</string>
+	<string id="cc_generic-csky-meet_use_no_talk_leader_3">
+		<text>Le boss est par là. Va lui parler.</text>
+	</string>
+
+	<string id="cc_generic-csky-meet_use_no_weapon_1">
+		<text>Range ce flingue, après on discutera.</text>
+	</string>
+	<string id="cc_generic-csky-meet_use_no_weapon_2">
+		<text>Range ton arme si tu veux discuter.</text>
+	</string>
+	<string id="cc_generic-csky-meet_use_no_weapon_3">
+		<text>D'abord, tu ranges ce flingue.</text>
+	</string>
+
+	<string id="cc_generic-csky-meet_weapon_start_1">
+		<text>Range ce flingue, après on discutera.</text>
+	</string>
+	<string id="cc_generic-csky-meet_weapon_start_2">
+		<text>Range ton arme si tu veux discuter.</text>
+	</string>
+	<string id="cc_generic-csky-meet_weapon_start_3">
+		<text>D'abord, tu ranges ce flingue.</text>
+	</string>
+
+	<string id="cc_generic-csky-meet_weapon_wait_1">
+		<text>Planque-moi ce flingue !</text>
+	</string>
+	<string id="cc_generic-csky-meet_weapon_wait_2">
+		<text>Range ton arme.</text>
+	</string>
+	<string id="cc_generic-csky-meet_weapon_wait_3">
+		<text>Planque ton flingue !</text>
+	</string>
+	<string id="cc_generic-csky-meet_weapon_wait_4">
+		<text>J'ai dit range ce flingue dans ton dos !</text>
+	</string>
+	<string id="cc_generic-csky-meet_weapon_wait_5">
+		<text>Pas de conneries. Range-moi ça.</text>
+	</string>
+
+	<string id="cc_generic-csky-meet_stop_1">
+		<text>La Zone semble attirer que des raclures, ces temps-ci.</text>
+	</string>
+	<string id="cc_generic-csky-meet_stop_2">
+		<text>Bon, ben... comme tu veux. Ou pas.</text>
+	</string>
+	<string id="cc_generic-csky-meet_stop_3">
+		<text>Ah ouais, je vois... T'as jamais appris l'anglais, en fait.</text>
+	</string>
+
+	<string id="cc_generic-csky-meet_general_wait_1">
+		<text>Combien de temps j'vais encore poireauter ?</text>
+	</string>
+	<string id="cc_generic-csky-meet_general_wait_2">
+		<text>Hé, tu pionces ou quoi ?</text>
+	</string>
+	<string id="cc_generic-csky-meet_general_wait_3">
+		<text>Hé, réveille-toi !</text>
+	</string>
+	<string id="cc_generic-csky-meet_general_wait_4">
+		<text>Lâche le frein, mec.</text>
+	</string>
+	<string id="cc_generic-csky-meet_general_wait_5">
+		<text>T'avais quelque chose à me dire ?</text>
+	</string>
+
+	<string id="cc_generic-csky-meet_general_stop_1">
+		<text>T'es lent ou quoi ?</text>
+	</string>
+	<string id="cc_generic-csky-meet_general_stop_2">
+		<text>T'es qu'un intello coincé, voilà ce que t'es.</text>
+	</string>
+	<string id="cc_generic-csky-meet_general_stop_3">
+		<text>Oh non... Encore un muet.</text>
+	</string>
+
+	<string id="cc_generic-csky-meet_general_start_1">
+		<text>Alors, t'as besoin de quoi ?</text>
+	</string>
+	<string id="cc_generic-csky-meet_general_start_2">
+		<text>T'as besoin de quoi, au juste ?</text>
+	</string>
+	<string id="cc_generic-csky-meet_general_start_3">
+		<text>Ça roule, stalker ?</text>
+	</string>
+
+	<string id="cc_generic-csky-meet_comander_wait_1">
+		<text>Dis-moi ce que tu veux, et vite.</text>
+	</string>
+	<string id="cc_generic-csky-meet_comander_wait_2">
+		<text>Accouche, merde !</text>
+	</string>
+	<string id="cc_generic-csky-meet_comander_wait_3">
+		<text>T'as un truc à me demander ou quoi ?</text>
+	</string>
+	<string id="cc_generic-csky-meet_comander_wait_4">
+		<text>C'est quoi ces tergiversations ?</text>
+	</string>
+	<string id="cc_generic-csky-meet_comander_wait_5">
+		<text>T'attends quoi, là ?</text>
+	</string>
+
+	<string id="cc_generic-csky-meet_comander_stop_1">
+		<text>La Zone semble attirer que des raclures, ces temps-ci.</text>
+	</string>
+	<string id="cc_generic-csky-meet_comander_stop_2">
+		<text>Bon, ben... comme tu veux. Ou pas.</text>
+	</string>
+	<string id="cc_generic-csky-meet_comander_stop_3">
+		<text>Ah ouais, je vois... T'as jamais appris l'anglais, en fait.</text>
+	</string>
+
+	<string id="cc_generic-csky-meet_comander_start_1">
+		<text>T'as besoin de quoi, stalker ?</text>
+	</string>
+	<string id="cc_generic-csky-meet_comander_start_2">
+		<text>Stalker, tu veux quoi ?</text>
+	</string>
+	<string id="cc_generic-csky-meet_comander_start_3">
+		<text>T'as besoin de quoi ?</text>
+	</string>
+
+	<!-- Duty -->
+	<string id="cc_generic-dolg-meet_hello_1">
+		<text>Quoi de neuf ?</text>
+	</string>
+	<string id="cc_generic-dolg-meet_hello_2">
+		<text>Salut et bienvenue !</text>
+	</string>
+	<string id="cc_generic-dolg-meet_hello_3">
+		<text>Le temps, c'est de l'argent. Accouche !</text>
+	</string>
+
+	<string id="cc_generic-dolg-meet_hide_weapon_1">
+		<text>Range cette arme, l'ami.</text>
+	</string>
+	<string id="cc_generic-dolg-meet_hide_weapon_2">
+		<text>Range ton arme.</text>
+	</string>
+	<string id="cc_generic-dolg-meet_hide_weapon_3">
+		<text>Range ton arme, chef.</text>
+	</string>
+	<string id="cc_generic-dolg-meet_hide_weapon_7">
+		<text>Range-moi ce flingue, mec.</text>
+	</string>
+	<string id="cc_generic-dolg-meet_hide_weapon_8">
+		<text>Range-moi ce flingue, maintenant !</text>
+	</string>
+	<string id="cc_generic-dolg-meet_hide_weapon_9">
+		<text>Range ton flingue, vieux !</text>
+	</string>
+	<string id="cc_generic-dolg-meet_hide_weapon_10">
+		<text>T'as besoin d'un coup de main pour ranger ce truc ?</text>
+	</string>
+	<string id="cc_generic-dolg-meet_hide_weapon_11">
+		<text>Vieux... Range-moi ce flingue.</text>
+	</string>
+
+	<string id="cc_generic-dolg-meet_use_no_default_1">
+		<text>Nan, j'ai pas envie de parler.</text>
+	</string>
+	<string id="cc_generic-dolg-meet_use_no_default_2">
+		<text>Désolé, mais j'ai pas la tête à discuter.</text>
+	</string>
+	<string id="cc_generic-dolg-meet_use_no_default_3">
+		<text>Là, j'peux pas parler.</text>
+	</string>
+
+	<string id="cc_generic-dolg-meet_use_no_fight_1">
+		<text>On se reparle une autre fois.</text>
+	</string>
+	<string id="cc_generic-dolg-meet_use_no_fight_2">
+		<text>À plus. On se reparle après.</text>
+	</string>
+	<string id="cc_generic-dolg-meet_use_no_fight_3">
+		<text>C'est vraiment pas le moment de jacter.</text>
+	</string>
+
+	<string id="cc_generic-dolg-meet_use_no_talk_leader_1">
+		<text>Parle au commandant de l'escouade si t'as besoin de quelque chose.</text>
+	</string>
+	<string id="cc_generic-dolg-meet_use_no_talk_leader_2">
+		<text>Stalker, adresse tes questions au commandant.</text>
+	</string>
+	<string id="cc_generic-dolg-meet_use_no_talk_leader_3">
+		<text>Va voir le commandant.</text>
+	</string>
+
+	<string id="cc_generic-dolg-meet_use_no_weapon_1">
+		<text>On pourra discuter quand t'auras plus ce flingue sous mon nez.</text>
+	</string>
+	<string id="cc_generic-dolg-meet_use_no_weapon_2">
+		<text>Soit tu ranges ce flingue, soit tu te casses !</text>
+	</string>
+	<string id="cc_generic-dolg-meet_use_no_weapon_3">
+		<text>On parlera quand t'auras rangé ton arme.</text>
+	</string>
+	<string id="cc_generic-dolg-meet_use_no_weapon_6">
+		<text>T'as oublié comment on range une arme ?</text>
+	</string>
+	<string id="cc_generic-dolg-meet_use_no_weapon_7">
+		<text>On va pas discuter comme ça, nous deux.</text>
+	</string>
+	<string id="cc_generic-dolg-meet_use_no_weapon_8">
+		<text>Si tu ranges pas ton arme, ce sera la seule chose à qui tu pourras parler !</text>
+	</string>
+
+	<!-- Ecologists -->
+	<string id="cc_generic-ecolog-meet_hello_1">
+		<text>Qu'est-ce que t'en dis ?</text>
+	</string>
+	<string id="cc_generic-ecolog-meet_hello_2">
+		<text>J'écoute.</text>
+	</string>
+	<string id="cc_generic-ecolog-meet_hello_3">
+		<text>Bonne journée.</text>
+	</string>
+
+	<string id="cc_generic-ecolog-meet_hide_weapon_1">
+		<text>Hé, oh, ça va pas, ça. On pointe pas les flingues.</text>
+	</string>
+	<string id="cc_generic-ecolog-meet_hide_weapon_2">
+		<text>Tu peux ranger ton arme d'abord.</text>
+	</string>
+	<string id="cc_generic-ecolog-meet_hide_weapon_3">
+		<text>Range ton flingue d'abord, vieux.</text>
+	</string>
+
+	<string id="cc_generic-ecolog-meet_use_no_default_1">
+		<text>J'ai rien à te dire pour l'instant, c'est bon ?</text>
+	</string>
+	<string id="cc_generic-ecolog-meet_use_no_default_2">
+		<text>Désolé, j'ai pas envie de parler là.</text>
+	</string>
+	<string id="cc_generic-ecolog-meet_use_no_default_3">
+		<text>Épargne-moi les conneries, s'te plaît.</text>
+	</string>
+
+	<string id="cc_generic-ecolog-meet_use_no_fight_1">
+		<text>T'es sérieux, là ? À genoux, abruti !</text>
+	</string>
+	<string id="cc_generic-ecolog-meet_use_no_fight_2">
+		<text>À plus ! On se reparle après !</text>
+	</string>
+	<string id="cc_generic-ecolog-meet_use_no_fight_3">
+		<text>T'as une tête sur les épaules ou pas ? Pas maintenant !</text>
+	</string>
+
+	<string id="cc_generic-ecolog-meet_use_no_talk_leader_1">
+		<text>J'ai rien à te dire pour l'instant, c'est bon ?</text>
+	</string>
+	<string id="cc_generic-ecolog-meet_use_no_talk_leader_2">
+		<text>Désolé, y'a rien à dire.</text>
+	</string>
+	<string id="cc_generic-ecolog-meet_use_no_talk_leader_3">
+		<text>Épargne-moi le bla-bla.</text>
+	</string>
+
+	<string id="cc_generic-ecolog-meet_use_no_weapon_1">
+		<text>Si tu veux causer, pose ce flingue.</text>
+	</string>
+	<string id="cc_generic-ecolog-meet_use_no_weapon_2">
+		<text>Planque ton flingue, vieux. Sinon, j'ai rien à te dire.</text>
+	</string>
+	<string id="cc_generic-ecolog-meet_use_no_weapon_3">
+		<text>Hé, oh, ça va pas, ça. On pointe pas les flingues.</text>
+	</string>
+
+	<!-- Freedom -->
+	<string id="cc_generic-freedom-meet_hello_1">
+		<text>Alors, crache le morceau !</text>
+	</string>
+	<string id="cc_generic-freedom-meet_hello_2">
+		<text>J't'écoute, vieux.</text>
+	</string>
+	<string id="cc_generic-freedom-meet_hello_3">
+		<text>Ça roule, frangin ?</text>
+	</string>
+
+	<string id="cc_generic-freedom-meet_hide_weapon_1">
+		<text>Fais pas le héros. Range ce flingue.</text>
+	</string>
+	<string id="cc_generic-freedom-meet_hide_weapon_2">
+		<text>Range ton flingue, bordel !</text>
+	</string>
+	<string id="cc_generic-freedom-meet_hide_weapon_3">
+		<text>À plus, vieux ! Range-moi ce canon.</text>
+	</string>
+	<string id="cc_generic-freedom-meet_hide_weapon_9">
+		<text>Touche à rien. Et planque ce flingue, tu veux ?</text>
+	</string>
+	<string id="cc_generic-freedom-meet_hide_weapon_10">
+		<text>Ça suffit ! Arrête de brandir ce flingue comme ça.</text>
+	</string>
+	<string id="cc_generic-freedom-meet_hide_weapon_11">
+		<text>Range ton jouet, maintenant !</text>
+	</string>
+	<string id="cc_generic-freedom-meet_hide_weapon_12">
+		<text>Range-moi ce putain de flingue.</text>
+	</string>
+
+	<string id="cc_generic-freedom-meet_use_no_default_1">
+		<text>Dégage !</text>
+	</string>
+	<string id="cc_generic-freedom-meet_use_no_default_2">
+		<text>Cette discussion n'a pas lieu, et c'est tout !</text>
+	</string>
+	<string id="cc_generic-freedom-meet_use_no_default_3">
+		<text>Là, j'ai pas la tête à discuter.</text>
+	</string>
+
+	<string id="cc_generic-freedom-meet_use_no_fight_1">
+		<text>Mec, t'es complètement taré !</text>
+	</string>
+	<string id="cc_generic-freedom-meet_use_no_fight_2">
+		<text>Y'a des coups de feu et tout le bordel, tu vois ?</text>
+	</string>
+	<string id="cc_generic-freedom-meet_use_no_fight_3">
+		<text>C'est vraiment pas le moment de parler.</text>
+	</string>
+
+	<string id="cc_generic-freedom-meet_use_no_talk_leader_1">
+		<text>Allez, parle au boss, vieux !</text>
+	</string>
+	<string id="cc_generic-freedom-meet_use_no_talk_leader_2">
+		<text>J'suis pas sûr de pouvoir t'apprendre quoi que ce soit d'utile. Va voir le chef.</text>
+	</string>
+	<string id="cc_generic-freedom-meet_use_no_talk_leader_3">
+		<text>Laisse-moi tranquille, vieux. Parle au chef, il est par là.</text>
+	</string>
+
+	<string id="cc_generic-freedom-meet_use_no_weapon_1">
+		<text>Tu comptes tirer ou parler ? Range-moi ce flingue !</text>
+	</string>
+	<string id="cc_generic-freedom-meet_use_no_weapon_2">
+		<text>J'ai pas envie de discuter avec des mecs qui me braquent un flingue dessus.</text>
+	</string>
+	<string id="cc_generic-freedom-meet_use_no_weapon_3">
+		<text>On causera quand t'auras rangé ton flingue.</text>
+	</string>
+	<string id="cc_generic-freedom-meet_use_no_weapon_6">
+		<text>T'es là pour tirer ou pour causer ?</text>
+	</string>
+	<string id="cc_generic-freedom-meet_use_no_weapon_7">
+		<text>Vieux, ton flingue de persuasion en métal, il dégage !</text>
+	</string>
+	<string id="cc_generic-freedom-meet_use_no_weapon_8">
+		<text>Tu te sers de ce gros joujou pour compenser un truc ?</text>
+	</string>
+
+	<!-- Mercenaries -->
+	<string id="cc_generic-killer-meet_hello_1">
+		<text>Approche. J'mords pas.</text>
+	</string>
+	<string id="cc_generic-killer-meet_hello_2">
+		<text>Hé, frangin !</text>
+	</string>
+	<string id="cc_generic-killer-meet_hello_3">
+		<text>T'es qui, toi ?</text>
+	</string>
+
+	<string id="cc_generic-killer-meet_hide_weapon_1">
+		<text>Planque-moi ce flingue !</text>
+	</string>
+	<string id="cc_generic-killer-meet_hide_weapon_2">
+		<text>Si tu veux discuter, baisse ce flingue et approche doucement !</text>
+	</string>
+	<string id="cc_generic-killer-meet_hide_weapon_3">
+		<text>Si tu veux discuter, baisse ce flingue et approche doucement !</text>
+	</string>
+	<string id="cc_generic-killer-meet_hide_weapon_4">
+		<text>Planque-moi ce flingue !</text>
+	</string>
+	<string id="cc_generic-killer-meet_hide_weapon_5">
+		<text>Si tu veux discuter, baisse ce flingue et approche doucement !</text>
+	</string>
+	<string id="cc_generic-killer-meet_hide_weapon_6">
+		<text>Planque-moi ce flingue !</text>
+	</string>
+
+	<string id="cc_generic-killer-meet_use_no_default_1">
+		<text>J'te parle pas.</text>
+	</string>
+	<string id="cc_generic-killer-meet_use_no_default_2">
+		<text>J'ai pas envie de papoter avec toi.</text>
+	</string>
+	<string id="cc_generic-killer-meet_use_no_default_3">
+		<text>J'ai pas envie de jacter pour rien.</text>
+	</string>
+
+	<string id="cc_generic-killer-meet_use_no_fight_1">
+		<text>Pas maintenant !</text>
+	</string>
+	<string id="cc_generic-killer-meet_use_no_fight_2">
+		<text>T'es taré ou quoi ? Pas maintenant !</text>
+	</string>
+	<string id="cc_generic-killer-meet_use_no_fight_3">
+		<text>Tu vois pas qu'on est en plein combat, bordel ?</text>
+	</string>
+
+	<string id="cc_generic-killer-meet_use_no_talk_leader_1">
+		<text>J'ai pas envie de jacter. Va voir le commandant.</text>
+	</string>
+	<string id="cc_generic-killer-meet_use_no_talk_leader_2">
+		<text>Si t'as besoin de quelque chose, va voir le commandant. Parle-lui.</text>
+	</string>
+	<string id="cc_generic-killer-meet_use_no_talk_leader_3">
+		<text>J'ai pas envie de jacter. Va voir le commandant.</text>
+	</string>
+
+	<string id="cc_generic-killer-meet_use_no_weapon_1">
+		<text>J'te cause pas quand t'as ce truc sous mon nez !</text>
+	</string>
+	<string id="cc_generic-killer-meet_use_no_weapon_2">
+		<text>Range ton flingue, après on cause.</text>
+	</string>
+	<string id="cc_generic-killer-meet_use_no_weapon_3">
+		<text>Range ce flingue ou casse-toi !</text>
+	</string>
+
+	<!-- Military -->
+	<string id="cc_generic-military-meet_hello_1">
+		<text>Salut !</text>
+	</string>
+	<string id="cc_generic-military-meet_hello_2">
+		<text>T'as besoin de quoi ?</text>
+	</string>
+	<string id="cc_generic-military-meet_hello_3">
+		<text>Alors ? J't'écoute...</text>
+	</string>
+
+	<string id="cc_generic-military-meet_hide_weapon_1">
+		<text>Baisse ton arme.</text>
+	</string>
+	<string id="cc_generic-military-meet_hide_weapon_2">
+		<text>Range ton arme !</text>
+	</string>
+	<string id="cc_generic-military-meet_hide_weapon_3">
+		<text>Range ton arme.</text>
+	</string>
+
+	<string id="cc_generic-military-meet_use_no_default_1">
+		<text>J'ai pas le temps de discuter.</text>
+	</string>
+	<string id="cc_generic-military-meet_use_no_default_2">
+		<text>J'peux rien faire pour toi.</text>
+	</string>
+	<string id="cc_generic-military-meet_use_no_default_3">
+		<text>Fous-moi la paix, major.</text>
+	</string>
+
+	<string id="cc_generic-military-meet_use_no_fight_1">
+		<text>On causera quand l'combat sera fini.</text>
+	</string>
+	<string id="cc_generic-military-meet_use_no_fight_2">
+		<text>Arrête de jacter et concentre-toi !</text>
+	</string>
+	<string id="cc_generic-military-meet_use_no_fight_3">
+		<text>C'est pas le bon moment pour discuter, vieux.</text>
+	</string>
+
+	<string id="cc_generic-military-meet_use_no_talk_leader_1">
+		<text>Allez, va voir le commandant.</text>
+	</string>
+	<string id="cc_generic-military-meet_use_no_talk_leader_2">
+		<text>Le commandant peut répondre à tes questions.</text>
+	</string>
+	<string id="cc_generic-military-meet_use_no_talk_leader_3">
+		<text>Moi, j'tire. Le commandant, lui, il fait les questions-réponses.</text>
+	</string>
+
+	<string id="cc_generic-military-meet_use_no_weapon_1">
+		<text>Si tu veux parler, range ton arme.</text>
+	</string>
+	<string id="cc_generic-military-meet_use_no_weapon_2">
+		<text>J'parle pas avec toi quand t'as ce truc braqué sur moi.</text>
+	</string>
+	<string id="cc_generic-military-meet_use_no_weapon_3">
+		<text>Range ton arme si tu veux parler.</text>
+	</string>
+
+	<!-- Monolith -->
+	<string id="cc_generic-monolith-meet_hello_1">
+		<text>Fais confiance à personne d'autre qu'au Monolithe et à tes frères. Personne.</text>
+	</string>
+	<string id="cc_generic-monolith-meet_hello_2">
+		<text>C'est trop calme ici, putain...</text>
+	</string>
+	<string id="cc_generic-monolith-meet_hello_3">
+		<text>Je crois que j'suis déjà venu ici à un moment. J'm'en souviens plus.</text>
+	</string>
+	<string id="cc_generic-monolith-meet_hello_4">
+		<text>Bizarre... Tout est bizarre ici.</text>
+	</string>
+
+	<string id="cc_generic-monolith-meet_use_no_fight_1">
+		<text>Monolithe... Grand Monolithe.</text>
+	</string>
+	<string id="cc_generic-monolith-meet_use_no_fight_2">
+		<text>Les ennemis sont proches... Telle est la volonté du Monolithe.</text>
+	</string>
+	<string id="cc_generic-monolith-meet_use_no_fight_3">
+		<text>Monolithe... Je suis ton serviteur fidèle.</text>
+	</string>
+
+	<string id="cc_generic-monolith-meet_use_no_talk_leader_1">
+		<text>Restons chacun de notre côté.</text>
+	</string>
+	<string id="cc_generic-monolith-meet_use_no_talk_leader_2">
+		<text>Ça sert à rien de parler pour rien.</text>
+	</string>
+	<string id="cc_generic-monolith-meet_use_no_talk_leader_3">
+		<text>J'ai pas envie de parler, là.</text>
+	</string>
+
+	<!-- Loners -->
+	<string id="cc_generic-stalker-meet_hello_1">
+		<text>Salut, ça roule ?</text>
+	</string>
+	<string id="cc_generic-stalker-meet_hello_2">
+		<text>Hé, frangin !</text>
+	</string>
+	<string id="cc_generic-stalker-meet_hello_3">
+		<text>J't'écoute...</text>
+	</string>
+
+	<string id="cc_generic-stalker-meet_hide_weapon_1">
+		<text>Range ton arme, vieux.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_hide_weapon_2">
+		<text>Arrête tes conneries ! Range ton arme !</text>
+	</string>
+	<string id="cc_generic-stalker-meet_hide_weapon_3">
+		<text>Allez, vieux, range-moi ce flingue !</text>
+	</string>
+	<string id="cc_generic-stalker-meet_hide_weapon_7">
+		<text>Planque ton arme, maintenant !</text>
+	</string>
+	<string id="cc_generic-stalker-meet_hide_weapon_6">
+		<text>Arrête de me braquer avec ton jouet, putain !</text>
+	</string>
+	<string id="cc_generic-stalker-meet_hide_weapon_8">
+		<text>C'est quoi le problème avec ton flingue ?</text>
+	</string>
+
+	<string id="cc_generic-stalker-meet_use_no_default_1">
+		<text>J'te parle pas.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_use_no_default_2">
+		<text>J'ai pas envie de discuter avec toi.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_use_no_default_3">
+		<text>J'ai pas envie de jacter pour rien.</text>
+	</string>
+
+	<string id="cc_generic-stalker-meet_use_no_fight_1">
+		<text>C'est pas l'moment de jacter, vieux.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_use_no_fight_2">
+		<text>T'es taré ou quoi ? On discutera après !</text>
+	</string>
+	<string id="cc_generic-stalker-meet_use_no_fight_3">
+		<text>T'es sûr de vouloir papoter avec tout ce bordel autour ?</text>
+	</string>
+
+	<string id="cc_generic-stalker-meet_use_no_talk_leader_1">
+		<text>Parle au chef si t'as besoin de quelque chose...</text>
+	</string>
+	<string id="cc_generic-stalker-meet_use_no_talk_leader_2">
+		<text>Parle au boss.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_use_no_talk_leader_3">
+		<text>Le boss est par là. Va lui parler.</text>
+	</string>
+
+	<string id="cc_generic-stalker-meet_use_no_weapon_1">
+		<text>Range ton flingue d'abord, et après on cause.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_use_no_weapon_2">
+		<text>J'suis pas très causant quand on me braque un flingue sous le nez. Surprenant, hein ?</text>
+	</string>
+	<string id="cc_generic-stalker-meet_use_no_weapon_3">
+		<text>J'ai pas envie de discuter quand t'as ton flingue braqué sur moi.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_use_no_weapon_9">
+		<text>Allez, vieux ! Range-moi ce flingue.</text>
+	</string>
+
+	<string id="cc_generic-stalker-meet_weapon_start_1">
+		<text>Fais pas le con, range ton arme.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_weapon_start_2">
+		<text>Arrête de brandir ce flingue, j'suis déjà à l'écoute.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_weapon_start_3">
+		<text>On pourrait peut-être discuter si tu rangeais ce flingue.</text>
+	</string>
+
+	<string id="cc_generic-stalker-meet_weapon_wait_1">
+		<text>Pourquoi tu t'accroches à ton flingue comme ça ?</text>
+	</string>
+	<string id="cc_generic-stalker-meet_weapon_wait_2">
+		<text>C'est quoi le problème avec ton flingue ?</text>
+	</string>
+	<string id="cc_generic-stalker-meet_weapon_wait_3">
+		<text>On discute pas avec des flingues !</text>
+	</string>
+	<string id="cc_generic-stalker-meet_weapon_wait_4">
+		<text>Arrête de me braquer avec ton jouet à pétard !</text>
+	</string>
+	<string id="cc_generic-stalker-meet_weapon_wait_5">
+		<text>Planque ton arme, maintenant !</text>
+	</string>
+
+	<string id="cc_generic-stalker-meet_wait_1">
+		<text>J'écoute.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_wait_2">
+		<text>Allez, crache le morceau.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_wait_3">
+		<text>Tu vois pas que j'suis occupé ? Abrège.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_wait_4">
+		<text>Tu es timide ou quoi ? Allez, parle-moi.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_wait_5">
+		<text>Allez, crache le morceau, j'te mords pas !</text>
+	</string>
+	<string id="cc_generic-stalker-meet_wait_6">
+		<text>Si t'es là pour parler affaires, vas-y.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_wait_7">
+		<text>Bon, ça suffit les silences, crache le morceau !</text>
+	</string>
+	<string id="cc_generic-stalker-meet_wait_8">
+		<text>Réveille-toi et sens l'odeur du café.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_wait_9">
+		<text>Allez, accouche !</text>
+	</string>
+	<string id="cc_generic-stalker-meet_wait_10">
+		<text>Allez, balance.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_wait_11">
+		<text>Alors, t'as besoin de quelque chose ou pas ?</text>
+	</string>
+	<string id="cc_generic-stalker-meet_wait_12">
+		<text>Faut que je parle pour nous deux, là ?</text>
+	</string>
+
+	<string id="cc_generic-stalker-meet_stop_1">
+		<text>Parler à un muet, c'est peine perdue.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_stop_2">
+		<text>Reviens quand t'auras appris à causer.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_stop_3">
+		<text>J'kiffe grave cette conversation. Enfin, pas du tout.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_stop_4">
+		<text>Hmm. Belle discussion, tiens.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_stop_5">
+		<text>C'est un concours de silence ? Bon, t'as gagné.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_stop_6">
+		<text>Putain, j'sais pas ce que tu me veux.</text>
+	</string>
+
+	<string id="cc_generic-stalker-meet_general_wait_1">
+		<text>Réveille-toi et sens l'odeur du café !</text>
+	</string>
+	<string id="cc_generic-stalker-meet_general_wait_2">
+		<text>Allez, accouche !</text>
+	</string>
+	<string id="cc_generic-stalker-meet_general_wait_3">
+		<text>Allez, balance.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_general_wait_4">
+		<text>Alors, t'as besoin de quelque chose ou pas ?</text>
+	</string>
+	<string id="cc_generic-stalker-meet_general_wait_5">
+		<text>Faut que je parle pour nous deux, c'est ça ?</text>
+	</string>
+
+	<string id="cc_generic-stalker-meet_general_stop_1">
+		<text>Belle discussion, ça.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_general_stop_2">
+		<text>C'est un concours de silence ? Bon, t'as gagné.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_general_stop_3">
+		<text>Putain, j'sais pas ce que tu me veux.</text>
+	</string>
+
+	<string id="cc_generic-stalker-meet_general_start_1">
+		<text>Si t'as un truc à dire, balance.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_general_start_2">
+		<text>J't'écoute.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_general_start_3">
+		<text>J'écoute.</text>
+	</string>
+
+	<string id="cc_generic-stalker-meet_comander_wait_1">
+		<text>Tu vois pas que j'suis occupé ? Abrège.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_comander_wait_2">
+		<text>Tu es timide ou quoi ? Allez, parle-moi !</text>
+	</string>
+	<string id="cc_generic-stalker-meet_comander_wait_3">
+		<text>Allez, fais pas ton timide, crache le morceau.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_comander_wait_4">
+		<text>Si t'es là pour parler affaires, vas-y.</text>
+	</string>
+	<string id="cc_generic-stalker-meet_comander_wait_5">
+		<text>Hé, mec, ça suffit les chuchotis, balance !</text>
+	</string>
+</string_table>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	
+	<string id="encyclopedia_world">
+		<text>Monde du jeu</text>
+	</string>
+
+	<string id="encyclopedia_world_craft">
+		<text>Artisanat</text>
+	</string>
+	<string id="encyclopedia_world_craft_text">
+		<text>
+			\n L'artisanat est un sujet très vaste. Il inclut : le démontage des armes, le démontage des tenues, la création d'objets et de pièces détachées spéciales.	
+			\n Le démontage s'effectue en transférant directement l'outil nécessaire ou le kit d'outils (pour les tenues) sur la tenue dans votre inventaire.\n		
+		
+			\n%c[0,215,215,215]• %c[ui_gray_2]Démontage des armes %c[0,215,215,215]•%c[ui_gray_2].
+			\n Le démontage des armes s'effectue à l'aide d'outils spécialisés : un marteau, une monture et un couteau de couturier. Chaque outil peut être utilisé pour démonter un type spécifique d'arme.
+			\n La monture permet de démonter les fusils de calibre 7,62, les fusils de calibre 9 mm, les fusils de calibre 5,56, les fusils de calibre 5,45, les pistolets-mitrailleurs, les armes sciées et les fusils de chasse. Impossible : tout type de pistolets.
+			\n Un marteau permet de démonter les fusils de calibre 7,62 mm, 9 mm, 5,56 mm, 5,45 mm, les pistolets-mitrailleurs, les armes sciées, les fusils à pompe et les pistolets.
+			\n Un couteau de couturier permet de démonter uniquement les pistolets, qu'ils soient usés ou rouillés.\n
+		
+			\n%c[0,215,215,215]• %c[ui_gray_2]Démontage des tenues %c[0,215,215,215]•%c[ui_gray_2].
+			\n Le démontage des tenues s'effectue à l'aide de kits d'outils : grossiers, standards et fins, ainsi qu'avec un couteau de couturier.
+			\n Un couteau de couturier est capable de découper uniquement des objets en tissu pur : bérets, bonnets, bandanas, cagoules et autres.
+			\n Les outils robustes peuvent également découper les mêmes éléments qu'un couteau de couturier. Ils sont destinés au démontage d'équipements de basse technologie : toutes sortes de vestes, manteaux et certains masques à gaz.	
+			\n Les outils standards peuvent démonter les mêmes éléments que les outils robustes. Ils sont destinés au démontage d'équipements de technologie moyenne : combinaisons stalker (artisanales), costumes stalker, etc. 
+			\n Équipements de protection tels que la combinaison « SEVA » (combinaison Duty, manteaux épais, « Iolite » des scientifiques), ainsi que les tenues de type « Yantar ».
+			\n Les outils fins peuvent également découper les mêmes éléments que les outils standards. Ils sont destinés au démontage d'équipements de haute technologie : divers SEVA, costumes des Écologistes, lourdes combinaisons blindées (Bulat, Skat), etc.	
+			\n exosquelettes, les lourdes combinaisons blindées "Voskhod", ainsi que les casques de haute technologie (Sphères, casques tactiques). Ils ne permettent pas de démonter le casque "Zaslon", tout comme tout autre outil.\n
+			
+			\n%c[0,215,215,215]• %c[ui_gray_2]Création d'objets %c[0,215,215,215]•%c[ui_gray_2].
+			\n La création d'objets est probablement le sujet le plus vaste. Les artisans inventent constamment de nouvelles méthodes pour obtenir quelque chose, les marchands apportent dans la Zone toutes sortes de nouveautés à partir desquelles on peut fabriquer n'importe quoi.
+			\n \n
+			\n L'une des technologies les plus importantes et utilisées dans la Zone est la désactivation des objets pouvant être neutralisés. Le liquide de désactivation peut être obtenu en mélangeant des Aquatabs avec n'importe quelle vodka.
+			\n Pour mélanger l'Aquatabs et la vodka, il suffit de superposer les deux éléments dans l'inventaire. Pour désactiver un objet, il est nécessaire de superposer l'objet sur le liquide ou le liquide sur l'objet dans votre inventaire.		
+			\n \n			
+			\n Les artisans obtiennent également des objets de première nécessité à partir de moyens improvisés. Par exemple, des bandages à partir de chiffons et d'alcool, ainsi que par transvasement d'un contenant à un autre. 
+			\n Les chiffons peuvent être obtenus en découpant des objets en tissu (bandages, bonnets, cagoules, bandeaux, etc.) avec un couteau de couturier. Toutes ces actions s'effectuent en superposant un objet sur un autre dans l'inventaire.			
+			\n Des morceaux de tissu peuvent également être obtenus en démontant des tenues, ou simplement trouvés. Certains types de tissus sont vendus par les marchands.
+			\n \n
+			\n Il est également possible de coudre soi-même un sac à dos ou un sac de couchage. Pour cela, il faut acheter auprès d'un marchand un kit de couture ainsi que les matériaux nécessaires, puis assembler les éléments dans l'inventaire.			
+			\n \n
+			\n Les marchands proposent également des matériaux pour la fabrication de cigarettes artisanales. Ces dernières sont bien plus efficaces que les cigarettes classiques.
+			\n Parfois, les marchands proposent également des kits pour la fabrication de munitions, le plus souvent de la grenaille. La grenaille artisanale est légèrement moins efficace, mais bien moins coûteuse que la grenaille industrielle.\n
+			
+			\n%c[0,215,215,215]• %c[ui_gray_2]Remplacement des composants %c[0,215,215,215]•%c[ui_gray_2].
+			\n Parmi les réparations d'objets, le remplacement de leurs composants est également une pratique courante.	
+			\n Le remplacement le plus courant est celui du canon d'une arme. Pour ce faire, il est nécessaire de disposer d'un canon en bon état, et le calibre du canon doit correspondre à celui de l'arme.
+			\n Si le canon est usé, il peut être nettoyé avec du kérosène, de l'essence, de la vodka, des produits de nettoyage pour armes, des kits de nettoyage, de l'huile pour armes ou des kits de réparation.
+			\n Si le canon est rouillé, il peut être ramené à un état normal à l'aide de produits de nettoyage pour armes, de kits de nettoyage, d'huile pour armes ou de kits de réparation.
+			\n Ensuite, vous aurez besoin d'un kit d'un calibre spécifique pour remplacer le canon du même calibre. À l'aide du kit et du canon, il est possible de restaurer jusqu'à 50 % de la solidité de l'arme, indépendamment de son état initial.
+			\n \n
+			\n Il est également possible de remplacer les servomoteurs des exosquelettes. Pour cela, un servomoteur, obtenu lors du démontage d'un exosquelette, ainsi qu'un kit de remplacement de servomoteur sont nécessaires. 
+			\n À l'aide d'un kit et d'un servomoteur, il est possible de restaurer jusqu'à 30 % de la résistance d'un exosquelette, indépendamment de son état initial.\n
+			\n%c[0,215,215,215]• %c[0,240,140,140]Cet article peut être complété avec le temps. %c[0,215,215,215]•.			
+		</text>
+	</string>	
+	
+</string_table>

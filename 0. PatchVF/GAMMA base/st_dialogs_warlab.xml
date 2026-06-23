@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="oso_chernobyl_crush_0">
+		<text>L'explosion de 86, c'est vous aussi ?</text>
+	</string>
+	<string id="oso_chernobyl_crush_1">
+		<text>Non, on n'y est pour rien. La plupart d'entre nous commençaient à peine en science à l'époque. La Zone de Tchernobyl n'a pas servi de site d'expérimentation avant 1989.</text>
+	</string>
+	<string id="oso_death_truck_0">
+		<text>C'est quoi, ces « camions de la mort » ?</text>
+	</string>
+	<string id="oso_death_truck_1">
+		<text>Les transports qu'on utilise pour envoyer nos « agents » marqués dans la Zone. Ils s'infiltrent dans la communauté des stalkers et exécutent nos ordres sans s'en rendre compte. Malheureusement, plus de la moitié des stalkers crèvent pendant le transport ; la Zone est ultra instable. T'es l'un de nos agents, envoyé pour buter Strelok, et là, on essaie de comprendre comment on a pu merder à ce point.</text>
+	</string>
+	<string id="oso_no_0">
+		<text>Je vais pas t'aider à mentir, moi.</text>
+	</string>
+	<string id="oso_osoznanie_start_11">
+		<text>Salut. Je vois que t'as un paquet de questions pour moi. Bon, balance, et après on verra quoi faire de toi.</text>
+	</string>
+	<string id="oso_osoznanie_start_21">
+		<text>C'est toi qui vois.</text>
+	</string>
+	<string id="oso_stalker_0">
+		<text>Ça veut dire quoi, ce tatouage « S.T.A.L.K.E.R. » ?</text>
+	</string>
+	<string id="oso_stalker_1">
+		<text>S.T.A.L.K.E.R. est un acronyme codé qu'on utilise pour marquer les agents programmés pour des missions spécifiques. Ta mission, en tant qu'agent, était de buter Strelok et son groupe. Ils s'étaient trop approchés de trucs qu'ils auraient jamais dû découvrir. On a créé un réseau de champs psi sur le chemin du centre de la Zone pour recruter des agents. Tu connais l'un de ces champs sous le nom de Lobotomisateur. Quand un stalker essaie d'atteindre le centre de la Zone pour réaliser un voeu, on prend le contrôle de sa conscience et on le programme pour une mission précise. Une erreur a été commise, et ta mission était de te suicider.</text>
+	</string>
+	<string id="oso_what_about_me_0">
+		<text>Qu'est-ce qui m'est arrivé ?</text>
+	</string>
+	<string id="oso_what_about_me_1">
+		<text>T'es un boulon qui est tombé de la machine. Malheureusement, on s'en est pas rendu compte tout de suite. Depuis que la Zone s'est formée, plein de gens ont essayé d'atteindre son centre, mais on ne peut pas laisser faire ça. L'humanité n'est pas prête pour la vérité. C'est pour ça qu'on a recruté des stalkers en leur promettant de réaliser leurs désirs les plus chers. Une fois recrutés, on les envoyait protéger le secret de la Zone.</text>
+	</string>
+	<string id="oso_what_is_the_zone_0">
+		<text>C'est quoi, la Zone ? Comment elle est apparue ?</text>
+	</string>
+	<string id="oso_what_is_the_zone_1">
+		<text>Ce que tu vois, c'est le résultat d'une intervention irréfléchie sur la noosphère terrestre. Les tentatives d'agir sur la noosphère ont provoqué une fissure locale. La Zone n'est que la manifestation visible de cette fissure. Le vrai problème est bien plus grave que ce que tu peux imaginer.</text>
+	</string>
+	<string id="oso_what_next_0">
+		<text>Et maintenant ?</text>
+	</string>
+	<string id="oso_what_next_1">
+		<text>Ça dépend de toi. La Zone grandit. On essaie de limiter son expansion, mais l'humanité semble déterminée à nous mettre des bâtons dans les roues. Nos ressources ne sont pas illimitées, et les corps connectés à la C-Conscience finissent par mourir. Si tu nous rejoins, on pourra restreindre la croissance de la Zone. Si tu décides autrement, on ne peut pas te donner de pronostic fiable sur ce qui va se passer.</text>
+	</string>
+	<string id="oso_who_are_you_0">
+		<text>T'es qui, toi ?</text>
+	</string>
+	<string id="oso_who_are_you_1">
+		<text>On est le résultat d'une expérience visant à créer une super-conscience appelée « C-Conscience » : les consciences de sept volontaires ont été connectées pendant l'expérience, donnant naissance à cette super-conscience qu'on est aujourd'hui. On a immédiatement soumis ceux qui menaient l'expérience et on les a assignés à des tâches qu'on avait besoin qu'ils accomplissent. D'après nos calculs, la Terre est entourée d'un champ informationnel spécial, la noosphère. Elle englobe tous les habitants de la planète dotés de capacités cognitives. Notre objectif principal était d'apporter de petites corrections à la noosphère pour éliminer des trucs comme la colère, la cruauté, la cupidité et autres facteurs négatifs de la planète. Les individus ne peuvent pas influencer la noosphère, mais la C-Conscience, si. Malheureusement, on a merdé, et notre intervention a engendré la Zone, qu'on essaie de contenir depuis.</text>
+	</string>
+	<string id="oso_why_chernobyl_0">
+		<text>Pourquoi ça s'est passé ici ?</text>
+	</string>
+	<string id="oso_why_chernobyl_1">
+		<text>C'était le meilleur endroit. Après l'explosion de 1986, y'avait presque plus personne dans le coin, et on pouvait bosser sans craindre de se faire repérer. En plus, y'avait plein d'antennes puissantes ici, hyper importantes pour nos expériences d'optimisation cognitive.</text>
+	</string>
+	<string id="oso_yes_0">
+		<text>J'accepte de rejoindre le projet C-Conscience.</text>
+	</string>
+	<string id="warlab_entity_start_11">
+		<text>J'attends ce moment depuis si longtemps... Si je peux pas sortir vers le monde, que le monde vienne à moi !</text>
+	</string>
+	<string id="warlab_entity_start_12">
+		<text>T'es qui ou t'es quoi ?</text>
+	</string>
+	<string id="warlab_entity_start_13">
+		<text>Regarde-moi. Je suis ton frère ! Je suis dans cette cage depuis seize ans ! Je suis pas sûr de ce que je vois ! C'est peut-être encore une illusion. Dis-moi ce que tu vois ! Tu me vois debout devant toi ? Je suis pas pur face au créateur ?</text>
+	</string>
+	<string id="warlab_entity_start_14">
+		<text>Ça va, toi ?</text>
+	</string>
+	<string id="warlab_entity_start_15">
+		<text>Tu vas porter mon message au monde, humain. Ta forme physique est parfaite pour ça. La Zone va étendre son territoire grâce à toi.</text>
+	</string>
+	<string id="warlab_entity_start_16">
+		<text>Et si je refuse de porter ton « message » ?</text>
+	</string>
+	<string id="warlab_entity_start_17">
+		<text>Tu vas crever... mais jouons un peu d'abord. Je peux être un poltergeist, une sangsue ou un controller, peu importe. Attrape-moi si tu peux !</text>
+	</string>
+	<string id="warlab_entity_start_18">
+		<text>...</text>
+	</string>
+</string_table>

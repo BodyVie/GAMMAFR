@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+<!-- Olivius (Bandit Trader) -->
+	<string id="val_smart_terrain_7_4_bandit_trader_stalker_start_dialog_1">
+		<text>Hé, mec ! Tu cherches du matos ? Ou peut-être du boulot ? Je suis l'homme qu'il te faut quand t'as besoin de refourguer ton habar contre du cash.</text>
+	</string>
+	<string id="val_smart_terrain_7_4_bandit_trader_stalker_start_dialog_2">
+		<text>Hé, mec. T'as besoin de quoi ? Du boulot ?</text>
+	</string>
+	
+	<string id="information_about_stash_7_4_bandit_trader_0">
+		<text>Je cherche des infos sur les planques. T'en as ?</text>
+	</string>
+	<string id="information_about_stash_7_4_bandit_trader_1">
+		<text>Putain, comment t'as su ? J'avais l'info avant que les autres aient même eu le temps de piger. Bref, sept mille balles et c'est à toi.</text>
+	</string>
+
+	<string id="information_about_stash_7_4_bandit_trader1_0">
+		<text>Je prends. %c[d_orange][7000 RU]</text>
+	</string>
+	<string id="information_about_stash_7_4_bandit_trader1_1">
+		<text>Fais-toi plaisir.</text>
+	</string>
+
+	<string id="bandit_trader_st_0">
+		<text>Pourquoi ton pseudo est aussi pourri ?</text>
+	</string>
+	<string id="bandit_trader_st_1">
+		<text>Regardez-moi ça ! Putain de bleus, à jouer les durs... Si tu les laisses faire, ils sont même pas capables de tenir leur propre bite pour pisser. Si tu t'en occupes, ils se comportent comme des abrutis finis, pour reprendre tes mots.</text>
+	</string>
+	<string id="bandit_trader_st_2">
+		<text>Hé, calme-toi - j'voulais rien dire de mal. J'savais juste pas quoi dire.</text>
+	</string>
+	<string id="bandit_trader_st_3">
+		<text>Bon, d'accord... Je te pardonne. C'est pas facile de vieillir quand t'as les nerfs en compote.</text>
+	</string>
+	<string id="bandit_trader_st_4">
+		<text>Compris. Comment t'as eu ton blaze ?</text>
+	</string>
+	<string id="bandit_trader_st_5">
+		<text>Je vais te le raconter, ne serait-ce que pour te faire taire. Mon histoire a commencé sous l'Union soviétique, avant ma première taule. Je voulais la belle vie... J'ai fait du business, et un jour, j'ai été chopé. Après avoir purgé ma peine, j'ai recommencé à me faire des contacts et à fourguer des trucs volés. J'ai tenu trois ans comme ça avant de me retrouver en prison une deuxième fois. Je suis sorti, mais l'URSS avait disparu... Tu sais ce qui était le plus rageant ?</text>
+	</string>
+	<string id="bandit_trader_st_6">
+		<text>Non. J'ai jamais vu l'Union soviétique à un âge raisonnable.</text>
+	</string>
+	<string id="bandit_trader_st_7">
+		<text>La première fois que j'ai atterri en taule, c'était pour « affaires »... ou « profit » en langage soviétique. Aujourd'hui, n'importe quel gars qui réussit peut se retrouver derrière les barreaux. Là-bas, t'as l'impression que ton cul prend feu.</text>
+	</string>
+	<string id="bandit_trader_st_8">
+		<text>[continuer...]</text>
+	</string>
+	<string id="bandit_trader_st_9">
+		<text>Quand je suis sorti de mon deuxième séjour, tout s'est écroulé. Plus un rond, et y'avait une tripotée de mecs qui faisaient la même chose que moi. Quand la Zone est apparue, j'me suis dit que j'allais aller voir ça de mes propres yeux.</text>
+	</string>
+	<string id="bandit_trader_st_10">
+		<text>[continuer...]</text>
+	</string>
+	<string id="bandit_trader_st_11">
+		<text>Au fait, on m'appelle Olivius parce que, comme l'arbre dont je tiens mon blaze, tu peux me passer au feu... me laisser sécher encore et encore... Je survivrai. Héhé, je survivrai mieux que toi, c'est sûr. J'ai déjà les cheveux gris, mais j'étais là bien avant que Sultan débarque... et les paris sont ouverts, je serai encore là longtemps après son départ.</text>
+	</string>
+	<string id="bandit_trader_st_12">
+		<text>Merci pour le cours d'histoire. Encore désolé, hein.</text>
+	</string>
+
+	
+<!-- (Bandits Mechanic) -->
+	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_start_dialog_1">
+		<text>T'as besoin de quoi aujourd'hui, mec ? Je répare tes merdes en deux temps trois mouvements. Je peux aussi décrypter n'importe quel PDA verrouillé que t'aurais, alors pense à me les ramener.</text>
+	</string>
+	
+	<string id="bandit_mechanic_st_0">
+		<text>Raconte ton histoire, frangin.</text>
+	</string>
+	<string id="bandit_mechanic_st_1">
+		<text>Tu veux me faire coffrer ou quoi ? Bref, fais comme chez toi.</text>
+	</string>
+	<string id="bandit_mechanic_st_2">
+		<text>[continuer...]</text>
+	</string>
+	<string id="bandit_mechanic_st_3">
+		<text>Y'a eu des périodes où ma tronche était en permanence sur le tableau d'honneur... Je bossais comme ingénieur mécanique dans une usine et j'étais reconnu comme le meilleur spécialiste de la boîte. On m'a filé des prix et des certificats.</text>
+	</string>
+	<string id="bandit_mechanic_st_4">
+		<text>Et comment t'as tout perdu ? J'imagine que t'as voulu courir après une jupe ?</text>
+	</string>
+	<string id="bandit_mechanic_st_5">
+		<text>Héhé, je kiffe grave les cours de yoga privés avec les nanas, si tu vois ce que je veux dire ! Mais nan, c'est pas ça qui m'a eu.</text>
+	</string>
+	<string id="bandit_mechanic_st_6">
+		<text>Quoi ? On t'a surnommé Limpide parce que t'as soudainement eu un coup de mou en bas ?</text>
+	</string>
+	<string id="bandit_mechanic_st_7">
+		<text>T'es vraiment un putain de comique, toi. Bref, après une longue journée, ce que je voulais, c'était aller au bar avec les potes. Un jour, j'ai un peu trop picolé... Le patron nous a chopés, et j'ai été viré comme un bleu.</text>
+	</string>
+	<string id="bandit_mechanic_st_8">
+		<text>La vie, c'est une vraie salope.</text>
+	</string>
+	<string id="bandit_mechanic_st_9">
+		<text>Une salope que t'as sûrement jamais vue en vrai. J'ai bossé comme serrurier lambda et j'ai trouvé un nouveau pote, Vitka. Le boulot payait que dalle, mais heureusement, j'arrivais à me payer quelques verres de temps en temps. Un jour, on a picolé et déconné... J'sais même plus pourquoi. Bref, je l'ai planté avec un tournevis - heureusement, il est pas mort sur le coup. J'ai fait quelques années en taule max, et ma garce de femme a tout vendu et s'est barrée. À ma sortie, j'ai claqué tout mon fric en alcool et j'ai atterri dans les bas-fonds... Je suis arrivé ici quand la Zone est apparue. Ici, tout le monde est égal : on est tous des parias. J'ai retrouvé les gars à la Décharge - ils m'ont trouvé utile comme technicien et m'ont laissé rester. Le meilleur moment de ma vie... Des flingues et de la vodka à gogo.</text>
+	</string>
+	<string id="bandit_mechanic_st_10">
+		<text>C'est pas la Décharge, ici.</text>
+	</string>
+	<string id="bandit_mechanic_st_11">
+		<text>Belle observation ! Et moi qui croyais que t'étais aveugle ! J'en suis pas encore là, abruti. La grosse Emission est arrivée, et on s'est planqués comme des gonzesses.\n \nQuand ce cauchemar a été fini, on a tenu une réunion pour savoir où aller : les anomalies qui bloquaient Rostok à l'époque avaient soudain disparu, alors on subissait la pression de Devoir au nord, tandis qu'un prêtre taré essayait de nous déloger par le sud. Pour couronner le tout, notre boss de l'époque, Yoga, venait de clamser, et le seul à avoir les couilles de nous maintenir ensemble, c'était notre putain de barman.\n \nIl nous a divisés en petits groupes, nous a fait emprunter différents chemins pour se retrouver ici - la Vallée Obscure. Ensuite, bien sûr, il s'est fait buter par un flingueur amnésique quelques mois plus tard, nous laissant nous démerder seuls pendant quelques années... Olivius nous a maintenus à flot pendant ce temps, mais c'est seulement avec Sultan qu'on a réussi à se remettre en selle.</text>
+	</string>
+	<string id="bandit_mechanic_st_12">
+		<text>Sacrée histoire.</text>
+	</string>
+
+
+<!-- Sultan -->
+	<string id="zat_b7_bandit_boss_sultan_intro_0">
+		<text>Bienvenue dans ma citadelle. Tout ce qui se passe dans la vallée autour, c'est soit sous mon contrôle, soit ça va bientôt l'être. Quand t'en auras marre de cette vie de merde, viens bosser pour moi. Là, tu auras la belle vie. C'est comme ça qu'on fait, frangin.</text>
+	</string>
+	<string id="zat_b7_bandit_boss_sultan_about_0">
+		<text>Parle-moi de ta vie ici.</text>
+	</string>
+	<string id="zat_b7_bandit_boss_sultan_about_1">
+		<text>En tant que chef, c'est pas une partie de plaisir, c'est clair... T'as une question précise ?</text>
+	</string>
+	<string id="zat_b7_bandit_boss_sultan_about_1111">
+		<text>Qu'est-ce que tu fous ici ?</text>
+	</string>
+	<string id="zat_b7_bandit_boss_sultan_about_11111">
+		<text>On veille sur les stalkers. Faut avouer que la moitié d'entre vous ressemblent plus à des gamins qu'à des hommes. Vous débarquez dans la Zone avec des rêves à la con, ou pour jouer les héros, ou juste parce que la vie vous a mal traités. Vous ne réalisez pas tout ce qui vous attend ici : la grande faucheuse, surtout. C'est ce genre qu'on prend en charge. On en repère un à la Décharge, on lui pique son matos et on le renvoie au Cordon. Certains comprennent et se barrent au-delà de la frontière une fois arrivés. Ceux qui ont plus de couilles que de cervelle reviennent. Alors, qu'est-ce qu'on fait ? On les place sous notre protection et on les taxe. Je te le dis, personne n'ose s'aventurer sur notre territoire : ni l'armée, ni les mercenaires, et encore moins les mutants.</text>
+	</string>
+	<string id="zat_b7_bandit_boss_sultan_about_1112">
+		<text>Qu'est-ce qui t'a amené dans la Zone ?</text>
+	</string>
+	<string id="zat_b7_bandit_boss_sultan_about_11121">
+		<text>Nos guibolles. On est venus ici pour les stalkers, quoi d'autre ? Sans nous pour maintenir l'ordre, c'est le bordel intégral. Tu lootes, tu gardes, okay, mais qui va payer tes taxes ? Tu sais, la taxe pour la paix et la sécurité. Genre si l'un de vous exploite une anomalie pendant qu'on monte la garde et qu'on tient les mutants à distance. S'il s'en sort, on prend notre part... pour le maintien de l'ordre, tu piges ?</text>
+	</string>
+	<string id="zat_b7_bandit_boss_sultan_about_1113">
+		<text>Comment t'as fait pour devenir le gros bonnet du coin ?</text>
+	</string>
+	<string id="zat_b7_bandit_boss_sultan_about_11131">
+		<text>Par où commencer... Je dirais que tout a commencé au lycée. J'avais un pote, un vrai, mon meilleur ami. On traînait ensemble, on fumait, on picolait, tout ça. Sauf qu'il voulait toujours plus de sensations. Il a commencé à se droguer : d'abord de l'herbe, puis de l'héro, et enfin de la coke quand il a commencé à avoir un peu de thune. Je lui ai dit : « Faut que t'arrêtes ces conneries, Tolyan, avant qu'il soit trop tard. » Mais il a pas écouté. Un jour, il a chopé de la merde, et c'était fini. J'ai retrouvé ses dealers et je me suis vengé pour mon pote... J'ai fini en photo, et tout a dérapé : la taule, les bagarres de gangs, le coup de surin dans le bide... Je suis sorti, j'ai monté un business, je me suis fait serrer à nouveau... Quand je suis ressorti, j'ai tout laissé tomber et j'ai jeté mon dévolu sur la Zone. J'ai tenu quelques mois, puis j'ai été promu. Maintenant, je fais régner l'ordre ici.</text>
+	</string>
+	<string id="zat_b7_bandit_boss_sultan_about_1114">
+		<text>T'en penses quoi, du stalkers ?</text>
+	</string>
+	<string id="zat_b7_bandit_boss_sultan_about_11141">
+		<text>Ils sont tous différents. Y'en a qui sont des petits cons et qui tiennent pas une semaine ici, d'autres qui rapportent... et puis y'a ceux qui sont juste des mecs bien à qui la vie a mis des claques des deux côtés du Cordon. On plume les premiers, on taxe les deuxièmes. Quant aux derniers... ben, on essaie juste de pas se marcher sur les pieds. Dommage qu'on puisse pas toujours les distinguer tout de suite...</text>
+	</string>
+	<string id="zat_b7_bandit_boss_sultan_about_1115">
+		<text>T'en penses quoi, de Olivius ?</text>
+	</string>
+	<string id="zat_b7_bandit_boss_sultan_about_11151">
+		<text>Assez vieux pour être mon oncle... ou peut-être mon grand-père. Difficile à dire parfois. Un vrai Solid. Il me doit la vie pour avoir sauvé Vallée Obscure, et je le lui rappelle... des fois qu'il prenne la grosse tête, mais bon, c'est presque de la famille maintenant. Cette vallée serait pas la même sans ses contacts.</text>
+	</string>
+	<string id="zat_b7_bandit_boss_sultan_about_1116">
+		<text>Oh, laisse tomber. Oublie.</text>
+	</string>
+	<string id="zat_b7_bandit_boss_sultan_about_11161">
+		<text>Fais comme tu veux.</text>
+	</string>
+	
+	<string id="sultan_st_0">
+		<text>T'es Sultan, c'est ça ?</text>
+	</string>
+	<string id="sultan_st_1">
+		<text>Ouais, fiston, c'est ça, et j'ai mérité mon nom. J'ai débarqué ici depuis Zaton au bon moment. J'ai nettoyé l'endroit des mutants qui l'infestaient, j'ai sauvé les défenseurs, je les ai recrutés dans mon gang... j'ai remis tout le bâtiment en état. Beaucoup ici me doivent encore la vie, et ils l'oublient pas.\n\nBien sûr, c'est pas tout rose. T'es au courant de la raison pour laquelle je descendais de Zaton au départ ?</text>
+	</string>
+	<string id="sultan_st_2">
+		<text>Ouais, j'ai entendu. Un connard qui se fait passer pour ton pote t'a posé un lapin. Peu importe son blaze, à ce fils de pute, je vais lui en coller une bien bonne.</text>
+	</string>
+	<string id="sultan_st_3">
+		<text>Il s'appelait Alexander, mais t'inquiète pas pour lui. T'es un sacré courageux, gamin, mais son cul, c'est un vrai champ de mines en métal barbelé ; t'aurais la plus grosse bite du monde, t'y rentrerais pas.\n\nIl aura ce qu'il mérite, t'en fais pas. Fais confiance à ton Sultan, il gère.</text>
+	</string>
+	<string id="sultan_st_4">
+		<text>OK, Sultan. T'as ça dans le sang. Un conseil pour gérer les gens du coin ?</text>
+	</string>
+	<string id="sultan_st_5">
+		<text>Simple. Jamais faire confiance à qui que ce soit, sauf si tu vois le crâne noir et blanc sur leurs manches. La plupart des stalkers sont prêts à te planter dès qu'ils en ont l'occasion, alors évite de leur tendre des perches avec un coeur trop tendre. Bon, certains mercenaires sont corrects, tout comme Liberté, mais ne prends pas ça pour de l'affection ; ils te la mettront à l'envers s'ils pensent pouvoir s'en tirer. T'as l'air malin, alors tu vas vite piger. Juste, si tu sens que quelque chose cloche, ne traîne pas pour attendre des mots ou des balles, casse-toi direct. Mieux vaut que tu reviennes vivant, pour que les balances qui ont essayé de te coincer ne fassent pas de mal au reste de ta famille.</text>
+	</string>
+	<string id="sultan_st_6">
+		<text>Merci Sultan. Et pour le gîte ? Y'a d'autres planques sûres comme celle-ci dans la Zone ?</text>
+	</string>
+	<string id="sultan_st_7">
+		<text>Aucun endroit n'est vraiment sûr dans la Zone, gamin, mais ne laisse pas ce conseil tomber dans l'oreille d'un sourd. Au nord, y'a le Cimetière de véhicules. Pug peut te faire traverser sans encombre si t'as le fric ; il traîne généralement en bas des escaliers près de Olivius. Sinon, faudra te farcir la radioactivité, les mutants et les patrouilles militaires... mais si t'y arrives, tu trouveras des frères qui tiennent le checkpoint vers les Entrepôts de l'armée. Ils pourront te protéger, et au nord de là, Liberté veillera aussi sur toi. Juste, fais gaffe à pas tabasser quelqu'un que Lukash apprécie en plein jour, sinon tes jours parmi les loups verts seront comptés.\n \nÀ l'ouest, y'a la Décharge. Un chasseur à la retraite squatte le vieux hangar à trains, et quelques marchands de puces au nord-est de lui sont plutôt cool, mais leurs clients peuvent être trop nerveux à ton goût. Garde les yeux ouverts pour les gros groupes de stalkers, surtout Devoir, qui aiment traîner dans le coin.\n \nAu sud, y'a cette immense forêt appelée Darkscape - un endroit vraiment sauvage, avec des militaires qui patrouillent de temps en temps et des indépendants qui glandent. Un vrai labyrinthe. Avant, on l'utilisait pour rejoindre nos gars à la station de véhicules dans le Cordon, mais ces jours-ci, on passe par la Prairie, au sud-ouest.</text>
+	</string>
+	<string id="sultan_st_8">
+		<text>Ça a l'air d'être une sacrée petite famille bien installée, alors.</text>
+	</string>
+	<string id="sultan_st_9">
+		<text>Et t'attendais quoi, fiston ? La vie, c'est pas toujours une promenade de santé, mais on a des contacts. D'ailleurs, si t'as envie de prendre l'avantage sur des stalkers, va voir Loris, au nord-ouest du pont dans Cordon. Des fois y'a de la concurrence dans le coin, mais les jours calmes, tu devrais pouvoir l'aborder direct, et pour le bon prix, il te filera un déguisement. Bien plus facile de choper le trésor des bleus quand ils te voient pas venir.</text>
+	</string>
+	<string id="sultan_st_10">
+		<text>Merci pour l'aide, chef. Je vais en faire bon usage.</text>
+	</string>
+
+	
+<!-- (Bandit guide) -->
+	<string id="meet_guid_dv_bandit_0">
+		<text>T'es qui, toi ?</text>
+	</string>
+	<string id="meet_guid_dv_bandit_1">
+		<text>Ah, super, encore un touriste. Bon, t'as l'air pas trop con si on t'a laissé entrer.\n\nMoi c'est Pug. Je suis le guide local. Je peux t'emmener à notre avant-poste au Cimetière de véhicules pour environ 1500 roubles, ou à notre entrepôt à Jupiter pour 8000 roubles. Fais ton choix.</text>
+	</string>
+
+	<string id="travel_guid_dv_bandit_0">
+		<text>On y va.</text>
+	</string>
+	<string id="travel_guid_dv_bandit_1">
+		<text>On va où ?</text>
+	</string>
+	<string id="travel_guid_dv_bandit_2">
+		<text>Vers le Cimetière de véhicules. %c[d_orange][1500 RU]</text>
+	</string>
+	<string id="travel_guid_dv_bandit_3">
+		<text>Vers l'entrepôt de conteneurs à Jupiter. %c[d_orange][8000 RU]</text>
+	</string>
+	<string id="travel_guid_dv_bandit_4">
+		<text>J'ai changé d'avis.</text>
+	</string>
+
+</string_table>

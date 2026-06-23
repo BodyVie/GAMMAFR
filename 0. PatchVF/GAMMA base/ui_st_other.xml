@@ -213,7 +213,7 @@
 		<text>J'connais pas encore le chemin.</text>
 	</string>
 	<string id="st_level_changer_descr">
-		<text>Déplacer %s?</text>
+		<text>Déplacer %s ?</text>
 	</string>
 	<string id="st_future_maps_descr">
 		<text>Vous ne pouvez pas vous rendre à cet endroit.</text>
