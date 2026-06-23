@@ -40,8 +40,8 @@
   //    Mettre "" pour n'afficher aucun texte.
   // ════════════════════════════════════════════════════════════════════════
   var IMPORT_HELP_TEXT =
-    "Vous avez déjà généré une archive ? Récupérez le fichier ModListeConfigurateur.txt\n "
-    + "1. Dans MO2, trouver F.R.I.T.E.S.; Clic droit; Open in explorer.\n"
+    "Vous avez déjà généré une archive ? Récupérez le fichier ModListeConfigurateur.txt\n\n"
+    + "1. Dans MO2 -> trouver F.R.I.T.E.S. -> Clic droit -> Open in explorer.\n"
     + "2. Glisser le fichier ModListeConfigurateur.txt ci-dessous"
     + "\n\n"
     + "Pratique pour refaire votre pack à l'identique après une mise à jour. "
