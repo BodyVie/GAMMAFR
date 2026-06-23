@@ -1,5 +1,14 @@
 [
   {
+    "version": "26.0623",
+    "date": "2026-06-23",
+    "changes": [
+      "Mise à jour Glossaire",
+      "Fix Casse XML",
+      "Fix Traduction manquante"
+    ]
+  },
+  {
     "version": "26.0621",
     "date": "2026-06-21",
     "changes": [
