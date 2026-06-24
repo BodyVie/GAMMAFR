@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-24T13:53:50+00:00",
+  "generated": "2026-06-24T13:54:08+00:00",
   "base": {
     "files": [
       "0. PatchVF/GAMMA base/9a91_vsk94.xml",
@@ -913,7 +913,7 @@
     {
       "id": "5. Anomaly Popup Messages",
       "name": "5. Anomaly Popup Messages",
-      "description": "",
+      "description": "Auteur :TheMrDemonized",
       "date": "2026-06-24",
       "version": "2.3",
       "moddb_updated": "Feb 1st, 2023",
