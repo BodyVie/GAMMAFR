@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+
+    <!-- Medicine -->
+	<string id="st_player_skills_hint_medicine">
+		<text>Offre une brève amélioration de la restauration de la santé et de la résistance aux radiations, selon l'objet médical utilisé.\n\nLes niveaux s'obtiennent en utilisant des médicaments et des drogues.\n \n</text>
+	</string>
+	<string id="st_skills_stats_restore_boost_positive">
+        <text>\n%c[255,138,43,226]•%c[ui_6] Restauration obtenue en bonus : %c[d_green]$stat%</text>
+    </string>
+    <string id="st_skills_stats_restore_boost_negative">
+        <text>\n%c[255,138,43,226]•%c[ui_6] Perte de restauration en bonus : %c[d_red]$stat%</text>
+    </string>
+
+	<!-- Insanity -->
+	<string id="st_player_skills_hint_insanity">
+		<text>Tu perds la boule... mais tu gagnes de la régénération psy et une résistance aux dégâts psy.\nLe bonus de régénération psy est doublé quand tu joues d'un instrument.\n\nLes niveaux s'obtiennent en subissant des dégâts psy et en jouant d'un instrument en combat.\n \n</text>
+	</string>
+    <string id="st_skills_stats_psy_regen_positive">
+        <text>\n%c[255,138,43,226]•%c[ui_6] Régénération de santé psy augmentée de : %c[d_green]$stat%/sec</text>
+    </string>
+
+    <string id="st_skills_stats_psy_hit_resistance_positive">
+        <text>\n%c[255,138,43,226]•%c[ui_6] Dégâts psy subis réduits de : %c[d_green]$stat%</text>
+    </string>
+    <string id="st_skills_stats_psy_hit_resistance_negative">
+        <text>\n%c[255,138,43,226]•%c[ui_6] Dégâts psy subis augmentés de : %c[d_red]$stat%</text>
+    </string>
+	
+	<!-- Tinkering -->
+	<string id="st_player_skills_hint_tinkering">
+		<text>Donne une chance de ne pas consommer une utilisation de ton kit de réparation.\n\nLes niveaux s'obtiennent en réparant du matos avec des kits de réparation.\n \n</text>
+	</string>
+	<string id="st_skills_stats_refund_chance_positive">
+        <text>\n%c[255,138,43,226]•%c[ui_6] Chance d'utiliser gratuitement un kit de réparation : %c[d_green]$stat%</text>
+    </string>
+	
+	<!-- Bartering -->
+	<string id="st_player_skills_hint_bartering">
+		<text>Permet d'obtenir de meilleurs prix en commerce et plus d'argent avec les missions.\n\nLes niveaux s'obtiennent en vendant des objets et en accomplissant des missions.\n \n</text>
+	</string>
+	<string id="st_skills_stats_discount_positive">
+        <text>\n%c[255,138,43,226]•%c[ui_6] Prix des marchands réduits de : %c[d_green]$stat%</text>
+    </string>
+    <string id="st_skills_stats_discount_negative">
+        <text>\n%c[255,138,43,226]•%c[ui_6] Prix des marchands augmentés de : %c[d_red]$stat%</text>
+    </string>
+	<string id="st_skills_stats_sell_bonus_positive">
+        <text>\n%c[255,138,43,226]•%c[ui_6] Valeur de vente augmentée de : %c[d_green]$stat%</text>
+    </string>
+    <string id="st_skills_stats_sell_bonus_negative">
+        <text>\n%c[255,138,43,226]•%c[ui_6] Valeur de vente réduite de : %c[d_red]$stat%</text>
+    </string>
+    <string id="st_skills_stats_task_bonus_positive">
+        <text>\n%c[255,138,43,226]•%c[ui_6] Récompense financière de la mission augmentée de : %c[d_green]$stat%</text>
+    </string>
+    <string id="st_skills_stats_task_bonus_negative">
+        <text>\n%c[255,138,43,226]•%c[ui_6] Récompense financière de la mission réduite de : %c[d_red]$stat%</text>
+    </string>
+	
+	<!-- Magloading -->
+	<string id="st_player_skills_hint_magloading">
+		<text>Augmente la vitesse de chargement et de déchargement des chargeurs.\n\nLes niveaux s'obtiennent en chargeant et déchargeant des chargeurs.\n(Le niveau maximum est limité par ta Force et ton Endurance)\n \n</text>
+	</string>
+	<string id="st_skills_stats_loadspeed_positive">
+        <text>\n%c[255,138,43,226]•%c[ui_6] Vitesse de chargement du chargeur augmentée de : %c[d_green]$stat%</text>
+    </string>
+    <string id="st_skills_stats_loadspeed_negative">
+        <text>\n%c[255,138,43,226]•%c[ui_6] Vitesse de chargement du chargeur réduite de : %c[d_red]$stat%</text>
+    </string>
+	
+	<!-- Lockpicking -->
+	<string id="st_player_skills_hint_lockpicking">
+		<text>Réduit la difficulté des lootboxes verrouillées.\n\nLes niveaux s'obtiennent en ouvrant des lootboxes.\n(L'utilisation d'une Clé Squelette ne donne pas d'expérience)\n \n</text>
+	</string>
+	<string id="st_skills_stats_lockpick_diff_reduc_positive">
+        <text>\n%c[255,138,43,226]•%c[ui_6] Difficulté des caisses à loot réduite de : %c[d_green]$stat%</text>
+    </string>
+    <string id="st_skills_stats_lockpick_diff_reduc_negative">
+        <text>\n%c[255,138,43,226]•%c[ui_6] Difficulté des caisses à loot augmentée de : %c[d_red]$stat%</text>
+    </string>
+	
+	<!-- Reloading -->
+	<string id="st_player_skills_hint_reloading">
+		<text>Permet de recharger les armes plus rapidement et d'augmenter la vitesse de dégainage/rengainage.\n\nLes niveaux s'obtiennent en utilisant les armes de manière générale.\n(Le niveau maximum est limité par ton Endurance et ta Survie)\n \n</text>
+	</string>
+	<string id="st_skills_stats_reload_speed_positive">
+        <text>\n%c[255,138,43,226]•%c[ui_6] Vitesse de rechargement augmentée de : %c[d_green]$stat%</text>
+    </string>
+    <string id="st_skills_stats_reload_speed_negative">
+        <text>\n%c[255,138,43,226]•%c[ui_6] Vitesse de rechargement réduite de : %c[d_red]$stat%</text>
+    </string>
+	
+	<string id="st_skills_stats_equip_speed_positive">
+        <text>\n%c[255,138,43,226]•%c[ui_6] Vitesse de dégainage/rengainage augmentée de : %c[d_green]$stat%</text>
+    </string>
+    <string id="st_skills_stats_equip_speed_negative">
+        <text>\n%c[255,138,43,226]•%c[ui_6] Vitesse de dégainage/rengainage réduite de : %c[d_red]$stat%</text>
+    </string>
+	
+</string_table>

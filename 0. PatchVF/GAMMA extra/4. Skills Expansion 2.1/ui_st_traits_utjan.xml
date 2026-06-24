@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="st_traits_use_respec">
+		<text>boire</text>
+	</string>
+	<string id="st_itm_desc_trait_respec">
+		<text>Sunset Sarsaparilla est une bière sans alcool.\n
+		La Sunset Sarsaparilla Company a été fondée en 1918 et est devenue célèbre dans l'ancien territoire des États-Unis pour sa boisson gazeuse aromatisée à la salsepareille.
+		\n \n
+		%c[ui_gray_3]PROPRIÉTÉS :\n
+		%c[d_blue] • %c[ui_gray_2] boisson\n
+		%c[d_blue] • %c[ui_gray_2] importée\n
+		%c[d_blue] • %c[ui_gray_2] de haute qualité\n
+		%c[d_red] • %c[ui_gray_2] peut entraîner une insuffisance rénale\n
+		\n \n
+		%c[ui_gray_3]Buvez ceci pour réinitialiser vos traits.</text>
+	</string>
+	<string id="st_itm_name_trait_respec">
+		<text>Sunset Sarsaparilla</text>
+	</string>
+
+	<string id="st_btn_enable">
+		<text>Activer</text>
+	</string>
+	<string id="st_btn_disable">
+		<text>Désactiver</text>
+	</string>
+	
+	<string id="st_btn_learn">
+		<text>Apprendre un trait</text>
+	</string>
+	<string id="st_btn_learn_learned">
+		<text>Appris</text>
+	</string>
+	<string id="st_btn_learn_locked">
+		<text>Verrouillé</text>
+	</string>
+	
+	<string id="st_requires_trait">
+		<text>Nécessite un trait</text>
+	</string>
+	
+	<string id="st_traits_reminder">
+		<text>Tu as des points de trait non dépensés !</text>
+	</string>
+	
+	<string id="st_traits_title">
+		<text>Traits de caractère</text>
+	</string>
+	
+	<string id="st_traits_total_level">
+		<text>Niveau total des traits</text>
+	</string>
+	
+	<string id="st_traits_avail_txt">
+		<text>Points de trait : </text>
+	</string>
+	
+	<string id="st_trait_name_strong_back">
+		<text>Dos solide</text>
+	</string>
+	<string id="st_trait_desc_strong_back">
+		<text>Votre dos est renforcé par le port de recrues\n\nAugmente votre capacité de port de +4 kg</text>
+	</string>
+	
+	<string id="st_trait_name_pack_mule">
+		<text>Bête de somme</text>
+	</string>
+	<string id="st_trait_desc_pack_mule">
+		<text>Il n'est pas nécessaire de ramasser chaque objet trouvé...\n\nAugmente votre capacité de port de 8 kg.\nRéduit votre vitesse de sprint de 4 %.</text>
+	</string>
+
+	<string id="st_trait_name_strider">
+		<text>Vagabond</text>
+	</string>
+	<string id="st_trait_desc_strider">
+		<text>« Il faut marcher vite...\nJe ne veux pas être en retard à ce rendez-vous »\n\nAugmente votre vitesse de déplacement de 6 %\nRéduit votre capacité de port de 1 kg</text>
+	</string>
+	
+	<string id="st_trait_name_sprinter">
+		<text>Sprinteur</text>
+	</string>
+	<string id="st_trait_desc_sprinter">
+		<text>Il faut courir vite...\nPour ne pas se faire surprendre par une émission\n \nAugmente votre vitesse de sprint de 8 %\nRéduit le poids transportable de 2 kg</text>
+	</string>
+	
+	<string id="st_trait_name_mutant_resist">
+		<text>Peau dure</text>
+	</string>
+	<string id="st_trait_desc_mutant_resist">
+		<text>Votre peau s'est endurcie en luttant contre les mutants\n\nVous subissez 10 % de dégâts en moins lors des impacts des mutants</text>
+	</string>
+	
+	<string id="st_trait_name_melee_mutant">
+		<text>Chasseur de Mutants</text>
+	</string>
+	<string id="st_trait_desc_melee_mutant">
+		<text>Pourquoi gaspiller des munitions alors qu'un coup de couteau suffit ?\n\nVous infligez 15 % de dégâts supplémentaires en corps à corps aux mutants</text>
+	</string>
+	
+	<string id="st_trait_name_faction_cashback_self">
+		<text>Visage amical</text>
+	</string>
+	<string id="st_trait_desc_faction_cashback_self">
+		<text>Les marchands de votre faction sont toujours ravis de vous voir\n\nVous bénéficiez de +5 % de meilleurs prix auprès des marchands de votre propre faction</text>
+	</string>
+	
+	<string id="st_trait_name_faction_cashback_other">
+		<text>Marchand ambulant</text>
+	</string>
+	<string id="st_trait_desc_faction_cashback_other">
+		<text>Vous savez négocier avec les inconnus\n\nVous bénéficiez de +5 % de meilleurs prix auprès des marchands n’appartenant pas à votre faction</text>
+	</string>
+	
+	<string id="st_trait_name_psy_resist_controller">
+		<text>Esprit blasé</text>
+	</string>
+	<string id="st_trait_desc_psy_resist_controller">
+		<text>Votre esprit n’est plus tout à fait le même qu’à votre première entrée dans la Zone...\n\nVous subissez 25 % de dégâts en moins lors des attaques psychiques des controllers</text>
+	</string>
+	
+	<string id="st_trait_name_tinkering_armor">
+		<text>Armurier</text>
+	</string>
+	<string id="st_trait_desc_tinkering_armor">
+		<text>Vous n'auriez pas à réparer votre armure aussi souvent si vous évitiez simplement les impacts.\n\nVous avez 15 % de chances supplémentaires de ne pas consommer une utilisation de votre kit de réparation lors de la réparation des armures corporelles et des casques.</text>
+	</string>
+	
+	<string id="st_trait_name_tinkering_weapon">
+		<text>Armurier d'armes</text>
+	</string>
+	<string id="st_trait_desc_tinkering_weapon">
+		<text>Tuer des tushkanos en rafale use considérablement une arme.\n\nVous avez 15 % de chances supplémentaires de ne pas consommer une utilisation de votre kit de réparation lors de la réparation d'armes.</text>
+	</string>
+	
+	<string id="st_trait_name_medicine_boost">
+		<text>Médecin</text>
+	</string>
+	<string id="st_trait_desc_medicine_boost">
+		<text>Félicitations, vous avez trouvé le remède contre les impacts de balles.\n\nLors de l'utilisation d'un objet médical, vous récupérez 10 % de la santé et de la radiation totale restaurée sous forme de regain rapide.</text>
+	</string>
+	
+	<string id="st_trait_name_mag_loading_bonus">
+		<text>Chargeur rapide</text>
+	</string>
+	<string id="st_trait_desc_mag_loading_bonus">
+		<text>« Prends une poignée de cartouches et enfonce-les dedans »\n\nLe chargement des cartouches dans un chargeur est 25 % plus rapide</text>
+	</string>
+	
+	<string id="st_trait_name_mag_unloading_bonus">
+		<text>Accumulateur de balles</text>
+	</string>
+	<string id="st_trait_desc_mag_unloading_bonus">
+		<text>Vider systématiquement chaque chargeur trouvé vous semble être une bonne idée.\n\nLe déchargement des cartouches des chargeurs est 30 % plus rapide.</text>
+	</string>
+
+	<string id="st_trait_name_lockpicking_bonus">
+		<text>Serrurier</text>
+	</string>
+	<string id="st_trait_desc_lockpicking_bonus">
+		<text>"Que contient la boîte ?"\n\nLa difficulté de crochetage des caisses de butin est réduite de 10 %</text>
+	</string>
+	
+	<string id="st_trait_name_melee_defense">
+		<text>Mêlée défensive</text>
+	</string>
+	<string id="st_trait_desc_melee_defense">
+		<text>Sortir son couteau réduit étrangement la douleur même causée par les explosions.\n\nVous subissez 20 % de dégâts en moins lors des impacts physiques lorsque vous tenez une arme de mêlée.</text>
+	</string>
+	
+	<string id="st_trait_name_lone_stalker">
+		<text>Stalker solitaire</text>
+	</string>
+	<string id="st_trait_desc_lone_stalker">
+		<text>Qui a besoin d'amis de toute façon ?\n\nEn l'absence de compagnons, votre capacité de port est augmentée de 5 kg et vous subissez 10 % de dégâts en moins.</text>
+	</string>
+	
+	<string id="st_trait_name_squad_leader">
+		<text>Chef d'escouade</text>
+	</string>
+	<string id="st_trait_desc_squad_leader">
+		<text>Explorer la Zone est plus sûr lorsque vous avez des membres d'escouade... de chair à canon.\n\nVos compagnons infligent 15 % de dégâts supplémentaires et subissent 25 % de dégâts en moins.</text>
+	</string>
+	
+	<string id="st_trait_name_small_guns_reload">
+		<text>Tireur d'élite</text>
+	</string>
+	<string id="st_trait_desc_small_guns_reload">
+		<text>Vous portez vos armes en bandoulière... ainsi que vos chargeurs\n\nVous rechargez les pistolets et les pistolets-mitrailleurs 25 % plus rapidement</text>
+	</string>
+	
+	<string id="st_trait_name_big_guns_reload">
+		<text>Expert en armes longues</text>
+	</string>
+	<string id="st_trait_desc_big_guns_reload">
+		<text>Il n'est pas nécessaire de recharger en plein combat après avoir tiré seulement 2 balles d'un chargeur de 30 cartouches...\n\nVous rechargez les fusils, les fusils de précision et les fusils à pompe 15 % plus rapidement.</text>
+	</string>
+	
+	<string id="st_trait_name_sidearm_quickdraw">
+		<text>Dégainage rapide</text>
+	</string>
+	<string id="st_trait_desc_sidearm_quickdraw">
+		<text>Rappel : sortir son pistolet est toujours plus rapide que de recharger.\n\nVous rangez les armes autres que les pistolets 25 % plus vite et équipez les pistolets 50 % plus vite.</text>
+	</string>
+	
+	<string id="st_trait_name_butcher">
+		<text>Boucher</text>
+	</string>
+	<string id="st_trait_desc_butcher">
+		<text>Découper soigneusement le cadavre d'un mutant pour en tirer le maximum d'utilité.\n\nVous avez 50 % de chances d'obtenir une pièce supplémentaire de mutant lors du dépouillage.</text>
+	</string>
+	
+	<string id="st_trait_name_tinkering_parts">
+		<text>Régénérateur de pièces</text>
+	</string>
+	<string id="st_trait_desc_tinkering_parts">
+		<text>Les Stalkers envient l'état impeccable de votre équipement.\n\nVous avez 25 % de chances supplémentaires de ne pas consommer une utilisation de votre kit de réparation lors de la réparation de pièces et d'outils.</text>
+	</string>
+	
+	<string id="st_trait_name_pain_rush">
+		<text>Rush de douleur</text>
+	</string>
+	<string id="st_trait_desc_pain_rush">
+		<text>« AAAAAAAHHH ! »\n\nVous gagnez une accélération des déplacements pendant 10 secondes après avoir subi des dégâts\nJusqu’à +25 % de vitesse</text>
+	</string>
+	
+	<string id="st_trait_name_pain_train">
+		<text>Train de douleur</text>
+	</string>
+	<string id="st_trait_desc_pain_train">
+		<text>« AAAAAAAAAAAHHHHHHHHHH !!! »\n\nLe bonus Pain Rush accorde également jusqu’à 5 % de régénération d’endurance par seconde\nLe bonus Pain Rush dure 5 secondes de plus</text>
+	</string>
+	
+	<string id="st_trait_name_predator">
+		<text>Prédateur</text>
+	</string>
+	<string id="st_trait_desc_predator">
+		<text>« Je n’ai pas le temps de saigner »\n\nTuer des stalkers et des mutants réduit les saignements jusqu’à 5 % sur 10 secondes</text>
+	</string>
+	
+	<string id="st_trait_name_bloodlust">
+		<text>Sanguinaire</text>
+	</string>
+	<string id="st_trait_desc_bloodlust">
+		<text>Si cela saigne, nous pouvons le tuer.\n\nLe bonus Prédateur améliore également la maniabilité de l'arme.\nJusqu'à 25 % plus rapide pour recharger et sortir/ranger l'arme.</text>
+	</string>
+	
+	<string id="st_trait_name_thick_skull">
+		<text>Crâne épais</text>
+	</string>
+	<string id="st_trait_desc_thick_skull">
+		<text>Peut-être est-ce dû aux radiations ou simplement à la Zone, mais votre crâne s'est épaissi...\n\nVous subissez 10 % de dégâts en moins lors des impacts à la tête.\nLes prix d'échange sont 3 % moins avantageux.</text>
+	</string>
+</string_table>

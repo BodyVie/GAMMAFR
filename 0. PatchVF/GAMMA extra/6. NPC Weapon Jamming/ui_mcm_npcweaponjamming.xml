@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+    <string id="ui_mcm_menu_npcweaponjamming">
+        <text>Enrayage arme NPCS</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_title_v057">
+        <text>Enrayage des armes des NPCS v0.5.7</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_intro">
+        <text>Règle la fréquence d'enrayage des armes des NPCS et leur réaction après un dysfonctionnement.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_base_jam_chance">
+        <text>Taux d'enrayage de base</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_base_jam_chance_desc">
+        <text>Probabilité d'enrayage initiale avant application de l'état de l'arme, du rang et de la variance.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_condition_scale">
+        <text>Échelle d'état des armes</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_condition_scale_desc">
+        <text>Probabilité d'enrayage supplémentaire ajoutée à mesure que l'état de l'arme se dégrade vers zéro.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_rank_modifiers_title">
+        <text>Modificateurs de rang</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_rank_modifiers_intro">
+        <text>Les valeurs positives augmentent le taux d'enrayage pour ce rang. Les valeurs négatives les rendent plus fiables.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_novice_bonus">
+        <text>Bonus de rang Novice</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_novice_bonus_desc">
+        <text>Modificateur de probabilité d'enrayage appliqué au NPCs novice.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_experienced_bonus">
+        <text>Bonus de rang Expérimenté</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_experienced_bonus_desc">
+        <text>Modificateur de probabilité d'enrayage appliqué au NPCs expérimenté.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_professional_bonus">
+        <text>Bonus de rang Professionnel</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_professional_bonus_desc">
+        <text>Modificateur de probabilité d'enrayage appliqué au NPCs professionnel.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_veteran_bonus">
+        <text>Bonus de rang Vétéran</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_veteran_bonus_desc">
+        <text>Modificateur de probabilité d'enrayage appliqué au NPCs vétéran.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_master_bonus">
+        <text>Bonus de rang Maître</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_master_bonus_desc">
+        <text>Modificateur de probabilité d'enrayage appliqué au NPCs maître.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_legend_bonus">
+        <text>Bonus de rang Légende</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_legend_bonus_desc">
+        <text>Modificateur de probabilité d'enrayage appliqué au NPCs de niveau légende.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_variance_scale">
+        <text>Variation du taux d'enrayage</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_variance_scale_desc">
+        <text>Variation aléatoire par tir appliquée à chaque calcul d'enrayage. Permet d'éviter que les NPCs de même rang ne se comportent de manière identique.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_jam_seek_cover">
+        <text>Recherche de couverture après enrayage</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_jam_seek_cover_desc">
+        <text>Lorsque cette option est activée, les NPCs enrayés tentent de rompre la ligne de tir et de se déplacer vers un abri proche.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_cover_search_radius">
+        <text>Rayon de recherche de couverture</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_cover_search_radius_desc">
+        <text>Distance maximale en mètres à laquelle un NPC enrayé recherchera un abri.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_cover_cooldown_ms">
+        <text>Temps de recharge de la couverture</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_cover_cooldown_ms_desc">
+        <text>Temps minimal en millisecondes entre les réactions de prise de couverture pour un même NPC.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_skip_companions">
+        <text>Ignorer les enrayages des compagnons</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_skip_companions_desc">
+        <text>Lorsque cette option est activée, les compagnons du joueur ne sont jamais soumis à des enrayages d'arme.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_condition_rng_title">
+        <text>État des armes au chargement de la Zone</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_condition_rng_title_desc">
+        <text>Contrôle la plage d'état des armes des NPCS lors de leur chargement initial dans une zone. Les NPCs de rang supérieur tendent automatiquement vers un meilleur état.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_condition_rng_min">
+        <text>État minimal (%)</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_condition_rng_min_desc">
+        <text>État minimal qu'un NPC novice peut obtenir. Les NPCs de rang supérieur tendent automatiquement vers le maximum.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_condition_rng_max">
+        <text>État maximal (%)</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_condition_rng_max_desc">
+        <text>État maximal qu'un NPC légende peut obtenir. Les novices atteindront rarement cette valeur.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_fumble_enabled">
+        <text>Ratés de rechargement des NPCS</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_fumble_enabled_desc">
+        <text>Lorsque cette option est activée, les NPCs enrayés sont forcés dans un état d'inactivité pendant une courte durée avant de pouvoir recharger, durée ajustée en fonction du rang et de l'état de l'arme.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_fumble_title">
+        <text>Délai de désenrayage/rechargement</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_fumble_min_sec">
+        <text>Temps minimal de raté (secondes)</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_fumble_min_sec_desc">
+        <text>Temps de récupération le plus court - s'applique aux NPCs de rang légende avec un état d'arme quasi parfait.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_fumble_max_sec">
+        <text>Temps maximal de raté (secondes)</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_fumble_max_sec_desc">
+        <text>Temps de récupération le plus long - s'applique aux NPCs de rang novice avec des armes fortement dégradées.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_cover_wait_min_ms">
+        <text>Temps d'attente minimal en couverture (ms)</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_cover_wait_min_ms_desc">
+        <text>Temps minimal pendant lequel un NPC enrayé reste à couvert avant de reprendre l'engagement. Des valeurs plus basses rendent le combat plus agressif.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_cover_wait_max_ms">
+        <text>Temps d'attente maximal en couverture (ms)</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_cover_wait_max_ms_desc">
+        <text>Temps maximal pendant lequel un NPC enrayé reste à couvert avant de reprendre l'engagement. Des valeurs plus élevées permettent aux NPCs de rester abrités plus longtemps.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_debug_log">
+        <text>Journalisation détaillée</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_debug_log_desc">
+        <text>Enregistre les événements d'enrayage et les temporisateurs de maladresse dans le journal du jeu. Désactivé par défaut - à activer lors de la signalisation de bugs.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_update_interval_ms">
+        <text>Intervalle de mise à jour (ms)</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_update_interval_ms_desc">
+        <text>Fréquence (en millisecondes) à laquelle la logique d'enrayage s'exécute par NPC. 200 ms est une valeur par défaut recommandée.</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_debug_title">
+        <text>Débogage</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_reroll_conditions">
+        <text>Réinitialiser l'état de toutes les armes</text>
+    </string>
+    <string id="ui_mcm_npcweaponjamming_reroll_conditions_desc">
+        <text>Relance immédiatement l'état des armes pour tous les NPCs en ligne.</text>
+    </string>
+</string_table>

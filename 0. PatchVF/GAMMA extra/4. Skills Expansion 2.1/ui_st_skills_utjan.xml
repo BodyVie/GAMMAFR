@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="st_player_skills_medicine">
+		<text>Médecine</text>
+	</string>
+	<string id="st_new_level_medicine">
+		<text>$clr_red• $clr_whiRestauration des objets médicaux boostée</text>
+	</string>
+	
+	<string id="st_player_skills_insanity">
+		<text>Folie</text>
+	</string>
+	<string id="st_new_level_insanity">
+		<text>$clr_pur• $clr_whiteTu perds encore un peu plus la boule...\n$clr_pur• $clr_whiteRégénération psy boostée\n$clr_pur• $clr_whiteRésistance psy améliorée</text>
+	</string>
+	
+	<string id="st_player_skills_tinkering">
+		<text>Bricolage</text>
+	</string>
+	<string id="st_new_level_tinkering">
+		<text>$clr_cya• $clr_whiAmélioration de l'utilisation des kits de réparation</text>
+	</string>
+	<string id="st_tinkering_refund">
+		<text>T’as réparé l’objet sans consommer une utilisation du kit de réparation.</text>
+	</string>
+	
+	<string id="st_player_skills_bartering">
+		<text>Troc</text>
+	</string>
+	<string id="st_new_level_bartering">
+		<text>$clr_yellow• $clr_whitePrix de troc améliorés\n$clr_yellow• $clr_whiteRécompenses en argent des quêtes améliorées</text>
+	</string>
+	
+	<string id="st_player_skills_magloading">
+		<text>Chargement des armes</text>
+	</string>
+	<string id="st_new_level_magloading">
+		<text>$clr_white• $clr_whiteVitesse de chargement et de déchargement du chargeur améliorée</text>
+	</string>
+	
+	<string id="st_player_skills_lockpicking">
+		<text>Crochetage</text>
+	</string>
+	<string id="st_new_level_lockpicking">
+		<text>$clr_white• $clr_whiteDifficulté de crochetage de la boîte à butin réduite</text>
+	</string>
+	
+	<string id="st_player_skills_reloading">
+		<text>Maniement des armes</text>
+	</string>
+	<string id="st_new_level_reloading">
+		<text>$clr_white• $clr_whiteVitesse de rechargement et de dégainage/rengainage améliorée</text>
+	</string>
+</string_table>

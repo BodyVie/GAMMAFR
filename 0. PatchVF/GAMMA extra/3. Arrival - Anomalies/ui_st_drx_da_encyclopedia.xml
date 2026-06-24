@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+
+	<string id="zone_mine_cdf_section_name">
+		<text>Champ de Dissonance Cognitive</text>
+	</string>
+	
+	<string id="zone_mine_umbra_section_name">
+		<text>Amas Umbral</text>
+	</string>
+	
+	<string id="zone_mine_flash_section_name">
+		<text>L'Éclair</text>
+	</string>
+	
+	<string id="zone_mine_ghost_section_name">
+		<text>Ghost</text>
+	</string>
+	
+	<string id="zone_mine_gold_section_name">
+		<text>Or liquide</text>
+	</string>
+	
+	<string id="zone_mine_thorn_section_name">
+		<text>Épine</text>
+	</string>
+	
+	<string id="zone_mine_seed_section_name">
+		<text>Graine</text>
+	</string>
+	
+	<string id="zone_mine_shatterpoint_section_name">
+		<text>Fracture</text>
+	</string>
+	
+	<string id="zone_mine_sloth_section_name">
+		<text>Paresseux</text>
+	</string>
+	
+	<string id="zone_mine_mefistotel_section_name">
+		<text>Mephistopheles</text>
+	</string>
+	
+	<string id="zone_mine_net_section_name">
+		<text>Net</text>
+	</string>
+	
+	<string id="zone_mine_point_section_name">
+		<text>Point</text>
+	</string>
+	
+	<string id="zone_mine_sphere_section_name">
+		<text>Propulseur</text>
+	</string>
+	
+	<string id="encyclopedia_anomalies_cdf">
+		<text>Champ de Dissonance Cognitive</text>
+	</string>
+	<string id="encyclopedia_anomalies_cdf_text">
+		<text>
+			• Nom : %c[d_cyan]Champ de Dissonance Cognitive%c[ui_gray_1]
+			\n• Type : %c[d_orange]Psionique
+			\n\n%c[pda_green]Informations%c[ui_gray_1]
+			\nLe "Champ de Dissonance Cognitive", également connu sous le nom d'anomalie "CDF", est une brèche hautement localisée dans le tissu de la Noosphère. Il émet une faible aura psionique qui peut avoir des effets graves sur la santé mentale de toute personne se trouvant à proximité. Cette anomalie est particulièrement insidieuse car elle brouille les fréquences des ondes cérébrales de ceux qu'elle affecte, entraînant confusion, désorientation et d'autres effets cognitifs négatifs. Contrairement aux champs psi classiques, l'anomalie "CDF" contourne tout moyen conventionnel de protection psionique, affectant directement l'esprit de la victime. Le Champ de Dissonance Cognitive est difficile à repérer pendant la journée car la couleur qu'il émet est similaire à celle du ciel de la Zone. Cependant, son son distinctif peut être facilement distingué de l'environnement alentour, ce qui est essentiel pour les stalkers afin de rester en vie et sains d'esprit. Pendant la nuit, l'anomalie est plus visible en raison du contraste avec le ciel nocturne noir, émettant des lumières bleutées pulsantes qui aident à identifier sa position. L'exposition au Champ de Dissonance Cognitive doit être évitée à tout prix, car elle peut avoir des effets graves et durables sur la santé mentale. Même une exposition brève peut entraîner confusion, perte de mémoire et autres troubles cognitifs. Les stalkers doivent faire preuve de prudence lorsqu'ils naviguent dans des zones où cette anomalie est présente et prendre les précautions nécessaires pour protéger leur bien-être mental.
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_umbra">
+		<text>Amas Umbral</text>
+	</string>
+	<string id="encyclopedia_anomalies_umbra_text">
+		<text>
+			• Nom : %c[d_cyan]Amas Umbral%c[ui_gray_1]
+			\n• Type : %c[d_orange]Psionique
+			\n\n%c[pda_green]Informations%c[ui_gray_1]
+			\nL’« Umbral Cluster » ou plus communément appelé simplement « Umbra » est une formation hautement inhabituelle et dangereuse qui semble perturber le tissu même de la réalité. On pense qu'il est d'origine extraterrestre et qu'il est capable de modifier les lois fondamentales de la physique dans son voisinage. L'anomalie se manifeste sous la forme d'un essaim d'entités semblables à des ombres se déplaçant à l'unisson, créant une atmosphère étrange et déstabilisante. L'anomalie Umbra a un effet unique sur la psyché humaine, induisant des sentiments de terreur, de paranoïa et d'effroi chez ceux qui s'aventurent trop près. Des recherches récentes suggèrent que l'Umbral Cluster pourrait être une forme de matière non newtonienne fonctionnant selon des principes qui ne sont pas encore pleinement compris. Les schémas de mouvement et le comportement de l'essaim semblent régis par des algorithmes complexes qui défient la physique conventionnelle. De plus, l'influence de l'anomalie sur le cerveau humain pourrait être liée à son interaction avec le champ électromagnétique du corps, entraînant la production de patterns d'ondes cérébrales anormaux. Cette anomalie est également connue pour attirer les poltergeists, qui sont censés trouver refuge au sein de l'essaim. Les raisons de cette attraction restent floues, mais certains chercheurs spéculent que les poltergeists pourraient être attirés par le champ électromagnétique unique de l'anomalie. L'Umbral Cluster est l'une des anomalies les plus dangereuses jamais enregistrées dans la Zone, et l'exposition à ses effets doit être évitée à tout prix. Même une exposition brève peut entraîner des traumatismes psychologiques durables, et ceux qui passent des périodes prolongées à proximité de l'anomalie peuvent subir des dommages permanents à leur santé mentale. Les Stalkers doivent faire preuve d'une extrême prudence en s'approchant de cette anomalie et prendre toutes les précautions nécessaires pour protéger leur bien-être.
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_flash">
+		<text>L'Éclair</text>
+	</string>
+	<string id="encyclopedia_anomalies_flash_text">
+		<text>
+			• Nom : %c[d_cyan]Éclair%c[ui_gray_1]
+			\n• Type : %c[d_orange]Temporel
+			\n\n%c[pda_green]Informations%c[ui_gray_1]
+			\nL’anomalie « Éclair » crée une déchirure dans le continuum espace-temps qui perturbe le tissu même de l’univers, ou du moins c’est ce qu’il semble. En franchissant le point où l’effet commence, vous subissez un mouvement temporel rapide d’une étendue inconnue, en un seul instant. Les effets de l’anomalie « Éclair » sur les organismes vivants sont complexes et pas encore entièrement compris. Certaines théories suggèrent que la faille pourrait provoquer des perturbations au niveau quantique dans la structure moléculaire de l’individu, entraînant des dommages physiques et mentaux. D’autres proposent que l’effet de voyage dans le temps de l’anomalie pourrait causer une perte de synchronisation entre l’horloge biologique interne de l’individu et l’environnement extérieur, provoquant désorientation et confusion. Malgré les dangers potentiels de l’anomalie « Éclair », certains stalkers ont trouvé des moyens d’exploiter ces failles à leur avantage. En chronométrant soigneusement leurs points d’entrée et de sortie, ils peuvent utiliser l’anomalie pour échapper à une poursuite ou attendre le moment idéal pour récupérer un artefact. Naviguer dans l’anomalie « Éclair » exige prudence et habileté, car ses effets peuvent être imprévisibles et potentiellement mortels. Les Stalkers doivent faire preuve d’une extrême vigilance en pénétrant dans cette faille et rester constamment attentifs à leur environnement pour éviter de se perdre ou de se désorienter. De plus, ceux qui utilisent l’anomalie « Éclair » à leurs propres fins doivent être conscients des risques et prendre les précautions nécessaires pour assurer leur sécurité, car certains qui s’y sont égarés n’en sont jamais revenus.
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_ghost">
+		<text>Ghost</text>
+	</string>
+	<string id="encyclopedia_anomalies_ghost_text">
+		<text>
+			• Nom : %c[d_cyan]Ghost%c[ui_gray_1]
+			\n• Type : %c[d_orange]Électrique/Chimique
+			\n\n%c[pda_green]Informations%c[ui_gray_1]
+			\nL'anomalie « Ghost », comme elle est communément appelée parmi les Stalkers expérimentés, est un phénomène véritablement mystérieux, apparaissant sous la forme d'une bouffée de substance éthérée et fumante qui se déplace avec détermination.\nLe comportement du Ghost est unique parmi toutes les anomalies connues, car il semble posséder un certain niveau de conscience qui défie toute explication scientifique. Certains Stalkers pensent qu'il s'agit d'une entité ancienne et malveillante, existant depuis la création de la Zone, tandis que d'autres postulent qu'il s'agit d'une manifestation de la conscience collective de tous ceux qui ont péri dans la Zone. Son bruit spectral et surnaturel glace le sang de quiconque l'entend. Les théories abondent quant à l'origine des sons qu'il émet, certains croyant qu'il s'agit des cris des âmes perdues prisonnières de l'emprise de l'anomalie, tandis que d'autres soutiennent qu'il s'agit des voix de la Zone elle-même, hurlant d'agonie face à la souffrance et à la torture sans fin dont elle a été témoin.\nLe Ghost est devenu le sujet de nombreux mythes et légendes, certains allant même jusqu'à prétendre qu'il possède le pouvoir d'exaucer les voeux de ceux qui parviennent à le capturer. D'autres racontent l'histoire de Stalkers malchanceux, attirés vers une mort certaine par son chant de sirène, perdus à jamais dans les profondeurs de la Zone. Malgré sa nature énigmatique, le Ghost ne doit pas être sous-estimé, car il représente une force mortelle et imprévisible capable de frapper sans avertissement. Ceux qui s'aventurent trop près de sa trajectoire risquent l'électrocution ou la désintégration par ses énergies puissantes.\nCette anomalie est une véritable énigme de la Zone, possédant un niveau de conscience et de détermination qui défie toute explication scientifique. Ses sons étranges et sa présence fantomatique en ont fait le sujet de nombreux mythes et légendes, renforçant son aura de mystère et de terreur. Approchez avec prudence, car l'anomalie Ghost est une force mortelle qui ne doit pas être prise à la légère, même par les Stalkers les plus expérimentés. 
+		 
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_gold">
+		<text>Or liquide</text>
+	</string>
+	<string id="encyclopedia_anomalies_gold_text">
+		<text>
+			• Nom : %c[d_cyan]Or liquide%c[ui_gray_1]
+			\n• Type : %c[d_orange]Chimique
+			\n\n%c[pda_green]Informations%c[ui_gray_1]
+			\nL'anomalie « Liquid Gold » est une anomalie hautement dangereuse et puissante qui émet un nuage d'une substance chimique toxique de couleur orange/dorée. Elle est souvent considérée comme la soeur jumelle de l'anomalie « Acidic » en raison de son apparence similaire, mais avec des effets bien plus sévères. Au contact de la substance, les victimes subissent une augmentation rapide de la température corporelle, dépassant même les niveaux fiévreux. La vitesse et l'intensité de cette réaction varient en fonction de la puissance de l'anomalie. Les symptômes vont d'une déshydratation sévère à une mort atroce causée par l'ébullition du sang de la victime. Les produits chimiques toxiques affectent également la peau de la victime, provoquant des brûlures graves qui peuvent être petites et difficiles à remarquer au début. Cependant, ces brûlures peuvent s'aggraver et entraîner des complications supplémentaires, exacerbant les symptômes déjà mortels de l'anomalie. Les produits chimiques issus des brûlures peuvent également pénétrer dans la circulation sanguine, affectant les organes internes du corps et causant potentiellement des dommages permanents. En raison de la nature hautement toxique et mortelle de cette anomalie, une extrême prudence doit être exercée lors de sa rencontre ou de sa manipulation. Un équipement de protection doit être porté en permanence, et une attention médicale immédiate doit être recherchée en cas d'exposition. L'anomalie « Liquid Gold » est une menace redoutable qui doit être abordée avec le plus grand soin et la plus grande prudence.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_anomalies_thorn">
+		<text>Épine</text>
+	</string>
+	<string id="encyclopedia_anomalies_thorn_text">
+		<text>
+			• Nom : %c[d_cyan]Épine%c[ui_gray_1]
+			\n• Type : %c[d_orange]Physique/Chimique
+			\n\n%c[pda_green]Informations%c[ui_gray_1]
+			\nThorn est une anomalie mortelle qui peut s'activer à tout moment. Elle apparaît comme une petite zone anodine au sol, mais lorsqu'elle est déclenchée, elle se déploie rapidement, révélant sa véritable nature. Ses épines dentelées et acérées jaillissent de manière menaçante de la surface, lui donnant une apparence de beauté mortelle. Le plus grand danger de Thorn ne réside pas seulement dans ses pointes mortelles, mais dans son caractère imprévisible. Elle peut être déclenchée par divers stimuli, notamment le son, les vibrations, ou même la présence de créatures vivantes à proximité. Cela en fait une menace constante pour tout Stalker s'aventurant trop près. Ce qui la rend encore plus létale, c'est que ses épines sont enduites d'une substance toxique pouvant causer des blessures graves, voire la mort. Une fois perturbée, elle libère une salve d'épines barbelées acérées qui fusent dans toutes les directions, transperçant avec une force brutale tout ce qui se trouve sur leur passage. La nature toxique des épines en fait un défi encore plus grand pour les Stalkers tentant de récolter ses artefacts précieux. Sans protection adéquate ou antidotes, un simple contact avec les épines peut s'avérer fatal. Malgré le danger, certains Stalkers courageux risquent tout pour acquérir ces artefacts, poussés par la promesse de richesse et de gloire. Mais pour cela, il faut des nerfs d'acier, des réflexes fulgurants et une connaissance intime du comportement de l'anomalie. Même dans ces conditions, il n'y a aucune garantie de survie. Dans la Zone, Thorn est un symbole des dangers qui rôdent à chaque coin. Elle sert de rappel qu'un Stalker, aussi bien préparé soit-il, ne peut jamais vraiment savoir quels dangers il affrontera dans le paysage en constante mutation de la Zone.
+		</text>
+	</string>
+	
+	<string id="encyclopedia_anomalies_seed">
+		<text>Graine</text>
+	</string>
+	<string id="encyclopedia_anomalies_seed_text">
+		<text>
+			• Nom : %c[d_cyan]Graine%c[ui_gray_1]
+			\n• Type : %c[d_orange]Chimique
+			\n\n%c[pda_green]Informations%c[ui_gray_1]
+			\nL'Anomalie Graine, phénomène énigmatique et perfide, présente un danger inhérent qui dépasse celui de la plupart des anomalies, car elle possède la capacité de se multiplier. Sa nature insaisissable et son aptitude à la prolifération accentuent le niveau de risque associé à ce phénomène, exigeant une extrême prudence de la part de tout stalkers osant s'en approcher. Cette entité anomale se manifeste sous la forme d'une masse tourbillonnante de particules luminescentes, rappelant d'innombrables formes de vie minuscules faisant preuve d'une coordination et d'une collaboration parfaites. Les mouvements orchestrés des constituants de l'Anomalie Graine suggèrent un niveau remarquable d'organisation et d'intelligence, qui, une fois activé, aboutissent à un effet cataclysmique. Dans certains cercles scientifiques, une hypothèse dominante soutient que l'Anomalie Graine pourrait représenter une manifestation inédite d'interactions subatomiques, une particule insaisissable ou une force naturelle inexplorée, encore incomplètement comprise. Par ailleurs, des spéculations abondent selon lesquelles cette anomalie pourrait incarner une nouvelle phase de la matière, jusqu'alors jamais observée dans le monde naturel. Des stalkers avisés ont même rapporté avoir observé des motifs et des configurations formés par ces particules, évoquant des structures complexes présentes dans la nature, telles que des nuées d'oiseaux ou des bancs de poissons. Le comportement et la finalité des formes de vie au sein de l'Anomalie Graine restent enveloppés de mystère, leur coordination sophistiquée laissant supposer une intelligence surpassant celle habituellement constatée chez les autres anomalies. Lors de son activation, l'anomalie libère instantanément ses particules dans une explosion soudaine et violente, les propulsant dans toutes les directions avec une vigueur extraordinaire. Ces particules présentent un niveau élevé de radioactivité, leur émission s'accompagnant d'un son strident et perçant qui résonne sur de grandes distances. Le danger lié à l'Anomalie Graine est encore amplifié par sa capacité déconcertante à se fondre parfaitement dans son environnement, rendant sa détection particulièrement ardue jusqu'à ce qu'il soit trop tard. Ceux qui ont la malchance de subir ses effets en paient le prix fort. Les particules hautement radioactives provoquent de graves brûlures et des maladies dues aux radiations, tandis que la force pure de l'explosion peut projeter violemment les individus au sol, causant des blessures graves. L'effet désorientant de l'émission stridente des particules complique davantage la situation, entravant la fuite de ceux qui se trouvent à proximité. Quelles que soient ses origines ou ses applications potentielles, l'Anomalie Graine demeure une énigme fascinante qui captive l'imagination des esprits scientifiques comme des individus ordinaires. Ses propriétés extraordinaires et ses utilisations potentielles alimentent une fascination et des débats sans fin, garantissant que les recherches et les explorations relatives à cette anomalie se poursuivront pendant de nombreuses années. Compte tenu de ses dangers intrinsèques, l'Anomalie Graine ne doit jamais être prise à la légère, et seuls ceux dotés d'une préparation adéquate, d'un équipement approprié et de connaissances approfondies devraient oser s'en approcher.
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_shatterpoint">
+		<text>Fracture</text>
+	</string>
+	<string id="encyclopedia_anomalies_shatterpoint_text">
+		<text>
+			• Nom : %c[d_cyan]Fracture%c[ui_gray_1]
+			\n• Type : %c[d_orange]Gravitationnelle hautement instable
+			\n\n%c[pda_green]Information%c[ui_gray_1]
+			\nPhénomène dangereux et imprévisible que l'on peut rencontrer dans certaines zones de la Zone. Il se manifeste sous la forme d'un amas de fragments de verre tranchants et transparents, reliés à un point central. Il est fortement déconseillé de s'approcher d'une anomalie Fracture, car elle entraîne une mort certaine. Les éclats qui composent cette anomalie ne sont pas du verre naturel, mais sont créés par son comportement unique. Elle génère un puissant champ gravitationnel qui attire les petits éléments de l'environnement vers son point central. À mesure qu'ils sont aspirés, ces éléments sont soumis à des températures extrêmes qui les chauffent rapidement. Les résidus d'une précédente activation gravitent autour de l'anomalie et, lorsqu'ils sont perturbés, ils explosent en une bouffée d'énergie. En raison de son champ gravitationnel instable, ces résidus restent brièvement en suspension dans les airs avant d'être soudainement attirés vers le centre de l'anomalie, où ils fusionnent. La chaleur intense fait fondre les éclats, les amalgamant en un seul point, suivi d'un refroidissement brutal qui provoque l'éclatement de ce point en des millions de fragments minuscules. Le champ gravitationnel de l'anomalie fluctue à nouveau avant qu'elle n'explose finalement, projetant les éclats dans toutes les directions. Les Stalkers doivent faire preuve d'une extrême prudence en s'approchant d'une Fracture, car elle est extrêmement tranchante et dangereuse, et peut causer des dommages considérables à quiconque entre en contact avec elle. Il est essentiel de prendre des mesures pour se protéger des éclats de verre si l'on doit pénétrer dans son voisinage.
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_sloth">
+		<text>Paresseux</text>
+	</string>
+	<string id="encyclopedia_anomalies_sloth_text">
+		<text>
+			• Nom : %c[d_cyan]Paresseux%c[ui_gray_1]
+			\n• Type : %c[d_orange]Chimique
+			\n\n%c[pda_green]Information%c[ui_gray_1]
+			\nL'anomalie dite « Sloth » est un phénomène hautement inhabituel et énigmatique qui représente une menace significative pour tout organisme entrant en contact avec elle. L'analyse de ses propriétés observées permet de suggérer qu'il s'agit d'un nuage complexe et hautement réactif de composition chimique inconnue. Une possibilité est que l'anomalie Sloth soit une forme hautement réactive de pollution atmosphérique de la Zone, constituée d'un mélange complexe de composés organiques et inorganiques. Cela pourrait expliquer la nature toxique de l'anomalie, ainsi que sa capacité à affecter défavorablement les fonctions biologiques des organismes qui entrent en contact avec elle. Alternativement, certaines suggestions indiquent que Sloth pourrait être une forme d'arme bio-ingénierisée entrée en contact avec les champs anormaux de la Zone, et qui aurait été déformée pour suivre sa propre volonté. Probablement créée par une organisation inconnue à des fins de combat ou d'espionnage, cela pourrait expliquer les effets hautement spécifiques et ciblés de l'anomalie, ainsi que sa capacité apparente à persister dans l'environnement sur de longues périodes. Une autre possibilité est qu'il s'agisse d'un sous-produit naturel de l'environnement inhabituel et souvent imprévisible de la Zone. La Zone est connue pour produire une grande variété de phénomènes inhabituels et potentiellement dangereux, y compris des anomalies affectant les fonctions physiques et biologiques des organismes qui entrent en contact avec elles. Il est possible que l'anomalie Sloth ne soit qu'un autre exemple de ce phénomène, une expression naturelle des forces étranges et souvent imprévisibles qui composent cet endroit mystérieux. Quelle que soit sa nature sous-jacente, le Sloth est clairement un phénomène hautement dangereux et potentiellement mortel qui exige prudence et respect de la part de tous ceux qui pénètrent dans la Zone. Sa capacité à entraver les compétences motrices des organismes qui entrent en contact avec lui témoigne de la nature complexe et souvent imprévisible des forces qui façonnent notre monde, et sert de rappel des dangers qui se cachent dans les recoins inconnus de la Zone.
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_mefistotel">
+		<text>Mephistopheles</text>
+	</string>
+	<string id="encyclopedia_anomalies_mefistotel_text">
+		<text>
+			• Nom : %c[d_cyan]Mephistopheles%c[ui_gray_1]
+			\n• Type : %c[d_orange]Électrique/Chimique
+			\n\n%c[pda_green]Information%c[ui_gray_1]
+			\nMephistopheles est une anomalie rare et mystérieuse qui tire son nom du démon farceur du folklore médiéval. L'anomalie se présente sous la forme d'une étrange formation florale, dotée de délicats tentacules émettant un son inquiétant lorsqu'un organisme vivant s'en approche. Malgré son apparence envoûtante, Mephistopheles est extrêmement dangereux pour toute créature vivante s'aventurant trop près. L'un des aspects les plus insidieux de Mephistopheles réside dans le fait que son apparence peut parfois être confondue avec celle d'un artefact, un objet de grande valeur et très recherché dans la Zone. De nombreux stalkers novices ont été victimes de cette supercherie, croyant avoir découvert un artefact rare, pour être finalement attirés vers le centre mortel de l'anomalie et y trouver la mort. Dès que la victime pénètre dans le rayon d'action de Mephistopheles, elle est presque instantanément attirée vers son centre, comme par une force invisible. Une fois happée, la victime est déchiquetée en morceaux par les tentacules de l'anomalie, qui agissent comme des lames tranchantes. Le processus est rapide et brutal, ne laissant aucune chance de fuite ou de survie. De nombreux stalkers ayant rencontré Mephistopheles rapportent avoir ressenti un sentiment accablant d'effroi et de malaise en sa présence, mais évoquent également son apparence magnifique et le son étrange qu'elle émet, semblant presque hypnotique, attirant des proies imprudentes vers une fin rapide. Des rumeurs et légendes au sujet de cette anomalie se sont répandues parmi les stalkers, certains croyant que Mephistopheles, selon les récits transmis, n'apparaît qu'à ceux qui sont animés par la cupidité et le désir de gain matériel. Il est dit que ceux qui n'ont jamais rien convoité dans la Zone ne l'ont jamais vue et sont donc à l'abri de son piège mortel. Certains pensent même que Mephistopheles peut lire les pensées et les désirs d'une personne, et ne se révèle qu'à ceux jugés indignes, les attirant vers une mort certaine. Cette croyance a conduit de nombreux stalkers l'ayant aperçue à aborder l'anomalie avec prudence et respect, craignant que leur propre avidité ne soit leur perte.
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_net">
+		<text>Net</text>
+	</string>
+	<string id="encyclopedia_anomalies_net_text">
+		<text>
+			• Nom : %c[d_cyan]Net%c[ui_gray_1]
+			\n• Type : %c[d_orange]gravitationnelle\Chimique
+			\n\n%c[pda_green]Information%c[ui_gray_1]
+			\nL'anomalie « net » se caractérise par un flux hautement chargé de particules accélérées par des forces gravitationnelles. Les particules chargées créent un champ électromagnétique qui piège tout objet se trouvant dans son rayon d'action, à la manière d'un net invisible. Les particules adhèrent à la surface de l'objet capturé, formant un maillage étroit et résistant dont il est difficile de se libérer. Ce phénomène est causé par l'interaction entre les particules chargées et les forces électromagnétiques au sein de l'anomalie. L'anomalie « net » est considérée comme extrêmement dangereuse, car elle peut capturer des organismes vivants et causer des dommages physiques graves, voire la mort. Selon les rumeurs et légendes circulant parmi les stalkers, l'anomalie « Net » aurait été découverte pour la première fois par un groupe de vétérans Zone expérimentés qui exploraient la région depuis des années. Alors qu'ils erraient à travers la Zone, ils remarquèrent une étrange perturbation électrique dans l'air et, en s'approchant, furent soudain enveloppés par les particules chargées de l'anomalie. On raconte que les stalkers luttèrent pour échapper à l'emprise du « Net », mais se retrouvèrent prisonniers de son étreinte, incapables de se libérer. En se débattant, ils aperçurent les silhouettes fantomatiques d'autres stalkers précédemment capturés par l'anomalie, leurs corps étant lentement consumés par les particules chargées. L'anomalie Net est redoutée et respectée par tous les stalkers qui s'aventurent dans la Zone, et les récits de son étreinte mortelle continuent de se propager parmi ceux qui osent explorer ses limites.
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_point">
+		<text>Point</text>
+	</string>
+	<string id="encyclopedia_anomalies_point_text">
+		<text>
+			• Nom : %c[d_cyan]Point%c[ui_gray_1]
+			\n• Type : %c[d_orange]Électrique
+			\n\n%c[pda_green]Information%c[ui_gray_1]
+			Le Point est un phénomène électrique caractérisé par une sphère transparente et cristalline qui exerce un contrôle sur une région sphérique d'énergie chargée électriquement. L'orbe semble suivre les mouvements des objets ou des individus à proximité, suggérant un certain niveau de conscience et d'intentionnalité. La source de l'énergie électrique au sein de la sphère n'est pas entièrement comprise, mais il a été observé qu'elle interagit avec des objets électriques, tels que les batteries et les condensateurs, qui semblent se recharger à son contact. Toutefois, en raison de la nature inconnue de cette interaction, il est fortement recommandé d'aborder cette anomalie avec prudence et en prenant les mesures de protection appropriées.\nMalgré son danger potentiel, certains stalkers audacieux recherchent l'anomalie Point dans l'espoir d'exploiter son énergie. Des rumeurs ont circulé au sujet d'un groupe de stalkers ayant réussi à extraire l'énergie chargée de l'anomalie pour alimenter leurs appareils, mais cela ne s'est pas bien terminé. L'histoire relate un incident tragique survenu lorsqu'un groupe de stalkers s'est perdu quelque part dans la Zone. C'était au milieu de la nuit, leurs lampes torches et leurs PDA étaient complètement déchargés, alors ils ont décidé de tenter leur chance en s'appuyant sur les récits concernant les capacités de cette anomalie, afin de quitter cette partie de la Zone avant d'être déchiquetés par les mutants. En s'approchant de l'anomalie, le groupe de stalkers a sorti avec excitation leurs PDA et autres appareils électriques, espérant les recharger grâce à l'énergie prétendument émise par l'anomalie. Mais à mesure qu'ils avançaient, un sentiment de malaise les a envahis. L'orbe cristallin semblait les observer, et la boule d'énergie pulsait d'une lueur inquiétante. Soudain, dans un éclair aveuglant, la boule d'énergie a libéré une décharge électrique massive. Les stalkers ont été projetés violemment en arrière, leurs corps se tordant et se convulsant sous l'effet de l'électricité qui parcourait leurs croquemorts. Leurs cris ont résonné à travers la Zone, tandis que l'électricité grillait leurs terminaisons nerveuses et cuisait leurs organes internes. Quelques jours plus tard, d'autres stalkers ont découvert leurs corps sans vie éparpillés autour de l'anomalie, leurs croquemorts carbonisés et noircis par la décharge électrique, et leurs appareils entièrement chargés. Ce fut un rappel macabre de la puissance mortelle de l'anomalie Point, et un avertissement pour tous ceux qui osent s'en approcher. La plupart des stalkers tiennent compte de cet avertissement et évitent l'anomalie, connaissant trop bien les conséquences mortelles de défier le destin dans la Zone.
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_sphere">
+		<text>Propulseur</text>
+	</string>
+	<string id="encyclopedia_anomalies_sphere_text">
+		<text>
+			• Nom : %c[d_cyan]Propulseur%c[ui_gray_1]
+			\n• Type : %c[d_orange]Gravitationnel
+			\n\n%c[pda_green]Information%c[ui_gray_1]
+			\nLe "Propulseur" est une anomalie gravitationnelle rare et énigmatique qui se manifeste sous la forme d'une concentration dense de multiples champs de force, formant une sphère. Ces champs de force interagissent de manière complexe pour créer une distorsion gravitationnelle, de sorte que lorsqu'un objet en mouvement s'approche de la sphère du Propulseur, il rencontre un champ de force qui le ralentit et modifie sa trajectoire. Cet effet est causé par la distorsion du tissu espace-temps local, qui crée une courbure s'opposant au mouvement de l'objet. En plus de ses capacités défensives, le Propulseur peut également être utilisé de manière offensive par des stalkers expérimentés. En se positionnant stratégiquement près de l'anomalie, les stalkers expérimentés peuvent utiliser le champ de distorsion pour se protéger des balles ou même dévier les projectiles entrants vers leurs ennemis. Cette technique nécessite un timing et une visée précis, mais elle peut devenir un outil dévastateur entre les mains d'un combattant aguerri. Cependant, les effets du Propulseur ne sont pas toujours prévisibles, et les stalkers inexpérimentés qui tentent de l'utiliser peuvent se retrouver à la merci de ses forces gravitationnelles imprévisibles. Par ailleurs, une exposition prolongée au champ de distorsion du Propulseur peut avoir des effets néfastes sur la santé et le bien-être des stalker, provoquant désorientation et nausées. Globalement, le Propulseur est une anomalie très recherchée parmi les Stalkers en raison de ses capacités défensives et offensives uniques. Toutefois, sa nature imprévisible et les risques potentiels pour la santé en font une anomalie dangereuse à approcher et à utiliser sans une préparation et une prudence appropriées.
+		</text>
+	</string>
+
+</string_table>

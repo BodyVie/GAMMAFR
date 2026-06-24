@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- GAMMA_Translator 15 05 2026 - Body -->
+<string_table>
+	<string id="ui_mcm_ut_skill_system_exp_multiplier_medicine">
+        <text>Multiplicateur d'expérience Médecine</text>
+    </string>
+    <string id="ui_mcm_ut_skill_system_exp_multiplier_insanity">
+        <text>Multiplicateur d'expérience Folie</text>
+    </string>
+    <string id="ui_mcm_ut_skill_system_exp_multiplier_tinkering">
+        <text>Multiplicateur d'expérience Bricolage</text>
+    </string>
+    <string id="ui_mcm_ut_skill_system_exp_multiplier_bartering">
+        <text>Multiplicateur d'expérience Troc</text>
+    </string>
+	<string id="ui_mcm_ut_skill_system_exp_multiplier_reloading">
+        <text>Multiplicateur d'expérience Maniement des armes</text>
+    </string>
+	<string id="ui_mcm_ut_skill_system_exp_multiplier_magloading">
+        <text>Multiplicateur d'expérience Chargement des chargeurs</text>
+    </string>
+    <string id="ui_mcm_ut_skill_system_exp_multiplier_lockpicking">
+        <text>Multiplicateur d'expérience Crochetage</text>
+    </string>
+	<string id="ui_mcm_ut_skill_system_traits_gain_mult">
+        <text>Multiplicateur de gain de points de trait</text>
+    </string>
+    <string id="ui_mcm_ut_skill_system_title">
+        <text>Configuration de l'extension des compétences</text>
+    </string>
+     <string id="ui_mcm_menu_ut_skill_system">
+        <text>Extension des compétences</text>
+    </string>
+	<string id="ui_mcm_ut_skill_system_traits_keybind">
+        <text>Raccourci pour l'interface des traits</text>
+    </string>
+	<string id="ui_mcm_ut_skill_system_purge_ut_skills">
+        <text>Désinstaller l'extension des compétences</text>
+    </string>
+</string_table>
