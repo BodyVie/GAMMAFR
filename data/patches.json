@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-24T13:54:08+00:00",
+  "generated": "2026-06-24T13:54:22+00:00",
   "base": {
     "files": [
       "0. PatchVF/GAMMA base/9a91_vsk94.xml",
@@ -926,7 +926,7 @@
     {
       "id": "6. NPC Weapon Jamming",
       "name": "6. NPC Weapon Jamming",
-      "description": "",
+      "description": "Auteur : Damage_Zedd",
       "date": "2026-06-24",
       "version": "0_5_8",
       "moddb_updated": "May 20th, 2026",
