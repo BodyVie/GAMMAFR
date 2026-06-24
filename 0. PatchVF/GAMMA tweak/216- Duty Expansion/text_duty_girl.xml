@@ -120,9 +120,7 @@
 		<text>Peut-être qu'ils ont été influencés par notre action de rouvrir la route, avec leurs potes bloqués au nord, alors ils sont venus donner un coup de main. Ou alors ils sont juste venus pour la récompense. Dans tous les cas, toute aide est la bienvenue.</text>
 	</string>
 	
-<!----------------------------------------------------------------------------------------------------
-	Quests
------------------------------------------------------------------------------------------------------->
+<!-- Quests -->
 	<string id="duty_girl_first_meet_0">
 		<text>Ça fait des années que j'ai pas vu une nana.</text>
 	</string>

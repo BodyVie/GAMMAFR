@@ -9,7 +9,7 @@
 <===========================================================-->
 
 <string_table>
-<!------------------NO TRADE-------------->
+<!-- NO TRADE -->
         <string id="blackmarket_no_0">
 		<text>T'es chaud pour échanger des flingues ?</text>
 	</string>
@@ -19,7 +19,7 @@
         <string id="blackmarket_no_2">
 		<text>Laisse tomber, oublie ce que j'ai dit.</text>
 	</string>
-<!------------------ECO1-------------->
+<!-- ECO1 -->
         <string id="blackmarket_eco_1_0">
 		<text>Ça te dit d'échanger des armes ?</text>
 	</string>
@@ -29,7 +29,7 @@
         <string id="blackmarket_eco_1_2">
 		<text>D'accord.</text>
 	</string>
-<!------------------ECO3-------------->
+<!-- ECO3 -->
         <string id="blackmarket_eco_3_0">
 		<text>T'es partant pour un échange d'armes ?</text>
 	</string>
@@ -39,7 +39,7 @@
         <string id="blackmarket_eco_3_2">
 		<text>OK.</text>
 	</string>
-<!------------------WP 1-------------->
+<!-- WP 1 -->
         <string id="blackmarket_wp_1_0">
 		<text>Tu veux faire un échange d'armes ?</text>
 	</string>
@@ -49,7 +49,7 @@
         <string id="blackmarket_wp_1_2">
 		<text>Ça marche.</text>
 	</string>
-<!------------------WP 2-------------->
+<!-- WP 2 -->
         <string id="blackmarket_wp_2_0">
 		<text>T'es intéressé par un échange d'armes ?</text>
 	</string>
@@ -59,7 +59,7 @@
         <string id="blackmarket_wp_2_2">
 		<text>Ça me va.</text>
 	</string>
-<!------------------WP 3-------------->
+<!-- WP 3 -->
         <string id="blackmarket_wp_3_0">
 		<text>Ça te branche, un échange d'armes ?</text>
 	</string>
@@ -69,7 +69,7 @@
         <string id="blackmarket_wp_3_2">
 		<text>Parfait.</text>
 	</string>
-<!------------------NATO 1------------>
+<!-- NATO 1 -->
         <string id="blackmarket_nato_1_0">
 		<text>Tu cherches à échanger des armes ?</text>
 	</string>
@@ -79,7 +79,7 @@
         <string id="blackmarket_nato_1_2">
 		<text>OK.</text>
 	</string>
-<!------------------NATO 2------------>
+<!-- NATO 2 -->
         <string id="blackmarket_nato_2_0">
 		<text>T'as des armes à échanger ?</text>
 	</string>
@@ -89,7 +89,7 @@
         <string id="blackmarket_nato_2_2">
 		<text>Ça roule.</text>
 	</string>
-<!------------------NATO 3------------>
+<!-- NATO 3 -->
         <string id="blackmarket_nato_3_0">
 		<text>Ça t'intéresse de vendre des flingues ?</text>
 	</string>
@@ -99,7 +99,7 @@
         <string id="blackmarket_nato_3_2">
 		<text>Nickel.</text>
 	</string>
-<!------------------ANY 1------------>
+<!-- ANY 1 -->
         <string id="blackmarket_any_1_0">
 		<text>Ça t'intéresse de vendre des flingues ?</text>
 	</string>
@@ -109,7 +109,7 @@
         <string id="blackmarket_any_1_2">
 		<text>D'acc.</text>
 	</string>
-<!------------------ANY 2------------>
+<!-- ANY 2 -->
         <string id="blackmarket_any_2_0">
 		<text>Ça t'intéresse de vendre des flingues ?</text>
 	</string>
@@ -119,7 +119,7 @@
         <string id="blackmarket_any_2_2">
 		<text>Ça me botte.</text>
 	</string>
-<!------------------ANY 3------------>
+<!-- ANY 3 -->
         <string id="blackmarket_any_3_0">
 		<text>Ça t'intéresse de vendre des flingues ?</text>
 	</string>

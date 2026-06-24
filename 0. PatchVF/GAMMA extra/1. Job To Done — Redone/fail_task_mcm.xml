@@ -8,6 +8,6 @@
         <text>Paramètres de la touche d'annulation de quête</text>
     </string>
     <string id="ui_mcm_fail_task_mod_fail_task_mod_hotkey">
-        <text>Touche d'annulation (avec Maj).\nPar défaut : FIN. Pour annuler une quête, sélectionnez-la comme active dans votre PDA et appuyez sur la combinaison de touches.</text>
+        <text>Touche d'annulation (avec Maj).\nPar défaut : FIN. Pour annuler une quête, sélectionnez-la comme active dans votre PDA et appuyez sur la combinaison de touches attribuée.</text>
     </string>
 </string_table>

@@ -100,7 +100,7 @@
 		<text>Alors, t'es enfin revenu, toi. Contrairement à un certain quelqu'un. T'as croisé le Marked One ?</text>
 	</string>
 	<string id="sidorovich_living_legend_finish_2">
-		<text>Carrément. J'ai même rejoint son équipe un moment. Il m'a raconté plein de trucs et j'en ai vu beaucoup de mes propres yeux. J'étais dans le Sarcophage avec lui. En fait, le Exauceur de Souhaits, c'est un piège à gogos pour les stalkers naïfs. Ouais, ça existe, mais seulement pour attirer les gens au coeur de la Zone, histoire de les lobotomiser et d'en faire des zombies ou des Monolithiens. Pas un rêve, un putain de cauchemar.</text>
+		<text>Carrément. J'ai même rejoint son équipe un moment. Il m'a raconté plein de trucs et j'en ai vu beaucoup de mes propres yeux. J'étais dans le Sarcophage avec lui. En fait, l'Exauceur de Souhaits, c'est un piège à gogos pour les stalkers naïfs. Ouais, ça existe, mais seulement pour attirer les gens au coeur de la Zone, histoire de les lobotomiser et d'en faire des zombies ou des Monolithiens. Pas un rêve, un putain de cauchemar.</text>
 	</string>
 	<string id="sidorovich_living_legend_finish_3">
 		<text>Ah, je vois. Ça se tient. Y'a forcément une raison pour qu'aucun stalker soit soudain devenu l'homme le plus puissant ou le plus riche de la planète. Ça sera plus facile de dissuader les novices de ces conneries avec des preuves concrètes. Parce que t'en as, des preuves, stalker. C'est bien ça ?</text>
@@ -109,7 +109,7 @@
 		<text>Ouais, pas que ma parole. Strelok m'a filé une clé USB avec un paquet de données cryptées. Une copie de ses découvertes. Tiens.</text>
 	</string>
 	<string id="sidorovich_living_legend_finish_5">
-		<text>Excellent boulot, stalker. T'as réussi à finir ce que le Marked One avait commencé il y a quelques années. Le Lobotomisateur est de nouveau inactif, donc on peut accéder au nord. Et maintenant, on sait que le Exauceur de Souhaits, c'est un leurre. Ça devrait aider tout le monde à se concentrer sur les vrais trésors dans les profondeurs de la Zone. Super. Au fait, voici une récompense pour toi.</text>
+		<text>Excellent boulot, stalker. T'as réussi à finir ce que le Marked One avait commencé il y a quelques années. Le Lobotomisateur est de nouveau inactif, donc on peut accéder au nord. Et maintenant, on sait que l'Exauceur de Souhaits, c'est un leurre. Ça devrait aider tout le monde à se concentrer sur les vrais trésors dans les profondeurs de la Zone. Super. Au fait, voici une récompense pour toi.</text>
 	</string>
 	
 	<string id="cold_living_legend_0">
@@ -712,10 +712,10 @@
 		<text>Okay... non, attends. T'es complètement taré ? Attaquer la Centrale ? Exauceur de Souhaits ? C'est vrai, alors ? J'avais entendu des légendes, mais...</text>
 	</string>
 	<string id="living_legend_strelok_objective_5">
-		<text>Il y a un fond de vérité dans chaque légende, stalker. Le Exauceur de Souhaits existe, je l'ai vu de mes propres yeux. Et t'inquiète pas. On a réussi à vaincre l'Éidolon et ses forces. J'ai pu me frayer un chemin jusqu'à la Centrale moi-même il y a quelques années. Avec ton aide, on y arrivera encore.</text>
+		<text>Il y a un fond de vérité dans chaque légende, stalker. L'Exauceur de Souhaits existe, je l'ai vu de mes propres yeux. Et t'inquiète pas. On a réussi à vaincre l'Éidolon et ses forces. J'ai pu me frayer un chemin jusqu'à la Centrale moi-même il y a quelques années. Avec ton aide, on y arrivera encore.</text>
 	</string>
 	<string id="living_legend_strelok_objective_51">
-		<text>Il y a un fond de vérité dans chaque légende, merc. Le Exauceur de Souhaits existe, je l'ai vu de mes propres yeux. Et t'inquiète pas. On a réussi à vaincre l'Éidolon et ses forces. J'ai pu me frayer un chemin jusqu'à la Centrale moi-même il y a quelques années. Avec ton aide, on y arrivera encore.</text>
+		<text>Il y a un fond de vérité dans chaque légende, merc. L'Exauceur de Souhaits existe, je l'ai vu de mes propres yeux. Et t'inquiète pas. On a réussi à vaincre l'Éidolon et ses forces. J'ai pu me frayer un chemin jusqu'à la Centrale moi-même il y a quelques années. Avec ton aide, on y arrivera encore.</text>
 	</string>
 	<string id="living_legend_strelok_objective_6">
 		<text>C'est de la folie. Comment comptes-tu l'attaquer ?</text>
@@ -755,7 +755,7 @@
 		<text>C'était qui ou quoi, la Conscience Commune ?</text>
 	</string>
 	<string id="living_legend_strelok_answers_213">
-		<text>C'était une clique de scientifiques trop ambitieux. Ils pensaient pouvoir sauver l'humanité en exploitant quelque chose qu'ils comprenaient à peine. Sans le savoir, ils traçaient leur propre route vers l'Enfer. Pour atteindre leur but de « sauver » l'humanité, ils se sont transformés en une conscience collective artificielle. Ils ont accidentellement créé le Zone. Ils étaient responsables des émissions, de la Machine à Miracle, des Lobotomisateurs, des zombies et du Monolithe, qui faisaient tous partie de leur réseau de défense. Et ce sont eux qui ont placé le Exauceur de Souhaits dans le Sarcophage. J'ai eu l'occasion de les tuer... alors je l'ai fait.</text>
+		<text>C'était une clique de scientifiques trop ambitieux. Ils pensaient pouvoir sauver l'humanité en exploitant quelque chose qu'ils comprenaient à peine. Sans le savoir, ils traçaient leur propre route vers l'Enfer. Pour atteindre leur but de « sauver » l'humanité, ils se sont transformés en une conscience collective artificielle. Ils ont accidentellement créé le Zone. Ils étaient responsables des émissions, de la Machine à Miracle, des Lobotomisateurs, des zombies et du Monolithe, qui faisaient tous partie de leur réseau de défense. Et ce sont eux qui ont placé l'Exauceur de Souhaits dans le Sarcophage. J'ai eu l'occasion de les tuer... alors je l'ai fait.</text>
 	</string>
 	<string id="living_legend_strelok_answers_214">
 		<text>Quelle est la véritable nature de Exauceur de Souhaits ?</text>
@@ -839,7 +839,7 @@
 		<text>Je suppose que t'as raison. Cold et les gars voulaient savoir. Bref, on ne lancera plus jamais une campagne militaire comme ça. On n'est pas Devoir. On va continuer à se concentrer sur la recherche plutôt que sur les conflits.</text>
 	</string>
 	<string id="living_legend_strelok_answers_72">
-		<text>Je connais quelques gars au Village des Recrues qui vont pas être contents d'apprendre que le Exauceur de Souhaits est un piège à mouches. Mais c'est mieux qu'ils essaient même pas d'atteindre la CNPP. Et Sidorovich aura enfin des réponses, lui aussi.</text>
+		<text>Je connais quelques gars au Village des Recrues qui vont pas être contents d'apprendre que l'Exauceur de Souhaits est un piège à mouches. Mais c'est mieux qu'ils essaient même pas d'atteindre la CNPP. Et Sidorovich aura enfin des réponses, lui aussi.</text>
 	</string>
 	<string id="living_legend_strelok_answers_721">
 		<text>Cette révélation était vraiment en retard. On n'a pas besoin de plus de soldats Monolithe que ce qu'on a déjà, surtout des comme l'Éidolon. Il y a d'autres aspects de la Zone, bien moins dangereux, qu'ils peuvent exploiter s'ils sont vraiment désespérés à ce point.</text>

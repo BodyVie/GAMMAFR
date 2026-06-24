@@ -7,14 +7,14 @@
 
 
 	<string id="ui_mcm_blood_pool_title">
-		<text>Réserve de sang</text>
+		<text>Mare de sang</text>
 	</string>
 	<string id="ui_mcm_menu_blood_pool">
-		<text>Réserve de sang</text>
+		<text>Mare de sang</text>
 	</string>
 
 	<string id="ui_mcm_blood_pool_max_pool_size">
-		<text>Taille maximale de la réserve</text>
+		<text>Taille maximale de la mare</text>
 	</string>
 
 	<string id="ui_mcm_blood_pool_num_of_updates">
@@ -28,14 +28,14 @@
 		<text>Fréquence de mise à jour (secondes)</text>
 	</string>
 	<string id="ui_mcm_blood_pool_update_freq_desc">
-		<text>Temps écoulé entre chaque mise à jour. Une valeur plus faible permet une croissance plus rapide du pool jusqu'à sa taille maximale.</text>
+		<text>Temps écoulé entre chaque mise à jour. Une valeur plus faible permet une croissance plus rapide de la mare jusqu'à sa taille maximale.</text>
 	</string>
 
 	<string id="ui_mcm_blood_pool_pool_lifetime">
-		<text>Durée de vie de la réserve (secondes)</text>
+		<text>Durée de vie de la mare (secondes)</text>
 	</string>
 	<string id="ui_mcm_blood_pool_pool_lifetime_desc">
-		<text>Durée de vie du pool une fois apparu (pool_lifetime - num_of_updates * update_freq = disparition complète dans ce délai).</text>
+		<text>Durée de vie de la mare une fois apparu (pool_lifetime - num_of_updates * update_freq = disparition complète dans ce délai).</text>
 	</string>
 
 </string_table>
