@@ -1,5 +1,16 @@
 [
   {
+    "version": "26.0624",
+    "date": "2026-06-24",
+    "changes": [
+      "Ajout : Arrival",
+      "Ajout : Skills Expansion 2.1",
+      "Ajout : Anomaly Popup Message",
+      "Ajout : NPC Weapon Jaming",
+      "MàJ : Job To Done — Redone"
+    ]
+  },
+  {
     "version": "26.0623",
     "date": "2026-06-23",
     "changes": [
