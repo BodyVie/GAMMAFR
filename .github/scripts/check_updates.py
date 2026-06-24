@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 """
 Vérifie si les mods de GAMMA extra ont été mis à jour sur ModDB.
-Lit les patch.json, scrape les pages ModDB, écrit data/mod_updates.json.
+
+Au lieu de comparer un numéro de version (texte libre, peu fiable), on compare
+la DATE « Updated » affichée par ModDB à la date de référence enregistrée
+localement dans chaque patch.json (champ « moddb_updated »).
+
+Lit les patch.json, scrape la date « Updated » des pages ModDB, écrit
+data/mod_updates.json.
 """
 import json
 import os
@@ -25,6 +31,11 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 }
 
+MONTHS = {
+    "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
+    "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12,
+}
+
 
 def find_patch_jsons(base_dir):
     results = []
@@ -37,45 +48,78 @@ def find_patch_jsons(base_dir):
     return results
 
 
-def scrape_moddb_version(url):
-    """Retourne la version trouvée sur la page ModDB, ou None si échec."""
+def parse_moddb_date(text):
+    """Convertit une date ModDB en datetime.date, ou None si illisible.
+
+    Accepte les deux formes :
+      - le format d'affichage ModDB : « Feb 1st, 2026 » (ou « February 1, 2026 »)
+      - une date ISO : « 2026-02-01 » ou « 2026-02-01T11:32:48+00:00 »
+    """
+    if not text:
+        return None
+    text = text.strip()
+
+    # 1) ISO en tête : 2026-02-01 (avec ou sans partie horaire)
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})", text)
+    if m:
+        try:
+            return datetime(int(m.group(1)), int(m.group(2)), int(m.group(3))).date()
+        except ValueError:
+            return None
+
+    # 2) Format d'affichage : « Feb 1st, 2026 », « February 1 2026 »…
+    m = re.match(r"([A-Za-z]+)\.?\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(\d{4})", text)
+    if m:
+        mon = MONTHS.get(m.group(1)[:3].lower())
+        if mon:
+            try:
+                return datetime(int(m.group(3)), mon, int(m.group(2))).date()
+            except ValueError:
+                return None
+
+    return None
+
+
+def scrape_moddb_updated(url):
+    """Retourne (date, texte_affiché) de la date « Updated » de la page ModDB.
+
+    Structure ModDB ciblée :
+        <h5>Updated</h5>
+        <span class="summary">
+            <time datetime="2026-02-01T11:32:48+00:00">Feb 1st, 2026</time>
+        </span>
+
+    On lit en priorité l'attribut « datetime » (ISO, sans ambiguïté), avec repli
+    sur le texte visible. Retourne (None, None) en cas d'échec.
+    """
     try:
         resp = requests.get(url, headers=HEADERS, timeout=15)
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "html.parser")
 
-        # Chercher dans le bloc stats de la sidebar ModDB
-        # ModDB structure: <h5>Version</h5> suivi d'un <span class="summary">
         for h5 in soup.find_all("h5"):
-            if h5.get_text(strip=True).lower() == "version":
-                sibling = h5.find_next_sibling()
-                if sibling:
-                    text = sibling.get_text(strip=True)
-                    if text:
-                        return text
+            if h5.get_text(strip=True).lower() != "updated":
+                continue
 
-        # Fallback: tableau de statistiques <dt>/<dd>
-        for dt in soup.find_all("dt"):
-            if "version" in dt.get_text(strip=True).lower():
-                dd = dt.find_next_sibling("dd")
-                if dd:
-                    text = dd.get_text(strip=True)
-                    if text:
-                        return text
+            # Le <time> est dans le frère immédiat (cas courant)…
+            sib = h5.find_next_sibling()
+            time_tag = sib.find("time") if sib else None
+            # …sinon, premier <time> rencontré après le h5.
+            if time_tag is None:
+                time_tag = h5.find_next("time")
 
-        # Fallback: méta-données ou balises génériques
-        meta = soup.find("meta", {"property": "og:description"})
-        if meta:
-            content = meta.get("content", "")
-            m = re.search(r"[Vv]ersion\s*[:\-]?\s*([\d][^\s,;]{0,20})", content)
-            if m:
-                return m.group(1).strip()
+            if time_tag is not None:
+                iso = (time_tag.get("datetime") or "").strip()
+                display = time_tag.get_text(strip=True)
+                d = parse_moddb_date(iso) or parse_moddb_date(display)
+                if d:
+                    return d, (display or iso)
 
-        print("  [WARN] Version introuvable sur la page : " + url)
-        return None
+        print("  [WARN] Date « Updated » introuvable sur la page : " + url)
+        return None, None
     except Exception as e:
         print("  [WARN] Échec du scraping pour " + url + " : " + str(e))
-        return None
+        return None, None
 
 
 def load_existing(path):
@@ -109,7 +153,7 @@ def main():
             patch = json.load(f)
 
         url = patch.get("url", "")
-        version_local = patch.get("version", "")
+        date_local = (patch.get("moddb_updated", "") or "").strip()
         name = patch.get("name", folder_name)
 
         if "moddb.com" not in url:
@@ -117,12 +161,11 @@ def main():
             continue
 
         print("Vérification : " + name + " (" + url + ")")
-        version_remote = scrape_moddb_version(url)
+        remote_date, date_remote = scrape_moddb_updated(url)
         time.sleep(1)  # soyons polis avec ModDB
 
-        has_update = False
-        if version_remote is not None:
-            has_update = version_remote.strip() != version_local.strip()
+        local_date = parse_moddb_date(date_local)
+        has_update = bool(local_date and remote_date and remote_date > local_date)
 
         # Préserver acknowledged_at de l'exécution précédente
         prev = existing.get(folder_name, {})
@@ -132,19 +175,21 @@ def main():
             "id": folder_name,
             "name": name,
             "url": url,
-            "version_local": version_local,
-            "version_remote": version_remote,
+            "date_local": date_local,
+            "date_remote": date_remote,
             "has_update": has_update,
             "last_checked": now_iso,
             "acknowledged_at": acknowledged_at
         })
 
         if has_update:
-            print("  → MISE À JOUR : " + version_local + " → " + version_remote)
-        elif version_remote is None:
-            print("  → Impossible de récupérer la version distante")
+            print("  → MISE À JOUR : " + (date_local or "?") + " → " + (date_remote or "?"))
+        elif remote_date is None:
+            print("  → Impossible de récupérer la date distante")
+        elif not local_date:
+            print("  → Pas de date de référence (moddb_updated vide) — distante : " + (date_remote or "?"))
         else:
-            print("  → À jour (" + version_local + ")")
+            print("  → À jour (" + (date_local or "?") + ")")
 
     output = {
         "generated": now_iso,

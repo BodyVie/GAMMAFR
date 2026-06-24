@@ -3671,7 +3671,7 @@
     header.appendChild(title);
 
     var badge = el("span", { class: "update-badge" });
-    badge.textContent = (u.version_local || "?") + " → " + (u.version_remote || "?");
+    badge.textContent = (u.date_local || "?") + " → " + (u.date_remote || "?");
     header.appendChild(badge);
     card.appendChild(header);
 
@@ -3712,7 +3712,7 @@
         var ticket = {
           id: plUid("tk"),
           title: u.name,
-          description: "Update disponible : v" + (u.version_local || "?") + " → v" + (u.version_remote || "?"),
+          description: "Mise à jour ModDB : " + (u.date_local || "?") + " → " + (u.date_remote || "?"),
           status: "todo",
           due: null,
           labels: ["lbl_mqiajiyf4urc"],

@@ -461,6 +461,7 @@ Un par dossier de `GAMMA tweak/` et `GAMMA extra/` (UTF-8) :
   "description": "Registre familier et vulgaire pour les dialogues PNJ.",
   "date": "2026-05-12",
   "version": "1.1.0",
+  "moddb_updated": "Feb 1st, 2026",
   "url": "https://www.moddb.com/mods/…",
   "priority": 50
 }
@@ -468,6 +469,13 @@ Un par dossier de `GAMMA tweak/` et `GAMMA extra/` (UTF-8) :
 
 - `name` / `description` : affichés et utilisés par la barre de recherche
   (à défaut, le nom du dossier sert de nom).
+- `moddb_updated` : **date de référence** de la dernière version intégrée, telle
+  qu'affichée par ModDB (champ « Updated », ex. `Feb 1st, 2026`). C'est ce que
+  compare le contrôle des mises à jour (voir §9) : si la date « Updated » de la
+  page ModDB devient **plus récente** que cette valeur, le mod est signalé comme
+  à mettre à jour. Une date ISO (`2026-02-01`) est aussi acceptée. **Vide** = pas
+  de référence → le mod n'est jamais signalé (à renseigner après chaque
+  intégration). N'est utilisé que pour les mods `GAMMA extra` pointant sur ModDB.
 - `priority` : **entier, le plus élevé gagne**. Si deux patchs sélectionnés
   fournissent un fichier de même nom, celui de priorité supérieure écrase
   l'autre. `GAMMA base` a la priorité la plus basse. En cas d'**égalité** de
@@ -536,11 +544,23 @@ visiteur (le drapeau est lu au chargement du site). Toute valeur autre que
 ## 9. Sous-onglet Admin « Updates » — vérification des mises à jour ModDB
 
 Le sous-onglet **Updates** de l'onglet **Admin** (donc visible **uniquement par un
-admin connecté**) signale les mods « GAMMA extra » dont la version a changé sur
-ModDB. Il **lit** `data/mod_updates.json` ; ce fichier est **produit** par le
-workflow `.github/workflows/check-mod-updates.yml`, qui exécute
+admin connecté**) signale les mods « GAMMA extra » dont la **date de mise à jour**
+a changé sur ModDB. Il **lit** `data/mod_updates.json` ; ce fichier est **produit**
+par le workflow `.github/workflows/check-mod-updates.yml`, qui exécute
 `.github/scripts/check_updates.py` (lecture des `patch.json`, scraping de la page
-ModDB de chaque mod, comparaison `version` locale ↔ version distante).
+ModDB de chaque mod, comparaison de la **date « Updated »** distante ↔ date de
+référence locale `moddb_updated`).
+
+> **Pourquoi la date plutôt que la version ?** Le champ « Version » de ModDB est
+> du texte libre souvent vide ou au format changeant, ce qui produit beaucoup de
+> faux positifs/négatifs. La date « Updated » existe sur **toute** page ModDB et
+> expose un attribut `datetime` ISO 8601 (`2026-02-01T11:32:48+00:00`) : la
+> comparaison est une vraie comparaison chronologique, sans ambiguïté. Le script
+> lit en priorité cet attribut, avec repli sur le texte affiché (« Feb 1st, 2026 »).
+> Une mise à jour est signalée uniquement si la date distante est **strictement
+> plus récente** que `moddb_updated`. Après avoir intégré une nouvelle version,
+> reporte la date « Updated » de ModDB dans le `moddb_updated` du `patch.json`
+> pour réarmer le contrôle.
 
 Le scan se déclenche de trois façons :
 

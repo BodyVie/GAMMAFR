@@ -10,7 +10,7 @@ Structure attendue :
     GAMMA tweak/<patch>/        -> XML + patch.json
     GAMMA extra/<patch>/        -> XML + patch.json
 
-patch.json (UTF-8) : { "name", "description", "date", "version", "url", "priority" }
+patch.json (UTF-8) : { "name", "description", "date", "version", "moddb_updated", "url", "priority" }
 
 Usage :
     python3 tools/build_manifest.py            # depuis la racine du dépôt
@@ -58,7 +58,7 @@ def list_files(folder, root, skip=()):
 
 def read_meta(folder):
     """Lit patch.json (UTF-8) ; valeurs par défaut si absent/illisible."""
-    meta = {"name": None, "description": "", "date": "", "version": "", "url": "", "priority": 0}
+    meta = {"name": None, "description": "", "date": "", "version": "", "moddb_updated": "", "url": "", "priority": 0}
     p = os.path.join(folder, META_NAME)
     if os.path.isfile(p):
         try:
@@ -96,6 +96,7 @@ def build_patch_list(section_dir, root):
             "description": meta["description"],
             "date": meta["date"],
             "version": meta["version"],
+            "moddb_updated": meta["moddb_updated"],
             "url": meta["url"],
             "priority": meta["priority"],
             "files": files,
