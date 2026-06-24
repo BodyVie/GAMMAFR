@@ -1,24 +1,24 @@
 {
-  "generated": "2026-06-24T13:13:24.938249+00:00",
+  "generated": "2026-06-24T13:28:57.891776+00:00",
   "updates": [
     {
       "id": "1. Job To Done — Redone",
       "name": "1. Job To Done — Redone",
       "url": "https://www.moddb.com/mods/stalker-anomaly/addons/job-to-done-redone-50-new-quests-engrus",
       "date_local": "Jun 17th, 2026",
-      "date_remote": null,
-      "has_update": false,
-      "last_checked": "2026-06-24T13:13:24.938249+00:00",
-      "acknowledged_at": null
+      "date_remote": "Jun 19th, 2026",
+      "has_update": true,
+      "last_checked": "2026-06-24T13:28:57.891776+00:00",
+      "acknowledged_at": "2026-06-24T13:32:49.586Z"
     },
     {
       "id": "2. Looting takes time REDUX",
       "name": "2. Looting takes time REDUX",
       "url": "https://www.moddb.com/mods/stalker-anomaly/addons/looting-takes-time-redux-tarkov-like-looting",
       "date_local": "Dec 24th, 2025",
-      "date_remote": null,
+      "date_remote": "Dec 24th, 2025",
       "has_update": false,
-      "last_checked": "2026-06-24T13:13:24.938249+00:00",
+      "last_checked": "2026-06-24T13:28:57.891776+00:00",
       "acknowledged_at": null
     }
   ]

@@ -23,12 +23,30 @@ except ImportError:
     print("Erreur : installe requests et beautifulsoup4 (pip install requests beautifulsoup4)")
     sys.exit(1)
 
+# curl_cffi imite l'empreinte TLS d'un vrai navigateur Chrome. C'est ce qui
+# permet de passer la protection anti-bot Cloudflare de ModDB : sans elle, les
+# requêtes émises depuis une IP de datacenter (GitHub Actions) reçoivent un
+# 403 Forbidden. Repli automatique sur requests si le module est absent.
+try:
+    from curl_cffi import requests as cffi_requests
+except ImportError:
+    cffi_requests = None
+
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 EXTRA_DIR = os.path.join(REPO_ROOT, "0. PatchVF", "GAMMA extra")
 OUTPUT_FILE = os.path.join(REPO_ROOT, "data", "mod_updates.json")
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+BROWSER_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Referer": "https://www.moddb.com/",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
 }
 
 MONTHS = {
@@ -80,6 +98,43 @@ def parse_moddb_date(text):
     return None
 
 
+def fetch_html(url, attempts=3):
+    """Récupère le HTML d'une page en contournant l'anti-bot Cloudflare de ModDB.
+
+    Utilise curl_cffi avec l'empreinte d'un Chrome réel quand il est disponible
+    (le plus fiable contre les 403), sinon requests avec un jeu d'en-têtes de
+    navigateur. Réessaie avec backoff sur les blocages temporaires (403/429/503).
+    Lève une exception si toutes les tentatives échouent.
+    """
+    last_err = None
+    for i in range(attempts):
+        try:
+            if cffi_requests is not None:
+                # impersonate règle déjà l'UA et les en-têtes cohérents avec
+                # l'empreinte TLS ; on ajoute juste Referer et la langue.
+                resp = cffi_requests.get(
+                    url,
+                    headers={"Referer": "https://www.moddb.com/",
+                             "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8"},
+                    timeout=20,
+                    impersonate="chrome",
+                )
+            else:
+                resp = requests.get(url, headers=BROWSER_HEADERS, timeout=20)
+
+            if resp.status_code in (403, 429, 503):
+                last_err = "HTTP " + str(resp.status_code) + " (anti-bot)"
+                time.sleep(3 * (i + 1))
+                continue
+            resp.raise_for_status()
+            return resp.text
+        except Exception as e:
+            last_err = str(e)
+            time.sleep(3 * (i + 1))
+
+    raise RuntimeError(last_err or "échec inconnu")
+
+
 def scrape_moddb_updated(url):
     """Retourne (date, texte_affiché) de la date « Updated » de la page ModDB.
 
@@ -93,9 +148,8 @@ def scrape_moddb_updated(url):
     sur le texte visible. Retourne (None, None) en cas d'échec.
     """
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=15)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
+        html = fetch_html(url)
+        soup = BeautifulSoup(html, "html.parser")
 
         for h5 in soup.find_all("h5"):
             if h5.get_text(strip=True).lower() != "updated":
