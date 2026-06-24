@@ -3,11 +3,11 @@
 <string_table>
 
 	<string id="zone_mine_radar_section_name">
-		<text>Le Radar</text>
+		<text>Radar</text>
 	</string>
 	
 	<string id="zone_mine_darkness_section_name">
-		<text>Le Darkness</text>
+		<text>Ténèbre</text>
 	</string>
 	
 	<string id="zone_mine_flash_section_name">
@@ -15,7 +15,7 @@
 	</string>
 	
 	<string id="zone_mine_ghost_section_name">
-		<text>Le Ghost</text>
+		<text>Ghost</text>
 	</string>
 	
 	<string id="zone_mine_gold_section_name">
@@ -23,31 +23,31 @@
 	</string>
 	
 	<string id="zone_mine_green_dragon_section_name">
-		<text>Le Dragon Vert</text>
+		<text>Dragon Vert</text>
 	</string>
 	
 	<string id="zone_mine_mefistotel_section_name">
-		<text>Le Mephistopheles</text>
+		<text>Mephistopheles</text>
 	</string>
 	
 	<string id="zone_mine_net_section_name">
-		<text>Le Net</text>
+		<text>Net</text>
 	</string>
 	
 	<string id="zone_mine_point_section_name">
-		<text>La Boule de Foudre</text>
+		<text>Foudre en boule</text>
 	</string>
 	
 	<string id="zone_mine_sphere_section_name">
-		<text>Le Rebounder</text>
+		<text>Propulseur</text>
 	</string>
 	
 	<string id="encyclopedia_anomalies_radar">
-		<text>Le Radar</text>
+		<text>Radar</text>
 	</string>
 	<string id="encyclopedia_anomalies_radar_text">
 		<text>
-			• Nom : %c[d_cyan]Le Radar%c[ui_gray_1]
+			• Nom : %c[d_cyan]Radar%c[ui_gray_1]
 			\n• Type : %c[d_orange]Psionic
 			\n \n%c[pda_green]Informations%c[ui_gray_1]
 			\nBrèche localisée dans la Noosphère. Elle émet une faible aura psionique, endommageant gravement la santé mentale de quiconque séjourne à proximité en perturbant les fréquences des ondes cérébrales. Contrairement aux champs psi classiques, les stalkers évitent systématiquement ces anomalies, car leur influence contourne tous les moyens conventionnels de protection psionique, affectant directement l'esprit de la victime. 
@@ -55,11 +55,11 @@
 	</string>
 
 	<string id="encyclopedia_anomalies_darkness">
-		<text>Le Darkness</text>
+		<text>Ténèbre</text>
 	</string>
 	<string id="encyclopedia_anomalies_darkness_text">
 		<text>
-			• Nom : %c[d_cyan]Le Darkness%c[ui_gray_1]
+			• Nom : %c[d_cyan]Ténèbre%c[ui_gray_1]
 			\n• Type : %c[d_orange]Psionic
 			\n \n%c[pda_green]Informations%c[ui_gray_1]
 			\nFormation anomale terrifiante et mortelle d'origine inconnue, affectant l'esprit de tout être sensible se trouvant à proximité. Elle se présente sous la forme d'un amas d'ombres mouvantes. Des rumeurs suggèrent que cette anomalie sert également de refuge aux poltergeists. L'une des anomalies les plus dangereuses jamais répertoriées dans la Zone.
@@ -79,7 +79,7 @@
 	</string>
 
 	<string id="encyclopedia_anomalies_ghost">
-		<text>Le Ghost</text>
+		<text>Ghost</text>
 	</string>
 	<string id="encyclopedia_anomalies_ghost_text">
 		<text>
@@ -103,7 +103,7 @@
 	</string>
 
 	<string id="encyclopedia_anomalies_green_dragon">
-		<text>Le Dragon Vert</text>
+		<text>Dragon Vert</text>
 	</string>
 	<string id="encyclopedia_anomalies_green_dragon_text">
 		<text>
@@ -115,7 +115,7 @@
 	</string>
 
 	<string id="encyclopedia_anomalies_mefistotel">
-		<text>Le Mephistopheles</text>
+		<text>Mephistopheles</text>
 	</string>
 	<string id="encyclopedia_anomalies_mefistotel_text">
 		<text>
@@ -127,7 +127,7 @@
 	</string>
 
 	<string id="encyclopedia_anomalies_net">
-		<text>Le Net</text>
+		<text>Net</text>
 	</string>
 	<string id="encyclopedia_anomalies_net_text">
 		<text>
@@ -139,11 +139,11 @@
 	</string>
 
 	<string id="encyclopedia_anomalies_point">
-		<text>La Boule de Foudre</text>
+		<text>Foudre en boule</text>
 	</string>
 	<string id="encyclopedia_anomalies_point_text">
 		<text>
-			• Nom : %c[d_cyan]La Boule de Foudre%c[ui_gray_1]
+			• Nom : %c[d_cyan]Foudre en boule%c[ui_gray_1]
 			\n• Type : %c[d_orange]Électrique
 			\n \n%c[pda_green]Informations%c[ui_gray_1]
 			\nAnomalie de nature électrique, rappelant le célèbre phénomène naturel encore inexpliqué. Elle interagirait de manière non confirmée avec les objets électriques, en particulier les batteries et les condensateurs, en les chargeant prétendument en énergie électrique. Néanmoins, à moins d'être lourdement protégé, il est fortement déconseillé de s'approcher de cette anomalie.
@@ -151,11 +151,11 @@
 	</string>
 
 	<string id="encyclopedia_anomalies_sphere">
-		<text>Le Rebounder</text>
+		<text>Propulseur</text>
 	</string>
 	<string id="encyclopedia_anomalies_sphere_text">
 		<text>
-			• Nom : %c[d_cyan]Le Rebounder%c[ui_gray_1]
+			• Nom : %c[d_cyan]Propulseur%c[ui_gray_1]
 			\n• Type : %c[d_orange]Gravitational
 			\n \n%c[pda_green]Informations%c[ui_gray_1]
 			\nCette anomalie gravitationnelle est une concentration dense de multiples ondes de force, formant une sorte de disque perpendiculaire au sol. Ce disque peut agir comme un bouclier ou un abri non conventionnel, repoussant ou réduisant la vitesse d'objets se déplaçant rapidement, tels que des balles ou d'autres projectiles. Certains stalkers plus expérimentés ont été observés exploitant le « Rebounder » à leur avantage lors de situations de combat.
