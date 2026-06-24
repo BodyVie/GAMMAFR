@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-24T13:54:52+00:00",
+  "generated": "2026-06-24T14:23:25+00:00",
   "base": {
     "files": [
       "0. PatchVF/GAMMA base/9a91_vsk94.xml",
@@ -934,19 +934,6 @@
       "priority": 30,
       "files": [
         "0. PatchVF/GAMMA extra/6. NPC Weapon Jamming/ui_mcm_npcweaponjamming.xml"
-      ]
-    },
-    {
-      "id": "7. Inventory Antifreeze",
-      "name": "7. Inventory Antifreeze",
-      "description": "Auteur : TheMrDemonized",
-      "date": "2026-06-24",
-      "version": "9",
-      "moddb_updated": "Mar 19th, 2026",
-      "url": "https://www.moddb.com/mods/stalker-anomaly/addons/inventory-antifreeze",
-      "priority": 30,
-      "files": [
-        "0. PatchVF/GAMMA extra/7. Inventory Antifreeze/st_demonized_utils_ui_uicellcontainer_optimize.xml"
       ]
     }
   ],
