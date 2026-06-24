@@ -1275,6 +1275,84 @@ button.plabel.is-on::before { content: "✓\00A0"; }
 }
 .admin-bar button { margin-left: auto; }
 
+/* Barre « connecté » réduite : un seul bouton de déconnexion, largeur au contenu. */
+.admin-bar--slim {
+  width: fit-content;
+  margin-bottom: 12px;
+  padding: 6px 8px;
+}
+.admin-bar--slim button { margin-left: 0; }
+
+/* ---- Indicateur d'alertes admin (messages reçus / mises à jour) ---------- */
+.admin-alerts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.alert-chip {
+  appearance: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1 1 240px;
+  text-align: left;
+  padding: 10px 14px;
+  font-family: inherit;
+  font-size: 13px;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--dim-2);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.alert-chip:hover { background: var(--surface-2); }
+.alert-chip__dot {
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--dim-2);
+}
+.alert-chip__label {
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+.alert-chip__state {
+  margin-left: auto;
+  font-size: 12px;
+  color: var(--dim);
+}
+
+/* vert = rien de neuf */
+.alert-chip--ok { border-left-color: var(--ok); }
+.alert-chip--ok .alert-chip__dot {
+  background: var(--ok);
+  box-shadow: 0 0 6px rgba(127, 176, 105, 0.6);
+}
+.alert-chip--ok .alert-chip__state { color: var(--ok); }
+
+/* rouge = à traiter */
+.alert-chip--alert {
+  border-left-color: var(--rust);
+  background: var(--rust-soft);
+}
+.alert-chip--alert:hover { background: rgba(207, 106, 60, 0.18); }
+.alert-chip--alert .alert-chip__dot {
+  background: var(--rust);
+  box-shadow: 0 0 7px rgba(207, 106, 60, 0.75);
+}
+.alert-chip--alert .alert-chip__state {
+  color: var(--rust);
+  font-weight: 600;
+}
+
+/* neutre = en cours de vérification / inconnu */
+.alert-chip--idle .alert-chip__dot { background: var(--dim-2); }
+.alert-chip--idle .alert-chip__state { color: var(--dim); }
+
 /* ---- Sous-onglets de l'admin (visibles uniquement une fois connecté) ----- */
 .subnav {
   display: flex;

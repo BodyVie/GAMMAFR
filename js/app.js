@@ -3189,11 +3189,20 @@
     resetAutosavers();
     var wrap = el("div", {});
 
-    wrap.appendChild(el("div", { class: "admin-bar" }, [
-      el("span", { class: "admin-bar__tag", text: "CONNECTÉ" }),
-      el("span", { text: "Chaque éditeur s'enregistre avec son bouton « Enregistrer ». Tu peux aussi modifier le Panneau d'affichage et le Changelog dans leurs onglets." }),
-      el("button", { class: "btn btn--ghost btn--mini", text: "Verrouiller", onClick: lockAdmin })
+    // Barre « connecté » réduite à son strict minimum : un seul bouton de
+    // déconnexion (verrouillage de la session admin).
+    wrap.appendChild(el("div", { class: "admin-bar admin-bar--slim" }, [
+      el("button", { class: "btn btn--ghost btn--mini", text: "Déconnexion", onClick: lockAdmin })
     ]));
+
+    // Indicateur d'alertes : signale d'un coup d'œil s'il y a des messages reçus
+    // ou des mises à jour de mods non traitées. Vert = rien de neuf, rouge = à
+    // traiter. Chaque pastille est cliquable et ouvre l'onglet correspondant.
+    // Le contenu est (re)peint au chargement des messages et des updates.
+    adminMsgCount = null; // remis à zéro : le compte est rafraîchi par loadMessages()
+    var alertsHost = el("div", { class: "admin-alerts", id: "adminAlerts" });
+    wrap.appendChild(alertsHost);
+    fillAdminAlerts(alertsHost);
 
     // Sous-onglets de l'admin : chaque section ci-dessous est rangée dans l'un
     // des quatre panneaux (Tableau de bord / Configuration / Outils / Messages).
@@ -3451,6 +3460,64 @@
     return wrap;
   }
 
+  /* ---- indicateur d'alertes admin (messages reçus / mises à jour) ---------
+     Deux pastilles cliquables affichées sous la barre de déconnexion :
+       · vert  = rien de neuf (aucun message, aucune update non traitée)
+       · rouge = quelque chose à traiter
+     Les états sont recalculés à chaque chargement des messages (adminMsgCount)
+     et des mises à jour (updatesData), puis repeints via paintAdminAlerts(). */
+  var adminMsgCount = null; // nombre de messages reçus connus (null = pas encore chargé)
+
+  function adminMsgState() {
+    if (adminMsgCount == null) return { level: "idle", text: "Vérification…" };
+    if (adminMsgCount > 0)
+      return { level: "alert", text: adminMsgCount + " nouveau" + (adminMsgCount > 1 ? "x" : "") + " message" + (adminMsgCount > 1 ? "s" : "") };
+    return { level: "ok", text: "Aucun nouveau message" };
+  }
+
+  function adminUpdatesState() {
+    if (updatesData == null) return { level: "idle", text: "Vérification…" };
+    var ups = Array.isArray(updatesData.updates) ? updatesData.updates : [];
+    var n = 0;
+    for (var i = 0; i < ups.length; i++) {
+      if (ups[i].has_update && !ups[i].acknowledged_at) n++;
+    }
+    if (n > 0)
+      return { level: "alert", text: n + " nouvelle" + (n > 1 ? "s" : "") + " update" + (n > 1 ? "s" : "") };
+    return { level: "ok", text: "Aucune nouvelle update" };
+  }
+
+  // Construit une pastille d'alerte. Un clic ouvre le sous-onglet visé (msg / updates).
+  function buildAlertChip(targetId, label, state) {
+    var chip = el("button", {
+      class: "alert-chip alert-chip--" + state.level,
+      type: "button",
+      title: "Ouvrir l'onglet " + label
+    }, [
+      el("span", { class: "alert-chip__dot" }),
+      el("span", { class: "alert-chip__label", text: label }),
+      el("span", { class: "alert-chip__state", text: state.text })
+    ]);
+    chip.addEventListener("click", function () {
+      var tab = document.getElementById("adm-tab-" + targetId);
+      if (tab) tab.click();
+    });
+    return chip;
+  }
+
+  // Remplit un conteneur d'alertes (élément passé en argument).
+  function fillAdminAlerts(host) {
+    clear(host);
+    host.appendChild(buildAlertChip("msg", "Messages", adminMsgState()));
+    host.appendChild(buildAlertChip("updates", "Updates", adminUpdatesState()));
+  }
+
+  // Repeint l'indicateur s'il est présent dans le DOM (appelé par les chargements asynchrones).
+  function paintAdminAlerts() {
+    var host = $("#adminAlerts");
+    if (host) fillAdminAlerts(host);
+  }
+
   // ---- enregistrement générique vers le Worker ---------------------------
   function saveData(filename, obj, status, btn, onSuccess, onDone) {
     if (!isAdmin()) { setStatus(status, "err", "Session admin verrouillée."); if (onDone) onDone(); return; }
@@ -3516,6 +3583,9 @@
   }
 
   function renderMessages(list) {
+    // mémorise le nombre de messages pour l'indicateur d'alertes, puis repeint
+    adminMsgCount = list.length;
+    paintAdminAlerts();
     var host = $("#adminInbox");
     if (!host) return;
     clear(host);
@@ -3612,6 +3682,9 @@
       footer.textContent = "Dernière vérification : " + fmtDate(updatesData.generated);
       host.appendChild(footer);
     }
+
+    // tient l'indicateur d'alertes à jour (updates non traitées)
+    paintAdminAlerts();
   }
 
   // Barre d'outils admin de l'onglet Updates : bouton de scan manuel + statut.
