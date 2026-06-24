@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-24T14:10:36+00:00",
+  "generated": "2026-06-24T15:25:31+00:00",
   "labels": [
     {
       "id": "lbl_mqft6asnlhoe",
@@ -70,34 +70,6 @@
       "name": "prochainement",
       "tickets": [
         {
-          "id": "tk_mqlmbyyjp94c",
-          "title": "Ergonomie GAMMA.FR",
-          "description": "Ajouter un système de présélection de ses patchs en fonction d'une liste établie par une précédente compilation\n\"VOIR COMMENTAIRE\"",
-          "status": "todo",
-          "due": "",
-          "labels": [
-            "lbl_mqft6asnlhoe",
-            "lbl_mqiajiyf4urc"
-          ],
-          "actions": [
-            {
-              "id": "ac_mqlmeg2izxnu",
-              "text": "Faisabilité avec github ?",
-              "done": false
-            }
-          ],
-          "comments": [
-            {
-              "id": "cm_mqlmi7yabzqu",
-              "author": "Body",
-              "date": "2026-06-20T00:32:22.210Z",
-              "text": "Génération d'un .json lors d'une compilation A à récupérer, drag and drop dans le configurateur pour récupérer la liste telle quelle."
-            }
-          ],
-          "created": "2026-06-20T00:27:30.618Z",
-          "modified": "2026-06-20T00:32:56.082Z"
-        },
-        {
           "id": "tk_mqmfhzy4u0is",
           "title": "UI Rework G.A.M.M.A. Style by Sota",
           "description": "",
@@ -118,6 +90,19 @@
           "created": "2026-06-20T14:04:00.700Z",
           "modified": "2026-06-20T16:23:12.996Z",
           "url": "https://www.moddb.com/mods/stalker-anomaly/addons/ui-rework-gamma-style-by-sota"
+        },
+        {
+          "id": "tk_mqs85iino1p9",
+          "title": "ReportHomestead",
+          "description": "",
+          "status": "todo",
+          "due": "2026-06-28",
+          "labels": [],
+          "actions": [],
+          "comments": [],
+          "created": "2026-06-24T15:24:57.983Z",
+          "modified": "2026-06-24T15:25:29.488Z",
+          "url": "https://www.moddb.com/mods/stalker-anomaly/addons/homestead-stalker-settlement-builder"
         }
       ]
     },
@@ -235,6 +220,29 @@
           "created": "2026-06-17T16:34:24.567Z",
           "modified": "2026-06-17T16:38:02.706Z",
           "archived": "2026-06-18T17:03:49.609Z"
+        },
+        {
+          "id": "tk_mqlmbyyjp94c",
+          "title": "Ergonomie GAMMA.FR",
+          "description": "Ajouter un système de présélection de ses patchs en fonction d'une liste établie par une précédente compilation\n\"VOIR COMMENTAIRE\"",
+          "status": "done",
+          "due": "",
+          "labels": [
+            "lbl_mqft6asnlhoe",
+            "lbl_mqiajiyf4urc"
+          ],
+          "actions": [],
+          "comments": [
+            {
+              "id": "cm_mqlmi7yabzqu",
+              "author": "Body",
+              "date": "2026-06-20T00:32:22.210Z",
+              "text": "Génération d'un .json lors d'une compilation A à récupérer, drag and drop dans le configurateur pour récupérer la liste telle quelle."
+            }
+          ],
+          "created": "2026-06-20T00:27:30.618Z",
+          "modified": "2026-06-24T15:24:51.793Z",
+          "archived": "2026-06-24T15:24:44.042Z"
         }
       ]
     }
