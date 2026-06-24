@@ -1829,6 +1829,7 @@
     var fPrio = el("input", { class: "input", type: "number", inputmode: "numeric", value: "50" });
     var fDate = el("input", { class: "input", type: "date" });
     var fVer  = el("input", { class: "input", type: "text", placeholder: "1.0.0" });
+    var fModdb = el("input", { class: "input", type: "text", placeholder: "Feb 1st, 2026" });
 
     body.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Nom" }), fName]));
     body.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label" }, ["Description ", el("span", { class: "field__opt", text: "facultatif" })]), fDesc]));
@@ -1836,8 +1837,9 @@
     body.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label" }, ["Priorité ", el("span", { class: "field__opt", text: "le plus haut gagne" })]), fPrio]));
     body.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Date" }), fDate]));
     body.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Version" }), fVer]));
+    body.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label" }, ["Date ModDB ", el("span", { class: "field__opt", text: "suivi des MAJ — copie le « Updated » de ModDB" })]), fModdb]));
 
-    var inputs = [fName, fDesc, fUrl, fPrio, fDate, fVer];
+    var inputs = [fName, fDesc, fUrl, fPrio, fDate, fVer, fModdb];
     function setEnabled(on) { inputs.forEach(function (i) { i.disabled = !on; }); }
     setEnabled(false);
 
@@ -1855,6 +1857,7 @@
       fPrio.value = o.priority != null ? o.priority : (entry.priority != null ? entry.priority : 50);
       fDate.value = o.date != null ? o.date : (entry.date || "");
       fVer.value  = o.version != null ? o.version : (entry.version || "");
+      fModdb.value = o.moddb_updated != null ? o.moddb_updated : (entry.moddb_updated || "");
       setEnabled(true);
       saveBtn.disabled = false;
       setStatus(status, "", "");
@@ -1872,13 +1875,15 @@
         description: fDesc.value.trim(),
         date: fDate.value.trim(),
         version: fVer.value.trim(),
+        moddb_updated: fModdb.value.trim(),
         url: fUrl.value.trim(),
         priority: prio
       };
       saveData(filename, obj, status, saveBtn, function () {
         // reflète immédiatement la modification dans la liste affichée
         entry.name = obj.name; entry.description = obj.description; entry.date = obj.date;
-        entry.version = obj.version; entry.url = obj.url; entry.priority = obj.priority;
+        entry.version = obj.version; entry.moddb_updated = obj.moddb_updated;
+        entry.url = obj.url; entry.priority = obj.priority;
         renderListe();
       });
     });
@@ -3367,6 +3372,7 @@
     var pgPrio = el("input", { class: "input", type: "number", inputmode: "numeric", value: "50" });
     var pgDate = el("input", { class: "input", type: "date", value: todayStr });
     var pgVer  = el("input", { class: "input", type: "text", placeholder: "1.0.0" });
+    var pgModdb = el("input", { class: "input", type: "text", placeholder: "Feb 1st, 2026" });
 
     pgCard.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Nom" }), pgName]));
     pgCard.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label" }, ["Description ", el("span", { class: "field__opt", text: "facultatif" })]), pgDesc]));
@@ -3374,6 +3380,7 @@
     pgCard.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label" }, ["Priorité ", el("span", { class: "field__opt", text: "le plus haut gagne" })]), pgPrio]));
     pgCard.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Date" }), pgDate]));
     pgCard.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label", text: "Version" }), pgVer]));
+    pgCard.appendChild(el("label", { class: "field" }, [el("span", { class: "field__label" }, ["Date ModDB ", el("span", { class: "field__opt", text: "suivi des MAJ — copie le « Updated » de ModDB" })]), pgModdb]));
 
     var pgStatus = el("span", { class: "editor__status" });
     var pgBtn = el("button", { class: "btn btn--amber", text: "Télécharger patch.json" });
@@ -3386,6 +3393,7 @@
         description: pgDesc.value.trim(),
         date: pgDate.value.trim(),
         version: pgVer.value.trim(),
+        moddb_updated: pgModdb.value.trim(),
         url: pgUrl.value.trim(),
         priority: prio
       };

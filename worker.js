@@ -86,7 +86,7 @@ function validateSchema(filename, data) {
   if (PATCH_FILE_RE.test(filename)) {
     if (!isObject(data)) return "patch.json doit être un objet.";
     if (typeof data.name !== "string" || data.name.trim() === "") return "patch.json : champ « name » (texte non vide) requis.";
-    const strFields = ["description", "date", "version", "url"];
+    const strFields = ["description", "date", "version", "moddb_updated", "url"];
     for (let i = 0; i < strFields.length; i++) {
       const k = strFields[i];
       if (data[k] !== undefined && typeof data[k] !== "string") return "patch.json : « " + k + " » doit être un texte.";
