@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-24T13:53:30+00:00",
+  "generated": "2026-06-24T13:53:50+00:00",
   "base": {
     "files": [
       "0. PatchVF/GAMMA base/9a91_vsk94.xml",
@@ -897,7 +897,7 @@
     {
       "id": "4. Skills Expansion 2.1",
       "name": "4. Skills Expansion 2.1",
-      "description": "",
+      "description": "Auteur : Utjan",
       "date": "2026-06-24",
       "version": "2.1.0.7",
       "moddb_updated": "Jul 8th, 2023",
