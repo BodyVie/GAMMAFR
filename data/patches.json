@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-24T14:44:46+00:00",
+  "generated": "2026-06-25T12:27:15+00:00",
   "base": {
     "files": [
       "0. PatchVF/GAMMA base/9a91_vsk94.xml",
@@ -934,6 +934,20 @@
       "priority": 30,
       "files": [
         "0. PatchVF/GAMMA extra/6. NPC Weapon Jamming/ui_mcm_npcweaponjamming.xml"
+      ]
+    },
+    {
+      "id": "7. Homestead (Stalker Settlement Builder)",
+      "name": "7. Homestead (Stalker Settlement Builder)",
+      "description": "Auteur : Damage_Zedd",
+      "date": "2026-06-25",
+      "version": "0.6.3",
+      "moddb_updated": "Jun 24th, 2026",
+      "url": "https://www.moddb.com/mods/stalker-anomaly/addons/homestead-stalker-settlement-builder",
+      "priority": 20,
+      "files": [
+        "0. PatchVF/GAMMA extra/7. Homestead (Stalker Settlement Builder)/st_gun_turret.xml",
+        "0. PatchVF/GAMMA extra/7. Homestead (Stalker Settlement Builder)/ui_st_stalker_camp_builder.xml"
       ]
     }
   ],
