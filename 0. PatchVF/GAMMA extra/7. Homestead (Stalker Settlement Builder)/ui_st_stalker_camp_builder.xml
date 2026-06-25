@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<string_table>
+    <string id="st_recruit_to_camp_ask">
+        <text>Ça te dirait de rejoindre un de mes campements ?</text>
+    </string>
+    <string id="st_recruit_to_camp_answer">
+        <text>Ouais, ça me va. Un endroit sûr où me reposer et bosser, c'est toujours bon à prendre. Qu'est-ce que tu attends de moi ?</text>
+    </string>
+    <string id="st_recruit_to_camp_accept">
+        <text>Ça marche, je peux donner un coup de main dans un de tes campements. Je vais où ?</text>
+    </string>
+    <string id="st_recruit_to_camp_reject">
+        <text>Non merci, je me débrouille bien tout seul. Je préfère continuer ma route.</text>
+    </string>
+    <string id="st_recruit_no_camps">
+        <text>Tu as pas encore de campement. Commence par poser un établi quelque part dans la Zone.</text>
+    </string>
+    <string id="st_recruit_camps_full">
+        <text>Tous tes campements sont pleins. Faudra poser plus de lits avant que je puisse venir.</text>
+    </string>
+    <string id="st_recruit_to_camp_close">
+        <text>Je vois.</text>
+    </string>
+    <string id="st_recruit_camp_slot_1">
+        <text>Ça marche, envoie-moi au Campement n°1.</text>
+    </string>
+    <string id="st_recruit_camp_slot_2">
+        <text>Ça marche, envoie-moi au Campement n°2.</text>
+    </string>
+    <string id="st_recruit_camp_slot_3">
+        <text>Ça marche, envoie-moi au Campement n°3.</text>
+    </string>
+    <string id="st_recruit_camp_slot_4">
+        <text>Ça marche, envoie-moi au Campement n°4.</text>
+    </string>
+    <string id="st_recruit_joined_camp">
+        <text>%s a rejoint %s et s'y rendra sous peu.</text>
+    </string>
+    <string id="st_transfer_survivor_msg">
+        <text>%s est réaffecté à %s.</text>
+    </string>
+    <string id="st_manage_camp_ask">
+        <text>J'ai un boulot pour toi au camp.</text>
+    </string>
+    <string id="st_manage_camp_answer">
+        <text>Qu'est-ce que tu veux que je fasse ?</text>
+    </string>
+    <string id="st_job_scavenge_ask">
+        <text>Va dehors récupérer des fournitures.</text>
+    </string>
+    <string id="st_job_scavenge_done">
+        <text>OK, je prends mes affaires et j'y vais. Jette un œil au coffre du camp dans 24 heures.</text>
+    </string>
+    <string id="st_job_craft_ask">
+        <text>Mets-toi à fabriquer des munitions à l'établi.</text>
+    </string>
+    <string id="st_job_craft_done">
+        <text>Compris. Garde le coffre de l'établi rempli de poudre et de ferraille.</text>
+    </string>
+    <string id="st_job_repair_ask">
+        <text>Occupe-toi de réparer l'équipement.</text>
+    </string>
+    <string id="st_job_repair_done">
+        <text>Ça marche. Mets les armes et tenues abîmées dans le coffre, avec de la bouffe ou de la vodka pour me payer.</text>
+    </string>
+    <string id="st_job_idle_ask">
+        <text>Pour l'instant, repose-toi et reste tranquille au camp.</text>
+    </string>
+    <string id="st_job_idle_done">
+        <text>Compris, je traîne près du feu.</text>
+    </string>
+    <string id="st_recruit_back_ask">
+        <text>J'ai besoin de toi dans mon escouade. On bouge.</text>
+    </string>
+    <string id="st_recruit_back_done">
+        <text>Content de reprendre la route. C'est parti.</text>
+    </string>
+    <string id="st_job_guard_ask">
+        <text>Monte la garde et défends le camp.</text>
+    </string>
+    <string id="st_job_guard_done">
+        <text>Reçu. Je tiens les barricades.</text>
+    </string>
+    <string id="st_camp_status_ask">
+        <text>Le camp, ça donne quoi ?</text>
+    </string>
+    <string id="st_hf_requirement_warning">
+        <text>ATTENTION : Stalker Camp Builder nécessite l'installation du mod 'Hideout Furniture [Base]' !</text>
+    </string>
+    <string id="st_hg_requirement_warning">
+        <text>ATTENTION : Stalker Camp Builder nécessite l'installation du mod 'Hideout Gadgets [Version 0.7.2]' pour les systèmes de défense !</text>
+    </string>
+    <string id="st_hfe_requirement_warning">
+        <text>ATTENTION : Stalker Camp Builder nécessite l'installation du mod 'Hideout Furniture Expansion' pour la détection avancée du mobilier !</text>
+    </string>
+    <string id="st_emf_requirement_warning">
+        <text>ATTENTION : Stalker Camp Builder nécessite l'installation du mod 'Even More Hideout Furniture' pour une détection étendue du mobilier !</text>
+    </string>
+    <string id="st_job_cook_ask">
+        <text>Mets-toi à la cuisine, prépare les repas au réchaud.</text>
+    </string>
+    <string id="st_job_cook_done">
+        <text>Compris, je cuisine la viande crue que tu mets dans le coffre.</text>
+    </string>
+    <string id="st_camp_trader_ask">
+        <text>Je veux troquer des fournitures.</text>
+    </string>
+    <string id="st_camp_trader_answer">
+        <text>Ça marche, montre-moi ce que tu as.</text>
+    </string>
+
+    <!-- MCM Translations -->
+    <string id="ui_mcm_menu_stalker_camp_builder">
+        <text>Homestead</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_title">
+        <text>Homestead (Constructeur de campements stalker)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_general_header">
+        <text>Paramètres généraux des campements</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_boundary_dist">
+        <text>Rayon de la zone du camp (mètres)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_boundary_dist_desc">
+        <text>Définit la zone active autour d'un Hub de campement où les structures placées sont détectées.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_npc_leash_radius">
+        <text>Rayon de déplacement des PNJ au repos (mètres)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_npc_leash_radius_desc">
+        <text>Distance à laquelle les colons au repos peuvent s'éloigner du Hub de campement. Les PNJ assignés à une tâche (cuisinier, artisan, etc.) utilisent toute la zone du camp pour atteindre leur mobilier. Par défaut : 10 m.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_rival_camp_slope_tolerance">
+        <text>Tolérance de pente des camps rivaux (mètres)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_rival_camp_slope_tolerance_desc">
+        <text>Différence de hauteur maximale autorisée entre le coffre d'un camp rival et le sol dans un rayon de 5 m autour. Rejette les emplacements sur les pentes raides où les décorations s'enfonceraient dans le terrain ou flotteraient. Augmentez la valeur (5-8 m) pour autoriser les camps sur terrain modérément en pente, diminuez-la (1-2 m) pour n'autoriser que le terrain plat. Par défaut : 2,5 m.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_rival_camp_spawn_dist_min">
+        <text>Distance d'apparition min. des camps rivaux (mètres)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_rival_camp_spawn_dist_min_desc">
+        <text>Distance minimale par rapport à un smart terrain où les camps rivaux peuvent apparaître. Des plages plus larges donnent au contrôle de pente davantage de candidats pour trouver du terrain plat. Par défaut : 25 m.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_rival_camp_spawn_dist_max">
+        <text>Distance d'apparition max. des camps rivaux (mètres)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_rival_camp_spawn_dist_max_desc">
+        <text>Distance maximale par rapport à un smart terrain où les camps rivaux peuvent apparaître. Doit être supérieure au minimum. Par défaut : 50 m.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_rival_camp_setup_duration_hr">
+        <text>Durée d'occupation des camps rivaux (heures de jeu)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_rival_camp_setup_duration_hr_desc">
+        <text>Durée (en heures de jeu) pendant laquelle une escouade rivale occupe un camp avant de l'abandonner. Passé ce délai, l'escouade s'en va et le camp devient inoccupé. Par défaut : 24 heures de jeu.</text>
+    </string>
+
+    <!-- Notifications and QoL section -->
+    <string id="ui_mcm_stalker_camp_builder_notifications_header">
+        <text>Notifications et confort de jeu</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_verbose_notifications">
+        <text>Notifications détaillées</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_verbose_notifications_desc">
+        <text>Lorsque activé, affiche les notifications de routine pour les tâches accomplies (cuisine, fabrication, réparation, récupération, arrivées de marchands). Lorsque désactivé, seules les alertes de danger/raid sont affichées. Recommandé désactivé pour les joueurs ayant plusieurs camps actifs afin de réduire le spam de notifications.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_craft_output_multiplier">
+        <text>Multiplicateur de production</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_craft_output_multiplier_desc">
+        <text>Multiplie le rendement de chaque cycle de tâche (cuisine, fabrication, réparation, médecin). Réglez sur 1 pour l'équilibrage d'origine, 2-3 pour une progression plus rapide, 5 pour les tests. N'affecte PAS le butin de récupération.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_fast_travel_cost">
+        <text>Coût du voyage rapide (RU)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_fast_travel_cost_desc">
+        <text>Coût en RU pour voyager rapidement vers un camp via le bouton Voyage du PDA. Réglez sur 0 pour un voyage gratuit. Par défaut : 2000 RU.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_raid_deficit_mult">
+        <text>Multiplicateur de déficit de défense (raids)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_raid_deficit_mult_desc">
+        <text>À quel point les raids s'intensifient en fonction du déficit de défense. Plus la valeur est élevée, plus les raids sont fréquents quand les défenses sont faibles. Par défaut : 3.</text>
+    </string>
+
+    <!-- New PDA UI strings -->
+    <string id="st_pda_job_btn_medic">
+        <text>Assigner médecin</text>
+    </string>
+    <string id="st_pda_btn_rename">
+        <text>Renommer le camp</text>
+    </string>
+    <string id="st_pda_btn_travel">
+        <text>Voyager ici</text>
+    </string>
+    <string id="st_pda_btn_summon_caravan">
+        <text>Appeler une caravane marchande</text>
+    </string>
+    <string id="st_pda_specialization_lbl">
+        <text>Spécialisation du camp (cliquer pour changer)</text>
+    </string>
+    <string id="st_pda_dashboard_lbl">
+        <text>Tableau de bord des ressources (tous les camps)</text>
+    </string>
+    <string id="st_job_medic_ask">
+        <text>Tu peux faire le toubib au poste médical ?</text>
+    </string>
+    <string id="st_job_medic_done">
+        <text>Compris. Je prépare les fournitures médicales au poste.</text>
+    </string>
+
+    <!-- Fast-travel and caravan toast strings -->
+    <string id="st_fast_travel_success">
+        <text>Voyage rapide vers %s (-%d RU)</text>
+    </string>
+    <string id="st_fast_travel_need_ru">
+        <text>Il faut %d RU pour voyager rapidement vers ce camp.</text>
+    </string>
+    <string id="st_fast_travel_same_level">
+        <text>Tu es déjà sur ce niveau. Rends-toi à pied à ton camp.</text>
+    </string>
+    <string id="st_fast_travel_in_combat">
+        <text>Impossible de voyager rapidement pendant un combat !</text>
+    </string>
+    <string id="st_fast_travel_no_hub">
+        <text>Hub de camp introuvable.</text>
+    </string>
+    <string id="st_fast_travel_cross_level">
+        <text>Le voyage entre niveaux n'est pas pris en charge. Rends-toi à pied à une transition de niveau.</text>
+    </string>
+    <string id="st_caravan_summoned">
+        <text>Caravane appelée ! Un marchand arrivera sous peu.</text>
+    </string>
+    <string id="st_caravan_cooldown">
+        <text>Une caravane a été appelée récemment. Patiente un moment.</text>
+    </string>
+    <string id="st_caravan_present">
+        <text>Une caravane est déjà présente à ce camp.</text>
+    </string>
+    <string id="st_caravan_spawn_failed">
+        <text>Impossible d'appeler une caravane.</text>
+    </string>
+    <string id="st_dismantle_camp">
+        <text>Démanteler le camp</text>
+    </string>
+    <string id="st_dismantle_camp_confirm">
+        <text>Démanteler ce camp ? Le hub et tout le mobilier seront retirés. Les survivants seront renvoyés.</text>
+    </string>
+    <string id="st_dismantle_camp_done">
+        <text>Camp démantelé. Hub et mobilier retirés.</text>
+    </string>
+    <string id="st_rename_survivor">
+        <text>Renommer le survivant</text>
+    </string>
+    <string id="st_transfer_supplies">
+        <text>Transférer des fournitures</text>
+    </string>
+    <string id="st_transfer_supplies_lbl">
+        <text>Sélectionne les objets à transférer vers :</text>
+    </string>
+    <string id="st_btn_transfer_items">
+        <text>Transférer les objets sélectionnés</text>
+    </string>
+    <string id="st_trade_route_established">
+        <text>Route commerciale établie entre %s et %s.</text>
+    </string>
+    <string id="st_trade_route_removed">
+        <text>Route commerciale supprimée.</text>
+    </string>
+    <string id="st_btn_trade_route">
+        <text>Gérer les routes commerciales</text>
+    </string>
+    <string id="st_camp_morale_low">
+        <text>Le moral à %s est bas (%d%%). Les survivants pourraient abandonner le camp !</text>
+    </string>
+    <string id="st_camp_morale_high">
+        <text>Le moral à %s est élevé (%d%%). Bonus de production actif !</text>
+    </string>
+    <string id="st_survivor_abandoned">
+        <text>%s a abandonné %s à cause d'un moral trop bas !</text>
+    </string>
+    <string id="st_pda_morale_lbl">
+        <text>Moral</text>
+    </string>
+    <string id="st_raid_summary">
+        <text>Raid sur %s repoussé ! Pillards tués : %d, gardes perdus : %d.</text>
+    </string>
+    <string id="st_raid_failed">
+        <text>Raid sur %s réussi ! Camp saccagé, fournitures volées.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_hub_min_dist">
+        <text>Distance minimale entre hubs (mètres)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_hub_min_dist_desc">
+        <text>Distance minimale requise entre différents Hubs de campement pour éviter les chevauchements.</text>
+    </string>
+
+    <string id="ui_mcm_stalker_camp_builder_jobs_header">
+        <text>Tâches des survivants &amp; équilibrage de la récupération</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_job_update_interval_hr">
+        <text>Cycle de mise à jour des tâches (heures)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_job_update_interval_hr_desc">
+        <text>Heures de jeu entre les productions des tâches des survivants (fabrication, réparation, cuisine, récupération).</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_realtime_job_cook_interval_min">
+        <text>Cycle de la tâche cuisine (minutes)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_realtime_job_cook_interval_min_desc">
+        <text>Minutes réelles entre les traitements de la tâche cuisine. La progression avance en direct pendant le jeu, pas seulement en dormant/attendant.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_realtime_job_craft_interval_min">
+        <text>Cycle de la tâche artisan (minutes)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_realtime_job_craft_interval_min_desc">
+        <text>Minutes réelles entre la fabrication de munitions et l'entretien des tourelles. La progression avance en direct pendant le jeu.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_realtime_job_repair_interval_min">
+        <text>Cycle de la tâche réparateur (minutes)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_realtime_job_repair_interval_min_desc">
+        <text>Minutes réelles entre les traitements de la tâche de réparation d'équipement. La progression avance en direct pendant le jeu.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_realtime_job_scavenge_interval_min">
+        <text>Cycle de la tâche récupérateur (minutes)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_realtime_job_scavenge_interval_min_desc">
+        <text>Minutes réelles entre les retours de butin des récupérateurs. La progression avance en direct pendant le jeu.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_scavenge_ambush_chance">
+        <text>Probabilité d'embuscade du récupérateur (%)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_scavenge_ambush_chance_desc">
+        <text>Probabilité en pourcentage qu'un récupérateur tombe dans une embuscade, revienne les mains vides et ait besoin de repos.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_scavenge_min_items">
+        <text>Objets récupérés (minimum)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_scavenge_min_items_desc">
+        <text>Quantité minimale d'objets de butin que rapporte un récupérateur ayant réussi.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_scavenge_max_items">
+        <text>Objets récupérés (maximum)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_scavenge_max_items_desc">
+        <text>Quantité maximale d'objets de butin que rapporte un récupérateur ayant réussi.</text>
+    </string>
+
+    <string id="ui_mcm_stalker_camp_builder_upkeep_header">
+        <text>Entretien &amp; systèmes de conservation</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_fridge_interval_hr">
+        <text>Cycle de conservation du réfrigérateur (heures)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_fridge_interval_hr_desc">
+        <text>Heures de jeu entre les passages de conservation du réfrigérateur sur le coffre du camp.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_fridge_cond_restore">
+        <text>Quantité de conservation des aliments</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_fridge_cond_restore_desc">
+        <text>État restauré progressivement aux aliments frais (+0,25 par défaut).</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_water_interval_hr">
+        <text>Cycle de production d'eau (heures)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_water_interval_hr_desc">
+        <text>Heures de jeu entre les productions d'eau potable par les pompes actives.</text>
+    </string>
+
+    <string id="ui_mcm_stalker_camp_builder_events_header">
+        <text>Fréquence des événements aléatoires &amp; des raids</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_raid_cooldown_hr">
+        <text>Délai entre raids de camp (heures)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_raid_cooldown_hr_desc">
+        <text>Heures de jeu minimales entre deux raids de camp.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_raid_base_chance">
+        <text>Probabilité de base d'un raid (%)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_raid_base_chance_desc">
+        <text>Probabilité de base qu'un raid se déclenche pendant l'intervalle de vérification.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_event_cooldown_hr">
+        <text>Délai entre événements aléatoires (heures)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_event_cooldown_hr_desc">
+        <text>Heures de jeu minimales entre deux événements aléatoires de camp (réfugiés, marchand, migrations de mutants).</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_event_chance">
+        <text>Probabilité d'événement aléatoire (%)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_event_chance_desc">
+        <text>Probabilité en pourcentage de déclencher un événement aléatoire.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_rival_friendly_takeover">
+        <text>Probabilité de prise de contrôle d'un camp rival (%)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_rival_friendly_takeover_desc">
+        <text>Probabilité en pourcentage que le nettoyage d'un camp rival aboutisse à une prise de contrôle par une faction aléatoire plutôt qu'à son démantèlement.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_debug_header">
+        <text>Options de débogage</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_respawn_rival_camps">
+        <text>Réapparition/Actualisation des camps rivaux</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_respawn_rival_camps_desc">
+        <text>Supprime tous les camps rivaux actuels et force une nouvelle boucle d'apparition sur toute la Zone. L'option se réinitialise automatiquement.</text>
+    </string>
+    <string id="st_itm_water_pump">
+        <text>Pompe à eau de camp</text>
+    </string>
+    <string id="st_itm_water_pump_descr">
+        <text>Une pompe à eau manuelle et lourde. Place-la dans ton camp pour produire de l'eau potable. Nécessite du charbon de bois ou des filtres en papier dans le coffre du camp pour fonctionner. Disponible chez Sidorovich et les marchands d'outils.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_defense_cap">
+        <text>Plafond de l'indice de défense</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_defense_cap_desc">
+        <text>Indice de défense maximal qu'un camp peut atteindre. Empêche l'accumulation de gadgets/tourelles de rendre les raids impossibles. Par défaut : 150.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_base_recruit_chance">
+        <text>Probabilité de recrutement de base</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_base_recruit_chance_desc">
+        <text>Probabilité de base (en pourcentage) que des stalkers génériques de la même faction rejoignent ton camp. Elle augmente encore selon le rang du joueur et la réputation auprès de la faction. Par défaut : 15 %.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_max_rival_camps">
+        <text>Camps rivaux max.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_max_rival_camps_desc">
+        <text>Détermine le nombre d'avant-postes rivaux qui apparaissent dans la Zone. Par défaut : 10.</text>
+    </string>
+    <string id="st_mcm_boundary_rescanned">
+        <text>Rayon de la zone du camp mis à jour - toutes les structures du campement ont été réanalysées.</text>
+    </string>
+    <string id="pda_btn_settlement">
+        <text>Campements</text>
+    </string>
+    <string id="st_pda_settlements_title">
+        <text>Campements actifs</text>
+    </string>
+    <string id="st_pda_rivals_title">
+        <text>Camps rivaux dans la Zone</text>
+    </string>
+    <string id="st_pda_no_settlements">
+        <text>Aucun campement actif. Place un Hub de campement pour commencer à construire.</text>
+    </string>
+    <string id="st_pda_camp_name">
+        <text>Campement</text>
+    </string>
+    <string id="st_pda_camp_pop">
+        <text>Population : %d / %d lits</text>
+    </string>
+    <string id="st_pda_camp_happy">
+        <text>Satisfaction : %d%%</text>
+    </string>
+    <string id="st_pda_camp_def">
+        <text>Indice de défense : %d / %d</text>
+    </string>
+    <string id="st_pda_camp_def_breakdown">
+        <text>Barricades : %d | Gardes : %d | Tourelles : %d</text>
+    </string>
+    <string id="st_pda_camp_water">
+        <text>Pompes à eau : %d</text>
+    </string>
+    <string id="st_pda_camp_morale">
+        <text>Pianos : %d | Radios : %d</text>
+    </string>
+    <string id="st_pda_camp_supplies">
+        <text>Réserves du coffre : Nourriture (%s), Eau (%s)</text>
+    </string>
+    <string id="st_pda_settlement_supplies_ok">
+        <text>OK</text>
+    </string>
+    <string id="st_pda_settlement_supplies_missing">
+        <text>MANQUANT</text>
+    </string>
+    <string id="st_pda_survivors_title">
+        <text>Survivants &amp; réaffectation des tâches</text>
+    </string>
+    <string id="st_pda_assign_job_label">
+        <text>Réaffecter la tâche :</text>
+    </string>
+    <string id="st_pda_job_btn_idle">
+        <text>Repos</text>
+    </string>
+    <string id="st_pda_job_btn_guard">
+        <text>Garde</text>
+    </string>
+    <string id="st_pda_job_btn_scavenger">
+        <text>Récupérateur</text>
+    </string>
+    <string id="st_pda_job_btn_crafter">
+        <text>Artisan</text>
+    </string>
+    <string id="st_pda_job_btn_repairer">
+        <text>Réparateur</text>
+    </string>
+    <string id="st_pda_job_btn_cook">
+        <text>Cuisinier</text>
+    </string>
+    <string id="st_pda_position_btn_here">
+        <text>Envoyer ici</text>
+    </string>
+    <string id="st_pda_position_btn_recall">
+        <text>Rappeler au camp</text>
+    </string>
+    <string id="st_pda_position_status_custom">
+        <text>Position : Personnalisée (assignée)</text>
+    </string>
+    <string id="st_pda_position_status_default">
+        <text>Position : Par défaut (tâches du camp)</text>
+    </string>
+    <string id="st_pda_position_set">
+        <text>Le survivant se rendra à ta position.</text>
+    </string>
+    <string id="st_pda_position_cleared">
+        <text>Le survivant a repris ses tâches par défaut au camp.</text>
+    </string>
+    <string id="st_pda_position_too_far">
+        <text>Trop loin du hub du camp - la position n'est pas dans la zone du camp.</text>
+    </string>
+    <string id="st_pda_transfer_lbl">
+        <text>Transférer vers le campement :</text>
+    </string>
+    <string id="st_pda_transfer_btn">
+        <text>Transférer</text>
+    </string>
+    <string id="st_pda_transfer_full">
+        <text>Ce campement n'a aucun lit libre.</text>
+    </string>
+    <string id="st_pda_settlement_job_idle">
+        <text>Repos</text>
+    </string>
+    <string id="st_pda_settlement_job_guard">
+        <text>Garde</text>
+    </string>
+    <string id="st_pda_settlement_job_scavenge">
+        <text>Récupérateur</text>
+    </string>
+    <string id="st_pda_settlement_job_craft">
+        <text>Artisan</text>
+    </string>
+    <string id="st_pda_settlement_job_repair">
+        <text>Réparateur</text>
+    </string>
+    <string id="st_pda_settlement_job_cook">
+        <text>Cuisinier</text>
+    </string>
+    <string id="st_pda_settlement_job_medic">
+        <text>Médecin</text>
+    </string>
+    <string id="st_pda_settlement_assign_job">
+        <text>Tâche actuelle :</text>
+    </string>
+    <string id="st_pda_settlement_rival_status_active">
+        <text>Hostile / Actif</text>
+    </string>
+    <string id="st_pda_settlement_rival_status_friendly">
+        <text>Allié / Sécurisé</text>
+    </string>
+    <string id="st_pda_btn_rename">
+        <text>Renommer</text>
+    </string>
+    <string id="st_pda_rename_title">
+        <text>Renommer le campement</text>
+    </string>
+    <string id="st_pda_tab_overview">
+        <text>Aperçu</text>
+    </string>
+    <string id="st_pda_tab_survivors">
+        <text>Survivants</text>
+    </string>
+    <string id="st_pda_tab_rivals">
+        <text>Camps rivaux</text>
+    </string>
+    <string id="st_pda_settlement_pop_lbl">
+        <text>POPULATION</text>
+    </string>
+    <string id="st_pda_settlement_morale_lbl">
+        <text>MORAL</text>
+    </string>
+    <string id="st_pda_settlement_def_lbl">
+        <text>SÉCURITÉ</text>
+    </string>
+    <string id="st_pda_settlement_water_lbl">
+        <text>POMPES À EAU</text>
+    </string>
+    <string id="st_pda_settlement_supplies_lbl">
+        <text>RESSOURCES &amp; VIVRES</text>
+    </string>
+    <string id="st_pda_settlement_breakdown_lbl">
+        <text>DÉTAIL DE L'INFRASTRUCTURE DE DÉFENSE</text>
+    </string>
+    <string id='st_pda_settlement_survivors_count'>
+        <text>survivants</text>
+    </string>
+    <string id="st_pda_tab_guide">
+        <text>Comment jouer</text>
+    </string>
+    <string id="st_pda_how_to_play_text">
+        <text>%c[255,238,196,112]1. ÉTABLIR VOTRE PREMIER CAMPEMENT%c[default]
+Procurez-vous un Établi de mobilier de planque (itm_workshop / placeable_workshop) et placez-le n'importe où dans la Zone.
+Un Hub de campement est créé automatiquement avec une zone de 50 m (réglable dans le MCM), un marqueur de fumée et une épingle sur la carte du PDA.
+%c[255,238,196,112]Note :%c[default] les hubs doivent être espacés d'au moins 100 m (MCM). Un placement trop proche rembourse l'objet.
+
+%c[255,238,196,112]2. RECRUTER DES SURVIVANTS%c[default]
+Parlez à n'importe quel compagnon stalker allié ou à un réfugié de passage.
+Choisissez « Ça te dirait de rester et d'aider à gérer ce camp ? » puis sélectionnez le campement.
+%c[255,200,200,200]Limite de lits :%c[default] chaque survivant a besoin d'un lit. Sans lits, vous ne pouvez recruter personne.
+  Lits : Lit enroulable, Lit en métal, Lit en bois, Vieux sofa, Vieux canapé, Lit de camp militaire, Panier pour chat (tout objet plaçable dont le nom de section contient "bed", "couch", "sleep", "tent" ou "cot").
+
+%c[255,238,196,112]3. TÂCHES - PRÉREQUIS ET PRODUCTIONS%c[default]
+Assignez les tâches par dialogue (parlez au survivant au camp) ou à distance via l'onglet Survivants du PDA.
+Toutes les entrées et sorties d'objets passent par le %c[255,200,200,200]coffre du camp%c[default] (la cache la plus proche du hub).
+
+%c[255,255,220,80]REPOS%c[default]
+  Mobilier : aucun requis. Le survivant flâne vers le réchaud, le piano ou la radio s'il y en a.
+  Cycle :    aucun minuteur. Les colons au repos sont toujours disponibles.
+  Production : aucune. Le colon se repose et entretient son moral.
+
+%c[255,255,220,80]GARDE%c[default]
+  Cycle :    aucun minuteur. Le garde est toujours en poste.
+  Mobilier : %c[255,200,200,200]Barricade%c[default] (tout placeable_barricade, sac de sable, clôture, paravent ou section de mur). Le garde se tient à la barricade la plus proche ; il se replie sur le hub si aucune n'est placée.
+  Entrées :  aucune.
+  Production : bonus passif d'indice de défense. Chaque barricade ajoute +2 à l'indice de défense.
+  Notes :    le colon tient sa position et reste vigilant (animations de menace/attente).
+
+%c[255,255,220,80]RÉCUPÉRATEUR%c[default]
+  Mobilier : aucun requis. Le survivant passe hors ligne (quitte le camp) pour un cycle de tâche.
+  Entrées :  aucune - le récupérateur est autonome.
+  Production : 1 à 3 objets de butin aléatoires déposés dans le coffre du camp au retour.
+            Butin possible : nourriture, munitions, fournitures médicales, pièces, débris divers de la Zone.
+  Cycle :    20 minutes réelles (réglable dans le MCM via realtime_job_scavenge_interval_min).
+  Risque :   25 % de risque d'embuscade (réglable dans le MCM). En cas d'embuscade, le récupérateur revient les mains vides et doit se reposer.
+  Notes :    le récupérateur est hors ligne pendant le cycle ; impossible de lui parler ou d'interagir avec lui.
+
+%c[255,255,220,80]ARTISAN%c[default]
+  Mobilier : %c[255,200,200,200]Établi%c[default] (toute section contenant "workbench", "anvil" ou "forge"). L'artisan se tient à l'établi ; il se replie sur le hub si aucun n'est placé.
+  Entrées (fabrication de munitions - les deux requises par cycle) :
+    - 1x Poudre (tout objet contenant "powder" dans le nom de section, ex. prt_i_powder)
+    - 1x Ferraille (prt_i_scrap)
+  Production (fabrication de munitions) : 1x boîte de munitions aléatoire - 9x18mm, 9x19mm, .45 ACP, 5.45x39, 5.56x45 ou chevrotine 12x70.
+  Entrées (entretien des tourelles - si des tourelles sont présentes, par cycle) :
+    - 1x boîte de munitions 9x18mm FMJ ou 9x19mm FMJ
+  Production (entretien des tourelles) : les tourelles sont réapprovisionnées et restent opérationnelles.
+  Notes :    la fabrication de munitions et l'entretien des tourelles partagent le même minuteur de cycle (10 min réelles par défaut, réglable dans le MCM via realtime_job_craft_interval_min).
+             Les deux nécessitent une cache/un coffre près du hub pour puiser et déposer.
+
+%c[255,255,220,80]RÉPARATEUR%c[default]
+  Mobilier : %c[255,200,200,200]Établi de réparation%c[default] (toute section contenant "repair_kit", "repair_bench", "exo_repair" ou "toolbox"). Le réparateur se tient à l'établi ; il se replie sur le hub si aucun n'est placé.
+  Entrées (les deux doivent être dans le coffre du camp simultanément) :
+    - 1x arme ou armure endommagée (état inférieur à 95 %)
+    - 1x objet de paiement : Vodka, Bœuf en conserve (conserva) ou Ragoût de porc (tushonka)
+  Production : l'arme ou l'armure est restaurée à 100 % d'état. L'objet de paiement est consommé.
+  Cycle :    8 minutes réelles (réglable dans le MCM via realtime_job_repair_interval_min).
+  Notes :    un seul objet est réparé par cycle. Laissez votre équipement endommagé et le paiement dans le coffre, puis patientez.
+             Armes et armures prises en charge. Le réparateur ne travaille pas sans paiement.
+
+%c[255,255,220,80]CUISINIER%c[default]
+  Mobilier : %c[255,200,200,200]Réchaud%c[default] (toute section contenant "stove", "fire" ou "campfire" - y compris les feux de camp préexistants du monde). Le cuisinier se tient au réchaud ; il se replie sur le hub si aucun n'est placé.
+  Entrées (par cycle) :
+    - 1x viande de mutant crue (tout objet mutant_part contenant "meat" dans le nom de section, ex. boar_meat, flesh_meat, dog_meat)
+  Production : 1x plat cuisiné aléatoire déposé dans le coffre du camp :
+            Bœuf en conserve (tushonka), Conserve (conserva), Saucisse (kolbasa) ou Pain.
+  Cycle :    5 minutes réelles (réglable dans le MCM via realtime_job_cook_interval_min).
+  Notes :    la viande crue doit être placée dans le coffre du camp. Gardez le coffre approvisionné en parties de mutant fraîches.
+
+%c[255,255,220,80]MÉDECIN%c[default]
+  Mobilier : %c[255,200,200,200]Poste médical%c[default] (toute section contenant "medical", "medkit_box", "medstation", "firstaid" ou "first_aid"). Le médecin se tient au poste ; il se replie sur le hub si aucun n'est placé.
+  Entrées :  aucune requise. Le médecin travaille à partir des fournitures disponibles au camp.
+  Production : 1x fourniture médicale aléatoire déposée dans le coffre du camp (réfrigérateur de préférence) :
+            Trousse de soins, Bandage, Antirad ou Trousse de soins militaire.
+  Cycle :    8 minutes réelles (réglable dans le MCM via medic_job_interval).
+  Notes :    le médecin produit passivement des fournitures médicales de base. Aucun matériau d'entrée requis.
+
+%c[255,238,196,112]4. SYSTÈMES AUTOMATIQUES DU CAMP%c[default]
+Ceux-ci fonctionnent sur minuteur sans assigner de tâche à un survivant.
+
+%c[255,255,220,80]POMPE À EAU (Automatique)%c[default]
+  Mobilier : Pompe à eau de camp, Baril métallique, Bidon de lait, Évier, ou toute section contenant "barrel", "pump", "well", "water", "sink" ou "bidon".
+  Entrées (par cycle, depuis le coffre du camp) :
+    - 1x filtre : Charbon de bois (charcoal) ou Filtre en papier (prt_i_paper)
+  Production : 1x Eau minérale par pompe, déposée dans le coffre du camp.
+  Notes :    fonctionne automatiquement toutes les 6h par défaut (réglable dans le MCM). Plusieurs pompes = plus d'eau par cycle.
+
+%c[255,255,220,80]RÉFRIGÉRATEUR (Automatique)%c[default]
+  Mobilier : Vieux réfrigérateur (toute section contenant "fridge").
+  Entrées :  nourriture et viande crue déjà présentes dans le coffre du camp.
+  Production : restaure +25 % d'état à tous les aliments/viandes du coffre du camp.
+  Notes :    fonctionne toutes les 12h par défaut (MCM). Plusieurs réfrigérateurs ne se cumulent pas - un seul suffit.
+
+%c[255,255,220,80]SYSTÈME D'ALARME%c[default]
+  Mobilier : Système d'alarme, Système d'alarme PDA (toute section contenant "alarm").
+  Effet :    déclenche une sirène d'avertissement au début d'un raid. N'arrête pas les raids mais offre un temps de réaction.
+
+%c[255,238,196,112]5. RÉFÉRENCE COMPLÈTE DU MOBILIER%c[default]
+
+%c[255,200,200,200]Lits (limite de survivants)%c[default]
+  Lit enroulable, Lit en métal, Lit en bois, Vieux sofa, Vieux canapé, Lit de camp militaire, Panier pour chat.
+  Règle : 1 lit = 1 emplacement de survivant. Aucun lit = aucun recrutement.
+
+%c[255,200,200,200]Réchauds (cible de la tâche Cuisinier)%c[default]
+  Réchaud (petit), Réchaud (grand), tout feu de camp du monde.
+  Sections : stove, fire, campfire.
+
+%c[255,200,200,200]Établis (cible de la tâche Artisan)%c[default]
+  Tout objet placeable_workbench, anvil ou forge.
+  Sections : workbench, anvil, forge.
+
+%c[255,200,200,200]Établis de réparation (cible de la tâche Réparateur)%c[default]
+  Kit de réparation, Kit de réparation d'exosquelette, Boîte à outils.
+  Sections : repair_kit, repair_bench, exo_repair, toolbox.
+
+%c[255,200,200,200]Postes médicaux (cible de la tâche Médecin)%c[default]
+  Table médicale, tout poste de premiers secours.
+  Sections : medical, medkit_box, medstation, firstaid, first_aid.
+
+%c[255,200,200,200]Barricades (cible de la tâche Garde / +2 Défense chacune)%c[default]
+  Mur en bois, Mur en tôle, Mur de sacs de sable, Clôture, Paravent, Encadrement de porte.
+  Sections : barricade, sandbag, fence, screen, wall.
+
+%c[255,200,200,200]Pompes à eau (automatique / +1 Eau minérale par cycle chacune)%c[default]
+  Pompe à eau de camp, Baril métallique, Bidon de lait, Évier, Bidon.
+  Sections : barrel, pump, well, water, sink, bidon.
+
+%c[255,200,200,200]Réfrigérateurs (automatique / conservent l'état des aliments)%c[default]
+  Vieux réfrigérateur.  Sections : fridge.
+
+%c[255,200,200,200]Gadgets et tourelles (+15 Défense chacun)%c[default]
+  Tourelle automatique, Support de tourelle, Bobine Tesla, Mine, Claymore, tout gadget hg_.
+  Sections : turret, tesla, mine, claymore, gadget, hg_.
+  Les artisans entretiennent les tourelles en consommant des munitions 9x18mm ou 9x19mm du coffre du camp.
+
+%c[255,200,200,200]Moral et loisirs (+10%% de satisfaction chacun)%c[default]
+  Clavier portable (piano), Radio, Radiola.
+  Sections : piano, radio. Les colons au repos gravitent vers ces objets.
+
+%c[255,200,200,200]Coffres / Caches (inventaire du camp)%c[default]
+  Boîte métallique, Caisse en carton, Caisse en bois, Armoire, Caisse de munitions, tout conteneur pillable.
+  Le coffre %c[255,238,196,112]le plus proche du hub%c[default] est le coffre du camp actif. Toutes les entrées et sorties de tâches utilisent ce coffre.
+
+%c[255,238,196,112]6. GESTIONNAIRE DE CAMPEMENT DU PDA%c[default]
+Ouvrez votre PDA et passez à l'onglet Campements.
+  %c[255,200,200,200]Aperçu%c[default]      - statistiques du camp : satisfaction, indice de défense, niveaux de réserves.
+  %c[255,200,200,200]Survivants%c[default]  - voir tous les colons, assigner des tâches à distance, repositionner ou transférer vers un autre campement.
+  %c[255,200,200,200]Camps rivaux%c[default] - suivre les avant-postes hostiles découverts dans la Zone.
+  %c[255,200,200,200]Guide%c[default]       - cet écran.
+Renommez votre campement avec le bouton Renommer. Le nom met à jour le marqueur de la carte.
+
+%c[255,238,196,112]7. ÉVÉNEMENTS ET MENACES%c[default]
+  %c[255,200,200,200]Réfugiés%c[default] :        des stalkers errants peuvent arriver et demander à rejoindre le camp. Recrutez-les ou renvoyez-les.
+  %c[255,200,200,200]Caravanes marchandes%c[default] : des visiteurs occasionnels apportent des marchandises. Gardez le camp approvisionné pour attirer de meilleurs marchands.
+  %c[255,200,200,200]Migrations de mutants%c[default] : des meutes de mutants aléatoires peuvent traverser la zone du camp.
+  %c[255,200,200,200]Raids%c[default] :           déclenchés par une défense faible. Placez barricades, tourelles et gardes pour réduire leur fréquence.
+                   Placez un Système d'alarme pour un avertissement anticipé. Les alarmes n'arrêtent pas les raids.
+  %c[255,200,200,200]Camps rivaux%c[default] :    avant-postes hostiles susceptibles d'attaquer. Nettoyez-les ou regardez-les se faire reprendre par des factions.
+
+%c[255,238,196,112]8. CONFIGURATION MCM%c[default]
+Ouvrez le Menu de Configuration des Mods pour ajuster :
+  Taille de la zone du camp (par défaut 50 m)     Espacement minimal des hubs (par défaut 100 m)
+  Durée du cycle de tâche (par défaut 24h)         Risque d'embuscade en récupération (par défaut 25%%)
+  Fréquence des raids et plafond de défense        Probabilité de prise de contrôle rivale
+  Cycle de la pompe à eau (par défaut 6h)          Cycle du réfrigérateur (par défaut 12h)
+  État restauré par le réfrigérateur par cycle (par défaut 25%%)
+
+%c[255,238,196,112]CHECKLIST DE DÉMARRAGE RAPIDE%c[default]
+  [ ] Placer un Établi de mobilier de planque pour établir le hub
+  [ ] Placer au moins 1 lit pour débloquer un emplacement de survivant
+  [ ] Placer une cache/un coffre près du hub (le système de tâches en a besoin)
+  [ ] Recruter un stalker allié ou un réfugié
+  [ ] Assigner une tâche et placer le mobilier correspondant
+  [ ] Approvisionner le coffre avec les entrées de tâche (poudre+ferraille, viande crue, filtres...)
+  [ ] Revenir après une journée de jeu pour les productions des tâches
+  [ ] Ajouter des barricades et un garde pour réduire le risque de raid</text>
+    </string>
+    <string id="st_pda_btn_refresh_survivors">
+        <text>Actualiser</text>
+    </string>
+    <string id="st_pda_btn_banish">
+        <text>Bannir du camp</text>
+    </string>
+    <string id="st_banish_confirm_ask">
+        <text>Tu es plus le bienvenu ici. Ramasse tes affaires et dégage.</text>
+    </string>
+    <string id="st_banish_confirm_done">
+        <text>Très bien. Je sais quand je suis de trop.</text>
+    </string>
+    <string id="st_can_banish_ask">
+        <text>Je te vire. Tu es banni de ce camp.</text>
+    </string>
+    <string id="pda_main_menu_back">
+        <text>Retour</text>
+    </string>
+    <string id="st_pda_rival_garrison_label">
+        <text>EFFECTIF DE LA GARNISON</text>
+    </string>
+    <string id="st_pda_rival_threat_label">
+        <text>NIVEAU DE MENACE</text>
+    </string>
+    <string id="st_pda_rival_faction_label">
+        <text>FACTION OCCUPANTE</text>
+    </string>
+    <string id="st_pda_rival_location_label">
+        <text>EMPLACEMENT</text>
+    </string>
+    <string id="st_pda_rival_intel_label">
+        <text>RENSEIGNEMENTS TACTIQUES</text>
+    </string>
+    <string id="st_pda_rival_garrison_none">
+        <text>Aucun</text>
+    </string>
+    <string id="st_pda_rival_garrison_count">
+        <text>%d combattants</text>
+    </string>
+    <string id="st_pda_rival_dismantled">
+        <text>Démantelé / Sécurisé</text>
+    </string>
+    <string id="st_pda_rival_intel_fallback">
+        <text>Aucun rapport de renseignement tactique récent n'est disponible pour cette enclave. Les patrouilles de reconnaissance ont confirmé une présence hostile dans le secteur. La plus grande prudence est recommandée.</text>
+    </string>
+    <string id="st_pda_rival_intel_esc_smart_terrain_5_7">
+        <text>Une ferme abandonnée à l'est de la route principale. Les hostiles utilisent la grange et la maison en ruine comme base avancée pour intercepter les bleus arrivant du poste de contrôle sud. Surveille les fenêtres.</text>
+    </string>
+    <string id="st_pda_rival_intel_gar_smart_terrain_3_5">
+        <text>L'ancien dépôt ferroviaire au centre de la Décharge. Un bastion hautement stratégique fortifié de lourdes plaques de métal et de barricades de ferraille. L'assaut frontal est suicidaire ; cherche des voies de contournement.</text>
+    </string>
+    <string id="st_pda_rival_intel_agr_smart_terrain_1_6">
+        <text>Un marais humide et noyé dans le brouillard à Agroprom. Les roseaux offrent une excellente couverture aux éclaireurs hostiles. Sois prudent en traversant les eaux découvertes, et guette les mouvements dans les herbes.</text>
+    </string>
+    <string id="st_pda_rival_intel_val_smart_terrain_7_4">
+        <text>Une station-service en ruine dans la Vallée Obscure. Les hostiles ont renforcé le bâtiment principal et utilisent l'auvent pour surveiller les terres désolées alentour. Des nids de snipers ont été repérés sur le toit.</text>
+    </string>
+    <string id="st_pda_rival_intel_mil_smart_terrain_2_2">
+        <text>Un village en ruine près des Entrepôts militaires. Les suceurs de sang y sont fréquents, forçant les escouades hostiles occupantes à rester vigilantes et lourdement armées. Méfie-toi des claymores et des pièges.</text>
+    </string>
+    <string id="st_pda_rival_btn_refresh">
+        <text>SCANNER LA ZONE À LA RECHERCHE DE MENACES</text>
+    </string>
+    <string id="st_pda_guide_title">
+        <text>GUIDE DE SURVIE HOMESTEAD</text>
+    </string>
+    <string id="st_pda_rival_status_unoccupied">
+        <text>Inoccupé</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_pda_header">
+        <text>Intégration PDA</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_enable_pda_tab">
+        <text>Activer l'onglet de la barre latérale du PDA</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_enable_pda_tab_desc">
+        <text>Active le bouton d'onglet Campement sur la barre latérale gauche du PDA interactif 3D. Désactivez-le si vous utilisez Mod App Creator (MAC) afin d'éviter les problèmes de mise en page et les redondances.</text>
+    </string>
+    <string id="st_pda_boundary_lbl">
+        <text>Zone :</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_max_survivors_per_camp">
+        <text>Survivants max. par camp</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_max_survivors_per_camp_desc">
+        <text>Plafond strict du nombre de survivants par camp, indépendamment du nombre de lits. Empêche la saturation de l'économie. Par défaut : 8.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_trader_despawn_time_hr">
+        <text>Durée avant départ de la caravane marchande (heures)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_trader_despawn_time_hr_desc">
+        <text>Durée (en heures de jeu) pendant laquelle une caravane marchande reste à votre camp avant de plier bagage. Par défaut : 12 heures.</text>
+    </string>
+
+    <string id="ui_mcm_stalker_camp_builder_cook_requires_fuel">
+        <text>Le cuisinier nécessite du combustible</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_cook_requires_fuel_desc">
+        <text>Lorsque activé, la tâche de cuisine nécessite du charbon de bois/kérosène/essence dans un conteneur du camp pour les vrais réchauds. Les feux de camp sont toujours gratuits. Désactivez pour une expérience plus détendue.</text>
+    </string>
+    <string id="st_dismiss_ask">
+        <text>C'est bon, tu es libéré. Va en paix.</text>
+    </string>
+    <string id="st_dismiss_done">
+        <text>Compris. Salut.</text>
+    </string>
+    <string id="st_pda_alerts_lbl">
+        <text>Alertes du camp</text>
+    </string>
+    <string id="st_pda_camp_log_lbl">
+        <text>Journal du camp</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_camp_rest_bonus">
+        <text>Bonus de repos au camp</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_camp_rest_bonus_desc">
+        <text>Lorsque activé, dormir dans la zone d'un camp restaure entièrement la satiété, l'énergie et la soif.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_medic_job_interval_min">
+        <text>Cycle de la tâche médecin (minutes)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_medic_job_interval_min_desc">
+        <text>Minutes réelles entre les traitements de la tâche médecin. Par défaut : 8 minutes.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_event_player_dist">
+        <text>Distance joueur pour événements/raids (mètres)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_event_player_dist_desc">
+        <text>Distance maximale par rapport au camp pour le déclenchement des événements et des raids. Par défaut : 100 m.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_alarm_defense_bonus">
+        <text>Bonus de défense de l'alarme</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_alarm_defense_bonus_desc">
+        <text>Indice de défense supplémentaire fourni par un système d'alarme actif pendant un raid. Par défaut : 15.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_decor_happiness_bonus">
+        <text>Bonus de satisfaction des décorations (%)</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_decor_happiness_bonus_desc">
+        <text>Pourcentage de moral/satisfaction ajouté à la satisfaction du camp par décoration placée. Par défaut : 0,5 %.</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_debug_logging">
+        <text>Journalisation de débogage</text>
+    </string>
+    <string id="ui_mcm_stalker_camp_builder_debug_logging_desc">
+        <text>Active la journalisation détaillée du moteur dans la console/le fichier journal pour les événements du constructeur de campements. Par défaut : DÉSACTIVÉ.</text>
+    </string>
+</string_table>

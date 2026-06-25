@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<string_table>
+	<string id="st_pistol_turret">
+        <text>Tourelle automatique</text>
+    </string>
+    <string id="st_pistol_turret_descr">
+		<text>Tourelle automatique improvisée montée autour d'un MP7 silencieux. Traque les hostiles et crache rapidement des balles de pistolet, mais consomme énormément de munitions et demande un placement réfléchi. \n \n
+			%c[ui_white]PROPRIÉTÉS :\n
+			%c[d_orange] • %c[ui_white] Plaçable\n
+			%c[d_blue] • %c[ui_white] Munitions : 9x19\n</text>
+	</string>
+	<string id="st_turret_table">
+        <text>Support de tourelle</text>
+    </string>
+    <string id="st_turret_table_descr">
+		<text>De la ferraille soudée pour former un support stable pour votre tourelle. \n \n
+			%c[ui_white]PROPRIÉTÉS :\n
+			%c[d_orange] • %c[ui_white] Plaçable\n</text>
+	</string>
+	<string id="st_reload_pistel_turret">
+		<text>Recharger</text>
+	</string>
+	<string id="st_ammo_amount">
+		<text>Quantité de munitions</text>
+	</string>
+	<string id="st_channel">
+		<text>Définir le canal</text>
+	</string>
+	<string id="st_turret_channel">
+		<text>Canal</text>
+	</string>
+	<string id="st_channel_off">
+		<text>désactivé</text>
+	</string>
+	<string id="st_display_counter">
+		<text>Afficheur Nixie</text>
+	</string>
+	<string id="st_display_counter_descr">
+		<text>Un compteur à tubes Nixie qui affiche les valeurs transmises par un appareil spécifié. \n \n
+			%c[ui_white]PROPRIÉTÉS :\n
+			%c[d_orange] • %c[ui_white] Plaçable\n</text>
+	</string>
+</string_table>
