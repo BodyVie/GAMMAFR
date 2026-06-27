@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25T10:34:27.057203+00:00",
+  "generated": "2026-06-27T09:56:40.922155+00:00",
   "updates": [
     {
       "id": "1. Job To Done — Redone",
@@ -8,7 +8,7 @@
       "date_local": "Jun 19th, 2026",
       "date_remote": "Jun 19th, 2026",
       "has_update": false,
-      "last_checked": "2026-06-25T10:34:27.057203+00:00",
+      "last_checked": "2026-06-27T09:56:40.922155+00:00",
       "acknowledged_at": "2026-06-24T13:32:49.586Z"
     },
     {
@@ -18,7 +18,7 @@
       "date_local": "Dec 24th, 2025",
       "date_remote": "Dec 24th, 2025",
       "has_update": false,
-      "last_checked": "2026-06-25T10:34:27.057203+00:00",
+      "last_checked": "2026-06-27T09:56:40.922155+00:00",
       "acknowledged_at": null
     },
     {
@@ -28,7 +28,7 @@
       "date_local": "Feb 1st, 2026",
       "date_remote": "Feb 1st, 2026",
       "has_update": false,
-      "last_checked": "2026-06-25T10:34:27.057203+00:00",
+      "last_checked": "2026-06-27T09:56:40.922155+00:00",
       "acknowledged_at": null
     },
     {
@@ -38,7 +38,7 @@
       "date_local": "Jul 8th, 2023",
       "date_remote": "Jul 8th, 2023",
       "has_update": false,
-      "last_checked": "2026-06-25T10:34:27.057203+00:00",
+      "last_checked": "2026-06-27T09:56:40.922155+00:00",
       "acknowledged_at": null
     },
     {
@@ -48,7 +48,7 @@
       "date_local": "Feb 1st, 2023",
       "date_remote": "Feb 1st, 2023",
       "has_update": false,
-      "last_checked": "2026-06-25T10:34:27.057203+00:00",
+      "last_checked": "2026-06-27T09:56:40.922155+00:00",
       "acknowledged_at": null
     },
     {
@@ -56,9 +56,19 @@
       "name": "6. NPC Weapon Jamming",
       "url": "https://www.moddb.com/mods/stalker-anomaly/addons/npc-weapon-jamming",
       "date_local": "May 20th, 2026",
-      "date_remote": "May 20th, 2026",
-      "has_update": false,
-      "last_checked": "2026-06-25T10:34:27.057203+00:00",
+      "date_remote": "Jun 26th, 2026",
+      "has_update": true,
+      "last_checked": "2026-06-27T09:56:40.922155+00:00",
+      "acknowledged_at": null
+    },
+    {
+      "id": "7. Homestead (Stalker Settlement Builder)",
+      "name": "7. Homestead (Stalker Settlement Builder)",
+      "url": "https://www.moddb.com/mods/stalker-anomaly/addons/homestead-stalker-settlement-builder",
+      "date_local": "Jun 24th, 2026",
+      "date_remote": "Jun 26th, 2026",
+      "has_update": true,
+      "last_checked": "2026-06-27T09:56:40.922155+00:00",
       "acknowledged_at": null
     }
   ]
